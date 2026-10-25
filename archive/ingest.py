@@ -165,7 +165,7 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
             metadata, captions, language, kind = fetch_video(entry["id"], config["channel_id"])
             record = store_video(root, metadata, captions, language, kind, now())
             entry.update(title=record["title"], status="ready")
-            for key in ["error", "retry_after", "last_attempt"]:
+            for key in ["error", "detail", "retry_after", "last_attempt"]:
                 entry.pop(key, None)
         except (
             CaptionsUnavailable,
@@ -187,6 +187,16 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
                     timespec="seconds"
                 ),
             )
+            safe_details = {
+                "Caption track has no text",
+                "Duplicate chapter timestamps",
+                "Caption timing must be finite and nonnegative",
+                "Video does not belong to the configured channel",
+                "No English JSON3 captions",
+            }
+            if str(error) in safe_details:
+                entry["detail"] = str(error)
+                print(f"  {entry['detail']}", flush=True)
             print(
                 f"  {type(error).__name__}; {'stopping this run' if stop else 'will retry later'}",
                 flush=True,
