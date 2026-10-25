@@ -2,12 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <meta
       name="description"
       content="A searchable, chaptered reading archive of GitHub Awesome videos. Download the open JSON and Markdown dataset."
     />
+    <meta name="theme-color" content="#1b1a17" />
     <title>GitHub Awesome, in writing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wdth,wght@75..112.5,300..700&family=Newsreader:ital,opsz,wght@0,6..72,400..650;1,6..72,400&display=swap"
+    />
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="alternate"
@@ -19,28 +29,8 @@
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <header>
-      <a class="brand" href="#/"
-        >GH<span> / </span>AWESOME <small>IN WRITING</small></a
-      >
-      <nav aria-label="Main">
-        <a href="#/">Archive</a><a href="./data/index.json">Dataset ↗</a
-        ><a href="https://github.com/prateek/githubawesome-transcripts"
-          >GitHub ↗</a
-        >
-      </nav>
-    </header>
     <main id="content" tabindex="-1">
       <p class="notice" role="status">Loading the archive…</p>
     </main>
-    <footer>
-      <p>
-        An independent reading archive of
-        <a href="https://www.youtube.com/@GithubAwesome">GitHub Awesome</a
-        >.<br />Words from the videos, with source timestamps. Caption and
-        editing errors may remain.
-      </p>
-      <a href="./feed.xml">Subscribe via RSS ↗</a>
-    </footer>
   </body>
 </html>

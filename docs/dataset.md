@@ -14,6 +14,7 @@ YouTube's 11-character IDs.
 | `edits/VIDEO_ID.json` | Validated AI paragraphs with model, prompt version, source hash and usage |
 | `cleanup-attempts.json` | Last attempts, used to keep failed edits from starving the backlog |
 | `cleanup-budget.json` | UTC request accounting, including unsuccessful requests |
+| `github.json` | Snapshot of repository stars, forks, language, archive state and 52 weekly commit totals |
 
 Each video record has `schema_version`, `id`, `title`, `url`, `channel_id`,
 `published`, `duration`, `word_count`, `provenance`, `sections`, and `cues`.
@@ -39,6 +40,10 @@ videos with long silent endings may be rejected. Browser metadata comes from the
 watch page, using catalog duration when the blocked player omits it. Full description
 URLs are restored from the watch page's link targets. Temporary
 redirect tokens and player URLs are excluded from stored metadata.
+
+`github.json` keys repositories by `owner/name`, without a `.git` suffix.
+Repositories GitHub could not resolve are absent, and `weeks` is `null` when
+GitHub returned no commit activity. Counts are as of `fetched`.
 
 The static build copies source data and adds these derived endpoints:
 

@@ -37,6 +37,11 @@ rotations to the GitHub secret through stdin. After rotation, run the workflow
 with `verify_model` enabled to test free inference with synthetic text. Never commit credentials or full
 extractor metadata containing signed caption URLs.
 
+GitHub stars, languages and weekly commit counts for linked repositories come
+from `data/github.json`, a committed snapshot. Refresh it with
+`GITHUB_TOKEN=$(gh auth token) uv run python -m scripts.refresh_github_stats`
+and commit the result; CI does not refresh it. The reader works without it.
+
 Pages must use **GitHub Actions** as its build source. The workflow needs permission
 to write repository contents and deploy Pages. Pull-request checks have read-only
 permissions and receive no model secret.
