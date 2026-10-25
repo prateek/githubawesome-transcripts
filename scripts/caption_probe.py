@@ -54,6 +54,16 @@ try:
     report("open-transcript", result=evaluate("(()=>{const b=Array.from(document.querySelectorAll('button')).find(x=>x.innerText.trim()==='Show transcript'); if(b){b.click();return true} return false})()"))
     time.sleep(5)
     report("transcript-dom", result=evaluate("JSON.stringify({segments:document.querySelectorAll('ytd-transcript-segment-renderer').length, text:document.body.innerText.slice(-4500)})"))
+    report("structured", result=evaluate(r"""(()=>{
+      const script = Array.from(document.scripts).find(x=>x.textContent.startsWith('var ytInitialPlayerResponse = '))?.textContent;
+      const match = script?.match(/^var ytInitialPlayerResponse = (.*?);(?:var |$)/s);
+      const player = match ? JSON.parse(match[1]) : {};
+      const d=player.videoDetails||{}, m=player.microformat?.playerMicroformatRenderer||{};
+      const segments=Array.from(document.querySelectorAll('transcript-segment-view-model')).map(x=>({timestamp:x.querySelector('.ytwTranscriptSegmentViewModelTimestamp')?.textContent,text:x.querySelector('span[role=text]')?.textContent}));
+      const first=document.querySelector('transcript-segment-view-model');
+      return JSON.stringify({metadata:{id:d.videoId,title:d.title,channel_id:d.channelId,duration:d.lengthSeconds,description:d.shortDescription,published:m.publishDate},segments,parents:first?Array.from((function*(x){for(let i=0;x&&i<7;i++,x=x.parentElement)yield x})(first)).map(x=>({tag:x.tagName,cls:x.className,text:x.innerText.slice(0,150)})):[],scriptNames:Array.from(document.scripts).filter(x=>x.textContent.startsWith('var ytInitial')).map(x=>x.textContent.slice(0,60))});
+    })()"""))
+
 except Exception as error:
     report("camofox-exception", error=type(error).__name__, detail=str(error)[:500])
 finally:
