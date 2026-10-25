@@ -9,6 +9,10 @@ on:
         type: choice
         options: [ubuntu-latest, macos-latest]
         default: ubuntu-latest
+      verify_model:
+        description: Verify the free model using a synthetic transcript
+        type: boolean
+        default: false
       max_videos:
         description: Maximum caption attempts for this run
         type: number
@@ -39,6 +43,11 @@ jobs:
           deno-version: v2.x
       - run: uv sync --locked
       - run: uv run python -m pytest -q
+      - name: Verify free model access
+        if: inputs.verify_model
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: uv run python scripts/verify_model.py
       - name: Discover and retrieve captions
         id: collect
         if: github.event_name != 'push'

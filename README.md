@@ -17,7 +17,8 @@ and editing run entirely in CI; the reader needs no server or API key.
 
 Set the repository Actions secret `OPENROUTER_API_KEY` to the dedicated account's
 inference key. Keep account and API credentials in a password manager and sync
-rotations to the GitHub secret through stdin. Never commit credentials or full
+rotations to the GitHub secret through stdin. After rotation, run the workflow
+with `verify_model` enabled to test free inference with synthetic text. Never commit credentials or full
 extractor metadata containing signed caption URLs.
 
 Pages must use **GitHub Actions** as its build source. The workflow needs permission
