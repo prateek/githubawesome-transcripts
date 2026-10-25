@@ -6,6 +6,7 @@ import signal
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 from urllib.request import ProxyHandler, Request, build_opener
 
@@ -19,7 +20,6 @@ EXTRACT = Path(__file__).with_name("caption_panel.js").read_text()
 def panel_captions(document, video_id, channel_id):
     metadata = document["metadata"]
     if metadata.get("id") != video_id or metadata.get("channel_id") != channel_id:
-        print({"metadata": metadata}, flush=True)
         raise ValueError("Video does not belong to the configured channel")
     if not metadata.get("title") or not metadata.get("description"):
         raise ValueError("Incomplete watch metadata")
@@ -88,7 +88,8 @@ class BrowserCaptions:
             raise OSError("Camofox operation failed")
         return result
 
-    def fetch(self, video_id, channel_id):
+    def fetch(self, entry, channel_id):
+        video_id = entry["id"]
         if not VIDEO_ID.fullmatch(video_id):
             raise ValueError("Invalid video ID")
         user = self.receipt["userId"]
@@ -119,6 +120,16 @@ class BrowserCaptions:
                     })()""")
                 document = evaluate(EXTRACT)
                 if document.get("segments") and document == previous:
+                    metadata = document["metadata"]
+                    metadata["duration"] = metadata.get("duration") or entry.get("duration")
+                    label = metadata.pop("published_label", None)
+                    if not metadata.get("published") and label:
+                        try:
+                            metadata["published"] = (
+                                datetime.strptime(label, "%b %d, %Y").date().isoformat()
+                            )
+                        except ValueError:
+                            metadata["published"] = None
                     return panel_captions(document, video_id, channel_id)
                 previous = document
                 time.sleep(2)

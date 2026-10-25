@@ -15,6 +15,9 @@
   const secondary = content.find(
     (x) => x.videoSecondaryInfoRenderer,
   )?.videoSecondaryInfoRenderer;
+  const primary = content.find(
+    (x) => x.videoPrimaryInfoRenderer,
+  )?.videoPrimaryInfoRenderer;
   const attributed = secondary?.attributedDescription;
   let description = attributed?.content || "";
   for (const run of [...(attributed?.commandRuns || [])].sort(
@@ -62,12 +65,16 @@
       }));
   return {
     metadata: {
-      id: meta("identifier"),
-      title: document.querySelector('meta[property="og:title"]')?.content,
+      id:
+        meta("identifier") || data.currentVideoEndpoint?.watchEndpoint?.videoId,
+      title:
+        document.querySelector('meta[property="og:title"]')?.content ||
+        primary?.title?.runs?.map((x) => x.text).join(""),
       channel_id:
         secondary?.owner?.videoOwnerRenderer?.navigationEndpoint?.browseEndpoint
           ?.browseId,
-      published: meta("datePublished")?.slice(0, 10),
+      published: meta("datePublished")?.slice(0, 10) || null,
+      published_label: primary?.dateText?.simpleText || null,
       duration,
       description,
       chapters: [],
