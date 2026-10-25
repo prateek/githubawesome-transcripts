@@ -269,3 +269,16 @@ def test_suppressed_no_formats_error_still_detects_bot_block(monkeypatch):
     monkeypatch.setattr(ingest, "extractor", BlockedExtractor)
     with pytest.raises(ingest.BotVerificationRequired):
         ingest.fetch_video("abcdefghijk", "test")
+
+
+def test_model_output_without_cost_evidence_is_rejected(record, monkeypatch):
+    def response(*args, **kwargs):
+        return io.BytesIO(
+            json.dumps(
+                {"choices": [{"finish_reason": "stop", "message": {"content": "{}"}}], "usage": {}}
+            ).encode()
+        )
+
+    monkeypatch.setattr(cleanup, "urlopen", response)
+    with pytest.raises(ValueError, match="did not report cost"):
+        cleanup.request_cleanup(record, "synthetic-test-key")

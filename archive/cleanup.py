@@ -88,7 +88,10 @@ def request_cleanup(record, api_key):
     choice = payload["choices"][0]
     if choice.get("finish_reason") != "stop":
         raise ValueError("Incomplete model output")
-    if Decimal(str(payload.get("usage", {}).get("cost", 0))) != 0:
+    usage = payload.get("usage") or {}
+    if usage.get("cost") is None:
+        raise ValueError("Provider did not report cost; refusing output")
+    if Decimal(str(usage["cost"])) != 0:
         raise ValueError("Provider reported nonzero cost; refusing output")
     edited = validate_edit(record, json.loads(choice["message"]["content"]))
     return {
