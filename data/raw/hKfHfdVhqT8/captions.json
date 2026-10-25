@@ -1,0 +1,1541 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "This is GitHub trending today number 50."
+    },
+    {
+      "timestamp": "0:02",
+      "text": "Jev keeps showing up in the feed, so today's lineup leans heavily into it."
+    },
+    {
+      "timestamp": "0:06",
+      "text": "From local decision models to tools that review code and control devices. Let's get into it."
+    },
+    {
+      "timestamp": "0:13",
+      "text": "Fast Jev compaction fixes the thing that's annoying about normal context compaction. It summarizes and summaries lose the exact file path or error"
+    },
+    {
+      "timestamp": "0:22",
+      "text": "message you needed two turns later. This one never rewrites anything. It scores every tool call and result with Jev and"
+    },
+    {
+      "timestamp": "0:30",
+      "text": "only deletes the ones scored as no longer needed, keeping your actual text untouched."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Compositor is an open- source Mac image editor built around compositing with Photoshop style shortcuts. You can combine layers with masks and blend"
+    },
+    {
+      "timestamp": "0:44",
+      "text": "modes, then adjust color through editable adjustment layers. Resizing a layer preserves its original resolution,"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "so shrinking it doesn't throw away detail. contentaware fill and a clone stamp handle cleanup."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "SEM if does the same trick as type safe's jev reading probabilities off option tokens directly except it runs on"
+    },
+    {
+      "timestamp": "1:06",
+      "text": "open models you can actually download instead of a service with a weight list ask a model to pick between 21 options"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "the normal way generate JSON and parse it and on their benchmark that took 5.3 seconds on an RTX3090"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "reading the typed logits directly did it in about 1 second five times faster Jev trader is a market maker built to"
+    },
+    {
+      "timestamp": "1:29",
+      "text": "fit an entire decision inside one monad block. Most bots blow their block window doing gas estimation and synchronous"
+    },
+    {
+      "timestamp": "1:37",
+      "text": "sends on every order. So by the time it posts, the price already moved. This one hardcodes gas limits and static fees and cuts everything else off the path."
+    },
+    {
+      "timestamp": "1:48",
+      "text": "Decision to order runs in about 100 milliseconds. 80 of that just inference."
+    },
+    {
+      "timestamp": "1:54",
+      "text": "Jev Ultraast clicks through a web page without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision"
+    },
+    {
+      "timestamp": "2:02",
+      "text": "model, and wait while it writes out where to click step after step. This one reads the DOM directly, builds an index table of clickable elements, and makes"
+    },
+    {
+      "timestamp": "2:11",
+      "text": "two decisions, action and target, in one network round trip."
+    },
+    {
+      "timestamp": "2:16",
+      "text": "Jev uses AI to choose where to search and rank what comes back without writing a generated answer. Describe what you"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "need and Jev selects search terms, sources, and a time range with filters you can override. Results arrive as links and snippets with visible"
+    },
+    {
+      "timestamp": "2:33",
+      "text": "relevance scores while duplicate URLs get merged. Self-hosting still requires type safe and search one API keys and"
+    },
+    {
+      "timestamp": "2:41",
+      "text": "each search can trigger multiple billable calls."
+    },
+    {
+      "timestamp": "2:44",
+      "text": "Tax.classifier identifies tax forms page by page, returning labels and confidence scores instead of generated"
+    },
+    {
+      "timestamp": "2:51",
+      "text": "explanations. It extracts PDF text and sends it to Typesafe's Jev model using form descriptions derived from IRS"
+    },
+    {
+      "timestamp": "2:59",
+      "text": "documents. Your pipeline can route low confidence results for review. It identifies federal forms in English, but"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "scanned pages need OCR first. Without a text layer, they're treated as blank."
+    },
+    {
+      "timestamp": "3:12",
+      "text": "Kev is a local open- source standin for Typesafees Jev that runs entirely on your laptop. Built on quen 2.5b,"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "it reads a document once and answers multiple questions in parallel, returning probabilities instead of generating text. Each question can see"
+    },
+    {
+      "timestamp": "3:29",
+      "text": "the document but not the other questions. Its local server works with Typesafe's SDK, so you can reuse that interface."
+    },
+    {
+      "timestamp": "3:37",
+      "text": "NanoJV is a nano replica of Jev, 600 million parameters that scores every possible move in one forward pass instead of generating a token at a time."
+    },
+    {
+      "timestamp": "3:47",
+      "text": "You supply states, questions, and candidate answers, then batch decisions into one forward pass. The repository includes the training pipeline and browser replays of maze and snake tests."
+    },
+    {
+      "timestamp": "3:59",
+      "text": "Abot Recon builds a 3D reconstruction from video while keeping just 12 frames of local context. It estimates geometry"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "and camera movement frame by frame, then combines those estimates into a global point cloud and trajectory. that keeps"
+    },
+    {
+      "timestamp": "4:14",
+      "text": "the model's working memory from growing with video length. Optional loop closure can refine the trajectory when you revisit a location."
+    },
+    {
+      "timestamp": "4:24",
+      "text": "Typesafe computer- use skips screenshotting a frontier model for every single click. Most computer use agents send a screenshot to something"
+    },
+    {
+      "timestamp": "4:33",
+      "text": "like Opus every step, wait five plus seconds, and burn real money doing it."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "This one reads the screen deterministically. instead OCR plus the accessibility tree plus date plus date parsing and only calls a writing model"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "when it actually needs to type something. PGEV adds plain language conditions to SQL so you can filter"
+    },
+    {
+      "timestamp": "4:55",
+      "text": "support tickets by frustration or classify them by department without creating embeddings. It sends row data"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "to Typesafe's Jev API in batches and caches answers within the session letting you change thresholds without repeating those calls. It needs super"
+    },
+    {
+      "timestamp": "5:10",
+      "text": "user access and PostgreSQL's untrusted Python extension which rules out many managed database hosts."
+    },
+    {
+      "timestamp": "5:17",
+      "text": "ESP screens turns a cheap ESP32 touchscreen into a real smartome control panel without writing a line of YAML."
+    },
+    {
+      "timestamp": "5:26",
+      "text": "The alternative is either an expensive wall tablet or hand coding ESP home for a weekend just to get your lights on a screen. This one's drag and drop"
+    },
+    {
+      "timestamp": "5:34",
+      "text": "straight from Home Assistant. Up to 48 tiles across eight pages. lights, climate, blinds, media, even history graphs."
+    },
+    {
+      "timestamp": "5:43",
+      "text": "Aside code mode lets an agent search files, filter results, and batch browser work inside one JavaScript call. Instead"
+    },
+    {
+      "timestamp": "5:51",
+      "text": "of filling the conversation with entire files or pages, it can return just matching paths or extracted fields."
+    },
+    {
+      "timestamp": "5:58",
+      "text": "Local search uses RIP Grep while browser batches run through a site's native ripple. The gain comes from fewer tool round trips and smaller outputs, not a"
+    },
+    {
+      "timestamp": "6:07",
+      "text": "faster search engine than rip grip itself."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Jev review is honest about what an AI code reviewer actually is, a prompt worth investigating, not proof of a bug."
+    },
+    {
+      "timestamp": "6:18",
+      "text": "Most AI review tools hand you a confident paragraph and let you sort out later whether it's real. This one uses bounded judgment calls with explicit"
+    },
+    {
+      "timestamp": "6:26",
+      "text": "thresholds instead of a blackbox explanation, checking correctness, security, reliability, compatibility."
+    },
+    {
+      "timestamp": "6:34",
+      "text": "Lia turns text or JSON into decisions without generating an answer sentence."
+    },
+    {
+      "timestamp": "6:40",
+      "text": "You define questions with choices, yes or no outcomes, or ordered scores. And its encoder models return probabilities for routing tickets or checking content."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "A built-in router selects English, multilingual, or task focused checkpoints and loads them when needed."
+    },
+    {
+      "timestamp": "6:56",
+      "text": "HFGen lets you replay marketmaking back tests frame by frame against recorded Binance futures data. Its Rustr runner"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "uses HFT back test while the dashboard shows the order book, estimated Q positions, latency, and simulated fills."
+    },
+    {
+      "timestamp": "7:12",
+      "text": "You can inspect why orders were filled or rejected instead of staring at a final score. It never places real orders and the simulation excludes market impact and partial fills."
+    },
+    {
+      "timestamp": "7:23",
+      "text": "Herder projects gives you one coordinator conversation for work spread across multiple coding agents. After you"
+    },
+    {
+      "timestamp": "7:30",
+      "text": "approve its proposed tasks, each worker gets a separate work tree and branch with shared instructions and project"
+    },
+    {
+      "timestamp": "7:37",
+      "text": "memory. The sidebar separates finished work from threads waiting for your input so you don't have to check every conversation."
+    },
+    {
+      "timestamp": "7:46",
+      "text": "Foreman watches a coding agent while it works using Jev to assess progress, test coverage, and whether human input is"
+    },
+    {
+      "timestamp": "7:53",
+      "text": "needed. A separate Python policy decides when to steer the active codec session, stop a stuck worker, or launch"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "verification. The worker keeps running during those assessments. It's upfront about being an experiment, though. Jev's"
+    },
+    {
+      "timestamp": "8:07",
+      "text": "accuracy for this job is unproven and still needs calibration."
+    },
+    {
+      "timestamp": "8:12",
+      "text": "Flyion is a wallet tracker that actually publishes how wrong it is. Most of these trackers rank the top trader as whoever"
+    },
+    {
+      "timestamp": "8:20",
+      "text": "got a lucky airdrop or bridge tokens dumped into their wallet. And none of them let you check a real hit rate."
+    },
+    {
+      "timestamp": "8:27",
+      "text": "Flyion writes every call to a hashchain ledger before the result exists, then settles it later against the first price once the window closes."
+    },
+    {
+      "timestamp": "8:37",
+      "text": "Typesafe Mario lets Jev choose controller inputs from structured game data. Rather than screenshots, the program reads emulator memory and turns"
+    },
+    {
+      "timestamp": "8:45",
+      "text": "movement, terrain, and nearby enemies into JSON with timing calculations handled in code. A live dashboard shows"
+    },
+    {
+      "timestamp": "8:53",
+      "text": "action probabilities and response latency, while logs preserve each decision for analysis."
+    },
+    {
+      "timestamp": "9:00",
+      "text": "Procedural film makes a 30-se second vertical video with zero stock footage, zero AI generated clips. Every pixel is"
+    },
+    {
+      "timestamp": "9:07",
+      "text": "just JavaScript drawing on a canvas and every sound comes out of the web audio API. You hand it a topic and an agent"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "writes the shots, critiques its own work across multiple review passes and renders the whole thing to an interactive HTML file plus an MP4."
+    },
+    {
+      "timestamp": "9:24",
+      "text": "Titania runs Quen 30.6B through its own compiler, instruction set, and simulated GPU, so you can"
+    },
+    {
+      "timestamp": "9:32",
+      "text": "follow how model operations become individual instructions. A live panel shows the executing kernel and disassembly while it generates text. The"
+    },
+    {
+      "timestamp": "9:40",
+      "text": "physical GPU is still planned, including FPGA and eventual silicon stages. One practical warning, its chat interface"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "includes a bash tool that runs commands without asking for confirmation."
+    },
+    {
+      "timestamp": "9:53",
+      "text": "OpenJV SG lang serves a Jev compatible API using Quen with no requests sent to Typesafe. It scores answer options from"
+    },
+    {
+      "timestamp": "10:01",
+      "text": "first token probabilities instead of generating explanations. and reuses cached context across parallel questions that gives you yes or no decisions,"
+    },
+    {
+      "timestamp": "10:10",
+      "text": "choices, and ordered scores through one interface. The included deployment uses a B200 GPU on modal lead lets you test"
+    },
+    {
+      "timestamp": "10:19",
+      "text": "tin compatible text search queries in Postgress without running the production tin engine. It supports query parsing,"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "scoring, and highlighting so application SQL can run in development and CI. The unusual part is its index. It stores no"
+    },
+    {
+      "timestamp": "10:34",
+      "text": "search data and sends every table page back to Postgress for checking. That favors correctness over speed, making lead a testing substitute, not a production search engine."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "Expo GPT live is a voice app template that lets you interrupt AI replies and keep conversations running in the"
+    },
+    {
+      "timestamp": "10:52",
+      "text": "background on iPhone. It combines GPT Live 1 with web search, a weather tool, and animated personas while keeping your OpenAI key on the server."
+    },
+    {
+      "timestamp": "11:03",
+      "text": "You'll need a native build rather than Expo Go. Before making the backend public, replace its shared development token with proper user authentication."
+    },
+    {
+      "timestamp": "11:12",
+      "text": "Jev review gives coding agents separate quality scores instead of a written code review. Your agent submits a focus diff"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "through MCP, gets feedback on dimensions like correctness and complexity, then compares scores after changes. Jev"
+    },
+    {
+      "timestamp": "11:28",
+      "text": "doesn't explain what caused a weak score. The coding agent still has to investigate and fix it. The plugin runs locally, but submitted code goes to Typesafe's API for evaluation."
+    },
+    {
+      "timestamp": "11:39",
+      "text": "Anthropic's uplifting biomolelecular modeling packages inference optimizations around pinned research tools without changing their usual"
+    },
+    {
+      "timestamp": "11:46",
+      "text": "calling interface. Its modes distinguish output preserving optimizations from those allowing small numerical"
+    },
+    {
+      "timestamp": "11:53",
+      "text": "differences or prioritizing lower GPU memory use. Each kit reports which optimizations activate and refuses"
+    },
+    {
+      "timestamp": "12:01",
+      "text": "unsupported configurations rather than silently falling back."
+    },
+    {
+      "timestamp": "12:06",
+      "text": "Mobile Jev turns a written goal into Android actions through mobile run without an ADB connection. Jev chooses"
+    },
+    {
+      "timestamp": "12:14",
+      "text": "an operation and target in one request while code checks that the target is still valid before acting. A live studio"
+    },
+    {
+      "timestamp": "12:21",
+      "text": "shows the phone action history and latency. Text entry copies exact wording from your goal rather than generating"
+    },
+    {
+      "timestamp": "12:28",
+      "text": "it. And a model saying done still needs verification against the phone's actual state. Bashka checks shell installers"
+    },
+    {
+      "timestamp": "12:36",
+      "text": "before you run them, flagging patterns like credential theft, destructive commands, and unverified downloads. It can follow scripts that fetch other"
+    },
+    {
+      "timestamp": "12:45",
+      "text": "scripts and records installed binaries so you can review, update, or remove them later."
+    },
+    {
+      "timestamp": "12:51",
+      "text": "The useful distinction is inspection, not isolation. Static checks can misbehavior, and a server can change what it serves between review and execution."
+    },
+    {
+      "timestamp": "13:02",
+      "text": "Splash runs language models locally on Apple silicon using kernels and draft models tailored to each supported model."
+    },
+    {
+      "timestamp": "13:09",
+      "text": "The draft proposes blocks of tokens that the main model checks in parallel while startup calculates a memory budget for your Mac. It exposes open AI and"
+    },
+    {
+      "timestamp": "13:18",
+      "text": "enthropic compatible APIs for existing clients. The trade-off is flexibility."
+    },
+    {
+      "timestamp": "13:23",
+      "text": "Ordinary MLX or transformers checkpoints won't load."
+    },
+    {
+      "timestamp": "13:28",
+      "text": "Simple Jev is for when you don't need a model to write an essay just to pick an answer. It reads the loits directly instead of generating text. So choice,"
+    },
+    {
+      "timestamp": "13:37",
+      "text": "score, and truth judgments come back as JSON. No parsing required. It caches the shared prefix across questions. The"
+    },
+    {
+      "timestamp": "13:45",
+      "text": "maintainers say four questions on one document dropped from 4200 tokens to,200."
+    },
+    {
+      "timestamp": "13:52",
+      "text": "Local Jev lets apps using Typesafe's decision interface talk to a local language model through a standard chat endpoint. It translates questions into"
+    },
+    {
+      "timestamp": "14:01",
+      "text": "classification prompts, validates the return JSON, and calculates choices and scores in code. The important"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "difference, these probabilities are numbers the model writes, not values read directly from its internal logits."
+    },
+    {
+      "timestamp": "14:16",
+      "text": "Abide turns your project instructions into checks that run after coding agent edits. And at the end of each turn, it"
+    },
+    {
+      "timestamp": "14:23",
+      "text": "sends rules and changed code to Jev, then asks the agent to repair likely violations, including judgment calls a"
+    },
+    {
+      "timestamp": "14:30",
+      "text": "llinter might miss. Each verdict points back to the original instruction. It's feedback, not a hard gate. Without a key"
+    },
+    {
+      "timestamp": "14:38",
+      "text": "or network connection, edits go through unchecked."
+    },
+    {
+      "timestamp": "14:42",
+      "text": "Perch checks code against plain English rules using Jev, so you can express requirements like keeping environment variable reads out of individual methods."
+    },
+    {
+      "timestamp": "14:51",
+      "text": "You scope rules to files, choose what gets checked, and set thresholds in YAML. Scans produce ranked findings with"
+    },
+    {
+      "timestamp": "14:59",
+      "text": "line numbers and confidence scores, and you can recheck an issue after a fix."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is GitHub trending today number 50."
+        }
+      ]
+    },
+    {
+      "tStartMs": 2000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev keeps showing up in the feed, so today's lineup leans heavily into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 6000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "From local decision models to tools that review code and control devices. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fast Jev compaction fixes the thing that's annoying about normal context compaction. It summarizes and summaries lose the exact file path or error"
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "message you needed two turns later. This one never rewrites anything. It scores every tool call and result with Jev and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 30000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "only deletes the ones scored as no longer needed, keeping your actual text untouched."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Compositor is an open- source Mac image editor built around compositing with Photoshop style shortcuts. You can combine layers with masks and blend"
+        }
+      ]
+    },
+    {
+      "tStartMs": 44000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modes, then adjust color through editable adjustment layers. Resizing a layer preserves its original resolution,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "so shrinking it doesn't throw away detail. contentaware fill and a clone stamp handle cleanup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SEM if does the same trick as type safe's jev reading probabilities off option tokens directly except it runs on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "open models you can actually download instead of a service with a weight list ask a model to pick between 21 options"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the normal way generate JSON and parse it and on their benchmark that took 5.3 seconds on an RTX3090"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reading the typed logits directly did it in about 1 second five times faster Jev trader is a market maker built to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fit an entire decision inside one monad block. Most bots blow their block window doing gas estimation and synchronous"
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sends on every order. So by the time it posts, the price already moved. This one hardcodes gas limits and static fees and cuts everything else off the path."
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Decision to order runs in about 100 milliseconds. 80 of that just inference."
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev Ultraast clicks through a web page without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision"
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model, and wait while it writes out where to click step after step. This one reads the DOM directly, builds an index table of clickable elements, and makes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 131000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "two decisions, action and target, in one network round trip."
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev uses AI to choose where to search and rank what comes back without writing a generated answer. Describe what you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "need and Jev selects search terms, sources, and a time range with filters you can override. Results arrive as links and snippets with visible"
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "relevance scores while duplicate URLs get merged. Self-hosting still requires type safe and search one API keys and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 161000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each search can trigger multiple billable calls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tax.classifier identifies tax forms page by page, returning labels and confidence scores instead of generated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "explanations. It extracts PDF text and sends it to Typesafe's Jev model using form descriptions derived from IRS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 179000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "documents. Your pipeline can route low confidence results for review. It identifies federal forms in English, but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scanned pages need OCR first. Without a text layer, they're treated as blank."
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kev is a local open- source standin for Typesafees Jev that runs entirely on your laptop. Built on quen 2.5b,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it reads a document once and answers multiple questions in parallel, returning probabilities instead of generating text. Each question can see"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the document but not the other questions. Its local server works with Typesafe's SDK, so you can reuse that interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NanoJV is a nano replica of Jev, 600 million parameters that scores every possible move in one forward pass instead of generating a token at a time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 227000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You supply states, questions, and candidate answers, then batch decisions into one forward pass. The repository includes the training pipeline and browser replays of maze and snake tests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Abot Recon builds a 3D reconstruction from video while keeping just 12 frames of local context. It estimates geometry"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and camera movement frame by frame, then combines those estimates into a global point cloud and trajectory. that keeps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the model's working memory from growing with video length. Optional loop closure can refine the trajectory when you revisit a location."
+        }
+      ]
+    },
+    {
+      "tStartMs": 264000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Typesafe computer- use skips screenshotting a frontier model for every single click. Most computer use agents send a screenshot to something"
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like Opus every step, wait five plus seconds, and burn real money doing it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This one reads the screen deterministically. instead OCR plus the accessibility tree plus date plus date parsing and only calls a writing model"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when it actually needs to type something. PGEV adds plain language conditions to SQL so you can filter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 295000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "support tickets by frustration or classify them by department without creating embeddings. It sends row data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to Typesafe's Jev API in batches and caches answers within the session letting you change thresholds without repeating those calls. It needs super"
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "user access and PostgreSQL's untrusted Python extension which rules out many managed database hosts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 317000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ESP screens turns a cheap ESP32 touchscreen into a real smartome control panel without writing a line of YAML."
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The alternative is either an expensive wall tablet or hand coding ESP home for a weekend just to get your lights on a screen. This one's drag and drop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "straight from Home Assistant. Up to 48 tiles across eight pages. lights, climate, blinds, media, even history graphs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Aside code mode lets an agent search files, filter results, and batch browser work inside one JavaScript call. Instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of filling the conversation with entire files or pages, it can return just matching paths or extracted fields."
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Local search uses RIP Grep while browser batches run through a site's native ripple. The gain comes from fewer tool round trips and smaller outputs, not a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "faster search engine than rip grip itself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev review is honest about what an AI code reviewer actually is, a prompt worth investigating, not proof of a bug."
+        }
+      ]
+    },
+    {
+      "tStartMs": 378000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI review tools hand you a confident paragraph and let you sort out later whether it's real. This one uses bounded judgment calls with explicit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "thresholds instead of a blackbox explanation, checking correctness, security, reliability, compatibility."
+        }
+      ]
+    },
+    {
+      "tStartMs": 394000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lia turns text or JSON into decisions without generating an answer sentence."
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You define questions with choices, yes or no outcomes, or ordered scores. And its encoder models return probabilities for routing tickets or checking content."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A built-in router selects English, multilingual, or task focused checkpoints and loads them when needed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HFGen lets you replay marketmaking back tests frame by frame against recorded Binance futures data. Its Rustr runner"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uses HFT back test while the dashboard shows the order book, estimated Q positions, latency, and simulated fills."
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can inspect why orders were filled or rejected instead of staring at a final score. It never places real orders and the simulation excludes market impact and partial fills."
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Herder projects gives you one coordinator conversation for work spread across multiple coding agents. After you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 450000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "approve its proposed tasks, each worker gets a separate work tree and branch with shared instructions and project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "memory. The sidebar separates finished work from threads waiting for your input so you don't have to check every conversation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Foreman watches a coding agent while it works using Jev to assess progress, test coverage, and whether human input is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "needed. A separate Python policy decides when to steer the active codec session, stop a stuck worker, or launch"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "verification. The worker keeps running during those assessments. It's upfront about being an experiment, though. Jev's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "accuracy for this job is unproven and still needs calibration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flyion is a wallet tracker that actually publishes how wrong it is. Most of these trackers rank the top trader as whoever"
+        }
+      ]
+    },
+    {
+      "tStartMs": 500000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "got a lucky airdrop or bridge tokens dumped into their wallet. And none of them let you check a real hit rate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 507000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flyion writes every call to a hashchain ledger before the result exists, then settles it later against the first price once the window closes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Typesafe Mario lets Jev choose controller inputs from structured game data. Rather than screenshots, the program reads emulator memory and turns"
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "movement, terrain, and nearby enemies into JSON with timing calculations handled in code. A live dashboard shows"
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "action probabilities and response latency, while logs preserve each decision for analysis."
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Procedural film makes a 30-se second vertical video with zero stock footage, zero AI generated clips. Every pixel is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "just JavaScript drawing on a canvas and every sound comes out of the web audio API. You hand it a topic and an agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "writes the shots, critiques its own work across multiple review passes and renders the whole thing to an interactive HTML file plus an MP4."
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Titania runs Quen 30.6B through its own compiler, instruction set, and simulated GPU, so you can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "follow how model operations become individual instructions. A live panel shows the executing kernel and disassembly while it generates text. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 580000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "physical GPU is still planned, including FPGA and eventual silicon stages. One practical warning, its chat interface"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "includes a bash tool that runs commands without asking for confirmation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 593000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenJV SG lang serves a Jev compatible API using Quen with no requests sent to Typesafe. It scores answer options from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 601000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "first token probabilities instead of generating explanations. and reuses cached context across parallel questions that gives you yes or no decisions,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "choices, and ordered scores through one interface. The included deployment uses a B200 GPU on modal lead lets you test"
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tin compatible text search queries in Postgress without running the production tin engine. It supports query parsing,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scoring, and highlighting so application SQL can run in development and CI. The unusual part is its index. It stores no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "search data and sends every table page back to Postgress for checking. That favors correctness over speed, making lead a testing substitute, not a production search engine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Expo GPT live is a voice app template that lets you interrupt AI replies and keep conversations running in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "background on iPhone. It combines GPT Live 1 with web search, a weather tool, and animated personas while keeping your OpenAI key on the server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You'll need a native build rather than Expo Go. Before making the backend public, replace its shared development token with proper user authentication."
+        }
+      ]
+    },
+    {
+      "tStartMs": 672000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev review gives coding agents separate quality scores instead of a written code review. Your agent submits a focus diff"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through MCP, gets feedback on dimensions like correctness and complexity, then compares scores after changes. Jev"
+        }
+      ]
+    },
+    {
+      "tStartMs": 688000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "doesn't explain what caused a weak score. The coding agent still has to investigate and fix it. The plugin runs locally, but submitted code goes to Typesafe's API for evaluation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anthropic's uplifting biomolelecular modeling packages inference optimizations around pinned research tools without changing their usual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 706000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calling interface. Its modes distinguish output preserving optimizations from those allowing small numerical"
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "differences or prioritizing lower GPU memory use. Each kit reports which optimizations activate and refuses"
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "unsupported configurations rather than silently falling back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 726000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mobile Jev turns a written goal into Android actions through mobile run without an ADB connection. Jev chooses"
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an operation and target in one request while code checks that the target is still valid before acting. A live studio"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shows the phone action history and latency. Text entry copies exact wording from your goal rather than generating"
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it. And a model saying done still needs verification against the phone's actual state. Bashka checks shell installers"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "before you run them, flagging patterns like credential theft, destructive commands, and unverified downloads. It can follow scripts that fetch other"
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scripts and records installed binaries so you can review, update, or remove them later."
+        }
+      ]
+    },
+    {
+      "tStartMs": 771000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The useful distinction is inspection, not isolation. Static checks can misbehavior, and a server can change what it serves between review and execution."
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Splash runs language models locally on Apple silicon using kernels and draft models tailored to each supported model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 789000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The draft proposes blocks of tokens that the main model checks in parallel while startup calculates a memory budget for your Mac. It exposes open AI and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 798000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "enthropic compatible APIs for existing clients. The trade-off is flexibility."
+        }
+      ]
+    },
+    {
+      "tStartMs": 803000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ordinary MLX or transformers checkpoints won't load."
+        }
+      ]
+    },
+    {
+      "tStartMs": 808000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Simple Jev is for when you don't need a model to write an essay just to pick an answer. It reads the loits directly instead of generating text. So choice,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "score, and truth judgments come back as JSON. No parsing required. It caches the shared prefix across questions. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 825000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maintainers say four questions on one document dropped from 4200 tokens to,200."
+        }
+      ]
+    },
+    {
+      "tStartMs": 832000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Local Jev lets apps using Typesafe's decision interface talk to a local language model through a standard chat endpoint. It translates questions into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "classification prompts, validates the return JSON, and calculates choices and scores in code. The important"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "difference, these probabilities are numbers the model writes, not values read directly from its internal logits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 856000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Abide turns your project instructions into checks that run after coding agent edits. And at the end of each turn, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 863000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sends rules and changed code to Jev, then asks the agent to repair likely violations, including judgment calls a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 870000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "llinter might miss. Each verdict points back to the original instruction. It's feedback, not a hard gate. Without a key"
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or network connection, edits go through unchecked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 882000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Perch checks code against plain English rules using Jev, so you can express requirements like keeping environment variable reads out of individual methods."
+        }
+      ]
+    },
+    {
+      "tStartMs": 891000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You scope rules to files, choose what gets checked, and set thresholds in YAML. Scans produce ranked findings with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 899000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "line numbers and confidence scores, and you can recheck an issue after a fix."
+        }
+      ]
+    }
+  ]
+}

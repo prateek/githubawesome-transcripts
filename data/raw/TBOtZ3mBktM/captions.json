@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects on GitHub. Let's get into it."
+    },
+    {
+      "timestamp": "0:09",
+      "text": "Open Shorts is what you reach for when Opus Clips subscription and descripts limits get old. Turning a long podcast"
+    },
+    {
+      "timestamp": "0:16",
+      "text": "into short form clips used to mean hours of manual picking or paying monthly."
+    },
+    {
+      "timestamp": "0:21",
+      "text": "Gemini finds 3 to 15 viral moments, reframes them to 916, and writes wordle subtitles itself. It can even generate"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "AI actors and autopublish straight to Tik Tok and YouTube."
+    },
+    {
+      "timestamp": "0:34",
+      "text": "Mailflare gives you a real inbox on your own domain without handing your mail to Google or Fastmail. It runs as a single"
+    },
+    {
+      "timestamp": "0:41",
+      "text": "Cloudflare worker, so there's no server to manage. Email routing pulls in the mail. D1 stores it. R2 holds the"
+    },
+    {
+      "timestamp": "0:49",
+      "text": "attachments all inside your own Cloudflare account. You get shared mailboxes, search folders, and routing rules. the stuff you'd expect from a real client."
+    },
+    {
+      "timestamp": "1:00",
+      "text": "Handy is a push-to talk transcription tool that never leaves your machine."
+    },
+    {
+      "timestamp": "1:04",
+      "text": "Every dictation app wants a monthly subscription and your audio uploaded to their servers. This one runs Whisper or Parakeet locally, so nothing gets sent"
+    },
+    {
+      "timestamp": "1:12",
+      "text": "anywhere. Hold a hotkey, talk, and the text drops into whatever field you're in on Windows, Mac, or Linux. Parakeet"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "clocks in around five times real time on a mid-range Intel chip, they say."
+    },
+    {
+      "timestamp": "1:27",
+      "text": "Mstream is a self-hosted music server that skips the setup headache. Plex feels like overkill just to stream your own flack collection, and most"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "alternatives make you wait out a full scan before you can hit play. This one streams straight off your folder structure, so playback starts before the"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "database is even built. It talks subsonic and DNA, transcodes on the fly."
+    },
+    {
+      "timestamp": "1:51",
+      "text": "Netwatch is what you'd get if HTOP and Wireshark had a baby that also did intrusion detection. It maps every connection back to the process that"
+    },
+    {
+      "timestamp": "1:58",
+      "text": "opened it, decodes TLS, Quick, HTTP, DNS, and SSH, and fingerprints clients through JA4. The egress policy feature"
+    },
+    {
+      "timestamp": "2:07",
+      "text": "learns what each program normally talks to, then flags it the moment it reaches somewhere new. Jellybox is the client Jellyfin shipped."
+    },
+    {
+      "timestamp": "2:16",
+      "text": "The official app tries to handle video and music at once, and it still feels like a web page wearing a native icon."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "Jellybox only does audio built native for each platform, so it actually feels at home on Mac, Windows, Linux, iOS, and"
+    },
+    {
+      "timestamp": "2:30",
+      "text": "Android. You get synced lyrics, full offline downloads, and CarPlay and AirPlay support, plus album art that colors the whole interface."
+    },
+    {
+      "timestamp": "2:40",
+      "text": "Assembler wires up your whole self-hosted media stack so you don't have to. Standing up jellyfin, cubator,"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "sonar, radar, and prowler by hand is a full weekend of Docker Compose and forum posts. Assembler connects all eight"
+    },
+    {
+      "timestamp": "2:54",
+      "text": "services automatically, routes your download traffic through a VPN with health checks built in, and applies Trash Guides quality profiles for you."
+    },
+    {
+      "timestamp": "3:04",
+      "text": "Open Archiver is what you stand up instead of paying a vendor to hold your email compliance archive. Google Vault works fine until you think about what"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "happens if that vendor changes pricing or disappears. This one pulls from IMAP, Google Workspace, Microsoft 365, and old"
+    },
+    {
+      "timestamp": "3:22",
+      "text": "PST files, storing everything as plain EML with encryption at rest. Every message gets hashed so you can prove"
+    },
+    {
+      "timestamp": "3:29",
+      "text": "nothing's been altered. Web SSH turns your browser into an SSH client that never talks to anyone's cloud. You're on"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "a laptop that isn't yours and just need to check a box in your home lab. This runs entirely on your own server. No hosted control plane, no CDN. You get up"
+    },
+    {
+      "timestamp": "3:46",
+      "text": "to four SSH panes at once. Sessions that survive a dropped connection through T-Max and a dual pane SFTP browser for moving files."
+    },
+    {
+      "timestamp": "3:56",
+      "text": "Book Orbit fixes the sync problem."
+    },
+    {
+      "timestamp": "3:58",
+      "text": "Caliber Web never solved. You highlight something on your Coobo, then open the same book on your phone later, and none of it followed you. This one does"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "three-way sync between your Coobo core reader and its own web reader, so highlights and progress travel with you."
+    },
+    {
+      "timestamp": "4:14",
+      "text": "It pulls metadata from 14 sources, syncs your reading to Readwise, hard cover."
+    },
+    {
+      "timestamp": "4:20",
+      "text": "Use agent turns whatever coding agent you're already using into an actual co-worker instead of a chat window."
+    },
+    {
+      "timestamp": "4:27",
+      "text": "Cloud code, codeex, open code, they all lock you into their own interface and none make it easy to trust with real company credentials."
+    },
+    {
+      "timestamp": "4:35",
+      "text": "Use agent runs the agent in an isolated sandbox and keeps credentials at the gateway. So they never touch that sandbox."
+    },
+    {
+      "timestamp": "4:44",
+      "text": "Kept is what you get when someone actually tries to copy Google Keep instead of building another notion clone."
+    },
+    {
+      "timestamp": "4:52",
+      "text": "Most self-hosted note apps are either bloated with features nobody uses or ugly enough that you give up and go back to Google. This one keeps the same"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "sticky note feel, checklists, labels, and drawings. And it imports notes straight from a Google Takeout export."
+    },
+    {
+      "timestamp": "5:08",
+      "text": "Home label is the network diagram that actually knows what's running. Draw your home lab in draw.io once and by the next time you touch it, half the devices have moved and the diagram's lying to you."
+    },
+    {
+      "timestamp": "5:19",
+      "text": "This one scans your network with end mapap and builds the map itself. Tracks MAC addresses and pulls devices straight from Proxmox, ZigGB, MQTT, and Z-Wave."
+    },
+    {
+      "timestamp": "5:32",
+      "text": "Pictaria is the AI layer image doesn't have without sending a single photo to Google. Image nails the self-hosted"
+    },
+    {
+      "timestamp": "5:39",
+      "text": "photo library part, but you're still scrolling through 50 nearly identical shots trying to pick the keeper."
+    },
+    {
+      "timestamp": "5:46",
+      "text": "Pictaria stacks those duplicates, scores them by frameworthiness, and lets you override every call. Human decisions always win over the AI."
+    },
+    {
+      "timestamp": "5:56",
+      "text": "Renewit tracks every subscription you forgot you had in 20 to 30 megabytes of memory. Most subscription trackers are"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "either a spreadsheet you stop after a month or a SAS charging you to track your subscriptions. This one screenshots"
+    },
+    {
+      "timestamp": "6:11",
+      "text": "a bill and reads the price and renewal date off it automatically. It sends reminders through Telegram, Discord, and email."
+    },
+    {
+      "timestamp": "6:20",
+      "text": "MindSpark treats Markdown as a real format, not a one-way export button."
+    },
+    {
+      "timestamp": "6:25",
+      "text": "Most mind mapping tools export to markdown once, and the file goes stale the moment you edit the map. This one keeps them synced in both directions,"
+    },
+    {
+      "timestamp": "6:33",
+      "text": "live nodes carry a real formula engine, sum, average, if, so they actually calculate instead of holding text."
+    },
+    {
+      "timestamp": "6:40",
+      "text": "Citations autofill from crossre by DOI."
+    },
+    {
+      "timestamp": "6:44",
+      "text": "Tether brings the Apple continuity stuff back after you leave the Mac for Linux."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "Switch to Linux and suddenly your iPhone stops talking to your laptop. No shared clipboard, no drag and drop transfer, no"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "texting from your desktop. Tether rebuilds that link specifically for Wayand with an iOS companion app."
+    },
+    {
+      "timestamp": "7:02",
+      "text": "Clipboard sync over Wi-Fi and SMS and iMessage and beta over Bluetooth."
+    },
+    {
+      "timestamp": "7:08",
+      "text": "Dashlit is a start page you build without ever opening a config file."
+    },
+    {
+      "timestamp": "7:13",
+      "text": "homepage and most of the self-hosted dashboard options are great until you need to add one bookmark and remember the exact YAML indentation. Dashlit"
+    },
+    {
+      "timestamp": "7:21",
+      "text": "skips that. Everything's drag and drop through the built-in editor. It's one Docker container sits behind your own reverse proxy."
+    },
+    {
+      "timestamp": "7:30",
+      "text": "Tap Map shows you exactly where your computer's been talking behind your back. Every app on your machine makes connections you never see, most of them to servers you couldn't name if asked."
+    },
+    {
+      "timestamp": "7:42",
+      "text": "Tapmap watches those connections live and drops them on an actual world map as they happen, geolocced."
+    },
+    {
+      "timestamp": "7:51",
+      "text": "It keeps a rolling 30-day history, so a new provider showing up gets noticed."
+    },
+    {
+      "timestamp": "7:57",
+      "text": "Root is what you reach for right before your data dog bill makes you rethink logging entirely. Most observability"
+    },
+    {
+      "timestamp": "8:04",
+      "text": "platforms charge by ingest volume, so the more you log, the more it costs to find anything. Rootprint indexes"
+    },
+    {
+      "timestamp": "8:10",
+      "text": "straight onto object storage S3, R2, Minio or a local disc, so storage stays cheap. You get a real log explorer with"
+    },
+    {
+      "timestamp": "8:19",
+      "text": "severity filters and saved views. Trace waterfalls with per span timing."
+    },
+    {
+      "timestamp": "8:24",
+      "text": "Repowise indexes your repo once so your AI agent stops rediscovering it every session. Clawed code, cursor, whatever"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "you're running, they all burn tool calls, relearning your codebase's shape before they can actually help. Repo wise builds one local index covering"
+    },
+    {
+      "timestamp": "8:40",
+      "text": "dependencies, git history, and code health and hands it to the agent through MCP."
+    },
+    {
+      "timestamp": "8:47",
+      "text": "Milo is built for the person whose music folder has three versions of the same album, and Plex just can't handle it."
+    },
+    {
+      "timestamp": "8:54",
+      "text": "Feed Plex, a deluxe edition alongside the original, and you get duplicate songs everywhere, plus your music videos filed like their TV shows. Milo actually"
+    },
+    {
+      "timestamp": "9:04",
+      "text": "understands album releases, so you pick which version shows by default without losing the rest. And music videos count as real tracks on the album page."
+    },
+    {
+      "timestamp": "9:14",
+      "text": "MTL Explorer is where your GPS history goes once you stop trusting Garmin Connect to keep it forever. Load a few"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "hundred activities into most tracking apps, and the map starts choking. This one's built to put thousands of tracks on a single map without falling over. It"
+    },
+    {
+      "timestamp": "9:31",
+      "text": "imports Garmin, GPX, and FIT files straight off your device, computes the usual activity stats, and does a cinematic 3D flyover replay of a route."
+    },
+    {
+      "timestamp": "9:41",
+      "text": "Prisia is the one media server instead of the five you're currently running."
+    },
+    {
+      "timestamp": "9:46",
+      "text": "You've probably got Jellyfin for movies, something else for books, coma for comics, and a separate app for music, each with its own login and its own"
+    },
+    {
+      "timestamp": "9:54",
+      "text": "bugs. Pris Media puts movies, series, music, audio books, comics, and photo galleries behind one interface with"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "native readers for EPUB and PDF, proper resume, and subtitles on video. Gyroid Vault is what your STL folder needed"
+    },
+    {
+      "timestamp": "10:10",
+      "text": "about 5,000 files ago. Right now, it's probably a folder called models with files named final, final 2, and actually"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "final. And you open a slicer just to see what's inside one. Gyroid Vault gives you a real 3D viewer in the browser,"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "X-ray mode, multi-art assemblies in different colors, and exact measurements before you slice."
+    },
+    {
+      "timestamp": "10:33",
+      "text": "Geolens is the shared GIS catalog your team's shape files have been begging for. Right now, everyone's spatial data"
+    },
+    {
+      "timestamp": "10:40",
+      "text": "probably lives scattered across a shared drive with zero search. And finding last year's survey means asking whoever made it. GLens in ingests shape files,"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "geotiffs, geo packages, and CSVs into PostGS, gives you fuzzy and semantic search, and still speaks the standards your team already uses."
+    },
+    {
+      "timestamp": "10:59",
+      "text": "Issued reads your comics exactly where they already sit. No reorganizing required. Most comic servers want a specific folder structure before they'll"
+    },
+    {
+      "timestamp": "11:07",
+      "text": "even scan. So, step one becomes moving thousands of files around. issue just points at your existing folders and"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "picks up CBZ, CBR, CB7, and PDF automatically, thumbnails, and all. It tracks which series are active, so you"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "know when a new issue lands or a gap opens up."
+    },
+    {
+      "timestamp": "11:26",
+      "text": "Vaultist tracks physical books the way a library needs without the enterprise software built for a system with 50"
+    },
+    {
+      "timestamp": "11:33",
+      "text": "branches. You lend someone a book and there's no record beyond your memory. or you're running Koha for a shelf of 200"
+    },
+    {
+      "timestamp": "11:40",
+      "text": "books it was never built for. Vultis scans an ISBN pulls metadata from Google books with open library and library thing as backups."
+    },
+    {
+      "timestamp": "11:51",
+      "text": "Alterero self-hosts your actual Zotterero library, not just the file attachments web gives you. Zotterero's own self-hosting option only covers file"
+    },
+    {
+      "timestamp": "11:59",
+      "text": "storage. Your metadata, notes, and group libraries still live on Zotterero.org."
+    },
+    {
+      "timestamp": "12:04",
+      "text": "Alterero runs a full sync server that talks to the unmodified Zotterero desktop client. No patches and syncs everything, libraries, groups, notes, annotations."
+    },
+    {
+      "timestamp": "12:15",
+      "text": "Dinoat is the home lab dashboard where one dead widget doesn't take the whole page down with it. Most of these dashboards, one service goes offline and"
+    },
+    {
+      "timestamp": "12:23",
+      "text": "half the page just breaks. Dinoat's widgets fail independently, so your CPU graph still works even if Jellyfin's down. It auto discovers your Docker"
+    },
+    {
+      "timestamp": "12:33",
+      "text": "containers and groups them by compos project. No manual config needed."
+    },
+    {
+      "timestamp": "12:38",
+      "text": "Nethera skips the part where you port forward, set up DDNS, and configure a reverse proxy just to share one self-hosted app. You already wrote a"
+    },
+    {
+      "timestamp": "12:47",
+      "text": "Docker Compose file, so it just extends that file instead of inventing a new deployment format. Install the CLI on your laptop, the agent on the machine"
+    },
+    {
+      "timestamp": "12:56",
+      "text": "running the containers. Run ne deploy and you get a real public HTTPS URL. No router touched. Tinta doesn't sleep"
+    },
+    {
+      "timestamp": "13:04",
+      "text": "between updates. It actually shuts off completely. Every other e-paper dashboard claims great battery life and you're still charging it every couple"
+    },
+    {
+      "timestamp": "13:13",
+      "text": "weeks because deep sleep still draws power. Tinta wakes on a real-time clock, grabs data over Wi-Fi, updates the"
+    },
+    {
+      "timestamp": "13:20",
+      "text": "display, and powers down entirely. Zero standby drain. The maintainer's own office unit ran 393 days and over 5,000 wake cycles on three AAA batteries."
+    },
+    {
+      "timestamp": "13:32",
+      "text": "Hatchd gives your notes vault two front doors that both lead to the same room."
+    },
+    {
+      "timestamp": "13:37",
+      "text": "You want Claude to read and edit your notes, so you point it at a folder of markdown files and hope for the best. No search, no safety rails. Hatchdor runs"
+    },
+    {
+      "timestamp": "13:47",
+      "text": "one vault with a real web UI, wiki links, back links, a knowledge graph, and an MCP endpoint where an agent gets"
+    },
+    {
+      "timestamp": "13:54",
+      "text": "the exact same read, search, and edit access under the same rules."
+    },
+    {
+      "timestamp": "13:59",
+      "text": "Log fixes the thing that's mildly infuriating about Docker logs. The second you rebuild the container, that history's gone. This one persists every"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "log into SQLite, so it survives restarts and rebuilds with real full text search and level filters instead of scrolling a"
+    },
+    {
+      "timestamp": "14:15",
+      "text": "terminal. It manages Docker and Podman 2. Start, stop, restart, edit, end varss without recreating anything. Even SSH into remote hosts from one interface."
+    },
+    {
+      "timestamp": "14:27",
+      "text": "Deft is Slack and Asauna in one app except the AI agent can actually query the database instead of just searching your messages."
+    },
+    {
+      "timestamp": "14:36",
+      "text": "Most Workspace AI features bolt a chatbot onto search and call it context."
+    },
+    {
+      "timestamp": "14:40",
+      "text": "Deft's agent has direct SQL access to your conversations and tasks, so it can summarize a thread or create a task from"
+    },
+    {
+      "timestamp": "14:47",
+      "text": "plain language with an approval gate before anything real happens."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects on GitHub. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 9000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Shorts is what you reach for when Opus Clips subscription and descripts limits get old. Turning a long podcast"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into short form clips used to mean hours of manual picking or paying monthly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gemini finds 3 to 15 viral moments, reframes them to 916, and writes wordle subtitles itself. It can even generate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI actors and autopublish straight to Tik Tok and YouTube."
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mailflare gives you a real inbox on your own domain without handing your mail to Google or Fastmail. It runs as a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare worker, so there's no server to manage. Email routing pulls in the mail. D1 stores it. R2 holds the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "attachments all inside your own Cloudflare account. You get shared mailboxes, search folders, and routing rules. the stuff you'd expect from a real client."
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Handy is a push-to talk transcription tool that never leaves your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every dictation app wants a monthly subscription and your audio uploaded to their servers. This one runs Whisper or Parakeet locally, so nothing gets sent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "anywhere. Hold a hotkey, talk, and the text drops into whatever field you're in on Windows, Mac, or Linux. Parakeet"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clocks in around five times real time on a mid-range Intel chip, they say."
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mstream is a self-hosted music server that skips the setup headache. Plex feels like overkill just to stream your own flack collection, and most"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "alternatives make you wait out a full scan before you can hit play. This one streams straight off your folder structure, so playback starts before the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "database is even built. It talks subsonic and DNA, transcodes on the fly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Netwatch is what you'd get if HTOP and Wireshark had a baby that also did intrusion detection. It maps every connection back to the process that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "opened it, decodes TLS, Quick, HTTP, DNS, and SSH, and fingerprints clients through JA4. The egress policy feature"
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "learns what each program normally talks to, then flags it the moment it reaches somewhere new. Jellybox is the client Jellyfin shipped."
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The official app tries to handle video and music at once, and it still feels like a web page wearing a native icon."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jellybox only does audio built native for each platform, so it actually feels at home on Mac, Windows, Linux, iOS, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Android. You get synced lyrics, full offline downloads, and CarPlay and AirPlay support, plus album art that colors the whole interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Assembler wires up your whole self-hosted media stack so you don't have to. Standing up jellyfin, cubator,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sonar, radar, and prowler by hand is a full weekend of Docker Compose and forum posts. Assembler connects all eight"
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "services automatically, routes your download traffic through a VPN with health checks built in, and applies Trash Guides quality profiles for you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Archiver is what you stand up instead of paying a vendor to hold your email compliance archive. Google Vault works fine until you think about what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "happens if that vendor changes pricing or disappears. This one pulls from IMAP, Google Workspace, Microsoft 365, and old"
+        }
+      ]
+    },
+    {
+      "tStartMs": 202000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PST files, storing everything as plain EML with encryption at rest. Every message gets hashed so you can prove"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nothing's been altered. Web SSH turns your browser into an SSH client that never talks to anyone's cloud. You're on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a laptop that isn't yours and just need to check a box in your home lab. This runs entirely on your own server. No hosted control plane, no CDN. You get up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to four SSH panes at once. Sessions that survive a dropped connection through T-Max and a dual pane SFTP browser for moving files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 236000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Book Orbit fixes the sync problem."
+        }
+      ]
+    },
+    {
+      "tStartMs": 238000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caliber Web never solved. You highlight something on your Coobo, then open the same book on your phone later, and none of it followed you. This one does"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three-way sync between your Coobo core reader and its own web reader, so highlights and progress travel with you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It pulls metadata from 14 sources, syncs your reading to Readwise, hard cover."
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Use agent turns whatever coding agent you're already using into an actual co-worker instead of a chat window."
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloud code, codeex, open code, they all lock you into their own interface and none make it easy to trust with real company credentials."
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Use agent runs the agent in an isolated sandbox and keeps credentials at the gateway. So they never touch that sandbox."
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kept is what you get when someone actually tries to copy Google Keep instead of building another notion clone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most self-hosted note apps are either bloated with features nobody uses or ugly enough that you give up and go back to Google. This one keeps the same"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sticky note feel, checklists, labels, and drawings. And it imports notes straight from a Google Takeout export."
+        }
+      ]
+    },
+    {
+      "tStartMs": 308000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Home label is the network diagram that actually knows what's running. Draw your home lab in draw.io once and by the next time you touch it, half the devices have moved and the diagram's lying to you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 319000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This one scans your network with end mapap and builds the map itself. Tracks MAC addresses and pulls devices straight from Proxmox, ZigGB, MQTT, and Z-Wave."
+        }
+      ]
+    },
+    {
+      "tStartMs": 332000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pictaria is the AI layer image doesn't have without sending a single photo to Google. Image nails the self-hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "photo library part, but you're still scrolling through 50 nearly identical shots trying to pick the keeper."
+        }
+      ]
+    },
+    {
+      "tStartMs": 346000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pictaria stacks those duplicates, scores them by frameworthiness, and lets you override every call. Human decisions always win over the AI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Renewit tracks every subscription you forgot you had in 20 to 30 megabytes of memory. Most subscription trackers are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "either a spreadsheet you stop after a month or a SAS charging you to track your subscriptions. This one screenshots"
+        }
+      ]
+    },
+    {
+      "tStartMs": 371000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a bill and reads the price and renewal date off it automatically. It sends reminders through Telegram, Discord, and email."
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MindSpark treats Markdown as a real format, not a one-way export button."
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most mind mapping tools export to markdown once, and the file goes stale the moment you edit the map. This one keeps them synced in both directions,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live nodes carry a real formula engine, sum, average, if, so they actually calculate instead of holding text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Citations autofill from crossre by DOI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tether brings the Apple continuity stuff back after you leave the Mac for Linux."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Switch to Linux and suddenly your iPhone stops talking to your laptop. No shared clipboard, no drag and drop transfer, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "texting from your desktop. Tether rebuilds that link specifically for Wayand with an iOS companion app."
+        }
+      ]
+    },
+    {
+      "tStartMs": 422000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clipboard sync over Wi-Fi and SMS and iMessage and beta over Bluetooth."
+        }
+      ]
+    },
+    {
+      "tStartMs": 428000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dashlit is a start page you build without ever opening a config file."
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "homepage and most of the self-hosted dashboard options are great until you need to add one bookmark and remember the exact YAML indentation. Dashlit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 441000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skips that. Everything's drag and drop through the built-in editor. It's one Docker container sits behind your own reverse proxy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 450000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tap Map shows you exactly where your computer's been talking behind your back. Every app on your machine makes connections you never see, most of them to servers you couldn't name if asked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tapmap watches those connections live and drops them on an actual world map as they happen, geolocced."
+        }
+      ]
+    },
+    {
+      "tStartMs": 471000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It keeps a rolling 30-day history, so a new provider showing up gets noticed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Root is what you reach for right before your data dog bill makes you rethink logging entirely. Most observability"
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "platforms charge by ingest volume, so the more you log, the more it costs to find anything. Rootprint indexes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "straight onto object storage S3, R2, Minio or a local disc, so storage stays cheap. You get a real log explorer with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 499000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "severity filters and saved views. Trace waterfalls with per span timing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Repowise indexes your repo once so your AI agent stops rediscovering it every session. Clawed code, cursor, whatever"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you're running, they all burn tool calls, relearning your codebase's shape before they can actually help. Repo wise builds one local index covering"
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencies, git history, and code health and hands it to the agent through MCP."
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Milo is built for the person whose music folder has three versions of the same album, and Plex just can't handle it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Feed Plex, a deluxe edition alongside the original, and you get duplicate songs everywhere, plus your music videos filed like their TV shows. Milo actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "understands album releases, so you pick which version shows by default without losing the rest. And music videos count as real tracks on the album page."
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MTL Explorer is where your GPS history goes once you stop trusting Garmin Connect to keep it forever. Load a few"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hundred activities into most tracking apps, and the map starts choking. This one's built to put thousands of tracks on a single map without falling over. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 571000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "imports Garmin, GPX, and FIT files straight off your device, computes the usual activity stats, and does a cinematic 3D flyover replay of a route."
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Prisia is the one media server instead of the five you're currently running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 586000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've probably got Jellyfin for movies, something else for books, coma for comics, and a separate app for music, each with its own login and its own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bugs. Pris Media puts movies, series, music, audio books, comics, and photo galleries behind one interface with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "native readers for EPUB and PDF, proper resume, and subtitles on video. Gyroid Vault is what your STL folder needed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about 5,000 files ago. Right now, it's probably a folder called models with files named final, final 2, and actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "final. And you open a slicer just to see what's inside one. Gyroid Vault gives you a real 3D viewer in the browser,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "X-ray mode, multi-art assemblies in different colors, and exact measurements before you slice."
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Geolens is the shared GIS catalog your team's shape files have been begging for. Right now, everyone's spatial data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "probably lives scattered across a shared drive with zero search. And finding last year's survey means asking whoever made it. GLens in ingests shape files,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "geotiffs, geo packages, and CSVs into PostGS, gives you fuzzy and semantic search, and still speaks the standards your team already uses."
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Issued reads your comics exactly where they already sit. No reorganizing required. Most comic servers want a specific folder structure before they'll"
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even scan. So, step one becomes moving thousands of files around. issue just points at your existing folders and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "picks up CBZ, CBR, CB7, and PDF automatically, thumbnails, and all. It tracks which series are active, so you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "know when a new issue lands or a gap opens up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 686000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vaultist tracks physical books the way a library needs without the enterprise software built for a system with 50"
+        }
+      ]
+    },
+    {
+      "tStartMs": 693000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "branches. You lend someone a book and there's no record beyond your memory. or you're running Koha for a shelf of 200"
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "books it was never built for. Vultis scans an ISBN pulls metadata from Google books with open library and library thing as backups."
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Alterero self-hosts your actual Zotterero library, not just the file attachments web gives you. Zotterero's own self-hosting option only covers file"
+        }
+      ]
+    },
+    {
+      "tStartMs": 719000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storage. Your metadata, notes, and group libraries still live on Zotterero.org."
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Alterero runs a full sync server that talks to the unmodified Zotterero desktop client. No patches and syncs everything, libraries, groups, notes, annotations."
+        }
+      ]
+    },
+    {
+      "tStartMs": 735000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dinoat is the home lab dashboard where one dead widget doesn't take the whole page down with it. Most of these dashboards, one service goes offline and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 743000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "half the page just breaks. Dinoat's widgets fail independently, so your CPU graph still works even if Jellyfin's down. It auto discovers your Docker"
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "containers and groups them by compos project. No manual config needed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nethera skips the part where you port forward, set up DDNS, and configure a reverse proxy just to share one self-hosted app. You already wrote a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker Compose file, so it just extends that file instead of inventing a new deployment format. Install the CLI on your laptop, the agent on the machine"
+        }
+      ]
+    },
+    {
+      "tStartMs": 776000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running the containers. Run ne deploy and you get a real public HTTPS URL. No router touched. Tinta doesn't sleep"
+        }
+      ]
+    },
+    {
+      "tStartMs": 784000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between updates. It actually shuts off completely. Every other e-paper dashboard claims great battery life and you're still charging it every couple"
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "weeks because deep sleep still draws power. Tinta wakes on a real-time clock, grabs data over Wi-Fi, updates the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 800000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "display, and powers down entirely. Zero standby drain. The maintainer's own office unit ran 393 days and over 5,000 wake cycles on three AAA batteries."
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hatchd gives your notes vault two front doors that both lead to the same room."
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You want Claude to read and edit your notes, so you point it at a folder of markdown files and hope for the best. No search, no safety rails. Hatchdor runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 827000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one vault with a real web UI, wiki links, back links, a knowledge graph, and an MCP endpoint where an agent gets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the exact same read, search, and edit access under the same rules."
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Log fixes the thing that's mildly infuriating about Docker logs. The second you rebuild the container, that history's gone. This one persists every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "log into SQLite, so it survives restarts and rebuilds with real full text search and level filters instead of scrolling a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 855000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal. It manages Docker and Podman 2. Start, stop, restart, edit, end varss without recreating anything. Even SSH into remote hosts from one interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 867000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deft is Slack and Asauna in one app except the AI agent can actually query the database instead of just searching your messages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 876000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most Workspace AI features bolt a chatbot onto search and call it context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 880000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deft's agent has direct SQL access to your conversations and tasks, so it can summarize a thread or create a task from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 887000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plain language with an approval gate before anything real happens."
+        }
+      ]
+    }
+  ]
+}
