@@ -19,6 +19,7 @@ EXTRACT = Path(__file__).with_name("caption_panel.js").read_text()
 def panel_captions(document, video_id, channel_id):
     metadata = document["metadata"]
     if metadata.get("id") != video_id or metadata.get("channel_id") != channel_id:
+        print({"metadata": metadata}, flush=True)
         raise ValueError("Video does not belong to the configured channel")
     if not metadata.get("title") or not metadata.get("description"):
         raise ValueError("Incomplete watch metadata")
