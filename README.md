@@ -9,11 +9,17 @@ videos, backed by a Git history of JSON and Markdown data.
 
 ## Operation
 
-GitHub Actions discovers uploads, retrieves English captions, copy-edits a bounded
+GitHub Actions discovers uploads, retrieves the public transcript panel, copy-edits a bounded
 batch through OpenRouter's free router, commits changes, and deploys GitHub Pages.
 The schedule and batch sizes live in `.github/workflows/publish.yml`. Use **Actions →
 Collect and publish → Run workflow** for an additional run. Production collection
 and editing run entirely in CI; the reader needs no server or API key.
+
+Scheduled collection uses Camofox on a standard hosted macOS runner, opening
+YouTube's **Show transcript** panel in an anonymous, temporary browser session.
+The runtime pins and verified browser checksums live under `scripts/camofox/`.
+Its supervisor removes profiles and stops owned browser processes after each batch.
+An Ubuntu manual run uses the older `yt-dlp` path for diagnosis.
 
 Set the repository Actions secret `OPENROUTER_API_KEY` to the dedicated account's
 inference key. Keep account and API credentials in a password manager and sync
@@ -56,6 +62,9 @@ uv run python -m http.server 8000 --directory dist
 The build reads committed data and works without network access. Browser tests use
 synthetic records and run in desktop Chromium and mobile WebKit. To regenerate the
 caption editions from their raw source, run `uv run python -m archive rebuild`.
+To exercise browser collection locally on macOS arm64, install mise, run
+`python3 scripts/camofox/camofox-runtime.py install`, then
+`uv run python -m archive sync --source browser --max-videos 1`.
 
 ## Data and limitations
 
@@ -64,8 +73,9 @@ See [the dataset format](docs/dataset.md) before consuming or changing the schem
 YouTube may block caption requests from GitHub-hosted runners. Missing tracks,
 private/deleted videos, and rate limits remain visible in `data/catalog.json`.
 A failed refresh preserves previously retrieved data. An HTTP 429 or detected bot block pauses collection
-for 24 hours. Manual runs can select a standard macOS runner to diagnose
-platform-specific extraction failures. Collection does not promise complete channel coverage.
+for 24 hours. The browser panel may work while the player is blocked, but YouTube
+can change its markup or block this path too. Collection does not promise complete
+channel coverage. Panel timing and coverage limitations are recorded in the dataset documentation.
 
 Automatic captions can misrecognize project names. AI copy-editing can also change
 meaning; structural and length checks cannot establish factual fidelity. Every

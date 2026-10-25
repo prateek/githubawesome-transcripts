@@ -8,7 +8,7 @@ on:
         description: Standard hosted runner for caption collection
         type: choice
         options: [ubuntu-latest, macos-latest]
-        default: ubuntu-latest
+        default: macos-latest
       verify_model:
         description: Verify the free model using a synthetic transcript
         type: boolean
@@ -27,7 +27,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    runs-on: ${{ inputs.runner || 'macos-latest' }}
     timeout-minutes: 30
     permissions:
       contents: write
@@ -43,6 +43,13 @@ jobs:
           deno-version: v2.x
       - run: uv sync --locked
       - run: uv run python -m pytest -q
+      - uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3
+        if: github.event_name != 'push' && runner.os == 'macOS'
+        with:
+          install: false
+      - name: Install pinned Camofox runtime
+        if: github.event_name != 'push' && runner.os == 'macOS'
+        run: python3 scripts/camofox/camofox-runtime.py install
       - name: Verify free model access
         if: inputs.verify_model
         env:
@@ -54,7 +61,12 @@ jobs:
         continue-on-error: true
         env:
           MAX_VIDEOS: ${{ inputs.max_videos || 10 }}
-        run: uv run python -m archive sync --max-videos "$MAX_VIDEOS" --delay 15
+        run: |
+          if [ "$RUNNER_OS" = "macOS" ]; then
+            uv run python -m archive sync --source browser --max-videos "$MAX_VIDEOS" --delay 15
+          else
+            uv run python -m archive sync --max-videos "$MAX_VIDEOS" --delay 15
+          fi
       - name: Copy-edit using free models
         id: clean
         if: github.event_name != 'push'

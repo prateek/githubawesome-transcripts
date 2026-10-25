@@ -8,7 +8,7 @@ YouTube's 11-character IDs.
 | --- | --- |
 | `catalog.json` | Discovered videos, collection status, retry times and error classes |
 | `raw/VIDEO_ID/metadata.json` | Allowlisted title, channel, date, duration, description and chapters |
-| `raw/VIDEO_ID/captions.json` | Original English JSON3 caption response |
+| `raw/VIDEO_ID/captions.json` | JSON3 response or preserved transcript panel rows with derived events |
 | `videos/VIDEO_ID.json` | Deterministically normalized caption edition |
 | `markdown/VIDEO_ID.md` | Caption edition as Markdown |
 | `edits/VIDEO_ID.json` | Validated AI paragraphs with model, prompt version, source hash and usage |
@@ -22,6 +22,23 @@ and SHA-256 hashes of canonical JSON source objects. These are object hashes, no
 hashes of the formatted files. Sections have stable ordered IDs, title, start/end,
 repository links and paragraph arrays. Cues preserve normalized text and timings.
 Repository links come from timestamped description lines, never from the model.
+
+Browser retrieval sets `source_format: youtube-transcript-panel-v1` in the raw
+caption object. `segments` preserves the displayed timestamp and text of every
+row; `events` adapts those rows to the existing normalizer. Panel timestamps have
+whole-second precision. Their durations are unknown and recorded as zero, rather
+than inferred from the next row. The panel does not expose a reliable track label,
+so provenance uses language `und` and caption kind `unknown`. The default panel is
+requested with an English UI; this does not prove the spoken language or whether
+YouTube generated the captions.
+
+Collection requires stable rows, matching video and channel identities, increasing
+timestamps, a first row within 30 seconds, and a final row within 60 seconds of the
+video's end. These checks catch obvious truncation but cannot prove completeness;
+videos with long silent endings may be rejected. Browser metadata comes from the
+watch page, using catalog duration when the blocked player omits it. Full description
+URLs are restored from the watch page's link targets. Temporary
+redirect tokens and player URLs are excluded from stored metadata.
 
 The static build copies source data and adds these derived endpoints:
 

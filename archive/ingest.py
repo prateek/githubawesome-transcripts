@@ -135,14 +135,29 @@ def discover(config, root, limit=None):
                     "status": "pending",
                 },
             )
+            if item.get("duration"):
+                known[video_id]["duration"] = item["duration"]
     catalog["videos"] = list(known.values())
     write_json(root / "catalog.json", catalog)
     return catalog
 
 
-def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=None):
+def sync(
+    config,
+    root,
+    max_videos=10,
+    delay=15,
+    refresh=False,
+    discovery_limit=None,
+    *,
+    fetcher=None,
+    source="yt-dlp",
+):
+    fetcher = fetcher or (lambda entry, channel: fetch_video(entry["id"], channel))
     previous = read_json(root / "catalog.json", {})
     runner = os.environ.get("RUNNER_OS", "local")
+    if source != "yt-dlp":
+        runner = f"{source}-{runner}"
     if (
         max(previous.get("retry_after", ""), previous.get("runner_blocks", {}).get(runner, ""))
         > now()
@@ -158,7 +173,7 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
             entry.pop("retry_after", None)
             entry.pop("error", None)
             continue
-        if entry.get("retry_after", "") > now():
+        if entry.get("last_source", "yt-dlp") == source and entry.get("retry_after", "") > now():
             continue
         if attempted >= max_videos:
             break
@@ -167,7 +182,7 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
         attempted += 1
         print(f"[{attempted}/{max_videos}] {entry['id']} {entry['title']}", flush=True)
         try:
-            metadata, captions, language, kind = fetch_video(entry["id"], config["channel_id"])
+            metadata, captions, language, kind = fetcher(entry, config["channel_id"])
             record = store_video(root, metadata, captions, language, kind, now())
             entry.update(title=record["title"], status="ready")
             for key in ["error", "detail", "retry_after", "last_attempt"]:
@@ -187,6 +202,7 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
                 if isinstance(error, CaptionsUnavailable)
                 else "retry",
                 error=type(error).__name__,
+                last_source=source,
                 last_attempt=now(),
                 retry_after=(datetime.now(UTC) + timedelta(hours=24 if stop else 6)).isoformat(
                     timespec="seconds"

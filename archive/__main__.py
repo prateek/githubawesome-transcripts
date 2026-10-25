@@ -20,6 +20,7 @@ def main():
     ingest.add_argument("--delay", type=float, default=15)
     ingest.add_argument("--discovery-limit", type=int)
     ingest.add_argument("--refresh", action="store_true")
+    ingest.add_argument("--source", choices=["yt-dlp", "browser"], default="yt-dlp")
     clean = commands.add_parser(
         "clean",
         help="Copy-edit pending transcripts using only OpenRouter's free router",
@@ -41,14 +42,19 @@ def main():
     if args.command == "sync":
         if args.max_videos < 0 or args.delay < 0:
             parser.error("Batch size and delay must be nonnegative")
-        sync(
-            config,
-            root,
-            args.max_videos,
-            args.delay,
-            args.refresh,
-            args.discovery_limit,
+        options = dict(
+            max_videos=args.max_videos,
+            delay=args.delay,
+            refresh=args.refresh,
+            discovery_limit=args.discovery_limit,
         )
+        if args.source == "browser":
+            from .browser_captions import BrowserCaptions
+
+            with BrowserCaptions() as browser:
+                sync(config, root, **options, fetcher=browser.fetch, source="browser")
+        else:
+            sync(config, root, **options)
     elif args.command == "clean":
         if args.max_videos < 0:
             parser.error("Batch size must be nonnegative")
