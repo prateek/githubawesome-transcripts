@@ -1,0 +1,1515 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 52. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Shaders makes WebGPU effects feel like ordinary UI components. Drop in a gradient, glass effect, distortion, or"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "cursor trail. Then stack and blend them without writing the shader yourself. The same library works with React, Vue, Spelt, Solid, and Plain JavaScript."
+    },
+    {
+      "timestamp": "0:28",
+      "text": "There's also a visual editor. Tune an effect on a canvas, then export the component code straight into your project."
+    },
+    {
+      "timestamp": "0:35",
+      "text": "Remove MacA gives you a single place to quiet down Mac OS. On supported Apple Silicon Max, it can switch off selected"
+    },
+    {
+      "timestamp": "0:43",
+      "text": "Apple Intelligence features, remove their downloaded models, disable analytics and personalized ads, and clean up old files taking up space."
+    },
+    {
+      "timestamp": "0:52",
+      "text": "There's a native app and a command line tool, and you review changes before applying them. If you change your mind, it keeps an undue history."
+    },
+    {
+      "timestamp": "1:01",
+      "text": "SCS Killer tackles that annoying PC gaming hitch when a game compiles a new shader midplay. It scans a supported"
+    },
+    {
+      "timestamp": "1:08",
+      "text": "game shaders and pre-ompiles likely pipelines into your Nvidia or AMD driver cache before you launch. It finds games"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "across major launchers and can rebuild the cache after a driver update. It won't cure every stutter, but it targets shader compilation stalls directly."
+    },
+    {
+      "timestamp": "1:26",
+      "text": "BBport is an experimental way to run Bloodborne on Linux using your own PS4 game dump. It runs the game's x8664 code"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "directly on the PC, replaces the PlayStation system calls it needs, and translates its graphics to Vulcan."
+    },
+    {
+      "timestamp": "1:41",
+      "text": "There's a launcher, gamepad support, unlocked frame rates, and FSR upscaling."
+    },
+    {
+      "timestamp": "1:47",
+      "text": "It's already playable in tested areas, though a full playthrough hasn't been verified. GDPs tackles a dangerous little mistake."
+    },
+    {
+      "timestamp": "1:56",
+      "text": "checking permission in one line, then forgetting to connect that check to the action it protects. In this TypeScript library, sensitive functions require a"
+    },
+    {
+      "timestamp": "2:04",
+      "text": "proof that a specific user can act on a specific resource. Pass the wrong proof, or none at all, and the code won't type"
+    },
+    {
+      "timestamp": "2:12",
+      "text": "check. A llinter guards against forged proofs, and a companion skill shows coding agents how to use the pattern."
+    },
+    {
+      "timestamp": "2:20",
+      "text": "OpenAI Math opens a window into how an internal AI model tackled open research problems. The repository holds 722"
+    },
+    {
+      "timestamp": "2:28",
+      "text": "mathematical manuscripts across 372 related families with papers, supporting materials, and some machine checked lean"
+    },
+    {
+      "timestamp": "2:36",
+      "text": "proofs. It also includes short summaries of the model's reasoning for selected results. These are research artifacts at different stages of verification."
+    },
+    {
+      "timestamp": "2:46",
+      "text": "Open Instinct is a personal AI agent you text over iMessage running on its own Linux desktop in a microVM. It does real"
+    },
+    {
+      "timestamp": "2:54",
+      "text": "tasks and can even pay through a Stripe link wallet, but every tool call goes through a policy check first. People in"
+    },
+    {
+      "timestamp": "3:01",
+      "text": "your life get one of six trust tiers from owner down to stranger, enforced in code, and you can grant exceptions in"
+    },
+    {
+      "timestamp": "3:08",
+      "text": "plain English, like Sam can book us dinner."
+    },
+    {
+      "timestamp": "3:12",
+      "text": "Free video brings local AI video generation to computers that don't have huge GPUs. It runs Miniax H3 through"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "Comfy UI, shifting work between video memory, RAM, and disk to support some setups with as little as 8 GB of VRAM."
+    },
+    {
+      "timestamp": "3:28",
+      "text": "Give it a prompt or visual references."
+    },
+    {
+      "timestamp": "3:30",
+      "text": "Choose a quality level and check a quick preview before finishing the render. It supports Windows and Linux with a Mac preview."
+    },
+    {
+      "timestamp": "3:39",
+      "text": "Tendero hangs every new screenshot on a clothes line along the top of your Mac screen. Hover the menu bar and the line slides down. Click a shot to copy it."
+    },
+    {
+      "timestamp": "3:49",
+      "text": "Hold to open it in markup. Drag it into an app to send a copy or drag it into a folder to file it away. It takes over"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "from the floating thumbnail, so there's no 5-second wait, and it puts your old settings back when you quit."
+    },
+    {
+      "timestamp": "4:03",
+      "text": "PT for PC brings the famously hard to access horror teaser to Windows and Linux as a native port. Its creator"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "rebuilt the game logic in C++ and the renderer in Vulcan. You supply the files from your own PS4 copy since the repo"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "includes no game assets. It plays through the full teaser and adds PC options like higher resolutions, photo mode, and a loop browser."
+    },
+    {
+      "timestamp": "4:27",
+      "text": "A Rust port of TypeScript's new Go compiler sounds like a dare, but TS Rust is a working experiment. Coding agents"
+    },
+    {
+      "timestamp": "4:34",
+      "text": "helped port the compiler, type checker, and language server with an npm package you can try on a project. The author"
+    },
+    {
+      "timestamp": "4:41",
+      "text": "reports faster type checks than the Go version in their benchmarks."
+    },
+    {
+      "timestamp": "4:46",
+      "text": "It's still an early release with known compatibility issues, so this is one to test before relying on it. Ashi.rest"
+    },
+    {
+      "timestamp": "4:54",
+      "text": "adds moving as art to a web page without making you draw every frame. Its library ranges from spinners and charts to"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "landscapes, language logos, and a rotating donut. Use it in React, Nex.js, or Astro, or drop a single custom tag"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "into plain HTML. You can adjust the speed and color, and animations pause on their first frame for visitors who prefer reduced motion."
+    },
+    {
+      "timestamp": "5:17",
+      "text": "Mento Code helps coding agents answer questions about a repo without repeatedly reading whole files. It first"
+    },
+    {
+      "timestamp": "5:24",
+      "text": "builds plain text notes about the code, its functions, and how they connect. For each question, it pulls in the relevant"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "notes and current source lines. You can use it with clawed code, codecs, or other agents. Its own benchmark shows"
+    },
+    {
+      "timestamp": "5:39",
+      "text": "much lower token use for oneshot answers with some loss in answer quality."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Sloop turns the MVAVE FM1 into a groove box built for playing live. Based on Feluca firmware, it gives you three"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "synth tracks, drums, and loops you can record as you play, even letting your first take set the tempo. You can punch in effects, switch between song"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "sections, sync to MIDI clock, and record the output over USB. A web editor handles sounds, samples, and backups."
+    },
+    {
+      "timestamp": "6:09",
+      "text": "Kandinsky 6 generates the picture and soundtrack together. Give it a text prompt or a starting image and it produces a 5-second video clip with synchronized audio including lip sync."
+    },
+    {
+      "timestamp": "6:20",
+      "text": "The release includes a smaller light model, a larger pro model and a separate upscaler for full HD output. You can run"
+    },
+    {
+      "timestamp": "6:28",
+      "text": "it with an Nvidia GPU or use integrations such as Comfy UI and diffusers."
+    },
+    {
+      "timestamp": "6:34",
+      "text": "Worm builds a tiny neural network on the published wiring diagram of a 302 neuron worm. You can simulate a touch to its"
+    },
+    {
+      "timestamp": "6:42",
+      "text": "nose or tail and watch how activity moves through the network. There's also an experimental bridge to local language"
+    },
+    {
+      "timestamp": "6:49",
+      "text": "models. The worm state nudges response settings and tone. The neural responses have been tested against randomized wiring."
+    },
+    {
+      "timestamp": "6:58",
+      "text": "The letters printed on a Commodore 64 keyboard have a look all their own. C64 keyboard recreates them from photos of a"
+    },
+    {
+      "timestamp": "7:06",
+      "text": "real machine, including the arrows, function keys, and all 63 PET symbols printed on the key fronts. It's the"
+    },
+    {
+      "timestamp": "7:13",
+      "text": "keycap lettering rather than the familiar pixelated screen font. You get desktop fonts, a web font, editable"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "outlines, and a browser preview to try the symbols."
+    },
+    {
+      "timestamp": "7:25",
+      "text": "Gen X is a desktop workspace for making browser games with AI. Describe a game, watch the agents build it, then play the"
+    },
+    {
+      "timestamp": "7:32",
+      "text": "result beside the conversation and ask for changes. Your game stays as a local project you can edit or export. It supports different models for the main"
+    },
+    {
+      "timestamp": "7:41",
+      "text": "agent and its workers, plus plugins for tools like Blender and asset generation."
+    },
+    {
+      "timestamp": "7:47",
+      "text": "Convity converts just about any file from the command line and keeps it all on your machine. Point it at a file, say"
+    },
+    {
+      "timestamp": "7:54",
+      "text": "convict clip.move to MP4, and the output lands next to the original. It checks which conversion engines you have."
+    },
+    {
+      "timestamp": "8:01",
+      "text": "FFmpeg for video and audio, Libre Office for Office files, PDFIM for PDFs, then picks a route, chaining up to three steps when nothing converts directly."
+    },
+    {
+      "timestamp": "8:11",
+      "text": "Durable actors gives each chat room, shared document, or agent its own stateful piece of back-end code. Its data survives restarts and calls are"
+    },
+    {
+      "timestamp": "8:20",
+      "text": "coordinated so simultaneous updates don't trample each other. You define an actor, generate a typed Python or TypeScript client and connect over"
+    },
+    {
+      "timestamp": "8:29",
+      "text": "websockets. It runs locally for development with a self-hosting path on GCP. When you're ready to deploy,"
+    },
+    {
+      "timestamp": "8:37",
+      "text": "PI Pocket puts your PI coding agent in a phone friendly web app while the work runs on your own machine. You can steer a task, inspect diffs and live tool"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "output, or check the browser PI is using. Sessions are saved as they happen, so work can continue after a server restart. You can also invite"
+    },
+    {
+      "timestamp": "8:55",
+      "text": "teammates into a live session to share notes, chat, and take turns guiding the agent."
+    },
+    {
+      "timestamp": "9:02",
+      "text": "Showtime is a local video studio for your coding agent. Describe the video you want and the agent can assemble motion graphics, narration, music, captions, and footage on your machine."
+    },
+    {
+      "timestamp": "9:13",
+      "text": "It shows a quick first look before the full render, then checks the finished video and saves the MP4 with its project files. It works with agents including"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "claude code and codecs without uploading your media to a video service."
+    },
+    {
+      "timestamp": "9:28",
+      "text": "Ammane is a Rust library for building your own Whan desktop shell. So the bars, panels, and launchers are plain Rust code you write. Your shell lives in"
+    },
+    {
+      "timestamp": "9:36",
+      "text": "one main RS file, and Ammani Dev hot reloads it as you edit. Audio, network, Bluetooth, notifications, and workspaces"
+    },
+    {
+      "timestamp": "9:44",
+      "text": "come built in as services along with a widget and animation system. It runs on any compositor with WR layer shell, so Neri, Hyperland, and Sway all work."
+    },
+    {
+      "timestamp": "9:55",
+      "text": "Photo brings postshoot cleanup to your terminal. review JPEGs, find blurry shots and exact duplicates, filter by"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "camera metadata, and see how a shoot unfolded over time. It can also build contact sheets, rename and sort photos,"
+    },
+    {
+      "timestamp": "10:10",
+      "text": "or make smaller copies with location data removed before it changes your originals. Photo shows you the plan and waits for an explicit apply flag."
+    },
+    {
+      "timestamp": "10:20",
+      "text": "Mortifix treats AI video making more like a motion design studio. Give it a brief and Claude works through the"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "script, style frames, animatic, and final render, stopping for your approval at each stage. You can pin feedback to a"
+    },
+    {
+      "timestamp": "10:34",
+      "text": "specific frame or moment, then see how the next version addresses it. It runs on your machine with your own clawed code login or anthropic API key."
+    },
+    {
+      "timestamp": "10:44",
+      "text": "Kakoru turns a single full body character illustration into a VRM avatar with an AI agent doing the heavy lifting"
+    },
+    {
+      "timestamp": "10:51",
+      "text": "and you approving every step. You review in a local app, paste a request into the agent, and it generates eight angles,"
+    },
+    {
+      "timestamp": "11:00",
+      "text": "builds the 3D model through TIPO, then handles rigging, weights, and physics in Blender. The app updates on its own and"
+    },
+    {
+      "timestamp": "11:06",
+      "text": "stops at the next checkpoint, so the AI never moves ahead without you."
+    },
+    {
+      "timestamp": "11:12",
+      "text": "Your coding agent doesn't need a million log entries dumped into its context to find one useful record. Leviathan"
+    },
+    {
+      "timestamp": "11:18",
+      "text": "indexes CSV, JSON, SQLite, and database exports, then returns short ranked results with citations. You can narrow"
+    },
+    {
+      "timestamp": "11:26",
+      "text": "searches by customer, date, or field, and connect it through a shell command or its MCP server. The index stays in"
+    },
+    {
+      "timestamp": "11:33",
+      "text": "one local SQLite file. Birth lets you run coding agents on a VPS or spare desktop while working with them from"
+    },
+    {
+      "timestamp": "11:40",
+      "text": "your laptop. Each task gets its own git work tree, terminal, and dev server. You can watch clawed code or codecs, step in"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "when they need you, and review finished work in the desktop app. Close your laptop and the agents keep running on the box."
+    },
+    {
+      "timestamp": "11:57",
+      "text": "Agent memory repo gives coding agents a simple way to carry useful context between sessions. a separate git repo. A"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "short memory.mmd points to link notes, projects, and even reusable scripts. The agent can read what it needs and commit"
+    },
+    {
+      "timestamp": "12:12",
+      "text": "new lessons as it works, while git keeps the history and catches conflicting edits. The repo includes a skill you can install to try the format."
+    },
+    {
+      "timestamp": "12:22",
+      "text": "Claude code mods is a pick your own set of plugins for the terminal. add a live context bar, watch plan usage, see which"
+    },
+    {
+      "timestamp": "12:29",
+      "text": "sub agents are touching which files, or preview markdown as Claude edits it."
+    },
+    {
+      "timestamp": "12:34",
+      "text": "There's even a guard that pauses destructive commands and shows what they would affect. Each mod installs separately, so you can keep the useful bits and skip the extras."
+    },
+    {
+      "timestamp": "12:45",
+      "text": "Animate is a clawed code skill for making short animated videos in code."
+    },
+    {
+      "timestamp": "12:50",
+      "text": "You approve the story beats, look, and storyboard before it builds the motion."
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Pick from seven styles like cut paper, risograph, and pixel art. Or give it references for a new look. It can time"
+    },
+    {
+      "timestamp": "13:01",
+      "text": "cuts to your music, animate real product screenshots, and export vertical, square, or widescreen versions from one piece."
+    },
+    {
+      "timestamp": "13:10",
+      "text": "Athanor turns an arch and hyperland desktop into a little alchemical dungeon. Its seven workspaces become"
+    },
+    {
+      "timestamp": "13:17",
+      "text": "planetary levels, while a roglike status bar shows your battery as HP and your free disc space as gold. Four color"
+    },
+    {
+      "timestamp": "13:24",
+      "text": "schemes can shift with the sun and crashed programs get their own tombstones. It's an elaborate desktop theme with enough small details to make"
+    },
+    {
+      "timestamp": "13:33",
+      "text": "routine computer use feel oddly theatrical."
+    },
+    {
+      "timestamp": "13:37",
+      "text": "Bops puts a team of AI assistants inside a Mac app for business operations. Give the main bot a task and it can hand"
+    },
+    {
+      "timestamp": "13:44",
+      "text": "pieces to specialists, each working on a cloud computer you can watch or take over. Bots can use connected apps, keep"
+    },
+    {
+      "timestamp": "13:51",
+      "text": "context across conversations, and reply through chat or email, sending messages, paying and deleting wait for your approval."
+    },
+    {
+      "timestamp": "14:00",
+      "text": "Open chart is a trading chart app with AI agents built in using your own clawed codecs."
+    },
+    {
+      "timestamp": "14:07",
+      "text": "Describe a market condition in plain English and an agent writes a monitor for it in T. Open chart's own scripting language for market logic. draw a zone"
+    },
+    {
+      "timestamp": "14:16",
+      "text": "on the chart and when the price crosses it, an agent goes and researches the move, then annotates the chart with linked sources."
+    },
+    {
+      "timestamp": "14:24",
+      "text": "Jevd doc search finds the exact pages that answer a question in a 300page document with no vector database or"
+    },
+    {
+      "timestamp": "14:32",
+      "text": "embeddings. For a short doc, it makes every page an option in one multiple choice question and lets Jev score them"
+    },
+    {
+      "timestamp": "14:38",
+      "text": "all at once. For a long one, page index turns the document into a tree and Jev walks it one level at a time. So the"
+    },
+    {
+      "timestamp": "14:46",
+      "text": "option count stays small no matter how long the document is."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 52. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shaders makes WebGPU effects feel like ordinary UI components. Drop in a gradient, glass effect, distortion, or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor trail. Then stack and blend them without writing the shader yourself. The same library works with React, Vue, Spelt, Solid, and Plain JavaScript."
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also a visual editor. Tune an effect on a canvas, then export the component code straight into your project."
+        }
+      ]
+    },
+    {
+      "tStartMs": 35000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Remove MacA gives you a single place to quiet down Mac OS. On supported Apple Silicon Max, it can switch off selected"
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple Intelligence features, remove their downloaded models, disable analytics and personalized ads, and clean up old files taking up space."
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's a native app and a command line tool, and you review changes before applying them. If you change your mind, it keeps an undue history."
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SCS Killer tackles that annoying PC gaming hitch when a game compiles a new shader midplay. It scans a supported"
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "game shaders and pre-ompiles likely pipelines into your Nvidia or AMD driver cache before you launch. It finds games"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "across major launchers and can rebuild the cache after a driver update. It won't cure every stutter, but it targets shader compilation stalls directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "BBport is an experimental way to run Bloodborne on Linux using your own PS4 game dump. It runs the game's x8664 code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly on the PC, replaces the PlayStation system calls it needs, and translates its graphics to Vulcan."
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's a launcher, gamepad support, unlocked frame rates, and FSR upscaling."
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's already playable in tested areas, though a full playthrough hasn't been verified. GDPs tackles a dangerous little mistake."
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checking permission in one line, then forgetting to connect that check to the action it protects. In this TypeScript library, sensitive functions require a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proof that a specific user can act on a specific resource. Pass the wrong proof, or none at all, and the code won't type"
+        }
+      ]
+    },
+    {
+      "tStartMs": 132000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "check. A llinter guards against forged proofs, and a companion skill shows coding agents how to use the pattern."
+        }
+      ]
+    },
+    {
+      "tStartMs": 140000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenAI Math opens a window into how an internal AI model tackled open research problems. The repository holds 722"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mathematical manuscripts across 372 related families with papers, supporting materials, and some machine checked lean"
+        }
+      ]
+    },
+    {
+      "tStartMs": 156000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proofs. It also includes short summaries of the model's reasoning for selected results. These are research artifacts at different stages of verification."
+        }
+      ]
+    },
+    {
+      "tStartMs": 166000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Instinct is a personal AI agent you text over iMessage running on its own Linux desktop in a microVM. It does real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tasks and can even pay through a Stripe link wallet, but every tool call goes through a policy check first. People in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your life get one of six trust tiers from owner down to stranger, enforced in code, and you can grant exceptions in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plain English, like Sam can book us dinner."
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Free video brings local AI video generation to computers that don't have huge GPUs. It runs Miniax H3 through"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Comfy UI, shifting work between video memory, RAM, and disk to support some setups with as little as 8 GB of VRAM."
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Give it a prompt or visual references."
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Choose a quality level and check a quick preview before finishing the render. It supports Windows and Linux with a Mac preview."
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tendero hangs every new screenshot on a clothes line along the top of your Mac screen. Hover the menu bar and the line slides down. Click a shot to copy it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hold to open it in markup. Drag it into an app to send a copy or drag it into a folder to file it away. It takes over"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from the floating thumbnail, so there's no 5-second wait, and it puts your old settings back when you quit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PT for PC brings the famously hard to access horror teaser to Windows and Linux as a native port. Its creator"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rebuilt the game logic in C++ and the renderer in Vulcan. You supply the files from your own PS4 copy since the repo"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "includes no game assets. It plays through the full teaser and adds PC options like higher resolutions, photo mode, and a loop browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A Rust port of TypeScript's new Go compiler sounds like a dare, but TS Rust is a working experiment. Coding agents"
+        }
+      ]
+    },
+    {
+      "tStartMs": 274000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "helped port the compiler, type checker, and language server with an npm package you can try on a project. The author"
+        }
+      ]
+    },
+    {
+      "tStartMs": 281000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reports faster type checks than the Go version in their benchmarks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 286000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's still an early release with known compatibility issues, so this is one to test before relying on it. Ashi.rest"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adds moving as art to a web page without making you draw every frame. Its library ranges from spinners and charts to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "landscapes, language logos, and a rotating donut. Use it in React, Nex.js, or Astro, or drop a single custom tag"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into plain HTML. You can adjust the speed and color, and animations pause on their first frame for visitors who prefer reduced motion."
+        }
+      ]
+    },
+    {
+      "tStartMs": 317000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mento Code helps coding agents answer questions about a repo without repeatedly reading whole files. It first"
+        }
+      ]
+    },
+    {
+      "tStartMs": 324000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds plain text notes about the code, its functions, and how they connect. For each question, it pulls in the relevant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "notes and current source lines. You can use it with clawed code, codecs, or other agents. Its own benchmark shows"
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "much lower token use for oneshot answers with some loss in answer quality."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sloop turns the MVAVE FM1 into a groove box built for playing live. Based on Feluca firmware, it gives you three"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "synth tracks, drums, and loops you can record as you play, even letting your first take set the tempo. You can punch in effects, switch between song"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sections, sync to MIDI clock, and record the output over USB. A web editor handles sounds, samples, and backups."
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kandinsky 6 generates the picture and soundtrack together. Give it a text prompt or a starting image and it produces a 5-second video clip with synchronized audio including lip sync."
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The release includes a smaller light model, a larger pro model and a separate upscaler for full HD output. You can run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it with an Nvidia GPU or use integrations such as Comfy UI and diffusers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 394000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Worm builds a tiny neural network on the published wiring diagram of a 302 neuron worm. You can simulate a touch to its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 402000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nose or tail and watch how activity moves through the network. There's also an experimental bridge to local language"
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models. The worm state nudges response settings and tone. The neural responses have been tested against randomized wiring."
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The letters printed on a Commodore 64 keyboard have a look all their own. C64 keyboard recreates them from photos of a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real machine, including the arrows, function keys, and all 63 PET symbols printed on the key fronts. It's the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keycap lettering rather than the familiar pixelated screen font. You get desktop fonts, a web font, editable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "outlines, and a browser preview to try the symbols."
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gen X is a desktop workspace for making browser games with AI. Describe a game, watch the agents build it, then play the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 452000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "result beside the conversation and ask for changes. Your game stays as a local project you can edit or export. It supports different models for the main"
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent and its workers, plus plugins for tools like Blender and asset generation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Convity converts just about any file from the command line and keeps it all on your machine. Point it at a file, say"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "convict clip.move to MP4, and the output lands next to the original. It checks which conversion engines you have."
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FFmpeg for video and audio, Libre Office for Office files, PDFIM for PDFs, then picks a route, chaining up to three steps when nothing converts directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Durable actors gives each chat room, shared document, or agent its own stateful piece of back-end code. Its data survives restarts and calls are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 500000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "coordinated so simultaneous updates don't trample each other. You define an actor, generate a typed Python or TypeScript client and connect over"
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "websockets. It runs locally for development with a self-hosting path on GCP. When you're ready to deploy,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PI Pocket puts your PI coding agent in a phone friendly web app while the work runs on your own machine. You can steer a task, inspect diffs and live tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "output, or check the browser PI is using. Sessions are saved as they happen, so work can continue after a server restart. You can also invite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 535000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "teammates into a live session to share notes, chat, and take turns guiding the agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Showtime is a local video studio for your coding agent. Describe the video you want and the agent can assemble motion graphics, narration, music, captions, and footage on your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 553000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It shows a quick first look before the full render, then checks the finished video and saves the MP4 with its project files. It works with agents including"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "claude code and codecs without uploading your media to a video service."
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ammane is a Rust library for building your own Whan desktop shell. So the bars, panels, and launchers are plain Rust code you write. Your shell lives in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one main RS file, and Ammani Dev hot reloads it as you edit. Audio, network, Bluetooth, notifications, and workspaces"
+        }
+      ]
+    },
+    {
+      "tStartMs": 584000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "come built in as services along with a widget and animation system. It runs on any compositor with WR layer shell, so Neri, Hyperland, and Sway all work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 595000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Photo brings postshoot cleanup to your terminal. review JPEGs, find blurry shots and exact duplicates, filter by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "camera metadata, and see how a shoot unfolded over time. It can also build contact sheets, rename and sort photos,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or make smaller copies with location data removed before it changes your originals. Photo shows you the plan and waits for an explicit apply flag."
+        }
+      ]
+    },
+    {
+      "tStartMs": 620000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mortifix treats AI video making more like a motion design studio. Give it a brief and Claude works through the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "script, style frames, animatic, and final render, stopping for your approval at each stage. You can pin feedback to a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "specific frame or moment, then see how the next version addresses it. It runs on your machine with your own clawed code login or anthropic API key."
+        }
+      ]
+    },
+    {
+      "tStartMs": 644000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kakoru turns a single full body character illustration into a VRM avatar with an AI agent doing the heavy lifting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 651000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and you approving every step. You review in a local app, paste a request into the agent, and it generates eight angles,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds the 3D model through TIPO, then handles rigging, weights, and physics in Blender. The app updates on its own and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stops at the next checkpoint, so the AI never moves ahead without you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 672000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your coding agent doesn't need a million log entries dumped into its context to find one useful record. Leviathan"
+        }
+      ]
+    },
+    {
+      "tStartMs": 678000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "indexes CSV, JSON, SQLite, and database exports, then returns short ranked results with citations. You can narrow"
+        }
+      ]
+    },
+    {
+      "tStartMs": 686000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "searches by customer, date, or field, and connect it through a shell command or its MCP server. The index stays in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 693000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one local SQLite file. Birth lets you run coding agents on a VPS or spare desktop while working with them from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your laptop. Each task gets its own git work tree, terminal, and dev server. You can watch clawed code or codecs, step in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when they need you, and review finished work in the desktop app. Close your laptop and the agents keep running on the box."
+        }
+      ]
+    },
+    {
+      "tStartMs": 717000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent memory repo gives coding agents a simple way to carry useful context between sessions. a separate git repo. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "short memory.mmd points to link notes, projects, and even reusable scripts. The agent can read what it needs and commit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "new lessons as it works, while git keeps the history and catches conflicting edits. The repo includes a skill you can install to try the format."
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code mods is a pick your own set of plugins for the terminal. add a live context bar, watch plan usage, see which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 749000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sub agents are touching which files, or preview markdown as Claude edits it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's even a guard that pauses destructive commands and shows what they would affect. Each mod installs separately, so you can keep the useful bits and skip the extras."
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Animate is a clawed code skill for making short animated videos in code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You approve the story beats, look, and storyboard before it builds the motion."
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pick from seven styles like cut paper, risograph, and pixel art. Or give it references for a new look. It can time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 781000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cuts to your music, animate real product screenshots, and export vertical, square, or widescreen versions from one piece."
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Athanor turns an arch and hyperland desktop into a little alchemical dungeon. Its seven workspaces become"
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "planetary levels, while a roglike status bar shows your battery as HP and your free disc space as gold. Four color"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "schemes can shift with the sun and crashed programs get their own tombstones. It's an elaborate desktop theme with enough small details to make"
+        }
+      ]
+    },
+    {
+      "tStartMs": 813000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "routine computer use feel oddly theatrical."
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bops puts a team of AI assistants inside a Mac app for business operations. Give the main bot a task and it can hand"
+        }
+      ]
+    },
+    {
+      "tStartMs": 824000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pieces to specialists, each working on a cloud computer you can watch or take over. Bots can use connected apps, keep"
+        }
+      ]
+    },
+    {
+      "tStartMs": 831000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context across conversations, and reply through chat or email, sending messages, paying and deleting wait for your approval."
+        }
+      ]
+    },
+    {
+      "tStartMs": 840000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open chart is a trading chart app with AI agents built in using your own clawed codecs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 847000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Describe a market condition in plain English and an agent writes a monitor for it in T. Open chart's own scripting language for market logic. draw a zone"
+        }
+      ]
+    },
+    {
+      "tStartMs": 856000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on the chart and when the price crosses it, an agent goes and researches the move, then annotates the chart with linked sources."
+        }
+      ]
+    },
+    {
+      "tStartMs": 864000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jevd doc search finds the exact pages that answer a question in a 300page document with no vector database or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 872000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "embeddings. For a short doc, it makes every page an option in one multiple choice question and lets Jev score them"
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all at once. For a long one, page index turns the document into a tree and Jev walks it one level at a time. So the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "option count stays small no matter how long the document is."
+        }
+      ]
+    }
+  ]
+}

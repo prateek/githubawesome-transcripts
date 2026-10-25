@@ -1,0 +1,1489 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today 51 35 trending open source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Hindsight is an agent memory system from Vectorize built to help agents learn from what they've done beyond just recalling old chats. It sorts what it"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "keeps into world facts, the agents own experiences, observations backed by several memories, and mental models that"
+    },
+    {
+      "timestamp": "0:26",
+      "text": "update as it learns. Recall runs semantic, keyword, graph, and timebased searches in parallel, then reranks the results."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Real is a text diagram language that sits between mermaid style auto layout and dragging boxes around in excellent."
+    },
+    {
+      "timestamp": "0:45",
+      "text": "You write things like above left of the hub or between desktop one and laptop one. And a resolver treats those as minimum distances and finds the tightest"
+    },
+    {
+      "timestamp": "0:54",
+      "text": "layout that fits. It also reports overlaps, crossed edges, and text overflow without rendering."
+    },
+    {
+      "timestamp": "1:02",
+      "text": "Whiteboard is a desktop canvas where you and your coding agent design software together. Clawed code or codecs draws"
+    },
+    {
+      "timestamp": "1:09",
+      "text": "sequence and entity diagrams onto the canvas and clicking a box jumps you to the code behind it. Its diff viewer is"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "aware so big functions collapse into pseudo code and tests fold away. Agents also log their decisions so you can"
+    },
+    {
+      "timestamp": "1:24",
+      "text": "trace why something was built the way it was."
+    },
+    {
+      "timestamp": "1:28",
+      "text": "Neoor is a family of openw weight models trained from Quen 3.5 for coding and tool use. Its training harness routes"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "tasks among models, records their actions and outcomes, then uses that feedback to shape the next training mix."
+    },
+    {
+      "timestamp": "1:42",
+      "text": "The release includes 4B and 9B language models, plus a 4B Jev variant that scores predefined decisions. The"
+    },
+    {
+      "timestamp": "1:50",
+      "text": "repository describes recursive self-improvement as a goal."
+    },
+    {
+      "timestamp": "1:54",
+      "text": "Company brain is a Slack bot from Super Memory that remembers what your team says and can act on it. It only reads with the asker's own access. So a"
+    },
+    {
+      "timestamp": "2:04",
+      "text": "question in a public channel draws on shared memory while a DM can also pull from your private channels. It opens"
+    },
+    {
+      "timestamp": "2:10",
+      "text": "issues and reads PRs with writes running under your own credentials. It self-hosts on Cloudflare workers, but"
+    },
+    {
+      "timestamp": "2:18",
+      "text": "memory still runs through Super Memories API."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "CLM, short for contrastive language model, makes agent decisions by matching embeddings instead of generating text."
+    },
+    {
+      "timestamp": "2:29",
+      "text": "It encodes the state and each candidate action separately on a Quen 38B backbone with small trainable heads, then picks"
+    },
+    {
+      "timestamp": "2:36",
+      "text": "the action that lines up best. It serves through a Typesafe compatible API and the authors report parody with Jev at up to nine times lower latency."
+    },
+    {
+      "timestamp": "2:47",
+      "text": "Golive is an agent skill for codecs and claude code that takes the app your agent just built and puts it into production on your own accounts. It"
+    },
+    {
+      "timestamp": "2:55",
+      "text": "figures out what the app needs, shows you a plan for hosting, database, domain, email, and payments, and waits"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "for your approval before touching any provider. When it's done, it writes a handover file listing everything it created so you know exactly what you"
+    },
+    {
+      "timestamp": "3:12",
+      "text": "own. Cogsend is a self-hosted social scheduler that posts to Mastadon, Blue Sky, LinkedIn, Threads, and X from one"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "draft. You write once, tweak the copy per platform, and publish now or schedule it. It runs on Cloudflare workers with D1 and R2, and a per minute"
+    },
+    {
+      "timestamp": "3:29",
+      "text": "cron sends what's due. Failed posts retry five times, then park in a failed list instead of vanishing. Credentials"
+    },
+    {
+      "timestamp": "3:36",
+      "text": "are encrypted at rest and the admin account has 2FA."
+    },
+    {
+      "timestamp": "3:41",
+      "text": "Disk tree shows what's filling your drive as a map of nested blocks sized by the space files actually use. Zoom into"
+    },
+    {
+      "timestamp": "3:48",
+      "text": "a folder, spot bulky caches or old builds, and mark what you want to remove. Before anything goes, you review the full list and see how much space it"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "could free. It prefers the trash and permanent deletion asks for confirmation. It runs on Linux, Mac OS, and Windows."
+    },
+    {
+      "timestamp": "4:06",
+      "text": "Inkwave is a browser game where winning means painting more ground than the other team. You play threeinut fouron-"
+    },
+    {
+      "timestamp": "4:13",
+      "text": "matches against bots, switching between seven weapons and a squid form that swims through your ink and climbs painted walls. It's built with 3JS and"
+    },
+    {
+      "timestamp": "4:22",
+      "text": "runs without a build step. Even the characters, animations, textures, sound effects, and music are generated in code."
+    },
+    {
+      "timestamp": "4:31",
+      "text": "decision models locally. Much like Olama lets you run language models, give it a message, email, or ticket, and ask"
+    },
+    {
+      "timestamp": "4:39",
+      "text": "things like, \"Is this urgent?\" or \"What's the customer asking for?\" It returns scores and probabilities instead of generating a paragraph. You can pull"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "models by name, serve them through an API, and connect them to coding agents through MCP."
+    },
+    {
+      "timestamp": "4:54",
+      "text": "Jive is a terminal coding agent that turns a plan into an executable graph."
+    },
+    {
+      "timestamp": "4:59",
+      "text": "Instead of asking a large language model what to do after every tool call, it can run connected steps and use smaller"
+    },
+    {
+      "timestamp": "5:06",
+      "text": "decision models along the way. That makes it an interesting fit for repetitive work like reviewing lots of records or tracing errors across a code"
+    },
+    {
+      "timestamp": "5:14",
+      "text": "base where constant model round trips add up."
+    },
+    {
+      "timestamp": "5:18",
+      "text": "MW is a coding agent with a small judge handling routine decisions while the main model focuses on the code. The"
+    },
+    {
+      "timestamp": "5:26",
+      "text": "judge decides things like which tool output belongs in context, whether an action fits your instructions, and when"
+    },
+    {
+      "timestamp": "5:33",
+      "text": "a task is actually finished. Each verdict goes into a ledger you can inspect. You can even run a judge in shadow mode to see its decisions before letting them affect the agent."
+    },
+    {
+      "timestamp": "5:44",
+      "text": "Clifact Shortcuts looks through your coding agent history for requests you keep typing. It groups similar asks,"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "shows you the repeats, and lets you turn the useful ones into short project commands. So, did the newsletter reach"
+    },
+    {
+      "timestamp": "5:59",
+      "text": "everyone? Can become/sent with the right query and reporting steps saved behind it. The history extractor runs locally,"
+    },
+    {
+      "timestamp": "6:06",
+      "text": "and you choose which shortcuts get created."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Anadoodle makes handdrawn art with code, so the same source can produce an illustration, a drawing time lapse, or"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "an animated film. It includes 31 styles from charcoal and watercolor to woodcut and pixel art. You can even add music"
+    },
+    {
+      "timestamp": "6:25",
+      "text": "composed in code. The neat part is consistency. Render it again at a different size and the marks stay where"
+    },
+    {
+      "timestamp": "6:32",
+      "text": "you put them. Keel brings the coding agents you already use into one native Mac OS workspace. You can follow"
+    },
+    {
+      "timestamp": "6:39",
+      "text": "sessions, inspect changes, use a terminal, and see agents and the files they touch in a live graph. For new"
+    },
+    {
+      "timestamp": "6:46",
+      "text": "tasks, a local lia model can help choose which agent to use. Keel checks that choice and records the decision so you can see how the task was routed."
+    },
+    {
+      "timestamp": "6:56",
+      "text": "Logo design skill guides Claude through a logo project from the first brand brief to SVG concepts you can actually"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "test. It checks how each mark looks at tiny sizes in one color on different backgrounds and beside competitors."
+    },
+    {
+      "timestamp": "7:10",
+      "text": "There's also a searchable library of more than 1,400 real logos for studying design patterns. Once you pick a"
+    },
+    {
+      "timestamp": "7:18",
+      "text": "direction, it can build the icon set and brand guidelines."
+    },
+    {
+      "timestamp": "7:22",
+      "text": "Ship video turns a website URL or a short prompt into a launch video. An AI agent writes the animation as a single"
+    },
+    {
+      "timestamp": "7:29",
+      "text": "HTML page, checks how it looks at different moments, then renders each frame in a headless browser and encodes"
+    },
+    {
+      "timestamp": "7:36",
+      "text": "an MP4 with ffmpeg. The useful twist is that the video comes from editable web code, so its text, colors, and motion have a clear source."
+    },
+    {
+      "timestamp": "7:46",
+      "text": "Tidewater is a browser fishing game built around a tropical island you can explore on foot, underwater, or by boat."
+    },
+    {
+      "timestamp": "7:53",
+      "text": "Fish bite in different places and at different times, and you have to manage line tension to land them. Sell your catch, upgrade your gear, and head"
+    },
+    {
+      "timestamp": "8:01",
+      "text": "farther offshore. Its ocean and sky run on a custom web GPU engine, so you'll need a capable browser and GPU."
+    },
+    {
+      "timestamp": "8:10",
+      "text": "UE2 Studio generates full songs with vocals on your own Windows PC. Give it a style and lyrics, and UE2 writes a"
+    },
+    {
+      "timestamp": "8:18",
+      "text": "melody and chords as sheet music before performing the track. You can edit that score, then render the same composition with a different sound. It runs on"
+    },
+    {
+      "timestamp": "8:26",
+      "text": "UA2.cpp, CPP and the author reports a 338 song in about 46 seconds on an RTX 4090."
+    },
+    {
+      "timestamp": "8:35",
+      "text": "Rooms turns each project on your Mac into a saved set of windows and a layout. Press option space, type a room"
+    },
+    {
+      "timestamp": "8:43",
+      "text": "name, and its windows come back in place while everything else hides. It can adjust the layout for your laptop or an external monitor, and you can save your"
+    },
+    {
+      "timestamp": "8:52",
+      "text": "own arrangement. The windows stay open, and your room data stays on your Mac."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "Jevy is a desktop browser agent that plans with a language model and picks each action with Typesafe's Jev. It observes the page, turns the real"
+    },
+    {
+      "timestamp": "9:06",
+      "text": "controls on it into a list of choices and Jev picks one, so it never makes up a selector or writes its own JavaScript."
+    },
+    {
+      "timestamp": "9:13",
+      "text": "You can redirect it midtask on a 12 task slice of web arena verified. The author reports 10 passes."
+    },
+    {
+      "timestamp": "9:21",
+      "text": "Phantomat is a hyperland plugin that replaces workspaces with one infinite canvas. Every window sits on the same zoomable plane and multiple monitors"
+    },
+    {
+      "timestamp": "9:30",
+      "text": "show neighboring parts of it moving together like one desk. Hit super control G and it zooms out to show everything. Then type part of a window"
+    },
+    {
+      "timestamp": "9:39",
+      "text": "title to fly straight there. It remembers where everything was across restarts."
+    },
+    {
+      "timestamp": "9:45",
+      "text": "Product film is a clawed code skill that builds launch videos and landing page loops out of your product's real components with Remotion. It reads your"
+    },
+    {
+      "timestamp": "9:54",
+      "text": "design tokens and logos first, then writes a brand kit and a beat sheet. A Python script maps the beat grid of your"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "track so cuts land on the music. You approve stills and contact sheets before the final render, which comes out as a"
+    },
+    {
+      "timestamp": "10:08",
+      "text": "240fps master with motion blur. Omnibin puts tens of thousands of Nyx package commands on your path without installing"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "them all up front. A virtual file system knows which package provides each command and fetches its files from the"
+    },
+    {
+      "timestamp": "10:25",
+      "text": "Nyx cache only when you use it. You can even call a specific version like an older Python release. That's handy for"
+    },
+    {
+      "timestamp": "10:33",
+      "text": "disposable Linux environments, though the first run of a tool needs a download."
+    },
+    {
+      "timestamp": "10:38",
+      "text": "Changelog.ear Earth presents the news like patch notes for the planet. It gathers reporting, picks a few stories, and turns their headlines into short"
+    },
+    {
+      "timestamp": "10:47",
+      "text": "updates about discoveries, conservation wins, and things still unresolved. Each note keeps the original publisher, date,"
+    },
+    {
+      "timestamp": "10:55",
+      "text": "and source link, so you can check the story behind the joke. It also saves past editions and publishes an RSS feed."
+    },
+    {
+      "timestamp": "11:03",
+      "text": "Flux links an Omari desktop with an Android phone over your local network."
+    },
+    {
+      "timestamp": "11:08",
+      "text": "Once you pair them, you can move files and clipboard text, see phone notifications, control media, and even use the phone as a webcam or microphone."
+    },
+    {
+      "timestamp": "11:16",
+      "text": "There's a desktop app for everyday use and a CLI for scripts. Pairing shows a verification code on both devices, so you can check the right phone."
+    },
+    {
+      "timestamp": "11:28",
+      "text": "Interference search is a research project that explores reasoning through explicit states. It advances several"
+    },
+    {
+      "timestamp": "11:35",
+      "text": "possible moves at once, merges branches that reach the same state, and uses a small judge to drop dead ends. The"
+    },
+    {
+      "timestamp": "11:42",
+      "text": "approach performed well on the project's countdown arithmetic tests, while gains on code problems were much smaller. The repo includes its code, model weights, raw results, and failed experiments."
+    },
+    {
+      "timestamp": "11:55",
+      "text": "Bridge Clip turns long videos you have permission to use into short captioned clips. Drop in a file and it transcribes"
+    },
+    {
+      "timestamp": "12:02",
+      "text": "the speech, picks promising moments, refframes them for vertical or widescreen video and renders wordbyword captions. The final video is cut on your computer with ffmpeg."
+    },
+    {
+      "timestamp": "12:14",
+      "text": "Transcription and clip selection use your open router account, so audio and transcript data go to that provider."
+    },
+    {
+      "timestamp": "12:21",
+      "text": "Omari meeting recorder records your calls without a bot joining them, and the audio never leaves your machine. It captures your mic and the computer's"
+    },
+    {
+      "timestamp": "12:29",
+      "text": "audio as two separate tracks, then transcribes locally with whisper.cpp and labels who said what. Your coding agent"
+    },
+    {
+      "timestamp": "12:38",
+      "text": "adds chapters, and the only thing it sees is the transcript text. You get a waveform player and a transcript you can fix in line."
+    },
+    {
+      "timestamp": "12:47",
+      "text": "Retradata is a Rust command line tool for looking inside disk images without changing them. It reads MBR and GPT"
+    },
+    {
+      "timestamp": "12:54",
+      "text": "partition tables, checks header and entry CRC's, flags overlapping partitions, and identifies files by"
+    },
+    {
+      "timestamp": "13:01",
+      "text": "their signatures. You can also generate blank or deliberately damaged images for tests. Everything prints as JSON, and it runs fully offline."
+    },
+    {
+      "timestamp": "13:10",
+      "text": "Halo battery puts the battery level of each wireless peripheral in the Windows system tray, so you can close Synapse."
+    },
+    {
+      "timestamp": "13:17",
+      "text": "Every device gets its own ring icon that fills clockwise, turns amber when it's low, and breathes green while charging."
+    },
+    {
+      "timestamp": "13:23",
+      "text": "It talks directly to a Razer Black Shark V2 Pro, a WL mouse Beastex Max, and a Game Seir G7 Pro, and reads Bluetooth batteries from Windows."
+    },
+    {
+      "timestamp": "13:34",
+      "text": "Jev use lets you speak or type a task and have your Mac carry it out. It reads the current app's accessibility"
+    },
+    {
+      "timestamp": "13:41",
+      "text": "controls, asks Jev to choose the next action, then checks the screen again after acting. That means it can work without sending screenshots. Though your"
+    },
+    {
+      "timestamp": "13:50",
+      "text": "command and visible control details go to type safe, it needs a type-S safe API key and Mac OS accessibility permission."
+    },
+    {
+      "timestamp": "13:59",
+      "text": "Omoto brings compositor's layered image editor to Linux with special attention to Omari. It even follows your desktop"
+    },
+    {
+      "timestamp": "14:06",
+      "text": "theme. You can work with masks, selections, retouching tools, adjustment layers, and offline background removal."
+    },
+    {
+      "timestamp": "14:14",
+      "text": "It also opens and saves compositors, comp projects, so a layered edit can move between Linux and Mac without being flattened into a single image."
+    },
+    {
+      "timestamp": "14:24",
+      "text": "Jevp helps coding agents find the right file in an unfamiliar codebase. Ask where is authentication checked and it"
+    },
+    {
+      "timestamp": "14:32",
+      "text": "walks the repository, judges which files matter, then returns source excerpts with line numbers in one response. A"
+    },
+    {
+      "timestamp": "14:39",
+      "text": "companion skill shows agents when to use it. Relevant source content goes to the provider you configure, so check what you're comfortable sending."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today 51 35 trending open source projects on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hindsight is an agent memory system from Vectorize built to help agents learn from what they've done beyond just recalling old chats. It sorts what it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keeps into world facts, the agents own experiences, observations backed by several memories, and mental models that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "update as it learns. Recall runs semantic, keyword, graph, and timebased searches in parallel, then reranks the results."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Real is a text diagram language that sits between mermaid style auto layout and dragging boxes around in excellent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You write things like above left of the hub or between desktop one and laptop one. And a resolver treats those as minimum distances and finds the tightest"
+        }
+      ]
+    },
+    {
+      "tStartMs": 54000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "layout that fits. It also reports overlaps, crossed edges, and text overflow without rendering."
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whiteboard is a desktop canvas where you and your coding agent design software together. Clawed code or codecs draws"
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sequence and entity diagrams onto the canvas and clicking a box jumps you to the code behind it. Its diff viewer is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "aware so big functions collapse into pseudo code and tests fold away. Agents also log their decisions so you can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trace why something was built the way it was."
+        }
+      ]
+    },
+    {
+      "tStartMs": 88000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neoor is a family of openw weight models trained from Quen 3.5 for coding and tool use. Its training harness routes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tasks among models, records their actions and outcomes, then uses that feedback to shape the next training mix."
+        }
+      ]
+    },
+    {
+      "tStartMs": 102000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The release includes 4B and 9B language models, plus a 4B Jev variant that scores predefined decisions. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "repository describes recursive self-improvement as a goal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Company brain is a Slack bot from Super Memory that remembers what your team says and can act on it. It only reads with the asker's own access. So a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "question in a public channel draws on shared memory while a DM can also pull from your private channels. It opens"
+        }
+      ]
+    },
+    {
+      "tStartMs": 130000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "issues and reads PRs with writes running under your own credentials. It self-hosts on Cloudflare workers, but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "memory still runs through Super Memories API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CLM, short for contrastive language model, makes agent decisions by matching embeddings instead of generating text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It encodes the state and each candidate action separately on a Quen 38B backbone with small trainable heads, then picks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 156000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the action that lines up best. It serves through a Typesafe compatible API and the authors report parody with Jev at up to nine times lower latency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Golive is an agent skill for codecs and claude code that takes the app your agent just built and puts it into production on your own accounts. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "figures out what the app needs, shows you a plan for hosting, database, domain, email, and payments, and waits"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for your approval before touching any provider. When it's done, it writes a handover file listing everything it created so you know exactly what you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own. Cogsend is a self-hosted social scheduler that posts to Mastadon, Blue Sky, LinkedIn, Threads, and X from one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "draft. You write once, tweak the copy per platform, and publish now or schedule it. It runs on Cloudflare workers with D1 and R2, and a per minute"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cron sends what's due. Failed posts retry five times, then park in a failed list instead of vanishing. Credentials"
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are encrypted at rest and the admin account has 2FA."
+        }
+      ]
+    },
+    {
+      "tStartMs": 221000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Disk tree shows what's filling your drive as a map of nested blocks sized by the space files actually use. Zoom into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a folder, spot bulky caches or old builds, and mark what you want to remove. Before anything goes, you review the full list and see how much space it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "could free. It prefers the trash and permanent deletion asks for confirmation. It runs on Linux, Mac OS, and Windows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inkwave is a browser game where winning means painting more ground than the other team. You play threeinut fouron-"
+        }
+      ]
+    },
+    {
+      "tStartMs": 253000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matches against bots, switching between seven weapons and a squid form that swims through your ink and climbs painted walls. It's built with 3JS and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs without a build step. Even the characters, animations, textures, sound effects, and music are generated in code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 271000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decision models locally. Much like Olama lets you run language models, give it a message, email, or ticket, and ask"
+        }
+      ]
+    },
+    {
+      "tStartMs": 279000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "things like, \"Is this urgent?\" or \"What's the customer asking for?\" It returns scores and probabilities instead of generating a paragraph. You can pull"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models by name, serve them through an API, and connect them to coding agents through MCP."
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jive is a terminal coding agent that turns a plan into an executable graph."
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of asking a large language model what to do after every tool call, it can run connected steps and use smaller"
+        }
+      ]
+    },
+    {
+      "tStartMs": 306000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decision models along the way. That makes it an interesting fit for repetitive work like reviewing lots of records or tracing errors across a code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "base where constant model round trips add up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MW is a coding agent with a small judge handling routine decisions while the main model focuses on the code. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "judge decides things like which tool output belongs in context, whether an action fits your instructions, and when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 333000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a task is actually finished. Each verdict goes into a ledger you can inspect. You can even run a judge in shadow mode to see its decisions before letting them affect the agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clifact Shortcuts looks through your coding agent history for requests you keep typing. It groups similar asks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shows you the repeats, and lets you turn the useful ones into short project commands. So, did the newsletter reach"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everyone? Can become/sent with the right query and reporting steps saved behind it. The history extractor runs locally,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and you choose which shortcuts get created."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anadoodle makes handdrawn art with code, so the same source can produce an illustration, a drawing time lapse, or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an animated film. It includes 31 styles from charcoal and watercolor to woodcut and pixel art. You can even add music"
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "composed in code. The neat part is consistency. Render it again at a different size and the marks stay where"
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you put them. Keel brings the coding agents you already use into one native Mac OS workspace. You can follow"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sessions, inspect changes, use a terminal, and see agents and the files they touch in a live graph. For new"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tasks, a local lia model can help choose which agent to use. Keel checks that choice and records the decision so you can see how the task was routed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Logo design skill guides Claude through a logo project from the first brand brief to SVG concepts you can actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "test. It checks how each mark looks at tiny sizes in one color on different backgrounds and beside competitors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also a searchable library of more than 1,400 real logos for studying design patterns. Once you pick a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "direction, it can build the icon set and brand guidelines."
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ship video turns a website URL or a short prompt into a launch video. An AI agent writes the animation as a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 449000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HTML page, checks how it looks at different moments, then renders each frame in a headless browser and encodes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 456000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an MP4 with ffmpeg. The useful twist is that the video comes from editable web code, so its text, colors, and motion have a clear source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tidewater is a browser fishing game built around a tropical island you can explore on foot, underwater, or by boat."
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fish bite in different places and at different times, and you have to manage line tension to land them. Sell your catch, upgrade your gear, and head"
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "farther offshore. Its ocean and sky run on a custom web GPU engine, so you'll need a capable browser and GPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UE2 Studio generates full songs with vocals on your own Windows PC. Give it a style and lyrics, and UE2 writes a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "melody and chords as sheet music before performing the track. You can edit that score, then render the same composition with a different sound. It runs on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UA2.cpp, CPP and the author reports a 338 song in about 46 seconds on an RTX 4090."
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rooms turns each project on your Mac into a saved set of windows and a layout. Press option space, type a room"
+        }
+      ]
+    },
+    {
+      "tStartMs": 523000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "name, and its windows come back in place while everything else hides. It can adjust the layout for your laptop or an external monitor, and you can save your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 532000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own arrangement. The windows stay open, and your room data stays on your Mac."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jevy is a desktop browser agent that plans with a language model and picks each action with Typesafe's Jev. It observes the page, turns the real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 546000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "controls on it into a list of choices and Jev picks one, so it never makes up a selector or writes its own JavaScript."
+        }
+      ]
+    },
+    {
+      "tStartMs": 553000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can redirect it midtask on a 12 task slice of web arena verified. The author reports 10 passes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 561000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phantomat is a hyperland plugin that replaces workspaces with one infinite canvas. Every window sits on the same zoomable plane and multiple monitors"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "show neighboring parts of it moving together like one desk. Hit super control G and it zooms out to show everything. Then type part of a window"
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "title to fly straight there. It remembers where everything was across restarts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Product film is a clawed code skill that builds launch videos and landing page loops out of your product's real components with Remotion. It reads your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "design tokens and logos first, then writes a brand kit and a beat sheet. A Python script maps the beat grid of your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "track so cuts land on the music. You approve stills and contact sheets before the final render, which comes out as a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "240fps master with motion blur. Omnibin puts tens of thousands of Nyx package commands on your path without installing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them all up front. A virtual file system knows which package provides each command and fetches its files from the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nyx cache only when you use it. You can even call a specific version like an older Python release. That's handy for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "disposable Linux environments, though the first run of a tool needs a download."
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Changelog.ear Earth presents the news like patch notes for the planet. It gathers reporting, picks a few stories, and turns their headlines into short"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "updates about discoveries, conservation wins, and things still unresolved. Each note keeps the original publisher, date,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and source link, so you can check the story behind the joke. It also saves past editions and publishes an RSS feed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flux links an Omari desktop with an Android phone over your local network."
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Once you pair them, you can move files and clipboard text, see phone notifications, control media, and even use the phone as a webcam or microphone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's a desktop app for everyday use and a CLI for scripts. Pairing shows a verification code on both devices, so you can check the right phone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 688000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Interference search is a research project that explores reasoning through explicit states. It advances several"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "possible moves at once, merges branches that reach the same state, and uses a small judge to drop dead ends. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "approach performed well on the project's countdown arithmetic tests, while gains on code problems were much smaller. The repo includes its code, model weights, raw results, and failed experiments."
+        }
+      ]
+    },
+    {
+      "tStartMs": 715000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bridge Clip turns long videos you have permission to use into short captioned clips. Drop in a file and it transcribes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 722000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the speech, picks promising moments, refframes them for vertical or widescreen video and renders wordbyword captions. The final video is cut on your computer with ffmpeg."
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Transcription and clip selection use your open router account, so audio and transcript data go to that provider."
+        }
+      ]
+    },
+    {
+      "tStartMs": 741000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Omari meeting recorder records your calls without a bot joining them, and the audio never leaves your machine. It captures your mic and the computer's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 749000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "audio as two separate tracks, then transcribes locally with whisper.cpp and labels who said what. Your coding agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adds chapters, and the only thing it sees is the transcript text. You get a waveform player and a transcript you can fix in line."
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Retradata is a Rust command line tool for looking inside disk images without changing them. It reads MBR and GPT"
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "partition tables, checks header and entry CRC's, flags overlapping partitions, and identifies files by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 781000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "their signatures. You can also generate blank or deliberately damaged images for tests. Everything prints as JSON, and it runs fully offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Halo battery puts the battery level of each wireless peripheral in the Windows system tray, so you can close Synapse."
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every device gets its own ring icon that fills clockwise, turns amber when it's low, and breathes green while charging."
+        }
+      ]
+    },
+    {
+      "tStartMs": 803000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It talks directly to a Razer Black Shark V2 Pro, a WL mouse Beastex Max, and a Game Seir G7 Pro, and reads Bluetooth batteries from Windows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 814000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jev use lets you speak or type a task and have your Mac carry it out. It reads the current app's accessibility"
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "controls, asks Jev to choose the next action, then checks the screen again after acting. That means it can work without sending screenshots. Though your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command and visible control details go to type safe, it needs a type-S safe API key and Mac OS accessibility permission."
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Omoto brings compositor's layered image editor to Linux with special attention to Omari. It even follows your desktop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 846000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "theme. You can work with masks, selections, retouching tools, adjustment layers, and offline background removal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It also opens and saves compositors, comp projects, so a layered edit can move between Linux and Mac without being flattened into a single image."
+        }
+      ]
+    },
+    {
+      "tStartMs": 864000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jevp helps coding agents find the right file in an unfamiliar codebase. Ask where is authentication checked and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 872000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "walks the repository, judges which files matter, then returns source excerpts with line numbers in one response. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 879000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "companion skill shows agents when to use it. Relevant source content goes to the provider you configure, so check what you're comfortable sending."
+        }
+      ]
+    }
+  ]
+}

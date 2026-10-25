@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "id": "v_qRzycVoyg",
+  "title": "GitHub Trending Weekly #51: splash, coucou, dscode, onetake, reelmimic, Rungic, kcc, jeeves, zulu",
+  "url": "https://www.youtube.com/watch?v=v_qRzycVoyg",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-10-01",
+  "duration": 896,
+  "word_count": 2321,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-25T11:50:41+00:00",
+    "metadata_sha256": "21e31001fe631773536878c7686cc99f465c178279d3b66727ba3af94412a7ef",
+    "captions_sha256": "586335648d9592be891dfc8ecc92e71259eab896c84ff167bd11875ffba57d9c",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 51. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "splash",
+      "repositories": [
+        "https://github.com/incoai/splash"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Running a coding agent on your own Mac sounds great until the model slows everything down. Splash is a local inference engine for Apple silicon that pairs supported models with speculative decoding and custom metal kernels. It serves OpenAI and Anthropic compatible APIs, handles vision and tool calls, and connects to agents like Codeex and Open Code. You'll need an M3 or newer Mac and enough memory for your chosen model."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "coucou",
+      "repositories": [
+        "https://github.com/Louis-CFM/coucou"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "Cuckoo puts a little animated character named Mochi in your MacBook notch or your Windows taskbar and has it watch your clawed code sessions. You see each step as it happens, approve or deny permissions without switching windows and drop files straight onto it. There's no telemetry and credentials sit in the system keychain. Mochi comes with 28 handcrafted sounds."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "dscode",
+      "repositories": [
+        "https://github.com/qiz029/dscode"
+      ],
+      "id": "s004",
+      "end": 89,
+      "paragraphs": [
+        "Dcode is a terminal coding agent for Mac OS that lets its sessions work together. Its shell persists between turns so background jobs keep running while another terminal can inspect or steer the same session. You can hand work to child agents in separate git work trees and have an independent reviewer check the resulting diff. The same agent also runs from scripts and CI beyond its terminal interface."
+      ]
+    },
+    {
+      "start": 89,
+      "title": "onetake",
+      "repositories": [
+        "https://github.com/feitangyuan/onetake"
+      ],
+      "id": "s005",
+      "end": 117,
+      "paragraphs": [
+        "Ontake is a claude skill for launch videos shot as one continuous camera move where each beat grows out of the last instead of cutting away. It rebuilds your product's UI in HTML from screenshots so the camera can push into any zoom. Motion blur comes from real multis- sample capture across a 180 degree shutter. Every film gets an automatic continuity score before you see it, and anything too cut heavy gets rejected."
+      ]
+    },
+    {
+      "start": 117,
+      "title": "reelmimic",
+      "repositories": [
+        "https://github.com/edenfunf/reelmimic"
+      ],
+      "id": "s006",
+      "end": 143,
+      "paragraphs": [
+        "Real Mimic takes a reference video and breaks down its pacing, framing, colors, and transitions to plan a new 2D animation. You review the storyboard before Claude Code or Codeex agents build shots in parallel with separate agents checking the results. Then you can leave notes at exact moments for revisions. It's designed to borrow technique without reusing the references footage or characters."
+      ]
+    },
+    {
+      "start": 143,
+      "title": "agent-console",
+      "repositories": [
+        "https://github.com/LockedinLabs-AI/agent-console"
+      ],
+      "id": "s007",
+      "end": 169,
+      "paragraphs": [
+        "Agent console is a local dashboard for what your clawed code and codec sessions actually cost. It breaks tokens into cache reads, cache writes, output, and uncashed input and shows burn-in tokens per minute and dollars per hour. A team can point several machines at one self-hosted hub and only model IDs, token counts, and hashes leave each machine while prompts and file paths stay put."
+      ]
+    },
+    {
+      "start": 169,
+      "title": "Rungic",
+      "repositories": [
+        "https://github.com/kevinzhow/Rungic"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "Runic runs a Linux desktop alongside Android on a compatible phone. You can open apps like Firefox, Creda, and Blender, or cast the desktop to a TV. Its bundled assistant can operate those apps on a separate screen while you keep using your phone. It's still a private preview tested on a small set of Motorola devices, and preparing a phone can erase its data. Comic pages made for paper can look tiny and washed out on an"
+      ]
+    },
+    {
+      "start": 192,
+      "title": "kcc",
+      "repositories": [
+        "https://github.com/ciromattia/kcc"
+      ],
+      "id": "s009",
+      "end": 218,
+      "paragraphs": [
+        "e-reader. KCC or Kindle comic converter sizes them for your Kindle, Coobo, or Remarkable Screen, trims margins, adjusts black levels, and handles two-page spreads. Feed it image folders, comic archives, or supported PDFs. Then export a format your device can read. It's especially handy for DRM free comics you're allowed to convert."
+      ]
+    },
+    {
+      "start": 218,
+      "title": "jeeves",
+      "repositories": [
+        "https://github.com/PostHog/jeeves"
+      ],
+      "id": "s010",
+      "end": 245,
+      "paragraphs": [
+        "Jeves is built for when an app needs a decision. Route a support ticket, flag urgency, or score a customer's frustration. The 9B model reasons first, then returns probabilities for yes or no, multiplechoice, and rating questions through a Jev compatible API. Post hog has published the weights, training code, and data. There's a trade-off. Full reasoning takes longer and Jeves trails Jev on some knowledge tests."
+      ]
+    },
+    {
+      "start": 245,
+      "title": "tusk",
+      "repositories": [
+        "https://github.com/alpcanaydin/tusk"
+      ],
+      "id": "s011",
+      "end": 268,
+      "paragraphs": [
+        "Tusk is a native database client for Mac OS, Windows and Linux built around a keyboard driven data grid. It connects to Postgress SQL, SQLite, Reddus, MongoDB and more with SSH tunnels and editable rows. Ask its AI assistant a question and it reads the schema, writes SQL in a new tab and explains its assumptions. You review the query and decide whether to run it. Hypo lets you"
+      ]
+    },
+    {
+      "start": 268,
+      "title": "hypoarena",
+      "repositories": [
+        "https://github.com/OpSafari/hypoarena"
+      ],
+      "id": "s012",
+      "end": 291,
+      "paragraphs": [
+        "test the machinery behind AI scientist workflows before using them for research. It creates synthetic literature with known causal links, then runs mock agents through proposing, debating, ranking, and revising hypothesis. Checks flag weak citations and contradictory evidence, while reports show whether the planted links were recovered."
+      ]
+    },
+    {
+      "start": 291,
+      "title": "zulu",
+      "repositories": [
+        "https://github.com/slop-place/zulu"
+      ],
+      "id": "s013",
+      "end": 315,
+      "paragraphs": [
+        "Zulu is a native iOS client for Zulip built around the part that can get messy, topics. In channels that use them, Zulu presents each topic as a thread, so conversations stay separate and easier to revisit. In channels without topics, it shows a plain chat instead. The app chooses the view automatically, which could make busy Zulip channels easier to follow on a phone. ICode is a terminal workbench for AI agents and workflows that can run fully offline with no telemetry. A"
+      ]
+    },
+    {
+      "start": 315,
+      "title": "iCode",
+      "repositories": [
+        "https://github.com/openJiuwen-ai/iCode"
+      ],
+      "id": "s014",
+      "end": 339,
+      "paragraphs": [
+        "workflow shows its progress node by node with each agents model and tool calls in view. And F2 opens any agents instructions, tools, sub aents, and memory for editing. You can switch model providers midcon conversation and roll the code back to any earlier turn."
+      ]
+    },
+    {
+      "start": 339,
+      "title": "claude-motion-design",
+      "repositories": [
+        "https://github.com/howseen-ai/claude-motion-design"
+      ],
+      "id": "s015",
+      "end": 365,
+      "paragraphs": [
+        "Clawed motion design is a skill that builds motion design videos in plain HTML, then captures them frame by frame with playwright and ffmpeg. There's no remotion or gap underneath. Every frame comes from a seek function. Springs are solved in closed form and motion blur comes from blending subframes. It builds a beat map from your music and it detects audio peaks to play sound effects."
+      ]
+    },
+    {
+      "start": 365,
+      "title": "imajev",
+      "repositories": [
+        "https://github.com/mohit67890/imajev"
+      ],
+      "id": "s016",
+      "end": 390,
+      "paragraphs": [
+        "Emagev checks a photo against a record and answers and choices your app can use. Give it a product listing and an image for example and it returns probabilities for which field might be wrong. It can compare two photos, handle texton questions and say when it can't tell. The open models run on your hardware, but you'll need to test their confidence thresholds on your own cases."
+      ]
+    },
+    {
+      "start": 390,
+      "title": "qduo",
+      "repositories": [
+        "https://github.com/XueshiQiao/qduo"
+      ],
+      "id": "s017",
+      "end": 414,
+      "paragraphs": [
+        "Q Duo turns selected text on your Mac into an action menu beside the cursor. Highlight a sentence in a browser, PDF, or editor. Then translate it, hear it spoken, clean up its formatting, or ask a model about it. The result can replace the selection. If the text has moved, Qo copies it instead. Selected text goes to a model only when you choose an AI action."
+      ]
+    },
+    {
+      "start": 414,
+      "title": "blueprint-animation",
+      "repositories": [
+        "https://github.com/moguzbulbul/blueprint-animation"
+      ],
+      "id": "s018",
+      "end": 438,
+      "paragraphs": [
+        "Blueprint before after is a clawed design skill that turns a UI redesign into one continuous animation explaining why each change works. A scan line converts the old screen into a cyan blueprint. Only the changed parts move and resize with guides and dimension lines. Then a second sweep reveals the new design. Each fix gets a oneline explanation before the next step."
+      ]
+    },
+    {
+      "start": 438,
+      "title": "upm",
+      "repositories": [
+        "https://github.com/unjs/upm"
+      ],
+      "id": "s019",
+      "end": 462,
+      "paragraphs": [
+        "UPM is a tiny TypeScript package manager for npm that you can embed inside another tool. Its commands are importable JavaScript functions so an app can install or resolve dependencies without spawning a separate process. It understands common lock files and your existing npmrc. By default, it waits a day before accepting new releases and skips dependency install scripts."
+      ]
+    },
+    {
+      "start": 462,
+      "title": "agent-office",
+      "repositories": [
+        "https://github.com/AgentSystemLabs/agent-office"
+      ],
+      "id": "s020",
+      "end": 488,
+      "paragraphs": [
+        "Agent office gives your coding agents desks in a shared 3D office. Each GitHub repo becomes a floor, walk up to a worker to watch its live terminal, hand it an issue from the wall, or give it a separate Git work tree. Agents can coordinate through an MCP server, and there's a simpler 2D view for phones. It's charmingly literal, though the maintainer warns that features can change between releases."
+      ]
+    },
+    {
+      "start": 488,
+      "title": "hntui",
+      "repositories": [
+        "https://github.com/ahmd-sh/hntui"
+      ],
+      "id": "s021",
+      "end": 511,
+      "paragraphs": [
+        "N2E brings hacker news into your terminal, so you can browse without opening another tab. Jump between top, new, ask, show, and the other feeds. Then read comments with Vim keys or a mouse. Collapse long threads, save stories locally for later, and open an article in your browser when it catches your eye. It even has a night rider inspired loading animation."
+      ]
+    },
+    {
+      "start": 511,
+      "title": "threejs-particle-fluids",
+      "repositories": [
+        "https://github.com/dgreenheck/threejs-particle-fluids"
+      ],
+      "id": "s022",
+      "end": 537,
+      "paragraphs": [
+        "3.js particle fluids makes a browser scene feel surprisingly physical. Water splashes and pours, jelly shapes get squeezed, cloth drapes over objects, and smoke swirls through the air. The simulations run on the GPU through WebGPU with a live demo where you can drop water, change the particle count, and watch rubber ducks float or sink. It's a library you can use in your own 3JS scenes."
+      ]
+    },
+    {
+      "start": 537,
+      "title": "Naive-N0.5-Flash",
+      "repositories": [
+        "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash"
+      ],
+      "id": "s023",
+      "end": 565,
+      "paragraphs": [
+        "Naive N0.5 Flash is an openweight model built for coding and AI research. It has 309 billion parameters but activates about 15.5 billion at a time and its sparse attention design supports a native million token context window. The weights and inference code are released under MIT. Running it yourself takes serious hardware though. The FP8 weights alone occupy roughly 315 GB of GPU memory."
+      ]
+    },
+    {
+      "start": 565,
+      "title": "papermono-shopping-list",
+      "repositories": [
+        "https://github.com/seamusc/papermono-shopping-list"
+      ],
+      "id": "s024",
+      "end": 589,
+      "paragraphs": [
+        "Paper Mono shopping list turns an e-aper screen on your fridge into a shared grocery list. Add items from your phone, then take the screen and tick them off aisle by aisle. It works offline and syncs edits when Wi-Fi is available, so a dead zone in the store won't lose your list. There's even an optional claude feature that sorts new items into"
+      ]
+    },
+    {
+      "start": 589,
+      "title": "seiso",
+      "repositories": [
+        "https://github.com/scarletkc/seiso"
+      ],
+      "id": "s025",
+      "end": 616,
+      "paragraphs": [
+        "tackles a quiet problem with AI written project docs. A detail changes in one page, but two other pages keep repeating the old version. It gives each fact one home and asks other pages to link there. Its markdown llinter also flags vague references, short-lived numbers in longived docs, and pages mixing instructions with design decisions. Each finding points to the problem and explains what needs fixing. OpenAI's MCP"
+      ]
+    },
+    {
+      "start": 616,
+      "title": "mcp-extensions",
+      "repositories": [
+        "https://github.com/openai/mcp-extensions"
+      ],
+      "id": "s026",
+      "end": 640,
+      "paragraphs": [
+        "extensions add chat GPT specific hooks to MCP so a plugin can feel built into chat GPT instead of bolted on. There are four. a sidebar entry point for your app, file handlers that render your own viewer for a file type, composer mentions that let users search your resources and drop them into a message, and extended forms with things like thumbnail choices."
+      ]
+    },
+    {
+      "start": 640,
+      "title": "universal-modder",
+      "repositories": [
+        "https://github.com/rehan-remade/universal-modder"
+      ],
+      "id": "s027",
+      "end": 664,
+      "paragraphs": [
+        "Universal modder gives coding agents a playbook for making mods for PC games you own. It identifies the game engine, checks how others have modded it, backs up your saves, then helps build and test a mod in the running game. It can generate sprites, 3D assets, and sound, too. The project is aimed at offline, single player mods, and excludes multiplayer cheats."
+      ]
+    },
+    {
+      "start": 664,
+      "title": "gpui-fast",
+      "repositories": [
+        "https://github.com/longbridge/gpui-fast"
+      ],
+      "id": "s028",
+      "end": 688,
+      "paragraphs": [
+        "GPUi fast takes the UI framework behind zed and asks a simple question. Why redraw a whole window when only one part changed? This experimental fork keeps unchanged views and layouts from the previous frame, reducing work during scrolling and live updates. It also explores placing a native web view inside a GPUi window while keeping menus and popovers on top."
+      ]
+    },
+    {
+      "start": 688,
+      "title": "dioramas",
+      "repositories": [
+        "https://github.com/blendi-remade/dioramas"
+      ],
+      "id": "s029",
+      "end": 713,
+      "paragraphs": [
+        "Diuramas is a framework for websites where the 3D scene is the page. Its examples let you steer a submarine's lights, wipe condensation off a glass display, or crack open a geode. It pairs an AI image to 3D asset pipeline with a 3JS engine for lighting effects and scroll-driven camera moves. 20 complete example sites give you something concrete to explore and adapt."
+      ]
+    },
+    {
+      "start": 713,
+      "title": "DroidDeck",
+      "repositories": [
+        "https://github.com/Droid-Deck/DroidDeck"
+      ],
+      "id": "s030",
+      "end": 738,
+      "paragraphs": [
+        "Droid Deck tries to give an Android gaming handheld a Steam Deck feel on supported Adreno devices. It runs Steam in Big Picture mode and uses ARM 64 Proton to launch Windows games with no route required. There's also an optional Linux desktop and a store for ARM 64 Flatpack apps. It's still hardware dependent, so game compatibility and performance will vary from device to device."
+      ]
+    },
+    {
+      "start": 738,
+      "title": "omarchy-spaces",
+      "repositories": [
+        "https://github.com/tornikegomareli/omarchy-spaces"
+      ],
+      "id": "s031",
+      "end": 763,
+      "paragraphs": [
+        "Omari spaces makes the workspace switcher tell you what's actually open. Each workspace shows its app icons. Hover over one for a live preview, then click a window to jump straight to it. If you run clawed code or open code, optional badges show when an agent is working, finished, or waiting for your input. It's a small bar widget that makes a crowded desktop easier to navigate."
+      ]
+    },
+    {
+      "start": 763,
+      "title": "antigravity-fixer",
+      "repositories": [
+        "https://github.com/fulldiagnose/antigravity-fixer"
+      ],
+      "id": "s032",
+      "end": 790,
+      "paragraphs": [
+        "Antigravity fixer is a CLI that diagnoses why you can't get into Google's anti-gravity, the Gemini code assist IDE. It checks the usual culprits, incomplete age verification, stuck phone verification, a stale credential cache, and disconnected OOTH permissions, then clears the expired tokens, and walks you through fresh signin. It never stores your password and only touches local credentials and Google's own pages."
+      ]
+    },
+    {
+      "start": 790,
+      "title": "jobradar",
+      "repositories": [
+        "https://github.com/suvamneog/jobradar"
+      ],
+      "id": "s033",
+      "end": 814,
+      "paragraphs": [
+        "Job radar watches company career pages so you don't have to keep refreshing them. It spots new openings, marks closed ones, and scores each job against your resume with a short reason. A hard rule pushes senior roles down if you're looking for junior work, even when the skills match. You get daily alerts, a weekly ranked digest, and a local web page to search everything yourself. Arc Library is a collection of React components built around subtle physical"
+      ]
+    },
+    {
+      "start": 814,
+      "title": "arc-library",
+      "repositories": [
+        "https://github.com/kuratlielia/arc-library"
+      ],
+      "id": "s034",
+      "end": 842,
+      "paragraphs": [
+        "motion. Buttons respond, charts, transition between data sets, and a billing toggle rolls prices into place. The free repository includes 100 components and 22 larger blocks. You can add one through the Shad CN CLI or copy its source directly, then change the styling yourself. Keyboard support and reduced motion behavior are built in."
+      ]
+    },
+    {
+      "start": 842,
+      "title": "deck-as-controller",
+      "repositories": [
+        "https://github.com/jmedina21/deck-as-controller"
+      ],
+      "id": "s035",
+      "end": 869,
+      "paragraphs": [
+        "Deck as controller is a deck loader plugin that turns a Steam Deck into a wireless game pad for a Mac or iPad. It pairs over Bluetooth as a PS5 Dual Sense, a PS5 Edge, or an Xbox Elite Series 2. The screen turns off during play. Gyro and the trackpad work, and your Mac shows the deck's battery. The back end reconfigures Blue Z to free the HID channels and takes exclusive control of the deck's own gamepad."
+      ]
+    },
+    {
+      "start": 869,
+      "title": "CalcKernel",
+      "repositories": [
+        "https://github.com/luxine/CalcKernel"
+      ],
+      "id": "s036",
+      "end": 896,
+      "paragraphs": [
+        "Cal Kernel is a small language for writing the calculationheavy part of an app. Put typed functions, loops, and number crunching in a CK file, then compile it as a native library or export C or Web Assembly to use elsewhere. Your main app still handles the interface and data storage. It's a focused way to build numerical routines without moving an entire project into a new language."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 51. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Running a coding agent on your own Mac sounds great until the model slows everything down. Splash is a local inference engine for Apple silicon that"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "pairs supported models with speculative decoding and custom metal kernels. It serves OpenAI and Anthropic compatible"
+    },
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "text": "APIs, handles vision and tool calls, and connects to agents like Codeex and Open Code. You'll need an M3 or newer Mac and enough memory for your chosen model."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "Cuckoo puts a little animated character named Mochi in your MacBook notch or your Windows taskbar and has it watch"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "your clawed code sessions. You see each step as it happens, approve or deny permissions without switching windows"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "and drop files straight onto it. There's no telemetry and credentials sit in the system keychain. Mochi comes with 28 handcrafted sounds."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Dcode is a terminal coding agent for Mac OS that lets its sessions work together."
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "Its shell persists between turns so background jobs keep running while another terminal can inspect or steer"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "text": "the same session. You can hand work to child agents in separate git work trees and have an independent reviewer check"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "text": "the resulting diff. The same agent also runs from scripts and CI beyond its terminal interface."
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "Ontake is a claude skill for launch videos shot as one continuous camera move where each beat grows out of the last instead of cutting away. It"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "rebuilds your product's UI in HTML from screenshots so the camera can push into any zoom. Motion blur comes from real"
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "text": "multis- sample capture across a 180 degree shutter. Every film gets an automatic continuity score before you"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "text": "see it, and anything too cut heavy gets rejected."
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "Real Mimic takes a reference video and breaks down its pacing, framing, colors, and transitions to plan a new 2D animation."
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "You review the storyboard before Claude Code or Codeex agents build shots in parallel with separate agents checking the results. Then you can leave notes at"
+    },
+    {
+      "start": 135.0,
+      "end": 135.0,
+      "text": "exact moments for revisions. It's designed to borrow technique without reusing the references footage or characters."
+    },
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "Agent console is a local dashboard for what your clawed code and codec sessions actually cost. It breaks tokens into"
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "cache reads, cache writes, output, and uncashed input and shows burn-in tokens per minute and dollars per hour. A team"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "can point several machines at one self-hosted hub and only model IDs, token counts, and hashes leave each machine while prompts and file paths stay put."
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "Runic runs a Linux desktop alongside Android on a compatible phone. You can open apps like Firefox, Creda, and Blender, or cast the desktop to a TV."
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "Its bundled assistant can operate those apps on a separate screen while you keep using your phone. It's still a private preview tested on a small set of"
+    },
+    {
+      "start": 188.0,
+      "end": 188.0,
+      "text": "Motorola devices, and preparing a phone can erase its data. Comic pages made for paper can look tiny and washed out on an"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "e-reader. KCC or Kindle comic converter sizes them for your Kindle, Coobo, or Remarkable Screen, trims margins,"
+    },
+    {
+      "start": 203.0,
+      "end": 203.0,
+      "text": "adjusts black levels, and handles two-page spreads. Feed it image folders, comic archives, or supported PDFs. Then export a format your device can read."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "It's especially handy for DRM free comics you're allowed to convert."
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "Jeves is built for when an app needs a decision. Route a support ticket, flag urgency, or score a customer's frustration. The 9B model reasons first,"
+    },
+    {
+      "start": 227.0,
+      "end": 227.0,
+      "text": "then returns probabilities for yes or no, multiplechoice, and rating questions through a Jev compatible API. Post hog"
+    },
+    {
+      "start": 235.0,
+      "end": 235.0,
+      "text": "has published the weights, training code, and data. There's a trade-off."
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "Full reasoning takes longer and Jeves trails Jev on some knowledge tests."
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "Tusk is a native database client for Mac OS, Windows and Linux built around a keyboard driven data grid. It connects to Postgress SQL, SQLite, Reddus,"
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "MongoDB and more with SSH tunnels and editable rows. Ask its AI assistant a question and it reads the schema, writes"
+    },
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "SQL in a new tab and explains its assumptions. You review the query and decide whether to run it. Hypo lets you"
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "test the machinery behind AI scientist workflows before using them for research. It creates synthetic literature with known causal links, then"
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "runs mock agents through proposing, debating, ranking, and revising hypothesis."
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "Checks flag weak citations and contradictory evidence, while reports show whether the planted links were recovered."
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "Zulu is a native iOS client for Zulip built around the part that can get messy, topics. In channels that use"
+    },
+    {
+      "start": 298.0,
+      "end": 298.0,
+      "text": "them, Zulu presents each topic as a thread, so conversations stay separate and easier to revisit. In channels"
+    },
+    {
+      "start": 305.0,
+      "end": 305.0,
+      "text": "without topics, it shows a plain chat instead. The app chooses the view automatically, which could make busy Zulip channels easier to follow on a"
+    },
+    {
+      "start": 314.0,
+      "end": 314.0,
+      "text": "phone. ICode is a terminal workbench for AI agents and workflows that can run fully offline with no telemetry. A"
+    },
+    {
+      "start": 322.0,
+      "end": 322.0,
+      "text": "workflow shows its progress node by node with each agents model and tool calls in view. And F2 opens any agents"
+    },
+    {
+      "start": 329.0,
+      "end": 329.0,
+      "text": "instructions, tools, sub aents, and memory for editing. You can switch model providers midcon conversation and roll the code back to any earlier turn."
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "Clawed motion design is a skill that builds motion design videos in plain HTML, then captures them frame by frame"
+    },
+    {
+      "start": 347.0,
+      "end": 347.0,
+      "text": "with playwright and ffmpeg. There's no remotion or gap underneath. Every frame comes from a seek function. Springs are"
+    },
+    {
+      "start": 354.0,
+      "end": 354.0,
+      "text": "solved in closed form and motion blur comes from blending subframes. It builds a beat map from your music and it"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "detects audio peaks to play sound effects."
+    },
+    {
+      "start": 365.0,
+      "end": 365.0,
+      "text": "Emagev checks a photo against a record and answers and choices your app can use. Give it a product listing and an"
+    },
+    {
+      "start": 373.0,
+      "end": 373.0,
+      "text": "image for example and it returns probabilities for which field might be wrong. It can compare two photos, handle"
+    },
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "texton questions and say when it can't tell. The open models run on your hardware, but you'll need to test their confidence thresholds on your own cases."
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "Q Duo turns selected text on your Mac into an action menu beside the cursor."
+    },
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Highlight a sentence in a browser, PDF, or editor. Then translate it, hear it spoken, clean up its formatting, or ask"
+    },
+    {
+      "start": 402.0,
+      "end": 402.0,
+      "text": "a model about it. The result can replace the selection. If the text has moved, Qo copies it instead. Selected text goes to"
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "a model only when you choose an AI action."
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "Blueprint before after is a clawed design skill that turns a UI redesign into one continuous animation explaining"
+    },
+    {
+      "start": 421.0,
+      "end": 421.0,
+      "text": "why each change works. A scan line converts the old screen into a cyan blueprint. Only the changed parts move and resize with guides and dimension"
+    },
+    {
+      "start": 429.0,
+      "end": 429.0,
+      "text": "lines. Then a second sweep reveals the new design. Each fix gets a oneline explanation before the next step."
+    },
+    {
+      "start": 438.0,
+      "end": 438.0,
+      "text": "UPM is a tiny TypeScript package manager for npm that you can embed inside another tool. Its commands are importable JavaScript functions so an"
+    },
+    {
+      "start": 447.0,
+      "end": 447.0,
+      "text": "app can install or resolve dependencies without spawning a separate process. It understands common lock files and your existing npmrc."
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "By default, it waits a day before accepting new releases and skips dependency install scripts."
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "Agent office gives your coding agents desks in a shared 3D office. Each GitHub repo becomes a floor, walk up to a"
+    },
+    {
+      "start": 469.0,
+      "end": 469.0,
+      "text": "worker to watch its live terminal, hand it an issue from the wall, or give it a separate Git work tree. Agents can"
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "coordinate through an MCP server, and there's a simpler 2D view for phones."
+    },
+    {
+      "start": 482.0,
+      "end": 482.0,
+      "text": "It's charmingly literal, though the maintainer warns that features can change between releases."
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "N2E brings hacker news into your terminal, so you can browse without opening another tab. Jump between top, new, ask, show, and the other feeds."
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "Then read comments with Vim keys or a mouse. Collapse long threads, save stories locally for later, and open an"
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "article in your browser when it catches your eye. It even has a night rider inspired loading animation."
+    },
+    {
+      "start": 511.0,
+      "end": 511.0,
+      "text": "3.js particle fluids makes a browser scene feel surprisingly physical. Water splashes and pours, jelly shapes get"
+    },
+    {
+      "start": 519.0,
+      "end": 519.0,
+      "text": "squeezed, cloth drapes over objects, and smoke swirls through the air. The simulations run on the GPU through"
+    },
+    {
+      "start": 526.0,
+      "end": 526.0,
+      "text": "WebGPU with a live demo where you can drop water, change the particle count, and watch rubber ducks float or sink."
+    },
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "It's a library you can use in your own 3JS scenes."
+    },
+    {
+      "start": 537.0,
+      "end": 537.0,
+      "text": "Naive N0.5 Flash is an openweight model built for coding and AI research. It has 309 billion parameters but activates"
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "about 15.5 billion at a time and its sparse attention design supports a native million token context window. The"
+    },
+    {
+      "start": 553.0,
+      "end": 553.0,
+      "text": "weights and inference code are released under MIT. Running it yourself takes serious hardware though. The FP8 weights"
+    },
+    {
+      "start": 560.0,
+      "end": 560.0,
+      "text": "alone occupy roughly 315 GB of GPU memory."
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Paper Mono shopping list turns an e-aper screen on your fridge into a shared grocery list. Add items from your phone,"
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "then take the screen and tick them off aisle by aisle. It works offline and syncs edits when Wi-Fi is available, so"
+    },
+    {
+      "start": 580.0,
+      "end": 580.0,
+      "text": "a dead zone in the store won't lose your list. There's even an optional claude feature that sorts new items into"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "tackles a quiet problem with AI written project docs. A detail changes in one page, but two other pages keep repeating"
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "the old version. It gives each fact one home and asks other pages to link there."
+    },
+    {
+      "start": 603.0,
+      "end": 603.0,
+      "text": "Its markdown llinter also flags vague references, short-lived numbers in longived docs, and pages mixing"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "instructions with design decisions. Each finding points to the problem and explains what needs fixing. OpenAI's MCP"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "extensions add chat GPT specific hooks to MCP so a plugin can feel built into chat GPT instead of bolted on. There are"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "four. a sidebar entry point for your app, file handlers that render your own viewer for a file type, composer"
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "mentions that let users search your resources and drop them into a message, and extended forms with things like thumbnail choices."
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "Universal modder gives coding agents a playbook for making mods for PC games you own. It identifies the game engine,"
+    },
+    {
+      "start": 647.0,
+      "end": 647.0,
+      "text": "checks how others have modded it, backs up your saves, then helps build and test a mod in the running game. It can generate sprites, 3D assets, and sound,"
+    },
+    {
+      "start": 657.0,
+      "end": 657.0,
+      "text": "too. The project is aimed at offline, single player mods, and excludes multiplayer cheats."
+    },
+    {
+      "start": 664.0,
+      "end": 664.0,
+      "text": "GPUi fast takes the UI framework behind zed and asks a simple question. Why redraw a whole window when only one part"
+    },
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "changed? This experimental fork keeps unchanged views and layouts from the previous frame, reducing work during"
+    },
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "scrolling and live updates. It also explores placing a native web view inside a GPUi window while keeping menus and popovers on top."
+    },
+    {
+      "start": 688.0,
+      "end": 688.0,
+      "text": "Diuramas is a framework for websites where the 3D scene is the page. Its examples let you steer a submarine's lights, wipe condensation off a glass"
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "display, or crack open a geode. It pairs an AI image to 3D asset pipeline with a 3JS engine for lighting effects and"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "scroll-driven camera moves. 20 complete example sites give you something concrete to explore and adapt."
+    },
+    {
+      "start": 713.0,
+      "end": 713.0,
+      "text": "Droid Deck tries to give an Android gaming handheld a Steam Deck feel on supported Adreno devices. It runs Steam"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "in Big Picture mode and uses ARM 64 Proton to launch Windows games with no route required. There's also an optional"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "Linux desktop and a store for ARM 64 Flatpack apps. It's still hardware dependent, so game compatibility and"
+    },
+    {
+      "start": 735.0,
+      "end": 735.0,
+      "text": "performance will vary from device to device."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Omari spaces makes the workspace switcher tell you what's actually open. Each workspace shows its app icons."
+    },
+    {
+      "start": 746.0,
+      "end": 746.0,
+      "text": "Hover over one for a live preview, then click a window to jump straight to it."
+    },
+    {
+      "start": 750.0,
+      "end": 750.0,
+      "text": "If you run clawed code or open code, optional badges show when an agent is working, finished, or waiting for your input."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "It's a small bar widget that makes a crowded desktop easier to navigate."
+    },
+    {
+      "start": 763.0,
+      "end": 763.0,
+      "text": "Antigravity fixer is a CLI that diagnoses why you can't get into Google's anti-gravity, the Gemini code assist IDE. It checks the usual"
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "culprits, incomplete age verification, stuck phone verification, a stale credential cache, and disconnected OOTH"
+    },
+    {
+      "start": 779.0,
+      "end": 779.0,
+      "text": "permissions, then clears the expired tokens, and walks you through fresh signin. It never stores your password and only touches local credentials and Google's own pages."
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "Job radar watches company career pages so you don't have to keep refreshing them. It spots new openings, marks"
+    },
+    {
+      "start": 797.0,
+      "end": 797.0,
+      "text": "closed ones, and scores each job against your resume with a short reason. A hard rule pushes senior roles down if you're"
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "looking for junior work, even when the skills match. You get daily alerts, a weekly ranked digest, and a local web"
+    },
+    {
+      "start": 811.0,
+      "end": 811.0,
+      "text": "page to search everything yourself. Arc Library is a collection of React components built around subtle physical"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "motion. Buttons respond, charts, transition between data sets, and a billing toggle rolls prices into place."
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "The free repository includes 100 components and 22 larger blocks. You can add one through the Shad CN CLI or copy"
+    },
+    {
+      "start": 834.0,
+      "end": 834.0,
+      "text": "its source directly, then change the styling yourself. Keyboard support and reduced motion behavior are built in."
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "Deck as controller is a deck loader plugin that turns a Steam Deck into a wireless game pad for a Mac or iPad. It pairs over Bluetooth as a PS5 Dual"
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "Sense, a PS5 Edge, or an Xbox Elite Series 2. The screen turns off during play. Gyro and the trackpad work, and"
+    },
+    {
+      "start": 860.0,
+      "end": 860.0,
+      "text": "your Mac shows the deck's battery. The back end reconfigures Blue Z to free the HID channels and takes exclusive control of the deck's own gamepad."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "Cal Kernel is a small language for writing the calculationheavy part of an app. Put typed functions, loops, and"
+    },
+    {
+      "start": 876.0,
+      "end": 876.0,
+      "text": "number crunching in a CK file, then compile it as a native library or export C or Web Assembly to use elsewhere. Your"
+    },
+    {
+      "start": 884.0,
+      "end": 884.0,
+      "text": "main app still handles the interface and data storage. It's a focused way to build numerical routines without moving an entire project into a new language."
+    }
+  ]
+}

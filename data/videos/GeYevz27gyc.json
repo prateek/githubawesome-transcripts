@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "id": "GeYevz27gyc",
+  "title": "GitHub Trending Weekly #50: openmuse, open-glean, unreal-agent, BongoCat, laya-mlx, mini-AGI, flute",
+  "url": "https://www.youtube.com/watch?v=GeYevz27gyc",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-09-24",
+  "duration": 911,
+  "word_count": 2362,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-25T11:51:28+00:00",
+    "metadata_sha256": "1b59b8c04d4cbd75cddb953b2fc3e7a477c794e4ba4cf49e14a3ff7d68716255",
+    "captions_sha256": "21c82a47410ffaccc8bc34b9e6be161ad2e09b90eaace9ba00cd588bb3fe09c6",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 50. 35 trending open- source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "openmuse",
+      "repositories": [
+        "https://github.com/CopilotKit/openmuse"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Open Muse is a personal AI agent from Copilot Kit that does its work where you can see it. It gets a persistent browser, an optional Linux terminal in an isolated container, and read access to your Gmail and Google Calendar. And you follow the plan as it runs. If it's heading the wrong way, you take over the browser or terminal mid task. It runs on iOS, Android, and the web from one expo app."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "Search",
+      "repositories": [
+        "https://github.com/driceroland/Search"
+      ],
+      "id": "s003",
+      "end": 59,
+      "paragraphs": [
+        "Search is a Mac browser built to stay out of your way. It uses the web kit already on your machine, keeping the app around 3 megabytes. You get tabs, one field addresses, an ad blocker, and a way to hide clutter that keeps coming back. Passwords live in the Mac OS keychain. There's no account or sync, so your browsing history stays on that Mac."
+      ]
+    },
+    {
+      "start": 59,
+      "title": "open-glean",
+      "repositories": [
+        "https://github.com/hydra-db/open-glean"
+      ],
+      "id": "s004",
+      "end": 83,
+      "paragraphs": [
+        "Open Glean searches your files, notes, and connected apps through HydroDB, then uses your chosen model to write answers with source citations. Its deep research mode splits a question into smaller searches, runs independent branches in parallel, and combines their findings. You can host the interface yourself and choose an OpenAI compatible model endpoint."
+      ]
+    },
+    {
+      "start": 83,
+      "title": "unreal-agent",
+      "repositories": [
+        "https://github.com/unreallabsai/unreal-agent"
+      ],
+      "id": "s005",
+      "end": 110,
+      "paragraphs": [
+        "If an agent receives the same event twice, you don't want it doing the job twice. Unreal agent is an async firstgo harness built around that problem. It dduplicates inputs, persists sessions and operation state, and supports recovery and forks. Tool calls become serializable operations that execute outside the coordinator's event loop. That separation matters when a run fails halfway through. There's a record to resume from."
+      ]
+    },
+    {
+      "start": 110,
+      "title": "ZCode",
+      "repositories": [
+        "https://github.com/zai-org/ZCode"
+      ],
+      "id": "s006",
+      "end": 135,
+      "paragraphs": [
+        "Zcode puts the same coding agent runtime behind a desktop app, browser workspace, and terminal interface. You get a desktop app, a web workbench, and a terminal agent built from the same codebase. So, the interface you're in doesn't change what the agent knows. It works over SSH and WSL for remote projects. And the CLI piece runs standalone if you don't want Electron near your terminal."
+      ]
+    },
+    {
+      "start": 135,
+      "title": "BongoCat",
+      "repositories": [
+        "https://github.com/vladelaina/BongoCat"
+      ],
+      "id": "s007",
+      "end": 162,
+      "paragraphs": [
+        "Bongo Cat puts an animated cat on your desktop that reacts to your keyboard and mouse. Completely unnecessary, pretty charming. This native version uses C, SDL3, and OpenGL with support for custom models. It runs on Windows, Mac OS, and Linux, and the maintainers say your input stays local rather than being recorded or uploaded. Your desktop gets a tiny co-orker who takes typing far more seriously than you do."
+      ]
+    },
+    {
+      "start": 162,
+      "title": "laya-mlx",
+      "repositories": [
+        "https://github.com/mizorewww/laya-mlx"
+      ],
+      "id": "s008",
+      "end": 186,
+      "paragraphs": [
+        "LIA MLX handles small decisions that don't need a chatbot response. Give it a support message and candidate departments and it returns probabilities for each choice without generating text. This MLX port runs locally on Apple silicon without PyTorch or a cloud API. On an M3 Max, the maintainers report a 13.4 mm's median for a short English decision."
+      ]
+    },
+    {
+      "start": 186,
+      "title": "mini-AGI",
+      "repositories": [
+        "https://github.com/volotat/mini-AGI"
+      ],
+      "id": "s009",
+      "end": 213,
+      "paragraphs": [
+        "Mini AGI is a bite level language model you train from scratch on an 8 gigabyte GPU. It reads raw bytes with no tokenizer and pages its experts in from disk 32 at a time. It keeps learning as you feed it new data and the author reports 99.84% retention of what it learned earlier. The author calls it a toy model despite the name. Continual learning on a laptop GPU is the interesting part."
+      ]
+    },
+    {
+      "start": 213,
+      "title": "laya-coreml",
+      "repositories": [
+        "https://github.com/mizorewww/laya-coreml"
+      ],
+      "id": "s010",
+      "end": 237,
+      "paragraphs": [
+        "LiaML brings LIA's typed decisions to Apple's neural engine. Give it a short question and it returns probabilities for choices or scores without generating a paragraph. On an M3 Max, the maintainer reports a 4.98 millisecond median for one multilingual decision and a 2.78fold improvement in system energy per decision over compiled MLX."
+      ]
+    },
+    {
+      "start": 237,
+      "title": "nimble",
+      "repositories": [
+        "https://github.com/bespokelabsai/nimble"
+      ],
+      "id": "s011",
+      "end": 263,
+      "paragraphs": [
+        "Bespoke Nimble is a Quen 3.5-9B fine-tune that answers typed questions about text with no reasoning text. You hand it a schema of multiple choice or yes or no fields and it scores only the candidate answers returning JSON with a probability for each option. On their 324 example test set, the team reports 90.12% agreement, up from 66.36 for the base model."
+      ]
+    },
+    {
+      "start": 263,
+      "title": "vmodal_sdk_swift_iphoneduo",
+      "repositories": [
+        "https://github.com/v-modal/vmodal_sdk_swift_iphoneduo"
+      ],
+      "id": "s012",
+      "end": 287,
+      "paragraphs": [
+        "VMO's Swift SDK lets iOS and Mac OS apps search for moments inside video. Upload a clip, then look for a scene, spoken words, or text that appeared on screen. It handles streamed uploads, progress, cancellation, and typed search results with timestamps so your app can jump to the matching moment. VMO's backend does the indexing and search, and you'll need an API key. Magpie is a menu bar app that picks the model for all your coding"
+      ]
+    },
+    {
+      "start": 287,
+      "title": "magpie",
+      "repositories": [
+        "https://github.com/yetone/magpie"
+      ],
+      "id": "s013",
+      "end": 316,
+      "paragraphs": [
+        "agents from one place. It covers nine of them, including claude code, codecs, Gemini CLI, and cursor, and rewrites each config file in place without wrecking your comments or indentation. A local gateway speaks open AIS and Anthropics APIs and forwards to whichever vendor you chose. Profiles snapshot every agent's settings, so you can switch the whole setup at once."
+      ]
+    },
+    {
+      "start": 316,
+      "title": "NullMotion",
+      "repositories": [
+        "https://github.com/blixvip/NullMotion"
+      ],
+      "id": "s014",
+      "end": 345,
+      "paragraphs": [
+        "Null Motion plays a finished ad film at full width and runs black and white motion drafts underneath it, frame synced, so you can see how each section was built. FFmpeg scene detection splits splits the reference to three to eight sections and each draft is HTML and GSAP on a pause timeline driven by the film's clock. Export renders the whole thing to MP4 in the browser with web codecs. It's a tear down view for motion design and it runs entirely local."
+      ]
+    },
+    {
+      "start": 345,
+      "title": "shapeshift",
+      "repositories": [
+        "https://github.com/anishfn/shapeshift"
+      ],
+      "id": "s015",
+      "end": 371,
+      "paragraphs": [
+        "Shapeshift starts with one text box, then turns what you type into the right little tool. Dinner with Priya Friday becomes an event card. A shopping list becomes a checklist. Split 2400 between three calculates each share. Jev can identify the intent while ordinary code handles the dates and math. It also works offline with a built-in classifier and saved cards stay in your browser."
+      ]
+    },
+    {
+      "start": 371,
+      "title": "riso-windowseat",
+      "repositories": [
+        "https://github.com/sevenevesai/riso-windowseat"
+      ],
+      "id": "s016",
+      "end": 397,
+      "paragraphs": [
+        "Rizo Windows is a collection of procedural films, each living in a single HTML file. One follows a night train, another turns a flock of starings into moving Rizograph ink. Canvas draws the frames. Web audio handles the sound and the repo includes clawed code skills and rendering tools for making your own. Every frame depends on time alone, so you can jump to any moment and inspect it exactly."
+      ]
+    },
+    {
+      "start": 397,
+      "title": "flute",
+      "repositories": [
+        "https://github.com/webprodigies-org/flute"
+      ],
+      "id": "s017",
+      "end": 426,
+      "paragraphs": [
+        "Flute turns the React components you already have into cinematic 3D product shots. It installs into a Nex.js or Vitey app and your coding agent writes JSON scenes that point at your real UI with camera moves and depth of field layered on top. A built-in studio previews each scene and exports MP4 at up to 120 frames per second. Launch videos built from your actual interface instead of screenshots are the part that stands out."
+      ]
+    },
+    {
+      "start": 426,
+      "title": "arc-cua",
+      "repositories": [
+        "https://github.com/shhivv/arc-cua"
+      ],
+      "id": "s018",
+      "end": 451,
+      "paragraphs": [
+        "ARC CUA lets a computer use agent hand off the clickby-click part of a task. A planner sets the goal, allowed text, constraints, and success check. JV chooses actions from controls the Mac desktop exposes. It uses accessibility data and local OCR, then waits for the UI to settle before the next move. If it gets stuck or hits its action budget, it hands control back to the planner."
+      ]
+    },
+    {
+      "start": 451,
+      "title": "foremerge",
+      "repositories": [
+        "https://github.com/naw103/foremerge"
+      ],
+      "id": "s019",
+      "end": 475,
+      "paragraphs": [
+        "Former merge catches the merge conflict before anyone writes the code. When parallel coding agents publish what they plan to touch, it compares those intents. So if one agent plans to replace payment service while another plans to extend it, you hear about it now instead of at merge time. A verification gate runs your tests on a clean commit before anything lands."
+      ]
+    },
+    {
+      "start": 475,
+      "title": "fast-browser-use",
+      "repositories": [
+        "https://github.com/APUS-AI-Lab/fast-browser-use"
+      ],
+      "id": "s020",
+      "end": 499,
+      "paragraphs": [
+        "Browser agents sometimes try to click buttons that aren't there. Fast browser use scans the controls actually visible on a page, then asks a local model to choose from those options. It can navigate sites and fill forms as a skill for codeex or clawed code and leaves a trace you can check afterward. It runs on your machine, though the model needs substantial memory."
+      ]
+    },
+    {
+      "start": 499,
+      "title": "FluidUse",
+      "repositories": [
+        "https://github.com/FluidInference/FluidUse"
+      ],
+      "id": "s021",
+      "end": 523,
+      "paragraphs": [
+        "Fluid use a surprisingly small AI model for a familiar chore, filling out forms. On a Mac, it reads fields in a real app or browser, matches them to details you provide, and types the answers in. The decisions run on your device, and the repo reports about one millisecond per field. You handle anything that needs judgment, like essays, uploads, and clicking submit. Mr. Mac Workspace is a Windows desktop app that puts CodeCli or Claude code in one window and your"
+      ]
+    },
+    {
+      "start": 523,
+      "title": "mr-mak-workspace",
+      "repositories": [
+        "https://github.com/witnesstodark/mr-mak-workspace"
+      ],
+      "id": "s022",
+      "end": 548,
+      "paragraphs": [
+        "project files in the other. The right side has folders for your inbox, projects, knowledge, and processes with a markdown editor and preview built in. You can pin chats, color code tabs, and see which agent is still working. It ships with 14 project skills, including Blender Workflows."
+      ]
+    },
+    {
+      "start": 548,
+      "title": "ai-manager",
+      "repositories": [
+        "https://github.com/OnlistTeam/ai-manager"
+      ],
+      "id": "s023",
+      "end": 573,
+      "paragraphs": [
+        "AI manager is a desktop app that keeps your AI coding CLI in one place, forked from CC Switch. It detects 10 tools including Claude Code, Codeex, Gemini CLI, and Open Code, and installs, updates, or repairs them across npm, PNPM, Bun, or Volta. From the same window, you point each tool at an API endpoint and test it, add MCP servers, install skills, and search old sessions to pick them back up. Astra Flash Orchestrator splits a coding task between two models. Astra plans the work"
+      ]
+    },
+    {
+      "start": 573,
+      "title": "astra-flash-orchestrator",
+      "repositories": [
+        "https://github.com/ethanplusai/astra-flash-orchestrator"
+      ],
+      "id": "s024",
+      "end": 596,
+      "paragraphs": [
+        "and reviews the finished patch. A DeepSeek Flash sub agent handles implementation, tests, and routine fixes. The idea is to spend Astra's attention on decisions while Flash does the longer build loop. It includes phase task briefs, verification steps, and reversible setup."
+      ]
+    },
+    {
+      "start": 596,
+      "title": "JevRouter",
+      "repositories": [
+        "https://github.com/BillionsBobby/JevRouter"
+      ],
+      "id": "s025",
+      "end": 619,
+      "paragraphs": [
+        "Jevouter decides which tool your agent should reach for and stops there. It gathers models, sub aents, skills, MCP tools, and CLIs into one candidate list. Asks Typesafe's Jev a type choice question, then filters the answer through permission, availability, and risk checks. It never runs anything itself, and every decision goes into an appendon log."
+      ]
+    },
+    {
+      "start": 619,
+      "title": "skills",
+      "repositories": [
+        "https://github.com/isas1/skills"
+      ],
+      "id": "s026",
+      "end": 648,
+      "paragraphs": [
+        "ISIS 1 skills pack is three clawed skills for explaining work, and they pick between themselves based on what you want to end up holding. Eli 5 succinct gives a short plain language answer in chat and never writes a file. The summary skill writes one self-contained HTML page with modes you can stack accessible for ADHD or dyslexia, artistic and animated. It reads the actual files before it summarizes instead of working from memory."
+      ]
+    },
+    {
+      "start": 648,
+      "title": "ThinkingOrbs",
+      "repositories": [
+        "https://github.com/haplollc/ThinkingOrbs"
+      ],
+      "id": "s027",
+      "end": 673,
+      "paragraphs": [
+        "Thinking orbs is a swift UI port of Jako Benalik's thinking orbs animated loading indicators for AI interfaces. You drop in one line like thinking orb searching and get a dotted 3D sphere for that agent state with nine to choose from. They pause offcreen and respect reduce motion. The port was checked against the original TypeScript engine across 725,49 frames."
+      ]
+    },
+    {
+      "start": 673,
+      "title": "jev-voice-browser",
+      "repositories": [
+        "https://github.com/moritzkremb/jev-voice-browser"
+      ],
+      "id": "s028",
+      "end": 702,
+      "paragraphs": [
+        "Jev voice browser lets you drive a Chromium window by talking to it and it often acts before you finish the sentence. Partial transcripts go to type safeaf's jev with about a dozen typed questions and it picks the intent and the target instead of generating text. So URLs and search terms come through verbatim. Say no the other one and it corrects itself. The author reports about 300 milliseconds from your last word to a decision."
+      ]
+    },
+    {
+      "start": 702,
+      "title": "reflex",
+      "repositories": [
+        "https://github.com/kshetrajna12/reflex"
+      ],
+      "id": "s029",
+      "end": 730,
+      "paragraphs": [
+        "Reflex is a local decision model for jobs where you need a choice not a paragraph. Give it a support ticket, document, or photo and several fixed answer questions. It returns probabilities in one model pass. It asks each question with the options in two different orders to reduce position bias. There's a Jev compatible API, but you should calibrate the confidence numbers on your own data before using them as thresholds."
+      ]
+    },
+    {
+      "start": 730,
+      "title": "laya",
+      "repositories": [
+        "https://github.com/receptron/laya"
+      ],
+      "id": "s030",
+      "end": 753,
+      "paragraphs": [
+        "This lia package runs conveys decision model from Node.js and TypeScript with no Python and no PyTorch. It uses ONX runtime and the author says outputs match the Python reference to four decimal places. You pass a state like a ticket or an email plus typed questions and get back per option probabilities, a rubric score or a calibrated yes or no."
+      ]
+    },
+    {
+      "start": 753,
+      "title": "docjev",
+      "repositories": [
+        "https://github.com/jerryjliu/docjev"
+      ],
+      "id": "s031",
+      "end": 779,
+      "paragraphs": [
+        "A single PDF can contain several documents and sorting them by hand gets old fast. DocJev takes PDFs, word files, or slide decks, classifies them using rules you write, and splits combined packets into page ranges. It flags uncertain boundaries for review and can export the pieces as PDFs. Text extraction runs locally by default, but the extracted text goes to the hosted Jev service for decisions."
+      ]
+    },
+    {
+      "start": 779,
+      "title": "Jevmind",
+      "repositories": [
+        "https://github.com/dealerdefi/Jevmind"
+      ],
+      "id": "s032",
+      "end": 806,
+      "paragraphs": [
+        "Jevmin pulls an agent's decisions out of its text and treats them as data. Every call becomes a yes or no with confidence, a pick from a list, or a score on a scale. And code-based rules decide whether the agent gets to act on it. Each decision lands in a hashchained ledger before the outcome is known, gets graded afterward, and feeds back into calibration. Logging the guess before the result is the part worth copying."
+      ]
+    },
+    {
+      "start": 806,
+      "title": "ddc",
+      "repositories": [
+        "https://github.com/ejfkdev/ddc"
+      ],
+      "id": "s033",
+      "end": 833,
+      "paragraphs": [
+        "DDC is an Android decompiler written in Rust, going after the job Jadeex does. The author reports a 226 megabyte APK decompiled in 5 seconds and says all 99,689 output files across seven real APKs parse cleanly under Java. You don't always need a full decompile either. Over 20 subcomands answer questions like strings, cross references, and class hierarchies in milliseconds."
+      ]
+    },
+    {
+      "start": 833,
+      "title": "jeff",
+      "repositories": [
+        "https://github.com/logan-markewich/jeff"
+      ],
+      "id": "s034",
+      "end": 859,
+      "paragraphs": [
+        "Jeff is a self-hosted standin for Typesafe's Jev API. Point the official SDK at your own server and it answers choice score and yes or no questions using a 400 million parameter gllyformer model. The maintainer estimates about 2.6 per million single question requests on an L4 against 15.6 for Jev. Their benchmark shows the trade-off. Jeff trails Jev on harder reasoning tasks."
+      ]
+    },
+    {
+      "start": 859,
+      "title": "herdr-gpui",
+      "repositories": [
+        "https://github.com/penso/herdr-gpui"
+      ],
+      "id": "s035",
+      "end": 881,
+      "paragraphs": [
+        "Herder GPUi gives Herder a native Mac window for its terminal sessions, split panes, workspaces, and agent activity. It connects to a Herder Damon you install separately, then draws the terminal itself using Rust and GPUi. The useful bit is that the Damon owns the sessions. Close the window and your work keeps running until you attach again."
+      ]
+    },
+    {
+      "start": 881,
+      "title": "Glyd",
+      "repositories": [
+        "https://github.com/surya-koritala/Glyd"
+      ],
+      "id": "s036",
+      "end": 911,
+      "paragraphs": [
+        "Glide is a Rust lossless compressor built for logs, data dumps, and version backups. Its record mode groups fields from structured data before compressing them. Its base mode stores a new version against an older one, while a companion store can find that older match automatically. The appeal is smaller files and fast parallel reads. The trade-off is slower compression, especially when record mode has to parse the data first."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 50. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Open Muse is a personal AI agent from Copilot Kit that does its work where you can see it. It gets a persistent browser, an optional Linux terminal in"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "an isolated container, and read access to your Gmail and Google Calendar. And you follow the plan as it runs. If it's"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "heading the wrong way, you take over the browser or terminal mid task. It runs on iOS, Android, and the web from one expo app."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Search is a Mac browser built to stay out of your way. It uses the web kit already on your machine, keeping the app around 3 megabytes. You get tabs, one"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "field addresses, an ad blocker, and a way to hide clutter that keeps coming back. Passwords live"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "in the Mac OS keychain. There's no account or sync, so your browsing history stays on that Mac."
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "text": "Open Glean searches your files, notes, and connected apps through HydroDB, then uses your chosen model to write answers"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "with source citations. Its deep research mode splits a question into smaller searches, runs independent branches in parallel, and combines their findings."
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "You can host the interface yourself and choose an OpenAI compatible model endpoint."
+    },
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "text": "If an agent receives the same event twice, you don't want it doing the job twice."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Unreal agent is an async firstgo harness built around that problem. It dduplicates inputs, persists sessions and operation state, and supports"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "recovery and forks. Tool calls become serializable operations that execute outside the coordinator's event loop."
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "That separation matters when a run fails halfway through. There's a record to resume from."
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "Zcode puts the same coding agent runtime behind a desktop app, browser workspace, and terminal interface. You get a"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "desktop app, a web workbench, and a terminal agent built from the same codebase. So, the interface you're in doesn't change what the agent knows. It"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "works over SSH and WSL for remote projects. And the CLI piece runs standalone if you don't want Electron near your terminal."
+    },
+    {
+      "start": 135.0,
+      "end": 135.0,
+      "text": "Bongo Cat puts an animated cat on your desktop that reacts to your keyboard and mouse. Completely unnecessary, pretty"
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "charming. This native version uses C, SDL3, and OpenGL with support for custom models. It runs on Windows, Mac OS, and"
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "Linux, and the maintainers say your input stays local rather than being recorded or uploaded. Your desktop gets a tiny co-orker who takes typing far more seriously than you do."
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "LIA MLX handles small decisions that don't need a chatbot response. Give it a support message and candidate departments and it returns probabilities for each choice without generating text."
+    },
+    {
+      "start": 174.0,
+      "end": 174.0,
+      "text": "This MLX port runs locally on Apple silicon without PyTorch or a cloud API."
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "On an M3 Max, the maintainers report a 13.4 mm's median for a short English decision."
+    },
+    {
+      "start": 186.0,
+      "end": 186.0,
+      "text": "Mini AGI is a bite level language model you train from scratch on an 8 gigabyte GPU. It reads raw bytes with no"
+    },
+    {
+      "start": 193.0,
+      "end": 193.0,
+      "text": "tokenizer and pages its experts in from disk 32 at a time. It keeps learning as you feed it new data and the author"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "reports 99.84% retention of what it learned earlier."
+    },
+    {
+      "start": 205.0,
+      "end": 205.0,
+      "text": "The author calls it a toy model despite the name. Continual learning on a laptop GPU is the interesting part."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "LiaML brings LIA's typed decisions to Apple's neural engine. Give it a short question and it returns probabilities"
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "for choices or scores without generating a paragraph. On an M3 Max, the maintainer reports a 4.98 millisecond"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "median for one multilingual decision and a 2.78fold improvement in system energy per decision over compiled MLX."
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "Bespoke Nimble is a Quen 3.5-9B fine-tune that answers typed questions about text with no reasoning text. You"
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "hand it a schema of multiple choice or yes or no fields and it scores only the candidate answers returning JSON with a probability for each option. On their"
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "324 example test set, the team reports 90.12% agreement, up from 66.36 for the base model."
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "VMO's Swift SDK lets iOS and Mac OS apps search for moments inside video. Upload a clip, then look for a scene, spoken words, or text that appeared on screen."
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "It handles streamed uploads, progress, cancellation, and typed search results with timestamps so your app can jump to the matching moment. VMO's backend does"
+    },
+    {
+      "start": 284.0,
+      "end": 284.0,
+      "text": "the indexing and search, and you'll need an API key. Magpie is a menu bar app that picks the model for all your coding"
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "agents from one place. It covers nine of them, including claude code, codecs, Gemini CLI, and cursor, and rewrites"
+    },
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "each config file in place without wrecking your comments or indentation. A local gateway speaks open AIS and Anthropics APIs and forwards to"
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "whichever vendor you chose. Profiles snapshot every agent's settings, so you can switch the whole setup at once."
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "Null Motion plays a finished ad film at full width and runs black and white motion drafts underneath it, frame synced, so you can see how each section"
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "was built. FFmpeg scene detection splits splits the reference to three to eight sections and each draft is HTML and GSAP"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "on a pause timeline driven by the film's clock. Export renders the whole thing to MP4 in the browser with web codecs. It's"
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "a tear down view for motion design and it runs entirely local."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Shapeshift starts with one text box, then turns what you type into the right little tool. Dinner with Priya Friday"
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "becomes an event card. A shopping list becomes a checklist. Split 2400 between three calculates each share. Jev can"
+    },
+    {
+      "start": 361.0,
+      "end": 361.0,
+      "text": "identify the intent while ordinary code handles the dates and math. It also works offline with a built-in classifier and saved cards stay in your browser."
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "Rizo Windows is a collection of procedural films, each living in a single HTML file. One follows a night train, another turns a flock of starings"
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "into moving Rizograph ink. Canvas draws the frames. Web audio handles the sound and the repo includes clawed code skills and rendering tools for making your own."
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "Every frame depends on time alone, so you can jump to any moment and inspect it exactly."
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Flute turns the React components you already have into cinematic 3D product shots. It installs into a Nex.js or"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "Vitey app and your coding agent writes JSON scenes that point at your real UI with camera moves and depth of field"
+    },
+    {
+      "start": 412.0,
+      "end": 412.0,
+      "text": "layered on top. A built-in studio previews each scene and exports MP4 at up to 120 frames per second. Launch"
+    },
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "videos built from your actual interface instead of screenshots are the part that stands out."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "ARC CUA lets a computer use agent hand off the clickby-click part of a task. A planner sets the goal, allowed text,"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "constraints, and success check. JV chooses actions from controls the Mac desktop exposes. It uses accessibility"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "data and local OCR, then waits for the UI to settle before the next move. If it gets stuck or hits its action budget, it hands control back to the planner."
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "Former merge catches the merge conflict before anyone writes the code."
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "When parallel coding agents publish what they plan to touch, it compares those intents. So if one agent plans to"
+    },
+    {
+      "start": 463.0,
+      "end": 463.0,
+      "text": "replace payment service while another plans to extend it, you hear about it now instead of at merge time. A"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "verification gate runs your tests on a clean commit before anything lands."
+    },
+    {
+      "start": 475.0,
+      "end": 475.0,
+      "text": "Browser agents sometimes try to click buttons that aren't there. Fast browser use scans the controls actually visible"
+    },
+    {
+      "start": 482.0,
+      "end": 482.0,
+      "text": "on a page, then asks a local model to choose from those options. It can navigate sites and fill forms as a skill"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "for codeex or clawed code and leaves a trace you can check afterward. It runs on your machine, though the model needs substantial memory."
+    },
+    {
+      "start": 499.0,
+      "end": 499.0,
+      "text": "Fluid use a surprisingly small AI model for a familiar chore, filling out forms."
+    },
+    {
+      "start": 506.0,
+      "end": 506.0,
+      "text": "On a Mac, it reads fields in a real app or browser, matches them to details you provide, and types the answers in. The decisions run on your device, and the"
+    },
+    {
+      "start": 514.0,
+      "end": 514.0,
+      "text": "repo reports about one millisecond per field. You handle anything that needs judgment, like essays, uploads, and"
+    },
+    {
+      "start": 521.0,
+      "end": 521.0,
+      "text": "clicking submit. Mr. Mac Workspace is a Windows desktop app that puts CodeCli or Claude code in one window and your"
+    },
+    {
+      "start": 529.0,
+      "end": 529.0,
+      "text": "project files in the other. The right side has folders for your inbox, projects, knowledge, and processes with a markdown editor and preview built in."
+    },
+    {
+      "start": 539.0,
+      "end": 539.0,
+      "text": "You can pin chats, color code tabs, and see which agent is still working. It ships with 14 project skills, including Blender Workflows."
+    },
+    {
+      "start": 548.0,
+      "end": 548.0,
+      "text": "AI manager is a desktop app that keeps your AI coding CLI in one place, forked from CC Switch. It detects 10 tools"
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "including Claude Code, Codeex, Gemini CLI, and Open Code, and installs, updates, or repairs them across npm,"
+    },
+    {
+      "start": 562.0,
+      "end": 562.0,
+      "text": "PNPM, Bun, or Volta. From the same window, you point each tool at an API endpoint and test it, add MCP servers, install skills, and search old sessions"
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "to pick them back up. Astra Flash Orchestrator splits a coding task between two models. Astra plans the work"
+    },
+    {
+      "start": 579.0,
+      "end": 579.0,
+      "text": "and reviews the finished patch. A DeepSeek Flash sub agent handles implementation, tests, and routine fixes. The idea is to spend Astra's"
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "attention on decisions while Flash does the longer build loop. It includes phase task briefs, verification steps, and reversible setup."
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Jevouter decides which tool your agent should reach for and stops there. It gathers models, sub aents, skills, MCP tools, and CLIs into one candidate list."
+    },
+    {
+      "start": 607.0,
+      "end": 607.0,
+      "text": "Asks Typesafe's Jev a type choice question, then filters the answer through permission, availability, and risk checks. It never runs anything"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "itself, and every decision goes into an appendon log."
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "ISIS 1 skills pack is three clawed skills for explaining work, and they pick between themselves based on what you want to end up holding. Eli 5"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "succinct gives a short plain language answer in chat and never writes a file."
+    },
+    {
+      "start": 633.0,
+      "end": 633.0,
+      "text": "The summary skill writes one self-contained HTML page with modes you can stack accessible for ADHD or"
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "dyslexia, artistic and animated. It reads the actual files before it summarizes instead of working from memory."
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "Thinking orbs is a swift UI port of Jako Benalik's thinking orbs animated loading indicators for AI interfaces. You drop"
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "in one line like thinking orb searching and get a dotted 3D sphere for that agent state with nine to choose from."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "They pause offcreen and respect reduce motion. The port was checked against the original TypeScript engine across 725,49 frames."
+    },
+    {
+      "start": 674.0,
+      "end": 674.0,
+      "text": "Jev voice browser lets you drive a Chromium window by talking to it and it often acts before you finish the sentence. Partial transcripts go to type"
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "safeaf's jev with about a dozen typed questions and it picks the intent and the target instead of generating text."
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "So URLs and search terms come through verbatim. Say no the other one and it corrects itself. The author reports"
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "about 300 milliseconds from your last word to a decision."
+    },
+    {
+      "start": 702.0,
+      "end": 702.0,
+      "text": "Reflex is a local decision model for jobs where you need a choice not a paragraph. Give it a support ticket, document, or photo and several fixed"
+    },
+    {
+      "start": 711.0,
+      "end": 711.0,
+      "text": "answer questions. It returns probabilities in one model pass. It asks each question with the options in two different orders to reduce position"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "bias. There's a Jev compatible API, but you should calibrate the confidence numbers on your own data before using them as thresholds."
+    },
+    {
+      "start": 730.0,
+      "end": 730.0,
+      "text": "This lia package runs conveys decision model from Node.js and TypeScript with no Python and no PyTorch. It uses ONX"
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "runtime and the author says outputs match the Python reference to four decimal places. You pass a state like a ticket or an email plus typed questions"
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "and get back per option probabilities, a rubric score or a calibrated yes or no."
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "A single PDF can contain several documents and sorting them by hand gets old fast. DocJev takes PDFs, word files,"
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "or slide decks, classifies them using rules you write, and splits combined packets into page ranges. It flags uncertain boundaries for review and can export the pieces as PDFs."
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "Text extraction runs locally by default, but the extracted text goes to the hosted Jev service for decisions."
+    },
+    {
+      "start": 779.0,
+      "end": 779.0,
+      "text": "Jevmin pulls an agent's decisions out of its text and treats them as data. Every call becomes a yes or no with"
+    },
+    {
+      "start": 786.0,
+      "end": 786.0,
+      "text": "confidence, a pick from a list, or a score on a scale. And code-based rules decide whether the agent gets to act on it. Each decision lands in a hashchained"
+    },
+    {
+      "start": 795.0,
+      "end": 795.0,
+      "text": "ledger before the outcome is known, gets graded afterward, and feeds back into calibration."
+    },
+    {
+      "start": 801.0,
+      "end": 801.0,
+      "text": "Logging the guess before the result is the part worth copying."
+    },
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "DDC is an Android decompiler written in Rust, going after the job Jadeex does."
+    },
+    {
+      "start": 812.0,
+      "end": 812.0,
+      "text": "The author reports a 226 megabyte APK decompiled in 5 seconds and says all 99,689"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "output files across seven real APKs parse cleanly under Java. You don't always need a full decompile either."
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "Over 20 subcomands answer questions like strings, cross references, and class hierarchies in milliseconds."
+    },
+    {
+      "start": 833.0,
+      "end": 833.0,
+      "text": "Jeff is a self-hosted standin for Typesafe's Jev API. Point the official SDK at your own server and it answers"
+    },
+    {
+      "start": 840.0,
+      "end": 840.0,
+      "text": "choice score and yes or no questions using a 400 million parameter gllyformer model. The maintainer estimates about"
+    },
+    {
+      "start": 848.0,
+      "end": 848.0,
+      "text": "2.6 per million single question requests on an L4 against 15.6 for Jev. Their benchmark shows the trade-off. Jeff trails Jev on harder reasoning tasks."
+    },
+    {
+      "start": 859.0,
+      "end": 859.0,
+      "text": "Herder GPUi gives Herder a native Mac window for its terminal sessions, split panes, workspaces, and agent activity."
+    },
+    {
+      "start": 867.0,
+      "end": 867.0,
+      "text": "It connects to a Herder Damon you install separately, then draws the terminal itself using Rust and GPUi. The useful bit is that the Damon owns the"
+    },
+    {
+      "start": 876.0,
+      "end": 876.0,
+      "text": "sessions. Close the window and your work keeps running until you attach again."
+    },
+    {
+      "start": 881.0,
+      "end": 881.0,
+      "text": "Glide is a Rust lossless compressor built for logs, data dumps, and version backups. Its record mode groups fields"
+    },
+    {
+      "start": 888.0,
+      "end": 888.0,
+      "text": "from structured data before compressing them. Its base mode stores a new version against an older one, while a companion store can find that older match"
+    },
+    {
+      "start": 897.0,
+      "end": 897.0,
+      "text": "automatically. The appeal is smaller files and fast parallel reads. The trade-off is slower compression,"
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "especially when record mode has to parse the data first."
+    }
+  ]
+}
