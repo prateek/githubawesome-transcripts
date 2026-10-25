@@ -9,6 +9,10 @@ on:
         type: choice
         options: [ubuntu-latest, macos-latest]
         default: ubuntu-latest
+      max_videos:
+        description: Maximum caption attempts for this run
+        type: number
+        default: 10
   push:
     branches: [main]
     paths-ignore: ["data/**"]
@@ -39,7 +43,9 @@ jobs:
         id: collect
         if: github.event_name != 'push'
         continue-on-error: true
-        run: uv run python -m archive sync --max-videos 10 --delay 15
+        env:
+          MAX_VIDEOS: ${{ inputs.max_videos || 10 }}
+        run: uv run python -m archive sync --max-videos "$MAX_VIDEOS" --delay 15
       - name: Copy-edit using free models
         id: clean
         if: github.event_name != 'push'
