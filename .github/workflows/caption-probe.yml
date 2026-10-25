@@ -15,4 +15,4 @@ jobs:
           install: false
       - uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9
       - run: python3 scripts/probe-runtime/camofox-runtime.py install
-      - run: uv run --with youtube-transcript-api python scripts/caption_probe.py
+      - run: uv run python -m scripts.caption_probe
