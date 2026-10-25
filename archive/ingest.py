@@ -1,4 +1,5 @@
 import json
+import os
 import time
 from datetime import UTC, datetime, timedelta
 from urllib.error import HTTPError
@@ -136,7 +137,11 @@ def discover(config, root, limit=None):
 
 def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=None):
     previous = read_json(root / "catalog.json", {})
-    if previous.get("retry_after", "") > now():
+    runner = os.environ.get("RUNNER_OS", "local")
+    if (
+        max(previous.get("retry_after", ""), previous.get("runner_blocks", {}).get(runner, ""))
+        > now()
+    ):
         print("YouTube cooldown is active; keeping the existing dataset.")
         return previous
     catalog = discover(config, root, discovery_limit)
@@ -188,7 +193,10 @@ def sync(config, root, max_videos=10, delay=15, refresh=False, discovery_limit=N
             )
             write_json(root / "catalog.json", catalog)
             if stop:
-                catalog["retry_after"] = entry["retry_after"]
+                if isinstance(error, BotVerificationRequired):
+                    catalog.setdefault("runner_blocks", {})[runner] = entry["retry_after"]
+                else:
+                    catalog["retry_after"] = entry["retry_after"]
                 break
         write_json(root / "catalog.json", catalog)
     write_json(root / "catalog.json", catalog)
