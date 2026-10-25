@@ -23,14 +23,17 @@ class BotVerificationRequired(RateLimited):
 
 
 class QuietLogger:
+    blocked = False
+
     def debug(self, message):
         pass
 
     def warning(self, message):
-        pass
+        if "not a bot" in message.lower():
+            self.blocked = True
 
     def error(self, message):
-        pass
+        self.warning(message)
 
 
 def now():

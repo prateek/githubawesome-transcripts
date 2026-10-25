@@ -62,8 +62,9 @@ See [the dataset format](docs/dataset.md) before consuming or changing the schem
 
 YouTube may block caption requests from GitHub-hosted runners. Missing tracks,
 private/deleted videos, and rate limits remain visible in `data/catalog.json`.
-A failed refresh preserves previously retrieved data. An HTTP 429 pauses collection
-for 24 hours. Collection does not promise complete channel coverage.
+A failed refresh preserves previously retrieved data. An HTTP 429 or detected bot block pauses collection
+for 24 hours. Manual runs can select a standard macOS runner to diagnose
+platform-specific extraction failures. Collection does not promise complete channel coverage.
 
 Automatic captions can misrecognize project names. AI copy-editing can also change
 meaning; structural and length checks cannot establish factual fidelity. Every
