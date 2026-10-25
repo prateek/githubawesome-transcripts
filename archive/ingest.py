@@ -87,6 +87,9 @@ def fetch_video(video_id, channel_id):
         with extractor() as ydl:
             info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
         if info.get("channel_id") != channel_id:
+            print(
+                f"Metadata channel: {info.get('channel_id')!r}; expected: {channel_id}", flush=True
+            )
             raise ValueError("Video does not belong to the configured channel")
         language, kind, url = choose_track(info)
         with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as response:
