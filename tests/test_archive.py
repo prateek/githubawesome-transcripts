@@ -189,3 +189,62 @@ def test_build_publishes_edition_and_search(tmp_path, metadata):
     assert "#/video/abcdefghijk" in (tmp_path / "dist/feed.xml").read_text()
     with pytest.raises(ValueError):
         build(tmp_path, tmp_path)
+
+
+def test_failed_edits_rotate_through_backlog(tmp_path, record, monkeypatch):
+    import copy
+
+    second = copy.deepcopy(record)
+    second["id"] = "lmnopqrstuv"
+    write_json(tmp_path / "videos/abcdefghijk.json", record)
+    write_json(tmp_path / "videos/lmnopqrstuv.json", second)
+    monkeypatch.setenv("OPENROUTER_API_KEY", "synthetic-test-key")
+    attempted = []
+
+    def reject(record, key):
+        attempted.append(record["id"])
+        raise ValueError("bad output")
+
+    monkeypatch.setattr(cleanup, "request_cleanup", reject)
+    cleanup.clean_pending(tmp_path, max_videos=1, delay=0)
+    cleanup.clean_pending(tmp_path, max_videos=1, delay=0)
+    assert len(set(attempted)) == 2
+
+
+def test_rate_limit_stops_batch_and_next_run(tmp_path, monkeypatch):
+    from archive import ingest
+
+    catalog = {
+        "videos": [
+            {"id": "abcdefghijk", "title": "First"},
+            {"id": "lmnopqrstuv", "title": "Second"},
+        ]
+    }
+    calls = []
+    monkeypatch.setattr(ingest, "discover", lambda *args: catalog)
+
+    def limited(*args):
+        calls.append(args[0])
+        raise ingest.RateLimited()
+
+    monkeypatch.setattr(ingest, "fetch_video", limited)
+    ingest.sync({"channel_id": "test"}, tmp_path, delay=0)
+    ingest.sync({"channel_id": "test"}, tmp_path, delay=0)
+    assert calls == ["abcdefghijk"]
+    assert read_json(tmp_path / "catalog.json")["videos"][0]["status"] == "retry"
+
+
+def test_refresh_failure_preserves_readable_video(tmp_path, metadata, monkeypatch):
+    from archive import ingest
+
+    original = store_video(tmp_path, metadata, captions((0, 2, "Hello.")), "en", "manual", "now")
+    catalog = {"videos": [{"id": metadata["id"], "title": metadata["title"], "status": "ready"}]}
+    monkeypatch.setattr(ingest, "discover", lambda *args: catalog)
+
+    def missing(*args):
+        raise CaptionsUnavailable()
+
+    monkeypatch.setattr(ingest, "fetch_video", missing)
+    ingest.sync({"channel_id": "test"}, tmp_path, refresh=True, delay=0)
+    assert read_json(tmp_path / "videos" / f"{metadata['id']}.json") == original
+    assert read_json(tmp_path / "catalog.json")["videos"][0]["status"] == "ready"

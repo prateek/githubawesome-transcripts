@@ -114,7 +114,10 @@ def clean_pending(root, max_videos=5, delay=4):
     if budget.get("date") != today:
         budget = {"date": today, "requests": 0}
     attempts = 0
-    for record in records(root):
+    history_path = root / "cleanup-attempts.json"
+    history = read_json(history_path, {})
+    pending = sorted(records(root), key=lambda r: history.get(r["id"], ""))
+    for record in pending:
         path = root / "edits" / f"{record['id']}.json"
         current = read_json(path, {})
         if current.get("source_sha256") == source_hash(record):
@@ -125,6 +128,8 @@ def clean_pending(root, max_videos=5, delay=4):
             time.sleep(delay)
         attempts += 1
         budget["requests"] += 1
+        history[record["id"]] = datetime.now(UTC).isoformat(timespec="seconds")
+        write_json(history_path, history)
         write_json(budget_path, budget)
         print(
             f"Cleaning {record['id']} with {MODEL} ({budget['requests']}/{DAILY_LIMIT} today)",

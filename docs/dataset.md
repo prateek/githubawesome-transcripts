@@ -12,6 +12,7 @@ YouTube's 11-character IDs.
 | `videos/VIDEO_ID.json` | Deterministically normalized caption edition |
 | `markdown/VIDEO_ID.md` | Caption edition as Markdown |
 | `edits/VIDEO_ID.json` | Validated AI paragraphs with model, prompt version, source hash and usage |
+| `cleanup-attempts.json` | Last attempts, used to keep failed edits from starving the backlog |
 | `cleanup-budget.json` | UTC request accounting, including unsuccessful requests |
 
 Each video record has `schema_version`, `id`, `title`, `url`, `channel_id`,
