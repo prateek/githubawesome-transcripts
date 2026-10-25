@@ -1,0 +1,26 @@
+name: Check
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+      - run: uv sync --locked
+      - run: uv run ruff check archive tests && uv run ruff format --check archive tests
+      - run: uv run python -m pytest -q
+      - run: uv run python -m archive build
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npm test
