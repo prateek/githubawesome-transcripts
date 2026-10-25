@@ -21,6 +21,16 @@ The runtime pins and verified browser checksums live under `scripts/camofox/`.
 Its supervisor removes profiles and stops owned browser processes after each batch.
 An Ubuntu manual run uses the older `yt-dlp` path for diagnosis.
 
+For a full caption backfill, dispatch **Collect and publish** with `max_videos=25`
+and `backfill_batches=24`. Each successful deployment queues the next batch of 25,
+up to the requested batch limit, and stops early when no videos are eligible.
+Existing transcript files are skipped; cooldowns defer failed videos to normal
+scheduled retries. Each run's summary reports available, eligible, and deferred
+counts. Cancel the active backfill run to stop the chain before it queues another.
+Backfill skips AI copy-editing; normal scheduled runs continue that work within the
+existing free-model request budget. Re-run backfill for any remaining eligible work
+if the batch limit is exhausted.
+
 Set the repository Actions secret `OPENROUTER_API_KEY` to the dedicated account's
 inference key. Keep account and API credentials in a password manager and sync
 rotations to the GitHub secret through stdin. After rotation, run the workflow

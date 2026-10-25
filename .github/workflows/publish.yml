@@ -17,6 +17,10 @@ on:
         description: Maximum caption attempts for this run
         type: number
         default: 10
+      backfill_batches:
+        description: Bounded backfill chain (0 disables; subsequent batches attempt 25 videos)
+        type: number
+        default: 0
   push:
     branches: [main]
     paths-ignore: ["data/**"]
@@ -28,7 +32,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ${{ inputs.runner || 'macos-latest' }}
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: write
       pages: write
@@ -43,6 +47,10 @@ jobs:
           deno-version: v2.x
       - run: uv sync --locked
       - run: uv run python -m pytest -q
+      - name: Validate backfill bounds
+        env:
+          BACKFILL_BATCHES: ${{ inputs.backfill_batches || 0 }}
+        run: python3 scripts/backfill.py validate
       - uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3
         if: github.event_name != 'push' && runner.os == 'macOS'
         with:
@@ -69,7 +77,7 @@ jobs:
           fi
       - name: Copy-edit using free models
         id: clean
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && !inputs.backfill_batches
         continue-on-error: true
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -86,6 +94,8 @@ jobs:
           fi
       - name: Build static archive
         run: uv run python -m archive build
+      - name: Report archive coverage
+        run: python3 scripts/backfill.py report
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
@@ -107,3 +117,20 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+  continue-backfill:
+    needs: [collect, deploy]
+    if: inputs.backfill_batches > 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - name: Queue next bounded batch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BACKFILL_BATCHES: ${{ inputs.backfill_batches }}
+        run: python3 scripts/backfill.py continue
