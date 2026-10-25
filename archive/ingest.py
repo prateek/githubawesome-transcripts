@@ -18,6 +18,10 @@ class RateLimited(Exception):
     pass
 
 
+class BotVerificationRequired(RateLimited):
+    pass
+
+
 class QuietLogger:
     def debug(self, message):
         pass
@@ -40,6 +44,7 @@ def extractor(**options):
             "no_warnings": True,
             "logger": QuietLogger(),
             "skip_download": True,
+            "ignore_no_formats_error": True,
             "socket_timeout": 30,
             "retries": 0,
             **options,
@@ -88,6 +93,8 @@ def fetch_video(video_id, channel_id):
             raise RateLimited("YouTube rate limit") from None
         raise
     except yt_dlp.utils.DownloadError as error:
+        if "not a bot" in str(error).lower():
+            raise BotVerificationRequired("YouTube blocked the runner") from None
         if "429" in str(error):
             raise RateLimited("YouTube rate limit") from None
         raise

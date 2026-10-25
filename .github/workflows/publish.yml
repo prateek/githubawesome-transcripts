@@ -24,6 +24,9 @@ jobs:
         with:
           ref: main
       - uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+      - uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2
+        with:
+          deno-version: v2.x
       - run: uv sync --locked
       - run: uv run python -m pytest -q
       - name: Discover and retrieve captions
