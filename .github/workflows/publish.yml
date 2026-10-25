@@ -37,10 +37,12 @@ jobs:
       - run: uv run python -m pytest -q
       - name: Discover and retrieve captions
         id: collect
+        if: github.event_name != 'push'
         continue-on-error: true
         run: uv run python -m archive sync --max-videos 10 --delay 15
       - name: Copy-edit using free models
         id: clean
+        if: github.event_name != 'push'
         continue-on-error: true
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
