@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "source_sha256": "0d82e7e2453c165007ec6817fb5fb515207d1be339e565814d9b3f3d8602269f",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-10-25T21:05:18+00:00",
+  "usage": {
+    "prompt_tokens": 4836,
+    "completion_tokens": 9449,
+    "total_tokens": 14285,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5851,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "These are 33 projects that caught developers' attention in September. You'll recognize some from earlier episodes, but this time the month's biggest finds are all in one place. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Laya handles the small decisions that can slow an AI workflow down. Give it a support message and it can choose a department, score urgency, and estimate whether the customer might leave, all in one model pass. It returns typed answers instead of generating prose, and its router selects a checkpoint for English or multilingual text. There are Python and TypeScript options for building it into an app. Jev Ultrafast gives a browser agent a simpler job at each"
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Step. Pick an action and a numbered page element together. A small language model writes text only when the agent needs to type. It reads visible controls instead of sending screenshots through the loop, then checks a target before clicking it. The repo's demo finds flights on Google Flights, though its speed results cover only a few test runs."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "M3E Canvas lets you sketch an app before asking an AI coding tool to build it. Drag Material 3 buttons, cards, and navigation onto phone or desktop screens. Link the screens, then tap through the flow in a preview. Change the colors and motion, add notes about what each control should do, and copy the whole design as a prompt for an Android or web app."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Kev is for the little decisions an app makes all day: which team gets a ticket, how urgent it is, or whether a person should step in. Its models answer choice, score, and yes-or-no questions with probabilities, so your code can pass uncertain cases to a human. There are four sizes, from a laptop-friendly model to a larger GPU version, and you can fine-tune them on your own examples."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Fast Jev compaction changes how Claude Code makes room in a long session. Instead of rewriting the conversation into a summary, it asks Jev which old tool calls and results still matter. Stale ones are dropped or shortened. The text it keeps stays word for word, including your instructions. It's also an npm library, and the plugin falls back to Claude Code's usual summary if pruning doesn't help enough."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Compositor is a free open-source image editor for Mac built around a familiar Photoshop workflow. Stack layers, paint masks, adjust curves, retouch with healing or clone tools, and import PSD files while keeping many elements editable. Its project format is simple enough for scripts and AI agents to build images, too. It currently requires an Apple Silicon Mac running macOS 26 or later."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Laya MLX puts Laya's decision models on Apple silicon through MLX. Give it a piece of text and questions like which team handles this or does this need attention, and it returns typed answers without generating a paragraph. It runs locally on your Mac with no PyTorch or cloud API in the inference path. A useful fit when an app needs quick decisions, not a chatbot."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Strata brings a 125-billion-parameter Qwen model onto a gaming PC by spreading its work across the graphics card, RAM, and processor. Its setup picks a model size for your machine, then gives you a local chat page and an API that coding tools can connect to. It runs on Windows or Linux, but gaming PC matters here. You'll need a supported GPU with at least 12 GB of VRAM and 32 GB of RAM."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Niubigeo shows how AI models talk about your product, which competitors they mention, and what sources appear in their answers. Enter a domain, choose the models to test, then inspect the original responses instead of trusting a single visibility score. You can also test keywords without naming your brand and repeat runs over time. It's self-hosted with your own model API costs."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "SemIf turns open language models into semantic if statements. Give it some text and options like which support queue should handle a request, and it reads probabilities for those options directly instead of generating an answer to parse. It can reuse a shared document across several decisions and runs through CUDA, Apple silicon, or a CPU backend. The repo includes its test inputs and results so you can inspect the claims."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Magpie is one screen that sets the model for every coding agent on your machine. Now 32 of them, from Claude Code and Codex to Cursor and Zed. Click an agent, pick a model, and it edits that tool's config without touching your comments. Its local gateway insulates between OpenAI, Anthropic, and Gemini APIs so one provider key can serve every agent. Routing groups let several models from different providers act as one."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Human Atlas is an interactive 3D anatomy browser that runs in the browser. Spin the 3D body, hide entire systems, then click a bone or organ to see it on its own. There's even an exploded view that pulls the parts apart so you can see how they fit together. It's built on Three.js, batching the geometry and driving visibility and selection from GPU textures so the orbit stays smooth across 2.3 million triangles."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Open Muse is a personal AI agent that shows its work while it gets things done. Give it a task and you can follow its plan, watch the browser, or take control yourself. It can work with files and PDFs and pause for your approval before sending an email or changing a calendar event. Tasks can pick up after interruptions, so you can come back to the result."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "SoL-Pi is an NVIDIA Labs extension for the Pi coding agent that cuts token use without cutting the work. It adds four opt-in tricks: it fuses an edit and its validation into one call; turns big repeated outputs into handles you can page back through; compacts diagnostic logs while keeping the quoted source; and marks finished plan steps for compaction between turns."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Claude Commerce Agents is a blueprint for building two kinds of shopping assistant. One helps customers search, compare, and fill a cart. The other helps staff spot inventory issues, update listings, and plan promotions. The repo includes runnable demos for retail, travel, telecom, and tickets. Purchases stay with the store's checkout, and a person approves every merchant change before it goes live."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "shadcn lint catches a problem regular code checks miss. An AI-generated page can work perfectly and still ignore your design system. Set rules for your Tailwind components, and it flags things like rogue colors, arbitrary spacing, or a button with padding it shouldn't have. The error tells the coding agent what to use instead. It works with React, Vue, and Svelte."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Jev Trader is a crypto trading bot built around a tight deadline, roughly 300 milliseconds per monad block. It reads Kuru's MON USDC order book, decides which side to quote, and replaces its previous limit order. A live dashboard shows decisions, fills, gas costs, and profit or loss. By default, it dry-runs on real market data with a mock model, so you can inspect the behavior before enabling live trades."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "CLM is built for the moment an AI agent has to choose what to do next. Give it the current situation and a set of possible actions, and it scores the options instead of writing a long answer. It can reuse cached representations of familiar actions to make repeated decisions faster. The repo includes an 8B model, an API, and a playground where you can try it yourself."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "CodeNotch pins a small black notch to any edge of your Mac screen and shows how much of each coding assistance usage limit you've burned. Each tool gets a ring that fills as you go, covering Claude Code, Cursor, Codex, Copilot, and about a dozen more, and it mostly borrows credentials from tools you already have installed. The notch opens and chimes when a session finishes or needs you."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Coucou turns your Mac notch into a little control desk for coding agents, complete with an animated companion named Moi. Watch Claude Code edit files, open the live diff, and answer permission requests without hunting for the right terminal. Moi reacts when a session finishes, too. On Windows and Linux, the companion lives at the top of the screen instead."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "NanoJev puts a small AI model on fast decisions: turn, wait, fire, or choose another move. Give it a state and possible actions, and it returns probabilities for each choice without generating an answer token by token. The same 0.6B model is tested across Snake, mazes, and two VizDoom tasks. The repo includes its checkpoint, training data, and browser replays. You can inspect."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Vista.js gives React developers a familiar place to start. Folders become routes, server components are the default, and one CLI handles development and builds. From there, you can add typed APIs, scaffold authentication, or build a streaming AI agent beside your app. It also includes tools for searching your own documents. There's a default Webpack engine and an optional Rust-backed one."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Edge Zero tackles a memory problem: running large mixture-of-experts models on everyday devices. It keeps expert weights on an SSD and loads the ones needed for each step. A predictor starts fetching the next set early, while adapters help recover quality lost to 4-bit compression. The project provides 8B and 35B model releases with engines for Mac, Windows, iOS, and Android."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Search is a small Mac browser that keeps the page front and center. It uses the WebKit engine already on your Mac with tabs, split view, and a single field for addresses or searches. Reading mode clears away page clutter, and you can permanently hide a site's cookie banner or newsletter popup. Your history, bookmarks, and passwords stay on your Mac."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Agent Memory helps coding agents remember decisions after a session ends. It keeps those memories as plain Markdown files that Claude Code and Codex can share. Agents search a local index, open only the details they need, and trace a memory back to the original conversation. A separate cleanup pass can combine old notes, but deleting one requires your approval."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Disk Tree answers the question every full disk leaves you with: what's taking up all that space? It draws your files as a mosaic with bigger tiles for bigger folders. Zoom in, spot old caches or build output, and mark what you want to remove while the free space estimate updates. You review the full list before committing, with trash as the default where available."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Unreal Agent is a Go framework for agents whose tool work may keep running after a model turn ends. It records session history, translates tool calls into operations, and dispatches those operations asynchronously. If a process is interrupted, the stored session and operation state support recovery. You can fork a session or swap out components like the model adapter and operation manager to fit your setup."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "JevGrep is for the moment you know what code does but have no idea where it lives. Ask a repository a plain English question, and it returns likely files, source excerpts, and line references your coding agent can inspect. It works through folders and declarations to find useful leads. That makes it handy when a behavior spans unfamiliar files and you don't know which symbol to search for."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Nimble is an open 9B model for decisions you can express as choices or yes-or-no checks. Give it text and a schema, and it returns a typed answer with probabilities in one scoring step. Its training recipe uses pairs of examples where one crucial fact changes the correct answer, teaching the model what to pay attention to. The repo shares the model data and code to run it locally."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Universal Modder gives coding agents a playbook for modding PC games you own. It helps identify the game engine, choose a modding route, back up saves, build a working piece, and test it in the game. Its tools can also generate sprites, 3D assets, sound, and showcase videos. The repo includes examples for Terraria, Age of Empires 2, and Minecraft inside GTA 5. Codex Astra Luna Orchestrator gives Codex agents defined"
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "roles for bigger coding tasks. Choose a profile and a lead agent can delegate exploration, research, implementation, and testing to Luna sub-agents. A separate reviewer checks the work before the lead integrates it. The repo includes ready-made configurations and installers for Windows, Mac, and Linux, so you can add the setup to an existing project."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Dream Loop gives an AI coding agent a visual target before it starts building. It generates a dream screenshot for a game, app, or scene, builds toward it, then captures the real result. A separate AI critic compares the two and points out what needs work. The agent keeps improving the build and can even generate a more ambitious target for the next round."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Open Glean gives your notes, files, saved web pages, and connected apps one place to search. Ask a question and it searches your Hydra database, streams an answer, and cites the sources it used. For bigger questions, Deep Research splits the work into smaller searches and shows its progress. You can choose which collections to search and bring your own model for answers."
+      ]
+    }
+  ]
+}

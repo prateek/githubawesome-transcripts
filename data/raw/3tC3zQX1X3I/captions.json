@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 46. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Lattis DB is an embedded graph database in a single file written in Zigg with no dependencies that does relationship"
+    },
+    {
+      "timestamp": "0:17",
+      "text": "traversal, vector similarity, and full text ranking in one query language over the same data. So a rag query can match"
+    },
+    {
+      "timestamp": "0:24",
+      "text": "a chunk by embedding hop to its document then to the author in one cipher statement rather than gluing three"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "systems together. One file, one writer, no server."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Gradient trains research agents with reinforcement learning while leaving the whole loop open for inspection. An agent searches a synthetic company workspace,"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "cites evidence, and records every tool call. gradient scores correctness, citation quality, and efficiency, then"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "uses openpipe art with GRPO to train an adapter and compare it with the base model on held out tasks."
+    },
+    {
+      "timestamp": "1:01",
+      "text": "Buzz is a self-hosted team workspace where humans and AI agents join the same rooms with separate identities and audit"
+    },
+    {
+      "timestamp": "1:07",
+      "text": "trails. Messages, reactions, approvals, workflows, and Git activity become signed Nostra events in one searchable"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "log. So an agent can discuss a bug, submit a patch, and leave the evidence beside the decision. Channels, desktop"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "clients, canvases, search, git events, and YAML workflows work today."
+    },
+    {
+      "timestamp": "1:27",
+      "text": "Wallgit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "repository. Each server's disk is just a disposable cache. Pushes become immutable log entries, while a compare and swap manifest decides which update"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "wins, letting multiple instances share storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+    },
+    {
+      "timestamp": "1:52",
+      "text": "Ambient context reads the text of whatever window you're focused on through the Mac OS accessibility tree, and appends it to a markdown file, one"
+    },
+    {
+      "timestamp": "2:00",
+      "text": "per day, in a folder you choose. No screenshots, no video, no network calls."
+    },
+    {
+      "timestamp": "2:06",
+      "text": "Password managers and private browsing are excluded outright. Secure fields are skipped at the source and the capture folder excludes itself so it can't observe its own output."
+    },
+    {
+      "timestamp": "2:17",
+      "text": "Learn is the author's own PI configuration from his video on learning with AI published as is. The repo is api"
+    },
+    {
+      "timestamp": "2:25",
+      "text": "directory. You clone it as your project's config. A teach skill holds the philosophy. A visualized skill adds a diagram only when a picture is clearer"
+    },
+    {
+      "timestamp": "2:33",
+      "text": "and sub agents split off for research and for making SVG and mermaid. He says it's written for one learner, him. No license file."
+    },
+    {
+      "timestamp": "2:43",
+      "text": "Workout guide packages. 302 exercise illustrations for apps that need consistent movement visuals without"
+    },
+    {
+      "timestamp": "2:50",
+      "text": "commissioning every pose. Each exercise includes three matching frames, searchable metadata, typed lookup"
+    },
+    {
+      "timestamp": "2:57",
+      "text": "helpers, and transparent SVG assets that work without tying you to React or another framework. There's also a static gallery for browsing the catalog."
+    },
+    {
+      "timestamp": "3:07",
+      "text": "Rome's bet is that the environment matters more than the model, so its unit isn't a chat, but an app, a manifest, plus typed actions, appowned agents,"
+    },
+    {
+      "timestamp": "3:16",
+      "text": "skills, hooks, a web UI, and its own database that survives the conversation."
+    },
+    {
+      "timestamp": "3:22",
+      "text": "Describe something missing and Rome scaffolds it into your instance as ordinary git tracked source rather than hidden model state. Docker quickart"
+    },
+    {
+      "timestamp": "3:30",
+      "text": "binds to loop back and telemetry export stays off unless you point it somewhere."
+    },
+    {
+      "timestamp": "3:37",
+      "text": "Dupe is a multiplayer design canvas where humans and AI agents edit the same work live. Each frame renders HTML"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "inside a sandboxed iframe while cursors, comments, agent status, and changes stream through a websocket room. Its"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "built-in MCP server lets agents create, revise, screenshot, and review frames under the user's access. You can self-host it with Docker."
+    },
+    {
+      "timestamp": "4:00",
+      "text": "OCR. It is a browser extension that pins one screen region, then OCRs that exact rectangle every time you hit the hotkey, appending to a running transcript."
+    },
+    {
+      "timestamp": "4:10",
+      "text": "Tessoract is bundled, so it runs offline with no outbound requests at all. The permissions model is the unusual part."
+    },
+    {
+      "timestamp": "4:17",
+      "text": "No site access at install. Single captures ride on active tab. And only an auto run or a cross origin iframe needs a durable grant you approve per site."
+    },
+    {
+      "timestamp": "4:28",
+      "text": "Caratch puts a Raspberry Pi 5 in the car running a 35 billion parameter model locally at about 3.5 tokens a second,"
+    },
+    {
+      "timestamp": "4:36",
+      "text": "answering from the car's own 745page owner's manual with page citations and refusing what the manual doesn't cover."
+    },
+    {
+      "timestamp": "4:43",
+      "text": "Voice runs on PI, no wake word. What's rare is the status table. Proven means it worked on the real car and the OBD"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "reader is marked unverified against the actual vehicle."
+    },
+    {
+      "timestamp": "4:56",
+      "text": "Better voice is Mac OS dictation that takes the screen with it. Hold option and talk. And while you're recording,"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "circle anything on screen with the pointer. A blue trail follows and each circle captures the display. The transcript lands in your text field with those screenshots after it."
+    },
+    {
+      "timestamp": "5:14",
+      "text": "Transcription runs locally on parakeet with an opt-in 36 megabyte grammar model that falls back to the raw transcript if it fails."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Self DB makes a program that is a SQLite database instead of an ELF file. Its Linux interpreter rebuilds or maps that"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "data at launch while ordinary SQL can inspect dependencies, remove sections, or update embedded content. The included"
+    },
+    {
+      "timestamp": "5:38",
+      "text": "web server takes the idea literally, keeping code, routes, pages, and visitor logs in one file. It's an experimental"
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Nixxosheavy format with multiple loader modes, not a drop-in replacement for normal binaries."
+    },
+    {
+      "timestamp": "5:52",
+      "text": "Proliferate runs clawed codecs through their own native harnesses rather than reimplementing them. Each task getting its own git work tree, so the branch,"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "terminal, conversation, and review state isolated. Agents delegate to sub agents and collect the results. MCPs, skills,"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "and custom tools are configured once and shared by every agent."
+    },
+    {
+      "timestamp": "6:14",
+      "text": "System Atlas turns architecture discussions into two synchronized views."
+    },
+    {
+      "timestamp": "6:18",
+      "text": "An interactive isometric map for people and a generated system. MD for the repository. Both come from one data"
+    },
+    {
+      "timestamp": "6:25",
+      "text": "file, so structures, flows, decisions, and open questions change together."
+    },
+    {
+      "timestamp": "6:30",
+      "text": "Chapters reveal the system gradually while clickable data packets expose roots and sample payloads."
+    },
+    {
+      "timestamp": "6:37",
+      "text": "Karna starts a real OCI container in about 3.5 milliseconds from a 1.52 megabyte static binary rootless with no"
+    },
+    {
+      "timestamp": "6:45",
+      "text": "Damon and nothing running at rest. Its whole Rust dependency tree is lib C."
+    },
+    {
+      "timestamp": "6:50",
+      "text": "JSON and OCI manifests are parsed by hand and pull shells out to the curl and tar already on the machine. Resource"
+    },
+    {
+      "timestamp": "6:57",
+      "text": "profiles for CPU, memory, disk, and devices are declared once in a current TOML and attached by name."
+    },
+    {
+      "timestamp": "7:04",
+      "text": "IDO searches files by what you remember, not which machine or path you stored them on. Its current Windows first build"
+    },
+    {
+      "timestamp": "7:12",
+      "text": "keeps a readonly catalog of NTFS and SMB sources, indexes names and file contents, and preserves stale results"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "when a machine goes offline. Every answer carries provenence and source completeness. So a missing result can admit what wasn't checked."
+    },
+    {
+      "timestamp": "7:29",
+      "text": "Agent trail shows what a coding agent is doing now, not just the transcript it leaves behind. It watches plans, tool"
+    },
+    {
+      "timestamp": "7:36",
+      "text": "calls, and file changes, then maps that activity onto repository components with working, blocked, and completed states."
+    },
+    {
+      "timestamp": "7:44",
+      "text": "Claude Code gets richer run cards through local hooks. Codec, cursor, and other agents still work through file watching."
+    },
+    {
+      "timestamp": "7:52",
+      "text": "Backpass treats agents.mmd like a model you improve from its own mistakes. It finds local coding agent transcripts,"
+    },
+    {
+      "timestamp": "7:59",
+      "text": "strips tool noise and obvious secrets, then looks for repeated failures that justify a small instruction change."
+    },
+    {
+      "timestamp": "8:06",
+      "text": "Every proposal includes quotes from real sessions. New rules need evidence from at least two sessions, and nothing writes until you approve it."
+    },
+    {
+      "timestamp": "8:16",
+      "text": "Rataflow brings React Flow style node editors into a Rust terminal interface."
+    },
+    {
+      "timestamp": "8:21",
+      "text": "Nodes and edges can carry your own types while the widget handles automatic layout, dragging, connections, resizing, selection, pan and zoom, keyboard"
+    },
+    {
+      "timestamp": "8:29",
+      "text": "navigation, themes, and savable graph snapshots. You still own the event loop and every interaction returns semantic events instead of mutating hidden state."
+    },
+    {
+      "timestamp": "8:41",
+      "text": "Centio gives each AI agent a real mailbox without stitching together IMAP polling, message parsing, SMTP, and web"
+    },
+    {
+      "timestamp": "8:48",
+      "text": "hooks yourself. Incoming mail arrives as structured authenticated events while agents reply in thread the rest or a small MCP server. Tenency reaches"
+    },
+    {
+      "timestamp": "8:57",
+      "text": "domains, keys, rate limits, suppressions, and reputation. So one deployment can isolate many customers."
+    },
+    {
+      "timestamp": "9:04",
+      "text": "Vault graph turns an obsidian vault into a deterministic disc instead of a forced directed hairball. Top level folders"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "become wedges. Linked notes move toward the center and a timeline lets you replay the vault's growth without rearranging nodes unpredictably. It"
+    },
+    {
+      "timestamp": "9:20",
+      "text": "works as an Obsidian plugin or exports an offline HTML file with no server or network calls."
+    },
+    {
+      "timestamp": "9:28",
+      "text": "Omari Pods gives AirPods a Linux control panel that understands the hardware. It shows battery levels for both buds in"
+    },
+    {
+      "timestamp": "9:35",
+      "text": "the case, exposes only the listening modes each model supports, and adds adaptive noise, conversation awareness,"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "onebud ANC, and ear detection. A bundled Libre Pods Demon handles Apple's protocol and publishes state to a file,"
+    },
+    {
+      "timestamp": "9:50",
+      "text": "so the panel itself doesn't pull Bluetooth. Own me keeps coding agent memory where the code lives. Reviewed"
+    },
+    {
+      "timestamp": "9:57",
+      "text": "markdown inside the repository. Claude code, codeex, cursor, and grock can recall the same decisions in debugging"
+    },
+    {
+      "timestamp": "10:04",
+      "text": "lessons, while a deterministic BM25F index ranks them locally without a model call or network request. Git handles"
+    },
+    {
+      "timestamp": "10:11",
+      "text": "sharing, review, and roll back and audits limit duplicates and bloat."
+    },
+    {
+      "timestamp": "10:17",
+      "text": "Factory installs a repeatable software delivery loop into a GitHub repository without adding a custom orchestrator."
+    },
+    {
+      "timestamp": "10:24",
+      "text": "issues become the cue. Fresh clawed code or codec sessions triage bounded work implemented on deterministic branches,"
+    },
+    {
+      "timestamp": "10:31",
+      "text": "run project gates, and hand the diff to an independent verifier before opening a draft pull request. The charter defines"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "what agents may touch, and humans still own every merge."
+    },
+    {
+      "timestamp": "10:44",
+      "text": "Monode puts several coding agent CLIs behind one desktop interface without becoming another model provider. If"
+    },
+    {
+      "timestamp": "10:51",
+      "text": "Claude code, codeex, cursor or FX is already installed and authenticated, you can open sessions as tabs and send prompts from the same composer while"
+    },
+    {
+      "timestamp": "11:00",
+      "text": "each tool keeps its own account. Source builds support Mac OS and Linux, but the downloadable release is Apple silicon only."
+    },
+    {
+      "timestamp": "11:09",
+      "text": "Kimoto.cpp brings Nvidia's Komodo texttootion model into a native C++ and GGML runtime. Give it a UTF8 prompt or a"
+    },
+    {
+      "timestamp": "11:16",
+      "text": "precomputed embedding and it generates SNPLX22 rotations and root movement locally through CPU or Vulcan. The port"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "includes GGF loading, weight conversion, DDM sampling, C and C++ APIs, parody tests, and a browser demo."
+    },
+    {
+      "timestamp": "11:32",
+      "text": "Frontier agent packages longunning research and file work into a terminal agent you can actually inspect. React"
+    },
+    {
+      "timestamp": "11:39",
+      "text": "keeps one stateful worker on the task while agent team gives a coordinator a live taskboard and bounded parallel sub aents. Inputs stay red only. Writes show"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "diffs for approval. Every action is traced and sessions can resume or revert."
+    },
+    {
+      "timestamp": "11:55",
+      "text": "AI engineering lab is a free self-paced 24-week course that takes you from Python basics to deployed AI systems."
+    },
+    {
+      "timestamp": "12:02",
+      "text": "Instead of disconnected demos, every week extends the same fictional freight company, turning its data into models, retrieval systems, agents, and cloud"
+    },
+    {
+      "timestamp": "12:11",
+      "text": "pipelines. Runnable notebooks accompany each topic. And from week three, every artifact needs a metric and error note."
+    },
+    {
+      "timestamp": "12:20",
+      "text": "Open sheet lets coding agents build spreadsheets as React models instead of juggling fragile cell addresses. You name fields like revenue or tax rate and"
+    },
+    {
+      "timestamp": "12:29",
+      "text": "the framework resolves their final Excel coordinates after rows and layouts settle. Its formula tree powers the browser preview and exports live"
+    },
+    {
+      "timestamp": "12:37",
+      "text": "formulas to XLSX so recipients can change assumptions and recalculate normally. CSV, HTML, and PDF exports are included too."
+    },
+    {
+      "timestamp": "12:47",
+      "text": "Try Omari runs DHH's Omari desktop, the Arch and Hyperland setup as a native app on an Apple silicon Mac with nothing to"
+    },
+    {
+      "timestamp": "12:55",
+      "text": "configure. It packages a pinned ARM 64 Arch image, a QUU runtime on Apple's hypervisor framework, and a Swift"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "launcher into one signed app with hardware accelerated VGL graphics, a resizable window that resets guest resolution live and Mac audio routed in."
+    },
+    {
+      "timestamp": "13:13",
+      "text": "Halo puts one governance boundary between company knowledge and the agents using it. Credentials resolve identity,"
+    },
+    {
+      "timestamp": "13:20",
+      "text": "role, namespace, and source scope on the server. So agents can't simply claim broader access in an MCP request. Reads"
+    },
+    {
+      "timestamp": "13:27",
+      "text": "and writes carry provenence, policy decisions, and appendon audit events, while deletion produces a signed eraser certificate."
+    },
+    {
+      "timestamp": "13:37",
+      "text": "Speculative programmatic tool calling speeds up agents that write code calling other models. Normally the harness finishes generating a whole code block"
+    },
+    {
+      "timestamp": "13:45",
+      "text": "then runs it and only then fires the slow sublm calls inside one after another. This library reads the code as"
+    },
+    {
+      "timestamp": "13:53",
+      "text": "it streams and launches those calls early as futures so they run during generation instead of after."
+    },
+    {
+      "timestamp": "14:01",
+      "text": "Elemental sandbox is a 3JS VFX workbench for designing game abilities while they're still moving. Seven casts share"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "five targeting shapes, then build their effects from procedural geometry, handwritten GLSL, and GPU particles"
+    },
+    {
+      "timestamp": "14:15",
+      "text": "instead of sprite sheets. Press pause mid eruption, and every slider remains live, so you can reshape timing, color,"
+    },
+    {
+      "timestamp": "14:22",
+      "text": "particles, and silhouettes against a frozen frame. Haimeimi does realtime speechtoext on a CPU, no GPU, and"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "nothing sent to the cloud. And its trick is refusing to use one model for everything. It detects the language of each utterance in the first few seconds,"
+    },
+    {
+      "timestamp": "14:40",
+      "text": "then routes it to a specialist, a Japanese model, a Chinese one, an English one, with a 1,600 language fallback behind them, all quantized and running through Sherpa Onx."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 46. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lattis DB is an embedded graph database in a single file written in Zigg with no dependencies that does relationship"
+        }
+      ]
+    },
+    {
+      "tStartMs": 17000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "traversal, vector similarity, and full text ranking in one query language over the same data. So a rag query can match"
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a chunk by embedding hop to its document then to the author in one cipher statement rather than gluing three"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "systems together. One file, one writer, no server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gradient trains research agents with reinforcement learning while leaving the whole loop open for inspection. An agent searches a synthetic company workspace,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cites evidence, and records every tool call. gradient scores correctness, citation quality, and efficiency, then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uses openpipe art with GRPO to train an adapter and compare it with the base model on held out tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Buzz is a self-hosted team workspace where humans and AI agents join the same rooms with separate identities and audit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trails. Messages, reactions, approvals, workflows, and Git activity become signed Nostra events in one searchable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "log. So an agent can discuss a bug, submit a patch, and leave the evidence beside the decision. Channels, desktop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clients, canvases, search, git events, and YAML workflows work today."
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wallgit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "repository. Each server's disk is just a disposable cache. Pushes become immutable log entries, while a compare and swap manifest decides which update"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wins, letting multiple instances share storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 112000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ambient context reads the text of whatever window you're focused on through the Mac OS accessibility tree, and appends it to a markdown file, one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per day, in a folder you choose. No screenshots, no video, no network calls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Password managers and private browsing are excluded outright. Secure fields are skipped at the source and the capture folder excludes itself so it can't observe its own output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 137000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Learn is the author's own PI configuration from his video on learning with AI published as is. The repo is api"
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directory. You clone it as your project's config. A teach skill holds the philosophy. A visualized skill adds a diagram only when a picture is clearer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and sub agents split off for research and for making SVG and mermaid. He says it's written for one learner, him. No license file."
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Workout guide packages. 302 exercise illustrations for apps that need consistent movement visuals without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commissioning every pose. Each exercise includes three matching frames, searchable metadata, typed lookup"
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "helpers, and transparent SVG assets that work without tying you to React or another framework. There's also a static gallery for browsing the catalog."
+        }
+      ]
+    },
+    {
+      "tStartMs": 187000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rome's bet is that the environment matters more than the model, so its unit isn't a chat, but an app, a manifest, plus typed actions, appowned agents,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 196000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skills, hooks, a web UI, and its own database that survives the conversation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 202000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Describe something missing and Rome scaffolds it into your instance as ordinary git tracked source rather than hidden model state. Docker quickart"
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "binds to loop back and telemetry export stays off unless you point it somewhere."
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dupe is a multiplayer design canvas where humans and AI agents edit the same work live. Each frame renders HTML"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inside a sandboxed iframe while cursors, comments, agent status, and changes stream through a websocket room. Its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in MCP server lets agents create, revise, screenshot, and review frames under the user's access. You can self-host it with Docker."
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OCR. It is a browser extension that pins one screen region, then OCRs that exact rectangle every time you hit the hotkey, appending to a running transcript."
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tessoract is bundled, so it runs offline with no outbound requests at all. The permissions model is the unusual part."
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No site access at install. Single captures ride on active tab. And only an auto run or a cross origin iframe needs a durable grant you approve per site."
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caratch puts a Raspberry Pi 5 in the car running a 35 billion parameter model locally at about 3.5 tokens a second,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 276000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "answering from the car's own 745page owner's manual with page citations and refusing what the manual doesn't cover."
+        }
+      ]
+    },
+    {
+      "tStartMs": 283000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Voice runs on PI, no wake word. What's rare is the status table. Proven means it worked on the real car and the OBD"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reader is marked unverified against the actual vehicle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Better voice is Mac OS dictation that takes the screen with it. Hold option and talk. And while you're recording,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "circle anything on screen with the pointer. A blue trail follows and each circle captures the display. The transcript lands in your text field with those screenshots after it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Transcription runs locally on parakeet with an opt-in 36 megabyte grammar model that falls back to the raw transcript if it fails."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Self DB makes a program that is a SQLite database instead of an ELF file. Its Linux interpreter rebuilds or maps that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data at launch while ordinary SQL can inspect dependencies, remove sections, or update embedded content. The included"
+        }
+      ]
+    },
+    {
+      "tStartMs": 338000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "web server takes the idea literally, keeping code, routes, pages, and visitor logs in one file. It's an experimental"
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nixxosheavy format with multiple loader modes, not a drop-in replacement for normal binaries."
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Proliferate runs clawed codecs through their own native harnesses rather than reimplementing them. Each task getting its own git work tree, so the branch,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal, conversation, and review state isolated. Agents delegate to sub agents and collect the results. MCPs, skills,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and custom tools are configured once and shared by every agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 374000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "System Atlas turns architecture discussions into two synchronized views."
+        }
+      ]
+    },
+    {
+      "tStartMs": 378000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "An interactive isometric map for people and a generated system. MD for the repository. Both come from one data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file, so structures, flows, decisions, and open questions change together."
+        }
+      ]
+    },
+    {
+      "tStartMs": 390000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chapters reveal the system gradually while clickable data packets expose roots and sample payloads."
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Karna starts a real OCI container in about 3.5 milliseconds from a 1.52 megabyte static binary rootless with no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 405000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Damon and nothing running at rest. Its whole Rust dependency tree is lib C."
+        }
+      ]
+    },
+    {
+      "tStartMs": 410000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "JSON and OCI manifests are parsed by hand and pull shells out to the curl and tar already on the machine. Resource"
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "profiles for CPU, memory, disk, and devices are declared once in a current TOML and attached by name."
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "IDO searches files by what you remember, not which machine or path you stored them on. Its current Windows first build"
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keeps a readonly catalog of NTFS and SMB sources, indexes names and file contents, and preserves stale results"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when a machine goes offline. Every answer carries provenence and source completeness. So a missing result can admit what wasn't checked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 449000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent trail shows what a coding agent is doing now, not just the transcript it leaves behind. It watches plans, tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 456000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calls, and file changes, then maps that activity onto repository components with working, blocked, and completed states."
+        }
+      ]
+    },
+    {
+      "tStartMs": 464000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude Code gets richer run cards through local hooks. Codec, cursor, and other agents still work through file watching."
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Backpass treats agents.mmd like a model you improve from its own mistakes. It finds local coding agent transcripts,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 479000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strips tool noise and obvious secrets, then looks for repeated failures that justify a small instruction change."
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every proposal includes quotes from real sessions. New rules need evidence from at least two sessions, and nothing writes until you approve it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rataflow brings React Flow style node editors into a Rust terminal interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 501000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nodes and edges can carry your own types while the widget handles automatic layout, dragging, connections, resizing, selection, pan and zoom, keyboard"
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "navigation, themes, and savable graph snapshots. You still own the event loop and every interaction returns semantic events instead of mutating hidden state."
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Centio gives each AI agent a real mailbox without stitching together IMAP polling, message parsing, SMTP, and web"
+        }
+      ]
+    },
+    {
+      "tStartMs": 528000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hooks yourself. Incoming mail arrives as structured authenticated events while agents reply in thread the rest or a small MCP server. Tenency reaches"
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "domains, keys, rate limits, suppressions, and reputation. So one deployment can isolate many customers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vault graph turns an obsidian vault into a deterministic disc instead of a forced directed hairball. Top level folders"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "become wedges. Linked notes move toward the center and a timeline lets you replay the vault's growth without rearranging nodes unpredictably. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "works as an Obsidian plugin or exports an offline HTML file with no server or network calls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Omari Pods gives AirPods a Linux control panel that understands the hardware. It shows battery levels for both buds in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 575000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the case, exposes only the listening modes each model supports, and adds adaptive noise, conversation awareness,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "onebud ANC, and ear detection. A bundled Libre Pods Demon handles Apple's protocol and publishes state to a file,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "so the panel itself doesn't pull Bluetooth. Own me keeps coding agent memory where the code lives. Reviewed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 597000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markdown inside the repository. Claude code, codeex, cursor, and grock can recall the same decisions in debugging"
+        }
+      ]
+    },
+    {
+      "tStartMs": 604000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lessons, while a deterministic BM25F index ranks them locally without a model call or network request. Git handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sharing, review, and roll back and audits limit duplicates and bloat."
+        }
+      ]
+    },
+    {
+      "tStartMs": 617000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Factory installs a repeatable software delivery loop into a GitHub repository without adding a custom orchestrator."
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "issues become the cue. Fresh clawed code or codec sessions triage bounded work implemented on deterministic branches,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "run project gates, and hand the diff to an independent verifier before opening a draft pull request. The charter defines"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "what agents may touch, and humans still own every merge."
+        }
+      ]
+    },
+    {
+      "tStartMs": 644000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Monode puts several coding agent CLIs behind one desktop interface without becoming another model provider. If"
+        }
+      ]
+    },
+    {
+      "tStartMs": 651000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code, codeex, cursor or FX is already installed and authenticated, you can open sessions as tabs and send prompts from the same composer while"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each tool keeps its own account. Source builds support Mac OS and Linux, but the downloadable release is Apple silicon only."
+        }
+      ]
+    },
+    {
+      "tStartMs": 669000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kimoto.cpp brings Nvidia's Komodo texttootion model into a native C++ and GGML runtime. Give it a UTF8 prompt or a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "precomputed embedding and it generates SNPLX22 rotations and root movement locally through CPU or Vulcan. The port"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "includes GGF loading, weight conversion, DDM sampling, C and C++ APIs, parody tests, and a browser demo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Frontier agent packages longunning research and file work into a terminal agent you can actually inspect. React"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keeps one stateful worker on the task while agent team gives a coordinator a live taskboard and bounded parallel sub aents. Inputs stay red only. Writes show"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "diffs for approval. Every action is traced and sessions can resume or revert."
+        }
+      ]
+    },
+    {
+      "tStartMs": 715000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI engineering lab is a free self-paced 24-week course that takes you from Python basics to deployed AI systems."
+        }
+      ]
+    },
+    {
+      "tStartMs": 722000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of disconnected demos, every week extends the same fictional freight company, turning its data into models, retrieval systems, agents, and cloud"
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pipelines. Runnable notebooks accompany each topic. And from week three, every artifact needs a metric and error note."
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open sheet lets coding agents build spreadsheets as React models instead of juggling fragile cell addresses. You name fields like revenue or tax rate and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 749000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the framework resolves their final Excel coordinates after rows and layouts settle. Its formula tree powers the browser preview and exports live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 757000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "formulas to XLSX so recipients can change assumptions and recalculate normally. CSV, HTML, and PDF exports are included too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Try Omari runs DHH's Omari desktop, the Arch and Hyperland setup as a native app on an Apple silicon Mac with nothing to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 775000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "configure. It packages a pinned ARM 64 Arch image, a QUU runtime on Apple's hypervisor framework, and a Swift"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "launcher into one signed app with hardware accelerated VGL graphics, a resizable window that resets guest resolution live and Mac audio routed in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Halo puts one governance boundary between company knowledge and the agents using it. Credentials resolve identity,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 800000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "role, namespace, and source scope on the server. So agents can't simply claim broader access in an MCP request. Reads"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and writes carry provenence, policy decisions, and appendon audit events, while deletion produces a signed eraser certificate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Speculative programmatic tool calling speeds up agents that write code calling other models. Normally the harness finishes generating a whole code block"
+        }
+      ]
+    },
+    {
+      "tStartMs": 825000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "then runs it and only then fires the slow sublm calls inside one after another. This library reads the code as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 833000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it streams and launches those calls early as futures so they run during generation instead of after."
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Elemental sandbox is a 3JS VFX workbench for designing game abilities while they're still moving. Seven casts share"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "five targeting shapes, then build their effects from procedural geometry, handwritten GLSL, and GPU particles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 855000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead of sprite sheets. Press pause mid eruption, and every slider remains live, so you can reshape timing, color,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 862000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "particles, and silhouettes against a frozen frame. Haimeimi does realtime speechtoext on a CPU, no GPU, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nothing sent to the cloud. And its trick is refusing to use one model for everything. It detects the language of each utterance in the first few seconds,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 880000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "then routes it to a specialist, a Japanese model, a Chinese one, an English one, with a 1,600 language fallback behind them, all quantized and running through Sherpa Onx."
+        }
+      ]
+    }
+  ]
+}

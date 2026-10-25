@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "rjqz_whc2PQ",
+  "title": "GitHub Trending Today #49: SoL-Pi, viserys-agent, Edge0, Mac-Duo, artemis, rune, YOINK, opensend",
+  "url": "https://www.youtube.com/watch?v=rjqz_whc2PQ",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-09-14",
+  "duration": 937,
+  "word_count": 2329,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-25T20:59:32+00:00",
+    "metadata_sha256": "c7fe75fcc22de3573ad84b6a2dd489a38f285233999434cda1825c59c6b8f44b",
+    "captions_sha256": "3f7cf41a7e1f8a7cd994581d710fdc77ef9ab46669ad4e706a6af3bf4343c4b8",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending today number 49. 35 trending open-source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "SoL-Pi",
+      "repositories": [
+        "https://github.com/NVlabs/SoL-Pi"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "So, PPI is NVIDIA's extension for cutting repeated work in the PI coding agent. It can combine a file edit with its validation command, replace bulky repeated outputs with references the agent can retrieve, and shorten diagnostic logs while checking quotations against the originals. Everything is optin and pi itself stays unmodified. The optional log reducer may send diagnostic content to a configured model."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "codex-astra-luna-orchestrator",
+      "repositories": [
+        "https://github.com/donvito/codex-astra-luna-orchestrator"
+      ],
+      "id": "s003",
+      "end": 62,
+      "paragraphs": [
+        "This is a codeex config that splits the work across a chain of command instead of one model doing everything. GPT6 Astra sits on top as orchestrator deciding what needs doing while GPT 5.6 Luna sub aents explore the code, implement, test, research or review it. Readon roles like explorer and reviewer can't touch your files the way worker and tester can. Vizeris gives AI coding"
+      ]
+    },
+    {
+      "start": 62,
+      "title": "viserys-agent",
+      "repositories": [
+        "https://github.com/rizqinrr/viserys-agent"
+      ],
+      "id": "s004",
+      "end": 86,
+      "paragraphs": [
+        "agents a written engineering process from clarifying requirements to reviewing and shipping changes. Its markdown workflows define steps and exit criteria for tasks like test-driven development, debugging, and migrations. Separate reviewer personas examine code quality, security, and performance, while shared checklists load only when needed."
+      ]
+    },
+    {
+      "start": 86,
+      "title": "Edge0",
+      "repositories": [
+        "https://github.com/Edge0-AI/Edge0"
+      ],
+      "id": "s005",
+      "end": 116,
+      "paragraphs": [
+        "Edge Zero runs Mixture of Experts models on a Mac by streaming expert weights off the SSD instead of loading the whole model into RAM, which is how the 35 billion parameter version gets by on just 2.9 GB of peak memory. A pre-outer predicts which experts get used before it needs them. The maintainers say that's worth up to 59% more decode throughput. and a distilled Laura adapter claws back most of the quality lost to 4-bit quantization."
+      ]
+    },
+    {
+      "start": 116,
+      "title": "Mac-Duo",
+      "repositories": [
+        "https://github.com/sumimakito/Mac-Duo"
+      ],
+      "id": "s006",
+      "end": 144,
+      "paragraphs": [
+        "Mac Duo takes that iPhone Duo effect where the screen tilts and blurs as you close the lid and ports it to MacBooks that actually have a lid angle sensor. It captures your live screen with Screen Capture Kit and runs the perspective, blur, and dimming through Metal on the GPU with adjustable angle settings sitting in the menu bar. It only works on the built-in display and needs screen recording permission granted first."
+      ]
+    },
+    {
+      "start": 144,
+      "title": "Zetta-Embodiment",
+      "repositories": [
+        "https://github.com/air-embodied-brain/Zetta-Embodiment"
+      ],
+      "id": "s007",
+      "end": 172,
+      "paragraphs": [
+        "Zeta lets a robot fix itself while it works. Instead of retraining the whole policy, it freezes the base model and evolves small code-based critics and recovery skills on top of it whenever something goes wrong. There's an actual evolution protocol that diagnoses the failure, generates candidate fixes, and only keeps ones that pass staged validation gates with held out test seeds. So, it's not just gaming its own benchmark."
+      ]
+    },
+    {
+      "start": 172,
+      "title": "artemis",
+      "repositories": [
+        "https://github.com/google/artemis"
+      ],
+      "id": "s008",
+      "end": 201,
+      "paragraphs": [
+        "Artemis drives a real Android phone or emulator off plain language instructions instead of brittle UI selectors with a planner, operator, and checker doing the actual work. It runs in two speeds. flash at three to five seconds a step, pro at 15 to 40 when it needs to actually plan. It self-heals by clearing popups that would otherwise derail a test. And Google says it's held up through 10 plus hours of continuous exploratory testing."
+      ]
+    },
+    {
+      "start": 201,
+      "title": "rune",
+      "repositories": [
+        "https://github.com/unstablebuild/rune"
+      ],
+      "id": "s009",
+      "end": 224,
+      "paragraphs": [
+        "Rune is a GPU rendered IDE built entirely around the keyboard. No mouse first design, just a character grid interface running editor, file tree, and workspace management through one composable environment. AI coding lives in a separate extension called Rune Agent instead of being baked into the core, so you can still do it all by hand if you want."
+      ]
+    },
+    {
+      "start": 224,
+      "title": "YOINK",
+      "repositories": [
+        "https://github.com/DefiLeoo/YOINK"
+      ],
+      "id": "s010",
+      "end": 250,
+      "paragraphs": [
+        "Yoink is a terminal note app that checks how your predictions turned out. It stores everything as markdown compatible with Obsidian, but lets you attach a deadline, confidence level, and testable condition to a note. When you run its settle command, it checks the source and records the outcome. You can then compare confidence with accuracy while also spotting notes you saved and never revisited."
+      ]
+    },
+    {
+      "start": 250,
+      "title": "opensend",
+      "repositories": [
+        "https://github.com/R44VC0RP/opensend"
+      ],
+      "id": "s011",
+      "end": 280,
+      "paragraphs": [
+        "OpenSend is a self-hosted email platform that sits on top of Amazon SCEs, handling transactional mail, newsletters, and campaigns without making you build any of that from scratch. O is Google only, so there's no password system or team admin panel to maintain. And the dashboard SDK and MCP server all hit the same public API. It'll let you simulate a send before anything real goes out and logs every delivery with its status so you can filter through what failed."
+      ]
+    },
+    {
+      "start": 280,
+      "title": "geiger",
+      "repositories": [
+        "https://github.com/Atomburstofficial/geiger"
+      ],
+      "id": "s012",
+      "end": 308,
+      "paragraphs": [
+        "Guyer runs one command, npxgger scan, and inventories every AI agent, MCP server, plugin, and extension actually installed on your machine. Then tags each one with what it can touch, execute, hold secrets, broad file system, network. It never shows you actual credential values, just their shape, and it's entirely readon, apart from an optional JSON export. You can snapshot a baseline and diff later scans against it to catch drift."
+      ]
+    },
+    {
+      "start": 308,
+      "title": "DeepJIT",
+      "repositories": [
+        "https://github.com/deepseek-ai/DeepJIT"
+      ],
+      "id": "s013",
+      "end": 336,
+      "paragraphs": [
+        "Deepjit handles the plumbing around compiling and running device kernels at runtime. Deepseek's header only C++ library gives Nvidia CUDA GPUs and Huawei Ascend MPUs a shared compile, cache, and launch workflow. It can reuse compiled binaries across processes and machines and integrates with PyTorch's current device stream. It unifies the infrastructure, but your kernel code and compiler options still depend on the hardware back end."
+      ]
+    },
+    {
+      "start": 336,
+      "title": "3dviz-pro-max",
+      "repositories": [
+        "https://github.com/viettranx/3dviz-pro-max"
+      ],
+      "id": "s014",
+      "end": 365,
+      "paragraphs": [
+        "3D Viz Pro Max is an agent skill that turns a plain description into an actual 3JS scene. And the key part is it doesn't just generate code and guess. It captures the rendered frame with playright and checks its own output before calling it done. It ships with 223 recipes across 24 subject areas from anatomy to physics and 22 blueprint kits backed by real GPU captured frames verified with Shaw 256 hashes."
+      ]
+    },
+    {
+      "start": 365,
+      "title": "trynix",
+      "repositories": [
+        "https://github.com/fzakaria/trynix"
+      ],
+      "id": "s015",
+      "end": 391,
+      "paragraphs": [
+        "Try lets you try historical Nyx packages in a Linux virtual machine running inside your browser tab. Pick a package and version and it fetches the pre-built package and its dependencies from Nyx's cache, then gives you a shell. The environment lives in the URL so you can share it as a link. There's also a GitHub action that turns pull request builds into browser previews for reviewers."
+      ]
+    },
+    {
+      "start": 391,
+      "title": "mjbatch",
+      "repositories": [
+        "https://github.com/kevinzakka/mjbatch"
+      ],
+      "id": "s016",
+      "end": 417,
+      "paragraphs": [
+        "MJBatch lets Python run batches of Muoko physics simulations. across CPU cores. A C++ thread pool handles execution outside Python's global interpreter lock, while live arrays let you read states and update controls across the whole batch. You can also vary parameters like friction between simulations. The repository includes examples for robot learning, predictive control, and fitting physical parameters."
+      ]
+    },
+    {
+      "start": 417,
+      "title": "iphone-duo",
+      "repositories": [
+        "https://github.com/chuspeeism/iphone-duo"
+      ],
+      "id": "s017",
+      "end": 442,
+      "paragraphs": [
+        "This recreates the fold animation on the iPhone Duo entirely in the browser with 3.js. Only the cover half rotates while the rear camera half stays put and it applies a dynamic blur up to 72 pixels that darkens and tracks the fold as it happens. You get three display modes, wallpaper, launcher or your own uploaded image, plus drag to orbit and scroll to zoom controls."
+      ]
+    },
+    {
+      "start": 442,
+      "title": "GPT-as-Policy",
+      "repositories": [
+        "https://github.com/anonymous-report-421/GPT-as-Policy"
+      ],
+      "id": "s018",
+      "end": 470,
+      "paragraphs": [
+        "This project tested whether GPT6 Astra can actually control a robot arm, not just reason about code. Running it directly on 10 Robo-Dogjo manipulation tasks, five trials each, it scored 37.81 on average with a 26% success rate. But when they used it as a correction layer on top of an existing PI0.5 policy, stepping in on just 14.4% of control steps, the combined score jumped to 62.6 with a bird view makes an AI agent show its work before it touches your"
+      ]
+    },
+    {
+      "start": 470,
+      "title": "birdview",
+      "repositories": [
+        "https://github.com/Qiuner/birdview"
+      ],
+      "id": "s019",
+      "end": 497,
+      "paragraphs": [
+        "codebase. It builds an evidence- linked map of your architecture, stable module IDs, who owns which files, and then has the agent declare what it plans to change against that map before any edit happens. The output is a single self-contained HTML file, no server, with sidebyside architecture, changes, and comparison views, plus light and dark themes."
+      ]
+    },
+    {
+      "start": 497,
+      "title": "Roam-Control",
+      "repositories": [
+        "https://github.com/seanhowarthdev/Roam-Control"
+      ],
+      "id": "s020",
+      "end": 520,
+      "paragraphs": [
+        "Rome control simulates GPS location on your own iPhone for testing location based features. The same thing Xcode Simulator does, but on real hardware with a proper Apple Maps interface. You can search a place, tap a spot on the map, or type coordinates directly, and it'll preview and step through an actual Apple Maps walking route with pause and reverse."
+      ]
+    },
+    {
+      "start": 520,
+      "title": "argo9s",
+      "repositories": [
+        "https://github.com/vvrnv/argo9s"
+      ],
+      "id": "s021",
+      "end": 549,
+      "paragraphs": [
+        "Argo 9 brings a K9 style terminal interface to Argo CD so you can watch application health and sync status without opening the browser. It connects through Kubernetes or Argo CD's API with filters and a resource tree for drilling into deployments and pods. You can inspect logs and live YAML from the keyboard. It starts readonly, enabling writes, adds actions like syncing applications and toggling automatic synchronization."
+      ]
+    },
+    {
+      "start": 549,
+      "title": "life-recorder",
+      "repositories": [
+        "https://github.com/browser-use/life-recorder"
+      ],
+      "id": "s022",
+      "end": 573,
+      "paragraphs": [
+        "Life recorder turns an iPhone into a continuous voice recorder that keeps running even with the screen locked or another app open, capturing audio in roughly 1 minute AAC chunks. It ships those over a local HTTPS connection, LAN by default, PrivateVPN if you need it over cellular to a Mac that transcribes everything locally with whisper.cpp. CPP no cloud service involved."
+      ]
+    },
+    {
+      "start": 573,
+      "title": "deepseek-recipe",
+      "repositories": [
+        "https://github.com/deepseek-ai/deepseek-recipe"
+      ],
+      "id": "s023",
+      "end": 597,
+      "paragraphs": [
+        "Deepseek recipe translates different AI API formats into prompts. Deepseek models understand then converts their outputs back into matching responses. Its Rust libraries and Python bindings cover messages, chat completions and responses, including streaming and tool call parsing that gives developers shared conversion code instead of separate plumbing for each format."
+      ]
+    },
+    {
+      "start": 597,
+      "title": "gpu-time",
+      "repositories": [
+        "https://github.com/arikchakma/gpu-time"
+      ],
+      "id": "s024",
+      "end": 623,
+      "paragraphs": [
+        "GPU time takes something like satsson 1 p.m. to 8 p.m. and turns it into an actual ISO date range with an RFC545 recurrence rule behind it entirely on your machine. Nothing gets sent to a server. It runs on plain CPU by default, but switches over to web GPU once a batch gets big enough past 32 inputs or 512 tokens and it's time zone and daylight saving aware."
+      ]
+    },
+    {
+      "start": 623,
+      "title": "cargo-pretty",
+      "repositories": [
+        "https://github.com/romancitodev/cargo-pretty"
+      ],
+      "id": "s025",
+      "end": 648,
+      "paragraphs": [
+        "Cargo Pretty replaces Cargo's usual scrolling build log with a live terminal dashboard tracking up to six crates or tests at once with their own timers. And the progress bar is actually built from Cargo's real unit graph instead of a guess. Warnings collapse into a navigable panel and failed tests get diffled output plus a keyboard shortcut to retry them without rerunning the whole suite."
+      ]
+    },
+    {
+      "start": 648,
+      "title": "infinite-world",
+      "repositories": [
+        "https://github.com/BuzzPlay/infinite-world"
+      ],
+      "id": "s026",
+      "end": 671,
+      "paragraphs": [
+        "Infinite World generates a persistent environment that actually remembers what happened, and you steer it with text, voice, or images instead of just type prompts. Every scene it generates reflects the current state of the world, and branches you take stay branches. You can preview locally and replay back through past paths with cached video."
+      ]
+    },
+    {
+      "start": 671,
+      "title": "Phyzical_org",
+      "repositories": [
+        "https://github.com/Phyzicalorg/Phyzical_org"
+      ],
+      "id": "s027",
+      "end": 694,
+      "paragraphs": [
+        "Physical connects browser-based robot demonstrations to training pipelines. The platform lets people move simulated robot arms, recording joint positions, actions, and object poses as demonstration data. This repository publishes the episode format, a sample task, and a dependency-free Python converter that writes Eliza OS compatible SQLite records."
+      ]
+    },
+    {
+      "start": 694,
+      "title": "lid-plane",
+      "repositories": [
+        "https://github.com/jh3y/lid-plane"
+      ],
+      "id": "s028",
+      "end": 719,
+      "paragraphs": [
+        "Lid plane creates that lid fold illusion on a MacBook driven by the actual hinge sensor instead of guesswork, pulling the lid angle about 30 times a second and blurring the desktop progressively as you move it. Stop moving and an auto anchor settles the effect after a pause. You can tune anywhere from 0.15 to 2 seconds. Your apps stay fully clickable and keep keyboard motion panels gives"
+      ]
+    },
+    {
+      "start": 719,
+      "title": "motion-panels",
+      "repositories": [
+        "https://github.com/letstri/motion-panels"
+      ],
+      "id": "s029",
+      "end": 747,
+      "paragraphs": [
+        "resizable interfaces. animated folding, collapsing, and snapping powered by motion. Its resizing engine works directly with the DOM with a React adapter on top, so the core isn't tied to React. Panels can use pixel or percentage sizes, nest inside each other, and support keyboard controls and right to left layouts. The components come unstyled, or you can add a styled separator through its Shad CN registry."
+      ]
+    },
+    {
+      "start": 747,
+      "title": "MacDuo",
+      "repositories": [
+        "https://github.com/DhananjayBhosale/MacDuo"
+      ],
+      "id": "s030",
+      "end": 774,
+      "paragraphs": [
+        "This Mac Duo app syncs desktop effects to your MacBook's actual lid position. And you get a choice of named transitions, Duo, roll, shutter, flex, iris that all play out as you close it. It auto clears after a stationary delay you can set between 1 and 5 seconds and esque or control option command F pauses the tracking entirely. It's pure swift and metal. No third party runtime dependencies, no analytics. Everything stays local."
+      ]
+    },
+    {
+      "start": 774,
+      "title": "mousiki",
+      "repositories": [
+        "https://github.com/itzender5820/mousiki"
+      ],
+      "id": "s031",
+      "end": 799,
+      "paragraphs": [
+        "Musiki is a terminal music player built for people who'd rather not touch a mouse. It plays your local library or pulls tracks in through YTDLP for online search and streaming. And lyrics sync in real time with wordbyword highlighting as the song plays. There's a real FFT spectrum analyzer, waveform rendering, and album art right there in the terminal, plus shuffle, repeat, and Q management."
+      ]
+    },
+    {
+      "start": 799,
+      "title": "mural",
+      "repositories": [
+        "https://github.com/Chuloo/mural"
+      ],
+      "id": "s032",
+      "end": 823,
+      "paragraphs": [
+        "Mural is a native iPhone app for practicing languages through live AI conversations. You speak to an animated orb, get corrections, and use optional subtitles or word lookup when you're stuck. It revisits vocabulary in later conversations and keeps separate progress for each language. Learning records stay on your phone, but practice sends data to OpenAI."
+      ]
+    },
+    {
+      "start": 823,
+      "title": "agent-launcher",
+      "repositories": [
+        "https://github.com/agent-launch/agent-launcher"
+      ],
+      "id": "s033",
+      "end": 851,
+      "paragraphs": [
+        "Agent Launcher brings existing coding agent CLIs into one desktop workspace. It detects what's already there instead of forcing a reinstall and one clicks whatever's missing. It manages multiple provider profiles with actual connectivity checks, remembers which project you were working in per session, and reads your local conversation history straight out of JSONL or SQLite, so you can resume or delete past sessions."
+      ]
+    },
+    {
+      "start": 851,
+      "title": "MiniWatts",
+      "repositories": [
+        "https://github.com/ResistanceTo/MiniWatts"
+      ],
+      "id": "s034",
+      "end": 878,
+      "paragraphs": [
+        "Mini Watts taps into the same private power management sensors Apple uses internally to show you exactly what's happening during a charge. Real wattage coming out of the charger, how much of that's actually reaching the battery cell and readings off all 30 temperature sensors in the phone. It even shows the USB PD handshake as it negotiates. Nothing leaves the device. There's no network connection at all."
+      ]
+    },
+    {
+      "start": 878,
+      "title": "hktex",
+      "repositories": [
+        "https://github.com/circle-group/hktex"
+      ],
+      "id": "s035",
+      "end": 905,
+      "paragraphs": [
+        "HK text puts textures directly on a 3D mesh instead of flattening its surface into a UV map. It represents appearance with heat kernels that follow the surface, avoiding seams introduced by UV layouts. You can fit textures from an existing textured mesh or multiple images, then use them in physically based rendering. The repository includes optimization and comparison tools with a setup targeting Linux and an NVIDIA GPU."
+      ]
+    },
+    {
+      "start": 905,
+      "title": "ResolveHQ",
+      "repositories": [
+        "https://github.com/mirza-rizvi/ResolveHQ"
+      ],
+      "id": "s036",
+      "end": 937,
+      "paragraphs": [
+        "Resolve HQ is a help desk you run entirely on Cloudflare's own infrastructure instead of paying for Zenesk or Intercom. It's a shared inbox with ticket assignment, priority and status tracking, full text search, and proper multi-tenant roles, owner, admin, agent across workspaces. Email threading follows RFC 5322. Attachments go through Cloudflare R2, and there's a public help center generated straight from your knowledgebased articles. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 49. 35 trending open-source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "So, PPI is NVIDIA's extension for cutting repeated work in the PI coding agent. It can combine a file edit with"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "its validation command, replace bulky repeated outputs with references the agent can retrieve, and shorten diagnostic logs while checking quotations against the originals."
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "text": "Everything is optin and pi itself stays unmodified. The optional log reducer may send diagnostic content to a configured model."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "This is a codeex config that splits the work across a chain of command instead of one model doing everything. GPT6"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "Astra sits on top as orchestrator deciding what needs doing while GPT 5.6 Luna sub aents explore the code, implement, test, research or review it."
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "text": "Readon roles like explorer and reviewer can't touch your files the way worker and tester can. Vizeris gives AI coding"
+    },
+    {
+      "start": 64.0,
+      "end": 64.0,
+      "text": "agents a written engineering process from clarifying requirements to reviewing and shipping changes. Its markdown workflows define steps and exit"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "criteria for tasks like test-driven development, debugging, and migrations."
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "Separate reviewer personas examine code quality, security, and performance, while shared checklists load only when needed."
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "text": "Edge Zero runs Mixture of Experts models on a Mac by streaming expert weights off the SSD instead of loading the whole"
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "text": "model into RAM, which is how the 35 billion parameter version gets by on just 2.9 GB of peak memory. A pre-outer"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "predicts which experts get used before it needs them. The maintainers say that's worth up to 59% more decode"
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "text": "throughput. and a distilled Laura adapter claws back most of the quality lost to 4-bit quantization."
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "Mac Duo takes that iPhone Duo effect where the screen tilts and blurs as you close the lid and ports it to MacBooks that actually have a lid angle sensor."
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "It captures your live screen with Screen Capture Kit and runs the perspective, blur, and dimming through Metal on the GPU with adjustable angle settings"
+    },
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "sitting in the menu bar. It only works on the built-in display and needs screen recording permission granted first."
+    },
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "Zeta lets a robot fix itself while it works. Instead of retraining the whole policy, it freezes the base model and"
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "evolves small code-based critics and recovery skills on top of it whenever something goes wrong. There's an actual"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "evolution protocol that diagnoses the failure, generates candidate fixes, and only keeps ones that pass staged"
+    },
+    {
+      "start": 165.0,
+      "end": 165.0,
+      "text": "validation gates with held out test seeds. So, it's not just gaming its own benchmark."
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "Artemis drives a real Android phone or emulator off plain language instructions instead of brittle UI selectors with a"
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "planner, operator, and checker doing the actual work. It runs in two speeds."
+    },
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "flash at three to five seconds a step, pro at 15 to 40 when it needs to actually plan. It self-heals by clearing"
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "popups that would otherwise derail a test. And Google says it's held up through 10 plus hours of continuous exploratory testing."
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "Rune is a GPU rendered IDE built entirely around the keyboard. No mouse first design, just a character grid"
+    },
+    {
+      "start": 208.0,
+      "end": 208.0,
+      "text": "interface running editor, file tree, and workspace management through one composable environment. AI coding lives"
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "in a separate extension called Rune Agent instead of being baked into the core, so you can still do it all by hand if you want."
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Yoink is a terminal note app that checks how your predictions turned out. It stores everything as markdown compatible with Obsidian, but lets you attach a"
+    },
+    {
+      "start": 233.0,
+      "end": 233.0,
+      "text": "deadline, confidence level, and testable condition to a note. When you run its settle command, it checks the source and"
+    },
+    {
+      "start": 240.0,
+      "end": 240.0,
+      "text": "records the outcome. You can then compare confidence with accuracy while also spotting notes you saved and never revisited."
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "OpenSend is a self-hosted email platform that sits on top of Amazon SCEs, handling transactional mail, newsletters, and campaigns without"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "making you build any of that from scratch. O is Google only, so there's no password system or team admin panel to"
+    },
+    {
+      "start": 265.0,
+      "end": 265.0,
+      "text": "maintain. And the dashboard SDK and MCP server all hit the same public API."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "It'll let you simulate a send before anything real goes out and logs every delivery with its status so you can filter through what failed."
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "Guyer runs one command, npxgger scan, and inventories every AI agent, MCP server, plugin, and extension actually"
+    },
+    {
+      "start": 288.0,
+      "end": 288.0,
+      "text": "installed on your machine. Then tags each one with what it can touch, execute, hold secrets, broad file system, network. It never shows you"
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "actual credential values, just their shape, and it's entirely readon, apart from an optional JSON export. You can"
+    },
+    {
+      "start": 303.0,
+      "end": 303.0,
+      "text": "snapshot a baseline and diff later scans against it to catch drift."
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "Deepjit handles the plumbing around compiling and running device kernels at runtime. Deepseek's header only C++"
+    },
+    {
+      "start": 315.0,
+      "end": 315.0,
+      "text": "library gives Nvidia CUDA GPUs and Huawei Ascend MPUs a shared compile, cache, and launch workflow. It can reuse"
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "compiled binaries across processes and machines and integrates with PyTorch's current device stream. It unifies the"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "infrastructure, but your kernel code and compiler options still depend on the hardware back end."
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "3D Viz Pro Max is an agent skill that turns a plain description into an actual 3JS scene. And the key part is it"
+    },
+    {
+      "start": 343.0,
+      "end": 343.0,
+      "text": "doesn't just generate code and guess. It captures the rendered frame with playright and checks its own output before calling it done. It ships with"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "223 recipes across 24 subject areas from anatomy to physics and 22 blueprint kits"
+    },
+    {
+      "start": 359.0,
+      "end": 359.0,
+      "text": "backed by real GPU captured frames verified with Shaw 256 hashes."
+    },
+    {
+      "start": 365.0,
+      "end": 365.0,
+      "text": "Try lets you try historical Nyx packages in a Linux virtual machine running inside your browser tab. Pick a package"
+    },
+    {
+      "start": 373.0,
+      "end": 373.0,
+      "text": "and version and it fetches the pre-built package and its dependencies from Nyx's cache, then gives you a shell. The"
+    },
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "environment lives in the URL so you can share it as a link. There's also a GitHub action that turns pull request builds into browser previews for reviewers."
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "MJBatch lets Python run batches of Muoko physics simulations. across CPU cores. A C++ thread pool handles execution"
+    },
+    {
+      "start": 399.0,
+      "end": 399.0,
+      "text": "outside Python's global interpreter lock, while live arrays let you read states and update controls across the whole batch. You can also vary"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "parameters like friction between simulations. The repository includes examples for robot learning, predictive control, and fitting physical parameters."
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "This recreates the fold animation on the iPhone Duo entirely in the browser with 3.js. Only the cover half rotates while"
+    },
+    {
+      "start": 425.0,
+      "end": 425.0,
+      "text": "the rear camera half stays put and it applies a dynamic blur up to 72 pixels that darkens and tracks the fold as it"
+    },
+    {
+      "start": 432.0,
+      "end": 432.0,
+      "text": "happens. You get three display modes, wallpaper, launcher or your own uploaded image, plus drag to orbit and scroll to zoom controls."
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "This project tested whether GPT6 Astra can actually control a robot arm, not just reason about code. Running it"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "directly on 10 Robo-Dogjo manipulation tasks, five trials each, it scored 37.81 on average with a 26% success rate. But"
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "when they used it as a correction layer on top of an existing PI0.5 policy, stepping in on just 14.4% of control"
+    },
+    {
+      "start": 465.0,
+      "end": 465.0,
+      "text": "steps, the combined score jumped to 62.6 with a bird view makes an AI agent show its work before it touches your"
+    },
+    {
+      "start": 474.0,
+      "end": 474.0,
+      "text": "codebase. It builds an evidence- linked map of your architecture, stable module IDs, who owns which files, and then has"
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "the agent declare what it plans to change against that map before any edit happens. The output is a single self-contained HTML file, no server,"
+    },
+    {
+      "start": 490.0,
+      "end": 490.0,
+      "text": "with sidebyside architecture, changes, and comparison views, plus light and dark themes."
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "Rome control simulates GPS location on your own iPhone for testing location based features. The same thing Xcode"
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "Simulator does, but on real hardware with a proper Apple Maps interface. You can search a place, tap a spot on the map, or type coordinates directly, and"
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "it'll preview and step through an actual Apple Maps walking route with pause and reverse."
+    },
+    {
+      "start": 520.0,
+      "end": 520.0,
+      "text": "Argo 9 brings a K9 style terminal interface to Argo CD so you can watch application health and sync status"
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "without opening the browser. It connects through Kubernetes or Argo CD's API with filters and a resource tree for drilling"
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "into deployments and pods. You can inspect logs and live YAML from the keyboard. It starts readonly, enabling"
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "writes, adds actions like syncing applications and toggling automatic synchronization."
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "Life recorder turns an iPhone into a continuous voice recorder that keeps running even with the screen locked or another app open, capturing audio in"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "roughly 1 minute AAC chunks. It ships those over a local HTTPS connection, LAN by default, PrivateVPN if you need it"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "over cellular to a Mac that transcribes everything locally with whisper.cpp. CPP no cloud service involved."
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "Deepseek recipe translates different AI API formats into prompts. Deepseek models understand then converts their outputs back into matching responses."
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Its Rust libraries and Python bindings cover messages, chat completions and responses, including streaming and tool call parsing that gives developers"
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "shared conversion code instead of separate plumbing for each format."
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "GPU time takes something like satsson 1 p.m. to 8 p.m. and turns it into an actual ISO date range with an RFC545"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "recurrence rule behind it entirely on your machine. Nothing gets sent to a server. It runs on plain CPU by default,"
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "but switches over to web GPU once a batch gets big enough past 32 inputs or 512 tokens and it's time zone and daylight saving aware."
+    },
+    {
+      "start": 623.0,
+      "end": 623.0,
+      "text": "Cargo Pretty replaces Cargo's usual scrolling build log with a live terminal dashboard tracking up to six crates or tests at once with their own timers. And"
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "the progress bar is actually built from Cargo's real unit graph instead of a guess. Warnings collapse into a"
+    },
+    {
+      "start": 639.0,
+      "end": 639.0,
+      "text": "navigable panel and failed tests get diffled output plus a keyboard shortcut to retry them without rerunning the whole suite."
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "Infinite World generates a persistent environment that actually remembers what happened, and you steer it with text,"
+    },
+    {
+      "start": 655.0,
+      "end": 655.0,
+      "text": "voice, or images instead of just type prompts. Every scene it generates reflects the current state of the world,"
+    },
+    {
+      "start": 662.0,
+      "end": 662.0,
+      "text": "and branches you take stay branches. You can preview locally and replay back through past paths with cached video."
+    },
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "Physical connects browser-based robot demonstrations to training pipelines."
+    },
+    {
+      "start": 675.0,
+      "end": 675.0,
+      "text": "The platform lets people move simulated robot arms, recording joint positions, actions, and object poses as demonstration data. This repository"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "publishes the episode format, a sample task, and a dependency-free Python converter that writes Eliza OS compatible SQLite records."
+    },
+    {
+      "start": 694.0,
+      "end": 694.0,
+      "text": "Lid plane creates that lid fold illusion on a MacBook driven by the actual hinge sensor instead of guesswork, pulling the"
+    },
+    {
+      "start": 701.0,
+      "end": 701.0,
+      "text": "lid angle about 30 times a second and blurring the desktop progressively as you move it. Stop moving and an auto anchor settles the effect after a pause."
+    },
+    {
+      "start": 711.0,
+      "end": 711.0,
+      "text": "You can tune anywhere from 0.15 to 2 seconds. Your apps stay fully clickable and keep keyboard motion panels gives"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "resizable interfaces. animated folding, collapsing, and snapping powered by motion. Its resizing engine works"
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "directly with the DOM with a React adapter on top, so the core isn't tied to React. Panels can use pixel or percentage sizes, nest inside each"
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "other, and support keyboard controls and right to left layouts. The components come unstyled, or you can add a styled separator through its Shad CN registry."
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "This Mac Duo app syncs desktop effects to your MacBook's actual lid position."
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "And you get a choice of named transitions, Duo, roll, shutter, flex, iris that all play out as you close it."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "It auto clears after a stationary delay you can set between 1 and 5 seconds and esque or control option command F pauses"
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "the tracking entirely. It's pure swift and metal. No third party runtime dependencies, no analytics. Everything stays local."
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Musiki is a terminal music player built for people who'd rather not touch a mouse. It plays your local library or pulls tracks in through YTDLP for online"
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "search and streaming. And lyrics sync in real time with wordbyword highlighting as the song plays. There's a real FFT"
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "spectrum analyzer, waveform rendering, and album art right there in the terminal, plus shuffle, repeat, and Q management."
+    },
+    {
+      "start": 800.0,
+      "end": 800.0,
+      "text": "Mural is a native iPhone app for practicing languages through live AI conversations. You speak to an animated"
+    },
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "orb, get corrections, and use optional subtitles or word lookup when you're stuck. It revisits vocabulary in later"
+    },
+    {
+      "start": 814.0,
+      "end": 814.0,
+      "text": "conversations and keeps separate progress for each language. Learning records stay on your phone, but practice sends data to OpenAI."
+    },
+    {
+      "start": 823.0,
+      "end": 823.0,
+      "text": "Agent Launcher brings existing coding agent CLIs into one desktop workspace."
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "It detects what's already there instead of forcing a reinstall and one clicks whatever's missing. It manages multiple provider profiles with actual"
+    },
+    {
+      "start": 838.0,
+      "end": 838.0,
+      "text": "connectivity checks, remembers which project you were working in per session, and reads your local conversation history straight out of JSONL or SQLite,"
+    },
+    {
+      "start": 847.0,
+      "end": 847.0,
+      "text": "so you can resume or delete past sessions."
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "Mini Watts taps into the same private power management sensors Apple uses internally to show you exactly what's happening during a charge. Real wattage"
+    },
+    {
+      "start": 860.0,
+      "end": 860.0,
+      "text": "coming out of the charger, how much of that's actually reaching the battery cell and readings off all 30 temperature"
+    },
+    {
+      "start": 867.0,
+      "end": 867.0,
+      "text": "sensors in the phone. It even shows the USB PD handshake as it negotiates."
+    },
+    {
+      "start": 873.0,
+      "end": 873.0,
+      "text": "Nothing leaves the device. There's no network connection at all."
+    },
+    {
+      "start": 878.0,
+      "end": 878.0,
+      "text": "HK text puts textures directly on a 3D mesh instead of flattening its surface into a UV map. It represents appearance"
+    },
+    {
+      "start": 885.0,
+      "end": 885.0,
+      "text": "with heat kernels that follow the surface, avoiding seams introduced by UV layouts. You can fit textures from an existing textured mesh or multiple"
+    },
+    {
+      "start": 894.0,
+      "end": 894.0,
+      "text": "images, then use them in physically based rendering. The repository includes optimization and comparison tools with a setup targeting Linux and an NVIDIA GPU."
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "Resolve HQ is a help desk you run entirely on Cloudflare's own infrastructure instead of paying for"
+    },
+    {
+      "start": 912.0,
+      "end": 912.0,
+      "text": "Zenesk or Intercom. It's a shared inbox with ticket assignment, priority and status tracking, full text search, and"
+    },
+    {
+      "start": 919.0,
+      "end": 919.0,
+      "text": "proper multi-tenant roles, owner, admin, agent across workspaces. Email threading follows RFC 5322."
+    },
+    {
+      "start": 927.0,
+      "end": 927.0,
+      "text": "Attachments go through Cloudflare R2, and there's a public help center generated straight from your knowledgebased articles."
+    },
+    {
+      "start": 936.0,
+      "end": 936.0,
+      "text": "[music]"
+    }
+  ]
+}

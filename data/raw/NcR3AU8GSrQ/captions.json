@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today, we're bringing together 34 projects that drew the most attention from developers in August. Regular viewers will recognize many from earlier"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "episodes, but this roundup puts the month's biggest projects in one place. Let's get into it."
+    },
+    {
+      "timestamp": "0:16",
+      "text": "Deepse Caress is an agent runtime where even the model adapter, tool registry, session log, and agent loop are plugins."
+    },
+    {
+      "timestamp": "0:23",
+      "text": "Profiles compose those pieces for a browser UI, headless jobs, SDK access, or automation. While patch layers let"
+    },
+    {
+      "timestamp": "0:31",
+      "text": "you replace configuration without editing a privileged core sessions use an appendon event log, so replay and persistence share one source."
+    },
+    {
+      "timestamp": "0:40",
+      "text": "Any doc turns office files, open document, epub, CSV, RTF, and textbased PDFs into one consistent flavor of"
+    },
+    {
+      "timestamp": "0:48",
+      "text": "markdown. The Rust Core detects formats from file contents, preserves structures like tables, footnotes, equations, and speaker notes, then exposes the same"
+    },
+    {
+      "timestamp": "0:57",
+      "text": "converter through a CLI, node, Python, and web assembly. Local conversion makes the browser build particularly useful for private files."
+    },
+    {
+      "timestamp": "1:06",
+      "text": "Comp CRM flips the usual AI CRM design."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "The agent owns the work Q while the interface shows what it found and why."
+    },
+    {
+      "timestamp": "1:14",
+      "text": "It researches contacts on a schedule, records strong evidence directly, and sends weak matches to a human instead of guessing. Durable sessions survive"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "redeploys, and its shell sandbox has neither network access nor database credentials."
+    },
+    {
+      "timestamp": "1:29",
+      "text": "Arc Task Gen creates fresh grid puzzles that match the measurable shape of the public ARC I1 evaluation set without publishing another soontobe contaminated"
+    },
+    {
+      "timestamp": "1:38",
+      "text": "benchmark. It samples grid size, colors, and example counts from real tasks."
+    },
+    {
+      "timestamp": "1:44",
+      "text": "Generates one puzzle per model call, then filters semantic near duplicates and malformed outputs. Results use"
+    },
+    {
+      "timestamp": "1:51",
+      "text": "standard ARC JSON, so existing harnesses work unchanged."
+    },
+    {
+      "timestamp": "1:55",
+      "text": "Kimmy K3 in C runs Moonshot's 2.78 trillion parameter model through a C99 inference engine without a GPU, blast,"
+    },
+    {
+      "timestamp": "2:03",
+      "text": "or an ML framework. It keeps part of the dense trunk in memory, streams the rest from disk, and caches routed experts"
+    },
+    {
+      "timestamp": "2:10",
+      "text": "inside your RAM budget. The maintainers measured an 8.24 GB peak and 26.5 seconds per token. The checkpoint and"
+    },
+    {
+      "timestamp": "2:19",
+      "text": "packed trunk still demand roughly 1.7 tab of fast storage."
+    },
+    {
+      "timestamp": "2:24",
+      "text": "Open Gym is a self-hosted workout and bodyweight tracker that keeps your training history in plain JSON files on your own machine. It builds weekly"
+    },
+    {
+      "timestamp": "2:33",
+      "text": "routines, guides each session with timers and previous weights, then charts progress and personal records. The web"
+    },
+    {
+      "timestamp": "2:40",
+      "text": "app works offline, syncs across devices, and uses pass keys instead of passwords."
+    },
+    {
+      "timestamp": "2:47",
+      "text": "3UI is an open- source catalog of interactive 3JS components you can preview, tune, and drop into a React"
+    },
+    {
+      "timestamp": "2:54",
+      "text": "project. Each component page includes a live renderer, controls, variant picker, and the complete community source, while"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "the npm package supports both top level and per component imports."
+    },
+    {
+      "timestamp": "3:06",
+      "text": "This repository contains only the free community catalog."
+    },
+    {
+      "timestamp": "3:10",
+      "text": "IPS logo is an agent skill that turns a product brief into simple rounded mascot concepts instead of giving an image"
+    },
+    {
+      "timestamp": "3:17",
+      "text": "model a vague mascot prompt. It proposes three directions, then generates six square candidates with limited shapes,"
+    },
+    {
+      "timestamp": "3:25",
+      "text": "three semantic colors, and lower corner compositions. The repository contains instructions, not a generator, so you still need a supported image model."
+    },
+    {
+      "timestamp": "3:36",
+      "text": "PRAIS turns an already runnable project into a persistent research loop."
+    },
+    {
+      "timestamp": "3:41",
+      "text": "Parallel agents test competing implementations. A taskowned evaluator converts results into structured evidence, and later generations use that evidence to choose what to try next."
+    },
+    {
+      "timestamp": "3:52",
+      "text": "Runs can be monitored, stopped, resumed, and replayed with provenence attached to reported improvements."
+    },
+    {
+      "timestamp": "3:59",
+      "text": "Anti-slop is an opinionated oxalent plugin for TypeScript and JavaScript teams that want unsafe shortcuts to fail"
+    },
+    {
+      "timestamp": "4:06",
+      "text": "in CI. Its rules reject chained assertions, unknown widening, module mocking, and assertions without a nearby"
+    },
+    {
+      "timestamp": "4:13",
+      "text": "safety explanation. An included agent skill vendors the plugin into your repository and merges the link configuration."
+    },
+    {
+      "timestamp": "4:22",
+      "text": "Openbot gives each AI co-worker its own container, browser profile, files, and granted tools, then routes every action"
+    },
+    {
+      "timestamp": "4:29",
+      "text": "through a policy gateway before execution. You can watch the screen, take control for login or 2FA and inspect permitted, refused or failed"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "actions afterward. Any AGUI agent can connect so the governance is framework independent."
+    },
+    {
+      "timestamp": "4:44",
+      "text": "Kumora is cross-platform team chat where humans and AI agents share conversations, a taskboard, and a"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "calendar. Agents keep personas in memory, claim work, and coordinate through serverside freshness checks that"
+    },
+    {
+      "timestamp": "4:58",
+      "text": "stop stale replies from colliding with newer decisions. You can run their brains in managed cloud pods or attach"
+    },
+    {
+      "timestamp": "5:05",
+      "text": "local cloud code and codeex instances without handing provider keys to the server."
+    },
+    {
+      "timestamp": "5:11",
+      "text": "Fushi is a self-contained terminal coding agent that routes work across multiple LLM providers instead of locking you to one model. Its think act"
+    },
+    {
+      "timestamp": "5:20",
+      "text": "verify loop can edit files, run shell commands, use MCP servers, launch sub aents, and preserve sessions with"
+    },
+    {
+      "timestamp": "5:27",
+      "text": "checkpoints in memory. It ships as one go binary with permission controls and command classification."
+    },
+    {
+      "timestamp": "5:35",
+      "text": "Anatomy Adalier turns a browser into an interactive anatomy study desk. You can rotate and zoom 3D organs, isolate"
+    },
+    {
+      "timestamp": "5:42",
+      "text": "layers, open crosssections, compare specimens, and jump into lessons or quizzes without installing anything. The library covers major body systems with"
+    },
+    {
+      "timestamp": "5:51",
+      "text": "searchable organ notes, clinical context, and multiple languages. It's built with 3JS and Nex.js."
+    },
+    {
+      "timestamp": "5:59",
+      "text": "My context is a local first desktop memory layer for AI tools built around your work history instead of isolated"
+    },
+    {
+      "timestamp": "6:06",
+      "text": "chats. It ingests messages, documents, and meeting records into SQLite. Then links people, projects, and evidence in"
+    },
+    {
+      "timestamp": "6:13",
+      "text": "a personal context graph. Search answers keep source references while its digital self can draft replies, but needs"
+    },
+    {
+      "timestamp": "6:21",
+      "text": "approval to send them. Unlazy is an agent skill that makes done mean the checks actually passed. Before"
+    },
+    {
+      "timestamp": "6:28",
+      "text": "substantial work, it turns requirements into an acceptance ledger with runnable commands and expected output. Agents can split work into scoped leaves, claim"
+    },
+    {
+      "timestamp": "6:37",
+      "text": "non-over overlapping paths, and reverify returned results before reporting completion. It works with clawed code and codeex."
+    },
+    {
+      "timestamp": "6:46",
+      "text": "FX is a tiny coding agent written in Zigg designed to feel more like a Unix command than an IDE squeezed into your terminal. The repository lists a 7.8 byt"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "binary with interactive sessions, oneshot JSON output, MCP tools, and sub aents. You can run it natively, connect"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "it to editors through ACP. It embeds as web assembly too, so a larger app can carry the whole agent inside it. H3.C"
+    },
+    {
+      "timestamp": "7:12",
+      "text": "runs Miniax H3 video generation natively on Apple silicon using C and Metal without routing prompts through a hosted"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "service. It handles prompt to video with audio, first and last frame conditioning, plus ordered image, video,"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "and audio references. An interactive mode keeps the model prepared between prompts, while SSD streaming trades speed for lower resident weight storage."
+    },
+    {
+      "timestamp": "7:37",
+      "text": "Saul Adviser splits AI coding work into four lanes, not one agent doing it all."
+    },
+    {
+      "timestamp": "7:42",
+      "text": "Saul handles requirements and final acceptance. Luna takes the routine work."
+    },
+    {
+      "timestamp": "7:47",
+      "text": "Terra gets the higher risk changes. And a separate Saul reviewer checks the diff with readonly access. So the agent that wrote the code never grades its own"
+    },
+    {
+      "timestamp": "7:56",
+      "text": "homework. It runs inside codeex as a plugin and it never silently falls back to a weaker model. It tells you"
+    },
+    {
+      "timestamp": "8:04",
+      "text": "claudish to English translates claude codes messages into plain English right in your terminal without touching the"
+    },
+    {
+      "timestamp": "8:11",
+      "text": "real transcript underneath. It adds a plain English block under each response or replaces it entirely if you want and"
+    },
+    {
+      "timestamp": "8:18",
+      "text": "it runs on a lama locally by default so nothing leaves your machine. If a rewrite fails, timeout, missing key,"
+    },
+    {
+      "timestamp": "8:26",
+      "text": "whatever, it just shows you the original text."
+    },
+    {
+      "timestamp": "8:29",
+      "text": "Walgit is a git server that skips the database and the leader election. One binary sits in front of S3 or GCS and a"
+    },
+    {
+      "timestamp": "8:37",
+      "text": "write ahead log in object storage becomes the source of truth. Every local repo is just a cache on it. Any instance can accept a push since there's no"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "election protocol deciding who's in charge. Clones ship as static files from the bucket or a CDN. So the server barely moves any bites."
+    },
+    {
+      "timestamp": "8:56",
+      "text": "Morphicons morphs any icon into any other across Lucid, Tabler, Heroicons, whatever without you hand declaring"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "which parts rotate into which. It runs Procrusty's analysis to work out the optimal rotation automatically. Then interpolates in polar coordinates"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "instead of raw SVG points, so shapes don't shrink or shear halfway through."
+    },
+    {
+      "timestamp": "9:17",
+      "text": "You can interrupt an animation mid-flight and it keeps its velocity."
+    },
+    {
+      "timestamp": "9:22",
+      "text": "Phone harness is a clever hack built entirely on things Mac OS already gives you. iPhone mirroring puts your phone on"
+    },
+    {
+      "timestamp": "9:30",
+      "text": "the desktop as an ordinary window. So, the harness screenshots it, runs Apple's own vision OCR to find every onscreen"
+    },
+    {
+      "timestamp": "9:37",
+      "text": "word and posts synthetic clicks at those coordinates, then screenshots again to check what happened. No jailbreak, no"
+    },
+    {
+      "timestamp": "9:44",
+      "text": "injected app. Terminal code puts actual VS code inside your terminal, not a lookalike with similar key bindings. The trick is stacking two existing pieces."
+    },
+    {
+      "timestamp": "9:55",
+      "text": "Coder's code server already runs real VS code in a browser. So, this pipes that through a browser the authors built to render inside the terminal itself using"
+    },
+    {
+      "timestamp": "10:04",
+      "text": "the Kitty graphics protocol to draw real pixels between your other PES."
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Mango Disc is a cross-platform disc cleaner that starts by showing you exactly what's taking space rather than deleting on first scan. It maps large"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "folders with a tree map, finds exact duplicates by content, and recognizes rebuildable caches from browsers, developer tools, containers, and local"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "AI models. Cleanup requires review and confirmation with every operation recorded."
+    },
+    {
+      "timestamp": "10:34",
+      "text": "Joy AI videoedit edits footage while it's still being shot. No waiting for the clip to finish. No offline render cue. You give it an instruction and it"
+    },
+    {
+      "timestamp": "10:43",
+      "text": "edits frames as they stream in using a 16 billion parameter diffusion transformer that processes each frame"
+    },
+    {
+      "timestamp": "10:50",
+      "text": "causy, never peeking ahead. It handles background swaps, subject changes, and style transfer. The team clocks it at"
+    },
+    {
+      "timestamp": "10:58",
+      "text": "30.19 frames per second at 720x 1280."
+    },
+    {
+      "timestamp": "11:04",
+      "text": "Amagine 3D generates CAD for hardware enclosures, not a mesh you're stuck with. Describe the product, add"
+    },
+    {
+      "timestamp": "11:11",
+      "text": "reference images and dimensions, and it builds covers, hinges, latches, and the full assembly with clearances and print tolerances built in. The agent works on"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "actual geometry, not text guesses. It measures the model, checks collisions along the hinges motion path, and only commits once it passes."
+    },
+    {
+      "timestamp": "11:30",
+      "text": "ZSVert is an open-source virtualization platform for anyone quietly planning their VMware exit. It covers the full"
+    },
+    {
+      "timestamp": "11:37",
+      "text": "stack compute, virtual networking with security groups and storage with snapshots and backups built on an asynchronous stateless architecture."
+    },
+    {
+      "timestamp": "11:47",
+      "text": "It's backed by ZStack, an infrastructure company with real production deployments. And it ships specific migration tooling and guides for moving"
+    },
+    {
+      "timestamp": "11:54",
+      "text": "off VMware instead of a generic import script."
+    },
+    {
+      "timestamp": "11:59",
+      "text": "Moly is a browser engine built for AI agents, not for looking at pixels."
+    },
+    {
+      "timestamp": "12:04",
+      "text": "Written in Rust, it runs real JavaScript through V8 and gives you a DOM, but skips layout and rendering unless you ask for a screenshot. The team clocks it"
+    },
+    {
+      "timestamp": "12:13",
+      "text": "at 73 megabytes of peak memory against Chrome Headless's 7773 and a CDP ready time of 34.85 milliseconds versus Chromium's 169.37."
+    },
+    {
+      "timestamp": "12:25",
+      "text": "It ships an MCP server so agents can drive it directly."
+    },
+    {
+      "timestamp": "12:29",
+      "text": "Kajj is a fivechapter nightwalk through a Kyoto mountain temple rendered live in 3JS. The whole thing is one static HTML file. No build step, no package manager."
+    },
+    {
+      "timestamp": "12:39",
+      "text": "You serve it and it runs. Scroll and a WebGL camera moves through a procedural temple. Tory gate and drifting leaves"
+    },
+    {
+      "timestamp": "12:47",
+      "text": "layered under pre-rendered artwork with fog and bloom shifting across five sections."
+    },
+    {
+      "timestamp": "12:53",
+      "text": "Your iPad Pro runs the same M1 or M2 chip as a MacBook, but iPad OS won't let you run Xcode on it. Virtual Mac on iPad"
+    },
+    {
+      "timestamp": "13:02",
+      "text": "does, using real hardware virtualization and reconstructing Apple's own frameworks on a jailbroken device with Dopamine or Troll Installer X. Once it"
+    },
+    {
+      "timestamp": "13:10",
+      "text": "boots, you get a full Mac OS session, Magic Keyboard, or touchscreen input and working Xcode."
+    },
+    {
+      "timestamp": "13:17",
+      "text": "Gemma translator turns a Raspberry Pi 5 into an offline conversation translator for two people talking across a table."
+    },
+    {
+      "timestamp": "13:25",
+      "text": "No internet needed after setup. Speech goes in through Moonshine, gets translated by Gemma 4, and comes back"
+    },
+    {
+      "timestamp": "13:32",
+      "text": "out as speech on the other side. The interface splits into two lanes with a keyboard that flips for whoever's holding the device, and the whole pipeline runs locally."
+    },
+    {
+      "timestamp": "13:43",
+      "text": "Frontier Agent is a terminal app for agent work that takes hours, not a quick chat loop. Run React for one focused"
+    },
+    {
+      "timestamp": "13:50",
+      "text": "agent or agent team, which splits work across parallel sub aents on a live task board with a coordinator keeping them"
+    },
+    {
+      "timestamp": "13:57",
+      "text": "straight. Everything runs in a sandboxed file system. Readonly inputs, a working directory, separate outputs, so agents can't step on each other's files."
+    },
+    {
+      "timestamp": "14:08",
+      "text": "Scrollcraft is a clawed code skill for building scroll driven websites that don't look like every other AI site. It"
+    },
+    {
+      "timestamp": "14:14",
+      "text": "runs on a refuse list, no gradient text, no feature card grids, none of that AI purple look, and enforces one of eight page grammars."
+    },
+    {
+      "timestamp": "14:24",
+      "text": "A fingerprint gate checks each new site against your past work and forces it to differ on four or more dimensions."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today, we're bringing together 34 projects that drew the most attention from developers in August. Regular viewers will recognize many from earlier"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "episodes, but this roundup puts the month's biggest projects in one place. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deepse Caress is an agent runtime where even the model adapter, tool registry, session log, and agent loop are plugins."
+        }
+      ]
+    },
+    {
+      "tStartMs": 23000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Profiles compose those pieces for a browser UI, headless jobs, SDK access, or automation. While patch layers let"
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you replace configuration without editing a privileged core sessions use an appendon event log, so replay and persistence share one source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 40000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Any doc turns office files, open document, epub, CSV, RTF, and textbased PDFs into one consistent flavor of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 48000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markdown. The Rust Core detects formats from file contents, preserves structures like tables, footnotes, equations, and speaker notes, then exposes the same"
+        }
+      ]
+    },
+    {
+      "tStartMs": 57000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "converter through a CLI, node, Python, and web assembly. Local conversion makes the browser build particularly useful for private files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Comp CRM flips the usual AI CRM design."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The agent owns the work Q while the interface shows what it found and why."
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It researches contacts on a schedule, records strong evidence directly, and sends weak matches to a human instead of guessing. Durable sessions survive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "redeploys, and its shell sandbox has neither network access nor database credentials."
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Arc Task Gen creates fresh grid puzzles that match the measurable shape of the public ARC I1 evaluation set without publishing another soontobe contaminated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 98000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "benchmark. It samples grid size, colors, and example counts from real tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generates one puzzle per model call, then filters semantic near duplicates and malformed outputs. Results use"
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "standard ARC JSON, so existing harnesses work unchanged."
+        }
+      ]
+    },
+    {
+      "tStartMs": 115000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kimmy K3 in C runs Moonshot's 2.78 trillion parameter model through a C99 inference engine without a GPU, blast,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or an ML framework. It keeps part of the dense trunk in memory, streams the rest from disk, and caches routed experts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 130000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inside your RAM budget. The maintainers measured an 8.24 GB peak and 26.5 seconds per token. The checkpoint and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 139000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "packed trunk still demand roughly 1.7 tab of fast storage."
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Gym is a self-hosted workout and bodyweight tracker that keeps your training history in plain JSON files on your own machine. It builds weekly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "routines, guides each session with timers and previous weights, then charts progress and personal records. The web"
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "app works offline, syncs across devices, and uses pass keys instead of passwords."
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "3UI is an open- source catalog of interactive 3JS components you can preview, tune, and drop into a React"
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project. Each component page includes a live renderer, controls, variant picker, and the complete community source, while"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the npm package supports both top level and per component imports."
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This repository contains only the free community catalog."
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "IPS logo is an agent skill that turns a product brief into simple rounded mascot concepts instead of giving an image"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model a vague mascot prompt. It proposes three directions, then generates six square candidates with limited shapes,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three semantic colors, and lower corner compositions. The repository contains instructions, not a generator, so you still need a supported image model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PRAIS turns an already runnable project into a persistent research loop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 221000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Parallel agents test competing implementations. A taskowned evaluator converts results into structured evidence, and later generations use that evidence to choose what to try next."
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Runs can be monitored, stopped, resumed, and replayed with provenence attached to reported improvements."
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anti-slop is an opinionated oxalent plugin for TypeScript and JavaScript teams that want unsafe shortcuts to fail"
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in CI. Its rules reject chained assertions, unknown widening, module mocking, and assertions without a nearby"
+        }
+      ]
+    },
+    {
+      "tStartMs": 253000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "safety explanation. An included agent skill vendors the plugin into your repository and merges the link configuration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Openbot gives each AI co-worker its own container, browser profile, files, and granted tools, then routes every action"
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through a policy gateway before execution. You can watch the screen, take control for login or 2FA and inspect permitted, refused or failed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actions afterward. Any AGUI agent can connect so the governance is framework independent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kumora is cross-platform team chat where humans and AI agents share conversations, a taskboard, and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calendar. Agents keep personas in memory, claim work, and coordinate through serverside freshness checks that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 298000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stop stale replies from colliding with newer decisions. You can run their brains in managed cloud pods or attach"
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local cloud code and codeex instances without handing provider keys to the server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 311000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fushi is a self-contained terminal coding agent that routes work across multiple LLM providers instead of locking you to one model. Its think act"
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "verify loop can edit files, run shell commands, use MCP servers, launch sub aents, and preserve sessions with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checkpoints in memory. It ships as one go binary with permission controls and command classification."
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anatomy Adalier turns a browser into an interactive anatomy study desk. You can rotate and zoom 3D organs, isolate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 342000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "layers, open crosssections, compare specimens, and jump into lessons or quizzes without installing anything. The library covers major body systems with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "searchable organ notes, clinical context, and multiple languages. It's built with 3JS and Nex.js."
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "My context is a local first desktop memory layer for AI tools built around your work history instead of isolated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chats. It ingests messages, documents, and meeting records into SQLite. Then links people, projects, and evidence in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 373000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a personal context graph. Search answers keep source references while its digital self can draft replies, but needs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "approval to send them. Unlazy is an agent skill that makes done mean the checks actually passed. Before"
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "substantial work, it turns requirements into an acceptance ledger with runnable commands and expected output. Agents can split work into scoped leaves, claim"
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "non-over overlapping paths, and reverify returned results before reporting completion. It works with clawed code and codeex."
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FX is a tiny coding agent written in Zigg designed to feel more like a Unix command than an IDE squeezed into your terminal. The repository lists a 7.8 byt"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "binary with interactive sessions, oneshot JSON output, MCP tools, and sub aents. You can run it natively, connect"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it to editors through ACP. It embeds as web assembly too, so a larger app can carry the whole agent inside it. H3.C"
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs Miniax H3 video generation natively on Apple silicon using C and Metal without routing prompts through a hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "service. It handles prompt to video with audio, first and last frame conditioning, plus ordered image, video,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and audio references. An interactive mode keeps the model prepared between prompts, while SSD streaming trades speed for lower resident weight storage."
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Saul Adviser splits AI coding work into four lanes, not one agent doing it all."
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Saul handles requirements and final acceptance. Luna takes the routine work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Terra gets the higher risk changes. And a separate Saul reviewer checks the diff with readonly access. So the agent that wrote the code never grades its own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "homework. It runs inside codeex as a plugin and it never silently falls back to a weaker model. It tells you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "claudish to English translates claude codes messages into plain English right in your terminal without touching the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real transcript underneath. It adds a plain English block under each response or replaces it entirely if you want and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it runs on a lama locally by default so nothing leaves your machine. If a rewrite fails, timeout, missing key,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "whatever, it just shows you the original text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Walgit is a git server that skips the database and the leader election. One binary sits in front of S3 or GCS and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "write ahead log in object storage becomes the source of truth. Every local repo is just a cache on it. Any instance can accept a push since there's no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "election protocol deciding who's in charge. Clones ship as static files from the bucket or a CDN. So the server barely moves any bites."
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Morphicons morphs any icon into any other across Lucid, Tabler, Heroicons, whatever without you hand declaring"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "which parts rotate into which. It runs Procrusty's analysis to work out the optimal rotation automatically. Then interpolates in polar coordinates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead of raw SVG points, so shapes don't shrink or shear halfway through."
+        }
+      ]
+    },
+    {
+      "tStartMs": 557000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can interrupt an animation mid-flight and it keeps its velocity."
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phone harness is a clever hack built entirely on things Mac OS already gives you. iPhone mirroring puts your phone on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the desktop as an ordinary window. So, the harness screenshots it, runs Apple's own vision OCR to find every onscreen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "word and posts synthetic clicks at those coordinates, then screenshots again to check what happened. No jailbreak, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 584000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "injected app. Terminal code puts actual VS code inside your terminal, not a lookalike with similar key bindings. The trick is stacking two existing pieces."
+        }
+      ]
+    },
+    {
+      "tStartMs": 595000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coder's code server already runs real VS code in a browser. So, this pipes that through a browser the authors built to render inside the terminal itself using"
+        }
+      ]
+    },
+    {
+      "tStartMs": 604000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the Kitty graphics protocol to draw real pixels between your other PES."
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mango Disc is a cross-platform disc cleaner that starts by showing you exactly what's taking space rather than deleting on first scan. It maps large"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "folders with a tree map, finds exact duplicates by content, and recognizes rebuildable caches from browsers, developer tools, containers, and local"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI models. Cleanup requires review and confirmation with every operation recorded."
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Joy AI videoedit edits footage while it's still being shot. No waiting for the clip to finish. No offline render cue. You give it an instruction and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 643000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edits frames as they stream in using a 16 billion parameter diffusion transformer that processes each frame"
+        }
+      ]
+    },
+    {
+      "tStartMs": 650000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "causy, never peeking ahead. It handles background swaps, subject changes, and style transfer. The team clocks it at"
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "30.19 frames per second at 720x 1280."
+        }
+      ]
+    },
+    {
+      "tStartMs": 664000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Amagine 3D generates CAD for hardware enclosures, not a mesh you're stuck with. Describe the product, add"
+        }
+      ]
+    },
+    {
+      "tStartMs": 671000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reference images and dimensions, and it builds covers, hinges, latches, and the full assembly with clearances and print tolerances built in. The agent works on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actual geometry, not text guesses. It measures the model, checks collisions along the hinges motion path, and only commits once it passes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ZSVert is an open-source virtualization platform for anyone quietly planning their VMware exit. It covers the full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stack compute, virtual networking with security groups and storage with snapshots and backups built on an asynchronous stateless architecture."
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's backed by ZStack, an infrastructure company with real production deployments. And it ships specific migration tooling and guides for moving"
+        }
+      ]
+    },
+    {
+      "tStartMs": 714000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "off VMware instead of a generic import script."
+        }
+      ]
+    },
+    {
+      "tStartMs": 719000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Moly is a browser engine built for AI agents, not for looking at pixels."
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Written in Rust, it runs real JavaScript through V8 and gives you a DOM, but skips layout and rendering unless you ask for a screenshot. The team clocks it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "at 73 megabytes of peak memory against Chrome Headless's 7773 and a CDP ready time of 34.85 milliseconds versus Chromium's 169.37."
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It ships an MCP server so agents can drive it directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 749000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kajj is a fivechapter nightwalk through a Kyoto mountain temple rendered live in 3JS. The whole thing is one static HTML file. No build step, no package manager."
+        }
+      ]
+    },
+    {
+      "tStartMs": 759000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You serve it and it runs. Scroll and a WebGL camera moves through a procedural temple. Tory gate and drifting leaves"
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "layered under pre-rendered artwork with fog and bloom shifting across five sections."
+        }
+      ]
+    },
+    {
+      "tStartMs": 773000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your iPad Pro runs the same M1 or M2 chip as a MacBook, but iPad OS won't let you run Xcode on it. Virtual Mac on iPad"
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "does, using real hardware virtualization and reconstructing Apple's own frameworks on a jailbroken device with Dopamine or Troll Installer X. Once it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "boots, you get a full Mac OS session, Magic Keyboard, or touchscreen input and working Xcode."
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gemma translator turns a Raspberry Pi 5 into an offline conversation translator for two people talking across a table."
+        }
+      ]
+    },
+    {
+      "tStartMs": 805000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No internet needed after setup. Speech goes in through Moonshine, gets translated by Gemma 4, and comes back"
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "out as speech on the other side. The interface splits into two lanes with a keyboard that flips for whoever's holding the device, and the whole pipeline runs locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 823000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Frontier Agent is a terminal app for agent work that takes hours, not a quick chat loop. Run React for one focused"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent or agent team, which splits work across parallel sub aents on a live task board with a coordinator keeping them"
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "straight. Everything runs in a sandboxed file system. Readonly inputs, a working directory, separate outputs, so agents can't step on each other's files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Scrollcraft is a clawed code skill for building scroll driven websites that don't look like every other AI site. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs on a refuse list, no gradient text, no feature card grids, none of that AI purple look, and enforces one of eight page grammars."
+        }
+      ]
+    },
+    {
+      "tStartMs": 864000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A fingerprint gate checks each new site against your past work and forces it to differ on four or more dimensions."
+        }
+      ]
+    }
+  ]
+}
