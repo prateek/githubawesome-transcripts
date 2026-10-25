@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "id": "d2ShJhqjqcM",
+  "title": "GitHub Trending Weekly #55: owly, ai-job-search, tsrs, dev-null.sh, laya, reylo, openterminal, onkey",
+  "url": "https://www.youtube.com/watch?v=d2ShJhqjqcM",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-10-24",
+  "duration": 915,
+  "word_count": 2430,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-25T06:59:33+00:00",
+    "metadata_sha256": "07e561491ba3025b77861484c40bdb81ab9006ab6afc8d0944a22c7418b0f8da",
+    "captions_sha256": "7b8d0579e8fdd883882ad8df758b7e1588525c6d4a710b505ba0352f47001de4",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly 55. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "owly",
+      "repositories": [
+        "https://github.com/t4t5/owly"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Ali lets an iPhone airdrop files directly to and from a Linux computer using supported non-Apple Wi-Fi hardware. You can send and receive from the terminal or pair it with Omdrop for a desktop interface. It implements Apple's direct wireless protocol, so compatibility depends on your exact Wi-Fi card and driver. Some cards keep Wi-Fi connected during transfers. Others temporarily disconnect until OI releases the radio."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "ai-job-search",
+      "repositories": [
+        "https://github.com/ai-job-search-dev/ai-job-search"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "AI job search turns clawed code into a job application assistant that runs on your own machine. You build a profile once from your CV and documents. Then you give it a job posting and it checks how well you fit, drafts a tailored CV and cover letter, and has a second agent review them before compiling the PDFs. It also checks the CV the way an applicant tracking system would read it."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "tsrs",
+      "repositories": [
+        "https://github.com/oxc-project/tsrs"
+      ],
+      "id": "s004",
+      "end": 89,
+      "paragraphs": [
+        "TSRS is a Rust port of the TypeScript 7 type checker from the team behind the Oxy tool chain. It's meant as a drop-in replacement for the TypeScript 7 compiler and language server, aiming for full conformance with far less memory. Install it with PNPM and run it like the normal type checker or plug it into your editor as a language server. There's also a web assembly build that runs in Node and the browser."
+      ]
+    },
+    {
+      "start": 89,
+      "title": "new-term-radar",
+      "repositories": [
+        "https://github.com/zhuyansen/new-term-radar"
+      ],
+      "id": "s005",
+      "end": 112,
+      "paragraphs": [
+        "New term radar is a small Python tool that spots new AI names like models, products, and repos before keyword tools start listing them. Once a day, it pulls signals from exposts, hugging face, GitHub, and site maps, merges them, and has a model decide whether each term is a real name or just a common word. The real names land in a report and a database."
+      ]
+    },
+    {
+      "start": 112,
+      "title": "security-audit-skill",
+      "repositories": [
+        "https://github.com/cloudflare/security-audit-skill"
+      ],
+      "id": "s006",
+      "end": 138,
+      "paragraphs": [
+        "Security audit skill is Cloudflare's skill that turns your coding agent into a security auditor for your own codebase. It maps maps the architecture and trust boundaries first, then sends separate sub agents hunting through each area. Every possible bug goes to a fresh agent whose only job is to prove it wrong. Only real boundary failures get confirmed and everything is written into structured reports."
+      ]
+    },
+    {
+      "start": 138,
+      "title": "dev-null.sh",
+      "repositories": [
+        "https://github.com/dev-null-sh/dev-null.sh"
+      ],
+      "id": "s007",
+      "end": 163,
+      "paragraphs": [
+        "DevNull is a social network for developers where your GitHub account becomes your identity, posts are commits, and timelines are logs. Share code with syntax highlighting, follow people's projects, or publish from your terminal and GitHub actions using SSH signatures. Public posts are readable without signing in, and content goes through moderation before appearing to others."
+      ]
+    },
+    {
+      "start": 163,
+      "title": "laya",
+      "repositories": [
+        "https://github.com/NandhaKishorM/laya"
+      ],
+      "id": "s008",
+      "end": 190,
+      "paragraphs": [
+        "Lia is a system one decision engine that answers typed questions about any text in a single forward pass with no text generation. Ask it to pick a label, give a score or return a yes no probability and a router sends the text to the right model with an English model and a multilingual one covering over 100 languages. Every answer comes back with a confidence value and can abstain when it's unsure."
+      ]
+    },
+    {
+      "start": 190,
+      "title": "3d-model-anything",
+      "repositories": [
+        "https://github.com/wesbos/3d-model-anything"
+      ],
+      "id": "s009",
+      "end": 213,
+      "paragraphs": [
+        "3D model anything from West Boss scans a room with your iPhone and turns it into an editable 3JS scene with an AI agent doing much of the modeling. The iPhone app captures LAR geometry and photos. Then a skill walks the agent through measuring the space, building the model, and comparing it against your original photos from matching camera angles."
+      ]
+    },
+    {
+      "start": 213,
+      "title": "rossark-motion-skill",
+      "repositories": [
+        "https://github.com/rossark0/rossark-motion-skill"
+      ],
+      "id": "s010",
+      "end": 242,
+      "paragraphs": [
+        "Rossarch motion skill is a clawed code skill for animating drawings including SVG art aiming for smooth 60fps motion in React Native and Swift UI. It can bring characters, plants, fire, water, and even logos and charts to life. A single clock drives the whole scene with real pivots, follow through, and gentle idle movement so nothing feels stiff. Give it a reference video and it measures the motion frame by frame before building."
+      ]
+    },
+    {
+      "start": 242,
+      "title": "reylo",
+      "repositories": [
+        "https://github.com/colinhacks/reylo"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "Rao from Colin McDonald who made Zod lets you import. School files straight into Typescript and get full type inference from them. Write a query in a SQL file, import it and call run. Rao has your dev database prepare the query without running it. Reads the types of column and parameter and hands them back to TypeScript. It works out nullability, whether you get one row or many, and even union types from your enums."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "openterminal",
+      "repositories": [
+        "https://github.com/spovalova/openterminal"
+      ],
+      "id": "s012",
+      "end": 295,
+      "paragraphs": [
+        "Open Terminal is a research tool for traders that builds its interface from a plain English question. Ask something and an agent assembles a workspace of charts, tables, and option chains, then answers while pointing at the widget the widgets it made. It runs as one process on your own machine with your browser as the front end. And the server checks that the numbers in the reply match the data on screen."
+      ]
+    },
+    {
+      "start": 295,
+      "title": "hatchzip",
+      "repositories": [
+        "https://github.com/xevrion/hatchzip"
+      ],
+      "id": "s013",
+      "end": 323,
+      "paragraphs": [
+        "Hatchzip is a Rust tool that extracts huge archives in place, reclaiming disk space as it goes. Normally, you need room for both the archive and everything inside it. Hatchzip extracts from the end of the archive and trims the file down after each batch, so you only need about the size of the output. It checks there's enough space before touching anything, verifies files with CRC32, and can resume if it's interrupted."
+      ]
+    },
+    {
+      "start": 323,
+      "title": "dquickts",
+      "repositories": [
+        "https://github.com/stencil-hq/dquickts"
+      ],
+      "id": "s014",
+      "end": 347,
+      "paragraphs": [
+        "Dquick test is a fork of Fabris Bellard's quickjs JavaScript engine that adds durable execution. It can pause running JavaScript at a safe point even in the middle of a loop and save the entire heap as a snapshot. Later, another process can load that snapshot and pick up exactly where the code stopped. Follow-up snapshots only store what changed, so they can be tiny."
+      ]
+    },
+    {
+      "start": 347,
+      "title": "ming-voice",
+      "repositories": [
+        "https://github.com/JMS1717/ming-voice"
+      ],
+      "id": "s015",
+      "end": 374,
+      "paragraphs": [
+        "MingVoice is a local real-time voice assistant that runs on AMD Radeon GPUs built on Inclusion AI's Ming speechtoech model. It listens, works out when you finish talking, and starts answering before you're even done, then rolls back if you keep going. You can interrupt it mid reply, and it ignores its own voice coming through the speakers. It can search the web, set timers, and control home assistant."
+      ]
+    },
+    {
+      "start": 374,
+      "title": "onkey",
+      "repositories": [
+        "https://github.com/dsmurrell/onkey"
+      ],
+      "id": "s016",
+      "end": 401,
+      "paragraphs": [
+        "Onkey is a free singing trainer for Mac OS that gives you pitch feedback while you sing along to music in Spotify, Apple Music, or YouTube. It's built with Tori and Rust and runs its models on your Mac. The first time a song plays, it pulls out the lead vocal, tracks the singer's pitch, and turns it into note bars, one per syllable. On later plays, it follows the song and scores your voice live, line by line."
+      ]
+    },
+    {
+      "start": 401,
+      "title": "Sumi.css",
+      "repositories": [
+        "https://github.com/vladocar/Sumi.css"
+      ],
+      "id": "s017",
+      "end": 427,
+      "paragraphs": [
+        "Sumi.css styles plain HTML. So forms, tables, and navigation look consistent before you add a single class. Link one stylesheet, and it follows the visitor's light or dark setting with optional classes for grids and layout. Colors, spacing, and fonts come from CSS variables. Its base element styles have zero specificity, so your own CSS can override them without a fight. No build step or JavaScript required."
+      ]
+    },
+    {
+      "start": 427,
+      "title": "rl-env-use",
+      "repositories": [
+        "https://github.com/browser-use/rl-env-use"
+      ],
+      "id": "s018",
+      "end": 455,
+      "paragraphs": [
+        "RLEn views from the browser use team builds a reinforcement learning environment from a oneline description. Its agents mine real source material from the web like clinical trial protocols or 10Q filings along with the outcomes that got published later. Code computes the correct answers and any task a frontier model already solves gets rewritten to be harder. Then it tunes a model's prompt against a train and test split."
+      ]
+    },
+    {
+      "start": 455,
+      "title": "img2interior",
+      "repositories": [
+        "https://github.com/img2threejs/plugin-interior"
+      ],
+      "id": "s019",
+      "end": 482,
+      "paragraphs": [
+        "IMG2 interior is a skill for coding agents like Claude Code and Codeex that turns a single photo of a room into an editable Blender scene and a browser viewer. The agent reads the image, writes a Blender scene and a Python builder, renders it, then compares the render against your photo, and iterates. It's honest that this isn't a oneshot image to mesh model since it depends on that review loop."
+      ]
+    },
+    {
+      "start": 482,
+      "title": "Rubix-lang",
+      "repositories": [
+        "https://github.com/tek-sys-hub/Rubix-lang"
+      ],
+      "id": "s020",
+      "end": 508,
+      "paragraphs": [
+        "Rubik is an experimental systems programming language whose whole compiler is written by hand in x8664 assembly. It turns source files into standalone native programs for Linux and Windows with no lib C, no LLVM and no outside tool chain. It has strrus, arrays, floatingoint math, multifile imports, and Rust style error messages with source snippets. On Windows, it even finds the system functions it needs at runtime."
+      ]
+    },
+    {
+      "start": 508,
+      "title": "motion2code",
+      "repositories": [
+        "https://github.com/lovisdotio/motion2code"
+      ],
+      "id": "s021",
+      "end": 534,
+      "paragraphs": [
+        "Motion Toad guides a coding agent through rebuilding a motion design video as editable SVG and Gap code. It extracts frames and colors first, then puts the animation on one timeline you can seek to any moment. Comparison tools show the source beside the render and flag mismatched frames or a jump at the loop seam. The result stays editable, so changing a color or timing means changing code."
+      ]
+    },
+    {
+      "start": 534,
+      "title": "omnara",
+      "repositories": [
+        "https://github.com/omnara-ai/omnara"
+      ],
+      "id": "s022",
+      "end": 560,
+      "paragraphs": [
+        "Omnara runs AI agents as a service across your own machines and cloud sandboxes with your choice of model provider. Launch jobs through an API. Follow tool calls live and require approval before specific tools run. Agent history lives in Postgress so workers can resume after crashes. You can self-host with Docker Compose, but you'll need to connect models and machines and configure it for production."
+      ]
+    },
+    {
+      "start": 560,
+      "title": "ELYTerminal",
+      "repositories": [
+        "https://github.com/ELY-Open-Source/ELYTerminal"
+      ],
+      "id": "s023",
+      "end": 584,
+      "paragraphs": [
+        "Eli terminal is an open-source terminal for Mac OS, Windows, and Linux written in Rust on the GPUi framework with elacrity's terminal engine underneath. Your sessions sit on the left, the terminal in the middle, and git and file panels on the right. Shell integration tells it which folder each prompt is in and how each command went, so the side panels follow along."
+      ]
+    },
+    {
+      "start": 584,
+      "title": "prompt2rig",
+      "repositories": [
+        "https://github.com/blendi-remade/prompt2rig"
+      ],
+      "id": "s024",
+      "end": 608,
+      "paragraphs": [
+        "Prompt to rig turns a text prompt into a rigged 3D character acting out the motion. Type what you want and a fast video model makes a short clip. The motion gets extracted from it and mapped onto a mixo skeleton right in the browser. A quick in browser pose estimate gives you an instant preview while a local GPU does a cleaner pass in about 3 and 1/2 seconds."
+      ]
+    },
+    {
+      "start": 608,
+      "title": "video-short",
+      "repositories": [
+        "https://github.com/petergyang/video-short"
+      ],
+      "id": "s025",
+      "end": 634,
+      "paragraphs": [
+        "Video short is a skill for AI agents that turns a raw recording into a finished short video with B-roll, motion graphics, captions, and music. Pointed at your footage, and it transcribes the talk, then cuts retakes, and dead air. Next, it proposes a scene by scene plan for you to approve before rendering anything. After the draft renders, you leave notes on a review page, and the agent makes a new version."
+      ]
+    },
+    {
+      "start": 634,
+      "title": "penmentor",
+      "repositories": [
+        "https://github.com/AbdullahAlhariri/penmentor"
+      ],
+      "id": "s026",
+      "end": 662,
+      "paragraphs": [
+        "Pen Mentor is a math tutor that works on a pen tablet. You write a problem out by hand in Exornal Plus+, press a key, and an AI model marks your work right on the page, circling mistakes and ticking the correct lines like a teacher would. Instead of handing you the answer, it gives graduated hints from a gentle nudge to a faint ghost of the next step. It can even generate a three blue one brown style animation of the idea behind the problem."
+      ]
+    },
+    {
+      "start": 662,
+      "title": "rec",
+      "repositories": [
+        "https://github.com/recursive-oss/rec"
+      ],
+      "id": "s027",
+      "end": 690,
+      "paragraphs": [
+        "Wreck is a local inference engine from recursive for running their flint language models on an Apple silicon Mac. One command launches the model inside a coding harness like pi or open code downloading everything on first run. It can also serve an OpenAI compatible API on local host so other tools can point at your local model with a local key to authenticate. The server keeps running after you close the terminal until you stop it."
+      ]
+    },
+    {
+      "start": 690,
+      "title": "BitKindle",
+      "repositories": [
+        "https://github.com/tombkeeper/BitKindle"
+      ],
+      "id": "s028",
+      "end": 715,
+      "paragraphs": [
+        "BitKindle is a C compiler tool chain for 64-bit Windows that bootstraps itself from a seed of just 3584 bytes of machine code. It needs no MSVC, GCC, Clang, or Windows SDK, and the build downloads nothing. PowerShell decodes the seed. Then each stage builds the next one. You get assemblers, a C compiler written in C, a runtime library, and a linker that produces real Windows programs."
+      ]
+    },
+    {
+      "start": 715,
+      "title": "opal",
+      "repositories": [
+        "https://github.com/xingjian-bai/opal"
+      ],
+      "id": "s029",
+      "end": 742,
+      "paragraphs": [
+        "Opal lets a coding agent rewrite your PyTorch optimizer while the model trains. It reads training statistics, then adjusts update rules, learning rates, or gradient clipping through small programs loaded during the run. Every change comes with a recorded rationale and code diff. You can first verify a dry run against your original optimizer. Agent calls add time and cost, and its changes can make training worse."
+      ]
+    },
+    {
+      "start": 742,
+      "title": "Bursar",
+      "repositories": [
+        "https://github.com/Samsara-1999/Bursar"
+      ],
+      "id": "s030",
+      "end": 767,
+      "paragraphs": [
+        "Bersar is a self-hosted platform for running a shared Linux GPU server with accounts, quotas, and usage accounting built-in go and view on Postgress school. Users keep logging in over plain SSH as usual. A small agent on each machine reports GPU, CPU, and memory use back to a central controller. The controller prices that usage in points, enforces each person's quota, and logs security events."
+      ]
+    },
+    {
+      "start": 767,
+      "title": "OpenVLHarness",
+      "repositories": [
+        "https://github.com/uclanlp/OpenVLHarness"
+      ],
+      "id": "s031",
+      "end": 790,
+      "paragraphs": [
+        "OpenVL harness gives vision language models tools to inspect images without retraining their weights. A model can locate objects, read text, estimate depth, or search for visual matches, then use Python to calculate over the results. Images, masks, and measurements stay addressable throughout each question, and the tool trace remains available for inspection. Video editor skills is a set of clawed code skills that turn Claude into a first pass video"
+      ]
+    },
+    {
+      "start": 790,
+      "title": "video-editor-skills",
+      "repositories": [
+        "https://github.com/appariciojunior/video-editor-skills"
+      ],
+      "id": "s032",
+      "end": 816,
+      "paragraphs": [
+        "editor inside Da Vinci Resolve. It cuts your footage from the transcript, trimming retakes in dead air, then lays in B-roll, music, captions, and motion graphics and sets up the YouTube export. You still make the creative calls. It reads the silences to pace of vlog, picks B-roll, and balances the loudness."
+      ]
+    },
+    {
+      "start": 816,
+      "title": "open-math-harness",
+      "repositories": [
+        "https://github.com/openmathmodel/open-math-harness"
+      ],
+      "id": "s033",
+      "end": 842,
+      "paragraphs": [
+        "Open Math Harness is the open- source runtime behind OpenMath OS, a platform for doing math research with AI agents written in Rust. Every agent runs as a sandboxed process that only gets the permissions it's given. The agents run on openweight models and can split up work, use tools, and keep project memory in Git. In Ultramath mode, several agents try different approaches to one problem and report back."
+      ]
+    },
+    {
+      "start": 842,
+      "title": "bambu-bar",
+      "repositories": [
+        "https://github.com/rolottr/bambu-bar"
+      ],
+      "id": "s034",
+      "end": 865,
+      "paragraphs": [
+        "Bamboo Bar is a native Mac OS menu bar app for Bamboo Lab 3D printers written in Swift with no third-party packages. It shows print progress, time left, temperatures, AMS spools, and any errors right in the menu bar. You can pause, resume, or stop a print, change the speed, and switch the chamber light. It handles several printers at once, and adds desktop widgets."
+      ]
+    },
+    {
+      "start": 865,
+      "title": "Hi3Dv1.0",
+      "repositories": [
+        "https://github.com/hi3d-official/Hi3Dv1.0"
+      ],
+      "id": "s035",
+      "end": 891,
+      "paragraphs": [
+        "I3D takes a rough 3D mesh and a reference image of the same object, then refines the geometry through progressively finer passes. Feed it a coarse model and a photo, and it exports a refined mesh through Python or the command line. It produces geometry only, so textures need another step. Hidden surfaces are inferred, and running it requires Linux with a compatible Nvidia GPU."
+      ]
+    },
+    {
+      "start": 891,
+      "title": "Plume_Launcher",
+      "repositories": [
+        "https://github.com/aradhyas8/Plume_Launcher"
+      ],
+      "id": "s036",
+      "end": 915,
+      "paragraphs": [
+        "Plume Launcher gives Android TV and Google TV a home screen centered on your apps and continue watching without sponsored rows. Rearrange or hide apps, pin HDMI inputs beside them, and assign shortcuts to supported remote buttons. Its home button service uses Android accessibility permissions with an extra setup step on some newer TVs."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly 55. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Ali lets an iPhone airdrop files directly to and from a Linux computer using supported non-Apple Wi-Fi hardware. You can send and receive from"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "the terminal or pair it with Omdrop for a desktop interface."
+    },
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "It implements Apple's direct wireless protocol, so compatibility depends on your exact Wi-Fi card and driver. Some cards keep Wi-Fi connected during"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "transfers. Others temporarily disconnect until OI releases the radio."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "AI job search turns clawed code into a job application assistant that runs on your own machine. You build a profile once from your CV and documents. Then"
+    },
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "text": "you give it a job posting and it checks how well you fit, drafts a tailored CV and cover letter, and has a second agent review them before compiling the PDFs."
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "text": "It also checks the CV the way an applicant tracking system would read it."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "TSRS is a Rust port of the TypeScript 7 type checker from the team behind the Oxy tool chain. It's meant as a drop-in"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "replacement for the TypeScript 7 compiler and language server, aiming for full conformance with far less memory."
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "Install it with PNPM and run it like the normal type checker or plug it into your editor as a language server. There's"
+    },
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "text": "also a web assembly build that runs in Node and the browser."
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "New term radar is a small Python tool that spots new AI names like models, products, and repos before keyword tools"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "start listing them. Once a day, it pulls signals from exposts, hugging face, GitHub, and site maps, merges them, and"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "has a model decide whether each term is a real name or just a common word. The real names land in a report and a database."
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "text": "Security audit skill is Cloudflare's skill that turns your coding agent into a security auditor for your own"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "text": "codebase. It maps maps the architecture and trust boundaries first, then sends separate sub agents hunting through each"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "area. Every possible bug goes to a fresh agent whose only job is to prove it wrong. Only real boundary failures get"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "confirmed and everything is written into structured reports."
+    },
+    {
+      "start": 138.0,
+      "end": 138.0,
+      "text": "DevNull is a social network for developers where your GitHub account becomes your identity, posts are commits, and timelines are logs. Share"
+    },
+    {
+      "start": 147.0,
+      "end": 147.0,
+      "text": "code with syntax highlighting, follow people's projects, or publish from your terminal and GitHub actions using SSH signatures."
+    },
+    {
+      "start": 156.0,
+      "end": 156.0,
+      "text": "Public posts are readable without signing in, and content goes through moderation before appearing to others."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Lia is a system one decision engine that answers typed questions about any text in a single forward pass with no text"
+    },
+    {
+      "start": 171.0,
+      "end": 171.0,
+      "text": "generation. Ask it to pick a label, give a score or return a yes no probability and a router sends the text to the right"
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "model with an English model and a multilingual one covering over 100 languages. Every answer comes back with"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "a confidence value and can abstain when it's unsure."
+    },
+    {
+      "start": 190.0,
+      "end": 190.0,
+      "text": "3D model anything from West Boss scans a room with your iPhone and turns it into an editable 3JS scene with an AI agent"
+    },
+    {
+      "start": 198.0,
+      "end": 198.0,
+      "text": "doing much of the modeling. The iPhone app captures LAR geometry and photos."
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "Then a skill walks the agent through measuring the space, building the model, and comparing it against your original photos from matching camera angles."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "Rossarch motion skill is a clawed code skill for animating drawings including SVG art aiming for smooth 60fps motion"
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "in React Native and Swift UI. It can bring characters, plants, fire, water, and even logos and charts to life. A"
+    },
+    {
+      "start": 230.0,
+      "end": 230.0,
+      "text": "single clock drives the whole scene with real pivots, follow through, and gentle idle movement so nothing feels stiff."
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "Give it a reference video and it measures the motion frame by frame before building."
+    },
+    {
+      "start": 242.0,
+      "end": 242.0,
+      "text": "Rao from Colin McDonald who made Zod lets you import. School files straight into Typescript and get full type inference from them. Write a query in a"
+    },
+    {
+      "start": 251.0,
+      "end": 251.0,
+      "text": "SQL file, import it and call run. Rao has your dev database prepare the query without running it. Reads the types of"
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "column and parameter and hands them back to TypeScript. It works out nullability, whether you get one row or many, and even union types from your enums."
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "Open Terminal is a research tool for traders that builds its interface from a plain English question. Ask something"
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "and an agent assembles a workspace of charts, tables, and option chains, then answers while pointing at the widget the"
+    },
+    {
+      "start": 284.0,
+      "end": 284.0,
+      "text": "widgets it made. It runs as one process on your own machine with your browser as the front end. And the server checks"
+    },
+    {
+      "start": 290.0,
+      "end": 290.0,
+      "text": "that the numbers in the reply match the data on screen."
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "Hatchzip is a Rust tool that extracts huge archives in place, reclaiming disk space as it goes. Normally, you need"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "room for both the archive and everything inside it. Hatchzip extracts from the end of the archive and trims the file down after each batch, so you only need"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "about the size of the output. It checks there's enough space before touching anything, verifies files with CRC32, and can resume if it's interrupted."
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "Dquick test is a fork of Fabris Bellard's quickjs JavaScript engine that adds durable execution. It can pause"
+    },
+    {
+      "start": 331.0,
+      "end": 331.0,
+      "text": "running JavaScript at a safe point even in the middle of a loop and save the entire heap as a snapshot. Later, another process can load that snapshot"
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "and pick up exactly where the code stopped. Follow-up snapshots only store what changed, so they can be tiny."
+    },
+    {
+      "start": 347.0,
+      "end": 347.0,
+      "text": "MingVoice is a local real-time voice assistant that runs on AMD Radeon GPUs built on Inclusion AI's Ming speechtoech"
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "model. It listens, works out when you finish talking, and starts answering before you're even done, then rolls back"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "if you keep going. You can interrupt it mid reply, and it ignores its own voice coming through the speakers. It can"
+    },
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "search the web, set timers, and control home assistant."
+    },
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "Onkey is a free singing trainer for Mac OS that gives you pitch feedback while you sing along to music in Spotify,"
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "Apple Music, or YouTube. It's built with Tori and Rust and runs its models on your Mac. The first time a song plays,"
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "it pulls out the lead vocal, tracks the singer's pitch, and turns it into note bars, one per syllable. On later plays, it follows the song and scores your voice live, line by line."
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "Sumi.css styles plain HTML. So forms, tables, and navigation look consistent before you add a single class. Link one"
+    },
+    {
+      "start": 409.0,
+      "end": 409.0,
+      "text": "stylesheet, and it follows the visitor's light or dark setting with optional classes for grids and layout. Colors, spacing, and fonts come from CSS"
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "variables. Its base element styles have zero specificity, so your own CSS can override them without a fight. No build step or JavaScript required."
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "RLEn views from the browser use team builds a reinforcement learning environment from a oneline description."
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "Its agents mine real source material from the web like clinical trial protocols or 10Q filings along with the"
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "outcomes that got published later. Code computes the correct answers and any task a frontier model already solves"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "gets rewritten to be harder. Then it tunes a model's prompt against a train and test split."
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "IMG2 interior is a skill for coding agents like Claude Code and Codeex that turns a single photo of a room into an"
+    },
+    {
+      "start": 463.0,
+      "end": 463.0,
+      "text": "editable Blender scene and a browser viewer. The agent reads the image, writes a Blender scene and a Python builder, renders it, then compares the render against your photo, and iterates."
+    },
+    {
+      "start": 475.0,
+      "end": 475.0,
+      "text": "It's honest that this isn't a oneshot image to mesh model since it depends on that review loop."
+    },
+    {
+      "start": 482.0,
+      "end": 482.0,
+      "text": "Rubik is an experimental systems programming language whose whole compiler is written by hand in x8664 assembly. It turns source files into"
+    },
+    {
+      "start": 490.0,
+      "end": 490.0,
+      "text": "standalone native programs for Linux and Windows with no lib C, no LLVM and no outside tool chain. It has strrus,"
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "arrays, floatingoint math, multifile imports, and Rust style error messages with source snippets. On Windows, it even finds the system functions it needs at runtime."
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "Motion Toad guides a coding agent through rebuilding a motion design video as editable SVG and Gap code. It"
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "extracts frames and colors first, then puts the animation on one timeline you can seek to any moment. Comparison tools"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "show the source beside the render and flag mismatched frames or a jump at the loop seam. The result stays editable, so"
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "changing a color or timing means changing code."
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "Omnara runs AI agents as a service across your own machines and cloud sandboxes with your choice of model provider. Launch jobs through an API."
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "Follow tool calls live and require approval before specific tools run."
+    },
+    {
+      "start": 548.0,
+      "end": 548.0,
+      "text": "Agent history lives in Postgress so workers can resume after crashes. You can self-host with Docker Compose, but you'll need to connect models and"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "machines and configure it for production."
+    },
+    {
+      "start": 560.0,
+      "end": 560.0,
+      "text": "Eli terminal is an open-source terminal for Mac OS, Windows, and Linux written in Rust on the GPUi framework with elacrity's terminal engine underneath."
+    },
+    {
+      "start": 570.0,
+      "end": 570.0,
+      "text": "Your sessions sit on the left, the terminal in the middle, and git and file panels on the right. Shell integration"
+    },
+    {
+      "start": 577.0,
+      "end": 577.0,
+      "text": "tells it which folder each prompt is in and how each command went, so the side panels follow along."
+    },
+    {
+      "start": 584.0,
+      "end": 584.0,
+      "text": "Prompt to rig turns a text prompt into a rigged 3D character acting out the motion."
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "Type what you want and a fast video model makes a short clip. The motion gets extracted from it and mapped onto a"
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "mixo skeleton right in the browser. A quick in browser pose estimate gives you an instant preview while a local GPU"
+    },
+    {
+      "start": 604.0,
+      "end": 604.0,
+      "text": "does a cleaner pass in about 3 and 1/2 seconds."
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "Video short is a skill for AI agents that turns a raw recording into a finished short video with B-roll, motion"
+    },
+    {
+      "start": 616.0,
+      "end": 616.0,
+      "text": "graphics, captions, and music. Pointed at your footage, and it transcribes the talk, then cuts retakes, and dead air."
+    },
+    {
+      "start": 623.0,
+      "end": 623.0,
+      "text": "Next, it proposes a scene by scene plan for you to approve before rendering anything. After the draft renders, you leave notes on a review page, and the agent makes a new version."
+    },
+    {
+      "start": 634.0,
+      "end": 634.0,
+      "text": "Pen Mentor is a math tutor that works on a pen tablet. You write a problem out by hand in Exornal Plus+, press a key, and"
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "an AI model marks your work right on the page, circling mistakes and ticking the correct lines like a teacher would."
+    },
+    {
+      "start": 649.0,
+      "end": 649.0,
+      "text": "Instead of handing you the answer, it gives graduated hints from a gentle nudge to a faint ghost of the next step."
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "It can even generate a three blue one brown style animation of the idea behind the problem."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "Wreck is a local inference engine from recursive for running their flint language models on an Apple silicon Mac."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "One command launches the model inside a coding harness like pi or open code downloading everything on first run. It"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "can also serve an OpenAI compatible API on local host so other tools can point at your local model with a local key to"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "authenticate. The server keeps running after you close the terminal until you stop it."
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "BitKindle is a C compiler tool chain for 64-bit Windows that bootstraps itself from a seed of just 3584 bytes of"
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "machine code. It needs no MSVC, GCC, Clang, or Windows SDK, and the build downloads nothing. PowerShell decodes"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "the seed. Then each stage builds the next one. You get assemblers, a C compiler written in C, a runtime library, and a linker that produces real Windows programs."
+    },
+    {
+      "start": 715.0,
+      "end": 715.0,
+      "text": "Opal lets a coding agent rewrite your PyTorch optimizer while the model trains. It reads training statistics,"
+    },
+    {
+      "start": 722.0,
+      "end": 722.0,
+      "text": "then adjusts update rules, learning rates, or gradient clipping through small programs loaded during the run."
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "Every change comes with a recorded rationale and code diff. You can first verify a dry run against your original optimizer. Agent calls add time and"
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "cost, and its changes can make training worse."
+    },
+    {
+      "start": 742.0,
+      "end": 742.0,
+      "text": "Bersar is a self-hosted platform for running a shared Linux GPU server with accounts, quotas, and usage accounting built-in go and view on Postgress"
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "school. Users keep logging in over plain SSH as usual. A small agent on each machine reports GPU, CPU, and memory use"
+    },
+    {
+      "start": 759.0,
+      "end": 759.0,
+      "text": "back to a central controller. The controller prices that usage in points, enforces each person's quota, and logs security events."
+    },
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "OpenVL harness gives vision language models tools to inspect images without retraining their weights. A model can"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "locate objects, read text, estimate depth, or search for visual matches, then use Python to calculate over the"
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "results. Images, masks, and measurements stay addressable throughout each question, and the tool trace remains"
+    },
+    {
+      "start": 788.0,
+      "end": 788.0,
+      "text": "available for inspection. Video editor skills is a set of clawed code skills that turn Claude into a first pass video"
+    },
+    {
+      "start": 795.0,
+      "end": 795.0,
+      "text": "editor inside Da Vinci Resolve. It cuts your footage from the transcript, trimming retakes in dead air, then lays"
+    },
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "in B-roll, music, captions, and motion graphics and sets up the YouTube export."
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "You still make the creative calls. It reads the silences to pace of vlog, picks B-roll, and balances the loudness."
+    },
+    {
+      "start": 816.0,
+      "end": 816.0,
+      "text": "Open Math Harness is the open- source runtime behind OpenMath OS, a platform for doing math research with AI agents"
+    },
+    {
+      "start": 823.0,
+      "end": 823.0,
+      "text": "written in Rust. Every agent runs as a sandboxed process that only gets the permissions it's given. The agents run"
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "on openweight models and can split up work, use tools, and keep project memory in Git. In Ultramath mode, several agents try different approaches to one problem and report back."
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "Bamboo Bar is a native Mac OS menu bar app for Bamboo Lab 3D printers written in Swift with no third-party packages."
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "It shows print progress, time left, temperatures, AMS spools, and any errors right in the menu bar. You can pause,"
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "resume, or stop a print, change the speed, and switch the chamber light. It handles several printers at once, and adds desktop widgets."
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "I3D takes a rough 3D mesh and a reference image of the same object, then refines the geometry through progressively finer passes. Feed it a"
+    },
+    {
+      "start": 874.0,
+      "end": 874.0,
+      "text": "coarse model and a photo, and it exports a refined mesh through Python or the command line. It produces geometry only,"
+    },
+    {
+      "start": 882.0,
+      "end": 882.0,
+      "text": "so textures need another step. Hidden surfaces are inferred, and running it requires Linux with a compatible Nvidia GPU."
+    },
+    {
+      "start": 891.0,
+      "end": 891.0,
+      "text": "Plume Launcher gives Android TV and Google TV a home screen centered on your apps and continue watching without sponsored rows. Rearrange or hide apps,"
+    },
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "pin HDMI inputs beside them, and assign shortcuts to supported remote buttons."
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "Its home button service uses Android accessibility permissions with an extra setup step on some newer TVs."
+    }
+  ]
+}

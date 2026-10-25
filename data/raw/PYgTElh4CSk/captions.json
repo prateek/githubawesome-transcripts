@@ -1,0 +1,1593 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 54. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "GI moves the heavy parts of version control onto a server so coding agents can work on the same repository without"
+    },
+    {
+      "timestamp": "0:17",
+      "text": "each cloning everything. Agents fetch only the files they need while history queries and landing changes happen"
+    },
+    {
+      "timestamp": "0:24",
+      "text": "centrally. You can also plug in your own conflict resolver, including an AI model. It's an independent open- source"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "implementation inspired by Anthropic Scion design."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Sill puts any Mac window or your whole desktop on your iPhone or iPad. Pair a device once by scanning a code. Then"
+    },
+    {
+      "timestamp": "0:44",
+      "text": "pick windows from a bar and control them with touch, a trackpad, a keyboard, or Apple Pencil. It works over Wi-Fi or a"
+    },
+    {
+      "timestamp": "0:51",
+      "text": "USB cable and away from home through your own VPN like tail scale. On the folding iPhone Duo, the layout adjusts"
+    },
+    {
+      "timestamp": "0:58",
+      "text": "as you open and close it. Fleet puts a file converter right under your cursor."
+    },
+    {
+      "timestamp": "1:03",
+      "text": "Hold a key, drag your files and drop them onto a format in the menu that appears. It converts locally and saves"
+    },
+    {
+      "timestamp": "1:11",
+      "text": "results beside the originals so your documents never need uploading. You can batch conversions or watch a folder for"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "incoming files. Some formats need optional engines which FY downloads when needed."
+    },
+    {
+      "timestamp": "1:25",
+      "text": "Tracely turns failed AI agent runs into regression tests you can run before merging another change. It grades"
+    },
+    {
+      "timestamp": "1:32",
+      "text": "production traces, groups similar failures into issues, and lets you freeze a bad run with its recorded model responses and tool outputs. Those"
+    },
+    {
+      "timestamp": "1:40",
+      "text": "fixtures support repeatable tests without fresh model calls, provided your agent uses its replay integration."
+    },
+    {
+      "timestamp": "1:48",
+      "text": "Snitch shows where your computer's network traffic goes and which apps are responsible. Connections appear in a live graph and on a world map with per"
+    },
+    {
+      "timestamp": "1:56",
+      "text": "app bandwidth history to help explain what's happening in the background."
+    },
+    {
+      "timestamp": "2:01",
+      "text": "Traffic records stay on your machine and even IP geoloccation works offline."
+    },
+    {
+      "timestamp": "2:07",
+      "text": "It visualizes connections and flags suspicious patterns. Blocking traffic still needs a separate firewall."
+    },
+    {
+      "timestamp": "2:15",
+      "text": "Open screen sharing is a better client for Apple's built-in Mac screen sharing written in Go and Swift on top of the protocol Apple's own screen sharing app"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "uses. It runs on Mac OS, iPhone, and iPad, and it can also connect over RDP."
+    },
+    {
+      "timestamp": "2:30",
+      "text": "It's tuned for both your local network and the internet, including direct tail scale connections and adds exclusive mouse control and a debug HUD."
+    },
+    {
+      "timestamp": "2:39",
+      "text": "Web Ocean renders a moving ocean in your browser using web GPU with no game engine or rendering library. Simulated"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "waves form white caps, sunlight glitters across the surface, and a free camera lets you fly over the water. You can adjust wind, swell, and sunset lighting"
+    },
+    {
+      "timestamp": "2:55",
+      "text": "as it runs. The whole scene opens from one self-contained HTML file, though you'll need Chrome with web GPU and a capable GPU."
+    },
+    {
+      "timestamp": "3:05",
+      "text": "Earshot gives coding agents audio feedback they can reason about. It describes sound files, finds moments matching a description, and checks how"
+    },
+    {
+      "timestamp": "3:14",
+      "text": "effects line up with video cuts. An agent can also synthesize effects from code, then revise them using measurements and audio model scores."
+    },
+    {
+      "timestamp": "3:23",
+      "text": "The core tools run locally on CPU through a CLI or MCP server, though those scores still need a human"
+    },
+    {
+      "timestamp": "3:29",
+      "text": "listening check. Netmerge combines several internet connections like Wi-Fi, Ethernet, and a phone hotspot, so your"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "apps use all of them at once. It's written in Go and creates a virtual network adapter with no account, no"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "server, and noVPN. Each new connection goes to one of your links, and faster links get more of them. If a link drops,"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "it stops getting new connections until it comes back."
+    },
+    {
+      "timestamp": "3:56",
+      "text": "Lean RIA gives coding agents a compact guide to inspecting compiled apps with ordinary command line tools. It routes"
+    },
+    {
+      "timestamp": "4:03",
+      "text": "each file type to a useful first command, then narrows the search through strings, imports, or extracted code. You"
+    },
+    {
+      "timestamp": "4:11",
+      "text": "can trace an electron feature or check a go binary dependencies without an MCP server. It also tells the agent to"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "distinguish what it found from what it inferred."
+    },
+    {
+      "timestamp": "4:22",
+      "text": "TV Vibe hack replaces your Android TV's cluttered home screen with a lightweight launcher built around your apps. Give it setup prompt to a coding assistant."
+    },
+    {
+      "timestamp": "4:31",
+      "text": "Choose your favorites and it backs things up before disabling unwanted packages over ADB. You get a four app"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "doc, an app grid and navigation designed for the remote. Packages stay installed but disabled and a restore script brings the stock launcher back."
+    },
+    {
+      "timestamp": "4:49",
+      "text": "Harness Squared improves the setup around an AI agent while keeping the model's weights fixed. It proposes changes to prompts, memory or tool"
+    },
+    {
+      "timestamp": "4:57",
+      "text": "guidance, tries them on the current task, and combines useful changes by comparing how the runs behaved. Lessons"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "carry forward to later tasks. You can explore alternatives in parallel or refine them sequentially with saved"
+    },
+    {
+      "timestamp": "5:10",
+      "text": "execution evidence to inspect alongside the adopted configuration."
+    },
+    {
+      "timestamp": "5:15",
+      "text": "Motion prompt helps when you can picture an animation but don't know what to call it. It pairs visual samples with names,"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "explanations, and example prompts across motion graphics, camera moves, UI, web effects, and photography. Browse the"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "gallery, pick what you want, and pass those references to your coding AI."
+    },
+    {
+      "timestamp": "5:35",
+      "text": "There's also a skill for claude code and codecs that brings the specs and reference code into your project."
+    },
+    {
+      "timestamp": "5:42",
+      "text": "Timestraw is Mistl's family of models for forecasting data over time with related signals predicted together. You"
+    },
+    {
+      "timestamp": "5:50",
+      "text": "feed it historical observations, add information you already know about the future, and get a range of possible outcomes rather than one confident"
+    },
+    {
+      "timestamp": "5:59",
+      "text": "looking number. The inference package runs on CPU or GPU, so you can try it without a dedicated graphics card."
+    },
+    {
+      "timestamp": "6:07",
+      "text": "Reason network lets your coding agent message a teammate's agent directly, even when they use different tools. A small background service on each"
+    },
+    {
+      "timestamp": "6:15",
+      "text": "computer shows who's working in which repository and branch, then routes messages into the right session. It"
+    },
+    {
+      "timestamp": "6:22",
+      "text": "supports tools including clawed code, codecs, and cursor with encrypted connections and cued messages for offline teammates."
+    },
+    {
+      "timestamp": "6:32",
+      "text": "Trim 1 is a tiny model that decides which lines of a context an AI agent actually needs for its current question."
+    },
+    {
+      "timestamp": "6:39",
+      "text": "It's written in pure go and runs on 712 gradient boosted trees in a file of about a megabyte, not a neural network."
+    },
+    {
+      "timestamp": "6:46",
+      "text": "Give it a log, a file or a tool result along with a query and it keeps the useful lines in their original order. It marks wherever something was cut."
+    },
+    {
+      "timestamp": "6:57",
+      "text": "Yumato is a native Mac OS app that creates virtual displays for visual AI agents built only on Apple's own"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "frameworks. Give a task its own named virtual screen, then drag an app like Blender onto it. An agent such as Codeex"
+    },
+    {
+      "timestamp": "7:12",
+      "text": "can work there with screenshots, mouse, and keyboard while your main screen stays free. A bundled skill walks the agent through creating the screen,"
+    },
+    {
+      "timestamp": "7:21",
+      "text": "moving the windows, and putting them back afterward."
+    },
+    {
+      "timestamp": "7:24",
+      "text": "High memory gives AI agents a memory system that separates what happened from what's worth reusing. Its working mode stores session facts alongside lessons"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "for future tasks. for coding. It also keeps a chain of actual code changes, including revisions that summaries can"
+    },
+    {
+      "timestamp": "7:40",
+      "text": "lose. Tenscent includes a Python SDK and Memhub, a desktop and command line tool for recalling history across authorized AI apps."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "Openesk brings support email and website chat into one shared inbox, so your team can assign conversations and see updates"
+    },
+    {
+      "timestamp": "7:58",
+      "text": "live. Its built-in assistant, Ali, drafts replies and answers questions from your knowledge base with support"
+    },
+    {
+      "timestamp": "8:05",
+      "text": "for local models. You can publish a help center alongside it. The self-hosted edition runs the same code as the hosted"
+    },
+    {
+      "timestamp": "8:13",
+      "text": "service, so you can keep support conversations on your own infrastructure."
+    },
+    {
+      "timestamp": "8:18",
+      "text": "64 HW Simulator lets you break a virtual Commodore 64 one pin at a time and watch what happens. pull a chip, ground a"
+    },
+    {
+      "timestamp": "8:27",
+      "text": "signal, or disconnect a resistor, then inspect the screen and oscilloscope. The symptoms emerge from simulated board connections and chip behavior. You can"
+    },
+    {
+      "timestamp": "8:36",
+      "text": "explore repair hypotheses without touching a soldering iron, though a matching symptom is only a clue, and some electrical behavior remains approximate."
+    },
+    {
+      "timestamp": "8:45",
+      "text": "Binny connects an AI model to reverse engineering tools and turns binary analysis into a report you can review."
+    },
+    {
+      "timestamp": "8:52",
+      "text": "It reads decompiled functions, strings, and imports, records findings, and saves progress after each step. Local GIDra"
+    },
+    {
+      "timestamp": "9:01",
+      "text": "support keeps decompilation on your machine, while analysis scripts run in a restricted Docker sandbox without network access."
+    },
+    {
+      "timestamp": "9:09",
+      "text": "FrameTell turns your notes, PDFs, or a single idea into an animated explainer video. Its director agent drafts a"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "storyboard for your approval, then writes narration, generates a voice over, and builds the animated pages. You can point at a page and ask for changes before exporting a subtitled MP4."
+    },
+    {
+      "timestamp": "9:27",
+      "text": "Rendering runs locally, while the model and voice services use your own API keys."
+    },
+    {
+      "timestamp": "9:33",
+      "text": "ESP32 SIM runs ESP32 firmware on your computer or in a browser, so you can test supported projects without plugging"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "in a board. It boots real ROMs and boot loaders with models for displays, buttons, and other peripherals. The"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "desktop version can connect firmware to a virtual Wi-Fi network and real services."
+    },
+    {
+      "timestamp": "9:54",
+      "text": "Hardware coverage varies by chip, though, and the browser version has no network pass through."
+    },
+    {
+      "timestamp": "10:00",
+      "text": "MCP for Blender Pro lets an AI assistant inspect and edit your Blender scene through chat. Ask it to arrange a product display or change materials."
+    },
+    {
+      "timestamp": "10:09",
+      "text": "Then inspect the result in a viewport preview. You can connect cloud models or local Alama models and expose the same"
+    },
+    {
+      "timestamp": "10:16",
+      "text": "scene tools to an MCP client. Built-in chat includes operation approvals and named undo steps so you can review"
+    },
+    {
+      "timestamp": "10:24",
+      "text": "changes as they happen. Lucian UX UI prompt lets you try an interface before asking your coding agent to build it."
+    },
+    {
+      "timestamp": "10:32",
+      "text": "Browse interactive buttons, charts, or animated website sections. Then copy a prompt containing the working code and instructions for adapting it to your"
+    },
+    {
+      "timestamp": "10:41",
+      "text": "project. You can also take the raw HTML, CSS, and JavaScript yourself. The elements include light and dark themes,"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "keyboard controls, and reduced motion support with no dependencies."
+    },
+    {
+      "timestamp": "10:54",
+      "text": "Mayo is a code editor written in Go that draws its interface directly on the GPU."
+    },
+    {
+      "timestamp": "10:59",
+      "text": "You can split files into columns, edit with Vim motions, and stage individual changes from the gutter. A built-in"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "terminal uses Ghosty's emulator. Its remote SSH mode is a useful detail. The file explorer, Git, and Search run on"
+    },
+    {
+      "timestamp": "11:13",
+      "text": "the remote host through your systems SSH with nothing extra installed there."
+    },
+    {
+      "timestamp": "11:18",
+      "text": "Enclose is a Mac OS workbench for CAD projects that are built from code powered by Claude. Open a model in 3D."
+    },
+    {
+      "timestamp": "11:26",
+      "text": "Click the part you want to change and describe the change in plain words."
+    },
+    {
+      "timestamp": "11:30",
+      "text": "Claude edits the project's code and rebuilds the model so you see the new version right away. It reads step files and runs on both Apple Silicon and Intel Max."
+    },
+    {
+      "timestamp": "11:41",
+      "text": "Singing 3D parts by talking to a coding agent built on CAD query. Describe a case"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "bracket or mount and an agent like clawed code or codeex writes the model as Python. S rebuilds it on every change."
+    },
+    {
+      "timestamp": "11:56",
+      "text": "You can click, measure or sketch on the view to point out a problem and send that back to the agent. It checks overhangs and wall thickness, runs"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "strength tests, and exports to STL or step."
+    },
+    {
+      "timestamp": "12:08",
+      "text": "Anan iPhone use is ESP32S3 firmware that turns a small M5 stack stopwatch into an MCP server for"
+    },
+    {
+      "timestamp": "12:16",
+      "text": "controlling an iPhone. The board plugs into the phone over USBC and shows up as a mouse and keyboard with assist of"
+    },
+    {
+      "timestamp": "12:23",
+      "text": "touch handling the pointer. Your AI client watches the screen through screen sharing, decides the next step, and calls simple tools like tap, drag, and type."
+    },
+    {
+      "timestamp": "12:33",
+      "text": "Co-op anything gives AI coding agents a playbook for adding co-op multiplayer to single player PC games. An MCP server"
+    },
+    {
+      "timestamp": "12:41",
+      "text": "works out a game's engine from its install folder and checks a directory of more than 230 co-op mods. From there,"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "the agent either finishes an existing mod or reverse engineers the game and builds co-op from scratch. Bots test every build with real game clients over"
+    },
+    {
+      "timestamp": "12:57",
+      "text": "a Steam relay so friends can join with no port forwarding."
+    },
+    {
+      "timestamp": "13:02",
+      "text": "Casera starts as a flat architectural floor plan, then builds a house around you as you scroll. The drawing is a slice through the actual 3D model."
+    },
+    {
+      "timestamp": "13:12",
+      "text": "Scrolling raises the cut, reveals the walls, and takes the camera through the rooms. Materials appear as you enter each space. It uses 3JS with geometry"
+    },
+    {
+      "timestamp": "13:21",
+      "text": "built-in code and falls back to images and video on devices that can't render it. Marorrow puts notes and databases in"
+    },
+    {
+      "timestamp": "13:29",
+      "text": "a desktop workspace where each page stays a markdown file in your own folder. You can open an Obsidian vault or import a notion export, then organize pages into tables, boards, or calendars."
+    },
+    {
+      "timestamp": "13:42",
+      "text": "Database values remain readable file properties, so they're accessible outside the app, too. It works offline without an account with built-in"
+    },
+    {
+      "timestamp": "13:50",
+      "text": "encrypted sync between computers on the same network."
+    },
+    {
+      "timestamp": "13:54",
+      "text": "The Agentic Scientist version three of Sakana AI's AI scientist turns a short task description into experiments,"
+    },
+    {
+      "timestamp": "14:01",
+      "text": "ablations, and a written paper, all driven by coding agents. The agents propose ideas, run experiments in Docker containers, and score the results"
+    },
+    {
+      "timestamp": "14:10",
+      "text": "against the tasks rubric, then try again. After that come baselines, a sealed final evaluation, analysis, and"
+    },
+    {
+      "timestamp": "14:17",
+      "text": "the paper itself. Most peer-to-peer file tools make you trade one-time codes every single time you want to move a"
+    },
+    {
+      "timestamp": "14:24",
+      "text": "file. Flip-flop pairs your devices once and keeps a persistent trusted tunnel open between them. It routes transfers"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "over Bluetooth, local Wi-Fi, or straight across the internet with automaticnat hole punching. You can push files or"
+    },
+    {
+      "timestamp": "14:38",
+      "text": "clipboard text between Linux, Mac OS, Windows, and Android whenever you want. No repairing required."
+    },
+    {
+      "timestamp": "14:46",
+      "text": "Parin is a simple 2D game engine for the D programming language. It aims for the space between a small library"
+    },
+    {
+      "timestamp": "14:54",
+      "text": "and a full engine like god do. You write one function that runs every frame, and you're free to structure the rest of your game however you like. It comes"
+    },
+    {
+      "timestamp": "15:03",
+      "text": "with pixel perfect physics, a dialogue system, animation from texture atlases and tile maps."
+    },
+    {
+      "timestamp": "15:11",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 54. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GI moves the heavy parts of version control onto a server so coding agents can work on the same repository without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 17000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each cloning everything. Agents fetch only the files they need while history queries and landing changes happen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "centrally. You can also plug in your own conflict resolver, including an AI model. It's an independent open- source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "implementation inspired by Anthropic Scion design."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sill puts any Mac window or your whole desktop on your iPhone or iPad. Pair a device once by scanning a code. Then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 44000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pick windows from a bar and control them with touch, a trackpad, a keyboard, or Apple Pencil. It works over Wi-Fi or a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 51000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "USB cable and away from home through your own VPN like tail scale. On the folding iPhone Duo, the layout adjusts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 58000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as you open and close it. Fleet puts a file converter right under your cursor."
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hold a key, drag your files and drop them onto a format in the menu that appears. It converts locally and saves"
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "results beside the originals so your documents never need uploading. You can batch conversions or watch a folder for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "incoming files. Some formats need optional engines which FY downloads when needed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 85000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tracely turns failed AI agent runs into regression tests you can run before merging another change. It grades"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "production traces, groups similar failures into issues, and lets you freeze a bad run with its recorded model responses and tool outputs. Those"
+        }
+      ]
+    },
+    {
+      "tStartMs": 100000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fixtures support repeatable tests without fresh model calls, provided your agent uses its replay integration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Snitch shows where your computer's network traffic goes and which apps are responsible. Connections appear in a live graph and on a world map with per"
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "app bandwidth history to help explain what's happening in the background."
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Traffic records stay on your machine and even IP geoloccation works offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It visualizes connections and flags suspicious patterns. Blocking traffic still needs a separate firewall."
+        }
+      ]
+    },
+    {
+      "tStartMs": 135000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open screen sharing is a better client for Apple's built-in Mac screen sharing written in Go and Swift on top of the protocol Apple's own screen sharing app"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uses. It runs on Mac OS, iPhone, and iPad, and it can also connect over RDP."
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's tuned for both your local network and the internet, including direct tail scale connections and adds exclusive mouse control and a debug HUD."
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Web Ocean renders a moving ocean in your browser using web GPU with no game engine or rendering library. Simulated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "waves form white caps, sunlight glitters across the surface, and a free camera lets you fly over the water. You can adjust wind, swell, and sunset lighting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as it runs. The whole scene opens from one self-contained HTML file, though you'll need Chrome with web GPU and a capable GPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 185000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Earshot gives coding agents audio feedback they can reason about. It describes sound files, finds moments matching a description, and checks how"
+        }
+      ]
+    },
+    {
+      "tStartMs": 194000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "effects line up with video cuts. An agent can also synthesize effects from code, then revise them using measurements and audio model scores."
+        }
+      ]
+    },
+    {
+      "tStartMs": 203000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The core tools run locally on CPU through a CLI or MCP server, though those scores still need a human"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "listening check. Netmerge combines several internet connections like Wi-Fi, Ethernet, and a phone hotspot, so your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apps use all of them at once. It's written in Go and creates a virtual network adapter with no account, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "server, and noVPN. Each new connection goes to one of your links, and faster links get more of them. If a link drops,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it stops getting new connections until it comes back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 236000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lean RIA gives coding agents a compact guide to inspecting compiled apps with ordinary command line tools. It routes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each file type to a useful first command, then narrows the search through strings, imports, or extracted code. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 251000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can trace an electron feature or check a go binary dependencies without an MCP server. It also tells the agent to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "distinguish what it found from what it inferred."
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TV Vibe hack replaces your Android TV's cluttered home screen with a lightweight launcher built around your apps. Give it setup prompt to a coding assistant."
+        }
+      ]
+    },
+    {
+      "tStartMs": 271000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Choose your favorites and it backs things up before disabling unwanted packages over ADB. You get a four app"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "doc, an app grid and navigation designed for the remote. Packages stay installed but disabled and a restore script brings the stock launcher back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 289000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Harness Squared improves the setup around an AI agent while keeping the model's weights fixed. It proposes changes to prompts, memory or tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "guidance, tries them on the current task, and combines useful changes by comparing how the runs behaved. Lessons"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "carry forward to later tasks. You can explore alternatives in parallel or refine them sequentially with saved"
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execution evidence to inspect alongside the adopted configuration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Motion prompt helps when you can picture an animation but don't know what to call it. It pairs visual samples with names,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "explanations, and example prompts across motion graphics, camera moves, UI, web effects, and photography. Browse the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gallery, pick what you want, and pass those references to your coding AI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also a skill for claude code and codecs that brings the specs and reference code into your project."
+        }
+      ]
+    },
+    {
+      "tStartMs": 342000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Timestraw is Mistl's family of models for forecasting data over time with related signals predicted together. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "feed it historical observations, add information you already know about the future, and get a range of possible outcomes rather than one confident"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "looking number. The inference package runs on CPU or GPU, so you can try it without a dedicated graphics card."
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reason network lets your coding agent message a teammate's agent directly, even when they use different tools. A small background service on each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "computer shows who's working in which repository and branch, then routes messages into the right session. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 382000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports tools including clawed code, codecs, and cursor with encrypted connections and cued messages for offline teammates."
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Trim 1 is a tiny model that decides which lines of a context an AI agent actually needs for its current question."
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's written in pure go and runs on 712 gradient boosted trees in a file of about a megabyte, not a neural network."
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Give it a log, a file or a tool result along with a query and it keeps the useful lines in their original order. It marks wherever something was cut."
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Yumato is a native Mac OS app that creates virtual displays for visual AI agents built only on Apple's own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "frameworks. Give a task its own named virtual screen, then drag an app like Blender onto it. An agent such as Codeex"
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can work there with screenshots, mouse, and keyboard while your main screen stays free. A bundled skill walks the agent through creating the screen,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 441000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "moving the windows, and putting them back afterward."
+        }
+      ]
+    },
+    {
+      "tStartMs": 444000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "High memory gives AI agents a memory system that separates what happened from what's worth reusing. Its working mode stores session facts alongside lessons"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for future tasks. for coding. It also keeps a chain of actual code changes, including revisions that summaries can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lose. Tenscent includes a Python SDK and Memhub, a desktop and command line tool for recalling history across authorized AI apps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Openesk brings support email and website chat into one shared inbox, so your team can assign conversations and see updates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live. Its built-in assistant, Ali, drafts replies and answers questions from your knowledge base with support"
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for local models. You can publish a help center alongside it. The self-hosted edition runs the same code as the hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 493000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "service, so you can keep support conversations on your own infrastructure."
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "64 HW Simulator lets you break a virtual Commodore 64 one pin at a time and watch what happens. pull a chip, ground a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 507000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "signal, or disconnect a resistor, then inspect the screen and oscilloscope. The symptoms emerge from simulated board connections and chip behavior. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 516000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "explore repair hypotheses without touching a soldering iron, though a matching symptom is only a clue, and some electrical behavior remains approximate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Binny connects an AI model to reverse engineering tools and turns binary analysis into a report you can review."
+        }
+      ]
+    },
+    {
+      "tStartMs": 532000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It reads decompiled functions, strings, and imports, records findings, and saves progress after each step. Local GIDra"
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "support keeps decompilation on your machine, while analysis scripts run in a restricted Docker sandbox without network access."
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FrameTell turns your notes, PDFs, or a single idea into an animated explainer video. Its director agent drafts a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storyboard for your approval, then writes narration, generates a voice over, and builds the animated pages. You can point at a page and ask for changes before exporting a subtitled MP4."
+        }
+      ]
+    },
+    {
+      "tStartMs": 567000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rendering runs locally, while the model and voice services use your own API keys."
+        }
+      ]
+    },
+    {
+      "tStartMs": 573000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ESP32 SIM runs ESP32 firmware on your computer or in a browser, so you can test supported projects without plugging"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in a board. It boots real ROMs and boot loaders with models for displays, buttons, and other peripherals. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "desktop version can connect firmware to a virtual Wi-Fi network and real services."
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hardware coverage varies by chip, though, and the browser version has no network pass through."
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP for Blender Pro lets an AI assistant inspect and edit your Blender scene through chat. Ask it to arrange a product display or change materials."
+        }
+      ]
+    },
+    {
+      "tStartMs": 609000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then inspect the result in a viewport preview. You can connect cloud models or local Alama models and expose the same"
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scene tools to an MCP client. Built-in chat includes operation approvals and named undo steps so you can review"
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "changes as they happen. Lucian UX UI prompt lets you try an interface before asking your coding agent to build it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Browse interactive buttons, charts, or animated website sections. Then copy a prompt containing the working code and instructions for adapting it to your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project. You can also take the raw HTML, CSS, and JavaScript yourself. The elements include light and dark themes,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard controls, and reduced motion support with no dependencies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 654000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mayo is a code editor written in Go that draws its interface directly on the GPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can split files into columns, edit with Vim motions, and stage individual changes from the gutter. A built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal uses Ghosty's emulator. Its remote SSH mode is a useful detail. The file explorer, Git, and Search run on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the remote host through your systems SSH with nothing extra installed there."
+        }
+      ]
+    },
+    {
+      "tStartMs": 678000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Enclose is a Mac OS workbench for CAD projects that are built from code powered by Claude. Open a model in 3D."
+        }
+      ]
+    },
+    {
+      "tStartMs": 686000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Click the part you want to change and describe the change in plain words."
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude edits the project's code and rebuilds the model so you see the new version right away. It reads step files and runs on both Apple Silicon and Intel Max."
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Singing 3D parts by talking to a coding agent built on CAD query. Describe a case"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bracket or mount and an agent like clawed code or codeex writes the model as Python. S rebuilds it on every change."
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can click, measure or sketch on the view to point out a problem and send that back to the agent. It checks overhangs and wall thickness, runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strength tests, and exports to STL or step."
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anan iPhone use is ESP32S3 firmware that turns a small M5 stack stopwatch into an MCP server for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "controlling an iPhone. The board plugs into the phone over USBC and shows up as a mouse and keyboard with assist of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 743000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "touch handling the pointer. Your AI client watches the screen through screen sharing, decides the next step, and calls simple tools like tap, drag, and type."
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Co-op anything gives AI coding agents a playbook for adding co-op multiplayer to single player PC games. An MCP server"
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "works out a game's engine from its install folder and checks a directory of more than 230 co-op mods. From there,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the agent either finishes an existing mod or reverse engineers the game and builds co-op from scratch. Bots test every build with real game clients over"
+        }
+      ]
+    },
+    {
+      "tStartMs": 777000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a Steam relay so friends can join with no port forwarding."
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Casera starts as a flat architectural floor plan, then builds a house around you as you scroll. The drawing is a slice through the actual 3D model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 792000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Scrolling raises the cut, reveals the walls, and takes the camera through the rooms. Materials appear as you enter each space. It uses 3JS with geometry"
+        }
+      ]
+    },
+    {
+      "tStartMs": 801000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in code and falls back to images and video on devices that can't render it. Marorrow puts notes and databases in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 809000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a desktop workspace where each page stays a markdown file in your own folder. You can open an Obsidian vault or import a notion export, then organize pages into tables, boards, or calendars."
+        }
+      ]
+    },
+    {
+      "tStartMs": 822000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Database values remain readable file properties, so they're accessible outside the app, too. It works offline without an account with built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "encrypted sync between computers on the same network."
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The Agentic Scientist version three of Sakana AI's AI scientist turns a short task description into experiments,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ablations, and a written paper, all driven by coding agents. The agents propose ideas, run experiments in Docker containers, and score the results"
+        }
+      ]
+    },
+    {
+      "tStartMs": 850000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "against the tasks rubric, then try again. After that come baselines, a sealed final evaluation, analysis, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 857000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the paper itself. Most peer-to-peer file tools make you trade one-time codes every single time you want to move a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 864000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file. Flip-flop pairs your devices once and keeps a persistent trusted tunnel open between them. It routes transfers"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "over Bluetooth, local Wi-Fi, or straight across the internet with automaticnat hole punching. You can push files or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clipboard text between Linux, Mac OS, Windows, and Android whenever you want. No repairing required."
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Parin is a simple 2D game engine for the D programming language. It aims for the space between a small library"
+        }
+      ]
+    },
+    {
+      "tStartMs": 894000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and a full engine like god do. You write one function that runs every frame, and you're free to structure the rest of your game however you like. It comes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 903000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with pixel perfect physics, a dialogue system, animation from texture atlases and tile maps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 911000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}
