@@ -47,7 +47,7 @@ jobs:
         if: inputs.verify_model
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: uv run python scripts/verify_model.py
+        run: uv run python -m scripts.verify_model
       - name: Discover and retrieve captions
         id: collect
         if: github.event_name != 'push'

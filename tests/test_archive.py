@@ -248,3 +248,24 @@ def test_refresh_failure_preserves_readable_video(tmp_path, metadata, monkeypatc
     ingest.sync({"channel_id": "test"}, tmp_path, refresh=True, delay=0)
     assert read_json(tmp_path / "videos" / f"{metadata['id']}.json") == original
     assert read_json(tmp_path / "catalog.json")["videos"][0]["status"] == "ready"
+
+
+def test_suppressed_no_formats_error_still_detects_bot_block(monkeypatch):
+    from archive import ingest
+
+    class BlockedExtractor:
+        params = {"logger": ingest.QuietLogger()}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            pass
+
+        def extract_info(self, *args, **kwargs):
+            self.params["logger"].warning("Sign in to confirm you're not a bot.")
+            return {"id": "abcdefghijk", "channel_id": None}
+
+    monkeypatch.setattr(ingest, "extractor", BlockedExtractor)
+    with pytest.raises(ingest.BotVerificationRequired):
+        ingest.fetch_video("abcdefghijk", "test")

@@ -1,13 +1,10 @@
 import json
 import os
-import sys
+from datetime import UTC, datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from datetime import UTC, datetime  # noqa: E402
-
-from archive.cleanup import request_cleanup  # noqa: E402
-from archive.storage import read_json, write_json  # noqa: E402
+from archive.cleanup import DAILY_LIMIT, request_cleanup
+from archive.storage import read_json, write_json
 
 root = Path(__file__).resolve().parents[1] / "data"
 path = root / "cleanup-budget.json"
@@ -15,7 +12,7 @@ today = datetime.now(UTC).date().isoformat()
 budget = read_json(path, {})
 if budget.get("date") != today:
     budget = {"date": today, "requests": 0}
-if budget["requests"] >= 30:
+if budget["requests"] >= DAILY_LIMIT:
     raise SystemExit("Daily request budget exhausted")
 budget["requests"] += 1
 write_json(path, budget)

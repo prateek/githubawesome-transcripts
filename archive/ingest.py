@@ -45,7 +45,7 @@ def extractor(**options):
     return yt_dlp.YoutubeDL(
         {
             "quiet": True,
-            "no_warnings": True,
+            "no_warnings": False,
             "logger": QuietLogger(),
             "skip_download": True,
             "ignore_no_formats_error": True,
@@ -86,6 +86,8 @@ def fetch_video(video_id, channel_id):
     try:
         with extractor() as ydl:
             info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
+            if ydl.params["logger"].blocked:
+                raise BotVerificationRequired("YouTube blocked the runner")
         if info.get("channel_id") != channel_id:
             print(
                 f"Metadata channel: {info.get('channel_id')!r}; expected: {channel_id}", flush=True
