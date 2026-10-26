@@ -1,0 +1,1025 @@
+{
+  "schema_version": 1,
+  "id": "o1DsUPdSj1s",
+  "title": "35 Self-hosted Github Projects That Will Kill Your Monthly Subscriptions",
+  "url": "https://www.youtube.com/watch?v=o1DsUPdSj1s",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-28",
+  "duration": 915,
+  "word_count": 2216,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T13:18:54+00:00",
+    "metadata_sha256": "5281f64ff84add9eea6bfd29520aef0a7ec5b7f9af35de6a028102c1ae1e1157",
+    "captions_sha256": "09185506aff44e1869959d6cfca685a00915a0c67cccf650073714e6d76f91b7",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 9,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. Today we're looking at 35 self self-hosted projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "start": 9,
+      "title": "withoutBG",
+      "repositories": [
+        "https://github.com/withoutbg/withoutbg-python"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Without BG removes image backgrounds in Python running locally on CPU with no GPU and no API key. One call downloads a 495 megabyte model once, then every image after that is free and offline. Two things sit behind the open label, though. The SDK is Apache 2.0, zero, but the weights carry Meta's Dinov3 license on the backbone, and the company sells a cloud tier, it says handles hair and fur better than the local one."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "openship",
+      "repositories": [
+        "https://github.com/oblien/openship"
+      ],
+      "id": "s003",
+      "end": 60,
+      "paragraphs": [
+        "Open Ship is a self-hosted deployment platform that takes a repository from build to routing and TLS without handing the control plane to a managed host. It detects common stacks, snapshot resolve configuration for repeatable rollbacks and can redeploy from GitHub web hooks. You can drive the same backend from its desktop app, dashboard, or CLI."
+      ]
+    },
+    {
+      "start": 60,
+      "title": "harper",
+      "repositories": [
+        "https://github.com/automattic/harper"
+      ],
+      "id": "s004",
+      "end": 83,
+      "paragraphs": [
+        "Harper is an offline English grammar checker that keeps your drafts on your machine instead of sending every sentence to a server. Its Rust core is small enough to run through web assembly, and integrations cover editors including VS Code, Neoim, Zed, and Emacs. There's also a language server and JavaScript package for building it into your own workflow."
+      ]
+    },
+    {
+      "start": 83,
+      "title": "Agentic Inbox",
+      "repositories": [
+        "https://github.com/cloudflare/agentic-inbox"
+      ],
+      "id": "s005",
+      "end": 112,
+      "paragraphs": [
+        "Agentic inbox is Cloudflare's reference email client. Email routing delivers. Each mailbox gets its own durable object with SQLite. Attachments land in R2 and a worker's AI agent drafts replies you confirm before sending. Self-hosted means your Cloudflare account, not your hardware. The caveat the readme states plainly is that anyone passing your access policy reaches every mailbox and the MCP endpoint lets external tools do the same."
+      ]
+    },
+    {
+      "start": 112,
+      "title": "sockudo",
+      "repositories": [
+        "https://github.com/sockudo/sockudo"
+      ],
+      "id": "s006",
+      "end": 136,
+      "paragraphs": [
+        "Sudo is a self-hosted Rust Realtime server that accepts pusher compatible clients, then adds a second protocol for stronger delivery control. Beyond that, it adds its own protocol version with durable history, message recovery after a dropped connection and mutable messages you can edit or delete after sending. Fan Out runs through Reddus, NATS, Kafka, or five others."
+      ]
+    },
+    {
+      "start": 136,
+      "title": "openGym",
+      "repositories": [
+        "https://github.com/DuarteSantos8/openGym"
+      ],
+      "id": "s007",
+      "end": 161,
+      "paragraphs": [
+        "Open Gym is a self-hosted workout tracker that keeps routines, training logs, and body weight history on your own server. It guides today's session, prefills weights from your previous workout, supports supersets and timed exercises, and tracks progress with charts and personal records. Pass keys handle signin across devices, while a standalone Android build can stay entirely on one phone."
+      ]
+    },
+    {
+      "start": 161,
+      "title": "openreply",
+      "repositories": [
+        "https://github.com/diwenne/openreply"
+      ],
+      "id": "s008",
+      "end": 187,
+      "paragraphs": [
+        "Open Reply is a self-hosted comment to DM tool for Instagram. Someone comments your keyword on a real and Meta's official private reply API sends them the link. That's the feature Many Chat charges monthly for. It's a fork of Anish Raj's Instagram comment to DM with the billing layer stripped out. No scraping, no browser automation, no password, and it cues under Meta's 750 per hour cap."
+      ]
+    },
+    {
+      "start": 187,
+      "title": "Mindwtr",
+      "repositories": [
+        "https://github.com/dongdongbh/Mindwtr"
+      ],
+      "id": "s009",
+      "end": 210,
+      "paragraphs": [
+        "MindTutor is a local first task app built around the getting things done loop rather than a generic checklist. Capture ideas from a desktop hotkey or phone share sheet. Sort them through a guided inbox. Then use focus and weekly review views to surface what matters next. It runs on desktop, mobile, and web with optional sync through your chosen provider."
+      ]
+    },
+    {
+      "start": 210,
+      "title": "netmon",
+      "repositories": [
+        "https://github.com/Role1776/netmon"
+      ],
+      "id": "s010",
+      "end": 236,
+      "paragraphs": [
+        "Netmon is a self-hosted network watcher that combines recurring speed tests with device counts from your own LAN. Every run stores download, upload, latency, and active host totals in SQLite. Every four hours, it builds a dayong graph and sends a sarcastic summary to Telegram or Discord. Setup needs a tightly scoped passwordless pseudo rule for end mapap and its single stream results won't match browser speed tests."
+      ]
+    },
+    {
+      "start": 236,
+      "title": "stenoai",
+      "repositories": [
+        "https://github.com/ruzin/stenoai"
+      ],
+      "id": "s011",
+      "end": 259,
+      "paragraphs": [
+        "Steno is a desktop meeting notepad that records, transcribes, summarizes, and searches conversations using models on your own machine. It can capture microphone and system audio, label you versus other speakers, and save transcripts and summaries as editable markdown. You can query one meeting or your whole library without uploading it by default."
+      ]
+    },
+    {
+      "start": 259,
+      "title": "bento",
+      "repositories": [
+        "https://github.com/nyblnet/bento"
+      ],
+      "id": "s012",
+      "end": 289,
+      "paragraphs": [
+        "Bento turns an entire presentation app into one HTML file. Your deck, editor, viewer, fonts, charts, and animations all travel together with no account or installer. It can save itself, run fully offline, and even support encrypted live collaboration through a relay that only sees cipher text. The clever part is the plain JSON document block, which also lets coding assistants edit slides directly, though mobile remains focused on viewing and presenting."
+      ]
+    },
+    {
+      "start": 289,
+      "title": "dns-blocklists",
+      "repositories": [
+        "https://github.com/hagezi/dns-blocklists"
+      ],
+      "id": "s013",
+      "end": 316,
+      "paragraphs": [
+        "Hegazy DNS block lists gives your network one maintained filter instead of a pile of mismatched lists. It bundles ads, trackers, fishing, malware, scams, and cryptojacking domains, then ships them in formats for Pi Hole, Adguard, DNS Mask, RPZ, and more. You can choose anything from a relaxed light list to an aggressive ultimate tier. That range is useful, but stricter lists can break sites, so keep an allow list handy."
+      ]
+    },
+    {
+      "start": 316,
+      "title": "collective-intelligence",
+      "repositories": [
+        "https://github.com/ailinone/collective-intelligence"
+      ],
+      "id": "s014",
+      "end": 343,
+      "paragraphs": [
+        "Alen is an OpenAI compatible gateway that answers a request with several models instead of one, arbitrates between them and returns the reasoning trail as metadata. Which strategy ran, which models, what each sub call cost, where they disagreed. Swap your base URL and it works. The headline claim that a coordinated pool of cheaper models beat every Frontier flagship on accuracy is the vendor's own 38 task run."
+      ]
+    },
+    {
+      "start": 343,
+      "title": "openobserve",
+      "repositories": [
+        "https://github.com/openobserve/openobserve"
+      ],
+      "id": "s015",
+      "end": 369,
+      "paragraphs": [
+        "Open Observe puts logs, metrics, traces, dashboards, and front-end monitoring behind one self-hosted platform instead of stitching together half an observability stack. It ships as a single Rust binary, accepts open telemetry data, and lets you query with SQL or PromQL. Its S3 native parquet design is where the maintainers claim up to 140 times lower storage costs than Elastic Search. Devonel is a self-hosted catalog for the physical media that somehow keeps multiplying on your"
+      ]
+    },
+    {
+      "start": 369,
+      "title": "DVinyl",
+      "repositories": [
+        "https://github.com/Kyonew/DVinyl"
+      ],
+      "id": "s016",
+      "end": 397,
+      "paragraphs": [
+        "shelves. Scan a barcode or import an existing discogs library and it pulls cover art, metadata, and music value estimates. Plugins handle records, books, films, games, and Lego while custom types cover stranger collections. Multiple libraries, roles, and optional OIDC make it sharable, too. Though several metadata sources require their own API keys."
+      ]
+    },
+    {
+      "start": 397,
+      "title": "Dockhand",
+      "repositories": [
+        "https://github.com/Finsys/dockhand"
+      ],
+      "id": "s017",
+      "end": 426,
+      "paragraphs": [
+        "Dochand gives Docker a clean control panel for containers, compose stacks, and multiple hosts. You can edit compose files visually, stream logs beside an interactive shell, and deploy stacks from git with web hooks and automatic syncing. It also maps container networks and scans images with Trivy or Grip. Personal and internal business use are free, but running Dockhand as a commercial hosted service isn't allowed before 2029."
+      ]
+    },
+    {
+      "start": 426,
+      "title": "CrawlSEO",
+      "repositories": [
+        "https://github.com/crawlseo/crawlseo"
+      ],
+      "id": "s018",
+      "end": 455,
+      "paragraphs": [
+        "Crawco combines Google search console, a site crawler, and core web vitals in one self-hosted dashboard. It tracks keyword changes, audits up to 2,000 pages for 16 issue types, and flags problems like traffic drops, new 404s, or content decay. There's also an MCP server, so coding assistants can query the data or start crawls. Setup still needs Google OOTH, an optional keyword or backlink research requires a data for SEO key."
+      ]
+    },
+    {
+      "start": 455,
+      "title": "ShelfDroid",
+      "repositories": [
+        "https://github.com/100nandoo/shelfdroid"
+      ],
+      "id": "s019",
+      "end": 480,
+      "paragraphs": [
+        "Shelf Droid is an Android client for your self-hosted audiobook shelf server with more admin access than a basic player. It streams audiobooks and podcasts, syncs listening progress, and downloads episodes for offline playback. Chapters, bookmarks, sleep timers, and speed controls cover the listening side, while permitted accounts can manage users, API keys, backups, logs, and server settings."
+      ]
+    },
+    {
+      "start": 480,
+      "title": "parker",
+      "repositories": [
+        "https://github.com/parker-server/parker"
+      ],
+      "id": "s020",
+      "end": 503,
+      "paragraphs": [
+        "Parker is a self-hosted server for comic files you already have, and it treats your folders as the source of truth. It reads comic info metadata directly from CBZ and CBR, then organizes everything into series, volumes, collections, and smart lists. The browser reader supports manga direction, double page spreads, bookmarks, and long view."
+      ]
+    },
+    {
+      "start": 503,
+      "title": "hopp",
+      "repositories": [
+        "https://github.com/gethopp/hopp"
+      ],
+      "id": "s021",
+      "end": 527,
+      "paragraphs": [
+        "Hop is a remote pair programming app built around low latency screen sharing with a backend you can host yourself. It uses a native Tori and Rust desktop client with WebRTC through LiveKit, supports one-click pairing, and lets up to 10 people join a mob programming room. The team claims sub 100 millisecond latency, which will still depend on your network."
+      ]
+    },
+    {
+      "start": 527,
+      "title": "helicalinsight",
+      "repositories": [
+        "https://github.com/helicalinsight/helicalinsight"
+      ],
+      "id": "s022",
+      "end": 550,
+      "paragraphs": [
+        "Hel Insight is a self-hosted BI platform that combines dashboards, printable reports, and embedded analytics in one stack. You can connect databases through JDBC, build drill down visualizations, schedule personalized reports, and export them to formats like PDF, Excel, or Word. It also offers natural language analysis with your own language model."
+      ]
+    },
+    {
+      "start": 550,
+      "title": "compose-lint",
+      "repositories": [],
+      "id": "s023",
+      "end": 575,
+      "paragraphs": [
+        "Compose lint checks docker compose files for security mistakes before they land in production. Its rules catch privileged containers, exposed host ports, Docker socket mounts, unpinned images, and credentials written directly into environment values. You can run it locally or in CI, export SAR for code scanning annotations, and preview safe mechanical fixes as a dryr run diff."
+      ]
+    },
+    {
+      "start": 575,
+      "title": "PeaNUT",
+      "repositories": [
+        "https://github.com/Brandawg93/PeaNUT"
+      ],
+      "id": "s024",
+      "end": 604,
+      "paragraphs": [
+        "Peanut gives network UPS tools a compact web dashboard, so checking backup power doesn't mean living in a terminal. It monitors multiple UPS units in real time, shows battery charge, runtime, load, and status, and can execute supported device commands. Metrics can flow into Prometheus, Influx DB, Graphana, or a homepage widget. Authentication is included, and you'll want to keep it enabled if the dashboard is reachable beyond your trusted network. Docy turns Docker Compose"
+      ]
+    },
+    {
+      "start": 604,
+      "title": "dockge",
+      "repositories": [
+        "https://github.com/louislam/dockge"
+      ],
+      "id": "s025",
+      "end": 632,
+      "paragraphs": [
+        "Stacks into a focused self-hosted dashboard without taking ownership of your files. You can edit compose.yaml in the browser, watch pull and startup output live, and manage stacks across multiple Docker hosts from one interface. It even converts Docker run commands into Compose files. Doc focuses on compose, so networks and standalone containers may still send you back to Portainer or the CLI."
+      ]
+    },
+    {
+      "start": 632,
+      "title": "CheapSecurity",
+      "repositories": [
+        "https://github.com/gmrandazzo/CheapSecurity"
+      ],
+      "id": "s026",
+      "end": 655,
+      "paragraphs": [
+        "Cheap security is a single camera CCTV app for a Raspberry Pi and a USB webcam. Flask dashboard, MJPEG stream, motion detection by frame differencing, and clips with a premotion buffer pushed to Telegram or email. Storage cleans itself up by age, size, and free space. Motion here is pixel difference, not object detection, so expect trees and headlights to trigger it."
+      ]
+    },
+    {
+      "start": 655,
+      "title": "langfuse",
+      "repositories": [
+        "https://github.com/langfuse/langfuse"
+      ],
+      "id": "s027",
+      "end": 683,
+      "paragraphs": [
+        "Langfuse is an LLM observability platform. trace every model call, retrieval step and agent action. Then manage prompts, run a vowels and replay a bad trace in a playground. It ingests open telemetry, so Langchain, Llama index, light LM and the OpenAI SDK all work through a decorator or a callback. The real stack is Postgres, ClickHouse, and object storage and usage telemetry reports to Post Hog unless you turn it off."
+      ]
+    },
+    {
+      "start": 683,
+      "title": "Fractera",
+      "repositories": [
+        "https://github.com/Fractera/Agent-Engineering-Infrastructure"
+      ],
+      "id": "s028",
+      "end": 709,
+      "paragraphs": [
+        "Fractera combines VPS provisioning with a browser workspace for several coding agents. give it an Ubuntu 2404 server and it sets up EngineX, HTTPS, authentication, SQLite storage, and a Nex.js starter. Then exposes coding tools through browser terminals and shared rag memory. The maintainers claim its MCP-based design cuts token costs by up to 90%. A figure worth validating yourself."
+      ]
+    },
+    {
+      "start": 709,
+      "title": "cairn",
+      "repositories": [
+        "https://github.com/MorganKryze/cairn"
+      ],
+      "id": "s029",
+      "end": 733,
+      "paragraphs": [
+        "Karen gives the people using your self-hosted services a directory, not another admin dashboard. You write a welcome note, group tools by purpose, and add plain descriptions so family or clients know what each service does. Optional Gatis integration adds live status without polling from visitors browsers, while search and translated labels keep the page approachable."
+      ]
+    },
+    {
+      "start": 733,
+      "title": "Expense Budget Tracker",
+      "repositories": [
+        "https://github.com/kirill-markin/expense-budget-tracker"
+      ],
+      "id": "s030",
+      "end": 762,
+      "paragraphs": [
+        "Expense budget tracker keeps personal finance records in a Postgress app you can run yourself. The web interface handles budgets, balances, account transfers, and multicurrency reporting. Its unusual feature is a SQL API that lets an agent import statements or analyze transactions with an API key. The hosted chat can send extracted financial data and telemetry to OpenAI and Langfuse. So self-hosting is the safer fit for sensitive records."
+      ]
+    },
+    {
+      "start": 762,
+      "title": "fak",
+      "repositories": [
+        "https://github.com/anthony-chaudhary/fak"
+      ],
+      "id": "s031",
+      "end": 790,
+      "paragraphs": [
+        "Fact, the fused agent kernel wraps an existing coding agent with operational controls without replacing its interface or model. It keeps prompt prefixes cache stable, compacts long sessions and can resume after a crash. Tool calls pass through explicit allow, deny, transform, or witness policies, while local GGF serving is also built in. The maintainers report roughly 4.1 times less work than a tuned warm cache stack."
+      ]
+    },
+    {
+      "start": 790,
+      "title": "Getbased",
+      "repositories": [
+        "https://github.com/elkimek/get-based"
+      ],
+      "id": "s032",
+      "end": 815,
+      "paragraphs": [
+        "Getbased is a local first health dashboard that brings lab results, DNA context, wearables, and personal notes into one browser workspace. It charts biomarkers over time, imports reports for review, and creates deterministic biology scores that summarize patterns rather than diagnose conditions. Most data stays in the browser with encryption, sync, sharing, and model analysis optional."
+      ]
+    },
+    {
+      "start": 815,
+      "title": "backup-maker",
+      "repositories": [
+        "https://github.com/phil9922/backup-maker"
+      ],
+      "id": "s033",
+      "end": 840,
+      "paragraphs": [
+        "Backup maker protects one computer by copying folders to several local destinations at once with nothing installed on the drives, NAS boxes, or shared folders. It can maintain real-time incremental mirrors with about 30 days of file history. Plus, scheduled AES 256 encrypted snapshots for point in time recovery. The dashboard stays on local host and internet relays are disabled."
+      ]
+    },
+    {
+      "start": 840,
+      "title": "superlog",
+      "repositories": [
+        "https://github.com/superloglabs/superlog"
+      ],
+      "id": "s034",
+      "end": 863,
+      "paragraphs": [
+        "Superlog turns raw open telemetry data into incidents you can actually investigate instead of another wall of disconnected logs. It ingests traces, logs and metrics, groups related noise and provides a local first workspace backed by Postgres and ClickHouse. Investigation runners are pluggable while the community runner records a local incident summary."
+      ]
+    },
+    {
+      "start": 863,
+      "title": "renfield",
+      "repositories": [
+        "https://github.com/ebongard/renfield"
+      ],
+      "id": "s035",
+      "end": 887,
+      "paragraphs": [
+        "Renfield is a self-hosted assistant designed to live around the house, not inside one browser tab. Raspberry Pi voice satellites provide local wakeword detection, speech recognition, and text to speech. While its agent can work across home assistant, calendars, email, media, and documents, a rag knowledge base and long-term memory keep local context available."
+      ]
+    },
+    {
+      "start": 887,
+      "title": "news-dashboard",
+      "repositories": [
+        "https://github.com/lihor-hub/news-dashboard"
+      ],
+      "id": "s036",
+      "end": 915,
+      "paragraphs": [
+        "News dashboard turns a pile of technical feeds into a self-hosted inbox with an actual triage workflow. Articles move through new, saved, skipped, snoozed, and archived states, while source health checks expose feeds that quietly stopped updating. Search and optional generated briefings help compress the backlog, and a Google reader compatible API keeps third party RSS clients in sync."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. Today we're looking at 35 self self-hosted projects on GitHub. Let's get into it."
+    },
+    {
+      "start": 9.0,
+      "end": 9.0,
+      "text": "Without BG removes image backgrounds in Python running locally on CPU with no GPU and no API key. One call downloads a"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "495 megabyte model once, then every image after that is free and offline."
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "text": "Two things sit behind the open label, though. The SDK is Apache 2.0, zero, but the weights carry Meta's Dinov3 license on the backbone, and the company sells a"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "cloud tier, it says handles hair and fur better than the local one."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Open Ship is a self-hosted deployment platform that takes a repository from build to routing and TLS without handing"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "the control plane to a managed host. It detects common stacks, snapshot resolve configuration for repeatable rollbacks and can redeploy from GitHub web hooks."
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "You can drive the same backend from its desktop app, dashboard, or CLI."
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "text": "Harper is an offline English grammar checker that keeps your drafts on your machine instead of sending every sentence to a server. Its Rust core is"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "small enough to run through web assembly, and integrations cover editors including VS Code, Neoim, Zed, and Emacs."
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "There's also a language server and JavaScript package for building it into your own workflow."
+    },
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "text": "Agentic inbox is Cloudflare's reference email client. Email routing delivers."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Each mailbox gets its own durable object with SQLite. Attachments land in R2 and a worker's AI agent drafts replies you"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "confirm before sending. Self-hosted means your Cloudflare account, not your hardware. The caveat the readme states plainly is that anyone passing your"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "access policy reaches every mailbox and the MCP endpoint lets external tools do the same."
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "text": "Sudo is a self-hosted Rust Realtime server that accepts pusher compatible clients, then adds a second protocol for"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "text": "stronger delivery control. Beyond that, it adds its own protocol version with durable history, message recovery after"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "a dropped connection and mutable messages you can edit or delete after sending. Fan Out runs through Reddus, NATS, Kafka, or five others."
+    },
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "Open Gym is a self-hosted workout tracker that keeps routines, training logs, and body weight history on your own server. It guides today's session,"
+    },
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "prefills weights from your previous workout, supports supersets and timed exercises, and tracks progress with charts and personal records. Pass keys"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "handle signin across devices, while a standalone Android build can stay entirely on one phone."
+    },
+    {
+      "start": 161.0,
+      "end": 161.0,
+      "text": "Open Reply is a self-hosted comment to DM tool for Instagram. Someone comments your keyword on a real and Meta's official private reply API sends them"
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "the link. That's the feature Many Chat charges monthly for. It's a fork of Anish Raj's Instagram comment to DM with"
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "the billing layer stripped out. No scraping, no browser automation, no password, and it cues under Meta's 750 per hour cap."
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "MindTutor is a local first task app built around the getting things done loop rather than a generic checklist."
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "Capture ideas from a desktop hotkey or phone share sheet. Sort them through a guided inbox. Then use focus and weekly"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "review views to surface what matters next. It runs on desktop, mobile, and web with optional sync through your chosen provider."
+    },
+    {
+      "start": 210.0,
+      "end": 210.0,
+      "text": "Netmon is a self-hosted network watcher that combines recurring speed tests with device counts from your own LAN. Every"
+    },
+    {
+      "start": 217.0,
+      "end": 217.0,
+      "text": "run stores download, upload, latency, and active host totals in SQLite. Every four hours, it builds a dayong graph and"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "sends a sarcastic summary to Telegram or Discord. Setup needs a tightly scoped passwordless pseudo rule for end mapap"
+    },
+    {
+      "start": 232.0,
+      "end": 232.0,
+      "text": "and its single stream results won't match browser speed tests."
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "Steno is a desktop meeting notepad that records, transcribes, summarizes, and searches conversations using models on"
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "your own machine. It can capture microphone and system audio, label you versus other speakers, and save transcripts and summaries as editable"
+    },
+    {
+      "start": 253.0,
+      "end": 253.0,
+      "text": "markdown. You can query one meeting or your whole library without uploading it by default."
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "Bento turns an entire presentation app into one HTML file. Your deck, editor, viewer, fonts, charts, and animations"
+    },
+    {
+      "start": 267.0,
+      "end": 267.0,
+      "text": "all travel together with no account or installer. It can save itself, run fully offline, and even support encrypted live"
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "collaboration through a relay that only sees cipher text. The clever part is the plain JSON document block, which also"
+    },
+    {
+      "start": 282.0,
+      "end": 282.0,
+      "text": "lets coding assistants edit slides directly, though mobile remains focused on viewing and presenting."
+    },
+    {
+      "start": 289.0,
+      "end": 289.0,
+      "text": "Hegazy DNS block lists gives your network one maintained filter instead of a pile of mismatched lists. It bundles ads, trackers, fishing, malware, scams,"
+    },
+    {
+      "start": 298.0,
+      "end": 298.0,
+      "text": "and cryptojacking domains, then ships them in formats for Pi Hole, Adguard, DNS Mask, RPZ, and more. You can choose"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "anything from a relaxed light list to an aggressive ultimate tier. That range is useful, but stricter lists can break sites, so keep an allow list handy."
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "Alen is an OpenAI compatible gateway that answers a request with several models instead of one, arbitrates between them and returns the reasoning"
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "trail as metadata. Which strategy ran, which models, what each sub call cost, where they disagreed. Swap your base URL"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "and it works. The headline claim that a coordinated pool of cheaper models beat every Frontier flagship on accuracy is the vendor's own 38 task run."
+    },
+    {
+      "start": 343.0,
+      "end": 343.0,
+      "text": "Open Observe puts logs, metrics, traces, dashboards, and front-end monitoring behind one self-hosted platform instead"
+    },
+    {
+      "start": 351.0,
+      "end": 351.0,
+      "text": "of stitching together half an observability stack. It ships as a single Rust binary, accepts open telemetry data, and lets you query with"
+    },
+    {
+      "start": 359.0,
+      "end": 359.0,
+      "text": "SQL or PromQL. Its S3 native parquet design is where the maintainers claim up to 140 times lower storage costs than"
+    },
+    {
+      "start": 367.0,
+      "end": 367.0,
+      "text": "Elastic Search. Devonel is a self-hosted catalog for the physical media that somehow keeps multiplying on your"
+    },
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "shelves. Scan a barcode or import an existing discogs library and it pulls cover art, metadata, and music value"
+    },
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "estimates. Plugins handle records, books, films, games, and Lego while custom types cover stranger collections."
+    },
+    {
+      "start": 388.0,
+      "end": 388.0,
+      "text": "Multiple libraries, roles, and optional OIDC make it sharable, too. Though several metadata sources require their own API keys."
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Dochand gives Docker a clean control panel for containers, compose stacks, and multiple hosts. You can edit compose"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "files visually, stream logs beside an interactive shell, and deploy stacks from git with web hooks and automatic syncing. It also maps container networks and scans images with Trivy or Grip."
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "Personal and internal business use are free, but running Dockhand as a commercial hosted service isn't allowed before 2029."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "Crawco combines Google search console, a site crawler, and core web vitals in one self-hosted dashboard. It tracks keyword"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "changes, audits up to 2,000 pages for 16 issue types, and flags problems like traffic drops, new 404s, or content"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "decay. There's also an MCP server, so coding assistants can query the data or start crawls. Setup still needs Google"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "OOTH, an optional keyword or backlink research requires a data for SEO key."
+    },
+    {
+      "start": 455.0,
+      "end": 455.0,
+      "text": "Shelf Droid is an Android client for your self-hosted audiobook shelf server with more admin access than a basic player. It streams audiobooks and"
+    },
+    {
+      "start": 464.0,
+      "end": 464.0,
+      "text": "podcasts, syncs listening progress, and downloads episodes for offline playback."
+    },
+    {
+      "start": 469.0,
+      "end": 469.0,
+      "text": "Chapters, bookmarks, sleep timers, and speed controls cover the listening side, while permitted accounts can manage users, API keys, backups, logs, and server settings."
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "Parker is a self-hosted server for comic files you already have, and it treats your folders as the source of truth. It reads comic info metadata directly from"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "CBZ and CBR, then organizes everything into series, volumes, collections, and smart lists. The browser reader supports"
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "manga direction, double page spreads, bookmarks, and long view."
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "Hop is a remote pair programming app built around low latency screen sharing with a backend you can host yourself. It"
+    },
+    {
+      "start": 510.0,
+      "end": 510.0,
+      "text": "uses a native Tori and Rust desktop client with WebRTC through LiveKit, supports one-click pairing, and lets up"
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "to 10 people join a mob programming room. The team claims sub 100 millisecond latency, which will still depend on your network."
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "Hel Insight is a self-hosted BI platform that combines dashboards, printable reports, and embedded analytics in one"
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "stack. You can connect databases through JDBC, build drill down visualizations, schedule personalized reports, and"
+    },
+    {
+      "start": 542.0,
+      "end": 542.0,
+      "text": "export them to formats like PDF, Excel, or Word. It also offers natural language analysis with your own language model."
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "Compose lint checks docker compose files for security mistakes before they land in production. Its rules catch"
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "privileged containers, exposed host ports, Docker socket mounts, unpinned images, and credentials written directly into environment values. You can run it"
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "locally or in CI, export SAR for code scanning annotations, and preview safe mechanical fixes as a dryr run diff."
+    },
+    {
+      "start": 575.0,
+      "end": 575.0,
+      "text": "Peanut gives network UPS tools a compact web dashboard, so checking backup power doesn't mean living in a terminal. It"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "monitors multiple UPS units in real time, shows battery charge, runtime, load, and status, and can execute"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "supported device commands. Metrics can flow into Prometheus, Influx DB, Graphana, or a homepage widget."
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "Authentication is included, and you'll want to keep it enabled if the dashboard is reachable beyond your trusted network. Docy turns Docker Compose"
+    },
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "Stacks into a focused self-hosted dashboard without taking ownership of your files. You can edit compose.yaml in"
+    },
+    {
+      "start": 612.0,
+      "end": 612.0,
+      "text": "the browser, watch pull and startup output live, and manage stacks across multiple Docker hosts from one"
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "interface. It even converts Docker run commands into Compose files. Doc focuses on compose, so networks and standalone"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "containers may still send you back to Portainer or the CLI."
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "Cheap security is a single camera CCTV app for a Raspberry Pi and a USB webcam."
+    },
+    {
+      "start": 637.0,
+      "end": 637.0,
+      "text": "Flask dashboard, MJPEG stream, motion detection by frame differencing, and clips with a premotion buffer pushed to Telegram or email. Storage cleans itself"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "up by age, size, and free space. Motion here is pixel difference, not object detection, so expect trees and headlights to trigger it."
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "Langfuse is an LLM observability platform. trace every model call, retrieval step and agent action. Then manage prompts, run a vowels and replay"
+    },
+    {
+      "start": 664.0,
+      "end": 664.0,
+      "text": "a bad trace in a playground. It ingests open telemetry, so Langchain, Llama index, light LM and the OpenAI SDK all work through a decorator or a callback."
+    },
+    {
+      "start": 674.0,
+      "end": 674.0,
+      "text": "The real stack is Postgres, ClickHouse, and object storage and usage telemetry reports to Post Hog unless you turn it off."
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "Fractera combines VPS provisioning with a browser workspace for several coding agents. give it an Ubuntu 2404 server"
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "and it sets up EngineX, HTTPS, authentication, SQLite storage, and a Nex.js starter. Then exposes coding"
+    },
+    {
+      "start": 698.0,
+      "end": 698.0,
+      "text": "tools through browser terminals and shared rag memory. The maintainers claim its MCP-based design cuts token costs by"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "up to 90%. A figure worth validating yourself."
+    },
+    {
+      "start": 709.0,
+      "end": 709.0,
+      "text": "Karen gives the people using your self-hosted services a directory, not another admin dashboard. You write a"
+    },
+    {
+      "start": 717.0,
+      "end": 717.0,
+      "text": "welcome note, group tools by purpose, and add plain descriptions so family or clients know what each service does."
+    },
+    {
+      "start": 725.0,
+      "end": 725.0,
+      "text": "Optional Gatis integration adds live status without polling from visitors browsers, while search and translated labels keep the page approachable."
+    },
+    {
+      "start": 734.0,
+      "end": 734.0,
+      "text": "Expense budget tracker keeps personal finance records in a Postgress app you can run yourself. The web interface handles budgets, balances, account transfers, and multicurrency reporting."
+    },
+    {
+      "start": 744.0,
+      "end": 744.0,
+      "text": "Its unusual feature is a SQL API that lets an agent import statements or analyze transactions with an API key."
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "The hosted chat can send extracted financial data and telemetry to OpenAI and Langfuse. So self-hosting is the safer fit for sensitive records."
+    },
+    {
+      "start": 762.0,
+      "end": 762.0,
+      "text": "Fact, the fused agent kernel wraps an existing coding agent with operational controls without replacing its interface"
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "or model. It keeps prompt prefixes cache stable, compacts long sessions and can resume after a crash. Tool calls pass"
+    },
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "through explicit allow, deny, transform, or witness policies, while local GGF serving is also built in. The maintainers report roughly 4.1 times less work than a tuned warm cache stack."
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "Getbased is a local first health dashboard that brings lab results, DNA context, wearables, and personal notes"
+    },
+    {
+      "start": 797.0,
+      "end": 797.0,
+      "text": "into one browser workspace. It charts biomarkers over time, imports reports for review, and creates deterministic"
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "biology scores that summarize patterns rather than diagnose conditions. Most data stays in the browser with encryption, sync, sharing, and model analysis optional."
+    },
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "Backup maker protects one computer by copying folders to several local destinations at once with nothing installed on the drives, NAS boxes, or"
+    },
+    {
+      "start": 823.0,
+      "end": 823.0,
+      "text": "shared folders. It can maintain real-time incremental mirrors with about 30 days of file history. Plus, scheduled"
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "AES 256 encrypted snapshots for point in time recovery. The dashboard stays on local host and internet relays are disabled."
+    },
+    {
+      "start": 840.0,
+      "end": 840.0,
+      "text": "Superlog turns raw open telemetry data into incidents you can actually investigate instead of another wall of"
+    },
+    {
+      "start": 847.0,
+      "end": 847.0,
+      "text": "disconnected logs. It ingests traces, logs and metrics, groups related noise and provides a local first workspace backed by Postgres and ClickHouse."
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "Investigation runners are pluggable while the community runner records a local incident summary."
+    },
+    {
+      "start": 863.0,
+      "end": 863.0,
+      "text": "Renfield is a self-hosted assistant designed to live around the house, not inside one browser tab. Raspberry Pi"
+    },
+    {
+      "start": 871.0,
+      "end": 871.0,
+      "text": "voice satellites provide local wakeword detection, speech recognition, and text to speech. While its agent can work across home assistant, calendars, email,"
+    },
+    {
+      "start": 880.0,
+      "end": 880.0,
+      "text": "media, and documents, a rag knowledge base and long-term memory keep local context available."
+    },
+    {
+      "start": 887.0,
+      "end": 887.0,
+      "text": "News dashboard turns a pile of technical feeds into a self-hosted inbox with an actual triage workflow. Articles move"
+    },
+    {
+      "start": 894.0,
+      "end": 894.0,
+      "text": "through new, saved, skipped, snoozed, and archived states, while source health checks expose feeds that quietly stopped"
+    },
+    {
+      "start": 901.0,
+      "end": 901.0,
+      "text": "updating. Search and optional generated briefings help compress the backlog, and a Google reader compatible API keeps third party RSS clients in sync."
+    }
+  ]
+}

@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "id": "DCCkBPcIVAo",
+  "title": "Hacker News Show #10: mindwalk, spaceprojectsim, dom-docx, ctx, codealmanac, bramble, remux, leaves",
+  "url": "https://www.youtube.com/watch?v=DCCkBPcIVAo",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-26",
+  "duration": 931,
+  "word_count": 2381,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T13:19:42+00:00",
+    "metadata_sha256": "9b723a10a0b84f0e81ec421c6b0557d4da9903707fbce7f820137e911e936221",
+    "captions_sha256": "b2a9cffe97b085532a6b91483f7b972c6d001005b4b94a4d754c8268eef9c4ae",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome Hacker News show number 10. 35 projects with the most replies and up votes. Let's get into it."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "mindwalk",
+      "repositories": [
+        "https://github.com/cosmtrek/mindwalk"
+      ],
+      "id": "s002",
+      "end": 34,
+      "paragraphs": [
+        "Mindwalk replays a coding agent session as light moving across a 3D map of your repo. So you can see which files it searched, read, and edited and which it never touched at all. Each file keeps its deepest touch state. So scope creep shows up as glow where you didn't expect any. It reads claude code and codeex logs locally. One go binary. Nothing leaving the machine. The space project"
+      ]
+    },
+    {
+      "start": 34,
+      "title": "spaceprojectsim",
+      "repositories": [
+        "https://github.com/Kalcode/spaceprojectsim"
+      ],
+      "id": "s003",
+      "end": 58,
+      "paragraphs": [
+        "is a rust and bevy space economy simulator where you watch hundreds of autonomous entities make their own decisions. Ships trade, refuel, accept contracts, and go bankrupt while stations price 13 commodities from live shortages instead of fixed values. Factions tax and subsidize. Unhappy populations migrate and the whole universe persists in SQLite."
+      ]
+    },
+    {
+      "start": 58,
+      "title": "dom-docx",
+      "repositories": [
+        "https://github.com/floodtide/dom-docx"
+      ],
+      "id": "s004",
+      "end": 85,
+      "paragraphs": [
+        "Most HTML to word converters wrap everything in nested layout tables. So the file opens in Word and nothing is editable. DOM-doc X maps a practical subset to real u XML instead. Headings become headings, lists become numbered lists, tables become tables. The default path is pure JavaScript with no browser needed. And there's a browser bundle that converts in the user's own tab. charts rasterize to PNG when you ask."
+      ]
+    },
+    {
+      "start": 85,
+      "title": "ctx",
+      "repositories": [
+        "https://github.com/ctxrs/ctx"
+      ],
+      "id": "s005",
+      "end": 112,
+      "paragraphs": [
+        "CTX is a Rust CLI that searches the coding agent history already stored on your machine instead of giving every new session amnesia. It imports transcripts from codecs, claude code, and many other tools into a local SQLite index. You can search by ordinary terms or touched file, then reopen the exact event or session behind a result. Nothing is uploaded, but transcripts retain paths and secretl looking strings."
+      ]
+    },
+    {
+      "start": 112,
+      "title": "codealmanac",
+      "repositories": [
+        "https://github.com/AlmanacCode/codealmanac"
+      ],
+      "id": "s006",
+      "end": 138,
+      "paragraphs": [
+        "One clawed MD file stops working around a few hundred lines, and it goes stale the first time someone commits without touching it. Almanac keeps a wiki of small linked pages in your repo instead, covering the decisions and gotchas the code can't state. A scheduler reads your finished agent sessions and writes new pages which land in git status for you to review like any other diff."
+      ]
+    },
+    {
+      "start": 138,
+      "title": "bramble",
+      "repositories": [
+        "https://github.com/flythenimbus/bramble"
+      ],
+      "id": "s007",
+      "end": 168,
+      "paragraphs": [
+        "Bramble is a local first password manager that keeps the vault on your own devices instead of a company server. Its Rust cryptocore encrypts everything while browser iOS and Android clients sync directly over an endtoend encrypted peer-to-peer connection. It also supports pass keys, native autofill, and encrypted backups to files or storage you control. The trade-off is real. Lose every password, hardware key, and recovery code, and nobody can restore the vault."
+      ]
+    },
+    {
+      "start": 168,
+      "title": "remux",
+      "repositories": [
+        "https://github.com/h3nock/remux"
+      ],
+      "id": "s008",
+      "end": 190,
+      "paragraphs": [
+        "SSH from your phone means the connection dies the moment you lock the screen. Remox is a native iOS client that talks T-Mux directly, so sessions keep running on the server and windows and panes become real iOS surfaces. you swipe between a bottom sheet picks panes. You can split and close them from the app and server passwords go into keychain."
+      ]
+    },
+    {
+      "start": 190,
+      "title": "clx",
+      "repositories": [
+        "https://github.com/samyeyo/clx"
+      ],
+      "id": "s009",
+      "end": 216,
+      "paragraphs": [
+        "Shipping a Lua tool means shipping an interpreter alongside it or asking users to install one. CLX compiles the script ahead of time through clang GCC or MSVC and hands you a single native executable small enough to land under a 100 kilobyt with a minimal flag. Startup skips bite code loading entirely. Native modules get written against a C++ API instead of the old LIC C1."
+      ]
+    },
+    {
+      "start": 216,
+      "title": "mcpsnoop",
+      "repositories": [
+        "https://github.com/kerlenton/mcpsnoop"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "MCP snoop is a transparent proxy that shows the actual JSON RPC traffic between your AI client and MCP servers instead of opening a separate test connection. Its terminal UI exposes every tool call flags malformed frames and hung requests and can export sessions or gate CI on failures because those traces may contain credentials or private arguments. configure its key, value, and JSON path redaction before recording real workloads."
+      ]
+    },
+    {
+      "start": 244,
+      "title": "go-shirei",
+      "repositories": [
+        "https://github.com/hasenj/go-shirei"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "Shereé is a cross-platform guey framework that lets you build desktop apps entirely in Go with no browser bundled and no HTML in sight. Its immediate mode API rebuilds the interface from your data each frame. So there's no widget tree to keep in sync. One codebase covers Mac OS, Windows, and Linux with flexbox layout, complex text shaping, birectional text, and IME support included."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "Observal",
+      "repositories": [
+        "https://github.com/Observal/Observal"
+      ],
+      "id": "s012",
+      "end": 293,
+      "paragraphs": [
+        "Observ is a self-hosted control plane for teams whose agents, skills, and MCP servers have scattered across separate repositories. It provides a governed registry, generates installation configs for tools like codecs and cursor, and tracks which components people actually use. Session replay captures prompts, responses, reasoning, and tool calls for debugging."
+      ]
+    },
+    {
+      "start": 293,
+      "title": "leaves",
+      "repositories": [
+        "https://github.com/patonw/leaves"
+      ],
+      "id": "s013",
+      "end": 319,
+      "paragraphs": [
+        "Leaves is a treemap disc usage analyzer that runs entirely in the terminal. So it works over SSH where wind darstat or Q darstat can't. Files and directories become nested rectangles sized by disk usage, files colored by extension, and directories by name with a collapsible tree alongside. X-ray mode flips the grouping to file type first. It respects git ignore by default and hard links get counted twice."
+      ]
+    },
+    {
+      "start": 319,
+      "title": "reame",
+      "repositories": [
+        "https://github.com/swellweb/reame"
+      ],
+      "id": "s014",
+      "end": 345,
+      "paragraphs": [
+        "RAM is an LLM inference server that treats cheap CPUs as the target rather than the fallback built on llama. Dedger CPP for free tier VPS boxes and two core ARM machines. Prompt prefixes get snapshotted to disk with ZSTD. So a shared system prompt is paid for once and survives restarts. It measures whether speculative decoding actually helps on your hardware and switches it off when it doesn't."
+      ]
+    },
+    {
+      "start": 345,
+      "title": "dbosify-py",
+      "repositories": [
+        "https://github.com/dbos-inc/dbosify-py"
+      ],
+      "id": "s015",
+      "end": 370,
+      "paragraphs": [
+        "Debossify is a drop-in replacement for the temporal Python SDK that runs durable workflows on Postgress alone. So there's no separate orchestration server to operate. Change the import and point workers at a database. Activities and timers become checkpointed steps. Signals and cancellations travel through listen notify and recovery replays against those checkpoints on a new worker."
+      ]
+    },
+    {
+      "start": 370,
+      "title": "Imagin-Raw",
+      "repositories": [
+        "https://github.com/cristibaluta/Imagin-Raw"
+      ],
+      "id": "s016",
+      "end": 397,
+      "paragraphs": [
+        "Imagine RAW is a native Mac OS browser for culling and organizing raw photos aimed at the read rate and organize half of what Adobe Bridge does. There's no import step pointed at folders on discs, external drives or SD cards and FS events picks up changes live. Ratings and color labels write to XMPP sidecars, so Lightroom and Bridge read them. Previews are unprocessed though with no camera raw adjustments applied."
+      ]
+    },
+    {
+      "start": 397,
+      "title": "bash4llm",
+      "repositories": [
+        "https://github.com/kamaludu/bash4llm"
+      ],
+      "id": "s017",
+      "end": 421,
+      "paragraphs": [
+        "Bash for LLM is a single bash script that talks to Grokes OpenAI compatible chat API. So there's no Python environment or npm tree between you and the model. It pulls the model list live rather than hard- coding names, streams or buffers output and saves long responses automatically. No eval anywhere, no shared tmp, and it never executes what the model returns. Webbase 3 rebuilds dbase 3 as a browser appprompt and all with its own W3 script interpreter written in Typescript over"
+      ]
+    },
+    {
+      "start": 421,
+      "title": "WebBaseIII",
+      "repositories": [
+        "https://github.com/DDecoene/WebBaseIII"
+      ],
+      "id": "s018",
+      "end": 445,
+      "paragraphs": [
+        "SQLite. Use a table, index on a field, seek a value, then browse into an editable grid. The at say get form engine and PRG program editor are there too. A sidebar assistant echoes the command every click generates. So you pick up the language by watching."
+      ]
+    },
+    {
+      "start": 445,
+      "title": "nanoeuler",
+      "repositories": [
+        "https://github.com/JustVugg/nanoeuler"
+      ],
+      "id": "s019",
+      "end": 476,
+      "paragraphs": [
+        "Nanou is a GPT2 class model written from scratch in C and CUDA with no PyTorch and no autograd anywhere. The backward pass is hand derived and make check compares every analytic gradient against a finite difference in double precision before you train anything. The CUDA engine ships a handwritten flash attention validated against the CPU reference. Roughly 116 million parameters on one RTX 4070 fluent English with nothing behind it."
+      ]
+    },
+    {
+      "start": 476,
+      "title": "shumai",
+      "repositories": [
+        "https://github.com/shumaiOne/shumai"
+      ],
+      "id": "s020",
+      "end": 501,
+      "paragraphs": [
+        "Shumi is a self-hosted media review platform that keeps creative assets, feedback, and versioning under your control. Teams can annotate exact video frames, share curated collections with RO based access, and store originals locally or in S3 compatible storage. Background workers handle transcoding while its optional agent can fill metadata and search assets semantically."
+      ]
+    },
+    {
+      "start": 501,
+      "title": "rowboat",
+      "repositories": [
+        "https://github.com/rowboatlabs/rowboat"
+      ],
+      "id": "s021",
+      "end": 527,
+      "paragraphs": [
+        "Root is a desktop AI co-worker that keeps its memory as plain markdown on your machine, indexing email, meetings, and Slack into a backl you can open and edit yourself. Around it sit real work surfaces. An email client that drafts replies, an isolated browser, a local meeting transcriber, and background agents that fire on a schedule or a new message. Bring your own model, local or hosted."
+      ]
+    },
+    {
+      "start": 527,
+      "title": "docx-cli",
+      "repositories": [
+        "https://github.com/kklimuk/docx-cli"
+      ],
+      "id": "s022",
+      "end": 554,
+      "paragraphs": [
+        "Dox CLI lets an agent edit Word files without flattening them, which is what happens when you convert to markdown and back. It parses the document into an addressable a. So you target paragraph 3 characters 5 to 20 and it mutates that XML in place. Everything it doesn't model, custom styles, and theme colors survives untouched. Comments, replies, track changes, images, and hyperlinks all get real commands."
+      ]
+    },
+    {
+      "start": 554,
+      "title": "frugon",
+      "repositories": [
+        "https://github.com/Rodiun/frugon"
+      ],
+      "id": "s023",
+      "end": 582,
+      "paragraphs": [
+        "Fruges your actual LLM logs against every model locally rather than telling you what you already spent like a billing dashboard does. Point it at a JSON L file and it splits your traffic into calls that could move to a cheaper model and calls that shouldn't with a monthly figure attached. A bundled proxy captures the logs if you don't have them. Nothing leaves the machine unless you opt into sampling with your own keys."
+      ]
+    },
+    {
+      "start": 582,
+      "title": "earth-game",
+      "repositories": [
+        "https://github.com/skorotkiewicz/earth-game"
+      ],
+      "id": "s024",
+      "end": 609,
+      "paragraphs": [
+        "EarthGame is a goal tracker that stays on your machine Python standard library and a local SQLite file with no accounts and no outbound requests. It holds one current quest at a time with a single next action plus a list of open loops you haven't closed. A review command records five short reflections and can promote your answer into the next action. There's a browser UI too bound to loop back only 77 is an LZ codec built for write once read many data trading slow compression"
+      ]
+    },
+    {
+      "start": 609,
+      "title": "misa77",
+      "repositories": [
+        "https://github.com/welcome-to-the-sunny-side/misa77"
+      ],
+      "id": "s025",
+      "end": 637,
+      "paragraphs": [
+        "for decompression speed on the author's Clesia runs. It decodes several times faster than LZ4 while holding a better ratio and it gets faster on more compressible files. So effort spent at compression time pays twice. Decompression needs no memory buffer at all. The decoder assumes valid input though. So don't point it at anything untrusted."
+      ]
+    },
+    {
+      "start": 637,
+      "title": "xarray-sql",
+      "repositories": [
+        "https://github.com/xqlsystems/xarray-sql"
+      ],
+      "id": "s026",
+      "end": 663,
+      "paragraphs": [
+        "Zer SQL lets SQL users query multi-dimensional zer data sets without first flattening everything by hand. It registers array chunks as data fusion tables through arrow record batches, pushes selected columns and dimension filters toward the source, then converts results back into zere or pandas that makes climate and geospatial work expressable with joins, grouping, and window functions."
+      ]
+    },
+    {
+      "start": 663,
+      "title": "bun-sqlgen",
+      "repositories": [
+        "https://github.com/ilbertt/bun-sqlgen"
+      ],
+      "id": "s027",
+      "end": 689,
+      "paragraphs": [
+        "Bunsql gen gives raw bun SQL queries real types without putting an ORM in the way. tag a template literal with a name and codegen plans that query against your actual Postgress or SQLite schema then writes a declaration file so a typo in a column name fails the build instead of production nullability comes from the schema ability so a schema flags the fields that can genuinely be null runtime stays plain bun most AI video tools hide the edit behind an API so you"
+      ]
+    },
+    {
+      "start": 689,
+      "title": "FableCut",
+      "repositories": [
+        "https://github.com/ronak-create/FableCut"
+      ],
+      "id": "s028",
+      "end": 715,
+      "paragraphs": [
+        "get a rendered file and no way in Fable Cut makes the timeline a plain JSON document instead head clips, key frames, transitions, all of it patchable over MCP or REST while the browser UI reloads in about 150 milliseconds. You and an agent can work the same timeline with a revision counter rejecting whichever right would clobber the other."
+      ]
+    },
+    {
+      "start": 715,
+      "title": "wyrm_math",
+      "repositories": [
+        "https://github.com/dicroce/wyrm_math"
+      ],
+      "id": "s029",
+      "end": 741,
+      "paragraphs": [
+        "Worm math is a symbolic algebra engine built so illegal moves can't happen rather than getting rejected. Equations only change through rewrite rules. So any state you can reach is sound by construction and moves with conditions attached like dividing by something that might be zero carry those conditions along as visible assumptions. Arithmetic is exact big rationals with no floating point."
+      ]
+    },
+    {
+      "start": 741,
+      "title": "cactus-hybrid",
+      "repositories": [
+        "https://github.com/cactus-compute/cactus-hybrid"
+      ],
+      "id": "s030",
+      "end": 765,
+      "paragraphs": [
+        "Cactus hybrid is a small ondevice model that ships with a confidence probe built into the checkpoint. So every answer comes back with a score between zero and one alongside the text. set a threshold and anything under it escalates to a larger model instead of shipping a confident guess. The score arrives as its own field, not something parsed out of the response."
+      ]
+    },
+    {
+      "start": 765,
+      "title": "max-studio-tools",
+      "repositories": [
+        "https://github.com/apresta/max-studio-tools"
+      ],
+      "id": "s031",
+      "end": 793,
+      "paragraphs": [
+        "Max Studio Tools brings a rack of studio style EQs and compressors into Max MSP as native externals. The collection covers broad tonal shaping, saturation, transparent leveling, and aggressive transient control, so you can build Macs for live devices without recreating the DSP layer yourself. Every device supports optional oversampling up to eight times. C++ on the Mind Devkit tested on Mac OS with Windows cross compilation through Mingub."
+      ]
+    },
+    {
+      "start": 793,
+      "title": "billai-bass",
+      "repositories": [
+        "https://github.com/morganwilliscloud/billai-bass"
+      ],
+      "id": "s032",
+      "end": 821,
+      "paragraphs": [
+        "Bill AI base turns a big mouth billy base into a real-time voice assistant running on a Raspberry Pi 5. Live audio streams through Strand's bitey agent to Amazon Nova 2 Sonic, while GPIO controlled motors sync the mouth, swivel the head, and flap the tail. The repository includes wiring tests and a least privilege AWS setup. It's a funny build, but it still requires soldering, an AWS account, and permanently opening the fish."
+      ]
+    },
+    {
+      "start": 821,
+      "title": "jacquard-lang",
+      "repositories": [
+        "https://github.com/jbwinters/jacquard-lang"
+      ],
+      "id": "s033",
+      "end": 846,
+      "paragraphs": [
+        "Jakard is a research language built for code that models write and people review. A function's type carries the effects it may perform. So one line tells you whether something can touch the network and the runtime refuses ungranted effects unless you pass allow. Handlers can resume a computation more than once which makes exhaustive search and exact probability ordinary library code."
+      ]
+    },
+    {
+      "start": 846,
+      "title": "RelayBar",
+      "repositories": [
+        "https://github.com/lx2026/RelayBar"
+      ],
+      "id": "s034",
+      "end": 875,
+      "paragraphs": [
+        "Relay bar puts SSH local port forwards in a tiny native Mac OS menu bar app instead of another terminal tab. Import a standard SSH local forward command. Start or stop each tunnel with one click and open its local URL straight in your browser. It retries dropped connections and shows failures beside the affected tunnel. It deliberately rejects shell executing options, though it still inherits access to your normal SSH config keys and agent."
+      ]
+    },
+    {
+      "start": 875,
+      "title": "mcp",
+      "repositories": [
+        "https://github.com/open-and-async/mcp"
+      ],
+      "id": "s035",
+      "end": 903,
+      "paragraphs": [
+        "Open and async MCP turns remote work practices into callable tools for your coding assistant. feed it a decision and options to draft an ADR, convert a meeting agenda into an owned async artifact, or score a status update before it surprises the team. It also searches cited summaries from the open and async book. The code is MIT, but its bundled book data is proprietary and can't be redistributed or used for model training."
+      ]
+    },
+    {
+      "start": 903,
+      "title": "Yorishiro",
+      "repositories": [
+        "https://github.com/sktkkoo/Yorishiro"
+      ],
+      "id": "s036",
+      "end": 931,
+      "paragraphs": [
+        "Your Shiro is a Mac OS terminal that puts a 3D character beside your coding agent. It watches the PTY stream directly. So, the character reacts to an error before the model has formed a sentence and a light comes on in the scene. When the agent is waiting on your approval, the agent can reshape its own room over MCP, changing lighting, scenes, and UI. Everything beyond the core is a swappable pack."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome Hacker News show number 10. 35 projects with the most replies and up votes. Let's get into it."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Mindwalk replays a coding agent session as light moving across a 3D map of your repo. So you can see which files it"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "searched, read, and edited and which it never touched at all. Each file keeps its deepest touch state. So scope creep shows up as glow where you didn't expect"
+    },
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "text": "any. It reads claude code and codeex logs locally. One go binary. Nothing leaving the machine. The space project"
+    },
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "text": "is a rust and bevy space economy simulator where you watch hundreds of autonomous entities make their own decisions. Ships trade, refuel, accept"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "contracts, and go bankrupt while stations price 13 commodities from live shortages instead of fixed values."
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "Factions tax and subsidize. Unhappy populations migrate and the whole universe persists in SQLite."
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "text": "Most HTML to word converters wrap everything in nested layout tables. So the file opens in Word and nothing is editable. DOM-doc X maps a practical"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "subset to real u XML instead. Headings become headings, lists become numbered lists, tables become tables. The default"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "text": "path is pure JavaScript with no browser needed. And there's a browser bundle that converts in the user's own tab. charts rasterize to PNG when you ask."
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "text": "CTX is a Rust CLI that searches the coding agent history already stored on your machine instead of giving every new session amnesia. It imports transcripts"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "text": "from codecs, claude code, and many other tools into a local SQLite index. You can search by ordinary terms or touched"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "text": "file, then reopen the exact event or session behind a result. Nothing is uploaded, but transcripts retain paths and secretl looking strings."
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "text": "One clawed MD file stops working around a few hundred lines, and it goes stale the first time someone commits without"
+    },
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "touching it. Almanac keeps a wiki of small linked pages in your repo instead, covering the decisions and gotchas the"
+    },
+    {
+      "start": 127.0,
+      "end": 127.0,
+      "text": "code can't state. A scheduler reads your finished agent sessions and writes new pages which land in git status for you to review like any other diff."
+    },
+    {
+      "start": 138.0,
+      "end": 138.0,
+      "text": "Bramble is a local first password manager that keeps the vault on your own devices instead of a company server. Its Rust cryptocore encrypts everything"
+    },
+    {
+      "start": 147.0,
+      "end": 147.0,
+      "text": "while browser iOS and Android clients sync directly over an endtoend encrypted peer-to-peer connection. It also"
+    },
+    {
+      "start": 155.0,
+      "end": 155.0,
+      "text": "supports pass keys, native autofill, and encrypted backups to files or storage you control. The trade-off is real. Lose"
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "every password, hardware key, and recovery code, and nobody can restore the vault."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "SSH from your phone means the connection dies the moment you lock the screen."
+    },
+    {
+      "start": 173.0,
+      "end": 173.0,
+      "text": "Remox is a native iOS client that talks T-Mux directly, so sessions keep running on the server and windows and panes"
+    },
+    {
+      "start": 180.0,
+      "end": 180.0,
+      "text": "become real iOS surfaces. you swipe between a bottom sheet picks panes. You can split and close them from the app and server passwords go into keychain."
+    },
+    {
+      "start": 191.0,
+      "end": 191.0,
+      "text": "Shipping a Lua tool means shipping an interpreter alongside it or asking users to install one. CLX compiles the script"
+    },
+    {
+      "start": 197.0,
+      "end": 197.0,
+      "text": "ahead of time through clang GCC or MSVC and hands you a single native executable small enough to land under a 100 kilobyt"
+    },
+    {
+      "start": 205.0,
+      "end": 205.0,
+      "text": "with a minimal flag. Startup skips bite code loading entirely. Native modules get written against a C++ API instead of the old LIC C1."
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "MCP snoop is a transparent proxy that shows the actual JSON RPC traffic between your AI client and MCP servers"
+    },
+    {
+      "start": 223.0,
+      "end": 223.0,
+      "text": "instead of opening a separate test connection. Its terminal UI exposes every tool call flags malformed frames and hung requests and can export"
+    },
+    {
+      "start": 232.0,
+      "end": 232.0,
+      "text": "sessions or gate CI on failures because those traces may contain credentials or private arguments. configure its key,"
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "value, and JSON path redaction before recording real workloads."
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Shereé is a cross-platform guey framework that lets you build desktop apps entirely in Go with no browser bundled and no HTML in sight. Its"
+    },
+    {
+      "start": 253.0,
+      "end": 253.0,
+      "text": "immediate mode API rebuilds the interface from your data each frame. So there's no widget tree to keep in sync."
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "One codebase covers Mac OS, Windows, and Linux with flexbox layout, complex text shaping, birectional text, and IME support included."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Observ is a self-hosted control plane for teams whose agents, skills, and MCP servers have scattered across separate repositories. It provides a governed"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "registry, generates installation configs for tools like codecs and cursor, and tracks which components people actually use."
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "Session replay captures prompts, responses, reasoning, and tool calls for debugging."
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "Leaves is a treemap disc usage analyzer that runs entirely in the terminal. So it works over SSH where wind darstat or"
+    },
+    {
+      "start": 300.0,
+      "end": 300.0,
+      "text": "Q darstat can't. Files and directories become nested rectangles sized by disk usage, files colored by extension, and"
+    },
+    {
+      "start": 307.0,
+      "end": 307.0,
+      "text": "directories by name with a collapsible tree alongside. X-ray mode flips the grouping to file type first. It respects"
+    },
+    {
+      "start": 315.0,
+      "end": 315.0,
+      "text": "git ignore by default and hard links get counted twice."
+    },
+    {
+      "start": 319.0,
+      "end": 319.0,
+      "text": "RAM is an LLM inference server that treats cheap CPUs as the target rather than the fallback built on llama. Dedger"
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "CPP for free tier VPS boxes and two core ARM machines. Prompt prefixes get snapshotted to disk with ZSTD. So a"
+    },
+    {
+      "start": 335.0,
+      "end": 335.0,
+      "text": "shared system prompt is paid for once and survives restarts. It measures whether speculative decoding actually helps on your hardware and switches it off when it doesn't."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Debossify is a drop-in replacement for the temporal Python SDK that runs durable workflows on Postgress alone. So"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "there's no separate orchestration server to operate. Change the import and point workers at a database. Activities and timers become checkpointed steps."
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "Signals and cancellations travel through listen notify and recovery replays against those checkpoints on a new worker."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Imagine RAW is a native Mac OS browser for culling and organizing raw photos aimed at the read rate and organize half of what Adobe Bridge does. There's no"
+    },
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "import step pointed at folders on discs, external drives or SD cards and FS events picks up changes live. Ratings"
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "and color labels write to XMPP sidecars, so Lightroom and Bridge read them."
+    },
+    {
+      "start": 392.0,
+      "end": 392.0,
+      "text": "Previews are unprocessed though with no camera raw adjustments applied."
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Bash for LLM is a single bash script that talks to Grokes OpenAI compatible chat API. So there's no Python environment or npm tree between you and"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "the model. It pulls the model list live rather than hard- coding names, streams or buffers output and saves long"
+    },
+    {
+      "start": 413.0,
+      "end": 413.0,
+      "text": "responses automatically. No eval anywhere, no shared tmp, and it never executes what the model returns."
+    },
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "Webbase 3 rebuilds dbase 3 as a browser appprompt and all with its own W3 script interpreter written in Typescript over"
+    },
+    {
+      "start": 428.0,
+      "end": 428.0,
+      "text": "SQLite. Use a table, index on a field, seek a value, then browse into an editable grid. The at say get form"
+    },
+    {
+      "start": 436.0,
+      "end": 436.0,
+      "text": "engine and PRG program editor are there too. A sidebar assistant echoes the command every click generates. So you pick up the language by watching."
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "Nanou is a GPT2 class model written from scratch in C and CUDA with no PyTorch and no autograd anywhere. The backward"
+    },
+    {
+      "start": 454.0,
+      "end": 454.0,
+      "text": "pass is hand derived and make check compares every analytic gradient against a finite difference in double precision before you train anything. The CUDA"
+    },
+    {
+      "start": 463.0,
+      "end": 463.0,
+      "text": "engine ships a handwritten flash attention validated against the CPU reference. Roughly 116 million"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "parameters on one RTX 4070 fluent English with nothing behind it."
+    },
+    {
+      "start": 476.0,
+      "end": 476.0,
+      "text": "Shumi is a self-hosted media review platform that keeps creative assets, feedback, and versioning under your"
+    },
+    {
+      "start": 483.0,
+      "end": 483.0,
+      "text": "control. Teams can annotate exact video frames, share curated collections with RO based access, and store originals locally or in S3 compatible storage."
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "Background workers handle transcoding while its optional agent can fill metadata and search assets semantically."
+    },
+    {
+      "start": 501.0,
+      "end": 501.0,
+      "text": "Root is a desktop AI co-worker that keeps its memory as plain markdown on your machine, indexing email, meetings,"
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "and Slack into a backl you can open and edit yourself. Around it sit real work surfaces. An email client that drafts"
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "replies, an isolated browser, a local meeting transcriber, and background agents that fire on a schedule or a new message. Bring your own model, local or hosted."
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "Dox CLI lets an agent edit Word files without flattening them, which is what happens when you convert to markdown and back. It parses the document into an"
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "addressable a. So you target paragraph 3 characters 5 to 20 and it mutates that XML in place. Everything it doesn't"
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "model, custom styles, and theme colors survives untouched. Comments, replies, track changes, images, and hyperlinks all get real commands."
+    },
+    {
+      "start": 554.0,
+      "end": 554.0,
+      "text": "Fruges your actual LLM logs against every model locally rather than telling you what you already spent like a billing dashboard does."
+    },
+    {
+      "start": 564.0,
+      "end": 564.0,
+      "text": "Point it at a JSON L file and it splits your traffic into calls that could move to a cheaper model and calls that shouldn't with a monthly figure"
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "attached. A bundled proxy captures the logs if you don't have them. Nothing leaves the machine unless you opt into sampling with your own keys."
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "EarthGame is a goal tracker that stays on your machine Python standard library and a local SQLite file with no accounts and no outbound requests."
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "It holds one current quest at a time with a single next action plus a list of open loops you haven't closed. A review"
+    },
+    {
+      "start": 599.0,
+      "end": 599.0,
+      "text": "command records five short reflections and can promote your answer into the next action. There's a browser UI too"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "bound to loop back only 77 is an LZ codec built for write once read many data trading slow compression"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "for decompression speed on the author's Clesia runs. It decodes several times faster than LZ4 while holding a better"
+    },
+    {
+      "start": 622.0,
+      "end": 622.0,
+      "text": "ratio and it gets faster on more compressible files. So effort spent at compression time pays twice."
+    },
+    {
+      "start": 629.0,
+      "end": 629.0,
+      "text": "Decompression needs no memory buffer at all. The decoder assumes valid input though. So don't point it at anything untrusted."
+    },
+    {
+      "start": 637.0,
+      "end": 637.0,
+      "text": "Zer SQL lets SQL users query multi-dimensional zer data sets without first flattening everything by hand. It"
+    },
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "registers array chunks as data fusion tables through arrow record batches, pushes selected columns and dimension filters toward the source, then converts"
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "results back into zere or pandas that makes climate and geospatial work expressable with joins, grouping, and window functions."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "Bunsql gen gives raw bun SQL queries real types without putting an ORM in the way. tag a template literal with a name"
+    },
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "and codegen plans that query against your actual Postgress or SQLite schema then writes a declaration file so a typo"
+    },
+    {
+      "start": 677.0,
+      "end": 677.0,
+      "text": "in a column name fails the build instead of production nullability comes from the schema ability so a schema flags the"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "fields that can genuinely be null runtime stays plain bun most AI video tools hide the edit behind an API so you"
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "get a rendered file and no way in Fable Cut makes the timeline a plain JSON document instead head clips, key frames,"
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "transitions, all of it patchable over MCP or REST while the browser UI reloads in about 150 milliseconds. You and an"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "agent can work the same timeline with a revision counter rejecting whichever right would clobber the other."
+    },
+    {
+      "start": 715.0,
+      "end": 715.0,
+      "text": "Worm math is a symbolic algebra engine built so illegal moves can't happen rather than getting rejected. Equations"
+    },
+    {
+      "start": 723.0,
+      "end": 723.0,
+      "text": "only change through rewrite rules. So any state you can reach is sound by construction and moves with conditions attached like dividing by something that"
+    },
+    {
+      "start": 731.0,
+      "end": 731.0,
+      "text": "might be zero carry those conditions along as visible assumptions. Arithmetic is exact big rationals with no floating point."
+    },
+    {
+      "start": 741.0,
+      "end": 741.0,
+      "text": "Cactus hybrid is a small ondevice model that ships with a confidence probe built into the checkpoint. So every answer"
+    },
+    {
+      "start": 748.0,
+      "end": 748.0,
+      "text": "comes back with a score between zero and one alongside the text. set a threshold and anything under it escalates to a"
+    },
+    {
+      "start": 756.0,
+      "end": 756.0,
+      "text": "larger model instead of shipping a confident guess. The score arrives as its own field, not something parsed out of the response."
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "Max Studio Tools brings a rack of studio style EQs and compressors into Max MSP as native externals. The collection"
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "covers broad tonal shaping, saturation, transparent leveling, and aggressive transient control, so you can build Macs for live devices without recreating the"
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "DSP layer yourself. Every device supports optional oversampling up to eight times. C++ on the Mind Devkit"
+    },
+    {
+      "start": 788.0,
+      "end": 788.0,
+      "text": "tested on Mac OS with Windows cross compilation through Mingub."
+    },
+    {
+      "start": 793.0,
+      "end": 793.0,
+      "text": "Bill AI base turns a big mouth billy base into a real-time voice assistant running on a Raspberry Pi 5. Live audio streams through Strand's bitey agent to"
+    },
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "Amazon Nova 2 Sonic, while GPIO controlled motors sync the mouth, swivel the head, and flap the tail. The"
+    },
+    {
+      "start": 809.0,
+      "end": 809.0,
+      "text": "repository includes wiring tests and a least privilege AWS setup. It's a funny build, but it still requires soldering,"
+    },
+    {
+      "start": 816.0,
+      "end": 816.0,
+      "text": "an AWS account, and permanently opening the fish."
+    },
+    {
+      "start": 821.0,
+      "end": 821.0,
+      "text": "Jakard is a research language built for code that models write and people review. A function's type carries the"
+    },
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "effects it may perform. So one line tells you whether something can touch the network and the runtime refuses ungranted effects unless you pass allow."
+    },
+    {
+      "start": 838.0,
+      "end": 838.0,
+      "text": "Handlers can resume a computation more than once which makes exhaustive search and exact probability ordinary library code."
+    },
+    {
+      "start": 846.0,
+      "end": 846.0,
+      "text": "Relay bar puts SSH local port forwards in a tiny native Mac OS menu bar app instead of another terminal tab. Import a standard SSH local forward command."
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "Start or stop each tunnel with one click and open its local URL straight in your browser. It retries dropped connections"
+    },
+    {
+      "start": 864.0,
+      "end": 864.0,
+      "text": "and shows failures beside the affected tunnel. It deliberately rejects shell executing options, though it still inherits access to your normal SSH config keys and agent."
+    },
+    {
+      "start": 875.0,
+      "end": 875.0,
+      "text": "Open and async MCP turns remote work practices into callable tools for your coding assistant. feed it a decision and"
+    },
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "options to draft an ADR, convert a meeting agenda into an owned async artifact, or score a status update before it surprises the team. It also"
+    },
+    {
+      "start": 892.0,
+      "end": 892.0,
+      "text": "searches cited summaries from the open and async book. The code is MIT, but its bundled book data is proprietary and"
+    },
+    {
+      "start": 899.0,
+      "end": 899.0,
+      "text": "can't be redistributed or used for model training."
+    },
+    {
+      "start": 903.0,
+      "end": 903.0,
+      "text": "Your Shiro is a Mac OS terminal that puts a 3D character beside your coding agent. It watches the PTY stream"
+    },
+    {
+      "start": 910.0,
+      "end": 910.0,
+      "text": "directly. So, the character reacts to an error before the model has formed a sentence and a light comes on in the scene. When the agent is waiting on your"
+    },
+    {
+      "start": 918.0,
+      "end": 918.0,
+      "text": "approval, the agent can reshape its own room over MCP, changing lighting, scenes, and UI. Everything beyond the core is a swappable pack."
+    }
+  ]
+}

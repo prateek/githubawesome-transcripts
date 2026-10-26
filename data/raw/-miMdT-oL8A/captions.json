@@ -1,0 +1,1554 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 40. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Clock gives coding agents a disposable Linux VM. Instead of letting them loose on your laptop, your repo is mounted in,"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "but the host file system and keychain stay out of reach. The agent gets root inside the guest, so package installs,"
+    },
+    {
+      "timestamp": "0:25",
+      "text": "servers, and destructive experiments don't need constant approvals. If it wrecks the machine, destroy the VM and"
+    },
+    {
+      "timestamp": "0:33",
+      "text": "recreate it without losing the repo or conversation."
+    },
+    {
+      "timestamp": "0:37",
+      "text": "Waggle gives multi- aent systems a tiny reference token. Instead of copying whole files and plans into every"
+    },
+    {
+      "timestamp": "0:43",
+      "text": "handoff, an agent resolves that token through MCP, pulls only the sections it needs, and leaves a receipt showing what"
+    },
+    {
+      "timestamp": "0:51",
+      "text": "it actually read. References are versioned, can be revoked or superseded, and can return different projections for different consumers."
+    },
+    {
+      "timestamp": "1:00",
+      "text": "That makes handoffs easier to audit and harder to quietly lose during delegation."
+    },
+    {
+      "timestamp": "1:06",
+      "text": "Mindwalk replays a coding agent session as light across a 3D map of your codebase. A session log tells you what"
+    },
+    {
+      "timestamp": "1:13",
+      "text": "the agent did, not how it understood the task, which files it treated as relevant. Raw JSONL never shows that"
+    },
+    {
+      "timestamp": "1:20",
+      "text": "here. The files it read and edited glow while the rest stays dark, so its mental model becomes a shape. You can see it reads claude code and codeex logs locally."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "Cloex is a local first agentic IDE that treats model output as untrusted input rather than giving a coding assistant"
+    },
+    {
+      "timestamp": "1:38",
+      "text": "the keys to your machine. You've watched an agent reach for a shell command or network request that deserves more than a cheerful prompt. Cloex keeps tasks"
+    },
+    {
+      "timestamp": "1:47",
+      "text": "persistent across restarts, isolates agent and MCP processes, and puts high impact shell browser and remote actions behind approval."
+    },
+    {
+      "timestamp": "1:57",
+      "text": "NeverClick replaces mouse travel with keyboard controlled visual hints using local computer vision instead of appsp"
+    },
+    {
+      "timestamp": "2:04",
+      "text": "specific accessibility hooks. Trigger it and every clickable region gets a label."
+    },
+    {
+      "timestamp": "2:10",
+      "text": "Then press the matching key to place the pointer or perform the action. It works across Windows apps, supports full screen and multimonitor setups, and runs entirely offline."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "Grock build is SpaceX AI's coding agent and unlike most lab CLIs, the full Rust source is public under Apache 2 zero."
+    },
+    {
+      "timestamp": "2:29",
+      "text": "It's a full screen TUI that edits files, runs shell commands, and searches the web with headless mode for CI and MCP"
+    },
+    {
+      "timestamp": "2:36",
+      "text": "support builtin. Parts of the tool layer are ported from OpenAI's codecs and open code. Contributions aren't accepted, though. It's read only open source."
+    },
+    {
+      "timestamp": "2:47",
+      "text": "Most 3D renderers ask what color each pixel is. Kerenne asks which lines an artist would draw and which they'd leave out. It renders a scene as a pencil"
+    },
+    {
+      "timestamp": "2:56",
+      "text": "drawing, deriving strokes from geometry, not shading pixels. A sphere's silhouette is an exact conic and"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "cross-hatching handles both shading and see-through. No alpha channel. The wobble is deterministic, so an orbiting camera stays calm instead of boiling."
+    },
+    {
+      "timestamp": "3:13",
+      "text": "Beautify GitHub readme is an agent skill that redesigns a repository homepage around the project itself rather than"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "dropping in another generic template. It reads the repo first, moves the clearest proof forward, then separates decorative"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "SVG assets from searchable markdown and copyable commands. You can request a full readme overhaul or just the visual"
+    },
+    {
+      "timestamp": "3:36",
+      "text": "pieces with local previews before anything is published."
+    },
+    {
+      "timestamp": "3:40",
+      "text": "A micro is a gallery of copyable React microtransitions instead of another design demo that leaves you rebuilding every animation from scratch. Browse its"
+    },
+    {
+      "timestamp": "3:49",
+      "text": "live button and control previews in grid list or matrix layouts. Then copy the generated react, tailwind, and motion"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "code. It also handles light, dark transitions and gives you a defined place to add your own interactions."
+    },
+    {
+      "timestamp": "4:04",
+      "text": "Most RL projects train one model. This one trains an agent that trains other models. Give it a task, teach multihop"
+    },
+    {
+      "timestamp": "4:12",
+      "text": "reasoning, and it writes a full training job, then ships it to real GPUs on RunPod. The maintainer clocks reward climbing from zero to a 0.63 peak over 54 steps, holding up on a task family."
+    },
+    {
+      "timestamp": "4:23",
+      "text": "The agent never trained on weights, reward code, GPU orchestration, the failed pilots, all public. Otter ASRV1"
+    },
+    {
+      "timestamp": "4:32",
+      "text": "is Arabic first speech recognition built for dialects rather than treating Arabic as an afterthought in a general"
+    },
+    {
+      "timestamp": "4:39",
+      "text": "transcription model. The pain shows up when Gulf, Egyptian, Levventine or McGrebby speech gets flattened into errors, especially when English is mixed"
+    },
+    {
+      "timestamp": "4:48",
+      "text": "in. Flash runs for live captions and offline edge use, while Turbo targets hard dialectal and long audio."
+    },
+    {
+      "timestamp": "4:56",
+      "text": "Domain SDK gives SAS teams one TypeScript API for customer domains instead of writing separate provisioning logic for every hosting provider. It"
+    },
+    {
+      "timestamp": "5:05",
+      "text": "normalizes Versel, Cloudflare for SAS, Railway, Render, and Netlefi behind the same add, verify, monitor, and remove"
+    },
+    {
+      "timestamp": "5:13",
+      "text": "life cycle. It returns the exact DNS records customers need and waits for provider confirmed routing and certificate status so your UI doesn't announce readiness early."
+    },
+    {
+      "timestamp": "5:24",
+      "text": "A pod restart in Kubernetes could mean five different things, and most AI ops tools just tell you to go check logs. Flawless runs a full loop instead."
+    },
+    {
+      "timestamp": "5:33",
+      "text": "Diagnose, preview the fix, get human approval, execute, then retest the original symptom to confirm it actually"
+    },
+    {
+      "timestamp": "5:40",
+      "text": "recovered. Topology mapping shows blast radius before you touch anything, and reusable skills packages capture what worked last time."
+    },
+    {
+      "timestamp": "5:50",
+      "text": "App Monitor is a local first Mac OS dashboard for app usage and cleanup instead of making you piece the story together from activity monitor and a"
+    },
+    {
+      "timestamp": "5:58",
+      "text": "deletion utility. You know the question, can I remove this old app without leaving caches, containers, and support"
+    },
+    {
+      "timestamp": "6:05",
+      "text": "files behind? It tracks foreground use, maps related storage and update status, then stages cleanup in reversible quarantine."
+    },
+    {
+      "timestamp": "6:15",
+      "text": "Every new coding agent session starts blank. You restate the architecture and rules you explained last time. Memory tools help but lock you to one agent and"
+    },
+    {
+      "timestamp": "6:24",
+      "text": "one backend. Paxom is a provider neutral memory adapter. Record a decision from codecs and recall it in clawed code or"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "any MCP client, one path across all of them. Start on local SQLite, no key or embeddings, and swap to zep or mem without rewiring."
+    },
+    {
+      "timestamp": "6:42",
+      "text": "An agent in a while loop is one line, but two things stop it converging. It says done when it isn't and long"
+    },
+    {
+      "timestamp": "6:49",
+      "text": "sessions drift. Loop.js fixes both. You state a goal and what done means. It runs the agent round after round, fresh"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "context until a separate readonly verify agent, not the worker, rules the barmet."
+    },
+    {
+      "timestamp": "7:01",
+      "text": "It's budget guarded, crash safe, and schedules to cron or the cloud. So it outlives your terminal."
+    },
+    {
+      "timestamp": "7:08",
+      "text": "Person builds a local personal model from the apps you use. Instead of leaving every agent blind to your work context outside its chat window, it"
+    },
+    {
+      "timestamp": "7:16",
+      "text": "reads focused Mac OS accessibility data, uses ondevice OCR only as a fallback, and exposes receipts backed memory over"
+    },
+    {
+      "timestamp": "7:23",
+      "text": "MCP to trusted clients. You can inspect, correct, or delete the model. Screenshots are encrypted, no telemetry."
+    },
+    {
+      "timestamp": "7:32",
+      "text": "Riptide turns an internet speed test into a polished terminal app with oneshot measurements and a live bandwidth monitor in the same interface."
+    },
+    {
+      "timestamp": "7:41",
+      "text": "It tracks download, upload, and ping, draws live graphs, and saves completed runs to SQLite so you can compare recent"
+    },
+    {
+      "timestamp": "7:49",
+      "text": "results. The monitoring mode reads your computer's existing traffic counters without generating test load."
+    },
+    {
+      "timestamp": "7:56",
+      "text": "Making a web video react to hover or state means seeking to timestamps and it stutters at every scene. Aval is a new"
+    },
+    {
+      "timestamp": "8:04",
+      "text": "format. One AVL file packs decodable motion units and a state graph. So, so the browser runs decoder timeline"
+    },
+    {
+      "timestamp": "8:11",
+      "text": "forward instead of seeking. Hover and state become graphs, not handtime seeks."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "It has packed alpha transparency and an image fallback in one web component."
+    },
+    {
+      "timestamp": "8:22",
+      "text": "Most agent memory is a vector blob. You dump text in, get a fuzzy match back, and can't read or trust it. Understory"
+    },
+    {
+      "timestamp": "8:29",
+      "text": "makes memory plain markdown. Every fact your agent learns becomes a diffable concept in a living graph, and the agent keeps it healthy. New facts link"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "themselves in, and a lint fixes the orphans and broken links. Plug it into any MCP client. It runs great on local models."
+    },
+    {
+      "timestamp": "8:47",
+      "text": "Your agent fixed that bug 3 weeks ago, and it's about to redbug it from scratch. Deja indexes the session logs"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "clawed codecs and open code already write. No capture step, so months of pre-install history count. The maintainer clocks warm search at 7 to 9"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "milliseconds over gigabytes. There's an MCP recall tool. API keys get stripped at index time and memory syncs between machines."
+    },
+    {
+      "timestamp": "9:13",
+      "text": "Inference School teaches LLM inference by making every exercise build toward one small engine for Apple silicon"
+    },
+    {
+      "timestamp": "9:20",
+      "text": "instead of handing you disconnected GPU puzzles. You start with DOT products, turn them into Swift and Metal kernels, then work through attention, KV caches,"
+    },
+    {
+      "timestamp": "9:29",
+      "text": "quantization, batching, and speculative decoding. The course includes 47 runnable problems, a native Mac OS"
+    },
+    {
+      "timestamp": "9:36",
+      "text": "workbench, and a 545page companion book."
+    },
+    {
+      "timestamp": "9:41",
+      "text": "React Native System Thumbnails gives mixed file apps one-typed API for the thumbnail your OS would actually show instead of stitching together separate"
+    },
+    {
+      "timestamp": "9:50",
+      "text": "PDF and video libraries. It uses QuickLook on iOS and native decoders on Android, handles content URLs without"
+    },
+    {
+      "timestamp": "9:58",
+      "text": "pushing file bytes through JavaScript and falls back to a real file icon when previewing fails. Caching and abort signal cancellation are built in and remote URLs are rejected on purpose."
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Waku is a local first personal agent built as a readable blueprint with the core loop kept to about 95 lines of"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "plain Python instead of buried inside an agent framework. Its memory lives in one SQLite file. A retrieval gate decides"
+    },
+    {
+      "timestamp": "10:25",
+      "text": "when that memory is actually useful and a local dashboard exposes tool calls, costs, traces, and decisions."
+    },
+    {
+      "timestamp": "10:32",
+      "text": "Deterministic tests and LLM judged evaluations stay separate, then feed a release gate before changes ship. Blitz"
+    },
+    {
+      "timestamp": "10:40",
+      "text": "OS turns your agent setup into a context repo, so a fresh Claude Code Cloud VM can boot knowing which repositories"
+    },
+    {
+      "timestamp": "10:47",
+      "text": "belong together, your conventions, and what earlier agents changed. It stores the map in cloud.md, pins member repos"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "by reference instead of copying source, and keeps a shared session log in git."
+    },
+    {
+      "timestamp": "11:00",
+      "text": "Launch the right multi-reo workspace in one click. Close your laptop and the cloud agent keeps working."
+    },
+    {
+      "timestamp": "11:07",
+      "text": "Raptor QR moves files through animated QR codes so you don't need cables, Bluetooth, or an upload server. It"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "breaks each payload into Raptor Q fountain code symbols, renders multiple QR codes in parallel with web assembly, and rebuilds the file from whatever the"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "receiving camera captures. The maintainers report 50x plus throughput over their earlier JavaScript path,"
+    },
+    {
+      "timestamp": "11:30",
+      "text": "including a 6.5 megabyte LA transfer in 36 seconds."
+    },
+    {
+      "timestamp": "11:35",
+      "text": "Kub's scroll world video turns scrolling into camera control using pre-rendered clips instead of trying to build a 3D"
+    },
+    {
+      "timestamp": "11:42",
+      "text": "world in the browser. Each scroll position maps to video time, while transition clips connect the final frame"
+    },
+    {
+      "timestamp": "11:49",
+      "text": "of one scene to the first frame of the next. The dependencyfree JavaScript engine handles blob loading, lazy"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "prefetch, crossfades, and reduced motion."
+    },
+    {
+      "timestamp": "12:00",
+      "text": "Pixel art fixer converts images that merely look pixelated into an actual editable pixel grid without running a model. Instead of assuming a fixed"
+    },
+    {
+      "timestamp": "12:09",
+      "text": "integer scale, it combines autocorrelation, run lengths, self- similarity, and deeper arbitration to recover warped or fractional cells, then"
+    },
+    {
+      "timestamp": "12:18",
+      "text": "rebuilds each cell with crisp structure and colors from the source. The maintainers report 77% exact native"
+    },
+    {
+      "timestamp": "12:26",
+      "text": "resolution across 4,300 benchmark images."
+    },
+    {
+      "timestamp": "12:30",
+      "text": "Inky bird frame turns a color e-aper panel into a living field journal."
+    },
+    {
+      "timestamp": "12:35",
+      "text": "Illustrated plates of birds spotted near you. It pulls sightings from I naturalist eird or your bird weather station. And when a species has no plate"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "yet, an agent researches it, illustrates it, then a separate review pass checks anatomy and field marks against"
+    },
+    {
+      "timestamp": "12:50",
+      "text": "reference photos. Failed plates never reach the frame. Approved ones go into a shared catalog anyone can reuse."
+    },
+    {
+      "timestamp": "12:59",
+      "text": "You ship the product in a week, then burn another one, making the launch video, the demo, the OG image, and five social clips. Marketing Studio renders"
+    },
+    {
+      "timestamp": "13:08",
+      "text": "the whole suite from one/comand in clawed code. Playright films your running app. Headless Blender does the logo reveal. Remotion composes every final video, and 11 Labs scores it."
+    },
+    {
+      "timestamp": "13:20",
+      "text": "After picture lock, expomorphing menu turns a React Native composer into the picker itself instead"
+    },
+    {
+      "timestamp": "13:28",
+      "text": "of opening a separate bottom sheet that fights the keyboard. One spring controller animates the field size, position, and corner radius together,"
+    },
+    {
+      "timestamp": "13:36",
+      "text": "while live keyboard height keeps the surface pinned above it. You can register camera, photo, file, or plug-in panels. Navigate between them through a typed API."
+    },
+    {
+      "timestamp": "13:47",
+      "text": "Sig wire is tail f for Linux signals watching the whole machine through kernel trace points instead of attaching"
+    },
+    {
+      "timestamp": "13:54",
+      "text": "strace to one process. Each row tells you who raised a signal, where it landed, how it was generated, whether a"
+    },
+    {
+      "timestamp": "14:02",
+      "text": "handler caught it, and how long that handler ran. The useful bit is EIN. It shows which blocked SIS call got interrupted and whether say restart"
+    },
+    {
+      "timestamp": "14:11",
+      "text": "recovered it. NTFS MAC gives Apple Silicon Max NTFS write access without installing a kernel extension or"
+    },
+    {
+      "timestamp": "14:18",
+      "text": "weakening system integrity protection. A disposable Linux microVM runs NTFS 3G, then exports the drive back to Mac OS"
+    },
+    {
+      "timestamp": "14:26",
+      "text": "over NFS on a hostonly bridge. You get a homebrew CLI today, plus a menu bar app that shows mount state at a glance. It's"
+    },
+    {
+      "timestamp": "14:34",
+      "text": "a heavier architecture than a driver, but a cleaner security boundary."
+    },
+    {
+      "timestamp": "14:38",
+      "text": "Codeex orchestration lets codec stay in charge while different models take explicit planning, review and implementation roles. That matters when"
+    },
+    {
+      "timestamp": "14:48",
+      "text": "one model writing the plan is also tempted to approve its own assumptions."
+    },
+    {
+      "timestamp": "14:52",
+      "text": "The adviser can send the plan back through several revisions. Then executives work only after approval with codeex checking and delivering the result."
+    },
+    {
+      "timestamp": "15:02",
+      "text": "Specship gives Kero agents a specd driven path from reconnaissance to a merge ready pull request with hard gates instead of one long autonomous prompt."
+    },
+    {
+      "timestamp": "15:12",
+      "text": "Brownfield works starts by mapping existing behavior. Then each milestone follows test-driven development."
+    },
+    {
+      "timestamp": "15:18",
+      "text": "Independent agents validate code security browser behavior design and contract alignment. And fresh agents repair failures with regression tests."
+    },
+    {
+      "timestamp": "15:30",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 40. 35 trending open- source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clock gives coding agents a disposable Linux VM. Instead of letting them loose on your laptop, your repo is mounted in,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "but the host file system and keychain stay out of reach. The agent gets root inside the guest, so package installs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "servers, and destructive experiments don't need constant approvals. If it wrecks the machine, destroy the VM and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 33000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recreate it without losing the repo or conversation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Waggle gives multi- aent systems a tiny reference token. Instead of copying whole files and plans into every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handoff, an agent resolves that token through MCP, pulls only the sections it needs, and leaves a receipt showing what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 51000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it actually read. References are versioned, can be revoked or superseded, and can return different projections for different consumers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That makes handoffs easier to audit and harder to quietly lose during delegation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mindwalk replays a coding agent session as light across a 3D map of your codebase. A session log tells you what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the agent did, not how it understood the task, which files it treated as relevant. Raw JSONL never shows that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 80000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "here. The files it read and edited glow while the rest stays dark, so its mental model becomes a shape. You can see it reads claude code and codeex logs locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloex is a local first agentic IDE that treats model output as untrusted input rather than giving a coding assistant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 98000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the keys to your machine. You've watched an agent reach for a shell command or network request that deserves more than a cheerful prompt. Cloex keeps tasks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "persistent across restarts, isolates agent and MCP processes, and puts high impact shell browser and remote actions behind approval."
+        }
+      ]
+    },
+    {
+      "tStartMs": 117000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NeverClick replaces mouse travel with keyboard controlled visual hints using local computer vision instead of appsp"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "specific accessibility hooks. Trigger it and every clickable region gets a label."
+        }
+      ]
+    },
+    {
+      "tStartMs": 130000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then press the matching key to place the pointer or perform the action. It works across Windows apps, supports full screen and multimonitor setups, and runs entirely offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grock build is SpaceX AI's coding agent and unlike most lab CLIs, the full Rust source is public under Apache 2 zero."
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a full screen TUI that edits files, runs shell commands, and searches the web with headless mode for CI and MCP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 156000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "support builtin. Parts of the tool layer are ported from OpenAI's codecs and open code. Contributions aren't accepted, though. It's read only open source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most 3D renderers ask what color each pixel is. Kerenne asks which lines an artist would draw and which they'd leave out. It renders a scene as a pencil"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drawing, deriving strokes from geometry, not shading pixels. A sphere's silhouette is an exact conic and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cross-hatching handles both shading and see-through. No alpha channel. The wobble is deterministic, so an orbiting camera stays calm instead of boiling."
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Beautify GitHub readme is an agent skill that redesigns a repository homepage around the project itself rather than"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dropping in another generic template. It reads the repo first, moves the clearest proof forward, then separates decorative"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SVG assets from searchable markdown and copyable commands. You can request a full readme overhaul or just the visual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pieces with local previews before anything is published."
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A micro is a gallery of copyable React microtransitions instead of another design demo that leaves you rebuilding every animation from scratch. Browse its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live button and control previews in grid list or matrix layouts. Then copy the generated react, tailwind, and motion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code. It also handles light, dark transitions and gives you a defined place to add your own interactions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most RL projects train one model. This one trains an agent that trains other models. Give it a task, teach multihop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasoning, and it writes a full training job, then ships it to real GPUs on RunPod. The maintainer clocks reward climbing from zero to a 0.63 peak over 54 steps, holding up on a task family."
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The agent never trained on weights, reward code, GPU orchestration, the failed pilots, all public. Otter ASRV1"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is Arabic first speech recognition built for dialects rather than treating Arabic as an afterthought in a general"
+        }
+      ]
+    },
+    {
+      "tStartMs": 279000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transcription model. The pain shows up when Gulf, Egyptian, Levventine or McGrebby speech gets flattened into errors, especially when English is mixed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in. Flash runs for live captions and offline edge use, while Turbo targets hard dialectal and long audio."
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Domain SDK gives SAS teams one TypeScript API for customer domains instead of writing separate provisioning logic for every hosting provider. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "normalizes Versel, Cloudflare for SAS, Railway, Render, and Netlefi behind the same add, verify, monitor, and remove"
+        }
+      ]
+    },
+    {
+      "tStartMs": 313000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "life cycle. It returns the exact DNS records customers need and waits for provider confirmed routing and certificate status so your UI doesn't announce readiness early."
+        }
+      ]
+    },
+    {
+      "tStartMs": 324000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A pod restart in Kubernetes could mean five different things, and most AI ops tools just tell you to go check logs. Flawless runs a full loop instead."
+        }
+      ]
+    },
+    {
+      "tStartMs": 333000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Diagnose, preview the fix, get human approval, execute, then retest the original symptom to confirm it actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 340000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recovered. Topology mapping shows blast radius before you touch anything, and reusable skills packages capture what worked last time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "App Monitor is a local first Mac OS dashboard for app usage and cleanup instead of making you piece the story together from activity monitor and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "deletion utility. You know the question, can I remove this old app without leaving caches, containers, and support"
+        }
+      ]
+    },
+    {
+      "tStartMs": 365000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files behind? It tracks foreground use, maps related storage and update status, then stages cleanup in reversible quarantine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every new coding agent session starts blank. You restate the architecture and rules you explained last time. Memory tools help but lock you to one agent and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 384000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one backend. Paxom is a provider neutral memory adapter. Record a decision from codecs and recall it in clawed code or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "any MCP client, one path across all of them. Start on local SQLite, no key or embeddings, and swap to zep or mem without rewiring."
+        }
+      ]
+    },
+    {
+      "tStartMs": 402000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "An agent in a while loop is one line, but two things stop it converging. It says done when it isn't and long"
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sessions drift. Loop.js fixes both. You state a goal and what done means. It runs the agent round after round, fresh"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context until a separate readonly verify agent, not the worker, rules the barmet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's budget guarded, crash safe, and schedules to cron or the cloud. So it outlives your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 428000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Person builds a local personal model from the apps you use. Instead of leaving every agent blind to your work context outside its chat window, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 436000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reads focused Mac OS accessibility data, uses ondevice OCR only as a fallback, and exposes receipts backed memory over"
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP to trusted clients. You can inspect, correct, or delete the model. Screenshots are encrypted, no telemetry."
+        }
+      ]
+    },
+    {
+      "tStartMs": 452000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Riptide turns an internet speed test into a polished terminal app with oneshot measurements and a live bandwidth monitor in the same interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It tracks download, upload, and ping, draws live graphs, and saves completed runs to SQLite so you can compare recent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 469000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "results. The monitoring mode reads your computer's existing traffic counters without generating test load."
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Making a web video react to hover or state means seeking to timestamps and it stutters at every scene. Aval is a new"
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "format. One AVL file packs decodable motion units and a state graph. So, so the browser runs decoder timeline"
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "forward instead of seeking. Hover and state become graphs, not handtime seeks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It has packed alpha transparency and an image fallback in one web component."
+        }
+      ]
+    },
+    {
+      "tStartMs": 502000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most agent memory is a vector blob. You dump text in, get a fuzzy match back, and can't read or trust it. Understory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "makes memory plain markdown. Every fact your agent learns becomes a diffable concept in a living graph, and the agent keeps it healthy. New facts link"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "themselves in, and a lint fixes the orphans and broken links. Plug it into any MCP client. It runs great on local models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your agent fixed that bug 3 weeks ago, and it's about to redbug it from scratch. Deja indexes the session logs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clawed codecs and open code already write. No capture step, so months of pre-install history count. The maintainer clocks warm search at 7 to 9"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "milliseconds over gigabytes. There's an MCP recall tool. API keys get stripped at index time and memory syncs between machines."
+        }
+      ]
+    },
+    {
+      "tStartMs": 553000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inference School teaches LLM inference by making every exercise build toward one small engine for Apple silicon"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead of handing you disconnected GPU puzzles. You start with DOT products, turn them into Swift and Metal kernels, then work through attention, KV caches,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 569000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "quantization, batching, and speculative decoding. The course includes 47 runnable problems, a native Mac OS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workbench, and a 545page companion book."
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "React Native System Thumbnails gives mixed file apps one-typed API for the thumbnail your OS would actually show instead of stitching together separate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDF and video libraries. It uses QuickLook on iOS and native decoders on Android, handles content URLs without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pushing file bytes through JavaScript and falls back to a real file icon when previewing fails. Caching and abort signal cancellation are built in and remote URLs are rejected on purpose."
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Waku is a local first personal agent built as a readable blueprint with the core loop kept to about 95 lines of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plain Python instead of buried inside an agent framework. Its memory lives in one SQLite file. A retrieval gate decides"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when that memory is actually useful and a local dashboard exposes tool calls, costs, traces, and decisions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deterministic tests and LLM judged evaluations stay separate, then feed a release gate before changes ship. Blitz"
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OS turns your agent setup into a context repo, so a fresh Claude Code Cloud VM can boot knowing which repositories"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "belong together, your conventions, and what earlier agents changed. It stores the map in cloud.md, pins member repos"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by reference instead of copying source, and keeps a shared session log in git."
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Launch the right multi-reo workspace in one click. Close your laptop and the cloud agent keeps working."
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Raptor QR moves files through animated QR codes so you don't need cables, Bluetooth, or an upload server. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "breaks each payload into Raptor Q fountain code symbols, renders multiple QR codes in parallel with web assembly, and rebuilds the file from whatever the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "receiving camera captures. The maintainers report 50x plus throughput over their earlier JavaScript path,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "including a 6.5 megabyte LA transfer in 36 seconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kub's scroll world video turns scrolling into camera control using pre-rendered clips instead of trying to build a 3D"
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "world in the browser. Each scroll position maps to video time, while transition clips connect the final frame"
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of one scene to the first frame of the next. The dependencyfree JavaScript engine handles blob loading, lazy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prefetch, crossfades, and reduced motion."
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pixel art fixer converts images that merely look pixelated into an actual editable pixel grid without running a model. Instead of assuming a fixed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "integer scale, it combines autocorrelation, run lengths, self- similarity, and deeper arbitration to recover warped or fractional cells, then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rebuilds each cell with crisp structure and colors from the source. The maintainers report 77% exact native"
+        }
+      ]
+    },
+    {
+      "tStartMs": 746000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "resolution across 4,300 benchmark images."
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inky bird frame turns a color e-aper panel into a living field journal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Illustrated plates of birds spotted near you. It pulls sightings from I naturalist eird or your bird weather station. And when a species has no plate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "yet, an agent researches it, illustrates it, then a separate review pass checks anatomy and field marks against"
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reference photos. Failed plates never reach the frame. Approved ones go into a shared catalog anyone can reuse."
+        }
+      ]
+    },
+    {
+      "tStartMs": 779000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You ship the product in a week, then burn another one, making the launch video, the demo, the OG image, and five social clips. Marketing Studio renders"
+        }
+      ]
+    },
+    {
+      "tStartMs": 788000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the whole suite from one/comand in clawed code. Playright films your running app. Headless Blender does the logo reveal. Remotion composes every final video, and 11 Labs scores it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 800000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "After picture lock, expomorphing menu turns a React Native composer into the picker itself instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 808000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of opening a separate bottom sheet that fights the keyboard. One spring controller animates the field size, position, and corner radius together,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 816000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "while live keyboard height keeps the surface pinned above it. You can register camera, photo, file, or plug-in panels. Navigate between them through a typed API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 827000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sig wire is tail f for Linux signals watching the whole machine through kernel trace points instead of attaching"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strace to one process. Each row tells you who raised a signal, where it landed, how it was generated, whether a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 842000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handler caught it, and how long that handler ran. The useful bit is EIN. It shows which blocked SIS call got interrupted and whether say restart"
+        }
+      ]
+    },
+    {
+      "tStartMs": 851000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recovered it. NTFS MAC gives Apple Silicon Max NTFS write access without installing a kernel extension or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 858000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "weakening system integrity protection. A disposable Linux microVM runs NTFS 3G, then exports the drive back to Mac OS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 866000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "over NFS on a hostonly bridge. You get a homebrew CLI today, plus a menu bar app that shows mount state at a glance. It's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 874000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a heavier architecture than a driver, but a cleaner security boundary."
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codeex orchestration lets codec stay in charge while different models take explicit planning, review and implementation roles. That matters when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 888000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one model writing the plan is also tempted to approve its own assumptions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 892000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The adviser can send the plan back through several revisions. Then executives work only after approval with codeex checking and delivering the result."
+        }
+      ]
+    },
+    {
+      "tStartMs": 902000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Specship gives Kero agents a specd driven path from reconnaissance to a merge ready pull request with hard gates instead of one long autonomous prompt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 912000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Brownfield works starts by mapping existing behavior. Then each milestone follows test-driven development."
+        }
+      ]
+    },
+    {
+      "tStartMs": 918000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Independent agents validate code security browser behavior design and contract alignment. And fresh agents repair failures with regression tests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 930000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

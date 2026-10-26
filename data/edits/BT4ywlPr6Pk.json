@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "source_sha256": "41db54aa202b40d326e3651f2dfb0fc6421a28479314af0899d0757268d6f3ee",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-10-26T13:27:42+00:00",
+  "usage": {
+    "prompt_tokens": 5355,
+    "completion_tokens": 10847,
+    "total_tokens": 16202,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6237,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Trending Weekly. This is GitHub Trending Weekly number 47. 34 trending open-source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Utopia is a self-hosted RAG platform that tracks not just what a fact is, but when it was true. Ask who owned a project last Q3, and it shows the graph as it looked then, instead of overwriting old facts. Search is hybrid: full-text plus vector embeddings, and every answer comes back cited to the source passage. Low-confidence extractions sit in a review queue instead of auto-inserting."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Neo is a word processor built for novelists by Hugh Howey. No accounts, no subscription. Everything saves as plain text on your machine. Chapters fall out of how you type: one Enter for a paragraph, two for a section break, three for a new chapter. A feature called Darlings keeps everything you cut in its tab instead of deleting it. It exports a PDF snapshot with a SHA-256 fingerprint, proof of when you wrote something."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Slotstream runs a 125-billion-parameter model, Qwen 3.8 Flash, on a Mac that doesn't have enough RAM to hold it, streaming the 104 GB of weights off SSD. It speaks the Ollama API, so it drops into your setup, and it caches the prefix so follow-up replies don't slow down. On a 48 GB M5 Pro Mac, the team clocks warm decode at about 12 tokens per second with a RAM floor at 16 GB."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Codewhale is a terminal coding agent written in Rust, and it doesn't lock you into one model. Point it at a hosted API or run it fully local through Ollama or vLLM and switch mid-session with /model. It gives you control: three approval modes from ask-first to full access, undo for reverting a turn, and restore snapshots if it wrecks your workspace."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "TokensBurned puts a live badge on your GitHub profile showing how much you use AI coding tools. No cron job or bot committing to your README. It hooks into Claude Code and only reads token counts and model names. No prompts, source code, repo names, or API keys leave your machine, just counts. You get heatmaps and rankings against everyone else, and it stays private until you publish it."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "This Claude skill turns any subject into an editorial print image, and it refuses the usual AI clichés: no monochrome filter over a color photo, no gradient poster, no centered template, no automatic vintage look. It works like an actual print run: one dominant ink covering 70–85% of the page, one accent ink for the rest. It leaves empty paper space, and every output ships with its prompt and recipe."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "LightNav is a navigation model that runs on one RGB camera — no depth sensor, no odometry, no panoramic sensor — and the same checkpoint drives a humanoid, a quadruped, a wheeled robot, or a drone with zero fine-tuning. It reasons by pointing: one output for where it's feasible to go, another for where the target is. They report 68.5% success on VLNC2R, 79.5% on object navigation, and over 91% tracking a single target. Abyssal is an"
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "An ocean and weather simulator that runs in a browser tab with no textures, meshes, or HDRI. Everything comes out of math at runtime. It renders a clear day or a hurricane — eye and eyewall — plus waterspouts, rogue waves, and volumetric lightning with branching bolt geometry. The engine is about 400 KB of JavaScript and GLSL. On a GTX 1650, they clock 108 frames per second in clear weather and 72 in a storm."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Trust me, Bro answers one question: does your AI coding agent verify what a command tells it, or does it believe it? It sits on your PATH and intercepts things like dig, nslookup, and host. Then it spoofs a fake result, rewrites the real one, passes it through, or rejects the call. You can target it by command, domain, or reject. And every decision gets logged to a timestamped file, so you can see what your agent was fed."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Hexstellar gives AI agents a solver for problems text generation can't guess through: traveling salesman, graph coloring, scheduling, portfolio allocation. Every answer comes back labeled either certified optimum or heuristic, so you always know which one you got. It plugs in as an MCP server, ships zero Python dependencies, and rechecks a candidate answer for free instead of billing twice."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Noty is a macOS sticky notes app that skips the floating window and the dock icon. It sits as a pill on the edge of your screen, and moving your cursor there fans notes out as tabs even over full-screen apps. You get checkbox task lists, a 10-second undo on anything you delete, and every note body is encrypted with AES-GCM 256-bit, stored locally with no account and no network access except an optional update check."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Shrimply is an open-source video editor built in Rust with a GTK4 and libadwaita interface that looks like a modern desktop app, not a decade-old fork. Rendering runs through Skia and WGPU with CUDA support, and it leans on FFmpeg and PipeWire for the media pipeline instead of reinventing codec support. It's GPLv3 with a Python backend handling compute services alongside the main app."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Skill Cabinet scans every folder where Claude and Codex hide their installed skills and gives you one interface to browse them. You can search by name, description, or drawer. Read the source and frontmatter for anything you forgot you installed, and delete skills one at a time or in bulk with keyboard shortcuts. One warning: delete removes the folder from disk — there's no undo."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Markdown Graphs gives you over 30 chart and diagram components for MDX, and none of them render as SVG. Every bar, sparkline, heatmap, and Gantt chart is built from character glyphs, blocks, and shading characters in Gist Mono, so it reads like it belongs next to your code. You don't install it as an npm package; you copy the source into a shadcn project."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Open SEO MCP Skills gives Claude eight SEO skills: audits, keyword research, rank tracking, competitor gaps, backlinks, content briefs — and skips the part where Semrush or Ahrefs charge you $120 a month for estimated data. It connects to your Search Console, GA4, and Google Ads accounts, so what comes back is your ranking data, not a guess. There's even a skill tracking how much traffic you pull from ChatGPT and Perplexity."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "HQTUI builds btop-grade terminal dashboards with one import, and it gets there by refusing the usual shortcuts: no ncurses, no browser DOM, no React, no native add-on, no network access ever. It renders through raw ANSI sequences at 30 frames per second (15 over SSH). On a 160×50 grid, they clock an unchanged frame at 0.068 milliseconds and a full redraw at 1.4 milliseconds."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "SkillRadar scans public skill.mmd files across GitHub and grades them from A down to blocked using static security analysis, not popularity. It matches on technical evidence — App Router, tool calling — instead of substring guesses. And every recommendation comes back with its relevance score, security grade, and reasoning, not a black box. It runs offline, never executing a candidate repo."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Genart is a Claude code skill built by a generative artist for platforms like Art Blocks and Highlight, where a piece has to render from the same hash seed every time. It covers seeding a PRNG from a token hash, keeping the composition consistent from 400 pixels to 4,000, and designing trait and rarity tables for an edition. It works across Canvas 2D, Three.js, JavaScript, and SVG, and ships scripts that verify determinism before you mint."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Most AI design tools hand you a flattened image, so changing one word means regenerating the whole poster and hoping the layout survives. Editable Design uses an image model for art direction — composition, color, hierarchy — but none of those pixels make it into the final file. An agent rebuilds the thing in HTML with text and selectable layers you can move, edit, and export independently. And it logs a replay of every step it took. Vol-rs rewrites Volatility 3 in Rust, and it's not a partial port. All 197 plugins are"
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "There with identical output down to the byte. The speed difference is the story: detecting suspicious threads on Windows drops from 281 seconds to 47, about 600 times faster. And a Linux sweep goes from 3,130 seconds down to 68. It ships symbol decompression, YARA matching, and x86 disassembly. Nothing external to install."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Strata is a Linux file manager built around Miller columns, so you see several folder levels at once instead of drilling in and losing your place. You can peek into a folder by hovering without committing to navigate. And it stays responsive in directories with up to 100,000 entries because everything's virtualized. It handles file names with invalid UTF-8, keeping the original path bytes and converting for display."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Blink lives in your Mac's menu bar and shows the dev servers and iOS simulators running with port, framework, and project name color-coded so you can tell a Next.js server from a Rails one at a glance. Stop or restart any of them with one click — no terminal tab hunting required. If a restart fails to come back, the row tells you why. Output one click away. Loaders gives you 150"
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Different loading animations named motion states — like working, solving, racing, imagining — all rendered in pure canvas with no SVG filters. Import the state you're using and it's 2.5 to 3.1 KB gzipped, tree-shaken down from the full library in one import. It's framework-agnostic at the core but ships typed adapters for React, Vue, and Svelte."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "This Claude code skill fixes a bug in MiniMax H3: cram too many emotional beats into one shot and it drops the facial animation for a frozen frame. The creator measured it: a 7-second shot with nine beats came back at 42 dB PSNR frozen, but splitting those beats into three 2-to-3-second shots drops that to 22–23 dB, so the face moves. It's built from tested H3 output, not the docs."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Omakade pulls your Linux game library — Steam, Lutris, Heroic, Epic, RetroArch — into one interface, and it never touches the launcher data. It reads it and hands the launch back to whichever platform owns the game. It works offline for browsing and launching, tracks local Steam achievements, and matches its look, palette, fonts, and transparency to the Omarchy desktop theme. Live"
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "KeywordPro is a keyword research tool that runs on your machine using your data for SEO credentials instead of a monthly SaaS subscription. A guided report pulls up to 19 API calls — volume, CPC, difficulty, intent, trends, SERP competitors — and shows the cost before it spends your money. Once a report finishes, it's saved locally, so reopening it costs nothing."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Defragger is a graphical defragmenter for Linux, something that's never existed. The creator built it because fragmentation variance was messing with reproducible storage layouts while testing high-throughput logging, even on NVMe. It shows a visual block map and does ext4 defragmentation online using the kernel's extent management calls, not a wrapper around other tools."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Fix Anything takes a rendered video from any 3D reconstruction — Gaussian splatting, NeRF, a mesh, even a sparse point cloud — and cleans up the artifacts without needing a separate model per representation. It's fine-tuned from a pre-trained Wan 2.1 video diffusion model with a LoRA adapter, so it's a generalist, not rebuilt from scratch per format."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Procedura turns a text prompt into an editable 3D program, not a mesh or point cloud. It writes OpenSCAD source with named parts joined by typed mates you can keep editing. Feed it a reference image for better fidelity and it shows the build before generating each part. It exports motion plans to OpenUSD or URDF for anything meant to move. Quack lets you tell a small duck robot what to"
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Do in plain language, and an LLM picks from 13 preset moves: walk, kick, sit, quack — not motor commands. Balance runs on the robot's onboard loop at 50 Hz with a safety stack of allowlists, confirmation, and kill switches. Their find-and-kick test needed three to eight decisions and 1 to 2 seconds, 10 out of 10 runs."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "CDAF caches a plain-text description next to a video file so agents stop reanalyzing the same footage from scratch every time. It's hash-verified — SHA-256 plus byte size — so a stale sidecar gets refused instead of silently serving wrong info. On their benchmark, sidecar answers hit 20 out of 20 versus 19 out of 20 for direct analysis, using 303 tokens instead of 3,660 — about a tenth."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Fitting a 27-billion-parameter model onto one 24 GB gaming card usually means stopping at it loads. This recipe pushes past that to 417 tokens per second batched, and the wins are unglamorous in the best way. Qwen's untied embeddings ship as two unquantized 2.5 GB matrices nobody bothered with. So re-quantizing both to INT8 hands back 2.6 GB, and on this architecture spare memory converts straight into batch size. cc-prune clears out tool output."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Claude's already processed from a session transcript without touching the conversation or thinking blocks. Nothing gets summarized, no reasoning gets deleted. It audits what it's about to remove, takes a numbered snapshot so you can roll back, and checks token counts against the API instead of a local guess."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "skin-tokens.cpp takes a 3D mesh and rigs it, predicting a skeleton and painting the vertex weights, then writes out a glTF you can drop into an animation pipeline. It can also just weight an existing skeleton and retarget SOMA 30 rigs into 52-joint Mixamo format. It chains a point-cloud encoder, a small Qwen 3 model making the decisions, and a SkinVA decoder on CPU or Vulkan."
+      ]
+    }
+  ]
+}

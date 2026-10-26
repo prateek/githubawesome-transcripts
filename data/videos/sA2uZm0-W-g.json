@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "id": "sA2uZm0-W-g",
+  "title": "GitHub Trending Weekly #39: tau, shepherd, openscience, Subtext, boring-computers, riddle, pon",
+  "url": "https://www.youtube.com/watch?v=sA2uZm0-W-g",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-09",
+  "duration": 914,
+  "word_count": 2374,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T13:22:27+00:00",
+    "metadata_sha256": "12b82cb9a37578655b5feed3032172c686f6156c84138d3cde86213bdc4a361c",
+    "captions_sha256": "517aef0aa1758a673e01ea5fe204c051d348087194ec6c3fe8b6c918674e59da",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 39. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "jlens-qwen36",
+      "repositories": [
+        "https://github.com/WeZZard/jlens-qwen36"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "JLens Q36 is a local visual debugger for Quen 3 627B on Apple silicon built to show what token readouts appear inside the model before the final answer. The pain is that interpretability papers are fascinating but hard to poke at on your own machine. This gives you a position bylayer grid, top token readouts, baseline generation, steer, swap, and ablate experiments."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "tau",
+      "repositories": [
+        "https://github.com/huggingface/tau"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "Tao is a terminal coding agent. You're actually meant to read, not just run. A working answer to how is a coding agent even built. Most agents are either a blackbox CLI or a giant production repo you can't learn anything from. This splits into three small layers you can read alone. One turns any provider into a neutral event stream. One is the portable brain of tools in loop. One wraps it as a real coding app. When you run clawed code and codecs on the same project, you become"
+      ]
+    },
+    {
+      "start": 63,
+      "title": "tutti",
+      "repositories": [
+        "https://github.com/tutti-os/tutti"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "the messenger, pasting one's output into the other and reexplaining context every handoff. 2D gives them one shared workspace instead. It keeps conversations, files, app outputs, tasks, approvals, and running state connected so agents can reference each other's work, and you can steer the whole build from one control center."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "shepherd",
+      "repositories": [
+        "https://github.com/shepherd-agents/shepherd"
+      ],
+      "id": "s005",
+      "end": 115,
+      "paragraphs": [
+        "Shepard treats an agent's whole run like git. Every step is a reversible trace. You can fork, replay, and revert, and nothing it produces touches your files until you say so. Let an agent loose on your repo, and it edits in place. So, a bad run leaves you cleaning up. Here, the agents work lands as a held proposal instead. You inspect it, run it in isolation, then keep or discard it, and the trace remembers either way."
+      ]
+    },
+    {
+      "start": 115,
+      "title": "openscience",
+      "repositories": [
+        "https://github.com/synthetic-sciences/openscience"
+      ],
+      "id": "s006",
+      "end": 143,
+      "paragraphs": [
+        "Open Science runs the entire research loop from one prompt. Read the literature, write the code, run the experiment, write it up. Most AI for science tools stop at summarizing papers or drafting a section. This gives an agent a real browser workspace with a terminal and file tree, 290 plus skills across biology, physics, and ML, and direct query access to 30 odd scientific databases like Uniprott, PDB, and ARX."
+      ]
+    },
+    {
+      "start": 143,
+      "title": "Subtext",
+      "repositories": [
+        "https://github.com/ninjahawk/Subtext"
+      ],
+      "id": "s007",
+      "end": 170,
+      "paragraphs": [
+        "Subtext is a live window into what a language model is holding in mind, several tokens before it says a word. Interpretability tools usually mean scrubbing a static activation dump after the fact. This reads a Jacobian lens at nine layers on every token of a running chat. So you watch the verdict incorrect light up while the model's still reading your math and see it hold a planned caveat while it types something else."
+      ]
+    },
+    {
+      "start": 170,
+      "title": "hermes-browser-extension",
+      "repositories": [
+        "https://github.com/abundantbeing/hermes-browser-extension"
+      ],
+      "id": "s008",
+      "end": 195,
+      "paragraphs": [
+        "Hermes browser extension is a Chromium side panel that connects the page you're reading to your local or remote Hermes agent runtime without pretending to be a full browser control agent. The pain is copying URLs, snippets, tabs, and context into a separate chat window. It captures readable page text, metadata, and headings, wraps them as untrusted context, streams Hermes replies."
+      ]
+    },
+    {
+      "start": 195,
+      "title": "boring-computers",
+      "repositories": [
+        "https://github.com/michaelshimeles/boring-computers"
+      ],
+      "id": "s009",
+      "end": 222,
+      "paragraphs": [
+        "Boring computers gives AI agents real Linux machines, not a fake sandbox with a few tool calls. Letting an agent loose on your own box is reckless, and cloud sandboxes usually give you a bare shell, no screen to actually click around in. Each of these is a real firecracker microVM with its own kernel that boots in milliseconds, comes with clawed codecs pre-installed, and self-destructs on a timer."
+      ]
+    },
+    {
+      "start": 222,
+      "title": "threejs-procedural-dungeon",
+      "repositories": [
+        "https://github.com/majidmanzarpour/threejs-procedural-dungeon"
+      ],
+      "id": "s010",
+      "end": 247,
+      "paragraphs": [
+        "Dungeon Forge builds a whole dungeon from a single number, and you watch it assemble itself room by room. Most procedural generators just spit out a finished map with no sense of how it got there and a different one every run. Type a seed here and it scatters rooms, triangulates them, wires a corridor graph, then tags each room as combat, treasure, or boss by its depth from the entrance."
+      ]
+    },
+    {
+      "start": 247,
+      "title": "riddle",
+      "repositories": [
+        "https://github.com/MaximeRivest/riddle"
+      ],
+      "id": "s011",
+      "end": 275,
+      "paragraphs": [
+        "Riddle turns a remarkable tablet into Tom Riddle's enchanted diary. You write with the pen, the page drinks your ink, and a reply writes itself back in flowing script. Chatting with an AI on an e- in device usually means a laggy keyboard and a chat bubble UI that kills the whole feel. This reads your raw handwriting straight off the pen, sends the committed page to a resident ondevice model, and animates the answer stroke by stroke."
+      ]
+    },
+    {
+      "start": 275,
+      "title": "claude-code-merge-queue",
+      "repositories": [
+        "https://github.com/funador/claude-code-merge-queue"
+      ],
+      "id": "s012",
+      "end": 302,
+      "paragraphs": [
+        "Run four clawed code agents at once, and the isolation isn't the problem. They all rebase and push to the same branch, race each other, and four full builds cook your laptop. This is a local merge queue that makes the collision impossible. Landings go through a FIFO queue, so two lanes are never mid push at once. Builds are serialized machinewide, and a pre- push hook bounces any direct push that skips the line."
+      ]
+    },
+    {
+      "start": 302,
+      "title": "pon",
+      "repositories": [
+        "https://github.com/can1357/pon"
+      ],
+      "id": "s013",
+      "end": 324,
+      "paragraphs": [
+        "Pawn runs Python by compiling it straight to native machine code. No interpreter, no bite code, nothing. It parses with rough, lowers to one IR, emits JIT or AOT code through cranalyft, uses green tea GC, and checks output bite forbite against CPython. A green tea garbage collector replaces reference counting and correctness is enforced brutally."
+      ]
+    },
+    {
+      "start": 324,
+      "title": "knockoff",
+      "repositories": [
+        "https://github.com/Shpigford/knockoff"
+      ],
+      "id": "s014",
+      "end": 353,
+      "paragraphs": [
+        "Knockoff is a Chrome extension that cleans up Amazon search results by spotting pseudo brands, the random all cap storefront names that exist mainly to gain brand registry. The pain is buying a charger, tool, or cable and realizing every result looks fake. Knockoff runs locally, uses allow lists, block lists, known brand data, and name heristics, then hides, dims, or labels suspicious listings without sending your shopping path to a server."
+      ]
+    },
+    {
+      "start": 353,
+      "title": "motion-anything",
+      "repositories": [
+        "https://github.com/nexu-io/motion-anything"
+      ],
+      "id": "s015",
+      "end": 379,
+      "paragraphs": [
+        "Motion Anything is a local first motion engine that turns a plain animation brief into editable page motion instead of sending you straight to Gap, Framer Motion, or a blank timeline. If you've generated a nice page and then hated handtuning the fadeins, this is the gap it attacks. It ships 403 recipes, key frames, trigger aware motion, video export, and portable skill. Donimnol MD recipes for agents."
+      ]
+    },
+    {
+      "start": 379,
+      "title": "watch-skill",
+      "repositories": [
+        "https://github.com/oxbshw/watch-skill"
+      ],
+      "id": "s016",
+      "end": 404,
+      "paragraphs": [
+        "Watch skill gives any MCP agent video understanding without dumping raw frames into context and hoping the model guesses. When your agent needs to debug a UI recording or answer, \"Where did the demo break?\" Screenshots alone get messy fast. It indexes frames and timestamps locally, lets you ask follow-up questions later so an agent can watch its own output, fix it, and verify the result."
+      ]
+    },
+    {
+      "start": 404,
+      "title": "colibri",
+      "repositories": [
+        "https://github.com/JustVugg/colibri"
+      ],
+      "id": "s017",
+      "end": 431,
+      "paragraphs": [
+        "Calibri runs a 744 billion parameter model on a laptop with 25 GB of RAM in pure C with zero dependencies. A model that size normally wants hundreds of gigabytes of memory or a rack of GPUs you'll never own. The author's blunt that it's slow, roughly a tenth of a token per second on his humble box, but it's a Frontier model, answering correctly on hardware cheaper than an H100's fan."
+      ]
+    },
+    {
+      "start": 431,
+      "title": "pocketjs",
+      "repositories": [
+        "https://github.com/pocket-stack/pocketjs"
+      ],
+      "id": "s018",
+      "end": 458,
+      "paragraphs": [
+        "PocketJS runs solid and view components at 60 frames a second on a Sony PSP inside an 8 megabyte memory budget. React Native and Friends assume a phone with gigabytes to spare, so they're a non-starter on anything tiny or embedded. This keeps your familiar JSX and Tailwind classes, but at build time, it bakes styles, fonts, and key frame animations ahead of time and hands layout to a tiny noad rust core."
+      ]
+    },
+    {
+      "start": 458,
+      "title": "env.style",
+      "repositories": [
+        "https://github.com/QuadDepo/env.style"
+      ],
+      "id": "s019",
+      "end": 482,
+      "paragraphs": [
+        "On VAR style kills the classic mistake of editing production when you meant to edit staging by making each environment's browser tab a different color. Five tabs open, all the same favicon, and you can't tell dev from prod at a glance. This tints your existing favicon per environment at buildtime. Blue for dev, amber for preview, and it never touches production."
+      ]
+    },
+    {
+      "start": 482,
+      "title": "flow",
+      "repositories": [
+        "https://github.com/programmersd21/flow"
+      ],
+      "id": "s020",
+      "end": 507,
+      "paragraphs": [
+        "Flow is a network monitor that shows you exactly one thing, how fast data is moving right now up and down. Tools like endo or beam bury throughput under CPU panels, packet counts, and connection tables. You have to scan past this dropped two live waveforms drawn in braille at 30 fps. the border shifting color with your speed, session peaks and daily totals and nothing else."
+      ]
+    },
+    {
+      "start": 507,
+      "title": "sail-skill",
+      "repositories": [
+        "https://github.com/pillar-labs/sail-skill"
+      ],
+      "id": "s021",
+      "end": 534,
+      "paragraphs": [
+        "Sales skill turns AI security reviews into an agent readable framework instead of a blank dock and a pile of half-remembered controls. When someone asks, \"Is this agent actually ready for production?\" Vague checklist energy is not enough. It bundles the sale v2 catalog with 91 risks, maps them to standards like EU AI act and OASP LLM, and can produce gap assessments, road maps, and RFP security questions."
+      ]
+    },
+    {
+      "start": 534,
+      "title": "lumen",
+      "repositories": [
+        "https://github.com/lucid-softworks/lumen"
+      ],
+      "id": "s022",
+      "end": 558,
+      "paragraphs": [
+        "Lumen is a from scratch JavaScript engine in Rust built with only the standard library instead of leaning on a pile of runtime crates. If you've ever wondered what sits under node, Dino, or bun, this repo is the guts laid out in code. It has an interpreter, bite code VM, ARM 64jit on Apple silicon, a growing runtime with timers, FS, fetch, node style modules."
+      ]
+    },
+    {
+      "start": 558,
+      "title": "sony-head-tracker",
+      "repositories": [
+        "https://github.com/NicholasSlattery/sony-head-tracker"
+      ],
+      "id": "s023",
+      "end": 583,
+      "paragraphs": [
+        "Sony headtracker turns compatible Sony headphones into a Windows head tracker instead of making SIM players buy a camera, IR. If you already own WH100XM5s and Open Track still treats your head like dead weight, this is the missing bridge. It reads the headsets's Android headtracker HID sensor sends yaw, pitch, and roll to open track over UDP."
+      ]
+    },
+    {
+      "start": 583,
+      "title": "rocketplaneIO",
+      "repositories": [
+        "https://github.com/olemeyer/rocketplaneIO"
+      ],
+      "id": "s024",
+      "end": 608,
+      "paragraphs": [
+        "Rocket plane IO is a self-hosted AI SR for Kubernetes. Instead of giving an LLM raw cubectl and praying when checkout is slow and the dashboard shows five angry graphs, you need root cause plus a safe next step. It combines eBPF traces with logs, PromQL, service maps, and full cluster inventory, then routes fixes through named action pipelines that require approval and roll back if they fail."
+      ]
+    },
+    {
+      "start": 608,
+      "title": "bw24",
+      "repositories": [
+        "https://github.com/avifenesh/bw24"
+      ],
+      "id": "s025",
+      "end": 635,
+      "paragraphs": [
+        "BW24 is a from scratch Rust and CUDA LLM inference engine for RTX 5090 laptops instead of a general runner trying to please every GPU. If you're tuning local inference and llama.cp is the thing to beat, this repo shows the work. It has handwritten Blackwell kernels, safe tensors loading without GGF conversion, and correctness gates that reject fast kernels when tokens stop matching."
+      ]
+    },
+    {
+      "start": 635,
+      "title": "agent-chief",
+      "repositories": [
+        "https://github.com/SmileLikeYe/agent-chief"
+      ],
+      "id": "s026",
+      "end": 660,
+      "paragraphs": [
+        "Agent Chief is a local first attention router for agents, alerts, and feeds instead of letting every bot ping you directly. If your workflow has turned into all clear reports every few hours until you miss the one real failure, this is the filter. It runs hard rules, similarity checks, and LLM judgement only when needed. starts in shadow mode and writes editable policy back to policy. MD mirror is a real-time multiplayer world model for Rocket League instead of a gamebot predicting state from numbers"
+      ]
+    },
+    {
+      "start": 660,
+      "title": "mira",
+      "repositories": [
+        "https://github.com/mira-wm/mira"
+      ],
+      "id": "s027",
+      "end": 684,
+      "paragraphs": [
+        "alone. If you've tried training agents and the simulation always hides the messy visual bits, this is the wild part. A 5B latent diffusion model generates video frame by frame from all four players actions. runs 2v2 at 20 FPS on one GPU."
+      ]
+    },
+    {
+      "start": 684,
+      "title": "matrix-swift",
+      "repositories": [
+        "https://github.com/mana-am/matrix-swift"
+      ],
+      "id": "s028",
+      "end": 707,
+      "paragraphs": [
+        "Matrix drops 100 plus animated dot grid loaders into Swift UI. No image assets, no dependencies, just pure circles and a timeline. A stock spinner looks generic and rolling your own dot animation means hand-tuning CSS style key frames you don't have in Swift UI. This ships square, hex, triangle, even heart, and sparkle grids, each a drop in view."
+      ]
+    },
+    {
+      "start": 707,
+      "title": "compact-plus",
+      "repositories": [
+        "https://github.com/u-ichi/compact-plus"
+      ],
+      "id": "s029",
+      "end": 733,
+      "paragraphs": [
+        "When Claude Code autocompacts a long session, it summarizes your history and quietly drops the details, which plan you were on, which skills you'd already loaded, what you tried and rejected. Compact Plus catches all that before the compaction fires. It backs up the transcript, then reingjects your active plan and the exact skills used earlier, right after compaction. So the agent doesn't lose the thread."
+      ]
+    },
+    {
+      "start": 733,
+      "title": "email-to-print",
+      "repositories": [
+        "https://github.com/jfoboston/email-to-print"
+      ],
+      "id": "s030",
+      "end": 759,
+      "paragraphs": [
+        "Email to print does one dumb useful thing. Email a PDF to a private address and your home printer spits it out. No vendor cloud in the middle. This is a StidLib Python script watching one mailbox. It checks the sender against a fourperson allow list. Converts office files with headless Libre Office and hands the rest to cups. Forward an email with no attachment and it just prints the email body."
+      ]
+    },
+    {
+      "start": 759,
+      "title": "lingbot-vision",
+      "repositories": [
+        "https://github.com/Robbyant/lingbot-vision"
+      ],
+      "id": "s031",
+      "end": 783,
+      "paragraphs": [
+        "Lingbot vision is a self-supervised VI trained specifically to see boundaries, shapes, and semantic regions at once. It's pre-trained with masked boundary modeling, so its frozen patch features snap cleanly to object contours instead of smearing across edges. Drop it in as an encoder, and depth estimation, segmentation, and video object tracking all get sharper for free."
+      ]
+    },
+    {
+      "start": 783,
+      "title": "rabbithole",
+      "repositories": [
+        "https://github.com/shlokkhemani/rabbithole"
+      ],
+      "id": "s032",
+      "end": 809,
+      "paragraphs": [
+        "Rabbit Hole turns your terminal coding agent into an infinite learning canvas in the browser. Asking an agent followup after followup buries everything in one scrolling chat you can never navigate back through. Here you open a document, select any text, ask, and the answer branches off as its own child document you can dig into further endlessly with the whole tree saved and revisitable."
+      ]
+    },
+    {
+      "start": 809,
+      "title": "davit",
+      "repositories": [
+        "https://github.com/wouterdebie/davit"
+      ],
+      "id": "s033",
+      "end": 835,
+      "paragraphs": [
+        "Apple ships its own Linux container runtime for Apple Silicon, but it's command line only. So managing it means memorizing flags and squinting at raw output. Davit is a native Swift UI frontend for exactly that platform. No Electron, no Docker Desktop. It talks straight to Apple's container API over XPC, the same path the CLI uses. So you get live per container CPU and memory and a menu bar quick launch."
+      ]
+    },
+    {
+      "start": 835,
+      "title": "scroll-world",
+      "repositories": [
+        "https://github.com/oso95/scroll-world"
+      ],
+      "id": "s034",
+      "end": 861,
+      "paragraphs": [
+        "Scroll World builds one of those Apple style landing pages where the camera flies through a whole world as you scroll. No cuts, every scene flowing into the next. This clawed code skill generates the diarama scenes and camera flights with Higsfield. Renders each connector using the actual neighboring frames as its end points. So both sides of every seam are pixel identical and the flight never breaks."
+      ]
+    },
+    {
+      "start": 861,
+      "title": "Autonomous-Forge",
+      "repositories": [
+        "https://github.com/OmarH-creator/Autonomous-Forge"
+      ],
+      "id": "s035",
+      "end": 886,
+      "paragraphs": [
+        "Autonomous Forge is a local first CLI for repo native autonomous improvement loops. Instead of handing an agent your whole repo and hoping it behaves, Forge keeps most commands readon, builds review artifacts, validation previews, exeutor gates, dry runs, and run history records, then only runs one exact confirmed local validation command with separate opt-in persistence."
+      ]
+    },
+    {
+      "start": 886,
+      "title": "finding-unknowns-skills",
+      "repositories": [
+        "https://github.com/Neeeophytee/finding-unknowns-skills"
+      ],
+      "id": "s036",
+      "end": 914,
+      "paragraphs": [
+        "Finding Unknown Skills is an installable pack for clawed code and codecs that turns vague pre-built thinking into reusable agent commands. When a feature feels clear until the first implementation choice exposes three hidden assumptions, this is the pause button. It gives you eight skills for blind spot passes, pitch packaging, and a merge quiz before you ship something you don't actually understand."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 39. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "JLens Q36 is a local visual debugger for Quen 3 627B on Apple silicon built to"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "show what token readouts appear inside the model before the final answer. The pain is that interpretability papers are fascinating but hard to poke at on your"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "own machine. This gives you a position bylayer grid, top token readouts, baseline generation, steer, swap, and ablate experiments."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Tao is a terminal coding agent. You're actually meant to read, not just run. A working answer to how is a coding agent even built."
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "Most agents are either a blackbox CLI or a giant production repo you can't learn anything from. This splits into three"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "small layers you can read alone. One turns any provider into a neutral event stream. One is the portable brain of"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "tools in loop. One wraps it as a real coding app. When you run clawed code and codecs on the same project, you become"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "the messenger, pasting one's output into the other and reexplaining context every handoff."
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "2D gives them one shared workspace instead. It keeps conversations, files, app outputs, tasks, approvals, and"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "running state connected so agents can reference each other's work, and you can steer the whole build from one control center."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Shepard treats an agent's whole run like git. Every step is a reversible trace."
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "text": "You can fork, replay, and revert, and nothing it produces touches your files until you say so. Let an agent loose on"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "text": "your repo, and it edits in place. So, a bad run leaves you cleaning up. Here, the agents work lands as a held proposal instead. You inspect it, run it in"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "text": "isolation, then keep or discard it, and the trace remembers either way."
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "text": "Open Science runs the entire research loop from one prompt. Read the literature, write the code, run the experiment, write it up. Most AI for"
+    },
+    {
+      "start": 124.0,
+      "end": 124.0,
+      "text": "science tools stop at summarizing papers or drafting a section. This gives an agent a real browser workspace with a terminal and file tree, 290 plus skills"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "across biology, physics, and ML, and direct query access to 30 odd scientific databases like Uniprott, PDB, and ARX."
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "Subtext is a live window into what a language model is holding in mind, several tokens before it says a word."
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "Interpretability tools usually mean scrubbing a static activation dump after the fact. This reads a Jacobian lens at"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "nine layers on every token of a running chat. So you watch the verdict incorrect light up while the model's still reading your math and see it hold a planned caveat while it types something else."
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "Hermes browser extension is a Chromium side panel that connects the page you're reading to your local or remote Hermes agent runtime without pretending to be a"
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "full browser control agent. The pain is copying URLs, snippets, tabs, and context into a separate chat window. It"
+    },
+    {
+      "start": 186.0,
+      "end": 186.0,
+      "text": "captures readable page text, metadata, and headings, wraps them as untrusted context, streams Hermes replies."
+    },
+    {
+      "start": 195.0,
+      "end": 195.0,
+      "text": "Boring computers gives AI agents real Linux machines, not a fake sandbox with a few tool calls. Letting an agent loose"
+    },
+    {
+      "start": 203.0,
+      "end": 203.0,
+      "text": "on your own box is reckless, and cloud sandboxes usually give you a bare shell, no screen to actually click around in."
+    },
+    {
+      "start": 211.0,
+      "end": 211.0,
+      "text": "Each of these is a real firecracker microVM with its own kernel that boots in milliseconds, comes with clawed codecs pre-installed, and self-destructs on a timer."
+    },
+    {
+      "start": 222.0,
+      "end": 222.0,
+      "text": "Dungeon Forge builds a whole dungeon from a single number, and you watch it assemble itself room by room. Most procedural generators just spit out a"
+    },
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "finished map with no sense of how it got there and a different one every run."
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "Type a seed here and it scatters rooms, triangulates them, wires a corridor graph, then tags each room as combat,"
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "treasure, or boss by its depth from the entrance."
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "Riddle turns a remarkable tablet into Tom Riddle's enchanted diary. You write with the pen, the page drinks your ink,"
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "and a reply writes itself back in flowing script. Chatting with an AI on an e- in device usually means a laggy"
+    },
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "keyboard and a chat bubble UI that kills the whole feel. This reads your raw handwriting straight off the pen, sends the committed page to a resident"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "ondevice model, and animates the answer stroke by stroke."
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "Run four clawed code agents at once, and the isolation isn't the problem. They all rebase and push to the same branch, race each other, and four full builds cook your laptop."
+    },
+    {
+      "start": 286.0,
+      "end": 286.0,
+      "text": "This is a local merge queue that makes the collision impossible. Landings go through a FIFO queue, so two lanes are never mid push at once. Builds are"
+    },
+    {
+      "start": 295.0,
+      "end": 295.0,
+      "text": "serialized machinewide, and a pre- push hook bounces any direct push that skips the line."
+    },
+    {
+      "start": 302.0,
+      "end": 302.0,
+      "text": "Pawn runs Python by compiling it straight to native machine code. No interpreter, no bite code, nothing. It parses with rough, lowers to one IR,"
+    },
+    {
+      "start": 311.0,
+      "end": 311.0,
+      "text": "emits JIT or AOT code through cranalyft, uses green tea GC, and checks output bite forbite against CPython. A green"
+    },
+    {
+      "start": 318.0,
+      "end": 318.0,
+      "text": "tea garbage collector replaces reference counting and correctness is enforced brutally."
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "Knockoff is a Chrome extension that cleans up Amazon search results by spotting pseudo brands, the random all cap storefront names that exist mainly"
+    },
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "to gain brand registry. The pain is buying a charger, tool, or cable and realizing every result looks fake."
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "Knockoff runs locally, uses allow lists, block lists, known brand data, and name heristics, then hides, dims, or labels"
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "suspicious listings without sending your shopping path to a server."
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "Motion Anything is a local first motion engine that turns a plain animation brief into editable page motion instead of sending you straight to Gap, Framer"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "Motion, or a blank timeline. If you've generated a nice page and then hated handtuning the fadeins, this is the gap"
+    },
+    {
+      "start": 368.0,
+      "end": 368.0,
+      "text": "it attacks. It ships 403 recipes, key frames, trigger aware motion, video export, and portable skill. Donimnol MD recipes for agents."
+    },
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "Watch skill gives any MCP agent video understanding without dumping raw frames into context and hoping the model"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "guesses. When your agent needs to debug a UI recording or answer, \"Where did the demo break?\" Screenshots alone get messy"
+    },
+    {
+      "start": 394.0,
+      "end": 394.0,
+      "text": "fast. It indexes frames and timestamps locally, lets you ask follow-up questions later so an agent can watch"
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "its own output, fix it, and verify the result."
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "Calibri runs a 744 billion parameter model on a laptop with 25 GB of RAM in"
+    },
+    {
+      "start": 412.0,
+      "end": 412.0,
+      "text": "pure C with zero dependencies. A model that size normally wants hundreds of gigabytes of memory or a rack of GPUs"
+    },
+    {
+      "start": 419.0,
+      "end": 419.0,
+      "text": "you'll never own. The author's blunt that it's slow, roughly a tenth of a token per second on his humble box, but it's a Frontier model, answering"
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "correctly on hardware cheaper than an H100's fan."
+    },
+    {
+      "start": 431.0,
+      "end": 431.0,
+      "text": "PocketJS runs solid and view components at 60 frames a second on a Sony PSP inside an 8 megabyte memory budget."
+    },
+    {
+      "start": 439.0,
+      "end": 439.0,
+      "text": "React Native and Friends assume a phone with gigabytes to spare, so they're a non-starter on anything tiny or embedded. This keeps your familiar JSX"
+    },
+    {
+      "start": 448.0,
+      "end": 448.0,
+      "text": "and Tailwind classes, but at build time, it bakes styles, fonts, and key frame animations ahead of time and hands layout to a tiny noad rust core."
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "On VAR style kills the classic mistake of editing production when you meant to edit staging by making each environment's browser tab a different"
+    },
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "color. Five tabs open, all the same favicon, and you can't tell dev from prod at a glance. This tints your existing favicon per environment at"
+    },
+    {
+      "start": 476.0,
+      "end": 476.0,
+      "text": "buildtime. Blue for dev, amber for preview, and it never touches production."
+    },
+    {
+      "start": 482.0,
+      "end": 482.0,
+      "text": "Flow is a network monitor that shows you exactly one thing, how fast data is moving right now up and down. Tools like"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "endo or beam bury throughput under CPU panels, packet counts, and connection tables. You have to scan past this"
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "dropped two live waveforms drawn in braille at 30 fps. the border shifting color with your speed, session peaks and daily totals and nothing else."
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "Sales skill turns AI security reviews into an agent readable framework instead of a blank dock and a pile of half-remembered controls. When someone"
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "asks, \"Is this agent actually ready for production?\" Vague checklist energy is not enough. It bundles the sale v2"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "catalog with 91 risks, maps them to standards like EU AI act and OASP LLM, and can produce gap assessments, road maps, and RFP security questions."
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "Lumen is a from scratch JavaScript engine in Rust built with only the standard library instead of leaning on a pile of runtime crates. If you've ever"
+    },
+    {
+      "start": 542.0,
+      "end": 542.0,
+      "text": "wondered what sits under node, Dino, or bun, this repo is the guts laid out in code. It has an interpreter, bite code"
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "VM, ARM 64jit on Apple silicon, a growing runtime with timers, FS, fetch, node style modules."
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "Sony headtracker turns compatible Sony headphones into a Windows head tracker instead of making SIM players buy a camera, IR."
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "If you already own WH100XM5s and Open Track still treats your head like dead weight, this is the missing bridge. It reads the headsets's Android"
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "headtracker HID sensor sends yaw, pitch, and roll to open track over UDP."
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Rocket plane IO is a self-hosted AI SR for Kubernetes. Instead of giving an LLM raw cubectl and praying when checkout is"
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "slow and the dashboard shows five angry graphs, you need root cause plus a safe next step. It combines eBPF traces with"
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "logs, PromQL, service maps, and full cluster inventory, then routes fixes through named action pipelines that require approval and roll back if they fail."
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "BW24 is a from scratch Rust and CUDA LLM inference engine for RTX 5090 laptops instead of a general runner trying to"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "please every GPU. If you're tuning local inference and llama.cp is the thing to beat, this repo shows the work. It has"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "handwritten Blackwell kernels, safe tensors loading without GGF conversion, and correctness gates that reject fast kernels when tokens stop matching."
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "Agent Chief is a local first attention router for agents, alerts, and feeds instead of letting every bot ping you directly. If your workflow has turned"
+    },
+    {
+      "start": 643.0,
+      "end": 643.0,
+      "text": "into all clear reports every few hours until you miss the one real failure, this is the filter. It runs hard rules,"
+    },
+    {
+      "start": 650.0,
+      "end": 650.0,
+      "text": "similarity checks, and LLM judgement only when needed. starts in shadow mode and writes editable policy back to"
+    },
+    {
+      "start": 657.0,
+      "end": 657.0,
+      "text": "policy. MD mirror is a real-time multiplayer world model for Rocket League instead of a gamebot predicting state from numbers"
+    },
+    {
+      "start": 666.0,
+      "end": 666.0,
+      "text": "alone. If you've tried training agents and the simulation always hides the messy visual bits, this is the wild part. A 5B latent diffusion model"
+    },
+    {
+      "start": 675.0,
+      "end": 675.0,
+      "text": "generates video frame by frame from all four players actions. runs 2v2 at 20 FPS on one GPU."
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "Matrix drops 100 plus animated dot grid loaders into Swift UI. No image assets, no dependencies, just pure circles and a"
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "timeline. A stock spinner looks generic and rolling your own dot animation means hand-tuning CSS style key frames you don't have in Swift UI. This ships"
+    },
+    {
+      "start": 701.0,
+      "end": 701.0,
+      "text": "square, hex, triangle, even heart, and sparkle grids, each a drop in view."
+    },
+    {
+      "start": 707.0,
+      "end": 707.0,
+      "text": "When Claude Code autocompacts a long session, it summarizes your history and quietly drops the details, which plan you were on, which skills you'd already loaded, what you tried and rejected."
+    },
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "Compact Plus catches all that before the compaction fires. It backs up the transcript, then reingjects your active"
+    },
+    {
+      "start": 725.0,
+      "end": 725.0,
+      "text": "plan and the exact skills used earlier, right after compaction. So the agent doesn't lose the thread."
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Email to print does one dumb useful thing. Email a PDF to a private address and your home printer spits it out. No"
+    },
+    {
+      "start": 740.0,
+      "end": 740.0,
+      "text": "vendor cloud in the middle. This is a StidLib Python script watching one mailbox. It checks the sender against a"
+    },
+    {
+      "start": 748.0,
+      "end": 748.0,
+      "text": "fourperson allow list. Converts office files with headless Libre Office and hands the rest to cups. Forward an email"
+    },
+    {
+      "start": 755.0,
+      "end": 755.0,
+      "text": "with no attachment and it just prints the email body."
+    },
+    {
+      "start": 759.0,
+      "end": 759.0,
+      "text": "Lingbot vision is a self-supervised VI trained specifically to see boundaries, shapes, and semantic regions at once."
+    },
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "It's pre-trained with masked boundary modeling, so its frozen patch features snap cleanly to object contours instead of smearing across edges. Drop it in as"
+    },
+    {
+      "start": 776.0,
+      "end": 776.0,
+      "text": "an encoder, and depth estimation, segmentation, and video object tracking all get sharper for free."
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "Rabbit Hole turns your terminal coding agent into an infinite learning canvas in the browser. Asking an agent followup"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "after followup buries everything in one scrolling chat you can never navigate back through. Here you open a document,"
+    },
+    {
+      "start": 797.0,
+      "end": 797.0,
+      "text": "select any text, ask, and the answer branches off as its own child document you can dig into further endlessly with the whole tree saved and revisitable."
+    },
+    {
+      "start": 809.0,
+      "end": 809.0,
+      "text": "Apple ships its own Linux container runtime for Apple Silicon, but it's command line only. So managing it means memorizing flags and squinting at raw"
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "output. Davit is a native Swift UI frontend for exactly that platform. No Electron, no Docker Desktop. It talks"
+    },
+    {
+      "start": 825.0,
+      "end": 825.0,
+      "text": "straight to Apple's container API over XPC, the same path the CLI uses. So you get live per container CPU and memory and a menu bar quick launch."
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "Scroll World builds one of those Apple style landing pages where the camera flies through a whole world as you scroll. No cuts, every scene flowing"
+    },
+    {
+      "start": 844.0,
+      "end": 844.0,
+      "text": "into the next. This clawed code skill generates the diarama scenes and camera flights with Higsfield. Renders each"
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "connector using the actual neighboring frames as its end points. So both sides of every seam are pixel identical and the flight never breaks."
+    },
+    {
+      "start": 861.0,
+      "end": 861.0,
+      "text": "Autonomous Forge is a local first CLI for repo native autonomous improvement loops. Instead of handing an agent your"
+    },
+    {
+      "start": 868.0,
+      "end": 868.0,
+      "text": "whole repo and hoping it behaves, Forge keeps most commands readon, builds review artifacts, validation previews,"
+    },
+    {
+      "start": 875.0,
+      "end": 875.0,
+      "text": "exeutor gates, dry runs, and run history records, then only runs one exact confirmed local validation command with separate opt-in persistence."
+    },
+    {
+      "start": 886.0,
+      "end": 886.0,
+      "text": "Finding Unknown Skills is an installable pack for clawed code and codecs that turns vague pre-built thinking into reusable agent commands. When a feature"
+    },
+    {
+      "start": 895.0,
+      "end": 895.0,
+      "text": "feels clear until the first implementation choice exposes three hidden assumptions, this is the pause button. It gives you eight skills for"
+    },
+    {
+      "start": 904.0,
+      "end": 904.0,
+      "text": "blind spot passes, pitch packaging, and a merge quiz before you ship something you don't actually understand."
+    }
+  ]
+}

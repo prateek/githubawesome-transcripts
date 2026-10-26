@@ -1,0 +1,1333 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Two weeks ago, a 27 billion parameter model started running on an iPhone, not a stripped down student version of it."
+    },
+    {
+      "timestamp": "0:07",
+      "text": "The actual thing, doing reasoning, calling tools, reading images off your screen. Nobody added memory to that phone. Nobody added memory to your"
+    },
+    {
+      "timestamp": "0:16",
+      "text": "graphics card either. What happened is that four separate compression tricks landed inside about 6 months. And every"
+    },
+    {
+      "timestamp": "0:23",
+      "text": "one of them hands you capability you never paid for in memory. That is the story. not a new model, four new ways to"
+    },
+    {
+      "timestamp": "0:31",
+      "text": "fit a model. So, this video is not five product picks. It is four tricks where each one lands and one licensing trap at"
+    },
+    {
+      "timestamp": "0:39",
+      "text": "the top that a lot of coverage is getting wrong right now. Everything sorts by the only spec that actually decides what you can run."
+    },
+    {
+      "timestamp": "0:48",
+      "text": "Go get it now. It takes 30 seconds on Windows task manager performance tab."
+    },
+    {
+      "timestamp": "0:53",
+      "text": "Click your GPU. Read the line that says dedicated GPU memory. On a Mac, it is your total unified memory because"
+    },
+    {
+      "timestamp": "1:00",
+      "text": "Apple's chips share one pool between CPU and GPU. That is your bracket. Write it down. Every rung below is keyed to it."
+    },
+    {
+      "timestamp": "1:08",
+      "text": "Bracket 4 to 8 GB. Laptop integrated graphics, a used gaming card, a recent phone. The pick here is Nanig 4.2, a 3"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "billion parameter model from the research team at Chinese recruiting company Boss Shippen. It runs in about 2 GB. Here is the trick. A normal"
+    },
+    {
+      "timestamp": "1:26",
+      "text": "transformer stacks layers and each token passes through the stack once. Nanbay takes a 22 layer stack and runs the token through it twice. Same weights,"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "two passes. You get the reasoning depth of a much deeper network while only storing the shallow one. They call it a loop transformer. And the reason it"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "matters to you is that depth is what you buy with memory. And this buys it for free. The scores are hard to believe for the size. on Stewie bench verified which is real GitHub issues fixed by an agent."
+    },
+    {
+      "timestamp": "1:55",
+      "text": "It posts 63.6 against Quen 359B at 531 and Gemma 412B at 442"
+    },
+    {
+      "timestamp": "2:04",
+      "text": "on GPQA Diamond the graduate level science exam. It gets 874."
+    },
+    {
+      "timestamp": "2:08",
+      "text": "Two notes before you get excited. Those are Nanig's own numbers on their own model card and nobody has independently"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "reproduced them yet. And small models have a habit of looking great on single task benchmarks and falling apart on long multi-step work that the tables"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "never capture. What it is actually good for high volume local grunt work."
+    },
+    {
+      "timestamp": "2:28",
+      "text": "Tagging files, sorting documents, classifying tickets, labeling data jobs where you want it fast, private,"
+    },
+    {
+      "timestamp": "2:36",
+      "text": "and free rather than brilliant. Point it at an agent scaffold and it will handle multi-step office tasks offline. Apache"
+    },
+    {
+      "timestamp": "2:43",
+      "text": "2.0 and it shipped day one with recipes for a llama. Llama.cpp, VLLM, and SG lang."
+    },
+    {
+      "timestamp": "2:50",
+      "text": "Bracket 8 to 24 GB. A mainstream gaming card. A 27 billion parameter model does not belong in this bracket. In full"
+    },
+    {
+      "timestamp": "2:59",
+      "text": "precision, it wants 54 GB. Even a conventional 4-bit build is 176, which still will not fit. Prism ML fixed that, and the backstory is worth 30 seconds."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "It is a Caltech spinout that came out of Stealth in March. The CEO is Babak Hassibi, an electrical engineering professor there. Caltech owns the"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "underlying patents and licenses them exclusively to the company. Kla Ventures led a 16 and a4 million seed. What they"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "did to Quen's 27B model is not quantization in the sense you are used to. They rebuilt every weight in the language stack to be one of three values"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "minus one, 0, or plus one. turnary end to end across embeddings attention the MLPS and the output head with no full"
+    },
+    {
+      "timestamp": "3:45",
+      "text": "precision escape hatch hiding anywhere that works out to 1.71 bits per weight they call the result bonsai and here are"
+    },
+    {
+      "timestamp": "3:54",
+      "text": "the honest numbers rather than the pretty ones the ideal size of the turnary build is 5.9 GB but today's"
+    },
+    {
+      "timestamp": "4:01",
+      "text": "kernels store each turnary value in a twobit slot so what actually lands on your disc is about 7.02 2. That is still"
+    },
+    {
+      "timestamp": "4:08",
+      "text": "54 GB down to 7.2. The 1 bit build is 3.9 and that is the one that fits on an iPhone. Quality across 15 benchmarks in"
+    },
+    {
+      "timestamp": "4:17",
+      "text": "thinking mode. The turnary build keeps 95% of full precision. The one bit build keeps 90."
+    },
+    {
+      "timestamp": "4:25",
+      "text": "Math barely moves. Speed is where I want to be careful because the internet is quoting numbers I cannot find a source"
+    },
+    {
+      "timestamp": "4:32",
+      "text": "for. What is measured is roughly 26 tokens a second on an M5 Pro laptop."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "That is not fast in absolute terms. It is also completely beside the point because the alternative on that laptop is not slower. It is nothing. The full"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "model does not load at all. Apache 2.0 262,000 token context multimodal runs through MLX on Apple silicon and"
+    },
+    {
+      "timestamp": "4:55",
+      "text": "llama.cpp on Nvidia. One caveat, turnary kernel support is still migrating into mainline llama.cpp. So depending on your"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "back end, you may be on their fork for a bit. CNBC reported this month that Apple is in talks with them. Make of that what you will."
+    },
+    {
+      "timestamp": "5:12",
+      "text": "Bracket 24 to 96 GB, a 32 gig 5090, two cards, or a Mac with a real memory pool."
+    },
+    {
+      "timestamp": "5:19",
+      "text": "Up here, you stop compressing and just run the good model properly. The good model is the one Bonsai was carved out of Quen 3627B released in April under"
+    },
+    {
+      "timestamp": "5:28",
+      "text": "Apache 2.0. It is dense, so no routing complexity. It scores 87.8 on GPQA Diamond, 77.2 on SWBench verified, and"
+    },
+    {
+      "timestamp": "5:37",
+      "text": "59.3 on Terminal Bench 2.0. That last number beats Alibaba's own 397 billion"
+    },
+    {
+      "timestamp": "5:44",
+      "text": "parameter from the previous generation, which is a genuinely strange sentence to say out loud. But there is a tax on"
+    },
+    {
+      "timestamp": "5:51",
+      "text": "reasoning models that you only feel when you run them yourself. They think out loud before answering, sometimes for thousands of tokens, and you sit there"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "watching it happen. So, a Prague team called Bottlecap AI fine-tuned it to shut up faster. Worth noting who is on"
+    },
+    {
+      "timestamp": "6:08",
+      "text": "the author list. Tamas Mikolof, the researcher behind Wordvec. They call it thinking cap. Across 12 out of domain"
+    },
+    {
+      "timestamp": "6:15",
+      "text": "benchmarks, it uses roughly 46% fewer thinking tokens. On GSM8K, it cuts them by 74% and accuracy actually goes up"
+    },
+    {
+      "timestamp": "6:23",
+      "text": "from 933 to 96.5. Now, the part the summaries keep leaving out. It is not free. On the hardest reasoning sets, it"
+    },
+    {
+      "timestamp": "6:32",
+      "text": "does slip. GPQA diamond goes from 855 down to 83.8. Hmmt from 88 0 to 84."
+    },
+    {
+      "timestamp": "6:39",
+      "text": "Seven. Small but real. You are trading a little peak reasoning for a lot of your own waiting. One practical note that"
+    },
+    {
+      "timestamp": "6:47",
+      "text": "moves this trick down a bracket. There is a 4-bit mixed precision MLX build of thinking cap that lands at 19 GB which"
+    },
+    {
+      "timestamp": "6:55",
+      "text": "fits a 24 gig Mac. So if you are sitting right on the boundary between rung two and rung three, that is your move"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "bracket 96 to 192 GB. Workstation territory. This bracket got redefined by"
+    },
+    {
+      "timestamp": "7:09",
+      "text": "one box. Nvidia's DGX Spark 1.2 2 kg 128 GB of unified memory sits under your monitor. Two corrections on it that you"
+    },
+    {
+      "timestamp": "7:18",
+      "text": "should hear before you buy. It launched at $3,999 and now sits around 4,699"
+    },
+    {
+      "timestamp": "7:24",
+      "text": "after an 18% increase driven by LPDDR5X memory shortages and its memory bandwidth is $273 GB a second which is"
+    },
+    {
+      "timestamp": "7:34",
+      "text": "modest. The useful way to think about a Spark is an RTX 5070 that happens to have 128 GB of VRAM. You are buying"
+    },
+    {
+      "timestamp": "7:42",
+      "text": "capacity, not throughput. The model built for exactly that box landed on July 21st. Laguna S2.1 from Poolside, a"
+    },
+    {
+      "timestamp": "7:51",
+      "text": "San Francisco lab that spent most of 3 years quietly selling coding models to governments. It is 118 billion"
+    },
+    {
+      "timestamp": "7:58",
+      "text": "parameters, but only eight are active per token. That is a mixture of experts, and the sparsity is the entire reason it"
+    },
+    {
+      "timestamp": "8:05",
+      "text": "drops onto a single spark and still moves. On terminal bench toot 1, it scores 72% with thinking on. That beats"
+    },
+    {
+      "timestamp": "8:12",
+      "text": "Deepseek V4 Pro Max at 64.0, a model with 1.6 trillion total parameters and 49 billion active. On Deep SWE, the gap"
+    },
+    {
+      "timestamp": "8:22",
+      "text": "is wider, 44 against 9.0. It also does the thing benchmarks cannot show. In one unbroken 50-minute run across 181 steps"
+    },
+    {
+      "timestamp": "8:31",
+      "text": "with no human help, it built a working HTML and CSS browser engine from an empty folder and then validated its own output against Chromium. Three caveats."
+    },
+    {
+      "timestamp": "8:40",
+      "text": "Poolside ran its own agent harness on deepest Wii rather than the standard one and says so. Thinking mode costs you"
+    },
+    {
+      "timestamp": "8:47",
+      "text": "roughly 249,000 completion tokens on those trajectories versus 99,000 without"
+    },
+    {
+      "timestamp": "8:53",
+      "text": "it. and the license is open MDW11 which is permissive but read it rather than assuming it is MIT. The model went"
+    },
+    {
+      "timestamp": "9:02",
+      "text": "from the first day of pre-training to launch in under 9 weeks on 4,96 H200s."
+    },
+    {
+      "timestamp": "9:09",
+      "text": "That cadence is arguably the bigger story than the scores. If you are under this bracket but want the same family,"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "Laguna XS21 runs on 24 GB 192 to 384 GB. two sparks bridged or a"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "real server. Here is where I want to correct something that is circulating."
+    },
+    {
+      "timestamp": "9:29",
+      "text": "Motif 3 comes from Korean startup Motif Technologies. 314 billion parameters, 384 experts with eight routed per token"
+    },
+    {
+      "timestamp": "9:37",
+      "text": "plus one shared. So about 13 billion active native 262,000 token context."
+    },
+    {
+      "timestamp": "9:43",
+      "text": "built from scratch as an in-house design rather than a reparameterization of somebody else's architecture, which genuinely deserves respect and is rarer"
+    },
+    {
+      "timestamp": "9:51",
+      "text": "than it sounds. You may have heard it called the third best open model in the world. It is not, and I want to be specific about why. On the artificial"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "analysis intelligence index, it scores 44, which ranks at 34th out of 577 tracked systems. That puts it roughly"
+    },
+    {
+      "timestamp": "10:07",
+      "text": "level with Deepseek V4 Pro. GLM52 sits at 51. Kimmy K3 sits at 57. Good model,"
+    },
+    {
+      "timestamp": "10:15",
+      "text": "not a podium finish. Second, what is on hugging face is a beta. The model card says plainly that it is an intermediate"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "checkpoint and the final release is still coming. And third, the one that actually matters if you were planning to"
+    },
+    {
+      "timestamp": "10:29",
+      "text": "build something. The license restricts use to personal, educational, and non-commercial research."
+    },
+    {
+      "timestamp": "10:36",
+      "text": "Commercial use is prohibited without prior written permission from motif which torpedoes the usual pitch. Open weights mean nobody can rate limit you"
+    },
+    {
+      "timestamp": "10:45",
+      "text": "or take it away is only true when the license lets you ship. Downloadable and open are two different words and the gap between them is where people get hurt."
+    },
+    {
+      "timestamp": "10:55",
+      "text": "If you want something at this tier you can actually build a business on. GLM5 two is the pick. 744 billion parameters,"
+    },
+    {
+      "timestamp": "11:03",
+      "text": "40 billion active MIT licensed, 1 million token context, and currently the top open model on that same index. And"
+    },
+    {
+      "timestamp": "11:11",
+      "text": "watch this week. Moonshot committed to putting Kimmy K3's weights on hugging face around July 27th. Two 8 trillion"
+    },
+    {
+      "timestamp": "11:19",
+      "text": "parameters, 57 on the intelligence index, currently number one on the front-end code arena. If that lands under usable terms, this rung gets rewritten in a day."
+    },
+    {
+      "timestamp": "11:30",
+      "text": "I am not going to oversell any of this."
+    },
+    {
+      "timestamp": "11:32",
+      "text": "The closed frontier still sits above everything here. On the intelligence index, Claude Opus 5 is at 607. Claude Fable 5 at 599, GPT5, six soul at 589."
+    },
+    {
+      "timestamp": "11:45",
+      "text": "On terminal bench 2.1, the top closed models are near 88. The best thing on this ladder is at 70. So local is not"
+    },
+    {
+      "timestamp": "11:53",
+      "text": "the best. Local is the best you own, which is a different and in some ways more interesting thing."
+    },
+    {
+      "timestamp": "12:00",
+      "text": "The rule is boring and it works. Find the largest model that fits your memory with headroom left over for context and"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "run that one. When it fits, bigger still wins. But the actual headline is not any single model on this list. It is that"
+    },
+    {
+      "timestamp": "12:16",
+      "text": "the four tricks stack and the thing that fits your unchanged hardware today is dramatically better than the thing that"
+    },
+    {
+      "timestamp": "12:22",
+      "text": "fit it 6 months ago. The floor is rising underneath you while you do nothing. If you have never done this, Olama is one"
+    },
+    {
+      "timestamp": "12:30",
+      "text": "install and one command. LM Studio is the same idea with a window and a download button. You are 10 minutes from"
+    },
+    {
+      "timestamp": "12:36",
+      "text": "a private model, not a weekend. One last thing, and it is the part nobody puts in a thumbnail. Before you build anything"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "on top of one of these, open the license file. Apache 2.0 and MIT mean go ahead."
+    },
+    {
+      "timestamp": "12:50",
+      "text": "Non-commercial research means you are borrowing it. Those look identical on a download page. Quick recap. 4 to 8 gigs"
+    },
+    {
+      "timestamp": "12:57",
+      "text": "nan beige 8 to 24 bonsai 24 to 96 quen 3 six with thinking cap on top 96 to 192"
+    },
+    {
+      "timestamp": "13:06",
+      "text": "Lagona on a spark above that GLM52 and keep an eye on Kimmy pull the one for your bracket tonight and go find out"
+    },
+    {
+      "timestamp": "13:14",
+      "text": "what your own hardware has been capable of this whole time. See you on the next one."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Two weeks ago, a 27 billion parameter model started running on an iPhone, not a stripped down student version of it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The actual thing, doing reasoning, calling tools, reading images off your screen. Nobody added memory to that phone. Nobody added memory to your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "graphics card either. What happened is that four separate compression tricks landed inside about 6 months. And every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 23000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one of them hands you capability you never paid for in memory. That is the story. not a new model, four new ways to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fit a model. So, this video is not five product picks. It is four tricks where each one lands and one licensing trap at"
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the top that a lot of coverage is getting wrong right now. Everything sorts by the only spec that actually decides what you can run."
+        }
+      ]
+    },
+    {
+      "tStartMs": 48000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go get it now. It takes 30 seconds on Windows task manager performance tab."
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Click your GPU. Read the line that says dedicated GPU memory. On a Mac, it is your total unified memory because"
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple's chips share one pool between CPU and GPU. That is your bracket. Write it down. Every rung below is keyed to it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bracket 4 to 8 GB. Laptop integrated graphics, a used gaming card, a recent phone. The pick here is Nanig 4.2, a 3"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "billion parameter model from the research team at Chinese recruiting company Boss Shippen. It runs in about 2 GB. Here is the trick. A normal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transformer stacks layers and each token passes through the stack once. Nanbay takes a 22 layer stack and runs the token through it twice. Same weights,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "two passes. You get the reasoning depth of a much deeper network while only storing the shallow one. They call it a loop transformer. And the reason it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matters to you is that depth is what you buy with memory. And this buys it for free. The scores are hard to believe for the size. on Stewie bench verified which is real GitHub issues fixed by an agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 115000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It posts 63.6 against Quen 359B at 531 and Gemma 412B at 442"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on GPQA Diamond the graduate level science exam. It gets 874."
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Two notes before you get excited. Those are Nanig's own numbers on their own model card and nobody has independently"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reproduced them yet. And small models have a habit of looking great on single task benchmarks and falling apart on long multi-step work that the tables"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "never capture. What it is actually good for high volume local grunt work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tagging files, sorting documents, classifying tickets, labeling data jobs where you want it fast, private,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 156000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and free rather than brilliant. Point it at an agent scaffold and it will handle multi-step office tasks offline. Apache"
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "2.0 and it shipped day one with recipes for a llama. Llama.cpp, VLLM, and SG lang."
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bracket 8 to 24 GB. A mainstream gaming card. A 27 billion parameter model does not belong in this bracket. In full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 179000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "precision, it wants 54 GB. Even a conventional 4-bit build is 176, which still will not fit. Prism ML fixed that, and the backstory is worth 30 seconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It is a Caltech spinout that came out of Stealth in March. The CEO is Babak Hassibi, an electrical engineering professor there. Caltech owns the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "underlying patents and licenses them exclusively to the company. Kla Ventures led a 16 and a4 million seed. What they"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "did to Quen's 27B model is not quantization in the sense you are used to. They rebuilt every weight in the language stack to be one of three values"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "minus one, 0, or plus one. turnary end to end across embeddings attention the MLPS and the output head with no full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 225000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "precision escape hatch hiding anywhere that works out to 1.71 bits per weight they call the result bonsai and here are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the honest numbers rather than the pretty ones the ideal size of the turnary build is 5.9 GB but today's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kernels store each turnary value in a twobit slot so what actually lands on your disc is about 7.02 2. That is still"
+        }
+      ]
+    },
+    {
+      "tStartMs": 248000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "54 GB down to 7.2. The 1 bit build is 3.9 and that is the one that fits on an iPhone. Quality across 15 benchmarks in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "thinking mode. The turnary build keeps 95% of full precision. The one bit build keeps 90."
+        }
+      ]
+    },
+    {
+      "tStartMs": 265000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Math barely moves. Speed is where I want to be careful because the internet is quoting numbers I cannot find a source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for. What is measured is roughly 26 tokens a second on an M5 Pro laptop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That is not fast in absolute terms. It is also completely beside the point because the alternative on that laptop is not slower. It is nothing. The full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model does not load at all. Apache 2.0 262,000 token context multimodal runs through MLX on Apple silicon and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 295000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "llama.cpp on Nvidia. One caveat, turnary kernel support is still migrating into mainline llama.cpp. So depending on your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "back end, you may be on their fork for a bit. CNBC reported this month that Apple is in talks with them. Make of that what you will."
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bracket 24 to 96 GB, a 32 gig 5090, two cards, or a Mac with a real memory pool."
+        }
+      ]
+    },
+    {
+      "tStartMs": 319000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Up here, you stop compressing and just run the good model properly. The good model is the one Bonsai was carved out of Quen 3627B released in April under"
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apache 2.0. It is dense, so no routing complexity. It scores 87.8 on GPQA Diamond, 77.2 on SWBench verified, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "59.3 on Terminal Bench 2.0. That last number beats Alibaba's own 397 billion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameter from the previous generation, which is a genuinely strange sentence to say out loud. But there is a tax on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasoning models that you only feel when you run them yourself. They think out loud before answering, sometimes for thousands of tokens, and you sit there"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "watching it happen. So, a Prague team called Bottlecap AI fine-tuned it to shut up faster. Worth noting who is on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 368000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the author list. Tamas Mikolof, the researcher behind Wordvec. They call it thinking cap. Across 12 out of domain"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "benchmarks, it uses roughly 46% fewer thinking tokens. On GSM8K, it cuts them by 74% and accuracy actually goes up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from 933 to 96.5. Now, the part the summaries keep leaving out. It is not free. On the hardest reasoning sets, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "does slip. GPQA diamond goes from 855 down to 83.8. Hmmt from 88 0 to 84."
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Seven. Small but real. You are trading a little peak reasoning for a lot of your own waiting. One practical note that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "moves this trick down a bracket. There is a 4-bit mixed precision MLX build of thinking cap that lands at 19 GB which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fits a 24 gig Mac. So if you are sitting right on the boundary between rung two and rung three, that is your move"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bracket 96 to 192 GB. Workstation territory. This bracket got redefined by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one box. Nvidia's DGX Spark 1.2 2 kg 128 GB of unified memory sits under your monitor. Two corrections on it that you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "should hear before you buy. It launched at $3,999 and now sits around 4,699"
+        }
+      ]
+    },
+    {
+      "tStartMs": 444000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "after an 18% increase driven by LPDDR5X memory shortages and its memory bandwidth is $273 GB a second which is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modest. The useful way to think about a Spark is an RTX 5070 that happens to have 128 GB of VRAM. You are buying"
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "capacity, not throughput. The model built for exactly that box landed on July 21st. Laguna S2.1 from Poolside, a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "San Francisco lab that spent most of 3 years quietly selling coding models to governments. It is 118 billion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameters, but only eight are active per token. That is a mixture of experts, and the sparsity is the entire reason it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drops onto a single spark and still moves. On terminal bench toot 1, it scores 72% with thinking on. That beats"
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deepseek V4 Pro Max at 64.0, a model with 1.6 trillion total parameters and 49 billion active. On Deep SWE, the gap"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is wider, 44 against 9.0. It also does the thing benchmarks cannot show. In one unbroken 50-minute run across 181 steps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with no human help, it built a working HTML and CSS browser engine from an empty folder and then validated its own output against Chromium. Three caveats."
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Poolside ran its own agent harness on deepest Wii rather than the standard one and says so. Thinking mode costs you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "roughly 249,000 completion tokens on those trajectories versus 99,000 without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it. and the license is open MDW11 which is permissive but read it rather than assuming it is MIT. The model went"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from the first day of pre-training to launch in under 9 weeks on 4,96 H200s."
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That cadence is arguably the bigger story than the scores. If you are under this bracket but want the same family,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Laguna XS21 runs on 24 GB 192 to 384 GB. two sparks bridged or a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real server. Here is where I want to correct something that is circulating."
+        }
+      ]
+    },
+    {
+      "tStartMs": 569000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Motif 3 comes from Korean startup Motif Technologies. 314 billion parameters, 384 experts with eight routed per token"
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plus one shared. So about 13 billion active native 262,000 token context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built from scratch as an in-house design rather than a reparameterization of somebody else's architecture, which genuinely deserves respect and is rarer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "than it sounds. You may have heard it called the third best open model in the world. It is not, and I want to be specific about why. On the artificial"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "analysis intelligence index, it scores 44, which ranks at 34th out of 577 tracked systems. That puts it roughly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "level with Deepseek V4 Pro. GLM52 sits at 51. Kimmy K3 sits at 57. Good model,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "not a podium finish. Second, what is on hugging face is a beta. The model card says plainly that it is an intermediate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checkpoint and the final release is still coming. And third, the one that actually matters if you were planning to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "build something. The license restricts use to personal, educational, and non-commercial research."
+        }
+      ]
+    },
+    {
+      "tStartMs": 636000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Commercial use is prohibited without prior written permission from motif which torpedoes the usual pitch. Open weights mean nobody can rate limit you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or take it away is only true when the license lets you ship. Downloadable and open are two different words and the gap between them is where people get hurt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 655000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you want something at this tier you can actually build a business on. GLM5 two is the pick. 744 billion parameters,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "40 billion active MIT licensed, 1 million token context, and currently the top open model on that same index. And"
+        }
+      ]
+    },
+    {
+      "tStartMs": 671000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "watch this week. Moonshot committed to putting Kimmy K3's weights on hugging face around July 27th. Two 8 trillion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameters, 57 on the intelligence index, currently number one on the front-end code arena. If that lands under usable terms, this rung gets rewritten in a day."
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "I am not going to oversell any of this."
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The closed frontier still sits above everything here. On the intelligence index, Claude Opus 5 is at 607. Claude Fable 5 at 599, GPT5, six soul at 589."
+        }
+      ]
+    },
+    {
+      "tStartMs": 705000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "On terminal bench 2.1, the top closed models are near 88. The best thing on this ladder is at 70. So local is not"
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the best. Local is the best you own, which is a different and in some ways more interesting thing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The rule is boring and it works. Find the largest model that fits your memory with headroom left over for context and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "run that one. When it fits, bigger still wins. But the actual headline is not any single model on this list. It is that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the four tricks stack and the thing that fits your unchanged hardware today is dramatically better than the thing that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fit it 6 months ago. The floor is rising underneath you while you do nothing. If you have never done this, Olama is one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "install and one command. LM Studio is the same idea with a window and a download button. You are 10 minutes from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a private model, not a weekend. One last thing, and it is the part nobody puts in a thumbnail. Before you build anything"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on top of one of these, open the license file. Apache 2.0 and MIT mean go ahead."
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Non-commercial research means you are borrowing it. Those look identical on a download page. Quick recap. 4 to 8 gigs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 777000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nan beige 8 to 24 bonsai 24 to 96 quen 3 six with thinking cap on top 96 to 192"
+        }
+      ]
+    },
+    {
+      "tStartMs": 786000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lagona on a spark above that GLM52 and keep an eye on Kimmy pull the one for your bracket tonight and go find out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "what your own hardware has been capable of this whole time. See you on the next one."
+        }
+      ]
+    }
+  ]
+}

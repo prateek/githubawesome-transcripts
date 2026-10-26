@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 40. 35 trending open- source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Mentos skills is a skill library written for the design side of front end, not general coding. Ask an agent for a pricing page or a Gap animation and it"
+    },
+    {
+      "timestamp": "0:20",
+      "text": "improvises, missing the conversion patterns and cleanup habits a real designer already knows. This bakes those in as reusable files. a UI prompting"
+    },
+    {
+      "timestamp": "0:28",
+      "text": "system plus procedural skills for three, JS, Tailwind, and effects like progressive blur and alpha masking."
+    },
+    {
+      "timestamp": "0:38",
+      "text": "Axe is an AI era curl that gives coding agents structured page data instead of a raw HTML dump. You know the loop. Curl"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "returns an empty response. The agent shoves thousands of markup tokens into context. Then a regx parser collapses after one CSS tweak. Axe always reports"
+    },
+    {
+      "timestamp": "0:55",
+      "text": "status and headers. maps page structure with a outline and locate, then extracts rows or tables with selectors."
+    },
+    {
+      "timestamp": "1:03",
+      "text": "Lingbot World-V2 is a generative world model built for long interactive video worlds, not another clip generator that"
+    },
+    {
+      "timestamp": "1:11",
+      "text": "falls apart after a few seconds. You ask for a character action and the scene forgets where it was headed. Its causal model generates frames chunk by chunk"
+    },
+    {
+      "timestamp": "1:20",
+      "text": "with KV caching. The real-time variant targets 720p at 60fps and pilot plus director agents plan actions while adding new scene elements."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "Spacew is NASA's web assembly interpreter for flight software built for constrained hardware where a normal WAMOM runtime has too many memory"
+    },
+    {
+      "timestamp": "1:39",
+      "text": "surprises. Spacewom decodes and validates modules in one streaming pass, converts bite code into an"
+    },
+    {
+      "timestamp": "1:45",
+      "text": "interpretation friendly IR and uses fixedsize allocation pages with no panic on allocation failure. It's was shaped by spacecraft rules."
+    },
+    {
+      "timestamp": "1:56",
+      "text": "Marble skill taxonomy maps what a child learns across primary school as a connected graph, not the usual flat list"
+    },
+    {
+      "timestamp": "2:03",
+      "text": "of standards. This breaks it into 1,590 teachable micro topics, each with an age range and evidence for mastery, then"
+    },
+    {
+      "timestamp": "2:12",
+      "text": "wires 3,221 prerequisite edges between them, so you can trace everything a kid must grasp before, say, apparent brightness of"
+    },
+    {
+      "timestamp": "2:19",
+      "text": "stars. Every topic links back to the real standards it came from."
+    },
+    {
+      "timestamp": "2:25",
+      "text": "Open Display is a self-hosted Sidecar alternative that turns an iPhone or iPad into a real second Mac monitor instead of a paid subscription or a hardware"
+    },
+    {
+      "timestamp": "2:34",
+      "text": "dongle. You've got a spare screen right there, but Sidecar locks you to one Apple ID and won't use an iPhone. Open"
+    },
+    {
+      "timestamp": "2:41",
+      "text": "Display supports extended displays over USB or Wi-Fi, streams Retina H.264 264 video with low latency and turns taps,"
+    },
+    {
+      "timestamp": "2:50",
+      "text": "drags, and two-finger scrolling into Mac input."
+    },
+    {
+      "timestamp": "2:54",
+      "text": "Fable Cut is a full browser video editor whose entire timeline is one JSON file, so you drag clips by hand while an agent"
+    },
+    {
+      "timestamp": "3:01",
+      "text": "edits the exact same timeline, and the UI hot reloads in about 150 milliseconds. Tell Claude Code to cut"
+    },
+    {
+      "timestamp": "3:08",
+      "text": "six clips to the beat, add a teal, orange grade, and caption every line, and watch it rebuild live. A revision counter stops either of you overwriting the other."
+    },
+    {
+      "timestamp": "3:20",
+      "text": "Text to transformer trains a tiny language model from scratch on your own iMessage history entirely on your Mac."
+    },
+    {
+      "timestamp": "3:26",
+      "text": "Your messages carry your slang, punctuation, and reply rhythm, but handing them to an API is a hard no."
+    },
+    {
+      "timestamp": "3:33",
+      "text": "This Maconly pipeline snapshots the database readon, pseudonmomizes people, and redacts identifiers, then trains a"
+    },
+    {
+      "timestamp": "3:40",
+      "text": "custom tokenizer and transformer with MLX."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "Home rail turns throwaway agent chats into auditable, replayable workflows that run on your own home server. A chat"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "session is a black box. You can't inspect why it did what it did or rerun it cleanly. This lays the work out as a DAG instead where every handoff between"
+    },
+    {
+      "timestamp": "4:01",
+      "text": "agents is traced. Each node runs isolated in its own Docker worker and any run can be replayed and scored."
+    },
+    {
+      "timestamp": "4:09",
+      "text": "Quant is a desktop market terminal that keeps ETF and stock context local."
+    },
+    {
+      "timestamp": "4:14",
+      "text": "Instead of making you pay for an API just to compare a chart and the news around it, you spot a swing, then go hunting for what happened that week."
+    },
+    {
+      "timestamp": "4:22",
+      "text": "Quant links headlines to swing highs and lows, expands ETF holdings into a wider news feed, and layers CPI, yields, oil,"
+    },
+    {
+      "timestamp": "4:30",
+      "text": "and VIX directly onto the chart. Its signal desk stays deterministic."
+    },
+    {
+      "timestamp": "4:35",
+      "text": "Codeex hygiene is a small local skill for trimming codeex desktop context bloat without treating every long task like a cash clearing emergency."
+    },
+    {
+      "timestamp": "4:44",
+      "text": "This audits recent telemetry with readonly SQLite queries. Separates tool availability from actual calls and"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "checks whether plugins, MCP surfaces, stale project settings or replay are inflating context. Its fixes are reversible, too."
+    },
+    {
+      "timestamp": "5:00",
+      "text": "Uninstall is a native Mac OS uninstaller that removes an app and every file it leaves scattered across your system."
+    },
+    {
+      "timestamp": "5:07",
+      "text": "Dragging an app to the trash leaves behind caches, preferences, containers, and login nobody ever cleans up. This"
+    },
+    {
+      "timestamp": "5:15",
+      "text": "matches leftovers by bundle identifier, not just folder name. So, it catches the helper files that hide under different names. It shows exactly what it'll"
+    },
+    {
+      "timestamp": "5:24",
+      "text": "delete first. Easy last skill is a German first research skill that gives an agent a compact uncertainty report on"
+    },
+    {
+      "timestamp": "5:33",
+      "text": "the last 30 days of a topic instead of a pile of freshlooking links. When you're trying to catch up, yesterday's hype and"
+    },
+    {
+      "timestamp": "5:41",
+      "text": "old posts blur together fast. It pulls public signals from news, hacker news, GitHub, Reddit, and YouTube. Scores"
+    },
+    {
+      "timestamp": "5:48",
+      "text": "results by freshness and relevance, and supports sideby-side topic comparisons."
+    },
+    {
+      "timestamp": "5:54",
+      "text": "USB tree is a live USB device tree for your terminal that finally answers which port is this thing actually on and is it"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "even working. LSUSB gives you a flat static dump with cryptic vendor IDs and no sense of the hub layout. This draws"
+    },
+    {
+      "timestamp": "6:08",
+      "text": "the real tree with color-coded classes, speed badges, and friendly names, rescanning every second so a plug flashes green and an unplug lingers as a red ghost."
+    },
+    {
+      "timestamp": "6:20",
+      "text": "You've seen the look without noticing it anymore. Indigo gradients, glowing cards, emoji in every corner, all cap stats."
+    },
+    {
+      "timestamp": "6:28",
+      "text": "It's what a machine reaches for when it wants to look impressive but has no taste. Kill AI slop is a field guide cataloging 23 of these tells, each with"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "a before and after showing the clean fix, plus an agent skill that scans your web project for the code level signals and proposes the cleanup."
+    },
+    {
+      "timestamp": "6:47",
+      "text": "Fable Adviser is a clawed code plugin that makes one model the architect and routes typing to cheaper independent model lanes. Instead of asking a single"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "agent to reason, code, and grade itself, you get a confident diff, then wonder whether it passed because the same model"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "wrote and reviewed it. The architect writes the spec, routes implementation, and accepts work only after reading verification evidence."
+    },
+    {
+      "timestamp": "7:13",
+      "text": "Liquid glass brings Apple's frosted glass look to the web and does the one thing knockoffs skip. It actually bends the content behind it. This drives a"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "real SVG displacement map. So the panel refracts what's underneath at its rim with a faint prism fringe while the text"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "on top stays crisp and selectable. One file, zero dependencies on any element with a frosted fallback for Safari and Firefox."
+    },
+    {
+      "timestamp": "7:39",
+      "text": "Pilot Fish is a global clawed code setup that keeps the best model on planning and review while cheaper sub agents handle bulk work instead of spending"
+    },
+    {
+      "timestamp": "7:48",
+      "text": "your best model on searches and mechanical edits."
+    },
+    {
+      "timestamp": "7:52",
+      "text": "You've watched a coding session burn through its allowance just locating symbols and updating docs. Pilotish assigns six roles, pins each to an"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "appropriate tier, and requires a fresh context verifier for non-trivial changes."
+    },
+    {
+      "timestamp": "8:06",
+      "text": "Raport gets the 1996 Realtime Strategy classic Command and Conquer Red Alert running natively on Apple Silicon and"
+    },
+    {
+      "timestamp": "8:14",
+      "text": "Android. No emulator. The original was built for a long dead version of Windows. So playing it today usually means DOSsbox or a virtual machine. This"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "is a real source port on top of the code EA open sourced with SDL2 handling video, audio, and even touch input on your phone."
+    },
+    {
+      "timestamp": "8:33",
+      "text": "Tinbase is a superbase compatible backend that runs real Postgress without Docker instead of making local development spin up a whole service"
+    },
+    {
+      "timestamp": "8:41",
+      "text": "stack. You need to test RLS or a migration then wait for containers and chase a setup that behaves differently from production. Tinbase starts as one"
+    },
+    {
+      "timestamp": "8:50",
+      "text": "process, reads standard migration files and works with Superbase.js unchanged for REST, O storage, and real time."
+    },
+    {
+      "timestamp": "8:59",
+      "text": "DOTFiles is a Nyx managed Mac setup that rebuilds an agentic engineering workstation from one repo. Instead of recreating your environment by hand"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "after every new machine, you get a clean Mac, then lose a day chasing the same installs and finder settings. It"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "combines Nyx Darwin with home manager, manages homebrew and nyx packages, and keeps neovimm"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "plus shared agent rules sim linked to the repo."
+    },
+    {
+      "timestamp": "9:26",
+      "text": "Ask a model a hard open why question and you get one confident paragraph that quietly buries every rival explanation."
+    },
+    {
+      "timestamp": "9:33",
+      "text": "Deep reason refuses to let it off that easy. It makes the model conjecture a spread of bold answers, then forces each one to declare what evidence would"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "refute it, argues down the ones that can't, and runs the survivors head-to-head, writing the whole fight to a replayable log."
+    },
+    {
+      "timestamp": "9:52",
+      "text": "Notion just quietly shipped workers, small hosted TypeScript programs that give your Notion agent real tools, and this is one engineer's actual set of"
+    },
+    {
+      "timestamp": "10:00",
+      "text": "them opened up to copy. Notion on its own can't pull in your Twitter bookmarks or turn a voice note into a page. Each worker here does exactly one such job."
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Sync Twitter bookmarks, save links to Readwise, fetch any web page as clean markdown, look up book covers by ISBN."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "Folofox is a self-hosted net worth tracker with an AI layer that reasons over your own portfolio, not the usual"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "budgeting app. Most trackers dump your holdings into a spreadsheet and leave you to interpret it. This visualizes your whole portfolio across multiple currencies with live Yahoo Finance data."
+    },
+    {
+      "timestamp": "10:38",
+      "text": "Oneclick imports your positions from any broker or spreadsheet, then lets an AI answer questions about your own numbers."
+    },
+    {
+      "timestamp": "10:47",
+      "text": "Everyone's racing to feed engineering specs to coding agents, but the decision that comes first, what to build and why, still evaporates into a slack thread."
+    },
+    {
+      "timestamp": "10:56",
+      "text": "Product spec is an open standard for that layer. It's a portable markdown format with five required sections, problem, hypothesis, scope, acceptance"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "criteria, success metrics that stays the durable record of intent as workflows into Jira, Figma, or an agent loop."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "Context VC is a git native control plane for coding agent memory instead of letting crucial rules rot inside chat summaries and local config. You fix an"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "agent's bad command once, then another brancher tool forgets it entirely."
+    },
+    {
+      "timestamp": "11:26",
+      "text": "Context VC stores rules, decisions, failures, and code maps in context, renders agent native files, and checks drift in CI."
+    },
+    {
+      "timestamp": "11:35",
+      "text": "Fable method is a three-skll workflow that teaches any coding agent to think, act, and prove instead of rewarding a confident done message. The method"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "classifies the ask, names verification before editing, gathers evidence, then asks an adversarial judge to rerun"
+    },
+    {
+      "timestamp": "11:51",
+      "text": "checks and diff the work. Its trap suite tests whether agents catch fraudulent completion claims instead of trusting reports."
+    },
+    {
+      "timestamp": "12:01",
+      "text": "TXM renders real latex math as clean asy art. Right in your terminal, paste an equation into a chat or a code comment"
+    },
+    {
+      "timestamp": "12:09",
+      "text": "and it collapses to unreadable backslashes and carrots. Feed the same string to TXM and you get a properly stacked fraction. An actual square root"
+    },
+    {
+      "timestamp": "12:17",
+      "text": "sign drawn over its contents, supererscripts and binomials all laid out in monospace."
+    },
+    {
+      "timestamp": "12:23",
+      "text": "It's one Rust binary you run with a single command."
+    },
+    {
+      "timestamp": "12:27",
+      "text": "Ask an agent to rebuild an object from a photo in 3JS and it oneshots a blobby mesh that's kind of the right shape but"
+    },
+    {
+      "timestamp": "12:35",
+      "text": "loses the details that made it recognizable. This codeex plugin makes it sculpt instead. It's explicitly not photoggramometry. It guides the agent"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "from blockout to fine surface, writing pure procedural code with real pivots and sockets. So the result is animation ready."
+    },
+    {
+      "timestamp": "12:52",
+      "text": "GPT5 six relay splits one coding task across focused codeex child threads instead of asking one agent to plan, build, review, and ship all at once."
+    },
+    {
+      "timestamp": "13:03",
+      "text": "Implementation starts before the architecture is settled. Then review becomes a cleanup job. It routes each phase to the model that fits. Planning"
+    },
+    {
+      "timestamp": "13:11",
+      "text": "to Saul, implementation to Terra, release to Luna as real child threads you can open and read."
+    },
+    {
+      "timestamp": "13:18",
+      "text": "Robo Dojo is a unified SIM and real robotics benchmark that evaluates generalist manipulation policies across both simulations and physical hardware"
+    },
+    {
+      "timestamp": "13:26",
+      "text": "under a single framework. It runs 42 simulation tasks and 18 realworld tasks across three robot bodies, probes five"
+    },
+    {
+      "timestamp": "13:35",
+      "text": "dimensions from memory to precision and uses seedcontrolled layouts with leaderboard ready result artifacts."
+    },
+    {
+      "timestamp": "13:43",
+      "text": "Rigger loop is an agentic loop framework for transformation tasks, but it measures generalization instead of letting an agent grade its own homework."
+    },
+    {
+      "timestamp": "13:52",
+      "text": "You hand an agent a pile of messy examples. It nails the training set."
+    },
+    {
+      "timestamp": "13:56",
+      "text": "Then production inputs expose the overfitit. Rigor loop locks examples into dev validation and test splits,"
+    },
+    {
+      "timestamp": "14:03",
+      "text": "gives only dev data to builders, and reports confidence intervals on the final artifact."
+    },
+    {
+      "timestamp": "14:10",
+      "text": "Ditto turns your local clawed code, codecs, and cursor logs into a UMD profile so a fresh agent learns your working style instead of starting cold."
+    },
+    {
+      "timestamp": "14:19",
+      "text": "You know the loop. Restating what done means, asking for proof, then correcting the same unwanted refactor. Ditto keeps"
+    },
+    {
+      "timestamp": "14:27",
+      "text": "only your messages, redacts secrets and personal data before output, and chunks the corpus for parallel analysis."
+    },
+    {
+      "timestamp": "14:34",
+      "text": "Multi-wind pong turns separate browser windows into one shared game board instead of trapping the game inside a single tab. Arrange two windows on your"
+    },
+    {
+      "timestamp": "14:44",
+      "text": "desktop and watch the glowing ball cross the seam like it never existed. It uses local storage as a message bus, elects"
+    },
+    {
+      "timestamp": "14:51",
+      "text": "one window to run physics, and renders shared screen coordinates in every canvas."
+    },
+    {
+      "timestamp": "14:58",
+      "text": "Luxie A is an agentic ops control plane for Kubernetes built to turn incident noise into an evidence-backed human approved fix rather than letting a model"
+    },
+    {
+      "timestamp": "15:06",
+      "text": "freestyle against production. It gathers logs, topology, and runbooks, previews the remediation, then verifies recovery"
+    },
+    {
+      "timestamp": "15:14",
+      "text": "after approval. Arbback, scoped action cataloges, dry runs, and audit records keep the execution boundary with the operator."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today number 40. 35 trending open- source projects on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mentos skills is a skill library written for the design side of front end, not general coding. Ask an agent for a pricing page or a Gap animation and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 20000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "improvises, missing the conversion patterns and cleanup habits a real designer already knows. This bakes those in as reusable files. a UI prompting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "system plus procedural skills for three, JS, Tailwind, and effects like progressive blur and alpha masking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Axe is an AI era curl that gives coding agents structured page data instead of a raw HTML dump. You know the loop. Curl"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "returns an empty response. The agent shoves thousands of markup tokens into context. Then a regx parser collapses after one CSS tweak. Axe always reports"
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "status and headers. maps page structure with a outline and locate, then extracts rows or tables with selectors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lingbot World-V2 is a generative world model built for long interactive video worlds, not another clip generator that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "falls apart after a few seconds. You ask for a character action and the scene forgets where it was headed. Its causal model generates frames chunk by chunk"
+        }
+      ]
+    },
+    {
+      "tStartMs": 80000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with KV caching. The real-time variant targets 720p at 60fps and pilot plus director agents plan actions while adding new scene elements."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spacew is NASA's web assembly interpreter for flight software built for constrained hardware where a normal WAMOM runtime has too many memory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "surprises. Spacewom decodes and validates modules in one streaming pass, converts bite code into an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interpretation friendly IR and uses fixedsize allocation pages with no panic on allocation failure. It's was shaped by spacecraft rules."
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Marble skill taxonomy maps what a child learns across primary school as a connected graph, not the usual flat list"
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of standards. This breaks it into 1,590 teachable micro topics, each with an age range and evidence for mastery, then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 132000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wires 3,221 prerequisite edges between them, so you can trace everything a kid must grasp before, say, apparent brightness of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 139000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stars. Every topic links back to the real standards it came from."
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Display is a self-hosted Sidecar alternative that turns an iPhone or iPad into a real second Mac monitor instead of a paid subscription or a hardware"
+        }
+      ]
+    },
+    {
+      "tStartMs": 154000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dongle. You've got a spare screen right there, but Sidecar locks you to one Apple ID and won't use an iPhone. Open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 161000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Display supports extended displays over USB or Wi-Fi, streams Retina H.264 264 video with low latency and turns taps,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drags, and two-finger scrolling into Mac input."
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fable Cut is a full browser video editor whose entire timeline is one JSON file, so you drag clips by hand while an agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edits the exact same timeline, and the UI hot reloads in about 150 milliseconds. Tell Claude Code to cut"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "six clips to the beat, add a teal, orange grade, and caption every line, and watch it rebuild live. A revision counter stops either of you overwriting the other."
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Text to transformer trains a tiny language model from scratch on your own iMessage history entirely on your Mac."
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your messages carry your slang, punctuation, and reply rhythm, but handing them to an API is a hard no."
+        }
+      ]
+    },
+    {
+      "tStartMs": 213000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This Maconly pipeline snapshots the database readon, pseudonmomizes people, and redacts identifiers, then trains a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "custom tokenizer and transformer with MLX."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Home rail turns throwaway agent chats into auditable, replayable workflows that run on your own home server. A chat"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "session is a black box. You can't inspect why it did what it did or rerun it cleanly. This lays the work out as a DAG instead where every handoff between"
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents is traced. Each node runs isolated in its own Docker worker and any run can be replayed and scored."
+        }
+      ]
+    },
+    {
+      "tStartMs": 249000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quant is a desktop market terminal that keeps ETF and stock context local."
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of making you pay for an API just to compare a chart and the news around it, you spot a swing, then go hunting for what happened that week."
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quant links headlines to swing highs and lows, expands ETF holdings into a wider news feed, and layers CPI, yields, oil,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and VIX directly onto the chart. Its signal desk stays deterministic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codeex hygiene is a small local skill for trimming codeex desktop context bloat without treating every long task like a cash clearing emergency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This audits recent telemetry with readonly SQLite queries. Separates tool availability from actual calls and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checks whether plugins, MCP surfaces, stale project settings or replay are inflating context. Its fixes are reversible, too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Uninstall is a native Mac OS uninstaller that removes an app and every file it leaves scattered across your system."
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dragging an app to the trash leaves behind caches, preferences, containers, and login nobody ever cleans up. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matches leftovers by bundle identifier, not just folder name. So, it catches the helper files that hide under different names. It shows exactly what it'll"
+        }
+      ]
+    },
+    {
+      "tStartMs": 324000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "delete first. Easy last skill is a German first research skill that gives an agent a compact uncertainty report on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 333000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the last 30 days of a topic instead of a pile of freshlooking links. When you're trying to catch up, yesterday's hype and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "old posts blur together fast. It pulls public signals from news, hacker news, GitHub, Reddit, and YouTube. Scores"
+        }
+      ]
+    },
+    {
+      "tStartMs": 348000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "results by freshness and relevance, and supports sideby-side topic comparisons."
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "USB tree is a live USB device tree for your terminal that finally answers which port is this thing actually on and is it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even working. LSUSB gives you a flat static dump with cryptic vendor IDs and no sense of the hub layout. This draws"
+        }
+      ]
+    },
+    {
+      "tStartMs": 368000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the real tree with color-coded classes, speed badges, and friendly names, rescanning every second so a plug flashes green and an unplug lingers as a red ghost."
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've seen the look without noticing it anymore. Indigo gradients, glowing cards, emoji in every corner, all cap stats."
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's what a machine reaches for when it wants to look impressive but has no taste. Kill AI slop is a field guide cataloging 23 of these tells, each with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a before and after showing the clean fix, plus an agent skill that scans your web project for the code level signals and proposes the cleanup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fable Adviser is a clawed code plugin that makes one model the architect and routes typing to cheaper independent model lanes. Instead of asking a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent to reason, code, and grade itself, you get a confident diff, then wonder whether it passed because the same model"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wrote and reviewed it. The architect writes the spec, routes implementation, and accepts work only after reading verification evidence."
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Liquid glass brings Apple's frosted glass look to the web and does the one thing knockoffs skip. It actually bends the content behind it. This drives a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real SVG displacement map. So the panel refracts what's underneath at its rim with a faint prism fringe while the text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on top stays crisp and selectable. One file, zero dependencies on any element with a frosted fallback for Safari and Firefox."
+        }
+      ]
+    },
+    {
+      "tStartMs": 459000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pilot Fish is a global clawed code setup that keeps the best model on planning and review while cheaper sub agents handle bulk work instead of spending"
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your best model on searches and mechanical edits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've watched a coding session burn through its allowance just locating symbols and updating docs. Pilotish assigns six roles, pins each to an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "appropriate tier, and requires a fresh context verifier for non-trivial changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Raport gets the 1996 Realtime Strategy classic Command and Conquer Red Alert running natively on Apple Silicon and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 494000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Android. No emulator. The original was built for a long dead version of Windows. So playing it today usually means DOSsbox or a virtual machine. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is a real source port on top of the code EA open sourced with SDL2 handling video, audio, and even touch input on your phone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 513000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tinbase is a superbase compatible backend that runs real Postgress without Docker instead of making local development spin up a whole service"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stack. You need to test RLS or a migration then wait for containers and chase a setup that behaves differently from production. Tinbase starts as one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 530000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "process, reads standard migration files and works with Superbase.js unchanged for REST, O storage, and real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 539000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DOTFiles is a Nyx managed Mac setup that rebuilds an agentic engineering workstation from one repo. Instead of recreating your environment by hand"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "after every new machine, you get a clean Mac, then lose a day chasing the same installs and finder settings. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "combines Nyx Darwin with home manager, manages homebrew and nyx packages, and keeps neovimm"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plus shared agent rules sim linked to the repo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ask a model a hard open why question and you get one confident paragraph that quietly buries every rival explanation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 573000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deep reason refuses to let it off that easy. It makes the model conjecture a spread of bold answers, then forces each one to declare what evidence would"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "refute it, argues down the ones that can't, and runs the survivors head-to-head, writing the whole fight to a replayable log."
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Notion just quietly shipped workers, small hosted TypeScript programs that give your Notion agent real tools, and this is one engineer's actual set of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them opened up to copy. Notion on its own can't pull in your Twitter bookmarks or turn a voice note into a page. Each worker here does exactly one such job."
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sync Twitter bookmarks, save links to Readwise, fetch any web page as clean markdown, look up book covers by ISBN."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Folofox is a self-hosted net worth tracker with an AI layer that reasons over your own portfolio, not the usual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "budgeting app. Most trackers dump your holdings into a spreadsheet and leave you to interpret it. This visualizes your whole portfolio across multiple currencies with live Yahoo Finance data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Oneclick imports your positions from any broker or spreadsheet, then lets an AI answer questions about your own numbers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everyone's racing to feed engineering specs to coding agents, but the decision that comes first, what to build and why, still evaporates into a slack thread."
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Product spec is an open standard for that layer. It's a portable markdown format with five required sections, problem, hypothesis, scope, acceptance"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "criteria, success metrics that stays the durable record of intent as workflows into Jira, Figma, or an agent loop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context VC is a git native control plane for coding agent memory instead of letting crucial rules rot inside chat summaries and local config. You fix an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent's bad command once, then another brancher tool forgets it entirely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 686000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context VC stores rules, decisions, failures, and code maps in context, renders agent native files, and checks drift in CI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fable method is a three-skll workflow that teaches any coding agent to think, act, and prove instead of rewarding a confident done message. The method"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "classifies the ask, names verification before editing, gathers evidence, then asks an adversarial judge to rerun"
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checks and diff the work. Its trap suite tests whether agents catch fraudulent completion claims instead of trusting reports."
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TXM renders real latex math as clean asy art. Right in your terminal, paste an equation into a chat or a code comment"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and it collapses to unreadable backslashes and carrots. Feed the same string to TXM and you get a properly stacked fraction. An actual square root"
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sign drawn over its contents, supererscripts and binomials all laid out in monospace."
+        }
+      ]
+    },
+    {
+      "tStartMs": 743000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's one Rust binary you run with a single command."
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ask an agent to rebuild an object from a photo in 3JS and it oneshots a blobby mesh that's kind of the right shape but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loses the details that made it recognizable. This codeex plugin makes it sculpt instead. It's explicitly not photoggramometry. It guides the agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from blockout to fine surface, writing pure procedural code with real pivots and sockets. So the result is animation ready."
+        }
+      ]
+    },
+    {
+      "tStartMs": 772000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GPT5 six relay splits one coding task across focused codeex child threads instead of asking one agent to plan, build, review, and ship all at once."
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Implementation starts before the architecture is settled. Then review becomes a cleanup job. It routes each phase to the model that fits. Planning"
+        }
+      ]
+    },
+    {
+      "tStartMs": 791000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to Saul, implementation to Terra, release to Luna as real child threads you can open and read."
+        }
+      ]
+    },
+    {
+      "tStartMs": 798000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Robo Dojo is a unified SIM and real robotics benchmark that evaluates generalist manipulation policies across both simulations and physical hardware"
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "under a single framework. It runs 42 simulation tasks and 18 realworld tasks across three robot bodies, probes five"
+        }
+      ]
+    },
+    {
+      "tStartMs": 815000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dimensions from memory to precision and uses seedcontrolled layouts with leaderboard ready result artifacts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 823000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rigger loop is an agentic loop framework for transformation tasks, but it measures generalization instead of letting an agent grade its own homework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 832000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You hand an agent a pile of messy examples. It nails the training set."
+        }
+      ]
+    },
+    {
+      "tStartMs": 836000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then production inputs expose the overfitit. Rigor loop locks examples into dev validation and test splits,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 843000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gives only dev data to builders, and reports confidence intervals on the final artifact."
+        }
+      ]
+    },
+    {
+      "tStartMs": 850000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ditto turns your local clawed code, codecs, and cursor logs into a UMD profile so a fresh agent learns your working style instead of starting cold."
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You know the loop. Restating what done means, asking for proof, then correcting the same unwanted refactor. Ditto keeps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 867000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "only your messages, redacts secrets and personal data before output, and chunks the corpus for parallel analysis."
+        }
+      ]
+    },
+    {
+      "tStartMs": 874000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Multi-wind pong turns separate browser windows into one shared game board instead of trapping the game inside a single tab. Arrange two windows on your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 884000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "desktop and watch the glowing ball cross the seam like it never existed. It uses local storage as a message bus, elects"
+        }
+      ]
+    },
+    {
+      "tStartMs": 891000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one window to run physics, and renders shared screen coordinates in every canvas."
+        }
+      ]
+    },
+    {
+      "tStartMs": 898000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Luxie A is an agentic ops control plane for Kubernetes built to turn incident noise into an evidence-backed human approved fix rather than letting a model"
+        }
+      ]
+    },
+    {
+      "tStartMs": 906000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "freestyle against production. It gathers logs, topology, and runbooks, previews the remediation, then verifies recovery"
+        }
+      ]
+    },
+    {
+      "tStartMs": 914000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "after approval. Arbback, scoped action cataloges, dry runs, and audit records keep the execution boundary with the operator."
+        }
+      ]
+    }
+  ]
+}

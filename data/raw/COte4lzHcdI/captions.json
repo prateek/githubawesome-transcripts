@@ -1,0 +1,1437 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects on GitHub. Let's get into it."
+    },
+    {
+      "timestamp": "0:08",
+      "text": "User tour is a self-hostable alternative to app cues and user flow for building onboarding directly inside your product."
+    },
+    {
+      "timestamp": "0:16",
+      "text": "You can create guided tours, checklists, launchers, and surveys, then target them using custom user attributes and tracked"
+    },
+    {
+      "timestamp": "0:23",
+      "text": "events. It also keeps versions across staging and production with analytics for views, completions, and drop off points."
+    },
+    {
+      "timestamp": "0:31",
+      "text": "Alexandria is a self-hosted offline first knowledge base that sits between Notion, Obsidian, and Confluence. Its"
+    },
+    {
+      "timestamp": "0:38",
+      "text": "markdown editor handles diagrams, latex, snippets, and interactive elements, while the workspace model adds teams, nested documents, and granular access"
+    },
+    {
+      "timestamp": "0:47",
+      "text": "rules. Permissions run five levels deep per document per user and the PWA keeps working with no connection."
+    },
+    {
+      "timestamp": "0:55",
+      "text": "Home label turns a messy Home Lab spreadsheet into an interactive network map with live status built in. It can scan your local network, Q discovered"
+    },
+    {
+      "timestamp": "1:04",
+      "text": "devices for approval and monitor each node through ping, HTTP, TCP or service health endpoints. Proxmox, ziggb, and"
+    },
+    {
+      "timestamp": "1:13",
+      "text": "z-wave imports fill the canvas automatically, while floor plans and custom layouts keep it readable."
+    },
+    {
+      "timestamp": "1:19",
+      "text": "Frontman is a coding agent that starts from the running browser, then works backward to the source file behind whatever you clicked. It reads the live"
+    },
+    {
+      "timestamp": "1:27",
+      "text": "DOM, computed CSS, component tree, and server logs. So, a request like fixing card spacing comes with context terminal"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "agents usually miss. Changes land in the actual codebase with hot reload and a reviewable diff."
+    },
+    {
+      "timestamp": "1:43",
+      "text": "Nylon is a self-healing wireguard mesh that keeps traffic moving when links fail without relying on a central"
+    },
+    {
+      "timestamp": "1:50",
+      "text": "coordination server. Nodes exchange routes directly and use measured latency to choose the best multihop path, so"
+    },
+    {
+      "timestamp": "1:58",
+      "text": "machines don't all need direct connectivity. The project targets recovery in under 10 seconds after a failure, while stock WireGuard clients can join through a gateway."
+    },
+    {
+      "timestamp": "2:09",
+      "text": "Tounel log gives Navadrome a recommendation engine that learns from what you actually do instead of asking you to rate every song. Skips lower a"
+    },
+    {
+      "timestamp": "2:18",
+      "text": "track score, full plays raise it, and repeats count even more with recency and discovery mixed into the final"
+    },
+    {
+      "timestamp": "2:25",
+      "text": "playlists. It can also sync your library, improve search with fuzzy matching, and pull collaborative suggestions from listenrains."
+    },
+    {
+      "timestamp": "2:34",
+      "text": "USB bridge remote puts hardware KVM access and software remote desktop in one client, so the same dashboard can"
+    },
+    {
+      "timestamp": "2:42",
+      "text": "reach a machine before boot or after the operating system loads. The agent handles screen capture and remote input, while Tailscale provides encrypted"
+    },
+    {
+      "timestamp": "2:51",
+      "text": "peer-to-peer networking without manual port forwarding. It also supports moonlight-based streaming and clients across desktop and mobile platforms."
+    },
+    {
+      "timestamp": "3:01",
+      "text": "Rocketplane is a self-hosted AI S sur for Kubernetes that can investigate incidents and apply fixes without handing an LLM unrestricted cubectale"
+    },
+    {
+      "timestamp": "3:10",
+      "text": "access. EBPF tracing map service traffic without changing application code. Then the copilot proposes actions from a"
+    },
+    {
+      "timestamp": "3:17",
+      "text": "fixed risk graded catalog. Each change runs through approval, verification, and automatic roll back. if the cluster doesn't converge."
+    },
+    {
+      "timestamp": "3:27",
+      "text": "Comp PDF self-hosted is a Docker deployed document processing platform for teams that don't want files leaving their infrastructure. It puts PDF"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "editing, merging, splitting, encryption, and conversion behind both a browser interface and an API with support for Office files, images, HTML, and"
+    },
+    {
+      "timestamp": "3:43",
+      "text": "structured text formats. The admin console tracks API keys, usage, licenses, and operation logs."
+    },
+    {
+      "timestamp": "3:52",
+      "text": "Email to print turns an ordinary mailbox into a private print queue without routing family documents through a printer vendor's cloud. A small Python"
+    },
+    {
+      "timestamp": "4:01",
+      "text": "service watches a dedicated folder, rejects senders outside your allow list, converts office attachments with Libra Office, and hands printable files to"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "cups. It can even print the email body and send a confirmation afterward."
+    },
+    {
+      "timestamp": "4:16",
+      "text": "Midday brings invoicing, time tracking, receipt matching, and financial reporting into one workspace built for"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "freelancers. If your business admin lives across disconnected tabs and subscriptions, this is the consolidation play. Magic Inbox pairs receipts with"
+    },
+    {
+      "timestamp": "4:33",
+      "text": "transactions, the tracker connects hours to projects, and Vault keeps contracts close to the numbers."
+    },
+    {
+      "timestamp": "4:40",
+      "text": "Portal.js turns a data portal brief into plain editable Nex.js JS instead of trapping you inside a proprietary builder. Its agent skills can recommend"
+    },
+    {
+      "timestamp": "4:48",
+      "text": "an architecture, scaffold the home, catalog, and data set pages, then load CSV, JSON, or GOJSON. A single data"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "provider contract lets the frontend move from static files to CCAN or open metadata without rewriting every page."
+    },
+    {
+      "timestamp": "5:04",
+      "text": "To duty is a self-hosted life and project organizer that keeps tasks, notes, and planning data on your own server. The hierarchy is practical."
+    },
+    {
+      "timestamp": "5:12",
+      "text": "Areas contain projects. Projects collect tasks and notes and tags cut across everything. Recurring tasks handle"
+    },
+    {
+      "timestamp": "5:20",
+      "text": "completionbased schedules, while Telegram gives you quick capture and daily digests."
+    },
+    {
+      "timestamp": "5:26",
+      "text": "Dashwise is a self-hosted home lab dashboard you configure through the interface. So adding services doesn't mean living in YAML. It keeps links,"
+    },
+    {
+      "timestamp": "5:35",
+      "text": "search, and notifications in one start page with widgets for things like weather and bessel. RSS subscriptions"
+    },
+    {
+      "timestamp": "5:43",
+      "text": "can turn the same screen into a compact news reader. Enough monitoring to be useful without pretending to replace your actual observability stack."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "Kanddev is a self-hosted control plane for running coding agents in parallel with review built into the workflow instead of bolted on afterward. Tasks"
+    },
+    {
+      "timestamp": "6:02",
+      "text": "live on a canbon board. Each agent gets an isolated git work tree and the workspace keeps code terminals, browser"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "previews, and diffs together. It supports multiple agent providers and local docker or SSH execution."
+    },
+    {
+      "timestamp": "6:17",
+      "text": "4GA boards is a self-hosted Canbon app for teams that want realtime collaboration without handing project data to a SAS vendor. Its hierarchy runs"
+    },
+    {
+      "timestamp": "6:26",
+      "text": "from projects down to individual tasks, while collapsible lists keep larger boards readable. You can edit a card and"
+    },
+    {
+      "timestamp": "6:33",
+      "text": "rearrange the board at the same time without losing local description changes. Trello import is built in."
+    },
+    {
+      "timestamp": "6:40",
+      "text": "Docker compose Postgres behind it."
+    },
+    {
+      "timestamp": "6:44",
+      "text": "Diction speech to text into a full iOS keyboard, so dictation works inside any app instead of living in a separate"
+    },
+    {
+      "timestamp": "6:51",
+      "text": "recorder. You can run Whisper or Parakeet directly on the phone, point it at any OpenAI compatible transcription server, or self-host the included"
+    },
+    {
+      "timestamp": "7:00",
+      "text": "encrypted gateway. The same keyboard can also compose and rewrite text through custom AI modes."
+    },
+    {
+      "timestamp": "7:07",
+      "text": "Airpipe sends files between the terminal and a browser using a short passphrase without setting up SSH accounts or uploading everything to permanent"
+    },
+    {
+      "timestamp": "7:15",
+      "text": "storage. In direct mode, the devices pair through a relay and stream over WebRTC while the relay sees only cipher"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "text. If both sides can't be online together, mailbox mode holds the encrypted file briefly. The same phrase works from CLI, browser, or QR code."
+    },
+    {
+      "timestamp": "7:34",
+      "text": "Shelf text is a multi-user reading tracker that ranks your ownto- read shelf with transparent rules instead of a mystery recommendation feed. Each"
+    },
+    {
+      "timestamp": "7:42",
+      "text": "account gets separate book data in postgresql with statuses, progress, ratings, and CSV backup. The fast API"
+    },
+    {
+      "timestamp": "7:50",
+      "text": "endpoint scores unread books from author preferences in your reading history. And the logic lives in a clean isolated"
+    },
+    {
+      "timestamp": "7:57",
+      "text": "ranking layer. Uptime kit combines self-hosted uptime monitoring with public status pages. And its real differentiator is distributed probing."
+    },
+    {
+      "timestamp": "8:07",
+      "text": "You can run multiple workers in different locations, checking HTTP or TCP services, while the central app handles assignments, incidents, and"
+    },
+    {
+      "timestamp": "8:16",
+      "text": "response time history. Teams and organizations are built in, and ClickHouse is optional for deeper analytics."
+    },
+    {
+      "timestamp": "8:23",
+      "text": "Rutario is a self-hosted fleet platform that connects directly to GPS hardware, so vehicle locations and sensor data"
+    },
+    {
+      "timestamp": "8:30",
+      "text": "stay on infrastructure you control. It understands eight native tracker protocols, draws live positions on a map, and replays trips with sensor"
+    },
+    {
+      "timestamp": "8:39",
+      "text": "graphs. Alerts cover geoences, speeding, idling, and maintenance with routing to channels like email or Telegram."
+    },
+    {
+      "timestamp": "8:48",
+      "text": "Rootprint is a self-hosted log platform that puts full text search over object storage instead of asking you to operate a stateful elastic search style cluster."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "It accepts logs through open telemetry, indexes them with quickwit, and keeps the underlying splits in S3 compatible"
+    },
+    {
+      "timestamp": "9:04",
+      "text": "storage. The UI stays focused on incident work, field filters, histograms, saved queries, and surrounding log context."
+    },
+    {
+      "timestamp": "9:14",
+      "text": "Monot is a self-hosted observability stack designed to accept the tooling you already have, including Sentry SDKs, data dog agents, and open telemetry"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "exporters. That means errors, traces, logs, metrics, replays, uptime checks, and feature flags can land in one system without rewriting every integration."
+    },
+    {
+      "timestamp": "9:33",
+      "text": "Click house handles the heavy side while PostgresQL and Reddus support the rest."
+    },
+    {
+      "timestamp": "9:39",
+      "text": "Freeframe is a self-hosted media review workspace that keeps production files and client feedback on infrastructure you control. Reviewers can leave frame"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "accurate comments, draw directly on video or images, and compare two revisions side by side with synchronized playback."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "The practical win comes after review."
+    },
+    {
+      "timestamp": "9:58",
+      "text": "Comments export as timeline markers for Final Cut Pro or Premiere. KBORP makes another computer's files appear as a"
+    },
+    {
+      "timestamp": "10:06",
+      "text": "real folder on your machine, so you can open a large file before the transfer finishes. Its fuse mode lets native"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "apps, editors, and even git work against the remote folder while changes sync back. It discovers peers automatically"
+    },
+    {
+      "timestamp": "10:21",
+      "text": "on a LAN, then chooses a direct path or an encrypted relay across the internet."
+    },
+    {
+      "timestamp": "10:27",
+      "text": "Grimmoire turns a folder full of tabletop RPG PDFs into a self-hosted campaign library. Instead of making you hunt through file names midsession, it"
+    },
+    {
+      "timestamp": "10:36",
+      "text": "indexes every page with SQLite full text search, uses OCR for scanned books, and serves a mobile friendly page viewer."
+    },
+    {
+      "timestamp": "10:44",
+      "text": "Maps, tokens, audio, bookmarks, and campaign notes live beside the rule books while the source files stay mounted readonly."
+    },
+    {
+      "timestamp": "10:52",
+      "text": "Notesme is a self-hosted notes app for people who want folders and version history without deploying a whole knowledge platform. The front end uses"
+    },
+    {
+      "timestamp": "11:01",
+      "text": "plain JavaScript with no framework or bundler, while fast API and SQLite keep the backend compact. You get nested"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "folders, automatic snapshots, offline read access, and optional encryption for note content at rest."
+    },
+    {
+      "timestamp": "11:16",
+      "text": "F3 vision puts industrial point clouds and panoramic imagery in one viewer, so factory scans are more than static files"
+    },
+    {
+      "timestamp": "11:24",
+      "text": "on a workstation. You can navigate the 3D scene in a browser, inspect measurements, and view panoramas for"
+    },
+    {
+      "timestamp": "11:31",
+      "text": "visual context. It runs as a desktop app or through a Dockerhosted server, including onremise deployments."
+    },
+    {
+      "timestamp": "11:39",
+      "text": "Lince is a self-hosted event photo wall where guests scan a QR code and start sharing without creating accounts. They"
+    },
+    {
+      "timestamp": "11:46",
+      "text": "can upload, browse, tag, like, and comment. with new photos appearing live."
+    },
+    {
+      "timestamp": "11:51",
+      "text": "The host gets moderation controls and can export the originals to a local folder. It also strips XIF metadata"
+    },
+    {
+      "timestamp": "11:58",
+      "text": "during upload, which is a thoughtful default when dozens of phones are feeding one private event gallery."
+    },
+    {
+      "timestamp": "12:05",
+      "text": "Jarvis is a self-hosted voice assistant where speech recognition, voice generation, and command routing can stay on your own hardware. It uses Whisper"
+    },
+    {
+      "timestamp": "12:14",
+      "text": "for transcription, Piper or Cocooro for speech, and can identify different household speakers for personal context."
+    },
+    {
+      "timestamp": "12:22",
+      "text": "You can bring a cloud model or run one locally, then extend commands through packages."
+    },
+    {
+      "timestamp": "12:28",
+      "text": "Ignis runs Obsidian as an actual self-hosted web app instead of streaming a desktop through VNC. It replaces the"
+    },
+    {
+      "timestamp": "12:35",
+      "text": "Electron APIs Obsidian expects with browser compatible versions while keeping Vault files on your server. Core editing, canvas, themes, and many"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "community plugins work, plus live sync between tabs. Some node dependent plugins won't load, and Ignis has no built-in authentication, so don't expose it raw."
+    },
+    {
+      "timestamp": "12:55",
+      "text": "Isola gives AI agents somewhere safer to run generated code, disposable sandboxes on your own Kubernetes cluster. Each pod"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "uses G Visor for an extra application kernel boundary, starts with network access denied, and can enforce per sandbox resource limits. Its Python,"
+    },
+    {
+      "timestamp": "13:11",
+      "text": "TypeScript, and REST APIs handle commands, files, and streamed output."
+    },
+    {
+      "timestamp": "13:17",
+      "text": "LAN orangutan turns basic network scans into a persistent inventory for your own home lab. It uses end mapap to discover"
+    },
+    {
+      "timestamp": "13:24",
+      "text": "devices, then lets you attach names, groups, and notes so the same mystery IP doesn't confuse you next week. The web"
+    },
+    {
+      "timestamp": "13:32",
+      "text": "dashboard tracks online status across multiple networks, while the CLI returns JSON for scripts. Tailscale support also"
+    },
+    {
+      "timestamp": "13:39",
+      "text": "brings remote nodes into the same view, which is handy once the lab escapes one subnet. Timelot is a self-hosted"
+    },
+    {
+      "timestamp": "13:47",
+      "text": "scheduling platform that keeps booking pages, calendar data, and meeting automation on infrastructure you control. It checks connected calendars"
+    },
+    {
+      "timestamp": "13:56",
+      "text": "at booking time to block conflicts, then can create a video room and send confirmation emails with calendar files."
+    },
+    {
+      "timestamp": "14:03",
+      "text": "Availability rules cover buffers, holidays, and minimum notice."
+    },
+    {
+      "timestamp": "14:08",
+      "text": "Wardnet turns a Linux box or Raspberry Pi into a privacy gateway for every device on your network, including gadgets that can't run VPN software"
+    },
+    {
+      "timestamp": "14:16",
+      "text": "themselves. You can route devices through different WireGuard tunnels, apply separate DNS block lists, and isolate IoT or guest hardware with"
+    },
+    {
+      "timestamp": "14:25",
+      "text": "firewall zones. It also handles local DNS and DHCP from one dashboard."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects on GitHub. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "User tour is a self-hostable alternative to app cues and user flow for building onboarding directly inside your product."
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can create guided tours, checklists, launchers, and surveys, then target them using custom user attributes and tracked"
+        }
+      ]
+    },
+    {
+      "tStartMs": 23000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "events. It also keeps versions across staging and production with analytics for views, completions, and drop off points."
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Alexandria is a self-hosted offline first knowledge base that sits between Notion, Obsidian, and Confluence. Its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markdown editor handles diagrams, latex, snippets, and interactive elements, while the workspace model adds teams, nested documents, and granular access"
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rules. Permissions run five levels deep per document per user and the PWA keeps working with no connection."
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Home label turns a messy Home Lab spreadsheet into an interactive network map with live status built in. It can scan your local network, Q discovered"
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "devices for approval and monitor each node through ping, HTTP, TCP or service health endpoints. Proxmox, ziggb, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "z-wave imports fill the canvas automatically, while floor plans and custom layouts keep it readable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 79000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Frontman is a coding agent that starts from the running browser, then works backward to the source file behind whatever you clicked. It reads the live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DOM, computed CSS, component tree, and server logs. So, a request like fixing card spacing comes with context terminal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents usually miss. Changes land in the actual codebase with hot reload and a reviewable diff."
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nylon is a self-healing wireguard mesh that keeps traffic moving when links fail without relying on a central"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "coordination server. Nodes exchange routes directly and use measured latency to choose the best multihop path, so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "machines don't all need direct connectivity. The project targets recovery in under 10 seconds after a failure, while stock WireGuard clients can join through a gateway."
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tounel log gives Navadrome a recommendation engine that learns from what you actually do instead of asking you to rate every song. Skips lower a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "track score, full plays raise it, and repeats count even more with recency and discovery mixed into the final"
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "playlists. It can also sync your library, improve search with fuzzy matching, and pull collaborative suggestions from listenrains."
+        }
+      ]
+    },
+    {
+      "tStartMs": 154000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "USB bridge remote puts hardware KVM access and software remote desktop in one client, so the same dashboard can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reach a machine before boot or after the operating system loads. The agent handles screen capture and remote input, while Tailscale provides encrypted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "peer-to-peer networking without manual port forwarding. It also supports moonlight-based streaming and clients across desktop and mobile platforms."
+        }
+      ]
+    },
+    {
+      "tStartMs": 181000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rocketplane is a self-hosted AI S sur for Kubernetes that can investigate incidents and apply fixes without handing an LLM unrestricted cubectale"
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "access. EBPF tracing map service traffic without changing application code. Then the copilot proposes actions from a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fixed risk graded catalog. Each change runs through approval, verification, and automatic roll back. if the cluster doesn't converge."
+        }
+      ]
+    },
+    {
+      "tStartMs": 207000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Comp PDF self-hosted is a Docker deployed document processing platform for teams that don't want files leaving their infrastructure. It puts PDF"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "editing, merging, splitting, encryption, and conversion behind both a browser interface and an API with support for Office files, images, HTML, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 223000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "structured text formats. The admin console tracks API keys, usage, licenses, and operation logs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Email to print turns an ordinary mailbox into a private print queue without routing family documents through a printer vendor's cloud. A small Python"
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "service watches a dedicated folder, rejects senders outside your allow list, converts office attachments with Libra Office, and hands printable files to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cups. It can even print the email body and send a confirmation afterward."
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Midday brings invoicing, time tracking, receipt matching, and financial reporting into one workspace built for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "freelancers. If your business admin lives across disconnected tabs and subscriptions, this is the consolidation play. Magic Inbox pairs receipts with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transactions, the tracker connects hours to projects, and Vault keeps contracts close to the numbers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 280000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Portal.js turns a data portal brief into plain editable Nex.js JS instead of trapping you inside a proprietary builder. Its agent skills can recommend"
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an architecture, scaffold the home, catalog, and data set pages, then load CSV, JSON, or GOJSON. A single data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "provider contract lets the frontend move from static files to CCAN or open metadata without rewriting every page."
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "To duty is a self-hosted life and project organizer that keeps tasks, notes, and planning data on your own server. The hierarchy is practical."
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Areas contain projects. Projects collect tasks and notes and tags cut across everything. Recurring tasks handle"
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "completionbased schedules, while Telegram gives you quick capture and daily digests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dashwise is a self-hosted home lab dashboard you configure through the interface. So adding services doesn't mean living in YAML. It keeps links,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "search, and notifications in one start page with widgets for things like weather and bessel. RSS subscriptions"
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can turn the same screen into a compact news reader. Enough monitoring to be useful without pretending to replace your actual observability stack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kanddev is a self-hosted control plane for running coding agents in parallel with review built into the workflow instead of bolted on afterward. Tasks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live on a canbon board. Each agent gets an isolated git work tree and the workspace keeps code terminals, browser"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "previews, and diffs together. It supports multiple agent providers and local docker or SSH execution."
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "4GA boards is a self-hosted Canbon app for teams that want realtime collaboration without handing project data to a SAS vendor. Its hierarchy runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from projects down to individual tasks, while collapsible lists keep larger boards readable. You can edit a card and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rearrange the board at the same time without losing local description changes. Trello import is built in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker compose Postgres behind it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Diction speech to text into a full iOS keyboard, so dictation works inside any app instead of living in a separate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 411000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recorder. You can run Whisper or Parakeet directly on the phone, point it at any OpenAI compatible transcription server, or self-host the included"
+        }
+      ]
+    },
+    {
+      "tStartMs": 420000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "encrypted gateway. The same keyboard can also compose and rewrite text through custom AI modes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Airpipe sends files between the terminal and a browser using a short passphrase without setting up SSH accounts or uploading everything to permanent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 435000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storage. In direct mode, the devices pair through a relay and stream over WebRTC while the relay sees only cipher"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text. If both sides can't be online together, mailbox mode holds the encrypted file briefly. The same phrase works from CLI, browser, or QR code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 454000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shelf text is a multi-user reading tracker that ranks your ownto- read shelf with transparent rules instead of a mystery recommendation feed. Each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "account gets separate book data in postgresql with statuses, progress, ratings, and CSV backup. The fast API"
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "endpoint scores unread books from author preferences in your reading history. And the logic lives in a clean isolated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ranking layer. Uptime kit combines self-hosted uptime monitoring with public status pages. And its real differentiator is distributed probing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can run multiple workers in different locations, checking HTTP or TCP services, while the central app handles assignments, incidents, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "response time history. Teams and organizations are built in, and ClickHouse is optional for deeper analytics."
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rutario is a self-hosted fleet platform that connects directly to GPS hardware, so vehicle locations and sensor data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 510000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stay on infrastructure you control. It understands eight native tracker protocols, draws live positions on a map, and replays trips with sensor"
+        }
+      ]
+    },
+    {
+      "tStartMs": 519000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "graphs. Alerts cover geoences, speeding, idling, and maintenance with routing to channels like email or Telegram."
+        }
+      ]
+    },
+    {
+      "tStartMs": 528000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rootprint is a self-hosted log platform that puts full text search over object storage instead of asking you to operate a stateful elastic search style cluster."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It accepts logs through open telemetry, indexes them with quickwit, and keeps the underlying splits in S3 compatible"
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storage. The UI stays focused on incident work, field filters, histograms, saved queries, and surrounding log context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Monot is a self-hosted observability stack designed to accept the tooling you already have, including Sentry SDKs, data dog agents, and open telemetry"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exporters. That means errors, traces, logs, metrics, replays, uptime checks, and feature flags can land in one system without rewriting every integration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 573000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Click house handles the heavy side while PostgresQL and Reddus support the rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Freeframe is a self-hosted media review workspace that keeps production files and client feedback on infrastructure you control. Reviewers can leave frame"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "accurate comments, draw directly on video or images, and compare two revisions side by side with synchronized playback."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The practical win comes after review."
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Comments export as timeline markers for Final Cut Pro or Premiere. KBORP makes another computer's files appear as a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real folder on your machine, so you can open a large file before the transfer finishes. Its fuse mode lets native"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apps, editors, and even git work against the remote folder while changes sync back. It discovers peers automatically"
+        }
+      ]
+    },
+    {
+      "tStartMs": 621000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on a LAN, then chooses a direct path or an encrypted relay across the internet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grimmoire turns a folder full of tabletop RPG PDFs into a self-hosted campaign library. Instead of making you hunt through file names midsession, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 636000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "indexes every page with SQLite full text search, uses OCR for scanned books, and serves a mobile friendly page viewer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 644000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Maps, tokens, audio, bookmarks, and campaign notes live beside the rule books while the source files stay mounted readonly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Notesme is a self-hosted notes app for people who want folders and version history without deploying a whole knowledge platform. The front end uses"
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plain JavaScript with no framework or bundler, while fast API and SQLite keep the backend compact. You get nested"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "folders, automatic snapshots, offline read access, and optional encryption for note content at rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "F3 vision puts industrial point clouds and panoramic imagery in one viewer, so factory scans are more than static files"
+        }
+      ]
+    },
+    {
+      "tStartMs": 684000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on a workstation. You can navigate the 3D scene in a browser, inspect measurements, and view panoramas for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 691000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "visual context. It runs as a desktop app or through a Dockerhosted server, including onremise deployments."
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lince is a self-hosted event photo wall where guests scan a QR code and start sharing without creating accounts. They"
+        }
+      ]
+    },
+    {
+      "tStartMs": 706000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can upload, browse, tag, like, and comment. with new photos appearing live."
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The host gets moderation controls and can export the originals to a local folder. It also strips XIF metadata"
+        }
+      ]
+    },
+    {
+      "tStartMs": 718000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "during upload, which is a thoughtful default when dozens of phones are feeding one private event gallery."
+        }
+      ]
+    },
+    {
+      "tStartMs": 725000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jarvis is a self-hosted voice assistant where speech recognition, voice generation, and command routing can stay on your own hardware. It uses Whisper"
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for transcription, Piper or Cocooro for speech, and can identify different household speakers for personal context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can bring a cloud model or run one locally, then extend commands through packages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ignis runs Obsidian as an actual self-hosted web app instead of streaming a desktop through VNC. It replaces the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Electron APIs Obsidian expects with browser compatible versions while keeping Vault files on your server. Core editing, canvas, themes, and many"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "community plugins work, plus live sync between tabs. Some node dependent plugins won't load, and Ignis has no built-in authentication, so don't expose it raw."
+        }
+      ]
+    },
+    {
+      "tStartMs": 775000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Isola gives AI agents somewhere safer to run generated code, disposable sandboxes on your own Kubernetes cluster. Each pod"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uses G Visor for an extra application kernel boundary, starts with network access denied, and can enforce per sandbox resource limits. Its Python,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 791000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TypeScript, and REST APIs handle commands, files, and streamed output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LAN orangutan turns basic network scans into a persistent inventory for your own home lab. It uses end mapap to discover"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "devices, then lets you attach names, groups, and notes so the same mystery IP doesn't confuse you next week. The web"
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dashboard tracks online status across multiple networks, while the CLI returns JSON for scripts. Tailscale support also"
+        }
+      ]
+    },
+    {
+      "tStartMs": 819000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "brings remote nodes into the same view, which is handy once the lab escapes one subnet. Timelot is a self-hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 827000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scheduling platform that keeps booking pages, calendar data, and meeting automation on infrastructure you control. It checks connected calendars"
+        }
+      ]
+    },
+    {
+      "tStartMs": 836000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "at booking time to block conflicts, then can create a video room and send confirmation emails with calendar files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 843000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Availability rules cover buffers, holidays, and minimum notice."
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wardnet turns a Linux box or Raspberry Pi into a privacy gateway for every device on your network, including gadgets that can't run VPN software"
+        }
+      ]
+    },
+    {
+      "tStartMs": 856000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "themselves. You can route devices through different WireGuard tunnels, apply separate DNS block lists, and isolate IoT or guest hardware with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 865000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "firewall zones. It also handles local DNS and DHCP from one dashboard."
+        }
+      ]
+    }
+  ]
+}
