@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "id": "z2bBycujTmw",
+  "title": "GitHub Trending Weekly #43: Cloudflare Computer, waku-agent, querysplat, findphone, Soup, morphicons",
+  "url": "https://www.youtube.com/watch?v=z2bBycujTmw",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-05",
+  "duration": 941,
+  "word_count": 2413,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T05:01:53+00:00",
+    "metadata_sha256": "b26e43dfd691d2ac9017f963b4ad3a5f7c0d5fc3a2fb9a875a7c60dfcd17aeb4",
+    "captions_sha256": "ea1647f2b420ecf263c6142a2376339218275db64549c818b15c8367a4817091",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 43. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "Cloudflare Computer",
+      "repositories": [
+        "https://github.com/cloudflare/computer"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Cloudflare computer gives an agent a file system whose authoritative copy lives in a durable object SQLite then projects it into whichever execution surface you pick. A container mounts it as a real fuse file system with a full Linux userland and real binaries. Lighter backends run a shell or an ECMAScript module in a dynamic worker hitting the same store over RPC with no sync round trip."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "waku-agent",
+      "repositories": [
+        "https://github.com/ShenSeanChen/waku-agent"
+      ],
+      "id": "s003",
+      "end": 62,
+      "paragraphs": [
+        "Waku agent is a personal assistant you read rather than install built to show the four parts of any real agent harness loop memory and a val. The loop is about 95 lines of plain Python with no framework hiding it. The interesting piece is a retrieval gate that first asks whether a turn needs memory at all since irrelevant memories bias answers. Memory is one SQLite file you can open."
+      ]
+    },
+    {
+      "start": 62,
+      "title": "querysplat",
+      "repositories": [
+        "https://github.com/inspatio/querysplat"
+      ],
+      "id": "s004",
+      "end": 89,
+      "paragraphs": [
+        "Query splat predicts 3D Gaussian splats from a handful of photos of one scene and the paper's idea is separating the geometry representation from the appearance one rather than learning both in the same tangle. The release runs feed forward or with test time optimization for a short refinement pass. It exports Gaussian ply files at your chosen opacity thresholds plus predicted cameras and depth point clouds."
+      ]
+    },
+    {
+      "start": 89,
+      "title": "anydoc",
+      "repositories": [
+        "https://github.com/firecrawl/anydoc"
+      ],
+      "id": "s005",
+      "end": 114,
+      "paragraphs": [
+        "Any doc converts word, powerpoint, excel, open document, rtf, eub, csv, and pdf into markdown written in rust with node and python bindings. Every format parses into one shared document model and renders through one serializer. So a table escaping fix for DOCX fixes RTF and ODT at the same time. Format detection reads the bytes rather than the extension. So mislabeled files still convert."
+      ]
+    },
+    {
+      "start": 114,
+      "title": "cargo-frisk",
+      "repositories": [
+        "https://github.com/HaidarJbeily7/cargo-frisk"
+      ],
+      "id": "s006",
+      "end": 141,
+      "paragraphs": [
+        "Cargo frisk checks what cargo actually ships rather than what git tracks and those differ. Cargo package includes unttracked but unignored files. So a stray.env invisible to your secret scanner still lands in the tarball on crates.io permanently. It diffs the built crate against git ls files, then runs git leaks derived rules over the packaged files. An entropy gate and path context stop test fixtures failing your build. Fingerframe AI turns the two-hand"
+      ]
+    },
+    {
+      "start": 141,
+      "title": "finger-frame-effect-ai",
+      "repositories": [
+        "https://github.com/sophiamyang/finger-frame-effect-ai"
+      ],
+      "id": "s007",
+      "end": 167,
+      "paragraphs": [
+        "framing gesture into a window onto an AI generated version of the same video. A videotovideo model regenerates the whole clip. So the animated version blinks and moves exactly as you did. And every prompt gets a strict alignment suffix appended. No zoom or recentering facial features at the same screen coordinates so it lines up behind the frame. Gen"
+      ]
+    },
+    {
+      "start": 167,
+      "title": "genoffice",
+      "repositories": [
+        "https://github.com/genspark-ai/genoffice"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "puts document spreadsheet presentation and PDF editors into one desktop suite with model driven editing built into each workspace. Its most interesting detail is file preservation. DocX saves regenerate only changed paragraphs while untouched XML and archive entries remain bite forbite intact. Sheets uses a Rust import and export sidecar and slides has its own pptx renderer."
+      ]
+    },
+    {
+      "start": 192,
+      "title": "findphone",
+      "repositories": [
+        "https://github.com/ben-z/findphone"
+      ],
+      "id": "s009",
+      "end": 218,
+      "paragraphs": [
+        "Find locates a nearby Bluetooth device from the Mac OS command line for when Find My is switched off. Run it with a name and it tracks signal strength with an optional click that speeds up as you close in. So you sweep a room by ear. The author is careful about what the number means, saying plainly that a phone in a filing cabinet 2 meters away reads like 1 15 meters off."
+      ]
+    },
+    {
+      "start": 218,
+      "title": "Soup",
+      "repositories": [
+        "https://github.com/MakazhanAlpamys/Soup"
+      ],
+      "id": "s010",
+      "end": 242,
+      "paragraphs": [
+        "Soup fine-tunes LLMs from one YAML file and one command, handling batch size, GPU detection, and quantization for you, running locally on your own card with Qura. The interesting new piece is reward hack mitigation for GRPO runs. When multiple signals agree, the model is gaming the reward. It raises the KL coefficient, then rolls back to the last good checkpoint if that fails."
+      ]
+    },
+    {
+      "start": 242,
+      "title": "morphicons",
+      "repositories": [
+        "https://github.com/guillermolg00/morphicons"
+      ],
+      "id": "s011",
+      "end": 271,
+      "paragraphs": [
+        "Morphicons morphs any stroke icon into any other. And the trick is that rotations are never declared by hand. It solves the optimal similarity between the two shapes in closed form, then interpolates rotation, scale, and residual, each in its own space. So, arrow right to arrow down comes out as a clean 90° turn because the math found it. Corners are anchored as exact sample points, so a check mark doesn't round off in transit."
+      ]
+    },
+    {
+      "start": 271,
+      "title": "Backchannel",
+      "repositories": [
+        "https://github.com/twalichiewicz/Backchannel"
+      ],
+      "id": "s012",
+      "end": 300,
+      "paragraphs": [
+        "Back channel is a user script that puts the hacker news and Reddit threads about whatever you're reading in a sidebar on the article itself. Quotes in the comments get matched back into the page and highlighted where they sit. So, clicking a highlight filters the thread to people arguing about that exact passage. You can vote and reply through your existing HN session. Reddit is readon and off by default since enabling it sends your browsing to Reddit."
+      ]
+    },
+    {
+      "start": 300,
+      "title": "vphone-ws",
+      "repositories": [
+        "https://github.com/zqxwce/vphone-ws"
+      ],
+      "id": "s013",
+      "end": 329,
+      "paragraphs": [
+        "Vphone workstation is a native Mac OS app for running virtual iPhones wrapping Locker 233's VPON Cly in a real library window. Every VM with its live state, iOS and cloud OS build, CPU, memory, and UDID at a glance, plus clone, rename, and export. The create wizard streams progress step by step and hands you an exportable log. It checks host readiness first since these research VMs need SIP research guests allowed and AMFI bypassed."
+      ]
+    },
+    {
+      "start": 329,
+      "title": "Swiftlet",
+      "repositories": [
+        "https://github.com/leonickson1/Swiftlet"
+      ],
+      "id": "s014",
+      "end": 355,
+      "paragraphs": [
+        "Swift runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels handle inference. The maintainer reports the 35B model using about 25 GB of RAM on an iPhone 17 at roughly one token per second."
+      ]
+    },
+    {
+      "start": 355,
+      "title": "capptivo",
+      "repositories": [
+        "https://github.com/SECHAK-AG/capptivo"
+      ],
+      "id": "s015",
+      "end": 382,
+      "paragraphs": [
+        "Captivo is a screen recorder for demo videos, the kind where the camera follows your cursor and clicks trigger zooms. Open a fresh recording and it suggests zoom fragments from where you actually clicked. Capture runs native per platform, Screen Capture Kit, Windows Graphics Capture, and Pipewire into hardware H.264 264 with a crash safe fragmented MP4. Captions run on device through whisper.cpp."
+      ]
+    },
+    {
+      "start": 382,
+      "title": "shitty",
+      "repositories": [
+        "https://github.com/pg83/shitty"
+      ],
+      "id": "s016",
+      "end": 409,
+      "paragraphs": [
+        "Shitty is a terminal emulator that keeps all its state on the CPU and hands rendering to a single Vulcan compute shader, drawing only the cells that actually changed. It's a hard fork and rewrite of Zuti. Coverage is deep for the parts people hit daily. Kitty keyboard protocol, five mouse protocols, scroll back that reflows on resize, OSC8 hyperlinks, no sixle and no birectional text which the readme states plainly bindwidth sizes an on-prem LLM deployment by finding the constraint"
+      ]
+    },
+    {
+      "start": 409,
+      "title": "bindwidth",
+      "repositories": [
+        "https://github.com/juxhinr/bindwidth"
+      ],
+      "id": "s017",
+      "end": 434,
+      "paragraphs": [
+        "that actually stops it rather than guessing from model size alone. It calculates memory for the KV cache, shared prefill, and decode capacity and the runtime session ceiling, then identifies which limit binds. Hardware profiles distinguish measured results from estimates, and scenarios export as markdown or JSON."
+      ]
+    },
+    {
+      "start": 434,
+      "title": "open-edit",
+      "repositories": [
+        "https://github.com/veedstudio/open-edit"
+      ],
+      "id": "s018",
+      "end": 460,
+      "paragraphs": [
+        "OpenEdit burns stylized subtitles into a video from your coding agent. point clawed code or codeex at a file and it transcribes, designs captions to match the clip, renders through ffmpeg and opens a preview, then takes plain language corrections like moving the text up or emphasizing one word. Transcription uploads your video to V and spends credits from a free account you have to create."
+      ]
+    },
+    {
+      "start": 460,
+      "title": "da-cli",
+      "repositories": [
+        "https://github.com/FZ2000/da-cli"
+      ],
+      "id": "s019",
+      "end": 486,
+      "paragraphs": [
+        "backs up the DeviantArt art you follow to a local folder and the whole tool is Python standard library with zero runtime dependencies. A SQLite index means a rerun costs one API call when nothing new was posted. So a daily launch job is nearly free. Secrets go to the Mac OS keychain rather than a dot file and a diagnose command tells you when a scheduled run has been quietly failing."
+      ]
+    },
+    {
+      "start": 486,
+      "title": "VirtualMacOniPad",
+      "repositories": [
+        "https://github.com/nfzerox/VirtualMacOniPad"
+      ],
+      "id": "s020",
+      "end": 513,
+      "paragraphs": [
+        "Virtual Mac on iPad runs Mac OS in a hardware virtualized VM on an M1 iPad. And the hard part was the frameworks. Apple's hypervisor and virtualization libraries live only inside Mac OS's dild shared cache. And pulling them out is lossy. A script walks the cach's slide information, separates rebases from cross image binds, relays out the segments, and emits new chained fixups with pointer authentication intact."
+      ]
+    },
+    {
+      "start": 513,
+      "title": "jungle-trail",
+      "repositories": [
+        "https://github.com/StarKnightt/jungle-trail"
+      ],
+      "id": "s021",
+      "end": 537,
+      "paragraphs": [
+        "Jungle Trail is a first person walk through a procedural jungle in 3JS with no art files at all. Every texture is a GLSL function rendered into a target and normal maps come from sobell sampling that same function. So the normal can never disagree with the albido. The canopy is left out of the shadow map entirely and replaced with an analytic transmittance term."
+      ]
+    },
+    {
+      "start": 537,
+      "title": "Desko",
+      "repositories": [
+        "https://github.com/typewriter03/Desko"
+      ],
+      "id": "s022",
+      "end": 562,
+      "paragraphs": [
+        "Desco turns an old phone into a desk dashboard pushed from your PC over websocket to one browser tab. No app and no cloud. Five scenes rotate clock and weather now playing with time synced lyrics. You can tap to seek live CPU and GPU stats. Git and editor state and a Pomodoro timer that lives server side so reloads don't reset it. There's no authentication so keep it on your home network."
+      ]
+    },
+    {
+      "start": 562,
+      "title": "doc7",
+      "repositories": [
+        "https://github.com/magicrew/doc7"
+      ],
+      "id": "s023",
+      "end": 591,
+      "paragraphs": [
+        "Doc 7 converts documents to markdown by rendering each page and handing it to your own vision model rather than extracting a text layer. That means charts arrive as labels, values and trends. Diagrams keep their ordering and relationships and a screenshot's visible UI state survives. A failed page is marked failed rather than written as truncated markdown and resume tries just those pages while leaving the good ones bite identical."
+      ]
+    },
+    {
+      "start": 591,
+      "title": "rork-medieval-3d-chess",
+      "repositories": [
+        "https://github.com/alexngdev99/rork-medieval-3d-chess"
+      ],
+      "id": "s024",
+      "end": 618,
+      "paragraphs": [
+        "King's Gambit is a 3D chess game where the pieces are rigged characters with idle, attack, and death animations and captures play as a cinematic. The camera punches in, the strike lands on the hit frame, and the loser burns away from the souls upward through a shader dissolve. The rules core never imports 3JS, so logic stays testable headlessly. Search runs in a web worker, so the render loop never blocks."
+      ]
+    },
+    {
+      "start": 618,
+      "title": "outreachr",
+      "repositories": [
+        "https://github.com/lalalune/outreachr"
+      ],
+      "id": "s025",
+      "end": 644,
+      "paragraphs": [
+        "Outreacher is a fundraising CRM that keeps everything in a seclite vault you own with secrets in the OS keychain rather than the database. The interesting part is where the guardrails live. Duplicate sends, daily and hourly caps, per domain cooldowns and suppression lists are enforced by database triggers before anything reaches Gmail or Outlook. Security relevant activity is append only and hashchained."
+      ]
+    },
+    {
+      "start": 644,
+      "title": "ComfyUI-Spectrum-MiniMax-H3",
+      "repositories": [
+        "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3"
+      ],
+      "id": "s026",
+      "end": 668,
+      "paragraphs": [
+        "This node speeds up Miniaax H3 video generation in Comfy UI by not running the transformer on every step. It fits a CHB ridge model to the hidden features after the final block, forecast them for intermediate steps, and runs the real output heads regardless. Ancestral samplers stay native because injected noise breaks the smooth trajectory it fits."
+      ]
+    },
+    {
+      "start": 668,
+      "title": "Token-Saver",
+      "repositories": [
+        "https://github.com/Marktechpost/Token-Saver"
+      ],
+      "id": "s027",
+      "end": 697,
+      "paragraphs": [
+        "Token Saver is a clawed desktop extension that keeps big PDFs out of the context window entirely. Local hybrid search BM25 blended with a local embedding model finds the passages that answer your question and sends only those with page citations below about 20 pages. It's not worth it and the authors say so. They also publicly walked back their own earlier recall numbers after their retrieval changes made them stop reproducing."
+      ]
+    },
+    {
+      "start": 697,
+      "title": "Falco",
+      "repositories": [
+        "https://github.com/poxk/Falco"
+      ],
+      "id": "s028",
+      "end": 724,
+      "paragraphs": [
+        "Falco is a browser engine in about 36,000 lines of Rust with nothing borrowed from Chromium or Gecko down to a handwritten PNG encoder and its own JavaScript VM with a bite code interpreter and a JIT. Point it at a URL and it writes a real PNG or opens a window you can scroll and fill forms in. The readme is the best part, a section separating what actually runs from what merely compiles."
+      ]
+    },
+    {
+      "start": 724,
+      "title": "stickman-video-director",
+      "repositories": [
+        "https://github.com/kaomei/stickman-video-director"
+      ],
+      "id": "s029",
+      "end": 751,
+      "paragraphs": [
+        "Stickman video director is a codec skill that does the directing before you spend generation credits. Paste your copy, pick an aspect ratio and a light or dark theme, and it returns a six scene proposal with narration, camera moves, transitions, and sound. Approve it and you get six standalone prompts, each repeating the character, line weight, and pallet locks, so separately generated clips still stitch into one minute."
+      ]
+    },
+    {
+      "start": 751,
+      "title": "RealReplicaBench",
+      "repositories": [
+        "https://github.com/Accio-Lab/RealReplicaBench"
+      ],
+      "id": "s030",
+      "end": 778,
+      "paragraphs": [
+        "Real Replica Bench tests whether AI agents can finish long business workflows inside reproducible replicas of online services. Its 107 tasks span browser work, command line tools, files, and API or MCP operations, including product publishing, and freight booking. Each attempt starts in a fresh container, changes state in local mock services, and leaves artifacts, logs, and verifier results for inspection."
+      ]
+    },
+    {
+      "start": 778,
+      "title": "diri",
+      "repositories": [
+        "https://github.com/cristicretu/diri"
+      ],
+      "id": "s031",
+      "end": 804,
+      "paragraphs": [
+        "Diri runs several coding agents side by side on Mac OS, each in its own git work or on a remote host. The design choice worth stealing is process separation. A headless Swift Damon owns the PTY and out lives the app with a separate tiny helper holding the PTI master so sessions survive a demon crash. Closing the window kills nothing. Adding a new agent is a JSON manifest rather than code."
+      ]
+    },
+    {
+      "start": 804,
+      "title": "MAGI-2-preview",
+      "repositories": [
+        "https://github.com/SandAI-org/MAGI-2-preview"
+      ],
+      "id": "s032",
+      "end": 832,
+      "paragraphs": [
+        "Magi 2 preview generates 10-second video with its own soundtrack from a prompt or a prompt plus a still. It's 114 billion parameters that activate six per token and it runs in two passes, one denoising at low resolution and a refiner taking that to 1080p. Audio is generated alongside the picture and the requirement is eight hopper GPUs and 307 GB of weights. So this is cluster work. Can I vibe code? It helps you judge whether a paid SAS subscription can be replaced by a personal app built with a coding agent."
+      ]
+    },
+    {
+      "start": 832,
+      "title": "canivibecodeit",
+      "repositories": [
+        "https://github.com/canivibecodeit/canivibecodeit"
+      ],
+      "id": "s033",
+      "end": 859,
+      "paragraphs": [
+        "Each listing gives a yes kind of or not really verdict, an exact build prompt, and the trade-offs you inherit by leaving. Contributions are plain JSON files submitted through pull requests. Network effects, proprietary data, and expensive infrastructure still count as genuine moes."
+      ]
+    },
+    {
+      "start": 859,
+      "title": "creakwork12",
+      "repositories": [
+        "https://github.com/ArcaEge/creakwork12"
+      ],
+      "id": "s034",
+      "end": 887,
+      "paragraphs": [
+        "Creekwork 12 reads your laptop's lid angle sensor and turns the hinge into a creaky wooden door. Pitch follows the angle, volume follows how fast you move it, so slamming the lid sounds different from easing it shut. It's a rust port of lid angle sensor to the framework 12. And the filtering is tuned to that specific hinge stiffness. So other laptops are untested. The stated reason for building it is that it's funny."
+      ]
+    },
+    {
+      "start": 887,
+      "title": "chapter-tgz",
+      "repositories": [
+        "https://github.com/dtolnay/chapter-tgz"
+      ],
+      "id": "s035",
+      "end": 913,
+      "paragraphs": [
+        "Chapter TGZ is a tar.gz that lets you jump straight to a group of entries without decompressing everything before it and read different chapters on different threads at once. The trick is where the boundary markers live. They're encoded as valid but empty GZIP blocks with unusual Huffman alphabets. So every existing tool still reads the file as an ordinary archive and ignores them completely."
+      ]
+    },
+    {
+      "start": 913,
+      "title": "deepseek-v4-flash-mi300x",
+      "repositories": [
+        "https://github.com/ryanzhou/deepseek-v4-flash-mi300x"
+      ],
+      "id": "s036",
+      "end": 941,
+      "paragraphs": [
+        "This repo runs Deepseek V4 flash 304 billion parameters on one AMD MI300X with no extra quantization and it's really a bug hunt write up. The card uses AMD's own FP8 variant rather than the standard one. So a kernel assuming the wrong format is off by a factor of two. AOE routing kernel masked its padding lanes against the wrong bound quietly corrupting tool names under load. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 43. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Cloudflare computer gives an agent a file system whose authoritative copy lives in a durable object SQLite then"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "projects it into whichever execution surface you pick. A container mounts it as a real fuse file system with a full Linux userland and real binaries."
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "text": "Lighter backends run a shell or an ECMAScript module in a dynamic worker hitting the same store over RPC with no sync round trip."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Waku agent is a personal assistant you read rather than install built to show the four parts of any real agent harness"
+    },
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "text": "loop memory and a val. The loop is about 95 lines of plain Python with no framework hiding it. The interesting"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "piece is a retrieval gate that first asks whether a turn needs memory at all since irrelevant memories bias answers."
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "text": "Memory is one SQLite file you can open."
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "Query splat predicts 3D Gaussian splats from a handful of photos of one scene and the paper's idea is separating the geometry representation from the"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "text": "appearance one rather than learning both in the same tangle. The release runs feed forward or with test time optimization for a short refinement"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "pass. It exports Gaussian ply files at your chosen opacity thresholds plus predicted cameras and depth point clouds."
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "Any doc converts word, powerpoint, excel, open document, rtf, eub, csv, and pdf into markdown written in rust with"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "node and python bindings. Every format parses into one shared document model and renders through one serializer. So a"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "text": "table escaping fix for DOCX fixes RTF and ODT at the same time. Format detection reads the bytes rather than the extension. So mislabeled files still convert."
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "Cargo frisk checks what cargo actually ships rather than what git tracks and those differ. Cargo package includes"
+    },
+    {
+      "start": 121.0,
+      "end": 121.0,
+      "text": "unttracked but unignored files. So a stray.env invisible to your secret scanner still lands in the tarball on"
+    },
+    {
+      "start": 128.0,
+      "end": 128.0,
+      "text": "crates.io permanently. It diffs the built crate against git ls files, then runs git leaks derived rules over the"
+    },
+    {
+      "start": 135.0,
+      "end": 135.0,
+      "text": "packaged files. An entropy gate and path context stop test fixtures failing your build. Fingerframe AI turns the two-hand"
+    },
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "framing gesture into a window onto an AI generated version of the same video. A videotovideo model regenerates the whole"
+    },
+    {
+      "start": 152.0,
+      "end": 152.0,
+      "text": "clip. So the animated version blinks and moves exactly as you did. And every prompt gets a strict alignment suffix"
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "appended. No zoom or recentering facial features at the same screen coordinates so it lines up behind the frame. Gen"
+    },
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "puts document spreadsheet presentation and PDF editors into one desktop suite with model driven editing built into each workspace. Its most interesting"
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "detail is file preservation. DocX saves regenerate only changed paragraphs while untouched XML and archive entries remain"
+    },
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "bite forbite intact. Sheets uses a Rust import and export sidecar and slides has its own pptx renderer."
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "Find locates a nearby Bluetooth device from the Mac OS command line for when Find My is switched off. Run it with a"
+    },
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "name and it tracks signal strength with an optional click that speeds up as you close in. So you sweep a room by ear."
+    },
+    {
+      "start": 209.0,
+      "end": 209.0,
+      "text": "The author is careful about what the number means, saying plainly that a phone in a filing cabinet 2 meters away reads like 1 15 meters off."
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "Soup fine-tunes LLMs from one YAML file and one command, handling batch size, GPU detection, and quantization for you,"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "running locally on your own card with Qura. The interesting new piece is reward hack mitigation for GRPO runs."
+    },
+    {
+      "start": 233.0,
+      "end": 233.0,
+      "text": "When multiple signals agree, the model is gaming the reward. It raises the KL coefficient, then rolls back to the last good checkpoint if that fails."
+    },
+    {
+      "start": 242.0,
+      "end": 242.0,
+      "text": "Morphicons morphs any stroke icon into any other. And the trick is that rotations are never declared by hand. It"
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "solves the optimal similarity between the two shapes in closed form, then interpolates rotation, scale, and residual, each in its own space. So,"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "arrow right to arrow down comes out as a clean 90° turn because the math found it. Corners are anchored as exact sample"
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "points, so a check mark doesn't round off in transit."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Back channel is a user script that puts the hacker news and Reddit threads about whatever you're reading in a sidebar on the article itself. Quotes in the"
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "comments get matched back into the page and highlighted where they sit. So, clicking a highlight filters the thread to people arguing about that exact"
+    },
+    {
+      "start": 288.0,
+      "end": 288.0,
+      "text": "passage. You can vote and reply through your existing HN session. Reddit is readon and off by default since enabling it sends your browsing to Reddit."
+    },
+    {
+      "start": 300.0,
+      "end": 300.0,
+      "text": "Vphone workstation is a native Mac OS app for running virtual iPhones wrapping Locker 233's VPON Cly in a real library"
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "window. Every VM with its live state, iOS and cloud OS build, CPU, memory, and UDID at a glance, plus clone, rename,"
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "and export. The create wizard streams progress step by step and hands you an exportable log. It checks host readiness"
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "first since these research VMs need SIP research guests allowed and AMFI bypassed."
+    },
+    {
+      "start": 329.0,
+      "end": 329.0,
+      "text": "Swift runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+    },
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels"
+    },
+    {
+      "start": 344.0,
+      "end": 344.0,
+      "text": "handle inference. The maintainer reports the 35B model using about 25 GB of RAM on an iPhone 17 at roughly one token per second."
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "Captivo is a screen recorder for demo videos, the kind where the camera follows your cursor and clicks trigger zooms. Open a fresh recording and it"
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "suggests zoom fragments from where you actually clicked. Capture runs native per platform, Screen Capture Kit, Windows Graphics Capture, and Pipewire"
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "into hardware H.264 264 with a crash safe fragmented MP4. Captions run on device through whisper.cpp."
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "Shitty is a terminal emulator that keeps all its state on the CPU and hands rendering to a single Vulcan compute shader, drawing only the cells that"
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "actually changed. It's a hard fork and rewrite of Zuti. Coverage is deep for the parts people hit daily. Kitty"
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "keyboard protocol, five mouse protocols, scroll back that reflows on resize, OSC8 hyperlinks, no sixle and no birectional"
+    },
+    {
+      "start": 406.0,
+      "end": 406.0,
+      "text": "text which the readme states plainly bindwidth sizes an on-prem LLM deployment by finding the constraint"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "that actually stops it rather than guessing from model size alone. It calculates memory for the KV cache, shared prefill, and decode capacity and"
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "the runtime session ceiling, then identifies which limit binds. Hardware profiles distinguish measured results"
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "from estimates, and scenarios export as markdown or JSON."
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "OpenEdit burns stylized subtitles into a video from your coding agent. point clawed code or codeex at a file and it"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "transcribes, designs captions to match the clip, renders through ffmpeg and opens a preview, then takes plain language corrections like moving the text up or emphasizing one word."
+    },
+    {
+      "start": 453.0,
+      "end": 453.0,
+      "text": "Transcription uploads your video to V and spends credits from a free account you have to create."
+    },
+    {
+      "start": 461.0,
+      "end": 461.0,
+      "text": "backs up the DeviantArt art you follow to a local folder and the whole tool is Python standard library with zero runtime dependencies."
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "A SQLite index means a rerun costs one API call when nothing new was posted. So a daily launch job is nearly free."
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Secrets go to the Mac OS keychain rather than a dot file and a diagnose command tells you when a scheduled run has been quietly failing."
+    },
+    {
+      "start": 486.0,
+      "end": 486.0,
+      "text": "Virtual Mac on iPad runs Mac OS in a hardware virtualized VM on an M1 iPad. And the hard part was the frameworks."
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "Apple's hypervisor and virtualization libraries live only inside Mac OS's dild shared cache. And pulling them out is lossy. A script walks the cach's slide"
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "information, separates rebases from cross image binds, relays out the segments, and emits new chained fixups with pointer authentication intact."
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "Jungle Trail is a first person walk through a procedural jungle in 3JS with no art files at all. Every texture is a"
+    },
+    {
+      "start": 521.0,
+      "end": 521.0,
+      "text": "GLSL function rendered into a target and normal maps come from sobell sampling that same function. So the normal can"
+    },
+    {
+      "start": 528.0,
+      "end": 528.0,
+      "text": "never disagree with the albido. The canopy is left out of the shadow map entirely and replaced with an analytic transmittance term."
+    },
+    {
+      "start": 537.0,
+      "end": 537.0,
+      "text": "Desco turns an old phone into a desk dashboard pushed from your PC over websocket to one browser tab. No app and"
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "no cloud. Five scenes rotate clock and weather now playing with time synced lyrics. You can tap to seek live CPU and"
+    },
+    {
+      "start": 552.0,
+      "end": 552.0,
+      "text": "GPU stats. Git and editor state and a Pomodoro timer that lives server side so reloads don't reset it. There's no"
+    },
+    {
+      "start": 559.0,
+      "end": 559.0,
+      "text": "authentication so keep it on your home network."
+    },
+    {
+      "start": 563.0,
+      "end": 563.0,
+      "text": "Doc 7 converts documents to markdown by rendering each page and handing it to your own vision model rather than extracting a text layer. That means"
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "charts arrive as labels, values and trends. Diagrams keep their ordering and relationships and a screenshot's visible"
+    },
+    {
+      "start": 579.0,
+      "end": 579.0,
+      "text": "UI state survives. A failed page is marked failed rather than written as truncated markdown and resume tries just"
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "those pages while leaving the good ones bite identical."
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "King's Gambit is a 3D chess game where the pieces are rigged characters with idle, attack, and death animations and"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "captures play as a cinematic. The camera punches in, the strike lands on the hit frame, and the loser burns away from the souls upward through a shader dissolve."
+    },
+    {
+      "start": 607.0,
+      "end": 607.0,
+      "text": "The rules core never imports 3JS, so logic stays testable headlessly. Search runs in a web worker, so the render loop never blocks."
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "Outreacher is a fundraising CRM that keeps everything in a seclite vault you own with secrets in the OS keychain"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "rather than the database. The interesting part is where the guardrails live. Duplicate sends, daily and hourly caps, per domain cooldowns and"
+    },
+    {
+      "start": 634.0,
+      "end": 634.0,
+      "text": "suppression lists are enforced by database triggers before anything reaches Gmail or Outlook. Security relevant activity is append only and hashchained."
+    },
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "This node speeds up Miniaax H3 video generation in Comfy UI by not running the transformer on every step. It fits a"
+    },
+    {
+      "start": 652.0,
+      "end": 652.0,
+      "text": "CHB ridge model to the hidden features after the final block, forecast them for intermediate steps, and runs the real output heads regardless."
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "Ancestral samplers stay native because injected noise breaks the smooth trajectory it fits."
+    },
+    {
+      "start": 668.0,
+      "end": 668.0,
+      "text": "Token Saver is a clawed desktop extension that keeps big PDFs out of the context window entirely."
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "Local hybrid search BM25 blended with a local embedding model finds the passages that answer your question and sends only"
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "those with page citations below about 20 pages. It's not worth it and the authors say so. They also publicly walked back"
+    },
+    {
+      "start": 691.0,
+      "end": 691.0,
+      "text": "their own earlier recall numbers after their retrieval changes made them stop reproducing."
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "Falco is a browser engine in about 36,000 lines of Rust with nothing borrowed from Chromium or Gecko down to"
+    },
+    {
+      "start": 704.0,
+      "end": 704.0,
+      "text": "a handwritten PNG encoder and its own JavaScript VM with a bite code interpreter and a JIT. Point it at a URL"
+    },
+    {
+      "start": 711.0,
+      "end": 711.0,
+      "text": "and it writes a real PNG or opens a window you can scroll and fill forms in."
+    },
+    {
+      "start": 717.0,
+      "end": 717.0,
+      "text": "The readme is the best part, a section separating what actually runs from what merely compiles."
+    },
+    {
+      "start": 724.0,
+      "end": 724.0,
+      "text": "Stickman video director is a codec skill that does the directing before you spend generation credits. Paste your copy,"
+    },
+    {
+      "start": 731.0,
+      "end": 731.0,
+      "text": "pick an aspect ratio and a light or dark theme, and it returns a six scene proposal with narration, camera moves,"
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "transitions, and sound. Approve it and you get six standalone prompts, each repeating the character, line weight, and pallet locks, so separately"
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "generated clips still stitch into one minute."
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "Real Replica Bench tests whether AI agents can finish long business workflows inside reproducible replicas of online services. Its 107 tasks span"
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "browser work, command line tools, files, and API or MCP operations, including product publishing, and freight booking."
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "Each attempt starts in a fresh container, changes state in local mock services, and leaves artifacts, logs, and verifier results for inspection."
+    },
+    {
+      "start": 778.0,
+      "end": 778.0,
+      "text": "Diri runs several coding agents side by side on Mac OS, each in its own git work or on a remote host. The design choice"
+    },
+    {
+      "start": 786.0,
+      "end": 786.0,
+      "text": "worth stealing is process separation. A headless Swift Damon owns the PTY and out lives the app with a separate tiny"
+    },
+    {
+      "start": 793.0,
+      "end": 793.0,
+      "text": "helper holding the PTI master so sessions survive a demon crash. Closing the window kills nothing. Adding a new agent is a JSON manifest rather than code."
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "Magi 2 preview generates 10-second video with its own soundtrack from a prompt or a prompt plus a still. It's 114 billion"
+    },
+    {
+      "start": 812.0,
+      "end": 812.0,
+      "text": "parameters that activate six per token and it runs in two passes, one denoising at low resolution and a refiner taking that to 1080p."
+    },
+    {
+      "start": 822.0,
+      "end": 822.0,
+      "text": "Audio is generated alongside the picture and the requirement is eight hopper GPUs and 307 GB of weights. So this is"
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "cluster work. Can I vibe code? It helps you judge whether a paid SAS subscription can be replaced by a personal app built with a coding agent."
+    },
+    {
+      "start": 840.0,
+      "end": 840.0,
+      "text": "Each listing gives a yes kind of or not really verdict, an exact build prompt, and the trade-offs you inherit by leaving. Contributions are plain JSON files submitted through pull requests."
+    },
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "Network effects, proprietary data, and expensive infrastructure still count as genuine moes."
+    },
+    {
+      "start": 859.0,
+      "end": 859.0,
+      "text": "Creekwork 12 reads your laptop's lid angle sensor and turns the hinge into a creaky wooden door. Pitch follows the"
+    },
+    {
+      "start": 867.0,
+      "end": 867.0,
+      "text": "angle, volume follows how fast you move it, so slamming the lid sounds different from easing it shut. It's a rust port of lid angle sensor to the framework 12."
+    },
+    {
+      "start": 877.0,
+      "end": 877.0,
+      "text": "And the filtering is tuned to that specific hinge stiffness. So other laptops are untested. The stated reason for building it is that it's funny."
+    },
+    {
+      "start": 887.0,
+      "end": 887.0,
+      "text": "Chapter TGZ is a tar.gz that lets you jump straight to a group of entries without decompressing everything before"
+    },
+    {
+      "start": 894.0,
+      "end": 894.0,
+      "text": "it and read different chapters on different threads at once. The trick is where the boundary markers live. They're"
+    },
+    {
+      "start": 901.0,
+      "end": 901.0,
+      "text": "encoded as valid but empty GZIP blocks with unusual Huffman alphabets. So every existing tool still reads the file as an"
+    },
+    {
+      "start": 909.0,
+      "end": 909.0,
+      "text": "ordinary archive and ignores them completely."
+    },
+    {
+      "start": 913.0,
+      "end": 913.0,
+      "text": "This repo runs Deepseek V4 flash 304 billion parameters on one AMD MI300X"
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "with no extra quantization and it's really a bug hunt write up. The card uses AMD's own FP8 variant rather than the standard one. So a kernel assuming"
+    },
+    {
+      "start": 929.0,
+      "end": 929.0,
+      "text": "the wrong format is off by a factor of two. AOE routing kernel masked its padding lanes against the wrong bound quietly corrupting tool names under load."
+    },
+    {
+      "start": 940.0,
+      "end": 940.0,
+      "text": "[music]"
+    }
+  ]
+}

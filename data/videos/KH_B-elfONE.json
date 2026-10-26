@@ -1,0 +1,895 @@
+{
+  "schema_version": 1,
+  "id": "KH_B-elfONE",
+  "title": "30 Self-Hosted Projects on GitHub: wacrm, halcyon-video, wrtag, Codeman, romm, wger, homelab, clay",
+  "url": "https://www.youtube.com/watch?v=KH_B-elfONE",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-18",
+  "duration": 773,
+  "word_count": 1886,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T05:00:14+00:00",
+    "metadata_sha256": "4da90c739eecc56c3db3700b8c2071c5c9db9ff0dd0c51c6b74fab738158ef15",
+    "captions_sha256": "cbf3542d695abdf5b0bc5c15f0c0e4693022b5b103c71d6b76b44d1d626ebab2",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 9,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. Today we're looking at 30 self-hosted projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "start": 9,
+      "title": "wacrm",
+      "repositories": [
+        "https://github.com/ArnasDon/wacrm"
+      ],
+      "id": "s002",
+      "end": 34,
+      "paragraphs": [
+        "Way CRM is a WhatsApp CRM you fork rather than subscribe to shared inbox contacts canban pipelines and broadcasts on Nex.js and superbase. It runs on Meta's official business API with approved templates, not an unofficial web client, which is the usual way these get a number banned. The AI reply assistant takes your own open AI or anthropic key and answers from a knowledge base you load. Houseian video"
+      ]
+    },
+    {
+      "start": 34,
+      "title": "halcyon-video",
+      "repositories": [
+        "https://github.com/halcyon-video/halcyon-video"
+      ],
+      "id": "s003",
+      "end": 60,
+      "paragraphs": [
+        "rebuilds your jellyfin or Plex library as a walkable 1990s rental store rather than another grid of posters. It builds the floor procedurally. Libraries become aisles. Genres become signposted sections. Duplicate quality versions stack behind the face copy. And the worst rated titles end up in the bargain bin. Era, lighting, and floor plan are independent settings."
+      ]
+    },
+    {
+      "start": 60,
+      "title": "wrtag",
+      "repositories": [
+        "https://github.com/sentriz/wrtag"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "Art tag does what Beats and Picard do, tagging and filing music from music brains, but as a Unix style suite of small tools in Go rather than one program. Your library layout is a path template you write. So rettagging after you change that template is just running the move command again. A sync subcomand rescans the whole library for music brains changes. Sync is non-interactive and destructive if you point it at unmanaged files."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "talivia",
+      "repositories": [
+        "https://github.com/talivia-group/talivia"
+      ],
+      "id": "s005",
+      "end": 111,
+      "paragraphs": [
+        "TIVIA is a self-hosted analytics tool that ties visits to revenue so a traffic source is reported alongside the money it produced rather than just sessions. It reads subscription life cycle refunds and disputes from Stripe, Lemon Squeezy, Polar or Dodo and keeps first and last touch against them. Session replay is optional per website."
+      ]
+    },
+    {
+      "start": 111,
+      "title": "reactive-resume",
+      "repositories": [
+        "https://github.com/amruthpillai/reactive-resume"
+      ],
+      "id": "s006",
+      "end": 139,
+      "paragraphs": [
+        "Reactive RSé gives you a live réé editor without locking your career data into a proprietary service. You can rearrange sections, customize templates, import JSON RSé files, and export to PDF, JSON or DOCX. PDF generation now happens in the browser and the entire app can run on your own server with Poster SQL. Basic editing needs no account, but optional AI features still depend on whichever model provider you configure."
+      ]
+    },
+    {
+      "start": 139,
+      "title": "OpenArchiver",
+      "repositories": [
+        "https://github.com/LogicLabs-OU/OpenArchiver"
+      ],
+      "id": "s007",
+      "end": 167,
+      "paragraphs": [
+        "Open Archiver gives organizations a self-hosted place to retain and search email from Google Workspace, Microsoft 365, IMAP accounts, and common mailbox exports. Messages stay in standard EML files with compression, dduplication, encryption at rest, and hashes that flag later changes. Full text indexing covers messages and supported attachments, while storage can remain local or move to S3 compatible infrastructure."
+      ]
+    },
+    {
+      "start": 167,
+      "title": "Codeman",
+      "repositories": [
+        "https://github.com/Ark0N/Codeman"
+      ],
+      "id": "s008",
+      "end": 189,
+      "paragraphs": [
+        "Codeman puts multiple coding agent CLIs behind one self-hosted browser dashboard with each session running inside T-Mux so work survives disconnects and restarts. You can watch terminals and background agents live, send prompts from a phone, schedule jobs, and resume long runs after an agent becomes idle or a usage window legitimately resets."
+      ]
+    },
+    {
+      "start": 189,
+      "title": "Super Productivity",
+      "repositories": [
+        "https://github.com/super-productivity/super-productivity"
+      ],
+      "id": "s009",
+      "end": 216,
+      "paragraphs": [
+        "Super productivity combines a task list with actual day planning. So estimates, time boxes, timers and completed work stay in one place. It can pull assigned issues from Jira, GitHub, GitLab, linear and other trackers. Then keep personal planning details local and create work logs. No account is required. Crossdevice sync is optional through webdav, Dropbox, or the project's endtoend encrypted superersync service."
+      ]
+    },
+    {
+      "start": 216,
+      "title": "TaxHacker",
+      "repositories": [
+        "https://github.com/vas3k/TaxHacker"
+      ],
+      "id": "s010",
+      "end": 239,
+      "paragraphs": [
+        "Tax Hacker turns a pile of receipt photos and invoice PDFs into a structured table. dates, merchants amounts, line items extracted by an LLM you choose. Currency conversion uses the historical rate from the transaction date across 170 currencies and 14 cryptocurrencies. You can write your own extraction prompts, including the system prompt."
+      ]
+    },
+    {
+      "start": 239,
+      "title": "romm",
+      "repositories": [
+        "https://github.com/rommapp/romm"
+      ],
+      "id": "s011",
+      "end": 263,
+      "paragraphs": [
+        "ROM is a self-hosted library manager for game files you already own, closer to Jellyfin than to a front end like ESD. It scans your folders, pulls metadata for over 400 platforms from IGDB, Screen Scraper, and MOI games, and parses tags out of file names. EmulatorJS plays supported titles in the browser, and retro achievements progress shows on the game page."
+      ]
+    },
+    {
+      "start": 263,
+      "title": "karakeep",
+      "repositories": [
+        "https://github.com/karakeep-app/karakeep"
+      ],
+      "id": "s012",
+      "end": 289,
+      "paragraphs": [
+        "Carakeep saves the page itself rather than just a link, so a dead URL still has readable content behind it. Monolith archives the full page. OCR pulls text out of images and PDFs, and Miley search indexes all of it for full text and semantic search. Tagging and summarization run through an LLM, and Alama works if you'd rather keep that local. Browser extensions, mobile apps, and RSS ingestion on top."
+      ]
+    },
+    {
+      "start": 289,
+      "title": "wger",
+      "repositories": [
+        "https://github.com/wger-project/wger"
+      ],
+      "id": "s013",
+      "end": 318,
+      "paragraphs": [
+        "WGR is a self-hosted fitness manager that keeps workouts, nutrition, weight measurements, and progress photos under one roof. You can build routines with automatic weight progression, log meals against the open foodax database, and use its REST API for your own integrations. Mobile and desktop clients connect to the same system. Treat its exercise and nutrition data as tracking aids, though, not personalized medical or coaching advice."
+      ]
+    },
+    {
+      "start": 318,
+      "title": "safebucket",
+      "repositories": [
+        "https://github.com/safebucket/safebucket"
+      ],
+      "id": "s014",
+      "end": 343,
+      "paragraphs": [
+        "Safebucket is a self-hosted file sharing platform where the bites never touch the application server. It hands out pre-signed URLs, so uploads and downloads go straight between the browser and your object storage. And the Go backend only handles O and metadata. Storage, database, cache, events, and notifier are each swappable. Share links take a password, a download cap, and an expiry."
+      ]
+    },
+    {
+      "start": 343,
+      "title": "homelab",
+      "repositories": [],
+      "id": "s015",
+      "end": 370,
+      "paragraphs": [
+        "Eden is one engineer's home lab published as its actual source, a Talos Kubernetes cluster on Proxmox provisioned with Terraform with Argo CD reconciling every workload from the repo. Psyllium handles networking, authentic does SSO, and Prometheus, Grafana, Loki, and Tempo cover metrics, logs, and traces. The architecture diagrams are generated from D2 files by a GitHub action so they can't drift from the config."
+      ]
+    },
+    {
+      "start": 370,
+      "title": "drydock",
+      "repositories": [
+        "https://github.com/CodesWhat/drydock"
+      ],
+      "id": "s016",
+      "end": 398,
+      "paragraphs": [
+        "Dryd do watches your containers for image updates and notifies you. Applying the update is optin which is the split from watchtowwer. It reads 23 registries and fans out to 20 notification and action providers. It expects a socket proxy instead of the raw Docker socket. Outbound web hooks resolve through a guarded DNS lookup that blocks cloud metadata addresses and an instance with no O configured fails closed."
+      ]
+    },
+    {
+      "start": 398,
+      "title": "inkstone",
+      "repositories": [
+        "https://github.com/shuaiplus/inkstone"
+      ],
+      "id": "s017",
+      "end": 421,
+      "paragraphs": [
+        "Inkstone is a self-hosted markdown notebook built on Cloudflare workers. Your notes stay readable as plain text while the app adds folders, back links, version history, offline editing, real-time sync, and full text search. Optional workers AI enables private semantic search and its scoped MCP interface can read or update notes through revocable keys."
+      ]
+    },
+    {
+      "start": 421,
+      "title": "reconya",
+      "repositories": [
+        "https://github.com/Dyneteq/reconya"
+      ],
+      "id": "s018",
+      "end": 443,
+      "paragraphs": [
+        "Recona maps devices on a network you administer in go with a dashboard instead of end mapap output you have to read ICMP sweeps TCP probes and ARP find hosts then background workers pull MAC vendors host names OS fingerprints and open ports and raise alerts when something new appears. The backend makes zero outbound calls by default."
+      ]
+    },
+    {
+      "start": 443,
+      "title": "AdventureLog",
+      "repositories": [
+        "https://github.com/seanmorley15/AdventureLog"
+      ],
+      "id": "s019",
+      "end": 465,
+      "paragraphs": [
+        "Adventure Log is a self-hosted travel journal and trip planner that keeps your map, memories, and future itineraries together. You can pin locations with photos and repeat visits, build multi-day plans with lodging and checklists, track countries and regions, and attach GPX trails. Trips can stay private, use public links, or be edited collaboratively."
+      ]
+    },
+    {
+      "start": 465,
+      "title": "NoteDiscovery",
+      "repositories": [
+        "https://github.com/gamosoft/NoteDiscovery"
+      ],
+      "id": "s020",
+      "end": 492,
+      "paragraphs": [
+        "Note Discovery is a self-hosted note app that serves every browser library from its own container. no CDN, so it runs on an airgapped network where most self-hosted note apps fail. Notes are plain markdown files and folders with a graph view over the links between them and an inapp drawing editor that saves PGs next to the note. A built-in MCP server lets Claude or cursor search and edit the same files."
+      ]
+    },
+    {
+      "start": 492,
+      "title": "expensave",
+      "repositories": [
+        "https://github.com/algirdasc/expensave"
+      ],
+      "id": "s021",
+      "end": 516,
+      "paragraphs": [
+        "Expensive is a self-hosted expense tracker designed for households rather than individual spreadsheets. Family members can share separate calendars, record recurring costs, review spending and income reports, and install the interface as a mobile PWA. Bank data arrives through exported OFX, QFX, XML, or CSV files, so there's no live banking connection to maintain."
+      ]
+    },
+    {
+      "start": 516,
+      "title": "viofosync",
+      "repositories": [
+        "https://github.com/RobXYZ/viofosync"
+      ],
+      "id": "s022",
+      "end": 540,
+      "paragraphs": [
+        "VOFSYNC automatically copies footage from a VOPO dash cam when the car joins your home Wi-Fi. The self-hosted dashboard organizes clips into journeys, fetches GPS traces before full videos arrive, and lets you trim footage, switch camera angles, create pictureand picture exports, and manage retention. It needs an always on host, plus compatible station mode firmware."
+      ]
+    },
+    {
+      "start": 540,
+      "title": "clay",
+      "repositories": [
+        "https://github.com/chadbyte/clay"
+      ],
+      "id": "s023",
+      "end": 566,
+      "paragraphs": [
+        "Clay turns Cloud Code and Codeex into a shared browser-based workspace for teams. One self-hosted Damon can run sessions across multiple repositories, isolate parallel work trees, surface approvals on mobile, and keep persistent agent teammates with their own markdown memory. Sessions and decisions stay as JSON L and markdown on your disk, though model requests still go to the selected provider."
+      ]
+    },
+    {
+      "start": 566,
+      "title": "telecast",
+      "repositories": [
+        "https://github.com/andatoshiki/telecast"
+      ],
+      "id": "s024",
+      "end": 591,
+      "paragraphs": [
+        "Telecast turns your Telegram channel into a static microblog you can host almost anywhere. During each build, it pulls posts and media into local files, creates a Luner search index, and generates RSS, social previews, and PWA assets. The result is a responsive Twitter style archive with no database or runtime Telegram dependency. Mirror only content you own or have permission to republish."
+      ]
+    },
+    {
+      "start": 591,
+      "title": "opengeni",
+      "repositories": [
+        "https://github.com/Cloudgeni-ai/opengeni"
+      ],
+      "id": "s025",
+      "end": 617,
+      "paragraphs": [
+        "Open Genie is a runtime for longunning agents rather than an agent itself. Every event lands in a Postgress log. So a browser reload or an audit replays the same session history. Sessions can target a machine you enroll which dials out only and keeps its own git credentials. No platform token pushed to it. Agent memories are proposed not written. A human approves before one becomes retrieval context."
+      ]
+    },
+    {
+      "start": 617,
+      "title": "Magic Cloud",
+      "repositories": [
+        "https://github.com/polterguy/magic"
+      ],
+      "id": "s026",
+      "end": 640,
+      "paragraphs": [
+        "Magic combines a self-hosted app builder with the backend it generates. point its wizard at SQLite, Postgress SQL, MySQL, Mariab or SQL Server and it creates authenticated REST endpoints that you can extend in plain English. Those endpoints can also become MCP tools for coding agents while Hyper Lambda restricts which functions generated code may call."
+      ]
+    },
+    {
+      "start": 640,
+      "title": "nodyx",
+      "repositories": [
+        "https://github.com/Pokled/nodyx"
+      ],
+      "id": "s027",
+      "end": 663,
+      "paragraphs": [
+        "Nix puts a forum, real-time chat, voice rooms, a collaborative canvas, and a public homepage into one self-hosted community server. Its WebRTC layer handles peer-to-peer voice, while a Rust relay can publish a home server without opening inbound ports or buying a domain. Posts stay searchable, and admins get moderation, plus a widget system."
+      ]
+    },
+    {
+      "start": 663,
+      "title": "libredesk",
+      "repositories": [
+        "https://github.com/abhinavxd/libredesk"
+      ],
+      "id": "s028",
+      "end": 691,
+      "paragraphs": [
+        "Libes is a self-hosted support desk that puts website, chat, and email into one shared inbox. Teams can route conversations with rules, assign work by capacity, track SLAs's, and control access with custom roles. It also offers a knowledgebased assistant that can answer chats or draft replies before handing off to a person. The application ships as one go binary, but production still needs Postgraq and Reddus alongside it."
+      ]
+    },
+    {
+      "start": 691,
+      "title": "hqbase",
+      "repositories": [
+        "https://github.com/HQBase/hqbase"
+      ],
+      "id": "s029",
+      "end": 717,
+      "paragraphs": [
+        "HQbase is a shared email workspace that runs inside your own Cloudflare account, keeping mail and credentials on infrastructure you control. Teams can manage shared inboxes with access controls, multiple domains, collaborative drafts, and an audit history, while operators get documented installation, update, backup, and recovery workflows. It also exposes an OOTH protected MCP server for agent access."
+      ]
+    },
+    {
+      "start": 717,
+      "title": "warpgate",
+      "repositories": [
+        "https://github.com/warp-tech/warpgate"
+      ],
+      "id": "s030",
+      "end": 743,
+      "paragraphs": [
+        "Warpgate is a self-hosted bastion that puts precise access controls in front of SSH, web apps, Kubernetes, databases, RDP, and VNC without forcing users onto a custom client. It authenticates the user itself, opens its own connection to the target and joins the two, so your SSH command and native clients keep working unchanged. Every session is recorded and replayable from the admin UI with command level audit."
+      ]
+    },
+    {
+      "start": 743,
+      "title": "nutritrace",
+      "repositories": [
+        "https://github.com/TraceApps/nutritrace"
+      ],
+      "id": "s031",
+      "end": 773,
+      "paragraphs": [
+        "Neutrrace is a self-hosted nutrition tracker that keeps food logs, recipes, goals, and wellness data on your own hardware. It runs in one docker container, includes a browser PWA and Android app, and can pull food data from open food facts or USDA. Optional integrations cover fitness services and AI assisted logging. Its calorie estimates, wellness scores, and AI suggestions areformational, not medical or dietary advice. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. Today we're looking at 30 self-hosted projects on GitHub. Let's get into it."
+    },
+    {
+      "start": 9.0,
+      "end": 9.0,
+      "text": "Way CRM is a WhatsApp CRM you fork rather than subscribe to shared inbox contacts canban pipelines and broadcasts"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "on Nex.js and superbase. It runs on Meta's official business API with approved templates, not an unofficial web client, which is the usual way these"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "get a number banned. The AI reply assistant takes your own open AI or anthropic key and answers from a knowledge base you load. Houseian video"
+    },
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "text": "rebuilds your jellyfin or Plex library as a walkable 1990s rental store rather than another grid of posters. It builds"
+    },
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "text": "the floor procedurally. Libraries become aisles. Genres become signposted sections. Duplicate quality versions"
+    },
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "text": "stack behind the face copy. And the worst rated titles end up in the bargain bin. Era, lighting, and floor plan are independent settings."
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "text": "Art tag does what Beats and Picard do, tagging and filing music from music brains, but as a Unix style suite of small tools in Go rather than one program."
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "text": "Your library layout is a path template you write. So rettagging after you change that template is just running the move command again. A sync subcomand"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "text": "rescans the whole library for music brains changes. Sync is non-interactive and destructive if you point it at unmanaged files."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "TIVIA is a self-hosted analytics tool that ties visits to revenue so a traffic source is reported alongside the money it produced rather than just sessions."
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "It reads subscription life cycle refunds and disputes from Stripe, Lemon Squeezy, Polar or Dodo and keeps first and last"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "touch against them. Session replay is optional per website."
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "Reactive RSé gives you a live réé editor without locking your career data into a proprietary service. You can rearrange"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "text": "sections, customize templates, import JSON RSé files, and export to PDF, JSON or DOCX. PDF generation now happens in"
+    },
+    {
+      "start": 127.0,
+      "end": 127.0,
+      "text": "the browser and the entire app can run on your own server with Poster SQL."
+    },
+    {
+      "start": 131.0,
+      "end": 131.0,
+      "text": "Basic editing needs no account, but optional AI features still depend on whichever model provider you configure."
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "Open Archiver gives organizations a self-hosted place to retain and search email from Google Workspace, Microsoft"
+    },
+    {
+      "start": 146.0,
+      "end": 146.0,
+      "text": "365, IMAP accounts, and common mailbox exports. Messages stay in standard EML files with compression, dduplication,"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "encryption at rest, and hashes that flag later changes. Full text indexing covers messages and supported attachments,"
+    },
+    {
+      "start": 161.0,
+      "end": 161.0,
+      "text": "while storage can remain local or move to S3 compatible infrastructure."
+    },
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "Codeman puts multiple coding agent CLIs behind one self-hosted browser dashboard with each session running inside T-Mux"
+    },
+    {
+      "start": 175.0,
+      "end": 175.0,
+      "text": "so work survives disconnects and restarts. You can watch terminals and background agents live, send prompts from a phone, schedule jobs, and resume"
+    },
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "long runs after an agent becomes idle or a usage window legitimately resets."
+    },
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "Super productivity combines a task list with actual day planning. So estimates, time boxes, timers and completed work"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "stay in one place. It can pull assigned issues from Jira, GitHub, GitLab, linear and other trackers. Then keep personal"
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "planning details local and create work logs. No account is required."
+    },
+    {
+      "start": 208.0,
+      "end": 208.0,
+      "text": "Crossdevice sync is optional through webdav, Dropbox, or the project's endtoend encrypted superersync service."
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "Tax Hacker turns a pile of receipt photos and invoice PDFs into a structured table. dates, merchants amounts, line items extracted by an LLM"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "you choose. Currency conversion uses the historical rate from the transaction date across 170 currencies and 14 cryptocurrencies."
+    },
+    {
+      "start": 234.0,
+      "end": 234.0,
+      "text": "You can write your own extraction prompts, including the system prompt."
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "ROM is a self-hosted library manager for game files you already own, closer to Jellyfin than to a front end like ESD."
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "It scans your folders, pulls metadata for over 400 platforms from IGDB, Screen Scraper, and MOI games, and parses tags"
+    },
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "out of file names. EmulatorJS plays supported titles in the browser, and retro achievements progress shows on the game page."
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "Carakeep saves the page itself rather than just a link, so a dead URL still has readable content behind it. Monolith"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "archives the full page. OCR pulls text out of images and PDFs, and Miley search indexes all of it for full text and"
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "semantic search. Tagging and summarization run through an LLM, and Alama works if you'd rather keep that local. Browser extensions, mobile apps, and RSS ingestion on top."
+    },
+    {
+      "start": 289.0,
+      "end": 289.0,
+      "text": "WGR is a self-hosted fitness manager that keeps workouts, nutrition, weight measurements, and progress photos under"
+    },
+    {
+      "start": 297.0,
+      "end": 297.0,
+      "text": "one roof. You can build routines with automatic weight progression, log meals against the open foodax database, and use its REST API for your own integrations."
+    },
+    {
+      "start": 307.0,
+      "end": 307.0,
+      "text": "Mobile and desktop clients connect to the same system. Treat its exercise and nutrition data as tracking aids, though, not personalized medical or coaching advice."
+    },
+    {
+      "start": 318.0,
+      "end": 318.0,
+      "text": "Safebucket is a self-hosted file sharing platform where the bites never touch the application server. It hands out pre-signed URLs, so uploads and"
+    },
+    {
+      "start": 327.0,
+      "end": 327.0,
+      "text": "downloads go straight between the browser and your object storage. And the Go backend only handles O and metadata."
+    },
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "Storage, database, cache, events, and notifier are each swappable."
+    },
+    {
+      "start": 338.0,
+      "end": 338.0,
+      "text": "Share links take a password, a download cap, and an expiry."
+    },
+    {
+      "start": 343.0,
+      "end": 343.0,
+      "text": "Eden is one engineer's home lab published as its actual source, a Talos Kubernetes cluster on Proxmox provisioned with Terraform with Argo CD"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "reconciling every workload from the repo. Psyllium handles networking, authentic does SSO, and Prometheus, Grafana, Loki, and Tempo cover metrics,"
+    },
+    {
+      "start": 361.0,
+      "end": 361.0,
+      "text": "logs, and traces. The architecture diagrams are generated from D2 files by a GitHub action so they can't drift from the config."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Dryd do watches your containers for image updates and notifies you. Applying the update is optin which is the split"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "from watchtowwer. It reads 23 registries and fans out to 20 notification and action providers. It expects a socket proxy instead of the raw Docker socket."
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "Outbound web hooks resolve through a guarded DNS lookup that blocks cloud metadata addresses and an instance with no O configured fails closed."
+    },
+    {
+      "start": 398.0,
+      "end": 398.0,
+      "text": "Inkstone is a self-hosted markdown notebook built on Cloudflare workers."
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "Your notes stay readable as plain text while the app adds folders, back links, version history, offline editing, real-time sync, and full text search."
+    },
+    {
+      "start": 412.0,
+      "end": 412.0,
+      "text": "Optional workers AI enables private semantic search and its scoped MCP interface can read or update notes through revocable keys."
+    },
+    {
+      "start": 421.0,
+      "end": 421.0,
+      "text": "Recona maps devices on a network you administer in go with a dashboard instead of end mapap output you have to read ICMP sweeps TCP probes and ARP find"
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "hosts then background workers pull MAC vendors host names OS fingerprints and open ports and raise alerts when"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "something new appears. The backend makes zero outbound calls by default."
+    },
+    {
+      "start": 443.0,
+      "end": 443.0,
+      "text": "Adventure Log is a self-hosted travel journal and trip planner that keeps your map, memories, and future itineraries together. You can pin locations with"
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "photos and repeat visits, build multi-day plans with lodging and checklists, track countries and regions, and attach GPX trails. Trips can stay"
+    },
+    {
+      "start": 460.0,
+      "end": 460.0,
+      "text": "private, use public links, or be edited collaboratively."
+    },
+    {
+      "start": 466.0,
+      "end": 466.0,
+      "text": "Note Discovery is a self-hosted note app that serves every browser library from its own container. no CDN, so it runs on"
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "an airgapped network where most self-hosted note apps fail. Notes are plain markdown files and folders with a graph view over the links between them"
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "and an inapp drawing editor that saves PGs next to the note. A built-in MCP server lets Claude or cursor search and edit the same files."
+    },
+    {
+      "start": 492.0,
+      "end": 492.0,
+      "text": "Expensive is a self-hosted expense tracker designed for households rather than individual spreadsheets. Family members can share separate calendars,"
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "record recurring costs, review spending and income reports, and install the interface as a mobile PWA. Bank data"
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "arrives through exported OFX, QFX, XML, or CSV files, so there's no live banking connection to maintain."
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "VOFSYNC automatically copies footage from a VOPO dash cam when the car joins your home Wi-Fi. The self-hosted"
+    },
+    {
+      "start": 524.0,
+      "end": 524.0,
+      "text": "dashboard organizes clips into journeys, fetches GPS traces before full videos arrive, and lets you trim footage, switch camera angles, create pictureand picture exports, and manage retention."
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "It needs an always on host, plus compatible station mode firmware."
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "Clay turns Cloud Code and Codeex into a shared browser-based workspace for teams."
+    },
+    {
+      "start": 546.0,
+      "end": 546.0,
+      "text": "One self-hosted Damon can run sessions across multiple repositories, isolate parallel work trees, surface approvals"
+    },
+    {
+      "start": 553.0,
+      "end": 553.0,
+      "text": "on mobile, and keep persistent agent teammates with their own markdown memory. Sessions and decisions stay as"
+    },
+    {
+      "start": 559.0,
+      "end": 559.0,
+      "text": "JSON L and markdown on your disk, though model requests still go to the selected provider."
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "Telecast turns your Telegram channel into a static microblog you can host almost anywhere. During each build, it pulls posts and media into local files,"
+    },
+    {
+      "start": 575.0,
+      "end": 575.0,
+      "text": "creates a Luner search index, and generates RSS, social previews, and PWA assets. The result is a responsive"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "Twitter style archive with no database or runtime Telegram dependency."
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "Mirror only content you own or have permission to republish."
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "Open Genie is a runtime for longunning agents rather than an agent itself."
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Every event lands in a Postgress log. So a browser reload or an audit replays the same session history. Sessions can"
+    },
+    {
+      "start": 604.0,
+      "end": 604.0,
+      "text": "target a machine you enroll which dials out only and keeps its own git credentials. No platform token pushed to it. Agent memories are proposed not"
+    },
+    {
+      "start": 612.0,
+      "end": 612.0,
+      "text": "written. A human approves before one becomes retrieval context."
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "Magic combines a self-hosted app builder with the backend it generates. point its wizard at SQLite, Postgress SQL, MySQL,"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "Mariab or SQL Server and it creates authenticated REST endpoints that you can extend in plain English. Those endpoints can also become MCP tools for"
+    },
+    {
+      "start": 634.0,
+      "end": 634.0,
+      "text": "coding agents while Hyper Lambda restricts which functions generated code may call."
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "Nix puts a forum, real-time chat, voice rooms, a collaborative canvas, and a public homepage into one self-hosted"
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "community server. Its WebRTC layer handles peer-to-peer voice, while a Rust relay can publish a home server without opening inbound ports or buying a"
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "domain. Posts stay searchable, and admins get moderation, plus a widget system."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "Libes is a self-hosted support desk that puts website, chat, and email into one shared inbox. Teams can route"
+    },
+    {
+      "start": 670.0,
+      "end": 670.0,
+      "text": "conversations with rules, assign work by capacity, track SLAs's, and control access with custom roles. It also offers"
+    },
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "a knowledgebased assistant that can answer chats or draft replies before handing off to a person. The application ships as one go binary, but production"
+    },
+    {
+      "start": 687.0,
+      "end": 687.0,
+      "text": "still needs Postgraq and Reddus alongside it."
+    },
+    {
+      "start": 691.0,
+      "end": 691.0,
+      "text": "HQbase is a shared email workspace that runs inside your own Cloudflare account, keeping mail and credentials on infrastructure you control. Teams can"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "manage shared inboxes with access controls, multiple domains, collaborative drafts, and an audit history, while operators get documented"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "installation, update, backup, and recovery workflows. It also exposes an OOTH protected MCP server for agent access."
+    },
+    {
+      "start": 717.0,
+      "end": 717.0,
+      "text": "Warpgate is a self-hosted bastion that puts precise access controls in front of SSH, web apps, Kubernetes, databases,"
+    },
+    {
+      "start": 724.0,
+      "end": 724.0,
+      "text": "RDP, and VNC without forcing users onto a custom client."
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "It authenticates the user itself, opens its own connection to the target and joins the two, so your SSH command and native clients keep working unchanged."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Every session is recorded and replayable from the admin UI with command level audit."
+    },
+    {
+      "start": 744.0,
+      "end": 744.0,
+      "text": "Neutrrace is a self-hosted nutrition tracker that keeps food logs, recipes, goals, and wellness data on your own hardware. It runs in one docker"
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "container, includes a browser PWA and Android app, and can pull food data from open food facts or USDA. Optional"
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "integrations cover fitness services and AI assisted logging. Its calorie estimates, wellness scores, and AI suggestions areformational, not medical or dietary advice."
+    },
+    {
+      "start": 771.0,
+      "end": 771.0,
+      "text": "[music]"
+    }
+  ]
+}

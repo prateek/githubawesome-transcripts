@@ -1,0 +1,1541 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 43. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "Cloudflare computer gives an agent a file system whose authoritative copy lives in a durable object SQLite then"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "projects it into whichever execution surface you pick. A container mounts it as a real fuse file system with a full Linux userland and real binaries."
+    },
+    {
+      "timestamp": "0:28",
+      "text": "Lighter backends run a shell or an ECMAScript module in a dynamic worker hitting the same store over RPC with no sync round trip."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Waku agent is a personal assistant you read rather than install built to show the four parts of any real agent harness"
+    },
+    {
+      "timestamp": "0:43",
+      "text": "loop memory and a val. The loop is about 95 lines of plain Python with no framework hiding it. The interesting"
+    },
+    {
+      "timestamp": "0:51",
+      "text": "piece is a retrieval gate that first asks whether a turn needs memory at all since irrelevant memories bias answers."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "Memory is one SQLite file you can open."
+    },
+    {
+      "timestamp": "1:02",
+      "text": "Query splat predicts 3D Gaussian splats from a handful of photos of one scene and the paper's idea is separating the geometry representation from the"
+    },
+    {
+      "timestamp": "1:11",
+      "text": "appearance one rather than learning both in the same tangle. The release runs feed forward or with test time optimization for a short refinement"
+    },
+    {
+      "timestamp": "1:20",
+      "text": "pass. It exports Gaussian ply files at your chosen opacity thresholds plus predicted cameras and depth point clouds."
+    },
+    {
+      "timestamp": "1:29",
+      "text": "Any doc converts word, powerpoint, excel, open document, rtf, eub, csv, and pdf into markdown written in rust with"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "node and python bindings. Every format parses into one shared document model and renders through one serializer. So a"
+    },
+    {
+      "timestamp": "1:43",
+      "text": "table escaping fix for DOCX fixes RTF and ODT at the same time. Format detection reads the bytes rather than the extension. So mislabeled files still convert."
+    },
+    {
+      "timestamp": "1:54",
+      "text": "Cargo frisk checks what cargo actually ships rather than what git tracks and those differ. Cargo package includes"
+    },
+    {
+      "timestamp": "2:01",
+      "text": "unttracked but unignored files. So a stray.env invisible to your secret scanner still lands in the tarball on"
+    },
+    {
+      "timestamp": "2:08",
+      "text": "crates.io permanently. It diffs the built crate against git ls files, then runs git leaks derived rules over the"
+    },
+    {
+      "timestamp": "2:15",
+      "text": "packaged files. An entropy gate and path context stop test fixtures failing your build. Fingerframe AI turns the two-hand"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "framing gesture into a window onto an AI generated version of the same video. A videotovideo model regenerates the whole"
+    },
+    {
+      "timestamp": "2:32",
+      "text": "clip. So the animated version blinks and moves exactly as you did. And every prompt gets a strict alignment suffix"
+    },
+    {
+      "timestamp": "2:39",
+      "text": "appended. No zoom or recentering facial features at the same screen coordinates so it lines up behind the frame. Gen"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "puts document spreadsheet presentation and PDF editors into one desktop suite with model driven editing built into each workspace. Its most interesting"
+    },
+    {
+      "timestamp": "2:57",
+      "text": "detail is file preservation. DocX saves regenerate only changed paragraphs while untouched XML and archive entries remain"
+    },
+    {
+      "timestamp": "3:04",
+      "text": "bite forbite intact. Sheets uses a Rust import and export sidecar and slides has its own pptx renderer."
+    },
+    {
+      "timestamp": "3:12",
+      "text": "Find locates a nearby Bluetooth device from the Mac OS command line for when Find My is switched off. Run it with a"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "name and it tracks signal strength with an optional click that speeds up as you close in. So you sweep a room by ear."
+    },
+    {
+      "timestamp": "3:29",
+      "text": "The author is careful about what the number means, saying plainly that a phone in a filing cabinet 2 meters away reads like 1 15 meters off."
+    },
+    {
+      "timestamp": "3:38",
+      "text": "Soup fine-tunes LLMs from one YAML file and one command, handling batch size, GPU detection, and quantization for you,"
+    },
+    {
+      "timestamp": "3:45",
+      "text": "running locally on your own card with Qura. The interesting new piece is reward hack mitigation for GRPO runs."
+    },
+    {
+      "timestamp": "3:53",
+      "text": "When multiple signals agree, the model is gaming the reward. It raises the KL coefficient, then rolls back to the last good checkpoint if that fails."
+    },
+    {
+      "timestamp": "4:02",
+      "text": "Morphicons morphs any stroke icon into any other. And the trick is that rotations are never declared by hand. It"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "solves the optimal similarity between the two shapes in closed form, then interpolates rotation, scale, and residual, each in its own space. So,"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "arrow right to arrow down comes out as a clean 90° turn because the math found it. Corners are anchored as exact sample"
+    },
+    {
+      "timestamp": "4:26",
+      "text": "points, so a check mark doesn't round off in transit."
+    },
+    {
+      "timestamp": "4:31",
+      "text": "Back channel is a user script that puts the hacker news and Reddit threads about whatever you're reading in a sidebar on the article itself. Quotes in the"
+    },
+    {
+      "timestamp": "4:40",
+      "text": "comments get matched back into the page and highlighted where they sit. So, clicking a highlight filters the thread to people arguing about that exact"
+    },
+    {
+      "timestamp": "4:48",
+      "text": "passage. You can vote and reply through your existing HN session. Reddit is readon and off by default since enabling it sends your browsing to Reddit."
+    },
+    {
+      "timestamp": "5:00",
+      "text": "Vphone workstation is a native Mac OS app for running virtual iPhones wrapping Locker 233's VPON Cly in a real library"
+    },
+    {
+      "timestamp": "5:08",
+      "text": "window. Every VM with its live state, iOS and cloud OS build, CPU, memory, and UDID at a glance, plus clone, rename,"
+    },
+    {
+      "timestamp": "5:16",
+      "text": "and export. The create wizard streams progress step by step and hands you an exportable log. It checks host readiness"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "first since these research VMs need SIP research guests allowed and AMFI bypassed."
+    },
+    {
+      "timestamp": "5:29",
+      "text": "Swift runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+    },
+    {
+      "timestamp": "5:37",
+      "text": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels"
+    },
+    {
+      "timestamp": "5:44",
+      "text": "handle inference. The maintainer reports the 35B model using about 25 GB of RAM on an iPhone 17 at roughly one token per second."
+    },
+    {
+      "timestamp": "5:55",
+      "text": "Captivo is a screen recorder for demo videos, the kind where the camera follows your cursor and clicks trigger zooms. Open a fresh recording and it"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "suggests zoom fragments from where you actually clicked. Capture runs native per platform, Screen Capture Kit, Windows Graphics Capture, and Pipewire"
+    },
+    {
+      "timestamp": "6:12",
+      "text": "into hardware H.264 264 with a crash safe fragmented MP4. Captions run on device through whisper.cpp."
+    },
+    {
+      "timestamp": "6:22",
+      "text": "Shitty is a terminal emulator that keeps all its state on the CPU and hands rendering to a single Vulcan compute shader, drawing only the cells that"
+    },
+    {
+      "timestamp": "6:30",
+      "text": "actually changed. It's a hard fork and rewrite of Zuti. Coverage is deep for the parts people hit daily. Kitty"
+    },
+    {
+      "timestamp": "6:37",
+      "text": "keyboard protocol, five mouse protocols, scroll back that reflows on resize, OSC8 hyperlinks, no sixle and no birectional"
+    },
+    {
+      "timestamp": "6:46",
+      "text": "text which the readme states plainly bindwidth sizes an on-prem LLM deployment by finding the constraint"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "that actually stops it rather than guessing from model size alone. It calculates memory for the KV cache, shared prefill, and decode capacity and"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "the runtime session ceiling, then identifies which limit binds. Hardware profiles distinguish measured results"
+    },
+    {
+      "timestamp": "7:10",
+      "text": "from estimates, and scenarios export as markdown or JSON."
+    },
+    {
+      "timestamp": "7:14",
+      "text": "OpenEdit burns stylized subtitles into a video from your coding agent. point clawed code or codeex at a file and it"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "transcribes, designs captions to match the clip, renders through ffmpeg and opens a preview, then takes plain language corrections like moving the text up or emphasizing one word."
+    },
+    {
+      "timestamp": "7:33",
+      "text": "Transcription uploads your video to V and spends credits from a free account you have to create."
+    },
+    {
+      "timestamp": "7:41",
+      "text": "backs up the DeviantArt art you follow to a local folder and the whole tool is Python standard library with zero runtime dependencies."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "A SQLite index means a rerun costs one API call when nothing new was posted. So a daily launch job is nearly free."
+    },
+    {
+      "timestamp": "7:57",
+      "text": "Secrets go to the Mac OS keychain rather than a dot file and a diagnose command tells you when a scheduled run has been quietly failing."
+    },
+    {
+      "timestamp": "8:06",
+      "text": "Virtual Mac on iPad runs Mac OS in a hardware virtualized VM on an M1 iPad. And the hard part was the frameworks."
+    },
+    {
+      "timestamp": "8:14",
+      "text": "Apple's hypervisor and virtualization libraries live only inside Mac OS's dild shared cache. And pulling them out is lossy. A script walks the cach's slide"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "information, separates rebases from cross image binds, relays out the segments, and emits new chained fixups with pointer authentication intact."
+    },
+    {
+      "timestamp": "8:33",
+      "text": "Jungle Trail is a first person walk through a procedural jungle in 3JS with no art files at all. Every texture is a"
+    },
+    {
+      "timestamp": "8:41",
+      "text": "GLSL function rendered into a target and normal maps come from sobell sampling that same function. So the normal can"
+    },
+    {
+      "timestamp": "8:48",
+      "text": "never disagree with the albido. The canopy is left out of the shadow map entirely and replaced with an analytic transmittance term."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "Desco turns an old phone into a desk dashboard pushed from your PC over websocket to one browser tab. No app and"
+    },
+    {
+      "timestamp": "9:04",
+      "text": "no cloud. Five scenes rotate clock and weather now playing with time synced lyrics. You can tap to seek live CPU and"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "GPU stats. Git and editor state and a Pomodoro timer that lives server side so reloads don't reset it. There's no"
+    },
+    {
+      "timestamp": "9:19",
+      "text": "authentication so keep it on your home network."
+    },
+    {
+      "timestamp": "9:23",
+      "text": "Doc 7 converts documents to markdown by rendering each page and handing it to your own vision model rather than extracting a text layer. That means"
+    },
+    {
+      "timestamp": "9:32",
+      "text": "charts arrive as labels, values and trends. Diagrams keep their ordering and relationships and a screenshot's visible"
+    },
+    {
+      "timestamp": "9:39",
+      "text": "UI state survives. A failed page is marked failed rather than written as truncated markdown and resume tries just"
+    },
+    {
+      "timestamp": "9:47",
+      "text": "those pages while leaving the good ones bite identical."
+    },
+    {
+      "timestamp": "9:51",
+      "text": "King's Gambit is a 3D chess game where the pieces are rigged characters with idle, attack, and death animations and"
+    },
+    {
+      "timestamp": "9:58",
+      "text": "captures play as a cinematic. The camera punches in, the strike lands on the hit frame, and the loser burns away from the souls upward through a shader dissolve."
+    },
+    {
+      "timestamp": "10:07",
+      "text": "The rules core never imports 3JS, so logic stays testable headlessly. Search runs in a web worker, so the render loop never blocks."
+    },
+    {
+      "timestamp": "10:18",
+      "text": "Outreacher is a fundraising CRM that keeps everything in a seclite vault you own with secrets in the OS keychain"
+    },
+    {
+      "timestamp": "10:25",
+      "text": "rather than the database. The interesting part is where the guardrails live. Duplicate sends, daily and hourly caps, per domain cooldowns and"
+    },
+    {
+      "timestamp": "10:34",
+      "text": "suppression lists are enforced by database triggers before anything reaches Gmail or Outlook. Security relevant activity is append only and hashchained."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "This node speeds up Miniaax H3 video generation in Comfy UI by not running the transformer on every step. It fits a"
+    },
+    {
+      "timestamp": "10:52",
+      "text": "CHB ridge model to the hidden features after the final block, forecast them for intermediate steps, and runs the real output heads regardless."
+    },
+    {
+      "timestamp": "11:01",
+      "text": "Ancestral samplers stay native because injected noise breaks the smooth trajectory it fits."
+    },
+    {
+      "timestamp": "11:08",
+      "text": "Token Saver is a clawed desktop extension that keeps big PDFs out of the context window entirely."
+    },
+    {
+      "timestamp": "11:16",
+      "text": "Local hybrid search BM25 blended with a local embedding model finds the passages that answer your question and sends only"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "those with page citations below about 20 pages. It's not worth it and the authors say so. They also publicly walked back"
+    },
+    {
+      "timestamp": "11:31",
+      "text": "their own earlier recall numbers after their retrieval changes made them stop reproducing."
+    },
+    {
+      "timestamp": "11:37",
+      "text": "Falco is a browser engine in about 36,000 lines of Rust with nothing borrowed from Chromium or Gecko down to"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "a handwritten PNG encoder and its own JavaScript VM with a bite code interpreter and a JIT. Point it at a URL"
+    },
+    {
+      "timestamp": "11:51",
+      "text": "and it writes a real PNG or opens a window you can scroll and fill forms in."
+    },
+    {
+      "timestamp": "11:57",
+      "text": "The readme is the best part, a section separating what actually runs from what merely compiles."
+    },
+    {
+      "timestamp": "12:04",
+      "text": "Stickman video director is a codec skill that does the directing before you spend generation credits. Paste your copy,"
+    },
+    {
+      "timestamp": "12:11",
+      "text": "pick an aspect ratio and a light or dark theme, and it returns a six scene proposal with narration, camera moves,"
+    },
+    {
+      "timestamp": "12:18",
+      "text": "transitions, and sound. Approve it and you get six standalone prompts, each repeating the character, line weight, and pallet locks, so separately"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "generated clips still stitch into one minute."
+    },
+    {
+      "timestamp": "12:31",
+      "text": "Real Replica Bench tests whether AI agents can finish long business workflows inside reproducible replicas of online services. Its 107 tasks span"
+    },
+    {
+      "timestamp": "12:40",
+      "text": "browser work, command line tools, files, and API or MCP operations, including product publishing, and freight booking."
+    },
+    {
+      "timestamp": "12:49",
+      "text": "Each attempt starts in a fresh container, changes state in local mock services, and leaves artifacts, logs, and verifier results for inspection."
+    },
+    {
+      "timestamp": "12:58",
+      "text": "Diri runs several coding agents side by side on Mac OS, each in its own git work or on a remote host. The design choice"
+    },
+    {
+      "timestamp": "13:06",
+      "text": "worth stealing is process separation. A headless Swift Damon owns the PTY and out lives the app with a separate tiny"
+    },
+    {
+      "timestamp": "13:13",
+      "text": "helper holding the PTI master so sessions survive a demon crash. Closing the window kills nothing. Adding a new agent is a JSON manifest rather than code."
+    },
+    {
+      "timestamp": "13:24",
+      "text": "Magi 2 preview generates 10-second video with its own soundtrack from a prompt or a prompt plus a still. It's 114 billion"
+    },
+    {
+      "timestamp": "13:32",
+      "text": "parameters that activate six per token and it runs in two passes, one denoising at low resolution and a refiner taking that to 1080p."
+    },
+    {
+      "timestamp": "13:42",
+      "text": "Audio is generated alongside the picture and the requirement is eight hopper GPUs and 307 GB of weights. So this is"
+    },
+    {
+      "timestamp": "13:50",
+      "text": "cluster work. Can I vibe code? It helps you judge whether a paid SAS subscription can be replaced by a personal app built with a coding agent."
+    },
+    {
+      "timestamp": "14:00",
+      "text": "Each listing gives a yes kind of or not really verdict, an exact build prompt, and the trade-offs you inherit by leaving. Contributions are plain JSON files submitted through pull requests."
+    },
+    {
+      "timestamp": "14:12",
+      "text": "Network effects, proprietary data, and expensive infrastructure still count as genuine moes."
+    },
+    {
+      "timestamp": "14:19",
+      "text": "Creekwork 12 reads your laptop's lid angle sensor and turns the hinge into a creaky wooden door. Pitch follows the"
+    },
+    {
+      "timestamp": "14:27",
+      "text": "angle, volume follows how fast you move it, so slamming the lid sounds different from easing it shut. It's a rust port of lid angle sensor to the framework 12."
+    },
+    {
+      "timestamp": "14:37",
+      "text": "And the filtering is tuned to that specific hinge stiffness. So other laptops are untested. The stated reason for building it is that it's funny."
+    },
+    {
+      "timestamp": "14:47",
+      "text": "Chapter TGZ is a tar.gz that lets you jump straight to a group of entries without decompressing everything before"
+    },
+    {
+      "timestamp": "14:54",
+      "text": "it and read different chapters on different threads at once. The trick is where the boundary markers live. They're"
+    },
+    {
+      "timestamp": "15:01",
+      "text": "encoded as valid but empty GZIP blocks with unusual Huffman alphabets. So every existing tool still reads the file as an"
+    },
+    {
+      "timestamp": "15:09",
+      "text": "ordinary archive and ignores them completely."
+    },
+    {
+      "timestamp": "15:13",
+      "text": "This repo runs Deepseek V4 flash 304 billion parameters on one AMD MI300X"
+    },
+    {
+      "timestamp": "15:20",
+      "text": "with no extra quantization and it's really a bug hunt write up. The card uses AMD's own FP8 variant rather than the standard one. So a kernel assuming"
+    },
+    {
+      "timestamp": "15:29",
+      "text": "the wrong format is off by a factor of two. AOE routing kernel masked its padding lanes against the wrong bound quietly corrupting tool names under load."
+    },
+    {
+      "timestamp": "15:40",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 43. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare computer gives an agent a file system whose authoritative copy lives in a durable object SQLite then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "projects it into whichever execution surface you pick. A container mounts it as a real fuse file system with a full Linux userland and real binaries."
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lighter backends run a shell or an ECMAScript module in a dynamic worker hitting the same store over RPC with no sync round trip."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Waku agent is a personal assistant you read rather than install built to show the four parts of any real agent harness"
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loop memory and a val. The loop is about 95 lines of plain Python with no framework hiding it. The interesting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 51000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "piece is a retrieval gate that first asks whether a turn needs memory at all since irrelevant memories bias answers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Memory is one SQLite file you can open."
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Query splat predicts 3D Gaussian splats from a handful of photos of one scene and the paper's idea is separating the geometry representation from the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "appearance one rather than learning both in the same tangle. The release runs feed forward or with test time optimization for a short refinement"
+        }
+      ]
+    },
+    {
+      "tStartMs": 80000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pass. It exports Gaussian ply files at your chosen opacity thresholds plus predicted cameras and depth point clouds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Any doc converts word, powerpoint, excel, open document, rtf, eub, csv, and pdf into markdown written in rust with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "node and python bindings. Every format parses into one shared document model and renders through one serializer. So a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "table escaping fix for DOCX fixes RTF and ODT at the same time. Format detection reads the bytes rather than the extension. So mislabeled files still convert."
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cargo frisk checks what cargo actually ships rather than what git tracks and those differ. Cargo package includes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "unttracked but unignored files. So a stray.env invisible to your secret scanner still lands in the tarball on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "crates.io permanently. It diffs the built crate against git ls files, then runs git leaks derived rules over the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 135000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "packaged files. An entropy gate and path context stop test fixtures failing your build. Fingerframe AI turns the two-hand"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "framing gesture into a window onto an AI generated version of the same video. A videotovideo model regenerates the whole"
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clip. So the animated version blinks and moves exactly as you did. And every prompt gets a strict alignment suffix"
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "appended. No zoom or recentering facial features at the same screen coordinates so it lines up behind the frame. Gen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "puts document spreadsheet presentation and PDF editors into one desktop suite with model driven editing built into each workspace. Its most interesting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "detail is file preservation. DocX saves regenerate only changed paragraphs while untouched XML and archive entries remain"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bite forbite intact. Sheets uses a Rust import and export sidecar and slides has its own pptx renderer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Find locates a nearby Bluetooth device from the Mac OS command line for when Find My is switched off. Run it with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "name and it tracks signal strength with an optional click that speeds up as you close in. So you sweep a room by ear."
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The author is careful about what the number means, saying plainly that a phone in a filing cabinet 2 meters away reads like 1 15 meters off."
+        }
+      ]
+    },
+    {
+      "tStartMs": 218000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Soup fine-tunes LLMs from one YAML file and one command, handling batch size, GPU detection, and quantization for you,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 225000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running locally on your own card with Qura. The interesting new piece is reward hack mitigation for GRPO runs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 233000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "When multiple signals agree, the model is gaming the reward. It raises the KL coefficient, then rolls back to the last good checkpoint if that fails."
+        }
+      ]
+    },
+    {
+      "tStartMs": 242000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Morphicons morphs any stroke icon into any other. And the trick is that rotations are never declared by hand. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "solves the optimal similarity between the two shapes in closed form, then interpolates rotation, scale, and residual, each in its own space. So,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "arrow right to arrow down comes out as a clean 90° turn because the math found it. Corners are anchored as exact sample"
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "points, so a check mark doesn't round off in transit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 271000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Back channel is a user script that puts the hacker news and Reddit threads about whatever you're reading in a sidebar on the article itself. Quotes in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 280000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "comments get matched back into the page and highlighted where they sit. So, clicking a highlight filters the thread to people arguing about that exact"
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "passage. You can vote and reply through your existing HN session. Reddit is readon and off by default since enabling it sends your browsing to Reddit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vphone workstation is a native Mac OS app for running virtual iPhones wrapping Locker 233's VPON Cly in a real library"
+        }
+      ]
+    },
+    {
+      "tStartMs": 308000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "window. Every VM with its live state, iOS and cloud OS build, CPU, memory, and UDID at a glance, plus clone, rename,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 316000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and export. The create wizard streams progress step by step and hands you an exportable log. It checks host readiness"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "first since these research VMs need SIP research guests allowed and AMFI bypassed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 329000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Swift runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels"
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handle inference. The maintainer reports the 35B model using about 25 GB of RAM on an iPhone 17 at roughly one token per second."
+        }
+      ]
+    },
+    {
+      "tStartMs": 355000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Captivo is a screen recorder for demo videos, the kind where the camera follows your cursor and clicks trigger zooms. Open a fresh recording and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "suggests zoom fragments from where you actually clicked. Capture runs native per platform, Screen Capture Kit, Windows Graphics Capture, and Pipewire"
+        }
+      ]
+    },
+    {
+      "tStartMs": 372000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into hardware H.264 264 with a crash safe fragmented MP4. Captions run on device through whisper.cpp."
+        }
+      ]
+    },
+    {
+      "tStartMs": 382000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shitty is a terminal emulator that keeps all its state on the CPU and hands rendering to a single Vulcan compute shader, drawing only the cells that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 390000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually changed. It's a hard fork and rewrite of Zuti. Coverage is deep for the parts people hit daily. Kitty"
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard protocol, five mouse protocols, scroll back that reflows on resize, OSC8 hyperlinks, no sixle and no birectional"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text which the readme states plainly bindwidth sizes an on-prem LLM deployment by finding the constraint"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that actually stops it rather than guessing from model size alone. It calculates memory for the KV cache, shared prefill, and decode capacity and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the runtime session ceiling, then identifies which limit binds. Hardware profiles distinguish measured results"
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from estimates, and scenarios export as markdown or JSON."
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenEdit burns stylized subtitles into a video from your coding agent. point clawed code or codeex at a file and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transcribes, designs captions to match the clip, renders through ffmpeg and opens a preview, then takes plain language corrections like moving the text up or emphasizing one word."
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Transcription uploads your video to V and spends credits from a free account you have to create."
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "backs up the DeviantArt art you follow to a local folder and the whole tool is Python standard library with zero runtime dependencies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A SQLite index means a rerun costs one API call when nothing new was posted. So a daily launch job is nearly free."
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Secrets go to the Mac OS keychain rather than a dot file and a diagnose command tells you when a scheduled run has been quietly failing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Virtual Mac on iPad runs Mac OS in a hardware virtualized VM on an M1 iPad. And the hard part was the frameworks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 494000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple's hypervisor and virtualization libraries live only inside Mac OS's dild shared cache. And pulling them out is lossy. A script walks the cach's slide"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "information, separates rebases from cross image binds, relays out the segments, and emits new chained fixups with pointer authentication intact."
+        }
+      ]
+    },
+    {
+      "tStartMs": 513000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jungle Trail is a first person walk through a procedural jungle in 3JS with no art files at all. Every texture is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GLSL function rendered into a target and normal maps come from sobell sampling that same function. So the normal can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 528000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "never disagree with the albido. The canopy is left out of the shadow map entirely and replaced with an analytic transmittance term."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Desco turns an old phone into a desk dashboard pushed from your PC over websocket to one browser tab. No app and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no cloud. Five scenes rotate clock and weather now playing with time synced lyrics. You can tap to seek live CPU and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GPU stats. Git and editor state and a Pomodoro timer that lives server side so reloads don't reset it. There's no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 559000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "authentication so keep it on your home network."
+        }
+      ]
+    },
+    {
+      "tStartMs": 563000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Doc 7 converts documents to markdown by rendering each page and handing it to your own vision model rather than extracting a text layer. That means"
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "charts arrive as labels, values and trends. Diagrams keep their ordering and relationships and a screenshot's visible"
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UI state survives. A failed page is marked failed rather than written as truncated markdown and resume tries just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 587000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "those pages while leaving the good ones bite identical."
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "King's Gambit is a 3D chess game where the pieces are rigged characters with idle, attack, and death animations and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "captures play as a cinematic. The camera punches in, the strike lands on the hit frame, and the loser burns away from the souls upward through a shader dissolve."
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The rules core never imports 3JS, so logic stays testable headlessly. Search runs in a web worker, so the render loop never blocks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Outreacher is a fundraising CRM that keeps everything in a seclite vault you own with secrets in the OS keychain"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rather than the database. The interesting part is where the guardrails live. Duplicate sends, daily and hourly caps, per domain cooldowns and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "suppression lists are enforced by database triggers before anything reaches Gmail or Outlook. Security relevant activity is append only and hashchained."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This node speeds up Miniaax H3 video generation in Comfy UI by not running the transformer on every step. It fits a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CHB ridge model to the hidden features after the final block, forecast them for intermediate steps, and runs the real output heads regardless."
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ancestral samplers stay native because injected noise breaks the smooth trajectory it fits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Token Saver is a clawed desktop extension that keeps big PDFs out of the context window entirely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Local hybrid search BM25 blended with a local embedding model finds the passages that answer your question and sends only"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "those with page citations below about 20 pages. It's not worth it and the authors say so. They also publicly walked back"
+        }
+      ]
+    },
+    {
+      "tStartMs": 691000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "their own earlier recall numbers after their retrieval changes made them stop reproducing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Falco is a browser engine in about 36,000 lines of Rust with nothing borrowed from Chromium or Gecko down to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a handwritten PNG encoder and its own JavaScript VM with a bite code interpreter and a JIT. Point it at a URL"
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and it writes a real PNG or opens a window you can scroll and fill forms in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 717000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The readme is the best part, a section separating what actually runs from what merely compiles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stickman video director is a codec skill that does the directing before you spend generation credits. Paste your copy,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pick an aspect ratio and a light or dark theme, and it returns a six scene proposal with narration, camera moves,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transitions, and sound. Approve it and you get six standalone prompts, each repeating the character, line weight, and pallet locks, so separately"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generated clips still stitch into one minute."
+        }
+      ]
+    },
+    {
+      "tStartMs": 751000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Real Replica Bench tests whether AI agents can finish long business workflows inside reproducible replicas of online services. Its 107 tasks span"
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser work, command line tools, files, and API or MCP operations, including product publishing, and freight booking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each attempt starts in a fresh container, changes state in local mock services, and leaves artifacts, logs, and verifier results for inspection."
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Diri runs several coding agents side by side on Mac OS, each in its own git work or on a remote host. The design choice"
+        }
+      ]
+    },
+    {
+      "tStartMs": 786000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "worth stealing is process separation. A headless Swift Damon owns the PTY and out lives the app with a separate tiny"
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "helper holding the PTI master so sessions survive a demon crash. Closing the window kills nothing. Adding a new agent is a JSON manifest rather than code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Magi 2 preview generates 10-second video with its own soundtrack from a prompt or a prompt plus a still. It's 114 billion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameters that activate six per token and it runs in two passes, one denoising at low resolution and a refiner taking that to 1080p."
+        }
+      ]
+    },
+    {
+      "tStartMs": 822000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Audio is generated alongside the picture and the requirement is eight hopper GPUs and 307 GB of weights. So this is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cluster work. Can I vibe code? It helps you judge whether a paid SAS subscription can be replaced by a personal app built with a coding agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 840000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each listing gives a yes kind of or not really verdict, an exact build prompt, and the trade-offs you inherit by leaving. Contributions are plain JSON files submitted through pull requests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 852000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Network effects, proprietary data, and expensive infrastructure still count as genuine moes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Creekwork 12 reads your laptop's lid angle sensor and turns the hinge into a creaky wooden door. Pitch follows the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 867000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "angle, volume follows how fast you move it, so slamming the lid sounds different from easing it shut. It's a rust port of lid angle sensor to the framework 12."
+        }
+      ]
+    },
+    {
+      "tStartMs": 877000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And the filtering is tuned to that specific hinge stiffness. So other laptops are untested. The stated reason for building it is that it's funny."
+        }
+      ]
+    },
+    {
+      "tStartMs": 887000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chapter TGZ is a tar.gz that lets you jump straight to a group of entries without decompressing everything before"
+        }
+      ]
+    },
+    {
+      "tStartMs": 894000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it and read different chapters on different threads at once. The trick is where the boundary markers live. They're"
+        }
+      ]
+    },
+    {
+      "tStartMs": 901000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "encoded as valid but empty GZIP blocks with unusual Huffman alphabets. So every existing tool still reads the file as an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 909000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ordinary archive and ignores them completely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 913000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This repo runs Deepseek V4 flash 304 billion parameters on one AMD MI300X"
+        }
+      ]
+    },
+    {
+      "tStartMs": 920000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with no extra quantization and it's really a bug hunt write up. The card uses AMD's own FP8 variant rather than the standard one. So a kernel assuming"
+        }
+      ]
+    },
+    {
+      "tStartMs": 929000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the wrong format is off by a factor of two. AOE routing kernel masked its padding lanes against the wrong bound quietly corrupting tool names under load."
+        }
+      ]
+    },
+    {
+      "tStartMs": 940000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

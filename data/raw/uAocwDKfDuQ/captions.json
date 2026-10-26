@@ -1,0 +1,1515 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 48. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Reviewing a PR full of AI generated changes means scrolling a diff trying to reconstruct what moved where. PR Lens"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "drops an animated diagram into the pull request. One for architecture, one for data flow. Color-coded green for new, amber for changed, red for deleted. It"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "scales up to a monor repo. six lanes and 37 nodes in their tests. Run it as a GitHub app with no API key or a CLI you can preview locally."
+    },
+    {
+      "timestamp": "0:38",
+      "text": "Bank MCP lets your AI assistant see your bank account read only so you can just ask what you spent on groceries in"
+    },
+    {
+      "timestamp": "0:44",
+      "text": "August. It runs on PSD2, the open banking standard covering over 2,700 European banks. And you log into your"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "bank's site to approve access. Your credentials never touch this server. It doesn't store balances or transactions, just consents and account IDs."
+    },
+    {
+      "timestamp": "1:03",
+      "text": "You have no idea if chat GPT or claude mentions your product when someone asks for a recommendation or who gets named"
+    },
+    {
+      "timestamp": "1:09",
+      "text": "instead. Newbio answers that. You give it a domain. It queries OpenAI, Anthropic, Gemini, Perplexity, Deepseek,"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "and shows how each one describes your brand, where it loses to a competitor, and which source got cited. Every conclusion links back to the real answer."
+    },
+    {
+      "timestamp": "1:27",
+      "text": "Coding assistants love to explain themselves before they tell you what to do. This skill flips that. It forces Claude Codeex to lead with the next"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "concrete step, numbers the tasks, cuts the tangents, and gives you a real time estimate instead of vague words. No more hope. This helps at the end either."
+    },
+    {
+      "timestamp": "1:46",
+      "text": "Despite the name, you don't need an ADHD diagnosis to want responses that get to the point."
+    },
+    {
+      "timestamp": "1:52",
+      "text": "This turns your face into a meme dispenser on video calls. Media pipe watches your expressions and the moment you roll your eyes or throw the timeout"
+    },
+    {
+      "timestamp": "2:01",
+      "text": "gesture, it overlays the matching reaction and pipes the feed out as a virtual camera. Sarin Zoom or Teams"
+    },
+    {
+      "timestamp": "2:08",
+      "text": "treat as a webcam. It calibrates to your resting face first since everyone's neutral expression reads slightly different. 14 reactions built in plus room for your own gifts."
+    },
+    {
+      "timestamp": "2:21",
+      "text": "Ever Room is trying to fix the messiest part of using AI agents, context."
+    },
+    {
+      "timestamp": "2:26",
+      "text": "Instead of dumping every file and chat into one prompt, it builds context rooms, scoped workspaces, where an agent sees only what belongs to that project"
+    },
+    {
+      "timestamp": "2:35",
+      "text": "with provenence. Every document edit lands as a reviewable operation. You can inspect before it runs and everything stays local by default."
+    },
+    {
+      "timestamp": "2:44",
+      "text": "OKF agent memory skips the vector database entirely. It stores agent memory as plain markdown with YAML front matter inside your repo's knowledge"
+    },
+    {
+      "timestamp": "2:53",
+      "text": "folder. So every fact is a git diff away from audit or roll back. Search runs on local BM25 indexing and the maintainers"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "clock search latency under 300 micros with zero embedding costs. It enforces a search before write habit so agents stop reinventing the same concepts."
+    },
+    {
+      "timestamp": "3:13",
+      "text": "Bot crossing turns your coding agent sessions into a little astronaut colony."
+    },
+    {
+      "timestamp": "3:17",
+      "text": "Each repository gets a plot and each session gets an astronaut whose behavior reflects whether it's working, stuck, or"
+    },
+    {
+      "timestamp": "3:24",
+      "text": "waiting for you. Click one to reopen the original thread. It reads local session files from clawed code, codecs, and parts of cursor without uploading them."
+    },
+    {
+      "timestamp": "3:35",
+      "text": "Spun is a Linux music player that turns album artwork into a CD with vinyl and cassette views, too. You can drop in"
+    },
+    {
+      "timestamp": "3:43",
+      "text": "local music or browse Apple Music through Cider, then search and rearrange your queue without switching apps. Cider still handles streaming and must stay"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "running. It's built in QT and C++ with a quiet Material Design 3 look that stays out of your way."
+    },
+    {
+      "timestamp": "4:00",
+      "text": "Anything to explainer skips the choice between hiring a presenter and trusting a generative model to draw your diagram."
+    },
+    {
+      "timestamp": "4:07",
+      "text": "Give it a topic or a document and it renders the whole video in code through motion. So every frame is deterministic"
+    },
+    {
+      "timestamp": "4:14",
+      "text": "and every number traces to a source. It writes the voice over, syncs subtitles word by word and runs a QC pass before"
+    },
+    {
+      "timestamp": "4:22",
+      "text": "final render. Cool brushes is a drawing app built around one weird idea, six brushes that don't feel like brushes."
+    },
+    {
+      "timestamp": "4:31",
+      "text": "There's score, which paints in musical staff notation, schematic for technical diagrams, and gunplot, which draws in"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "model kit components. Switch between any of them, and you're still on the same canvas. Nothing reloads, nothing resets."
+    },
+    {
+      "timestamp": "4:44",
+      "text": "It's built on p5.js, bundled locally with no CDN dependency."
+    },
+    {
+      "timestamp": "4:50",
+      "text": "MacTap turns knocking on your MacBook into a keyboard shortcut. It reads the motion sensor built into Apple silicon, M2 and later, or M1 Pro, Max, and Ultra."
+    },
+    {
+      "timestamp": "5:00",
+      "text": "So it can tell a single knock from a double left edge from right. Each pattern maps to an action with swappable presets for different workflows, plus"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "per app overrides. Tap classification runs entirely on device. Nothing leaves the machine."
+    },
+    {
+      "timestamp": "5:16",
+      "text": "Whiteboard animator turns a finished whiteboard style image into a video of someone drawing it one stroke at a time."
+    },
+    {
+      "timestamp": "5:22",
+      "text": "It runs a bundled text detector so it writes actual words instead of tracing letters and orders the drawing the way a person would contain contents."
+    },
+    {
+      "timestamp": "5:32",
+      "text": "Feed it a narration and it paces the strokes to match. It runs entirely on CPU. No GPU or API key needed though"
+    },
+    {
+      "timestamp": "5:41",
+      "text": "Gemini is optional for picking regions automatically."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Flector Mail skips the part where your email client is secretly a browser tab."
+    },
+    {
+      "timestamp": "5:50",
+      "text": "It's written entirely in Rust and renders HTML email through its own pipeline instead of a web view. So nothing in your inbox gets a script"
+    },
+    {
+      "timestamp": "5:57",
+      "text": "engine to run in. The maintainers say it launches instantly on as little as 20 megabytes of RAM. It syncs Gmail,"
+    },
+    {
+      "timestamp": "6:05",
+      "text": "Outlook, and plain IMAP or JMAP, stores everything locally, and blocks remote images by default."
+    },
+    {
+      "timestamp": "6:12",
+      "text": "Inslib fuses your IMU with GPS, a barometer, and a magnetometer into one navigation solution written in pure C11"
+    },
+    {
+      "timestamp": "6:20",
+      "text": "with zero dependencies. So it fits on a microcontroller. It runs a UDU common filter for stability, holds altitude"
+    },
+    {
+      "timestamp": "6:27",
+      "text": "through a GPS outage via the barometer and never allocates or recurses. Safe for a real control loop. Feed Galileo"
+    },
+    {
+      "timestamp": "6:34",
+      "text": "has or Ublock Spartan corrections and the maintainers report accuracy down to a few centimeters. tighter still with RTK."
+    },
+    {
+      "timestamp": "6:43",
+      "text": "This repo skips the toy CRUD tutorial for a real flight booking backend split across five.NET services. Booking rights run through event store DB with actual"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "event sourcing and Rabbit MQ plus Wolverine move events between services with durable inbox and outbox patterns."
+    },
+    {
+      "timestamp": "6:59",
+      "text": "So messages process exactly once. The rest splits reads and writes across Postgress and MongoDB under CQRS with"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "gRPC for service calls. a full observability stack."
+    },
+    {
+      "timestamp": "7:11",
+      "text": "Highlight skips the fake glass look everyone's used since 2020. Blur plus a translucent layer and actually bends"
+    },
+    {
+      "timestamp": "7:19",
+      "text": "light. It computes a distance field for each element's rounded corners and runs the refraction through real Snell's law physics. So straight lines curve at the"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "edges like actual glass. It's one JavaScript file. No WebGL, no build step, just SVG filters and backdrop filter."
+    },
+    {
+      "timestamp": "7:37",
+      "text": "Vintage Latex doesn't fake old paper with a filter. It rebuilds how 19th century documents were actually type set. 20 standalone lux and metapost"
+    },
+    {
+      "timestamp": "7:46",
+      "text": "examples cover the long s period liatures and lens ray tracing with diagrams that stay real searchable text"
+    },
+    {
+      "timestamp": "7:53",
+      "text": "instead of a flattened image. It runs on eBaramond and the physico library and needs lux specifically. PDF latex won't compile it."
+    },
+    {
+      "timestamp": "8:04",
+      "text": "Vstep turns things like JPEG compression or elevator scheduling into animated films you can pause and poke at. Each"
+    },
+    {
+      "timestamp": "8:12",
+      "text": "scene pairs a chapter video with its own calculation model. So adjusting a variable actually recalculates the visualization instead of replaying a"
+    },
+    {
+      "timestamp": "8:20",
+      "text": "canned animation. It runs entirely in the browser, no account or API key with narration and captions in English and Chinese."
+    },
+    {
+      "timestamp": "8:30",
+      "text": "Your dynamic dashboard replaces your new tab with a command center that never phones home. Everything from search history to your to-do list stays local."
+    },
+    {
+      "timestamp": "8:39",
+      "text": "It's built-in vanilla JavaScript, no framework bloat with a command pallet on control K, drag and drop tasks, live"
+    },
+    {
+      "timestamp": "8:47",
+      "text": "weather pulled from Open Media, and a voice search mode they call Jarvis mode."
+    },
+    {
+      "timestamp": "8:52",
+      "text": "CIS data goes after the system data bucket. Mac OS never lets you actually see into it. scans roughly 180 items,"
+    },
+    {
+      "timestamp": "9:00",
+      "text": "simulator runtimes, Xcode caches, Docker volumes, old time machine snapshots, and tags each safe review or manual."
+    },
+    {
+      "timestamp": "9:08",
+      "text": "Reviewable deletions go to trash first with 30 days to change your mind. The maintainer says killing booted simulators at shutdown cut their own"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "tear down time from 33 seconds to under six."
+    },
+    {
+      "timestamp": "9:20",
+      "text": "Dream Loop is an agent skill that builds toward a picture instead of a spec. It generates a target screenshot, builds"
+    },
+    {
+      "timestamp": "9:27",
+      "text": "the scene in 3JS, then hands the result to a critic sub aent that compares it against the target and sends back notes,"
+    },
+    {
+      "timestamp": "9:34",
+      "text": "looping until it's satisfied. There's optional Blender support for custom 3D modeling. The demo, an isometric fantasy"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "build called Vesper, took about an hour to build with GPT6 Astra."
+    },
+    {
+      "timestamp": "9:48",
+      "text": "T-max treats every T-Max session on every machine you SSH into as one searchable list instead of a pile of separate ones. Hit prefix plus space and"
+    },
+    {
+      "timestamp": "9:58",
+      "text": "an FZF popup shows local and remote sessions together with Vim style navigation and it'll flag whether a clawed code or codeex agent running in one is idle, working, or waiting on you."
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Remote sessions attach over SSH through T-Max's control mode and reconnect automatically if the connection drops."
+    },
+    {
+      "timestamp": "10:17",
+      "text": "Bang Motion exists to stop AI agents from turning every video brief into a PowerPoint deck with fade transitions."
+    },
+    {
+      "timestamp": "10:25",
+      "text": "It's an agent skill for openers, bumpers, and kinetic typography that enforces an anti-slide rule in code, so scenes get a moving camera and a persistent subject instead of a cut."
+    },
+    {
+      "timestamp": "10:36",
+      "text": "Every frame is a pure function of time, so you can scrub it frame by frame."
+    },
+    {
+      "timestamp": "10:41",
+      "text": "browser use pies the usual playwright wrapper and has the model write raw JavaScript straight into a persistent V8"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "ripple which then talks to Chrome over the DevTools protocol directly sessions persist with saved login so follow-up"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "queries pick up where the last one left off instead of starting a fresh browser you can cap runs by cost time or step"
+    },
+    {
+      "timestamp": "11:03",
+      "text": "count and it exports recordings and GIFs so you can actually see what the agent clicked"
+    },
+    {
+      "timestamp": "11:10",
+      "text": "lets GPT6 Astra act like a tech lead instead of just a coder. It plans the work, decides which of three sub aent"
+    },
+    {
+      "timestamp": "11:18",
+      "text": "models actually needs to run it. Saul, Terra, or Luna, and won't merge anything until a fresh reviewer signs off. Every"
+    },
+    {
+      "timestamp": "11:25",
+      "text": "delegation shows its actual runtime settings and cost, plus a same token price comparison, so you can see what that exact task would have cost on a different model."
+    },
+    {
+      "timestamp": "11:36",
+      "text": "Rolling number animates numbers rolling or flipping to a new value. And if the value changes again mid animation, it"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "doesn't restart. It just interrupts and resumes toward the new target. It runs on CSS key frames with sampled spring"
+    },
+    {
+      "timestamp": "11:51",
+      "text": "easing instead of a JavaScript animation loop. And it's accessible by default."
+    },
+    {
+      "timestamp": "11:56",
+      "text": "Screen readers get the plain formatted text while the animation stays decorative."
+    },
+    {
+      "timestamp": "12:01",
+      "text": "Mor bolts reactivity onto HTML you already have without making you adopt a framework. You get automatic dependency"
+    },
+    {
+      "timestamp": "12:09",
+      "text": "tracking and DOM bindings that update when state changes, batched so it doesn't thrash the page, and elements clean themselves up when they're removed"
+    },
+    {
+      "timestamp": "12:17",
+      "text": "from the DOM. There's no virtual DOM, no components, no build step, just a native ES module you drop in from npm or a CDN."
+    },
+    {
+      "timestamp": "12:27",
+      "text": "Tail tab gives every browser profile its own tail scale node. So different profiles can sit on entirely different tail nets at once instead of sharing one"
+    },
+    {
+      "timestamp": "12:35",
+      "text": "connection. It only routes tailnet traffic through the tunnel, picks a separate exit node per profile, and lets you switch tail scale accounts without"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "reauthenticating each time. Everything runs through an authenticated loop back proxy, so nothing else on the machine can piggyback on the tunnel."
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Super Astra hooks into the Bis Hawk emulator and lets you edit a running SNES game just by describing what you want changed. It digs through the game's"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "memory, RAM, hardware domains, the CPU bus to find the right values, and keeps a running notebook of what it's learned"
+    },
+    {
+      "timestamp": "13:11",
+      "text": "about that specific cartridge. You get checkpoints to test a hypothesis against a known game state, plus eight undo states if something breaks."
+    },
+    {
+      "timestamp": "13:21",
+      "text": "Open AAI's Navier Stokes and Uler publishes lean proofs accompanying its reported results on when smooth fluid"
+    },
+    {
+      "timestamp": "13:28",
+      "text": "motion breaks down. The repository covers Navier Stokes with external forcing and Oiler without it. An important distinction when reading the"
+    },
+    {
+      "timestamp": "13:37",
+      "text": "headlines. You can build the formalizations using lean and math lib with separate instructions for independent checking through comparator."
+    },
+    {
+      "timestamp": "13:46",
+      "text": "Gridline is a full spreadsheet app built in plain HTML, CSS, and JavaScript. No frameworks, no CDN, nothing running"
+    },
+    {
+      "timestamp": "13:54",
+      "text": "server side. The formula engine has its own tokenizer and parser behind 83 functions, handles cross sheet references, and renders the grid through"
+    },
+    {
+      "timestamp": "14:02",
+      "text": "web GPU with a canvas 2D fallback. It opens CSV and partially reads XLSX, plus its own JSONbased.grid line format, and"
+    },
+    {
+      "timestamp": "14:11",
+      "text": "everything autosaves locally in the browser."
+    },
+    {
+      "timestamp": "14:14",
+      "text": "Deep Select replaces PyTorch's stock TopK with a custom CUDA kernel built for DeepSseek's sparse attention and sampling. And the team says it's two to"
+    },
+    {
+      "timestamp": "14:23",
+      "text": "20 times faster than the vanilla version depending on the scenario. It's tuned for two specific cases, a BFlat 16"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "lightning indexer path and a float 32 sampling path and handles top K values up to 4,96 across variable batch and vocabulary sizes."
+    },
+    {
+      "timestamp": "14:42",
+      "text": "Open Shaders wants to be the shad CN of shader code, a registry you install from the terminal instead of copy pasting from some WebGL demo you'll never find"
+    },
+    {
+      "timestamp": "14:51",
+      "text": "again. It ships a live editor supporting both WebGL and WebGPU plus ready-made React components and JS modules, so a"
+    },
+    {
+      "timestamp": "14:59",
+      "text": "shader actually drops into a real site instead of staying a standalone demo."
+    },
+    {
+      "timestamp": "15:05",
+      "text": "Vante detects drones by listening for propeller noise rather than radio transmissions. Four microphones feed a"
+    },
+    {
+      "timestamp": "15:12",
+      "text": "small processor that triggers audible, visual, and vibration alerts, then shares the warning with nearby units over Laura. The repository includes"
+    },
+    {
+      "timestamp": "15:21",
+      "text": "firmware, hardware designs, and a simulator. It only detects and alerts. It cannot locate or stop a drone."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 48. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reviewing a PR full of AI generated changes means scrolling a diff trying to reconstruct what moved where. PR Lens"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drops an animated diagram into the pull request. One for architecture, one for data flow. Color-coded green for new, amber for changed, red for deleted. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scales up to a monor repo. six lanes and 37 nodes in their tests. Run it as a GitHub app with no API key or a CLI you can preview locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bank MCP lets your AI assistant see your bank account read only so you can just ask what you spent on groceries in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 44000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "August. It runs on PSD2, the open banking standard covering over 2,700 European banks. And you log into your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bank's site to approve access. Your credentials never touch this server. It doesn't store balances or transactions, just consents and account IDs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You have no idea if chat GPT or claude mentions your product when someone asks for a recommendation or who gets named"
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead. Newbio answers that. You give it a domain. It queries OpenAI, Anthropic, Gemini, Perplexity, Deepseek,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and shows how each one describes your brand, where it loses to a competitor, and which source got cited. Every conclusion links back to the real answer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coding assistants love to explain themselves before they tell you what to do. This skill flips that. It forces Claude Codeex to lead with the next"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "concrete step, numbers the tasks, cuts the tangents, and gives you a real time estimate instead of vague words. No more hope. This helps at the end either."
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Despite the name, you don't need an ADHD diagnosis to want responses that get to the point."
+        }
+      ]
+    },
+    {
+      "tStartMs": 112000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This turns your face into a meme dispenser on video calls. Media pipe watches your expressions and the moment you roll your eyes or throw the timeout"
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gesture, it overlays the matching reaction and pipes the feed out as a virtual camera. Sarin Zoom or Teams"
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "treat as a webcam. It calibrates to your resting face first since everyone's neutral expression reads slightly different. 14 reactions built in plus room for your own gifts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 141000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever Room is trying to fix the messiest part of using AI agents, context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 146000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of dumping every file and chat into one prompt, it builds context rooms, scoped workspaces, where an agent sees only what belongs to that project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 155000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with provenence. Every document edit lands as a reviewable operation. You can inspect before it runs and everything stays local by default."
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OKF agent memory skips the vector database entirely. It stores agent memory as plain markdown with YAML front matter inside your repo's knowledge"
+        }
+      ]
+    },
+    {
+      "tStartMs": 173000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "folder. So every fact is a git diff away from audit or roll back. Search runs on local BM25 indexing and the maintainers"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clock search latency under 300 micros with zero embedding costs. It enforces a search before write habit so agents stop reinventing the same concepts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bot crossing turns your coding agent sessions into a little astronaut colony."
+        }
+      ]
+    },
+    {
+      "tStartMs": 197000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each repository gets a plot and each session gets an astronaut whose behavior reflects whether it's working, stuck, or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "waiting for you. Click one to reopen the original thread. It reads local session files from clawed code, codecs, and parts of cursor without uploading them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spun is a Linux music player that turns album artwork into a CD with vinyl and cassette views, too. You can drop in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 223000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local music or browse Apple Music through Cider, then search and rearrange your queue without switching apps. Cider still handles streaming and must stay"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running. It's built in QT and C++ with a quiet Material Design 3 look that stays out of your way."
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anything to explainer skips the choice between hiring a presenter and trusting a generative model to draw your diagram."
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Give it a topic or a document and it renders the whole video in code through motion. So every frame is deterministic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and every number traces to a source. It writes the voice over, syncs subtitles word by word and runs a QC pass before"
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "final render. Cool brushes is a drawing app built around one weird idea, six brushes that don't feel like brushes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 271000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's score, which paints in musical staff notation, schematic for technical diagrams, and gunplot, which draws in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model kit components. Switch between any of them, and you're still on the same canvas. Nothing reloads, nothing resets."
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's built on p5.js, bundled locally with no CDN dependency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MacTap turns knocking on your MacBook into a keyboard shortcut. It reads the motion sensor built into Apple silicon, M2 and later, or M1 Pro, Max, and Ultra."
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So it can tell a single knock from a double left edge from right. Each pattern maps to an action with swappable presets for different workflows, plus"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per app overrides. Tap classification runs entirely on device. Nothing leaves the machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 316000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whiteboard animator turns a finished whiteboard style image into a video of someone drawing it one stroke at a time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It runs a bundled text detector so it writes actual words instead of tracing letters and orders the drawing the way a person would contain contents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 332000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Feed it a narration and it paces the strokes to match. It runs entirely on CPU. No GPU or API key needed though"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gemini is optional for picking regions automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flector Mail skips the part where your email client is secretly a browser tab."
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's written entirely in Rust and renders HTML email through its own pipeline instead of a web view. So nothing in your inbox gets a script"
+        }
+      ]
+    },
+    {
+      "tStartMs": 357000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engine to run in. The maintainers say it launches instantly on as little as 20 megabytes of RAM. It syncs Gmail,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 365000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Outlook, and plain IMAP or JMAP, stores everything locally, and blocks remote images by default."
+        }
+      ]
+    },
+    {
+      "tStartMs": 372000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inslib fuses your IMU with GPS, a barometer, and a magnetometer into one navigation solution written in pure C11"
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with zero dependencies. So it fits on a microcontroller. It runs a UDU common filter for stability, holds altitude"
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through a GPS outage via the barometer and never allocates or recurses. Safe for a real control loop. Feed Galileo"
+        }
+      ]
+    },
+    {
+      "tStartMs": 394000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "has or Ublock Spartan corrections and the maintainers report accuracy down to a few centimeters. tighter still with RTK."
+        }
+      ]
+    },
+    {
+      "tStartMs": 403000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This repo skips the toy CRUD tutorial for a real flight booking backend split across five.NET services. Booking rights run through event store DB with actual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "event sourcing and Rabbit MQ plus Wolverine move events between services with durable inbox and outbox patterns."
+        }
+      ]
+    },
+    {
+      "tStartMs": 419000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So messages process exactly once. The rest splits reads and writes across Postgress and MongoDB under CQRS with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gRPC for service calls. a full observability stack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 431000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Highlight skips the fake glass look everyone's used since 2020. Blur plus a translucent layer and actually bends"
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "light. It computes a distance field for each element's rounded corners and runs the refraction through real Snell's law physics. So straight lines curve at the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edges like actual glass. It's one JavaScript file. No WebGL, no build step, just SVG filters and backdrop filter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vintage Latex doesn't fake old paper with a filter. It rebuilds how 19th century documents were actually type set. 20 standalone lux and metapost"
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "examples cover the long s period liatures and lens ray tracing with diagrams that stay real searchable text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead of a flattened image. It runs on eBaramond and the physico library and needs lux specifically. PDF latex won't compile it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vstep turns things like JPEG compression or elevator scheduling into animated films you can pause and poke at. Each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scene pairs a chapter video with its own calculation model. So adjusting a variable actually recalculates the visualization instead of replaying a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 500000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "canned animation. It runs entirely in the browser, no account or API key with narration and captions in English and Chinese."
+        }
+      ]
+    },
+    {
+      "tStartMs": 510000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your dynamic dashboard replaces your new tab with a command center that never phones home. Everything from search history to your to-do list stays local."
+        }
+      ]
+    },
+    {
+      "tStartMs": 519000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's built-in vanilla JavaScript, no framework bloat with a command pallet on control K, drag and drop tasks, live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "weather pulled from Open Media, and a voice search mode they call Jarvis mode."
+        }
+      ]
+    },
+    {
+      "tStartMs": 532000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CIS data goes after the system data bucket. Mac OS never lets you actually see into it. scans roughly 180 items,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simulator runtimes, Xcode caches, Docker volumes, old time machine snapshots, and tags each safe review or manual."
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reviewable deletions go to trash first with 30 days to change your mind. The maintainer says killing booted simulators at shutdown cut their own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tear down time from 33 seconds to under six."
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dream Loop is an agent skill that builds toward a picture instead of a spec. It generates a target screenshot, builds"
+        }
+      ]
+    },
+    {
+      "tStartMs": 567000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the scene in 3JS, then hands the result to a critic sub aent that compares it against the target and sends back notes,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "looping until it's satisfied. There's optional Blender support for custom 3D modeling. The demo, an isometric fantasy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "build called Vesper, took about an hour to build with GPT6 Astra."
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "T-max treats every T-Max session on every machine you SSH into as one searchable list instead of a pile of separate ones. Hit prefix plus space and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an FZF popup shows local and remote sessions together with Vim style navigation and it'll flag whether a clawed code or codeex agent running in one is idle, working, or waiting on you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Remote sessions attach over SSH through T-Max's control mode and reconnect automatically if the connection drops."
+        }
+      ]
+    },
+    {
+      "tStartMs": 617000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bang Motion exists to stop AI agents from turning every video brief into a PowerPoint deck with fade transitions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's an agent skill for openers, bumpers, and kinetic typography that enforces an anti-slide rule in code, so scenes get a moving camera and a persistent subject instead of a cut."
+        }
+      ]
+    },
+    {
+      "tStartMs": 636000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every frame is a pure function of time, so you can scrub it frame by frame."
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser use pies the usual playwright wrapper and has the model write raw JavaScript straight into a persistent V8"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ripple which then talks to Chrome over the DevTools protocol directly sessions persist with saved login so follow-up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "queries pick up where the last one left off instead of starting a fresh browser you can cap runs by cost time or step"
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "count and it exports recordings and GIFs so you can actually see what the agent clicked"
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lets GPT6 Astra act like a tech lead instead of just a coder. It plans the work, decides which of three sub aent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 678000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models actually needs to run it. Saul, Terra, or Luna, and won't merge anything until a fresh reviewer signs off. Every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 685000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "delegation shows its actual runtime settings and cost, plus a same token price comparison, so you can see what that exact task would have cost on a different model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rolling number animates numbers rolling or flipping to a new value. And if the value changes again mid animation, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "doesn't restart. It just interrupts and resumes toward the new target. It runs on CSS key frames with sampled spring"
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "easing instead of a JavaScript animation loop. And it's accessible by default."
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Screen readers get the plain formatted text while the animation stays decorative."
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mor bolts reactivity onto HTML you already have without making you adopt a framework. You get automatic dependency"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tracking and DOM bindings that update when state changes, batched so it doesn't thrash the page, and elements clean themselves up when they're removed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from the DOM. There's no virtual DOM, no components, no build step, just a native ES module you drop in from npm or a CDN."
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tail tab gives every browser profile its own tail scale node. So different profiles can sit on entirely different tail nets at once instead of sharing one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "connection. It only routes tailnet traffic through the tunnel, picks a separate exit node per profile, and lets you switch tail scale accounts without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reauthenticating each time. Everything runs through an authenticated loop back proxy, so nothing else on the machine can piggyback on the tunnel."
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Super Astra hooks into the Bis Hawk emulator and lets you edit a running SNES game just by describing what you want changed. It digs through the game's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "memory, RAM, hardware domains, the CPU bus to find the right values, and keeps a running notebook of what it's learned"
+        }
+      ]
+    },
+    {
+      "tStartMs": 791000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about that specific cartridge. You get checkpoints to test a hypothesis against a known game state, plus eight undo states if something breaks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 801000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open AAI's Navier Stokes and Uler publishes lean proofs accompanying its reported results on when smooth fluid"
+        }
+      ]
+    },
+    {
+      "tStartMs": 808000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "motion breaks down. The repository covers Navier Stokes with external forcing and Oiler without it. An important distinction when reading the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "headlines. You can build the formalizations using lean and math lib with separate instructions for independent checking through comparator."
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gridline is a full spreadsheet app built in plain HTML, CSS, and JavaScript. No frameworks, no CDN, nothing running"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "server side. The formula engine has its own tokenizer and parser behind 83 functions, handles cross sheet references, and renders the grid through"
+        }
+      ]
+    },
+    {
+      "tStartMs": 842000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "web GPU with a canvas 2D fallback. It opens CSV and partially reads XLSX, plus its own JSONbased.grid line format, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 851000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everything autosaves locally in the browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deep Select replaces PyTorch's stock TopK with a custom CUDA kernel built for DeepSseek's sparse attention and sampling. And the team says it's two to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 863000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "20 times faster than the vanilla version depending on the scenario. It's tuned for two specific cases, a BFlat 16"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lightning indexer path and a float 32 sampling path and handles top K values up to 4,96 across variable batch and vocabulary sizes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 882000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Shaders wants to be the shad CN of shader code, a registry you install from the terminal instead of copy pasting from some WebGL demo you'll never find"
+        }
+      ]
+    },
+    {
+      "tStartMs": 891000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "again. It ships a live editor supporting both WebGL and WebGPU plus ready-made React components and JS modules, so a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 899000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shader actually drops into a real site instead of staying a standalone demo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 905000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vante detects drones by listening for propeller noise rather than radio transmissions. Four microphones feed a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 912000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "small processor that triggers audible, visual, and vibration alerts, then shares the warning with nearby units over Laura. The repository includes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 921000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "firmware, hardware designs, and a simulator. It only detects and alerts. It cannot locate or stop a drone."
+        }
+      ]
+    }
+  ]
+}

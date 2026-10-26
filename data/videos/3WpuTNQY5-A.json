@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "id": "3WpuTNQY5-A",
+  "title": "GitHub Trending Today #44: paritok, KiroCrew, wyzer, quickdraw, RunCat Neo, gemma-translator, auteur",
+  "url": "https://www.youtube.com/watch?v=3WpuTNQY5-A",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-09",
+  "duration": 935,
+  "word_count": 2335,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T05:01:27+00:00",
+    "metadata_sha256": "e9ab4576e64ec677bf8f08d6e2e555bc8926679f636b275dc36fd43c228bdd86",
+    "captions_sha256": "5fcf5848bb2817e0e3626d6d1404174d27817bd7089f95a12b9345bcaedfedf0",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending today number 44. 35 trending open-source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "paritok-4b-v1",
+      "repositories": [
+        "https://github.com/Paritok-official/paritok-4b-v1"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Parat talk is a 4B model whose only job is compressing what your coding agent sends upstream. It runs as a local proxy. Point your agents base URL at it and tool outputs and old history get rewritten before their build. Nothing is destroyed since compressed blocks carry a reference ID. The model can expand on demand. Self-hosting runs on a llama with nothing leaving your machine."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "Cloudflare OS",
+      "repositories": [
+        "https://github.com/cloudflare/cloudflare-os"
+      ],
+      "id": "s003",
+      "end": 62,
+      "paragraphs": [
+        "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on worker is marked coming soon. Kirro crew is a persistent agent workspace from Amazon's Kro team that keeps running after you close the"
+      ]
+    },
+    {
+      "start": 62,
+      "title": "KiroCrew",
+      "repositories": [
+        "https://github.com/kirodotdev/KiroCrew"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "chat. It preserves sessions, memory, schedules, and checkpoints, learns reusable lessons from corrections, and can delegate work to isolated sub aents. Use it through a desktop app, web dashboard, CLI, or messaging tools. While approvals, sandboxing, credential redaction, and audit logs add control."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "wyzer",
+      "repositories": [
+        "https://github.com/Wyzer-Lang/wyzer"
+      ],
+      "id": "s005",
+      "end": 113,
+      "paragraphs": [
+        "Wiser is a compiled language built on a bet that most hard bugs come from nobody being sure who owns a resource. Memory, message passing, and hardware interrupts all get the same rule. So once a resource is used, it can't be used again. The compiler deres network protocols from your function types and checks them catching deadlocks and drop messages before anything runs."
+      ]
+    },
+    {
+      "start": 113,
+      "title": "quickdraw",
+      "repositories": [
+        "https://github.com/quickdrawjs/quickdraw"
+      ],
+      "id": "s006",
+      "end": 139,
+      "paragraphs": [
+        "Quickraw is an infinite canvas whiteboard you drop into a React React Native or PlainJS app. Pressure sensitive ink handdrawn shape wobble palm rejection once a stylus appears. The part worth studying is the store. Every change emits a JSON diff. So, persistence, undo, collaborative sync, and strokebystroke replay all fall out of one shape. You bring the transport since there's no multiplayer server yet."
+      ]
+    },
+    {
+      "start": 139,
+      "title": "MiniMax-H3",
+      "repositories": [
+        "https://github.com/MiniMax-AI/MiniMax-H3"
+      ],
+      "id": "s007",
+      "end": 163,
+      "paragraphs": [
+        "Miniax H3 generates video with native stereo audio in one pass, up to 15 seconds from text, images, video, and audio references mixed together. One transformer predicts both video and audio latence rather than dubbing sound on afterwards. The open weights run at 768p since the 2K stage and the context prep-processor stay behind Miniax's API."
+      ]
+    },
+    {
+      "start": 163,
+      "title": "RunCat Neo",
+      "repositories": [
+        "https://github.com/runcat-dev/RunCatNeo"
+      ],
+      "id": "s008",
+      "end": 191,
+      "paragraphs": [
+        "Runcat Neo is a running cat in the Mac OS menu bar whose stride speeds up with your CPU load, so you feel a busy machine before you check activity monitor. The part worth knowing is the custom metrics format pointed at any local JSON file and it renders that as a dashboard card. So GPU temperature, agent token usage, or remaining reminders all become menu bar readouts. Runners are key frame animations you can write yourself."
+      ]
+    },
+    {
+      "start": 191,
+      "title": "gemma-translator",
+      "repositories": [
+        "https://github.com/google-gemma/gemma-translator"
+      ],
+      "id": "s009",
+      "end": 216,
+      "paragraphs": [
+        "Gemma translator is a two-way voice translator that runs entirely on a Raspberry Pi 5 with no internet after setup. Two lanes face each other on a small kiosk screen, each with a rotating language selector. Hold a key, speak, and the other side hears it back in their language. Moonshine handles the speech in and out. Gemma does the translation and the repo ships STL files for the case."
+      ]
+    },
+    {
+      "start": 216,
+      "title": "starboard",
+      "repositories": [
+        "https://github.com/palamim/starboard"
+      ],
+      "id": "s010",
+      "end": 243,
+      "paragraphs": [
+        "Starboard is a Mac OS terminal you can audit in an afternoon. Under 700 lines across four Swift files, no dependencies, no pseudo in the installer and accessibility used for exactly one thing, reading where the doc sits so the window can track it. It docks beside the dock, follows it across spaces and full screen apps, and runs a real persistent login shell rather than spawning a new one per command."
+      ]
+    },
+    {
+      "start": 243,
+      "title": "auteur",
+      "repositories": [
+        "https://github.com/agiwhitelist/auteur"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "Aur is an agent skill that treats landing page development like film direction, locking the art direction in a commit sheet before writing markup. It can scout references, generate assets, and build WebGL or scroll driven scenes from recipes. Shipping is gated by executable checks. Slopscan rejects cliche styling and accessibility mistakes, while Motion QA measures dropped frames and browser errors."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "drydock",
+      "repositories": [
+        "https://github.com/yetidevworks/drydock"
+      ],
+      "id": "s012",
+      "end": 297,
+      "paragraphs": [
+        "Drydock answers one question across every checkout on your disc. What still has work sitting in it? Uncommitted files, commits you never pushed on any branch rather than just the current one, and commits sitting past the last tag. Color carries the state, so you scan rather than read. The speed trick is tearing. Refs and tags are cheap and run every sweep, while the working tree scan caches against head and index m time."
+      ]
+    },
+    {
+      "start": 297,
+      "title": "codex-router",
+      "repositories": [
+        "https://github.com/duolahypercho/codex-router"
+      ],
+      "id": "s013",
+      "end": 323,
+      "paragraphs": [
+        "Codex router puts Kimmy and DeepSseek in the codeex model picker as named entries beside the GPT models rather than replacing them. It adds one marked block to your config, pointing the base URL at a local listener that splits traffic. Native requests keep your chat GPT off. External ones get a throwaway loop back key that the final forwarder discards before injecting the real provider credential."
+      ]
+    },
+    {
+      "start": 323,
+      "title": "gauntlet-loop",
+      "repositories": [
+        "https://github.com/robonuggets/gauntlet-loop"
+      ],
+      "id": "s014",
+      "end": 348,
+      "paragraphs": [
+        "Gauntlet loop is a single skill file that turns a goal into one short prompt for a fresh session. The idea worth stealing is the standard, not a rubric the agent grades itself against, but a named real thing it can actually fetch and open. A separate critic with no memory of the attempt puts both side by side with labels stripped and picks one. Winning ends the loop, not a round count."
+      ]
+    },
+    {
+      "start": 348,
+      "title": "cyclop",
+      "repositories": [
+        "https://github.com/akalikbergenov/cyclop"
+      ],
+      "id": "s015",
+      "end": 376,
+      "paragraphs": [
+        "Cyclop turns the MacBook notch into a panel that unfolds on hover. Whatever is playing anywhere on the machine with a working scrubber, a shelf you drag files onto, clipboard history, snippets, your next meeting with a join button, and offline translation. The engineering notes are the real draw. Pointer sampling drops to eight hertz away from the top edge and a 150 millisecond dwell separates choosing a tab from passing over one."
+      ]
+    },
+    {
+      "start": 376,
+      "title": "Octop",
+      "repositories": [
+        "https://github.com/TencentCloud/Octop"
+      ],
+      "id": "s016",
+      "end": 403,
+      "paragraphs": [
+        "OCTOP is a self-hosted assistant for a household or small team run as one process with everything under a folder in your home directory. Each user gets their own set of agents they switch between per task reachable from a web dashboard, a CLI or chat apps like Discord and FishU. The design point is single process, no external broker, and the entire state rebuilds from one seek light file on restart."
+      ]
+    },
+    {
+      "start": 403,
+      "title": "travel-photo-abstraction",
+      "repositories": [
+        "https://github.com/Evianis/travel-photo-abstraction"
+      ],
+      "id": "s017",
+      "end": 430,
+      "paragraphs": [
+        "Travel photo abstraction is a codec skill that reads one of your photographs as a visual system, counts, positions, proportions, directions, then distills it into a sparse editorial panel set beside the untouched original. The discipline is what sets it apart. It inventories what's actually there before drawing, maps each fact to one minimal mark and a fail script pixel verifies your original rather than regenerating it."
+      ]
+    },
+    {
+      "start": 430,
+      "title": "wptui",
+      "repositories": [
+        "https://github.com/Andiveli/wptui"
+      ],
+      "id": "s018",
+      "end": 455,
+      "paragraphs": [
+        "WP2i is a WhatsApp client that lives entirely in your terminal. A Ratatouille interface in Rust bridged to the what's meow library in Go. Link with a QR code and you get Vim style keybindings for browsing chats, replying, reacting, and even pasting an image from the clipboard as an attachment with media rendered inline through Chaffa. Your session and history stay in a local folder."
+      ]
+    },
+    {
+      "start": 455,
+      "title": "himekuri",
+      "repositories": [
+        "https://github.com/pluk-inc/himekuri"
+      ],
+      "id": "s019",
+      "end": 483,
+      "paragraphs": [
+        "Himakuri is a Japanese tearoff calendar that sits on your Mac desktop and the point is the paper. The top sheet is a verlet simulated grid with real bending constraints. So pulling it down makes fibers part along the staple seam and the page comes off in your hand. Let go halfway and it rests torn permanently since there's no undo by design. Six print styles, procedurally synthesized rip sounds, and it never turns its own page."
+      ]
+    },
+    {
+      "start": 483,
+      "title": "holosticker",
+      "repositories": [
+        "https://github.com/jal-co/holosticker"
+      ],
+      "id": "s020",
+      "end": 513,
+      "paragraphs": [
+        "Host sticker is a browserbased studio that turns an SVG or PNG into a realistic holographic sticker without building the foil effect by hand. 3JS renders defraction bands, iridesence, metallic flakes, and reflections in real time, while pointer movement lets you inspect the finish from different angles. You can tune ink coverage and diecut borders, add refractor patterns or a 3D peel, then export a transparent PNG up to 496 pixels."
+      ]
+    },
+    {
+      "start": 513,
+      "title": "deident-wasm",
+      "repositories": [
+        "https://github.com/ikuV/deident-wasm"
+      ],
+      "id": "s021",
+      "end": 540,
+      "paragraphs": [
+        "Dent is a rust privacy engine that transforms CSV data sets from a declarative YAML policy with separate modes for reversible pseudonymization and risk assessed anonymization. It can remove direct identifiers, generalize quasi identifiers, preserve joinable tokens across related files and produce a JSON report showing residual reidentification signals. Jobs can also run inside isolated web assembly sandboxes."
+      ]
+    },
+    {
+      "start": 540,
+      "title": "Lithe-IDEA",
+      "repositories": [
+        "https://github.com/1lck/Lithe-IDEA"
+      ],
+      "id": "s022",
+      "end": 566,
+      "paragraphs": [
+        "Life is a native Mac OS IDE that keeps Intelligj style Java workflows without carrying the full IntelliJ footprint. It targets Spring Boot projects, starts language services, terminals, Maven and debuggers only when needed and gives you git diffs plus local snapshots for reviewing AI generated changes. Semantic navigation depends on Eclipse JDLS and Windows support is still under development."
+      ]
+    },
+    {
+      "start": 566,
+      "title": "jc-rs",
+      "repositories": [
+        "https://github.com/OlegSotnikov/jc-rs"
+      ],
+      "id": "s023",
+      "end": 596,
+      "paragraphs": [
+        "JCRS turns command output, files, and plain strings into JSON using one static Rust binary, so scripts and minimal containers don't need Python installed. It implements 237 parsers, preserves JC's schemas, and streams records as input arrives instead of waiting for EOF. The maintainers report 100% compatibility across 934 of 934 Oracle valid fixture pairs enforced in CI while unqualified fixtures remain reported separately."
+      ]
+    },
+    {
+      "start": 596,
+      "title": "Cambium",
+      "repositories": [
+        "https://github.com/KimGLee/Cambium"
+      ],
+      "id": "s024",
+      "end": 621,
+      "paragraphs": [
+        "Cambium is a governance standard and reference tool set for knowledge corpora maintained by LLM agents. It separates domain neutral rules from a selected corpus profile, then records scoped batches, dependencies, progress, receipts, and recovery state inside the adopting repository. Deterministic checks catch drift and stale evidence, but they don't prove who performed an action. Codex iOS assistant lets codecs on your Mac inspect and control your iPhone through iMessage and Apple"
+      ]
+    },
+    {
+      "start": 621,
+      "title": "codex-ios-assistant",
+      "repositories": [
+        "https://github.com/Samin100/codex-ios-assistant"
+      ],
+      "id": "s025",
+      "end": 646,
+      "paragraphs": [
+        "Shortcuts. Its CLI sends private commands. The phone runs native actions and context returns through an authenticated Cloudflare tunnel endpoint. It can read visible screen text, manage alarms, and toggle settings, but it deliberately won't send ordinary messages or make purchases."
+      ]
+    },
+    {
+      "start": 646,
+      "title": "phone-harness",
+      "repositories": [
+        "https://github.com/ShawnPana/phone-harness"
+      ],
+      "id": "s026",
+      "end": 673,
+      "paragraphs": [
+        "Phone harness lets an agent drive your own iPhone with no jailbreak and no web driver agent. The phone is already a window, so screen capture plus Apple's vision OCR gives every visible string a tap ready coordinate. and siege events post the taps screenshot again to verify since there's no DOM. The failure notes are the useful part like Apple script clicks vanishing silently because the window is just a video stream."
+      ]
+    },
+    {
+      "start": 673,
+      "title": "KADATH",
+      "repositories": [
+        "https://github.com/i3T4AN/KADATH"
+      ],
+      "id": "s027",
+      "end": 696,
+      "paragraphs": [
+        "Kadath evolves complete AI agents instead of repeatedly tweaking one prompt. It runs populations through timed epochs, grades their frozen evidence against an approved benchmark, then preserves, mutates, or replaces each agent's prompt, code, tools, and dependencies. The fixed kernel keeps scoring, lineage, credentials, and isolation outside the evolvable genome."
+      ]
+    },
+    {
+      "start": 696,
+      "title": "rangi",
+      "repositories": [
+        "https://github.com/pi0/rangi"
+      ],
+      "id": "s028",
+      "end": 721,
+      "paragraphs": [
+        "Ranji is a tiny synchronous syntax highlighter that returns self-contained HTML without loading CSS, clientside JavaScript, or hydration. The maintainers put the full package with 46 languages and default themes at roughly 13.2 bill minified and gzipped while the core code to HTML path is about 1.5 kilobyt. It also exposes raw tokens and anti- terminal output."
+      ]
+    },
+    {
+      "start": 721,
+      "title": "soundshuman",
+      "repositories": [
+        "https://github.com/aashaexo/soundshuman"
+      ],
+      "id": "s029",
+      "end": 748,
+      "paragraphs": [
+        "Sound Schuman scores how much you're writing reads as AIS lop on a 0 to 100 scale. And the point is that every point is traceable. Pattern density does most of the work, blended with statistical tells like burstiness and word repetition. And each hit names the rule that fired, so you can argue with it or delete that rule. The fixer only auto applies the safe mechanical stuff. M dashes, curly quotes, filler phrases."
+      ]
+    },
+    {
+      "start": 748,
+      "title": "vibewatch",
+      "repositories": [
+        "https://github.com/GOROman/vibewatch"
+      ],
+      "id": "s030",
+      "end": 774,
+      "paragraphs": [
+        "Vibeatch turns an M5 stack stopwatch into a wrist controller for running several AI coding agents at once. Six agents sit around the round screen with their live state always visible and pressing both buttons flips to an action layer where you approve or reject with a physical click toggle plan mode or hold the center to talk. Every Q is multiensory so okay rises in pitch and ng falls."
+      ]
+    },
+    {
+      "start": 774,
+      "title": "deepseek-and-destroy",
+      "repositories": [
+        "https://github.com/frozenpepper/deepseek-and-destroy"
+      ],
+      "id": "s031",
+      "end": 799,
+      "paragraphs": [
+        "Deepseek and destroy is a portable coding agent skill that executes large implementation plans through persistent worker loops. A main orchestrator keeps the architecture and phase gates while fresh agents implement, review, repair findings, and independently recheck the result. Run folders preserve plan snapshots, evidence, defects, and the exact next action across context resets."
+      ]
+    },
+    {
+      "start": 799,
+      "title": "react-native-nitro-theme-transition",
+      "repositories": [
+        "https://github.com/saleh2001k/react-native-nitro-theme-transition"
+      ],
+      "id": "s032",
+      "end": 828,
+      "paragraphs": [
+        "This library animates a React Native theme switch without touching Skia, Reanimated, or any JS animation. The trick is that it never animates the theme at all. It takes a GPUide copy of the screen, pins it on top, runs your change underneath invisibly, then wipes the copy away with the platform's own animator on the render thread, so a busy JavaScript thread can't drop a frame of it. Circular reveal from the touch point, plus wipe, fade, and blur."
+      ]
+    },
+    {
+      "start": 828,
+      "title": "kage",
+      "repositories": [
+        "https://github.com/MengTo/kage"
+      ],
+      "id": "s033",
+      "end": 851,
+      "paragraphs": [
+        "Scroll down and Cajoke night at a Kyoto mountain temple. 3.js builds the Tory gates, lanterns, fog, falling leaves, and moon in real time, while generated scene plates and foreground artwork add depth across five chapters. The experience lives in one HTML file with no build step or runtime network dependency."
+      ]
+    },
+    {
+      "start": 851,
+      "title": "wallfacer",
+      "repositories": [
+        "https://github.com/pradipta/wallfacer"
+      ],
+      "id": "s034",
+      "end": 879,
+      "paragraphs": [
+        "Wallfacer is one view of every AI coding session you've started across cloud code and codecs. Each agent buries its transcripts in its own folder under an untitled or hashnamed file. So after a few weeks, you can't find anything. Wallfacer indexes them all read only, never touching the originals, and keeps your titles, tags, and projects in a separate database. Browse them full screen or from the shell, then resume anyone where it started."
+      ]
+    },
+    {
+      "start": 879,
+      "title": "fec",
+      "repositories": [
+        "https://github.com/brian-armstrong/fec"
+      ],
+      "id": "s035",
+      "end": 906,
+      "paragraphs": [
+        "Feck is a rust crate for recovering corrupted data in softwaredefined radio and spacecraft links. It implements convolutional codes with hard or soft decision vurby decoding plus read Solomon error and eraser correction including the standard CCSDS configuration. Optional nightly rust SIMD accelerates Vurby on SSE, AVX2 and AVX 512 while a CABI shim can replace libc in existing code bases."
+      ]
+    },
+    {
+      "start": 906,
+      "title": "neuroarxiv",
+      "repositories": [
+        "https://github.com/UditAkhourii/neuroarxiv"
+      ],
+      "id": "s036",
+      "end": 935,
+      "paragraphs": [
+        "Neuroarchceive makes a coding agent check arcseceive before it invents an architecture. It maps your problem to a few categories, fetches real papers over HTTP, then reads each abstract in isolation so no one source colors another, and converges on a single cited recommendation with a first step and the documented ways it has already failed for someone. The point isn't search, it's forcing a decision. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 44. 35 trending open-source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Parat talk is a 4B model whose only job is compressing what your coding agent sends upstream. It runs as a local"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "proxy. Point your agents base URL at it and tool outputs and old history get rewritten before their build. Nothing is"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "destroyed since compressed blocks carry a reference ID. The model can expand on demand. Self-hosting runs on a llama with nothing leaving your machine."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on worker is marked"
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "text": "coming soon. Kirro crew is a persistent agent workspace from Amazon's Kro team that keeps running after you close the"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "chat. It preserves sessions, memory, schedules, and checkpoints, learns reusable lessons from corrections, and can delegate work to isolated sub aents."
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "Use it through a desktop app, web dashboard, CLI, or messaging tools."
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "text": "While approvals, sandboxing, credential redaction, and audit logs add control."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Wiser is a compiled language built on a bet that most hard bugs come from nobody being sure who owns a resource. Memory,"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "message passing, and hardware interrupts all get the same rule. So once a resource is used, it can't be used again. The compiler deres network"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "protocols from your function types and checks them catching deadlocks and drop messages before anything runs."
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "text": "Quickraw is an infinite canvas whiteboard you drop into a React React Native or PlainJS app. Pressure sensitive ink handdrawn shape wobble palm rejection once a stylus appears."
+    },
+    {
+      "start": 124.0,
+      "end": 124.0,
+      "text": "The part worth studying is the store."
+    },
+    {
+      "start": 127.0,
+      "end": 127.0,
+      "text": "Every change emits a JSON diff. So, persistence, undo, collaborative sync, and strokebystroke replay all fall out"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "of one shape. You bring the transport since there's no multiplayer server yet."
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "Miniax H3 generates video with native stereo audio in one pass, up to 15 seconds from text, images, video, and"
+    },
+    {
+      "start": 147.0,
+      "end": 147.0,
+      "text": "audio references mixed together. One transformer predicts both video and audio latence rather than dubbing sound on afterwards. The open weights run at"
+    },
+    {
+      "start": 156.0,
+      "end": 156.0,
+      "text": "768p since the 2K stage and the context prep-processor stay behind Miniax's API."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Runcat Neo is a running cat in the Mac OS menu bar whose stride speeds up with your CPU load, so you feel a busy"
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "machine before you check activity monitor. The part worth knowing is the custom metrics format pointed at any local JSON file and it renders that as a"
+    },
+    {
+      "start": 180.0,
+      "end": 180.0,
+      "text": "dashboard card. So GPU temperature, agent token usage, or remaining reminders all become menu bar readouts."
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "Runners are key frame animations you can write yourself."
+    },
+    {
+      "start": 191.0,
+      "end": 191.0,
+      "text": "Gemma translator is a two-way voice translator that runs entirely on a Raspberry Pi 5 with no internet after setup. Two lanes face each other on a"
+    },
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "small kiosk screen, each with a rotating language selector. Hold a key, speak, and the other side hears it back in"
+    },
+    {
+      "start": 207.0,
+      "end": 207.0,
+      "text": "their language. Moonshine handles the speech in and out. Gemma does the translation and the repo ships STL files for the case."
+    },
+    {
+      "start": 217.0,
+      "end": 217.0,
+      "text": "Starboard is a Mac OS terminal you can audit in an afternoon. Under 700 lines across four Swift files, no"
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "dependencies, no pseudo in the installer and accessibility used for exactly one thing, reading where the doc sits so the"
+    },
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "window can track it. It docks beside the dock, follows it across spaces and full screen apps, and runs a real persistent"
+    },
+    {
+      "start": 238.0,
+      "end": 238.0,
+      "text": "login shell rather than spawning a new one per command."
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "Aur is an agent skill that treats landing page development like film direction, locking the art direction in a commit sheet before writing markup. It"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "can scout references, generate assets, and build WebGL or scroll driven scenes from recipes. Shipping is gated by"
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "executable checks. Slopscan rejects cliche styling and accessibility mistakes, while Motion QA measures dropped frames and browser errors."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Drydock answers one question across every checkout on your disc. What still has work sitting in it? Uncommitted files, commits you never pushed on any"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "branch rather than just the current one, and commits sitting past the last tag."
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "Color carries the state, so you scan rather than read. The speed trick is tearing. Refs and tags are cheap and run"
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "every sweep, while the working tree scan caches against head and index m time."
+    },
+    {
+      "start": 297.0,
+      "end": 297.0,
+      "text": "Codex router puts Kimmy and DeepSseek in the codeex model picker as named entries beside the GPT models rather than"
+    },
+    {
+      "start": 305.0,
+      "end": 305.0,
+      "text": "replacing them. It adds one marked block to your config, pointing the base URL at a local listener that splits traffic."
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "Native requests keep your chat GPT off."
+    },
+    {
+      "start": 315.0,
+      "end": 315.0,
+      "text": "External ones get a throwaway loop back key that the final forwarder discards before injecting the real provider credential."
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "Gauntlet loop is a single skill file that turns a goal into one short prompt for a fresh session. The idea worth"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "stealing is the standard, not a rubric the agent grades itself against, but a named real thing it can actually fetch"
+    },
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "and open. A separate critic with no memory of the attempt puts both side by side with labels stripped and picks one."
+    },
+    {
+      "start": 344.0,
+      "end": 344.0,
+      "text": "Winning ends the loop, not a round count."
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "Cyclop turns the MacBook notch into a panel that unfolds on hover. Whatever is playing anywhere on the machine with a"
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "working scrubber, a shelf you drag files onto, clipboard history, snippets, your next meeting with a join button, and"
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "offline translation. The engineering notes are the real draw. Pointer sampling drops to eight hertz away from"
+    },
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "the top edge and a 150 millisecond dwell separates choosing a tab from passing over one."
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "OCTOP is a self-hosted assistant for a household or small team run as one process with everything under a folder in your home directory."
+    },
+    {
+      "start": 385.0,
+      "end": 385.0,
+      "text": "Each user gets their own set of agents they switch between per task reachable from a web dashboard, a CLI or chat apps"
+    },
+    {
+      "start": 392.0,
+      "end": 392.0,
+      "text": "like Discord and FishU. The design point is single process, no external broker, and the entire state rebuilds from one seek light file on restart."
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "Travel photo abstraction is a codec skill that reads one of your photographs as a visual system, counts, positions,"
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "proportions, directions, then distills it into a sparse editorial panel set beside the untouched original. The"
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "discipline is what sets it apart. It inventories what's actually there before drawing, maps each fact to one minimal"
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "mark and a fail script pixel verifies your original rather than regenerating it."
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "WP2i is a WhatsApp client that lives entirely in your terminal. A Ratatouille interface in Rust bridged to the what's"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "meow library in Go. Link with a QR code and you get Vim style keybindings for browsing chats, replying, reacting, and"
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "even pasting an image from the clipboard as an attachment with media rendered inline through Chaffa. Your session and history stay in a local folder."
+    },
+    {
+      "start": 455.0,
+      "end": 455.0,
+      "text": "Himakuri is a Japanese tearoff calendar that sits on your Mac desktop and the point is the paper. The top sheet is a"
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "verlet simulated grid with real bending constraints. So pulling it down makes fibers part along the staple seam and the page comes off in your hand. Let go"
+    },
+    {
+      "start": 472.0,
+      "end": 472.0,
+      "text": "halfway and it rests torn permanently since there's no undo by design. Six print styles, procedurally synthesized"
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "rip sounds, and it never turns its own page."
+    },
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "Host sticker is a browserbased studio that turns an SVG or PNG into a realistic holographic sticker without"
+    },
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "building the foil effect by hand. 3JS renders defraction bands, iridesence, metallic flakes, and reflections in real"
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "time, while pointer movement lets you inspect the finish from different angles. You can tune ink coverage and diecut borders, add refractor patterns"
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "or a 3D peel, then export a transparent PNG up to 496 pixels."
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "Dent is a rust privacy engine that transforms CSV data sets from a declarative YAML policy with separate modes for reversible pseudonymization"
+    },
+    {
+      "start": 521.0,
+      "end": 521.0,
+      "text": "and risk assessed anonymization. It can remove direct identifiers, generalize quasi identifiers, preserve joinable"
+    },
+    {
+      "start": 529.0,
+      "end": 529.0,
+      "text": "tokens across related files and produce a JSON report showing residual reidentification signals. Jobs can also"
+    },
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "run inside isolated web assembly sandboxes."
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "Life is a native Mac OS IDE that keeps Intelligj style Java workflows without carrying the full IntelliJ footprint. It"
+    },
+    {
+      "start": 548.0,
+      "end": 548.0,
+      "text": "targets Spring Boot projects, starts language services, terminals, Maven and debuggers only when needed and gives you git diffs plus local snapshots for"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "reviewing AI generated changes. Semantic navigation depends on Eclipse JDLS and Windows support is still under development."
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "JCRS turns command output, files, and plain strings into JSON using one static Rust binary, so scripts and minimal containers don't need Python installed."
+    },
+    {
+      "start": 577.0,
+      "end": 577.0,
+      "text": "It implements 237 parsers, preserves JC's schemas, and streams records as input arrives instead of waiting for"
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "EOF. The maintainers report 100% compatibility across 934 of 934 Oracle valid fixture pairs enforced in CI while"
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "unqualified fixtures remain reported separately."
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Cambium is a governance standard and reference tool set for knowledge corpora maintained by LLM agents. It separates domain neutral rules from a selected"
+    },
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "corpus profile, then records scoped batches, dependencies, progress, receipts, and recovery state inside the"
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "adopting repository. Deterministic checks catch drift and stale evidence, but they don't prove who performed an"
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "action. Codex iOS assistant lets codecs on your Mac inspect and control your iPhone through iMessage and Apple"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "Shortcuts. Its CLI sends private commands. The phone runs native actions and context returns through an authenticated Cloudflare tunnel"
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "endpoint. It can read visible screen text, manage alarms, and toggle settings, but it deliberately won't send ordinary messages or make purchases."
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "Phone harness lets an agent drive your own iPhone with no jailbreak and no web driver agent. The phone is already a"
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "window, so screen capture plus Apple's vision OCR gives every visible string a tap ready coordinate. and siege events"
+    },
+    {
+      "start": 660.0,
+      "end": 660.0,
+      "text": "post the taps screenshot again to verify since there's no DOM. The failure notes are the useful part like Apple script"
+    },
+    {
+      "start": 668.0,
+      "end": 668.0,
+      "text": "clicks vanishing silently because the window is just a video stream."
+    },
+    {
+      "start": 673.0,
+      "end": 673.0,
+      "text": "Kadath evolves complete AI agents instead of repeatedly tweaking one prompt. It runs populations through timed epochs, grades their frozen"
+    },
+    {
+      "start": 681.0,
+      "end": 681.0,
+      "text": "evidence against an approved benchmark, then preserves, mutates, or replaces each agent's prompt, code, tools, and"
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "dependencies. The fixed kernel keeps scoring, lineage, credentials, and isolation outside the evolvable genome."
+    },
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "Ranji is a tiny synchronous syntax highlighter that returns self-contained HTML without loading CSS, clientside JavaScript, or hydration. The"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "maintainers put the full package with 46 languages and default themes at roughly 13.2 bill minified and gzipped while the"
+    },
+    {
+      "start": 714.0,
+      "end": 714.0,
+      "text": "core code to HTML path is about 1.5 kilobyt. It also exposes raw tokens and anti- terminal output."
+    },
+    {
+      "start": 721.0,
+      "end": 721.0,
+      "text": "Sound Schuman scores how much you're writing reads as AIS lop on a 0 to 100 scale. And the point is that every point"
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "is traceable. Pattern density does most of the work, blended with statistical tells like burstiness and word repetition. And each hit names the rule"
+    },
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "that fired, so you can argue with it or delete that rule. The fixer only auto applies the safe mechanical stuff. M dashes, curly quotes, filler phrases."
+    },
+    {
+      "start": 748.0,
+      "end": 748.0,
+      "text": "Vibeatch turns an M5 stack stopwatch into a wrist controller for running several AI coding agents at once. Six"
+    },
+    {
+      "start": 756.0,
+      "end": 756.0,
+      "text": "agents sit around the round screen with their live state always visible and pressing both buttons flips to an action layer where you approve or reject with a"
+    },
+    {
+      "start": 764.0,
+      "end": 764.0,
+      "text": "physical click toggle plan mode or hold the center to talk. Every Q is multiensory so okay rises in pitch and ng falls."
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Deepseek and destroy is a portable coding agent skill that executes large implementation plans through persistent worker loops. A main orchestrator keeps"
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "the architecture and phase gates while fresh agents implement, review, repair findings, and independently recheck the"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "result. Run folders preserve plan snapshots, evidence, defects, and the exact next action across context resets."
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "This library animates a React Native theme switch without touching Skia, Reanimated, or any JS animation. The trick is that it never animates the"
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "theme at all. It takes a GPUide copy of the screen, pins it on top, runs your change underneath invisibly, then wipes"
+    },
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "the copy away with the platform's own animator on the render thread, so a busy JavaScript thread can't drop a frame of it. Circular reveal from the touch point, plus wipe, fade, and blur."
+    },
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "Scroll down and Cajoke night at a Kyoto mountain temple. 3.js"
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "builds the Tory gates, lanterns, fog, falling leaves, and moon in real time, while generated scene plates and foreground artwork add depth across five"
+    },
+    {
+      "start": 844.0,
+      "end": 844.0,
+      "text": "chapters. The experience lives in one HTML file with no build step or runtime network dependency."
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "Wallfacer is one view of every AI coding session you've started across cloud code and codecs. Each agent buries its"
+    },
+    {
+      "start": 859.0,
+      "end": 859.0,
+      "text": "transcripts in its own folder under an untitled or hashnamed file. So after a few weeks, you can't find anything."
+    },
+    {
+      "start": 866.0,
+      "end": 866.0,
+      "text": "Wallfacer indexes them all read only, never touching the originals, and keeps your titles, tags, and projects in a separate database. Browse them full"
+    },
+    {
+      "start": 875.0,
+      "end": 875.0,
+      "text": "screen or from the shell, then resume anyone where it started."
+    },
+    {
+      "start": 880.0,
+      "end": 880.0,
+      "text": "Feck is a rust crate for recovering corrupted data in softwaredefined radio and spacecraft links. It implements convolutional codes with hard or soft"
+    },
+    {
+      "start": 888.0,
+      "end": 888.0,
+      "text": "decision vurby decoding plus read Solomon error and eraser correction including the standard CCSDS configuration. Optional nightly rust"
+    },
+    {
+      "start": 896.0,
+      "end": 896.0,
+      "text": "SIMD accelerates Vurby on SSE, AVX2 and AVX 512 while a CABI shim can replace libc in existing code bases."
+    },
+    {
+      "start": 906.0,
+      "end": 906.0,
+      "text": "Neuroarchceive makes a coding agent check arcseceive before it invents an architecture. It maps your problem to a"
+    },
+    {
+      "start": 914.0,
+      "end": 914.0,
+      "text": "few categories, fetches real papers over HTTP, then reads each abstract in isolation so no one source colors"
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "another, and converges on a single cited recommendation with a first step and the documented ways it has already failed for someone. The point isn't search, it's forcing a decision."
+    },
+    {
+      "start": 933.0,
+      "end": 933.0,
+      "text": "[music]"
+    }
+  ]
+}

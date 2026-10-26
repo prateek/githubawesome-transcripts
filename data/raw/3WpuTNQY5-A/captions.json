@@ -1,0 +1,1593 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 44. 35 trending open-source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Parat talk is a 4B model whose only job is compressing what your coding agent sends upstream. It runs as a local"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "proxy. Point your agents base URL at it and tool outputs and old history get rewritten before their build. Nothing is"
+    },
+    {
+      "timestamp": "0:26",
+      "text": "destroyed since compressed blocks carry a reference ID. The model can expand on demand. Self-hosting runs on a llama with nothing leaving your machine."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a"
+    },
+    {
+      "timestamp": "0:44",
+      "text": "sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the"
+    },
+    {
+      "timestamp": "0:53",
+      "text": "agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on worker is marked"
+    },
+    {
+      "timestamp": "1:00",
+      "text": "coming soon. Kirro crew is a persistent agent workspace from Amazon's Kro team that keeps running after you close the"
+    },
+    {
+      "timestamp": "1:08",
+      "text": "chat. It preserves sessions, memory, schedules, and checkpoints, learns reusable lessons from corrections, and can delegate work to isolated sub aents."
+    },
+    {
+      "timestamp": "1:17",
+      "text": "Use it through a desktop app, web dashboard, CLI, or messaging tools."
+    },
+    {
+      "timestamp": "1:22",
+      "text": "While approvals, sandboxing, credential redaction, and audit logs add control."
+    },
+    {
+      "timestamp": "1:28",
+      "text": "Wiser is a compiled language built on a bet that most hard bugs come from nobody being sure who owns a resource. Memory,"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "message passing, and hardware interrupts all get the same rule. So once a resource is used, it can't be used again. The compiler deres network"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "protocols from your function types and checks them catching deadlocks and drop messages before anything runs."
+    },
+    {
+      "timestamp": "1:53",
+      "text": "Quickraw is an infinite canvas whiteboard you drop into a React React Native or PlainJS app. Pressure sensitive ink handdrawn shape wobble palm rejection once a stylus appears."
+    },
+    {
+      "timestamp": "2:04",
+      "text": "The part worth studying is the store."
+    },
+    {
+      "timestamp": "2:07",
+      "text": "Every change emits a JSON diff. So, persistence, undo, collaborative sync, and strokebystroke replay all fall out"
+    },
+    {
+      "timestamp": "2:14",
+      "text": "of one shape. You bring the transport since there's no multiplayer server yet."
+    },
+    {
+      "timestamp": "2:19",
+      "text": "Miniax H3 generates video with native stereo audio in one pass, up to 15 seconds from text, images, video, and"
+    },
+    {
+      "timestamp": "2:27",
+      "text": "audio references mixed together. One transformer predicts both video and audio latence rather than dubbing sound on afterwards. The open weights run at"
+    },
+    {
+      "timestamp": "2:36",
+      "text": "768p since the 2K stage and the context prep-processor stay behind Miniax's API."
+    },
+    {
+      "timestamp": "2:43",
+      "text": "Runcat Neo is a running cat in the Mac OS menu bar whose stride speeds up with your CPU load, so you feel a busy"
+    },
+    {
+      "timestamp": "2:50",
+      "text": "machine before you check activity monitor. The part worth knowing is the custom metrics format pointed at any local JSON file and it renders that as a"
+    },
+    {
+      "timestamp": "3:00",
+      "text": "dashboard card. So GPU temperature, agent token usage, or remaining reminders all become menu bar readouts."
+    },
+    {
+      "timestamp": "3:07",
+      "text": "Runners are key frame animations you can write yourself."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "Gemma translator is a two-way voice translator that runs entirely on a Raspberry Pi 5 with no internet after setup. Two lanes face each other on a"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "small kiosk screen, each with a rotating language selector. Hold a key, speak, and the other side hears it back in"
+    },
+    {
+      "timestamp": "3:27",
+      "text": "their language. Moonshine handles the speech in and out. Gemma does the translation and the repo ships STL files for the case."
+    },
+    {
+      "timestamp": "3:37",
+      "text": "Starboard is a Mac OS terminal you can audit in an afternoon. Under 700 lines across four Swift files, no"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "dependencies, no pseudo in the installer and accessibility used for exactly one thing, reading where the doc sits so the"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "window can track it. It docks beside the dock, follows it across spaces and full screen apps, and runs a real persistent"
+    },
+    {
+      "timestamp": "3:58",
+      "text": "login shell rather than spawning a new one per command."
+    },
+    {
+      "timestamp": "4:03",
+      "text": "Aur is an agent skill that treats landing page development like film direction, locking the art direction in a commit sheet before writing markup. It"
+    },
+    {
+      "timestamp": "4:12",
+      "text": "can scout references, generate assets, and build WebGL or scroll driven scenes from recipes. Shipping is gated by"
+    },
+    {
+      "timestamp": "4:20",
+      "text": "executable checks. Slopscan rejects cliche styling and accessibility mistakes, while Motion QA measures dropped frames and browser errors."
+    },
+    {
+      "timestamp": "4:29",
+      "text": "Drydock answers one question across every checkout on your disc. What still has work sitting in it? Uncommitted files, commits you never pushed on any"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "branch rather than just the current one, and commits sitting past the last tag."
+    },
+    {
+      "timestamp": "4:43",
+      "text": "Color carries the state, so you scan rather than read. The speed trick is tearing. Refs and tags are cheap and run"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "every sweep, while the working tree scan caches against head and index m time."
+    },
+    {
+      "timestamp": "4:57",
+      "text": "Codex router puts Kimmy and DeepSseek in the codeex model picker as named entries beside the GPT models rather than"
+    },
+    {
+      "timestamp": "5:05",
+      "text": "replacing them. It adds one marked block to your config, pointing the base URL at a local listener that splits traffic."
+    },
+    {
+      "timestamp": "5:12",
+      "text": "Native requests keep your chat GPT off."
+    },
+    {
+      "timestamp": "5:15",
+      "text": "External ones get a throwaway loop back key that the final forwarder discards before injecting the real provider credential."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Gauntlet loop is a single skill file that turns a goal into one short prompt for a fresh session. The idea worth"
+    },
+    {
+      "timestamp": "5:30",
+      "text": "stealing is the standard, not a rubric the agent grades itself against, but a named real thing it can actually fetch"
+    },
+    {
+      "timestamp": "5:37",
+      "text": "and open. A separate critic with no memory of the attempt puts both side by side with labels stripped and picks one."
+    },
+    {
+      "timestamp": "5:44",
+      "text": "Winning ends the loop, not a round count."
+    },
+    {
+      "timestamp": "5:48",
+      "text": "Cyclop turns the MacBook notch into a panel that unfolds on hover. Whatever is playing anywhere on the machine with a"
+    },
+    {
+      "timestamp": "5:55",
+      "text": "working scrubber, a shelf you drag files onto, clipboard history, snippets, your next meeting with a join button, and"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "offline translation. The engineering notes are the real draw. Pointer sampling drops to eight hertz away from"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "the top edge and a 150 millisecond dwell separates choosing a tab from passing over one."
+    },
+    {
+      "timestamp": "6:16",
+      "text": "OCTOP is a self-hosted assistant for a household or small team run as one process with everything under a folder in your home directory."
+    },
+    {
+      "timestamp": "6:25",
+      "text": "Each user gets their own set of agents they switch between per task reachable from a web dashboard, a CLI or chat apps"
+    },
+    {
+      "timestamp": "6:32",
+      "text": "like Discord and FishU. The design point is single process, no external broker, and the entire state rebuilds from one seek light file on restart."
+    },
+    {
+      "timestamp": "6:43",
+      "text": "Travel photo abstraction is a codec skill that reads one of your photographs as a visual system, counts, positions,"
+    },
+    {
+      "timestamp": "6:50",
+      "text": "proportions, directions, then distills it into a sparse editorial panel set beside the untouched original. The"
+    },
+    {
+      "timestamp": "6:57",
+      "text": "discipline is what sets it apart. It inventories what's actually there before drawing, maps each fact to one minimal"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "mark and a fail script pixel verifies your original rather than regenerating it."
+    },
+    {
+      "timestamp": "7:10",
+      "text": "WP2i is a WhatsApp client that lives entirely in your terminal. A Ratatouille interface in Rust bridged to the what's"
+    },
+    {
+      "timestamp": "7:17",
+      "text": "meow library in Go. Link with a QR code and you get Vim style keybindings for browsing chats, replying, reacting, and"
+    },
+    {
+      "timestamp": "7:25",
+      "text": "even pasting an image from the clipboard as an attachment with media rendered inline through Chaffa. Your session and history stay in a local folder."
+    },
+    {
+      "timestamp": "7:35",
+      "text": "Himakuri is a Japanese tearoff calendar that sits on your Mac desktop and the point is the paper. The top sheet is a"
+    },
+    {
+      "timestamp": "7:42",
+      "text": "verlet simulated grid with real bending constraints. So pulling it down makes fibers part along the staple seam and the page comes off in your hand. Let go"
+    },
+    {
+      "timestamp": "7:52",
+      "text": "halfway and it rests torn permanently since there's no undo by design. Six print styles, procedurally synthesized"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "rip sounds, and it never turns its own page."
+    },
+    {
+      "timestamp": "8:04",
+      "text": "Host sticker is a browserbased studio that turns an SVG or PNG into a realistic holographic sticker without"
+    },
+    {
+      "timestamp": "8:11",
+      "text": "building the foil effect by hand. 3JS renders defraction bands, iridesence, metallic flakes, and reflections in real"
+    },
+    {
+      "timestamp": "8:18",
+      "text": "time, while pointer movement lets you inspect the finish from different angles. You can tune ink coverage and diecut borders, add refractor patterns"
+    },
+    {
+      "timestamp": "8:27",
+      "text": "or a 3D peel, then export a transparent PNG up to 496 pixels."
+    },
+    {
+      "timestamp": "8:33",
+      "text": "Dent is a rust privacy engine that transforms CSV data sets from a declarative YAML policy with separate modes for reversible pseudonymization"
+    },
+    {
+      "timestamp": "8:41",
+      "text": "and risk assessed anonymization. It can remove direct identifiers, generalize quasi identifiers, preserve joinable"
+    },
+    {
+      "timestamp": "8:49",
+      "text": "tokens across related files and produce a JSON report showing residual reidentification signals. Jobs can also"
+    },
+    {
+      "timestamp": "8:56",
+      "text": "run inside isolated web assembly sandboxes."
+    },
+    {
+      "timestamp": "9:00",
+      "text": "Life is a native Mac OS IDE that keeps Intelligj style Java workflows without carrying the full IntelliJ footprint. It"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "targets Spring Boot projects, starts language services, terminals, Maven and debuggers only when needed and gives you git diffs plus local snapshots for"
+    },
+    {
+      "timestamp": "9:17",
+      "text": "reviewing AI generated changes. Semantic navigation depends on Eclipse JDLS and Windows support is still under development."
+    },
+    {
+      "timestamp": "9:26",
+      "text": "JCRS turns command output, files, and plain strings into JSON using one static Rust binary, so scripts and minimal containers don't need Python installed."
+    },
+    {
+      "timestamp": "9:37",
+      "text": "It implements 237 parsers, preserves JC's schemas, and streams records as input arrives instead of waiting for"
+    },
+    {
+      "timestamp": "9:43",
+      "text": "EOF. The maintainers report 100% compatibility across 934 of 934 Oracle valid fixture pairs enforced in CI while"
+    },
+    {
+      "timestamp": "9:52",
+      "text": "unqualified fixtures remain reported separately."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Cambium is a governance standard and reference tool set for knowledge corpora maintained by LLM agents. It separates domain neutral rules from a selected"
+    },
+    {
+      "timestamp": "10:05",
+      "text": "corpus profile, then records scoped batches, dependencies, progress, receipts, and recovery state inside the"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "adopting repository. Deterministic checks catch drift and stale evidence, but they don't prove who performed an"
+    },
+    {
+      "timestamp": "10:19",
+      "text": "action. Codex iOS assistant lets codecs on your Mac inspect and control your iPhone through iMessage and Apple"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "Shortcuts. Its CLI sends private commands. The phone runs native actions and context returns through an authenticated Cloudflare tunnel"
+    },
+    {
+      "timestamp": "10:35",
+      "text": "endpoint. It can read visible screen text, manage alarms, and toggle settings, but it deliberately won't send ordinary messages or make purchases."
+    },
+    {
+      "timestamp": "10:46",
+      "text": "Phone harness lets an agent drive your own iPhone with no jailbreak and no web driver agent. The phone is already a"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "window, so screen capture plus Apple's vision OCR gives every visible string a tap ready coordinate. and siege events"
+    },
+    {
+      "timestamp": "11:00",
+      "text": "post the taps screenshot again to verify since there's no DOM. The failure notes are the useful part like Apple script"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "clicks vanishing silently because the window is just a video stream."
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Kadath evolves complete AI agents instead of repeatedly tweaking one prompt. It runs populations through timed epochs, grades their frozen"
+    },
+    {
+      "timestamp": "11:21",
+      "text": "evidence against an approved benchmark, then preserves, mutates, or replaces each agent's prompt, code, tools, and"
+    },
+    {
+      "timestamp": "11:29",
+      "text": "dependencies. The fixed kernel keeps scoring, lineage, credentials, and isolation outside the evolvable genome."
+    },
+    {
+      "timestamp": "11:36",
+      "text": "Ranji is a tiny synchronous syntax highlighter that returns self-contained HTML without loading CSS, clientside JavaScript, or hydration. The"
+    },
+    {
+      "timestamp": "11:45",
+      "text": "maintainers put the full package with 46 languages and default themes at roughly 13.2 bill minified and gzipped while the"
+    },
+    {
+      "timestamp": "11:54",
+      "text": "core code to HTML path is about 1.5 kilobyt. It also exposes raw tokens and anti- terminal output."
+    },
+    {
+      "timestamp": "12:01",
+      "text": "Sound Schuman scores how much you're writing reads as AIS lop on a 0 to 100 scale. And the point is that every point"
+    },
+    {
+      "timestamp": "12:08",
+      "text": "is traceable. Pattern density does most of the work, blended with statistical tells like burstiness and word repetition. And each hit names the rule"
+    },
+    {
+      "timestamp": "12:17",
+      "text": "that fired, so you can argue with it or delete that rule. The fixer only auto applies the safe mechanical stuff. M dashes, curly quotes, filler phrases."
+    },
+    {
+      "timestamp": "12:28",
+      "text": "Vibeatch turns an M5 stack stopwatch into a wrist controller for running several AI coding agents at once. Six"
+    },
+    {
+      "timestamp": "12:36",
+      "text": "agents sit around the round screen with their live state always visible and pressing both buttons flips to an action layer where you approve or reject with a"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "physical click toggle plan mode or hold the center to talk. Every Q is multiensory so okay rises in pitch and ng falls."
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Deepseek and destroy is a portable coding agent skill that executes large implementation plans through persistent worker loops. A main orchestrator keeps"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "the architecture and phase gates while fresh agents implement, review, repair findings, and independently recheck the"
+    },
+    {
+      "timestamp": "13:10",
+      "text": "result. Run folders preserve plan snapshots, evidence, defects, and the exact next action across context resets."
+    },
+    {
+      "timestamp": "13:19",
+      "text": "This library animates a React Native theme switch without touching Skia, Reanimated, or any JS animation. The trick is that it never animates the"
+    },
+    {
+      "timestamp": "13:28",
+      "text": "theme at all. It takes a GPUide copy of the screen, pins it on top, runs your change underneath invisibly, then wipes"
+    },
+    {
+      "timestamp": "13:35",
+      "text": "the copy away with the platform's own animator on the render thread, so a busy JavaScript thread can't drop a frame of it. Circular reveal from the touch point, plus wipe, fade, and blur."
+    },
+    {
+      "timestamp": "13:48",
+      "text": "Scroll down and Cajoke night at a Kyoto mountain temple. 3.js"
+    },
+    {
+      "timestamp": "13:55",
+      "text": "builds the Tory gates, lanterns, fog, falling leaves, and moon in real time, while generated scene plates and foreground artwork add depth across five"
+    },
+    {
+      "timestamp": "14:04",
+      "text": "chapters. The experience lives in one HTML file with no build step or runtime network dependency."
+    },
+    {
+      "timestamp": "14:11",
+      "text": "Wallfacer is one view of every AI coding session you've started across cloud code and codecs. Each agent buries its"
+    },
+    {
+      "timestamp": "14:19",
+      "text": "transcripts in its own folder under an untitled or hashnamed file. So after a few weeks, you can't find anything."
+    },
+    {
+      "timestamp": "14:26",
+      "text": "Wallfacer indexes them all read only, never touching the originals, and keeps your titles, tags, and projects in a separate database. Browse them full"
+    },
+    {
+      "timestamp": "14:35",
+      "text": "screen or from the shell, then resume anyone where it started."
+    },
+    {
+      "timestamp": "14:40",
+      "text": "Feck is a rust crate for recovering corrupted data in softwaredefined radio and spacecraft links. It implements convolutional codes with hard or soft"
+    },
+    {
+      "timestamp": "14:48",
+      "text": "decision vurby decoding plus read Solomon error and eraser correction including the standard CCSDS configuration. Optional nightly rust"
+    },
+    {
+      "timestamp": "14:56",
+      "text": "SIMD accelerates Vurby on SSE, AVX2 and AVX 512 while a CABI shim can replace libc in existing code bases."
+    },
+    {
+      "timestamp": "15:06",
+      "text": "Neuroarchceive makes a coding agent check arcseceive before it invents an architecture. It maps your problem to a"
+    },
+    {
+      "timestamp": "15:14",
+      "text": "few categories, fetches real papers over HTTP, then reads each abstract in isolation so no one source colors"
+    },
+    {
+      "timestamp": "15:20",
+      "text": "another, and converges on a single cited recommendation with a first step and the documented ways it has already failed for someone. The point isn't search, it's forcing a decision."
+    },
+    {
+      "timestamp": "15:33",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today number 44. 35 trending open-source projects on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Parat talk is a 4B model whose only job is compressing what your coding agent sends upstream. It runs as a local"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proxy. Point your agents base URL at it and tool outputs and old history get rewritten before their build. Nothing is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "destroyed since compressed blocks carry a reference ID. The model can expand on demand. Self-hosting runs on a llama with nothing leaving your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 44000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on worker is marked"
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "coming soon. Kirro crew is a persistent agent workspace from Amazon's Kro team that keeps running after you close the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chat. It preserves sessions, memory, schedules, and checkpoints, learns reusable lessons from corrections, and can delegate work to isolated sub aents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 77000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Use it through a desktop app, web dashboard, CLI, or messaging tools."
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "While approvals, sandboxing, credential redaction, and audit logs add control."
+        }
+      ]
+    },
+    {
+      "tStartMs": 88000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wiser is a compiled language built on a bet that most hard bugs come from nobody being sure who owns a resource. Memory,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "message passing, and hardware interrupts all get the same rule. So once a resource is used, it can't be used again. The compiler deres network"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "protocols from your function types and checks them catching deadlocks and drop messages before anything runs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 113000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quickraw is an infinite canvas whiteboard you drop into a React React Native or PlainJS app. Pressure sensitive ink handdrawn shape wobble palm rejection once a stylus appears."
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The part worth studying is the store."
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every change emits a JSON diff. So, persistence, undo, collaborative sync, and strokebystroke replay all fall out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 134000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of one shape. You bring the transport since there's no multiplayer server yet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 139000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Miniax H3 generates video with native stereo audio in one pass, up to 15 seconds from text, images, video, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 147000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "audio references mixed together. One transformer predicts both video and audio latence rather than dubbing sound on afterwards. The open weights run at"
+        }
+      ]
+    },
+    {
+      "tStartMs": 156000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "768p since the 2K stage and the context prep-processor stay behind Miniax's API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Runcat Neo is a running cat in the Mac OS menu bar whose stride speeds up with your CPU load, so you feel a busy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "machine before you check activity monitor. The part worth knowing is the custom metrics format pointed at any local JSON file and it renders that as a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 180000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dashboard card. So GPU temperature, agent token usage, or remaining reminders all become menu bar readouts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 187000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Runners are key frame animations you can write yourself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gemma translator is a two-way voice translator that runs entirely on a Raspberry Pi 5 with no internet after setup. Two lanes face each other on a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "small kiosk screen, each with a rotating language selector. Hold a key, speak, and the other side hears it back in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 207000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "their language. Moonshine handles the speech in and out. Gemma does the translation and the repo ships STL files for the case."
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Starboard is a Mac OS terminal you can audit in an afternoon. Under 700 lines across four Swift files, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencies, no pseudo in the installer and accessibility used for exactly one thing, reading where the doc sits so the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "window can track it. It docks beside the dock, follows it across spaces and full screen apps, and runs a real persistent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "login shell rather than spawning a new one per command."
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Aur is an agent skill that treats landing page development like film direction, locking the art direction in a commit sheet before writing markup. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can scout references, generate assets, and build WebGL or scroll driven scenes from recipes. Shipping is gated by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "executable checks. Slopscan rejects cliche styling and accessibility mistakes, while Motion QA measures dropped frames and browser errors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drydock answers one question across every checkout on your disc. What still has work sitting in it? Uncommitted files, commits you never pushed on any"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "branch rather than just the current one, and commits sitting past the last tag."
+        }
+      ]
+    },
+    {
+      "tStartMs": 283000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Color carries the state, so you scan rather than read. The speed trick is tearing. Refs and tags are cheap and run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "every sweep, while the working tree scan caches against head and index m time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codex router puts Kimmy and DeepSseek in the codeex model picker as named entries beside the GPT models rather than"
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replacing them. It adds one marked block to your config, pointing the base URL at a local listener that splits traffic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Native requests keep your chat GPT off."
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "External ones get a throwaway loop back key that the final forwarder discards before injecting the real provider credential."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gauntlet loop is a single skill file that turns a goal into one short prompt for a fresh session. The idea worth"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stealing is the standard, not a rubric the agent grades itself against, but a named real thing it can actually fetch"
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and open. A separate critic with no memory of the attempt puts both side by side with labels stripped and picks one."
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Winning ends the loop, not a round count."
+        }
+      ]
+    },
+    {
+      "tStartMs": 348000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cyclop turns the MacBook notch into a panel that unfolds on hover. Whatever is playing anywhere on the machine with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 355000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "working scrubber, a shelf you drag files onto, clipboard history, snippets, your next meeting with a join button, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "offline translation. The engineering notes are the real draw. Pointer sampling drops to eight hertz away from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the top edge and a 150 millisecond dwell separates choosing a tab from passing over one."
+        }
+      ]
+    },
+    {
+      "tStartMs": 376000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OCTOP is a self-hosted assistant for a household or small team run as one process with everything under a folder in your home directory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each user gets their own set of agents they switch between per task reachable from a web dashboard, a CLI or chat apps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like Discord and FishU. The design point is single process, no external broker, and the entire state rebuilds from one seek light file on restart."
+        }
+      ]
+    },
+    {
+      "tStartMs": 403000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Travel photo abstraction is a codec skill that reads one of your photographs as a visual system, counts, positions,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 410000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proportions, directions, then distills it into a sparse editorial panel set beside the untouched original. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "discipline is what sets it apart. It inventories what's actually there before drawing, maps each fact to one minimal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mark and a fail script pixel verifies your original rather than regenerating it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "WP2i is a WhatsApp client that lives entirely in your terminal. A Ratatouille interface in Rust bridged to the what's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 437000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "meow library in Go. Link with a QR code and you get Vim style keybindings for browsing chats, replying, reacting, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even pasting an image from the clipboard as an attachment with media rendered inline through Chaffa. Your session and history stay in a local folder."
+        }
+      ]
+    },
+    {
+      "tStartMs": 455000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Himakuri is a Japanese tearoff calendar that sits on your Mac desktop and the point is the paper. The top sheet is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "verlet simulated grid with real bending constraints. So pulling it down makes fibers part along the staple seam and the page comes off in your hand. Let go"
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "halfway and it rests torn permanently since there's no undo by design. Six print styles, procedurally synthesized"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rip sounds, and it never turns its own page."
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Host sticker is a browserbased studio that turns an SVG or PNG into a realistic holographic sticker without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "building the foil effect by hand. 3JS renders defraction bands, iridesence, metallic flakes, and reflections in real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "time, while pointer movement lets you inspect the finish from different angles. You can tune ink coverage and diecut borders, add refractor patterns"
+        }
+      ]
+    },
+    {
+      "tStartMs": 507000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or a 3D peel, then export a transparent PNG up to 496 pixels."
+        }
+      ]
+    },
+    {
+      "tStartMs": 513000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dent is a rust privacy engine that transforms CSV data sets from a declarative YAML policy with separate modes for reversible pseudonymization"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and risk assessed anonymization. It can remove direct identifiers, generalize quasi identifiers, preserve joinable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 529000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tokens across related files and produce a JSON report showing residual reidentification signals. Jobs can also"
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "run inside isolated web assembly sandboxes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Life is a native Mac OS IDE that keeps Intelligj style Java workflows without carrying the full IntelliJ footprint. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "targets Spring Boot projects, starts language services, terminals, Maven and debuggers only when needed and gives you git diffs plus local snapshots for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 557000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reviewing AI generated changes. Semantic navigation depends on Eclipse JDLS and Windows support is still under development."
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "JCRS turns command output, files, and plain strings into JSON using one static Rust binary, so scripts and minimal containers don't need Python installed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It implements 237 parsers, preserves JC's schemas, and streams records as input arrives instead of waiting for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "EOF. The maintainers report 100% compatibility across 934 of 934 Oracle valid fixture pairs enforced in CI while"
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "unqualified fixtures remain reported separately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cambium is a governance standard and reference tool set for knowledge corpora maintained by LLM agents. It separates domain neutral rules from a selected"
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "corpus profile, then records scoped batches, dependencies, progress, receipts, and recovery state inside the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adopting repository. Deterministic checks catch drift and stale evidence, but they don't prove who performed an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "action. Codex iOS assistant lets codecs on your Mac inspect and control your iPhone through iMessage and Apple"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shortcuts. Its CLI sends private commands. The phone runs native actions and context returns through an authenticated Cloudflare tunnel"
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "endpoint. It can read visible screen text, manage alarms, and toggle settings, but it deliberately won't send ordinary messages or make purchases."
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phone harness lets an agent drive your own iPhone with no jailbreak and no web driver agent. The phone is already a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "window, so screen capture plus Apple's vision OCR gives every visible string a tap ready coordinate. and siege events"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "post the taps screenshot again to verify since there's no DOM. The failure notes are the useful part like Apple script"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clicks vanishing silently because the window is just a video stream."
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kadath evolves complete AI agents instead of repeatedly tweaking one prompt. It runs populations through timed epochs, grades their frozen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "evidence against an approved benchmark, then preserves, mutates, or replaces each agent's prompt, code, tools, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencies. The fixed kernel keeps scoring, lineage, credentials, and isolation outside the evolvable genome."
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ranji is a tiny synchronous syntax highlighter that returns self-contained HTML without loading CSS, clientside JavaScript, or hydration. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 705000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maintainers put the full package with 46 languages and default themes at roughly 13.2 bill minified and gzipped while the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 714000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "core code to HTML path is about 1.5 kilobyt. It also exposes raw tokens and anti- terminal output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sound Schuman scores how much you're writing reads as AIS lop on a 0 to 100 scale. And the point is that every point"
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is traceable. Pattern density does most of the work, blended with statistical tells like burstiness and word repetition. And each hit names the rule"
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that fired, so you can argue with it or delete that rule. The fixer only auto applies the safe mechanical stuff. M dashes, curly quotes, filler phrases."
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vibeatch turns an M5 stack stopwatch into a wrist controller for running several AI coding agents at once. Six"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents sit around the round screen with their live state always visible and pressing both buttons flips to an action layer where you approve or reject with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "physical click toggle plan mode or hold the center to talk. Every Q is multiensory so okay rises in pitch and ng falls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deepseek and destroy is a portable coding agent skill that executes large implementation plans through persistent worker loops. A main orchestrator keeps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the architecture and phase gates while fresh agents implement, review, repair findings, and independently recheck the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "result. Run folders preserve plan snapshots, evidence, defects, and the exact next action across context resets."
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This library animates a React Native theme switch without touching Skia, Reanimated, or any JS animation. The trick is that it never animates the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 808000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "theme at all. It takes a GPUide copy of the screen, pins it on top, runs your change underneath invisibly, then wipes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 815000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the copy away with the platform's own animator on the render thread, so a busy JavaScript thread can't drop a frame of it. Circular reveal from the touch point, plus wipe, fade, and blur."
+        }
+      ]
+    },
+    {
+      "tStartMs": 828000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Scroll down and Cajoke night at a Kyoto mountain temple. 3.js"
+        }
+      ]
+    },
+    {
+      "tStartMs": 835000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds the Tory gates, lanterns, fog, falling leaves, and moon in real time, while generated scene plates and foreground artwork add depth across five"
+        }
+      ]
+    },
+    {
+      "tStartMs": 844000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chapters. The experience lives in one HTML file with no build step or runtime network dependency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 851000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wallfacer is one view of every AI coding session you've started across cloud code and codecs. Each agent buries its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "transcripts in its own folder under an untitled or hashnamed file. So after a few weeks, you can't find anything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 866000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wallfacer indexes them all read only, never touching the originals, and keeps your titles, tags, and projects in a separate database. Browse them full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 875000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "screen or from the shell, then resume anyone where it started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 880000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Feck is a rust crate for recovering corrupted data in softwaredefined radio and spacecraft links. It implements convolutional codes with hard or soft"
+        }
+      ]
+    },
+    {
+      "tStartMs": 888000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decision vurby decoding plus read Solomon error and eraser correction including the standard CCSDS configuration. Optional nightly rust"
+        }
+      ]
+    },
+    {
+      "tStartMs": 896000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SIMD accelerates Vurby on SSE, AVX2 and AVX 512 while a CABI shim can replace libc in existing code bases."
+        }
+      ]
+    },
+    {
+      "tStartMs": 906000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neuroarchceive makes a coding agent check arcseceive before it invents an architecture. It maps your problem to a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 914000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "few categories, fetches real papers over HTTP, then reads each abstract in isolation so no one source colors"
+        }
+      ]
+    },
+    {
+      "tStartMs": 920000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "another, and converges on a single cited recommendation with a first step and the documented ways it has already failed for someone. The point isn't search, it's forcing a decision."
+        }
+      ]
+    },
+    {
+      "tStartMs": 933000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}
