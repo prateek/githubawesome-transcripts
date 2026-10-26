@@ -89,8 +89,12 @@ test("search, read, source links, downloads and mobile layout", async ({
   ).toBeVisible();
   await page.getByRole("searchbox").fill("no match");
   await expect(
-    page.getByText("No matching projects. Try another name or owner."),
+    page.getByText("Nothing matches. Try another project, owner or phrase."),
   ).toBeVisible();
+  await page.getByRole("searchbox").fill("welcome to the");
+  await expect(page.locator("#hits b")).toHaveText(["Intro"]);
+  await page.getByRole("searchbox").fill("trending weekly #7");
+  await expect(page.locator("#n")).toHaveText("3");
   await page.getByRole("searchbox").fill("unusual phrase");
   await page
     .getByRole("link", { name: /Widget/ })
@@ -116,8 +120,10 @@ test("search, read, source links, downloads and mobile layout", async ({
   ).toBe(true);
   await page.getByRole("button", { name: "Next chapter" }).click();
   await expect(page).toHaveURL(/section=s003/);
+  await expect(page.locator("#now-idx")).toHaveText("3/3");
   await page.reload();
   await expect(page.getByRole("heading", { name: "Gadget" })).toBeInViewport();
+  await expect(page.locator("#now-idx")).toHaveText("3/3");
   await page.getByRole("link", { name: "← All episodes" }).click();
   await expect(page.getByRole("searchbox")).toBeVisible();
 });

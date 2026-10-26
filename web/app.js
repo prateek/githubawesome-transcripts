@@ -54,8 +54,13 @@ const repos = (s) =>
     /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/.test(u),
   );
 const recent = (g) => (g?.weeks ?? []).slice(-12).reduce((n, w) => n + w, 0);
-const stars = (n) =>
-  n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
+// Round before choosing the unit, so 9,960 reads 10k and 999,600 reads 1M.
+function stars(n) {
+  if (n < 1000) return String(n);
+  const [size, unit] = n >= 999500 ? [1e6, "M"] : [1e3, "k"];
+  const v = n / size;
+  return `${v < 9.95 ? Math.round(v * 10) / 10 : Math.round(v)}${unit}`;
+}
 
 function json(path, optional = false) {
   if (!cache.has(path))
@@ -97,26 +102,35 @@ async function load() {
     (search ?? []).map((s) => [`${s.video_id}/${s.section_id}`, s.text]),
   );
   const gh = (url) => github?.repositories?.[key(url)] ?? null;
-  const videos = index.videos.map((v) => ({ ...v, ep: episode(v.title) }));
-  const projects = videos.flatMap((v, vi) =>
-    v.sections
-      .filter((s) => s.repositories.length)
-      .map((s) => ({
+  const videos = index.videos.map((v) => ({
+    ...v,
+    ep: episode(v.title),
+    hay: v.title.toLowerCase(),
+  }));
+  // Every section is searchable; sections that link a repository are projects.
+  const sections = videos.flatMap((v, vi) =>
+    v.sections.map((s) => {
+      const urls = repos(s);
+      const body = text.get(`${v.id}/${s.id}`) ?? "";
+      return {
         video: v,
         vi,
         id: s.id,
         title: s.title,
-        repo: s.repositories[0],
-        slug: slug(s.repositories[0]),
+        repo: urls[0],
+        slug: urls[0] ? slug(urls[0]) : "",
         start: s.start,
-        text: text.get(`${v.id}/${s.id}`) ?? "",
-        gh: gh(s.repositories[0]),
-      })),
+        text: body,
+        gh: urls[0] ? gh(urls[0]) : null,
+        hay: `${s.title} ${urls.map(slug).join(" ")} ${body}`.toLowerCase(),
+      };
+    }),
   );
   return {
     index,
     videos,
-    projects,
+    sections,
+    projects: sections.filter((p) => p.repo),
     gh,
     fetched: github?.fetched,
     pending: index.pending,
@@ -158,7 +172,7 @@ function chapterRow(p) {
 
 function projectRow(p) {
   const [owner, name] = key(p.repo).split("/");
-  return `<li data-hay="${esc(`${p.title} ${p.slug} ${p.text}`.toLowerCase())}"><a href="${route(p.video.id, p.id)}">
+  return `<li data-hay="${esc(p.hay)}"><a href="${route(p.video.id, p.id)}">
     <span class="p-main"><b>${esc(p.title)}</b><span class="p-slug"><span>${esc(owner)}/</span>${esc(name)}</span><span class="lead">${esc(lead(p.text))}</span><span class="label">${esc(heading(p.video.ep))} · ${tc(p.start)}${p.gh?.language ? ` · ${esc(p.gh.language)}` : ""}</span></span>
     <span class="p-side">${p.gh ? `<span class="star">★ ${stars(p.gh.stars)}</span>${spark(p.gh.weeks)}<span class="p-act">${recent(p.gh)} commits<br>last 12 wk</span>` : `<span class="p-act">No GitHub stats</span>`}</span>
   </a></li>`;
@@ -247,7 +261,7 @@ function library(ctx) {
   <footer class="foot"><a href="./data/index.json">Dataset ↗</a><a href="./feed.xml">RSS ↗</a><a href="https://github.com/prateek/githubawesome-transcripts">Source ↗</a><span>An independent reading archive of <a href="https://www.youtube.com/@GithubAwesome">GitHub Awesome</a>. Caption and editing errors may remain.</span></footer>
   <div class="cmd">
     <ol class="hits" id="hits" hidden></ol>
-    <form class="cmd-bar" role="search" onsubmit="return false"><label for="q">Find</label><input id="q" type="search" placeholder="Search ${ctx.projects.length} projects" autocomplete="off" enterkeyhint="search"><output id="n"></output></form>
+    <form class="cmd-bar" role="search" onsubmit="return false"><label for="q">Find</label><input id="q" type="search" placeholder="Search projects and transcripts" autocomplete="off" enterkeyhint="search"><output id="n"></output></form>
   </div>
 </div>`;
 
@@ -291,8 +305,8 @@ function library(ctx) {
     hits.hidden = term.length < 2;
     count.textContent = "";
     if (hits.hidden) return;
-    const found = ctx.projects.filter((p) =>
-      `${p.title} ${p.slug} ${p.text}`.toLowerCase().includes(term),
+    const found = ctx.sections.filter(
+      (p) => p.hay.includes(term) || p.video.hay.includes(term),
     );
     count.textContent = found.length;
     hits.innerHTML =
@@ -307,7 +321,7 @@ function library(ctx) {
           return `<li><a href="${route(p.video.id, p.id)}"><span class="h-m">${esc(heading(p.video.ep))} · ${tc(p.start)}</span><b>${esc(p.title)}</b><span class="h-s">${snip}</span></a></li>`;
         })
         .join("") ||
-      `<li class="none">No matching projects. Try another name or owner.</li>`;
+      `<li class="none">Nothing matches. Try another project, owner or phrase.</li>`;
   });
 }
 
@@ -318,13 +332,11 @@ async function reader(ctx, id) {
   if (!ctx.alive()) return;
   const meta = ctx.videos.find((v) => v.id === video.id);
   const ep = meta?.ep ?? episode(video.title);
-  const next = meta
-    ? (ctx.videos[ctx.videos.indexOf(meta) + 1] ?? ctx.videos[0])
-    : null;
+  const next = meta ? ctx.videos[ctx.videos.indexOf(meta) + 1] : null;
   const secs = video.sections;
   const chapters = secs.filter((s) => s.repositories.length);
   document.title = `${video.title} — GitHub Awesome, in writing`;
-  const name = (s) => (s.repositories.length ? s.title : "Introduction");
+  const name = (s) => s.title;
   const toc = secs
     .map(
       (s) =>
@@ -348,10 +360,10 @@ async function reader(ctx, id) {
       (
         s,
         i,
-      ) => `<section class="sec${s.repositories.length ? "" : " sec-intro"}" id="${esc(s.id)}" data-i="${i}">
+      ) => `<section class="sec${s.title === "Introduction" ? " sec-intro" : ""}" id="${esc(s.id)}" data-i="${i}">
       <header>
         <a class="tc" href="${watch(id, s.start)}" aria-label="Watch from ${time(s.start)}">▶ ${tc(s.start)}</a>
-        ${s.repositories.length ? `<h2>${esc(s.title)}</h2>` : ""}
+        ${s.title === "Introduction" ? "" : `<h2>${esc(s.title)}</h2>`}
         ${repos(s)
           .map(
             (u) =>
@@ -363,7 +375,7 @@ async function reader(ctx, id) {
     </section>`,
     )
     .join("")}
-    ${next && next !== meta ? `<a class="next" href="${route(next.id)}"><span class="label">Next episode</span><b>${esc(heading(next.ep))}</b><span>${minutes(next.word_count)} min read →</span></a>` : ""}
+    ${next ? `<a class="next" href="${route(next.id)}"><span class="label">Next episode</span><b>${esc(heading(next.ep))}</b><span>${minutes(next.word_count)} min read →</span></a>` : ""}
   </div>
   ${
     secs.length
@@ -376,13 +388,21 @@ async function reader(ctx, id) {
       : ""
   }
 </div>`;
-  if (!secs.length) return;
+  if (!secs.length) return null;
 
   const sections = [...root.querySelectorAll(".sec")],
     segs = [...root.querySelectorAll(".bar-dock i")],
     links = [...root.querySelectorAll(".toc a, .sheet a")],
     sheet = root.querySelector(".sheet");
-  let at = 0;
+  // After a jump, the observer would re-pick a neighbour of a short section or
+  // of one the page cannot scroll to the top, so it waits for the reader to scroll.
+  let at = 0,
+    held = false;
+  for (const type of ["wheel", "touchmove", "pointerdown", "keydown"])
+    addEventListener(type, () => (held = false), {
+      passive: true,
+      signal: ctx.signal,
+    });
   const show = (i) => {
     at = i;
     const s = secs[i];
@@ -395,6 +415,7 @@ async function reader(ctx, id) {
   };
   const io = new IntersectionObserver(
     (entries) => {
+      if (held) return;
       for (const e of entries)
         if (e.isIntersecting) show(Number(e.target.dataset.i));
     },
@@ -408,6 +429,7 @@ async function reader(ctx, id) {
     const k = Math.max(0, Math.min(secs.length - 1, i));
     sections[k].scrollIntoView({ block: "start" });
     show(k);
+    held = true;
     history.replaceState(null, "", route(id, secs[k].id));
   };
   root.addEventListener(
@@ -433,6 +455,10 @@ async function reader(ctx, id) {
   );
   sheet.addEventListener("click", (e) => e.target === sheet && sheet.close());
   show(0);
+  return (sectionId) => {
+    const i = secs.findIndex((s) => s.id === sectionId);
+    if (i >= 0) go(i);
+  };
 }
 
 async function render() {
@@ -451,20 +477,18 @@ async function render() {
     const section = path?.startsWith("/video/")
       ? new URLSearchParams(query).get("section")
       : null;
-    if (path?.startsWith("/video/")) await reader(ctx, path.slice(7));
-    else library(ctx);
+    const jump = path?.startsWith("/video/")
+      ? await reader(ctx, path.slice(7))
+      : library(ctx);
     // Web fonts shift layout, so deep links scroll again once they land.
     await document.fonts?.ready;
     if (!ctx.alive()) return;
-    const target =
-      section && /^s\d+$/.test(section) && document.getElementById(section);
-    if (target) {
-      target.scrollIntoView({ block: "start" });
-      document.fonts?.addEventListener(
-        "loadingdone",
-        () => target.scrollIntoView({ block: "start" }),
-        { once: true, signal: ctx.signal },
-      );
+    if (jump && section && document.getElementById(section)) {
+      jump(section);
+      document.fonts?.addEventListener("loadingdone", () => jump(section), {
+        once: true,
+        signal: ctx.signal,
+      });
     } else scrollTo(0, 0);
   } catch (error) {
     if (mine === generation)

@@ -2,12 +2,11 @@ import json
 import os
 import re
 import time
-import urllib.error
 import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 
-from archive.storage import read_json, write_json
+from archive.storage import read_json, write_text
 
 root = Path(__file__).resolve().parents[1] / "data"
 token = os.environ.get("GITHUB_TOKEN")
@@ -46,6 +45,10 @@ for start in range(0, len(slugs), 40):
         for i, (owner, name) in enumerate(slug.split("/") for slug in batch)
     )
     _, result = request("https://api.github.com/graphql", {"query": f"{{{fields}}}"})
+    # Missing repositories come back as NOT_FOUND; anything else would leave a
+    # partial snapshot, so stop before writing.
+    if errors := [e for e in result.get("errors", []) if e.get("type") != "NOT_FOUND"]:
+        raise SystemExit(f"GitHub GraphQL failed: {errors[0].get('message')}")
     for i, slug in enumerate(batch):
         if repo := (result.get("data") or {}).get(f"r{i}"):
             repositories[slug] = {
@@ -59,17 +62,15 @@ for start in range(0, len(slugs), 40):
             }
 
 # GitHub answers 202 while it computes commit activity; retry those repos.
+# An empty repository answers 204, which leaves weeks as None.
 waiting = list(repositories)
-for attempt in range(6):
+for attempt in range(10):
     if attempt:
-        time.sleep(5)
+        time.sleep(10)
     retry = []
     for slug in waiting:
         url = f"https://api.github.com/repos/{repositories[slug]['name']}/stats/commit_activity"
-        try:
-            status, weeks = request(url)
-        except urllib.error.HTTPError:
-            continue
+        status, weeks = request(url)
         if status == 202:
             retry.append(slug)
         elif isinstance(weeks, list):
@@ -77,13 +78,25 @@ for attempt in range(6):
     waiting = retry
     if not waiting:
         break
+else:
+    # Some repositories stay at 202 for hours; keep their last known activity.
+    previous = read_json(root / "github.json", {}).get("repositories", {})
+    for slug in waiting:
+        repositories[slug]["weeks"] = (previous.get(slug) or {}).get("weeks")
+    print(f"Kept previous activity for {len(waiting)} still computing: {', '.join(waiting)}")
 
-write_json(
+# Compact, because the reader downloads this before its first render.
+write_text(
     root / "github.json",
-    {
-        "fetched": datetime.now(UTC).isoformat(timespec="seconds"),
-        "repositories": repositories,
-    },
+    json.dumps(
+        {
+            "fetched": datetime.now(UTC).isoformat(timespec="seconds"),
+            "repositories": repositories,
+        },
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
+    + "\n",
 )
 print(
     f"{len(repositories)} of {len(slugs)} repositories, "

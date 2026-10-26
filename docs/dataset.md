@@ -43,7 +43,9 @@ redirect tokens and player URLs are excluded from stored metadata.
 
 `github.json` keys repositories by `owner/name`, without a `.git` suffix.
 Repositories GitHub could not resolve are absent, and `weeks` is `null` when
-GitHub returned no commit activity. Counts are as of `fetched`.
+GitHub returned no commit activity. When GitHub is still computing a
+repository's activity, the refresh keeps that repository's previous `weeks`.
+Counts are as of `fetched`.
 
 The static build copies source data and adds these derived endpoints:
 
