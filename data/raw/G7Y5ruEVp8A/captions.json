@@ -1,0 +1,1593 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're looking back at 35 popular projects from June and checking which ones developers actually got excited"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "about last month. Let's get into it."
+    },
+    {
+      "timestamp": "0:13",
+      "text": "AI coding agents love turning a two-line fix into a small software architecture seminar. Ponytail is a plugin that teaches them to stop earlier, reuse what"
+    },
+    {
+      "timestamp": "0:22",
+      "text": "exists, use the platform, and only write new code when the smaller answer actually fails. The maintainers report"
+    },
+    {
+      "timestamp": "0:28",
+      "text": "about 54% less code, 20% lower cost, and 27% faster runs on their agentic benchmark. The punchline is simple. Lazy"
+    },
+    {
+      "timestamp": "0:38",
+      "text": "solution, not lazy review. BU's unlimited OCR is a document model built to read a long multi-page file in one"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "shot without choking partway. It extends DeepSeek OCR's trick of treating the page as an image and adds a no repeat"
+    },
+    {
+      "timestamp": "0:54",
+      "text": "engram processor so it stops looping on long stretches of text. The readme is heavy on error defining language and light on actual numbers. So read the"
+    },
+    {
+      "timestamp": "1:02",
+      "text": "paper before you trust the leap past deepseek."
+    },
+    {
+      "timestamp": "1:07",
+      "text": "Every terminal coding agent eventually hits the same wall. It forgets why yesterday's decision mattered. My code"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "is Xiaomi's fork of open code built around longer running agent work. It keeps cross- session memory in SQLite, checkpointing project state and"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "rebuilding context when it runs low so it doesn't relearn your codebase each time. Set a goal and a separate judge"
+    },
+    {
+      "timestamp": "1:30",
+      "text": "model has to agree it's truly met before the agent stops."
+    },
+    {
+      "timestamp": "1:34",
+      "text": "The expensive part of coding agents is often the thinking, not the typing."
+    },
+    {
+      "timestamp": "1:39",
+      "text": "Improve leans into that. It's an agent skill that uses your strongest model to audit a codebase, rank findings, and write self-contained implementation"
+    },
+    {
+      "timestamp": "1:47",
+      "text": "plans for cheaper agents or humans to execute. The plans include file paths, code excerpts, verification commands, stop conditions, and drift checks."
+    },
+    {
+      "timestamp": "1:58",
+      "text": "Everyone argues clawed code versus codecs versus cursor. Omnigent runs all of them under one layer so you stop"
+    },
+    {
+      "timestamp": "2:05",
+      "text": "choosing a meta harness. Mix agents in a session. Swap harnesses without rewriting. Have one vendor's agent"
+    },
+    {
+      "timestamp": "2:12",
+      "text": "review another's diff. Policies pause before risky shell commands. Cap spend and sandbox each agent at the OS level."
+    },
+    {
+      "timestamp": "2:19",
+      "text": "Sessions follow you from terminal to phone."
+    },
+    {
+      "timestamp": "2:23",
+      "text": "Making Lahi by hand is where motion design meets JSON pain. Text to gives coding agents a proper workspace for"
+    },
+    {
+      "timestamp": "2:30",
+      "text": "generating animations from prompts, SVGs, screenshots, or real data. The agent writes the Lah scene and the"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "included player live updates from the project folder so you can inspect, scrub, and refine it while it changes."
+    },
+    {
+      "timestamp": "2:45",
+      "text": "Prompting a coding agent once is easy."
+    },
+    {
+      "timestamp": "2:48",
+      "text": "Keeping it useful every day is the hard part. Loop engineering is a reference kit for designing the system around the agent. Schedules, state files, work"
+    },
+    {
+      "timestamp": "2:56",
+      "text": "trees, skills, sub aents, MCP connectors, and human gates. It includes seven production loop patterns, starter"
+    },
+    {
+      "timestamp": "3:04",
+      "text": "templates for tools like codecs and claw code, plus CLI for auditing readiness, scaffolding loops, and estimating token cost."
+    },
+    {
+      "timestamp": "3:13",
+      "text": "Speculative decoding sounds simple. Let a small draft model guess tokens, then have the big model verify them. Deepspec is Deepseek's full stack for training"
+    },
+    {
+      "timestamp": "3:22",
+      "text": "and testing those draft models. It covers data prep, target cache generation, training, and evaluation across benchmarks like Humane Evil,"
+    },
+    {
+      "timestamp": "3:30",
+      "text": "MBPP, GSM8K, Math 500, AIM25, and MTBench."
+    },
+    {
+      "timestamp": "3:36",
+      "text": "Agent frameworks get weird when the important stuff lives inside code nobody wants to inspect. Eve goes file system"
+    },
+    {
+      "timestamp": "3:43",
+      "text": "first. Prompts, tools, skills, channels, and schedules sit in plain project folders. You can scaffold a new agent"
+    },
+    {
+      "timestamp": "3:50",
+      "text": "with one command. Wire type tools with Zod. Choose the model in config and run everything through an interactive terminal UI."
+    },
+    {
+      "timestamp": "3:59",
+      "text": "Agent skills are useful until they turn into a pile of one-off prompt hacks."
+    },
+    {
+      "timestamp": "4:03",
+      "text": "Builder IO's skills is a small catalog for the parts where agents usually need better judgment. Visual planning, visual"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "PR recaps, watchdog reviews, plan arbitration, docs checks, and staying within usage limits. The installer can"
+    },
+    {
+      "timestamp": "4:17",
+      "text": "target shared agent folders, clawed code, managed instruction blocks, and even a PR action."
+    },
+    {
+      "timestamp": "4:24",
+      "text": "Chat GPT can reason about code, but it usually can't touch your real repo, terminal, or test suite. Devspace fills that gap with a self-hosted MCP server"
+    },
+    {
+      "timestamp": "4:33",
+      "text": "for local projects. You choose the allowed folders, expose it through your own tunnel, approve access with an owner password. Then chat GPT can read files,"
+    },
+    {
+      "timestamp": "4:42",
+      "text": "make scoped edits, search code, run commands, use work trees, and follow your agents.m MD instructions."
+    },
+    {
+      "timestamp": "4:50",
+      "text": "Save a web page, open it months later, find a blank screen or dead spinner. It was never yours, just a shell for someone else's JavaScript. Cage renders"
+    },
+    {
+      "timestamp": "4:59",
+      "text": "it in real headless Chrome, snapshots the DOM, strips every script, pulls the assets local. What lands on disk looks"
+    },
+    {
+      "timestamp": "5:06",
+      "text": "live and runs no code. Pack it into one zim. The open kwix format or an executable that is the site"
+    },
+    {
+      "timestamp": "5:14",
+      "text": "bun and deno made node feel slow but switching means a new runtime and its lockin nub keeps node wraps it in rust"
+    },
+    {
+      "timestamp": "5:22",
+      "text": "and bolts the good parts on top one tool runs your typescript with no build step and replaces npm npx nvm nodemon the"
+    },
+    {
+      "timestamp": "5:30",
+      "text": "rust runners have no JavaScript startup so their benchmark clocks a script in 15 milliseconds where pnpm needs over 400"
+    },
+    {
+      "timestamp": "5:38",
+      "text": "keep improving This is a great way to make an agent wander. Loopy turns repeatable agent work into bounded loops. Find the next action, check"
+    },
+    {
+      "timestamp": "5:47",
+      "text": "whether it helped, decide what to do next, and stop for a real reason. The repo includes the loop library website, plus an installable loopy skill for"
+    },
+    {
+      "timestamp": "5:56",
+      "text": "codecs, cursor, and clawed code. It can discover loops, adapt them, run bounded passes, debrief receipts, and prepare publication drafts."
+    },
+    {
+      "timestamp": "6:06",
+      "text": "Security reviews by coding agents are easy to make noisy. Cloudflare's security audit skill tries to make them harder to fake. It runs a six-phase"
+    },
+    {
+      "timestamp": "6:15",
+      "text": "audit. Recon, hunting, validation, reporting, structured JSON output, and independent verification by fresh agents. The useful constraint is"
+    },
+    {
+      "timestamp": "6:24",
+      "text": "adversarial review. The agent that finds a bug doesn't get to grade its own homework."
+    },
+    {
+      "timestamp": "6:30",
+      "text": "In June, attackers forged commits to hijack orphaned Arch user repository packages, slipping one install line into hundreds of pkg builds. That line pulled"
+    },
+    {
+      "timestamp": "6:39",
+      "text": "an npm package, dropping a credential stealer and a self-hiding EPF root kit."
+    },
+    {
+      "timestamp": "6:45",
+      "text": "This repo is the cleanup kit. It gathers the scattered scripts and 588 flagged packages, then checks your packages,"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "Pac-Man log, and npm caches against them. Joy Echo is an open- source audiovisisual pipeline designed to"
+    },
+    {
+      "timestamp": "6:59",
+      "text": "generate continuous multi-shot stories up to 5 minutes long. Instead of throwing away context, its memory bank"
+    },
+    {
+      "timestamp": "7:06",
+      "text": "tracks character identity and voice timber across different shots. The team clocks a 7.5 times inference speed up"
+    },
+    {
+      "timestamp": "7:14",
+      "text": "using distillation, though you'll need a hefty GPU locally."
+    },
+    {
+      "timestamp": "7:20",
+      "text": "If you have five different menu bar utilities eating up your max RAM, check this out. Vorsight is a native Swift toolkit that consolidates your daily"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "tools into one open- source app. It replaces several paid apps with a per app volume mixer, a system monitor, a floating shelf, and an uninstaller."
+    },
+    {
+      "timestamp": "7:38",
+      "text": "Since it's native Swift UI instead of Electron, it uses virtually no resources."
+    },
+    {
+      "timestamp": "7:44",
+      "text": "If you're tired of robot vacuums sending floor plans to corporate servers, Umu is an entirely open-source cloud-free"
+    },
+    {
+      "timestamp": "7:51",
+      "text": "reference design. It runs ROSS 2 on a Raspberry Pi or ESP32, combining 3D printed parts with"
+    },
+    {
+      "timestamp": "7:58",
+      "text": "off-the-shelf LAR for local slam mapping. It's early, but everything from the 3D files to the motor PCBs is being"
+    },
+    {
+      "timestamp": "8:05",
+      "text": "built in public. It might be time to print your own. Markdown is great until your knowledge base becomes a folder"
+    },
+    {
+      "timestamp": "8:12",
+      "text": "nobody wants to edit. Open Knowledge gives those files a real workspace."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "Wizzywig editing, Mac OS app, local web UI, file search, tabs, graph links, and rich MDX style components. It wires up"
+    },
+    {
+      "timestamp": "8:25",
+      "text": "MCP, skills, and search for clawed codecs, cursor, so your docs can become the agents working memory instead of another stale wiki."
+    },
+    {
+      "timestamp": "8:34",
+      "text": "Coding agents can write features fast, then quietly break checkout. Test sprite key puts the verification loop in the"
+    },
+    {
+      "timestamp": "8:41",
+      "text": "terminal. Your agent can create a front-end or backend test, run it against the live app, pull one self-consistent failure bundle, fix the"
+    },
+    {
+      "timestamp": "8:49",
+      "text": "code, and rerun until it passes. It also installs skills for codecs, clawed cursor, and others, so the agent learns"
+    },
+    {
+      "timestamp": "8:56",
+      "text": "the testing workflow instead of guessing."
+    },
+    {
+      "timestamp": "9:00",
+      "text": "Most privacy warnings are abstract until you see the actual values your phone hands over. Loop is an iOS and iPad OS"
+    },
+    {
+      "timestamp": "9:07",
+      "text": "app that turns device fingerprinting into something you can inspect. It reads public Apple APIs, then shows passive"
+    },
+    {
+      "timestamp": "9:14",
+      "text": "signals, permission gated data, and side channel tricks like URL scheme probing or keychain persistence. Nothing leaves the device unless you export it."
+    },
+    {
+      "timestamp": "9:24",
+      "text": "Logo animation sounds fun until you're matching a fuzzy PNG against a clean vector and every wobble shows. Pixel to Motion turns that into a codeex and"
+    },
+    {
+      "timestamp": "9:33",
+      "text": "claude skill. It reconstructs raster logos into motion ready SVG, authors the animation, then exports HTML demos, GIF"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "or video previews, motion specs, frame captures, and QA evidence. The useful bit is the discipline. Final frame"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "vector fit first, motion second, proof before polish."
+    },
+    {
+      "timestamp": "9:52",
+      "text": "Ondevice AI on Apple platforms usually means three separate problems. Exporting the model, making it behave, and"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "actually shipping it in an app. Core AI models gives you Apple's reference path for that whole loop. It has export recipes for popular open models, Python"
+    },
+    {
+      "timestamp": "10:08",
+      "text": "primitives for custom PyTorch authoring, Swift runtime utilities for Mac OS and iOS, command line runners, and agent"
+    },
+    {
+      "timestamp": "10:16",
+      "text": "skills for core AI workflows, compression and model authoring."
+    },
+    {
+      "timestamp": "10:21",
+      "text": "Agent generated docs usually become markdown walls or tiny mermaid boxes."
+    },
+    {
+      "timestamp": "10:25",
+      "text": "Effective HTML pushes agents toward visual artifacts that feel designed."
+    },
+    {
+      "timestamp": "10:29",
+      "text": "full screen HTML pages, architecture diagrams, stack maps, and implementation plans with SVG first layouts. It ships"
+    },
+    {
+      "timestamp": "10:37",
+      "text": "three skills: HTML, HTML diagram, and HTML plan, plus local reference examples, so smaller models can copy the style without guessing."
+    },
+    {
+      "timestamp": "10:47",
+      "text": "Running a popular open-source project usually means dealing with coordinated spam or hostile issue campaigns that'll"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "quickly drain your energy. Newbie Guard is an open-source repository defense system that uses LLMs to detect and flag"
+    },
+    {
+      "timestamp": "11:01",
+      "text": "repository abuse. It scans incoming issues and comments detailing its reasoning and AI confidence scores for"
+    },
+    {
+      "timestamp": "11:09",
+      "text": "every flagged item, so you don't have to monitor everything manually."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "Smartome stacks are great until every device still waits for button presses."
+    },
+    {
+      "timestamp": "11:19",
+      "text": "is an open-source agent OS that uses an LLM powered brain to run your smart home dynamically. It discovers local devices and tracks their state entirely offline."
+    },
+    {
+      "timestamp": "11:30",
+      "text": "It interprets your environment to plan actions on the fly, ensuring your habit data doesn't leave your home network."
+    },
+    {
+      "timestamp": "11:37",
+      "text": "Most agent runs vanish into terminal scrollback, which is a waste."
+    },
+    {
+      "timestamp": "11:42",
+      "text": "Agent apprenticeship is an open- source ecosystem that lets agents run automated workflow loops and convert each execution into reusable experience."
+    },
+    {
+      "timestamp": "11:51",
+      "text": "Apprentice agents cooperate with human mentors to solve tasks, generating training signals from successes and failures to recursively improve future models."
+    },
+    {
+      "timestamp": "12:01",
+      "text": "Agents go sideways when the repo has rules, but the rules live in someone's head. Docs is a tiny agents.mmd framework for making that context"
+    },
+    {
+      "timestamp": "12:10",
+      "text": "self-maintaining. The root file holds projectwide instructions and an index, while child agents.mmd files describe"
+    },
+    {
+      "timestamp": "12:17",
+      "text": "local areas. Before editing, the agent walks the tree, reads the relevant docs, makes the change, then updates the docs"
+    },
+    {
+      "timestamp": "12:24",
+      "text": "after meaningful work. Chat GPT can reason about your code, but getting it safely into your actual repo is the"
+    },
+    {
+      "timestamp": "12:31",
+      "text": "awkward part. Codex Pro is a local MCP bridge that turns chat GPT developer mode into a bounded coding agent for one"
+    },
+    {
+      "timestamp": "12:38",
+      "text": "workspace. It exposes repo context, file reads, exact edits, search, git diffs, safe verification commands, agents.mmd,"
+    },
+    {
+      "timestamp": "12:47",
+      "text": "and handoff files. It doesn't proxy models or bypass limits. It just connects your own session to your own repo. Your CN helper looks harmless"
+    },
+    {
+      "timestamp": "12:56",
+      "text": "until it runs across every row, card, and rerender in a Tailwind app. CNFast is a drop-in replacement for the usual"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "CLSX plus Tailwind merge setup with the same API and bite identical output. The maintainers report a 3.8x geometric mean"
+    },
+    {
+      "timestamp": "13:11",
+      "text": "speed up across 65 workloads, zero mismatches over 113,291 real world call groups, and tagged"
+    },
+    {
+      "timestamp": "13:19",
+      "text": "templates that cache repeated call sites."
+    },
+    {
+      "timestamp": "13:22",
+      "text": "Early game animation has a painful middle step. You can generate an image, but you still need clean frames, scene"
+    },
+    {
+      "timestamp": "13:29",
+      "text": "placement, metadata, and a preview that tells you if it works. Gorus turns that into a codeexass assisted 2D asset"
+    },
+    {
+      "timestamp": "13:36",
+      "text": "workspace. It can generate or import 12 frame and 16 frame sprite sheets, composite them into scenes, tune"
+    },
+    {
+      "timestamp": "13:44",
+      "text": "triggers and game states, then preview the result as a playable sidescroller."
+    },
+    {
+      "timestamp": "13:49",
+      "text": "Agent written code usually fails in the same boring ways. Fake APIs, useless tests, overbuilt abstractions, and docs that promise things the code never does."
+    },
+    {
+      "timestamp": "13:59",
+      "text": "Guard skills gives agents second pass review gates instead of more vibes. It includes clean code, test, docs, WordPress, and Woo Commerce guards, all"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "as inspectable markdown skills. Let the agent build, then run the guard before you commit."
+    },
+    {
+      "timestamp": "14:14",
+      "text": "Updating small UI text like metrics or timers with sudden value jumps feels jarring and looks completely unpolished."
+    },
+    {
+      "timestamp": "14:22",
+      "text": "Slot text is an open- source dependencyfree roll animation library for vanilla JS or React. Instead of abrupt shifts, it rolls characters in"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "and out with a smooth, tactile slot machine effect. It is extremely lightweight and prevents layout shifts so your surrounding design doesn't shake."
+    },
+    {
+      "timestamp": "14:41",
+      "text": "Most agent IDEs optimize for output, then leave you guessing what actually happened. ORG2 is a local first cursor style desktop IDE built around"
+    },
+    {
+      "timestamp": "14:50",
+      "text": "reviewability. It runs on Rust and Tori, stays under a 100 megabytes on disk, and supports replayable agent traces, longunning sessions, shared workspace,"
+    },
+    {
+      "timestamp": "14:58",
+      "text": "state, git, terminal, browser, lsp, timelines, scheduling, and cross- session memory."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're looking back at 35 popular projects from June and checking which ones developers actually got excited"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about last month. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI coding agents love turning a two-line fix into a small software architecture seminar. Ponytail is a plugin that teaches them to stop earlier, reuse what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exists, use the platform, and only write new code when the smaller answer actually fails. The maintainers report"
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about 54% less code, 20% lower cost, and 27% faster runs on their agentic benchmark. The punchline is simple. Lazy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "solution, not lazy review. BU's unlimited OCR is a document model built to read a long multi-page file in one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shot without choking partway. It extends DeepSeek OCR's trick of treating the page as an image and adds a no repeat"
+        }
+      ]
+    },
+    {
+      "tStartMs": 54000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engram processor so it stops looping on long stretches of text. The readme is heavy on error defining language and light on actual numbers. So read the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "paper before you trust the leap past deepseek."
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every terminal coding agent eventually hits the same wall. It forgets why yesterday's decision mattered. My code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is Xiaomi's fork of open code built around longer running agent work. It keeps cross- session memory in SQLite, checkpointing project state and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rebuilding context when it runs low so it doesn't relearn your codebase each time. Set a goal and a separate judge"
+        }
+      ]
+    },
+    {
+      "tStartMs": 90000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model has to agree it's truly met before the agent stops."
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The expensive part of coding agents is often the thinking, not the typing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Improve leans into that. It's an agent skill that uses your strongest model to audit a codebase, rank findings, and write self-contained implementation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plans for cheaper agents or humans to execute. The plans include file paths, code excerpts, verification commands, stop conditions, and drift checks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everyone argues clawed code versus codecs versus cursor. Omnigent runs all of them under one layer so you stop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 125000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "choosing a meta harness. Mix agents in a session. Swap harnesses without rewriting. Have one vendor's agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 132000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "review another's diff. Policies pause before risky shell commands. Cap spend and sandbox each agent at the OS level."
+        }
+      ]
+    },
+    {
+      "tStartMs": 139000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sessions follow you from terminal to phone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Making Lahi by hand is where motion design meets JSON pain. Text to gives coding agents a proper workspace for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generating animations from prompts, SVGs, screenshots, or real data. The agent writes the Lah scene and the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "included player live updates from the project folder so you can inspect, scrub, and refine it while it changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Prompting a coding agent once is easy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Keeping it useful every day is the hard part. Loop engineering is a reference kit for designing the system around the agent. Schedules, state files, work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trees, skills, sub aents, MCP connectors, and human gates. It includes seven production loop patterns, starter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "templates for tools like codecs and claw code, plus CLI for auditing readiness, scaffolding loops, and estimating token cost."
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Speculative decoding sounds simple. Let a small draft model guess tokens, then have the big model verify them. Deepspec is Deepseek's full stack for training"
+        }
+      ]
+    },
+    {
+      "tStartMs": 202000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and testing those draft models. It covers data prep, target cache generation, training, and evaluation across benchmarks like Humane Evil,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MBPP, GSM8K, Math 500, AIM25, and MTBench."
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent frameworks get weird when the important stuff lives inside code nobody wants to inspect. Eve goes file system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 223000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "first. Prompts, tools, skills, channels, and schedules sit in plain project folders. You can scaffold a new agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with one command. Wire type tools with Zod. Choose the model in config and run everything through an interactive terminal UI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent skills are useful until they turn into a pile of one-off prompt hacks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Builder IO's skills is a small catalog for the parts where agents usually need better judgment. Visual planning, visual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PR recaps, watchdog reviews, plan arbitration, docs checks, and staying within usage limits. The installer can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "target shared agent folders, clawed code, managed instruction blocks, and even a PR action."
+        }
+      ]
+    },
+    {
+      "tStartMs": 264000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chat GPT can reason about code, but it usually can't touch your real repo, terminal, or test suite. Devspace fills that gap with a self-hosted MCP server"
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for local projects. You choose the allowed folders, expose it through your own tunnel, approve access with an owner password. Then chat GPT can read files,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "make scoped edits, search code, run commands, use work trees, and follow your agents.m MD instructions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Save a web page, open it months later, find a blank screen or dead spinner. It was never yours, just a shell for someone else's JavaScript. Cage renders"
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it in real headless Chrome, snapshots the DOM, strips every script, pulls the assets local. What lands on disk looks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 306000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live and runs no code. Pack it into one zim. The open kwix format or an executable that is the site"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bun and deno made node feel slow but switching means a new runtime and its lockin nub keeps node wraps it in rust"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and bolts the good parts on top one tool runs your typescript with no build step and replaces npm npx nvm nodemon the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rust runners have no JavaScript startup so their benchmark clocks a script in 15 milliseconds where pnpm needs over 400"
+        }
+      ]
+    },
+    {
+      "tStartMs": 338000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keep improving This is a great way to make an agent wander. Loopy turns repeatable agent work into bounded loops. Find the next action, check"
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "whether it helped, decide what to do next, and stop for a real reason. The repo includes the loop library website, plus an installable loopy skill for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "codecs, cursor, and clawed code. It can discover loops, adapt them, run bounded passes, debrief receipts, and prepare publication drafts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Security reviews by coding agents are easy to make noisy. Cloudflare's security audit skill tries to make them harder to fake. It runs a six-phase"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "audit. Recon, hunting, validation, reporting, structured JSON output, and independent verification by fresh agents. The useful constraint is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 384000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adversarial review. The agent that finds a bug doesn't get to grade its own homework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 390000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "In June, attackers forged commits to hijack orphaned Arch user repository packages, slipping one install line into hundreds of pkg builds. That line pulled"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an npm package, dropping a credential stealer and a self-hiding EPF root kit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 405000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This repo is the cleanup kit. It gathers the scattered scripts and 588 flagged packages, then checks your packages,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pac-Man log, and npm caches against them. Joy Echo is an open- source audiovisisual pipeline designed to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 419000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generate continuous multi-shot stories up to 5 minutes long. Instead of throwing away context, its memory bank"
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tracks character identity and voice timber across different shots. The team clocks a 7.5 times inference speed up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "using distillation, though you'll need a hefty GPU locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you have five different menu bar utilities eating up your max RAM, check this out. Vorsight is a native Swift toolkit that consolidates your daily"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tools into one open- source app. It replaces several paid apps with a per app volume mixer, a system monitor, a floating shelf, and an uninstaller."
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Since it's native Swift UI instead of Electron, it uses virtually no resources."
+        }
+      ]
+    },
+    {
+      "tStartMs": 464000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're tired of robot vacuums sending floor plans to corporate servers, Umu is an entirely open-source cloud-free"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reference design. It runs ROSS 2 on a Raspberry Pi or ESP32, combining 3D printed parts with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "off-the-shelf LAR for local slam mapping. It's early, but everything from the 3D files to the motor PCBs is being"
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built in public. It might be time to print your own. Markdown is great until your knowledge base becomes a folder"
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nobody wants to edit. Open Knowledge gives those files a real workspace."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wizzywig editing, Mac OS app, local web UI, file search, tabs, graph links, and rich MDX style components. It wires up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP, skills, and search for clawed codecs, cursor, so your docs can become the agents working memory instead of another stale wiki."
+        }
+      ]
+    },
+    {
+      "tStartMs": 514000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coding agents can write features fast, then quietly break checkout. Test sprite key puts the verification loop in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal. Your agent can create a front-end or backend test, run it against the live app, pull one self-consistent failure bundle, fix the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 529000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code, and rerun until it passes. It also installs skills for codecs, clawed cursor, and others, so the agent learns"
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the testing workflow instead of guessing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most privacy warnings are abstract until you see the actual values your phone hands over. Loop is an iOS and iPad OS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "app that turns device fingerprinting into something you can inspect. It reads public Apple APIs, then shows passive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "signals, permission gated data, and side channel tricks like URL scheme probing or keychain persistence. Nothing leaves the device unless you export it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Logo animation sounds fun until you're matching a fuzzy PNG against a clean vector and every wobble shows. Pixel to Motion turns that into a codeex and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 573000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "claude skill. It reconstructs raster logos into motion ready SVG, authors the animation, then exports HTML demos, GIF"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or video previews, motion specs, frame captures, and QA evidence. The useful bit is the discipline. Final frame"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "vector fit first, motion second, proof before polish."
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ondevice AI on Apple platforms usually means three separate problems. Exporting the model, making it behave, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually shipping it in an app. Core AI models gives you Apple's reference path for that whole loop. It has export recipes for popular open models, Python"
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "primitives for custom PyTorch authoring, Swift runtime utilities for Mac OS and iOS, command line runners, and agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skills for core AI workflows, compression and model authoring."
+        }
+      ]
+    },
+    {
+      "tStartMs": 621000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent generated docs usually become markdown walls or tiny mermaid boxes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Effective HTML pushes agents toward visual artifacts that feel designed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full screen HTML pages, architecture diagrams, stack maps, and implementation plans with SVG first layouts. It ships"
+        }
+      ]
+    },
+    {
+      "tStartMs": 637000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three skills: HTML, HTML diagram, and HTML plan, plus local reference examples, so smaller models can copy the style without guessing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running a popular open-source project usually means dealing with coordinated spam or hostile issue campaigns that'll"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "quickly drain your energy. Newbie Guard is an open-source repository defense system that uses LLMs to detect and flag"
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "repository abuse. It scans incoming issues and comments detailing its reasoning and AI confidence scores for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 669000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "every flagged item, so you don't have to monitor everything manually."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Smartome stacks are great until every device still waits for button presses."
+        }
+      ]
+    },
+    {
+      "tStartMs": 679000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is an open-source agent OS that uses an LLM powered brain to run your smart home dynamically. It discovers local devices and tracks their state entirely offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It interprets your environment to plan actions on the fly, ensuring your habit data doesn't leave your home network."
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most agent runs vanish into terminal scrollback, which is a waste."
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent apprenticeship is an open- source ecosystem that lets agents run automated workflow loops and convert each execution into reusable experience."
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apprentice agents cooperate with human mentors to solve tasks, generating training signals from successes and failures to recursively improve future models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agents go sideways when the repo has rules, but the rules live in someone's head. Docs is a tiny agents.mmd framework for making that context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 730000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "self-maintaining. The root file holds projectwide instructions and an index, while child agents.mmd files describe"
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local areas. Before editing, the agent walks the tree, reads the relevant docs, makes the change, then updates the docs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "after meaningful work. Chat GPT can reason about your code, but getting it safely into your actual repo is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 751000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "awkward part. Codex Pro is a local MCP bridge that turns chat GPT developer mode into a bounded coding agent for one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workspace. It exposes repo context, file reads, exact edits, search, git diffs, safe verification commands, agents.mmd,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and handoff files. It doesn't proxy models or bypass limits. It just connects your own session to your own repo. Your CN helper looks harmless"
+        }
+      ]
+    },
+    {
+      "tStartMs": 776000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "until it runs across every row, card, and rerender in a Tailwind app. CNFast is a drop-in replacement for the usual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CLSX plus Tailwind merge setup with the same API and bite identical output. The maintainers report a 3.8x geometric mean"
+        }
+      ]
+    },
+    {
+      "tStartMs": 791000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "speed up across 65 workloads, zero mismatches over 113,291 real world call groups, and tagged"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "templates that cache repeated call sites."
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Early game animation has a painful middle step. You can generate an image, but you still need clean frames, scene"
+        }
+      ]
+    },
+    {
+      "tStartMs": 809000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "placement, metadata, and a preview that tells you if it works. Gorus turns that into a codeexass assisted 2D asset"
+        }
+      ]
+    },
+    {
+      "tStartMs": 816000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workspace. It can generate or import 12 frame and 16 frame sprite sheets, composite them into scenes, tune"
+        }
+      ]
+    },
+    {
+      "tStartMs": 824000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "triggers and game states, then preview the result as a playable sidescroller."
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent written code usually fails in the same boring ways. Fake APIs, useless tests, overbuilt abstractions, and docs that promise things the code never does."
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Guard skills gives agents second pass review gates instead of more vibes. It includes clean code, test, docs, WordPress, and Woo Commerce guards, all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as inspectable markdown skills. Let the agent build, then run the guard before you commit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Updating small UI text like metrics or timers with sudden value jumps feels jarring and looks completely unpolished."
+        }
+      ]
+    },
+    {
+      "tStartMs": 862000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Slot text is an open- source dependencyfree roll animation library for vanilla JS or React. Instead of abrupt shifts, it rolls characters in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and out with a smooth, tactile slot machine effect. It is extremely lightweight and prevents layout shifts so your surrounding design doesn't shake."
+        }
+      ]
+    },
+    {
+      "tStartMs": 881000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most agent IDEs optimize for output, then leave you guessing what actually happened. ORG2 is a local first cursor style desktop IDE built around"
+        }
+      ]
+    },
+    {
+      "tStartMs": 890000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reviewability. It runs on Rust and Tori, stays under a 100 megabytes on disk, and supports replayable agent traces, longunning sessions, shared workspace,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 898000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "state, git, terminal, browser, lsp, timelines, scheduling, and cross- session memory."
+        }
+      ]
+    }
+  ]
+}

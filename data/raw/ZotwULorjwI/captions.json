@@ -1,0 +1,1632 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 39. 35 trending open- source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "This is David Andre's own personal agent skill stack opened up. The workflows he actually runs, not a demo set. Most"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "skill repos give you a narrow slice, coding only or research only. This spans his whole day. one folder for orchestrating and scheduling other"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "agents, one for authoring new skills, plus research, structured thinking, and machine setup. Each skill is a single"
+    },
+    {
+      "timestamp": "0:34",
+      "text": "skill MD. The agent loads only when the task calls for it. Codebased memory MCP gives your coding agent a map of your"
+    },
+    {
+      "timestamp": "0:42",
+      "text": "repo instead of making it GP the same files over and over. Every what calls this function turn usually burns a pile of tokens on fileby file exploration."
+    },
+    {
+      "timestamp": "0:53",
+      "text": "This indexes the whole codebase into a queryable knowledge graph first. So one graph query replaces dozens of read cycles. The author benchmarks the Linux"
+    },
+    {
+      "timestamp": "1:02",
+      "text": "kernel fully indexed in 3 minutes and a 99% token cut on structural questions."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "Cardier listens to a recording of your engine and tells you roughly and it's honest enough to say uncertain instead"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "of bluffing. Describing a weird noise to a mechanic over the phone almost never lands right. This cleans the mechanical"
+    },
+    {
+      "timestamp": "1:24",
+      "text": "sound out of a noisy phone clip, embeds it with a frozen clap model, and returns a ranked short list. Is something wrong?"
+    },
+    {
+      "timestamp": "1:32",
+      "text": "Where in the car? Which part?"
+    },
+    {
+      "timestamp": "1:35",
+      "text": "Dory is a native Mac app for Docker that runs every container in one shared VM instead of spinning up a separate one"
+    },
+    {
+      "timestamp": "1:42",
+      "text": "per container. Docker Desktop and per container setups quietly eat gigabytes of idle RAM just sitting there. On the"
+    },
+    {
+      "timestamp": "1:49",
+      "text": "author's own benchmark, two containers use around 122 megabytes against 574, and the gap grows from there."
+    },
+    {
+      "timestamp": "1:58",
+      "text": "Silicon scope shows you the Apple silicon numbers, activity monitor hides, neural engine load, and memory bandwidth. When your"
+    },
+    {
+      "timestamp": "2:07",
+      "text": "local LLM slows down, activity monitor just shows GPU percent, not whether you're actually bandwidth bound, computebound, or thermal throttling."
+    },
+    {
+      "timestamp": "2:16",
+      "text": "This classifies the bottleneck for you, catches the exact moment the GPU throttles under sustained load, and lives in your menu bar as a six bar glyph across every engine."
+    },
+    {
+      "timestamp": "2:26",
+      "text": "Clar audits a command line tool, the way an agent would first meet it, then hands over a map so the agent stops guessing."
+    },
+    {
+      "timestamp": "2:33",
+      "text": "Point a coding agent at an unfamiliar CLI and it burns tokens, rediscovering the surface. Run help, guess a flag, hit"
+    },
+    {
+      "timestamp": "2:41",
+      "text": "a missing operand, back up, retry. This probes the real binary as a black box, records what actually exists, which"
+    },
+    {
+      "timestamp": "2:49",
+      "text": "commands emit parsible JSON, and which safe ones quietly write files."
+    },
+    {
+      "timestamp": "2:54",
+      "text": "Token diet is a coding agent skill that quietly trims your token bill across the whole session, not just the chat"
+    },
+    {
+      "timestamp": "3:01",
+      "text": "replies. Left alone, agents pad every answer with great question, here's reread files they just edited, and overest."
+    },
+    {
+      "timestamp": "3:10",
+      "text": "This installs an always on rule that cuts the filler, grips before reading whole files and batches tool calls while treating correctness and critical tests as offlimits."
+    },
+    {
+      "timestamp": "3:20",
+      "text": "Every agent skill has the same failure mode. You write careful stepbystep instructions and the agent still skips a"
+    },
+    {
+      "timestamp": "3:27",
+      "text": "step or reads the wrong part. Skillspec fixes that by adding a small YAML contract next to your skill.md that"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "spells out the route required checks and what proof should exist when it's done."
+    },
+    {
+      "timestamp": "3:39",
+      "text": "It works with clawed codeex or any agent harness and after a run it prints an alignment report showing exactly what got followed and what got skipped."
+    },
+    {
+      "timestamp": "3:50",
+      "text": "Brain tquerty reconstructs the exact sentence someone typed straight from their brain activity. No implant required. This isn't decoding vague"
+    },
+    {
+      "timestamp": "3:59",
+      "text": "intent. It's recovering the actual words keystroke by keystroke from a participant sitting in an MEG or EEG"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "scanner. The pipeline runs a convolutional encoder into a transformer. Then a character level language model cleans up the output."
+    },
+    {
+      "timestamp": "4:16",
+      "text": "Bugu image is an open weights image model that leans on smarter training instead of a giant data pile. Roughly a"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "tenth the training data of comparable open models. It's a 10 billion parameter family in three flavors. A base model"
+    },
+    {
+      "timestamp": "4:30",
+      "text": "built for ultra dense text rendering, a four-step turbo for fast photo realism, and an edit variant. all strong at bilingual Chinese and English text."
+    },
+    {
+      "timestamp": "4:41",
+      "text": "Open OPC doesn't just run one agent on your task. It staffs a whole company around it, then runs the org for you."
+    },
+    {
+      "timestamp": "4:48",
+      "text": "Most multi- aent setups make you handde every role and hardwire who talks to whom. Give this a goal and it drafts the"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "org chart itself, hires agents into each role, and routes work through a canbon with a manager that delegates, reviews, and reworks."
+    },
+    {
+      "timestamp": "5:05",
+      "text": "Game Blocks hands a coding agent the 3D game logic it consistently gets wrong."
+    },
+    {
+      "timestamp": "5:10",
+      "text": "Coordinate frames, actor motion, world structure. Ask an agent to prototype a browser game and small spatial slips"
+    },
+    {
+      "timestamp": "5:17",
+      "text": "creep in. Inverted directions, jittery movement, a game state that no longer matches what's on screen. Natural"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "language is just a lossy way to describe precise 3D math."
+    },
+    {
+      "timestamp": "5:29",
+      "text": "Launch your agent takes you from a rough idea to a live scheduled agent running in your own anthropic account in one"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "clawed code session. The gap most people hit isn't building an agent, it's the launch, wiring the API payloads,"
+    },
+    {
+      "timestamp": "5:43",
+      "text": "defining done, and getting it to run on a clock without you. This skill interviews you about what you want, scopes a v 0, launches it in your"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "console, then grades it against your own success criteria, and iterates."
+    },
+    {
+      "timestamp": "5:58",
+      "text": "$40,000 gets you noticeably closer to Claude Opus running entirely on your own hardware. No subscription, no API key."
+    },
+    {
+      "timestamp": "6:06",
+      "text": "This is one engineer's actual build log for getting there. four RTX Pro 6000s linked through PCIe switches so the GPUs"
+    },
+    {
+      "timestamp": "6:14",
+      "text": "talk directly to each other instead of routing through the CPU. He walks through the exact BIOS settings, kernel flags, and ACS fix that took his card to"
+    },
+    {
+      "timestamp": "6:23",
+      "text": "card bandwidth from broken to full Gen 4 speed."
+    },
+    {
+      "timestamp": "6:28",
+      "text": "Pythia turns 30 plus live global feeds into a single spinning globe cockpit that generates forecasts you can actually interrogate. Most world"
+    },
+    {
+      "timestamp": "6:36",
+      "text": "dashboards just show you dots on a map with no reasoning behind them. This fuses conflict, disasters, markets,"
+    },
+    {
+      "timestamp": "6:43",
+      "text": "disease, and polyarket odds. Then has a local LLM draft located predictions across four time horizons, each with a probability and its logic."
+    },
+    {
+      "timestamp": "6:54",
+      "text": "Claude real video lets Claude actually watch a video instead of just reading its transcript. Paste a YouTube link"
+    },
+    {
+      "timestamp": "7:01",
+      "text": "into most tools and the model never sees a single frame. Gemini samples at a fixed one per second and misses fast"
+    },
+    {
+      "timestamp": "7:08",
+      "text": "cuts entirely. This detects real scene changes, so a 10-minute static slide collapses to one frame while a rapid cut"
+    },
+    {
+      "timestamp": "7:15",
+      "text": "reel keeps every beat. It ddupes repeated shots, transcribes the audio, and hands you a folder any model can"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "read. Crust C is the entire Rust compiler translated into 46 million lines of C that GCC can actually build"
+    },
+    {
+      "timestamp": "7:31",
+      "text": "into a working Rust C. It exists to solve a real complaint. Some old and obscure platforms have a C compiler but"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "no Rust. So doesn't run on plan 9 keeps getting used against Rust. The trick underneath is a backend that adapts to"
+    },
+    {
+      "timestamp": "7:45",
+      "text": "whatever weird C compiler you pointed at, emitting tiny witness programs to probe what the target supports instead of assuming."
+    },
+    {
+      "timestamp": "7:54",
+      "text": "Loopkit is a library of 33 coding agent skills that load only when they're relevant. So your agent specializes"
+    },
+    {
+      "timestamp": "8:01",
+      "text": "instead of guessing. A raw agent under pressure fabricates. Invented APIs, tests that assert nothing, a fix that"
+    },
+    {
+      "timestamp": "8:09",
+      "text": "just renames the bug. Each skill here is a tight technique the agent pulls in on trigger. Systematic debugging, an OASP"
+    },
+    {
+      "timestamp": "8:17",
+      "text": "security pass, write the failing test first without paying tokens for all 33 on every prompt."
+    },
+    {
+      "timestamp": "8:24",
+      "text": "MCPS snoop is Wireshark for MCP. It shows every real tool call flowing between your AI client and your MCP"
+    },
+    {
+      "timestamp": "8:31",
+      "text": "servers live. The official inspector connects as its own separate client, so it never sees what clawed desktop or"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "cursor actually sent, which is exactly the traffic you need when a tool silently doesn't fire. This sits in the real data path and streams every JSON"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "RPC frame, flags hung calls with a live timer, and lets you replay any captured call against a fresh server."
+    },
+    {
+      "timestamp": "8:54",
+      "text": "Pocket Lab power supply is a full bench power supply that fits in your pocket and runs off battery. No wall outlet, no bulky."
+    },
+    {
+      "timestamp": "9:02",
+      "text": "A regular lab supply chains you to the workbench, which is useless when you're debugging a circuit out in the field or across the room. This runs off a 4S"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "lithium ion pack, gives you adjustable voltage and a current limit on an LED matrix display and recharges over USBC PD."
+    },
+    {
+      "timestamp": "9:21",
+      "text": "General's Mac iOS iPad isn't an emulator wrapping the old zero hour. It's the real 2003 engine compiled straight for"
+    },
+    {
+      "timestamp": "9:28",
+      "text": "ARM 64. Getting a 20-year-old Windows RTS running natively on an iPad, touch controls and all means solving problems"
+    },
+    {
+      "timestamp": "9:36",
+      "text": "nobody wrote down. It renders through a DirectX8 to Vulcan to metal chain. Ships real RTS touch gestures like dragbox"
+    },
+    {
+      "timestamp": "9:44",
+      "text": "select and pinch zoom. And its docs folder is a full engineering log of every bug it took to get there."
+    },
+    {
+      "timestamp": "9:52",
+      "text": "This pipeline turns a Vietnamese article into a finished 916 short from a single command. No editing timeline required."
+    },
+    {
+      "timestamp": "10:00",
+      "text": "Most AI video tools generate slop or leave you stitching clips in Cap Cut for an hour. This splits the job. Claude writes the script and picks templates."
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Then deterministic code owns the pixels, so the same script always renders the same video."
+    },
+    {
+      "timestamp": "10:16",
+      "text": "DNS globe is dnschecker.org in your terminal. Watch a DNS record propagate across 34 resolvers worldwide on a live"
+    },
+    {
+      "timestamp": "10:25",
+      "text": "map. After you change a record, the usual move is refreshing a website every few minutes to see if it's gone global yet. This queries every resolver"
+    },
+    {
+      "timestamp": "10:33",
+      "text": "directly, no cache, then repoles on its own until propagation hits 100%. So you can walk away."
+    },
+    {
+      "timestamp": "10:40",
+      "text": "Chromeless is a Mac OS browser where the window is the web page. No tabs, no toolbar, no address bar, nothing."
+    },
+    {
+      "timestamp": "10:47",
+      "text": "Screenshotting a site or a local dashboard means cropping out browser Chrome every single time. And even clean screenshot tools leave a title bar behind. Here, everything's a keystroke."
+    },
+    {
+      "timestamp": "10:58",
+      "text": "Hit a key for the URL bar, another to snapshot the page straight to your desktop, another to pin it above every window."
+    },
+    {
+      "timestamp": "11:07",
+      "text": "Engram is a clawed code learning system built to stop the feeling of understanding from passing for the real thing. A slick AI explanation feels like"
+    },
+    {
+      "timestamp": "11:16",
+      "text": "learning, then evaporates in days. So, this splits the roles. The tutor teaches a separate assessor grades your free"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "recall answers blind and deterministic code never the model schedules every review with FSRS fit to your own forgetting curve."
+    },
+    {
+      "timestamp": "11:33",
+      "text": "Open science is a research workbench where every figure and number traces back to the exact code data and"
+    },
+    {
+      "timestamp": "11:40",
+      "text": "conversation that made it. AI that writes your analysis is easy. Trusting a plot months later when you can't tell"
+    },
+    {
+      "timestamp": "11:47",
+      "text": "which script or model produced it is the real problem. This logs every step to a provenence file, then audits the final"
+    },
+    {
+      "timestamp": "11:54",
+      "text": "report, resolving citations and flagging any number with no traceable source."
+    },
+    {
+      "timestamp": "12:00",
+      "text": "This kit's whole trick is timing. When a long agent run goes idle, Anthropic's prompt cache dies after 5 minutes. So,"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "waking cold repays that context over and over. Most orchestration setups ignore that and quietly pay the cold start tax"
+    },
+    {
+      "timestamp": "12:14",
+      "text": "every few minutes. This routes Fable to the judgment work, strategy, review, synthesis, and pushes mechanical coding and log digesting to cheaper lanes."
+    },
+    {
+      "timestamp": "12:25",
+      "text": "Honami is a from scratch replacement for Unity's built-in animator built so your character graph stays readable no matter"
+    },
+    {
+      "timestamp": "12:32",
+      "text": "how complex the rig gets. Unity's animator turns into spaghetti as a project grows, and its humanoid retargeting actively fights you the"
+    },
+    {
+      "timestamp": "12:40",
+      "text": "moment you build a spider, a mech, or a dragon. Honami is rig agnostic, hides secondary logic like VFX and IK inside subnodes."
+    },
+    {
+      "timestamp": "12:50",
+      "text": "Ratatouafi runs a Ratatouille terminal app straight from your motherboard's firmware with no operating system underneath it at all. Ratatouille"
+    },
+    {
+      "timestamp": "12:58",
+      "text": "normally assumes there's a Linux or Windows terminal to draw into. This builds your app as a UEFI executable"
+    },
+    {
+      "timestamp": "13:05",
+      "text": "instead. So it boots the instant the machine powers on before any OS exists and the author has it running on real"
+    },
+    {
+      "timestamp": "13:12",
+      "text": "hardware off a USB stick, not just in a VM."
+    },
+    {
+      "timestamp": "13:16",
+      "text": "Enclad 5's actual insight is that you're paying an LLM to rewrite code the standard library already gives you for free. Ask any model for an HTTP client"
+    },
+    {
+      "timestamp": "13:26",
+      "text": "with retries and it'll happily generate 80 custom lines. The real answer was requests session with a retry adapter."
+    },
+    {
+      "timestamp": "13:34",
+      "text": "So this checks a deterministic pattern ladder first and on its own 35 task benchmark that resolves 57% of tasks at"
+    },
+    {
+      "timestamp": "13:41",
+      "text": "zero API cost and zero hallucination risk. Fable harness makes clawed code stop trusting its own conclusions until"
+    },
+    {
+      "timestamp": "13:50",
+      "text": "three critics have tried to tear them apart. An agent under pressure talks itself into a shaky root cause or an"
+    },
+    {
+      "timestamp": "13:57",
+      "text": "overengineered fix. then confidently ships it. Before any big call, this dispatches three parallel sub agents. A"
+    },
+    {
+      "timestamp": "14:05",
+      "text": "skeptic hunting logic holes, a red team hunting failure modes, and a simplifier hunting needless complexity. And the conclusion only survives if the majority clear it."
+    },
+    {
+      "timestamp": "14:16",
+      "text": "Windfoil fills 2D vector shapes with near exact anti-aliasing computed per pixel, right in the fragment shader. The"
+    },
+    {
+      "timestamp": "14:23",
+      "text": "go-to technique, slug, walks two rays per pixel and assumes roughly one edge per pixel. So overlapping strokes need a"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "CPU cleanup pass and still soften at the seams. This uses a single winding integral instead, which handles overlap"
+    },
+    {
+      "timestamp": "14:38",
+      "text": "for free, dropping that CPU prepass and on the author's own tiger test, nearly having the acceleration buffer."
+    },
+    {
+      "timestamp": "14:46",
+      "text": "Rampart strips PII out of user text before it ever reaches an LLM running entirely in the browser. Most redaction"
+    },
+    {
+      "timestamp": "14:53",
+      "text": "is server side. So by the time it runs the raw data already left the client."
+    },
+    {
+      "timestamp": "14:58",
+      "text": "This pairs a 15 megabyte ondevice model with checksum backed rejects for cards, SSNs and emails. Then swaps names and"
+    },
+    {
+      "timestamp": "15:06",
+      "text": "numbers for placeholders that get restored locally after the model replies."
+    },
+    {
+      "timestamp": "15:11",
+      "text": "Missaflow makes Flux and Quen image generate roughly 10 times faster and it needs no fine-tuning to do it. High"
+    },
+    {
+      "timestamp": "15:18",
+      "text": "resolution diffusion is slow because every denoising step runs at full res and most speed tricks either need retraining or fall apart when you push them hard. This shifts the work instead."
+    },
+    {
+      "timestamp": "15:29",
+      "text": "Generate small upscale the decoded image with real ESR GAN, then spend a single high-res step cleaning up the detail."
+    },
+    {
+      "timestamp": "15:38",
+      "text": "This kit's core idea is that ensure you tested it is worthless because a weaker model will just claim it did. So every"
+    },
+    {
+      "timestamp": "15:45",
+      "text": "rule here forces a receipt, a pasted GP, a quoted tool output, a verify step that only passes if the exact line exists in"
+    },
+    {
+      "timestamp": "15:53",
+      "text": "the transcript. It converts the judgment a frontier model applies automatically into countable event triggered checks."
+    },
+    {
+      "timestamp": "16:00",
+      "text": "Opus can run mechanically. Done means 12 claims each backed by real output."
+    },
+    {
+      "timestamp": "16:08",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today number 39. 35 trending open- source projects on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is David Andre's own personal agent skill stack opened up. The workflows he actually runs, not a demo set. Most"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skill repos give you a narrow slice, coding only or research only. This spans his whole day. one folder for orchestrating and scheduling other"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents, one for authoring new skills, plus research, structured thinking, and machine setup. Each skill is a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skill MD. The agent loads only when the task calls for it. Codebased memory MCP gives your coding agent a map of your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 42000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "repo instead of making it GP the same files over and over. Every what calls this function turn usually burns a pile of tokens on fileby file exploration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This indexes the whole codebase into a queryable knowledge graph first. So one graph query replaces dozens of read cycles. The author benchmarks the Linux"
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kernel fully indexed in 3 minutes and a 99% token cut on structural questions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cardier listens to a recording of your engine and tells you roughly and it's honest enough to say uncertain instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of bluffing. Describing a weird noise to a mechanic over the phone almost never lands right. This cleans the mechanical"
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sound out of a noisy phone clip, embeds it with a frozen clap model, and returns a ranked short list. Is something wrong?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Where in the car? Which part?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dory is a native Mac app for Docker that runs every container in one shared VM instead of spinning up a separate one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 102000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per container. Docker Desktop and per container setups quietly eat gigabytes of idle RAM just sitting there. On the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "author's own benchmark, two containers use around 122 megabytes against 574, and the gap grows from there."
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Silicon scope shows you the Apple silicon numbers, activity monitor hides, neural engine load, and memory bandwidth. When your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local LLM slows down, activity monitor just shows GPU percent, not whether you're actually bandwidth bound, computebound, or thermal throttling."
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This classifies the bottleneck for you, catches the exact moment the GPU throttles under sustained load, and lives in your menu bar as a six bar glyph across every engine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 146000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clar audits a command line tool, the way an agent would first meet it, then hands over a map so the agent stops guessing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point a coding agent at an unfamiliar CLI and it burns tokens, rediscovering the surface. Run help, guess a flag, hit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 161000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a missing operand, back up, retry. This probes the real binary as a black box, records what actually exists, which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commands emit parsible JSON, and which safe ones quietly write files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Token diet is a coding agent skill that quietly trims your token bill across the whole session, not just the chat"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replies. Left alone, agents pad every answer with great question, here's reread files they just edited, and overest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This installs an always on rule that cuts the filler, grips before reading whole files and batches tool calls while treating correctness and critical tests as offlimits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every agent skill has the same failure mode. You write careful stepbystep instructions and the agent still skips a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 207000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "step or reads the wrong part. Skillspec fixes that by adding a small YAML contract next to your skill.md that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "spells out the route required checks and what proof should exist when it's done."
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It works with clawed codeex or any agent harness and after a run it prints an alignment report showing exactly what got followed and what got skipped."
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Brain tquerty reconstructs the exact sentence someone typed straight from their brain activity. No implant required. This isn't decoding vague"
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intent. It's recovering the actual words keystroke by keystroke from a participant sitting in an MEG or EEG"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scanner. The pipeline runs a convolutional encoder into a transformer. Then a character level language model cleans up the output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bugu image is an open weights image model that leans on smarter training instead of a giant data pile. Roughly a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tenth the training data of comparable open models. It's a 10 billion parameter family in three flavors. A base model"
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built for ultra dense text rendering, a four-step turbo for fast photo realism, and an edit variant. all strong at bilingual Chinese and English text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 281000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open OPC doesn't just run one agent on your task. It staffs a whole company around it, then runs the org for you."
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most multi- aent setups make you handde every role and hardwire who talks to whom. Give this a goal and it drafts the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "org chart itself, hires agents into each role, and routes work through a canbon with a manager that delegates, reviews, and reworks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Game Blocks hands a coding agent the 3D game logic it consistently gets wrong."
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coordinate frames, actor motion, world structure. Ask an agent to prototype a browser game and small spatial slips"
+        }
+      ]
+    },
+    {
+      "tStartMs": 317000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "creep in. Inverted directions, jittery movement, a game state that no longer matches what's on screen. Natural"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "language is just a lossy way to describe precise 3D math."
+        }
+      ]
+    },
+    {
+      "tStartMs": 329000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Launch your agent takes you from a rough idea to a live scheduled agent running in your own anthropic account in one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clawed code session. The gap most people hit isn't building an agent, it's the launch, wiring the API payloads,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "defining done, and getting it to run on a clock without you. This skill interviews you about what you want, scopes a v 0, launches it in your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "console, then grades it against your own success criteria, and iterates."
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "$40,000 gets you noticeably closer to Claude Opus running entirely on your own hardware. No subscription, no API key."
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is one engineer's actual build log for getting there. four RTX Pro 6000s linked through PCIe switches so the GPUs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 374000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "talk directly to each other instead of routing through the CPU. He walks through the exact BIOS settings, kernel flags, and ACS fix that took his card to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "card bandwidth from broken to full Gen 4 speed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pythia turns 30 plus live global feeds into a single spinning globe cockpit that generates forecasts you can actually interrogate. Most world"
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dashboards just show you dots on a map with no reasoning behind them. This fuses conflict, disasters, markets,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "disease, and polyarket odds. Then has a local LLM draft located predictions across four time horizons, each with a probability and its logic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude real video lets Claude actually watch a video instead of just reading its transcript. Paste a YouTube link"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into most tools and the model never sees a single frame. Gemini samples at a fixed one per second and misses fast"
+        }
+      ]
+    },
+    {
+      "tStartMs": 428000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cuts entirely. This detects real scene changes, so a 10-minute static slide collapses to one frame while a rapid cut"
+        }
+      ]
+    },
+    {
+      "tStartMs": 435000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reel keeps every beat. It ddupes repeated shots, transcribes the audio, and hands you a folder any model can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "read. Crust C is the entire Rust compiler translated into 46 million lines of C that GCC can actually build"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into a working Rust C. It exists to solve a real complaint. Some old and obscure platforms have a C compiler but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no Rust. So doesn't run on plan 9 keeps getting used against Rust. The trick underneath is a backend that adapts to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "whatever weird C compiler you pointed at, emitting tiny witness programs to probe what the target supports instead of assuming."
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Loopkit is a library of 33 coding agent skills that load only when they're relevant. So your agent specializes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead of guessing. A raw agent under pressure fabricates. Invented APIs, tests that assert nothing, a fix that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 489000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "just renames the bug. Each skill here is a tight technique the agent pulls in on trigger. Systematic debugging, an OASP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "security pass, write the failing test first without paying tokens for all 33 on every prompt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCPS snoop is Wireshark for MCP. It shows every real tool call flowing between your AI client and your MCP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "servers live. The official inspector connects as its own separate client, so it never sees what clawed desktop or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor actually sent, which is exactly the traffic you need when a tool silently doesn't fire. This sits in the real data path and streams every JSON"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "RPC frame, flags hung calls with a live timer, and lets you replay any captured call against a fresh server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pocket Lab power supply is a full bench power supply that fits in your pocket and runs off battery. No wall outlet, no bulky."
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A regular lab supply chains you to the workbench, which is useless when you're debugging a circuit out in the field or across the room. This runs off a 4S"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lithium ion pack, gives you adjustable voltage and a current limit on an LED matrix display and recharges over USBC PD."
+        }
+      ]
+    },
+    {
+      "tStartMs": 561000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "General's Mac iOS iPad isn't an emulator wrapping the old zero hour. It's the real 2003 engine compiled straight for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ARM 64. Getting a 20-year-old Windows RTS running natively on an iPad, touch controls and all means solving problems"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nobody wrote down. It renders through a DirectX8 to Vulcan to metal chain. Ships real RTS touch gestures like dragbox"
+        }
+      ]
+    },
+    {
+      "tStartMs": 584000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "select and pinch zoom. And its docs folder is a full engineering log of every bug it took to get there."
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This pipeline turns a Vietnamese article into a finished 916 short from a single command. No editing timeline required."
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI video tools generate slop or leave you stitching clips in Cap Cut for an hour. This splits the job. Claude writes the script and picks templates."
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then deterministic code owns the pixels, so the same script always renders the same video."
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DNS globe is dnschecker.org in your terminal. Watch a DNS record propagate across 34 resolvers worldwide on a live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "map. After you change a record, the usual move is refreshing a website every few minutes to see if it's gone global yet. This queries every resolver"
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly, no cache, then repoles on its own until propagation hits 100%. So you can walk away."
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chromeless is a Mac OS browser where the window is the web page. No tabs, no toolbar, no address bar, nothing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Screenshotting a site or a local dashboard means cropping out browser Chrome every single time. And even clean screenshot tools leave a title bar behind. Here, everything's a keystroke."
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hit a key for the URL bar, another to snapshot the page straight to your desktop, another to pin it above every window."
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Engram is a clawed code learning system built to stop the feeling of understanding from passing for the real thing. A slick AI explanation feels like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "learning, then evaporates in days. So, this splits the roles. The tutor teaches a separate assessor grades your free"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recall answers blind and deterministic code never the model schedules every review with FSRS fit to your own forgetting curve."
+        }
+      ]
+    },
+    {
+      "tStartMs": 693000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open science is a research workbench where every figure and number traces back to the exact code data and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conversation that made it. AI that writes your analysis is easy. Trusting a plot months later when you can't tell"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "which script or model produced it is the real problem. This logs every step to a provenence file, then audits the final"
+        }
+      ]
+    },
+    {
+      "tStartMs": 714000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "report, resolving citations and flagging any number with no traceable source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This kit's whole trick is timing. When a long agent run goes idle, Anthropic's prompt cache dies after 5 minutes. So,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "waking cold repays that context over and over. Most orchestration setups ignore that and quietly pay the cold start tax"
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "every few minutes. This routes Fable to the judgment work, strategy, review, synthesis, and pushes mechanical coding and log digesting to cheaper lanes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Honami is a from scratch replacement for Unity's built-in animator built so your character graph stays readable no matter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "how complex the rig gets. Unity's animator turns into spaghetti as a project grows, and its humanoid retargeting actively fights you the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "moment you build a spider, a mech, or a dragon. Honami is rig agnostic, hides secondary logic like VFX and IK inside subnodes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ratatouafi runs a Ratatouille terminal app straight from your motherboard's firmware with no operating system underneath it at all. Ratatouille"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "normally assumes there's a Linux or Windows terminal to draw into. This builds your app as a UEFI executable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 785000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instead. So it boots the instant the machine powers on before any OS exists and the author has it running on real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 792000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hardware off a USB stick, not just in a VM."
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Enclad 5's actual insight is that you're paying an LLM to rewrite code the standard library already gives you for free. Ask any model for an HTTP client"
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with retries and it'll happily generate 80 custom lines. The real answer was requests session with a retry adapter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 814000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So this checks a deterministic pattern ladder first and on its own 35 task benchmark that resolves 57% of tasks at"
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zero API cost and zero hallucination risk. Fable harness makes clawed code stop trusting its own conclusions until"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three critics have tried to tear them apart. An agent under pressure talks itself into a shaky root cause or an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "overengineered fix. then confidently ships it. Before any big call, this dispatches three parallel sub agents. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 845000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skeptic hunting logic holes, a red team hunting failure modes, and a simplifier hunting needless complexity. And the conclusion only survives if the majority clear it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 856000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Windfoil fills 2D vector shapes with near exact anti-aliasing computed per pixel, right in the fragment shader. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 863000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "go-to technique, slug, walks two rays per pixel and assumes roughly one edge per pixel. So overlapping strokes need a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CPU cleanup pass and still soften at the seams. This uses a single winding integral instead, which handles overlap"
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for free, dropping that CPU prepass and on the author's own tiger test, nearly having the acceleration buffer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rampart strips PII out of user text before it ever reaches an LLM running entirely in the browser. Most redaction"
+        }
+      ]
+    },
+    {
+      "tStartMs": 893000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is server side. So by the time it runs the raw data already left the client."
+        }
+      ]
+    },
+    {
+      "tStartMs": 898000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This pairs a 15 megabyte ondevice model with checksum backed rejects for cards, SSNs and emails. Then swaps names and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 906000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "numbers for placeholders that get restored locally after the model replies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 911000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Missaflow makes Flux and Quen image generate roughly 10 times faster and it needs no fine-tuning to do it. High"
+        }
+      ]
+    },
+    {
+      "tStartMs": 918000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "resolution diffusion is slow because every denoising step runs at full res and most speed tricks either need retraining or fall apart when you push them hard. This shifts the work instead."
+        }
+      ]
+    },
+    {
+      "tStartMs": 929000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generate small upscale the decoded image with real ESR GAN, then spend a single high-res step cleaning up the detail."
+        }
+      ]
+    },
+    {
+      "tStartMs": 938000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This kit's core idea is that ensure you tested it is worthless because a weaker model will just claim it did. So every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 945000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rule here forces a receipt, a pasted GP, a quoted tool output, a verify step that only passes if the exact line exists in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 953000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the transcript. It converts the judgment a frontier model applies automatically into countable event triggered checks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 960000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Opus can run mechanically. Done means 12 claims each backed by real output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 968000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

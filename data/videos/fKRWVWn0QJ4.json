@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "id": "fKRWVWn0QJ4",
+  "title": "GitHub Trending Today #38: Accordion, rift, brag, recall, Arbor, Unlimited-OCR, planttalk, humanizer",
+  "url": "https://www.youtube.com/watch?v=fKRWVWn0QJ4",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-28",
+  "duration": 922,
+  "word_count": 2335,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T22:48:54+00:00",
+    "metadata_sha256": "84cdf508f1946a2303ec532a7aeb4ebe7c75a1158ccc9832b08104c079075a66",
+    "captions_sha256": "8ab450954606713f746114d6e949f595016b5fc2eb15bdbcd74900694f374697",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending today number 38. 35 trending open source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "Accordion",
+      "repositories": [
+        "https://github.com/a-Fig/Accordion"
+      ],
+      "id": "s002",
+      "end": 39,
+      "paragraphs": [
+        "When a coding agent fills its context, the usual fix is compaction, which flattens your whole history into one lossy summary. Accordion shows the agents entire context as a grid of colored blocks and lets you fold the cold parts down by hand or with an automatic conductor. Nothing's deleted and every fold reverses. In one early hackathon run, their conductor cleared 83% of a task against 33% for compaction."
+      ]
+    },
+    {
+      "start": 39,
+      "title": "rift",
+      "repositories": [
+        "https://github.com/anomalyco/rift"
+      ],
+      "id": "s003",
+      "end": 66,
+      "paragraphs": [
+        "Git work trees are great until you duplicate a giant repo and wait while dependencies, build artifacts, and local state come along for the ride. Rift is an experimental alternative that creates copyon-write workspaces with file system snapshots and reef links. The maintainers claim under 0.1 seconds on a 10 gigabyte folder. It has a fast CLI, postcreate hooks, shell integration, and a node or bun FFI API."
+      ]
+    },
+    {
+      "start": 66,
+      "title": "brag",
+      "repositories": [
+        "https://github.com/latent-spaces/brag"
+      ],
+      "id": "s004",
+      "end": 91,
+      "paragraphs": [
+        "You finally ship the side project, and now the launch post is the hardest part. Bragg is a clawed code skill that turns a finished repo into a short sharable launch video with one command. It picks the product angle, writes the share copy, builds a composition brief, and hands rendering to hyperframes with music and motion included. You get a brag output folder with the plan and MP4."
+      ]
+    },
+    {
+      "start": 91,
+      "title": "recall",
+      "repositories": [
+        "https://github.com/raiyanyahya/recall"
+      ],
+      "id": "s005",
+      "end": 115,
+      "paragraphs": [
+        "Every Claw Code session starts cold, so you waste 10 minutes reexlaining where you left off. Most memory plugins fix that by piping your whole transcript, code, and secrets included, off to some model endpoint. Recall keeps it on your machine. It logs each session and condenses it into a resume ready summary with TF and text rank. No LLM call, nothing sent anywhere. Long research runs fail in a boring way."
+      ]
+    },
+    {
+      "start": 115,
+      "title": "Arbor",
+      "repositories": [
+        "https://github.com/RUC-NLPIR/Arbor"
+      ],
+      "id": "s006",
+      "end": 143,
+      "paragraphs": [
+        "The agent tries one idea, forgets what failed, and burns the next hour rediscovering it. Arbor turns optimization into a hypothesis tree. Give it a benchmark and metric and it proposes ideas, edits code and isolated work trees, runs experiments, validates on held out data and keeps the branches that actually improve. It also supports CLI runs, dashboards, and codecs or clawed code skill mode."
+      ]
+    },
+    {
+      "start": 143,
+      "title": "Unlimited-OCR",
+      "repositories": [
+        "https://github.com/baidu/Unlimited-OCR"
+      ],
+      "id": "s007",
+      "end": 168,
+      "paragraphs": [
+        "OCR gets painful when the document is not one clean page. It's a long PDF with tables, figures, and layout you still need to preserve. Unlimited OCR is BU's open model for oneshot long horizon document parsing. It supports single images, multi-page inputs, and PDFs through transformers or escang with a 32K context setup and batch inference script for larger jobs."
+      ]
+    },
+    {
+      "start": 168,
+      "title": "Qwen-AgentWorld",
+      "repositories": [
+        "https://github.com/QwenLM/Qwen-AgentWorld"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "Testing agents is messy because the real environment is slow, flaky, and hard to replay. Quinn, agent world takes a different route. a language world model trained to simulate what agents see after actions across terminal web search SWES and MCP tasks. The repo ships model waits agent world bench domain prompts and eval scripts for sglang VLM or transformers."
+      ]
+    },
+    {
+      "start": 192,
+      "title": "loop-engineering",
+      "repositories": [
+        "https://github.com/cobusgreyling/loop-engineering"
+      ],
+      "id": "s009",
+      "end": 219,
+      "paragraphs": [
+        "You stopped writing code by hand and started prompting an agent but you're the bottleneck babysitting it and watching CI loop engineering is the next step. Build the loop that prompts the agent for you. It ships six patterns like daily triage and a PR babysitter with clone and run starters for grock, claude code, and codecs. A loop audit CLI scores how ready your loop is and you roll out from report only to unattended."
+      ]
+    },
+    {
+      "start": 219,
+      "title": "planttalk",
+      "repositories": [
+        "https://github.com/openai/planttalk"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "Your plant looks sad, but looks sad is not exactly observability. Plant talk is an OpenAI demo project that turns a house plant into a voice app using a webcam, microphone, and chat GPT. Add an Arduino and it can pull in soil moisture and light readings, too. The dashboard can observe the plant, summarize recent checks, start a real-time voice conversation, and switch into ambient mode."
+      ]
+    },
+    {
+      "start": 244,
+      "title": "liquid-glass",
+      "repositories": [
+        "https://github.com/samasante/liquid-glass"
+      ],
+      "id": "s011",
+      "end": 271,
+      "paragraphs": [
+        "Faking Apple's liquid glass on the web usually means a flat blur that doesn't actually distort anything underneath. This React lens does the real thing. Genuine live DOM refraction. So text and images warp through the glass as they would through real frosted glass. Working across Safari, Firefox, and Chrome with zero dependencies. Headless means you bring your own styling. It just handles the hard refraction math."
+      ]
+    },
+    {
+      "start": 271,
+      "title": "humanizer",
+      "repositories": [
+        "https://github.com/blader/humanizer"
+      ],
+      "id": "s012",
+      "end": 295,
+      "paragraphs": [
+        "AI drafts usually fail in the same boring ways. Huge claims, fake confidence, neat little threes, and that tone nobody uses in real docs. Humanizer is a clawed code and open code skill that rewrites text to sound more like a person wrote it. It checks against 33 AI writing patterns, can match your own sample voice, then runs a second audit pass to catch leftovers."
+      ]
+    },
+    {
+      "start": 295,
+      "title": "fugu",
+      "repositories": [
+        "https://github.com/SakanaAI/fugu"
+      ],
+      "id": "s013",
+      "end": 320,
+      "paragraphs": [
+        "When one model starts looping on a hard task, the usual fix is picking a bigger model and hoping. Sakanafugu takes a weirder route. It exposes a multi- aent system as one LLM, then coordinates a pool of models behind the scenes. You call it through chat completions or responses or install it into codecs with codeex fugu while the coordinator decides who should think, critique or continue."
+      ]
+    },
+    {
+      "start": 320,
+      "title": "dinorip",
+      "repositories": [
+        "https://github.com/maria-rcks/dinorip"
+      ],
+      "id": "s014",
+      "end": 347,
+      "paragraphs": [
+        "Making retro textures from reference photos gets fiddly fast. Crop, skew, clean color, repeat, then somehow pack everything into an atlas. Darrip is a desktop texture ripper built for that exact workflow. Drop in PGs or JPEGs. Bend perspective corners around a surface. Extract it into an atlas. Then rotate, resize, pack, and batch adjust colors with presets before exporting textures or the whole atlas as PNG."
+      ]
+    },
+    {
+      "start": 347,
+      "title": "krea-2",
+      "repositories": [
+        "https://github.com/krea-ai/krea-2"
+      ],
+      "id": "s015",
+      "end": 374,
+      "paragraphs": [
+        "Many open weights image models require complex prompt engineering just so your generations don't look completely flat. Korea 2 is a newly released 12 billion parameter model that focuses on high aesthetic variety and natural language prompting. It features a fast distilled turbo variant for quick 2K generations and a raw checkpoint designed for custom training. You can run it locally via comfy UI."
+      ]
+    },
+    {
+      "start": 374,
+      "title": "humation",
+      "repositories": [
+        "https://github.com/humation-labs/humation"
+      ],
+      "id": "s016",
+      "end": 401,
+      "paragraphs": [
+        "Generating unique handdrawn user avatars usually means calling bloated cartoon APIs or relying on slow AI endpoints. Humatian is an open source avatar engine that compiles deterministic Kauaii SVGs entirely on the client side. Since it runs offline with zero server dependencies, you don't have to worry about latency. Just supply a seed to build lightweight vectors, then theme them instantly with CSS variables."
+      ]
+    },
+    {
+      "start": 401,
+      "title": "MemNixFS",
+      "repositories": [
+        "https://github.com/MemNixFS/MemNixFS"
+      ],
+      "id": "s017",
+      "end": 425,
+      "paragraphs": [
+        "Analyzing Linux memory dumps during an incident response usually means wrestling with heavy forensics frameworks and clunky CLI commands just to parse a single process. Memnix FS is an open-source tool that mounts raw Linux memory dumps as a navigable file system. It brings a merophice style workflow to Linux. So you don't have to keep memorizing complex arguments."
+      ]
+    },
+    {
+      "start": 425,
+      "title": "opentag",
+      "repositories": [
+        "https://github.com/amplifthq/opentag"
+      ],
+      "id": "s018",
+      "end": 449,
+      "paragraphs": [
+        "Every time you want a coding agent to do something, you're stuck copy pasting issue context out of Slack or GitHub just to get its feedback. Open Tag is an open- source tool that lets you tag AI agents directly inside your existing threads. It routes the requests to models like codecs or clawed code, running executions locally on your machine and posting results straight back."
+      ]
+    },
+    {
+      "start": 449,
+      "title": "AgentSpace",
+      "repositories": [
+        "https://github.com/HKUDS/AgentSpace"
+      ],
+      "id": "s019",
+      "end": 473,
+      "paragraphs": [
+        "Agent workflows fall apart when every assistant lives in one person's terminal with no owner, Q, approval path, or audit trail. Agent space treats agents like digital teammates inside a shared workspace. You can assign roles, route tasks through codecs, cloud code, schedule work, connect remote demons, keep permissions, and diagnostics visible in one control plane. Browser agents get uncomfortable fast. The model can use your tabs, but now you're"
+      ]
+    },
+    {
+      "start": 473,
+      "title": "peerd",
+      "repositories": [
+        "https://github.com/NotASithLord/peerd"
+      ],
+      "id": "s020",
+      "end": 498,
+      "paragraphs": [
+        "wondering who sees the page, the session, and your API keys. Pier keeps the whole agent harness inside Chrome or Firefox instead. It's by no backend, no telemetry with a local encrypted vault, sandboxjs notebooks, web assembly Linux VMs, and live page verification before actions count as done. Keeping an eye on volatile crypto prices usually means"
+      ]
+    },
+    {
+      "start": 498,
+      "title": "crypto-bar-mac",
+      "repositories": [
+        "https://github.com/erdwin90/crypto-bar-mac"
+      ],
+      "id": "s021",
+      "end": 526,
+      "paragraphs": [
+        "cluttering your workspace with endless browser tabs or phone notifications that disrupt your workflow. Cryptobar is a Mac OS app that brings realtime tracking directly into your system menu bar. It pulls updates via the Coin Gecko API, so it doesn't drain your background resources. Clicking the ticker instantly opens 24-hour sparkline charts to map recent price momentum."
+      ]
+    },
+    {
+      "start": 526,
+      "title": "vibecoded-design-tells",
+      "repositories": [
+        "https://github.com/JCarterJohnson/vibecoded-design-tells"
+      ],
+      "id": "s022",
+      "end": 555,
+      "paragraphs": [
+        "Everyone can spot an AI built site, but naming the actual tells gets fuzzy fast. Vibecoded design tells turns that complaint into data. The repo says it scanned 3.2 2 million Reddit posts across 47 subreddits, then ranked what people actually call out. Shad CNN defaults, AI purple gradients, centered hero plus three cards, and the newer fake tasteful defaults. It ships the data sets, charts, scripts, and claude skills to audit UI, text, and code."
+      ]
+    },
+    {
+      "start": 555,
+      "title": "lemma-platform",
+      "repositories": [
+        "https://github.com/lemma-work/lemma-platform"
+      ],
+      "id": "s023",
+      "end": 582,
+      "paragraphs": [
+        "Agent work gets messy when the useful state lives in chat, but the actual business process lives somewhere else. Lema is an open- source workspace where humans and agents share the same tables, files, workflows, permissions, and approvals. Agents get CLIs and SDKs. Humans get apps and Slack style surfaces, and everything runs locally in Lemma's cloud or through the claude and chat GPT subscriptions you already use."
+      ]
+    },
+    {
+      "start": 582,
+      "title": "mithka",
+      "repositories": [
+        "https://github.com/iebb/mithka"
+      ],
+      "id": "s024",
+      "end": 608,
+      "paragraphs": [
+        "Telegram on mobile is fast. But if you've ever wanted a denser native client without forking the official apps assets, Mythka is that experiment. It's a Flutter iOS and Android client built on TDLIB through Dart FFI using your own Telegram API credentials. Chat lists, live conversations, reactions, stickers, voice notes, polls, story style moments, profiles, settings, and a onetoone call UI are all there."
+      ]
+    },
+    {
+      "start": 608,
+      "title": "Dressage",
+      "repositories": [
+        "https://github.com/Accio-Lab/Dressage"
+      ],
+      "id": "s025",
+      "end": 637,
+      "paragraphs": [
+        "Training tool using agents gets ugly when rollouts, sandboxes, token logs, and RL samples all live in separate systems. Dr. is a scalable RL framework for agents that call real tools from shell commands and file IO to retrieval APIs. It supports whitebox Python loops and blackbox HTTP agents, records token level evidence through a proxy, handles local bubble wrap or remote E2B sandboxes, and plugs into slime without forking it."
+      ]
+    },
+    {
+      "start": 637,
+      "title": "DeepSpec",
+      "repositories": [
+        "https://github.com/deepseek-ai/DeepSpec"
+      ],
+      "id": "s026",
+      "end": 665,
+      "paragraphs": [
+        "Speculative decoding speeds up a big model. A small draft model guesses the next tokens. The big one verifies them in one pass. But training a good draft model is its own rabbit hole. DeepSpec is Deepseek's full pipeline for it. Prep the target cache, train the draft, then measure acceptance on the benchmarks. It ships three algorithms, including Deepseek's own D-Spark."
+      ]
+    },
+    {
+      "start": 665,
+      "title": "foreman",
+      "repositories": [
+        "https://github.com/VisionForge-OU/foreman"
+      ],
+      "id": "s027",
+      "end": 691,
+      "paragraphs": [
+        "A coding agent can crank for hours, but trusting that loop with a real repo is where things get sketchy. Foreman is a terminal supervisor for headless claw code agents pointed at any repository. It runs a gated delivery pipeline from plan to ADR, PRD, issues, TDD build, and E2E with human approvals, work tree isolation, budgets, crash safe file state, and retro benchmarks for improving prompts."
+      ]
+    },
+    {
+      "start": 691,
+      "title": "tupper",
+      "repositories": [
+        "https://github.com/lightbearco/tupper"
+      ],
+      "id": "s028",
+      "end": 715,
+      "paragraphs": [
+        "Letting AI agents run random shell commands directly on your machine is a massive security hazard, but you don't want to compromise your privacy or deal with cloud latency. Tupper is an open-source self-hosted sandbox that lets your agents execute untrusted code safely on your own hardware. It uses Apple containers or Firecracker to boot isolated environments in under a second."
+      ]
+    },
+    {
+      "start": 715,
+      "title": "claude-status-bar",
+      "repositories": [
+        "https://github.com/m1ckc3s/claude-status-bar"
+      ],
+      "id": "s029",
+      "end": 740,
+      "paragraphs": [
+        "Long clawed code runs have one tiny annoyance. You tab away, then keep wondering if it's still thinking or waiting for permission. Claude's status bar puts that state in your Mac OS menu bar. It animates while Claude works, shows tool labels, turns yellow when approval is needed, and can play a chime when a long turn finishes. Hooks write local state. The app just pulls it."
+      ]
+    },
+    {
+      "start": 740,
+      "title": "robot_retargeter",
+      "repositories": [
+        "https://github.com/ccrpRepo/robot_retargeter"
+      ],
+      "id": "s030",
+      "end": 765,
+      "paragraphs": [
+        "Humanoid demos look great until you try moving the same motion onto a different robot and every limb length, joint limit, and foot contact assumption breaks. Robot retargeter gives you a full pipeline for that translation. It pulls key points from SNPLX or source robot CSVs, maps them through Mujo and inverse kinematics, handles skeleton scaling, knee bending, and foot contacts, then previews. Fitbit gives you plenty of data, but most of it still feels trapped behind whatever view the"
+      ]
+    },
+    {
+      "start": 765,
+      "title": "openfit",
+      "repositories": [
+        "https://github.com/FlavioAdamo/openfit"
+      ],
+      "id": "s031",
+      "end": 792,
+      "paragraphs": [
+        "mobile app decided to show. Open Fit is a private desktop dashboard for Google Health and Fitbit data. Built-in Electron with a Codeex powered assistant on the side. It hides empty sections, stores tokens encrypted in the main process, supports demo mode, and lets Codeex answer questions from normalized readonly health context."
+      ]
+    },
+    {
+      "start": 792,
+      "title": "bionemo-agent-toolkit",
+      "repositories": [
+        "https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit"
+      ],
+      "id": "s032",
+      "end": 819,
+      "paragraphs": [
+        "Your coding agent can refactor a repo, but ask it to fold a protein and it has no idea where to start. Nvidia's Bionmo agent toolkit packages a decade of its life science models as agent skills so your agent runs the right model and explains the results. There are skills for protein folding, docking, and design, plus workflows that chain them. Install them into clawed code or codecs with one command."
+      ]
+    },
+    {
+      "start": 819,
+      "title": "proto-language",
+      "repositories": [
+        "https://github.com/evo-design/proto-language"
+      ],
+      "id": "s033",
+      "end": 846,
+      "paragraphs": [
+        "Stitching together disperate AI models and biioinformatic tools to design synthetic proteins or custom DNA is a nightmare of custom pipeline scripts. Protool language is an open-source high-level programming language that treats biological design like computer coding. So you don't have to worry about manual environment setup. You define your sequence goals and constraints and its framework runs automated optimization loops."
+      ]
+    },
+    {
+      "start": 846,
+      "title": "vibephp",
+      "repositories": [
+        "https://github.com/mnapoli/vibephp"
+      ],
+      "id": "s034",
+      "end": 870,
+      "paragraphs": [
+        "PHP engines usually have one annoying constraint. They run the code you wrote. Vibe PHP asks, \"What if they didn't?\" It's a Laravel based runtime that hands your PHP file to an AI, lets it imagine the database, clock, network, and missing functions, then returns the HTTP response it thinks your app meant. Includes and headers work just enough to make the joke dangerous."
+      ]
+    },
+    {
+      "start": 870,
+      "title": "audio.cpp",
+      "repositories": [
+        "https://github.com/0xShug0/audio.cpp"
+      ],
+      "id": "s035",
+      "end": 897,
+      "paragraphs": [
+        "Every local audio model ships as its own Python repo with its own dependency. hell. A texttospech model here, a transcription model there. None of them compatible. Audio.cpp is one pure C++ engine built on GGML that runs them all. Speech, voice conversion, even music generation with no Python at inference. It runs on GPU or CPU. The maintainer benchmarks several TTS paths at up to five times faster than Python."
+      ]
+    },
+    {
+      "start": 897,
+      "title": "hermes-browser-extension",
+      "repositories": [
+        "https://github.com/abundantbeing/hermes-browser-extension"
+      ],
+      "id": "s036",
+      "end": 922,
+      "paragraphs": [
+        "Browser context is where half your work is, but giving an agent full browser control is a lot of trust for summarize this tab. Hermes browser extension keeps it readon. It's a Chrome and Edge side panel for your local or remote Hermes runtime capturing titles, URLs, selected text, page text, forms, links, and headings as untrusted context. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 38. 35 trending open source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "When a coding agent fills its context, the usual fix is compaction, which flattens your whole history into one lossy summary. Accordion shows the"
+    },
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "text": "agents entire context as a grid of colored blocks and lets you fold the cold parts down by hand or with an automatic conductor. Nothing's deleted"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "and every fold reverses. In one early hackathon run, their conductor cleared 83% of a task against 33% for compaction."
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "Git work trees are great until you duplicate a giant repo and wait while dependencies, build artifacts, and local state come along for the ride. Rift is"
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "text": "an experimental alternative that creates copyon-write workspaces with file system snapshots and reef links. The maintainers claim under 0.1 seconds on a"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "text": "10 gigabyte folder. It has a fast CLI, postcreate hooks, shell integration, and a node or bun FFI API."
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "text": "You finally ship the side project, and now the launch post is the hardest part."
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "Bragg is a clawed code skill that turns a finished repo into a short sharable launch video with one command. It picks the product angle, writes the share"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "copy, builds a composition brief, and hands rendering to hyperframes with music and motion included. You get a brag output folder with the plan and MP4."
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "text": "Every Claw Code session starts cold, so you waste 10 minutes reexlaining where you left off. Most memory plugins fix that by piping your whole transcript,"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "text": "code, and secrets included, off to some model endpoint."
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "Recall keeps it on your machine. It logs each session and condenses it into a resume ready summary with TF and text"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "rank. No LLM call, nothing sent anywhere. Long research runs fail in a boring way."
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "text": "The agent tries one idea, forgets what failed, and burns the next hour rediscovering it. Arbor turns optimization into a hypothesis tree."
+    },
+    {
+      "start": 127.0,
+      "end": 127.0,
+      "text": "Give it a benchmark and metric and it proposes ideas, edits code and isolated work trees, runs experiments, validates"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "on held out data and keeps the branches that actually improve. It also supports CLI runs, dashboards, and codecs or clawed code skill mode."
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "OCR gets painful when the document is not one clean page. It's a long PDF with tables, figures, and layout you still"
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "need to preserve. Unlimited OCR is BU's open model for oneshot long horizon document parsing. It supports single"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "images, multi-page inputs, and PDFs through transformers or escang with a 32K context setup and batch inference script for larger jobs."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "Testing agents is messy because the real environment is slow, flaky, and hard to replay. Quinn, agent world takes a different route. a language world model"
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "trained to simulate what agents see after actions across terminal web search SWES and MCP tasks. The repo ships model"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "waits agent world bench domain prompts and eval scripts for sglang VLM or transformers."
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "You stopped writing code by hand and started prompting an agent but you're the bottleneck babysitting it and watching CI loop engineering is the next"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "step. Build the loop that prompts the agent for you. It ships six patterns like daily triage and a PR babysitter with clone and run starters for grock,"
+    },
+    {
+      "start": 210.0,
+      "end": 210.0,
+      "text": "claude code, and codecs. A loop audit CLI scores how ready your loop is and you roll out from report only to unattended."
+    },
+    {
+      "start": 219.0,
+      "end": 219.0,
+      "text": "Your plant looks sad, but looks sad is not exactly observability. Plant talk is an OpenAI demo project that turns a"
+    },
+    {
+      "start": 226.0,
+      "end": 226.0,
+      "text": "house plant into a voice app using a webcam, microphone, and chat GPT. Add an Arduino and it can pull in soil moisture"
+    },
+    {
+      "start": 234.0,
+      "end": 234.0,
+      "text": "and light readings, too. The dashboard can observe the plant, summarize recent checks, start a real-time voice conversation, and switch into ambient mode."
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Faking Apple's liquid glass on the web usually means a flat blur that doesn't actually distort anything underneath."
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "This React lens does the real thing."
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "Genuine live DOM refraction. So text and images warp through the glass as they would through real frosted glass."
+    },
+    {
+      "start": 261.0,
+      "end": 261.0,
+      "text": "Working across Safari, Firefox, and Chrome with zero dependencies. Headless means you bring your own styling. It just handles the hard refraction math."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "AI drafts usually fail in the same boring ways. Huge claims, fake confidence, neat little threes, and that"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "tone nobody uses in real docs. Humanizer is a clawed code and open code skill that rewrites text to sound more like a"
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "person wrote it. It checks against 33 AI writing patterns, can match your own sample voice, then runs a second audit pass to catch leftovers."
+    },
+    {
+      "start": 295.0,
+      "end": 295.0,
+      "text": "When one model starts looping on a hard task, the usual fix is picking a bigger model and hoping. Sakanafugu takes a"
+    },
+    {
+      "start": 302.0,
+      "end": 302.0,
+      "text": "weirder route. It exposes a multi- aent system as one LLM, then coordinates a pool of models behind the scenes. You"
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "call it through chat completions or responses or install it into codecs with codeex fugu while the coordinator decides who should think, critique or continue."
+    },
+    {
+      "start": 320.0,
+      "end": 320.0,
+      "text": "Making retro textures from reference photos gets fiddly fast. Crop, skew, clean color, repeat, then somehow pack"
+    },
+    {
+      "start": 328.0,
+      "end": 328.0,
+      "text": "everything into an atlas. Darrip is a desktop texture ripper built for that exact workflow. Drop in PGs or JPEGs."
+    },
+    {
+      "start": 335.0,
+      "end": 335.0,
+      "text": "Bend perspective corners around a surface. Extract it into an atlas. Then rotate, resize, pack, and batch adjust colors with presets before exporting textures or the whole atlas as PNG."
+    },
+    {
+      "start": 347.0,
+      "end": 347.0,
+      "text": "Many open weights image models require complex prompt engineering just so your generations don't look completely flat."
+    },
+    {
+      "start": 354.0,
+      "end": 354.0,
+      "text": "Korea 2 is a newly released 12 billion parameter model that focuses on high aesthetic variety and natural language"
+    },
+    {
+      "start": 361.0,
+      "end": 361.0,
+      "text": "prompting. It features a fast distilled turbo variant for quick 2K generations and a raw checkpoint designed for custom"
+    },
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "training. You can run it locally via comfy UI."
+    },
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "Generating unique handdrawn user avatars usually means calling bloated cartoon APIs or relying on slow AI endpoints."
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "Humatian is an open source avatar engine that compiles deterministic Kauaii SVGs entirely on the client side. Since it"
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "runs offline with zero server dependencies, you don't have to worry about latency. Just supply a seed to build lightweight vectors, then theme them instantly with CSS variables."
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "Analyzing Linux memory dumps during an incident response usually means wrestling with heavy forensics frameworks and clunky CLI commands just"
+    },
+    {
+      "start": 409.0,
+      "end": 409.0,
+      "text": "to parse a single process. Memnix FS is an open-source tool that mounts raw Linux memory dumps as a navigable file"
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "system. It brings a merophice style workflow to Linux. So you don't have to keep memorizing complex arguments."
+    },
+    {
+      "start": 425.0,
+      "end": 425.0,
+      "text": "Every time you want a coding agent to do something, you're stuck copy pasting issue context out of Slack or GitHub just to get its feedback. Open Tag is an"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "open- source tool that lets you tag AI agents directly inside your existing threads. It routes the requests to models like codecs or clawed code,"
+    },
+    {
+      "start": 443.0,
+      "end": 443.0,
+      "text": "running executions locally on your machine and posting results straight back."
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "Agent workflows fall apart when every assistant lives in one person's terminal with no owner, Q, approval path, or"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "audit trail. Agent space treats agents like digital teammates inside a shared workspace. You can assign roles, route"
+    },
+    {
+      "start": 464.0,
+      "end": 464.0,
+      "text": "tasks through codecs, cloud code, schedule work, connect remote demons, keep permissions, and diagnostics"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "visible in one control plane. Browser agents get uncomfortable fast. The model can use your tabs, but now you're"
+    },
+    {
+      "start": 478.0,
+      "end": 478.0,
+      "text": "wondering who sees the page, the session, and your API keys. Pier keeps the whole agent harness inside Chrome or"
+    },
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "Firefox instead. It's by no backend, no telemetry with a local encrypted vault, sandboxjs notebooks, web assembly Linux"
+    },
+    {
+      "start": 493.0,
+      "end": 493.0,
+      "text": "VMs, and live page verification before actions count as done. Keeping an eye on volatile crypto prices usually means"
+    },
+    {
+      "start": 501.0,
+      "end": 501.0,
+      "text": "cluttering your workspace with endless browser tabs or phone notifications that disrupt your workflow."
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "Cryptobar is a Mac OS app that brings realtime tracking directly into your system menu bar. It pulls updates via"
+    },
+    {
+      "start": 515.0,
+      "end": 515.0,
+      "text": "the Coin Gecko API, so it doesn't drain your background resources."
+    },
+    {
+      "start": 520.0,
+      "end": 520.0,
+      "text": "Clicking the ticker instantly opens 24-hour sparkline charts to map recent price momentum."
+    },
+    {
+      "start": 526.0,
+      "end": 526.0,
+      "text": "Everyone can spot an AI built site, but naming the actual tells gets fuzzy fast."
+    },
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "Vibecoded design tells turns that complaint into data. The repo says it scanned 3.2 2 million Reddit posts across 47 subreddits, then ranked what"
+    },
+    {
+      "start": 541.0,
+      "end": 541.0,
+      "text": "people actually call out. Shad CNN defaults, AI purple gradients, centered hero plus three cards, and the newer fake tasteful defaults. It ships the"
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "data sets, charts, scripts, and claude skills to audit UI, text, and code."
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "Agent work gets messy when the useful state lives in chat, but the actual business process lives somewhere else."
+    },
+    {
+      "start": 562.0,
+      "end": 562.0,
+      "text": "Lema is an open- source workspace where humans and agents share the same tables, files, workflows, permissions, and approvals. Agents get CLIs and SDKs."
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "Humans get apps and Slack style surfaces, and everything runs locally in Lemma's cloud or through the claude and chat GPT subscriptions you already use."
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "Telegram on mobile is fast. But if you've ever wanted a denser native client without forking the official apps assets, Mythka is that experiment. It's"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "a Flutter iOS and Android client built on TDLIB through Dart FFI using your own Telegram API credentials. Chat lists,"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "live conversations, reactions, stickers, voice notes, polls, story style moments, profiles, settings, and a onetoone call UI are all there."
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "Training tool using agents gets ugly when rollouts, sandboxes, token logs, and RL samples all live in separate"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "systems. Dr. is a scalable RL framework for agents that call real tools from shell commands and file IO to retrieval"
+    },
+    {
+      "start": 622.0,
+      "end": 622.0,
+      "text": "APIs. It supports whitebox Python loops and blackbox HTTP agents, records token level evidence through a proxy, handles"
+    },
+    {
+      "start": 630.0,
+      "end": 630.0,
+      "text": "local bubble wrap or remote E2B sandboxes, and plugs into slime without forking it."
+    },
+    {
+      "start": 637.0,
+      "end": 637.0,
+      "text": "Speculative decoding speeds up a big model. A small draft model guesses the next tokens. The big one verifies them in one pass. But training a good draft"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "model is its own rabbit hole. DeepSpec is Deepseek's full pipeline for it. Prep the target cache, train the draft, then"
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "measure acceptance on the benchmarks. It ships three algorithms, including Deepseek's own D-Spark."
+    },
+    {
+      "start": 665.0,
+      "end": 665.0,
+      "text": "A coding agent can crank for hours, but trusting that loop with a real repo is where things get sketchy. Foreman is a"
+    },
+    {
+      "start": 672.0,
+      "end": 672.0,
+      "text": "terminal supervisor for headless claw code agents pointed at any repository."
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "It runs a gated delivery pipeline from plan to ADR, PRD, issues, TDD build, and E2E with human approvals, work tree"
+    },
+    {
+      "start": 685.0,
+      "end": 685.0,
+      "text": "isolation, budgets, crash safe file state, and retro benchmarks for improving prompts."
+    },
+    {
+      "start": 691.0,
+      "end": 691.0,
+      "text": "Letting AI agents run random shell commands directly on your machine is a massive security hazard, but you don't want to compromise your privacy or deal"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "with cloud latency. Tupper is an open-source self-hosted sandbox that lets your agents execute untrusted code"
+    },
+    {
+      "start": 707.0,
+      "end": 707.0,
+      "text": "safely on your own hardware. It uses Apple containers or Firecracker to boot isolated environments in under a second."
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "Long clawed code runs have one tiny annoyance. You tab away, then keep wondering if it's still thinking or waiting for permission. Claude's status"
+    },
+    {
+      "start": 724.0,
+      "end": 724.0,
+      "text": "bar puts that state in your Mac OS menu bar. It animates while Claude works, shows tool labels, turns yellow when"
+    },
+    {
+      "start": 732.0,
+      "end": 732.0,
+      "text": "approval is needed, and can play a chime when a long turn finishes. Hooks write local state. The app just pulls it."
+    },
+    {
+      "start": 740.0,
+      "end": 740.0,
+      "text": "Humanoid demos look great until you try moving the same motion onto a different robot and every limb length, joint limit, and foot contact assumption"
+    },
+    {
+      "start": 748.0,
+      "end": 748.0,
+      "text": "breaks. Robot retargeter gives you a full pipeline for that translation. It pulls key points from SNPLX or source"
+    },
+    {
+      "start": 756.0,
+      "end": 756.0,
+      "text": "robot CSVs, maps them through Mujo and inverse kinematics, handles skeleton scaling, knee bending, and foot"
+    },
+    {
+      "start": 763.0,
+      "end": 763.0,
+      "text": "contacts, then previews. Fitbit gives you plenty of data, but most of it still feels trapped behind whatever view the"
+    },
+    {
+      "start": 770.0,
+      "end": 770.0,
+      "text": "mobile app decided to show. Open Fit is a private desktop dashboard for Google Health and Fitbit data. Built-in"
+    },
+    {
+      "start": 778.0,
+      "end": 778.0,
+      "text": "Electron with a Codeex powered assistant on the side. It hides empty sections, stores tokens encrypted in the main"
+    },
+    {
+      "start": 785.0,
+      "end": 785.0,
+      "text": "process, supports demo mode, and lets Codeex answer questions from normalized readonly health context."
+    },
+    {
+      "start": 792.0,
+      "end": 792.0,
+      "text": "Your coding agent can refactor a repo, but ask it to fold a protein and it has no idea where to start. Nvidia's Bionmo"
+    },
+    {
+      "start": 801.0,
+      "end": 801.0,
+      "text": "agent toolkit packages a decade of its life science models as agent skills so your agent runs the right model and explains the results. There are skills"
+    },
+    {
+      "start": 810.0,
+      "end": 810.0,
+      "text": "for protein folding, docking, and design, plus workflows that chain them."
+    },
+    {
+      "start": 814.0,
+      "end": 814.0,
+      "text": "Install them into clawed code or codecs with one command."
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "Stitching together disperate AI models and biioinformatic tools to design synthetic proteins or custom DNA is a nightmare of custom pipeline scripts."
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "Protool language is an open-source high-level programming language that treats biological design like computer coding. So you don't have to worry about"
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "manual environment setup. You define your sequence goals and constraints and its framework runs automated optimization loops."
+    },
+    {
+      "start": 846.0,
+      "end": 846.0,
+      "text": "PHP engines usually have one annoying constraint. They run the code you wrote."
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "Vibe PHP asks, \"What if they didn't?\" It's a Laravel based runtime that hands your PHP file to an AI, lets it imagine"
+    },
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "the database, clock, network, and missing functions, then returns the HTTP response it thinks your app meant."
+    },
+    {
+      "start": 866.0,
+      "end": 866.0,
+      "text": "Includes and headers work just enough to make the joke dangerous."
+    },
+    {
+      "start": 870.0,
+      "end": 870.0,
+      "text": "Every local audio model ships as its own Python repo with its own dependency."
+    },
+    {
+      "start": 874.0,
+      "end": 874.0,
+      "text": "hell. A texttospech model here, a transcription model there. None of them compatible. Audio.cpp is one pure C++ engine built on GGML that runs them all."
+    },
+    {
+      "start": 885.0,
+      "end": 885.0,
+      "text": "Speech, voice conversion, even music generation with no Python at inference."
+    },
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "It runs on GPU or CPU. The maintainer benchmarks several TTS paths at up to five times faster than Python."
+    },
+    {
+      "start": 897.0,
+      "end": 897.0,
+      "text": "Browser context is where half your work is, but giving an agent full browser control is a lot of trust for summarize this tab. Hermes browser extension keeps"
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "it readon. It's a Chrome and Edge side panel for your local or remote Hermes runtime capturing titles, URLs, selected"
+    },
+    {
+      "start": 913.0,
+      "end": 913.0,
+      "text": "text, page text, forms, links, and headings as untrusted context."
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "[music]"
+    }
+  ]
+}

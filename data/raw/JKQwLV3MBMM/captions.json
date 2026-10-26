@@ -1,0 +1,1515 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 37. 35 trending open- source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Every astrology app needs precise planetary positions underneath and almost all of them reach for the decades old Swiss ephemeris library to get them."
+    },
+    {
+      "timestamp": "0:20",
+      "text": "Zalen is a fresh take. It's a high precision astronomical ephemeris written in Rust. computes planetary positions"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "for any moment in time with nine world traditions built on top. Vadic, Western, Chinese, and more, each with its own interpretation layer."
+    },
+    {
+      "timestamp": "0:37",
+      "text": "Your AI agent runs a command, gets 500 lines of log output, and you pay full token price for all of it when it needed"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "three lines. Headroom strips that fat before it hits the LLM. Compresses tool outputs, logs, files, and rag chunks on"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "the way in, claiming 60 to 95% fewer tokens with the same answers. Ships as a library, a proxy, or an MCP server, so"
+    },
+    {
+      "timestamp": "1:01",
+      "text": "you drop it in however your stack is built. Most coding agents either ask permission every two seconds or run wild"
+    },
+    {
+      "timestamp": "1:08",
+      "text": "and break things. Gajode adds a real workflow in between. It's an external harness, not a hidden plugin that you"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "start beside codecs cla and it gives the agent a deliberate path, a deep interview to pin down what you actually"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "want, a reviewed plan, then t-mucks native execution with optional parallel workers for bigger jobs."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "Running multiple AI agents just to get one job done. Omni is an open- source meta harness that controls and combines"
+    },
+    {
+      "timestamp": "1:38",
+      "text": "tools like clawed code and codecs in one place. Set strict budget caps. Run agents in secure cloud sandboxes. Share live sessions with your team. One"
+    },
+    {
+      "timestamp": "1:47",
+      "text": "command stands up a local agent server reachable three ways at once. Terminal UI, web UI, and your phone."
+    },
+    {
+      "timestamp": "1:55",
+      "text": "AI agents fail in predictable ways."
+    },
+    {
+      "timestamp": "1:57",
+      "text": "Tests that assert nothing. Error handling that swallows the error. Docs that describe a function that no longer exists. Guard skills catches exactly"
+    },
+    {
+      "timestamp": "2:06",
+      "text": "those. A set of guard skills for coding agents. Quality gates aimed at the specific failure modes AI generates in"
+    },
+    {
+      "timestamp": "2:13",
+      "text": "code tests and docs. Flags the hollow test, the silent catch block, the stale comment."
+    },
+    {
+      "timestamp": "2:20",
+      "text": "If you want to use AI to hunt for serious security bugs in your codebase, look at this open-sourced open hack. It is a"
+    },
+    {
+      "timestamp": "2:29",
+      "text": "lightweight file-based workspace for whitebox security reviews that runs directly inside tools like claw code and cursor. It uses the exact same agent"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "prompts and set up their researchers used to find massive zero days in open- source software."
+    },
+    {
+      "timestamp": "2:44",
+      "text": "Someone literally burned a full transformer with KV cache straight into custom hardware and the speed is insane."
+    },
+    {
+      "timestamp": "2:50",
+      "text": "It is called gate GPT. Instead of using a GPU or CPU, it was designed gate by gate in Verarilog as a digital circuit"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "running on an old FPGA at just 80 megahertz. It pumps out 56,000 tokens per second. It is basically micro GPT running purely on custom silicon."
+    },
+    {
+      "timestamp": "3:09",
+      "text": "Cloud Fable 5 earns its reputation through how it works. Explicit multi-stage planning, delegating to sub"
+    },
+    {
+      "timestamp": "3:16",
+      "text": "agents, and verifying its own output before it trusts it. Fable mode bottles that behavior as a skill. Drop it into"
+    },
+    {
+      "timestamp": "3:24",
+      "text": "clawed code and it activates that same disciplined loop, planning out the stages, splitting work to sub aents, and self-checking the results on whatever model you're running."
+    },
+    {
+      "timestamp": "3:35",
+      "text": "Stop uploading your private videos to sketchy file converters just to trim them or make GIFs. You should check out"
+    },
+    {
+      "timestamp": "3:42",
+      "text": "FFmpeg web CLI. It is a completely free open-source browser tool that runs entirely on web assembly. It gives you"
+    },
+    {
+      "timestamp": "3:49",
+      "text": "over 30 video operations like batch processing, format conversion, and compression, but your files never leave your device. It even works completely offline."
+    },
+    {
+      "timestamp": "4:00",
+      "text": "You bookmark an article, come back to it later, and get a pop-up wall, autoplay video, and a payw wall where the content"
+    },
+    {
+      "timestamp": "4:06",
+      "text": "used to be. COD shadows it. It mirrors any website for offline viewing with all the JavaScript stripped out. Clean,"
+    },
+    {
+      "timestamp": "4:15",
+      "text": "fast, permanent copies of pages you want to keep. Read on a plane, keep it after the original vanishes, skip the modern web's noise entirely."
+    },
+    {
+      "timestamp": "4:25",
+      "text": "A single coding agent is one developer."
+    },
+    {
+      "timestamp": "4:28",
+      "text": "Flock is the whole team. It's an autonomous AI dev team bot, a set of agents that take on roles like a real engineering team and work through a task"
+    },
+    {
+      "timestamp": "4:36",
+      "text": "together rather than one model doing everything end to end. You hand it the work, the team coordinates, plans,"
+    },
+    {
+      "timestamp": "4:43",
+      "text": "builds, and reviews, and you stay out of the weeds."
+    },
+    {
+      "timestamp": "4:47",
+      "text": "If you post the same update to LinkedIn, X, Blue Sky, Threads, Masttoon, Facebook, and Instagram, you know each one has different length caps and"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "formatting quirks. So you end up rewriting the same post seven times."
+    },
+    {
+      "timestamp": "5:01",
+      "text": "Polyost from Azure CTO Mark Rasinovich fixes that. Draft your post once and it formats it for every platform at once,"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "applying each one's length and formatting limits live as you type."
+    },
+    {
+      "timestamp": "5:13",
+      "text": "Tired of explaining your database tables and metric definitions to your AI agent every single session?"
+    },
+    {
+      "timestamp": "5:20",
+      "text": "Clarlayer is an open- source MCP server that gives tools like cloud code or cursor a durable memory of your SQL"
+    },
+    {
+      "timestamp": "5:27",
+      "text": "schemas. It bootstraps from your existing DBT models, remembers your corrections, and reconciles your definitions against actual warehouse queries to catch mistakes."
+    },
+    {
+      "timestamp": "5:38",
+      "text": "Ironmith is an open- source Mac OS menu bar app that generates, builds, and saves native Swift UI apps from simple"
+    },
+    {
+      "timestamp": "5:45",
+      "text": "prompts. No electron bloat. Compiles real Swift code. Runs entirely on device with a llama or cloud models when you"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "want more power. A quick calculator, a tiny tracker, a one-off tool that isn't worth opening Xcode for. Describe it."
+    },
+    {
+      "timestamp": "6:00",
+      "text": "Get a real native Mac app instantly."
+    },
+    {
+      "timestamp": "6:03",
+      "text": "K9S made managing Kubernetes from the terminal genuinely pleasant. And KU is cut from the same cloth. It's a fast"
+    },
+    {
+      "timestamp": "6:10",
+      "text": "keyboard driven Kubernetes TUI. Browse any resource in your cluster, edit objects live, follow pod logs in real time, and shell straight into a"
+    },
+    {
+      "timestamp": "6:18",
+      "text": "container, all without leaving the keyboard. Inspired by K9S, Lens, and Lazygit, so it pulls the best ideas from each."
+    },
+    {
+      "timestamp": "6:27",
+      "text": "If you miss Claude Fable's planning, you need to check out Fable Codeex. It is a new open-source skill that brings Fable"
+    },
+    {
+      "timestamp": "6:34",
+      "text": "style workflows straight to your codeex agent. It sets up a strict planning loop with a goal ledger, evidence checkpoints, and final verification"
+    },
+    {
+      "timestamp": "6:42",
+      "text": "gates. Your agent actually plans, logs, and verifies its work instead of just blind coding."
+    },
+    {
+      "timestamp": "6:50",
+      "text": "If you need to animate a static logo, but only have a lowquality PNG, you have to try this. Pixel 2 Motion is a brand"
+    },
+    {
+      "timestamp": "6:58",
+      "text": "new open- source AI skill that takes any raster logo, reconstructs it into a super clean motion ready SVG, and then"
+    },
+    {
+      "timestamp": "7:05",
+      "text": "automatically choreographs a smooth logo animation. It exports everything as dependencyfree interactive HTML, plus GIF or video previews."
+    },
+    {
+      "timestamp": "7:15",
+      "text": "Want to understand how AI actually works, but absolutely hate math? You should look at AI Path. A developer used"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "Claude Fable to build a free zero math AI course with 30 interactive visual lessons. It takes you from a single"
+    },
+    {
+      "timestamp": "7:29",
+      "text": "neuron all the way to building a rag app from scratch, letting you tweak parameters on screen as you go."
+    },
+    {
+      "timestamp": "7:36",
+      "text": "Honestly, it makes learning machine learning so much more."
+    },
+    {
+      "timestamp": "7:41",
+      "text": "Imagine an AI that silently watches your screen, learns your workflows, and automates your most boring tasks without"
+    },
+    {
+      "timestamp": "7:48",
+      "text": "you configuring a single thing. That is ghost work. It is an open- source local first personal assistant built on screen"
+    },
+    {
+      "timestamp": "7:55",
+      "text": "pipe. Since there is no cloud and zero setup, all of your screen data stays completely private on your device."
+    },
+    {
+      "timestamp": "8:03",
+      "text": "You can now build and deploy full iOS and web apps straight from your iPhone with natural language prompts. It is"
+    },
+    {
+      "timestamp": "8:11",
+      "text": "called Riable, an open- source mobile app builder. You type what you want and an AI agent writes the code and deploys it live. Web apps run in Daytona"
+    },
+    {
+      "timestamp": "8:20",
+      "text": "sandboxes and native iOS apps get compiled in the cloud so you can install them on your actual phone. If you are"
+    },
+    {
+      "timestamp": "8:28",
+      "text": "running complex AI agent loops, you already know that your API bills can get ridiculously high."
+    },
+    {
+      "timestamp": "8:35",
+      "text": "You need to check out Inferoa. It is an open-source TypeScript framework designed specifically for token efficiency. It uses smart KV cache"
+    },
+    {
+      "timestamp": "8:43",
+      "text": "management and loop engineering to optimize how your agents interact with LLMs. That means you get much faster run times and way lower inference costs."
+    },
+    {
+      "timestamp": "8:54",
+      "text": "The big labs make it look like worldclass search agents. The ones that research a hard question across dozens of sources require a giant proprietary"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "model. Harness 1 is an open training recipe for long horizon search agents that matches Frontier AI's search"
+    },
+    {
+      "timestamp": "9:09",
+      "text": "capability using just a 20 billion parameter model. Long horizon means the agent keeps reasoning and searching"
+    },
+    {
+      "timestamp": "9:17",
+      "text": "across many steps without losing the thread."
+    },
+    {
+      "timestamp": "9:21",
+      "text": "Want to use AI to build full playable 3D games right in your browser? 3JS game skills is a set of agent skills for"
+    },
+    {
+      "timestamp": "9:28",
+      "text": "building playable polished 3JS browser games. real gameplay logic, AAA style graphics, proper UI, and a QA pass to"
+    },
+    {
+      "timestamp": "9:36",
+      "text": "catch what broke, plus optional AI generated 3D models, images, and audio so your agent can produce the assets, too."
+    },
+    {
+      "timestamp": "9:45",
+      "text": "The dangerous thing about an AI research assistant isn't that it's wrong sometimes. It's that it's wrong with confidence, and you can't tell when."
+    },
+    {
+      "timestamp": "9:54",
+      "text": "Caliper is an AI research analyst that knows when to trust itself, a calibrated, risk controlled tool using"
+    },
+    {
+      "timestamp": "10:00",
+      "text": "agent for science. It estimates its own confidence, holds back or flags uncertainty when it's on shaky ground,"
+    },
+    {
+      "timestamp": "10:08",
+      "text": "and reaches for real tools instead of guessing."
+    },
+    {
+      "timestamp": "10:12",
+      "text": "Want to turn your terminal sessions into clean animated GIFs for your GitHub readme? You should check out Asky Gif."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "It turns a terminal session into a good-looking animated GIF built as a wrapper around VHS Charm's terminal recorder, but with an attractive default"
+    },
+    {
+      "timestamp": "10:28",
+      "text": "look baked in, so you don't have to tune anything. Write a short script of the commands you want shown, run it, and out"
+    },
+    {
+      "timestamp": "10:35",
+      "text": "comes a polished demo GIF ready to drop in your readme or post."
+    },
+    {
+      "timestamp": "10:40",
+      "text": "Stop paying for bloated online OCR tools just to get text from your images and PDFs. Mac OCR is a completely free"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "command line utility that uses Apple's native vision framework to scan text locally on your Mac. It can even stream"
+    },
+    {
+      "timestamp": "10:55",
+      "text": "PDF pages instantly to make them fully searchable. Since it is entirely local, your documents stay completely private."
+    },
+    {
+      "timestamp": "11:03",
+      "text": "One model working alone misses its own blind spots. Two Frontier models checking each other catch more. Fusion Fable bottles that into a clawed code"
+    },
+    {
+      "timestamp": "11:11",
+      "text": "skill. Opus 4.8 drafts the answer. A second model, another Opus or GPT 5.5 via codeex checks it for holes. Then"
+    },
+    {
+      "timestamp": "11:19",
+      "text": "Opus fuses both passes into one refined result. Draft, adversarial review, synthesis automatically in one skill."
+    },
+    {
+      "timestamp": "11:28",
+      "text": "Most database diagram tools are paywalled, ugly, or force you to upload your schemas to their servers. That is why you should check out SQL to ER"
+    },
+    {
+      "timestamp": "11:37",
+      "text": "diagram. It is a completely free open- source tool that parses your raw create table statements into clean interactive"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "diagrams right in your browser. Nothing ever gets uploaded and you can even edit the tables on the canvas to surgically update your SQL."
+    },
+    {
+      "timestamp": "11:53",
+      "text": "Once you start running more than one clawed code session at a time, your T-M setup turns into a maze of windows and you lose track of which agent is doing"
+    },
+    {
+      "timestamp": "12:01",
+      "text": "what. This tool tames that. It's a T-Mox session manager built specifically for cloud code. Spin up, name, switch"
+    },
+    {
+      "timestamp": "12:09",
+      "text": "between, and keep track of multiple cla interface instead of squinting at a row of identical pains."
+    },
+    {
+      "timestamp": "12:18",
+      "text": "Everyone's shipping skills that claim to make Opus act like Fable, but most just paste in a wish list of behaviors and hope. Fableize is the disciplined"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "version. The author actually ran a fable versus opus comparison and shipped only the behaviors that proved transferable."
+    },
+    {
+      "timestamp": "12:34",
+      "text": "Completion, evidence, and verification enforced as hard procedure rather than gentle suggestion."
+    },
+    {
+      "timestamp": "12:42",
+      "text": "Vorsaint is a free menu bar app that replaces a stack of paid tools. Keep awake per app volume mixer. Live system monitor with power and network graphs."
+    },
+    {
+      "timestamp": "12:51",
+      "text": "File cut and paste and finder. Better window switcher. Clipboard shelf. App uninstaller. Native swift UI. Zero"
+    },
+    {
+      "timestamp": "12:58",
+      "text": "electron bloat. Zero telemetry. Signed and notorized by Apple. Opens with no warnings."
+    },
+    {
+      "timestamp": "13:04",
+      "text": "Trying to create clean pixel art sprite sheets for your indie game without spending weeks drawing? You should look at Perfect Pixel Studio. It is an open-"
+    },
+    {
+      "timestamp": "13:14",
+      "text": "source app built with Go and React that generates character sprite sheets with eight directions and over a 100 unique actions from a single text prompt."
+    },
+    {
+      "timestamp": "13:23",
+      "text": "Instead of handdrawing every frame for walking, jumping, or fighting, the AI handles the bulk of the work."
+    },
+    {
+      "timestamp": "13:31",
+      "text": "Orange Cloud is a native iOS client for Cloudflare, real app, not a web rapper, that signs in through official OOTH and"
+    },
+    {
+      "timestamp": "13:39",
+      "text": "gives you proper mobile access to your Cloudflare account. Check your zones, manage records, and keep an eye on your setup from your phone with a UI that actually feels like iOS."
+    },
+    {
+      "timestamp": "13:50",
+      "text": "For anyone who runs their stack on Cloudflare, this is the mobile companion it's been missing."
+    },
+    {
+      "timestamp": "13:57",
+      "text": "You've seen a dozen agent harnesses this year, and maybe you've wanted to build your own instead of bending someone else's to. This is the tool that builds"
+    },
+    {
+      "timestamp": "14:04",
+      "text": "the tool. Agent harness generator is a meta harness. It scaffolds your own focused branded agent harness complete"
+    },
+    {
+      "timestamp": "14:12",
+      "text": "with its own NPX CLI, an MCP server, memory, a learning loop, and witness signed releases for verifiable provenence."
+    },
+    {
+      "timestamp": "14:22",
+      "text": "Surya is the JSON workhorse of the Rust world, but it parses into owned data structures, copying strings out of the"
+    },
+    {
+      "timestamp": "14:29",
+      "text": "input as it goes. JSON RS takes a leaner path. It's a zerocopy JSON library with compile time generated typed parsers. It"
+    },
+    {
+      "timestamp": "14:38",
+      "text": "builds a parser tailored to your exact types when you compile and reads fields by pointing straight into the original buffer instead of copying them out."
+    },
+    {
+      "timestamp": "14:48",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today number 37. 35 trending open- source projects on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every astrology app needs precise planetary positions underneath and almost all of them reach for the decades old Swiss ephemeris library to get them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 20000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zalen is a fresh take. It's a high precision astronomical ephemeris written in Rust. computes planetary positions"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for any moment in time with nine world traditions built on top. Vadic, Western, Chinese, and more, each with its own interpretation layer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your AI agent runs a command, gets 500 lines of log output, and you pay full token price for all of it when it needed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three lines. Headroom strips that fat before it hits the LLM. Compresses tool outputs, logs, files, and rag chunks on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the way in, claiming 60 to 95% fewer tokens with the same answers. Ships as a library, a proxy, or an MCP server, so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you drop it in however your stack is built. Most coding agents either ask permission every two seconds or run wild"
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and break things. Gajode adds a real workflow in between. It's an external harness, not a hidden plugin that you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "start beside codecs cla and it gives the agent a deliberate path, a deep interview to pin down what you actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "want, a reviewed plan, then t-mucks native execution with optional parallel workers for bigger jobs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running multiple AI agents just to get one job done. Omni is an open- source meta harness that controls and combines"
+        }
+      ]
+    },
+    {
+      "tStartMs": 98000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tools like clawed code and codecs in one place. Set strict budget caps. Run agents in secure cloud sandboxes. Share live sessions with your team. One"
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command stands up a local agent server reachable three ways at once. Terminal UI, web UI, and your phone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 115000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents fail in predictable ways."
+        }
+      ]
+    },
+    {
+      "tStartMs": 117000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tests that assert nothing. Error handling that swallows the error. Docs that describe a function that no longer exists. Guard skills catches exactly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "those. A set of guard skills for coding agents. Quality gates aimed at the specific failure modes AI generates in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 133000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code tests and docs. Flags the hollow test, the silent catch block, the stale comment."
+        }
+      ]
+    },
+    {
+      "tStartMs": 140000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you want to use AI to hunt for serious security bugs in your codebase, look at this open-sourced open hack. It is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lightweight file-based workspace for whitebox security reviews that runs directly inside tools like claw code and cursor. It uses the exact same agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prompts and set up their researchers used to find massive zero days in open- source software."
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone literally burned a full transformer with KV cache straight into custom hardware and the speed is insane."
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It is called gate GPT. Instead of using a GPU or CPU, it was designed gate by gate in Verarilog as a digital circuit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running on an old FPGA at just 80 megahertz. It pumps out 56,000 tokens per second. It is basically micro GPT running purely on custom silicon."
+        }
+      ]
+    },
+    {
+      "tStartMs": 189000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloud Fable 5 earns its reputation through how it works. Explicit multi-stage planning, delegating to sub"
+        }
+      ]
+    },
+    {
+      "tStartMs": 196000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents, and verifying its own output before it trusts it. Fable mode bottles that behavior as a skill. Drop it into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clawed code and it activates that same disciplined loop, planning out the stages, splitting work to sub aents, and self-checking the results on whatever model you're running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop uploading your private videos to sketchy file converters just to trim them or make GIFs. You should check out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 222000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FFmpeg web CLI. It is a completely free open-source browser tool that runs entirely on web assembly. It gives you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "over 30 video operations like batch processing, format conversion, and compression, but your files never leave your device. It even works completely offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You bookmark an article, come back to it later, and get a pop-up wall, autoplay video, and a payw wall where the content"
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "used to be. COD shadows it. It mirrors any website for offline viewing with all the JavaScript stripped out. Clean,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast, permanent copies of pages you want to keep. Read on a plane, keep it after the original vanishes, skip the modern web's noise entirely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 265000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A single coding agent is one developer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flock is the whole team. It's an autonomous AI dev team bot, a set of agents that take on roles like a real engineering team and work through a task"
+        }
+      ]
+    },
+    {
+      "tStartMs": 276000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "together rather than one model doing everything end to end. You hand it the work, the team coordinates, plans,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 283000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds, and reviews, and you stay out of the weeds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you post the same update to LinkedIn, X, Blue Sky, Threads, Masttoon, Facebook, and Instagram, you know each one has different length caps and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "formatting quirks. So you end up rewriting the same post seven times."
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Polyost from Azure CTO Mark Rasinovich fixes that. Draft your post once and it formats it for every platform at once,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "applying each one's length and formatting limits live as you type."
+        }
+      ]
+    },
+    {
+      "tStartMs": 313000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of explaining your database tables and metric definitions to your AI agent every single session?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clarlayer is an open- source MCP server that gives tools like cloud code or cursor a durable memory of your SQL"
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "schemas. It bootstraps from your existing DBT models, remembers your corrections, and reconciles your definitions against actual warehouse queries to catch mistakes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 338000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ironmith is an open- source Mac OS menu bar app that generates, builds, and saves native Swift UI apps from simple"
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prompts. No electron bloat. Compiles real Swift code. Runs entirely on device with a llama or cloud models when you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "want more power. A quick calculator, a tiny tracker, a one-off tool that isn't worth opening Xcode for. Describe it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Get a real native Mac app instantly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "K9S made managing Kubernetes from the terminal genuinely pleasant. And KU is cut from the same cloth. It's a fast"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard driven Kubernetes TUI. Browse any resource in your cluster, edit objects live, follow pod logs in real time, and shell straight into a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "container, all without leaving the keyboard. Inspired by K9S, Lens, and Lazygit, so it pulls the best ideas from each."
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you miss Claude Fable's planning, you need to check out Fable Codeex. It is a new open-source skill that brings Fable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 394000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "style workflows straight to your codeex agent. It sets up a strict planning loop with a goal ledger, evidence checkpoints, and final verification"
+        }
+      ]
+    },
+    {
+      "tStartMs": 402000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gates. Your agent actually plans, logs, and verifies its work instead of just blind coding."
+        }
+      ]
+    },
+    {
+      "tStartMs": 410000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you need to animate a static logo, but only have a lowquality PNG, you have to try this. Pixel 2 Motion is a brand"
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "new open- source AI skill that takes any raster logo, reconstructs it into a super clean motion ready SVG, and then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 425000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "automatically choreographs a smooth logo animation. It exports everything as dependencyfree interactive HTML, plus GIF or video previews."
+        }
+      ]
+    },
+    {
+      "tStartMs": 435000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to understand how AI actually works, but absolutely hate math? You should look at AI Path. A developer used"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude Fable to build a free zero math AI course with 30 interactive visual lessons. It takes you from a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 449000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "neuron all the way to building a rag app from scratch, letting you tweak parameters on screen as you go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 456000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Honestly, it makes learning machine learning so much more."
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Imagine an AI that silently watches your screen, learns your workflows, and automates your most boring tasks without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you configuring a single thing. That is ghost work. It is an open- source local first personal assistant built on screen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 475000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pipe. Since there is no cloud and zero setup, all of your screen data stays completely private on your device."
+        }
+      ]
+    },
+    {
+      "tStartMs": 483000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can now build and deploy full iOS and web apps straight from your iPhone with natural language prompts. It is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "called Riable, an open- source mobile app builder. You type what you want and an AI agent writes the code and deploys it live. Web apps run in Daytona"
+        }
+      ]
+    },
+    {
+      "tStartMs": 500000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sandboxes and native iOS apps get compiled in the cloud so you can install them on your actual phone. If you are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 508000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running complex AI agent loops, you already know that your API bills can get ridiculously high."
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You need to check out Inferoa. It is an open-source TypeScript framework designed specifically for token efficiency. It uses smart KV cache"
+        }
+      ]
+    },
+    {
+      "tStartMs": 523000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "management and loop engineering to optimize how your agents interact with LLMs. That means you get much faster run times and way lower inference costs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The big labs make it look like worldclass search agents. The ones that research a hard question across dozens of sources require a giant proprietary"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model. Harness 1 is an open training recipe for long horizon search agents that matches Frontier AI's search"
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "capability using just a 20 billion parameter model. Long horizon means the agent keeps reasoning and searching"
+        }
+      ]
+    },
+    {
+      "tStartMs": 557000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "across many steps without losing the thread."
+        }
+      ]
+    },
+    {
+      "tStartMs": 561000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to use AI to build full playable 3D games right in your browser? 3JS game skills is a set of agent skills for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "building playable polished 3JS browser games. real gameplay logic, AAA style graphics, proper UI, and a QA pass to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "catch what broke, plus optional AI generated 3D models, images, and audio so your agent can produce the assets, too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The dangerous thing about an AI research assistant isn't that it's wrong sometimes. It's that it's wrong with confidence, and you can't tell when."
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caliper is an AI research analyst that knows when to trust itself, a calibrated, risk controlled tool using"
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent for science. It estimates its own confidence, holds back or flags uncertainty when it's on shaky ground,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and reaches for real tools instead of guessing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 612000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to turn your terminal sessions into clean animated GIFs for your GitHub readme? You should check out Asky Gif."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It turns a terminal session into a good-looking animated GIF built as a wrapper around VHS Charm's terminal recorder, but with an attractive default"
+        }
+      ]
+    },
+    {
+      "tStartMs": 628000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "look baked in, so you don't have to tune anything. Write a short script of the commands you want shown, run it, and out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "comes a polished demo GIF ready to drop in your readme or post."
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop paying for bloated online OCR tools just to get text from your images and PDFs. Mac OCR is a completely free"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command line utility that uses Apple's native vision framework to scan text locally on your Mac. It can even stream"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDF pages instantly to make them fully searchable. Since it is entirely local, your documents stay completely private."
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "One model working alone misses its own blind spots. Two Frontier models checking each other catch more. Fusion Fable bottles that into a clawed code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 671000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skill. Opus 4.8 drafts the answer. A second model, another Opus or GPT 5.5 via codeex checks it for holes. Then"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Opus fuses both passes into one refined result. Draft, adversarial review, synthesis automatically in one skill."
+        }
+      ]
+    },
+    {
+      "tStartMs": 688000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most database diagram tools are paywalled, ugly, or force you to upload your schemas to their servers. That is why you should check out SQL to ER"
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "diagram. It is a completely free open- source tool that parses your raw create table statements into clean interactive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "diagrams right in your browser. Nothing ever gets uploaded and you can even edit the tables on the canvas to surgically update your SQL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Once you start running more than one clawed code session at a time, your T-M setup turns into a maze of windows and you lose track of which agent is doing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "what. This tool tames that. It's a T-Mox session manager built specifically for cloud code. Spin up, name, switch"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between, and keep track of multiple cla interface instead of squinting at a row of identical pains."
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everyone's shipping skills that claim to make Opus act like Fable, but most just paste in a wish list of behaviors and hope. Fableize is the disciplined"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "version. The author actually ran a fable versus opus comparison and shipped only the behaviors that proved transferable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Completion, evidence, and verification enforced as hard procedure rather than gentle suggestion."
+        }
+      ]
+    },
+    {
+      "tStartMs": 762000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vorsaint is a free menu bar app that replaces a stack of paid tools. Keep awake per app volume mixer. Live system monitor with power and network graphs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 771000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "File cut and paste and finder. Better window switcher. Clipboard shelf. App uninstaller. Native swift UI. Zero"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "electron bloat. Zero telemetry. Signed and notorized by Apple. Opens with no warnings."
+        }
+      ]
+    },
+    {
+      "tStartMs": 784000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Trying to create clean pixel art sprite sheets for your indie game without spending weeks drawing? You should look at Perfect Pixel Studio. It is an open-"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "source app built with Go and React that generates character sprite sheets with eight directions and over a 100 unique actions from a single text prompt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 803000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of handdrawing every frame for walking, jumping, or fighting, the AI handles the bulk of the work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 811000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Orange Cloud is a native iOS client for Cloudflare, real app, not a web rapper, that signs in through official OOTH and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 819000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gives you proper mobile access to your Cloudflare account. Check your zones, manage records, and keep an eye on your setup from your phone with a UI that actually feels like iOS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone who runs their stack on Cloudflare, this is the mobile companion it's been missing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've seen a dozen agent harnesses this year, and maybe you've wanted to build your own instead of bending someone else's to. This is the tool that builds"
+        }
+      ]
+    },
+    {
+      "tStartMs": 844000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the tool. Agent harness generator is a meta harness. It scaffolds your own focused branded agent harness complete"
+        }
+      ]
+    },
+    {
+      "tStartMs": 852000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with its own NPX CLI, an MCP server, memory, a learning loop, and witness signed releases for verifiable provenence."
+        }
+      ]
+    },
+    {
+      "tStartMs": 862000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Surya is the JSON workhorse of the Rust world, but it parses into owned data structures, copying strings out of the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 869000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "input as it goes. JSON RS takes a leaner path. It's a zerocopy JSON library with compile time generated typed parsers. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 878000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds a parser tailored to your exact types when you compile and reads fields by pointing straight into the original buffer instead of copying them out."
+        }
+      ]
+    },
+    {
+      "tStartMs": 888000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

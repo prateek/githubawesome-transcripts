@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "id": "JKQwLV3MBMM",
+  "title": "GitHub Trending Today #37: xalen, headroom, gajae-code, guard-skills, OpenHack, gateGPT, Polypost",
+  "url": "https://www.youtube.com/watch?v=JKQwLV3MBMM",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-17",
+  "duration": 895,
+  "word_count": 2334,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T22:50:29+00:00",
+    "metadata_sha256": "6f4e0df0238d2a4bfc1b15578053baa293566d4dd70d23050eda6a30f2088949",
+    "captions_sha256": "59c3cdcb1d688f15c2a1f75038ad3a268e452de84bb7cefcc68d49e9f03bc864",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending today number 37. 35 trending open- source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "xalen-ephemeris",
+      "repositories": [
+        "https://github.com/vedika-io/xalen-ephemeris"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Every astrology app needs precise planetary positions underneath and almost all of them reach for the decades old Swiss ephemeris library to get them. Zalen is a fresh take. It's a high precision astronomical ephemeris written in Rust. computes planetary positions for any moment in time with nine world traditions built on top. Vadic, Western, Chinese, and more, each with its own interpretation layer."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "headroom",
+      "repositories": [
+        "https://github.com/chopratejas/headroom"
+      ],
+      "id": "s003",
+      "end": 64,
+      "paragraphs": [
+        "Your AI agent runs a command, gets 500 lines of log output, and you pay full token price for all of it when it needed three lines. Headroom strips that fat before it hits the LLM. Compresses tool outputs, logs, files, and rag chunks on the way in, claiming 60 to 95% fewer tokens with the same answers. Ships as a library, a proxy, or an MCP server, so you drop it in however your stack is built. Most coding agents either ask permission every two seconds or run wild"
+      ]
+    },
+    {
+      "start": 64,
+      "title": "gajae-code",
+      "repositories": [
+        "https://github.com/Yeachan-Heo/gajae-code"
+      ],
+      "id": "s004",
+      "end": 91,
+      "paragraphs": [
+        "and break things. Gajode adds a real workflow in between. It's an external harness, not a hidden plugin that you start beside codecs cla and it gives the agent a deliberate path, a deep interview to pin down what you actually want, a reviewed plan, then t-mucks native execution with optional parallel workers for bigger jobs."
+      ]
+    },
+    {
+      "start": 91,
+      "title": "omnigent",
+      "repositories": [
+        "https://github.com/omnigent-ai/omnigent"
+      ],
+      "id": "s005",
+      "end": 115,
+      "paragraphs": [
+        "Running multiple AI agents just to get one job done. Omni is an open- source meta harness that controls and combines tools like clawed code and codecs in one place. Set strict budget caps. Run agents in secure cloud sandboxes. Share live sessions with your team. One command stands up a local agent server reachable three ways at once. Terminal UI, web UI, and your phone."
+      ]
+    },
+    {
+      "start": 115,
+      "title": "guard-skills",
+      "repositories": [
+        "https://github.com/amElnagdy/guard-skills"
+      ],
+      "id": "s006",
+      "end": 140,
+      "paragraphs": [
+        "AI agents fail in predictable ways. Tests that assert nothing. Error handling that swallows the error. Docs that describe a function that no longer exists. Guard skills catches exactly those. A set of guard skills for coding agents. Quality gates aimed at the specific failure modes AI generates in code tests and docs. Flags the hollow test, the silent catch block, the stale comment."
+      ]
+    },
+    {
+      "start": 140,
+      "title": "OpenHack",
+      "repositories": [
+        "https://github.com/hadriansecurity/OpenHack"
+      ],
+      "id": "s007",
+      "end": 164,
+      "paragraphs": [
+        "If you want to use AI to hunt for serious security bugs in your codebase, look at this open-sourced open hack. It is a lightweight file-based workspace for whitebox security reviews that runs directly inside tools like claw code and cursor. It uses the exact same agent prompts and set up their researchers used to find massive zero days in open- source software."
+      ]
+    },
+    {
+      "start": 164,
+      "title": "gateGPT",
+      "repositories": [
+        "https://github.com/fguzman82/gateGPT"
+      ],
+      "id": "s008",
+      "end": 189,
+      "paragraphs": [
+        "Someone literally burned a full transformer with KV cache straight into custom hardware and the speed is insane. It is called gate GPT. Instead of using a GPU or CPU, it was designed gate by gate in Verarilog as a digital circuit running on an old FPGA at just 80 megahertz. It pumps out 56,000 tokens per second. It is basically micro GPT running purely on custom silicon."
+      ]
+    },
+    {
+      "start": 189,
+      "title": "fable-mode",
+      "repositories": [
+        "https://github.com/mrtooher/fable-mode"
+      ],
+      "id": "s009",
+      "end": 215,
+      "paragraphs": [
+        "Cloud Fable 5 earns its reputation through how it works. Explicit multi-stage planning, delegating to sub agents, and verifying its own output before it trusts it. Fable mode bottles that behavior as a skill. Drop it into clawed code and it activates that same disciplined loop, planning out the stages, splitting work to sub aents, and self-checking the results on whatever model you're running."
+      ]
+    },
+    {
+      "start": 215,
+      "title": "ffmpeg-webCLI",
+      "repositories": [
+        "https://github.com/tejaswigowda/ffmpeg-webCLI"
+      ],
+      "id": "s010",
+      "end": 240,
+      "paragraphs": [
+        "Stop uploading your private videos to sketchy file converters just to trim them or make GIFs. You should check out FFmpeg web CLI. It is a completely free open-source browser tool that runs entirely on web assembly. It gives you over 30 video operations like batch processing, format conversion, and compression, but your files never leave your device. It even works completely offline."
+      ]
+    },
+    {
+      "start": 240,
+      "title": "kage",
+      "repositories": [
+        "https://github.com/tamnd/kage"
+      ],
+      "id": "s011",
+      "end": 265,
+      "paragraphs": [
+        "You bookmark an article, come back to it later, and get a pop-up wall, autoplay video, and a payw wall where the content used to be. COD shadows it. It mirrors any website for offline viewing with all the JavaScript stripped out. Clean, fast, permanent copies of pages you want to keep. Read on a plane, keep it after the original vanishes, skip the modern web's noise entirely."
+      ]
+    },
+    {
+      "start": 265,
+      "title": "flock",
+      "repositories": [
+        "https://github.com/duckbugio/flock"
+      ],
+      "id": "s012",
+      "end": 287,
+      "paragraphs": [
+        "A single coding agent is one developer. Flock is the whole team. It's an autonomous AI dev team bot, a set of agents that take on roles like a real engineering team and work through a task together rather than one model doing everything end to end. You hand it the work, the team coordinates, plans, builds, and reviews, and you stay out of the weeds."
+      ]
+    },
+    {
+      "start": 287,
+      "title": "Polypost",
+      "repositories": [
+        "https://github.com/markrussinovich/Polypost"
+      ],
+      "id": "s013",
+      "end": 313,
+      "paragraphs": [
+        "If you post the same update to LinkedIn, X, Blue Sky, Threads, Masttoon, Facebook, and Instagram, you know each one has different length caps and formatting quirks. So you end up rewriting the same post seven times. Polyost from Azure CTO Mark Rasinovich fixes that. Draft your post once and it formats it for every platform at once, applying each one's length and formatting limits live as you type."
+      ]
+    },
+    {
+      "start": 313,
+      "title": "clarilayer",
+      "repositories": [
+        "https://github.com/clarilayer/clarilayer"
+      ],
+      "id": "s014",
+      "end": 338,
+      "paragraphs": [
+        "Tired of explaining your database tables and metric definitions to your AI agent every single session? Clarlayer is an open- source MCP server that gives tools like cloud code or cursor a durable memory of your SQL schemas. It bootstraps from your existing DBT models, remembers your corrections, and reconciles your definitions against actual warehouse queries to catch mistakes."
+      ]
+    },
+    {
+      "start": 338,
+      "title": "Ironsmith",
+      "repositories": [
+        "https://github.com/Jeidoban/Ironsmith"
+      ],
+      "id": "s015",
+      "end": 363,
+      "paragraphs": [
+        "Ironmith is an open- source Mac OS menu bar app that generates, builds, and saves native Swift UI apps from simple prompts. No electron bloat. Compiles real Swift code. Runs entirely on device with a llama or cloud models when you want more power. A quick calculator, a tiny tracker, a one-off tool that isn't worth opening Xcode for. Describe it. Get a real native Mac app instantly."
+      ]
+    },
+    {
+      "start": 363,
+      "title": "ku",
+      "repositories": [
+        "https://github.com/bjarneo/ku"
+      ],
+      "id": "s016",
+      "end": 387,
+      "paragraphs": [
+        "K9S made managing Kubernetes from the terminal genuinely pleasant. And KU is cut from the same cloth. It's a fast keyboard driven Kubernetes TUI. Browse any resource in your cluster, edit objects live, follow pod logs in real time, and shell straight into a container, all without leaving the keyboard. Inspired by K9S, Lens, and Lazygit, so it pulls the best ideas from each."
+      ]
+    },
+    {
+      "start": 387,
+      "title": "FableCodex",
+      "repositories": [
+        "https://github.com/baskduf/FableCodex"
+      ],
+      "id": "s017",
+      "end": 410,
+      "paragraphs": [
+        "If you miss Claude Fable's planning, you need to check out Fable Codeex. It is a new open-source skill that brings Fable style workflows straight to your codeex agent. It sets up a strict planning loop with a goal ledger, evidence checkpoints, and final verification gates. Your agent actually plans, logs, and verifies its work instead of just blind coding."
+      ]
+    },
+    {
+      "start": 410,
+      "title": "pixel2motion",
+      "repositories": [
+        "https://github.com/nolangz/pixel2motion"
+      ],
+      "id": "s018",
+      "end": 435,
+      "paragraphs": [
+        "If you need to animate a static logo, but only have a lowquality PNG, you have to try this. Pixel 2 Motion is a brand new open- source AI skill that takes any raster logo, reconstructs it into a super clean motion ready SVG, and then automatically choreographs a smooth logo animation. It exports everything as dependencyfree interactive HTML, plus GIF or video previews."
+      ]
+    },
+    {
+      "start": 435,
+      "title": "aipath",
+      "repositories": [
+        "https://github.com/buynao/aipath"
+      ],
+      "id": "s019",
+      "end": 461,
+      "paragraphs": [
+        "Want to understand how AI actually works, but absolutely hate math? You should look at AI Path. A developer used Claude Fable to build a free zero math AI course with 30 interactive visual lessons. It takes you from a single neuron all the way to building a rag app from scratch, letting you tweak parameters on screen as you go. Honestly, it makes learning machine learning so much more."
+      ]
+    },
+    {
+      "start": 461,
+      "title": "ghostwork",
+      "repositories": [
+        "https://github.com/hvardhan878/ghostwork"
+      ],
+      "id": "s020",
+      "end": 483,
+      "paragraphs": [
+        "Imagine an AI that silently watches your screen, learns your workflows, and automates your most boring tasks without you configuring a single thing. That is ghost work. It is an open- source local first personal assistant built on screen pipe. Since there is no cloud and zero setup, all of your screen data stays completely private on your device."
+      ]
+    },
+    {
+      "start": 483,
+      "title": "rilable",
+      "repositories": [
+        "https://github.com/rbrown101010/rilable"
+      ],
+      "id": "s021",
+      "end": 507,
+      "paragraphs": [
+        "You can now build and deploy full iOS and web apps straight from your iPhone with natural language prompts. It is called Riable, an open- source mobile app builder. You type what you want and an AI agent writes the code and deploys it live. Web apps run in Daytona sandboxes and native iOS apps get compiled in the cloud so you can install them on your actual phone. If you are"
+      ]
+    },
+    {
+      "start": 507,
+      "title": "inferoa",
+      "repositories": [
+        "https://github.com/agentic-in/inferoa"
+      ],
+      "id": "s022",
+      "end": 533,
+      "paragraphs": [
+        "running complex AI agent loops, you already know that your API bills can get ridiculously high. You need to check out Inferoa. It is an open-source TypeScript framework designed specifically for token efficiency. It uses smart KV cache management and loop engineering to optimize how your agents interact with LLMs. That means you get much faster run times and way lower inference costs."
+      ]
+    },
+    {
+      "start": 533,
+      "title": "harness-1",
+      "repositories": [
+        "https://github.com/pat-jj/harness-1"
+      ],
+      "id": "s023",
+      "end": 561,
+      "paragraphs": [
+        "The big labs make it look like worldclass search agents. The ones that research a hard question across dozens of sources require a giant proprietary model. Harness 1 is an open training recipe for long horizon search agents that matches Frontier AI's search capability using just a 20 billion parameter model. Long horizon means the agent keeps reasoning and searching across many steps without losing the thread."
+      ]
+    },
+    {
+      "start": 561,
+      "title": "threejs-game-skills",
+      "repositories": [
+        "https://github.com/majidmanzarpour/threejs-game-skills"
+      ],
+      "id": "s024",
+      "end": 584,
+      "paragraphs": [
+        "Want to use AI to build full playable 3D games right in your browser? 3JS game skills is a set of agent skills for building playable polished 3JS browser games. real gameplay logic, AAA style graphics, proper UI, and a QA pass to catch what broke, plus optional AI generated 3D models, images, and audio so your agent can produce the assets, too."
+      ]
+    },
+    {
+      "start": 584,
+      "title": "Caliper",
+      "repositories": [
+        "https://github.com/AIScientists-Dev/Caliper"
+      ],
+      "id": "s025",
+      "end": 611,
+      "paragraphs": [
+        "The dangerous thing about an AI research assistant isn't that it's wrong sometimes. It's that it's wrong with confidence, and you can't tell when. Caliper is an AI research analyst that knows when to trust itself, a calibrated, risk controlled tool using agent for science. It estimates its own confidence, holds back or flags uncertainty when it's on shaky ground, and reaches for real tools instead of guessing."
+      ]
+    },
+    {
+      "start": 611,
+      "title": "ascii-gif",
+      "repositories": [
+        "https://github.com/tamnd/ascii-gif"
+      ],
+      "id": "s026",
+      "end": 640,
+      "paragraphs": [
+        "Want to turn your terminal sessions into clean animated GIFs for your GitHub readme? You should check out Asky Gif. It turns a terminal session into a good-looking animated GIF built as a wrapper around VHS Charm's terminal recorder, but with an attractive default look baked in, so you don't have to tune anything. Write a short script of the commands you want shown, run it, and out comes a polished demo GIF ready to drop in your readme or post."
+      ]
+    },
+    {
+      "start": 640,
+      "title": "mac-ocr",
+      "repositories": [
+        "https://github.com/privatenumber/mac-ocr"
+      ],
+      "id": "s027",
+      "end": 663,
+      "paragraphs": [
+        "Stop paying for bloated online OCR tools just to get text from your images and PDFs. Mac OCR is a completely free command line utility that uses Apple's native vision framework to scan text locally on your Mac. It can even stream PDF pages instantly to make them fully searchable. Since it is entirely local, your documents stay completely private."
+      ]
+    },
+    {
+      "start": 663,
+      "title": "fusion-fable",
+      "repositories": [
+        "https://github.com/duolahypercho/fusion-fable"
+      ],
+      "id": "s028",
+      "end": 688,
+      "paragraphs": [
+        "One model working alone misses its own blind spots. Two Frontier models checking each other catch more. Fusion Fable bottles that into a clawed code skill. Opus 4.8 drafts the answer. A second model, another Opus or GPT 5.5 via codeex checks it for holes. Then Opus fuses both passes into one refined result. Draft, adversarial review, synthesis automatically in one skill."
+      ]
+    },
+    {
+      "start": 688,
+      "title": "sqltoerdiagram",
+      "repositories": [
+        "https://github.com/royalbhati/sqltoerdiagram"
+      ],
+      "id": "s029",
+      "end": 713,
+      "paragraphs": [
+        "Most database diagram tools are paywalled, ugly, or force you to upload your schemas to their servers. That is why you should check out SQL to ER diagram. It is a completely free open- source tool that parses your raw create table statements into clean interactive diagrams right in your browser. Nothing ever gets uploaded and you can even edit the tables on the canvas to surgically update your SQL."
+      ]
+    },
+    {
+      "start": 713,
+      "title": "tmux-claude-session-manager",
+      "repositories": [
+        "https://github.com/craftzdog/tmux-claude-session-manager"
+      ],
+      "id": "s030",
+      "end": 738,
+      "paragraphs": [
+        "Once you start running more than one clawed code session at a time, your T-M setup turns into a maze of windows and you lose track of which agent is doing what. This tool tames that. It's a T-Mox session manager built specifically for cloud code. Spin up, name, switch between, and keep track of multiple cla interface instead of squinting at a row of identical pains."
+      ]
+    },
+    {
+      "start": 738,
+      "title": "fablize",
+      "repositories": [
+        "https://github.com/fivetaku/fablize"
+      ],
+      "id": "s031",
+      "end": 762,
+      "paragraphs": [
+        "Everyone's shipping skills that claim to make Opus act like Fable, but most just paste in a wish list of behaviors and hope. Fableize is the disciplined version. The author actually ran a fable versus opus comparison and shipped only the behaviors that proved transferable. Completion, evidence, and verification enforced as hard procedure rather than gentle suggestion."
+      ]
+    },
+    {
+      "start": 762,
+      "title": "vorssaint-utils",
+      "repositories": [
+        "https://github.com/vorssaint/vorssaint-utils"
+      ],
+      "id": "s032",
+      "end": 784,
+      "paragraphs": [
+        "Vorsaint is a free menu bar app that replaces a stack of paid tools. Keep awake per app volume mixer. Live system monitor with power and network graphs. File cut and paste and finder. Better window switcher. Clipboard shelf. App uninstaller. Native swift UI. Zero electron bloat. Zero telemetry. Signed and notorized by Apple. Opens with no warnings."
+      ]
+    },
+    {
+      "start": 784,
+      "title": "perfectpixel-studio",
+      "repositories": [
+        "https://github.com/gykim80/perfectpixel-studio"
+      ],
+      "id": "s033",
+      "end": 811,
+      "paragraphs": [
+        "Trying to create clean pixel art sprite sheets for your indie game without spending weeks drawing? You should look at Perfect Pixel Studio. It is an open- source app built with Go and React that generates character sprite sheets with eight directions and over a 100 unique actions from a single text prompt. Instead of handdrawing every frame for walking, jumping, or fighting, the AI handles the bulk of the work."
+      ]
+    },
+    {
+      "start": 811,
+      "title": "orange-cloud",
+      "repositories": [
+        "https://github.com/chen2he/orange-cloud"
+      ],
+      "id": "s034",
+      "end": 837,
+      "paragraphs": [
+        "Orange Cloud is a native iOS client for Cloudflare, real app, not a web rapper, that signs in through official OOTH and gives you proper mobile access to your Cloudflare account. Check your zones, manage records, and keep an eye on your setup from your phone with a UI that actually feels like iOS. For anyone who runs their stack on Cloudflare, this is the mobile companion it's been missing."
+      ]
+    },
+    {
+      "start": 837,
+      "title": "agent-harness-generator",
+      "repositories": [
+        "https://github.com/ruvnet/agent-harness-generator"
+      ],
+      "id": "s035",
+      "end": 862,
+      "paragraphs": [
+        "You've seen a dozen agent harnesses this year, and maybe you've wanted to build your own instead of bending someone else's to. This is the tool that builds the tool. Agent harness generator is a meta harness. It scaffolds your own focused branded agent harness complete with its own NPX CLI, an MCP server, memory, a learning loop, and witness signed releases for verifiable provenence."
+      ]
+    },
+    {
+      "start": 862,
+      "title": "jzon-rs",
+      "repositories": [
+        "https://github.com/Rajaniraiyn/jzon-rs"
+      ],
+      "id": "s036",
+      "end": 895,
+      "paragraphs": [
+        "Surya is the JSON workhorse of the Rust world, but it parses into owned data structures, copying strings out of the input as it goes. JSON RS takes a leaner path. It's a zerocopy JSON library with compile time generated typed parsers. It builds a parser tailored to your exact types when you compile and reads fields by pointing straight into the original buffer instead of copying them out. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 37. 35 trending open- source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Every astrology app needs precise planetary positions underneath and almost all of them reach for the decades old Swiss ephemeris library to get them."
+    },
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "text": "Zalen is a fresh take. It's a high precision astronomical ephemeris written in Rust. computes planetary positions"
+    },
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "text": "for any moment in time with nine world traditions built on top. Vadic, Western, Chinese, and more, each with its own interpretation layer."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Your AI agent runs a command, gets 500 lines of log output, and you pay full token price for all of it when it needed"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "three lines. Headroom strips that fat before it hits the LLM. Compresses tool outputs, logs, files, and rag chunks on"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "the way in, claiming 60 to 95% fewer tokens with the same answers. Ships as a library, a proxy, or an MCP server, so"
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "text": "you drop it in however your stack is built. Most coding agents either ask permission every two seconds or run wild"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "and break things. Gajode adds a real workflow in between. It's an external harness, not a hidden plugin that you"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "text": "start beside codecs cla and it gives the agent a deliberate path, a deep interview to pin down what you actually"
+    },
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "text": "want, a reviewed plan, then t-mucks native execution with optional parallel workers for bigger jobs."
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "text": "Running multiple AI agents just to get one job done. Omni is an open- source meta harness that controls and combines"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "tools like clawed code and codecs in one place. Set strict budget caps. Run agents in secure cloud sandboxes. Share live sessions with your team. One"
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "text": "command stands up a local agent server reachable three ways at once. Terminal UI, web UI, and your phone."
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "text": "AI agents fail in predictable ways."
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "Tests that assert nothing. Error handling that swallows the error. Docs that describe a function that no longer exists. Guard skills catches exactly"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "those. A set of guard skills for coding agents. Quality gates aimed at the specific failure modes AI generates in"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "code tests and docs. Flags the hollow test, the silent catch block, the stale comment."
+    },
+    {
+      "start": 140.0,
+      "end": 140.0,
+      "text": "If you want to use AI to hunt for serious security bugs in your codebase, look at this open-sourced open hack. It is a"
+    },
+    {
+      "start": 149.0,
+      "end": 149.0,
+      "text": "lightweight file-based workspace for whitebox security reviews that runs directly inside tools like claw code and cursor. It uses the exact same agent"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "prompts and set up their researchers used to find massive zero days in open- source software."
+    },
+    {
+      "start": 164.0,
+      "end": 164.0,
+      "text": "Someone literally burned a full transformer with KV cache straight into custom hardware and the speed is insane."
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "It is called gate GPT. Instead of using a GPU or CPU, it was designed gate by gate in Verarilog as a digital circuit"
+    },
+    {
+      "start": 178.0,
+      "end": 178.0,
+      "text": "running on an old FPGA at just 80 megahertz. It pumps out 56,000 tokens per second. It is basically micro GPT running purely on custom silicon."
+    },
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "Cloud Fable 5 earns its reputation through how it works. Explicit multi-stage planning, delegating to sub"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "agents, and verifying its own output before it trusts it. Fable mode bottles that behavior as a skill. Drop it into"
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "clawed code and it activates that same disciplined loop, planning out the stages, splitting work to sub aents, and self-checking the results on whatever model you're running."
+    },
+    {
+      "start": 215.0,
+      "end": 215.0,
+      "text": "Stop uploading your private videos to sketchy file converters just to trim them or make GIFs. You should check out"
+    },
+    {
+      "start": 222.0,
+      "end": 222.0,
+      "text": "FFmpeg web CLI. It is a completely free open-source browser tool that runs entirely on web assembly. It gives you"
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "over 30 video operations like batch processing, format conversion, and compression, but your files never leave your device. It even works completely offline."
+    },
+    {
+      "start": 240.0,
+      "end": 240.0,
+      "text": "You bookmark an article, come back to it later, and get a pop-up wall, autoplay video, and a payw wall where the content"
+    },
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "used to be. COD shadows it. It mirrors any website for offline viewing with all the JavaScript stripped out. Clean,"
+    },
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "fast, permanent copies of pages you want to keep. Read on a plane, keep it after the original vanishes, skip the modern web's noise entirely."
+    },
+    {
+      "start": 265.0,
+      "end": 265.0,
+      "text": "A single coding agent is one developer."
+    },
+    {
+      "start": 268.0,
+      "end": 268.0,
+      "text": "Flock is the whole team. It's an autonomous AI dev team bot, a set of agents that take on roles like a real engineering team and work through a task"
+    },
+    {
+      "start": 276.0,
+      "end": 276.0,
+      "text": "together rather than one model doing everything end to end. You hand it the work, the team coordinates, plans,"
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "builds, and reviews, and you stay out of the weeds."
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "If you post the same update to LinkedIn, X, Blue Sky, Threads, Masttoon, Facebook, and Instagram, you know each one has different length caps and"
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "formatting quirks. So you end up rewriting the same post seven times."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "Polyost from Azure CTO Mark Rasinovich fixes that. Draft your post once and it formats it for every platform at once,"
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "applying each one's length and formatting limits live as you type."
+    },
+    {
+      "start": 313.0,
+      "end": 313.0,
+      "text": "Tired of explaining your database tables and metric definitions to your AI agent every single session?"
+    },
+    {
+      "start": 320.0,
+      "end": 320.0,
+      "text": "Clarlayer is an open- source MCP server that gives tools like cloud code or cursor a durable memory of your SQL"
+    },
+    {
+      "start": 327.0,
+      "end": 327.0,
+      "text": "schemas. It bootstraps from your existing DBT models, remembers your corrections, and reconciles your definitions against actual warehouse queries to catch mistakes."
+    },
+    {
+      "start": 338.0,
+      "end": 338.0,
+      "text": "Ironmith is an open- source Mac OS menu bar app that generates, builds, and saves native Swift UI apps from simple"
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "prompts. No electron bloat. Compiles real Swift code. Runs entirely on device with a llama or cloud models when you"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "want more power. A quick calculator, a tiny tracker, a one-off tool that isn't worth opening Xcode for. Describe it."
+    },
+    {
+      "start": 360.0,
+      "end": 360.0,
+      "text": "Get a real native Mac app instantly."
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "K9S made managing Kubernetes from the terminal genuinely pleasant. And KU is cut from the same cloth. It's a fast"
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "keyboard driven Kubernetes TUI. Browse any resource in your cluster, edit objects live, follow pod logs in real time, and shell straight into a"
+    },
+    {
+      "start": 378.0,
+      "end": 378.0,
+      "text": "container, all without leaving the keyboard. Inspired by K9S, Lens, and Lazygit, so it pulls the best ideas from each."
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "If you miss Claude Fable's planning, you need to check out Fable Codeex. It is a new open-source skill that brings Fable"
+    },
+    {
+      "start": 394.0,
+      "end": 394.0,
+      "text": "style workflows straight to your codeex agent. It sets up a strict planning loop with a goal ledger, evidence checkpoints, and final verification"
+    },
+    {
+      "start": 402.0,
+      "end": 402.0,
+      "text": "gates. Your agent actually plans, logs, and verifies its work instead of just blind coding."
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "If you need to animate a static logo, but only have a lowquality PNG, you have to try this. Pixel 2 Motion is a brand"
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "new open- source AI skill that takes any raster logo, reconstructs it into a super clean motion ready SVG, and then"
+    },
+    {
+      "start": 425.0,
+      "end": 425.0,
+      "text": "automatically choreographs a smooth logo animation. It exports everything as dependencyfree interactive HTML, plus GIF or video previews."
+    },
+    {
+      "start": 435.0,
+      "end": 435.0,
+      "text": "Want to understand how AI actually works, but absolutely hate math? You should look at AI Path. A developer used"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "Claude Fable to build a free zero math AI course with 30 interactive visual lessons. It takes you from a single"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "neuron all the way to building a rag app from scratch, letting you tweak parameters on screen as you go."
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "Honestly, it makes learning machine learning so much more."
+    },
+    {
+      "start": 461.0,
+      "end": 461.0,
+      "text": "Imagine an AI that silently watches your screen, learns your workflows, and automates your most boring tasks without"
+    },
+    {
+      "start": 468.0,
+      "end": 468.0,
+      "text": "you configuring a single thing. That is ghost work. It is an open- source local first personal assistant built on screen"
+    },
+    {
+      "start": 475.0,
+      "end": 475.0,
+      "text": "pipe. Since there is no cloud and zero setup, all of your screen data stays completely private on your device."
+    },
+    {
+      "start": 483.0,
+      "end": 483.0,
+      "text": "You can now build and deploy full iOS and web apps straight from your iPhone with natural language prompts. It is"
+    },
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "called Riable, an open- source mobile app builder. You type what you want and an AI agent writes the code and deploys it live. Web apps run in Daytona"
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "sandboxes and native iOS apps get compiled in the cloud so you can install them on your actual phone. If you are"
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "running complex AI agent loops, you already know that your API bills can get ridiculously high."
+    },
+    {
+      "start": 515.0,
+      "end": 515.0,
+      "text": "You need to check out Inferoa. It is an open-source TypeScript framework designed specifically for token efficiency. It uses smart KV cache"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "management and loop engineering to optimize how your agents interact with LLMs. That means you get much faster run times and way lower inference costs."
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "The big labs make it look like worldclass search agents. The ones that research a hard question across dozens of sources require a giant proprietary"
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "model. Harness 1 is an open training recipe for long horizon search agents that matches Frontier AI's search"
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "capability using just a 20 billion parameter model. Long horizon means the agent keeps reasoning and searching"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "across many steps without losing the thread."
+    },
+    {
+      "start": 561.0,
+      "end": 561.0,
+      "text": "Want to use AI to build full playable 3D games right in your browser? 3JS game skills is a set of agent skills for"
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "building playable polished 3JS browser games. real gameplay logic, AAA style graphics, proper UI, and a QA pass to"
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "catch what broke, plus optional AI generated 3D models, images, and audio so your agent can produce the assets, too."
+    },
+    {
+      "start": 585.0,
+      "end": 585.0,
+      "text": "The dangerous thing about an AI research assistant isn't that it's wrong sometimes. It's that it's wrong with confidence, and you can't tell when."
+    },
+    {
+      "start": 594.0,
+      "end": 594.0,
+      "text": "Caliper is an AI research analyst that knows when to trust itself, a calibrated, risk controlled tool using"
+    },
+    {
+      "start": 600.0,
+      "end": 600.0,
+      "text": "agent for science. It estimates its own confidence, holds back or flags uncertainty when it's on shaky ground,"
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "and reaches for real tools instead of guessing."
+    },
+    {
+      "start": 612.0,
+      "end": 612.0,
+      "text": "Want to turn your terminal sessions into clean animated GIFs for your GitHub readme? You should check out Asky Gif."
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "It turns a terminal session into a good-looking animated GIF built as a wrapper around VHS Charm's terminal recorder, but with an attractive default"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "look baked in, so you don't have to tune anything. Write a short script of the commands you want shown, run it, and out"
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "comes a polished demo GIF ready to drop in your readme or post."
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "Stop paying for bloated online OCR tools just to get text from your images and PDFs. Mac OCR is a completely free"
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "command line utility that uses Apple's native vision framework to scan text locally on your Mac. It can even stream"
+    },
+    {
+      "start": 655.0,
+      "end": 655.0,
+      "text": "PDF pages instantly to make them fully searchable. Since it is entirely local, your documents stay completely private."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "One model working alone misses its own blind spots. Two Frontier models checking each other catch more. Fusion Fable bottles that into a clawed code"
+    },
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "skill. Opus 4.8 drafts the answer. A second model, another Opus or GPT 5.5 via codeex checks it for holes. Then"
+    },
+    {
+      "start": 679.0,
+      "end": 679.0,
+      "text": "Opus fuses both passes into one refined result. Draft, adversarial review, synthesis automatically in one skill."
+    },
+    {
+      "start": 688.0,
+      "end": 688.0,
+      "text": "Most database diagram tools are paywalled, ugly, or force you to upload your schemas to their servers. That is why you should check out SQL to ER"
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "diagram. It is a completely free open- source tool that parses your raw create table statements into clean interactive"
+    },
+    {
+      "start": 704.0,
+      "end": 704.0,
+      "text": "diagrams right in your browser. Nothing ever gets uploaded and you can even edit the tables on the canvas to surgically update your SQL."
+    },
+    {
+      "start": 713.0,
+      "end": 713.0,
+      "text": "Once you start running more than one clawed code session at a time, your T-M setup turns into a maze of windows and you lose track of which agent is doing"
+    },
+    {
+      "start": 721.0,
+      "end": 721.0,
+      "text": "what. This tool tames that. It's a T-Mox session manager built specifically for cloud code. Spin up, name, switch"
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "between, and keep track of multiple cla interface instead of squinting at a row of identical pains."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Everyone's shipping skills that claim to make Opus act like Fable, but most just paste in a wish list of behaviors and hope. Fableize is the disciplined"
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "version. The author actually ran a fable versus opus comparison and shipped only the behaviors that proved transferable."
+    },
+    {
+      "start": 754.0,
+      "end": 754.0,
+      "text": "Completion, evidence, and verification enforced as hard procedure rather than gentle suggestion."
+    },
+    {
+      "start": 762.0,
+      "end": 762.0,
+      "text": "Vorsaint is a free menu bar app that replaces a stack of paid tools. Keep awake per app volume mixer. Live system monitor with power and network graphs."
+    },
+    {
+      "start": 771.0,
+      "end": 771.0,
+      "text": "File cut and paste and finder. Better window switcher. Clipboard shelf. App uninstaller. Native swift UI. Zero"
+    },
+    {
+      "start": 778.0,
+      "end": 778.0,
+      "text": "electron bloat. Zero telemetry. Signed and notorized by Apple. Opens with no warnings."
+    },
+    {
+      "start": 784.0,
+      "end": 784.0,
+      "text": "Trying to create clean pixel art sprite sheets for your indie game without spending weeks drawing? You should look at Perfect Pixel Studio. It is an open-"
+    },
+    {
+      "start": 794.0,
+      "end": 794.0,
+      "text": "source app built with Go and React that generates character sprite sheets with eight directions and over a 100 unique actions from a single text prompt."
+    },
+    {
+      "start": 803.0,
+      "end": 803.0,
+      "text": "Instead of handdrawing every frame for walking, jumping, or fighting, the AI handles the bulk of the work."
+    },
+    {
+      "start": 811.0,
+      "end": 811.0,
+      "text": "Orange Cloud is a native iOS client for Cloudflare, real app, not a web rapper, that signs in through official OOTH and"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "gives you proper mobile access to your Cloudflare account. Check your zones, manage records, and keep an eye on your setup from your phone with a UI that actually feels like iOS."
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "For anyone who runs their stack on Cloudflare, this is the mobile companion it's been missing."
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "You've seen a dozen agent harnesses this year, and maybe you've wanted to build your own instead of bending someone else's to. This is the tool that builds"
+    },
+    {
+      "start": 844.0,
+      "end": 844.0,
+      "text": "the tool. Agent harness generator is a meta harness. It scaffolds your own focused branded agent harness complete"
+    },
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "with its own NPX CLI, an MCP server, memory, a learning loop, and witness signed releases for verifiable provenence."
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "Surya is the JSON workhorse of the Rust world, but it parses into owned data structures, copying strings out of the"
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "input as it goes. JSON RS takes a leaner path. It's a zerocopy JSON library with compile time generated typed parsers. It"
+    },
+    {
+      "start": 878.0,
+      "end": 878.0,
+      "text": "builds a parser tailored to your exact types when you compile and reads fields by pointing straight into the original buffer instead of copying them out."
+    },
+    {
+      "start": 888.0,
+      "end": 888.0,
+      "text": "[music]"
+    }
+  ]
+}

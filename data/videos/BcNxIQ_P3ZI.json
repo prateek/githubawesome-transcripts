@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "BcNxIQ_P3ZI",
+  "title": "Hacker News Show #9: paca, talos, ember-hackernews, ezra, bsharp, kyde, clawpatrol, microcrad, nub",
+  "url": "https://www.youtube.com/watch?v=BcNxIQ_P3ZI",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-26",
+  "duration": 930,
+  "word_count": 2365,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-26T22:49:19+00:00",
+    "metadata_sha256": "9831a32c3b8e18bc422296998e08545843c4121f8436f56bf2068d365b25cf3a",
+    "captions_sha256": "c48d67671435fa6d22283283493fc69a9b97d9cef635b06a76104538586198ce",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is Hacker News show number nine. 35 open- source projects that have recently been trending on Hacker News. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "open-knowledge",
+      "repositories": [
+        "https://github.com/inkeep/open-knowledge"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Collaborating with AI agents on team documentation usually means copy pasting markdown back and forth from Notion or Obsidian. Open Knowledge is an open-source AI first alternative that lets you write side by side with your agents. It features a lossless birectional markdown sync. It connects directly to claude or cursor via MCP, giving your models live access to your files."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "paca",
+      "repositories": [
+        "https://github.com/Paca-AI/paca"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "Every major project management tool is a paid SAS that treats AI as a chatbot bolted on in the corner. PAKA is a self-hosted alternative built for scrum teams where AI agents work as equals. Same board, same sprints, same goals. Agents pick up tickets and move them alongside humans instead of just answering questions in a sidebar. Fully customizable through config and plugins running on your own server."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "talos",
+      "repositories": [
+        "https://github.com/cajal-technologies/talos"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "Web Assembly runs untrusted code everywhere now and testing how it behaves only tells you so much. Talos is a web assembly interpreter written in lean the theorem proving language. Because the interpreter lives inside a proof assistant, you can formally prove properties about how WAM code executes, not just run it and hope. Mathematical guarantees about behavior, not test coverage."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "luz",
+      "repositories": [
+        "https://github.com/themartiano/luz"
+      ],
+      "id": "s005",
+      "end": 113,
+      "paragraphs": [
+        "If you love computer graphics, you have to see this. A developer spent over a year building a complete C++ path tracer completely from scratch with zero third party libraries. It is called LE and they coded almost the entire project without any AI assistance. It features Monte Carlo path tracing, global illumination, atmospheric scattering, and even a custom Blender exporter."
+      ]
+    },
+    {
+      "start": 113,
+      "title": "ember-hackernews",
+      "repositories": [
+        "https://github.com/DatanoiseTV/ember-hackernews"
+      ],
+      "id": "s006",
+      "end": 136,
+      "paragraphs": [
+        "Reading Hacker News on your phone means the barebones mobile site, tiny tap targets, no gestures, and a comment tree that's a nightmare to navigate. Ember is a native iOS hacker news reader built in pure Swift UI with zero third party dependencies. So, it's fast, light, and properly iOS native. Smooth scrolling, real gestures, collapsible comment threads."
+      ]
+    },
+    {
+      "start": 136,
+      "title": "ezra",
+      "repositories": [
+        "https://github.com/entGriff/ezra"
+      ],
+      "id": "s007",
+      "end": 163,
+      "paragraphs": [
+        "Spinning up Rabbit MQ or Kafka for a small project usually means fighting complex cluster configurations and heavyweight setups. Ezra offers a lightweight persistent alternative. It is backed by SQLite and powered by Erlang running as a single binary with zero dependencies. It speaks the standard Reddus streams wire protocol, so you can connect any existing Reddus client in any language without importing new SDKs."
+      ]
+    },
+    {
+      "start": 163,
+      "title": "bsharp",
+      "repositories": [
+        "https://github.com/paytonjjones/bsharp"
+      ],
+      "id": "s008",
+      "end": 188,
+      "paragraphs": [
+        "Perfect pitch is learnable before age six and after that the window basically closes. B is built to use it. An open source app based on Eiguchi's chord identification method where kids learn to recognize piano chords by associating each one with a color. Start with two chords, add more as the child masters each level. Simple, playful, and based on actual developmental research."
+      ]
+    },
+    {
+      "start": 188,
+      "title": "nub",
+      "repositories": [
+        "https://github.com/nubjs/nub"
+      ],
+      "id": "s009",
+      "end": 213,
+      "paragraphs": [
+        "The day-to-day Node.js JS tool chain forces you to manage a bloated pile of utilities like Nodeman or NVM. Nub replaces that entire stack with a single Rust binary that runs on top of your existing node installation. It lets you execute TypeScript directly without any build steps. It also features a faster script runner and autoprovisions node versions on demand with no runtime lockin."
+      ]
+    },
+    {
+      "start": 213,
+      "title": "clawpatrol",
+      "repositories": [
+        "https://github.com/denoland/clawpatrol"
+      ],
+      "id": "s010",
+      "end": 239,
+      "paragraphs": [
+        "Giving AI agents free reign in your production systems is a disaster waiting to happen. Claw Patrol acts as a wire level security firewall for your agents. It intercepts and parses their outbound traffic, matching actions against standard HCL rules. You can block destructive database queries or pause a command like cubesttell delete until a human signs off on it before it reaches your cloud."
+      ]
+    },
+    {
+      "start": 239,
+      "title": "kyde",
+      "repositories": [
+        "https://github.com/kyle-ssg/kyde"
+      ],
+      "id": "s011",
+      "end": 266,
+      "paragraphs": [
+        "VS Code's git panel is cramped for reviewing a real diff, and Git Kraken is overkill when you just want to stage hunks and write a clean commit message. Kaid is a fast native commit and diff editor. Clean diff view. Pick what goes in, craft the commit, opens instantly, stays snappy on big diffs, no heavyweight app, no sluggish electron wrapper. The focused commit workflow that fits between a terminal and a full guey."
+      ]
+    },
+    {
+      "start": 266,
+      "title": "talos",
+      "repositories": [
+        "https://github.com/ory/talos"
+      ],
+      "id": "s012",
+      "end": 292,
+      "paragraphs": [
+        "One leaked API key giving an attacker access to everything it could touch is how most breaches actually happen. Talos is a security hardened API key server for users, services, machine to- machine calls, and AI agents. Fall from one key, you mint narrow fine grained capability tokens that can only do one specific thing. A leaked token is nearly worthless because it couldn't do much in the first place."
+      ]
+    },
+    {
+      "start": 292,
+      "title": "microcrad",
+      "repositories": [
+        "https://github.com/oraziorillo/microcrad"
+      ],
+      "id": "s013",
+      "end": 317,
+      "paragraphs": [
+        "Carpathy's Microrad teaches back propagation in a 100 lines of Python. Microrad rebuilds the same idea in C. Same scaler valued automatic differentiation engine, same gradient descent mechanics, but written in C. So there's no Python runtime hiding the memory or the math. Every allocation visible, every operation explicit, a study project, not a production library. And that's exactly the point."
+      ]
+    },
+    {
+      "start": 317,
+      "title": "nbsdgames",
+      "repositories": [
+        "https://github.com/abakh/nbsdgames"
+      ],
+      "id": "s014",
+      "end": 346,
+      "paragraphs": [
+        "It's a package of 21 textbased games written in C with N curses, so they run in any terminal, weigh almost nothing, and need zero graphics. You get terminal takes on classics like Mind Sweeper, Sudoku, and Battleship, plus some entirely original ideas you won't have before. No dependencies beyond Encurs, Lightning Fast works over SSH on the weakest box. The perfect way to waste 10 minutes when all you've got is a command line."
+      ]
+    },
+    {
+      "start": 346,
+      "title": "cutile-rs",
+      "repositories": [
+        "https://github.com/nvlabs/cutile-rs"
+      ],
+      "id": "s015",
+      "end": 372,
+      "paragraphs": [
+        "Writing custom CUDA kernels usually means throwing away memory safety and constantly debugging mysterious data races. Nvidia's CQile Rust brings that work into Rust. a tilebased kernel programming DSL where you write GPU kernels in Rust itself thinking in tiles of of data rather than wrestling individual threads with a safe host site API for passing tensors to kernels that run asynchronously on the GPU."
+      ]
+    },
+    {
+      "start": 372,
+      "title": "Pagecast",
+      "repositories": [
+        "https://github.com/Amal-David/pagecast"
+      ],
+      "id": "s016",
+      "end": 398,
+      "paragraphs": [
+        "Your agent generates an HTML report or a static mini app and it just sits on your disk as a file nobody else can see. Pagecast publishes it instantly to a sharable Cloudflare pages URL straight from your terminal or coding agent. Claude Code builds a dashboard, runs one command, hands you a live link hosted free on Cloudflare's Edge. No git push, no deploy pipeline, no dashboard dragging."
+      ]
+    },
+    {
+      "start": 398,
+      "title": "ScreenMind",
+      "repositories": [
+        "https://github.com/ayushh0110/ScreenMind"
+      ],
+      "id": "s017",
+      "end": 423,
+      "paragraphs": [
+        "Microsoft recall promised perfect memory of everything on your screen. Then everyone boked at the privacy implications. Screen Mind does the same idea privately, continuously captures your screen, analyzes each frame with Gemma 4 running locally, and lets you search your entire screen history or chat with it directly. Ask what that pricing you saw yesterday was, and it finds the moment."
+      ]
+    },
+    {
+      "start": 423,
+      "title": "capacitor-alarm-clock",
+      "repositories": [
+        "https://github.com/ArcaEge/capacitor-alarm-clock"
+      ],
+      "id": "s018",
+      "end": 450,
+      "paragraphs": [
+        "It's an ESP32-based alarm clock that instead of beeping sends reverse voltage through a capacitor until it pops, and that pop is your alarm. three slots, so it's good for three mornings before you reload it. It's got an OLED clock, a web UI, current limiting resistors on each slot for safety, and it pulls the time over Wi-Fi. The creator even admits the voltage regulators double as a tiny space heater."
+      ]
+    },
+    {
+      "start": 450,
+      "title": "selector-forge",
+      "repositories": [
+        "https://github.com/Intuned/selector-forge"
+      ],
+      "id": "s019",
+      "end": 478,
+      "paragraphs": [
+        "One class name change in the markup and your entire test suite shatters. That's the CSS selector problem nobody has a good answer for. Selector FForge is an AI browser extension where you click an element and it generates a CSS or XPath selector built to survive page changes instead of latching onto fragile autogenerated classes. For anyone writing Playright or Selenium tests, this kills the most reliable source of flaky tests."
+      ]
+    },
+    {
+      "start": 478,
+      "title": "recall",
+      "repositories": [
+        "https://github.com/raiyanyahya/recall"
+      ],
+      "id": "s020",
+      "end": 504,
+      "paragraphs": [
+        "Most agent memory tools quietly call an embedding API, which means your code context leaves your machine. Recall is fully local project memory for cloud code. No API key, no external model, nothing sent anywhere. Your agent remembers your project's decisions and context across sessions, and every bite of that memory stays on your disk. Persistent agent memory with no data leaving your machine."
+      ]
+    },
+    {
+      "start": 504,
+      "title": "make-look-scanned",
+      "repositories": [
+        "https://github.com/overflowy/make-look-scanned"
+      ],
+      "id": "s021",
+      "end": 530,
+      "paragraphs": [
+        "Printing a clean PDF, signing it, and scanning it back in just to make it look official is a process digital files shouldn't need. Make look scanned does the last step in software. Slight skew, grayscale conversion, warm paper tone, grain, JPEG artifacts. A crisp digital file looks like it came off an office scanner. Runs as a Go CLI or entirely in the browser via web assembly. Fully local, deterministic output."
+      ]
+    },
+    {
+      "start": 530,
+      "title": "brain-map-skill",
+      "repositories": [
+        "https://github.com/vladignatyev/brain-map-skill"
+      ],
+      "id": "s022",
+      "end": 557,
+      "paragraphs": [
+        "Visualizing a sprawling folder of Obsidian Notes is hard and teaching your AI agent how to navigate your personal knowledge base is even harder. Brain Map Skill tackles both. It is a self-contained agent skill that compiles your markdown notes into an interactive themed force graph with a playable growth timeline. Your agent can read your vault and compile the map, letting you visually search your thoughts."
+      ]
+    },
+    {
+      "start": 557,
+      "title": "Tiny",
+      "repositories": [
+        "https://github.com/confh/Tiny"
+      ],
+      "id": "s023",
+      "end": 580,
+      "paragraphs": [
+        "Building your own programming language is the project every developer dreams about and few finish. Tiny is one person actually doing it in Go. A lightweight language with lexer, parser, and interpreter kept small enough that you can read the whole thing and understand how a language works end to end. The learning project that actually teaches you how it works."
+      ]
+    },
+    {
+      "start": 580,
+      "title": "crawlie",
+      "repositories": [
+        "https://github.com/spronta/crawlie"
+      ],
+      "id": "s024",
+      "end": 605,
+      "paragraphs": [
+        "Most SEO tools only audit your site for Google, completely ignoring how modern AI search engines parse your content. Crawley is an open-source technical crawler built in Rust. It checks for redirects and missing metadata, running 40 plus checks to optimize your site for generative engines. It even ships as an MCP server so your AI agents can audit websites automatically."
+      ]
+    },
+    {
+      "start": 605,
+      "title": "pii-gui",
+      "repositories": [
+        "https://github.com/sophia486/pii-gui"
+      ],
+      "id": "s025",
+      "end": 632,
+      "paragraphs": [
+        "Sending sensitive client PDFs to random web tools just to redact personal data is a massive security risk. Pyige handles this securely on your desktop. This local first application detects sensitive information like emails and phone numbers using regex or quantized onx models. It burns approved redactions directly into your files, making sure hidden text is completely unreoverable before you share them."
+      ]
+    },
+    {
+      "start": 632,
+      "title": "STEPLA-1",
+      "repositories": [
+        "https://github.com/c0rRupT9/STEPLA-1"
+      ],
+      "id": "s026",
+      "end": 661,
+      "paragraphs": [
+        "Most developers use a CPU every second and have never seen one built from nothing. Step one is exactly that, a working 8-bit processor designed gate by gate in logism evolution. No pre-built chips, no shortcuts. Individual logic gates wired into a real Harvard architecture CPU with separate instruction and data memory. Open it, watch the signals flow, and trace exactly how fetch, decode, and execute happen at the level of and and or gates."
+      ]
+    },
+    {
+      "start": 661,
+      "title": "rocketgraph",
+      "repositories": [
+        "https://github.com/Rocketgraph/rocketgraph"
+      ],
+      "id": "s027",
+      "end": 687,
+      "paragraphs": [
+        "Your logs already tell you when CPU spiked, but the weird incident is usually hiding in thousands of lines you didn't know to search. Rocket Graph is a self-hosted anomaly detector that sits beside Data Dog, Loki, Cloudatch, or RAW log files instead of replacing them. It clusters structural templates, flags unusual patterns, runs inside your network, and even has a node open telemetry agent for quick instrumentation."
+      ]
+    },
+    {
+      "start": 687,
+      "title": "vpod",
+      "repositories": [
+        "https://github.com/capsulerun/vpod"
+      ],
+      "id": "s028",
+      "end": 715,
+      "paragraphs": [
+        "Running untrusted code usually means choosing between heavyweight containers and a pile of nervous cleanup code. VPOD gives you an instant Linux sandbox that runs a risk vvm inside web assembly. So the whole execution state stays boxed in. It boots from snapshots in under a second, exposes controlled file system and network access through WASI and gives you both a CLI and Python SDK for code interpreter style workflows."
+      ]
+    },
+    {
+      "start": 715,
+      "title": "codetutor",
+      "repositories": [
+        "https://github.com/jaketothepast/codetutor"
+      ],
+      "id": "s029",
+      "end": 741,
+      "paragraphs": [
+        "Most AI coding assistants just hand you the finished function and you paste it in without learning anything. CodeTutor is an Emacs package that does the opposite. It watches your file saves, reads the diff, and explains what you just wrote like a senior engineer pairing with you. It runs on local readonly backends so it can't touch your source. It points you at the next move instead of writing the code."
+      ]
+    },
+    {
+      "start": 741,
+      "title": "zero_browser",
+      "repositories": [
+        "https://github.com/nz366/zero_browser"
+      ],
+      "id": "s030",
+      "end": 766,
+      "paragraphs": [
+        "Every web page you load drags along megabytes of HTML, CSS, and JavaScript. And the engine rendering all that is a massive attack surface. Zero browser asks, \"What happens if you just delete it?\" Instead, it renders a simple markdown style format with interactive pieces like tables and data grids built straight in. It's one Flutter code base, so it runs on every platform you've got."
+      ]
+    },
+    {
+      "start": 766,
+      "title": "claude_code_vs",
+      "repositories": [
+        "https://github.com/firish/claude_code_vs"
+      ],
+      "id": "s031",
+      "end": 793,
+      "paragraphs": [
+        "Claude code is handy, but if you live in Visual Studio, bouncing through a terminal means losing the diff viewer, diagnostics, and debugger context where the bug actually is. Claude Code for Visual Studio bridges the Claude CLI into VS 2026. Edits land in native diffs. Compiler errors get shared automatically. And with opt-in debugger control, Claude can inspect call stacks, variables, and break points while you're paused."
+      ]
+    },
+    {
+      "start": 793,
+      "title": "euromesh",
+      "repositories": [
+        "https://github.com/sammysltd/euromesh"
+      ],
+      "id": "s032",
+      "end": 818,
+      "paragraphs": [
+        "Europe wants sovereign AI, but new gigawatt data centers can sit in grid cues for most of a decade. Euromsh is a reproducible model asking a sharper question. What if Europe federated the public AI compute it already owns? The repo includes the sourced report, grid delay data set, Euro HPC compute inventory, equations, generated figures, and a piest suite for the assumptions."
+      ]
+    },
+    {
+      "start": 818,
+      "title": "Altiverse",
+      "repositories": [
+        "https://github.com/LeoTheAIDev/Altiverse"
+      ],
+      "id": "s033",
+      "end": 846,
+      "paragraphs": [
+        "Spreadsheets are fine for first order trade-offs, but they're terrible at showing who gets stressed, who adapts, and where the weird side effects start. Altiverse turns one decision into two to four living simulations with up to around a thousand agents moving through alternate realities. It runs local first, works offline, uses deterministic seeds, and can add an optional open AI compatible model for reports and character Q&A."
+      ]
+    },
+    {
+      "start": 846,
+      "title": "peerd",
+      "repositories": [
+        "https://github.com/NotASithLord/peerd"
+      ],
+      "id": "s034",
+      "end": 873,
+      "paragraphs": [
+        "Browser agents get weird fast. The model can see your tabs, but now you're trusting a backend with sessions, keys, and page content. Pier runs the agent loop as a Chrome or Firefox extension instead. BYO local encrypted vault, no backend, no telemetry, and sandboxed compute right in the browser from JS notebooks to web assembly Linux VMs. It even verifies actions against the live page before calling them done."
+      ]
+    },
+    {
+      "start": 873,
+      "title": "linkedrecords",
+      "repositories": [
+        "https://github.com/wolfoo2931/linkedrecords"
+      ],
+      "id": "s035",
+      "end": 901,
+      "paragraphs": [
+        "Building a collaborative app usually means writing custom backend APIs and dealing with painful database schema migrations as your data model changes. Linked records is an open-source backend as a service inspired by triple stores that lets you skip all of it. It stores all data and permissions as simple semantic facts on top of Postgress. Sharing access is as simple as inserting a new fact with zero backend code required."
+      ]
+    },
+    {
+      "start": 901,
+      "title": "persona",
+      "repositories": [
+        "https://github.com/runtypelabs/persona"
+      ],
+      "id": "s036",
+      "end": 930,
+      "paragraphs": [
+        "Adding an AI assistant to a product should not mean rebuilding your front end around one chat component. Persona is a vanillajs TypeScript chat widget that drops into almost any site with no framework dependency. It handles streaming SSE responses, tool call UI, approvals, artifacts, voice themes, and webmc page tools while still letting you swap the back end from OpenAI agents to Langraph or your own adapter. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is Hacker News show number nine. 35 open- source projects that have recently been trending on Hacker News. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Collaborating with AI agents on team documentation usually means copy pasting markdown back and forth from Notion or"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "Obsidian. Open Knowledge is an open-source AI first alternative that lets you write side by side with your agents. It features a lossless"
+    },
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "text": "birectional markdown sync. It connects directly to claude or cursor via MCP, giving your models live access to your files."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Every major project management tool is a paid SAS that treats AI as a chatbot bolted on in the corner. PAKA is a"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "self-hosted alternative built for scrum teams where AI agents work as equals. Same board, same sprints, same goals."
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "Agents pick up tickets and move them alongside humans instead of just answering questions in a sidebar. Fully customizable through config and plugins running on your own server."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Web Assembly runs untrusted code everywhere now and testing how it behaves only tells you so much. Talos is"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "a web assembly interpreter written in lean the theorem proving language."
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "text": "Because the interpreter lives inside a proof assistant, you can formally prove properties about how WAM code executes, not just run it and hope. Mathematical"
+    },
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "text": "guarantees about behavior, not test coverage."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "If you love computer graphics, you have to see this. A developer spent over a year building a complete C++ path tracer"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "text": "completely from scratch with zero third party libraries. It is called LE and they coded almost the entire project"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "without any AI assistance. It features Monte Carlo path tracing, global illumination, atmospheric scattering, and even a custom Blender exporter."
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "text": "Reading Hacker News on your phone means the barebones mobile site, tiny tap targets, no gestures, and a comment tree that's a nightmare to navigate. Ember is"
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "a native iOS hacker news reader built in pure Swift UI with zero third party dependencies. So, it's fast, light, and"
+    },
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "properly iOS native. Smooth scrolling, real gestures, collapsible comment threads."
+    },
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "Spinning up Rabbit MQ or Kafka for a small project usually means fighting complex cluster configurations and heavyweight setups. Ezra offers a"
+    },
+    {
+      "start": 145.0,
+      "end": 145.0,
+      "text": "lightweight persistent alternative. It is backed by SQLite and powered by Erlang running as a single binary with zero dependencies. It speaks the"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "standard Reddus streams wire protocol, so you can connect any existing Reddus client in any language without importing new SDKs."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Perfect pitch is learnable before age six and after that the window basically closes. B is built to use it. An open"
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "source app based on Eiguchi's chord identification method where kids learn to recognize piano chords by associating each one with a color. Start with two"
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "chords, add more as the child masters each level. Simple, playful, and based on actual developmental research."
+    },
+    {
+      "start": 188.0,
+      "end": 188.0,
+      "text": "The day-to-day Node.js JS tool chain forces you to manage a bloated pile of utilities like Nodeman or NVM. Nub"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "replaces that entire stack with a single Rust binary that runs on top of your existing node installation. It lets you execute TypeScript directly without any"
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "build steps. It also features a faster script runner and autoprovisions node versions on demand with no runtime lockin."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "Giving AI agents free reign in your production systems is a disaster waiting to happen."
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "Claw Patrol acts as a wire level security firewall for your agents. It intercepts and parses their outbound traffic, matching actions against"
+    },
+    {
+      "start": 227.0,
+      "end": 227.0,
+      "text": "standard HCL rules. You can block destructive database queries or pause a command like cubesttell delete until a"
+    },
+    {
+      "start": 235.0,
+      "end": 235.0,
+      "text": "human signs off on it before it reaches your cloud."
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "VS Code's git panel is cramped for reviewing a real diff, and Git Kraken is overkill when you just want to stage hunks and write a clean commit message."
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "Kaid is a fast native commit and diff editor. Clean diff view. Pick what goes in, craft the commit, opens instantly,"
+    },
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "stays snappy on big diffs, no heavyweight app, no sluggish electron wrapper. The focused commit workflow that fits between a terminal and a full guey."
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "One leaked API key giving an attacker access to everything it could touch is how most breaches actually happen. Talos is a security hardened API key server"
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "for users, services, machine to- machine calls, and AI agents. Fall from one key, you mint narrow fine grained capability"
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "tokens that can only do one specific thing. A leaked token is nearly worthless because it couldn't do much in the first place."
+    },
+    {
+      "start": 292.0,
+      "end": 292.0,
+      "text": "Carpathy's Microrad teaches back propagation in a 100 lines of Python. Microrad rebuilds the same idea in C."
+    },
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "Same scaler valued automatic differentiation engine, same gradient descent mechanics, but written in C. So there's no Python runtime hiding the"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "memory or the math. Every allocation visible, every operation explicit, a study project, not a production library."
+    },
+    {
+      "start": 314.0,
+      "end": 314.0,
+      "text": "And that's exactly the point."
+    },
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "It's a package of 21 textbased games written in C with N curses, so they run in any terminal, weigh almost nothing,"
+    },
+    {
+      "start": 325.0,
+      "end": 325.0,
+      "text": "and need zero graphics. You get terminal takes on classics like Mind Sweeper, Sudoku, and Battleship, plus some"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "entirely original ideas you won't have before. No dependencies beyond Encurs, Lightning Fast works over SSH on the"
+    },
+    {
+      "start": 339.0,
+      "end": 339.0,
+      "text": "weakest box. The perfect way to waste 10 minutes when all you've got is a command line."
+    },
+    {
+      "start": 346.0,
+      "end": 346.0,
+      "text": "Writing custom CUDA kernels usually means throwing away memory safety and constantly debugging mysterious data races. Nvidia's CQile Rust brings that"
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "work into Rust. a tilebased kernel programming DSL where you write GPU kernels in Rust itself thinking in tiles"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "of of data rather than wrestling individual threads with a safe host site API for passing tensors to kernels that run asynchronously on the GPU."
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "Your agent generates an HTML report or a static mini app and it just sits on your disk as a file nobody else can see."
+    },
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "Pagecast publishes it instantly to a sharable Cloudflare pages URL straight from your terminal or coding agent."
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "Claude Code builds a dashboard, runs one command, hands you a live link hosted free on Cloudflare's Edge. No git push,"
+    },
+    {
+      "start": 394.0,
+      "end": 394.0,
+      "text": "no deploy pipeline, no dashboard dragging."
+    },
+    {
+      "start": 398.0,
+      "end": 398.0,
+      "text": "Microsoft recall promised perfect memory of everything on your screen. Then everyone boked at the privacy implications. Screen Mind does the same"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "idea privately, continuously captures your screen, analyzes each frame with Gemma 4 running locally, and lets you"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "search your entire screen history or chat with it directly."
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "Ask what that pricing you saw yesterday was, and it finds the moment."
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "It's an ESP32-based alarm clock that instead of beeping sends reverse voltage through a capacitor until it pops, and"
+    },
+    {
+      "start": 431.0,
+      "end": 431.0,
+      "text": "that pop is your alarm. three slots, so it's good for three mornings before you reload it. It's got an OLED clock, a web"
+    },
+    {
+      "start": 439.0,
+      "end": 439.0,
+      "text": "UI, current limiting resistors on each slot for safety, and it pulls the time over Wi-Fi. The creator even admits the voltage regulators double as a tiny space heater."
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "One class name change in the markup and your entire test suite shatters. That's the CSS selector problem nobody has a"
+    },
+    {
+      "start": 457.0,
+      "end": 457.0,
+      "text": "good answer for. Selector FForge is an AI browser extension where you click an element and it generates a CSS or XPath"
+    },
+    {
+      "start": 465.0,
+      "end": 465.0,
+      "text": "selector built to survive page changes instead of latching onto fragile autogenerated classes. For anyone writing Playright or Selenium tests,"
+    },
+    {
+      "start": 474.0,
+      "end": 474.0,
+      "text": "this kills the most reliable source of flaky tests."
+    },
+    {
+      "start": 478.0,
+      "end": 478.0,
+      "text": "Most agent memory tools quietly call an embedding API, which means your code context leaves your machine. Recall is"
+    },
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "fully local project memory for cloud code. No API key, no external model, nothing sent anywhere. Your agent"
+    },
+    {
+      "start": 493.0,
+      "end": 493.0,
+      "text": "remembers your project's decisions and context across sessions, and every bite of that memory stays on your disk."
+    },
+    {
+      "start": 499.0,
+      "end": 499.0,
+      "text": "Persistent agent memory with no data leaving your machine."
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "Printing a clean PDF, signing it, and scanning it back in just to make it look official is a process digital files shouldn't need. Make look scanned does"
+    },
+    {
+      "start": 512.0,
+      "end": 512.0,
+      "text": "the last step in software. Slight skew, grayscale conversion, warm paper tone, grain, JPEG artifacts. A crisp digital"
+    },
+    {
+      "start": 521.0,
+      "end": 521.0,
+      "text": "file looks like it came off an office scanner. Runs as a Go CLI or entirely in the browser via web assembly. Fully local, deterministic output."
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "Visualizing a sprawling folder of Obsidian Notes is hard and teaching your AI agent how to navigate your personal"
+    },
+    {
+      "start": 537.0,
+      "end": 537.0,
+      "text": "knowledge base is even harder. Brain Map Skill tackles both. It is a self-contained agent skill that compiles"
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "your markdown notes into an interactive themed force graph with a playable growth timeline. Your agent can read your vault and compile the map, letting you visually search your thoughts."
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "Building your own programming language is the project every developer dreams about and few finish."
+    },
+    {
+      "start": 563.0,
+      "end": 563.0,
+      "text": "Tiny is one person actually doing it in Go. A lightweight language with lexer, parser, and interpreter kept small"
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "enough that you can read the whole thing and understand how a language works end to end. The learning project that actually teaches you how it works."
+    },
+    {
+      "start": 580.0,
+      "end": 580.0,
+      "text": "Most SEO tools only audit your site for Google, completely ignoring how modern AI search engines parse your content."
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Crawley is an open-source technical crawler built in Rust. It checks for redirects and missing metadata, running 40 plus checks to optimize your site for"
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "generative engines. It even ships as an MCP server so your AI agents can audit websites automatically."
+    },
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "Sending sensitive client PDFs to random web tools just to redact personal data is a massive security risk. Pyige handles this securely on your desktop."
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "This local first application detects sensitive information like emails and phone numbers using regex or quantized"
+    },
+    {
+      "start": 622.0,
+      "end": 622.0,
+      "text": "onx models. It burns approved redactions directly into your files, making sure hidden text is completely unreoverable before you share them."
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "Most developers use a CPU every second and have never seen one built from nothing. Step one is exactly that, a"
+    },
+    {
+      "start": 639.0,
+      "end": 639.0,
+      "text": "working 8-bit processor designed gate by gate in logism evolution. No pre-built chips, no shortcuts. Individual logic"
+    },
+    {
+      "start": 647.0,
+      "end": 647.0,
+      "text": "gates wired into a real Harvard architecture CPU with separate instruction and data memory. Open it, watch the signals flow, and trace"
+    },
+    {
+      "start": 655.0,
+      "end": 655.0,
+      "text": "exactly how fetch, decode, and execute happen at the level of and and or gates."
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "Your logs already tell you when CPU spiked, but the weird incident is usually hiding in thousands of lines you didn't know to search. Rocket Graph is a"
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "self-hosted anomaly detector that sits beside Data Dog, Loki, Cloudatch, or RAW log files instead of replacing them. It"
+    },
+    {
+      "start": 677.0,
+      "end": 677.0,
+      "text": "clusters structural templates, flags unusual patterns, runs inside your network, and even has a node open telemetry agent for quick instrumentation."
+    },
+    {
+      "start": 687.0,
+      "end": 687.0,
+      "text": "Running untrusted code usually means choosing between heavyweight containers and a pile of nervous cleanup code."
+    },
+    {
+      "start": 694.0,
+      "end": 694.0,
+      "text": "VPOD gives you an instant Linux sandbox that runs a risk vvm inside web assembly. So the whole execution state"
+    },
+    {
+      "start": 701.0,
+      "end": 701.0,
+      "text": "stays boxed in. It boots from snapshots in under a second, exposes controlled file system and network access through"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "WASI and gives you both a CLI and Python SDK for code interpreter style workflows."
+    },
+    {
+      "start": 715.0,
+      "end": 715.0,
+      "text": "Most AI coding assistants just hand you the finished function and you paste it in without learning anything."
+    },
+    {
+      "start": 722.0,
+      "end": 722.0,
+      "text": "CodeTutor is an Emacs package that does the opposite. It watches your file saves, reads the diff, and explains what"
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "you just wrote like a senior engineer pairing with you. It runs on local readonly backends so it can't touch your"
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "source. It points you at the next move instead of writing the code."
+    },
+    {
+      "start": 741.0,
+      "end": 741.0,
+      "text": "Every web page you load drags along megabytes of HTML, CSS, and JavaScript."
+    },
+    {
+      "start": 746.0,
+      "end": 746.0,
+      "text": "And the engine rendering all that is a massive attack surface. Zero browser asks, \"What happens if you just delete it?\" Instead, it renders a simple"
+    },
+    {
+      "start": 755.0,
+      "end": 755.0,
+      "text": "markdown style format with interactive pieces like tables and data grids built straight in. It's one Flutter code base, so it runs on every platform you've got."
+    },
+    {
+      "start": 766.0,
+      "end": 766.0,
+      "text": "Claude code is handy, but if you live in Visual Studio, bouncing through a terminal means losing the diff viewer, diagnostics, and debugger context where"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "the bug actually is. Claude Code for Visual Studio bridges the Claude CLI into VS 2026. Edits land in native"
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "diffs. Compiler errors get shared automatically. And with opt-in debugger control, Claude can inspect call stacks,"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "variables, and break points while you're paused."
+    },
+    {
+      "start": 794.0,
+      "end": 794.0,
+      "text": "Europe wants sovereign AI, but new gigawatt data centers can sit in grid cues for most of a decade. Euromsh is a reproducible model asking a sharper"
+    },
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "question. What if Europe federated the public AI compute it already owns? The repo includes the sourced report, grid"
+    },
+    {
+      "start": 810.0,
+      "end": 810.0,
+      "text": "delay data set, Euro HPC compute inventory, equations, generated figures, and a piest suite for the assumptions."
+    },
+    {
+      "start": 818.0,
+      "end": 818.0,
+      "text": "Spreadsheets are fine for first order trade-offs, but they're terrible at showing who gets stressed, who adapts, and where the weird side effects start."
+    },
+    {
+      "start": 827.0,
+      "end": 827.0,
+      "text": "Altiverse turns one decision into two to four living simulations with up to around a thousand agents moving through alternate realities. It runs local"
+    },
+    {
+      "start": 836.0,
+      "end": 836.0,
+      "text": "first, works offline, uses deterministic seeds, and can add an optional open AI compatible model for reports and character Q&A."
+    },
+    {
+      "start": 846.0,
+      "end": 846.0,
+      "text": "Browser agents get weird fast. The model can see your tabs, but now you're trusting a backend with sessions, keys, and page content. Pier runs the agent"
+    },
+    {
+      "start": 855.0,
+      "end": 855.0,
+      "text": "loop as a Chrome or Firefox extension instead. BYO local encrypted vault, no backend, no telemetry, and sandboxed"
+    },
+    {
+      "start": 863.0,
+      "end": 863.0,
+      "text": "compute right in the browser from JS notebooks to web assembly Linux VMs. It even verifies actions against the live page before calling them done."
+    },
+    {
+      "start": 873.0,
+      "end": 873.0,
+      "text": "Building a collaborative app usually means writing custom backend APIs and dealing with painful database schema migrations as your data model changes."
+    },
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "Linked records is an open-source backend as a service inspired by triple stores that lets you skip all of it. It stores"
+    },
+    {
+      "start": 890.0,
+      "end": 890.0,
+      "text": "all data and permissions as simple semantic facts on top of Postgress."
+    },
+    {
+      "start": 895.0,
+      "end": 895.0,
+      "text": "Sharing access is as simple as inserting a new fact with zero backend code required."
+    },
+    {
+      "start": 901.0,
+      "end": 901.0,
+      "text": "Adding an AI assistant to a product should not mean rebuilding your front end around one chat component. Persona is a vanillajs TypeScript chat widget"
+    },
+    {
+      "start": 910.0,
+      "end": 910.0,
+      "text": "that drops into almost any site with no framework dependency. It handles streaming SSE responses, tool call UI,"
+    },
+    {
+      "start": 917.0,
+      "end": 917.0,
+      "text": "approvals, artifacts, voice themes, and webmc page tools while still letting you swap the back end from OpenAI agents to Langraph or your own adapter."
+    },
+    {
+      "start": 928.0,
+      "end": 928.0,
+      "text": "[music]"
+    }
+  ]
+}
