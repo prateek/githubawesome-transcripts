@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "id": "fPrSypBoWuA",
+  "title": "GitHub Trending Today #32: PPT-Design-Prompt, agent-simulator, cavemem, CrabTrap, OpenGame, LeanKG",
+  "url": "https://www.youtube.com/watch?v=fPrSypBoWuA",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-04-23",
+  "duration": 902,
+  "word_count": 2169,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T22:25:47+00:00",
+    "metadata_sha256": "5b5d2fedca470466baaf3c4d4ca0eac6920c76acde62e98c2ccb72bf946f6a77",
+    "captions_sha256": "cf6fe78045037ec1c1d4792921b9bb9527bcb70de0f68f73d344c76c4327b574",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome episode 32 of GitHub trending today. 35 trending open- source projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "PPT-Design-Prompt",
+      "repositories": [
+        "https://github.com/Russell-cell/PPT-Design-Prompt"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Design.md files work great for web, but hand them to an AI for a PowerPoint and you get web buttons and HTML layouts hallucinated onto your slides. PPT Design Prompt fixes that translation problem. a lightweight Python CLI that takes your web first design.md system and automatically strips away webspecific code. Reinterpreting the brand language strictly for presentation image generation."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "agent-simulator",
+      "repositories": [
+        "https://github.com/jasonkneen/agent-simulator"
+      ],
+      "id": "s003",
+      "end": 62,
+      "paragraphs": [
+        "Running the heavy Xcode iOS simulator and fighting with XQ test is painful. Agent Simulator streams a fully interactive iOS simulator directly into your browser. Click any UI element and it maps perfectly to your React Native source code with the exact file path and line number. Tap, swipe, and type directly in the web UI without moving your mouse or needing the simulator in focus."
+      ]
+    },
+    {
+      "start": 62,
+      "title": "cavemem",
+      "repositories": [
+        "https://github.com/JuliusBrussee/cavemem"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "The original Caveman skill went viral for slashing output tokens. Caveme is the sequel tackling AI amnesia. Why agent forget when agent can remember? Caveme gives your coding agents persistent local first memory that survives between sessions. It captures observations, shrinks them 75% using Caveman compression, stores them in a local SQLite database with FTS5 and vector search."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "privacy-filter",
+      "repositories": [
+        "https://github.com/openai/privacy-filter"
+      ],
+      "id": "s005",
+      "end": 117,
+      "paragraphs": [
+        "OpenAI open source the exact privacy tool they use internally. Privacy filter is a 1.5 billion parameter model designed exclusively to detect and scrub PII from text. Runs completely locally on your own machine. No sending sensitive data to the cloud just to redact it. Processes a 128,000 token context window in a single forward pass. Detects eight categories including names, addresses, API keys, passwords, and account numbers. You give an AI"
+      ]
+    },
+    {
+      "start": 117,
+      "title": "CrabTrap",
+      "repositories": [
+        "https://github.com/brexhq/CrabTrap"
+      ],
+      "id": "s006",
+      "end": 141,
+      "paragraphs": [
+        "agent internet access and real credentials. Suddenly, you're terrified it'll hallucinate a destructive API call or fall to prompt injection. Brex had the same problem. They built Crabt and open sourced it. An LLM is a judge HTTP proxy sitting between your agent and the internet. Intercepts every HTTP and HTTPS request before it hits a real API."
+      ]
+    },
+    {
+      "start": 141,
+      "title": "OpenGame",
+      "repositories": [
+        "https://github.com/leigest519/OpenGame"
+      ],
+      "id": "s007",
+      "end": 163,
+      "paragraphs": [
+        "Asking an AI agent to code a full video game usually ends in broken logic and disjointed files. Open is an open- source agentic framework built explicitly for end-to-end web game creation. Powered by game coder 27B, a massive code LLM fine-tuned specifically on game engines like phaser physics systems and state management patterns."
+      ]
+    },
+    {
+      "start": 163,
+      "title": "open-codesign",
+      "repositories": [
+        "https://github.com/OpenCoworkAI/open-codesign"
+      ],
+      "id": "s008",
+      "end": 189,
+      "paragraphs": [
+        "Drooling over vzero, lovable or clawed design but hate the vendor lockin? Open codeesign is a local first desktop app strict bring your own key model. Plug in anthropic openai Gemini or point it at localama models and pay zero cents for API calls. Type a prompt. Generate fully functional React prototypes, interactive landing pages, pitch slides, and PDFs right inside a sandboxed local iframe."
+      ]
+    },
+    {
+      "start": 189,
+      "title": "pi-computer-use",
+      "repositories": [
+        "https://github.com/injaneity/pi-computer-use"
+      ],
+      "id": "s009",
+      "end": 213,
+      "paragraphs": [
+        "Anthropic's computer use API lets AI see the screen, move the mouse, and click. PI computer use brings that natively to the Pi CLI on Mac OS. Tell your agent, \"Build a login screen and test if the hover state works.\" and it writes the React code, spins up your dev server, takes control of your mouse, physically opens Chrome, clicks the button, and visually verifies the result."
+      ]
+    },
+    {
+      "start": 213,
+      "title": "CubeSandbox",
+      "repositories": [
+        "https://github.com/TencentCloud/CubeSandbox"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "AI agents executing code is a security nightmare. Docker containers risk kernel breakouts. Traditional VMs kill real-time interaction with slow startup times. Cube Sandbox is an open- source execution environment with true hardware level isolation that cold starts in under 60 milliseconds. Built on Rust, VMM, and KVM with memory sharing optimizations, so each sandbox uses under five megabytes of RAM. Run over 2,000 concurrent isolated agents on a single server."
+      ]
+    },
+    {
+      "start": 244,
+      "title": "mercury-agent",
+      "repositories": [
+        "https://github.com/cosmicstack-labs/mercury-agent"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "AI agents are either locked down corporate rappers or reckless with your machine's permissions. Mercury is the middle ground. A soul-driven AI agent with permission hardened tools built for 247 automation. Run it from the CLI or connect it to a Telegram bot. the soul-driven part. Its personality, taste, and behavior are defined purely in local markdown files you own and control."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "OpenChronicle",
+      "repositories": [
+        "https://github.com/Einsia/OpenChronicle"
+      ],
+      "id": "s012",
+      "end": 292,
+      "paragraphs": [
+        "Open Chronicle is a self-hosted interaction engine that makes your LLM conversations durable. Persistent long-term memory, deterministic tasking, and fully auditable decision trails injected directly into your workflow. Totally provider agnostic. Plug in any model you want. seamlessly supports your local CLI, Discord bots, and MCP servers out of the box."
+      ]
+    },
+    {
+      "start": 292,
+      "title": "claude-desktop-buddy",
+      "repositories": [
+        "https://github.com/vthinkxie/claude-desktop-buddy-esp32-s3-touch-amoled-1.8"
+      ],
+      "id": "s013",
+      "end": 317,
+      "paragraphs": [
+        "Claude's desktop app has a built-in feature to connect to maker devices over Bluetooth low energy. Claude's desktop buddy is custom firmware for the Wave Share ESP32S3 AMOLED board that turns a 1.8 in capacitive touch display into a physical companion for your AI. Sits on your desk, shows realtime permission prompts, recent messages, and chat transcripts."
+      ]
+    },
+    {
+      "start": 317,
+      "title": "Auto-Quant",
+      "repositories": [
+        "https://github.com/TraderAlice/Auto-Quant"
+      ],
+      "id": "s014",
+      "end": 342,
+      "paragraphs": [
+        "Andre Carpathy's auto research pattern applied to crypto trading. Autoquant is an LLM native autonomous research loop built specifically for the freak trade framework. Point it at historical Bitcoin and Ethereum data. It autonomously writes Python strategy code, runs freak trade back tests, analyzes profit, loss, and draw down metrics, then rewrites its own code to optimize the strategy."
+      ]
+    },
+    {
+      "start": 342,
+      "title": "browser-harness-js",
+      "repositories": [
+        "https://github.com/browser-use/browser-harness-js"
+      ],
+      "id": "s015",
+      "end": 368,
+      "paragraphs": [
+        "AI browser agents usually rely on highle helpers like click. The problem every highle helper hides the true power of the browser. A basic click wrapper hides 14 parameters your LLM actually needs for complex humanlike tasks. Browser harnessjs flips that the thinnest possible bridge between your agent and Chrome. No rails, no recipes, pure raw access to the Chrome DevTools protocol."
+      ]
+    },
+    {
+      "start": 368,
+      "title": "alice",
+      "repositories": [
+        "https://github.com/simoncirstoiu/alice"
+      ],
+      "id": "s016",
+      "end": 392,
+      "paragraphs": [
+        "Frigate's AI constantly confuses tree shadows for people. Fixing it means fine-tuning YOLO, but every data set tool wants your home security footage in their cloud. Alice fixes that. 100% offline YOLO data set manager and trainer pulls snapshots from Fri Bounding box editor, auto annotation, full fine-tuning on your machine with ONX export back into Frigate."
+      ]
+    },
+    {
+      "start": 392,
+      "title": "token-dashboard",
+      "repositories": [
+        "https://github.com/nateherkai/token-dashboard"
+      ],
+      "id": "s017",
+      "end": 419,
+      "paragraphs": [
+        "Claude Code writes raw JSONL session transcripts locally. Reading them to figure out your costs is a nightmare. Token dashboard turns those logs into a gorgeous local web UI. Turnbyturn breakdowns, file heat maps showing which code burns the most tokens, cash hit analytics, plus a rule-based tips engine that flags expensive habits and suggests fixes. Pure Python and vanilla JavaScript. Zero telemetry."
+      ]
+    },
+    {
+      "start": 419,
+      "title": "moltui",
+      "repositories": [
+        "https://github.com/kszenes/moltui"
+      ],
+      "id": "s018",
+      "end": 443,
+      "paragraphs": [
+        "Computational chemists working over SSH rely on laggy X11 forwarding or constantly downloading files just to see a molecule. Moltoule brings a high performance molecular viewer to your terminal. Reads XYZ, Molden, Gaussian cube, and Orca GBW files. Uses Unicode Braille characters to render 3D geometries, atomic trajectories, and molecular orbitals directly in your shell."
+      ]
+    },
+    {
+      "start": 443,
+      "title": "git-newspaper",
+      "repositories": [
+        "https://github.com/LordAizen1/git-newspaper"
+      ],
+      "id": "s019",
+      "end": 466,
+      "paragraphs": [
+        "Staring at endless git log outputs is boring. Git newspaper turns your repo's commit history into a literal Victorian broad sheet. Biggest commit becomes the front page headline. Deleted files get obituaries. The most modified file writes a grumbling op-ed complaining about constant changes. Commit sentiment even generates a weather report."
+      ]
+    },
+    {
+      "start": 466,
+      "title": "LeanKG",
+      "repositories": [
+        "https://github.com/FreePeak/LeanKG"
+      ],
+      "id": "s020",
+      "end": 491,
+      "paragraphs": [
+        "Your AI coding assistant burns through thousands of tokens just to understand your project. Lean kg is a local first knowledge graph for your codebase. Built in Rust uses Treesitter to map every import, function call, and dependency. Expose the graph via MCP server and cursor or clawed code queries exactly what they need. Context usage drops from 10,000 tokens to 40."
+      ]
+    },
+    {
+      "start": 491,
+      "title": "cc-statusline",
+      "repositories": [
+        "https://github.com/NYCU-Chung/cc-statusline"
+      ],
+      "id": "s021",
+      "end": 519,
+      "paragraphs": [
+        "Spending hours in clawed code and suddenly hitting a rate limit because you lost track of your context window is brutal. CC status line injects a gorgeous real-time status bar at the bottom of your terminal. current git branch, active AI model, live progress bar of your remaining context window, and real-time session cost in USD. Incredibly lightweight, full 256 color support. Zero guesswork about your API budget."
+      ]
+    },
+    {
+      "start": 519,
+      "title": "expo-agent-spinners",
+      "repositories": [
+        "https://github.com/Eronred/expo-agent-spinners"
+      ],
+      "id": "s022",
+      "end": 544,
+      "paragraphs": [
+        "Expo agent spinners is a collection of 54 terminal style loading indicators built for React Native and Expo. RetroASKI, Braille patterns, arrows, emoji sets, all included. Zero native dependencies, no heavy SVG packages, no bloated UI threads, simple file copy workflow. Drop the component you want into your project and instantly give your app an authentic hacker terminal aesthetic."
+      ]
+    },
+    {
+      "start": 544,
+      "title": "kittyfarm",
+      "repositories": [
+        "https://github.com/dnakov/kittyfarm"
+      ],
+      "id": "s023",
+      "end": 567,
+      "paragraphs": [
+        "Testing a mobile app across different screen sizes means juggling six messy emulator windows. Kittyarm is a Mac OS app that shows multiple iOS simulators and Android emulators side by side in one unified window. Synchronized touch replication. Click, scroll, or type on one device and KittyFarmm replicates that input across every other device simultaneously."
+      ]
+    },
+    {
+      "start": 567,
+      "title": "ui",
+      "repositories": [
+        "https://github.com/pacifio/ui"
+      ],
+      "id": "s024",
+      "end": 592,
+      "paragraphs": [
+        "Constantly reprompting clawed code to make your UI look good is exhausting. Pacifio/UI, also known as Atlas, is the Shad CN for agent UI, a framework agnostic design language built specifically for AI. Drop the clawed skill into your workspace and it instantly teaches your agent to build dense AMOLED black professional interfaces inspired by the compactness of Zed, Versel, and Supabase."
+      ]
+    },
+    {
+      "start": 592,
+      "title": "Vibecode-Cleaner-Fartrun",
+      "repositories": [
+        "https://github.com/ChuprinaDaria/Vibecode-Cleaner-Fartrun"
+      ],
+      "id": "s025",
+      "end": 618,
+      "paragraphs": [
+        "Vibe coding with AI agents means accumulating a messy code base and you burn thousands of tokens just asking the AI to review its own work. Vibe code cleaner fart is a blazing fast rustpowered local code scanner built specifically to clean up AI generated projects. token-free llinter packed with 29 MCP tools covering dead code detection, security checks, save points, and frozen files."
+      ]
+    },
+    {
+      "start": 618,
+      "title": "OpenGuider",
+      "repositories": [
+        "https://github.com/mo-tunn/OpenGuider"
+      ],
+      "id": "s026",
+      "end": 644,
+      "paragraphs": [
+        "Tabbing over to a chatbot just to explain what's on your screen is tedious. OpenGuider is a real-time co-pilot for your entire desktop. An Electron application that actively watches your screen, listens to your voice commands, and guides you through your workflows with crystal clear voice and text actions built with Node.js. JS plug-and-play AI provider integrations and built-in texttospech engines."
+      ]
+    },
+    {
+      "start": 644,
+      "title": "awawausb",
+      "repositories": [
+        "https://github.com/ArcaneNibble/awawausb"
+      ],
+      "id": "s027",
+      "end": 669,
+      "paragraphs": [
+        "Firefox refuses to implement the web USB API, so web- based hardware flashers and crypto wallets force you into Chromium. Wawb brings full web USB support back to Firefox, a browser extension paired with a native messaging stub written in Rust. The Rust Demon talks directly to your USB devices and bridges them into the browser, perfectly mimicking Chrome's implementation."
+      ]
+    },
+    {
+      "start": 669,
+      "title": "codex-voice",
+      "repositories": [
+        "https://github.com/anthnykr/codex-voice"
+      ],
+      "id": "s028",
+      "end": 693,
+      "paragraphs": [
+        "Codex Voice is a native Mac OS menu bar app written in Swift. Blazing fast systemwide voice transcription anywhere on your computer. Hold a global hotkey, speak, and the transcribe text instantly pastes wherever your cursor is. It authenticates directly with your local codec credentials. Zero cloud subscriptions, state-of-the-art AI transcription, near zero latency."
+      ]
+    },
+    {
+      "start": 693,
+      "title": "vigil-tui",
+      "repositories": [
+        "https://github.com/GIN-SYSTEMS/vigil-tui"
+      ],
+      "id": "s029",
+      "end": 718,
+      "paragraphs": [
+        "Ever wondered how much power your rig pulls from the wall? Vigil 2 is a realtime hardware power monitor running entirely in your terminal built with Python and textual reads directly from motherboard and GPU sensors to show actual wattage, temperature, and frequencies. Punch in your electricity rate and it ranks your processes by how much money they're costing you in real time."
+      ]
+    },
+    {
+      "start": 718,
+      "title": "prax-agent",
+      "repositories": [
+        "https://github.com/ChanningLua/prax-agent"
+      ],
+      "id": "s030",
+      "end": 743,
+      "paragraphs": [
+        "AI coding assistants fix the same bug repeatedly because they never remember solving it before. Prag agent runs autonomous test verify fix loops to catch and repair its own errors. And when it detects a correction, it saves the lesson to a persistent cross project memory bank. A bug pattern solved in your React project today makes it smarter in your Python backend tomorrow."
+      ]
+    },
+    {
+      "start": 743,
+      "title": "ActivSpot",
+      "repositories": [
+        "https://github.com/Devvvmn/ActivSpot"
+      ],
+      "id": "s031",
+      "end": 768,
+      "paragraphs": [
+        "Apple's dynamic island, but on Linux. Active Spot is a gorgeous, fully functional dynamic island built natively for Hyperland on Linux. Sits at the top of your screen. Automatically morphs based on system context. Currently playing music with album art. Live Discord voice call timer with mute button. Screen recording indicator. Dual bubble mode where widgets split apart. morphing app launcher with fuzzy search."
+      ]
+    },
+    {
+      "start": 768,
+      "title": "pith",
+      "repositories": [
+        "https://github.com/abhisekjha/pith"
+      ],
+      "id": "s032",
+      "end": 793,
+      "paragraphs": [
+        "Pith is a zero configuration token optimization engine built to slash those costs. Installs four life cycle hooks directly into clawed code that automatically compress your context window behind the scenes. Intelligently intercepts file reads and maintains a persistent lightweight project wiki. Drastically reduces input tokens without losing any of your AI's reasoning."
+      ]
+    },
+    {
+      "start": 793,
+      "title": "10x",
+      "repositories": [
+        "https://github.com/10x-app-builder/10x"
+      ],
+      "id": "s033",
+      "end": 817,
+      "paragraphs": [
+        "10X lets you describe an iOS app in plain English and get a complete Xcode project out the other end. The AI researches the plan, writes production quality Swift UI code, and scaffolds the project with Xcode gen. The live preview closes the loop. It compiles the code, boots an iOS simulator, and captures screenshots of the running app back into your conversation."
+      ]
+    },
+    {
+      "start": 817,
+      "title": "auto-memory",
+      "repositories": [
+        "https://github.com/dezgit2025/auto-memory"
+      ],
+      "id": "s034",
+      "end": 842,
+      "paragraphs": [
+        "Automemory is a zero dependency Python CLI that gives clawed code cursor and GitHub copilot persistent session memory acts as a strict readonly query layer over your agents local seek light database instead of dumping full chat history and burning 10,000 tokens. It uses progressive full text search to pull exactly the context your agent needs in about 50 tokens."
+      ]
+    },
+    {
+      "start": 842,
+      "title": "ephemera",
+      "repositories": [
+        "https://github.com/vmi-rs/ephemera"
+      ],
+      "id": "s035",
+      "end": 865,
+      "paragraphs": [
+        "Analyzing Windows kernel crash dumps on Linux or Mac usually means spinning up a Windows VM just to run Windbg. Ephera is a Rustbased crash dump CLI with a familiar Windbag style interface running natively on Linux. Loads the dump, maps virtual memory through a VMI backend, auto downloads PTB symbols, drops you into a lightning fast ripple."
+      ]
+    },
+    {
+      "start": 865,
+      "title": "tabula-docs",
+      "repositories": [
+        "https://github.com/Lauwed/tabula-docs"
+      ],
+      "id": "s036",
+      "end": 902,
+      "paragraphs": [
+        "Someone built an API in raw C and needed swagger docs. C has no decorators, so they built the documentation generator themselves. Tabula docs takes a single JSON file describing your API and renders a beautiful interactive documentation site with endpoints, request schemas, and dark mode. No React, no build steps, no node modules. Pure HTML, CSS, and vanilla JavaScript. And that is all 35 projects for GitHub trending today number 32. Everything is linked below. Subscribe if you want this every week. See you in number 33."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome episode 32 of GitHub trending today. 35 trending open- source projects on GitHub. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Design.md files work great for web, but hand them to an AI for a PowerPoint and you get web buttons and HTML layouts"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "hallucinated onto your slides. PPT Design Prompt fixes that translation problem. a lightweight Python CLI that"
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "takes your web first design.md system and automatically strips away webspecific code. Reinterpreting the"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "brand language strictly for presentation image generation."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Running the heavy Xcode iOS simulator and fighting with XQ test is painful."
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "text": "Agent Simulator streams a fully interactive iOS simulator directly into your browser. Click any UI element and it maps perfectly to your React Native"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "source code with the exact file path and line number. Tap, swipe, and type directly in the web UI without moving"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "your mouse or needing the simulator in focus."
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "The original Caveman skill went viral for slashing output tokens. Caveme is the sequel tackling AI amnesia. Why agent forget when agent can remember?"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "Caveme gives your coding agents persistent local first memory that survives between sessions. It captures observations, shrinks them 75% using"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "Caveman compression, stores them in a local SQLite database with FTS5 and vector search."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "OpenAI open source the exact privacy tool they use internally. Privacy filter is a 1.5 billion parameter model"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "text": "designed exclusively to detect and scrub PII from text. Runs completely locally on your own machine. No sending sensitive data to the cloud just to"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "redact it. Processes a 128,000 token context window in a single forward pass."
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "Detects eight categories including names, addresses, API keys, passwords, and account numbers. You give an AI"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "text": "agent internet access and real credentials. Suddenly, you're terrified it'll hallucinate a destructive API call or fall to prompt injection. Brex had"
+    },
+    {
+      "start": 127.0,
+      "end": 127.0,
+      "text": "the same problem. They built Crabt and open sourced it. An LLM is a judge HTTP proxy sitting between your agent and the"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "internet. Intercepts every HTTP and HTTPS request before it hits a real API."
+    },
+    {
+      "start": 141.0,
+      "end": 141.0,
+      "text": "Asking an AI agent to code a full video game usually ends in broken logic and disjointed files. Open is an open-"
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "source agentic framework built explicitly for end-to-end web game creation. Powered by game coder 27B, a"
+    },
+    {
+      "start": 156.0,
+      "end": 156.0,
+      "text": "massive code LLM fine-tuned specifically on game engines like phaser physics systems and state management patterns."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Drooling over vzero, lovable or clawed design but hate the vendor lockin? Open codeesign is a local first desktop app"
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "strict bring your own key model. Plug in anthropic openai Gemini or point it at localama models and pay zero cents for"
+    },
+    {
+      "start": 178.0,
+      "end": 178.0,
+      "text": "API calls. Type a prompt. Generate fully functional React prototypes, interactive landing pages, pitch slides, and PDFs right inside a sandboxed local iframe."
+    },
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "Anthropic's computer use API lets AI see the screen, move the mouse, and click."
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "PI computer use brings that natively to the Pi CLI on Mac OS. Tell your agent, \"Build a login screen and test if the"
+    },
+    {
+      "start": 202.0,
+      "end": 202.0,
+      "text": "hover state works.\" and it writes the React code, spins up your dev server, takes control of your mouse, physically opens Chrome, clicks the button, and visually verifies the result."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "AI agents executing code is a security nightmare. Docker containers risk kernel breakouts. Traditional VMs kill"
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "real-time interaction with slow startup times. Cube Sandbox is an open- source execution environment with true hardware level isolation that cold starts in"
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "under 60 milliseconds. Built on Rust, VMM, and KVM with memory sharing optimizations, so each sandbox uses"
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "under five megabytes of RAM. Run over 2,000 concurrent isolated agents on a single server."
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "AI agents are either locked down corporate rappers or reckless with your machine's permissions."
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "Mercury is the middle ground. A soul-driven AI agent with permission hardened tools built for 247 automation."
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "Run it from the CLI or connect it to a Telegram bot. the soul-driven part. Its personality, taste, and behavior are"
+    },
+    {
+      "start": 265.0,
+      "end": 265.0,
+      "text": "defined purely in local markdown files you own and control."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Open Chronicle is a self-hosted interaction engine that makes your LLM conversations durable. Persistent"
+    },
+    {
+      "start": 276.0,
+      "end": 276.0,
+      "text": "long-term memory, deterministic tasking, and fully auditable decision trails injected directly into your workflow."
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "Totally provider agnostic. Plug in any model you want. seamlessly supports your local CLI, Discord bots, and MCP servers out of the box."
+    },
+    {
+      "start": 292.0,
+      "end": 292.0,
+      "text": "Claude's desktop app has a built-in feature to connect to maker devices over Bluetooth low energy."
+    },
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "Claude's desktop buddy is custom firmware for the Wave Share ESP32S3 AMOLED board that turns a 1.8 in"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "capacitive touch display into a physical companion for your AI. Sits on your desk, shows realtime permission prompts, recent messages, and chat transcripts."
+    },
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "Andre Carpathy's auto research pattern applied to crypto trading. Autoquant is an LLM native autonomous research loop"
+    },
+    {
+      "start": 325.0,
+      "end": 325.0,
+      "text": "built specifically for the freak trade framework. Point it at historical Bitcoin and Ethereum data. It autonomously writes Python strategy"
+    },
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "code, runs freak trade back tests, analyzes profit, loss, and draw down metrics, then rewrites its own code to optimize the strategy."
+    },
+    {
+      "start": 342.0,
+      "end": 342.0,
+      "text": "AI browser agents usually rely on highle helpers like click. The problem every highle helper hides the true power of"
+    },
+    {
+      "start": 349.0,
+      "end": 349.0,
+      "text": "the browser. A basic click wrapper hides 14 parameters your LLM actually needs for complex humanlike tasks. Browser"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "harnessjs flips that the thinnest possible bridge between your agent and Chrome. No rails, no recipes, pure raw access to the Chrome DevTools protocol."
+    },
+    {
+      "start": 368.0,
+      "end": 368.0,
+      "text": "Frigate's AI constantly confuses tree shadows for people. Fixing it means fine-tuning YOLO, but every data set"
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "tool wants your home security footage in their cloud. Alice fixes that. 100% offline YOLO data set manager and"
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "trainer pulls snapshots from Fri Bounding box editor, auto annotation, full fine-tuning on your machine with ONX export back into Frigate."
+    },
+    {
+      "start": 392.0,
+      "end": 392.0,
+      "text": "Claude Code writes raw JSONL session transcripts locally. Reading them to figure out your costs is a nightmare."
+    },
+    {
+      "start": 399.0,
+      "end": 399.0,
+      "text": "Token dashboard turns those logs into a gorgeous local web UI. Turnbyturn breakdowns, file heat maps showing which code burns the most tokens, cash hit"
+    },
+    {
+      "start": 408.0,
+      "end": 408.0,
+      "text": "analytics, plus a rule-based tips engine that flags expensive habits and suggests fixes. Pure Python and vanilla JavaScript. Zero telemetry."
+    },
+    {
+      "start": 419.0,
+      "end": 419.0,
+      "text": "Computational chemists working over SSH rely on laggy X11 forwarding or constantly downloading files just to see"
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "a molecule. Moltoule brings a high performance molecular viewer to your terminal. Reads XYZ, Molden, Gaussian"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "cube, and Orca GBW files. Uses Unicode Braille characters to render 3D geometries, atomic trajectories, and"
+    },
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "molecular orbitals directly in your shell."
+    },
+    {
+      "start": 444.0,
+      "end": 444.0,
+      "text": "Staring at endless git log outputs is boring. Git newspaper turns your repo's commit history into a literal Victorian"
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "broad sheet. Biggest commit becomes the front page headline. Deleted files get obituaries. The most modified file"
+    },
+    {
+      "start": 459.0,
+      "end": 459.0,
+      "text": "writes a grumbling op-ed complaining about constant changes. Commit sentiment even generates a weather report."
+    },
+    {
+      "start": 466.0,
+      "end": 466.0,
+      "text": "Your AI coding assistant burns through thousands of tokens just to understand your project. Lean kg is a local first"
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "knowledge graph for your codebase. Built in Rust uses Treesitter to map every import, function call, and dependency."
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "Expose the graph via MCP server and cursor or clawed code queries exactly what they need. Context usage drops from 10,000 tokens to 40."
+    },
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "Spending hours in clawed code and suddenly hitting a rate limit because you lost track of your context window is brutal."
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "CC status line injects a gorgeous real-time status bar at the bottom of your terminal. current git branch, active AI model, live progress bar of"
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "your remaining context window, and real-time session cost in USD."
+    },
+    {
+      "start": 511.0,
+      "end": 511.0,
+      "text": "Incredibly lightweight, full 256 color support. Zero guesswork about your API budget."
+    },
+    {
+      "start": 519.0,
+      "end": 519.0,
+      "text": "Expo agent spinners is a collection of 54 terminal style loading indicators built for React Native and Expo."
+    },
+    {
+      "start": 526.0,
+      "end": 526.0,
+      "text": "RetroASKI, Braille patterns, arrows, emoji sets, all included. Zero native dependencies, no heavy SVG packages, no"
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "bloated UI threads, simple file copy workflow. Drop the component you want into your project and instantly give your app an authentic hacker terminal aesthetic."
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "Testing a mobile app across different screen sizes means juggling six messy emulator windows. Kittyarm is a Mac OS"
+    },
+    {
+      "start": 551.0,
+      "end": 551.0,
+      "text": "app that shows multiple iOS simulators and Android emulators side by side in one unified window. Synchronized touch"
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "replication. Click, scroll, or type on one device and KittyFarmm replicates that input across every other device simultaneously."
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Constantly reprompting clawed code to make your UI look good is exhausting."
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "Pacifio/UI, also known as Atlas, is the Shad CN for agent UI, a framework agnostic design"
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "language built specifically for AI. Drop the clawed skill into your workspace and it instantly teaches your agent to build dense AMOLED black professional"
+    },
+    {
+      "start": 586.0,
+      "end": 586.0,
+      "text": "interfaces inspired by the compactness of Zed, Versel, and Supabase."
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "Vibe coding with AI agents means accumulating a messy code base and you burn thousands of tokens just asking the AI to review its own work. Vibe code"
+    },
+    {
+      "start": 601.0,
+      "end": 601.0,
+      "text": "cleaner fart is a blazing fast rustpowered local code scanner built specifically to clean up AI generated projects. token-free llinter packed with"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "29 MCP tools covering dead code detection, security checks, save points, and frozen files."
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "Tabbing over to a chatbot just to explain what's on your screen is tedious. OpenGuider is a real-time co-pilot for your entire desktop. An"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "Electron application that actively watches your screen, listens to your voice commands, and guides you through your workflows with crystal clear voice"
+    },
+    {
+      "start": 634.0,
+      "end": 634.0,
+      "text": "and text actions built with Node.js. JS plug-and-play AI provider integrations and built-in texttospech engines."
+    },
+    {
+      "start": 644.0,
+      "end": 644.0,
+      "text": "Firefox refuses to implement the web USB API, so web- based hardware flashers and crypto wallets force you into Chromium."
+    },
+    {
+      "start": 652.0,
+      "end": 652.0,
+      "text": "Wawb brings full web USB support back to Firefox, a browser extension paired with a native messaging stub written in Rust."
+    },
+    {
+      "start": 660.0,
+      "end": 660.0,
+      "text": "The Rust Demon talks directly to your USB devices and bridges them into the browser, perfectly mimicking Chrome's implementation."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "Codex Voice is a native Mac OS menu bar app written in Swift. Blazing fast systemwide voice transcription anywhere"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "on your computer. Hold a global hotkey, speak, and the transcribe text instantly pastes wherever your cursor is. It authenticates directly with your local"
+    },
+    {
+      "start": 685.0,
+      "end": 685.0,
+      "text": "codec credentials. Zero cloud subscriptions, state-of-the-art AI transcription, near zero latency."
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "Ever wondered how much power your rig pulls from the wall? Vigil 2 is a realtime hardware power monitor running"
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "entirely in your terminal built with Python and textual reads directly from motherboard and GPU sensors to show"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "actual wattage, temperature, and frequencies. Punch in your electricity rate and it ranks your processes by how much money they're costing you in real time."
+    },
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "AI coding assistants fix the same bug repeatedly because they never remember solving it before. Prag agent runs autonomous test verify fix loops to"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "catch and repair its own errors. And when it detects a correction, it saves the lesson to a persistent cross project memory bank."
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "A bug pattern solved in your React project today makes it smarter in your Python backend tomorrow."
+    },
+    {
+      "start": 743.0,
+      "end": 743.0,
+      "text": "Apple's dynamic island, but on Linux."
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "Active Spot is a gorgeous, fully functional dynamic island built natively for Hyperland on Linux. Sits at the top of your screen. Automatically morphs"
+    },
+    {
+      "start": 754.0,
+      "end": 754.0,
+      "text": "based on system context. Currently playing music with album art. Live Discord voice call timer with mute button. Screen recording indicator. Dual bubble mode where widgets split apart."
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "morphing app launcher with fuzzy search."
+    },
+    {
+      "start": 768.0,
+      "end": 768.0,
+      "text": "Pith is a zero configuration token optimization engine built to slash those costs."
+    },
+    {
+      "start": 776.0,
+      "end": 776.0,
+      "text": "Installs four life cycle hooks directly into clawed code that automatically compress your context window behind the scenes. Intelligently intercepts file"
+    },
+    {
+      "start": 784.0,
+      "end": 784.0,
+      "text": "reads and maintains a persistent lightweight project wiki. Drastically reduces input tokens without losing any of your AI's reasoning."
+    },
+    {
+      "start": 793.0,
+      "end": 793.0,
+      "text": "10X lets you describe an iOS app in plain English and get a complete Xcode project out the other end. The AI"
+    },
+    {
+      "start": 800.0,
+      "end": 800.0,
+      "text": "researches the plan, writes production quality Swift UI code, and scaffolds the project with Xcode gen. The live preview"
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "closes the loop. It compiles the code, boots an iOS simulator, and captures screenshots of the running app back into your conversation."
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "Automemory is a zero dependency Python CLI that gives clawed code cursor and GitHub copilot persistent session memory"
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "acts as a strict readonly query layer over your agents local seek light database instead of dumping full chat history and burning 10,000 tokens. It"
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "uses progressive full text search to pull exactly the context your agent needs in about 50 tokens."
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "Analyzing Windows kernel crash dumps on Linux or Mac usually means spinning up a Windows VM just to run Windbg. Ephera is"
+    },
+    {
+      "start": 850.0,
+      "end": 850.0,
+      "text": "a Rustbased crash dump CLI with a familiar Windbag style interface running natively on Linux. Loads the dump, maps"
+    },
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "virtual memory through a VMI backend, auto downloads PTB symbols, drops you into a lightning fast ripple."
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "Someone built an API in raw C and needed swagger docs. C has no decorators, so they built the documentation generator themselves. Tabula docs takes a single"
+    },
+    {
+      "start": 874.0,
+      "end": 874.0,
+      "text": "JSON file describing your API and renders a beautiful interactive documentation site with endpoints, request schemas, and dark mode. No React, no build steps, no node modules."
+    },
+    {
+      "start": 884.0,
+      "end": 884.0,
+      "text": "Pure HTML, CSS, and vanilla JavaScript."
+    },
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "And that is all 35 projects for GitHub trending today number 32. Everything is linked below. Subscribe if you want this every week. See you in number 33."
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "id": "mYU9vcvL-yk",
+  "title": "Hacker News Show #4: hippo-memory, react-rewrite, Zerobox, claudraband, Kiyeovo, Raincast, Pegboard",
+  "url": "https://www.youtube.com/watch?v=mYU9vcvL-yk",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-04-14",
+  "duration": 926,
+  "word_count": 2240,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T22:28:11+00:00",
+    "metadata_sha256": "ac46623340b728ec6775544131047e1c53e95390a2d4fa246c173555556b1467",
+    "captions_sha256": "2f63fd9fe4150512a12f8f9738bb1f9d9df21075a5138806bf7d301f4ce1a0d5",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 13,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is the Hacker News Show, episode 4. We've compiled 35 open-source repositories that recently went viral on Hacker News. Let's get into it."
+      ]
+    },
+    {
+      "start": 13,
+      "title": "hippo-memory",
+      "repositories": [
+        "https://github.com/kitfunso/hippo-memory"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Every new AI session starts with amnesia. Hippo memory fixes that with a biologically inspired approach. Memories decay over time with configurable half- lives, but facts the agent uses frequently undergo retrieval strengthening and become permanent. At the end of each session, a sleep-based consolidation phase merges and prunes what the agent learned. Same as human memory during sleep."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "git bayesect",
+      "repositories": [
+        "https://github.com/hauntsaninja/git_bayesect"
+      ],
+      "id": "s003",
+      "end": 65,
+      "paragraphs": [
+        "Git bisct breaks on flaky tests because it assumes every pass or fail is absolute truth. Git basect fixes that with basian inference. Report whether a test passed or failed on each checkout and a beta bernoli conjugacy trick calculates the probability of which commit introduced the instability. for race conditions, flaky pipelines, and ML evaluations that randomly shift. This makes the problem tractable."
+      ]
+    },
+    {
+      "start": 65,
+      "title": "pg_textsearch",
+      "repositories": [
+        "https://github.com/timescale/pg_textsearch"
+      ],
+      "id": "s004",
+      "end": 94,
+      "paragraphs": [
+        "Adding full text search usually means spinning up elastic search or paying for Alolia and maintaining a separate sync pipeline. PGEX search is a PostgreSQL extension that puts BM25 full text search directly inside your database. Memtable architecture and blockmax WAN optimization make top K searches up to 4x faster than native Postgress full text search with proper relevance ranking for term frequency, document length, and word rarity."
+      ]
+    },
+    {
+      "start": 94,
+      "title": "Zerobox",
+      "repositories": [
+        "https://github.com/afshinm/zerobox"
+      ],
+      "id": "s005",
+      "end": 122,
+      "paragraphs": [
+        "Xerobox is a cross-platform sandbox CLI written in Rust built on the same sandboxing engine that powers OpenAI's codecs. Deny by default policy. No Docker Damon, no VMs. Single binary with 10 milliseconds of overhead using native OS sandboxing. Give your agent a fake API key placeholder. When it makes a network call, Zerobox intercepts it, verifies the destination is approved, and injects the real key into the headers."
+      ]
+    },
+    {
+      "start": 122,
+      "title": "claudraband",
+      "repositories": [
+        "https://github.com/halfwhey/claudraband"
+      ],
+      "id": "s006",
+      "end": 151,
+      "paragraphs": [
+        "Claude code dies when you close the terminal. Claudra wraps the CLI in T-Mux for true session persistence. Start a massive refactor. Close your laptop. pick up exactly where you left off. An HTTP Damon adds remote headless control and an ACP server lets you drive the agent directly from Zed or Toad. Because sessions persist, your current Claude instance can query older sessions and ask why it made specific architectural decisions last week."
+      ]
+    },
+    {
+      "start": 151,
+      "title": "react-rewrite",
+      "repositories": [
+        "https://github.com/donghaxkim/react-rewrite"
+      ],
+      "id": "s007",
+      "end": 175,
+      "paragraphs": [
+        "Switching between your code editor and browser to tweak spacing and colors is small friction that compounds across a full day of UI work. React Rewrite injects a visual overlay directly into your running React Dev Server. Click any element, adjust layout, spacing, colors, and typography in a sidebar. Double click text to edit inline. Drag siblings to reorder them on screen."
+      ]
+    },
+    {
+      "start": 175,
+      "title": "Agents Observe",
+      "repositories": [
+        "https://github.com/simple10/agents-observe"
+      ],
+      "id": "s008",
+      "end": 201,
+      "paragraphs": [
+        "Parallel agent execution produces terminal output that's impossible to follow when something goes wrong. Three agents deep. Agents Observe installs as a clawed plug-in and spins up a real-time web dashboard via Docker. Every hook event visualized as it happens. Hierarchical tree of parent and child agents, real-time tool calls, exact files being touched, searchable and filterable execution output."
+      ]
+    },
+    {
+      "start": 201,
+      "title": "Kiyeovo",
+      "repositories": [
+        "https://github.com/Realman78/Kiyeovo"
+      ],
+      "id": "s009",
+      "end": 228,
+      "paragraphs": [
+        "Kovo is a peer-to-peer desktop messenger with two completely airgapped network modes. Fast mode uses standard P2P relays for low latency messaging and WebRTC audio and video calls. Anonymous mode routes everything through tour. Separate DHT name spaces and storage scopes mean the two modes share nothing. Offline messages go into encrypted DHT buckets and get delivered the moment the recipient reconnects."
+      ]
+    },
+    {
+      "start": 228,
+      "title": "mtproto.zig",
+      "repositories": [
+        "https://github.com/sleep3r/mtproto.zig"
+      ],
+      "id": "s010",
+      "end": 255,
+      "paragraphs": [
+        "A telegram proxy written in Zigg that disguises traffic as standard TLS 1.3 HTTPS invisible to deep packet inspection firewalls. OS level TCP desync and packet fragmentation built in. 177 kilobyte binary under 1 megabyte of RAM. Boots in under 10 milliseconds. Zero dynamic memory allocations at runtime. Everything pre-allocated on startup. No garbage collector stalls under load."
+      ]
+    },
+    {
+      "start": 255,
+      "title": "korb",
+      "repositories": [
+        "https://github.com/yannick-cw/korb"
+      ],
+      "id": "s011",
+      "end": 278,
+      "paragraphs": [
+        "Cororb is a HA hasll CLI wrapping aways APIs, but every command outputs structured JSON specifically so AI agents can drive it. The workflow the creator built dictate groceries to Siri throughout the week. Then unleash an agent that searches Ray for each item, fills the basket, finds a pickup slot, executes checkout, and ticks it off Apple reminders when headless Chrome for AI web browsing renders pixels just so a vision model"
+      ]
+    },
+    {
+      "start": 278,
+      "title": "Openbrowser",
+      "repositories": [
+        "https://github.com/JasonHonKL/Openbrowser"
+      ],
+      "id": "s012",
+      "end": 303,
+      "paragraphs": [
+        "can guess where to click. That's wasteful by design. Open browser throws that architecture out entirely. Instead of rendering pixels, it fetches HTML and parses it into a structured semantic tree. Arya rolls, headings, forms, and interactive elements tagged with action annotations like click, fill, and navigate. Describe a desktop app in plain English."
+      ]
+    },
+    {
+      "start": 303,
+      "title": "Raincast",
+      "repositories": [
+        "https://github.com/tihiera/raincast"
+      ],
+      "id": "s013",
+      "end": 333,
+      "paragraphs": [
+        "Get a shippable Tory binary out the other end. Raincast generates a React front end with a compiled Rust backend. real file system access, shell commands, and native OS interaction. When the AI writes Rust backend commands, a extraction spins up a proxy CLI binary instantly, giving you hot reloading for both UI and Rust backend simultaneously without waiting for the full Tory compiler on every change."
+      ]
+    },
+    {
+      "start": 333,
+      "title": "Pegboard",
+      "repositories": [
+        "https://github.com/virpo/pegboard"
+      ],
+      "id": "s014",
+      "end": 357,
+      "paragraphs": [
+        "A handdrawn sketch on paper, a photo, two measurements. 5 minutes later, a 3D printer was producing the parts. Pegboard is a modular 3D printable gear and pegboard system, but the real story is the agents.md file included in the repo. It's explicitly designed so your local AI coding agents can read the CAD parameters and autonomously modify the 3D models."
+      ]
+    },
+    {
+      "start": 357,
+      "title": "TinyOS",
+      "repositories": [
+        "https://github.com/cmc-labo/tinyos-rtos"
+      ],
+      "id": "s015",
+      "end": 383,
+      "paragraphs": [
+        "Ever wanted to understand exactly how an operating system works under the hood? Tiny OS Artios is a bare metal real-time operating system built from scratch for CortexM microcontrollers under 10 kilobytes for the kernel, minimum 2 kilobyt of RAM, preemptive priority based scheduler with 256 priority levels, custom memory management, and thin POSIX compatibility layers for Pthreads and sockets."
+      ]
+    },
+    {
+      "start": 383,
+      "title": "numa",
+      "repositories": [
+        "https://github.com/razvandimescu/numa"
+      ],
+      "id": "s016",
+      "end": 410,
+      "paragraphs": [
+        "NUMA is a portable DNS resolver written in Rust, zero external DNS libraries, single 8 megabyte binary. Spin it up and use clean local domains like front-end numa and api.numa instantly. Autogenerates local CAS and TLSerts so you get HTTPS with a green padlock in local dev. It also blocks 400,000 ad and tracker domains systemwide on any network turning your laptop into a portable Pi Hole."
+      ]
+    },
+    {
+      "start": 410,
+      "title": "baremail",
+      "repositories": [
+        "https://github.com/matt-virgo/baremail"
+      ],
+      "id": "s017",
+      "end": 439,
+      "paragraphs": [
+        "Gmail refuses to load on a bad connection because the interface is multiple megabytes of JavaScript. BareMail is a minimalist Gmail client that fits into 60 kilobytes and permanently caches in your browser. No backend. Your browser talks directly to the Gmail API, so your emails never touch a third party server. Only raw message text travels over the wire. Plug in your Google Cloud API key and your inbox loads on any connection."
+      ]
+    },
+    {
+      "start": 439,
+      "title": "modo",
+      "repositories": [
+        "https://github.com/mohshomis/modo"
+      ],
+      "id": "s018",
+      "end": 462,
+      "paragraphs": [
+        "Moto is an open- source AI IDE built on VS Code's core with specdriven development. Before writing a single line of code, it generates requirements, design documents, and a step-by-step task checklist. All saved as steering files directly in your project folder. Watch the agent execute tasks one by one. Close the IDE, pick up exactly where you left off tomorrow."
+      ]
+    },
+    {
+      "start": 462,
+      "title": "craft",
+      "repositories": [
+        "https://github.com/randerson112/craft"
+      ],
+      "id": "s019",
+      "end": 486,
+      "paragraphs": [
+        "Setting up a new C or C++ project means an hour of CMake files, find package fights, and mysterious linking errors. Craft brings cargo style workflow to C and C++. Configure your project with a simple craft.l file. Need a dependency? Type craft add and drop the GitHub URL. It clones the dependency, handles linking, and regenerates CMake completely under the hood. AI coding agents struggle with data analysis"
+      ]
+    },
+    {
+      "start": 486,
+      "title": "marimo-pair",
+      "repositories": [
+        "https://github.com/marimo-team/marimo-pair"
+      ],
+      "id": "s020",
+      "end": 514,
+      "paragraphs": [
+        "because they can't see what's actually in memory. Mimo pair drops your agent directly into a live running Mimo notebook session. It inspects dataf frames in memory, runs scratchpad tests to validate logic, and manipulates notebook UI elements in real time, not a text editor guessing at your data. A stateful, reactive Python environment your agent can actually see and interact with. Buffer and Sendable get expensive fast with per seat and per channel pricing. Bright Bean Studio is a"
+      ]
+    },
+    {
+      "start": 514,
+      "title": "brightbean-studio",
+      "repositories": [
+        "https://github.com/brightbeanxyz/brightbean-studio"
+      ],
+      "id": "s021",
+      "end": 540,
+      "paragraphs": [
+        "self-hostable alternative. Schedule and publish across 12 platforms from one dashboard, including Tik Tok, Threads, Blue Sky, and Mastadon. Visual drag and drop calendar, multi-stage approval workflows via magic links, so clients need zero accounts, and a unified inbox for all DMs and mentions."
+      ]
+    },
+    {
+      "start": 540,
+      "title": "finalrun-agent",
+      "repositories": [
+        "https://github.com/final-run/finalrun-agent"
+      ],
+      "id": "s022",
+      "end": 567,
+      "paragraphs": [
+        "Final Run is a vision-based QA agent that sees your iOS or Android app the way a human does. Write test flows in plain English or YAML, and it visually navigates the app. clicks buttons and verifies screens without touching a single selector. Installs as a clawed code skill so your agent can build a feature and immediately instruct Final Run to open the emulator and verify it works before the commit goes through."
+      ]
+    },
+    {
+      "start": 567,
+      "title": "ttf-doom",
+      "repositories": [
+        "https://github.com/4RH1T3CT0R7/ttf-doom"
+      ],
+      "id": "s023",
+      "end": 590,
+      "paragraphs": [
+        "Someone built a 3D raycasting engine inside a true type fonts hinting virtual machine. The font hinting instruction set is touring complete. JavaScript handles WD movement. The font file acts as the GPU. Player coordinates pass in via CSS font variation settings. And the font's bite code does actual 3D ray marching to render the walls."
+      ]
+    },
+    {
+      "start": 590,
+      "title": "mdarena",
+      "repositories": [
+        "https://github.com/HudsonGri/mdarena"
+      ],
+      "id": "s024",
+      "end": 611,
+      "paragraphs": [
+        "Prompt engineering for clawed code is usually guesswork. You change a rule and hope the output improves. Mina makes it empirical. It fetches your merged pull requests from GitHub, sets up isolated git work trees, injects your custom clawed MD rules, and runs your actual test suite against them. Piest jest cargo whatever you use niclaus worth's Oberon operating system"
+      ]
+    },
+    {
+      "start": 611,
+      "title": "OberonSystem3Native",
+      "repositories": [
+        "https://github.com/rochus-keller/OberonSystem3Native"
+      ],
+      "id": "s025",
+      "end": 641,
+      "paragraphs": [
+        "running bare metal on a $15 Raspberry Pi no Linux underneath no emulation layer flash the SD card plug it in and it boots directly into the Oberon graphical desktop in seconds on a Pi 3B Pi02 or Alamex ESP32 a 1980s operating system designed for minimalism running on modern hardware exactly as intended the kind project that exists purely because someone thought it should. Decision node is a universal shared memory store for all"
+      ]
+    },
+    {
+      "start": 641,
+      "title": "DecisionNode",
+      "repositories": [
+        "https://github.com/decisionnode/DecisionNode"
+      ],
+      "id": "s026",
+      "end": 667,
+      "paragraphs": [
+        "your agents. Record a decision once via CLI. It saves a structured JSON and gets embedded as a vector. Connect any AI tool via MCP and it semantically searches your entire decision history in real time. If your AI tries to contradict a past architectural decision, it gets flagged before the contradiction makes it into the codebase."
+      ]
+    },
+    {
+      "start": 667,
+      "title": "keeper",
+      "repositories": [
+        "https://github.com/agberohq/keeper"
+      ],
+      "id": "s027",
+      "end": 694,
+      "paragraphs": [
+        "HashiCorp Vault is overkill for most projects. Plain text environment variables are terrifying. Keeper sits right in between, a standalone embedded cryptographic secret store written in Go, Argon 2 ID and XCHA20 poly305 encryption at rest stored in an embedded Bbolt database. Ships as a go library, an HTTP handler, and a CLI with a persistent terminal ripple that leaves zero shell history."
+      ]
+    },
+    {
+      "start": 694,
+      "title": "fast-ebook",
+      "repositories": [
+        "https://github.com/arc53/fast-ebook"
+      ],
+      "id": "s028",
+      "end": 718,
+      "paragraphs": [
+        "Parsing EPUB files in pure Python is a bottleneck when you're processing thousands of books for a rag pipeline. Fast ebook is a Python EPUB parsing library built entirely in Rust under the hood. Rust's memory safety and multi-threading speed exposed through a clean, frictionless Python API. Drop it into your existing pipeline. Your book ingestion gets dramatically faster."
+      ]
+    },
+    {
+      "start": 718,
+      "title": "zoneless",
+      "repositories": [
+        "https://github.com/zonelessdev/zoneless"
+      ],
+      "id": "s029",
+      "end": 746,
+      "paragraphs": [
+        "Stripe fees and slow payouts are a real cost center for marketplace businesses at scale. Zoneless is a drop-in replacement with an identical API built by the promptbased founder after spending $10,000 a month on Stripe fees. Payouts settle instantly in 220 plus countries via USDC on Salana. Transaction fees drop to fractions of a cent and it's fully self-custodial, so the code never touches your funds."
+      ]
+    },
+    {
+      "start": 746,
+      "title": "dinobase",
+      "repositories": [
+        "https://github.com/DinobaseHQ/dinobase"
+      ],
+      "id": "s030",
+      "end": 771,
+      "paragraphs": [
+        "Ask an AI agent a complex business question and it makes dozens of pageionated API calls across Stripe, HubSpot, and Zenesk, blowing out your context window and usually failing anyway. Dinobase syncs all your SAS APIs, databases, and parquet files into a unified schema powered by Duck DB. Your agent writes one SQL query to join data across platforms and gets one clean result back."
+      ]
+    },
+    {
+      "start": 771,
+      "title": "clickhouse-etl",
+      "repositories": [
+        "https://github.com/glassflow/clickhouse-etl"
+      ],
+      "id": "s031",
+      "end": 796,
+      "paragraphs": [
+        "Moving streaming data from Kafka into ClickHouse at scale is notoriously painful, especially when dealing with duplicates and late arriving events. Click House STL by Glassflow is a stream processing engine purpose-built for this exact problem. A web UI to configure streaming dduplication, temporal stream joins, and exactly once ingestion without writing heavy stream processing code from scratch."
+      ]
+    },
+    {
+      "start": 796,
+      "title": "skrun",
+      "repositories": [
+        "https://github.com/skrun-dev/skrun"
+      ],
+      "id": "s032",
+      "end": 817,
+      "paragraphs": [
+        "Scrum is a functions as a service platform for AI capabilities. Take any agent skill, deploy it, and any application can trigger it via a simple post run. No lang chain infrastructure duct tape. Built-in stateful memory, MCP server support, and automatic multimodel fallbacks across Enthropic, OpenAI, and Mistral."
+      ]
+    },
+    {
+      "start": 817,
+      "title": "tui-use",
+      "repositories": [
+        "https://github.com/onesuper/tui-use"
+      ],
+      "id": "s033",
+      "end": 847,
+      "paragraphs": [
+        "Claude and Cursor fail completely when interacting with interactive terminal programs like a Python, ripple, GDB, or Vim. Standard shell commands can't handle programs that expect a human at the keyboard. 2i uses browser use for the terminal, runs PTY output through a headless XTerm emulator, strips all the antsy noise, and gives your AI agent a 20 plus command interface to type, navigate, and interact with complex 2I apps without brittle sleepbased polling."
+      ]
+    },
+    {
+      "start": 847,
+      "title": "multigres-operator",
+      "repositories": [
+        "https://github.com/multigres/multigres-operator"
+      ],
+      "id": "s034",
+      "end": 869,
+      "paragraphs": [
+        "Multigress opensourced their Kubernetes operator, automated topology orchestration, pod level life cycle management, and drain safe zero downtime rolling updates. Built-in PG back rest for point in time recovery and deep observability via open telemetry distributed tracing. Production grade Postgress SQL cluster management on Kubernetes."
+      ]
+    },
+    {
+      "start": 869,
+      "title": "go-bt",
+      "repositories": [
+        "https://github.com/rvitorper/go-bt"
+      ],
+      "id": "s035",
+      "end": 896,
+      "paragraphs": [
+        "Behavior trees are the industry standard for AI decision-m but most libraries are bloated or built for C++ and Python. Go BT is a minimalist behavior tree implementation built specifically for Go. just the core composite nodes, decorators, and selectors you need to build modular reactive AI logic. Clean datadriven decision trees without the finite state machine spaghetti and without bloating your binaries."
+      ]
+    },
+    {
+      "start": 896,
+      "title": "turbovec",
+      "repositories": [
+        "https://github.com/RyanCodrai/turbovec"
+      ],
+      "id": "s036",
+      "end": 926,
+      "paragraphs": [
+        "Most vector search engines require a heavy training phase. Every time your data changes, you retrain the entire index. Turbo eliminates that completely. A Rust implementation of Google's Turbo Quant paper specializing in data oblivious vector compression. No training phase ever. Compresses highdimensional embeddings down to two to four bits per coordinate. Up to 16x compression ratio with nearperfect recall. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is the Hacker News Show, episode 4. We've compiled 35 open-source repositories that recently went viral on Hacker News."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Let's get into it."
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "text": "Every new AI session starts with amnesia. Hippo memory fixes that with a biologically inspired approach. Memories"
+    },
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "text": "decay over time with configurable half- lives, but facts the agent uses frequently undergo retrieval strengthening and become permanent. At"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "the end of each session, a sleep-based consolidation phase merges and prunes what the agent learned. Same as human memory during sleep."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "Git bisct breaks on flaky tests because it assumes every pass or fail is absolute truth. Git basect fixes that with basian inference."
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "text": "Report whether a test passed or failed on each checkout and a beta bernoli conjugacy trick calculates the probability of which commit introduced"
+    },
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "text": "the instability. for race conditions, flaky pipelines, and ML evaluations that randomly shift. This makes the problem tractable."
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "text": "Adding full text search usually means spinning up elastic search or paying for Alolia and maintaining a separate sync"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "text": "pipeline. PGEX search is a PostgreSQL extension that puts BM25 full text search directly inside your database."
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "Memtable architecture and blockmax WAN optimization make top K searches up to 4x faster than native Postgress full"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "text search with proper relevance ranking for term frequency, document length, and word rarity."
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "text": "Xerobox is a cross-platform sandbox CLI written in Rust built on the same sandboxing engine that powers OpenAI's"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "codecs. Deny by default policy. No Docker Damon, no VMs. Single binary with 10 milliseconds of overhead using native"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "OS sandboxing. Give your agent a fake API key placeholder. When it makes a network call, Zerobox intercepts it,"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "verifies the destination is approved, and injects the real key into the headers."
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "Claude code dies when you close the terminal. Claudra wraps the CLI in T-Mux for true session persistence. Start a massive refactor. Close your laptop."
+    },
+    {
+      "start": 132.0,
+      "end": 132.0,
+      "text": "pick up exactly where you left off. An HTTP Damon adds remote headless control and an ACP server lets you drive the"
+    },
+    {
+      "start": 140.0,
+      "end": 140.0,
+      "text": "agent directly from Zed or Toad. Because sessions persist, your current Claude instance can query older sessions and ask why it made specific architectural decisions last week."
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "Switching between your code editor and browser to tweak spacing and colors is small friction that compounds across a full day of UI work. React Rewrite"
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "injects a visual overlay directly into your running React Dev Server. Click any element, adjust layout, spacing, colors,"
+    },
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "and typography in a sidebar. Double click text to edit inline. Drag siblings to reorder them on screen."
+    },
+    {
+      "start": 175.0,
+      "end": 175.0,
+      "text": "Parallel agent execution produces terminal output that's impossible to follow when something goes wrong. Three agents deep. Agents Observe installs as"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "a clawed plug-in and spins up a real-time web dashboard via Docker."
+    },
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "Every hook event visualized as it happens. Hierarchical tree of parent and child agents, real-time tool calls,"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "exact files being touched, searchable and filterable execution output."
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "Kovo is a peer-to-peer desktop messenger with two completely airgapped network modes. Fast mode uses standard P2P"
+    },
+    {
+      "start": 209.0,
+      "end": 209.0,
+      "text": "relays for low latency messaging and WebRTC audio and video calls. Anonymous mode routes everything through tour."
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "Separate DHT name spaces and storage scopes mean the two modes share nothing."
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "Offline messages go into encrypted DHT buckets and get delivered the moment the recipient reconnects."
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "A telegram proxy written in Zigg that disguises traffic as standard TLS 1.3 HTTPS invisible to deep packet"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "inspection firewalls. OS level TCP desync and packet fragmentation built in. 177 kilobyte binary under 1 megabyte of RAM. Boots in under 10 milliseconds."
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "Zero dynamic memory allocations at runtime. Everything pre-allocated on startup. No garbage collector stalls under load."
+    },
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "Cororb is a HA hasll CLI wrapping aways APIs, but every command outputs structured JSON specifically so AI"
+    },
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "agents can drive it. The workflow the creator built dictate groceries to Siri throughout the week. Then unleash an"
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "agent that searches Ray for each item, fills the basket, finds a pickup slot, executes checkout, and ticks it off"
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "Apple reminders when headless Chrome for AI web browsing renders pixels just so a vision model"
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "can guess where to click. That's wasteful by design. Open browser throws that architecture out entirely. Instead"
+    },
+    {
+      "start": 290.0,
+      "end": 290.0,
+      "text": "of rendering pixels, it fetches HTML and parses it into a structured semantic tree. Arya rolls, headings, forms, and"
+    },
+    {
+      "start": 298.0,
+      "end": 298.0,
+      "text": "interactive elements tagged with action annotations like click, fill, and navigate. Describe a desktop app in plain English."
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "Get a shippable Tory binary out the other end. Raincast generates a React front end with a compiled Rust backend."
+    },
+    {
+      "start": 313.0,
+      "end": 313.0,
+      "text": "real file system access, shell commands, and native OS interaction. When the AI writes Rust backend commands, a"
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "extraction spins up a proxy CLI binary instantly, giving you hot reloading for both UI and Rust backend simultaneously without waiting for the full Tory compiler on every change."
+    },
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "A handdrawn sketch on paper, a photo, two measurements. 5 minutes later, a 3D printer was producing the parts."
+    },
+    {
+      "start": 341.0,
+      "end": 341.0,
+      "text": "Pegboard is a modular 3D printable gear and pegboard system, but the real story is the agents.md file included in the"
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "repo. It's explicitly designed so your local AI coding agents can read the CAD parameters and autonomously modify the 3D models."
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "Ever wanted to understand exactly how an operating system works under the hood?"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "Tiny OS Artios is a bare metal real-time operating system built from scratch for CortexM microcontrollers"
+    },
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "under 10 kilobytes for the kernel, minimum 2 kilobyt of RAM, preemptive priority based scheduler with 256"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "priority levels, custom memory management, and thin POSIX compatibility layers for Pthreads and sockets."
+    },
+    {
+      "start": 383.0,
+      "end": 383.0,
+      "text": "NUMA is a portable DNS resolver written in Rust, zero external DNS libraries, single 8 megabyte binary. Spin it up and"
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "use clean local domains like front-end numa and api.numa instantly."
+    },
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Autogenerates local CAS and TLSerts so you get HTTPS with a green padlock in local dev. It also blocks 400,000 ad and"
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "tracker domains systemwide on any network turning your laptop into a portable Pi Hole."
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "Gmail refuses to load on a bad connection because the interface is multiple megabytes of JavaScript."
+    },
+    {
+      "start": 416.0,
+      "end": 416.0,
+      "text": "BareMail is a minimalist Gmail client that fits into 60 kilobytes and permanently caches in your browser. No"
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "backend. Your browser talks directly to the Gmail API, so your emails never touch a third party server. Only raw"
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "message text travels over the wire. Plug in your Google Cloud API key and your inbox loads on any connection."
+    },
+    {
+      "start": 439.0,
+      "end": 439.0,
+      "text": "Moto is an open- source AI IDE built on VS Code's core with specdriven development. Before writing a single"
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "line of code, it generates requirements, design documents, and a step-by-step task checklist. All saved as steering files directly in your project folder."
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "Watch the agent execute tasks one by one. Close the IDE, pick up exactly where you left off tomorrow."
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "Setting up a new C or C++ project means an hour of CMake files, find package fights, and mysterious linking errors."
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "Craft brings cargo style workflow to C and C++. Configure your project with a simple craft.l file. Need a dependency?"
+    },
+    {
+      "start": 478.0,
+      "end": 478.0,
+      "text": "Type craft add and drop the GitHub URL."
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "It clones the dependency, handles linking, and regenerates CMake completely under the hood. AI coding agents struggle with data analysis"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "because they can't see what's actually in memory. Mimo pair drops your agent directly into a live running Mimo notebook session. It inspects dataf"
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "frames in memory, runs scratchpad tests to validate logic, and manipulates notebook UI elements in real time, not a"
+    },
+    {
+      "start": 506.0,
+      "end": 506.0,
+      "text": "text editor guessing at your data. A stateful, reactive Python environment your agent can actually see and interact"
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "with. Buffer and Sendable get expensive fast with per seat and per channel pricing. Bright Bean Studio is a"
+    },
+    {
+      "start": 520.0,
+      "end": 520.0,
+      "text": "self-hostable alternative. Schedule and publish across 12 platforms from one dashboard, including Tik Tok, Threads,"
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "Blue Sky, and Mastadon. Visual drag and drop calendar, multi-stage approval workflows via magic links, so clients"
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "need zero accounts, and a unified inbox for all DMs and mentions."
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "Final Run is a vision-based QA agent that sees your iOS or Android app the way a human does. Write test flows in"
+    },
+    {
+      "start": 548.0,
+      "end": 548.0,
+      "text": "plain English or YAML, and it visually navigates the app. clicks buttons and verifies screens without touching a single selector. Installs as a clawed"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "code skill so your agent can build a feature and immediately instruct Final Run to open the emulator and verify it works before the commit goes through."
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Someone built a 3D raycasting engine inside a true type fonts hinting virtual machine. The font hinting instruction set is touring complete. JavaScript"
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "handles WD movement. The font file acts as the GPU. Player coordinates pass in via CSS font variation settings. And the"
+    },
+    {
+      "start": 584.0,
+      "end": 584.0,
+      "text": "font's bite code does actual 3D ray marching to render the walls."
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "Prompt engineering for clawed code is usually guesswork. You change a rule and hope the output improves. Mina makes it"
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "empirical. It fetches your merged pull requests from GitHub, sets up isolated git work trees, injects your custom clawed MD rules, and runs your actual"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "test suite against them. Piest jest cargo whatever you use niclaus worth's Oberon operating system"
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "running bare metal on a $15 Raspberry Pi no Linux underneath no emulation layer flash the SD card plug it in and it"
+    },
+    {
+      "start": 623.0,
+      "end": 623.0,
+      "text": "boots directly into the Oberon graphical desktop in seconds on a Pi 3B Pi02 or Alamex ESP32"
+    },
+    {
+      "start": 631.0,
+      "end": 631.0,
+      "text": "a 1980s operating system designed for minimalism running on modern hardware exactly as intended the kind project"
+    },
+    {
+      "start": 638.0,
+      "end": 638.0,
+      "text": "that exists purely because someone thought it should. Decision node is a universal shared memory store for all"
+    },
+    {
+      "start": 644.0,
+      "end": 644.0,
+      "text": "your agents. Record a decision once via CLI. It saves a structured JSON and gets embedded as a vector. Connect any AI"
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "tool via MCP and it semantically searches your entire decision history in real time. If your AI tries to contradict a past architectural"
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "decision, it gets flagged before the contradiction makes it into the codebase."
+    },
+    {
+      "start": 667.0,
+      "end": 667.0,
+      "text": "HashiCorp Vault is overkill for most projects. Plain text environment variables are terrifying. Keeper sits right in between, a standalone embedded"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "cryptographic secret store written in Go, Argon 2 ID and XCHA20 poly305 encryption at rest stored in an embedded"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "Bbolt database. Ships as a go library, an HTTP handler, and a CLI with a persistent terminal ripple that leaves zero shell history."
+    },
+    {
+      "start": 694.0,
+      "end": 694.0,
+      "text": "Parsing EPUB files in pure Python is a bottleneck when you're processing thousands of books for a rag pipeline."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Fast ebook is a Python EPUB parsing library built entirely in Rust under the hood. Rust's memory safety and"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "multi-threading speed exposed through a clean, frictionless Python API. Drop it into your existing pipeline. Your book ingestion gets dramatically faster."
+    },
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "Stripe fees and slow payouts are a real cost center for marketplace businesses at scale. Zoneless is a drop-in"
+    },
+    {
+      "start": 725.0,
+      "end": 725.0,
+      "text": "replacement with an identical API built by the promptbased founder after spending $10,000 a month on Stripe fees."
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Payouts settle instantly in 220 plus countries via USDC on Salana."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Transaction fees drop to fractions of a cent and it's fully self-custodial, so the code never touches your funds."
+    },
+    {
+      "start": 746.0,
+      "end": 746.0,
+      "text": "Ask an AI agent a complex business question and it makes dozens of pageionated API calls across Stripe, HubSpot, and Zenesk, blowing out your"
+    },
+    {
+      "start": 754.0,
+      "end": 754.0,
+      "text": "context window and usually failing anyway. Dinobase syncs all your SAS APIs, databases, and parquet files into a unified schema powered by Duck DB."
+    },
+    {
+      "start": 764.0,
+      "end": 764.0,
+      "text": "Your agent writes one SQL query to join data across platforms and gets one clean result back."
+    },
+    {
+      "start": 771.0,
+      "end": 771.0,
+      "text": "Moving streaming data from Kafka into ClickHouse at scale is notoriously painful, especially when dealing with duplicates and late arriving events."
+    },
+    {
+      "start": 780.0,
+      "end": 780.0,
+      "text": "Click House STL by Glassflow is a stream processing engine purpose-built for this exact problem. A web UI to configure"
+    },
+    {
+      "start": 787.0,
+      "end": 787.0,
+      "text": "streaming dduplication, temporal stream joins, and exactly once ingestion without writing heavy stream processing code from scratch."
+    },
+    {
+      "start": 796.0,
+      "end": 796.0,
+      "text": "Scrum is a functions as a service platform for AI capabilities. Take any agent skill, deploy it, and any application can trigger it via a simple"
+    },
+    {
+      "start": 805.0,
+      "end": 805.0,
+      "text": "post run. No lang chain infrastructure duct tape. Built-in stateful memory, MCP server support, and automatic multimodel"
+    },
+    {
+      "start": 812.0,
+      "end": 812.0,
+      "text": "fallbacks across Enthropic, OpenAI, and Mistral."
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "Claude and Cursor fail completely when interacting with interactive terminal programs like a Python, ripple, GDB, or Vim. Standard shell commands can't"
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "handle programs that expect a human at the keyboard."
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "2i uses browser use for the terminal, runs PTY output through a headless XTerm emulator, strips all the antsy noise,"
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "and gives your AI agent a 20 plus command interface to type, navigate, and interact with complex 2I apps without brittle sleepbased polling."
+    },
+    {
+      "start": 847.0,
+      "end": 847.0,
+      "text": "Multigress opensourced their Kubernetes operator, automated topology orchestration, pod level life cycle management, and drain safe zero downtime"
+    },
+    {
+      "start": 856.0,
+      "end": 856.0,
+      "text": "rolling updates. Built-in PG back rest for point in time recovery and deep observability via open telemetry distributed tracing. Production grade"
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "Postgress SQL cluster management on Kubernetes."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "Behavior trees are the industry standard for AI decision-m but most libraries are bloated or built for C++ and Python. Go"
+    },
+    {
+      "start": 878.0,
+      "end": 878.0,
+      "text": "BT is a minimalist behavior tree implementation built specifically for Go. just the core composite nodes, decorators, and selectors you need to"
+    },
+    {
+      "start": 886.0,
+      "end": 886.0,
+      "text": "build modular reactive AI logic. Clean datadriven decision trees without the finite state machine spaghetti and without bloating your binaries."
+    },
+    {
+      "start": 896.0,
+      "end": 896.0,
+      "text": "Most vector search engines require a heavy training phase. Every time your data changes, you retrain the entire index. Turbo eliminates that completely."
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "A Rust implementation of Google's Turbo Quant paper specializing in data oblivious vector compression."
+    },
+    {
+      "start": 912.0,
+      "end": 912.0,
+      "text": "No training phase ever. Compresses highdimensional embeddings down to two to four bits per coordinate. Up to 16x"
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "compression ratio with nearperfect recall."
+    },
+    {
+      "start": 924.0,
+      "end": 924.0,
+      "text": "[music]"
+    }
+  ]
+}
