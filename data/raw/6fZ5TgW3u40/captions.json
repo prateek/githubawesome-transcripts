@@ -1,0 +1,1580 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 37. 35 trending open-source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "Cursor and Claude Code treat agents as outsourced help. Fast but hard to audit."
+    },
+    {
+      "timestamp": "0:16",
+      "text": "Org 2 treats them as colleagues. It's a desktop IDE under a 100 megabytes on disk with replayable execution traces,"
+    },
+    {
+      "timestamp": "0:24",
+      "text": "cross- session memory, and an AI blame feature so you can see exactly which agent made which change."
+    },
+    {
+      "timestamp": "0:30",
+      "text": "Schedule sessions to run overnight, browser automation, your own API keys and subscriptions."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Building autonomous agents has outpaced any open way to actually train them on real world experience. Agent apprenticeship is an open-source ecosystem built to close that loop."
+    },
+    {
+      "timestamp": "0:47",
+      "text": "Apprentice agents learn from expert-led mentors through iterative workflow runs."
+    },
+    {
+      "timestamp": "0:52",
+      "text": "And every successfully executed task generates reusable learning signals and shared traces that compound over time."
+    },
+    {
+      "timestamp": "1:01",
+      "text": "The day-to-day Node.js tool chain forces you to manage a bloated pile of utilities like Nodeman or NVM. Nub"
+    },
+    {
+      "timestamp": "1:08",
+      "text": "replaces that entire stack with a single Rust binary that runs on top of your existing Node installation. It lets you execute TypeScript directly without any build steps."
+    },
+    {
+      "timestamp": "1:19",
+      "text": "It also features a faster script runner and autoprovisions node versions on demand with no runtime lockin."
+    },
+    {
+      "timestamp": "1:26",
+      "text": "Web parsing breaks the moment a site restructures its HTML. Pixel Rag sidesteps the problem entirely by never parsing in the first place. It"
+    },
+    {
+      "timestamp": "1:34",
+      "text": "screenshots the document, a web page, a PDF, an image, and embeds the actual pixels with a vision language model. So"
+    },
+    {
+      "timestamp": "1:42",
+      "text": "charts, tables, and layout all stay intact. It indexes with face, serves a search API, and benchmarks against all 8.28 million Wikipedia articles."
+    },
+    {
+      "timestamp": "1:53",
+      "text": "Git falls apart the moment you try to version gigabyte scale 3D models and binary assets alongside your code. Lore"
+    },
+    {
+      "timestamp": "2:00",
+      "text": "from Epic Games is version control built specifically for that problem. Chunked content address storage dduplicates"
+    },
+    {
+      "timestamp": "2:07",
+      "text": "files. So a tiny change inside a massive asset only uploads what actually changed. NextGen version control for the assets Git was never designed to handle."
+    },
+    {
+      "timestamp": "2:18",
+      "text": "Versel opensourced an agent framework that structures your AI assistants exactly like directories of files. Eve"
+    },
+    {
+      "timestamp": "2:25",
+      "text": "organizes your entire agent stack into a single folder mapping markdown for instructions and Typescript for custom"
+    },
+    {
+      "timestamp": "2:32",
+      "text": "tools. It features sandboxed compute and durable sessions that survive crashes and redeploys. You can spin up an agent"
+    },
+    {
+      "timestamp": "2:40",
+      "text": "locally, then deploy your files straight to Versel functions in one shot."
+    },
+    {
+      "timestamp": "2:46",
+      "text": "Animating a character used to mean rigging a skeleton and key framing every move. Scale 2 does it from a single"
+    },
+    {
+      "timestamp": "2:53",
+      "text": "image and a driving video. Hand it a reference character and a video of someone moving and it animates your character to match. No skeleton rig, no"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "intermediate pose map, which lets it handle complex motion and even animal-driven movement that older methods couldn't."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "Running a local coding agent from a separate terminal means constant context switching and copy pasting between two windows. Junction pulls it inside VS"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "Code, a chat sidebar for local AI coding agents that lives right next to your code. pointed at files, watch changes"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "land in your project, never leave the editor. The whole agent loop in one window where you actually work. If"
+    },
+    {
+      "timestamp": "3:35",
+      "text": "you're using CN in a Shadian project, this is a free win. CNFast is a bite identical dropin replacement for CLSX"
+    },
+    {
+      "timestamp": "3:42",
+      "text": "plus Tailwind merge, but 3.2 times faster on average, up to 7x with tag templates. Same API, zero code changes."
+    },
+    {
+      "timestamp": "3:50",
+      "text": "One npx shading ad command rewrites your util file for you. The speed up matters most on data grids, virtualized tables,"
+    },
+    {
+      "timestamp": "3:58",
+      "text": "anything that calls CN thousands of times a second."
+    },
+    {
+      "timestamp": "4:02",
+      "text": "Shipping prompts to an API or writing to logs without checking for personal data first is a quiet compliance risk most pipelines ignore. Privacy filter.cp"
+    },
+    {
+      "timestamp": "4:11",
+      "text": "catches it locally. A minimal C++ and GGML runtime running OpenAI's privacy filter necture"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "trained specifically to detect personally identifiable information in text. strip PII on your own machine with no network call, no Python stack, no external dependency."
+    },
+    {
+      "timestamp": "4:30",
+      "text": "Most AI security audits drown you in an attacker could theoretically speculation that doesn't actually mean anything."
+    },
+    {
+      "timestamp": "4:37",
+      "text": "Cloudflare's security audit skill refuses that approach. A six-phase pipeline. Parallel agents map your app,"
+    },
+    {
+      "timestamp": "4:44",
+      "text": "attack it from seven angles, then a separate set of agents tries to disprove each finding before you ever see it."
+    },
+    {
+      "timestamp": "4:50",
+      "text": "False positives get killed in house, not on your desk."
+    },
+    {
+      "timestamp": "4:56",
+      "text": "Your SSD is degrading right now, quietly in smart data. Nobody actually checks until it's too late. Easy SSD tester is"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "a portable Windows 11 utility. No install required. It reads smart and NVMe wear counters, pulls Windows reliability data, and runs a quick"
+    },
+    {
+      "timestamp": "5:12",
+      "text": "sequential readwrite test, then gives you a simple traffic light verdict."
+    },
+    {
+      "timestamp": "5:16",
+      "text": "Green, yellow, red. Exports an HTML report, too. Shadzien changed how the web gets built."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Copy the components into your project and own them outright. Agent Cien applies that idea to agents. Copy paste agent building blocks you own and"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "customize instead of a blackbox framework you import and prey to. One Shads and AD command drops a complete agent recipe into your project."
+    },
+    {
+      "timestamp": "5:40",
+      "text": "Instructions, tools, skills, and workflows included."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Gorest is a local browser workspace where you prompt codecs, hand it a reference image, and it generates a game ready sprite sheet and plays the animation in a live preview immediately."
+    },
+    {
+      "timestamp": "5:55",
+      "text": "It's also a full sidescroller scene editor. Drop in backgrounds, characters, and animated props as editable layers,"
+    },
+    {
+      "timestamp": "6:02",
+      "text": "tag each clip with direction, loop, and trigger metadata, and preview a playable scene."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "A oneshot prompt like make this site faster gives an agent too much room to guess and no idea when it's done. A loop"
+    },
+    {
+      "timestamp": "6:16",
+      "text": "fixes that. Find the slowest page, make one change, measure it, keep it only if it helped, repeat until you hit the"
+    },
+    {
+      "timestamp": "6:24",
+      "text": "target. Matthew Berman's loop library is a whole catalog of these reusable bounded playbooks for engineering, ops,"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "content, and design. Each loop has a clear action and a fixed stopping condition."
+    },
+    {
+      "timestamp": "6:37",
+      "text": "Almost half of your AI coding agents token budget is quietly wasted on exploratory code searches and file reads"
+    },
+    {
+      "timestamp": "6:44",
+      "text": "that pollute its context window. Fast context runs as a lightweight ondemand sub aent that executes parallel searches"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "and returns precise compact file citations. By keeping the raw files out of the main solvers window, it slashes token consumption by up to 60%."
+    },
+    {
+      "timestamp": "7:03",
+      "text": "Grock dropped something delightfully absurd. Kubernetes running in your browser. Weber takes the container"
+    },
+    {
+      "timestamp": "7:10",
+      "text": "orchestration platform that normally needs a cluster of real machines and puts it inside a browser tab. If you've ever wanted to poke at Kubernetes"
+    },
+    {
+      "timestamp": "7:18",
+      "text": "without provisioning a single server, watching Enro pull this off is worth a look."
+    },
+    {
+      "timestamp": "7:25",
+      "text": "Picking an OCR provider or vector DB today is mostly vibes. Primitive Bench is a vendorneutral benchmark for AI"
+    },
+    {
+      "timestamp": "7:32",
+      "text": "infrastructure primitives, web search, extraction, rerankers, retrieval, OCR, vector DBs, chunking, crawling, memory."
+    },
+    {
+      "timestamp": "7:40",
+      "text": "Every score comes with MACMRP values and Wilson confidence intervals. If two providers are statistically tied, it says so."
+    },
+    {
+      "timestamp": "7:48",
+      "text": "Someone just ran a 744 billion parameter model across six consumer GPUs scattered across six different US states over the"
+    },
+    {
+      "timestamp": "7:57",
+      "text": "public internet hitting 30 tokens a second."
+    },
+    {
+      "timestamp": "8:01",
+      "text": "Shard is the open- source pipeline inference engine behind this milestone."
+    },
+    {
+      "timestamp": "8:05",
+      "text": "It amortizes network latency by pairing speculative decoding over quick direct ring pipelining."
+    },
+    {
+      "timestamp": "8:13",
+      "text": "No missions, no score, no stress."
+    },
+    {
+      "timestamp": "8:15",
+      "text": "Birds.cafe just lets you fly. It's a relaxing browser experience where you steer a flock of seagulls in V formation"
+    },
+    {
+      "timestamp": "8:22",
+      "text": "out over the ocean through day, night, rain, storms, and lightning with ambient music underneath. Built in 3JS with"
+    },
+    {
+      "timestamp": "8:30",
+      "text": "physics-based flight, the flock actually holds formation behind you. And it runs smooth on mobile with touch controls."
+    },
+    {
+      "timestamp": "8:38",
+      "text": "You know, top for processes. HTTP inspect is top for the HTTP endpoints on your machine. It uses eBPF to read plain"
+    },
+    {
+      "timestamp": "8:45",
+      "text": "text HTTP requests straight off the wire inside the kernel and ranks every endpoint live in your terminal by traffic, by requests per second, and how"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "recently each was hit. No proxy, no sidecar, no app changes. It attaches at the network layer and even sees loop"
+    },
+    {
+      "timestamp": "9:01",
+      "text": "back so your local microservices chatter shows up too."
+    },
+    {
+      "timestamp": "9:05",
+      "text": "Coding agents live in plain text, but half of what they're explaining is visual. an architecture diagram, a UI"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "sketch, a chart, and a wall of ASI doesn't cut it. Sideshow gives them a screen. It runs a tiny local server with"
+    },
+    {
+      "timestamp": "9:20",
+      "text": "a browser viewer, and your agent publishes live HTML snippets to it straight from the terminal, a sequence diagram, an interactive explainer, whatever."
+    },
+    {
+      "timestamp": "9:29",
+      "text": "Teaching an AI to play a video game from nothing but the pixels on screen is one of the classic hard problems in reinforcement learning. And this is a"
+    },
+    {
+      "timestamp": "9:38",
+      "text": "clean from scratch take on it. It's an RL framework where the agent watches raw screen frames and learns to output"
+    },
+    {
+      "timestamp": "9:45",
+      "text": "keyboard and mouse actions built on a dueling DQN with a transformer encoder that reasons over sequences of frames instead of single snapshots."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Apple shipped its own native container runtime, but it's command line only. So managing your containers means memorizing CLI flags. I container puts a"
+    },
+    {
+      "timestamp": "10:06",
+      "text": "real face on it. It's a native Swift UI app for Apple's container. A dashboard of your containers and images, full life"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "cycle control, create, start, stop, edit ports and volumes, plus per container stats charts, a persistent shell"
+    },
+    {
+      "timestamp": "10:20",
+      "text": "session, and live log following, all by clicking."
+    },
+    {
+      "timestamp": "10:24",
+      "text": "Fine-tuning an LLM used to mean renting a GPU, building a giant Python environment, and babysitting a notebook"
+    },
+    {
+      "timestamp": "10:31",
+      "text": "for 2 days. MLX Laura Studio makes it a native Mac app. Pick a base model, point it at a data set, hit run, and it"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "handles the Python environment, the adapter paths, and the metrics for you. Fully on device on Apple silicon."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "Nothing leaves your Mac. AI assisted writing has a tell flat rhythm, hollow intensifiers, that same confident but"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "empty cadence on every paragraph. This handbook is a practical guide to fixing it, making AI assisted writing clearer, more credible, and genuinely more human."
+    },
+    {
+      "timestamp": "11:03",
+      "text": "not tricks, but the actual craft, varying your sentences, cutting filler, grounding claims, and giving pros a real voice instead of the default model drone."
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Brainstorm with a normal AI, and you get safe, committee approved ideas. Drunk Claude is a Claude code skill built to"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "break that. The drunk is a creative persona, not a gimmick. The idea is that lowering the filter, not the"
+    },
+    {
+      "timestamp": "11:27",
+      "text": "intelligence, surfaces the bold ideas that were always there. It cycles through five brainstorming techniques and runs every idea through a brutal"
+    },
+    {
+      "timestamp": "11:35",
+      "text": "gate. It has to be funny and genuinely insightful or it's cut."
+    },
+    {
+      "timestamp": "11:41",
+      "text": "Most local Kubernetes tools pull off a quiet compromise, running nodes as standard Docker containers that share a shared host kernel. Kiaak boots each"
+    },
+    {
+      "timestamp": "11:50",
+      "text": "node as its own lightweight virtual machine on Apple's native containerization framework. Every single node gets a dedicated kernel and a real"
+    },
+    {
+      "timestamp": "11:58",
+      "text": "IP you can ping directly from your Mac, combining container speed with hypervisor level isolation."
+    },
+    {
+      "timestamp": "12:06",
+      "text": "Constantly having your Mac or some background helper app switch your keyboard input method when you're mid-sentence is a subtle but maddening"
+    },
+    {
+      "timestamp": "12:14",
+      "text": "friction point. Lock IM tackles this by pinning a native zero permission input locker directly to your Mac OS menu bar."
+    },
+    {
+      "timestamp": "12:22",
+      "text": "You can configure per app rules or write custom regexes to lock specific input languages by browser URL."
+    },
+    {
+      "timestamp": "12:30",
+      "text": "It's a fast collision detection solver."
+    },
+    {
+      "timestamp": "12:33",
+      "text": "The narrowphase math from a 2022 paper that finds exactly how far two shapes are from touching rewritten to run about 100 times faster than the reference."
+    },
+    {
+      "timestamp": "12:42",
+      "text": "Every result checked against an independent proof harness. And this is the real story. Every line was written"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "by GPT 5.5, driven by Mike Actton, the data oriented design legend from Insomniac and Unity."
+    },
+    {
+      "timestamp": "12:58",
+      "text": "Motion designers spend hours handplacing the little animated shapes that frame a title card, the dots, capsules, and stripes that pulse in around the text."
+    },
+    {
+      "timestamp": "13:07",
+      "text": "Pattern Genen automates that whole flourish. Design your title in Figma, export it, and the browser app scatters"
+    },
+    {
+      "timestamp": "13:14",
+      "text": "procedural pattern shapes around it with a seated algorithm. So, same seed, same layout every time."
+    },
+    {
+      "timestamp": "13:22",
+      "text": "Handcodex a vague goal and it starts coding before it understands your repo."
+    },
+    {
+      "timestamp": "13:26",
+      "text": "Codex QB forces it to plan first. It's a codeex plugin that turns your repository into a durable planning package. It"
+    },
+    {
+      "timestamp": "13:34",
+      "text": "scans the repo, asks four sharp intake questions, then writes a master plan to disk. So it survives context resets. For"
+    },
+    {
+      "timestamp": "13:42",
+      "text": "existing projects, it runs an autopsy, a report on your tech debt, placeholders, and integration gaps. Ruby's big limitation has always been the GVL."
+    },
+    {
+      "timestamp": "13:51",
+      "text": "Threads can't run Ruby in parallel. So production servers like Puma fork a whole process per core and pay for a"
+    },
+    {
+      "timestamp": "13:58",
+      "text": "full copy of your app in memory every time. Kino sidesteps that. It runs your code on every core in one small process."
+    },
+    {
+      "timestamp": "14:06",
+      "text": "A Rust Tokyo and Hyper front end owns the network and parallel Ractors run your rack app."
+    },
+    {
+      "timestamp": "14:12",
+      "text": "Workout gate is a clawed code hook that blocks your next prompt until you knock out a few push-ups or squats counted"
+    },
+    {
+      "timestamp": "14:20",
+      "text": "live by your webcam using pose detection. It picks a random rep count size to your own max. And the genius cruel touch, the debt is saved to disk."
+    },
+    {
+      "timestamp": "14:30",
+      "text": "So closing the tab to skip doesn't work."
+    },
+    {
+      "timestamp": "14:32",
+      "text": "You owe them next session. streak stats and built-in escape hatches so you're never actually locked out. Letting your"
+    },
+    {
+      "timestamp": "14:40",
+      "text": "terminal agents execute loop automations without explicit boundaries is a fast way to exhaust your context window or"
+    },
+    {
+      "timestamp": "14:46",
+      "text": "rack up massive API bills. Looper fixes this by acting as a local loop design coach for clawed code. It interviews you"
+    },
+    {
+      "timestamp": "14:54",
+      "text": "to map out custom loops with clear goals and checkable verification gates. It renders your flow as an ASKI preview"
+    },
+    {
+      "timestamp": "15:02",
+      "text": "before outputting a same session execution prompt."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 37. 35 trending open-source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cursor and Claude Code treat agents as outsourced help. Fast but hard to audit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Org 2 treats them as colleagues. It's a desktop IDE under a 100 megabytes on disk with replayable execution traces,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cross- session memory, and an AI blame feature so you can see exactly which agent made which change."
+        }
+      ]
+    },
+    {
+      "tStartMs": 30000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Schedule sessions to run overnight, browser automation, your own API keys and subscriptions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Building autonomous agents has outpaced any open way to actually train them on real world experience. Agent apprenticeship is an open-source ecosystem built to close that loop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apprentice agents learn from expert-led mentors through iterative workflow runs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And every successfully executed task generates reusable learning signals and shared traces that compound over time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The day-to-day Node.js tool chain forces you to manage a bloated pile of utilities like Nodeman or NVM. Nub"
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replaces that entire stack with a single Rust binary that runs on top of your existing Node installation. It lets you execute TypeScript directly without any build steps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 79000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It also features a faster script runner and autoprovisions node versions on demand with no runtime lockin."
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Web parsing breaks the moment a site restructures its HTML. Pixel Rag sidesteps the problem entirely by never parsing in the first place. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "screenshots the document, a web page, a PDF, an image, and embeds the actual pixels with a vision language model. So"
+        }
+      ]
+    },
+    {
+      "tStartMs": 102000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "charts, tables, and layout all stay intact. It indexes with face, serves a search API, and benchmarks against all 8.28 million Wikipedia articles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 113000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Git falls apart the moment you try to version gigabyte scale 3D models and binary assets alongside your code. Lore"
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from Epic Games is version control built specifically for that problem. Chunked content address storage dduplicates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files. So a tiny change inside a massive asset only uploads what actually changed. NextGen version control for the assets Git was never designed to handle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Versel opensourced an agent framework that structures your AI assistants exactly like directories of files. Eve"
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "organizes your entire agent stack into a single folder mapping markdown for instructions and Typescript for custom"
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tools. It features sandboxed compute and durable sessions that survive crashes and redeploys. You can spin up an agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "locally, then deploy your files straight to Versel functions in one shot."
+        }
+      ]
+    },
+    {
+      "tStartMs": 166000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Animating a character used to mean rigging a skeleton and key framing every move. Scale 2 does it from a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 173000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "image and a driving video. Hand it a reference character and a video of someone moving and it animates your character to match. No skeleton rig, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intermediate pose map, which lets it handle complex motion and even animal-driven movement that older methods couldn't."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running a local coding agent from a separate terminal means constant context switching and copy pasting between two windows. Junction pulls it inside VS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Code, a chat sidebar for local AI coding agents that lives right next to your code. pointed at files, watch changes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "land in your project, never leave the editor. The whole agent loop in one window where you actually work. If"
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you're using CN in a Shadian project, this is a free win. CNFast is a bite identical dropin replacement for CLSX"
+        }
+      ]
+    },
+    {
+      "tStartMs": 222000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plus Tailwind merge, but 3.2 times faster on average, up to 7x with tag templates. Same API, zero code changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "One npx shading ad command rewrites your util file for you. The speed up matters most on data grids, virtualized tables,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "anything that calls CN thousands of times a second."
+        }
+      ]
+    },
+    {
+      "tStartMs": 242000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shipping prompts to an API or writing to logs without checking for personal data first is a quiet compliance risk most pipelines ignore. Privacy filter.cp"
+        }
+      ]
+    },
+    {
+      "tStartMs": 251000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "catches it locally. A minimal C++ and GGML runtime running OpenAI's privacy filter necture"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trained specifically to detect personally identifiable information in text. strip PII on your own machine with no network call, no Python stack, no external dependency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI security audits drown you in an attacker could theoretically speculation that doesn't actually mean anything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare's security audit skill refuses that approach. A six-phase pipeline. Parallel agents map your app,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "attack it from seven angles, then a separate set of agents tries to disprove each finding before you ever see it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "False positives get killed in house, not on your desk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your SSD is degrading right now, quietly in smart data. Nobody actually checks until it's too late. Easy SSD tester is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a portable Windows 11 utility. No install required. It reads smart and NVMe wear counters, pulls Windows reliability data, and runs a quick"
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sequential readwrite test, then gives you a simple traffic light verdict."
+        }
+      ]
+    },
+    {
+      "tStartMs": 316000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Green, yellow, red. Exports an HTML report, too. Shadzien changed how the web gets built."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Copy the components into your project and own them outright. Agent Cien applies that idea to agents. Copy paste agent building blocks you own and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "customize instead of a blackbox framework you import and prey to. One Shads and AD command drops a complete agent recipe into your project."
+        }
+      ]
+    },
+    {
+      "tStartMs": 340000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instructions, tools, skills, and workflows included."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gorest is a local browser workspace where you prompt codecs, hand it a reference image, and it generates a game ready sprite sheet and plays the animation in a live preview immediately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 355000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's also a full sidescroller scene editor. Drop in backgrounds, characters, and animated props as editable layers,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tag each clip with direction, loop, and trigger metadata, and preview a playable scene."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A oneshot prompt like make this site faster gives an agent too much room to guess and no idea when it's done. A loop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 376000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fixes that. Find the slowest page, make one change, measure it, keep it only if it helped, repeat until you hit the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 384000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "target. Matthew Berman's loop library is a whole catalog of these reusable bounded playbooks for engineering, ops,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "content, and design. Each loop has a clear action and a fixed stopping condition."
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Almost half of your AI coding agents token budget is quietly wasted on exploratory code searches and file reads"
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that pollute its context window. Fast context runs as a lightweight ondemand sub aent that executes parallel searches"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and returns precise compact file citations. By keeping the raw files out of the main solvers window, it slashes token consumption by up to 60%."
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grock dropped something delightfully absurd. Kubernetes running in your browser. Weber takes the container"
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "orchestration platform that normally needs a cluster of real machines and puts it inside a browser tab. If you've ever wanted to poke at Kubernetes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "without provisioning a single server, watching Enro pull this off is worth a look."
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Picking an OCR provider or vector DB today is mostly vibes. Primitive Bench is a vendorneutral benchmark for AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 452000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "infrastructure primitives, web search, extraction, rerankers, retrieval, OCR, vector DBs, chunking, crawling, memory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every score comes with MACMRP values and Wilson confidence intervals. If two providers are statistically tied, it says so."
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone just ran a 744 billion parameter model across six consumer GPUs scattered across six different US states over the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "public internet hitting 30 tokens a second."
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shard is the open- source pipeline inference engine behind this milestone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It amortizes network latency by pairing speculative decoding over quick direct ring pipelining."
+        }
+      ]
+    },
+    {
+      "tStartMs": 493000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No missions, no score, no stress."
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Birds.cafe just lets you fly. It's a relaxing browser experience where you steer a flock of seagulls in V formation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "out over the ocean through day, night, rain, storms, and lightning with ambient music underneath. Built in 3JS with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 510000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "physics-based flight, the flock actually holds formation behind you. And it runs smooth on mobile with touch controls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You know, top for processes. HTTP inspect is top for the HTTP endpoints on your machine. It uses eBPF to read plain"
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text HTTP requests straight off the wire inside the kernel and ranks every endpoint live in your terminal by traffic, by requests per second, and how"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recently each was hit. No proxy, no sidecar, no app changes. It attaches at the network layer and even sees loop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "back so your local microservices chatter shows up too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 545000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coding agents live in plain text, but half of what they're explaining is visual. an architecture diagram, a UI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sketch, a chart, and a wall of ASI doesn't cut it. Sideshow gives them a screen. It runs a tiny local server with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a browser viewer, and your agent publishes live HTML snippets to it straight from the terminal, a sequence diagram, an interactive explainer, whatever."
+        }
+      ]
+    },
+    {
+      "tStartMs": 569000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Teaching an AI to play a video game from nothing but the pixels on screen is one of the classic hard problems in reinforcement learning. And this is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 578000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clean from scratch take on it. It's an RL framework where the agent watches raw screen frames and learns to output"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard and mouse actions built on a dueling DQN with a transformer encoder that reasons over sequences of frames instead of single snapshots."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple shipped its own native container runtime, but it's command line only. So managing your containers means memorizing CLI flags. I container puts a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real face on it. It's a native Swift UI app for Apple's container. A dashboard of your containers and images, full life"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cycle control, create, start, stop, edit ports and volumes, plus per container stats charts, a persistent shell"
+        }
+      ]
+    },
+    {
+      "tStartMs": 620000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "session, and live log following, all by clicking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fine-tuning an LLM used to mean renting a GPU, building a giant Python environment, and babysitting a notebook"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for 2 days. MLX Laura Studio makes it a native Mac app. Pick a base model, point it at a data set, hit run, and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles the Python environment, the adapter paths, and the metrics for you. Fully on device on Apple silicon."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nothing leaves your Mac. AI assisted writing has a tell flat rhythm, hollow intensifiers, that same confident but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "empty cadence on every paragraph. This handbook is a practical guide to fixing it, making AI assisted writing clearer, more credible, and genuinely more human."
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "not tricks, but the actual craft, varying your sentences, cutting filler, grounding claims, and giving pros a real voice instead of the default model drone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Brainstorm with a normal AI, and you get safe, committee approved ideas. Drunk Claude is a Claude code skill built to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "break that. The drunk is a creative persona, not a gimmick. The idea is that lowering the filter, not the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 687000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intelligence, surfaces the bold ideas that were always there. It cycles through five brainstorming techniques and runs every idea through a brutal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gate. It has to be funny and genuinely insightful or it's cut."
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most local Kubernetes tools pull off a quiet compromise, running nodes as standard Docker containers that share a shared host kernel. Kiaak boots each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 710000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "node as its own lightweight virtual machine on Apple's native containerization framework. Every single node gets a dedicated kernel and a real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 718000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "IP you can ping directly from your Mac, combining container speed with hypervisor level isolation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 726000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Constantly having your Mac or some background helper app switch your keyboard input method when you're mid-sentence is a subtle but maddening"
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "friction point. Lock IM tackles this by pinning a native zero permission input locker directly to your Mac OS menu bar."
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can configure per app rules or write custom regexes to lock specific input languages by browser URL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a fast collision detection solver."
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The narrowphase math from a 2022 paper that finds exactly how far two shapes are from touching rewritten to run about 100 times faster than the reference."
+        }
+      ]
+    },
+    {
+      "tStartMs": 762000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every result checked against an independent proof harness. And this is the real story. Every line was written"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by GPT 5.5, driven by Mike Actton, the data oriented design legend from Insomniac and Unity."
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Motion designers spend hours handplacing the little animated shapes that frame a title card, the dots, capsules, and stripes that pulse in around the text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 787000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pattern Genen automates that whole flourish. Design your title in Figma, export it, and the browser app scatters"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "procedural pattern shapes around it with a seated algorithm. So, same seed, same layout every time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Handcodex a vague goal and it starts coding before it understands your repo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codex QB forces it to plan first. It's a codeex plugin that turns your repository into a durable planning package. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 814000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scans the repo, asks four sharp intake questions, then writes a master plan to disk. So it survives context resets. For"
+        }
+      ]
+    },
+    {
+      "tStartMs": 822000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "existing projects, it runs an autopsy, a report on your tech debt, placeholders, and integration gaps. Ruby's big limitation has always been the GVL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 831000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Threads can't run Ruby in parallel. So production servers like Puma fork a whole process per core and pay for a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 838000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full copy of your app in memory every time. Kino sidesteps that. It runs your code on every core in one small process."
+        }
+      ]
+    },
+    {
+      "tStartMs": 846000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A Rust Tokyo and Hyper front end owns the network and parallel Ractors run your rack app."
+        }
+      ]
+    },
+    {
+      "tStartMs": 852000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Workout gate is a clawed code hook that blocks your next prompt until you knock out a few push-ups or squats counted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 860000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live by your webcam using pose detection. It picks a random rep count size to your own max. And the genius cruel touch, the debt is saved to disk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 870000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So closing the tab to skip doesn't work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 872000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You owe them next session. streak stats and built-in escape hatches so you're never actually locked out. Letting your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 880000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal agents execute loop automations without explicit boundaries is a fast way to exhaust your context window or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rack up massive API bills. Looper fixes this by acting as a local loop design coach for clawed code. It interviews you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 894000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to map out custom loops with clear goals and checkable verification gates. It renders your flow as an ASKI preview"
+        }
+      ]
+    },
+    {
+      "tStartMs": 902000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "before outputting a same session execution prompt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1541 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. This is Hacker News show number seven. 35 open- source projects that have recently been"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "trending on Hacker News. Let's get into it."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Small local models fail constantly at tool calling. Forge fixes that without switching to a bigger model. A Python"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "reliability layer that takes an 8B model from 38 to 99% on multi-step agenic workflows using rescue parsing retry"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "nudges and VRAMmaware context compaction. Run it as a workflow runner, drop it in as middleware or spin up its"
+    },
+    {
+      "timestamp": "0:34",
+      "text": "OpenAI compatible proxy and point or continue straight at it. Atom is an AI agent library written in C. And the"
+    },
+    {
+      "timestamp": "0:43",
+      "text": "pitch is basically seek light but for agents. One header file, one static library. Full agent loop with tool calling, long-term memory, voice,"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "streaming, sessions, multi- aent, research mode, self-evolving loops."
+    },
+    {
+      "timestamp": "0:56",
+      "text": "Embeds directly into seeite and postgrsql as a SQL extension. So you can run select atom ask how many users signed up last month against your own data."
+    },
+    {
+      "timestamp": "1:06",
+      "text": "Phosphine is a video wallpaper engine for Mac OS Tahoe that plugs directly into system settings. Your MP4s andovs"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "show up right next to Apple's built-in aerials in the wallpaper picker because it uses the same private framework Apple uses. Gateless looping per display"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "selections, power playback that backs off on battery or thermal pressure, smooth lock screen fade."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "Storing time series data in Postgress usually means reaching for time scale DB which keeps changing its license terms"
+    },
+    {
+      "timestamp": "1:37",
+      "text": "and worrying everyone. Deltax from Zada is a fresh open-source take. It's a Postgres extension built for time series"
+    },
+    {
+      "timestamp": "1:46",
+      "text": "workloads. Efficient ingestion, compression, and fast queries over timestamped data all inside the Postgres"
+    },
+    {
+      "timestamp": "1:52",
+      "text": "you already run. Letting users edit Word documents inside your web app usually means embedding a clunky iframe or paying for a heavy commercial editor."
+    },
+    {
+      "timestamp": "2:03",
+      "text": "DocX editor is the open- source React component for it. Drop it in, load a real DOCX file, and your users get true"
+    },
+    {
+      "timestamp": "2:10",
+      "text": "Wizzywig editing right in the browser with the formatting preserved on the way back out. If your product touches Word documents at all, this saves you from a very painful build."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "If you're tired of note apps that make you feel productive without actually thinking, files.mmd is the antidote. It runs your entire life on plain markdown"
+    },
+    {
+      "timestamp": "2:31",
+      "text": "files right in your browser. You do not even need to spin up a server. It even has a built-in chatbot so you can text"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "yourself notes straight from your messenger. The author and his friends have used this exact setup for 5 years."
+    },
+    {
+      "timestamp": "2:45",
+      "text": "No AI workflows, no plugins, just thinking, writing, connecting ideas."
+    },
+    {
+      "timestamp": "2:51",
+      "text": "Writing ebpf programs in go today means juggling psyllium ebpf and bpf2 go handwriting the cside and gluing it all"
+    },
+    {
+      "timestamp": "3:00",
+      "text": "together yourself. Goi is an endto-end toolkit for doing Linux ebpf entirely in go filling the BPF program piece that"
+    },
+    {
+      "timestamp": "3:08",
+      "text": "the existing libraries leave you to figure out alone. If you want to build kernel level observability networking or tracing tools and you'd rather stay in"
+    },
+    {
+      "timestamp": "3:16",
+      "text": "Go than drop into C, this is the missing link."
+    },
+    {
+      "timestamp": "3:20",
+      "text": "Phoenix is a joy to work in until you need a real front-end build step and suddenly you're dragging Node, npm, and a Vite config into your Elixir project."
+    },
+    {
+      "timestamp": "3:30",
+      "text": "Volt removes Node from the picture entirely. It's an Elixir native front-end build tool with a dev server, hot module reloading, and production"
+    },
+    {
+      "timestamp": "3:38",
+      "text": "builds for JavaScript, TypeScript, View, single file components, and CSS."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "You want your AI agent to receive email and act on it, but raw inbound mail is a spoofing and fishing nightmare. E2A is"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "the gateway built for exactly that. It verifies every inbound message with SPF and DKIM before your agent ever sees it."
+    },
+    {
+      "timestamp": "3:59",
+      "text": "Signs delivery with HMAC so your agent can trust the payload, then fans messages out over web hooks or websocket."
+    },
+    {
+      "timestamp": "4:07",
+      "text": "You want to run a local LLM, but have no idea which ones actually fit your hardware. which LLM fixes that with one"
+    },
+    {
+      "timestamp": "4:14",
+      "text": "command. It autodetects your GPU, RAM, and VRAMm, then pulls live model rankings from hugging face with real"
+    },
+    {
+      "timestamp": "4:21",
+      "text": "benchmark scores. Run witchum run and it downloads the best fit and drops you straight into a chat. Your teammates"
+    },
+    {
+      "timestamp": "4:29",
+      "text": "know the project context. Your AI agents don't. So, you keep reexplaining the same background in every prompt. Conwest"
+    },
+    {
+      "timestamp": "4:37",
+      "text": "is a shared context board that fixes that for both at once. Humans and agents read from and write to the same board,"
+    },
+    {
+      "timestamp": "4:44",
+      "text": "so the agent always has the current state of the project, and your team can see what the agent knows and did."
+    },
+    {
+      "timestamp": "4:52",
+      "text": "Running autonomous AI agents on your machine means trusting them with your file system, your network, and your secrets. Super HQ wraps that risk in a"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "sandbox. It's an AI agent orchestration platform where agents run in isolated environments so a misbehaving or jailbroken agent can't reach beyond its"
+    },
+    {
+      "timestamp": "5:10",
+      "text": "box. Built in Rust with GPUi, the same UI framework behind the Z editor, so it's fast and native."
+    },
+    {
+      "timestamp": "5:18",
+      "text": "Closure gives you a beautiful lisp, but it drags the whole JVM along with it."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Let Go is almost Closure rebuilt on top of Go instead. You get the lisp you love, a ripple and macros, but running"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "on the Go runtime with access to the Go ecosystem underneath."
+    },
+    {
+      "timestamp": "5:35",
+      "text": "From Nouga, who's been quietly hacking on this for a while. If you've ever wanted Closure's expressiveness without the JVM startup tax, this is a"
+    },
+    {
+      "timestamp": "5:43",
+      "text": "fascinating one to play with. You built a solid backend API and now you're staring at weeks of front-end work just to make it usable. UGen collapses that."
+    },
+    {
+      "timestamp": "5:54",
+      "text": "Point it at your back end and it generates a working UI on top of it. So your endpoints become an actual product people can click through instead of a"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "Postman collection. Still early, but the premise is exactly what every backendheavy solo dev wishes existed."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Your coding agent can write a slick front end, then stalls the moment it needs a real backend. INSForge is an all-in-one open-source back-end platform"
+    },
+    {
+      "timestamp": "6:19",
+      "text": "built for Agentic coding, database, O, storage, compute, hosting, and an AI gateway. All exposed through an MCP server. Your agent can drive directly."
+    },
+    {
+      "timestamp": "6:29",
+      "text": "So Claude code or cursor doesn't just generate UI. It provisions the database, wires up O, and ships a full stack app end to end."
+    },
+    {
+      "timestamp": "6:38",
+      "text": "You've got skills, prompts, and configs for claude code, cursor, and copilot scattered across a dozen repos with no way to install or update any of them cleanly."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "SX is a package manager for AI coding assistance. Install, version, and share skills and configs across every harness"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "with one tool, the same way npm or apt handles software packages."
+    },
+    {
+      "timestamp": "7:01",
+      "text": "Temporal is the gold standard for durable workflows, but running it means standing up Cassandra, Elastic Search, and JVM workers, which is a full-time"
+    },
+    {
+      "timestamp": "7:09",
+      "text": "ops job on a small team. Orgate keeps the good parts and drops the cluster."
+    },
+    {
+      "timestamp": "7:14",
+      "text": "It's a self-hosted workflow engine in Rust. Define workflows as composable JSON, and every step either completes, retries, or lands in a dead letter Q."
+    },
+    {
+      "timestamp": "7:25",
+      "text": "Give an AI agent a multi-step task and it'll happily skip a step, repeat one, or do them in the wrong order because"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "nothing stops it. State is a state machine guard rail for AI agents. You define the legal states and transitions"
+    },
+    {
+      "timestamp": "7:41",
+      "text": "and the agent can only move through your workflow in ways you've allowed. No jumping straight to deploy before test passes. No looping forever."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "A single AI code review pass catches the obvious stuff and misses everything else. Adam's review is a multi-lens code"
+    },
+    {
+      "timestamp": "7:58",
+      "text": "review pipeline for claude code. A deep review pass using claude or codecs. An autofix loop that actually applies and"
+    },
+    {
+      "timestamp": "8:06",
+      "text": "rechecks the fixes. An interactive walkthrough so you understand every change. An external finding injection so"
+    },
+    {
+      "timestamp": "8:13",
+      "text": "you can feed in results from other tools and have them addressed too."
+    },
+    {
+      "timestamp": "8:18",
+      "text": "Most code that emits LLVM IR leans on the full LLVM C++ API, a huge dependency that drags in everything. Nibble does it"
+    },
+    {
+      "timestamp": "8:26",
+      "text": "the hard way on purpose. It generates LLVM with no Malo and no external dependencies at all, just lean self-contained code. It's the kind of"
+    },
+    {
+      "timestamp": "8:35",
+      "text": "project you study to actually understand how a compiler backend talks to LLVM stripped down to the bare metal."
+    },
+    {
+      "timestamp": "8:42",
+      "text": "You've written a great agent skill and the only way to use it is inside your coding agent. Screw sets it free. It turns any agent skill into an HTTP API."
+    },
+    {
+      "timestamp": "8:52",
+      "text": "Point it at your skill and you get a post/run endpoint you can call from anywhere, any app, any backend, any language. Multimodel, so you pick the"
+    },
+    {
+      "timestamp": "9:01",
+      "text": "LLM behind it. Stateful so it remembers across calls and fully open source."
+    },
+    {
+      "timestamp": "9:07",
+      "text": "PII Shield is a zero code Kubernetes sidecar that strips PII from your logs before they leave the pod. Add the Helm"
+    },
+    {
+      "timestamp": "9:14",
+      "text": "chart, label your deployment, and it injects a DRO list sidecar automatically. No app code changes. It"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "catches known patterns with custom regex and catches secrets it doesn't know about via entropy analysis, flagging anything above a Shannon entropy score of 3.6."
+    },
+    {
+      "timestamp": "9:32",
+      "text": "Adding search to a PHP site usually means standing up Elastic Search or installing a native extension your shared host won't allow. PHP JFTS is a"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "full text search engine in pure PHP. No extensions, no external services, no dependencies at all. Drop it in, index"
+    },
+    {
+      "timestamp": "9:49",
+      "text": "your content, and run real relevance rank search on plain shared hosting where you can't install anything."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "You've got a Haskell codebase and a Rust library you want to call into, but the foreign function interface between them"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "is a manual type unsafe minefield. HSRS fixes that. It provides type- safe bindings between Haskell and Rust. So"
+    },
+    {
+      "timestamp": "10:11",
+      "text": "you can call Rust from Haskell without handwriting fragile FFI glue and praying the types line up at runtime. Two"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "languages that both care deeply about correctness, finally talking to each other safely."
+    },
+    {
+      "timestamp": "10:24",
+      "text": "Your API keys and database passwords are sitting in plainext.env files getting committed to git and shared over Slack."
+    },
+    {
+      "timestamp": "10:32",
+      "text": "Keeper gives them a real home. It's a simple secure secrets manager written in Go. Store credentials encrypted."
+    },
+    {
+      "timestamp": "10:40",
+      "text": "Retrieve them from the CLI and every access gets written to an audit log so you know what touched what. No sprawling vault cluster to operate, just one small binary that does the job."
+    },
+    {
+      "timestamp": "10:51",
+      "text": "NFS mounts fail in the most maddening ways. Stale handles, silent permission mismatches, hangs with no error message."
+    },
+    {
+      "timestamp": "10:58",
+      "text": "NFS Diag is the doctor you call. Point it at your NFS setup and it runs through the usual suspects. Connectivity, mount"
+    },
+    {
+      "timestamp": "11:06",
+      "text": "options, permissions, version mismatches, and the small misconfigurations that cost you an afternoon of guessing."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "Standard UIDs are 36 characters of hex that your AI agent has to read, reason over, and repeat back, burning tokens every single time. ID agent fixes that."
+    },
+    {
+      "timestamp": "11:25",
+      "text": "It generates compact, token efficient IDs designed for how LLM actually tokenize text. So the same unique identifier costs far fewer tokens to"
+    },
+    {
+      "timestamp": "11:34",
+      "text": "carry through a conversation. When your agent juggles hundreds of records, those savings stack up fast in both cost and context budget."
+    },
+    {
+      "timestamp": "11:42",
+      "text": "Running AI agents locally means trusting they're doing what you think they're doing with no way to verify. Beacon is"
+    },
+    {
+      "timestamp": "11:49",
+      "text": "an open-source endpoint telemetry layer that instruments local AI agents and surfaces what they touch, what they"
+    },
+    {
+      "timestamp": "11:57",
+      "text": "call, and how they behave. Think of it as observability and an audit trail for the agents on your own hardware instead"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "of a black box you just hope is behaving."
+    },
+    {
+      "timestamp": "12:08",
+      "text": "When your AI agent makes 40 file changes in one go, reviewing them as a single giant diff is overwhelming. Stage Cly"
+    },
+    {
+      "timestamp": "12:16",
+      "text": "breaks it into chapters. It's a local code review viewer that splits an agent's changes into small individual logical pieces. You read one at a time,"
+    },
+    {
+      "timestamp": "12:25",
+      "text": "like chapters in a book instead of one wall of red and green. Works with any AI agent. Runs entirely on your machine."
+    },
+    {
+      "timestamp": "12:33",
+      "text": "You wire your app directly to Postmark."
+    },
+    {
+      "timestamp": "12:35",
+      "text": "Then a year later you want to switch to Rezend and now you're rewriting email code in five services. Posttor Horn fixes that. It's a self-hosted sit"
+    },
+    {
+      "timestamp": "12:44",
+      "text": "between your apps and whatever transactional mail provider you use."
+    },
+    {
+      "timestamp": "12:47",
+      "text": "Postmark resend mail gun AWS SCES or plain SMTP. Three ways to send an HTTP form endpoint, an HTTP API or SMTP."
+    },
+    {
+      "timestamp": "12:58",
+      "text": "Point an AI agent at your data warehouse and ask a question and it'll confidently write a query against columns that don't"
+    },
+    {
+      "timestamp": "13:05",
+      "text": "mean what it thinks they mean. KTX gives it the missing context. It's a context layer for analytics agents. It captures"
+    },
+    {
+      "timestamp": "13:12",
+      "text": "your schema, metric definitions, table relationships, and the business meaning behind your data, then feeds that to the agent before it writes a single line of SQL."
+    },
+    {
+      "timestamp": "13:23",
+      "text": "Mint shut down. Every replacement wants a subscription and you'd rather not hand a startup your bank login anyway."
+    },
+    {
+      "timestamp": "13:30",
+      "text": "Fungeible is a TUI for personal finance."
+    },
+    {
+      "timestamp": "13:33",
+      "text": "Sync accounts through Plaid. Import CSVs from anywhere and track your spending without leaving the keyboard. There's a"
+    },
+    {
+      "timestamp": "13:40",
+      "text": "built-in AI assistant for asking questions about your money and an MCP server so your own coding agent can query your finances, too."
+    },
+    {
+      "timestamp": "13:49",
+      "text": "Your coding agent reaches for the first plausible answer instead of reasoning its way to the right one. Skills for"
+    },
+    {
+      "timestamp": "13:56",
+      "text": "humanity fixes that packages structured reasoning methodologies from history's most rigorous thinkers as clawed skills."
+    },
+    {
+      "timestamp": "14:05",
+      "text": "Instead of vague think stepbystep prompts, your agent gets actual disciplined methods. How to decompose a problem, where to look for hidden"
+    },
+    {
+      "timestamp": "14:13",
+      "text": "assumptions, how to test a claim before trusting it."
+    },
+    {
+      "timestamp": "14:17",
+      "text": "Hand an AI agent a vague prompt and you get vague code. Specdriven development flips the order. Instead of letting"
+    },
+    {
+      "timestamp": "14:24",
+      "text": "Claude code or C-pilot improvise, you write a clear spec first. What you're building, the constraints, the"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "acceptance criteria, and the agent builds against that contract. This repo gives you the structure to do it. A workflow and templates that turn fuzzy"
+    },
+    {
+      "timestamp": "14:39",
+      "text": "ideas into specs your agent can actually execute against."
+    },
+    {
+      "timestamp": "14:44",
+      "text": "You want to jam out a generative music idea right now. No DAW, no install, no plugins. Modal 16 lives in your browser."
+    },
+    {
+      "timestamp": "14:52",
+      "text": "It's a generative music sequencer built with JavaScript and tone.js made for both live performance and composition."
+    },
+    {
+      "timestamp": "14:59",
+      "text": "Set up patterns, let it generate and evolve and play it live straight from a browser tab. Pure web audio. Nothing to download, nothing to license."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. This is Hacker News show number seven. 35 open- source projects that have recently been"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trending on Hacker News. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Small local models fail constantly at tool calling. Forge fixes that without switching to a bigger model. A Python"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reliability layer that takes an 8B model from 38 to 99% on multi-step agenic workflows using rescue parsing retry"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nudges and VRAMmaware context compaction. Run it as a workflow runner, drop it in as middleware or spin up its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenAI compatible proxy and point or continue straight at it. Atom is an AI agent library written in C. And the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pitch is basically seek light but for agents. One header file, one static library. Full agent loop with tool calling, long-term memory, voice,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "streaming, sessions, multi- aent, research mode, self-evolving loops."
+        }
+      ]
+    },
+    {
+      "tStartMs": 56000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Embeds directly into seeite and postgrsql as a SQL extension. So you can run select atom ask how many users signed up last month against your own data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phosphine is a video wallpaper engine for Mac OS Tahoe that plugs directly into system settings. Your MP4s andovs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "show up right next to Apple's built-in aerials in the wallpaper picker because it uses the same private framework Apple uses. Gateless looping per display"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "selections, power playback that backs off on battery or thermal pressure, smooth lock screen fade."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Storing time series data in Postgress usually means reaching for time scale DB which keeps changing its license terms"
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and worrying everyone. Deltax from Zada is a fresh open-source take. It's a Postgres extension built for time series"
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workloads. Efficient ingestion, compression, and fast queries over timestamped data all inside the Postgres"
+        }
+      ]
+    },
+    {
+      "tStartMs": 112000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you already run. Letting users edit Word documents inside your web app usually means embedding a clunky iframe or paying for a heavy commercial editor."
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DocX editor is the open- source React component for it. Drop it in, load a real DOCX file, and your users get true"
+        }
+      ]
+    },
+    {
+      "tStartMs": 130000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wizzywig editing right in the browser with the formatting preserved on the way back out. If your product touches Word documents at all, this saves you from a very painful build."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're tired of note apps that make you feel productive without actually thinking, files.mmd is the antidote. It runs your entire life on plain markdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 151000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files right in your browser. You do not even need to spin up a server. It even has a built-in chatbot so you can text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "yourself notes straight from your messenger. The author and his friends have used this exact setup for 5 years."
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No AI workflows, no plugins, just thinking, writing, connecting ideas."
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Writing ebpf programs in go today means juggling psyllium ebpf and bpf2 go handwriting the cside and gluing it all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 180000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "together yourself. Goi is an endto-end toolkit for doing Linux ebpf entirely in go filling the BPF program piece that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the existing libraries leave you to figure out alone. If you want to build kernel level observability networking or tracing tools and you'd rather stay in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 196000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go than drop into C, this is the missing link."
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phoenix is a joy to work in until you need a real front-end build step and suddenly you're dragging Node, npm, and a Vite config into your Elixir project."
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Volt removes Node from the picture entirely. It's an Elixir native front-end build tool with a dev server, hot module reloading, and production"
+        }
+      ]
+    },
+    {
+      "tStartMs": 218000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds for JavaScript, TypeScript, View, single file components, and CSS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You want your AI agent to receive email and act on it, but raw inbound mail is a spoofing and fishing nightmare. E2A is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the gateway built for exactly that. It verifies every inbound message with SPF and DKIM before your agent ever sees it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Signs delivery with HMAC so your agent can trust the payload, then fans messages out over web hooks or websocket."
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You want to run a local LLM, but have no idea which ones actually fit your hardware. which LLM fixes that with one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command. It autodetects your GPU, RAM, and VRAMm, then pulls live model rankings from hugging face with real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 261000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "benchmark scores. Run witchum run and it downloads the best fit and drops you straight into a chat. Your teammates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "know the project context. Your AI agents don't. So, you keep reexplaining the same background in every prompt. Conwest"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is a shared context board that fixes that for both at once. Humans and agents read from and write to the same board,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "so the agent always has the current state of the project, and your team can see what the agent knows and did."
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running autonomous AI agents on your machine means trusting them with your file system, your network, and your secrets. Super HQ wraps that risk in a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sandbox. It's an AI agent orchestration platform where agents run in isolated environments so a misbehaving or jailbroken agent can't reach beyond its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "box. Built in Rust with GPUi, the same UI framework behind the Z editor, so it's fast and native."
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Closure gives you a beautiful lisp, but it drags the whole JVM along with it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let Go is almost Closure rebuilt on top of Go instead. You get the lisp you love, a ripple and macros, but running"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on the Go runtime with access to the Go ecosystem underneath."
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "From Nouga, who's been quietly hacking on this for a while. If you've ever wanted Closure's expressiveness without the JVM startup tax, this is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fascinating one to play with. You built a solid backend API and now you're staring at weeks of front-end work just to make it usable. UGen collapses that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point it at your back end and it generates a working UI on top of it. So your endpoints become an actual product people can click through instead of a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Postman collection. Still early, but the premise is exactly what every backendheavy solo dev wishes existed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your coding agent can write a slick front end, then stalls the moment it needs a real backend. INSForge is an all-in-one open-source back-end platform"
+        }
+      ]
+    },
+    {
+      "tStartMs": 379000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built for Agentic coding, database, O, storage, compute, hosting, and an AI gateway. All exposed through an MCP server. Your agent can drive directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So Claude code or cursor doesn't just generate UI. It provisions the database, wires up O, and ships a full stack app end to end."
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've got skills, prompts, and configs for claude code, cursor, and copilot scattered across a dozen repos with no way to install or update any of them cleanly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SX is a package manager for AI coding assistance. Install, version, and share skills and configs across every harness"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with one tool, the same way npm or apt handles software packages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Temporal is the gold standard for durable workflows, but running it means standing up Cassandra, Elastic Search, and JVM workers, which is a full-time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ops job on a small team. Orgate keeps the good parts and drops the cluster."
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a self-hosted workflow engine in Rust. Define workflows as composable JSON, and every step either completes, retries, or lands in a dead letter Q."
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Give an AI agent a multi-step task and it'll happily skip a step, repeat one, or do them in the wrong order because"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "nothing stops it. State is a state machine guard rail for AI agents. You define the legal states and transitions"
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and the agent can only move through your workflow in ways you've allowed. No jumping straight to deploy before test passes. No looping forever."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A single AI code review pass catches the obvious stuff and misses everything else. Adam's review is a multi-lens code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "review pipeline for claude code. A deep review pass using claude or codecs. An autofix loop that actually applies and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rechecks the fixes. An interactive walkthrough so you understand every change. An external finding injection so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 493000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you can feed in results from other tools and have them addressed too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most code that emits LLVM IR leans on the full LLVM C++ API, a huge dependency that drags in everything. Nibble does it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the hard way on purpose. It generates LLVM with no Malo and no external dependencies at all, just lean self-contained code. It's the kind of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project you study to actually understand how a compiler backend talks to LLVM stripped down to the bare metal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 522000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've written a great agent skill and the only way to use it is inside your coding agent. Screw sets it free. It turns any agent skill into an HTTP API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 532000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point it at your skill and you get a post/run endpoint you can call from anywhere, any app, any backend, any language. Multimodel, so you pick the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LLM behind it. Stateful so it remembers across calls and fully open source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PII Shield is a zero code Kubernetes sidecar that strips PII from your logs before they leave the pod. Add the Helm"
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chart, label your deployment, and it injects a DRO list sidecar automatically. No app code changes. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "catches known patterns with custom regex and catches secrets it doesn't know about via entropy analysis, flagging anything above a Shannon entropy score of 3.6."
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Adding search to a PHP site usually means standing up Elastic Search or installing a native extension your shared host won't allow. PHP JFTS is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full text search engine in pure PHP. No extensions, no external services, no dependencies at all. Drop it in, index"
+        }
+      ]
+    },
+    {
+      "tStartMs": 589000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your content, and run real relevance rank search on plain shared hosting where you can't install anything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You've got a Haskell codebase and a Rust library you want to call into, but the foreign function interface between them"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is a manual type unsafe minefield. HSRS fixes that. It provides type- safe bindings between Haskell and Rust. So"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you can call Rust from Haskell without handwriting fragile FFI glue and praying the types line up at runtime. Two"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "languages that both care deeply about correctness, finally talking to each other safely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your API keys and database passwords are sitting in plainext.env files getting committed to git and shared over Slack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Keeper gives them a real home. It's a simple secure secrets manager written in Go. Store credentials encrypted."
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Retrieve them from the CLI and every access gets written to an audit log so you know what touched what. No sprawling vault cluster to operate, just one small binary that does the job."
+        }
+      ]
+    },
+    {
+      "tStartMs": 651000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NFS mounts fail in the most maddening ways. Stale handles, silent permission mismatches, hangs with no error message."
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NFS Diag is the doctor you call. Point it at your NFS setup and it runs through the usual suspects. Connectivity, mount"
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "options, permissions, version mismatches, and the small misconfigurations that cost you an afternoon of guessing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Standard UIDs are 36 characters of hex that your AI agent has to read, reason over, and repeat back, burning tokens every single time. ID agent fixes that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 685000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It generates compact, token efficient IDs designed for how LLM actually tokenize text. So the same unique identifier costs far fewer tokens to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 694000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "carry through a conversation. When your agent juggles hundreds of records, those savings stack up fast in both cost and context budget."
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running AI agents locally means trusting they're doing what you think they're doing with no way to verify. Beacon is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an open-source endpoint telemetry layer that instruments local AI agents and surfaces what they touch, what they"
+        }
+      ]
+    },
+    {
+      "tStartMs": 717000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "call, and how they behave. Think of it as observability and an audit trail for the agents on your own hardware instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of a black box you just hope is behaving."
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "When your AI agent makes 40 file changes in one go, reviewing them as a single giant diff is overwhelming. Stage Cly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "breaks it into chapters. It's a local code review viewer that splits an agent's changes into small individual logical pieces. You read one at a time,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like chapters in a book instead of one wall of red and green. Works with any AI agent. Runs entirely on your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You wire your app directly to Postmark."
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then a year later you want to switch to Rezend and now you're rewriting email code in five services. Posttor Horn fixes that. It's a self-hosted sit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between your apps and whatever transactional mail provider you use."
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Postmark resend mail gun AWS SCES or plain SMTP. Three ways to send an HTTP form endpoint, an HTTP API or SMTP."
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point an AI agent at your data warehouse and ask a question and it'll confidently write a query against columns that don't"
+        }
+      ]
+    },
+    {
+      "tStartMs": 785000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mean what it thinks they mean. KTX gives it the missing context. It's a context layer for analytics agents. It captures"
+        }
+      ]
+    },
+    {
+      "tStartMs": 792000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your schema, metric definitions, table relationships, and the business meaning behind your data, then feeds that to the agent before it writes a single line of SQL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 803000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mint shut down. Every replacement wants a subscription and you'd rather not hand a startup your bank login anyway."
+        }
+      ]
+    },
+    {
+      "tStartMs": 810000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fungeible is a TUI for personal finance."
+        }
+      ]
+    },
+    {
+      "tStartMs": 813000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sync accounts through Plaid. Import CSVs from anywhere and track your spending without leaving the keyboard. There's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 820000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in AI assistant for asking questions about your money and an MCP server so your own coding agent can query your finances, too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your coding agent reaches for the first plausible answer instead of reasoning its way to the right one. Skills for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 836000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "humanity fixes that packages structured reasoning methodologies from history's most rigorous thinkers as clawed skills."
+        }
+      ]
+    },
+    {
+      "tStartMs": 845000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of vague think stepbystep prompts, your agent gets actual disciplined methods. How to decompose a problem, where to look for hidden"
+        }
+      ]
+    },
+    {
+      "tStartMs": 853000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "assumptions, how to test a claim before trusting it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 857000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hand an AI agent a vague prompt and you get vague code. Specdriven development flips the order. Instead of letting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 864000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code or C-pilot improvise, you write a clear spec first. What you're building, the constraints, the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "acceptance criteria, and the agent builds against that contract. This repo gives you the structure to do it. A workflow and templates that turn fuzzy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 879000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ideas into specs your agent can actually execute against."
+        }
+      ]
+    },
+    {
+      "tStartMs": 884000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You want to jam out a generative music idea right now. No DAW, no install, no plugins. Modal 16 lives in your browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 892000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a generative music sequencer built with JavaScript and tone.js made for both live performance and composition."
+        }
+      ]
+    },
+    {
+      "tStartMs": 899000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Set up patterns, let it generate and evolve and play it live straight from a browser tab. Pure web audio. Nothing to download, nothing to license."
+        }
+      ]
+    }
+  ]
+}

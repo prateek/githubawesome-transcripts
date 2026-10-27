@@ -1,0 +1,1528 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're taking a look back at 35 popular projects from May and seeing which ones"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "the developer community was most excited about last month. Let's get into it."
+    },
+    {
+      "timestamp": "0:14",
+      "text": "When Salvatore Sanfalippo, the creator of Reddus, ships a new C project, you pay attention. DS4 is his local"
+    },
+    {
+      "timestamp": "0:21",
+      "text": "inference engine for Deepseek V4 Flash, a 284 billion parameter mixture of experts model. It's deliberately narrow,"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "not a generic GGF runner, completely self-contained, handtuned for one model family. With two-bit quantization, it"
+    },
+    {
+      "timestamp": "0:37",
+      "text": "runs on a 128 gig MacBook, supports a 1 million token context, and persists the KV cache to disk, so session state survives a restart."
+    },
+    {
+      "timestamp": "0:46",
+      "text": "Cloud design lets you generate UIs, slides, and prototypes from chat, but it lives in the cloud. Open Design brings the whole thing to your desktop. It's a"
+    },
+    {
+      "timestamp": "0:55",
+      "text": "local first open- source alternative with a native app, 259 skills, and 142 design systems baked in. Generate web,"
+    },
+    {
+      "timestamp": "1:03",
+      "text": "desktop, and mobile prototypes, slides, images, even videos, all previewed in a sandbox and exported to HTML, PDF, PPTX, or MP4."
+    },
+    {
+      "timestamp": "1:13",
+      "text": "You want a polished magazine layout, a poster, or a tweet card. But you don't want to handwrite HTML or pay for a design. SAS HTML Anything does it"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "through your own agent. It's a local agentic HTML editor. Your coding agent writes the HTML. You preview it in a"
+    },
+    {
+      "timestamp": "1:28",
+      "text": "sandbox, then ship it. 75 skills across nine surfaces. Magazine, deck, poster, social card, prototype, data report."
+    },
+    {
+      "timestamp": "1:37",
+      "text": "Every agent framework today is bolted on top of a language that was never designed for agents. Versel Labs took the harder path and built one from scratch."
+    },
+    {
+      "timestamp": "1:47",
+      "text": "Zerolang calls itself the programming language for agents. small native tools, explicit effects, predictable memory,"
+    },
+    {
+      "timestamp": "1:54",
+      "text": "and compiler output structured to be read by LLMs. If you want to see where agent tooling is heading at the language level, this is the experiment to watch."
+    },
+    {
+      "timestamp": "2:05",
+      "text": "You own six identical looking USBC cables and exactly one of them charges your laptop at full speed. The rest are"
+    },
+    {
+      "timestamp": "2:12",
+      "text": "a mystery. What cable solves it? It's a tiny Mac OS menu bar app that tells you in plain English what each USB cable plugged into your Mac can actually do."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "Power delivery, data speed, the works."
+    },
+    {
+      "timestamp": "2:25",
+      "text": "No more guessing which cable is the good one or why your monitor won't light up."
+    },
+    {
+      "timestamp": "2:30",
+      "text": "Also from Versel Labs, Zero Native is a Zig desktop app shell that renders your existing web front end natively. No"
+    },
+    {
+      "timestamp": "2:37",
+      "text": "Electron, no bundled Chromium by default. Use the system web view for a tiny binary or opt into CF when you need"
+    },
+    {
+      "timestamp": "2:44",
+      "text": "rendering consistency. The JSTOG bridge is permission gated and origin checked."
+    },
+    {
+      "timestamp": "2:49",
+      "text": "Starters for next, react, spelt, and view included, plus iOS and Android embedding examples."
+    },
+    {
+      "timestamp": "2:56",
+      "text": "Supply chain attacks are hitting developers where it hurts. A poisoned npm package, a backdoor VS code"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "extension, a compromised CLI tool you installed months ago. Bumblebee from Perplexity helps you find out if you're"
+    },
+    {
+      "timestamp": "3:10",
+      "text": "exposed. It's a readonly scanner that checks the packages, extensions, and developer tools already on your disk against known supply chain compromises."
+    },
+    {
+      "timestamp": "3:20",
+      "text": "DeepSec is an agentpowered vulnerability scanner you run on your own infrastructure. It fans regx matchers across your codebase first, then sends"
+    },
+    {
+      "timestamp": "3:30",
+      "text": "candidates to claude or codeex at maximum thinking levels for deep investigation, revalidation, and false positive filtering. Large monor repos"
+    },
+    {
+      "timestamp": "3:39",
+      "text": "fan out across versel sandbox microVMs in parallel and pick up where they left off if"
+    },
+    {
+      "timestamp": "3:46",
+      "text": "your AI agent might need to read from S3, a local folder, a database, and a Google Drive. And right now you write custom glue for everyone."
+    },
+    {
+      "timestamp": "3:55",
+      "text": "Mirage unifies them. It's a virtual file system for AI agents. One consistent interface that makes every backing store, cloud bucket, local disc, remote"
+    },
+    {
+      "timestamp": "4:04",
+      "text": "API look like a single-mounted file system the agent can read and write."
+    },
+    {
+      "timestamp": "4:09",
+      "text": "Open Pets lets you put a little animated buddy on your screen that reacts to your coding agent. Petex is where you go"
+    },
+    {
+      "timestamp": "4:17",
+      "text": "shopping for one. It's a public gallery of animated codeex pets, plus a CLI to install them. Browse the collection,"
+    },
+    {
+      "timestamp": "4:25",
+      "text": "pick the creature you want, run one command, and it lands in your setup. And because it's open, you can submit your own pixel pet to the gallery for everyone else to adopt."
+    },
+    {
+      "timestamp": "4:36",
+      "text": "If you use Claw Code, you felt the pain of writing the same debugging discipline, the same review checklist into every project. Ninearm skills is a"
+    },
+    {
+      "timestamp": "4:44",
+      "text": "curated set of clawed code skills straight from a working engineer'sclaw directory. Debug mantra walks the agent"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "through reproduce, trace, falsify, cross reference in that order before any fix."
+    },
+    {
+      "timestamp": "4:57",
+      "text": "Postmortem refuses to draft until you have a real repro and a validated fix."
+    },
+    {
+      "timestamp": "5:04",
+      "text": "3D Cell Forge is an open-source browser studio for exploring 3D biological cell models built with React 3 fiber. You"
+    },
+    {
+      "timestamp": "5:11",
+      "text": "drag to rotate, scroll to zoom, click any organel to read its details, and even export the whole thing as a GB"
+    },
+    {
+      "timestamp": "5:18",
+      "text": "file. The wild part, upload a microscope image, and it generates a real 3D model from it using Tripo or a local Hunuan 3D backend."
+    },
+    {
+      "timestamp": "5:28",
+      "text": "You buy a 600page technical book, read three chapters, then never open it again. Book tokill flips that. It's a"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "clawed code skill that turns any technical book PDF into a clawed code skill of its own. Drop the PDF in, get"
+    },
+    {
+      "timestamp": "5:43",
+      "text": "back a structured, queryable skill your agent can study, reference, and apply while you actually work. Your bookshelf becomes your AI's training material."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "Ask your coding agent to make a slide deck and it'll improvise the layout badly. Beautiful HTML templates fixes"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "the input. It's a library of HTML slide templates designed so any agent can pick the right one for the content and produce a polished deck automatically."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Title slides, comparison layouts, data slides. The agent matches your content to a template instead of handrolling CSS that looks like a 2009 PowerPoint."
+    },
+    {
+      "timestamp": "6:21",
+      "text": "Every AI coding agent today burns through tokens like there's no tomorrow."
+    },
+    {
+      "timestamp": "6:26",
+      "text": "And your API bill at the end of the month proves it. OpenSQL is built specifically to fix that. It's an open-"
+    },
+    {
+      "timestamp": "6:33",
+      "text": "source AI agent designed for token efficiency, getting more intelligence per dollar out of the same budget."
+    },
+    {
+      "timestamp": "6:39",
+      "text": "Smarter context management, leaner prompts, more useful output per call."
+    },
+    {
+      "timestamp": "6:45",
+      "text": "Traditional 3D reconstruction means running structure from motion and iterative optimization that can take minutes per scene. Meta's VGGT line"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "threw that out and did it in a single forward pass of a transformer. VGGT Omega is the latest, a CVPR 2026 oral."
+    },
+    {
+      "timestamp": "7:02",
+      "text": "Feed it images and it predicts camera poses, depth, and 3D geometry all at once. No slow optimization loop. You"
+    },
+    {
+      "timestamp": "7:10",
+      "text": "love Claude Code's autonomous agent loop, but the API bill at the end of the month makes you wse. DeepCloud swaps the engine, keeps the car. It's a small"
+    },
+    {
+      "timestamp": "7:19",
+      "text": "proxy that points Claude Code at Deepseek V4 Pro, Open Router, or any anthropic compatible backend. So you get"
+    },
+    {
+      "timestamp": "7:26",
+      "text": "the exact same agent experience for up to 17 times less. One shell script works on Mac, Linux, and Windows via PowerShell."
+    },
+    {
+      "timestamp": "7:36",
+      "text": "AI coding is drowning in jargon, and a lot of that confusion is manufactured by people who profit from keeping it mysterious. Matt PCO's AI coding"
+    },
+    {
+      "timestamp": "7:44",
+      "text": "dictionary cuts through it. It's the vocabulary explained in plain English."
+    },
+    {
+      "timestamp": "7:49",
+      "text": "Why context degrades? Why your bill is so high. Why the same prompt behaves differently daytoday. Each one has a"
+    },
+    {
+      "timestamp": "7:57",
+      "text": "clean answer once someone tells you the right words."
+    },
+    {
+      "timestamp": "8:01",
+      "text": "Fine-tuning teaches an agent new behavior by changing its weights. That's expensive and you need access to the model. Skill opt from Microsoft takes a"
+    },
+    {
+      "timestamp": "8:10",
+      "text": "different route. It optimizes in text space instead. It runs the agent, watches its trajectories, edits a natural language skill, gates every"
+    },
+    {
+      "timestamp": "8:18",
+      "text": "update behind validation, so it only keeps changes that actually help, and outputs a deployable best scorekill.md."
+    },
+    {
+      "timestamp": "8:27",
+      "text": "AI coding agents need to drive terminal apps, but most CLI tools were never designed to be controlled programmatically. Armucks is a universal"
+    },
+    {
+      "timestamp": "8:35",
+      "text": "Rust multiplexer with a typed SDK that lets you spawn, read, write, and control any CLI or 2I app from code native on"
+    },
+    {
+      "timestamp": "8:43",
+      "text": "Linux, Mac OS, and Windows. No T-m or screen dependency. Your agent can drive HTTOP, Vim, PSUL, or any other terminal program as if it had hands."
+    },
+    {
+      "timestamp": "8:53",
+      "text": "VLM and Llama.cpp are great, but there's always room for someone to chase the theoretical limit. Token speed makes"
+    },
+    {
+      "timestamp": "9:01",
+      "text": "that its whole identity, a speed of light LLM inference engine. The pitch is right there in the name. Squeeze the"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "maximum possible tokens per second out of your hardware, getting as close to the physical ceiling as the math allows."
+    },
+    {
+      "timestamp": "9:15",
+      "text": "Worth watching if you're running your own inference."
+    },
+    {
+      "timestamp": "9:19",
+      "text": "Run codeex long enough and its local state bloat. Caches pile up, sessions accumulate, and one bad cleanup can wipe"
+    },
+    {
+      "timestamp": "9:26",
+      "text": "context you actually needed. Keep Codeex Fast handles it safely. It's a backup first codec skill that keeps your local state fast, clean, and recoverable."
+    },
+    {
+      "timestamp": "9:36",
+      "text": "Before it prunes anything, it backs up."
+    },
+    {
+      "timestamp": "9:38",
+      "text": "So a cleanup never cost you data you can't get back."
+    },
+    {
+      "timestamp": "9:43",
+      "text": "Codeex prompts that work great suddenly break when you paste them into clawed code and vice versa. Agents best practices is built to end that. It's a"
+    },
+    {
+      "timestamp": "9:52",
+      "text": "providerneutral agent skill covering harness design patterns that work across codecs, claude code, and other coding"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "agents. One set of practices, one shared way to think about prompts, tools, and context, regardless of which model is on the other end."
+    },
+    {
+      "timestamp": "10:08",
+      "text": "Every time you switch from S3 to Cloudflare R2 or Versel blob, you rewrite your storage code from scratch."
+    },
+    {
+      "timestamp": "10:15",
+      "text": "Files SDK ends that one unified TypeScript SDK with a single honest API that works across S3, R2, Versal, blob,"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "Superbase, and more. Web standards IO tree shakable, zero lock in. Write your upload and download logic once, swap the back end in config."
+    },
+    {
+      "timestamp": "10:32",
+      "text": "Most coding agents are bloated Python processes that eat RAM before they've written a single line of code. ZeroStack is the opposite. A minimalistic coding"
+    },
+    {
+      "timestamp": "10:41",
+      "text": "agent written in Rust built around one obsession. Memory footprint and performance. No heavy runtime, no"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "unnecessary dependencies, just a lean agent that reads your codebase, calls your LLM, and gets out of the way."
+    },
+    {
+      "timestamp": "10:56",
+      "text": "Spinning up a fresh firecracker microVM for every AI agent task takes seconds. Forkked cuts that to 101 milliseconds."
+    },
+    {
+      "timestamp": "11:04",
+      "text": "It keeps a warmed parent microVM ready, then forks it on demand using Linux user fault FD and copy on write memory, so new sandboxes inherit the full warm"
+    },
+    {
+      "timestamp": "11:13",
+      "text": "state instantly. Each fork is fully isolated, costs almost no extra RAM while idle, and tears down cleanly after use."
+    },
+    {
+      "timestamp": "11:22",
+      "text": "Every major AI lab says bigger models need more data and more compute. HRM text is a direct challenge to that. It's"
+    },
+    {
+      "timestamp": "11:30",
+      "text": "a 1B parameter model trained on just 40 billion tokens, up to 1,000 times less data than comparable models using a"
+    },
+    {
+      "timestamp": "11:38",
+      "text": "hierarchical recurrent architecture that reasons in latent space before producing any output. No post-training, no"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "fine-tuning, and it still hits 82.2 on drop and 81.9 on arc challenge."
+    },
+    {
+      "timestamp": "11:51",
+      "text": "Whisper sounds amazing in a quiet room and falls apart the moment there's real world noise, reverb, or a bad mic. Mega"
+    },
+    {
+      "timestamp": "11:59",
+      "text": "ASR is built for exactly those conditions. It's a foundation speech recognition model trained on 2.6 million samples across seven acoustic conditions"
+    },
+    {
+      "timestamp": "12:08",
+      "text": "and 54 compound scenarios. Noise, farfield, echo, distortion, dropout, the messy stuff."
+    },
+    {
+      "timestamp": "12:15",
+      "text": "Your AI agent's built-in search is fine for general queries. It falls apart the moment you need CV lookups, stock tickers, academic DOIs, or legal"
+    },
+    {
+      "timestamp": "12:24",
+      "text": "filings. Any search is a unified real-time search skill that covers all of it. General web search, vertical"
+    },
+    {
+      "timestamp": "12:31",
+      "text": "domain search across 23 categories, parallel batch queries for up to five intents in one call, and full page URL extraction as markdown."
+    },
+    {
+      "timestamp": "12:41",
+      "text": "AI generated UIs all look the same. Hero section, three features, CTA, footer, repeat forever. Hallmark is built to"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "kill that pattern. It's an anti-AII slop design skill for clawed code, cursor, and codecs from Together AI, maintained by Hassan Elmagari. Pick a macro"
+    },
+    {
+      "timestamp": "12:57",
+      "text": "structure, dress it in one of 22 themes, run 65 slop test gates, plus a pre-emit self-critique before anything ships."
+    },
+    {
+      "timestamp": "13:06",
+      "text": "Long autonomous agent runs drift. The agent forgets the goal, improvises, and you come back to a mess. Get done"
+    },
+    {
+      "timestamp": "13:13",
+      "text": "Redux is built to to keep it on the rails. It's a spec driven development workflow for coding agents. You define the work as a structured spec and the"
+    },
+    {
+      "timestamp": "13:22",
+      "text": "agent executes against it instead of wandering. The redux is the rebuilt communitydriven take on the original GSD method."
+    },
+    {
+      "timestamp": "13:31",
+      "text": "Claude code and cursor assume you're running a frontier model with an infinite context budget. Small code assumes you're not. It's an AI coding"
+    },
+    {
+      "timestamp": "13:40",
+      "text": "agent built specifically for small LLMs, hitting 87% on bench with a 4B active"
+    },
+    {
+      "timestamp": "13:46",
+      "text": "parameter model designed to get maximum coding performance out of the models that actually run locally on your hardware."
+    },
+    {
+      "timestamp": "13:54",
+      "text": "Most image to 3D models hallucinate geometry that doesn't actually match the photo you fed them. Pixel 3D fixes that"
+    },
+    {
+      "timestamp": "14:02",
+      "text": "with pixel alignment. The generated 3D shape stays faithful to the input image at the pixel level. So what you see in the photo is what you get in the mesh."
+    },
+    {
+      "timestamp": "14:11",
+      "text": "No drifting silhouettes, no invented bumps. Feed it a single image. Get back accurate 3D geometry."
+    },
+    {
+      "timestamp": "14:19",
+      "text": "Someone put a physical code usage meter on their desk and honestly I respect it."
+    },
+    {
+      "timestamp": "14:26",
+      "text": "Claude meter runs on a Waveshare ESP32 with a 2.16 in AMOLED screen. A Damon on your laptop reads your token usage every 60 seconds and sends it over Bluetooth."
+    },
+    {
+      "timestamp": "14:36",
+      "text": "The faster you burn through your quota, the more animated the pixel art mascot gets. Two hardware buttons handle voice mode and mode toggle shortcuts."
+    },
+    {
+      "timestamp": "14:47",
+      "text": "Metered AI coding tools charge you per token and bill you forever. Open Mono Agent is a terminal native coding agent"
+    },
+    {
+      "timestamp": "14:54",
+      "text": "powered by local LLMs, so the tokens are unlimited because they run on your machine, not someone's cloud. The"
+    },
+    {
+      "timestamp": "15:01",
+      "text": "unusual part, it's built on car andnet on the argument that AI tooling should be infrastructure you own, not a subscription you rent."
+    },
+    {
+      "timestamp": "15:16",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're taking a look back at 35 popular projects from May and seeing which ones"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the developer community was most excited about last month. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 14000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "When Salvatore Sanfalippo, the creator of Reddus, ships a new C project, you pay attention. DS4 is his local"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inference engine for Deepseek V4 Flash, a 284 billion parameter mixture of experts model. It's deliberately narrow,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "not a generic GGF runner, completely self-contained, handtuned for one model family. With two-bit quantization, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs on a 128 gig MacBook, supports a 1 million token context, and persists the KV cache to disk, so session state survives a restart."
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloud design lets you generate UIs, slides, and prototypes from chat, but it lives in the cloud. Open Design brings the whole thing to your desktop. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local first open- source alternative with a native app, 259 skills, and 142 design systems baked in. Generate web,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "desktop, and mobile prototypes, slides, images, even videos, all previewed in a sandbox and exported to HTML, PDF, PPTX, or MP4."
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You want a polished magazine layout, a poster, or a tweet card. But you don't want to handwrite HTML or pay for a design. SAS HTML Anything does it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through your own agent. It's a local agentic HTML editor. Your coding agent writes the HTML. You preview it in a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 88000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sandbox, then ship it. 75 skills across nine surfaces. Magazine, deck, poster, social card, prototype, data report."
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every agent framework today is bolted on top of a language that was never designed for agents. Versel Labs took the harder path and built one from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zerolang calls itself the programming language for agents. small native tools, explicit effects, predictable memory,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and compiler output structured to be read by LLMs. If you want to see where agent tooling is heading at the language level, this is the experiment to watch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 125000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You own six identical looking USBC cables and exactly one of them charges your laptop at full speed. The rest are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 132000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a mystery. What cable solves it? It's a tiny Mac OS menu bar app that tells you in plain English what each USB cable plugged into your Mac can actually do."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Power delivery, data speed, the works."
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No more guessing which cable is the good one or why your monitor won't light up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Also from Versel Labs, Zero Native is a Zig desktop app shell that renders your existing web front end natively. No"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Electron, no bundled Chromium by default. Use the system web view for a tiny binary or opt into CF when you need"
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rendering consistency. The JSTOG bridge is permission gated and origin checked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Starters for next, react, spelt, and view included, plus iOS and Android embedding examples."
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Supply chain attacks are hitting developers where it hurts. A poisoned npm package, a backdoor VS code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "extension, a compromised CLI tool you installed months ago. Bumblebee from Perplexity helps you find out if you're"
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exposed. It's a readonly scanner that checks the packages, extensions, and developer tools already on your disk against known supply chain compromises."
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DeepSec is an agentpowered vulnerability scanner you run on your own infrastructure. It fans regx matchers across your codebase first, then sends"
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "candidates to claude or codeex at maximum thinking levels for deep investigation, revalidation, and false positive filtering. Large monor repos"
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fan out across versel sandbox microVMs in parallel and pick up where they left off if"
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your AI agent might need to read from S3, a local folder, a database, and a Google Drive. And right now you write custom glue for everyone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 235000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mirage unifies them. It's a virtual file system for AI agents. One consistent interface that makes every backing store, cloud bucket, local disc, remote"
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "API look like a single-mounted file system the agent can read and write."
+        }
+      ]
+    },
+    {
+      "tStartMs": 249000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Pets lets you put a little animated buddy on your screen that reacts to your coding agent. Petex is where you go"
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shopping for one. It's a public gallery of animated codeex pets, plus a CLI to install them. Browse the collection,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 265000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pick the creature you want, run one command, and it lands in your setup. And because it's open, you can submit your own pixel pet to the gallery for everyone else to adopt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 276000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you use Claw Code, you felt the pain of writing the same debugging discipline, the same review checklist into every project. Ninearm skills is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "curated set of clawed code skills straight from a working engineer'sclaw directory. Debug mantra walks the agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through reproduce, trace, falsify, cross reference in that order before any fix."
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Postmortem refuses to draft until you have a real repro and a validated fix."
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "3D Cell Forge is an open-source browser studio for exploring 3D biological cell models built with React 3 fiber. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 311000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drag to rotate, scroll to zoom, click any organel to read its details, and even export the whole thing as a GB"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file. The wild part, upload a microscope image, and it generates a real 3D model from it using Tripo or a local Hunuan 3D backend."
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You buy a 600page technical book, read three chapters, then never open it again. Book tokill flips that. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clawed code skill that turns any technical book PDF into a clawed code skill of its own. Drop the PDF in, get"
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "back a structured, queryable skill your agent can study, reference, and apply while you actually work. Your bookshelf becomes your AI's training material."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ask your coding agent to make a slide deck and it'll improvise the layout badly. Beautiful HTML templates fixes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the input. It's a library of HTML slide templates designed so any agent can pick the right one for the content and produce a polished deck automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Title slides, comparison layouts, data slides. The agent matches your content to a template instead of handrolling CSS that looks like a 2009 PowerPoint."
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every AI coding agent today burns through tokens like there's no tomorrow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And your API bill at the end of the month proves it. OpenSQL is built specifically to fix that. It's an open-"
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "source AI agent designed for token efficiency, getting more intelligence per dollar out of the same budget."
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Smarter context management, leaner prompts, more useful output per call."
+        }
+      ]
+    },
+    {
+      "tStartMs": 405000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Traditional 3D reconstruction means running structure from motion and iterative optimization that can take minutes per scene. Meta's VGGT line"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "threw that out and did it in a single forward pass of a transformer. VGGT Omega is the latest, a CVPR 2026 oral."
+        }
+      ]
+    },
+    {
+      "tStartMs": 422000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Feed it images and it predicts camera poses, depth, and 3D geometry all at once. No slow optimization loop. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "love Claude Code's autonomous agent loop, but the API bill at the end of the month makes you wse. DeepCloud swaps the engine, keeps the car. It's a small"
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proxy that points Claude Code at Deepseek V4 Pro, Open Router, or any anthropic compatible backend. So you get"
+        }
+      ]
+    },
+    {
+      "tStartMs": 446000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the exact same agent experience for up to 17 times less. One shell script works on Mac, Linux, and Windows via PowerShell."
+        }
+      ]
+    },
+    {
+      "tStartMs": 456000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI coding is drowning in jargon, and a lot of that confusion is manufactured by people who profit from keeping it mysterious. Matt PCO's AI coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 464000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dictionary cuts through it. It's the vocabulary explained in plain English."
+        }
+      ]
+    },
+    {
+      "tStartMs": 469000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Why context degrades? Why your bill is so high. Why the same prompt behaves differently daytoday. Each one has a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clean answer once someone tells you the right words."
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fine-tuning teaches an agent new behavior by changing its weights. That's expensive and you need access to the model. Skill opt from Microsoft takes a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "different route. It optimizes in text space instead. It runs the agent, watches its trajectories, edits a natural language skill, gates every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "update behind validation, so it only keeps changes that actually help, and outputs a deployable best scorekill.md."
+        }
+      ]
+    },
+    {
+      "tStartMs": 507000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI coding agents need to drive terminal apps, but most CLI tools were never designed to be controlled programmatically. Armucks is a universal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust multiplexer with a typed SDK that lets you spawn, read, write, and control any CLI or 2I app from code native on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 523000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linux, Mac OS, and Windows. No T-m or screen dependency. Your agent can drive HTTOP, Vim, PSUL, or any other terminal program as if it had hands."
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "VLM and Llama.cpp are great, but there's always room for someone to chase the theoretical limit. Token speed makes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that its whole identity, a speed of light LLM inference engine. The pitch is right there in the name. Squeeze the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maximum possible tokens per second out of your hardware, getting as close to the physical ceiling as the math allows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Worth watching if you're running your own inference."
+        }
+      ]
+    },
+    {
+      "tStartMs": 559000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Run codeex long enough and its local state bloat. Caches pile up, sessions accumulate, and one bad cleanup can wipe"
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context you actually needed. Keep Codeex Fast handles it safely. It's a backup first codec skill that keeps your local state fast, clean, and recoverable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Before it prunes anything, it backs up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 578000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "So a cleanup never cost you data you can't get back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codeex prompts that work great suddenly break when you paste them into clawed code and vice versa. Agents best practices is built to end that. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "providerneutral agent skill covering harness design patterns that work across codecs, claude code, and other coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents. One set of practices, one shared way to think about prompts, tools, and context, regardless of which model is on the other end."
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every time you switch from S3 to Cloudflare R2 or Versel blob, you rewrite your storage code from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Files SDK ends that one unified TypeScript SDK with a single honest API that works across S3, R2, Versal, blob,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Superbase, and more. Web standards IO tree shakable, zero lock in. Write your upload and download logic once, swap the back end in config."
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most coding agents are bloated Python processes that eat RAM before they've written a single line of code. ZeroStack is the opposite. A minimalistic coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent written in Rust built around one obsession. Memory footprint and performance. No heavy runtime, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "unnecessary dependencies, just a lean agent that reads your codebase, calls your LLM, and gets out of the way."
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spinning up a fresh firecracker microVM for every AI agent task takes seconds. Forkked cuts that to 101 milliseconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 664000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It keeps a warmed parent microVM ready, then forks it on demand using Linux user fault FD and copy on write memory, so new sandboxes inherit the full warm"
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "state instantly. Each fork is fully isolated, costs almost no extra RAM while idle, and tears down cleanly after use."
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every major AI lab says bigger models need more data and more compute. HRM text is a direct challenge to that. It's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a 1B parameter model trained on just 40 billion tokens, up to 1,000 times less data than comparable models using a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 698000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hierarchical recurrent architecture that reasons in latent space before producing any output. No post-training, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fine-tuning, and it still hits 82.2 on drop and 81.9 on arc challenge."
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whisper sounds amazing in a quiet room and falls apart the moment there's real world noise, reverb, or a bad mic. Mega"
+        }
+      ]
+    },
+    {
+      "tStartMs": 719000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ASR is built for exactly those conditions. It's a foundation speech recognition model trained on 2.6 million samples across seven acoustic conditions"
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and 54 compound scenarios. Noise, farfield, echo, distortion, dropout, the messy stuff."
+        }
+      ]
+    },
+    {
+      "tStartMs": 735000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your AI agent's built-in search is fine for general queries. It falls apart the moment you need CV lookups, stock tickers, academic DOIs, or legal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "filings. Any search is a unified real-time search skill that covers all of it. General web search, vertical"
+        }
+      ]
+    },
+    {
+      "tStartMs": 751000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "domain search across 23 categories, parallel batch queries for up to five intents in one call, and full page URL extraction as markdown."
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI generated UIs all look the same. Hero section, three features, CTA, footer, repeat forever. Hallmark is built to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kill that pattern. It's an anti-AII slop design skill for clawed code, cursor, and codecs from Together AI, maintained by Hassan Elmagari. Pick a macro"
+        }
+      ]
+    },
+    {
+      "tStartMs": 777000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "structure, dress it in one of 22 themes, run 65 slop test gates, plus a pre-emit self-critique before anything ships."
+        }
+      ]
+    },
+    {
+      "tStartMs": 786000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Long autonomous agent runs drift. The agent forgets the goal, improvises, and you come back to a mess. Get done"
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Redux is built to to keep it on the rails. It's a spec driven development workflow for coding agents. You define the work as a structured spec and the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent executes against it instead of wandering. The redux is the rebuilt communitydriven take on the original GSD method."
+        }
+      ]
+    },
+    {
+      "tStartMs": 811000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code and cursor assume you're running a frontier model with an infinite context budget. Small code assumes you're not. It's an AI coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 820000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent built specifically for small LLMs, hitting 87% on bench with a 4B active"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameter model designed to get maximum coding performance out of the models that actually run locally on your hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most image to 3D models hallucinate geometry that doesn't actually match the photo you fed them. Pixel 3D fixes that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 842000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with pixel alignment. The generated 3D shape stays faithful to the input image at the pixel level. So what you see in the photo is what you get in the mesh."
+        }
+      ]
+    },
+    {
+      "tStartMs": 851000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No drifting silhouettes, no invented bumps. Feed it a single image. Get back accurate 3D geometry."
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone put a physical code usage meter on their desk and honestly I respect it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 866000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude meter runs on a Waveshare ESP32 with a 2.16 in AMOLED screen. A Damon on your laptop reads your token usage every 60 seconds and sends it over Bluetooth."
+        }
+      ]
+    },
+    {
+      "tStartMs": 876000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The faster you burn through your quota, the more animated the pixel art mascot gets. Two hardware buttons handle voice mode and mode toggle shortcuts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 887000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Metered AI coding tools charge you per token and bill you forever. Open Mono Agent is a terminal native coding agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 894000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "powered by local LLMs, so the tokens are unlimited because they run on your machine, not someone's cloud. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 901000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "unusual part, it's built on car andnet on the argument that AI tooling should be infrastructure you own, not a subscription you rent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 916000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

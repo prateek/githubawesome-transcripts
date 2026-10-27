@@ -1,0 +1,1087 @@
+{
+  "schema_version": 1,
+  "id": "TFRXkUECTcM",
+  "title": "Hacker News Show #8: gentleos32, liteparse, tiny-vllm, polycss, lathe, mach, VTCode, altersend",
+  "url": "https://www.youtube.com/watch?v=TFRXkUECTcM",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-11",
+  "duration": 941,
+  "word_count": 2335,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T05:18:59+00:00",
+    "metadata_sha256": "687625b8be7076d331566ccb4ef7e38f8a3c1600bfd5152ac4da29940e0be612",
+    "captions_sha256": "cf9cc2779d7e04e5aa37950b419c8ca32c40e7c0351803e1e490be49ca88e639",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 12,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is Hacker News show number eight. 35 open- source projects that have recently been trending on Hacker News. Let's get into it."
+      ]
+    },
+    {
+      "start": 12,
+      "title": "gentleos32",
+      "repositories": [
+        "https://github.com/luke8086/gentleos32"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Writing your own operating system is the project every systems programmer starts and almost nobody ships. Gentle OS32 is one person actually doing it. Targeting real vintage 32-bit hardware with all the constraints that come with it. boot loader, kernel, no fat runtime, no modern conveniences, just the hard, beautiful work of making a decades old machine come alive from scratch."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "liteparse",
+      "repositories": [
+        "https://github.com/run-llama/liteparse"
+      ],
+      "id": "s003",
+      "end": 67,
+      "paragraphs": [
+        "Extracting clean markdown and well- formatted tables from complex PDFs is one of the most frustrating parts of building rag pipelines. Light parse addresses this by offering a lightweight, efficient document parser tailored specifically for LLM ingestion. It converts documents into structured markdown while carefully preserving table layouts and reading order, giving you a clean way to prepare unstructured data without the overhead of massive bloated libraries."
+      ]
+    },
+    {
+      "start": 67,
+      "title": "tiny-vllm",
+      "repositories": [
+        "https://github.com/jmaczan/tiny-vllm"
+      ],
+      "id": "s004",
+      "end": 90,
+      "paragraphs": [
+        "Tiny VLM is a from scratch project for building your own higherformance LLM inference engine in C++ and CUDA. a smaller readable version of VLLM you can actually understand end to end the continuous batching the KV cache management the CUDA kernels all the machinery that makes serving fast stripped down to something one person can follow"
+      ]
+    },
+    {
+      "start": 90,
+      "title": "polycss",
+      "repositories": [
+        "https://github.com/LayoutitStudio/polycss"
+      ],
+      "id": "s005",
+      "end": 114,
+      "paragraphs": [
+        "poly CSS renders 3D polygon meshes in the browser using CSS matrix 3D transforms no WebGL no canvas every polygon is a real DOM element load OBJ GB or magic of oxal files add orbit controls dynamic lighting and CSS projected shadows. Then attach click handlers directly to faces like any other HTML element. React view and vanilla custom elements all supported."
+      ]
+    },
+    {
+      "start": 114,
+      "title": "core",
+      "repositories": [
+        "https://github.com/secluso/core"
+      ],
+      "id": "s006",
+      "end": 141,
+      "paragraphs": [
+        "Instead of trusting some corporate cloud with your home security footage, you can run Secluso on a cheap Raspberry Pi. It gives you live video feeds and alert recordings directly on your phone. Everything gets encrypted on device before leaving your local network. Even the remote cloud relay can't decrypt your streams. Setup takes 5 minutes using their deploy tool to flash a minimal reproducible YTO OS."
+      ]
+    },
+    {
+      "start": 141,
+      "title": "lathe",
+      "repositories": [
+        "https://github.com/devenjarvis/lathe"
+      ],
+      "id": "s007",
+      "end": 165,
+      "paragraphs": [
+        "Letting an AI agent write all your code is a great way to ship projects without actually learning how any of it works. Lathe fixes this by forcing the LLM to teach you instead of doing the work for you. You prompt your coding agent to generate custom multi-art tutorials on demand. It boots a local server so you can read the steps while you write the code yourself by hand."
+      ]
+    },
+    {
+      "start": 165,
+      "title": "mach",
+      "repositories": [
+        "https://github.com/octalide/mach"
+      ],
+      "id": "s008",
+      "end": 194,
+      "paragraphs": [
+        "Using modern systems languages with hidden compiler behaviors can make you forget how computers actually work. Mach is a compiled systems language designed with an extreme anti-magic philosophy. It features zero external dependencies entirely bypassing LLVM and lib C bindings. It just achieved full self-hosting demanding explicit verbosity so your code does exactly what it says on the page. If you like C, you'll feel right at home."
+      ]
+    },
+    {
+      "start": 194,
+      "title": "VTCode",
+      "repositories": [
+        "https://github.com/vinhnx/VTCode"
+      ],
+      "id": "s009",
+      "end": 219,
+      "paragraphs": [
+        "There are a lot of coding agents now and most let the LLM run whatever shell commands it wants. VT code is a Rust CLI agent that validates every command through treesitter bash, runs an execution policy allow list and sandboxes with seat belt or CC comp. Works with basically every provider. fails over automatically if one goes down and plugs into zed via the agent client protocol."
+      ]
+    },
+    {
+      "start": 219,
+      "title": "breathe-cli",
+      "repositories": [
+        "https://github.com/marekkowalczyk/breathe-cli"
+      ],
+      "id": "s010",
+      "end": 246,
+      "paragraphs": [
+        "This isn't a dev tool. It's a breathing tool that lives where you already are. Breathecle is a single Python file that paces resonance breathing at six breaths per minute in your terminal. A bar fills on inhale, drains on exhale. The rate comes from clinical research on cardiac veagal tone and the app deliberately refuses breath holds or fast patterns. zero dependencies, run, breathe, and it picks a preset by time of day."
+      ]
+    },
+    {
+      "start": 246,
+      "title": "altersend",
+      "repositories": [
+        "https://github.com/denislupookov/altersend"
+      ],
+      "id": "s011",
+      "end": 275,
+      "paragraphs": [
+        "Sending a huge file usually means uploading it to some cloud service and waiting. Altern skips that whole step. It's a peer-to-peer file transfer tool that sends files directly between devices over the internet. No account, no server in the middle, and no file size limits getting in your way. If you've ever watched a multi- gigabyte upload crawl across the screen just so someone else can download it again, this feels like the obvious fix."
+      ]
+    },
+    {
+      "start": 275,
+      "title": "deja",
+      "repositories": [
+        "https://github.com/Giammarco-Ferranti/deja"
+      ],
+      "id": "s012",
+      "end": 299,
+      "paragraphs": [
+        "Standard ZSH auto suggestions only complete what you've already started typing, which isn't very helpful when you can't remember the next command in your build sequence. Deja fixes this by predicting what you actually want to run. Written in Go, this lightweight background damon uses directory awareness and sequence prediction to show relevant inline ghost text."
+      ]
+    },
+    {
+      "start": 299,
+      "title": "lowfat",
+      "repositories": [
+        "https://github.com/zdk/lowfat"
+      ],
+      "id": "s013",
+      "end": 324,
+      "paragraphs": [
+        "Giving an AI agent free reign in your terminal is a quick way to burn through your API budget. When an agent runs something like cubtl get, it receives a massive wall of metadata it doesn't need. Lowfat is a pluggable filter that sits between your shell and the agent, stripping out 90% of the noise. It saves you a mountain of tokens without breaking your agents workflow."
+      ]
+    },
+    {
+      "start": 324,
+      "title": "clawpatrol",
+      "repositories": [
+        "https://github.com/denoland/clawpatrol"
+      ],
+      "id": "s014",
+      "end": 349,
+      "paragraphs": [
+        "Giving your autonomous AI agents raw access to production databases is basically begging for a deleted namespace. Claw Patrol fixes this by sitting directly between your agent and production. It parses database traffic at the wire level and gates agent actions against rules you write in HCL. You can automatically block destructive SQL or hold up Kubernetes commands until a human signs off."
+      ]
+    },
+    {
+      "start": 349,
+      "title": "nightwatch",
+      "repositories": [
+        "https://github.com/ninoxAI/nightwatch"
+      ],
+      "id": "s015",
+      "end": 376,
+      "paragraphs": [
+        "Waking up at 3:00 a.m. to 50 identical alerts for a single backend outage is a miserable experience. Nightwatch is a local first readonly AI S that collapses that alert storm. It ingests streams from monitoring tools like Prometheus and runs a React tool calling loop over your live systems. It traces root causes across Kubernetes or AWS and hands you a ranked fix list, but never executes changes unilaterally."
+      ]
+    },
+    {
+      "start": 376,
+      "title": "aislop",
+      "repositories": [
+        "https://github.com/scanaislop/aislop"
+      ],
+      "id": "s016",
+      "end": 400,
+      "paragraphs": [
+        "Waiting through pages of AI generated spam just to find a simple code example is becoming a daily frustration. Isop addresses this by offering a local scanning tool designed to filter out lowquality AI content from your feeds and data sets. It analyzes text structure and stylistic markers to flag autogenerated filler before you waste time reading it."
+      ]
+    },
+    {
+      "start": 400,
+      "title": "or-tools-wasm",
+      "repositories": [
+        "https://github.com/Axelwickm/or-tools-wasm"
+      ],
+      "id": "s017",
+      "end": 427,
+      "paragraphs": [
+        "running heavy operations research solvers for things like delivery routing or staff scheduling used to require a dedicated backend or tools ports. Google's massive optimization engine directly to web assembly. This lets you run multi-threaded CPS and linear programming solvers straight in your user's browser. It works entirely offline with zero latency, making interactive planning tools completely viable."
+      ]
+    },
+    {
+      "start": 427,
+      "title": "agoracosmica",
+      "repositories": [
+        "https://github.com/chipmates/agoracosmica"
+      ],
+      "id": "s018",
+      "end": 452,
+      "paragraphs": [
+        "Reading philosophy and science from primary texts is hard to start cold. Agora Cosmica lowers the barrier by letting you talk to the people who wrote them. It's an open-source educational platform with 30 historical figures from philosophy, science, art, mysticism, and activism. Read their stories, have a dialogue, or convene a multi-figure council to debate a question across centuries."
+      ]
+    },
+    {
+      "start": 452,
+      "title": "ego-lite",
+      "repositories": [
+        "https://github.com/CitroLabs/ego-lite"
+      ],
+      "id": "s019",
+      "end": 480,
+      "paragraphs": [
+        "Instead of running a separate headless browser and fighting with broken login, Egoite lets you and your AI agents browse in parallel. While you work in your normal tabs, the agent runs tasks in isolated background spaces. It bypasses CLI loops by exposing page actions as direct JavaScript functions, completing workflows over twice as fast. You can track progress live or take over any space the second a task finishes. Your LLM doesn't have to forget every piece of context the second a conversation ends. Nemo runs a local"
+      ]
+    },
+    {
+      "start": 480,
+      "title": "mnemo",
+      "repositories": [
+        "https://github.com/zaydmulani09/mnemo"
+      ],
+      "id": "s020",
+      "end": 508,
+      "paragraphs": [
+        "first memory layer right on your machine using Rust and SQLite to store a persistent knowledge graph. It extracts entities and relationships from your chats. Then uses a multihop graph traversal to pull up exactly what matters in under 50 milliseconds. You get long-term memory for Olama or Anthropic without cloud round trips."
+      ]
+    },
+    {
+      "start": 508,
+      "title": "replaya",
+      "repositories": [
+        "https://github.com/s2-streamstore/replaya"
+      ],
+      "id": "s021",
+      "end": 535,
+      "paragraphs": [
+        "You don't need to string together multiple databases and message cues just to host your own session replay tool. Replay a simplifies everything with a single streambased backend. It maps each browser session directly to its own durable S2 stream. Because these streams are tailable on Write, you can watch live sessions in real time while visitors are still clicking around with zero background ingest latency."
+      ]
+    },
+    {
+      "start": 535,
+      "title": "depsguard",
+      "repositories": [
+        "https://github.com/arnica/depsguard"
+      ],
+      "id": "s022",
+      "end": 564,
+      "paragraphs": [
+        "The easiest way to get hit with a supply chain attack is letting your package manager instantly resolve packages published 5 minutes ago. Depscard scans your global and local configs to harden them against malicious updates. It sets up a 7-day release cool down so you never autopull raw packages. It also blocks postinstall scripts and gives you a terminal UI to safely inspect diffs before committing any config changes."
+      ]
+    },
+    {
+      "start": 564,
+      "title": "TakoVM",
+      "repositories": [
+        "https://github.com/las7/TakoVM"
+      ],
+      "id": "s023",
+      "end": 591,
+      "paragraphs": [
+        "Letting AI agents generate and run dynamic code directly on your host machine is a quick way to get compromised. TaVm fixes this by isolating untrusted workloads inside secure ondemand docker containers. To keep things tighter, it can wrap execution inside a G Visor sandbox with custom network controls. It even bundles job cues and history out of the box so you don't have to write your own orchestration layer."
+      ]
+    },
+    {
+      "start": 591,
+      "title": "streambed",
+      "repositories": [
+        "https://github.com/viggy28/streambed"
+      ],
+      "id": "s024",
+      "end": 618,
+      "paragraphs": [
+        "Running heavy analytical queries on production is a fast way to choke your app. Streamed lets you offload that BI workload without setting up a complex data warehouse. It connects as a logical replication subscriber and streams your wall changes straight into Apache iceberg on S3. Because it embeds duct DB and exposes the Postgress wire protocol, you can query those S3 files directly from your normal PS client."
+      ]
+    },
+    {
+      "start": 618,
+      "title": "rscrypto",
+      "repositories": [
+        "https://github.com/loadingalias/rscrypto"
+      ],
+      "id": "s025",
+      "end": 646,
+      "paragraphs": [
+        "An otherwise portable Rust project usually stops being portable the exact second you pull in a crypto dependency that relies on native C libraries. RS crypto solves this by packaging your hashes and AEDs into a single crate with zero default dependencies. It does away with open SSL and system libraries completely. It supports no stead and web assembly, but still uses hardware acceleration dynamically when your CPU supports it."
+      ]
+    },
+    {
+      "start": 646,
+      "title": "id-agent",
+      "repositories": [
+        "https://github.com/vostride/id-agent"
+      ],
+      "id": "s026",
+      "end": 674,
+      "paragraphs": [
+        "Passing database UIDs straight to your LLM prompts is a quiet way to bleed API tokens and trigger weird hallucinations. ID agent replaces those random hex strings with token efficient IDs built from a predictable word list. Since every word maps to exactly one token, it compresses standard identifiers down to a fraction of the cost. You can even use its converter to swap UIDs before inference and map them back afterwards."
+      ]
+    },
+    {
+      "start": 674,
+      "title": "cast",
+      "repositories": [
+        "https://github.com/yaodub/cast"
+      ],
+      "id": "s027",
+      "end": 700,
+      "paragraphs": [
+        "Almost every agent framework assumes only one developer is talking to the LLM. Cast fixes this by acting as a self-hosted multi-user harness for your AI agents. It lets you run cloud-based agents locally and securely share them with your team over Slack or Telegram. You describe your agent in plain English to scaffold it. Then configure strict access rules with zero cloud middleware."
+      ]
+    },
+    {
+      "start": 700,
+      "title": "verified-polygon-intersection",
+      "repositories": [
+        "https://github.com/schildep/verified-polygon-intersection"
+      ],
+      "id": "s028",
+      "end": 723,
+      "paragraphs": [
+        "Floating rounding errors make computing polygon intersections a nightmare of edge cases and silent crashes. Verified polygon intersection solves this by verifying the entire algorithm in the lean forproof assistant. The core implementation uses exact rational coordinates instead of floating points, mathematically eliminating any precision bugs."
+      ]
+    },
+    {
+      "start": 723,
+      "title": "gitgres",
+      "repositories": [
+        "https://github.com/calebwin/gitgres"
+      ],
+      "id": "s029",
+      "end": 753,
+      "paragraphs": [
+        "Git repositories live in file systems. Gitgres asks a fun question. What if they lived inside Postgres instead? The project stores and serves Git repositories directly from a database, letting you clone, push, and fetch without a traditional Git server in the middle. It's not something most teams need every day, but it's a fascinating look at how flexible Git storage model really is. The kind of repo that makes you rethink where version control data can live."
+      ]
+    },
+    {
+      "start": 753,
+      "title": "shiihaa-breath-detection",
+      "repositories": [
+        "https://github.com/shiihaa-app/shiihaa-breath-detection"
+      ],
+      "id": "s030",
+      "end": 776,
+      "paragraphs": [
+        "You can track real time breathing patterns through a smartphone mic without uploading any raw audio to the cloud. Shiha breath detection splits local audio into frequency bands and tracks a rolling baseline to cancel background noise. It then runs spectral centroidid analysis 15 times a second to separate your breathing from keyboards or spoken voice."
+      ]
+    },
+    {
+      "start": 776,
+      "title": "claude-quota",
+      "repositories": [
+        "https://github.com/grzegorz-raczek-unit8/claude-quota"
+      ],
+      "id": "s031",
+      "end": 804,
+      "paragraphs": [
+        "Waiting through a massive refactoring session with clawed code only to get cut off by a sudden quota limit is a fast way to kill your momentum. Claude quota pins live utilization gauges directly to your Mac OS menu bar. It is a Swift Bar plugin that securely reads local keychain tokens to track your limits. It color codes your 5-hour rolling usage, supporting multiple accounts, so you can track personal and work plans."
+      ]
+    },
+    {
+      "start": 804,
+      "title": "mezz",
+      "repositories": [
+        "https://github.com/ABGEO/mezz"
+      ],
+      "id": "s032",
+      "end": 829,
+      "paragraphs": [
+        "Every time you want to inspect a new smart device, you end up rebuilding the same Wi-Fi lab from scratch. MEZ turns that whole process into a couple of commands. It's a Dockerbased Wi-Fi sandbox that creates an isolated access point where IoT devices can reach the internet without touching your home network. You get DNS logging, traffic capture, and clean tear down when you're done."
+      ]
+    },
+    {
+      "start": 829,
+      "title": "Spec-Driven-Development",
+      "repositories": [
+        "https://github.com/FredAntB/Spec-Driven-Development"
+      ],
+      "id": "s033",
+      "end": 858,
+      "paragraphs": [
+        "Vibe coding with multiple AI tools is a fast way to watch your code base descend into absolute chaos. Spec driven development is a clawed skill that keeps your AI coding assistants from contradicting each other. Before writing any code, it generates your requirements and task lists, then scaffolds matching instruction files for cursor or clawed code. Since every tool reads the exact same spec, your agents stay aligned even across separate idees."
+      ]
+    },
+    {
+      "start": 858,
+      "title": "textsnap",
+      "repositories": [
+        "https://github.com/kouhxp/textsnap"
+      ],
+      "id": "s034",
+      "end": 881,
+      "paragraphs": [
+        "Retyping text from screenshots or uploading private documents to sketchy cloud OCR sites is an annoying waste of time. Text snap is a single command CLI that extracts text from screenshots or local images right on your machine. It uses a quantized vision language model to parse tables and full pages straight into structured markdown entirely on your CPU."
+      ]
+    },
+    {
+      "start": 881,
+      "title": "nucleus",
+      "repositories": [
+        "https://github.com/sig-id/nucleus"
+      ],
+      "id": "s035",
+      "end": 907,
+      "paragraphs": [
+        "Wrangling massive Docker layers and network configs just to spin up secure ephemeral AI agent sandboxes is a total waste of memory. Nucleus solves this by building a Nyx native security hardened container runtime written in Rust. It dumps Docker files and registry distribution completely. Instead, it runs your untrusted workloads inside an ultraisolated G Visor sandbox with CMP filtering."
+      ]
+    },
+    {
+      "start": 907,
+      "title": "promptloop",
+      "repositories": [
+        "https://github.com/Bella3202019/promptloop"
+      ],
+      "id": "s036",
+      "end": 941,
+      "paragraphs": [
+        "Vibet tuning prompts in a chat box is fine until you deploy to production and things break silently. Prompt loop brings automated evaluation to your local terminal. It is a CLI agent that sets up repeatable test suites, saving all version histories and configurations under AEL's directory in your codebase. You can track latency and chat directly with the agent to autogenerate test suites or prompt fixes. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is Hacker News show number eight. 35 open- source projects that have recently been"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "trending on Hacker News. Let's get into it."
+    },
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "text": "Writing your own operating system is the project every systems programmer starts and almost nobody ships. Gentle OS32 is"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "one person actually doing it. Targeting real vintage 32-bit hardware with all the constraints that come with it. boot"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "loader, kernel, no fat runtime, no modern conveniences, just the hard, beautiful work of making a decades old machine come alive from scratch."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Extracting clean markdown and well- formatted tables from complex PDFs is one of the most frustrating parts of building rag pipelines. Light parse"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "addresses this by offering a lightweight, efficient document parser tailored specifically for LLM ingestion."
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "It converts documents into structured markdown while carefully preserving table layouts and reading order, giving you a clean way to prepare unstructured"
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "data without the overhead of massive bloated libraries."
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "Tiny VLM is a from scratch project for building your own higherformance LLM inference engine in C++ and CUDA. a"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "text": "smaller readable version of VLLM you can actually understand end to end the continuous batching the KV cache"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "text": "management the CUDA kernels all the machinery that makes serving fast stripped down to something one person can follow"
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "text": "poly CSS renders 3D polygon meshes in the browser using CSS matrix 3D transforms no WebGL no canvas every"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "polygon is a real DOM element load OBJ GB or magic of oxal files add orbit controls dynamic lighting and CSS"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "projected shadows. Then attach click handlers directly to faces like any other HTML element. React view and vanilla custom elements all supported."
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "Instead of trusting some corporate cloud with your home security footage, you can run Secluso on a cheap Raspberry Pi. It"
+    },
+    {
+      "start": 121.0,
+      "end": 121.0,
+      "text": "gives you live video feeds and alert recordings directly on your phone."
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "Everything gets encrypted on device before leaving your local network. Even the remote cloud relay can't decrypt your streams. Setup takes 5 minutes"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "using their deploy tool to flash a minimal reproducible YTO OS."
+    },
+    {
+      "start": 141.0,
+      "end": 141.0,
+      "text": "Letting an AI agent write all your code is a great way to ship projects without actually learning how any of it works."
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "Lathe fixes this by forcing the LLM to teach you instead of doing the work for you. You prompt your coding agent to"
+    },
+    {
+      "start": 156.0,
+      "end": 156.0,
+      "text": "generate custom multi-art tutorials on demand. It boots a local server so you can read the steps while you write the code yourself by hand."
+    },
+    {
+      "start": 165.0,
+      "end": 165.0,
+      "text": "Using modern systems languages with hidden compiler behaviors can make you forget how computers actually work. Mach"
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "is a compiled systems language designed with an extreme anti-magic philosophy."
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "It features zero external dependencies entirely bypassing LLVM and lib C bindings. It just achieved full"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "self-hosting demanding explicit verbosity so your code does exactly what it says on the page. If you like C, you'll feel right at home."
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "There are a lot of coding agents now and most let the LLM run whatever shell commands it wants. VT code is a Rust CLI"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "agent that validates every command through treesitter bash, runs an execution policy allow list and sandboxes with seat belt or CC comp."
+    },
+    {
+      "start": 210.0,
+      "end": 210.0,
+      "text": "Works with basically every provider."
+    },
+    {
+      "start": 212.0,
+      "end": 212.0,
+      "text": "fails over automatically if one goes down and plugs into zed via the agent client protocol."
+    },
+    {
+      "start": 219.0,
+      "end": 219.0,
+      "text": "This isn't a dev tool. It's a breathing tool that lives where you already are."
+    },
+    {
+      "start": 223.0,
+      "end": 223.0,
+      "text": "Breathecle is a single Python file that paces resonance breathing at six breaths per minute in your terminal. A bar fills"
+    },
+    {
+      "start": 230.0,
+      "end": 230.0,
+      "text": "on inhale, drains on exhale. The rate comes from clinical research on cardiac veagal tone and the app deliberately refuses breath holds or fast patterns."
+    },
+    {
+      "start": 241.0,
+      "end": 241.0,
+      "text": "zero dependencies, run, breathe, and it picks a preset by time of day."
+    },
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "Sending a huge file usually means uploading it to some cloud service and waiting. Altern skips that whole step."
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "It's a peer-to-peer file transfer tool that sends files directly between devices over the internet. No account, no server in the middle, and no file"
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "size limits getting in your way. If you've ever watched a multi- gigabyte upload crawl across the screen just so"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "someone else can download it again, this feels like the obvious fix."
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "Standard ZSH auto suggestions only complete what you've already started typing, which isn't very helpful when you can't remember the next command in"
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "your build sequence. Deja fixes this by predicting what you actually want to run. Written in Go, this lightweight"
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "background damon uses directory awareness and sequence prediction to show relevant inline ghost text."
+    },
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "Giving an AI agent free reign in your terminal is a quick way to burn through your API budget. When an agent runs"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "something like cubtl get, it receives a massive wall of metadata it doesn't need. Lowfat is a pluggable filter that"
+    },
+    {
+      "start": 314.0,
+      "end": 314.0,
+      "text": "sits between your shell and the agent, stripping out 90% of the noise. It saves you a mountain of tokens without breaking your agents workflow."
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "Giving your autonomous AI agents raw access to production databases is basically begging for a deleted namespace. Claw Patrol fixes this by"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "sitting directly between your agent and production. It parses database traffic at the wire level and gates agent actions against rules you write in HCL."
+    },
+    {
+      "start": 342.0,
+      "end": 342.0,
+      "text": "You can automatically block destructive SQL or hold up Kubernetes commands until a human signs off."
+    },
+    {
+      "start": 349.0,
+      "end": 349.0,
+      "text": "Waking up at 3:00 a.m. to 50 identical alerts for a single backend outage is a miserable experience. Nightwatch is a"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "local first readonly AI S that collapses that alert storm. It ingests streams from monitoring tools like Prometheus"
+    },
+    {
+      "start": 365.0,
+      "end": 365.0,
+      "text": "and runs a React tool calling loop over your live systems. It traces root causes across Kubernetes or AWS and hands you a"
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "ranked fix list, but never executes changes unilaterally."
+    },
+    {
+      "start": 377.0,
+      "end": 377.0,
+      "text": "Waiting through pages of AI generated spam just to find a simple code example is becoming a daily frustration."
+    },
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "Isop addresses this by offering a local scanning tool designed to filter out lowquality AI content from your feeds and data sets. It analyzes text"
+    },
+    {
+      "start": 393.0,
+      "end": 393.0,
+      "text": "structure and stylistic markers to flag autogenerated filler before you waste time reading it."
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "running heavy operations research solvers for things like delivery routing or staff scheduling used to require a dedicated backend or tools ports."
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "Google's massive optimization engine directly to web assembly. This lets you run multi-threaded CPS and linear programming solvers straight in your"
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "user's browser. It works entirely offline with zero latency, making interactive planning tools completely viable."
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "Reading philosophy and science from primary texts is hard to start cold."
+    },
+    {
+      "start": 432.0,
+      "end": 432.0,
+      "text": "Agora Cosmica lowers the barrier by letting you talk to the people who wrote them. It's an open-source educational platform with 30 historical figures from"
+    },
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "philosophy, science, art, mysticism, and activism. Read their stories, have a dialogue, or convene a multi-figure"
+    },
+    {
+      "start": 448.0,
+      "end": 448.0,
+      "text": "council to debate a question across centuries."
+    },
+    {
+      "start": 452.0,
+      "end": 452.0,
+      "text": "Instead of running a separate headless browser and fighting with broken login, Egoite lets you and your AI agents browse in parallel. While you work in"
+    },
+    {
+      "start": 460.0,
+      "end": 460.0,
+      "text": "your normal tabs, the agent runs tasks in isolated background spaces. It bypasses CLI loops by exposing page"
+    },
+    {
+      "start": 468.0,
+      "end": 468.0,
+      "text": "actions as direct JavaScript functions, completing workflows over twice as fast."
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "You can track progress live or take over any space the second a task finishes."
+    },
+    {
+      "start": 479.0,
+      "end": 479.0,
+      "text": "Your LLM doesn't have to forget every piece of context the second a conversation ends. Nemo runs a local"
+    },
+    {
+      "start": 487.0,
+      "end": 487.0,
+      "text": "first memory layer right on your machine using Rust and SQLite to store a persistent knowledge graph. It extracts entities and relationships from your"
+    },
+    {
+      "start": 495.0,
+      "end": 495.0,
+      "text": "chats. Then uses a multihop graph traversal to pull up exactly what matters in under 50 milliseconds. You get long-term memory for Olama or Anthropic without cloud round trips."
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "You don't need to string together multiple databases and message cues just to host your own session replay tool."
+    },
+    {
+      "start": 515.0,
+      "end": 515.0,
+      "text": "Replay a simplifies everything with a single streambased backend. It maps each browser session directly to its own"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "durable S2 stream. Because these streams are tailable on Write, you can watch live sessions in real time while"
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "visitors are still clicking around with zero background ingest latency."
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "The easiest way to get hit with a supply chain attack is letting your package manager instantly resolve packages published 5 minutes ago. Depscard scans"
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "your global and local configs to harden them against malicious updates."
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "It sets up a 7-day release cool down so you never autopull raw packages. It also blocks postinstall scripts and gives you"
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "a terminal UI to safely inspect diffs before committing any config changes."
+    },
+    {
+      "start": 564.0,
+      "end": 564.0,
+      "text": "Letting AI agents generate and run dynamic code directly on your host machine is a quick way to get compromised. TaVm fixes this by"
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "isolating untrusted workloads inside secure ondemand docker containers. To keep things tighter, it can wrap"
+    },
+    {
+      "start": 579.0,
+      "end": 579.0,
+      "text": "execution inside a G Visor sandbox with custom network controls. It even bundles job cues and history out of the box so"
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "you don't have to write your own orchestration layer."
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "Running heavy analytical queries on production is a fast way to choke your app. Streamed lets you offload that BI"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "workload without setting up a complex data warehouse. It connects as a logical replication subscriber and streams your"
+    },
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "wall changes straight into Apache iceberg on S3. Because it embeds duct DB and exposes the Postgress wire protocol,"
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "you can query those S3 files directly from your normal PS client."
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "An otherwise portable Rust project usually stops being portable the exact second you pull in a crypto dependency that relies on native C libraries."
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "RS crypto solves this by packaging your hashes and AEDs into a single crate with zero default dependencies. It does away"
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "with open SSL and system libraries completely. It supports no stead and web assembly, but still uses hardware"
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "acceleration dynamically when your CPU supports it."
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "Passing database UIDs straight to your LLM prompts is a quiet way to bleed API tokens and trigger weird hallucinations."
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "ID agent replaces those random hex strings with token efficient IDs built from a predictable word list. Since"
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "every word maps to exactly one token, it compresses standard identifiers down to a fraction of the cost. You can even use"
+    },
+    {
+      "start": 668.0,
+      "end": 668.0,
+      "text": "its converter to swap UIDs before inference and map them back afterwards."
+    },
+    {
+      "start": 674.0,
+      "end": 674.0,
+      "text": "Almost every agent framework assumes only one developer is talking to the LLM. Cast fixes this by acting as a"
+    },
+    {
+      "start": 681.0,
+      "end": 681.0,
+      "text": "self-hosted multi-user harness for your AI agents. It lets you run cloud-based agents locally and securely share them with your team over Slack or Telegram."
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "You describe your agent in plain English to scaffold it. Then configure strict access rules with zero cloud middleware."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Floating rounding errors make computing polygon intersections a nightmare of edge cases and silent crashes. Verified"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "polygon intersection solves this by verifying the entire algorithm in the lean forproof assistant. The core implementation uses exact rational"
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "coordinates instead of floating points, mathematically eliminating any precision bugs."
+    },
+    {
+      "start": 723.0,
+      "end": 723.0,
+      "text": "Git repositories live in file systems."
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "Gitgres asks a fun question. What if they lived inside Postgres instead? The project stores and serves Git"
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "repositories directly from a database, letting you clone, push, and fetch without a traditional Git server in the middle. It's not something most teams"
+    },
+    {
+      "start": 742.0,
+      "end": 742.0,
+      "text": "need every day, but it's a fascinating look at how flexible Git storage model really is. The kind of repo that makes you rethink where version control data can live."
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "You can track real time breathing patterns through a smartphone mic without uploading any raw audio to the cloud. Shiha breath detection splits"
+    },
+    {
+      "start": 762.0,
+      "end": 762.0,
+      "text": "local audio into frequency bands and tracks a rolling baseline to cancel background noise. It then runs spectral"
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "centroidid analysis 15 times a second to separate your breathing from keyboards or spoken voice."
+    },
+    {
+      "start": 776.0,
+      "end": 776.0,
+      "text": "Waiting through a massive refactoring session with clawed code only to get cut off by a sudden quota limit is a fast way to kill your momentum."
+    },
+    {
+      "start": 785.0,
+      "end": 785.0,
+      "text": "Claude quota pins live utilization gauges directly to your Mac OS menu bar."
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "It is a Swift Bar plugin that securely reads local keychain tokens to track your limits. It color codes your 5-hour rolling usage, supporting multiple"
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "accounts, so you can track personal and work plans."
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "Every time you want to inspect a new smart device, you end up rebuilding the same Wi-Fi lab from scratch. MEZ turns that whole process into a couple of"
+    },
+    {
+      "start": 813.0,
+      "end": 813.0,
+      "text": "commands. It's a Dockerbased Wi-Fi sandbox that creates an isolated access point where IoT devices can reach the"
+    },
+    {
+      "start": 820.0,
+      "end": 820.0,
+      "text": "internet without touching your home network. You get DNS logging, traffic capture, and clean tear down when you're done."
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "Vibe coding with multiple AI tools is a fast way to watch your code base descend into absolute chaos. Spec driven"
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "development is a clawed skill that keeps your AI coding assistants from contradicting each other. Before writing any code, it generates your requirements"
+    },
+    {
+      "start": 845.0,
+      "end": 845.0,
+      "text": "and task lists, then scaffolds matching instruction files for cursor or clawed code. Since every tool reads the exact"
+    },
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "same spec, your agents stay aligned even across separate idees."
+    },
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "Retyping text from screenshots or uploading private documents to sketchy cloud OCR sites is an annoying waste of"
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "time. Text snap is a single command CLI that extracts text from screenshots or local images right on your machine. It"
+    },
+    {
+      "start": 873.0,
+      "end": 873.0,
+      "text": "uses a quantized vision language model to parse tables and full pages straight into structured markdown entirely on your CPU."
+    },
+    {
+      "start": 882.0,
+      "end": 882.0,
+      "text": "Wrangling massive Docker layers and network configs just to spin up secure ephemeral AI agent sandboxes is a total"
+    },
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "waste of memory. Nucleus solves this by building a Nyx native security hardened container runtime written in Rust. It"
+    },
+    {
+      "start": 896.0,
+      "end": 896.0,
+      "text": "dumps Docker files and registry distribution completely. Instead, it runs your untrusted workloads inside an ultraisolated G Visor sandbox with CMP filtering."
+    },
+    {
+      "start": 907.0,
+      "end": 907.0,
+      "text": "Vibet tuning prompts in a chat box is fine until you deploy to production and things break silently."
+    },
+    {
+      "start": 914.0,
+      "end": 914.0,
+      "text": "Prompt loop brings automated evaluation to your local terminal. It is a CLI agent that sets up repeatable test"
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "suites, saving all version histories and configurations under AEL's directory in your codebase. You can track latency and"
+    },
+    {
+      "start": 929.0,
+      "end": 929.0,
+      "text": "chat directly with the agent to autogenerate test suites or prompt fixes."
+    },
+    {
+      "start": 935.0,
+      "end": 935.0,
+      "text": "[music]"
+    }
+  ]
+}

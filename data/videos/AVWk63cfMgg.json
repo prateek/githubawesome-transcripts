@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "id": "AVWk63cfMgg",
+  "title": "GitHub Trending Today #36: hyperframes, superlog, sandboxd, intelligent-terminal, html-video, lottie",
+  "url": "https://www.youtube.com/watch?v=AVWk63cfMgg",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-09",
+  "duration": 935,
+  "word_count": 2360,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T05:19:24+00:00",
+    "metadata_sha256": "f09ab4634b66ac1bbf7899d7899ee0c276499f421f0e20d7ce5f1215cb162dc3",
+    "captions_sha256": "b032a7784a212aedb65d0688e198f1005fd474051dd582d28085a7f6275fa483",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending today number 36. 35 trending open- source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "hyperframes",
+      "repositories": [
+        "https://github.com/heygen-com/hyperframes"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Remotion let you build video with React. Hyperframes makes the bet even simpler. Write HTML render video. You describe each frame as a web page and it turns that into actual video output. The pitch being that this is the format AI agents can author most easily. So instead of teaching an agent a video DSL or a timeline API, it just writes HTML, it already understands and out comes a rendered clip."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "superlog",
+      "repositories": [
+        "https://github.com/superloglabs/superlog"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "Instead of writing telemetry boilerplate or hunting down production crashes by hand, Superlog handles both. It uses an open- source agent wizard to auto instrument your codebase with logs and request spans. When an issue pops up, it groups the noisy logs and opens a mergeable pull request right in Slack to fix the bug. You get full observability and automated fixes without any manual instrumenting."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "sandboxd",
+      "repositories": [
+        "https://github.com/tastyeffectco/sandboxd"
+      ],
+      "id": "s004",
+      "end": 90,
+      "paragraphs": [
+        "Building your own vzero clone or hosting sandboxes for AI coding agents usually forces you to choose between massive Kubernetes clusters and expensive SAS APIs. Sandboxd handles all of it on a single Docker host. It boots isolated Linux containers with instant preview URLs in one command. Because it wakes on request and stops on idle, you can stack dozens of active environments on a cheap $20 server."
+      ]
+    },
+    {
+      "start": 90,
+      "title": "intelligent-terminal",
+      "repositories": [
+        "https://github.com/microsoft/intelligent-terminal"
+      ],
+      "id": "s005",
+      "end": 116,
+      "paragraphs": [
+        "Warp made the AI terminal cool, but it's closed source and Mac first. Microsoft just answered with intelligent terminal, and it's a fork of Windows terminal itself, the one that already ships with Windows. The difference is a coding agent baked right into the command line. So instead of alt tabbing to a chat window, you ask for the command, the fix, or the explanation without leaving your prompt."
+      ]
+    },
+    {
+      "start": 116,
+      "title": "html-video",
+      "repositories": [
+        "https://github.com/nexu-io/html-video"
+      ],
+      "id": "s006",
+      "end": 142,
+      "paragraphs": [
+        "You've seen hyperframes and motion turn web code into video. HTML video is the agent first take. It's an HTML tovide meta layer built specifically for coding agents. Your agent writes plain HTML for each scene and this layer renders it out as actual video. the same studio team behind open design and HTML anything betting that HTML is the universal canvas for slides for designs and now for video."
+      ]
+    },
+    {
+      "start": 142,
+      "title": "coreai-models",
+      "repositories": [
+        "https://github.com/apple/coreai-models"
+      ],
+      "id": "s007",
+      "end": 168,
+      "paragraphs": [
+        "Getting a PyTorch model running fast on an iPhone's neural engine has always meant wrestling CoreML conversion and hoping the ops are supported. Apple just dropped official help. Core AI models is Apple's own repo of model export recipes, Python primitives, and Swift runtime utilities for ondevice AI. So you get the sanctioned path for taking a model and shipping it to run locally on Apple hardware. Feeding raw, messy GitHub issues directly to your coding agents usually results in halfbaked plans and wasted tokens."
+      ]
+    },
+    {
+      "start": 168,
+      "title": "issue-finder",
+      "repositories": [
+        "https://github.com/lifuyue/issue-finder"
+      ],
+      "id": "s008",
+      "end": 195,
+      "paragraphs": [
+        "Issue finder organizes this chaos by acting as a local first handoff prep tool. It ranks open issues using local heristics and packages a clean context bundle for cursor or clawed code. It exposes a JSON tool contract handling the prep work before your agent touches a single file."
+      ]
+    },
+    {
+      "start": 195,
+      "title": "defending-code-reference-harness",
+      "repositories": [
+        "https://github.com/anthropics/defending-code-reference-harness"
+      ],
+      "id": "s009",
+      "end": 221,
+      "paragraphs": [
+        "Attackers are already pointing AI at code bases looking for holes. Anthropic just published the defenders reference playbook. This is an open reference implementation for autonomous vulnerability discovery and human reviewed remediation with Claude. Claude hunts your own codebase for security bugs on its own, but it never silently patches anything. Every fix goes through a human review gate before it lands."
+      ]
+    },
+    {
+      "start": 221,
+      "title": "lottie",
+      "repositories": [
+        "https://github.com/diffusionstudio/lottie"
+      ],
+      "id": "s010",
+      "end": 245,
+      "paragraphs": [
+        "Lah animations normally start in After Effects and get exported as JSON. Text to Lah is a skill you add to Claude code or codeex that teaches the agent to write valid Lah JSON from a plain text description. Describe the animation you want. The agent writes the JSON and a Skia canvas kit player hot reloads it live. No motion design tool. No manual key framing."
+      ]
+    },
+    {
+      "start": 245,
+      "title": "performativeUI",
+      "repositories": [
+        "https://github.com/vorpus/performativeUI"
+      ],
+      "id": "s011",
+      "end": 270,
+      "paragraphs": [
+        "Every AI startup landing page has the same tells. Now, the gradient that shimmers across the headline, the button that glows because it generates sparkles on everything. Performative UI turns that into an actual React component library on purpose. It's a collection of AI native components whose only job is to signal how oversubscribed your funding round is while adding zero real functionality."
+      ]
+    },
+    {
+      "start": 270,
+      "title": "dataroom",
+      "repositories": [
+        "https://github.com/hanxiao/dataroom"
+      ],
+      "id": "s012",
+      "end": 296,
+      "paragraphs": [
+        "Most deep research setups cost a fortune in API tokens and leave you with no way to verify their facts. Data Room fixes this by letting you run a self-hosted research intern on your own hardware. You give it a query and a time budget and a local Quen model runs an autonomous search loop. It crawls and structures a clean folder of markdown documents complete with direct citations."
+      ]
+    },
+    {
+      "start": 296,
+      "title": "edulab",
+      "repositories": [
+        "https://github.com/wy51ai/edulab"
+      ],
+      "id": "s013",
+      "end": 321,
+      "paragraphs": [
+        "Edgulab is a collection of education skills that turn academic problems into self-contained interactive lesson web pages. The flagship handles solid geometry. Feed it a problem as text, a photo, or a random generated one, and it solves dihedral angles, skew lines, pointtoplane distances, and volumes on cubes, pyramids, and cones. Then renders an interactive page you can rotate and explore."
+      ]
+    },
+    {
+      "start": 321,
+      "title": "canary",
+      "repositories": [
+        "https://github.com/wizenheimer/canary"
+      ],
+      "id": "s014",
+      "end": 346,
+      "paragraphs": [
+        "Vibe coding is great until you spend half your day clicking manual browser flows to check if your agent broke anything. Canary reads your git diffs to find affected UI paths, then has Claude code test them in a real browser. It captures full screen recordings and console logs for every run. Best of all, it generates a reusable playwright script you can run in CI with zero inference cost."
+      ]
+    },
+    {
+      "start": 346,
+      "title": "NaturePanelForge",
+      "repositories": [
+        "https://github.com/littlepeachs/NaturePanelForge"
+      ],
+      "id": "s015",
+      "end": 375,
+      "paragraphs": [
+        "You see a beautiful figure in a nature paper and want to know exactly how it was plotted or you want to test whether an AI can reproduce it. Nature Panel Forge is a code first workflow that takes scientific figure images and open access nature family papers and turns them into panel level executable plotting code reconstruction tasks. So each subplot becomes a concrete challenge. Here's the target figure. Write the code that regenerates it."
+      ]
+    },
+    {
+      "start": 375,
+      "title": "dots.tts",
+      "repositories": [
+        "https://github.com/rednote-hilab/dots.tts"
+      ],
+      "id": "s016",
+      "end": 399,
+      "paragraphs": [
+        "Dots.T TTS is a two billion parameter fully continuous end-to-end model with no discrete tokens anywhere generating clean 48 kHz speech. It posts state-of-the-art results on cdts eval and the highest average speaker similarity across a 24 language benchmark with strong zeroot voice cloning from a 3-second sample and a streaming mode for low latency."
+      ]
+    },
+    {
+      "start": 399,
+      "title": "ScrollWheel",
+      "repositories": [
+        "https://github.com/torvalds/ScrollWheel"
+      ],
+      "id": "s017",
+      "end": 426,
+      "paragraphs": [
+        "When the creator of Linux gets bored, he doesn't relax. He builds a scroll wheel from scratch. Scroll Wheel is Lionus Torvald's minimalist toy project. A custom scroll wheel built around an RP2350 microcontroller. The chip in the Raspberry Pi Pico 2 reading rotation from a magnetic sensor instead of a mechanical encoder. No moving contacts to wear out, just a magnet and a hall sensor doing the work."
+      ]
+    },
+    {
+      "start": 426,
+      "title": "TinyRetroPad",
+      "repositories": [
+        "https://github.com/PlummersSoftwareLLC/TinyRetroPad"
+      ],
+      "id": "s018",
+      "end": 453,
+      "paragraphs": [
+        "The father of the Windows task manager just built a fully functional clone of Windows XP's Notepad in under three kilob. Tiny Retropad is written entirely in x86 assembly using MASM and crinkler compression. It packs in the classic menu set and your favorite keyboard shortcuts. It compiles down to just 2700 bytes showing what's possible when you count every single bite."
+      ]
+    },
+    {
+      "start": 453,
+      "title": "Neo3dEngine",
+      "repositories": [
+        "https://github.com/IvanSobolev/Neo3dEngine"
+      ],
+      "id": "s019",
+      "end": 478,
+      "paragraphs": [
+        "You don't need heavyweight graphics APIs like OpenGL or DirectX just to build a custom 3D renderer. Neo3D Engine is a minimalist 3D engine written entirely from scratch in C that renders completely inside your standard terminal. It runs entirely on the CPU using custom raycasting to handle dynamic lighting. It even features an object loader and TCP socket multiplayer with real-time chat."
+      ]
+    },
+    {
+      "start": 478,
+      "title": "SoulX-Transcriber",
+      "repositories": [
+        "https://github.com/Soul-AILab/SoulX-Transcriber"
+      ],
+      "id": "s020",
+      "end": 504,
+      "paragraphs": [
+        "Whisper transcribes what was said, but it has no idea who said it. Solex transcriber fixes this by unifying everything into a single large audio language model. Built on top of Quen 3 Omni, it directly learns speaker attribution and transcriptions in one go. You get speaker consistent transcripts for overlapping conversations without managing any complex cascade of separate microservices."
+      ]
+    },
+    {
+      "start": 504,
+      "title": "WorldCupROI",
+      "repositories": [
+        "https://github.com/2417467487-hub/WorldCupROI"
+      ],
+      "id": "s021",
+      "end": 529,
+      "paragraphs": [
+        "Evaluating the return on a multi-million dollar sports sponsorship usually involves a lot of handwaving and guesswork. World Cup ROI turns that complex attention market into a logical decision engine. It ingests match data along with real source text signals to model sponsorship outcomes. Using built-in uncertainty analysis, this Python platform drafts ROI predictions and scenario recommendations."
+      ]
+    },
+    {
+      "start": 529,
+      "title": "baoyu-design",
+      "repositories": [
+        "https://github.com/JimLiu/baoyu-design"
+      ],
+      "id": "s022",
+      "end": 556,
+      "paragraphs": [
+        "Navigating to the claude web interface just to use its design view and then manually copy pasting the HTML back to your IDE is a massive waste of time. Bou design runs claude design locally as an agent skill right inside cursor or claude code. You describe a screen and it renders polished UI mockups directly in your local environment. Clicking any element in the live preview lets you issue instant modifications."
+      ]
+    },
+    {
+      "start": 556,
+      "title": "Forsy Trace Skill",
+      "repositories": [
+        "https://github.com/Forsy-AI/forsy-trace-skill"
+      ],
+      "id": "s023",
+      "end": 586,
+      "paragraphs": [
+        "When an autonomous AI agent completes a complex task, the final output alone doesn't show you how it actually got there. Foresight trace skill is a skill that turns those blackbox agent workflows into clean structured trajectory data. By dropping their instruction file into your agent environment, you can capture fullstep traces and reasoning signals. It outputs valid JSON traces, letting you easily evaluate agent logic or construct post-training data sets."
+      ]
+    },
+    {
+      "start": 586,
+      "title": "BrandDocs",
+      "repositories": [
+        "https://github.com/ferdinandobons/brand-docs"
+      ],
+      "id": "s024",
+      "end": 613,
+      "paragraphs": [
+        "Asking your AI agent to write files using a company template is a quick way to watch your branding drift into completely wrong fonts and styling. Brand doc solves this by splitting the generation pipeline. It extracts your theme colors and layouts into a reusable brand kit. When creating new files, the engine strictly applies those defined rules so off-brand output becomes impossible by construction."
+      ]
+    },
+    {
+      "start": 613,
+      "title": "align-dev",
+      "repositories": [
+        "https://github.com/razr001/align-dev"
+      ],
+      "id": "s025",
+      "end": 639,
+      "paragraphs": [
+        "Letting different AI coding tools write files for the same codebase is a quick way to watch your conventions split into different directions. Align Dev keeps your AI assistance in sync. It uses a visual wizard to generate shared standards and instruction files for cursor or clawed code. You pick your exact frontend stack and it outputs a clean markdown file to keep your agents writing consistent code."
+      ]
+    },
+    {
+      "start": 639,
+      "title": "papernews",
+      "repositories": [
+        "https://github.com/marcj/papernews"
+      ],
+      "id": "s026",
+      "end": 663,
+      "paragraphs": [
+        "Refreshing multiple news websites all day is a fast way to kill your focus and drown in ads. Paper news fixes this by compiling your daily reading into a self-hosted types set latex PDF. A Dockerbased script pulls your RSS feeds then has clawed clean and rewrite the full text articles. It compiles them into a clean layout perfect for reading offline on e- in devices."
+      ]
+    },
+    {
+      "start": 663,
+      "title": "mercek",
+      "repositories": [
+        "https://github.com/utibeabasi6/mercek"
+      ],
+      "id": "s027",
+      "end": 688,
+      "paragraphs": [
+        "Logging into the bloated AWS console every single time you need to check on your ECS clusters is a slow annoying chore. Merc solves this by bringing a local first desktop IDE specifically to Amazon ECS. Think of it as Lens but for ECS instead of Kubernetes. It loads your local AWS profiles to aggregate cluster health and service deployments inside a clean native Tory app."
+      ]
+    },
+    {
+      "start": 688,
+      "title": "lexa",
+      "repositories": [
+        "https://github.com/anvia-hq/lexa"
+      ],
+      "id": "s028",
+      "end": 713,
+      "paragraphs": [
+        "Repeatedly scanning files ad hoc to feed your coding agents context is a slow token burning mess. Lexa fixes this by turning your codebase into a portable queryable graph. It indexes your project structure and symbols into one local schema. Your agents get compact context and atomic line-based patches keeping everyone working from the exact same stable view of your project."
+      ]
+    },
+    {
+      "start": 713,
+      "title": "MoleCode",
+      "repositories": [
+        "https://github.com/AtomFlow-AI/MoleCode"
+      ],
+      "id": "s029",
+      "end": 738,
+      "paragraphs": [
+        "LLMs are great with text and terrible with chemistry because a molecule is a 3D graph, not a sentence. Micode bridges that gap by turning the molecule into something the model already understands code. It represents molecular structures as code so an LLM can read, manipulate, and reason about chemistry directly instead of fumbling with raw smile strings or hallucinating structures."
+      ]
+    },
+    {
+      "start": 738,
+      "title": "Git-Identity-Manager",
+      "repositories": [
+        "https://github.com/phricardo/Git-Identity-Manager"
+      ],
+      "id": "s030",
+      "end": 766,
+      "paragraphs": [
+        "Committing code to your company's repo with your personal email address is a classic developer mistake. Git Identity Manager acts as a cross-platform desktop app that visually switches your active Git profiles in one click. It manages your user configurations and SSH credentials from a single interface. Instead of writing complex shell scripts, you get a clean desktop dashboard to isolate your work and personal profiles."
+      ]
+    },
+    {
+      "start": 766,
+      "title": "Burrow",
+      "repositories": [
+        "https://github.com/caezium/Burrow"
+      ],
+      "id": "s031",
+      "end": 791,
+      "paragraphs": [
+        "Paying a subscription fee just to clean your disc and monitor system stats is a waste of cash. Burrow is a Mac OS app built on top of the Mole CLI. It combines resource monitoring and visual disk analysis inside a single Swift UI window. It keeps weeks of local metrics in SQLite to track down background RAM hogs and even has an MCP server so local AI agents can query your Mac."
+      ]
+    },
+    {
+      "start": 791,
+      "title": "grill-me-codex",
+      "repositories": [
+        "https://github.com/chaseai-yt/grill-me-codex"
+      ],
+      "id": "s032",
+      "end": 819,
+      "paragraphs": [
+        "Relying on clawed code to autonomously design and execute complex architecture plans is a great way to bleed tokens on logic breaking mistakes. GRME codeex adds a readonly adversarial review layer directly into your terminal. Before writing any code, it triggers a multi-round debate between Claude and OpenAI's codeex. The loop hardens your plan, forcing both models to reach a consensus before a single file gets modified."
+      ]
+    },
+    {
+      "start": 819,
+      "title": "ai-coding-starter-kit",
+      "repositories": [
+        "https://github.com/CWS6206/ai-coding-starter-kit"
+      ],
+      "id": "s033",
+      "end": 848,
+      "paragraphs": [
+        "Vetting and configuring new AI coding skills for your team can easily feel like a chaotic free-for-all. AI-Coding starter cache solves this by bundling handpicked agent skills and configuration templates into one repository. It provides prevetted installation commands for tools like clawed code or codeex alongside a security review checklist to audit skills before you deploy them. You get a controlled structured environment for agentic coding."
+      ]
+    },
+    {
+      "start": 848,
+      "title": "agentpet",
+      "repositories": [
+        "https://github.com/ntd4996/agentpet"
+      ],
+      "id": "s034",
+      "end": 875,
+      "paragraphs": [
+        "You kick off clawed code, switch to another window, and have no idea if it's still working or stuck waiting on you. Agent Pet turns that anxiety into a little buddy. It's a native Mac OS menu bar app with a desktop pet that monitors your AI coding agents, Claude Code, Codeex, and Gemini CLI, in real time. The PET reacts to what your agents are actually doing. So, a glance tells you whether they're grinding away or idle."
+      ]
+    },
+    {
+      "start": 875,
+      "title": "ZipSplat",
+      "repositories": [
+        "https://github.com/cvg/ZipSplat"
+      ],
+      "id": "s035",
+      "end": 903,
+      "paragraphs": [
+        "Running 3D Gaussian splatting usually means waiting through hours of per scene optimization while fighting with missing camera poses. Zip splat fixes this by reconstructing full scenes in under a second with a single forward pass. It compresses unposed input images into compact scene tokens and decodes them into a small group of Gaussian. You get highquality view synthesis with a single knob to trade model size for quality."
+      ]
+    },
+    {
+      "start": 903,
+      "title": "loupe",
+      "repositories": [
+        "https://github.com/mysk-research/loupe"
+      ],
+      "id": "s036",
+      "end": 935,
+      "paragraphs": [
+        "You don't need to give an iOS app a single permission for it to build a stable fingerprint of your phone. Loop acts as an open- source privacy scanner that reveals exactly what third party apps can see. It queries standard public iOS APIs to show you how metrics like language settings or clipboard counts get combined. You see the actual data trackers used to recognize your device across the web."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today number 36. 35 trending open- source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Remotion let you build video with React. Hyperframes makes the bet even simpler."
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "Write HTML render video. You describe each frame as a web page and it turns that into actual video output. The pitch"
+    },
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "being that this is the format AI agents can author most easily. So instead of teaching an agent a video DSL or a"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "timeline API, it just writes HTML, it already understands and out comes a rendered clip."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Instead of writing telemetry boilerplate or hunting down production crashes by hand, Superlog handles both. It uses an"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "open- source agent wizard to auto instrument your codebase with logs and request spans. When an issue pops up, it"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "groups the noisy logs and opens a mergeable pull request right in Slack to fix the bug. You get full observability and automated fixes without any manual instrumenting."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Building your own vzero clone or hosting sandboxes for AI coding agents usually forces you to choose between massive Kubernetes clusters and expensive SAS"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "APIs. Sandboxd handles all of it on a single Docker host. It boots isolated Linux containers with instant preview"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "URLs in one command. Because it wakes on request and stops on idle, you can stack dozens of active environments on a cheap $20 server."
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "text": "Warp made the AI terminal cool, but it's closed source and Mac first. Microsoft just answered with intelligent terminal,"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "and it's a fork of Windows terminal itself, the one that already ships with Windows. The difference is a coding agent baked right into the command line."
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "text": "So instead of alt tabbing to a chat window, you ask for the command, the fix, or the explanation without leaving your prompt."
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "You've seen hyperframes and motion turn web code into video. HTML video is the agent first take. It's an HTML tovide"
+    },
+    {
+      "start": 124.0,
+      "end": 124.0,
+      "text": "meta layer built specifically for coding agents. Your agent writes plain HTML for each scene and this layer renders it out as actual video. the same studio team"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "behind open design and HTML anything betting that HTML is the universal canvas for slides for designs and now for video."
+    },
+    {
+      "start": 142.0,
+      "end": 142.0,
+      "text": "Getting a PyTorch model running fast on an iPhone's neural engine has always meant wrestling CoreML conversion and hoping the ops are supported. Apple just"
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "dropped official help. Core AI models is Apple's own repo of model export recipes, Python primitives, and Swift"
+    },
+    {
+      "start": 160.0,
+      "end": 160.0,
+      "text": "runtime utilities for ondevice AI. So you get the sanctioned path for taking a model and shipping it to run locally on"
+    },
+    {
+      "start": 166.0,
+      "end": 166.0,
+      "text": "Apple hardware. Feeding raw, messy GitHub issues directly to your coding agents usually results in halfbaked plans and wasted tokens."
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "Issue finder organizes this chaos by acting as a local first handoff prep tool. It ranks open issues using local heristics and packages a clean context"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "bundle for cursor or clawed code. It exposes a JSON tool contract handling the prep work before your agent touches a single file."
+    },
+    {
+      "start": 195.0,
+      "end": 195.0,
+      "text": "Attackers are already pointing AI at code bases looking for holes. Anthropic just published the defenders reference"
+    },
+    {
+      "start": 202.0,
+      "end": 202.0,
+      "text": "playbook. This is an open reference implementation for autonomous vulnerability discovery and human reviewed remediation with Claude. Claude"
+    },
+    {
+      "start": 211.0,
+      "end": 211.0,
+      "text": "hunts your own codebase for security bugs on its own, but it never silently patches anything. Every fix goes through a human review gate before it lands."
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "Lah animations normally start in After Effects and get exported as JSON. Text to Lah is a skill you add to Claude code"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "or codeex that teaches the agent to write valid Lah JSON from a plain text description. Describe the animation you want. The agent writes the JSON and a"
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "Skia canvas kit player hot reloads it live. No motion design tool. No manual key framing."
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "Every AI startup landing page has the same tells. Now, the gradient that shimmers across the headline, the button"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "that glows because it generates sparkles on everything. Performative UI turns that into an actual React component"
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "library on purpose. It's a collection of AI native components whose only job is to signal how oversubscribed your"
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "funding round is while adding zero real functionality."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Most deep research setups cost a fortune in API tokens and leave you with no way to verify their facts. Data Room fixes"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "this by letting you run a self-hosted research intern on your own hardware."
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "You give it a query and a time budget and a local Quen model runs an autonomous search loop. It crawls and structures a clean folder of markdown"
+    },
+    {
+      "start": 292.0,
+      "end": 292.0,
+      "text": "documents complete with direct citations."
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "Edgulab is a collection of education skills that turn academic problems into self-contained interactive lesson web pages. The flagship handles solid"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "geometry. Feed it a problem as text, a photo, or a random generated one, and it solves dihedral angles, skew lines,"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "pointtoplane distances, and volumes on cubes, pyramids, and cones. Then renders an interactive page you can rotate and explore."
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "Vibe coding is great until you spend half your day clicking manual browser flows to check if your agent broke anything. Canary reads your git diffs to"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "find affected UI paths, then has Claude code test them in a real browser. It captures full screen recordings and"
+    },
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "console logs for every run. Best of all, it generates a reusable playwright script you can run in CI with zero inference cost."
+    },
+    {
+      "start": 346.0,
+      "end": 346.0,
+      "text": "You see a beautiful figure in a nature paper and want to know exactly how it was plotted or you want to test whether an AI can reproduce it. Nature Panel"
+    },
+    {
+      "start": 356.0,
+      "end": 356.0,
+      "text": "Forge is a code first workflow that takes scientific figure images and open access nature family papers and turns them into panel level executable"
+    },
+    {
+      "start": 365.0,
+      "end": 365.0,
+      "text": "plotting code reconstruction tasks. So each subplot becomes a concrete challenge. Here's the target figure."
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "Write the code that regenerates it."
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "Dots.T TTS is a two billion parameter fully continuous end-to-end model with no discrete tokens anywhere generating"
+    },
+    {
+      "start": 383.0,
+      "end": 383.0,
+      "text": "clean 48 kHz speech. It posts state-of-the-art results on cdts eval and the highest average speaker"
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "similarity across a 24 language benchmark with strong zeroot voice cloning from a 3-second sample and a streaming mode for low latency."
+    },
+    {
+      "start": 399.0,
+      "end": 399.0,
+      "text": "When the creator of Linux gets bored, he doesn't relax. He builds a scroll wheel from scratch. Scroll Wheel is Lionus"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "Torvald's minimalist toy project. A custom scroll wheel built around an RP2350 microcontroller. The chip in the"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "Raspberry Pi Pico 2 reading rotation from a magnetic sensor instead of a mechanical encoder. No moving contacts"
+    },
+    {
+      "start": 422.0,
+      "end": 422.0,
+      "text": "to wear out, just a magnet and a hall sensor doing the work."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "The father of the Windows task manager just built a fully functional clone of Windows XP's Notepad in under three"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "kilob. Tiny Retropad is written entirely in x86 assembly using MASM and crinkler"
+    },
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "compression. It packs in the classic menu set and your favorite keyboard shortcuts. It compiles down to just 2700"
+    },
+    {
+      "start": 447.0,
+      "end": 447.0,
+      "text": "bytes showing what's possible when you count every single bite."
+    },
+    {
+      "start": 453.0,
+      "end": 453.0,
+      "text": "You don't need heavyweight graphics APIs like OpenGL or DirectX just to build a custom 3D renderer."
+    },
+    {
+      "start": 459.0,
+      "end": 459.0,
+      "text": "Neo3D Engine is a minimalist 3D engine written entirely from scratch in C that renders completely inside your standard"
+    },
+    {
+      "start": 466.0,
+      "end": 466.0,
+      "text": "terminal. It runs entirely on the CPU using custom raycasting to handle dynamic lighting. It even features an object loader and TCP socket multiplayer with real-time chat."
+    },
+    {
+      "start": 478.0,
+      "end": 478.0,
+      "text": "Whisper transcribes what was said, but it has no idea who said it. Solex transcriber fixes this by unifying everything into a single large audio"
+    },
+    {
+      "start": 486.0,
+      "end": 486.0,
+      "text": "language model. Built on top of Quen 3 Omni, it directly learns speaker attribution and transcriptions in one"
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "go. You get speaker consistent transcripts for overlapping conversations without managing any complex cascade of separate microservices."
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "Evaluating the return on a multi-million dollar sports sponsorship usually involves a lot of handwaving and guesswork. World Cup ROI turns that"
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "complex attention market into a logical decision engine. It ingests match data along with real source text signals to"
+    },
+    {
+      "start": 520.0,
+      "end": 520.0,
+      "text": "model sponsorship outcomes. Using built-in uncertainty analysis, this Python platform drafts ROI predictions and scenario recommendations."
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "Navigating to the claude web interface just to use its design view and then manually copy pasting the HTML back to"
+    },
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "your IDE is a massive waste of time. Bou design runs claude design locally as an agent skill right inside cursor or"
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "claude code. You describe a screen and it renders polished UI mockups directly in your local environment. Clicking any element in the live preview lets you issue instant modifications."
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "When an autonomous AI agent completes a complex task, the final output alone doesn't show you how it actually got there. Foresight trace skill is a skill"
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "that turns those blackbox agent workflows into clean structured trajectory data. By dropping their instruction file into your agent"
+    },
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "environment, you can capture fullstep traces and reasoning signals. It outputs valid JSON traces, letting you easily"
+    },
+    {
+      "start": 581.0,
+      "end": 581.0,
+      "text": "evaluate agent logic or construct post-training data sets."
+    },
+    {
+      "start": 586.0,
+      "end": 586.0,
+      "text": "Asking your AI agent to write files using a company template is a quick way to watch your branding drift into completely wrong fonts and styling."
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Brand doc solves this by splitting the generation pipeline. It extracts your theme colors and layouts into a reusable"
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "brand kit. When creating new files, the engine strictly applies those defined rules so off-brand output becomes impossible by construction."
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "Letting different AI coding tools write files for the same codebase is a quick way to watch your conventions split into"
+    },
+    {
+      "start": 620.0,
+      "end": 620.0,
+      "text": "different directions. Align Dev keeps your AI assistance in sync. It uses a visual wizard to generate shared"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "standards and instruction files for cursor or clawed code. You pick your exact frontend stack and it outputs a clean markdown file to keep your agents writing consistent code."
+    },
+    {
+      "start": 639.0,
+      "end": 639.0,
+      "text": "Refreshing multiple news websites all day is a fast way to kill your focus and drown in ads. Paper news fixes this by"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "compiling your daily reading into a self-hosted types set latex PDF. A Dockerbased script pulls your RSS feeds"
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "then has clawed clean and rewrite the full text articles. It compiles them into a clean layout perfect for reading offline on e- in devices."
+    },
+    {
+      "start": 663.0,
+      "end": 663.0,
+      "text": "Logging into the bloated AWS console every single time you need to check on your ECS clusters is a slow annoying chore. Merc solves this by bringing a"
+    },
+    {
+      "start": 672.0,
+      "end": 672.0,
+      "text": "local first desktop IDE specifically to Amazon ECS. Think of it as Lens but for ECS instead of Kubernetes. It loads your"
+    },
+    {
+      "start": 681.0,
+      "end": 681.0,
+      "text": "local AWS profiles to aggregate cluster health and service deployments inside a clean native Tory app."
+    },
+    {
+      "start": 688.0,
+      "end": 688.0,
+      "text": "Repeatedly scanning files ad hoc to feed your coding agents context is a slow token burning mess. Lexa fixes this by"
+    },
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "turning your codebase into a portable queryable graph. It indexes your project structure and symbols into one local"
+    },
+    {
+      "start": 703.0,
+      "end": 703.0,
+      "text": "schema. Your agents get compact context and atomic line-based patches keeping everyone working from the exact same stable view of your project."
+    },
+    {
+      "start": 713.0,
+      "end": 713.0,
+      "text": "LLMs are great with text and terrible with chemistry because a molecule is a 3D graph, not a sentence. Micode bridges"
+    },
+    {
+      "start": 721.0,
+      "end": 721.0,
+      "text": "that gap by turning the molecule into something the model already understands code. It represents molecular structures"
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "as code so an LLM can read, manipulate, and reason about chemistry directly instead of fumbling with raw smile strings or hallucinating structures."
+    },
+    {
+      "start": 739.0,
+      "end": 739.0,
+      "text": "Committing code to your company's repo with your personal email address is a classic developer mistake. Git Identity"
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "Manager acts as a cross-platform desktop app that visually switches your active Git profiles in one click. It manages"
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "your user configurations and SSH credentials from a single interface."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "Instead of writing complex shell scripts, you get a clean desktop dashboard to isolate your work and personal profiles."
+    },
+    {
+      "start": 766.0,
+      "end": 766.0,
+      "text": "Paying a subscription fee just to clean your disc and monitor system stats is a waste of cash. Burrow is a Mac OS app built on top of the Mole CLI. It"
+    },
+    {
+      "start": 775.0,
+      "end": 775.0,
+      "text": "combines resource monitoring and visual disk analysis inside a single Swift UI window. It keeps weeks of local metrics"
+    },
+    {
+      "start": 782.0,
+      "end": 782.0,
+      "text": "in SQLite to track down background RAM hogs and even has an MCP server so local AI agents can query your Mac."
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "Relying on clawed code to autonomously design and execute complex architecture plans is a great way to bleed tokens on"
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "logic breaking mistakes. GRME codeex adds a readonly adversarial review layer directly into your terminal. Before"
+    },
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "writing any code, it triggers a multi-round debate between Claude and OpenAI's codeex. The loop hardens your plan, forcing both models to reach a"
+    },
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "consensus before a single file gets modified."
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "Vetting and configuring new AI coding skills for your team can easily feel like a chaotic free-for-all. AI-Coding"
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "starter cache solves this by bundling handpicked agent skills and configuration templates into one repository. It provides prevetted"
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "installation commands for tools like clawed code or codeex alongside a security review checklist to audit skills before you deploy them. You get a"
+    },
+    {
+      "start": 844.0,
+      "end": 844.0,
+      "text": "controlled structured environment for agentic coding."
+    },
+    {
+      "start": 848.0,
+      "end": 848.0,
+      "text": "You kick off clawed code, switch to another window, and have no idea if it's still working or stuck waiting on you."
+    },
+    {
+      "start": 855.0,
+      "end": 855.0,
+      "text": "Agent Pet turns that anxiety into a little buddy. It's a native Mac OS menu bar app with a desktop pet that monitors"
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "your AI coding agents, Claude Code, Codeex, and Gemini CLI, in real time."
+    },
+    {
+      "start": 868.0,
+      "end": 868.0,
+      "text": "The PET reacts to what your agents are actually doing. So, a glance tells you whether they're grinding away or idle."
+    },
+    {
+      "start": 875.0,
+      "end": 875.0,
+      "text": "Running 3D Gaussian splatting usually means waiting through hours of per scene optimization while fighting with missing camera poses."
+    },
+    {
+      "start": 884.0,
+      "end": 884.0,
+      "text": "Zip splat fixes this by reconstructing full scenes in under a second with a single forward pass. It compresses"
+    },
+    {
+      "start": 890.0,
+      "end": 890.0,
+      "text": "unposed input images into compact scene tokens and decodes them into a small group of Gaussian. You get highquality"
+    },
+    {
+      "start": 898.0,
+      "end": 898.0,
+      "text": "view synthesis with a single knob to trade model size for quality."
+    },
+    {
+      "start": 903.0,
+      "end": 903.0,
+      "text": "You don't need to give an iOS app a single permission for it to build a stable fingerprint of your phone. Loop acts as an open- source privacy scanner"
+    },
+    {
+      "start": 912.0,
+      "end": 912.0,
+      "text": "that reveals exactly what third party apps can see. It queries standard public iOS APIs to show you how metrics like"
+    },
+    {
+      "start": 920.0,
+      "end": 920.0,
+      "text": "language settings or clipboard counts get combined. You see the actual data trackers used to recognize your device across the web."
+    }
+  ]
+}

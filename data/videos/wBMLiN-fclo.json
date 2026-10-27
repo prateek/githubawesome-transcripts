@@ -1,0 +1,1072 @@
+{
+  "schema_version": 1,
+  "id": "wBMLiN-fclo",
+  "title": "GitHub Trending Weekly #35: bigset, MisoTTS, butterbase, image-extender, memory-os, sandboxed, rift",
+  "url": "https://www.youtube.com/watch?v=wBMLiN-fclo",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-06",
+  "duration": 941,
+  "word_count": 2334,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T05:19:47+00:00",
+    "metadata_sha256": "a1d5b364e74b931efa6f19f7c967c69855d5dddc57ff22532e4379d4190b798d",
+    "captions_sha256": "8b324fecd4aab252adeb2da090572e70d901f73eb1e442076b959330a720569b",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly 35. 35 trending open-source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "bigset",
+      "repositories": [
+        "https://github.com/tinyfish-io/bigset"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Most custom data sets don't exist and take hours to build manually. Big set from TinyFish builds them from a single sentence. describe the data in plain English and a two-tier agent system infers the schema, sends sub agents to research the live web, verifies each row against real sources, dduplicates, and hands you a CSV or XLSX. The data set you need researched and cleaned autonomously."
+      ]
+    },
+    {
+      "start": 36,
+      "title": "MisoTTS",
+      "repositories": [
+        "https://github.com/MisoLabsAI/MisoTTS"
+      ],
+      "id": "s003",
+      "end": 65,
+      "paragraphs": [
+        "Most text to speech still sounds flat, that dead robotic narration that gives away an AI voiceover instantly. Miso TS is an openw weights 8 billion parameter model from MISO labs that conditions on both text and tone. So it captures pitch, rhythm and actual emotion instead of monotone. Oneshot voice cloning from a 10-second clip, 100 millisecond latency, and it runs on your own hardware, so your audio never leaves your machine."
+      ]
+    },
+    {
+      "start": 65,
+      "title": "butterbase",
+      "repositories": [
+        "https://github.com/butterbase-ai/butterbase"
+      ],
+      "id": "s004",
+      "end": 90,
+      "paragraphs": [
+        "Butterbase is a fully open-source backend as a service. Postgress, authentication, storage, edge functions, AI gateway out of the box. Native MCP integration installs directly into cloud code and exposes 43 specialized backend tools to your agent. Your AI provisions the database, evolves SQL schemas, configures O rules, and deploys edge functions autonomously while you build."
+      ]
+    },
+    {
+      "start": 90,
+      "title": "image-extender",
+      "repositories": [
+        "https://github.com/boona13/image-extender"
+      ],
+      "id": "s005",
+      "end": 116,
+      "paragraphs": [
+        "You've got the perfect image, but it's the wrong shape for your thumbnail, your banner, or a vertical video. Image Extender fills in the rest. It's an open- source web app that uses AI to extend any image in any direction, generating new content that matches the original. It runs Gemini through open router, blends the new edges with posson seam blending, so there's no visible line where the generation starts."
+      ]
+    },
+    {
+      "start": 116,
+      "title": "memory-os",
+      "repositories": [
+        "https://github.com/ClaudioDrews/memory-os"
+      ],
+      "id": "s006",
+      "end": 142,
+      "paragraphs": [
+        "Every Hermes agent user knows this. You spend a session teaching it your stack and by tomorrow it's forgotten everything. Memory OS adds seven memory layers on top from workspace files and session search up through a cubant vector store and an autocurated wiki. Injection is relevance gated so the agent gets only what it needs each turn. Runs locally any LLM provider no subscription."
+      ]
+    },
+    {
+      "start": 142,
+      "title": "sandboxed",
+      "repositories": [
+        "https://github.com/tastyeffectco/sandboxes"
+      ],
+      "id": "s007",
+      "end": 167,
+      "paragraphs": [
+        "Running isolated dev environments usually means Kubernetes cloud bills or a pile of infrastructure you didn't want to manage. Sandboxes takes a much simpler approach. It spins up secure Dockerbased development environments with real shells, automatic HTTPS preview URLs and idle shutdowns that wake back up on the next request. Everything runs on your own server with a Go control plane and SQLite."
+      ]
+    },
+    {
+      "start": 167,
+      "title": "tab-labeler",
+      "repositories": [
+        "https://github.com/SenhorH/tab-labeler"
+      ],
+      "id": "s008",
+      "end": 197,
+      "paragraphs": [
+        "Ever opened five production tabs and three staging tabs and instantly lost track of which is which? Tabler fixes that in a surprisingly simple way. It replaces tiny favicons with custom colored labels based on URL patterns so your tabs can literally say prod stage or dev at a glance. You can match sites with rejects, customize colors, and export your setup. If you work across multiple environments all day, this removes a lot of expensive misclicks."
+      ]
+    },
+    {
+      "start": 197,
+      "title": "UltraCode-Shim",
+      "repositories": [
+        "https://github.com/OnlyTerp/UltraCode-Shim"
+      ],
+      "id": "s009",
+      "end": 221,
+      "paragraphs": [
+        "Ever see a new AI coding feature locked to one model and think, I already pay for something else? Ultradeode shim is a clever workound. It lets you route other models into Claude Code's Ultra Code style workflow through a lightweight local proxy and a simple config file. Point the model at the right agent instructions and it can bootstrap the workflow automatically."
+      ]
+    },
+    {
+      "start": 221,
+      "title": "rift",
+      "repositories": [
+        "https://github.com/anomalyco/rift"
+      ],
+      "id": "s010",
+      "end": 248,
+      "paragraphs": [
+        "If you're starting to run multiple AI coding agents on the same repository, you've probably hit Git's biggest limitation fast. One folder, one branch. Rift is a Rustbas based CLI from the team behind Open Code that rethinks that whole workflow. Instead of wrestling with Git work trees and the weird side effects they bring, Rift gives every agent its own isolated workspace without breaking time stamps or triggering huge rebuilds."
+      ]
+    },
+    {
+      "start": 248,
+      "title": "pi-dynamic-workflows",
+      "repositories": [
+        "https://github.com/Michaelliv/pi-dynamic-workflows"
+      ],
+      "id": "s011",
+      "end": 277,
+      "paragraphs": [
+        "Waiting for a single AI agent to grind through a huge task list step by step is a massive bottleneck. PI Dynamic Workflows brings parallel orchestration to PI by letting the model write its own lightweight JavaScript workflows. It automatically fans out tasks to isolated sub aents and merges the results back together. You get an orchestrated multi- aent workspace running in parallel without the overhead of a heavy enterprise framework."
+      ]
+    },
+    {
+      "start": 277,
+      "title": "KeyType",
+      "repositories": [
+        "https://github.com/johnbean393/KeyType"
+      ],
+      "id": "s012",
+      "end": 301,
+      "paragraphs": [
+        "If you spend all day in VS Code, your keyboard shortcuts are either muscle memory or complete chaos. Keyype is an open-source trainer built specifically for developers who want to get faster with the shortcuts they already have available. Instead of practicing random typing exercises, it drills actual editor commands and key combinations until they become automatic."
+      ]
+    },
+    {
+      "start": 301,
+      "title": "ideogram4",
+      "repositories": [
+        "https://github.com/ideogram-oss/ideogram4"
+      ],
+      "id": "s013",
+      "end": 330,
+      "paragraphs": [
+        "Most open image models are great until you ask them to generate a poster, a logo, or text that actually needs to be readable. That's where Ideogram 4 gets interesting. It's the first openweight release from Ideogram built specifically for design work with strong typography, layout control, structured JSON prompting, and native 2K image generation. You can run it locally, fine-tune it, and even control object placement with bounding boxes."
+      ]
+    },
+    {
+      "start": 330,
+      "title": "vimhjkl",
+      "repositories": [
+        "https://github.com/S-Sigdel/vimhjkl"
+      ],
+      "id": "s014",
+      "end": 355,
+      "paragraphs": [
+        "If you've tried learning Vim, you already know the problem. Reading shortcuts is easy. Building actual muscle memory is not. VimHJL turns Vim practice into a game. It gives you focused drills around movement, navigation, and editing commands, so you're repeatedly using the keys instead of just memorizing them. The goal isn't to teach Vim theory, it's to make the motions automatic."
+      ]
+    },
+    {
+      "start": 355,
+      "title": "parakeet.cpp",
+      "repositories": [
+        "https://github.com/mudler/parakeet.cpp"
+      ],
+      "id": "s015",
+      "end": 381,
+      "paragraphs": [
+        "If whisper.cpp is your default for local speech to text, parakeet.cp is a really interesting alternative. It's a pure C++ port of Nvidia's parakeet model built on GGML, meaning it runs on CPU or GPU using standard GGUF files. You get streaming transcription and word level timestamps through a straightforward C API. It makes embedding fast offline transcription into your own apps incredibly lightweight."
+      ]
+    },
+    {
+      "start": 381,
+      "title": "TripoSplat",
+      "repositories": [
+        "https://github.com/VAST-AI-Research/TripoSplat"
+      ],
+      "id": "s016",
+      "end": 410,
+      "paragraphs": [
+        "Most image to 3D tools still want multiple views, heavy pipelines, or a cloud service somewhere in the loop. Triposplat takes a different approach. You give it a single image and it generates a highquality 3D Gaussian splat that can be used in game engines, AR workflows and modern 3D pipelines. The clever part is its density control system which automatically puts detail where it matters and keeps simple areas lightweight."
+      ]
+    },
+    {
+      "start": 410,
+      "title": "MogVMP",
+      "repositories": [
+        "https://github.com/eversinc33/MogVMP"
+      ],
+      "id": "s017",
+      "end": 438,
+      "paragraphs": [
+        "Moog VMP is a static de virtualizer for VM protect 3.5 that lifts virtualized code into LLVM using rem then strips away the virtual machine layer through optimization passes. Instead of tracing execution step by step, it attacks the problem at a much higher level and reconstructs something far closer to the original code. It is a proof of concept, but it's already surprisingly capable at reconstructing branching functions."
+      ]
+    },
+    {
+      "start": 438,
+      "title": "ai-rules-sync",
+      "repositories": [
+        "https://github.com/PanisHandsome/ai-rules-sync"
+      ],
+      "id": "s018",
+      "end": 464,
+      "paragraphs": [
+        "Juggling system prompts across three different AI editors usually means copying and pasting markdown files every time you make a change. AI- rules-sync handles that overhead by keeping your local rules synchronized across cursor, claude code, and other developer tools. You update your preferences in one config file and it automatically updates the specific folders where each agent expects them. Most AI coding agents still run directly in your terminal with access to your files, your network, and"
+      ]
+    },
+    {
+      "start": 464,
+      "title": "harness-terminal",
+      "repositories": [
+        "https://github.com/robzilla1738/harness-terminal"
+      ],
+      "id": "s019",
+      "end": 488,
+      "paragraphs": [
+        "whatever credentials happen to be lying around. Harness terminal puts a safety layer in front of that. It runs agents like Claude Code, Codeex, Gemini CLI, and others inside isolated environments with policy controls around what they can access and where they can connect."
+      ]
+    },
+    {
+      "start": 488,
+      "title": "nbd-vram",
+      "repositories": [
+        "https://github.com/c0deJedi/nbd-vram"
+      ],
+      "id": "s020",
+      "end": 515,
+      "paragraphs": [
+        "Got an NVIDIA GPU sitting mostly idle while your laptop is choking on 16 gigs of soldered RAM? NBDV RAM does something wonderfully cursed. It turns your GPU's VRAMm into Linux swap space. The project uses CUDA and the network block device protocol to expose VRAM like a normal swap device. No custom kernel modules required. That means when RAM fills up, the system can spill into VRAM before hammering your SSD."
+      ]
+    },
+    {
+      "start": 515,
+      "title": "terminal-control",
+      "repositories": [
+        "https://github.com/kitlangton/terminal-control"
+      ],
+      "id": "s021",
+      "end": 540,
+      "paragraphs": [
+        "Terminal apps are notoriously hard to test. A screenshot tells you too little and logs rarely explain what actually happened on screen. Terminal control approaches the problem from a different angle. It lets agents and test suites interact with a terminal exactly the way a user would. You can send keystrokes, inspect rendered output, record sessions, and capture artifacts when things break."
+      ]
+    },
+    {
+      "start": 540,
+      "title": "JoyAI-Echo",
+      "repositories": [
+        "https://github.com/jd-opensource/JoyAI-Echo"
+      ],
+      "id": "s022",
+      "end": 569,
+      "paragraphs": [
+        "Fiveminute AI generated stories usually fall apart long before the ending. Characters change, voices drift, and the whole thing loses the plot. Joy AI Echo is trying to solve that with a crossmodal memory system that keeps both visual identity and voice consistency across an entire multi-shot video. It generates synchronized audio and video in one pipeline, supports conversational edits, and claims a major speed up over the original workflow."
+      ]
+    },
+    {
+      "start": 569,
+      "title": "SwiftUIShaders",
+      "repositories": [
+        "https://github.com/krispuckett/SwiftUIShaders"
+      ],
+      "id": "s023",
+      "end": 597,
+      "paragraphs": [
+        "Adding custom visual effects to a Swift UI app usually means wrestling with raw metal code. SwiftUI Shaders provides a pre-built library of native effects designed specifically for the native Swift UI shader APIs. It includes things like noise, wave distortions, and transitions that you can drop directly into your views using simple modifiers. It lets you add polished visual details without having to write custom shader boiler plate. Your smart home probably knows"
+      ]
+    },
+    {
+      "start": 597,
+      "title": "Anima",
+      "repositories": [
+        "https://github.com/Fullive-AI/Anima"
+      ],
+      "id": "s024",
+      "end": 624,
+      "paragraphs": [
+        "how to follow commands. Anima is trying to teach it how to make decisions. It's a local first agent runtime that connects to my home devices, builds long-term memory around your habits, and uses an LLM to coordinate behavior across the whole house. Each device gets domain specific knowledge, so your humidifier, AC, and air purifier can work together instead of acting like strangers."
+      ]
+    },
+    {
+      "start": 624,
+      "title": "vigils",
+      "repositories": [
+        "https://github.com/duncatzat/vigils"
+      ],
+      "id": "s025",
+      "end": 653,
+      "paragraphs": [
+        "The problem with giving claude code or cursor access to your MCP servers is that you're trusting them to not do something irreversible or leak a credential into a prompt. Vigil sits between your agent and the tools it calls. It's a Rustbased local control plane. Every tool call hits a default deny firewall. Destructive operations pause for your approval and a redaction engine strips API keys and PII before anything reaches a model or a log."
+      ]
+    },
+    {
+      "start": 653,
+      "title": "draco.js",
+      "repositories": [
+        "https://github.com/mrdoob/draco.js"
+      ],
+      "id": "s026",
+      "end": 682,
+      "paragraphs": [
+        "Loading uncompressed 3D models into a web browser usually leads to frustrating lag and high bandwidth bills. Draco.js solves this by bringing Google's mesh compression directly to your JavaScript projects. It drastically reduces 3D asset file sizes without sacrificing geometric detail and decodes the compressed data efficiently on the client side. It makes serving complex WebGL experiences practical even on slow mobile networks."
+      ]
+    },
+    {
+      "start": 682,
+      "title": "patent",
+      "repositories": [
+        "https://github.com/r14dd/patent"
+      ],
+      "id": "s027",
+      "end": 709,
+      "paragraphs": [
+        "Spending a weekend building a side project only to find three identical versions on GitHub is incredibly frustrating. Patent solves this by running a quick prior art search on your ideas. You describe your project in plain English and the tool scans 11 ecosystems like npm and pippi for similar projects. It ranks findings locally using embeddings letting you know if the space is wide open before you write any code."
+      ]
+    },
+    {
+      "start": 709,
+      "title": "unmute-dictation",
+      "repositories": [
+        "https://github.com/arpitpatel25/unmute-dictation"
+      ],
+      "id": "s028",
+      "end": 733,
+      "paragraphs": [
+        "Constantly context switching between typing code and writing out long documentation can break your mental flow. Unmute Dictation acts as a lightweight global voice typing utility that inputs text directly into whatever editor you have open. Instead of dealing with clunky built-in dictation services, you use a quick hotkey to stream your speech straight to your cursor."
+      ]
+    },
+    {
+      "start": 733,
+      "title": "gbase",
+      "repositories": [
+        "https://github.com/garyqlin/gbase"
+      ],
+      "id": "s029",
+      "end": 756,
+      "paragraphs": [
+        "Most agent frameworks forget everything the moment a task ends. Gbase doesn't. It's a Python framework where the agent keeps long-term memory, learns from past interactions, and can rewrite its own system prompt when you trigger an evolution cycle. A multi-agent review pipeline has one agent build, another audit, and a third judge before anything ships."
+      ]
+    },
+    {
+      "start": 756,
+      "title": "persistia-for-claude-code",
+      "repositories": [
+        "https://github.com/bernardohcrocha/persistia-for-claude-code"
+      ],
+      "id": "s030",
+      "end": 781,
+      "paragraphs": [
+        "Starting a new Claude code session shouldn't feel like giving the same onboarding presentation over and over again. Persistia solves that by giving Claude a persistent memory layer that survives across sessions. Instead of losing project context when the conversation resets, it stores decisions, architecture knowledge, and working context so the agent can pick up where it left off."
+      ]
+    },
+    {
+      "start": 781,
+      "title": "nullsec-s1",
+      "repositories": [
+        "https://github.com/trynullsec/nullsec-s1"
+      ],
+      "id": "s031",
+      "end": 808,
+      "paragraphs": [
+        "AI coding tools write software faster than you can review it, and the output routinely ships with broken off and exposed secrets. Nulsec S1 reviews that code with a security tuned LLM and returns structured JSON verdicts, not pros. A deterministic safety layer recomputes the productionready decision independently of the model. So even a prompt injection hidden in the code can't force a false pass."
+      ]
+    },
+    {
+      "start": 808,
+      "title": "MacClean",
+      "repositories": [
+        "https://github.com/iliyami/MacClean"
+      ],
+      "id": "s032",
+      "end": 835,
+      "paragraphs": [
+        "Clean My Mac costs 40 bucks a year and you can't see what it's doing. Macclean does the same job for free. Fully open source. It scans 16 categories of system junk, runs a malware scanner, and uninstalls apps with a matching engine that hunts leftover files across 17 library subdirectories. Everything goes to trash first, protected paths are blocklisted, and the app never touches the network."
+      ]
+    },
+    {
+      "start": 835,
+      "title": "MineEcho",
+      "repositories": [
+        "https://github.com/Health-Yang/MineEcho"
+      ],
+      "id": "s033",
+      "end": 857,
+      "paragraphs": [
+        "There's a gap between chat UIs that forget everything, and agent frameworks that burn through your token budget. Mine Echo sits there. It's a local first assistant with a four-level memory tree that distills interactions into daily, weekly, and monthly summaries. Knowledge lands in browsable wiki pages with a graph, not opaque vector chunks."
+      ]
+    },
+    {
+      "start": 857,
+      "title": "glb-shrink",
+      "repositories": [
+        "https://github.com/boona13/glb-shrink"
+      ],
+      "id": "s034",
+      "end": 883,
+      "paragraphs": [
+        "AI generated 3D models regularly land at 50 or 60 megabytes. Fine in Blender, too heavy for the web or AR. GB shrink is a web app where you drop a GB, pick a quality preset, and get a Draco compressed WEBP textured file back in seconds. The repo shows 58 megabytes going down to 869 kilob. Live before and after 3D preview, so you see what you're trading before you download."
+      ]
+    },
+    {
+      "start": 883,
+      "title": "smart-home-button",
+      "repositories": [
+        "https://github.com/Jasionf/smart-home-button"
+      ],
+      "id": "s035",
+      "end": 908,
+      "paragraphs": [
+        "Some smart home actions are just faster with a physical dial than a phone app. This is ES Home firmware for the M5 stack dial, a small round device with a 240 pixel screen, rotary encoder, and RGB LED ring. It connects to home assistant and gives you pages for weather, AC, music with album art, lights, and a countdown timer. Turn the knob for brightness, swipe to switch pages."
+      ]
+    },
+    {
+      "start": 908,
+      "title": "munder-difflin",
+      "repositories": [
+        "https://github.com/chaitanyagiri/munder-difflin"
+      ],
+      "id": "s036",
+      "end": 941,
+      "paragraphs": [
+        "Mundifflin takes your clawed code sessions and turns them into a coordinated team. Each agent runs as a real claude process with its own memory and mailbox. A god orchestrator routes work between them, handles routine tasks itself, and only escalates to you for spend or destructive ops. You watch it all on a pixel art office floor where agents walk to desks, envelopes fly across the room."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly 35. 35 trending open-source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Most custom data sets don't exist and take hours to build manually. Big set from TinyFish builds them from a single sentence. describe the data in plain"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "English and a two-tier agent system infers the schema, sends sub agents to research the live web, verifies each row"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "against real sources, dduplicates, and hands you a CSV or XLSX. The data set you need researched and cleaned autonomously."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Most text to speech still sounds flat, that dead robotic narration that gives away an AI voiceover instantly."
+    },
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "text": "Miso TS is an openw weights 8 billion parameter model from MISO labs that conditions on both text and tone. So it"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "captures pitch, rhythm and actual emotion instead of monotone."
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "text": "Oneshot voice cloning from a 10-second clip, 100 millisecond latency, and it runs on your own hardware, so your audio never leaves your machine."
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "text": "Butterbase is a fully open-source backend as a service. Postgress, authentication, storage, edge functions, AI gateway out of the box. Native MCP"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "text": "integration installs directly into cloud code and exposes 43 specialized backend tools to your agent. Your AI provisions"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "text": "the database, evolves SQL schemas, configures O rules, and deploys edge functions autonomously while you build."
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "text": "You've got the perfect image, but it's the wrong shape for your thumbnail, your banner, or a vertical video. Image"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "Extender fills in the rest. It's an open- source web app that uses AI to extend any image in any direction,"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "generating new content that matches the original. It runs Gemini through open router, blends the new edges with posson seam blending, so there's no visible line where the generation starts."
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "Every Hermes agent user knows this. You spend a session teaching it your stack and by tomorrow it's forgotten everything. Memory OS adds seven memory"
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "layers on top from workspace files and session search up through a cubant vector store and an autocurated wiki."
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "Injection is relevance gated so the agent gets only what it needs each turn."
+    },
+    {
+      "start": 137.0,
+      "end": 137.0,
+      "text": "Runs locally any LLM provider no subscription."
+    },
+    {
+      "start": 142.0,
+      "end": 142.0,
+      "text": "Running isolated dev environments usually means Kubernetes cloud bills or a pile of infrastructure you didn't want to manage. Sandboxes takes a much"
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "simpler approach. It spins up secure Dockerbased development environments with real shells, automatic HTTPS"
+    },
+    {
+      "start": 157.0,
+      "end": 157.0,
+      "text": "preview URLs and idle shutdowns that wake back up on the next request."
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "Everything runs on your own server with a Go control plane and SQLite."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "Ever opened five production tabs and three staging tabs and instantly lost track of which is which? Tabler fixes"
+    },
+    {
+      "start": 175.0,
+      "end": 175.0,
+      "text": "that in a surprisingly simple way. It replaces tiny favicons with custom colored labels based on URL patterns so"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "your tabs can literally say prod stage or dev at a glance. You can match sites with rejects, customize colors, and"
+    },
+    {
+      "start": 190.0,
+      "end": 190.0,
+      "text": "export your setup. If you work across multiple environments all day, this removes a lot of expensive misclicks."
+    },
+    {
+      "start": 197.0,
+      "end": 197.0,
+      "text": "Ever see a new AI coding feature locked to one model and think, I already pay for something else?"
+    },
+    {
+      "start": 203.0,
+      "end": 203.0,
+      "text": "Ultradeode shim is a clever workound. It lets you route other models into Claude Code's Ultra Code style workflow through"
+    },
+    {
+      "start": 211.0,
+      "end": 211.0,
+      "text": "a lightweight local proxy and a simple config file. Point the model at the right agent instructions and it can bootstrap the workflow automatically."
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "If you're starting to run multiple AI coding agents on the same repository, you've probably hit Git's biggest limitation fast. One folder, one branch."
+    },
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "Rift is a Rustbas based CLI from the team behind Open Code that rethinks that whole workflow. Instead of wrestling with Git work trees and the weird side"
+    },
+    {
+      "start": 240.0,
+      "end": 240.0,
+      "text": "effects they bring, Rift gives every agent its own isolated workspace without breaking time stamps or triggering huge rebuilds."
+    },
+    {
+      "start": 248.0,
+      "end": 248.0,
+      "text": "Waiting for a single AI agent to grind through a huge task list step by step is a massive bottleneck. PI Dynamic"
+    },
+    {
+      "start": 256.0,
+      "end": 256.0,
+      "text": "Workflows brings parallel orchestration to PI by letting the model write its own lightweight JavaScript workflows. It"
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "automatically fans out tasks to isolated sub aents and merges the results back together. You get an orchestrated multi-"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "aent workspace running in parallel without the overhead of a heavy enterprise framework."
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "If you spend all day in VS Code, your keyboard shortcuts are either muscle memory or complete chaos."
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "Keyype is an open-source trainer built specifically for developers who want to get faster with the shortcuts they already have available. Instead of"
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "practicing random typing exercises, it drills actual editor commands and key combinations until they become automatic."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "Most open image models are great until you ask them to generate a poster, a logo, or text that actually needs to be readable. That's where Ideogram 4 gets"
+    },
+    {
+      "start": 310.0,
+      "end": 310.0,
+      "text": "interesting. It's the first openweight release from Ideogram built specifically for design work with strong typography,"
+    },
+    {
+      "start": 318.0,
+      "end": 318.0,
+      "text": "layout control, structured JSON prompting, and native 2K image generation. You can run it locally,"
+    },
+    {
+      "start": 325.0,
+      "end": 325.0,
+      "text": "fine-tune it, and even control object placement with bounding boxes."
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "If you've tried learning Vim, you already know the problem. Reading shortcuts is easy. Building actual muscle memory is not. VimHJL turns Vim"
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "practice into a game. It gives you focused drills around movement, navigation, and editing commands, so you're repeatedly using the keys instead"
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "of just memorizing them. The goal isn't to teach Vim theory, it's to make the motions automatic."
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "If whisper.cpp is your default for local speech to text, parakeet.cp is a really interesting alternative. It's a pure C++"
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "port of Nvidia's parakeet model built on GGML, meaning it runs on CPU or GPU using standard GGUF files. You get"
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "streaming transcription and word level timestamps through a straightforward C API. It makes embedding fast offline transcription into your own apps incredibly lightweight."
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "Most image to 3D tools still want multiple views, heavy pipelines, or a cloud service somewhere in the loop."
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "Triposplat takes a different approach."
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "You give it a single image and it generates a highquality 3D Gaussian splat that can be used in game engines, AR workflows and modern 3D pipelines."
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "The clever part is its density control system which automatically puts detail where it matters and keeps simple areas lightweight."
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "Moog VMP is a static de virtualizer for VM protect 3.5 that lifts virtualized code into LLVM using rem then strips"
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "away the virtual machine layer through optimization passes. Instead of tracing execution step by step, it attacks the"
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "problem at a much higher level and reconstructs something far closer to the original code. It is a proof of concept, but it's already surprisingly capable at reconstructing branching functions."
+    },
+    {
+      "start": 438.0,
+      "end": 438.0,
+      "text": "Juggling system prompts across three different AI editors usually means copying and pasting markdown files every"
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "time you make a change. AI- rules-sync handles that overhead by keeping your local rules synchronized across cursor, claude code, and other developer tools."
+    },
+    {
+      "start": 455.0,
+      "end": 455.0,
+      "text": "You update your preferences in one config file and it automatically updates the specific folders where each agent"
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "expects them. Most AI coding agents still run directly in your terminal with access to your files, your network, and"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "whatever credentials happen to be lying around. Harness terminal puts a safety layer in front of that. It runs agents"
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "like Claude Code, Codeex, Gemini CLI, and others inside isolated environments with policy controls around what they can access and where they can connect."
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "Got an NVIDIA GPU sitting mostly idle while your laptop is choking on 16 gigs of soldered RAM? NBDV RAM does something"
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "wonderfully cursed. It turns your GPU's VRAMm into Linux swap space. The project uses CUDA and the network block device"
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "protocol to expose VRAM like a normal swap device. No custom kernel modules required. That means when RAM fills up,"
+    },
+    {
+      "start": 510.0,
+      "end": 510.0,
+      "text": "the system can spill into VRAM before hammering your SSD."
+    },
+    {
+      "start": 515.0,
+      "end": 515.0,
+      "text": "Terminal apps are notoriously hard to test. A screenshot tells you too little and logs rarely explain what actually"
+    },
+    {
+      "start": 522.0,
+      "end": 522.0,
+      "text": "happened on screen. Terminal control approaches the problem from a different angle. It lets agents and test suites"
+    },
+    {
+      "start": 529.0,
+      "end": 529.0,
+      "text": "interact with a terminal exactly the way a user would. You can send keystrokes, inspect rendered output, record"
+    },
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "sessions, and capture artifacts when things break."
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "Fiveminute AI generated stories usually fall apart long before the ending."
+    },
+    {
+      "start": 546.0,
+      "end": 546.0,
+      "text": "Characters change, voices drift, and the whole thing loses the plot. Joy AI Echo is trying to solve that with a"
+    },
+    {
+      "start": 552.0,
+      "end": 552.0,
+      "text": "crossmodal memory system that keeps both visual identity and voice consistency across an entire multi-shot video. It"
+    },
+    {
+      "start": 560.0,
+      "end": 560.0,
+      "text": "generates synchronized audio and video in one pipeline, supports conversational edits, and claims a major speed up over the original workflow."
+    },
+    {
+      "start": 569.0,
+      "end": 569.0,
+      "text": "Adding custom visual effects to a Swift UI app usually means wrestling with raw metal code."
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "SwiftUI Shaders provides a pre-built library of native effects designed specifically for the native Swift UI shader APIs. It includes things like"
+    },
+    {
+      "start": 585.0,
+      "end": 585.0,
+      "text": "noise, wave distortions, and transitions that you can drop directly into your views using simple modifiers. It lets"
+    },
+    {
+      "start": 592.0,
+      "end": 592.0,
+      "text": "you add polished visual details without having to write custom shader boiler plate. Your smart home probably knows"
+    },
+    {
+      "start": 599.0,
+      "end": 599.0,
+      "text": "how to follow commands. Anima is trying to teach it how to make decisions. It's a local first agent runtime that"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "connects to my home devices, builds long-term memory around your habits, and uses an LLM to coordinate behavior"
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "across the whole house. Each device gets domain specific knowledge, so your humidifier, AC, and air purifier can"
+    },
+    {
+      "start": 620.0,
+      "end": 620.0,
+      "text": "work together instead of acting like strangers."
+    },
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "The problem with giving claude code or cursor access to your MCP servers is that you're trusting them to not do something irreversible or leak a"
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "credential into a prompt. Vigil sits between your agent and the tools it calls. It's a Rustbased local control"
+    },
+    {
+      "start": 639.0,
+      "end": 639.0,
+      "text": "plane. Every tool call hits a default deny firewall. Destructive operations pause for your approval and a redaction"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "engine strips API keys and PII before anything reaches a model or a log."
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "Loading uncompressed 3D models into a web browser usually leads to frustrating lag and high bandwidth bills. Draco.js"
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "solves this by bringing Google's mesh compression directly to your JavaScript projects. It drastically reduces 3D asset file sizes without sacrificing"
+    },
+    {
+      "start": 670.0,
+      "end": 670.0,
+      "text": "geometric detail and decodes the compressed data efficiently on the client side. It makes serving complex"
+    },
+    {
+      "start": 677.0,
+      "end": 677.0,
+      "text": "WebGL experiences practical even on slow mobile networks."
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "Spending a weekend building a side project only to find three identical versions on GitHub is incredibly frustrating. Patent solves this by"
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "running a quick prior art search on your ideas. You describe your project in plain English and the tool scans 11"
+    },
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "ecosystems like npm and pippi for similar projects. It ranks findings locally using embeddings letting you"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "know if the space is wide open before you write any code."
+    },
+    {
+      "start": 710.0,
+      "end": 710.0,
+      "text": "Constantly context switching between typing code and writing out long documentation can break your mental flow."
+    },
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "Unmute Dictation acts as a lightweight global voice typing utility that inputs text directly into whatever editor you have open. Instead of dealing with"
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "clunky built-in dictation services, you use a quick hotkey to stream your speech straight to your cursor."
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Most agent frameworks forget everything the moment a task ends. Gbase doesn't."
+    },
+    {
+      "start": 739.0,
+      "end": 739.0,
+      "text": "It's a Python framework where the agent keeps long-term memory, learns from past interactions, and can rewrite its own system prompt when you trigger an"
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "evolution cycle. A multi-agent review pipeline has one agent build, another audit, and a third judge before anything ships."
+    },
+    {
+      "start": 757.0,
+      "end": 757.0,
+      "text": "Starting a new Claude code session shouldn't feel like giving the same onboarding presentation over and over again. Persistia solves that by giving"
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "Claude a persistent memory layer that survives across sessions. Instead of losing project context when the conversation resets, it stores"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "decisions, architecture knowledge, and working context so the agent can pick up where it left off."
+    },
+    {
+      "start": 782.0,
+      "end": 782.0,
+      "text": "AI coding tools write software faster than you can review it, and the output routinely ships with broken off and"
+    },
+    {
+      "start": 788.0,
+      "end": 788.0,
+      "text": "exposed secrets. Nulsec S1 reviews that code with a security tuned LLM and returns structured JSON verdicts, not"
+    },
+    {
+      "start": 796.0,
+      "end": 796.0,
+      "text": "pros. A deterministic safety layer recomputes the productionready decision independently of the model. So even a prompt injection hidden in the code can't force a false pass."
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "Clean My Mac costs 40 bucks a year and you can't see what it's doing. Macclean does the same job for free. Fully open"
+    },
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "source. It scans 16 categories of system junk, runs a malware scanner, and uninstalls apps with a matching engine"
+    },
+    {
+      "start": 822.0,
+      "end": 822.0,
+      "text": "that hunts leftover files across 17 library subdirectories."
+    },
+    {
+      "start": 827.0,
+      "end": 827.0,
+      "text": "Everything goes to trash first, protected paths are blocklisted, and the app never touches the network."
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "There's a gap between chat UIs that forget everything, and agent frameworks that burn through your token budget."
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "Mine Echo sits there. It's a local first assistant with a four-level memory tree that distills interactions into daily,"
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "weekly, and monthly summaries. Knowledge lands in browsable wiki pages with a graph, not opaque vector chunks."
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "AI generated 3D models regularly land at 50 or 60 megabytes."
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "Fine in Blender, too heavy for the web or AR. GB shrink is a web app where you drop a GB, pick a quality preset, and"
+    },
+    {
+      "start": 870.0,
+      "end": 870.0,
+      "text": "get a Draco compressed WEBP textured file back in seconds. The repo shows 58 megabytes going down to 869 kilob. Live"
+    },
+    {
+      "start": 878.0,
+      "end": 878.0,
+      "text": "before and after 3D preview, so you see what you're trading before you download."
+    },
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "Some smart home actions are just faster with a physical dial than a phone app."
+    },
+    {
+      "start": 887.0,
+      "end": 887.0,
+      "text": "This is ES Home firmware for the M5 stack dial, a small round device with a 240 pixel screen, rotary encoder, and"
+    },
+    {
+      "start": 895.0,
+      "end": 895.0,
+      "text": "RGB LED ring. It connects to home assistant and gives you pages for weather, AC, music with album art,"
+    },
+    {
+      "start": 902.0,
+      "end": 902.0,
+      "text": "lights, and a countdown timer. Turn the knob for brightness, swipe to switch pages."
+    },
+    {
+      "start": 908.0,
+      "end": 908.0,
+      "text": "Mundifflin takes your clawed code sessions and turns them into a coordinated team. Each agent runs as a real claude process with its own memory"
+    },
+    {
+      "start": 917.0,
+      "end": 917.0,
+      "text": "and mailbox. A god orchestrator routes work between them, handles routine tasks itself, and only escalates to you for"
+    },
+    {
+      "start": 925.0,
+      "end": 925.0,
+      "text": "spend or destructive ops. You watch it all on a pixel art office floor where agents walk to desks, envelopes fly across the room."
+    }
+  ]
+}

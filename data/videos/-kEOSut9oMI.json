@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "id": "-kEOSut9oMI",
+  "title": "GitHub Trending Weekly #38: tabfm, lift, firstmate, dd, openwiki, ds.css, gitfut, tine, OpenTag",
+  "url": "https://www.youtube.com/watch?v=-kEOSut9oMI",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-03",
+  "duration": 910,
+  "word_count": 2342,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T05:17:23+00:00",
+    "metadata_sha256": "db73158622f790d47b83dab620af5b3330fb028a7a1dd6d65e642062a444e3cc",
+    "captions_sha256": "a67e784384f2fc4a36a8574bfc337b3ef2f61fca5bb2ef6fa203f3117ccf6766",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 38. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "tabfm",
+      "repositories": [
+        "https://github.com/google-research/tabfm"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Tab FM is a scikitlearn compatible foundation model for tabular data. So instead of training a fresh model for every spreadsheet shaped problem, you give it rows as context and get predictions back. That's useful when your data set has mixed numeric and categorical columns and you just need a solid classification or regression pass. It supports jacks and pietorrch backends with pre-trained weights handled for you. PDF extraction usually turns into"
+      ]
+    },
+    {
+      "start": 37,
+      "title": "lift",
+      "repositories": [
+        "https://github.com/datalab-to/lift"
+      ],
+      "id": "s003",
+      "end": 60,
+      "paragraphs": [
+        "OCR prompt glue and a lot of cleanup code. Lyft is data lab's 9B vision model for turning PDFs and images into JSON that matches your schema. It supports local hugging face inference, VLM serving, directory level CLI runs, and a stream schema studio. The readme reports 90.2% field accuracy on their benchmark."
+      ]
+    },
+    {
+      "start": 60,
+      "title": "firstmate",
+      "repositories": [
+        "https://github.com/kunchenguid/firstmate"
+      ],
+      "id": "s004",
+      "end": 89,
+      "paragraphs": [
+        "First mate lets you run one coding agent as a captain that dispatches a whole crew instead of you juggling tabs yourself. Three tasks in parallel usually means babysitting three terminals and losing track of which one has the failing test. Tell it what you need and it spawns each task as its own agent in a T-Mox window. Working in a disposable git work tree so parallel runs can't collide, then hands you back finished PRs or investigation reports."
+      ]
+    },
+    {
+      "start": 89,
+      "title": "dd",
+      "repositories": [
+        "https://github.com/ricccrd/dd"
+      ],
+      "id": "s005",
+      "end": 115,
+      "paragraphs": [
+        "Running Docker on a Mac means a Linux VM under the hood, eating gigabytes of RAM and draining your battery even when nothing's running. DD deletes the VM. It runs containers as plain Mac OS processes with a JIT acting as the Linux kernel in user space. It speaks the Docker engine API, so your Docker commands just work. For x86 images, the author clocks it up to 26 times faster than the VM."
+      ]
+    },
+    {
+      "start": 115,
+      "title": "oomwoo",
+      "repositories": [
+        "https://github.com/makerspet/oomwoo"
+      ],
+      "id": "s006",
+      "end": 142,
+      "paragraphs": [
+        "Robot vacuums are usually black boxes, cloud apps, locked firmware, and hardware you can't really fix. Umu is an open- source robot vacuum you build yourself with Raspberry Pi, ROSS 2, Home Assistant, 2D LAR, ESP32, Arduino, and a 3D printable chassis. The honest part, it's still design stage with the first bill of materials and build docs being validated. That makes it more interesting, not less."
+      ]
+    },
+    {
+      "start": 142,
+      "title": "contained-app",
+      "repositories": [
+        "https://github.com/tdeverx/contained-app"
+      ],
+      "id": "s007",
+      "end": 168,
+      "paragraphs": [
+        "Contained is a native Swift UI control surface for Apple's own container CLI, the Docker desktop workflow without the VM tax or the unmac UI. Apple's tool alone is command line only, so you're stuck flag hunting in a terminal for basic container status. Contained gives you a grid of live containers with CPU and memory spark lines and one-click image pulls with Docker Hub search built in."
+      ]
+    },
+    {
+      "start": 168,
+      "title": "pdfx",
+      "repositories": [
+        "https://github.com/AlexandrosGounis/pdfx"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "Sending a bundle of PDFs usually means a zip file and now previewing, reordering, or printing the thing is someone else's problem. PDFX keeps the bundle as one valid PDF. Any normal viewer shows every page in order, but the PDFX desktop app reads the embedded JSON manifest and splits it back into the original documents. Drag PDFs in, reorder strips, remove files, export one PDFX."
+      ]
+    },
+    {
+      "start": 192,
+      "title": "openwiki",
+      "repositories": [
+        "https://github.com/langchain-ai/openwiki"
+      ],
+      "id": "s009",
+      "end": 218,
+      "paragraphs": [
+        "Agent docs usually rot because code changes faster than anyone updates the wiki. Open wiki is a CLI that writes that documentation once then keeps it current. Point it at your repo and it generates a wiki. Then a daily GitHub action opens a PR to refresh it as the code changes. It drops prompting into your agents.mmd or claude.md automatically so your agent knows to check it first."
+      ]
+    },
+    {
+      "start": 218,
+      "title": "Journey Forge Local",
+      "repositories": [
+        "https://github.com/Einsia/Browser-BC"
+      ],
+      "id": "s010",
+      "end": 243,
+      "paragraphs": [
+        "Journey Forge local watches you do a task once in the browser then turns it into a reusable claw skill. Teaching an agent a repetitive browser task usually means writing out every click and field by hand. Record yourself doing it instead and it atomizes the trace, classifies what you did, and distills matching segments per site into one skill. Claude Code installs automatically."
+      ]
+    },
+    {
+      "start": 243,
+      "title": "ds.css",
+      "repositories": [
+        "https://github.com/spiritov/ds.css"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "DS.css CSS recreates the Nintendo DS Lights whole interface as a CSS framework, not just borrowed screenshots, actual components you drop into any project. Nostalgia UI kits usually stop at a color palette and call it done. This one ships the chunky UI elements, the dual screen layout feel, and even a pictoat style component installable with one npm command or by copying the disc files straight in."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "gitfut",
+      "repositories": [
+        "https://github.com/Younesfdj/gitfut"
+      ],
+      "id": "s012",
+      "end": 293,
+      "paragraphs": [
+        "Git Fut turns your GitHub profile into a FUT style player card rated out of 99. Normally your GitHub stats sit flat in a profile readme, just numbers with no shape to them. This reads six real signals off GitHub's GraphQL API, commits, stars, PRs, language spread, and maps them onto football stats like pace and passing with your positions scouted from the shape of your data."
+      ]
+    },
+    {
+      "start": 293,
+      "title": "dao-code",
+      "repositories": [
+        "https://github.com/tigicion/dao-code"
+      ],
+      "id": "s013",
+      "end": 317,
+      "paragraphs": [
+        "Dowode is a terminal coding agent for Deepseek V4 that treats the model's cash like a budget to protect, not an afterthought. Most agents rebuild their whole prompt every turn, blowing the cash and paying full price. This keeps the system prompt bite identical and runs memory and self-reach reusing forks. So, a full feature costs fractions of a cent."
+      ]
+    },
+    {
+      "start": 317,
+      "title": "tine",
+      "repositories": [
+        "https://github.com/martinkoutecky/tine"
+      ],
+      "id": "s014",
+      "end": 345,
+      "paragraphs": [
+        "Logse is a great outliner until your graph gets big and electrons start stuttering on every keystroke. Tine is a groundup rust rewrite that opens the exact same files. Point it at your existing log graph and it just works. No import, no lock in, and log still opens it too. It's native speed with built-in tabs and global quick capture from any app. It detects conflicts instead of silently overwriting your notes."
+      ]
+    },
+    {
+      "start": 345,
+      "title": "OpenTag",
+      "repositories": [
+        "https://github.com/CopilotKit/OpenTag"
+      ],
+      "id": "s015",
+      "end": 371,
+      "paragraphs": [
+        "Slack is where half the decision trail lives, but handing every thread to a closed assistant gets expensive and awkward fast. Open tag is an open- source Slack agent you run yourself. Mention it in a thread and it can read the context, answer, call your tools, render tables or charts in line, and wait for approval before filing tickets. Bring your own model, wire your own tools, and keep the runtime yours. Getting documents into an LLM friendly shape is still weirdly painful. Raw extraction loses structure and vision models charge you to stare at your own"
+      ]
+    },
+    {
+      "start": 371,
+      "title": "mdflux",
+      "repositories": [
+        "https://github.com/ibrahimqureshae/mdflux"
+      ],
+      "id": "s016",
+      "end": 395,
+      "paragraphs": [
+        "pages. MDFlux is a local desktop app that turns PDFs, office files, scans, images, audio, and whole folders into clean markdown. It uses markdown under the hood, adds OCR, batching, previews, diagnostics, and optional cleanup."
+      ]
+    },
+    {
+      "start": 395,
+      "title": "fast",
+      "repositories": [
+        "https://github.com/maaslalani/fast"
+      ],
+      "id": "s017",
+      "end": 419,
+      "paragraphs": [
+        "Fast is a tiny Go CLI for testing your internet speed from the terminal using fast.com instead of opening a browser tab and waiting through the usual speed test page. You run fast and it measures download speed against the nearest Netflix open connect servers, then prints the result inline in megabits per second. One command, one number, no dashboard ceremony."
+      ]
+    },
+    {
+      "start": 419,
+      "title": "sim-use",
+      "repositories": [
+        "https://github.com/lycorp-jp/sim-use"
+      ],
+      "id": "s018",
+      "end": 445,
+      "paragraphs": [
+        "Sim use gives your coding agent eyes and hands on a real iOS simulator or Android emulator, not screenshots and guesswork. Normally, an agent can write the UI code, but can't verify it actually works on screen. This CLI reads the accessibility tree into a compact outline about 16 times smaller than raw JSON by the project's own numbers, then taps elements by that same alias. No coordinates needed."
+      ]
+    },
+    {
+      "start": 445,
+      "title": "cc-simplerouter",
+      "repositories": [
+        "https://github.com/kdsuomi/cc-simplerouter"
+      ],
+      "id": "s019",
+      "end": 474,
+      "paragraphs": [
+        "Claude Code only talks to Anthropics models, so trying a different one usually means hand editing config files or standing up a local proxy yourself. Simpler Router skips that. Launch it, paste your open router key once, and pick any tool calling model from a filtered searchable list. It doesn't touch your existing Claude code subscription login and pinning a specific inference provider spins up a tiny local proxy for just that session."
+      ]
+    },
+    {
+      "start": 474,
+      "title": "Lanshu Animated Architecture Diagram",
+      "repositories": [
+        "https://github.com/cclank/lanshu-animated-architecture-diagram"
+      ],
+      "id": "s020",
+      "end": 500,
+      "paragraphs": [
+        "Lansu animated architecture diagram is a codec skill that turns one JSON spec into an editable exceladraw file, a PNG preview, and a real animated GIF. Architecture diagrams either look flat, take forever to polish, or become uneditable exports. Lancho keeps a narrow black canvas style, renders locally with Python and Pillow, adds moving glow points and pulsing modules, then verifies the GIF actually moves."
+      ]
+    },
+    {
+      "start": 500,
+      "title": "Ornith-1",
+      "repositories": [
+        "https://github.com/deepreinforce-ai/Ornith-1"
+      ],
+      "id": "s021",
+      "end": 529,
+      "paragraphs": [
+        "Coding models look great on one benchmark, then fall apart once the task needs terminals, tools, and long messy repo context. Orth 1.0 is an open model family trained for agentic coding with 9B, 35B, and 397B checkpoints. The maintainers report strong results across terminal bench, sui bench, NL2 repo, and openclaw, plus 256k context, tool call parsing, and openai compatible serving through VLM or SG lang."
+      ]
+    },
+    {
+      "start": 529,
+      "title": "threejs-water",
+      "repositories": [
+        "https://github.com/jeantimex/threejs-water"
+      ],
+      "id": "s022",
+      "end": 555,
+      "paragraphs": [
+        "Click anywhere on the water and watch the ripples spread. Then drop a sphere and watch the light bend through the surface and dance across the pool floor. This is a realtime water simulation that runs in your browser with rayraced reflections and costics all on the GPU. It's a 3JS port of Evan Wallace's classic WebGL water demo with floating physics and any geometry you want dropped in. It's open source."
+      ]
+    },
+    {
+      "start": 555,
+      "title": "DEHUB",
+      "repositories": [
+        "https://github.com/Lutschippi/DEHUB"
+      ],
+      "id": "s023",
+      "end": 583,
+      "paragraphs": [
+        "Most awesome lists are a wall of links you bookmark and never open. DHUB is a structured path for data engineers, a road map from Python basics to multi cloud lakehouse design, plus the tool ecosystem grouped by job, orchestration, processing cataloges. The maintainer counts 500 plus resources and 50 plus tools. The part I keep coming back to is the salary table, junior to principal, mapped to years of experience."
+      ]
+    },
+    {
+      "start": 583,
+      "title": "better-drizzle",
+      "repositories": [
+        "https://github.com/almeidazs/better-drizzle"
+      ],
+      "id": "s024",
+      "end": 609,
+      "paragraphs": [
+        "Drizzle is great when you want SQL first control, but writing the same manual, joins, pageionation logic, and nested filters gets old fast. Better Drizzle wraps your existing setup to give every table a clean repository style API. You get Prismaike queries while keeping Drizzle's underlying type safety and raw speed. If you're tired of rewriting database query glue, it's worth checking out. If you're tired of wrapping fragile ffmpeg commands and gluing three different APIs just to generate a video,"
+      ]
+    },
+    {
+      "start": 609,
+      "title": "leronx",
+      "repositories": [
+        "https://github.com/Leron-X/leronx"
+      ],
+      "id": "s025",
+      "end": 635,
+      "paragraphs": [
+        "look at Leron X. It's the open source Python engine behind their commercial video generator. This handles the entire pipeline locally from script generation and scene planning to voice synthesis and final rendering. It's fully modular, so you can swap out the models and keep your workflow clean."
+      ]
+    },
+    {
+      "start": 635,
+      "title": "Godcoder",
+      "repositories": [
+        "https://github.com/eli-labz/Godcoder"
+      ],
+      "id": "s026",
+      "end": 658,
+      "paragraphs": [
+        "Local coding agents are nice until your repo starts feeling like training data for someone else's backend. God coder is a desktop AI coding agent that runs local first. You bring the model key and requests go straight to the provider you configure. It has file editing, terminal checkpoints, MCP support, and an optional context engine for larger code bases."
+      ]
+    },
+    {
+      "start": 658,
+      "title": "Amber",
+      "repositories": [
+        "https://github.com/offchainthoughts/Amber"
+      ],
+      "id": "s027",
+      "end": 682,
+      "paragraphs": [
+        "Amber is a Python tool for turning expensive corpus embeddings into a single offline amber file that can prove what data and embed produced it. The pain is trusting a vector store someone handed you without rerunning the whole embedding job. Amber uses Merkel commitments, O integrity checks, and okay random audits that can catch self-consistent forged vectors."
+      ]
+    },
+    {
+      "start": 682,
+      "title": "rampart",
+      "repositories": [
+        "https://github.com/nationaldesignstudio/rampart"
+      ],
+      "id": "s028",
+      "end": 707,
+      "paragraphs": [
+        "Rampart strips PII out of user text before it ever reaches an LLM running entirely in the browser. Most redaction is server side. So by the time it runs, the raw data already left the client. This pairs a 15 megabyte ondevice model with checksum backed regards, SSNs, and emails. Then swaps names and numbers for placeholders that get restored locally after the model replies."
+      ]
+    },
+    {
+      "start": 707,
+      "title": "claude-codex-usage-dashboard",
+      "repositories": [
+        "https://github.com/frankchiu-dev/claude-codex-usage-dashboard"
+      ],
+      "id": "s029",
+      "end": 730,
+      "paragraphs": [
+        "Checking your clawed code or codeex usage limits means unlocking your laptop, even for a quick glance. This dashboard reads the local usage files both tools already write and serves them to any phone or tablet on your Wi-Fi. It turns red once you hit your alert threshold and it's zero dependency, just nodes built-in modules. No npm install."
+      ]
+    },
+    {
+      "start": 730,
+      "title": "ConferenceWatch",
+      "repositories": [
+        "https://github.com/Zsun79/ConferenceWatch"
+      ],
+      "id": "s030",
+      "end": 755,
+      "paragraphs": [
+        "Conference watch is an agent skill that tracks every deadline stage for AI conferences, not just the headline date. Normally that means bookmarking a dozen CFP pages and checking each one by hand as dates shift. Drop it into clawed code or codeex and it researches official sources, builds a 5-year acceptance rate trend and flags anything it can't confirm as approximate instead of guessing. GitHub search is fine until you need the right repo and you don't know the magic syntax."
+      ]
+    },
+    {
+      "start": 755,
+      "title": "GitDeepSearch",
+      "repositories": [
+        "https://github.com/simonmakzon/GitDeepSearch"
+      ],
+      "id": "s031",
+      "end": 783,
+      "paragraphs": [
+        "Git deep search turns plain English into GitHub search queries. So fitness mobile app in Flutter becomes something GitHub can actually filter. Quick search handles repos or developers fast while deep search runs four strategies including relevance, stars, recent activity and readme content then dduplicates the results in the browser."
+      ]
+    },
+    {
+      "start": 783,
+      "title": "Hermex",
+      "repositories": [
+        "https://github.com/uzairansaruzi/hermex"
+      ],
+      "id": "s032",
+      "end": 806,
+      "paragraphs": [
+        "Herx is a native iPhone app for your self-hosted Hermes agent. No browser tab, no laptop required. Normally checking in on a serverside agent means opening a laptop just to see if it's still running. Hermex streams the chat with live tool call detail, let you steer or stop a run mid-flight, and manages the agents scheduled cron jobs from your phone. Linux antiquity turns your desktop into an art nuvo illustration, astronomy charts, and old"
+      ]
+    },
+    {
+      "start": 806,
+      "title": "Linux Antiquity",
+      "repositories": [
+        "https://github.com/diinki/linux-antiquity"
+      ],
+      "id": "s033",
+      "end": 829,
+      "paragraphs": [
+        "mythology drawings, not another flat dark mode rice. Most desktop themes chase the same minimalist look, so this stands out by design. It's built on Hyperland and Quickshell with a full theme picker, weather widgets, and a matching set of kitty terminal themes."
+      ]
+    },
+    {
+      "start": 829,
+      "title": "react-native-super-calendar",
+      "repositories": [
+        "https://github.com/afonsojramos/react-native-super-calendar"
+      ],
+      "id": "s034",
+      "end": 855,
+      "paragraphs": [
+        "Calendar UIs look simple until you need month, week, day, gestures, web support, and custom event rendering in the same React Native app. React Native Calendar is built for that heavier case. It gives you virtualized snap page views, pinch zoom on native, control, scroll, zoom on web, typed custom events, drag to move or resize, and a picker only entry point when you just need date selection."
+      ]
+    },
+    {
+      "start": 855,
+      "title": "Slopo",
+      "repositories": [
+        "https://github.com/rafal-qa/slopo"
+      ],
+      "id": "s035",
+      "end": 882,
+      "paragraphs": [
+        "Slow hunts the duplicate code that's easy to miss. Near identical logic scattered across different files, not the copypaste stuff other tools already catch. Exact copies sitting side by side are simple to spot. ones split across modules slip past both humans and most llinters. It embeds every code unit, clusters the ones that land close together, then ranks them by similarity and by how far apart they sit in your codebase."
+      ]
+    },
+    {
+      "start": 882,
+      "title": "expo-dynamic-tray",
+      "repositories": [
+        "https://github.com/rit3zh/expo-dynamic-tray"
+      ],
+      "id": "s036",
+      "end": 910,
+      "paragraphs": [
+        "Expo dynamic tray is a react native bottom sheet tray that feels closer to a native panel than another slide up modal. The usual pain is keeping sheet height, keyboard behavior, nested views, and footer buttons from fighting each other. This one auto sizes to content, follows the keyboard, supports swipe to dismiss, and gives you multiv- view navigation with a real history stack. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 38. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Tab FM is a scikitlearn compatible foundation model for tabular data. So instead of training a fresh model for"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "every spreadsheet shaped problem, you give it rows as context and get predictions back. That's useful when your data set has mixed numeric and"
+    },
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "text": "categorical columns and you just need a solid classification or regression pass."
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "text": "It supports jacks and pietorrch backends with pre-trained weights handled for you. PDF extraction usually turns into"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "OCR prompt glue and a lot of cleanup code. Lyft is data lab's 9B vision model for turning PDFs and images into JSON"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "that matches your schema. It supports local hugging face inference, VLM serving, directory level CLI runs, and a"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "stream schema studio. The readme reports 90.2% field accuracy on their benchmark."
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "text": "First mate lets you run one coding agent as a captain that dispatches a whole crew instead of you juggling tabs"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "yourself. Three tasks in parallel usually means babysitting three terminals and losing track of which one has the failing test. Tell it what you"
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "text": "need and it spawns each task as its own agent in a T-Mox window. Working in a disposable git work tree so parallel"
+    },
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "text": "runs can't collide, then hands you back finished PRs or investigation reports."
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "Running Docker on a Mac means a Linux VM under the hood, eating gigabytes of RAM and draining your battery even when"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "nothing's running. DD deletes the VM. It runs containers as plain Mac OS processes with a JIT acting as the Linux"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "kernel in user space. It speaks the Docker engine API, so your Docker commands just work. For x86 images, the"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "author clocks it up to 26 times faster than the VM."
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "text": "Robot vacuums are usually black boxes, cloud apps, locked firmware, and hardware you can't really fix. Umu is an open- source robot vacuum you build"
+    },
+    {
+      "start": 124.0,
+      "end": 124.0,
+      "text": "yourself with Raspberry Pi, ROSS 2, Home Assistant, 2D LAR, ESP32, Arduino, and a 3D printable chassis. The honest part,"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "it's still design stage with the first bill of materials and build docs being validated. That makes it more interesting, not less."
+    },
+    {
+      "start": 142.0,
+      "end": 142.0,
+      "text": "Contained is a native Swift UI control surface for Apple's own container CLI, the Docker desktop workflow without the"
+    },
+    {
+      "start": 149.0,
+      "end": 149.0,
+      "text": "VM tax or the unmac UI. Apple's tool alone is command line only, so you're stuck flag hunting in a terminal for basic container status."
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "Contained gives you a grid of live containers with CPU and memory spark lines and one-click image pulls with Docker Hub search built in."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "Sending a bundle of PDFs usually means a zip file and now previewing, reordering, or printing the thing is someone else's problem. PDFX keeps the bundle as one"
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "valid PDF. Any normal viewer shows every page in order, but the PDFX desktop app reads the embedded JSON manifest and"
+    },
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "splits it back into the original documents. Drag PDFs in, reorder strips, remove files, export one PDFX."
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "Agent docs usually rot because code changes faster than anyone updates the wiki. Open wiki is a CLI that writes"
+    },
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "that documentation once then keeps it current. Point it at your repo and it generates a wiki. Then a daily GitHub"
+    },
+    {
+      "start": 207.0,
+      "end": 207.0,
+      "text": "action opens a PR to refresh it as the code changes. It drops prompting into your agents.mmd or claude.md automatically so your agent knows to check it first."
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "Journey Forge local watches you do a task once in the browser then turns it into a reusable claw skill. Teaching an"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "agent a repetitive browser task usually means writing out every click and field by hand. Record yourself doing it instead and it atomizes the trace,"
+    },
+    {
+      "start": 234.0,
+      "end": 234.0,
+      "text": "classifies what you did, and distills matching segments per site into one skill. Claude Code installs automatically."
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "DS.css CSS recreates the Nintendo DS Lights whole interface as a CSS framework, not just borrowed screenshots, actual components you drop"
+    },
+    {
+      "start": 251.0,
+      "end": 251.0,
+      "text": "into any project. Nostalgia UI kits usually stop at a color palette and call it done. This one ships the chunky UI"
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "elements, the dual screen layout feel, and even a pictoat style component installable with one npm command or by copying the disc files straight in."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Git Fut turns your GitHub profile into a FUT style player card rated out of 99."
+    },
+    {
+      "start": 274.0,
+      "end": 274.0,
+      "text": "Normally your GitHub stats sit flat in a profile readme, just numbers with no shape to them. This reads six real signals off GitHub's GraphQL API,"
+    },
+    {
+      "start": 283.0,
+      "end": 283.0,
+      "text": "commits, stars, PRs, language spread, and maps them onto football stats like pace and passing with your positions scouted from the shape of your data."
+    },
+    {
+      "start": 294.0,
+      "end": 294.0,
+      "text": "Dowode is a terminal coding agent for Deepseek V4 that treats the model's cash like a budget to protect, not an"
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "afterthought. Most agents rebuild their whole prompt every turn, blowing the cash and paying full price. This keeps"
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "the system prompt bite identical and runs memory and self-reach reusing forks. So, a full feature costs fractions of a cent."
+    },
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "Logse is a great outliner until your graph gets big and electrons start stuttering on every keystroke."
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "Tine is a groundup rust rewrite that opens the exact same files. Point it at your existing log graph and it just"
+    },
+    {
+      "start": 331.0,
+      "end": 331.0,
+      "text": "works. No import, no lock in, and log still opens it too. It's native speed with built-in tabs and global quick"
+    },
+    {
+      "start": 338.0,
+      "end": 338.0,
+      "text": "capture from any app. It detects conflicts instead of silently overwriting your notes."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Slack is where half the decision trail lives, but handing every thread to a closed assistant gets expensive and awkward fast. Open tag is an open- source Slack agent you run yourself."
+    },
+    {
+      "start": 356.0,
+      "end": 356.0,
+      "text": "Mention it in a thread and it can read the context, answer, call your tools, render tables or charts in line, and wait for approval before filing tickets."
+    },
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "Bring your own model, wire your own tools, and keep the runtime yours."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Getting documents into an LLM friendly shape is still weirdly painful. Raw extraction loses structure and vision models charge you to stare at your own"
+    },
+    {
+      "start": 378.0,
+      "end": 378.0,
+      "text": "pages. MDFlux is a local desktop app that turns PDFs, office files, scans, images, audio, and whole folders into"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "clean markdown. It uses markdown under the hood, adds OCR, batching, previews, diagnostics, and optional cleanup."
+    },
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Fast is a tiny Go CLI for testing your internet speed from the terminal using fast.com instead of opening a browser"
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "tab and waiting through the usual speed test page. You run fast and it measures download speed against the nearest Netflix open connect servers, then"
+    },
+    {
+      "start": 411.0,
+      "end": 411.0,
+      "text": "prints the result inline in megabits per second. One command, one number, no dashboard ceremony."
+    },
+    {
+      "start": 419.0,
+      "end": 419.0,
+      "text": "Sim use gives your coding agent eyes and hands on a real iOS simulator or Android emulator, not screenshots and guesswork."
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "Normally, an agent can write the UI code, but can't verify it actually works on screen. This CLI reads the accessibility tree into a compact"
+    },
+    {
+      "start": 435.0,
+      "end": 435.0,
+      "text": "outline about 16 times smaller than raw JSON by the project's own numbers, then taps elements by that same alias. No coordinates needed."
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "Claude Code only talks to Anthropics models, so trying a different one usually means hand editing config files or standing up a local proxy yourself."
+    },
+    {
+      "start": 454.0,
+      "end": 454.0,
+      "text": "Simpler Router skips that. Launch it, paste your open router key once, and pick any tool calling model from a filtered searchable list."
+    },
+    {
+      "start": 464.0,
+      "end": 464.0,
+      "text": "It doesn't touch your existing Claude code subscription login and pinning a specific inference provider spins up a tiny local proxy for just that session."
+    },
+    {
+      "start": 474.0,
+      "end": 474.0,
+      "text": "Lansu animated architecture diagram is a codec skill that turns one JSON spec into an editable exceladraw file, a PNG preview, and a real animated GIF."
+    },
+    {
+      "start": 483.0,
+      "end": 483.0,
+      "text": "Architecture diagrams either look flat, take forever to polish, or become uneditable exports. Lancho keeps a narrow black canvas style, renders"
+    },
+    {
+      "start": 492.0,
+      "end": 492.0,
+      "text": "locally with Python and Pillow, adds moving glow points and pulsing modules, then verifies the GIF actually moves."
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "Coding models look great on one benchmark, then fall apart once the task needs terminals, tools, and long messy repo context. Orth 1.0 is an open model"
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "family trained for agentic coding with 9B, 35B, and 397B checkpoints. The maintainers report strong results across"
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "terminal bench, sui bench, NL2 repo, and openclaw, plus 256k context, tool call parsing, and openai compatible serving through VLM or SG lang."
+    },
+    {
+      "start": 529.0,
+      "end": 529.0,
+      "text": "Click anywhere on the water and watch the ripples spread. Then drop a sphere and watch the light bend through the surface and dance across the pool floor."
+    },
+    {
+      "start": 538.0,
+      "end": 538.0,
+      "text": "This is a realtime water simulation that runs in your browser with rayraced reflections and costics all on the GPU."
+    },
+    {
+      "start": 546.0,
+      "end": 546.0,
+      "text": "It's a 3JS port of Evan Wallace's classic WebGL water demo with floating physics and any geometry you want dropped in. It's open source."
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "Most awesome lists are a wall of links you bookmark and never open. DHUB is a structured path for data engineers, a"
+    },
+    {
+      "start": 563.0,
+      "end": 563.0,
+      "text": "road map from Python basics to multi cloud lakehouse design, plus the tool ecosystem grouped by job, orchestration,"
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "processing cataloges. The maintainer counts 500 plus resources and 50 plus tools. The part I keep coming back to is"
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "the salary table, junior to principal, mapped to years of experience."
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Drizzle is great when you want SQL first control, but writing the same manual, joins, pageionation logic, and nested"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "filters gets old fast. Better Drizzle wraps your existing setup to give every table a clean repository style API. You"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "get Prismaike queries while keeping Drizzle's underlying type safety and raw speed. If you're tired of rewriting database query glue, it's worth checking"
+    },
+    {
+      "start": 607.0,
+      "end": 607.0,
+      "text": "out. If you're tired of wrapping fragile ffmpeg commands and gluing three different APIs just to generate a video,"
+    },
+    {
+      "start": 616.0,
+      "end": 616.0,
+      "text": "look at Leron X. It's the open source Python engine behind their commercial video generator. This handles the entire pipeline locally from script generation"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "and scene planning to voice synthesis and final rendering. It's fully modular, so you can swap out the models and keep your workflow clean."
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "Local coding agents are nice until your repo starts feeling like training data for someone else's backend. God coder is"
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "a desktop AI coding agent that runs local first. You bring the model key and requests go straight to the provider you"
+    },
+    {
+      "start": 649.0,
+      "end": 649.0,
+      "text": "configure. It has file editing, terminal checkpoints, MCP support, and an optional context engine for larger code bases."
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "Amber is a Python tool for turning expensive corpus embeddings into a single offline amber file that can prove"
+    },
+    {
+      "start": 665.0,
+      "end": 665.0,
+      "text": "what data and embed produced it. The pain is trusting a vector store someone handed you without rerunning the whole embedding job. Amber uses Merkel"
+    },
+    {
+      "start": 673.0,
+      "end": 673.0,
+      "text": "commitments, O integrity checks, and okay random audits that can catch self-consistent forged vectors."
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "Rampart strips PII out of user text before it ever reaches an LLM running entirely in the browser. Most redaction"
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "is server side. So by the time it runs, the raw data already left the client."
+    },
+    {
+      "start": 694.0,
+      "end": 694.0,
+      "text": "This pairs a 15 megabyte ondevice model with checksum backed regards, SSNs, and emails. Then swaps names and numbers for"
+    },
+    {
+      "start": 703.0,
+      "end": 703.0,
+      "text": "placeholders that get restored locally after the model replies."
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "Checking your clawed code or codeex usage limits means unlocking your laptop, even for a quick glance. This dashboard reads the local usage files"
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "both tools already write and serves them to any phone or tablet on your Wi-Fi. It turns red once you hit your alert threshold and it's zero dependency, just nodes built-in modules. No npm install."
+    },
+    {
+      "start": 730.0,
+      "end": 730.0,
+      "text": "Conference watch is an agent skill that tracks every deadline stage for AI conferences, not just the headline date."
+    },
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "Normally that means bookmarking a dozen CFP pages and checking each one by hand as dates shift. Drop it into clawed code"
+    },
+    {
+      "start": 744.0,
+      "end": 744.0,
+      "text": "or codeex and it researches official sources, builds a 5-year acceptance rate trend and flags anything it can't"
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "confirm as approximate instead of guessing. GitHub search is fine until you need the right repo and you don't know the magic syntax."
+    },
+    {
+      "start": 761.0,
+      "end": 761.0,
+      "text": "Git deep search turns plain English into GitHub search queries. So fitness mobile app in Flutter becomes something GitHub can actually filter. Quick search"
+    },
+    {
+      "start": 770.0,
+      "end": 770.0,
+      "text": "handles repos or developers fast while deep search runs four strategies including relevance, stars, recent"
+    },
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "activity and readme content then dduplicates the results in the browser."
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "Herx is a native iPhone app for your self-hosted Hermes agent. No browser tab, no laptop required. Normally"
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "checking in on a serverside agent means opening a laptop just to see if it's still running. Hermex streams the chat"
+    },
+    {
+      "start": 798.0,
+      "end": 798.0,
+      "text": "with live tool call detail, let you steer or stop a run mid-flight, and manages the agents scheduled cron jobs"
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "from your phone. Linux antiquity turns your desktop into an art nuvo illustration, astronomy charts, and old"
+    },
+    {
+      "start": 812.0,
+      "end": 812.0,
+      "text": "mythology drawings, not another flat dark mode rice. Most desktop themes chase the same minimalist look, so this"
+    },
+    {
+      "start": 820.0,
+      "end": 820.0,
+      "text": "stands out by design. It's built on Hyperland and Quickshell with a full theme picker, weather widgets, and a matching set of kitty terminal themes."
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "Calendar UIs look simple until you need month, week, day, gestures, web support, and custom event rendering in the same"
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "React Native app. React Native Calendar is built for that heavier case. It gives you virtualized snap page views, pinch"
+    },
+    {
+      "start": 845.0,
+      "end": 845.0,
+      "text": "zoom on native, control, scroll, zoom on web, typed custom events, drag to move or resize, and a picker only entry point when you just need date selection."
+    },
+    {
+      "start": 855.0,
+      "end": 855.0,
+      "text": "Slow hunts the duplicate code that's easy to miss. Near identical logic scattered across different files, not the copypaste stuff other tools already"
+    },
+    {
+      "start": 864.0,
+      "end": 864.0,
+      "text": "catch. Exact copies sitting side by side are simple to spot. ones split across modules slip past both humans and most"
+    },
+    {
+      "start": 872.0,
+      "end": 872.0,
+      "text": "llinters. It embeds every code unit, clusters the ones that land close together, then ranks them by similarity"
+    },
+    {
+      "start": 879.0,
+      "end": 879.0,
+      "text": "and by how far apart they sit in your codebase."
+    },
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "Expo dynamic tray is a react native bottom sheet tray that feels closer to a native panel than another slide up"
+    },
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "modal. The usual pain is keeping sheet height, keyboard behavior, nested views, and footer buttons from fighting each other."
+    },
+    {
+      "start": 898.0,
+      "end": 898.0,
+      "text": "This one auto sizes to content, follows the keyboard, supports swipe to dismiss, and gives you multiv- view navigation with a real history stack."
+    },
+    {
+      "start": 909.0,
+      "end": 909.0,
+      "text": "[music]"
+    }
+  ]
+}
