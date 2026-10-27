@@ -1,0 +1,1632 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're looking at 35 popular projects from last month. If you've been following the channel, you've probably seen most of these in previous episodes."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "Now we're bringing them all together so you can see what the developer community was obsessing over in April. Let's get into it."
+    },
+    {
+      "timestamp": "0:18",
+      "text": "Awesome. Design MD is a curated collection of plain text markdown files capturing the exact design systems of top companies. Stripe, Versel, Linear,"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "Notion, Apple. Drop a design MD into your project route and tell your agent to build. LLMs read markdown better than"
+    },
+    {
+      "timestamp": "0:34",
+      "text": "CSS, so the agent adopts the exact typography, hex codes, and spacing constraints. Branded UI on the first try."
+    },
+    {
+      "timestamp": "0:43",
+      "text": "AI agents love writing massive flowery paragraphs of filler text before giving you code. Your API budget pays for it."
+    },
+    {
+      "timestamp": "0:51",
+      "text": "Caveman is an agent skill that forces your AI to talk like a literal caveman. Strips articles and pleasantries."
+    },
+    {
+      "timestamp": "0:58",
+      "text": "Responds with bare bones primitive sentences while keeping 100% of the technical accuracy intact. Cuts output token consumption by up to 75%."
+    },
+    {
+      "timestamp": "1:07",
+      "text": "Why use many token when few token do trick."
+    },
+    {
+      "timestamp": "1:11",
+      "text": "Career ops is a fully automated AI powered job search command center built as a multi- aent system. Instead of sending generic resumes, you feed it job"
+    },
+    {
+      "timestamp": "1:20",
+      "text": "URLs. The AI scans the page, evaluates the role, and generates a perfectly tailored ATS optimized PDF resume"
+    },
+    {
+      "timestamp": "1:28",
+      "text": "rewritten specifically for that exact job description. Run it in batch mode to process dozens of postings at once."
+    },
+    {
+      "timestamp": "1:35",
+      "text": "Track the entire pipeline on a gorgeous terminal dashboard."
+    },
+    {
+      "timestamp": "1:39",
+      "text": "Letting your AI agent blindly GP through thousands of files burns massive API costs. Graphify compiles your entire"
+    },
+    {
+      "timestamp": "1:46",
+      "text": "project into a persistent graph rag knowledge base. Lightning fast t pass over your code. AI vision to extract"
+    },
+    {
+      "timestamp": "1:53",
+      "text": "concepts from diagrams. All wired into a massive queryable network graph. 71 times fewer tokens per query compared to"
+    },
+    {
+      "timestamp": "2:01",
+      "text": "reading raw files. Your AI instantly understands deep architectural relationships."
+    },
+    {
+      "timestamp": "2:08",
+      "text": "Love the developer experience of Anthropics Cloud Code, but don't want to be locked into their models? OpenCloud is a fully open- source fork that rips"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "out the vendor lockin entirely. Point the CLI at OpenAI codecs, Gemini, Deepseek, local Alama models, or any"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "OpenAI compatible endpoint. You get the same autonomous routing, file editing, and bash execution."
+    },
+    {
+      "timestamp": "2:31",
+      "text": "GBrain is a long-term memory backend for autonomous agents. Organizes your world knowledge, people, companies, deals as"
+    },
+    {
+      "timestamp": "2:39",
+      "text": "plain text markdown files. Every night, a background cron job scans your conversations and meeting transcripts, enriches missing entities, and"
+    },
+    {
+      "timestamp": "2:48",
+      "text": "consolidates the knowledge graph. You wake up and your digital brain is smarter than when you went to sleep."
+    },
+    {
+      "timestamp": "2:55",
+      "text": "Want to stop just using AI agents and start building your own? Open harness is the infrastructure layer. Gives foundation models hands, eyes, and"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "boundaries. Streaming tool calling loops, parallel execution, strict permission governance. ships with OMO, a"
+    },
+    {
+      "timestamp": "3:10",
+      "text": "built-in personal AI assistant. Chat on Slack, Discord, and it autonomously forks branches, writes code, and opens pull requests using this exact harness."
+    },
+    {
+      "timestamp": "3:21",
+      "text": "Open Mythus is an open- source PyTorch reconstruction of a recurrent depth transformer. Instead of stacking hundreds of layers, it uses a looped"
+    },
+    {
+      "timestamp": "3:30",
+      "text": "recurrent block with a sparse mixture of experts routing system. Instead of forcing the AI to print text to think"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "stepby step, it performs multi-step reasoning entirely inside continuous latent space before ever outputting an answer."
+    },
+    {
+      "timestamp": "3:46",
+      "text": "Being hailed as the spiritual successor to WordPress, emdash is a full stack TypeScript CMS built natively on Astro"
+    },
+    {
+      "timestamp": "3:53",
+      "text": "and Cloudflare stores rich text as portable text structured JSON that decouples content from presentation."
+    },
+    {
+      "timestamp": "4:00",
+      "text": "Takes WordPress's plug-in architecture and runs every plugin inside sandboxed Cloudflare worker isolates completely"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "eliminates the PHP security vulnerabilities WordPress is famous for."
+    },
+    {
+      "timestamp": "4:12",
+      "text": "Google open sourced a brand new file format spec designed to perfectly describe a visual identity to coding agents. Design.md combines YAML front"
+    },
+    {
+      "timestamp": "4:21",
+      "text": "matter for machine readable design tokens, colors, typography with markdown pros explaining the rationale, ships"
+    },
+    {
+      "timestamp": "4:28",
+      "text": "with a companion CLI that lints the file, tests CAG contrast ratios automatically, and exports tokens directly into Tailwind configs."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "Most AI web automation uses heavy frameworks like Puppeteer with rigid scrapers and brittle recipes. Browser"
+    },
+    {
+      "timestamp": "4:45",
+      "text": "harness is the thinnest self-healing browser layer ever built. Connects an LLM directly to Chrome via the DevTools"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "protocol over a single websocket. Hit a weird DOM structure or unexpected popup."
+    },
+    {
+      "timestamp": "4:58",
+      "text": "The agent autonomously injects its own JavaScript on the fly to complete the goal."
+    },
+    {
+      "timestamp": "5:03",
+      "text": "Spinning up Chrome for every AI agent request is a nightmare. 3 seconds to start, 500 megabytes of RAM each."
+    },
+    {
+      "timestamp": "5:10",
+      "text": "Obscura is a lightweight, headless browser engine written in Rust. Runs real JavaScript via V8. Implements the Chrome DevTools protocol. Starts in"
+    },
+    {
+      "timestamp": "5:19",
+      "text": "under 80 milliseconds. Uses 30 megabytes of RAM per page. Built-in stealth mode bypasses bot detection. The ultimate drop-in replacement for Puppeteer."
+    },
+    {
+      "timestamp": "5:30",
+      "text": "A brilliant TypeScript native multi-agent orchestration framework."
+    },
+    {
+      "timestamp": "5:34",
+      "text": "Open multi-agent takes a natural language goal. A coordinator agent decomposes it into a task DAG, parallelizes independent tasks across"
+    },
+    {
+      "timestamp": "5:43",
+      "text": "sub aents and synthesizes the final result. Drops into any Node.js backend with only three runtime dependencies."
+    },
+    {
+      "timestamp": "5:50",
+      "text": "Supports nine LLM providers at once."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "Live HTML tracing dashboard so you can actually observe your agent swarm at work. A pure Rust implementation of the"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "Quip network's quantum virtual machine, specifically the ELACE XQVM module. XQRS is like LLVM, but for quantum computing,"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "handles X- quadratic model construction, letting developers express binary optimization models and objective functions for quantum analers. Bleeding"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "edge quantum research needs a lightning fast hardware agnostic virtual machine."
+    },
+    {
+      "timestamp": "6:23",
+      "text": "This is it turns your coding agent into a local video editor. Video use lets you drop raw footage into a folder, then say"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "edit these into a launch video. Instead of watching frames, the AI transcribes audio, generates word level timestamps,"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "and builds a composite timeline image, then writes the exact ffmpeg commands to cut filler words, apply 30 mecas fades,"
+    },
+    {
+      "timestamp": "6:46",
+      "text": "and burn in subtitles. Outputs a perfect MP4 fully autonomously."
+    },
+    {
+      "timestamp": "6:52",
+      "text": "Hand coding skeleton loading screens that break every design change is exhausting. Boneyard autogenerates them."
+    },
+    {
+      "timestamp": "6:58",
+      "text": "Run the CLI. It opens a headless browser on your running app, measures every visible element's bounding box, and writes the exact pixel positions to a"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "static JSON file. At runtime, the React component reads that JSON, and renders perfectly sized gray rectangles, mirroring your real layout."
+    },
+    {
+      "timestamp": "7:18",
+      "text": "Google officially launched their agent skills repository. Heavy MCP servers cause context bloat and rack up token costs. Google solved this by publishing"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "highly compressed targeted markdown files, giving AI agents exact up-to-date documentation for BigQuery, Cloud Run,"
+    },
+    {
+      "timestamp": "7:34",
+      "text": "and Firebase. Run one npx command to install into Cloud Code or Gemini CLI, and your agent instantly becomes a certified Google Cloud architect."
+    },
+    {
+      "timestamp": "7:45",
+      "text": "An incredibly fun open-source Mac OS app. Clickie is an experimental AI teacher that lives right next to your"
+    },
+    {
+      "timestamp": "7:52",
+      "text": "cursor. functions as a menu bar app that can physically see your screen context."
+    },
+    {
+      "timestamp": "7:57",
+      "text": "Invoke it, talk to it, and the AI responds with both spoken explanations and an on-screen cursor overlay that"
+    },
+    {
+      "timestamp": "8:04",
+      "text": "literally points to the exact UI buttons you need to click across multiple monitors."
+    },
+    {
+      "timestamp": "8:10",
+      "text": "Lingbot Map is a 3D foundation model from Ant Group operating on a pure see as you go principle. Using just a"
+    },
+    {
+      "timestamp": "8:17",
+      "text": "standard RGB camera, it continuously estimates the camera's pose and reconstructs dense 3D geometry of a room"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "frame by frame in real time at 20 frames per second. Completely eliminates expensive LAR sensors or slow offline 3D rendering for robot spatial awareness."
+    },
+    {
+      "timestamp": "8:36",
+      "text": "Fireworks tech graph is a claude code skill that turns natural language prompts into stunning production grade technical architecture graphs. supports"
+    },
+    {
+      "timestamp": "8:44",
+      "text": "eight different diagram types and enforces strict design invariants to guarantee premium visual clarity. Your"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "AI instantly renders complex multi-agent system workflows into beautiful SVG or PNG assets right inside your terminal."
+    },
+    {
+      "timestamp": "9:01",
+      "text": "Executing untrusted code from AI agents is a huge security risk. Cube Sandbox is the first open- source execution"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "environment achieving true hardware level KVM isolation with cold startup under 60 milliseconds."
+    },
+    {
+      "timestamp": "9:14",
+      "text": "Brilliant memory sharing optimizations mean a single sandbox uses less than 5 megabytes of RAM. Run over 2,000"
+    },
+    {
+      "timestamp": "9:22",
+      "text": "concurrent perfectly isolated AI agents on a single server."
+    },
+    {
+      "timestamp": "9:26",
+      "text": "Implements Andre Carpathy's famous LLM wiki concept. Traditional RAG is flawed because it retrieves the same raw text"
+    },
+    {
+      "timestamp": "9:34",
+      "text": "chunks over and over. LLM Wiki uses MCP to turn your AI into a tireless digital librarian. Drop in PDFs and research"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "papers, and the AI autonomously synthesizes encyclopedia style concept articles, flags contradictions, and updates cross references across a persistent markdown knowledge base."
+    },
+    {
+      "timestamp": "9:53",
+      "text": "Running autonomous agents means spending a fortune on API credits without knowing where they go."
+    },
+    {
+      "timestamp": "10:00",
+      "text": "CodeBurn is a CLI that tracks exactly what's eating your tokens, reads your local session transcripts, and deterministically categorizes every"
+    },
+    {
+      "timestamp": "10:08",
+      "text": "turn. Shows you exactly how much money was burned on debugging, brainstorming, or actual code generation. The ultimate"
+    },
+    {
+      "timestamp": "10:16",
+      "text": "financial dashboard for your AI workflow."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "An AI agent that engineers its own agent harness. Auto agent skips weeks of humans manually tweaking system prompts"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "and tools. Point it at a benchmark and let it run overnight. It modifies its own system prompts, tweaks tool"
+    },
+    {
+      "timestamp": "10:34",
+      "text": "orchestration, runs the benchmark, checks the score, keeps the change if it improved. Topped the spreadsheet bench"
+    },
+    {
+      "timestamp": "10:41",
+      "text": "leaderboard without a single line of handwritten human harness code."
+    },
+    {
+      "timestamp": "10:46",
+      "text": "AI generated documents usually drift into generic gray, inconsistent styling, and messy layouts. Kami is a document"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "design system for the AI era. A single constraint language you hand to your agent enforcing strict rules for six different formats. Réumés, pitch decks,"
+    },
+    {
+      "timestamp": "11:02",
+      "text": "long docs strictly locks the SVG primitives, color pallets, and serif typography. Every document your AI generates is coherent, beautiful, and ready to ship."
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Every new Claude code session starts with zero memory. Claude Obsidian is a plugin that wires Claude directly into"
+    },
+    {
+      "timestamp": "11:21",
+      "text": "your Obsidian vault, turning it into a self-organizing AI brain. Three-layer architecture, hot cache, index, and deep"
+    },
+    {
+      "timestamp": "11:28",
+      "text": "wiki pages. Commands like /auto research or/save make the agent iteratively fetch sources, synthesize findings, and file"
+    },
+    {
+      "timestamp": "11:36",
+      "text": "everything as structured cross-referenced markdown notes into your permanent local second brain."
+    },
+    {
+      "timestamp": "11:42",
+      "text": "Tired of commercial Mac cleaners loaded with telemetry and expensive subscriptions? Pure Mac is a 100% free open- source Mac OS system cleaner built"
+    },
+    {
+      "timestamp": "11:51",
+      "text": "in native Swift UI. Runs completely offline with zero analytics. Quickly wipes system junk, Xcode caches, and"
+    },
+    {
+      "timestamp": "11:59",
+      "text": "homebrew leftovers. Click to inspect tool shows you exactly what files will be deleted before you hit clean."
+    },
+    {
+      "timestamp": "12:07",
+      "text": "Legendary keyboard company did something amazing. They open sourced the industrial CAD design files for over 100"
+    },
+    {
+      "timestamp": "12:14",
+      "text": "of their keyboards and mice. Hundreds of step, DXF, DWG, and PDF assets dropped onto GitHub. Study production grade"
+    },
+    {
+      "timestamp": "12:22",
+      "text": "hardware. Remix plates and cases for your own 3D printing projects. Design perfectly compatible accessories knowing the exact microscopic tolerances of the real hardware."
+    },
+    {
+      "timestamp": "12:34",
+      "text": "Love anthropics claw design, but hate the vendor lockin and cloud payw walls?"
+    },
+    {
+      "timestamp": "12:39",
+      "text": "Open Design is the local first open source alternative. Plugs into claude code, cursor, codeex or Gemini CLI and uses those agents as a design engine."
+    },
+    {
+      "timestamp": "12:48",
+      "text": "Pairs perfectly with design.mmd files from top brands. Takes your chat prompt and renders a stunning React prototype inside a sandbox preview. Exports the"
+    },
+    {
+      "timestamp": "12:57",
+      "text": "final UI straight to HTML, PDF or PowerPoint."
+    },
+    {
+      "timestamp": "13:02",
+      "text": "Using clawed code means your device ID, OS version, shell type, and MAC address are continuously reported back to the"
+    },
+    {
+      "timestamp": "13:09",
+      "text": "vendor. CC-ash gateway is a reverse proxy sitting directly between your local terminal and the anthropic API."
+    },
+    {
+      "timestamp": "13:16",
+      "text": "Intercepts the traffic, strips all your personal tracking data, normalizes device fingerprints to a single canonical profile. Total privacy"
+    },
+    {
+      "timestamp": "13:25",
+      "text": "seamlessly handles OOTH token refresh in the background."
+    },
+    {
+      "timestamp": "13:29",
+      "text": "Most browser terminals like Xterm.js JS render onto a heavy HTML canvas. You lose native text selection and accessibility. Werm reimagines this."
+    },
+    {
+      "timestamp": "13:39",
+      "text": "Built with Zigg and Web Assembly to parse complex VT100 escape sequences, but renders output directly into the DOM"
+    },
+    {
+      "timestamp": "13:45",
+      "text": "as real semantic HTML text. The WASOM Core is an unbelievably tiny 12 kilob."
+    },
+    {
+      "timestamp": "13:52",
+      "text": "Open Whip is a literal digital whip for your AI. Sits in your system tray. When the AI takes way too long thinking or"
+    },
+    {
+      "timestamp": "13:59",
+      "text": "starts endlessly yapping, you click it, drops an animated whip overlay onto your terminal, plays a loud whip crack sound"
+    },
+    {
+      "timestamp": "14:07",
+      "text": "effect, automatically fires an interrupt signal to stop the generation, followed by a snarky motivational message."
+    },
+    {
+      "timestamp": "14:15",
+      "text": "DRAM has a fundamental design flaw where memory refresh stalls cause random latency spikes. Tails bypasses this by"
+    },
+    {
+      "timestamp": "14:23",
+      "text": "replicating data across multiple independent RAM channels. uses undocumented CPU channel scrambling offsets to issue hedged reads across all"
+    },
+    {
+      "timestamp": "14:32",
+      "text": "replicas simultaneously. Grabs the result from whichever channel responds first. A masterclass in squeezing ultimate performance out of memory hardware."
+    },
+    {
+      "timestamp": "14:42",
+      "text": "Live in the terminal? Hate opening heavy spreadsheet apps like Excel? Sheets is a stunning open- source spreadsheet tool built entirely in Go that runs directly"
+    },
+    {
+      "timestamp": "14:51",
+      "text": "in your command line. Full mouse support and a vim inspired command mode. Type W to save. Go to B9 to jump to a cell."
+    },
+    {
+      "timestamp": "14:59",
+      "text": "Handles TSV and CSV parsing flawlessly."
+    },
+    {
+      "timestamp": "15:02",
+      "text": "The ultimate lightweight data viewer for CLI minimalists."
+    },
+    {
+      "timestamp": "15:06",
+      "text": "Diagram design is a clawed code skill built by someone tired of fighting Figma for 30 minutes every time she needed an architecture sketch. Your agent becomes"
+    },
+    {
+      "timestamp": "15:15",
+      "text": "a high-end editorial graphic designer, generating stunning self-contained HTML and SVG files. Zero JavaScript, zero"
+    },
+    {
+      "timestamp": "15:23",
+      "text": "external images, zero build steps, 13 built-in structural types, including sequence diagrams, state machines, vend"
+    },
+    {
+      "timestamp": "15:31",
+      "text": "diagrams, and swim lanes. That wraps up all 35 projects featured for April. All links are in the description. A special"
+    },
+    {
+      "timestamp": "15:39",
+      "text": "thank you to 19 awesome supporters. Your support is the powerful driving force that keeps me going."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're looking at 35 popular projects from last month. If you've been following the channel, you've probably seen most of these in previous episodes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Now we're bringing them all together so you can see what the developer community was obsessing over in April. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Awesome. Design MD is a curated collection of plain text markdown files capturing the exact design systems of top companies. Stripe, Versel, Linear,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Notion, Apple. Drop a design MD into your project route and tell your agent to build. LLMs read markdown better than"
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CSS, so the agent adopts the exact typography, hex codes, and spacing constraints. Branded UI on the first try."
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents love writing massive flowery paragraphs of filler text before giving you code. Your API budget pays for it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 51000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caveman is an agent skill that forces your AI to talk like a literal caveman. Strips articles and pleasantries."
+        }
+      ]
+    },
+    {
+      "tStartMs": 58000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Responds with bare bones primitive sentences while keeping 100% of the technical accuracy intact. Cuts output token consumption by up to 75%."
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Why use many token when few token do trick."
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Career ops is a fully automated AI powered job search command center built as a multi- aent system. Instead of sending generic resumes, you feed it job"
+        }
+      ]
+    },
+    {
+      "tStartMs": 80000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "URLs. The AI scans the page, evaluates the role, and generates a perfectly tailored ATS optimized PDF resume"
+        }
+      ]
+    },
+    {
+      "tStartMs": 88000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rewritten specifically for that exact job description. Run it in batch mode to process dozens of postings at once."
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Track the entire pipeline on a gorgeous terminal dashboard."
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Letting your AI agent blindly GP through thousands of files burns massive API costs. Graphify compiles your entire"
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project into a persistent graph rag knowledge base. Lightning fast t pass over your code. AI vision to extract"
+        }
+      ]
+    },
+    {
+      "tStartMs": 113000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "concepts from diagrams. All wired into a massive queryable network graph. 71 times fewer tokens per query compared to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reading raw files. Your AI instantly understands deep architectural relationships."
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Love the developer experience of Anthropics Cloud Code, but don't want to be locked into their models? OpenCloud is a fully open- source fork that rips"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "out the vendor lockin entirely. Point the CLI at OpenAI codecs, Gemini, Deepseek, local Alama models, or any"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenAI compatible endpoint. You get the same autonomous routing, file editing, and bash execution."
+        }
+      ]
+    },
+    {
+      "tStartMs": 151000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GBrain is a long-term memory backend for autonomous agents. Organizes your world knowledge, people, companies, deals as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plain text markdown files. Every night, a background cron job scans your conversations and meeting transcripts, enriches missing entities, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "consolidates the knowledge graph. You wake up and your digital brain is smarter than when you went to sleep."
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to stop just using AI agents and start building your own? Open harness is the infrastructure layer. Gives foundation models hands, eyes, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "boundaries. Streaming tool calling loops, parallel execution, strict permission governance. ships with OMO, a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in personal AI assistant. Chat on Slack, Discord, and it autonomously forks branches, writes code, and opens pull requests using this exact harness."
+        }
+      ]
+    },
+    {
+      "tStartMs": 201000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Mythus is an open- source PyTorch reconstruction of a recurrent depth transformer. Instead of stacking hundreds of layers, it uses a looped"
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recurrent block with a sparse mixture of experts routing system. Instead of forcing the AI to print text to think"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stepby step, it performs multi-step reasoning entirely inside continuous latent space before ever outputting an answer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Being hailed as the spiritual successor to WordPress, emdash is a full stack TypeScript CMS built natively on Astro"
+        }
+      ]
+    },
+    {
+      "tStartMs": 233000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and Cloudflare stores rich text as portable text structured JSON that decouples content from presentation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Takes WordPress's plug-in architecture and runs every plugin inside sandboxed Cloudflare worker isolates completely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "eliminates the PHP security vulnerabilities WordPress is famous for."
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Google open sourced a brand new file format spec designed to perfectly describe a visual identity to coding agents. Design.md combines YAML front"
+        }
+      ]
+    },
+    {
+      "tStartMs": 261000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matter for machine readable design tokens, colors, typography with markdown pros explaining the rationale, ships"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with a companion CLI that lints the file, tests CAG contrast ratios automatically, and exports tokens directly into Tailwind configs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI web automation uses heavy frameworks like Puppeteer with rigid scrapers and brittle recipes. Browser"
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "harness is the thinnest self-healing browser layer ever built. Connects an LLM directly to Chrome via the DevTools"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "protocol over a single websocket. Hit a weird DOM structure or unexpected popup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 298000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The agent autonomously injects its own JavaScript on the fly to complete the goal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spinning up Chrome for every AI agent request is a nightmare. 3 seconds to start, 500 megabytes of RAM each."
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Obscura is a lightweight, headless browser engine written in Rust. Runs real JavaScript via V8. Implements the Chrome DevTools protocol. Starts in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 319000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "under 80 milliseconds. Uses 30 megabytes of RAM per page. Built-in stealth mode bypasses bot detection. The ultimate drop-in replacement for Puppeteer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A brilliant TypeScript native multi-agent orchestration framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open multi-agent takes a natural language goal. A coordinator agent decomposes it into a task DAG, parallelizes independent tasks across"
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sub aents and synthesizes the final result. Drops into any Node.js backend with only three runtime dependencies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Supports nine LLM providers at once."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Live HTML tracing dashboard so you can actually observe your agent swarm at work. A pure Rust implementation of the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quip network's quantum virtual machine, specifically the ELACE XQVM module. XQRS is like LLVM, but for quantum computing,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles X- quadratic model construction, letting developers express binary optimization models and objective functions for quantum analers. Bleeding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edge quantum research needs a lightning fast hardware agnostic virtual machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is it turns your coding agent into a local video editor. Video use lets you drop raw footage into a folder, then say"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edit these into a launch video. Instead of watching frames, the AI transcribes audio, generates word level timestamps,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and builds a composite timeline image, then writes the exact ffmpeg commands to cut filler words, apply 30 mecas fades,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and burn in subtitles. Outputs a perfect MP4 fully autonomously."
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hand coding skeleton loading screens that break every design change is exhausting. Boneyard autogenerates them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Run the CLI. It opens a headless browser on your running app, measures every visible element's bounding box, and writes the exact pixel positions to a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "static JSON file. At runtime, the React component reads that JSON, and renders perfectly sized gray rectangles, mirroring your real layout."
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Google officially launched their agent skills repository. Heavy MCP servers cause context bloat and rack up token costs. Google solved this by publishing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "highly compressed targeted markdown files, giving AI agents exact up-to-date documentation for BigQuery, Cloud Run,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and Firebase. Run one npx command to install into Cloud Code or Gemini CLI, and your agent instantly becomes a certified Google Cloud architect."
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "An incredibly fun open-source Mac OS app. Clickie is an experimental AI teacher that lives right next to your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor. functions as a menu bar app that can physically see your screen context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Invoke it, talk to it, and the AI responds with both spoken explanations and an on-screen cursor overlay that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "literally points to the exact UI buttons you need to click across multiple monitors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lingbot Map is a 3D foundation model from Ant Group operating on a pure see as you go principle. Using just a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "standard RGB camera, it continuously estimates the camera's pose and reconstructs dense 3D geometry of a room"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "frame by frame in real time at 20 frames per second. Completely eliminates expensive LAR sensors or slow offline 3D rendering for robot spatial awareness."
+        }
+      ]
+    },
+    {
+      "tStartMs": 516000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fireworks tech graph is a claude code skill that turns natural language prompts into stunning production grade technical architecture graphs. supports"
+        }
+      ]
+    },
+    {
+      "tStartMs": 524000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "eight different diagram types and enforces strict design invariants to guarantee premium visual clarity. Your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI instantly renders complex multi-agent system workflows into beautiful SVG or PNG assets right inside your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Executing untrusted code from AI agents is a huge security risk. Cube Sandbox is the first open- source execution"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "environment achieving true hardware level KVM isolation with cold startup under 60 milliseconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Brilliant memory sharing optimizations mean a single sandbox uses less than 5 megabytes of RAM. Run over 2,000"
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "concurrent perfectly isolated AI agents on a single server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Implements Andre Carpathy's famous LLM wiki concept. Traditional RAG is flawed because it retrieves the same raw text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chunks over and over. LLM Wiki uses MCP to turn your AI into a tireless digital librarian. Drop in PDFs and research"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "papers, and the AI autonomously synthesizes encyclopedia style concept articles, flags contradictions, and updates cross references across a persistent markdown knowledge base."
+        }
+      ]
+    },
+    {
+      "tStartMs": 593000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running autonomous agents means spending a fortune on API credits without knowing where they go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CodeBurn is a CLI that tracks exactly what's eating your tokens, reads your local session transcripts, and deterministically categorizes every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "turn. Shows you exactly how much money was burned on debugging, brainstorming, or actual code generation. The ultimate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "financial dashboard for your AI workflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "An AI agent that engineers its own agent harness. Auto agent skips weeks of humans manually tweaking system prompts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and tools. Point it at a benchmark and let it run overnight. It modifies its own system prompts, tweaks tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "orchestration, runs the benchmark, checks the score, keeps the change if it improved. Topped the spreadsheet bench"
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "leaderboard without a single line of handwritten human harness code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI generated documents usually drift into generic gray, inconsistent styling, and messy layouts. Kami is a document"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "design system for the AI era. A single constraint language you hand to your agent enforcing strict rules for six different formats. Réumés, pitch decks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 662000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "long docs strictly locks the SVG primitives, color pallets, and serif typography. Every document your AI generates is coherent, beautiful, and ready to ship."
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every new Claude code session starts with zero memory. Claude Obsidian is a plugin that wires Claude directly into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your Obsidian vault, turning it into a self-organizing AI brain. Three-layer architecture, hot cache, index, and deep"
+        }
+      ]
+    },
+    {
+      "tStartMs": 688000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wiki pages. Commands like /auto research or/save make the agent iteratively fetch sources, synthesize findings, and file"
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everything as structured cross-referenced markdown notes into your permanent local second brain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of commercial Mac cleaners loaded with telemetry and expensive subscriptions? Pure Mac is a 100% free open- source Mac OS system cleaner built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in native Swift UI. Runs completely offline with zero analytics. Quickly wipes system junk, Xcode caches, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 719000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "homebrew leftovers. Click to inspect tool shows you exactly what files will be deleted before you hit clean."
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Legendary keyboard company did something amazing. They open sourced the industrial CAD design files for over 100"
+        }
+      ]
+    },
+    {
+      "tStartMs": 734000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of their keyboards and mice. Hundreds of step, DXF, DWG, and PDF assets dropped onto GitHub. Study production grade"
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hardware. Remix plates and cases for your own 3D printing projects. Design perfectly compatible accessories knowing the exact microscopic tolerances of the real hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Love anthropics claw design, but hate the vendor lockin and cloud payw walls?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 759000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Design is the local first open source alternative. Plugs into claude code, cursor, codeex or Gemini CLI and uses those agents as a design engine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 768000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pairs perfectly with design.mmd files from top brands. Takes your chat prompt and renders a stunning React prototype inside a sandbox preview. Exports the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 777000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "final UI straight to HTML, PDF or PowerPoint."
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Using clawed code means your device ID, OS version, shell type, and MAC address are continuously reported back to the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "vendor. CC-ash gateway is a reverse proxy sitting directly between your local terminal and the anthropic API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Intercepts the traffic, strips all your personal tracking data, normalizes device fingerprints to a single canonical profile. Total privacy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 805000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seamlessly handles OOTH token refresh in the background."
+        }
+      ]
+    },
+    {
+      "tStartMs": 809000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most browser terminals like Xterm.js JS render onto a heavy HTML canvas. You lose native text selection and accessibility. Werm reimagines this."
+        }
+      ]
+    },
+    {
+      "tStartMs": 819000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Built with Zigg and Web Assembly to parse complex VT100 escape sequences, but renders output directly into the DOM"
+        }
+      ]
+    },
+    {
+      "tStartMs": 825000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as real semantic HTML text. The WASOM Core is an unbelievably tiny 12 kilob."
+        }
+      ]
+    },
+    {
+      "tStartMs": 832000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Whip is a literal digital whip for your AI. Sits in your system tray. When the AI takes way too long thinking or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "starts endlessly yapping, you click it, drops an animated whip overlay onto your terminal, plays a loud whip crack sound"
+        }
+      ]
+    },
+    {
+      "tStartMs": 847000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "effect, automatically fires an interrupt signal to stop the generation, followed by a snarky motivational message."
+        }
+      ]
+    },
+    {
+      "tStartMs": 855000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DRAM has a fundamental design flaw where memory refresh stalls cause random latency spikes. Tails bypasses this by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 863000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replicating data across multiple independent RAM channels. uses undocumented CPU channel scrambling offsets to issue hedged reads across all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 872000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replicas simultaneously. Grabs the result from whichever channel responds first. A masterclass in squeezing ultimate performance out of memory hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 882000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Live in the terminal? Hate opening heavy spreadsheet apps like Excel? Sheets is a stunning open- source spreadsheet tool built entirely in Go that runs directly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 891000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in your command line. Full mouse support and a vim inspired command mode. Type W to save. Go to B9 to jump to a cell."
+        }
+      ]
+    },
+    {
+      "tStartMs": 899000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Handles TSV and CSV parsing flawlessly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 902000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The ultimate lightweight data viewer for CLI minimalists."
+        }
+      ]
+    },
+    {
+      "tStartMs": 906000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Diagram design is a clawed code skill built by someone tired of fighting Figma for 30 minutes every time she needed an architecture sketch. Your agent becomes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 915000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a high-end editorial graphic designer, generating stunning self-contained HTML and SVG files. Zero JavaScript, zero"
+        }
+      ]
+    },
+    {
+      "tStartMs": 923000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "external images, zero build steps, 13 built-in structural types, including sequence diagrams, state machines, vend"
+        }
+      ]
+    },
+    {
+      "tStartMs": 931000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "diagrams, and swim lanes. That wraps up all 35 projects featured for April. All links are in the description. A special"
+        }
+      ]
+    },
+    {
+      "tStartMs": 939000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "thank you to 19 awesome supporters. Your support is the powerful driving force that keeps me going."
+        }
+      ]
+    }
+  ]
+}

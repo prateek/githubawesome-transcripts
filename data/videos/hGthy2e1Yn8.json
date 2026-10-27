@@ -1,0 +1,1020 @@
+{
+  "schema_version": 1,
+  "id": "hGthy2e1Yn8",
+  "title": "Hacker News Show #5: wuphf, libretto, GOModel, plain, tolaria, langalpha, holos, superhq, obscura",
+  "url": "https://www.youtube.com/watch?v=hGthy2e1Yn8",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-04-27",
+  "duration": 895,
+  "word_count": 2151,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T12:31:33+00:00",
+    "metadata_sha256": "fd9f9066ecc9006dabe7551f14cd942ee5d4fb03c07231601b9070e348d5ccb1",
+    "captions_sha256": "87cbfe47ba035430f7549ebaeb6fa1c453ffebcf517a1ae2f36f6c4b250aba85",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 13,
+      "paragraphs": [
+        "What is up developers? Welcome back to GitHub awesome. This is the Hacker News Show, episode 5. We tracked down 34 repositories that took over Hacker News lately. Let's get into it."
+      ]
+    },
+    {
+      "start": 13,
+      "title": "wuphf",
+      "repositories": [
+        "https://github.com/nex-crm/wuphf"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Someone built Woophf.com from the office and it actually works and it just exploded on HackerNews. Woopf is an open-source multi-agent platform that spins up a virtual office. CEO, PM, engineers, and designers collaborate, debate, and ship autonomously. A getback shared brain wiki keeps every agent in sync. Telegram bridge lets you DM your AI team from your phone. Dumping raw"
+      ]
+    },
+    {
+      "start": 37,
+      "title": "libretto",
+      "repositories": [
+        "https://github.com/saffron-health/libretto"
+      ],
+      "id": "s003",
+      "end": 61,
+      "paragraphs": [
+        "HTML into an agent's context window is expensive and breaks on every layout change. Labretto is a token efficient browser CLI for coding agents that listens to raw network requests while navigating and autonomously reverse engineers the hidden internal APIs underneath. Your agent converts a slow UI clicking script into a direct API integration in seconds."
+      ]
+    },
+    {
+      "start": 61,
+      "title": "no-mistakes",
+      "repositories": [
+        "https://github.com/kunchenguid/no-mistakes"
+      ],
+      "id": "s004",
+      "end": 86,
+      "paragraphs": [
+        "Vibe coding with AI looks fine until you realize the code is full of edge case bugs, missing tests, and broken lints. No mistakes moves your AI to the git push boundary. Type git push no mistakes and instead of hitting GitHub, the code is intercepted by a local Damon. spins up a disposable work tree, runs pre-commit hooks, and forces an AI agent into a strict QA loop until zero errors."
+      ]
+    },
+    {
+      "start": 86,
+      "title": "GOModel",
+      "repositories": [
+        "https://github.com/ENTERPILOT/GOModel"
+      ],
+      "id": "s005",
+      "end": 114,
+      "paragraphs": [
+        "Switching between LLM providers usually means rewriting SDK code every time. Go model is a go gateway that accepts standard OpenAI format requests and translates them to Claude, Gemini, or Chat GPT in the background. One integration, every provider. The two-layer cache with semantic vector search is the standout feature. Different wording, same meaning, instant cash hit, zero upstream calls for semantically duplicate requests."
+      ]
+    },
+    {
+      "start": 114,
+      "title": "paniclock",
+      "repositories": [
+        "https://github.com/paniclock/paniclock"
+      ],
+      "id": "s006",
+      "end": 141,
+      "paragraphs": [
+        "Touch ID is convenient until you're at a border crossing where a fingerprint can be legally compelled and a memorized password often can't. Panic lock is a lightweight menu bar utility that instantly disables Touch ID and forces password only unlock. Trigger it with a hotkey or autot trigger the moment you close your laptop. one keystroke between biometric access and something a lawyer might actually protect."
+      ]
+    },
+    {
+      "start": 141,
+      "title": "plain",
+      "repositories": [
+        "https://github.com/dropseed/plain"
+      ],
+      "id": "s007",
+      "end": 168,
+      "paragraphs": [
+        "Most Python frameworks were designed for human developers and force AI agents to learn thousands of lines of implicit conventions. Plane is a Django fork reshaped for the agent era. Native markdown guardrails prevent cla or cursor from making framework mistakes. And built-in skills like /plane optimize and plane upgrade mean the agent already understands the workflow before you write a line of code."
+      ]
+    },
+    {
+      "start": 168,
+      "title": "langalpha",
+      "repositories": [
+        "https://github.com/ginlix-ai/langalpha"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "Standard AI agents analyzing financial data dump raw JSON straight into context and burn through tokens before any actual reasoning starts. Lang Alpha uses programmatic tool calling instead. The agent drops into a sandboxed workspace, writes Python to pull market data, crunches numbers with pandas in the background, and returns only the final results to the LLM context."
+      ]
+    },
+    {
+      "start": 192,
+      "title": "tolaria",
+      "repositories": [
+        "https://github.com/refactoringhq/tolaria"
+      ],
+      "id": "s009",
+      "end": 220,
+      "paragraphs": [
+        "Carpathy's LLM wiki idea turned into a productionready app. Taria is an offline first knowledge base for Mac OS and Linux. Plain markdown files in a folder, get backed with autosync, notion style feel, total file ownership. The killer feature is the MCP server registration. Claude Code and Open Claw read, search, and update your knowledge base directly while you work. Your second brain accessible to every agent in your workflow."
+      ]
+    },
+    {
+      "start": 220,
+      "title": "omi",
+      "repositories": [
+        "https://github.com/BasedHardware/omi"
+      ],
+      "id": "s010",
+      "end": 245,
+      "paragraphs": [
+        "Tired of waiting for Humane AI Pin or Rabbit R1 to work? OMI is an open-source AO AI wearable ecosystem, a second brain that listens to conversations, transcribes in real time, and generates meeting summaries automatically. The repo contains the entire stack. C++ firmware for custom NRF and ESP32S3 wearables, Flutter mobile app, Python fast API backend, native desktop clients."
+      ]
+    },
+    {
+      "start": 245,
+      "title": "holos",
+      "repositories": [
+        "https://github.com/zeroecco/holos"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "Tired of wrestling with libvert XML or vagrance Ruby scripts? Holos is docker compose for Kimu KVM virtual machines? Just blew up on hacker news? Skips the libvert damon entirely. Define your VM stack and clean YAML. Holos drives Kimu directly. Rootless socket multiccast L2 networking GPU pass through as a first class primitive SSH health checks before booting the next VM."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "superhq",
+      "repositories": [
+        "https://github.com/superhq-ai/superhq"
+      ],
+      "id": "s012",
+      "end": 297,
+      "paragraphs": [
+        "Super HQ runs every agent inside its own isolated microVM on Mac OS using Apple's virtualization framework. Your projects mount into the VM, but file writes redirect to a temporary overlay, never touching your host. When the agent finishes, you get a unified diff and explicitly accept changes before anything syncs back. An O gateway injects credentials into API requests on the fly, so the AI never sees your raw keys."
+      ]
+    },
+    {
+      "start": 297,
+      "title": "agent-vault",
+      "repositories": [
+        "https://github.com/Infisical/agent-vault"
+      ],
+      "id": "s013",
+      "end": 321,
+      "paragraphs": [
+        "In Physical's agent vault is an HTTP credential proxy using credential brokering. Give your agent a scoped HTTPS proxy URL instead of an API key. When it calls Stripe or GitHub, Agent Vault intercepts traffic locally, injects your real encrypted key at the network layer, and forwards upstream. The agent never sees the secret. If hijacked, there's nothing to exfiltrate."
+      ]
+    },
+    {
+      "start": 321,
+      "title": "smolvm",
+      "repositories": [
+        "https://github.com/smol-machines/smolvm"
+      ],
+      "id": "s014",
+      "end": 346,
+      "paragraphs": [
+        "Letting an AI agent run untrusted code on your host is a massive security risk. Small VM spins up hardware isolated Linux microVMs with sub-second cold starts using libcrun on Apple's hypervisor framework or KVM on Linux. Elastic memory via Versio balloons means the host only commits the RAM the guest actually uses. Spawn dozens of parallel sandboxes without crashing your machine. Headless Chrome is 200 plus megabytes of RAM and seconds to start for every agent request."
+      ]
+    },
+    {
+      "start": 346,
+      "title": "obscura",
+      "repositories": [
+        "https://github.com/h4ckf0r0day/obscura"
+      ],
+      "id": "s015",
+      "end": 370,
+      "paragraphs": [
+        "Obscura is a headless browser engine written in Rust that speaks Chrome DevTools protocol. So, it's a drop-in replacement. 30 megabytes per tab, boots in under 80 milliseconds, built-in stealth mode that bypasses bot detection and defeats Cloudflare turnstyle."
+      ]
+    },
+    {
+      "start": 370,
+      "title": "broccoli",
+      "repositories": [
+        "https://github.com/besimple-oss/broccoli"
+      ],
+      "id": "s016",
+      "end": 395,
+      "paragraphs": [
+        "Automating your issue backlog usually means handing your private codebase to a SAS. Broccoli turns linear tickets into shipped GitHub PRs. Assign a ticket to the bot and it autonomously plans the architecture, writes the implementation using claude or codecs and opens a reviewable PR. Also acts as an automated reviewer, leaving actionable comments and pushing fixed commits when asked."
+      ]
+    },
+    {
+      "start": 395,
+      "title": "context-engineering",
+      "repositories": [
+        "https://github.com/outcomeops/context-engineering"
+      ],
+      "id": "s017",
+      "end": 424,
+      "paragraphs": [
+        "Context engineering treats organizational knowledge as a versioned engineering artifact. Ingests your architecture decision records, codebase patterns, and docs into a strict operating manual for the AI. Adds an enforcement layer that autonomously validates every line against your standards and self-corrects drift before a human sees the PR. Stops AI coding assistance from generating generic code that violates your internal architecture."
+      ]
+    },
+    {
+      "start": 424,
+      "title": "fakecloud",
+      "repositories": [
+        "https://github.com/faiscadev/fakecloud"
+      ],
+      "id": "s018",
+      "end": 451,
+      "paragraphs": [
+        "Local stack gating the free tier behind accounts and tokens was the kind of move that guarantees a fork. Fakecloud is a drop-in local AWS emulator written in Rust. No accounts, no tokens ever. 19 megabyte binary boots in half a second. 100% conformance across 23 services validated against 59,000 plus generated tests. Real cross-ervice wiring. So S3 uploads actually trigger local lambdas."
+      ]
+    },
+    {
+      "start": 451,
+      "title": "macmind",
+      "repositories": [
+        "https://github.com/SeanFDZ/macmind"
+      ],
+      "id": "s019",
+      "end": 478,
+      "paragraphs": [
+        "Someone trained a transformer in HyperTalk, the scripting language Apple shipped with HyperCard in 1987. MacMind is a 1,216 parameter single layer transformer with full self attention and back propagation trained on an actual Macintosh SE30 to learn the bit reversal step of the FFT. The point it's making, the same process that trains GPT4 ran on a 1989 Hypercard stack."
+      ]
+    },
+    {
+      "start": 478,
+      "title": "VTCode",
+      "repositories": [
+        "https://github.com/vinhnx/VTCode"
+      ],
+      "id": "s020",
+      "end": 505,
+      "paragraphs": [
+        "Vibe coding breaks fast when your agent runs a destructive command by accident. VTC code is a semantic AI coding agent written in Rust that runs natively in the terminal. Hooks into OpenAI, Anthropic or local Alama models. Human in the loop shell safety physically stops destructive commands before they execute. Automatic API failover reroutes to Gemini or Open Router the moment your primary provider goes down."
+      ]
+    },
+    {
+      "start": 505,
+      "title": "kontext-cli",
+      "repositories": [
+        "https://github.com/kontext-dev/kontext-cli"
+      ],
+      "id": "s021",
+      "end": 534,
+      "paragraphs": [
+        "Pasting longived API keys into NV files or AI chat windows is a massive security mistake. Context-le is a security token service for AI agents. Give your agent a placeholder instead of a god mode key. Run context start and an RFC 8693 token exchange fetches short-lived scoped credentials and injects them into your agents memory. The real secret never hits disk. Session ends, credentials expire instantly. Nothing to revoke."
+      ]
+    },
+    {
+      "start": 534,
+      "title": "yantrikdb-server",
+      "repositories": [
+        "https://github.com/yantrikos/yantrikdb-server"
+      ],
+      "id": "s022",
+      "end": 560,
+      "paragraphs": [
+        "Most AI memory systems dump embeddings and hope the right ones surface. Yantric DB models human memory instead. Memories decay over time. Similar ones consolidate automatically and contradictions get flagged instantly. Selective recall keeps queries around 70 Toni tokens even with 5,000 memories stored. Built-in Rust ships as a single binary with an MCP server for clawed code included."
+      ]
+    },
+    {
+      "start": 560,
+      "title": "doors",
+      "repositories": [
+        "https://github.com/doors-dev/doors"
+      ],
+      "id": "s023",
+      "end": 586,
+      "paragraphs": [
+        "Doors is a serverdriven UI framework that lets you build stateful reactive web apps entirely in Go. The framework handles state sync between server and browser over an HTTP3 ready protocol. Zero public API endpoints. Reactive primitives, parallel rendering, custom concurrency engine. Bundle the entire stack into one deployable binary. Full stack web development without leaving Go."
+      ]
+    },
+    {
+      "start": 586,
+      "title": "leaf",
+      "repositories": [
+        "https://github.com/RivoLink/leaf"
+      ],
+      "id": "s024",
+      "end": 608,
+      "paragraphs": [
+        "Reading raw markdown in the terminal with cat is brutal. Leaf is a blazing fast terminal markdown previewer in Rust. Interactive table of content sidebar syntax highlighting latte equations rendered in Unicode. Watch mode hot reloads in 250 millise when you save in neovim. Pipe cloud outputs straight in and read it with perfect formatting. AI agents produce a lot of markdown."
+      ]
+    },
+    {
+      "start": 608,
+      "title": "marky",
+      "repositories": [
+        "https://github.com/GRVYDEV/marky"
+      ],
+      "id": "s025",
+      "end": 631,
+      "paragraphs": [
+        "Reading it raw in the terminal is genuinely unpleasant. Marky is a lightweight desktop markdown viewer built for exactly this. Type marquee in a file name and an Obsidian style workspace opens. As your agent writes to disk, it live reloads instantly. Command K. Fuzzy search, shaky syntax highlighting, mermaid diagrams, KEX math."
+      ]
+    },
+    {
+      "start": 631,
+      "title": "xtrace-sdk",
+      "repositories": [
+        "https://github.com/XTraceAI/xtrace-sdk"
+      ],
+      "id": "s026",
+      "end": 660,
+      "paragraphs": [
+        "Plain text embedding sitting unencrypted in cloud vector databases is a quiet privacy risk most rag pipelines just accept. X-trace embeds locally, encrypts text with AES 256, and encrypts vectors with Pier homorphic encryption. The server runs nearest neighbor similarity search directly on the encrypted vectors without ever decryting them. Results come back, your machine decrypts locally. Keys never leave your laptop."
+      ]
+    },
+    {
+      "start": 660,
+      "title": "backlit-kbd",
+      "repositories": [
+        "https://github.com/itsmeadarsh2008/backlit-kbd"
+      ],
+      "id": "s027",
+      "end": 685,
+      "paragraphs": [
+        "Pop-up notifications are easy to miss. A keyboard that physically flashes is harder to ignore. Backlit KBD is a Python package that programmatically controls your Linux laptop's keyboard backlight. Adjust brightness, create custom blink patterns, script your keyboard to flash when a website goes down, or blink when CI/CD fails, notification system that bypasses your eyes entirely."
+      ]
+    },
+    {
+      "start": 685,
+      "title": "sostactic",
+      "repositories": [
+        "https://github.com/mmaaz-git/sostactic"
+      ],
+      "id": "s028",
+      "end": 713,
+      "paragraphs": [
+        "Lean for's built-in tactics hit a wall on complex polomial inequalities. Liner and positivity just fail and leave you stuck. So, Stactic offloads the hard cases to a Python backend running CVXPI, solves the problem as a convex semi-definite program, exactifies the numerical result, and feeds a mathematically sound proof back into Lean. Global non- negativity proofs and algebraic inequalities that native Lean can't handle handled."
+      ]
+    },
+    {
+      "start": 713,
+      "title": "cartoon-studio",
+      "repositories": [
+        "https://github.com/Jellypod-Inc/cartoon-studio"
+      ],
+      "id": "s029",
+      "end": 736,
+      "paragraphs": [
+        "Cartoon Studio is an open-source electron app that automates 2D animation end to end. Drop SVG characters onto a backdrop. Type your script. Assign AI voices. It generates audio via Jelly Pod Speech SDK. Calculates word timestamps. Lip syncs character mouth cues with hyperframes and renders to MP4. Local first zero telemetry. Bring your own API keys."
+      ]
+    },
+    {
+      "start": 736,
+      "title": "hiraeth",
+      "repositories": [
+        "https://github.com/SethPyle376/hiraeth"
+      ],
+      "id": "s030",
+      "end": 760,
+      "paragraphs": [
+        "Here is an open source local AWS emulator written in Rust for lightning fast integration testing. An alternative to local stack. First release targets SQS. Signed AWS SDK requests hit a local endpoint Q state stored offline in SQLite. Four megabyte docker image instant startup full SIG v4 off plus a debug friendly web UI to inspect cues and messages."
+      ]
+    },
+    {
+      "start": 760,
+      "title": "gova",
+      "repositories": [
+        "https://github.com/NV404/gova"
+      ],
+      "id": "s031",
+      "end": 787,
+      "paragraphs": [
+        "Crossplatform desktop development means electron bloat or C++ tool chain pane. Gova builds native desktop apps for Mac OS, Windows and Linux from a single Go codebase. No JavaScript runtime, no embedded browser, pure declarative ghostrs that compile to a single static binary with access to real native platform features like Mac OS system dialogues. Hot reload via the Govadeev CLI with UI state preserved between reloads."
+      ]
+    },
+    {
+      "start": 787,
+      "title": "sfsym",
+      "repositories": [
+        "https://github.com/yapstudios/sfsym"
+      ],
+      "id": "s032",
+      "end": 813,
+      "paragraphs": [
+        "SFSIM is a CLI that exports SF symbols as perfect SVG, PDF or PNG files, reaches into private Mac OS APIs of the native symbol renderer, and extracts bit perfect vector paths directly from the OS. All 8,300 plus symbols stay current automatically. Every subcomands JSON output, perfect for agent tool sets, eliminates the tedious open the Mac app and click copy image as workflow."
+      ]
+    },
+    {
+      "start": 813,
+      "title": "ctx",
+      "repositories": [
+        "https://github.com/dchu917/ctx"
+      ],
+      "id": "s033",
+      "end": 841,
+      "paragraphs": [
+        "Juggling multiple tasks in a single clawed code session means context drift. The agent starts forgetting earlier work as newer conversation pushes it out. CTX introduces isolated work streams with exact transcript binding. Branch your AI's memory safely without it jumping to the newest chat on disk. Local SQLite zero API keys. CTX curate opens a Vim keybinding interface to scroll memories, pin important context, and delete junk."
+      ]
+    },
+    {
+      "start": 841,
+      "title": "remoto.el",
+      "repositories": [
+        "https://github.com/agzam/remoto.el"
+      ],
+      "id": "s034",
+      "end": 869,
+      "paragraphs": [
+        "Cloning a repo just to read two files is wasteful. Remoto.el lets you browse remote GitHub repositories natively inside Emacs without cloning. Paste a GitHub URL using your standard find file shortcut and you're in a fully functional dire buffer. Instead of Tramp's remote shell approach, it talks directly to the GitHub REST API via the GH CLI, fetches the entire recursive directory tree in one call, and caches it."
+      ]
+    },
+    {
+      "start": 869,
+      "title": "YourMemory",
+      "repositories": [
+        "https://github.com/sachitrafa/YourMemory"
+      ],
+      "id": "s035",
+      "end": 895,
+      "paragraphs": [
+        "Most AI memory systems accumulate forever. Stale preferences, contradictions, and noise that never gets cleaned up. Your memory applies the Ebinghouse forgetting curve to LLM memory. Failures fade in 11 days. Facts in 24. Strategies in 38. Importance slows the decay. Frequent recalls strengthen memories. Anything below threshold gets pruned automatically."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "What is up developers? Welcome back to GitHub awesome. This is the Hacker News Show, episode 5. We tracked down 34"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "repositories that took over Hacker News lately. Let's get into it."
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "text": "Someone built Woophf.com from the office and it actually works and it just exploded on HackerNews. Woopf is an open-source multi-agent platform that"
+    },
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "text": "spins up a virtual office. CEO, PM, engineers, and designers collaborate, debate, and ship autonomously. A getback"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "shared brain wiki keeps every agent in sync. Telegram bridge lets you DM your AI team from your phone. Dumping raw"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "HTML into an agent's context window is expensive and breaks on every layout change. Labretto is a token efficient"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "browser CLI for coding agents that listens to raw network requests while navigating and autonomously reverse engineers the hidden internal APIs"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "underneath. Your agent converts a slow UI clicking script into a direct API integration in seconds."
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "text": "Vibe coding with AI looks fine until you realize the code is full of edge case bugs, missing tests, and broken lints."
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "No mistakes moves your AI to the git push boundary. Type git push no mistakes and instead of hitting GitHub, the code"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "text": "is intercepted by a local Damon. spins up a disposable work tree, runs pre-commit hooks, and forces an AI agent into a strict QA loop until zero errors."
+    },
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "text": "Switching between LLM providers usually means rewriting SDK code every time. Go model is a go gateway that accepts"
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "text": "standard OpenAI format requests and translates them to Claude, Gemini, or Chat GPT in the background. One integration, every provider. The"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "text": "two-layer cache with semantic vector search is the standout feature."
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "text": "Different wording, same meaning, instant cash hit, zero upstream calls for semantically duplicate requests."
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "Touch ID is convenient until you're at a border crossing where a fingerprint can be legally compelled and a memorized"
+    },
+    {
+      "start": 121.0,
+      "end": 121.0,
+      "text": "password often can't. Panic lock is a lightweight menu bar utility that instantly disables Touch ID and forces"
+    },
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "password only unlock. Trigger it with a hotkey or autot trigger the moment you close your laptop. one keystroke between"
+    },
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "biometric access and something a lawyer might actually protect."
+    },
+    {
+      "start": 141.0,
+      "end": 141.0,
+      "text": "Most Python frameworks were designed for human developers and force AI agents to learn thousands of lines of implicit"
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "conventions. Plane is a Django fork reshaped for the agent era. Native markdown guardrails prevent cla or cursor from making framework mistakes."
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "And built-in skills like /plane optimize and plane upgrade mean the agent already understands the workflow before you write a line of code."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "Standard AI agents analyzing financial data dump raw JSON straight into context and burn through tokens before any"
+    },
+    {
+      "start": 175.0,
+      "end": 175.0,
+      "text": "actual reasoning starts. Lang Alpha uses programmatic tool calling instead. The agent drops into a sandboxed workspace,"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "writes Python to pull market data, crunches numbers with pandas in the background, and returns only the final results to the LLM context."
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "Carpathy's LLM wiki idea turned into a productionready app. Taria is an offline first knowledge base for Mac OS and"
+    },
+    {
+      "start": 199.0,
+      "end": 199.0,
+      "text": "Linux. Plain markdown files in a folder, get backed with autosync, notion style feel, total file ownership. The killer feature is the MCP server registration."
+    },
+    {
+      "start": 211.0,
+      "end": 211.0,
+      "text": "Claude Code and Open Claw read, search, and update your knowledge base directly while you work. Your second brain accessible to every agent in your workflow."
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "Tired of waiting for Humane AI Pin or Rabbit R1 to work? OMI is an open-source AO AI wearable ecosystem, a second brain"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "that listens to conversations, transcribes in real time, and generates meeting summaries automatically. The repo contains the entire stack. C++"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "firmware for custom NRF and ESP32S3 wearables, Flutter mobile app, Python fast API backend, native desktop clients."
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "Tired of wrestling with libvert XML or vagrance Ruby scripts? Holos is docker compose for Kimu KVM virtual machines?"
+    },
+    {
+      "start": 253.0,
+      "end": 253.0,
+      "text": "Just blew up on hacker news? Skips the libvert damon entirely. Define your VM stack and clean YAML. Holos drives Kimu"
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "directly. Rootless socket multiccast L2 networking GPU pass through as a first class primitive SSH health checks before booting the next VM."
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "Super HQ runs every agent inside its own isolated microVM on Mac OS using Apple's virtualization framework. Your projects"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "mount into the VM, but file writes redirect to a temporary overlay, never touching your host. When the agent finishes, you get a unified diff and"
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "explicitly accept changes before anything syncs back. An O gateway injects credentials into API requests on the fly, so the AI never sees your raw keys."
+    },
+    {
+      "start": 297.0,
+      "end": 297.0,
+      "text": "In Physical's agent vault is an HTTP credential proxy using credential brokering. Give your agent a scoped HTTPS proxy URL instead of an API key."
+    },
+    {
+      "start": 307.0,
+      "end": 307.0,
+      "text": "When it calls Stripe or GitHub, Agent Vault intercepts traffic locally, injects your real encrypted key at the network layer, and forwards upstream."
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "The agent never sees the secret. If hijacked, there's nothing to exfiltrate."
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "Letting an AI agent run untrusted code on your host is a massive security risk."
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "Small VM spins up hardware isolated Linux microVMs with sub-second cold starts using libcrun on Apple's hypervisor framework or KVM on Linux."
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "Elastic memory via Versio balloons means the host only commits the RAM the guest actually uses. Spawn dozens of parallel sandboxes without crashing your machine."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Headless Chrome is 200 plus megabytes of RAM and seconds to start for every agent request."
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "Obscura is a headless browser engine written in Rust that speaks Chrome DevTools protocol. So, it's a drop-in replacement. 30 megabytes per tab, boots"
+    },
+    {
+      "start": 361.0,
+      "end": 361.0,
+      "text": "in under 80 milliseconds, built-in stealth mode that bypasses bot detection and defeats Cloudflare turnstyle."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Automating your issue backlog usually means handing your private codebase to a SAS. Broccoli turns linear tickets into"
+    },
+    {
+      "start": 377.0,
+      "end": 377.0,
+      "text": "shipped GitHub PRs. Assign a ticket to the bot and it autonomously plans the architecture, writes the implementation using claude or codecs and opens a"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "reviewable PR. Also acts as an automated reviewer, leaving actionable comments and pushing fixed commits when asked."
+    },
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Context engineering treats organizational knowledge as a versioned engineering artifact."
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "Ingests your architecture decision records, codebase patterns, and docs into a strict operating manual for the"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "AI. Adds an enforcement layer that autonomously validates every line against your standards and self-corrects"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "drift before a human sees the PR. Stops AI coding assistance from generating generic code that violates your internal architecture."
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "Local stack gating the free tier behind accounts and tokens was the kind of move that guarantees a fork. Fakecloud is a drop-in local AWS emulator written in"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "Rust. No accounts, no tokens ever. 19 megabyte binary boots in half a second."
+    },
+    {
+      "start": 439.0,
+      "end": 439.0,
+      "text": "100% conformance across 23 services validated against 59,000 plus generated tests. Real cross-ervice wiring. So S3 uploads actually trigger local lambdas."
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "Someone trained a transformer in HyperTalk, the scripting language Apple shipped with HyperCard in 1987."
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "MacMind is a 1,216 parameter single layer transformer with full self attention and back propagation trained"
+    },
+    {
+      "start": 465.0,
+      "end": 465.0,
+      "text": "on an actual Macintosh SE30 to learn the bit reversal step of the FFT. The point it's making, the same process that"
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "trains GPT4 ran on a 1989 Hypercard stack."
+    },
+    {
+      "start": 478.0,
+      "end": 478.0,
+      "text": "Vibe coding breaks fast when your agent runs a destructive command by accident."
+    },
+    {
+      "start": 483.0,
+      "end": 483.0,
+      "text": "VTC code is a semantic AI coding agent written in Rust that runs natively in the terminal. Hooks into OpenAI,"
+    },
+    {
+      "start": 490.0,
+      "end": 490.0,
+      "text": "Anthropic or local Alama models. Human in the loop shell safety physically stops destructive commands before they"
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "execute. Automatic API failover reroutes to Gemini or Open Router the moment your primary provider goes down."
+    },
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "Pasting longived API keys into NV files or AI chat windows is a massive security mistake. Context-le is a security token"
+    },
+    {
+      "start": 514.0,
+      "end": 514.0,
+      "text": "service for AI agents. Give your agent a placeholder instead of a god mode key."
+    },
+    {
+      "start": 519.0,
+      "end": 519.0,
+      "text": "Run context start and an RFC 8693 token exchange fetches short-lived scoped credentials and injects them into your agents memory. The real secret never"
+    },
+    {
+      "start": 528.0,
+      "end": 528.0,
+      "text": "hits disk. Session ends, credentials expire instantly. Nothing to revoke."
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "Most AI memory systems dump embeddings and hope the right ones surface. Yantric DB models human memory instead. Memories"
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "decay over time. Similar ones consolidate automatically and contradictions get flagged instantly."
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "Selective recall keeps queries around 70 Toni tokens even with 5,000 memories stored. Built-in Rust ships as a single"
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "binary with an MCP server for clawed code included."
+    },
+    {
+      "start": 560.0,
+      "end": 560.0,
+      "text": "Doors is a serverdriven UI framework that lets you build stateful reactive web apps entirely in Go. The framework handles state sync between server and browser over an HTTP3 ready protocol."
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "Zero public API endpoints. Reactive primitives, parallel rendering, custom concurrency engine. Bundle the entire"
+    },
+    {
+      "start": 579.0,
+      "end": 579.0,
+      "text": "stack into one deployable binary. Full stack web development without leaving Go."
+    },
+    {
+      "start": 586.0,
+      "end": 586.0,
+      "text": "Reading raw markdown in the terminal with cat is brutal. Leaf is a blazing fast terminal markdown previewer in Rust. Interactive table of content"
+    },
+    {
+      "start": 594.0,
+      "end": 594.0,
+      "text": "sidebar syntax highlighting latte equations rendered in Unicode. Watch mode hot reloads in 250 millise when you"
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "save in neovim. Pipe cloud outputs straight in and read it with perfect formatting. AI agents produce a lot of markdown."
+    },
+    {
+      "start": 611.0,
+      "end": 611.0,
+      "text": "Reading it raw in the terminal is genuinely unpleasant. Marky is a lightweight desktop markdown viewer built for exactly this. Type marquee in"
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "a file name and an Obsidian style workspace opens. As your agent writes to disk, it live reloads instantly. Command K. Fuzzy search, shaky syntax"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "highlighting, mermaid diagrams, KEX math."
+    },
+    {
+      "start": 631.0,
+      "end": 631.0,
+      "text": "Plain text embedding sitting unencrypted in cloud vector databases is a quiet privacy risk most rag pipelines just"
+    },
+    {
+      "start": 638.0,
+      "end": 638.0,
+      "text": "accept. X-trace embeds locally, encrypts text with AES 256, and encrypts vectors"
+    },
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "with Pier homorphic encryption. The server runs nearest neighbor similarity search directly on the encrypted vectors"
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "without ever decryting them. Results come back, your machine decrypts locally. Keys never leave your laptop."
+    },
+    {
+      "start": 660.0,
+      "end": 660.0,
+      "text": "Pop-up notifications are easy to miss. A keyboard that physically flashes is harder to ignore. Backlit KBD is a"
+    },
+    {
+      "start": 668.0,
+      "end": 668.0,
+      "text": "Python package that programmatically controls your Linux laptop's keyboard backlight. Adjust brightness, create custom blink patterns, script your"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "keyboard to flash when a website goes down, or blink when CI/CD fails, notification system that bypasses your eyes entirely."
+    },
+    {
+      "start": 685.0,
+      "end": 685.0,
+      "text": "Lean for's built-in tactics hit a wall on complex polomial inequalities. Liner and positivity just fail and leave you"
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "stuck. So, Stactic offloads the hard cases to a Python backend running CVXPI, solves the problem as a convex"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "semi-definite program, exactifies the numerical result, and feeds a mathematically sound proof back into Lean. Global non- negativity proofs and"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "algebraic inequalities that native Lean can't handle handled."
+    },
+    {
+      "start": 713.0,
+      "end": 713.0,
+      "text": "Cartoon Studio is an open-source electron app that automates 2D animation end to end. Drop SVG characters onto a"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "backdrop. Type your script. Assign AI voices. It generates audio via Jelly Pod Speech SDK. Calculates word timestamps."
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "Lip syncs character mouth cues with hyperframes and renders to MP4. Local first zero telemetry. Bring your own API keys."
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "Here is an open source local AWS emulator written in Rust for lightning fast integration testing. An alternative to local stack. First release targets"
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "SQS. Signed AWS SDK requests hit a local endpoint Q state stored offline in SQLite. Four megabyte docker image"
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "instant startup full SIG v4 off plus a debug friendly web UI to inspect cues and messages."
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "Crossplatform desktop development means electron bloat or C++ tool chain pane."
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "Gova builds native desktop apps for Mac OS, Windows and Linux from a single Go codebase. No JavaScript runtime, no"
+    },
+    {
+      "start": 773.0,
+      "end": 773.0,
+      "text": "embedded browser, pure declarative ghostrs that compile to a single static binary with access to real native platform features like Mac OS system"
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "dialogues. Hot reload via the Govadeev CLI with UI state preserved between reloads."
+    },
+    {
+      "start": 787.0,
+      "end": 787.0,
+      "text": "SFSIM is a CLI that exports SF symbols as perfect SVG, PDF or PNG files, reaches into private Mac OS APIs of the"
+    },
+    {
+      "start": 796.0,
+      "end": 796.0,
+      "text": "native symbol renderer, and extracts bit perfect vector paths directly from the OS. All 8,300 plus symbols stay current"
+    },
+    {
+      "start": 803.0,
+      "end": 803.0,
+      "text": "automatically. Every subcomands JSON output, perfect for agent tool sets, eliminates the tedious open the Mac app and click copy image as workflow."
+    },
+    {
+      "start": 813.0,
+      "end": 813.0,
+      "text": "Juggling multiple tasks in a single clawed code session means context drift."
+    },
+    {
+      "start": 818.0,
+      "end": 818.0,
+      "text": "The agent starts forgetting earlier work as newer conversation pushes it out. CTX introduces isolated work streams with"
+    },
+    {
+      "start": 825.0,
+      "end": 825.0,
+      "text": "exact transcript binding. Branch your AI's memory safely without it jumping to the newest chat on disk. Local SQLite"
+    },
+    {
+      "start": 832.0,
+      "end": 832.0,
+      "text": "zero API keys. CTX curate opens a Vim keybinding interface to scroll memories, pin important context, and delete junk."
+    },
+    {
+      "start": 841.0,
+      "end": 841.0,
+      "text": "Cloning a repo just to read two files is wasteful. Remoto.el lets you browse remote GitHub repositories natively"
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "inside Emacs without cloning. Paste a GitHub URL using your standard find file shortcut and you're in a fully functional dire buffer. Instead of"
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "Tramp's remote shell approach, it talks directly to the GitHub REST API via the GH CLI, fetches the entire recursive"
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "directory tree in one call, and caches it."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "Most AI memory systems accumulate forever. Stale preferences, contradictions, and noise that never gets cleaned up. Your memory applies the"
+    },
+    {
+      "start": 877.0,
+      "end": 877.0,
+      "text": "Ebinghouse forgetting curve to LLM memory. Failures fade in 11 days. Facts in 24. Strategies in 38. Importance"
+    },
+    {
+      "start": 885.0,
+      "end": 885.0,
+      "text": "slows the decay. Frequent recalls strengthen memories. Anything below threshold gets pruned automatically."
+    }
+  ]
+}

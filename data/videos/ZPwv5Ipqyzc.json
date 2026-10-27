@@ -1,0 +1,1027 @@
+{
+  "schema_version": 1,
+  "id": "ZPwv5Ipqyzc",
+  "title": "GitHub Trending Weekly #34: workshop, forkd, HRM-Text, codegraph, ELF, ASCII-Aquarium, mailflare",
+  "url": "https://www.youtube.com/watch?v=ZPwv5Ipqyzc",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-05-28",
+  "duration": 916,
+  "word_count": 2304,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-27T12:27:22+00:00",
+    "metadata_sha256": "eeebf8c6dc024763bada7d54636a8b7ffd85a5e004c7de6ceec17a648236f07f",
+    "captions_sha256": "9e11f8ab514ac0f01adddecf0caf7416a21f80595c678f513301871892f1144a",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 34. 35 trending open source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "workshop",
+      "repositories": [
+        "https://github.com/raindrop-ai/workshop"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Raindrop Workshop is a local debugger for AI agents. Run instrument agent in cloud codecs or cursor and every token tool call and span from your agent streams into a local UI the moment it happens. Claude code can then read those traces, write evals against your codebase, and run a self-healing loop. Write the eval, run the agent, see the failure, fix the code, repeat until it passes."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "forkd",
+      "repositories": [
+        "https://github.com/deeplethe/forkd"
+      ],
+      "id": "s003",
+      "end": 62,
+      "paragraphs": [
+        "Spinning up a fresh firecracker microVM for every AI agent task takes seconds. Fork cuts that 101 milliseconds. It keeps a warmed parent microVM ready, then forks it on demand using Linux user fault FD and copy on write memory, so new sandboxes inherit the full warm state instantly. Each fork is fully isolated, costs almost no extra RAM while idle, and tears down cleanly after use."
+      ]
+    },
+    {
+      "start": 62,
+      "title": "HRM-Text",
+      "repositories": [
+        "https://github.com/sapientinc/HRM-Text"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "Training a foundation model from scratch used to mean millions in compute. HRM text does it for about $1,000. It's a 1B parameter model built on a hierarchical recurrent architecture with latent space reasoning and the claim is 130 to 600 times less compute than comparable transformers. The 1B reference run takes 16 H100s in 46 hours."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "codegraph",
+      "repositories": [
+        "https://github.com/colbymchenry/codegraph"
+      ],
+      "id": "s005",
+      "end": 113,
+      "paragraphs": [
+        "Claude code burns tokens reading files it doesn't need because it has no structural understanding of your codebase. Code graph fixes that. It pre-indexes your repo into a knowledge graph. So Claude code knows which functions call what, where types are defined, and how your modules connect before touching a single file. Fewer tool calls, fewer wasted tokens, 100% local."
+      ]
+    },
+    {
+      "start": 113,
+      "title": "ELF",
+      "repositories": [
+        "https://github.com/lillian039/ELF"
+      ],
+      "id": "s006",
+      "end": 138,
+      "paragraphs": [
+        "ELF is a diffusion language model from MIT Cale that generates text by denoising in continuous embedding space rather than over discrete tokens. It only maps back to actual words at the final step, which makes classifier free guidance straightforward to apply. Three model sizes 105mm, 342mm, and 652mm. Pre-trained checkpoints on hugging face, Jack's implementation on TPU."
+      ]
+    },
+    {
+      "start": 138,
+      "title": "make-pages-interactive",
+      "repositories": [
+        "https://github.com/paraschopra/make-pages-interactive"
+      ],
+      "id": "s007",
+      "end": 165,
+      "paragraphs": [
+        "Say, make these pages interactive in Claude code, and every HTML file in your directory becomes a live commenting surface. Highlight text, click an element, leave a note. Claude reads the inbox, edits the page, and auto reloads with a walkthrough of what changed. A 250line steadlib Python server handles it. Shuts itself down when you close the window. Built for HTML research reports. Works for anything. Got a cheap yellow display collecting dust? Flash it with asy aquarium. It turns the ESP 32320x240"
+      ]
+    },
+    {
+      "start": 165,
+      "title": "ASCII-Aquarium",
+      "repositories": [
+        "https://github.com/POWER-PILL/ASCII-Aquarium"
+      ],
+      "id": "s008",
+      "end": 192,
+      "paragraphs": [
+        "touchscreen into a live fish tank rendered entirely in asy characters. Fish that school and wander bubbles swaying seaweed. Occasional octopus and seahorse visitors tap to feed. Wi-Fi NTP clock sync, persistent settings, SD card screenshots, no water changes, browser flasher, no IDE required."
+      ]
+    },
+    {
+      "start": 192,
+      "title": "mailflare",
+      "repositories": [
+        "https://github.com/hieunc229/mailflare"
+      ],
+      "id": "s009",
+      "end": 217,
+      "paragraphs": [
+        "Mailflare is a self-hosted email platform built entirely on Cloudflare workers D1 and Cloudflare email routing. Add a domain you already have on Cloudflare. Create mailboxes and it wires up the MX SPF, DKIM, and routing rules automatically through the API. inbox sent drafts spam trash pop-up composer with autosave drafts. Next.js front end via open next one-click deploy button. QML is the go-to GPU library for classical ML operators, but on Hopper GPUs, it leaves a lot on the table."
+      ]
+    },
+    {
+      "start": 217,
+      "title": "flashlib",
+      "repositories": [
+        "https://github.com/FlashML-org/flashlib"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "Flash lib from researchers at Berkeley and MIT rebuilds those primitives from scratch. Kins runs 26 times faster, KN&N 19 times, HDB scan 40 times, truncated SVD 208 times. The flash lib.info Info API predicts runtime, flops, and memory usage in 5 microsconds on CPU. No GPU profiling needed. MDX let you drop React"
+      ]
+    },
+    {
+      "start": 244,
+      "title": "mdxg",
+      "repositories": [
+        "https://github.com/vercel-labs/mdxg"
+      ],
+      "id": "s011",
+      "end": 271,
+      "paragraphs": [
+        "components into Markdown, but it's tied to the JavaScript ecosystem. MDXG from Versel Labs aims higher. It's a spec for markdown presentation and interaction, a portable way to describe how a markdown document should render and respond to input independent of any one framework. Think of it as defining the contract. So the same interactive document works across different renderers."
+      ]
+    },
+    {
+      "start": 271,
+      "title": "PiD",
+      "repositories": [
+        "https://github.com/nv-tlabs/PiD"
+      ],
+      "id": "s012",
+      "end": 301,
+      "paragraphs": [
+        "Every latent diffusion pipeline ends the same way. VAE decode to a soft 5 and2 px image, then a separate super resolution pass to get to 2K. NVIDIA's PID kills that two-step cascade. It's a plug-and-play pixel diffusion decoder that converts latence directly to 2048 x 2048 pixels in a single generative pass under 1 second on an RTX5090 210 milliseconds on a GB200. Six times faster than cascaded pipelines."
+      ]
+    },
+    {
+      "start": 301,
+      "title": "Agent-HTML",
+      "repositories": [
+        "https://github.com/Sayhi-bzb/Agent-HTML"
+      ],
+      "id": "s013",
+      "end": 325,
+      "paragraphs": [
+        "When an AI agent dumps a giant wall of markdown at you, it's hard to scan, impossible to interact with, and it rerenders from scratch every time. Agent HTML is a semantic HTML architecture designed for human agent collaboration, replacing those long markdown blobs with stable interactive artifacts the agent can update in place instead of regenerating wholesale."
+      ]
+    },
+    {
+      "start": 325,
+      "title": "openbrief",
+      "repositories": [
+        "https://github.com/tantara/openbrief"
+      ],
+      "id": "s014",
+      "end": 352,
+      "paragraphs": [
+        "You save dozens of videos and podcasts to watch later and never get through any of them. Open Brief turns that backlog into something you can actually use. It's a local first desktop app built on Tori that imports any video or audio file or URL, transcribes it on device, then generates a grounded blog style summary with timestamp takeaways. Chat with the transcript, ask questions, even turn the summary back into audio."
+      ]
+    },
+    {
+      "start": 352,
+      "title": "taste",
+      "repositories": [
+        "https://github.com/jaytel0/taste"
+      ],
+      "id": "s015",
+      "end": 376,
+      "paragraphs": [
+        "Taste turns a folder of reference images into a skill.md your AI agent can actually use. Drop in up to 20 screenshots and a two model vision pipeline reads layout, spacing, color, type, and hierarchy. Fuses the analyses and writes concrete rules, not make it premium. Actual constraints like keep accent color localized and avoid beige luxury defaults."
+      ]
+    },
+    {
+      "start": 376,
+      "title": "adhd",
+      "repositories": [
+        "https://github.com/UditAkhourii/adhd"
+      ],
+      "id": "s016",
+      "end": 402,
+      "paragraphs": [
+        "Coding agents are great at converging on the obvious answer and terrible at the weird lateral idea that actually solves your problem. ADHD is built to fix that. It's a skill for coding agents built on the claude agent SDK that runs tree of thought with pruning. It fans out parallel divergent thoughts under different cognitive frames, scores each one, prunes the dead ends and deepens the survivors."
+      ]
+    },
+    {
+      "start": 402,
+      "title": "PhenoPixel",
+      "repositories": [
+        "https://github.com/ikeda042/PhenoPixel"
+      ],
+      "id": "s017",
+      "end": 430,
+      "paragraphs": [
+        "Phenopixel is a single cell microscopy analysis platform deployed at Hiroshima University. Upload a Nikon ND2 file, configure canny parameters, and it extracts every cell contour using PCA based axis alignment and convexity scoring to separate real cells from debris. From there, length measurements at 065 microns per pixel, fluorescent heat maps along the fitted center line, batch analytics across the whole population."
+      ]
+    },
+    {
+      "start": 430,
+      "title": "auth.md",
+      "repositories": [
+        "https://github.com/workos/auth.md"
+      ],
+      "id": "s018",
+      "end": 459,
+      "paragraphs": [
+        "We have robots.txt to tell crawlers what they can access. We have nothing to tell AI agents how to sign up for a service on your behalf. Work OS just proposed a fix. OMD is an open protocol that lets agents register for services for their users discovered through a single markdown file at your domain. Drop an O.MD at your root and any compliant agent can read how to create an account, what scopes it needs, and how to authenticate."
+      ]
+    },
+    {
+      "start": 459,
+      "title": "ShadowCat",
+      "repositories": [
+        "https://github.com/unprovable/ShadowCat"
+      ],
+      "id": "s019",
+      "end": 485,
+      "paragraphs": [
+        "Shadowcat transfers files between two devices using light. One screen encodes the file as a stream of optical codes. The other device points its camera at the screen to read the data back. Single HTML file, no install, no server, runs entirely in the browser on both ends. Genuinely useful for air gap machines or any situation where two devices can see each other but can't share a network. If"
+      ]
+    },
+    {
+      "start": 485,
+      "title": "tuie",
+      "repositories": [
+        "https://github.com/jake-stewart/tuie"
+      ],
+      "id": "s020",
+      "end": 509,
+      "paragraphs": [
+        "you've built terminal UIs in Rust, you've probably used Ratatouille and hit its immediate mode walls on anything complex. TUI takes a different approach. It's a rich, performant TUI library for Rust built for real applications, not just dashboards. Proper widgets, layout, and event handling designed to scale up to genuinely complex terminal interfaces without fighting the framework."
+      ]
+    },
+    {
+      "start": 509,
+      "title": "PilotDeck",
+      "repositories": [
+        "https://github.com/OpenBMB/PilotDeck"
+      ],
+      "id": "s021",
+      "end": 532,
+      "paragraphs": [
+        "Most AI agent platforms either do open-ended chat or rigid automation with nothing in between. Pilot Deck from Open BMBB sits in that gap. It's a taskoriented agent productivity platform built around getting actual work done, not just conversation. You define the task, the agent plans and executes it across tools, and you stay in control of the outcome."
+      ]
+    },
+    {
+      "start": 532,
+      "title": "av-curator",
+      "repositories": [
+        "https://github.com/henliveira/av-curator"
+      ],
+      "id": "s022",
+      "end": 557,
+      "paragraphs": [
+        "Training or fine-tuning a video model means wrangling terabytes of messy web footage, and most of it is garbage you don't want in your data set. AV curator does the cleanup. It's an audiovisisual data visual data curation pipeline that detects scene cuts, trims silence, removes duplicates, and filters clips using clip and whisper. So only the clips that actually match your criteria survive."
+      ]
+    },
+    {
+      "start": 557,
+      "title": "wha-spell-simulator",
+      "repositories": [
+        "https://github.com/ytnrvdf/wha-spell-simulator"
+      ],
+      "id": "s023",
+      "end": 583,
+      "paragraphs": [
+        "If you've read Witch Hat atelier, you know magic in that world isn't waving a wand. It's drawing precise glyphs and getting them wrong has consequences. This fan-made browser project turns that idea into an actual simulator. Draw spell glyphs in your browser, see how they resolve, and experiment with the runebased magic system from the series. Pure client side, no install. Just open it and start drawing."
+      ]
+    },
+    {
+      "start": 583,
+      "title": "SAM3DBody-cpp",
+      "repositories": [
+        "https://github.com/AmmarkoV/SAM3DBody-cpp"
+      ],
+      "id": "s024",
+      "end": 606,
+      "paragraphs": [
+        "Real motion capture means a room full of cameras and a suit covered in markers. SAM 3D body CP does it from a single webcam. It's a C++ runtime for real-time 3D full body reconstruction running on ONX and GGML that outputs a 70 joint skeleton including the hands. No GPU farm, no special hardware, just one camera and native C++ performance."
+      ]
+    },
+    {
+      "start": 606,
+      "title": "triton-llm-kernel-lab",
+      "repositories": [
+        "https://github.com/zengxiao-he/triton-llm-kernel-lab"
+      ],
+      "id": "s025",
+      "end": 635,
+      "paragraphs": [
+        "Writing fast GPU kernels for LLM sounds like dark magic until someone shows you the code. Triton-lm kernel-l is that someone? It's a hands-on lab for learning to write Triton kernels. The same approach behind flash attention and liger kernel where you fuse operations and tile data to dodge the GPU memory bottleneck. Work through the implementations, benchmark them against PyTorch, and actually understand why your training runs are slow."
+      ]
+    },
+    {
+      "start": 635,
+      "title": "agent-oss",
+      "repositories": [
+        "https://github.com/quarqlabs/agent-oss"
+      ],
+      "id": "s026",
+      "end": 658,
+      "paragraphs": [
+        "Agent O is a memory native cognitive runtime for AI agents built around an evidencegated loop. So the agent has to back its reasoning with retrieved facts instead of confidently making things up. hybrid retrieval, temporal reasoning so it understands when things happened, async learning that updates memory in the background, and plugandplay tools."
+      ]
+    },
+    {
+      "start": 658,
+      "title": "OpenPixel-RPG",
+      "repositories": [
+        "https://github.com/tensor2023/OpenPixel-RPG"
+      ],
+      "id": "s027",
+      "end": 683,
+      "paragraphs": [
+        "What if you could turn your own neighborhood into a JRPG? Open Pixel RPG does exactly that. Feed it any address or a photo, describe the art style you want, and it generates a complete interactive pixel art world to explore, populated with AI generated NPCs based on that real location. Userenerated worlds, classic JRPG feel, modern generative AI doing the heavy lifting underneath."
+      ]
+    },
+    {
+      "start": 683,
+      "title": "tmux-palette",
+      "repositories": [
+        "https://github.com/eduwass/tmux-palette"
+      ],
+      "id": "s028",
+      "end": 711,
+      "paragraphs": [
+        "If you live in T-Max, you've memorized a dozen prefix shortcuts and still forget half of them. T-Max pallet gives you a raycast style command pallet instead. Hit a key, fuzzy search every action, hit enter, switch sessions, jump windows, run your custom commands, all from one searchable list. It's fast, fully scriptable, and easy to extend with your own entries. So, the actions you actually use are one search away instead of buried in a cheat sheet."
+      ]
+    },
+    {
+      "start": 711,
+      "title": "linux-devmgmt",
+      "repositories": [
+        "https://github.com/actuallyaridan/linux-devmgmt"
+      ],
+      "id": "s029",
+      "end": 733,
+      "paragraphs": [
+        "Someone rebuilt Windows Device Manager on Linux, and it actually reads real hardware data. QT6 front end, CISFS, and Procfus backends, full device tree by type, per device properties dialogue with general, driver details, and resources tabs. Enable and disable via kernel module blacklisting, DKMS driver uninstall. built for Arch and Cashios."
+      ]
+    },
+    {
+      "start": 733,
+      "title": "orthrus",
+      "repositories": [
+        "https://github.com/chiennv2000/orthrus"
+      ],
+      "id": "s030",
+      "end": 758,
+      "paragraphs": [
+        "Diffusion language models can decode multiple tokens in parallel, but they usually trade away accuracy to do it. Orthus refuses that trade-off. It's a fast lossless LLM inference method built on dual view diffusion decoding where two views cross-check each other so you get the speed up of parallel generation without drifting from what the model would have produced token by token."
+      ]
+    },
+    {
+      "start": 758,
+      "title": "mykonos-island-voxels",
+      "repositories": [
+        "https://github.com/boona13/mykonos-island-voxels"
+      ],
+      "id": "s031",
+      "end": 784,
+      "paragraphs": [
+        "Sometimes the best side project isn't useful at all. It just feels nice. Macos Island Voxels is exactly that. A browserbased isometric island builder with the soft sun bleached pallet of a Greek island, white buildings, blue domes, that hazy summer light. Place voxal tiles, grow your own little island, and just zone out. It's pure vanilla ES modules. No bundler, no buildep, and it works on mobile."
+      ]
+    },
+    {
+      "start": 784,
+      "title": "AirTranslate",
+      "repositories": [
+        "https://github.com/himomohi/AirTranslate"
+      ],
+      "id": "s032",
+      "end": 811,
+      "paragraphs": [
+        "Watching a foreign language lecture stream or meeting on your Mac and routing the audio through a mic just to translate it is a pain. Air translate skips that entirely. It captures your Mac's system audio directly with Screen Capture Kit, turns it into a live transcript, translates it in real time, and shows the result as a floating caption overlay. Apple mode runs on device with no account and no servers."
+      ]
+    },
+    {
+      "start": 811,
+      "title": "piia-engram",
+      "repositories": [
+        "https://github.com/Patdolitse/piia-engram"
+      ],
+      "id": "s033",
+      "end": 835,
+      "paragraphs": [
+        "Every AI tool you use keeps its own siloed memory. So Claude doesn't know what you told cursor and cursor doesn't know what you told chat GPT. Py engram fixes that. One local first memory store MCP compatible that every AI tool can read from and write to. Your context, preferences, and history live in one place you actually own, not scattered across a dozen vendor databases."
+      ]
+    },
+    {
+      "start": 835,
+      "title": "btype",
+      "repositories": [
+        "https://github.com/tidwall/btype"
+      ],
+      "id": "s034",
+      "end": 862,
+      "paragraphs": [
+        "Go's built-in map is great until you need your keys in sorted order and then you're hand rolling a tree or sorting on every iteration. Btype is a set of B treebased collection types for go ordered maps and sets that keep your data sorted automatically with fast lookups, inserts, and range scans. Generic so they're type safe and from Tidwall the developer behind Bunt DB and the popular Go Bree package."
+      ]
+    },
+    {
+      "start": 862,
+      "title": "can-i-finetune-this",
+      "repositories": [
+        "https://github.com/DaoyuanLi2816/can-i-finetune-this"
+      ],
+      "id": "s035",
+      "end": 885,
+      "paragraphs": [
+        "You find a promising model on hugging face, kick off a fine-tune, and 20 minutes in it crashes without memory. That can I fine-tune this saves you that pain. Point it at any hugging face model and your local GPU, and it estimates up front whether the model fits and whether you can actually fine-tune it, full fine-tune or Laura, before you download a single weight."
+      ]
+    },
+    {
+      "start": 885,
+      "title": "ClickLight",
+      "repositories": [
+        "https://github.com/aurorascharff/ClickLight"
+      ],
+      "id": "s036",
+      "end": 916,
+      "paragraphs": [
+        "You're recording a screencast or doing a live demo and nobody watching can tell where you're actually clicking. Click fixes that. It's a tiny native Mac OS menu bar app that highlights every click anywhere on your Mac so your taps show up clearly on screen. No Electron, no bloat, just a small native Swift app that sits in your menu bar and does one thing well. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 34. 35 trending open source projects on GitHub right now. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Raindrop Workshop is a local debugger for AI agents. Run instrument agent in cloud codecs or cursor and every token"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "tool call and span from your agent streams into a local UI the moment it happens. Claude code can then read those traces, write evals against your codebase, and run a self-healing loop."
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "Write the eval, run the agent, see the failure, fix the code, repeat until it passes."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Spinning up a fresh firecracker microVM for every AI agent task takes seconds."
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "text": "Fork cuts that 101 milliseconds. It keeps a warmed parent microVM ready, then forks it on demand using Linux user"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "text": "fault FD and copy on write memory, so new sandboxes inherit the full warm state instantly. Each fork is fully isolated, costs almost no extra RAM"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "while idle, and tears down cleanly after use."
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "Training a foundation model from scratch used to mean millions in compute. HRM text does it for about $1,000. It's a 1B"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "parameter model built on a hierarchical recurrent architecture with latent space reasoning and the claim is 130 to 600"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "text": "times less compute than comparable transformers. The 1B reference run takes 16 H100s in 46 hours."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Claude code burns tokens reading files it doesn't need because it has no structural understanding of your codebase. Code graph fixes that. It"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "pre-indexes your repo into a knowledge graph. So Claude code knows which functions call what, where types are defined, and how your modules connect"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "before touching a single file. Fewer tool calls, fewer wasted tokens, 100% local."
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "text": "ELF is a diffusion language model from MIT Cale that generates text by denoising in continuous embedding space rather than over discrete tokens. It"
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "only maps back to actual words at the final step, which makes classifier free guidance straightforward to apply. Three model sizes 105mm, 342mm, and 652mm."
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "Pre-trained checkpoints on hugging face, Jack's implementation on TPU."
+    },
+    {
+      "start": 138.0,
+      "end": 138.0,
+      "text": "Say, make these pages interactive in Claude code, and every HTML file in your directory becomes a live commenting surface. Highlight text, click an"
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "element, leave a note. Claude reads the inbox, edits the page, and auto reloads with a walkthrough of what changed. A"
+    },
+    {
+      "start": 155.0,
+      "end": 155.0,
+      "text": "250line steadlib Python server handles it. Shuts itself down when you close the window. Built for HTML research reports."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Works for anything. Got a cheap yellow display collecting dust? Flash it with asy aquarium. It turns the ESP 32320x240"
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "touchscreen into a live fish tank rendered entirely in asy characters."
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "Fish that school and wander bubbles swaying seaweed. Occasional octopus and seahorse visitors tap to feed. Wi-Fi NTP"
+    },
+    {
+      "start": 183.0,
+      "end": 183.0,
+      "text": "clock sync, persistent settings, SD card screenshots, no water changes, browser flasher, no IDE required."
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "Mailflare is a self-hosted email platform built entirely on Cloudflare workers D1 and Cloudflare email routing."
+    },
+    {
+      "start": 199.0,
+      "end": 199.0,
+      "text": "Add a domain you already have on Cloudflare. Create mailboxes and it wires up the MX SPF, DKIM, and routing rules automatically through the API."
+    },
+    {
+      "start": 208.0,
+      "end": 208.0,
+      "text": "inbox sent drafts spam trash pop-up composer with autosave drafts. Next.js front end via open next one-click deploy"
+    },
+    {
+      "start": 215.0,
+      "end": 215.0,
+      "text": "button. QML is the go-to GPU library for classical ML operators, but on Hopper GPUs, it leaves a lot on the table."
+    },
+    {
+      "start": 223.0,
+      "end": 223.0,
+      "text": "Flash lib from researchers at Berkeley and MIT rebuilds those primitives from scratch. Kins runs 26 times faster, KN&N"
+    },
+    {
+      "start": 230.0,
+      "end": 230.0,
+      "text": "19 times, HDB scan 40 times, truncated SVD 208 times. The flash lib.info Info API predicts runtime, flops, and memory"
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "usage in 5 microsconds on CPU. No GPU profiling needed. MDX let you drop React"
+    },
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "components into Markdown, but it's tied to the JavaScript ecosystem. MDXG from Versel Labs aims higher. It's a spec for"
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "markdown presentation and interaction, a portable way to describe how a markdown document should render and respond to input independent of any one framework."
+    },
+    {
+      "start": 264.0,
+      "end": 264.0,
+      "text": "Think of it as defining the contract. So the same interactive document works across different renderers."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Every latent diffusion pipeline ends the same way. VAE decode to a soft 5 and2 px image, then a separate super resolution"
+    },
+    {
+      "start": 279.0,
+      "end": 279.0,
+      "text": "pass to get to 2K. NVIDIA's PID kills that two-step cascade. It's a plug-and-play pixel diffusion decoder"
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "that converts latence directly to 2048 x 2048 pixels in a single generative pass under 1 second on an RTX5090 210"
+    },
+    {
+      "start": 295.0,
+      "end": 295.0,
+      "text": "milliseconds on a GB200. Six times faster than cascaded pipelines."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "When an AI agent dumps a giant wall of markdown at you, it's hard to scan, impossible to interact with, and it"
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "rerenders from scratch every time. Agent HTML is a semantic HTML architecture designed for human agent collaboration,"
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "replacing those long markdown blobs with stable interactive artifacts the agent can update in place instead of regenerating wholesale."
+    },
+    {
+      "start": 325.0,
+      "end": 325.0,
+      "text": "You save dozens of videos and podcasts to watch later and never get through any of them. Open Brief turns that backlog into something you can actually use."
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "It's a local first desktop app built on Tori that imports any video or audio file or URL, transcribes it on device,"
+    },
+    {
+      "start": 342.0,
+      "end": 342.0,
+      "text": "then generates a grounded blog style summary with timestamp takeaways. Chat with the transcript, ask questions, even turn the summary back into audio."
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "Taste turns a folder of reference images into a skill.md your AI agent can actually use. Drop in up to 20 screenshots and a two model vision"
+    },
+    {
+      "start": 361.0,
+      "end": 361.0,
+      "text": "pipeline reads layout, spacing, color, type, and hierarchy. Fuses the analyses and writes concrete rules, not make it"
+    },
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "premium. Actual constraints like keep accent color localized and avoid beige luxury defaults."
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "Coding agents are great at converging on the obvious answer and terrible at the weird lateral idea that actually solves your problem. ADHD is built to fix that."
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "It's a skill for coding agents built on the claude agent SDK that runs tree of thought with pruning. It fans out parallel divergent thoughts under"
+    },
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "different cognitive frames, scores each one, prunes the dead ends and deepens the survivors."
+    },
+    {
+      "start": 402.0,
+      "end": 402.0,
+      "text": "Phenopixel is a single cell microscopy analysis platform deployed at Hiroshima University. Upload a Nikon ND2 file,"
+    },
+    {
+      "start": 409.0,
+      "end": 409.0,
+      "text": "configure canny parameters, and it extracts every cell contour using PCA based axis alignment and convexity scoring to separate real cells from"
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "debris. From there, length measurements at 065 microns per pixel, fluorescent heat maps along the fitted center line,"
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "batch analytics across the whole population."
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "We have robots.txt to tell crawlers what they can access. We have nothing to tell AI agents how to sign up for a service"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "on your behalf. Work OS just proposed a fix."
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "OMD is an open protocol that lets agents register for services for their users discovered through a single markdown"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "file at your domain. Drop an O.MD at your root and any compliant agent can read how to create an account, what scopes it needs, and how to authenticate."
+    },
+    {
+      "start": 459.0,
+      "end": 459.0,
+      "text": "Shadowcat transfers files between two devices using light. One screen encodes the file as a stream of optical codes."
+    },
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "The other device points its camera at the screen to read the data back. Single HTML file, no install, no server, runs entirely in the browser on both ends."
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Genuinely useful for air gap machines or any situation where two devices can see each other but can't share a network. If"
+    },
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "you've built terminal UIs in Rust, you've probably used Ratatouille and hit its immediate mode walls on anything complex. TUI takes a different approach."
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "It's a rich, performant TUI library for Rust built for real applications, not just dashboards. Proper widgets, layout,"
+    },
+    {
+      "start": 501.0,
+      "end": 501.0,
+      "text": "and event handling designed to scale up to genuinely complex terminal interfaces without fighting the framework."
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "Most AI agent platforms either do open-ended chat or rigid automation with nothing in between. Pilot Deck from Open"
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "BMBB sits in that gap. It's a taskoriented agent productivity platform built around getting actual work done,"
+    },
+    {
+      "start": 524.0,
+      "end": 524.0,
+      "text": "not just conversation. You define the task, the agent plans and executes it across tools, and you stay in control of the outcome."
+    },
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "Training or fine-tuning a video model means wrangling terabytes of messy web footage, and most of it is garbage you don't want in your data set. AV curator"
+    },
+    {
+      "start": 541.0,
+      "end": 541.0,
+      "text": "does the cleanup. It's an audiovisisual data visual data curation pipeline that detects scene cuts, trims silence,"
+    },
+    {
+      "start": 548.0,
+      "end": 548.0,
+      "text": "removes duplicates, and filters clips using clip and whisper. So only the clips that actually match your criteria survive."
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "If you've read Witch Hat atelier, you know magic in that world isn't waving a wand. It's drawing precise glyphs and getting them wrong has consequences."
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "This fan-made browser project turns that idea into an actual simulator. Draw spell glyphs in your browser, see how"
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "they resolve, and experiment with the runebased magic system from the series."
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "Pure client side, no install. Just open it and start drawing."
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Real motion capture means a room full of cameras and a suit covered in markers."
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "SAM 3D body CP does it from a single webcam. It's a C++ runtime for real-time 3D full body reconstruction running on"
+    },
+    {
+      "start": 595.0,
+      "end": 595.0,
+      "text": "ONX and GGML that outputs a 70 joint skeleton including the hands. No GPU farm, no special hardware, just one camera and native C++ performance."
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Writing fast GPU kernels for LLM sounds like dark magic until someone shows you the code. Triton-lm kernel-l is that"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "someone? It's a hands-on lab for learning to write Triton kernels. The same approach behind flash attention and liger kernel where you fuse operations"
+    },
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "and tile data to dodge the GPU memory bottleneck. Work through the implementations, benchmark them against PyTorch, and actually understand why your training runs are slow."
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "Agent O is a memory native cognitive runtime for AI agents built around an evidencegated loop. So the agent has to"
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "back its reasoning with retrieved facts instead of confidently making things up."
+    },
+    {
+      "start": 647.0,
+      "end": 647.0,
+      "text": "hybrid retrieval, temporal reasoning so it understands when things happened, async learning that updates memory in the background, and plugandplay tools."
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "What if you could turn your own neighborhood into a JRPG? Open Pixel RPG does exactly that. Feed it any address or a photo, describe the art style you"
+    },
+    {
+      "start": 667.0,
+      "end": 667.0,
+      "text": "want, and it generates a complete interactive pixel art world to explore, populated with AI generated NPCs based on that real location. Userenerated"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "worlds, classic JRPG feel, modern generative AI doing the heavy lifting underneath."
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "If you live in T-Max, you've memorized a dozen prefix shortcuts and still forget half of them. T-Max pallet gives you a raycast style command pallet instead."
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "Hit a key, fuzzy search every action, hit enter, switch sessions, jump windows, run your custom commands, all"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "from one searchable list. It's fast, fully scriptable, and easy to extend with your own entries. So, the actions"
+    },
+    {
+      "start": 706.0,
+      "end": 706.0,
+      "text": "you actually use are one search away instead of buried in a cheat sheet."
+    },
+    {
+      "start": 712.0,
+      "end": 712.0,
+      "text": "Someone rebuilt Windows Device Manager on Linux, and it actually reads real hardware data. QT6 front end, CISFS, and Procfus backends, full device tree by"
+    },
+    {
+      "start": 721.0,
+      "end": 721.0,
+      "text": "type, per device properties dialogue with general, driver details, and resources tabs. Enable and disable via kernel module blacklisting, DKMS driver uninstall. built for Arch and Cashios."
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Diffusion language models can decode multiple tokens in parallel, but they usually trade away accuracy to do it."
+    },
+    {
+      "start": 740.0,
+      "end": 740.0,
+      "text": "Orthus refuses that trade-off. It's a fast lossless LLM inference method built on dual view diffusion decoding where"
+    },
+    {
+      "start": 749.0,
+      "end": 749.0,
+      "text": "two views cross-check each other so you get the speed up of parallel generation without drifting from what the model would have produced token by token."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "Sometimes the best side project isn't useful at all. It just feels nice. Macos Island Voxels is exactly that. A"
+    },
+    {
+      "start": 766.0,
+      "end": 766.0,
+      "text": "browserbased isometric island builder with the soft sun bleached pallet of a Greek island, white buildings, blue domes, that hazy summer light. Place"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "voxal tiles, grow your own little island, and just zone out. It's pure vanilla ES modules. No bundler, no buildep, and it works on mobile."
+    },
+    {
+      "start": 784.0,
+      "end": 784.0,
+      "text": "Watching a foreign language lecture stream or meeting on your Mac and routing the audio through a mic just to translate it is a pain. Air translate"
+    },
+    {
+      "start": 793.0,
+      "end": 793.0,
+      "text": "skips that entirely. It captures your Mac's system audio directly with Screen Capture Kit, turns it into a live transcript, translates it in real time,"
+    },
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "and shows the result as a floating caption overlay. Apple mode runs on device with no account and no servers."
+    },
+    {
+      "start": 811.0,
+      "end": 811.0,
+      "text": "Every AI tool you use keeps its own siloed memory. So Claude doesn't know what you told cursor and cursor doesn't know what you told chat GPT. Py engram"
+    },
+    {
+      "start": 820.0,
+      "end": 820.0,
+      "text": "fixes that. One local first memory store MCP compatible that every AI tool can read from and write to. Your context,"
+    },
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "preferences, and history live in one place you actually own, not scattered across a dozen vendor databases."
+    },
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "Go's built-in map is great until you need your keys in sorted order and then you're hand rolling a tree or sorting on"
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "every iteration. Btype is a set of B treebased collection types for go ordered maps and sets that keep your"
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "data sorted automatically with fast lookups, inserts, and range scans."
+    },
+    {
+      "start": 854.0,
+      "end": 854.0,
+      "text": "Generic so they're type safe and from Tidwall the developer behind Bunt DB and the popular Go Bree package."
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "You find a promising model on hugging face, kick off a fine-tune, and 20 minutes in it crashes without memory."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "That can I fine-tune this saves you that pain. Point it at any hugging face model and your local GPU, and it estimates up"
+    },
+    {
+      "start": 876.0,
+      "end": 876.0,
+      "text": "front whether the model fits and whether you can actually fine-tune it, full fine-tune or Laura, before you download a single weight."
+    },
+    {
+      "start": 885.0,
+      "end": 885.0,
+      "text": "You're recording a screencast or doing a live demo and nobody watching can tell where you're actually clicking. Click"
+    },
+    {
+      "start": 892.0,
+      "end": 892.0,
+      "text": "fixes that. It's a tiny native Mac OS menu bar app that highlights every click anywhere on your Mac so your taps show"
+    },
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "up clearly on screen. No Electron, no bloat, just a small native Swift app that sits in your menu bar and does one thing well."
+    },
+    {
+      "start": 911.0,
+      "end": 911.0,
+      "text": "[music]"
+    }
+  ]
+}

@@ -1,0 +1,1515 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "What is up developers? Welcome back to GitHub awesome. This is the Hacker News Show, episode 5. We tracked down 34"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "repositories that took over Hacker News lately. Let's get into it."
+    },
+    {
+      "timestamp": "0:13",
+      "text": "Someone built Woophf.com from the office and it actually works and it just exploded on HackerNews. Woopf is an open-source multi-agent platform that"
+    },
+    {
+      "timestamp": "0:22",
+      "text": "spins up a virtual office. CEO, PM, engineers, and designers collaborate, debate, and ship autonomously. A getback"
+    },
+    {
+      "timestamp": "0:30",
+      "text": "shared brain wiki keeps every agent in sync. Telegram bridge lets you DM your AI team from your phone. Dumping raw"
+    },
+    {
+      "timestamp": "0:38",
+      "text": "HTML into an agent's context window is expensive and breaks on every layout change. Labretto is a token efficient"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "browser CLI for coding agents that listens to raw network requests while navigating and autonomously reverse engineers the hidden internal APIs"
+    },
+    {
+      "timestamp": "0:53",
+      "text": "underneath. Your agent converts a slow UI clicking script into a direct API integration in seconds."
+    },
+    {
+      "timestamp": "1:01",
+      "text": "Vibe coding with AI looks fine until you realize the code is full of edge case bugs, missing tests, and broken lints."
+    },
+    {
+      "timestamp": "1:08",
+      "text": "No mistakes moves your AI to the git push boundary. Type git push no mistakes and instead of hitting GitHub, the code"
+    },
+    {
+      "timestamp": "1:15",
+      "text": "is intercepted by a local Damon. spins up a disposable work tree, runs pre-commit hooks, and forces an AI agent into a strict QA loop until zero errors."
+    },
+    {
+      "timestamp": "1:27",
+      "text": "Switching between LLM providers usually means rewriting SDK code every time. Go model is a go gateway that accepts"
+    },
+    {
+      "timestamp": "1:33",
+      "text": "standard OpenAI format requests and translates them to Claude, Gemini, or Chat GPT in the background. One integration, every provider. The"
+    },
+    {
+      "timestamp": "1:43",
+      "text": "two-layer cache with semantic vector search is the standout feature."
+    },
+    {
+      "timestamp": "1:46",
+      "text": "Different wording, same meaning, instant cash hit, zero upstream calls for semantically duplicate requests."
+    },
+    {
+      "timestamp": "1:54",
+      "text": "Touch ID is convenient until you're at a border crossing where a fingerprint can be legally compelled and a memorized"
+    },
+    {
+      "timestamp": "2:01",
+      "text": "password often can't. Panic lock is a lightweight menu bar utility that instantly disables Touch ID and forces"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "password only unlock. Trigger it with a hotkey or autot trigger the moment you close your laptop. one keystroke between"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "biometric access and something a lawyer might actually protect."
+    },
+    {
+      "timestamp": "2:21",
+      "text": "Most Python frameworks were designed for human developers and force AI agents to learn thousands of lines of implicit"
+    },
+    {
+      "timestamp": "2:28",
+      "text": "conventions. Plane is a Django fork reshaped for the agent era. Native markdown guardrails prevent cla or cursor from making framework mistakes."
+    },
+    {
+      "timestamp": "2:39",
+      "text": "And built-in skills like /plane optimize and plane upgrade mean the agent already understands the workflow before you write a line of code."
+    },
+    {
+      "timestamp": "2:48",
+      "text": "Standard AI agents analyzing financial data dump raw JSON straight into context and burn through tokens before any"
+    },
+    {
+      "timestamp": "2:55",
+      "text": "actual reasoning starts. Lang Alpha uses programmatic tool calling instead. The agent drops into a sandboxed workspace,"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "writes Python to pull market data, crunches numbers with pandas in the background, and returns only the final results to the LLM context."
+    },
+    {
+      "timestamp": "3:12",
+      "text": "Carpathy's LLM wiki idea turned into a productionready app. Taria is an offline first knowledge base for Mac OS and"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "Linux. Plain markdown files in a folder, get backed with autosync, notion style feel, total file ownership. The killer feature is the MCP server registration."
+    },
+    {
+      "timestamp": "3:31",
+      "text": "Claude Code and Open Claw read, search, and update your knowledge base directly while you work. Your second brain accessible to every agent in your workflow."
+    },
+    {
+      "timestamp": "3:40",
+      "text": "Tired of waiting for Humane AI Pin or Rabbit R1 to work? OMI is an open-source AO AI wearable ecosystem, a second brain"
+    },
+    {
+      "timestamp": "3:48",
+      "text": "that listens to conversations, transcribes in real time, and generates meeting summaries automatically. The repo contains the entire stack. C++"
+    },
+    {
+      "timestamp": "3:56",
+      "text": "firmware for custom NRF and ESP32S3 wearables, Flutter mobile app, Python fast API backend, native desktop clients."
+    },
+    {
+      "timestamp": "4:05",
+      "text": "Tired of wrestling with libvert XML or vagrance Ruby scripts? Holos is docker compose for Kimu KVM virtual machines?"
+    },
+    {
+      "timestamp": "4:13",
+      "text": "Just blew up on hacker news? Skips the libvert damon entirely. Define your VM stack and clean YAML. Holos drives Kimu"
+    },
+    {
+      "timestamp": "4:20",
+      "text": "directly. Rootless socket multiccast L2 networking GPU pass through as a first class primitive SSH health checks before booting the next VM."
+    },
+    {
+      "timestamp": "4:30",
+      "text": "Super HQ runs every agent inside its own isolated microVM on Mac OS using Apple's virtualization framework. Your projects"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "mount into the VM, but file writes redirect to a temporary overlay, never touching your host. When the agent finishes, you get a unified diff and"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "explicitly accept changes before anything syncs back. An O gateway injects credentials into API requests on the fly, so the AI never sees your raw keys."
+    },
+    {
+      "timestamp": "4:57",
+      "text": "In Physical's agent vault is an HTTP credential proxy using credential brokering. Give your agent a scoped HTTPS proxy URL instead of an API key."
+    },
+    {
+      "timestamp": "5:07",
+      "text": "When it calls Stripe or GitHub, Agent Vault intercepts traffic locally, injects your real encrypted key at the network layer, and forwards upstream."
+    },
+    {
+      "timestamp": "5:16",
+      "text": "The agent never sees the secret. If hijacked, there's nothing to exfiltrate."
+    },
+    {
+      "timestamp": "5:21",
+      "text": "Letting an AI agent run untrusted code on your host is a massive security risk."
+    },
+    {
+      "timestamp": "5:26",
+      "text": "Small VM spins up hardware isolated Linux microVMs with sub-second cold starts using libcrun on Apple's hypervisor framework or KVM on Linux."
+    },
+    {
+      "timestamp": "5:36",
+      "text": "Elastic memory via Versio balloons means the host only commits the RAM the guest actually uses. Spawn dozens of parallel sandboxes without crashing your machine."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Headless Chrome is 200 plus megabytes of RAM and seconds to start for every agent request."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "Obscura is a headless browser engine written in Rust that speaks Chrome DevTools protocol. So, it's a drop-in replacement. 30 megabytes per tab, boots"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "in under 80 milliseconds, built-in stealth mode that bypasses bot detection and defeats Cloudflare turnstyle."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Automating your issue backlog usually means handing your private codebase to a SAS. Broccoli turns linear tickets into"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "shipped GitHub PRs. Assign a ticket to the bot and it autonomously plans the architecture, writes the implementation using claude or codecs and opens a"
+    },
+    {
+      "timestamp": "6:26",
+      "text": "reviewable PR. Also acts as an automated reviewer, leaving actionable comments and pushing fixed commits when asked."
+    },
+    {
+      "timestamp": "6:35",
+      "text": "Context engineering treats organizational knowledge as a versioned engineering artifact."
+    },
+    {
+      "timestamp": "6:41",
+      "text": "Ingests your architecture decision records, codebase patterns, and docs into a strict operating manual for the"
+    },
+    {
+      "timestamp": "6:47",
+      "text": "AI. Adds an enforcement layer that autonomously validates every line against your standards and self-corrects"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "drift before a human sees the PR. Stops AI coding assistance from generating generic code that violates your internal architecture."
+    },
+    {
+      "timestamp": "7:04",
+      "text": "Local stack gating the free tier behind accounts and tokens was the kind of move that guarantees a fork. Fakecloud is a drop-in local AWS emulator written in"
+    },
+    {
+      "timestamp": "7:13",
+      "text": "Rust. No accounts, no tokens ever. 19 megabyte binary boots in half a second."
+    },
+    {
+      "timestamp": "7:19",
+      "text": "100% conformance across 23 services validated against 59,000 plus generated tests. Real cross-ervice wiring. So S3 uploads actually trigger local lambdas."
+    },
+    {
+      "timestamp": "7:31",
+      "text": "Someone trained a transformer in HyperTalk, the scripting language Apple shipped with HyperCard in 1987."
+    },
+    {
+      "timestamp": "7:38",
+      "text": "MacMind is a 1,216 parameter single layer transformer with full self attention and back propagation trained"
+    },
+    {
+      "timestamp": "7:45",
+      "text": "on an actual Macintosh SE30 to learn the bit reversal step of the FFT. The point it's making, the same process that"
+    },
+    {
+      "timestamp": "7:53",
+      "text": "trains GPT4 ran on a 1989 Hypercard stack."
+    },
+    {
+      "timestamp": "7:58",
+      "text": "Vibe coding breaks fast when your agent runs a destructive command by accident."
+    },
+    {
+      "timestamp": "8:03",
+      "text": "VTC code is a semantic AI coding agent written in Rust that runs natively in the terminal. Hooks into OpenAI,"
+    },
+    {
+      "timestamp": "8:10",
+      "text": "Anthropic or local Alama models. Human in the loop shell safety physically stops destructive commands before they"
+    },
+    {
+      "timestamp": "8:17",
+      "text": "execute. Automatic API failover reroutes to Gemini or Open Router the moment your primary provider goes down."
+    },
+    {
+      "timestamp": "8:25",
+      "text": "Pasting longived API keys into NV files or AI chat windows is a massive security mistake. Context-le is a security token"
+    },
+    {
+      "timestamp": "8:34",
+      "text": "service for AI agents. Give your agent a placeholder instead of a god mode key."
+    },
+    {
+      "timestamp": "8:39",
+      "text": "Run context start and an RFC 8693 token exchange fetches short-lived scoped credentials and injects them into your agents memory. The real secret never"
+    },
+    {
+      "timestamp": "8:48",
+      "text": "hits disk. Session ends, credentials expire instantly. Nothing to revoke."
+    },
+    {
+      "timestamp": "8:54",
+      "text": "Most AI memory systems dump embeddings and hope the right ones surface. Yantric DB models human memory instead. Memories"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "decay over time. Similar ones consolidate automatically and contradictions get flagged instantly."
+    },
+    {
+      "timestamp": "9:09",
+      "text": "Selective recall keeps queries around 70 Toni tokens even with 5,000 memories stored. Built-in Rust ships as a single"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "binary with an MCP server for clawed code included."
+    },
+    {
+      "timestamp": "9:20",
+      "text": "Doors is a serverdriven UI framework that lets you build stateful reactive web apps entirely in Go. The framework handles state sync between server and browser over an HTTP3 ready protocol."
+    },
+    {
+      "timestamp": "9:32",
+      "text": "Zero public API endpoints. Reactive primitives, parallel rendering, custom concurrency engine. Bundle the entire"
+    },
+    {
+      "timestamp": "9:39",
+      "text": "stack into one deployable binary. Full stack web development without leaving Go."
+    },
+    {
+      "timestamp": "9:46",
+      "text": "Reading raw markdown in the terminal with cat is brutal. Leaf is a blazing fast terminal markdown previewer in Rust. Interactive table of content"
+    },
+    {
+      "timestamp": "9:54",
+      "text": "sidebar syntax highlighting latte equations rendered in Unicode. Watch mode hot reloads in 250 millise when you"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "save in neovim. Pipe cloud outputs straight in and read it with perfect formatting. AI agents produce a lot of markdown."
+    },
+    {
+      "timestamp": "10:11",
+      "text": "Reading it raw in the terminal is genuinely unpleasant. Marky is a lightweight desktop markdown viewer built for exactly this. Type marquee in"
+    },
+    {
+      "timestamp": "10:19",
+      "text": "a file name and an Obsidian style workspace opens. As your agent writes to disk, it live reloads instantly. Command K. Fuzzy search, shaky syntax"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "highlighting, mermaid diagrams, KEX math."
+    },
+    {
+      "timestamp": "10:31",
+      "text": "Plain text embedding sitting unencrypted in cloud vector databases is a quiet privacy risk most rag pipelines just"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "accept. X-trace embeds locally, encrypts text with AES 256, and encrypts vectors"
+    },
+    {
+      "timestamp": "10:45",
+      "text": "with Pier homorphic encryption. The server runs nearest neighbor similarity search directly on the encrypted vectors"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "without ever decryting them. Results come back, your machine decrypts locally. Keys never leave your laptop."
+    },
+    {
+      "timestamp": "11:00",
+      "text": "Pop-up notifications are easy to miss. A keyboard that physically flashes is harder to ignore. Backlit KBD is a"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "Python package that programmatically controls your Linux laptop's keyboard backlight. Adjust brightness, create custom blink patterns, script your"
+    },
+    {
+      "timestamp": "11:16",
+      "text": "keyboard to flash when a website goes down, or blink when CI/CD fails, notification system that bypasses your eyes entirely."
+    },
+    {
+      "timestamp": "11:25",
+      "text": "Lean for's built-in tactics hit a wall on complex polomial inequalities. Liner and positivity just fail and leave you"
+    },
+    {
+      "timestamp": "11:32",
+      "text": "stuck. So, Stactic offloads the hard cases to a Python backend running CVXPI, solves the problem as a convex"
+    },
+    {
+      "timestamp": "11:39",
+      "text": "semi-definite program, exactifies the numerical result, and feeds a mathematically sound proof back into Lean. Global non- negativity proofs and"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "algebraic inequalities that native Lean can't handle handled."
+    },
+    {
+      "timestamp": "11:53",
+      "text": "Cartoon Studio is an open-source electron app that automates 2D animation end to end. Drop SVG characters onto a"
+    },
+    {
+      "timestamp": "12:00",
+      "text": "backdrop. Type your script. Assign AI voices. It generates audio via Jelly Pod Speech SDK. Calculates word timestamps."
+    },
+    {
+      "timestamp": "12:08",
+      "text": "Lip syncs character mouth cues with hyperframes and renders to MP4. Local first zero telemetry. Bring your own API keys."
+    },
+    {
+      "timestamp": "12:16",
+      "text": "Here is an open source local AWS emulator written in Rust for lightning fast integration testing. An alternative to local stack. First release targets"
+    },
+    {
+      "timestamp": "12:25",
+      "text": "SQS. Signed AWS SDK requests hit a local endpoint Q state stored offline in SQLite. Four megabyte docker image"
+    },
+    {
+      "timestamp": "12:32",
+      "text": "instant startup full SIG v4 off plus a debug friendly web UI to inspect cues and messages."
+    },
+    {
+      "timestamp": "12:40",
+      "text": "Crossplatform desktop development means electron bloat or C++ tool chain pane."
+    },
+    {
+      "timestamp": "12:45",
+      "text": "Gova builds native desktop apps for Mac OS, Windows and Linux from a single Go codebase. No JavaScript runtime, no"
+    },
+    {
+      "timestamp": "12:53",
+      "text": "embedded browser, pure declarative ghostrs that compile to a single static binary with access to real native platform features like Mac OS system"
+    },
+    {
+      "timestamp": "13:01",
+      "text": "dialogues. Hot reload via the Govadeev CLI with UI state preserved between reloads."
+    },
+    {
+      "timestamp": "13:07",
+      "text": "SFSIM is a CLI that exports SF symbols as perfect SVG, PDF or PNG files, reaches into private Mac OS APIs of the"
+    },
+    {
+      "timestamp": "13:16",
+      "text": "native symbol renderer, and extracts bit perfect vector paths directly from the OS. All 8,300 plus symbols stay current"
+    },
+    {
+      "timestamp": "13:23",
+      "text": "automatically. Every subcomands JSON output, perfect for agent tool sets, eliminates the tedious open the Mac app and click copy image as workflow."
+    },
+    {
+      "timestamp": "13:33",
+      "text": "Juggling multiple tasks in a single clawed code session means context drift."
+    },
+    {
+      "timestamp": "13:38",
+      "text": "The agent starts forgetting earlier work as newer conversation pushes it out. CTX introduces isolated work streams with"
+    },
+    {
+      "timestamp": "13:45",
+      "text": "exact transcript binding. Branch your AI's memory safely without it jumping to the newest chat on disk. Local SQLite"
+    },
+    {
+      "timestamp": "13:52",
+      "text": "zero API keys. CTX curate opens a Vim keybinding interface to scroll memories, pin important context, and delete junk."
+    },
+    {
+      "timestamp": "14:01",
+      "text": "Cloning a repo just to read two files is wasteful. Remoto.el lets you browse remote GitHub repositories natively"
+    },
+    {
+      "timestamp": "14:09",
+      "text": "inside Emacs without cloning. Paste a GitHub URL using your standard find file shortcut and you're in a fully functional dire buffer. Instead of"
+    },
+    {
+      "timestamp": "14:17",
+      "text": "Tramp's remote shell approach, it talks directly to the GitHub REST API via the GH CLI, fetches the entire recursive"
+    },
+    {
+      "timestamp": "14:25",
+      "text": "directory tree in one call, and caches it."
+    },
+    {
+      "timestamp": "14:29",
+      "text": "Most AI memory systems accumulate forever. Stale preferences, contradictions, and noise that never gets cleaned up. Your memory applies the"
+    },
+    {
+      "timestamp": "14:37",
+      "text": "Ebinghouse forgetting curve to LLM memory. Failures fade in 11 days. Facts in 24. Strategies in 38. Importance"
+    },
+    {
+      "timestamp": "14:45",
+      "text": "slows the decay. Frequent recalls strengthen memories. Anything below threshold gets pruned automatically."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What is up developers? Welcome back to GitHub awesome. This is the Hacker News Show, episode 5. We tracked down 34"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "repositories that took over Hacker News lately. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone built Woophf.com from the office and it actually works and it just exploded on HackerNews. Woopf is an open-source multi-agent platform that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "spins up a virtual office. CEO, PM, engineers, and designers collaborate, debate, and ship autonomously. A getback"
+        }
+      ]
+    },
+    {
+      "tStartMs": 30000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shared brain wiki keeps every agent in sync. Telegram bridge lets you DM your AI team from your phone. Dumping raw"
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HTML into an agent's context window is expensive and breaks on every layout change. Labretto is a token efficient"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser CLI for coding agents that listens to raw network requests while navigating and autonomously reverse engineers the hidden internal APIs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "underneath. Your agent converts a slow UI clicking script into a direct API integration in seconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vibe coding with AI looks fine until you realize the code is full of edge case bugs, missing tests, and broken lints."
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No mistakes moves your AI to the git push boundary. Type git push no mistakes and instead of hitting GitHub, the code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 75000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is intercepted by a local Damon. spins up a disposable work tree, runs pre-commit hooks, and forces an AI agent into a strict QA loop until zero errors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Switching between LLM providers usually means rewriting SDK code every time. Go model is a go gateway that accepts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "standard OpenAI format requests and translates them to Claude, Gemini, or Chat GPT in the background. One integration, every provider. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "two-layer cache with semantic vector search is the standout feature."
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Different wording, same meaning, instant cash hit, zero upstream calls for semantically duplicate requests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Touch ID is convenient until you're at a border crossing where a fingerprint can be legally compelled and a memorized"
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "password often can't. Panic lock is a lightweight menu bar utility that instantly disables Touch ID and forces"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "password only unlock. Trigger it with a hotkey or autot trigger the moment you close your laptop. one keystroke between"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "biometric access and something a lawyer might actually protect."
+        }
+      ]
+    },
+    {
+      "tStartMs": 141000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most Python frameworks were designed for human developers and force AI agents to learn thousands of lines of implicit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conventions. Plane is a Django fork reshaped for the agent era. Native markdown guardrails prevent cla or cursor from making framework mistakes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And built-in skills like /plane optimize and plane upgrade mean the agent already understands the workflow before you write a line of code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Standard AI agents analyzing financial data dump raw JSON straight into context and burn through tokens before any"
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actual reasoning starts. Lang Alpha uses programmatic tool calling instead. The agent drops into a sandboxed workspace,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "writes Python to pull market data, crunches numbers with pandas in the background, and returns only the final results to the LLM context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Carpathy's LLM wiki idea turned into a productionready app. Taria is an offline first knowledge base for Mac OS and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linux. Plain markdown files in a folder, get backed with autosync, notion style feel, total file ownership. The killer feature is the MCP server registration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 211000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude Code and Open Claw read, search, and update your knowledge base directly while you work. Your second brain accessible to every agent in your workflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of waiting for Humane AI Pin or Rabbit R1 to work? OMI is an open-source AO AI wearable ecosystem, a second brain"
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that listens to conversations, transcribes in real time, and generates meeting summaries automatically. The repo contains the entire stack. C++"
+        }
+      ]
+    },
+    {
+      "tStartMs": 236000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "firmware for custom NRF and ESP32S3 wearables, Flutter mobile app, Python fast API backend, native desktop clients."
+        }
+      ]
+    },
+    {
+      "tStartMs": 245000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of wrestling with libvert XML or vagrance Ruby scripts? Holos is docker compose for Kimu KVM virtual machines?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 253000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Just blew up on hacker news? Skips the libvert damon entirely. Define your VM stack and clean YAML. Holos drives Kimu"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly. Rootless socket multiccast L2 networking GPU pass through as a first class primitive SSH health checks before booting the next VM."
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Super HQ runs every agent inside its own isolated microVM on Mac OS using Apple's virtualization framework. Your projects"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mount into the VM, but file writes redirect to a temporary overlay, never touching your host. When the agent finishes, you get a unified diff and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "explicitly accept changes before anything syncs back. An O gateway injects credentials into API requests on the fly, so the AI never sees your raw keys."
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "In Physical's agent vault is an HTTP credential proxy using credential brokering. Give your agent a scoped HTTPS proxy URL instead of an API key."
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "When it calls Stripe or GitHub, Agent Vault intercepts traffic locally, injects your real encrypted key at the network layer, and forwards upstream."
+        }
+      ]
+    },
+    {
+      "tStartMs": 316000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The agent never sees the secret. If hijacked, there's nothing to exfiltrate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 321000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Letting an AI agent run untrusted code on your host is a massive security risk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Small VM spins up hardware isolated Linux microVMs with sub-second cold starts using libcrun on Apple's hypervisor framework or KVM on Linux."
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Elastic memory via Versio balloons means the host only commits the RAM the guest actually uses. Spawn dozens of parallel sandboxes without crashing your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Headless Chrome is 200 plus megabytes of RAM and seconds to start for every agent request."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Obscura is a headless browser engine written in Rust that speaks Chrome DevTools protocol. So, it's a drop-in replacement. 30 megabytes per tab, boots"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in under 80 milliseconds, built-in stealth mode that bypasses bot detection and defeats Cloudflare turnstyle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Automating your issue backlog usually means handing your private codebase to a SAS. Broccoli turns linear tickets into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shipped GitHub PRs. Assign a ticket to the bot and it autonomously plans the architecture, writes the implementation using claude or codecs and opens a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reviewable PR. Also acts as an automated reviewer, leaving actionable comments and pushing fixed commits when asked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 395000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context engineering treats organizational knowledge as a versioned engineering artifact."
+        }
+      ]
+    },
+    {
+      "tStartMs": 401000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ingests your architecture decision records, codebase patterns, and docs into a strict operating manual for the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI. Adds an enforcement layer that autonomously validates every line against your standards and self-corrects"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drift before a human sees the PR. Stops AI coding assistance from generating generic code that violates your internal architecture."
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Local stack gating the free tier behind accounts and tokens was the kind of move that guarantees a fork. Fakecloud is a drop-in local AWS emulator written in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust. No accounts, no tokens ever. 19 megabyte binary boots in half a second."
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "100% conformance across 23 services validated against 59,000 plus generated tests. Real cross-ervice wiring. So S3 uploads actually trigger local lambdas."
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone trained a transformer in HyperTalk, the scripting language Apple shipped with HyperCard in 1987."
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MacMind is a 1,216 parameter single layer transformer with full self attention and back propagation trained"
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on an actual Macintosh SE30 to learn the bit reversal step of the FFT. The point it's making, the same process that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trains GPT4 ran on a 1989 Hypercard stack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vibe coding breaks fast when your agent runs a destructive command by accident."
+        }
+      ]
+    },
+    {
+      "tStartMs": 483000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "VTC code is a semantic AI coding agent written in Rust that runs natively in the terminal. Hooks into OpenAI,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anthropic or local Alama models. Human in the loop shell safety physically stops destructive commands before they"
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execute. Automatic API failover reroutes to Gemini or Open Router the moment your primary provider goes down."
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pasting longived API keys into NV files or AI chat windows is a massive security mistake. Context-le is a security token"
+        }
+      ]
+    },
+    {
+      "tStartMs": 514000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "service for AI agents. Give your agent a placeholder instead of a god mode key."
+        }
+      ]
+    },
+    {
+      "tStartMs": 519000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Run context start and an RFC 8693 token exchange fetches short-lived scoped credentials and injects them into your agents memory. The real secret never"
+        }
+      ]
+    },
+    {
+      "tStartMs": 528000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hits disk. Session ends, credentials expire instantly. Nothing to revoke."
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI memory systems dump embeddings and hope the right ones surface. Yantric DB models human memory instead. Memories"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decay over time. Similar ones consolidate automatically and contradictions get flagged instantly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Selective recall keeps queries around 70 Toni tokens even with 5,000 memories stored. Built-in Rust ships as a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "binary with an MCP server for clawed code included."
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Doors is a serverdriven UI framework that lets you build stateful reactive web apps entirely in Go. The framework handles state sync between server and browser over an HTTP3 ready protocol."
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zero public API endpoints. Reactive primitives, parallel rendering, custom concurrency engine. Bundle the entire"
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stack into one deployable binary. Full stack web development without leaving Go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 586000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reading raw markdown in the terminal with cat is brutal. Leaf is a blazing fast terminal markdown previewer in Rust. Interactive table of content"
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sidebar syntax highlighting latte equations rendered in Unicode. Watch mode hot reloads in 250 millise when you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "save in neovim. Pipe cloud outputs straight in and read it with perfect formatting. AI agents produce a lot of markdown."
+        }
+      ]
+    },
+    {
+      "tStartMs": 611000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reading it raw in the terminal is genuinely unpleasant. Marky is a lightweight desktop markdown viewer built for exactly this. Type marquee in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a file name and an Obsidian style workspace opens. As your agent writes to disk, it live reloads instantly. Command K. Fuzzy search, shaky syntax"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "highlighting, mermaid diagrams, KEX math."
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Plain text embedding sitting unencrypted in cloud vector databases is a quiet privacy risk most rag pipelines just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "accept. X-trace embeds locally, encrypts text with AES 256, and encrypts vectors"
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with Pier homorphic encryption. The server runs nearest neighbor similarity search directly on the encrypted vectors"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "without ever decryting them. Results come back, your machine decrypts locally. Keys never leave your laptop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pop-up notifications are easy to miss. A keyboard that physically flashes is harder to ignore. Backlit KBD is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python package that programmatically controls your Linux laptop's keyboard backlight. Adjust brightness, create custom blink patterns, script your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard to flash when a website goes down, or blink when CI/CD fails, notification system that bypasses your eyes entirely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 685000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lean for's built-in tactics hit a wall on complex polomial inequalities. Liner and positivity just fail and leave you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stuck. So, Stactic offloads the hard cases to a Python backend running CVXPI, solves the problem as a convex"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "semi-definite program, exactifies the numerical result, and feeds a mathematically sound proof back into Lean. Global non- negativity proofs and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "algebraic inequalities that native Lean can't handle handled."
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cartoon Studio is an open-source electron app that automates 2D animation end to end. Drop SVG characters onto a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "backdrop. Type your script. Assign AI voices. It generates audio via Jelly Pod Speech SDK. Calculates word timestamps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lip syncs character mouth cues with hyperframes and renders to MP4. Local first zero telemetry. Bring your own API keys."
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Here is an open source local AWS emulator written in Rust for lightning fast integration testing. An alternative to local stack. First release targets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SQS. Signed AWS SDK requests hit a local endpoint Q state stored offline in SQLite. Four megabyte docker image"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instant startup full SIG v4 off plus a debug friendly web UI to inspect cues and messages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Crossplatform desktop development means electron bloat or C++ tool chain pane."
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gova builds native desktop apps for Mac OS, Windows and Linux from a single Go codebase. No JavaScript runtime, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 773000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "embedded browser, pure declarative ghostrs that compile to a single static binary with access to real native platform features like Mac OS system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 781000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dialogues. Hot reload via the Govadeev CLI with UI state preserved between reloads."
+        }
+      ]
+    },
+    {
+      "tStartMs": 787000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SFSIM is a CLI that exports SF symbols as perfect SVG, PDF or PNG files, reaches into private Mac OS APIs of the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "native symbol renderer, and extracts bit perfect vector paths directly from the OS. All 8,300 plus symbols stay current"
+        }
+      ]
+    },
+    {
+      "tStartMs": 803000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "automatically. Every subcomands JSON output, perfect for agent tool sets, eliminates the tedious open the Mac app and click copy image as workflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 813000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Juggling multiple tasks in a single clawed code session means context drift."
+        }
+      ]
+    },
+    {
+      "tStartMs": 818000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The agent starts forgetting earlier work as newer conversation pushes it out. CTX introduces isolated work streams with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 825000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exact transcript binding. Branch your AI's memory safely without it jumping to the newest chat on disk. Local SQLite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 832000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zero API keys. CTX curate opens a Vim keybinding interface to scroll memories, pin important context, and delete junk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloning a repo just to read two files is wasteful. Remoto.el lets you browse remote GitHub repositories natively"
+        }
+      ]
+    },
+    {
+      "tStartMs": 849000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inside Emacs without cloning. Paste a GitHub URL using your standard find file shortcut and you're in a fully functional dire buffer. Instead of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 857000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tramp's remote shell approach, it talks directly to the GitHub REST API via the GH CLI, fetches the entire recursive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 865000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directory tree in one call, and caches it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 869000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI memory systems accumulate forever. Stale preferences, contradictions, and noise that never gets cleaned up. Your memory applies the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 877000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ebinghouse forgetting curve to LLM memory. Failures fade in 11 days. Facts in 24. Strategies in 38. Importance"
+        }
+      ]
+    },
+    {
+      "tStartMs": 885000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "slows the decay. Frequent recalls strengthen memories. Anything below threshold gets pruned automatically."
+        }
+      ]
+    }
+  ]
+}

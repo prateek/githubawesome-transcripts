@@ -1,0 +1,1645 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is the Hacker News show number six. 35 open source projects that have recently been"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "trending on Hacker News. Let's get into it."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Let Claude Code run while you grab coffee. Come back to 500 lines changed across 14 files. Git tracks the changes"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "but has no idea why the AI did what it did. Regent is a dedicated version control system for your AI agents. runs"
+    },
+    {
+      "timestamp": "0:26",
+      "text": "alongside git captures every prompt, tool call and conversation context in a local regent directory using Blake3"
+    },
+    {
+      "timestamp": "0:34",
+      "text": "hashing and SQLite. RGT log shows the exact conversation behind a code change."
+    },
+    {
+      "timestamp": "0:41",
+      "text": "Trying to learn a new programming language or game engine and hate forgetting syntax. Coding flashcards is a massive collection of over 800"
+    },
+    {
+      "timestamp": "0:49",
+      "text": "flashcards teaching Rust, SQLite, Godote, and Wolf from language strictly from first principles."
+    },
+    {
+      "timestamp": "0:56",
+      "text": "Every card is written in plain human readable markdown. Edit your notes in simple text and the built-in script instantly converts them into ready to import Anky decks or clean PDF files."
+    },
+    {
+      "timestamp": "1:08",
+      "text": "Durac is a coding agent obsessed with efficiency and context curation. A highly optimized fork of the popular Klein project. Instead of expensive file"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "reads, it uses a manipulation to understand your code structure, pulling in only the exact context the model actually needs. Massively parallel"
+    },
+    {
+      "timestamp": "1:27",
+      "text": "operations surgically modifies your files using brilliant hash anchored edits."
+    },
+    {
+      "timestamp": "1:33",
+      "text": "Apple recently dropped their cutting edge sharp model that generates mind-blowing 3D Gaussian splats from a single 2D image. MLS Sharp Web takes"
+    },
+    {
+      "timestamp": "1:43",
+      "text": "Apple's state-of-the-art Sharp model and runs it completely inside your web browser using the ONNX runtime web. Open"
+    },
+    {
+      "timestamp": "1:50",
+      "text": "the app in Chrome or Edge, upload a flat 2D photo, and the model runs locally on your machine to generate a fully rotatable 3D Gaussian splat top file."
+    },
+    {
+      "timestamp": "2:01",
+      "text": "Pollen is a distributed WASUM runtime in Go. No central control plane, no master node. Install a single static binary on"
+    },
+    {
+      "timestamp": "2:08",
+      "text": "any machine. Workloads seated into the cluster. Nodes make deterministic local decisions using gossip crdts to place"
+    },
+    {
+      "timestamp": "2:15",
+      "text": "replicas based on capacity. Zerorust MTLS and NAT traversal automatic. String together a Raspberry Pi, a VPS, and your"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "laptop into a single compute blob acting like a massive server farm."
+    },
+    {
+      "timestamp": "2:28",
+      "text": "DAC is dashboard as code, an open- source tool from Bruin that defines interactive SQLback dashboards in pure"
+    },
+    {
+      "timestamp": "2:35",
+      "text": "YAML and TSX. Because everything is code, it's perfectly designed for AI agents. Ships with bundled skills for"
+    },
+    {
+      "timestamp": "2:42",
+      "text": "clawed and codecs. Tell your AI build me a sales dashboard and it autonomously writes the TSX, handles the semantic layer and renders charts."
+    },
+    {
+      "timestamp": "2:52",
+      "text": "Open bias is an AI guardrails framework that physically forces your agents to follow the rules. Sits as a transparent"
+    },
+    {
+      "timestamp": "2:59",
+      "text": "proxy between your app and Anthropic, OpenAI, or Gemini. Define hard boundaries in a plain text rules.mmd"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "file. Open bias evaluates live traffic with a sidecar judge LLM or a zerocost finite state machine. Detects a"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "violation and intervenes, logs or blocks the response before it reaches users."
+    },
+    {
+      "timestamp": "3:19",
+      "text": "Lavend MQ is an ultraquick message Q server built from scratch in Crystal."
+    },
+    {
+      "timestamp": "3:24",
+      "text": "Uses the same AMQP091 protocol. So it's a drop-in replacement."
+    },
+    {
+      "timestamp": "3:29",
+      "text": "Swap your connection string and existing code works instantly. Sustains 800,000 messages a second. Handles long cues"
+    },
+    {
+      "timestamp": "3:36",
+      "text": "effortlessly. Tiny fraction of the RAM versus Erlang based brokers. Native MQTT support included."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "Cell is a fast terminal spreadsheet editor in Rust that feels exactly like Vim. All your muscle memory key bindings work. Hjkl I to insert DD Y. Don't let"
+    },
+    {
+      "timestamp": "3:54",
+      "text": "the minimal interface fool you. Full Excel compatible formula syntax. Sum average if with range references."
+    },
+    {
+      "timestamp": "4:01",
+      "text": "natively imports CSV and TSV. Headless CLI mode evaluates formulas programmatically in bash scripts."
+    },
+    {
+      "timestamp": "4:08",
+      "text": "Unix magic is a curated collection of shell wizardry that accomplishes complex tasks using pure raw Unix tools instead"
+    },
+    {
+      "timestamp": "4:15",
+      "text": "of installing heavy third party packages leverages a sed gp and zs for file manipulation text processing and system"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "monitoring in a single line. oneliners that convert JSON to CSV, analyze server logs in real time, and manage massive"
+    },
+    {
+      "timestamp": "4:30",
+      "text": "file migrations with zero external dependencies."
+    },
+    {
+      "timestamp": "4:35",
+      "text": "Agent Swift is a native Mac OS app that acts as an autonomous AI coding agent for Apple Platform development. Describe"
+    },
+    {
+      "timestamp": "4:42",
+      "text": "what you want in plain English. Powered by Claude, it autonomously discovers your Xcode project structure, edits source files, and compiles via custom"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "CLI. It actually boots the iOS simulator and runs UI automation to physically verify the app behaves exactly like you asked."
+    },
+    {
+      "timestamp": "5:01",
+      "text": "WinPod X lets you run actual Windows apps as perfectly integrated native Windows on your Linux desktop, not a wine wrapper. Spins up a headless"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "Windows container in the background and bridges the app to your screen via free RDP remote app. Zero config setup, no"
+    },
+    {
+      "timestamp": "5:17",
+      "text": "manual networking, no ISO downloads. The automated Python CLI handles everything."
+    },
+    {
+      "timestamp": "5:22",
+      "text": "Each app gets its own icon, fully pinnable and alt tabable like a native Linux app."
+    },
+    {
+      "timestamp": "5:28",
+      "text": "Relying on vision models and screenshot loops to click around a desktop is slow, brittle, and burns massive tokens. Agent"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "Desktop is a blazing fast 15 megabyte native automation CLI in Rust. Instead of guessing pixel locations, it hooks directly into your OS accessibility"
+    },
+    {
+      "timestamp": "5:45",
+      "text": "tree, reads the exact semantic structure of your desktop, windows, menus, text inputs, cuts token usage by up to 96%."
+    },
+    {
+      "timestamp": "5:54",
+      "text": "Ableton Live MCP is a model context protocol bridge for Ableton Live. AI agents like Claude see your entire"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "arrangement, read your device settings, analyze MIDI tracks. Ask it to fix the discordant section of your song and it finds the exact tracks where notes"
+    },
+    {
+      "timestamp": "6:10",
+      "text": "collide. Craziest part, an agent audio tap using Max for Live actively probes the actual audio signal chain in real time to optimize your mix."
+    },
+    {
+      "timestamp": "6:21",
+      "text": "Throwaway is a sleek, fully open-source API that catches fake accounts. Runs entirely as a lightweight Cloudflare"
+    },
+    {
+      "timestamp": "6:28",
+      "text": "worker. No expensive email validation services. No bloated block lists in your back end. Deploy in seconds. Intercept"
+    },
+    {
+      "timestamp": "6:35",
+      "text": "signups. Checks the email domain against a continuously updated throwaway provider list with practically zero latency. Runs for fractions of a cent on the edge."
+    },
+    {
+      "timestamp": "6:46",
+      "text": "Autoarchchnament takes Carpathy's auto research loop and points it at hardcore hardware design. starts with a basic five-stage risk v CPU in system"
+    },
+    {
+      "timestamp": "6:55",
+      "text": "verarilog and unleashes an AI agent to propose code and benchmark microarchitectural improvements a strict sandboxed formal verifier with BMC"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "checks and co- simulation break the instruction set code is rejected context key is an open-source credential"
+    },
+    {
+      "timestamp": "7:12",
+      "text": "broker for AI agents in go acts as an enterprisegrade security token service in your terminal instead of raw keys"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "context intercepts the request authenticates you via OIDC and injects shortlived dynamically scoped tokens"
+    },
+    {
+      "timestamp": "7:26",
+      "text": "directly into the agents memory. Secrets never touch disk vanish when the session ends. Full audit telemetry and granular allow deny policies on every tool call."
+    },
+    {
+      "timestamp": "7:38",
+      "text": "Rocky is an open- source SQL transformation engine in Rust. Acts as a modern control plane for data bricks, Snowflake, BigQuery or local duct DB."
+    },
+    {
+      "timestamp": "7:47",
+      "text": "provides compile time type safety and column level lineage before queries execute. Gitlike branching for your data. Automatic schema drift detection"
+    },
+    {
+      "timestamp": "7:56",
+      "text": "per model cost attribution so you know which query is spiking your cloud bill."
+    },
+    {
+      "timestamp": "8:02",
+      "text": "49 agents is an open- source 2D IDE for managing AI agents in native CLI."
+    },
+    {
+      "timestamp": "8:08",
+      "text": "Ditches traditional tabs and puts everything on a single infinite zoomable spatial canvas. Terminals, code editors, git views, all on one map. Killer feature, multi-achine orchestration."
+    },
+    {
+      "timestamp": "8:19",
+      "text": "Connect agents on different devices into one unified workspace without messy SSH dependencies. Self-host locally or run"
+    },
+    {
+      "timestamp": "8:26",
+      "text": "across a cluster via tail scale. Conwis is a multiplayer workspace for human AI collaboration. Realtime shared canvas"
+    },
+    {
+      "timestamp": "8:35",
+      "text": "where your team and AI agent look at the exact same documents, research, and decisions. Drop in user interviews or"
+    },
+    {
+      "timestamp": "8:42",
+      "text": "competitor screenshots and watch the AI draft an implementation plan with its thought process streaming live. The workspace is backed by a git versioned"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "markdown file system. Pull notes via CLI straight into cloud code."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "Dumping your codebase into cursor or clawed code burns massive tokens and skyrockets your bill. Sigmap is a zero dependency CLI that solves AI context"
+    },
+    {
+      "timestamp": "9:06",
+      "text": "bloat, scans your repo across 21 languages and extracts a hyper compact signature map of function names, classes, and exported interfaces. TF IDF"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "ranking instead of heavy vector databases. 80% retrieval accuracy while shrinking token usage by up to 97%."
+    },
+    {
+      "timestamp": "9:24",
+      "text": "Loopsy is a phoneto- terminal bridge for AI coding agents. Secure persistent terminal on iPhone or Android controlling claude code, cursor or open"
+    },
+    {
+      "timestamp": "9:33",
+      "text": "code. Fullcolored PTY session persistence, built-in voice input. The craziest part, agentto agent LAN mode. A"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "local Damon finds your other machines via MDNS and exposes them to claude code through an MCP server."
+    },
+    {
+      "timestamp": "9:48",
+      "text": "Trip is a complete fully functional transformer AI engine written from scratch in just 15,000 lines of pure C."
+    },
+    {
+      "timestamp": "9:54",
+      "text": "No Python, no TensorFlow, no ONNX, just C. Linear algebra on float arrays, lib JPEG for vision, X11 for the UI. Built"
+    },
+    {
+      "timestamp": "10:03",
+      "text": "by a veteran firmware engineer over 18 months of lunch breaks, inference, chat, vision, custom BPE tokenizer, full"
+    },
+    {
+      "timestamp": "10:11",
+      "text": "training with back prop. Natively loads hugging face safe tensors. Compiles with a 10-line make file."
+    },
+    {
+      "timestamp": "10:18",
+      "text": "Study Bible MCP turns your AI into a worldclass biblical scholar. Plugs Claude directly into scholarly databases. Real-time access to full"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "Greek and Hebrew lexicons, LSJ Greek, BDB Hebrew, morphologically tagged texts. Hooks into theographic genealogy"
+    },
+    {
+      "timestamp": "10:34",
+      "text": "graphs to map family relationships, locations, and historical events."
+    },
+    {
+      "timestamp": "10:38",
+      "text": "Hardwired with a hermeneutical methodology from Fee and Stewart's how to read the Bible for all it's worth."
+    },
+    {
+      "timestamp": "10:46",
+      "text": "Gitgress reimagines version control a private re-implementation of GitHub running entirely on Postgre has SQL."
+    },
+    {
+      "timestamp": "10:52",
+      "text": "Every piece of repository metadata lives in Postgres rows written in Rust."
+    },
+    {
+      "timestamp": "10:57",
+      "text": "Blazing fast database native Git server with fully tunable consistency. Your AI agents run colllocated with the database"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "fetching diffs and pushing code without rate limited cloud APIs."
+    },
+    {
+      "timestamp": "11:10",
+      "text": "PI is a radically minimal extensible alternative to claude code for building custom tool packages. Pi hosts gives"
+    },
+    {
+      "timestamp": "11:17",
+      "text": "your terminal AI agent direct access to your remote servers. Instead of manually sshing into AWS or Hzner to restart"
+    },
+    {
+      "timestamp": "11:24",
+      "text": "services, check Docker logs, or perform DevOps tasks, just tell your AI. It securely connects and runs commands from"
+    },
+    {
+      "timestamp": "11:31",
+      "text": "your chat interface. Strict customizable permission controls."
+    },
+    {
+      "timestamp": "11:36",
+      "text": "Want your AI coding assistant to double as your fortune teller?"
+    },
+    {
+      "timestamp": "11:41",
+      "text": "Destiny is a clawed code plugin bringing classical East Asian astrology straight to your terminal. Not asking the LLM to"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "hallucinate. A deterministic Python script ma mathematically computes your actual 8 character birth charting hexogs"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "and five element relationships from real calendar algorithms. Then Claude generates a personalized pros interpretation."
+    },
+    {
+      "timestamp": "12:05",
+      "text": "Yes, a literal font file can run Doom."
+    },
+    {
+      "timestamp": "12:08",
+      "text": "TTF Doom runs a 3D raycasting engine completely inside a True Type Fonts hinting virtual machine. The 1991 True"
+    },
+    {
+      "timestamp": "12:16",
+      "text": "Type instruction set has a stack storage memory and conditionals. Turing Complete, a tiny JavaScript wrapper, handles keyboard input and passes player"
+    },
+    {
+      "timestamp": "12:25",
+      "text": "coordinates through CSS font variation settings. Atom is the SQLite of agent frameworks, a complete fullyfeatured AI"
+    },
+    {
+      "timestamp": "12:33",
+      "text": "agent library written entirely in pure C. A single H have include Atom.h gives you a full autonomous agent loop with"
+    },
+    {
+      "timestamp": "12:40",
+      "text": "tool calling, long-term memory, voice processing, and session management."
+    },
+    {
+      "timestamp": "12:44",
+      "text": "Natively supports anthropic, OpenAI, Gemini, and Llama.cpp for local ondevice inference."
+    },
+    {
+      "timestamp": "12:51",
+      "text": "Mounting an NFS share that hangs, times out, or throws an obscure permission error is incredibly frustrating. Usually"
+    },
+    {
+      "timestamp": "12:58",
+      "text": "you manually run show mount, RPC info, ping ports, check permissions one by one. NFS DIAG automates all of that. A"
+    },
+    {
+      "timestamp": "13:05",
+      "text": "tiny lightning fast tool in pure C. Give it a server IP and it acts as an automated NFS doctor. Checks network connectivity, RPC bind, supported NFS"
+    },
+    {
+      "timestamp": "13:13",
+      "text": "versions, mount D status, exports, root squash, file locking, stale handles."
+    },
+    {
+      "timestamp": "13:19",
+      "text": "BTRI is a command line battery status monitor for Linux laptops written entirely in pure x8664 assembly. The"
+    },
+    {
+      "timestamp": "13:27",
+      "text": "entire compiled ELF executable is under 300 bytes, not kilobytes. Literally less than 300 bytes of machine code bypasses"
+    },
+    {
+      "timestamp": "13:36",
+      "text": "all standard libraries. Manually reads is power supply files to print watt hours and percentage. The install"
+    },
+    {
+      "timestamp": "13:43",
+      "text": "instruction isn't a download link, just a single line of B 64 you decode and pipe into your shell."
+    },
+    {
+      "timestamp": "13:50",
+      "text": "Stop fighting Guey frameworks. Start building.gi bundle wraps the legendary deer imgu library into a massive"
+    },
+    {
+      "timestamp": "13:57",
+      "text": "batteries included ecosystem pre-wired with powerful add-ons. Implot for 2D and 3D data plotting. Mm vision for image"
+    },
+    {
+      "timestamp": "14:04",
+      "text": "inspection, interactive node editors, markdown, file dialog, command pallet."
+    },
+    {
+      "timestamp": "14:09",
+      "text": "Write logic in C++ or Python. Run across Windows, Mac OS, Linux, iOS, and Android."
+    },
+    {
+      "timestamp": "14:16",
+      "text": "Let Go is a Bitecode compiler and VM for a closure dialect natively in Go. Tiny 10 megabyte static binary with a blistering 7 millisecond cold boot."
+    },
+    {
+      "timestamp": "14:25",
+      "text": "About 50 times faster than the JVM, three times faster than Babashka."
+    },
+    {
+      "timestamp": "14:30",
+      "text": "Compile scripts into zero dependency executables or self-contained WASUM web apps with full terminal emulation."
+    },
+    {
+      "timestamp": "14:37",
+      "text": "Native Go interrupt. Ghost strructs map to close your records."
+    },
+    {
+      "timestamp": "14:42",
+      "text": "AI agent builds a massive feature and you come back to a gigantic messy git diff. Stage cle is a local open-source"
+    },
+    {
+      "timestamp": "14:49",
+      "text": "command line tool that structures AI generated code diffs into a readable story. Works with any coding agent."
+    },
+    {
+      "timestamp": "14:56",
+      "text": "Instructs your agent to read your branch's changes, break them into sequential chapters, and pops them open in a gorgeous browser viewer. Review"
+    },
+    {
+      "timestamp": "15:05",
+      "text": "step by step exactly how the architectural logic flows."
+    },
+    {
+      "timestamp": "15:09",
+      "text": "PHPFTS is a blazing fast full text search engine written entirely in pure PHP with zero extensions required. No"
+    },
+    {
+      "timestamp": "15:17",
+      "text": "database driver, no Java runtime, under 1,000 lines of code implementing a true inverted index, tokenization, stemming,"
+    },
+    {
+      "timestamp": "15:25",
+      "text": "and the industry standard BM25 ranking algorithm. Drop it into the cheapest shared hosting and it just works. Less than 50 megabytes of memory."
+    },
+    {
+      "timestamp": "15:37",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is the Hacker News show number six. 35 open source projects that have recently been"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trending on Hacker News. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let Claude Code run while you grab coffee. Come back to 500 lines changed across 14 files. Git tracks the changes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "but has no idea why the AI did what it did. Regent is a dedicated version control system for your AI agents. runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "alongside git captures every prompt, tool call and conversation context in a local regent directory using Blake3"
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hashing and SQLite. RGT log shows the exact conversation behind a code change."
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Trying to learn a new programming language or game engine and hate forgetting syntax. Coding flashcards is a massive collection of over 800"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flashcards teaching Rust, SQLite, Godote, and Wolf from language strictly from first principles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 56000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every card is written in plain human readable markdown. Edit your notes in simple text and the built-in script instantly converts them into ready to import Anky decks or clean PDF files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Durac is a coding agent obsessed with efficiency and context curation. A highly optimized fork of the popular Klein project. Instead of expensive file"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reads, it uses a manipulation to understand your code structure, pulling in only the exact context the model actually needs. Massively parallel"
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "operations surgically modifies your files using brilliant hash anchored edits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple recently dropped their cutting edge sharp model that generates mind-blowing 3D Gaussian splats from a single 2D image. MLS Sharp Web takes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Apple's state-of-the-art Sharp model and runs it completely inside your web browser using the ONNX runtime web. Open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the app in Chrome or Edge, upload a flat 2D photo, and the model runs locally on your machine to generate a fully rotatable 3D Gaussian splat top file."
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pollen is a distributed WASUM runtime in Go. No central control plane, no master node. Install a single static binary on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "any machine. Workloads seated into the cluster. Nodes make deterministic local decisions using gossip crdts to place"
+        }
+      ]
+    },
+    {
+      "tStartMs": 135000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replicas based on capacity. Zerorust MTLS and NAT traversal automatic. String together a Raspberry Pi, a VPS, and your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "laptop into a single compute blob acting like a massive server farm."
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DAC is dashboard as code, an open- source tool from Bruin that defines interactive SQLback dashboards in pure"
+        }
+      ]
+    },
+    {
+      "tStartMs": 155000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "YAML and TSX. Because everything is code, it's perfectly designed for AI agents. Ships with bundled skills for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clawed and codecs. Tell your AI build me a sales dashboard and it autonomously writes the TSX, handles the semantic layer and renders charts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 172000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open bias is an AI guardrails framework that physically forces your agents to follow the rules. Sits as a transparent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 179000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proxy between your app and Anthropic, OpenAI, or Gemini. Define hard boundaries in a plain text rules.mmd"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file. Open bias evaluates live traffic with a sidecar judge LLM or a zerocost finite state machine. Detects a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "violation and intervenes, logs or blocks the response before it reaches users."
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lavend MQ is an ultraquick message Q server built from scratch in Crystal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Uses the same AMQP091 protocol. So it's a drop-in replacement."
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Swap your connection string and existing code works instantly. Sustains 800,000 messages a second. Handles long cues"
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "effortlessly. Tiny fraction of the RAM versus Erlang based brokers. Native MQTT support included."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cell is a fast terminal spreadsheet editor in Rust that feels exactly like Vim. All your muscle memory key bindings work. Hjkl I to insert DD Y. Don't let"
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the minimal interface fool you. Full Excel compatible formula syntax. Sum average if with range references."
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "natively imports CSV and TSV. Headless CLI mode evaluates formulas programmatically in bash scripts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 248000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Unix magic is a curated collection of shell wizardry that accomplishes complex tasks using pure raw Unix tools instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of installing heavy third party packages leverages a sed gp and zs for file manipulation text processing and system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "monitoring in a single line. oneliners that convert JSON to CSV, analyze server logs in real time, and manage massive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file migrations with zero external dependencies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent Swift is a native Mac OS app that acts as an autonomous AI coding agent for Apple Platform development. Describe"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "what you want in plain English. Powered by Claude, it autonomously discovers your Xcode project structure, edits source files, and compiles via custom"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CLI. It actually boots the iOS simulator and runs UI automation to physically verify the app behaves exactly like you asked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "WinPod X lets you run actual Windows apps as perfectly integrated native Windows on your Linux desktop, not a wine wrapper. Spins up a headless"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Windows container in the background and bridges the app to your screen via free RDP remote app. Zero config setup, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 317000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "manual networking, no ISO downloads. The automated Python CLI handles everything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each app gets its own icon, fully pinnable and alt tabable like a native Linux app."
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Relying on vision models and screenshot loops to click around a desktop is slow, brittle, and burns massive tokens. Agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Desktop is a blazing fast 15 megabyte native automation CLI in Rust. Instead of guessing pixel locations, it hooks directly into your OS accessibility"
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tree, reads the exact semantic structure of your desktop, windows, menus, text inputs, cuts token usage by up to 96%."
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ableton Live MCP is a model context protocol bridge for Ableton Live. AI agents like Claude see your entire"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "arrangement, read your device settings, analyze MIDI tracks. Ask it to fix the discordant section of your song and it finds the exact tracks where notes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "collide. Craziest part, an agent audio tap using Max for Live actively probes the actual audio signal chain in real time to optimize your mix."
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Throwaway is a sleek, fully open-source API that catches fake accounts. Runs entirely as a lightweight Cloudflare"
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "worker. No expensive email validation services. No bloated block lists in your back end. Deploy in seconds. Intercept"
+        }
+      ]
+    },
+    {
+      "tStartMs": 395000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "signups. Checks the email domain against a continuously updated throwaway provider list with practically zero latency. Runs for fractions of a cent on the edge."
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Autoarchchnament takes Carpathy's auto research loop and points it at hardcore hardware design. starts with a basic five-stage risk v CPU in system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "verarilog and unleashes an AI agent to propose code and benchmark microarchitectural improvements a strict sandboxed formal verifier with BMC"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checks and co- simulation break the instruction set code is rejected context key is an open-source credential"
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "broker for AI agents in go acts as an enterprisegrade security token service in your terminal instead of raw keys"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context intercepts the request authenticates you via OIDC and injects shortlived dynamically scoped tokens"
+        }
+      ]
+    },
+    {
+      "tStartMs": 446000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly into the agents memory. Secrets never touch disk vanish when the session ends. Full audit telemetry and granular allow deny policies on every tool call."
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rocky is an open- source SQL transformation engine in Rust. Acts as a modern control plane for data bricks, Snowflake, BigQuery or local duct DB."
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "provides compile time type safety and column level lineage before queries execute. Gitlike branching for your data. Automatic schema drift detection"
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per model cost attribution so you know which query is spiking your cloud bill."
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "49 agents is an open- source 2D IDE for managing AI agents in native CLI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 488000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ditches traditional tabs and puts everything on a single infinite zoomable spatial canvas. Terminals, code editors, git views, all on one map. Killer feature, multi-achine orchestration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 499000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Connect agents on different devices into one unified workspace without messy SSH dependencies. Self-host locally or run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "across a cluster via tail scale. Conwis is a multiplayer workspace for human AI collaboration. Realtime shared canvas"
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "where your team and AI agent look at the exact same documents, research, and decisions. Drop in user interviews or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 522000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "competitor screenshots and watch the AI draft an implementation plan with its thought process streaming live. The workspace is backed by a git versioned"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markdown file system. Pull notes via CLI straight into cloud code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dumping your codebase into cursor or clawed code burns massive tokens and skyrockets your bill. Sigmap is a zero dependency CLI that solves AI context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 546000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bloat, scans your repo across 21 languages and extracts a hyper compact signature map of function names, classes, and exported interfaces. TF IDF"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ranking instead of heavy vector databases. 80% retrieval accuracy while shrinking token usage by up to 97%."
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Loopsy is a phoneto- terminal bridge for AI coding agents. Secure persistent terminal on iPhone or Android controlling claude code, cursor or open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 573000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code. Fullcolored PTY session persistence, built-in voice input. The craziest part, agentto agent LAN mode. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local Damon finds your other machines via MDNS and exposes them to claude code through an MCP server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Trip is a complete fully functional transformer AI engine written from scratch in just 15,000 lines of pure C."
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No Python, no TensorFlow, no ONNX, just C. Linear algebra on float arrays, lib JPEG for vision, X11 for the UI. Built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 603000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by a veteran firmware engineer over 18 months of lunch breaks, inference, chat, vision, custom BPE tokenizer, full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "training with back prop. Natively loads hugging face safe tensors. Compiles with a 10-line make file."
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Study Bible MCP turns your AI into a worldclass biblical scholar. Plugs Claude directly into scholarly databases. Real-time access to full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Greek and Hebrew lexicons, LSJ Greek, BDB Hebrew, morphologically tagged texts. Hooks into theographic genealogy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "graphs to map family relationships, locations, and historical events."
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hardwired with a hermeneutical methodology from Fee and Stewart's how to read the Bible for all it's worth."
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gitgress reimagines version control a private re-implementation of GitHub running entirely on Postgre has SQL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every piece of repository metadata lives in Postgres rows written in Rust."
+        }
+      ]
+    },
+    {
+      "tStartMs": 657000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Blazing fast database native Git server with fully tunable consistency. Your AI agents run colllocated with the database"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fetching diffs and pushing code without rate limited cloud APIs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PI is a radically minimal extensible alternative to claude code for building custom tool packages. Pi hosts gives"
+        }
+      ]
+    },
+    {
+      "tStartMs": 677000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your terminal AI agent direct access to your remote servers. Instead of manually sshing into AWS or Hzner to restart"
+        }
+      ]
+    },
+    {
+      "tStartMs": 684000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "services, check Docker logs, or perform DevOps tasks, just tell your AI. It securely connects and runs commands from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 691000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your chat interface. Strict customizable permission controls."
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want your AI coding assistant to double as your fortune teller?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Destiny is a clawed code plugin bringing classical East Asian astrology straight to your terminal. Not asking the LLM to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hallucinate. A deterministic Python script ma mathematically computes your actual 8 character birth charting hexogs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and five element relationships from real calendar algorithms. Then Claude generates a personalized pros interpretation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 725000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Yes, a literal font file can run Doom."
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TTF Doom runs a 3D raycasting engine completely inside a True Type Fonts hinting virtual machine. The 1991 True"
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Type instruction set has a stack storage memory and conditionals. Turing Complete, a tiny JavaScript wrapper, handles keyboard input and passes player"
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "coordinates through CSS font variation settings. Atom is the SQLite of agent frameworks, a complete fullyfeatured AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent library written entirely in pure C. A single H have include Atom.h gives you a full autonomous agent loop with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tool calling, long-term memory, voice processing, and session management."
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Natively supports anthropic, OpenAI, Gemini, and Llama.cpp for local ondevice inference."
+        }
+      ]
+    },
+    {
+      "tStartMs": 771000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mounting an NFS share that hangs, times out, or throws an obscure permission error is incredibly frustrating. Usually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you manually run show mount, RPC info, ping ports, check permissions one by one. NFS DIAG automates all of that. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 785000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tiny lightning fast tool in pure C. Give it a server IP and it acts as an automated NFS doctor. Checks network connectivity, RPC bind, supported NFS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "versions, mount D status, exports, root squash, file locking, stale handles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "BTRI is a command line battery status monitor for Linux laptops written entirely in pure x8664 assembly. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "entire compiled ELF executable is under 300 bytes, not kilobytes. Literally less than 300 bytes of machine code bypasses"
+        }
+      ]
+    },
+    {
+      "tStartMs": 816000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all standard libraries. Manually reads is power supply files to print watt hours and percentage. The install"
+        }
+      ]
+    },
+    {
+      "tStartMs": 823000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instruction isn't a download link, just a single line of B 64 you decode and pipe into your shell."
+        }
+      ]
+    },
+    {
+      "tStartMs": 830000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop fighting Guey frameworks. Start building.gi bundle wraps the legendary deer imgu library into a massive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "batteries included ecosystem pre-wired with powerful add-ons. Implot for 2D and 3D data plotting. Mm vision for image"
+        }
+      ]
+    },
+    {
+      "tStartMs": 844000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inspection, interactive node editors, markdown, file dialog, command pallet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 849000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Write logic in C++ or Python. Run across Windows, Mac OS, Linux, iOS, and Android."
+        }
+      ]
+    },
+    {
+      "tStartMs": 856000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let Go is a Bitecode compiler and VM for a closure dialect natively in Go. Tiny 10 megabyte static binary with a blistering 7 millisecond cold boot."
+        }
+      ]
+    },
+    {
+      "tStartMs": 865000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "About 50 times faster than the JVM, three times faster than Babashka."
+        }
+      ]
+    },
+    {
+      "tStartMs": 870000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Compile scripts into zero dependency executables or self-contained WASUM web apps with full terminal emulation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 877000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Native Go interrupt. Ghost strructs map to close your records."
+        }
+      ]
+    },
+    {
+      "tStartMs": 882000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agent builds a massive feature and you come back to a gigantic messy git diff. Stage cle is a local open-source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 889000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command line tool that structures AI generated code diffs into a readable story. Works with any coding agent."
+        }
+      ]
+    },
+    {
+      "tStartMs": 896000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instructs your agent to read your branch's changes, break them into sequential chapters, and pops them open in a gorgeous browser viewer. Review"
+        }
+      ]
+    },
+    {
+      "tStartMs": 905000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "step by step exactly how the architectural logic flows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 909000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PHPFTS is a blazing fast full text search engine written entirely in pure PHP with zero extensions required. No"
+        }
+      ]
+    },
+    {
+      "tStartMs": 917000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "database driver, no Java runtime, under 1,000 lines of code implementing a true inverted index, tokenization, stemming,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 925000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and the industry standard BM25 ranking algorithm. Drop it into the cheapest shared hosting and it just works. Less than 50 megabytes of memory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 937000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}
