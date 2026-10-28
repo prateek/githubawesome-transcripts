@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "id": "m4rfac4neJY",
+  "title": "GitHub Trending Weekly #26: OpenReview, SSD, claude-devtools, webreel, OpenSEO , WebHaptics, parsync",
+  "url": "https://www.youtube.com/watch?v=m4rfac4neJY",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-03-06",
+  "duration": 838,
+  "word_count": 2062,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T13:16:19+00:00",
+    "metadata_sha256": "2020160a5c4a7f96d4424252600657132fe181cff3e9da7998de8f3c151a2877",
+    "captions_sha256": "8352a41ff9dc064a87b7165e6a3a92631bdfd80c9222f20db29a0f71b93d7e00",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "In today's episode, GitHub Trending Weekly number 26, we are blasting through 32 trending open- source projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "OpenReview",
+      "repositories": [
+        "https://github.com/vercel-labs/openreview"
+      ],
+      "id": "s002",
+      "end": 40,
+      "paragraphs": [
+        "Want AI code review without handing your proprietary code to a third party SAS? Open Review from Versel Labs is the answer. Deploy it to Versell, connect it as a GitHub app, and just mention at oopen review in any pull request. It spins up a sandboxed environment, clones your branch, and deploys a claude powered agent to review the diff. If it finds lint errors or formatting issues, it automatically commits and pushes the fixes directly to your PR branch."
+      ]
+    },
+    {
+      "start": 40,
+      "title": "Excalidraw Diagram Skill",
+      "repositories": [
+        "https://github.com/coleam00/excalidraw-diagram-skill"
+      ],
+      "id": "s003",
+      "end": 66,
+      "paragraphs": [
+        "Ever wish your AI coding assistant could just draw you an architecture diagram? The Excaladraw diagram skill for claude code does exactly that. It generates beautiful structured Excaladraw JSON files directly from natural language. It doesn't just spit out random boxes. It creates meaningful visual arguments complete with system flows and brand aligned colors. A massive timesaver for documentation."
+      ]
+    },
+    {
+      "start": 66,
+      "title": "SSD",
+      "repositories": [
+        "https://github.com/tanishqkumar/ssd"
+      ],
+      "id": "s004",
+      "end": 94,
+      "paragraphs": [
+        "SSD stands for speculative speculative decoding. Standard speculative decoding is fast, but it forces the fast model to wait for the slow model to verify tokens. SSD breaks that barrier by parallelizing the process across distinct hardware, literally predicting the verification outcomes before they even happen. The result, a lossless inference engine that runs up to 2x faster than the strongest baselines in the world."
+      ]
+    },
+    {
+      "start": 94,
+      "title": "claude-devtools",
+      "repositories": [
+        "https://github.com/matt1398/claude-devtools"
+      ],
+      "id": "s005",
+      "end": 120,
+      "paragraphs": [
+        "If you use clawed code, you know the terminal tells you almost nothing about what the AI is actually doing under the hood. Claude DevTools fixes this. It's a desktop app that reverse engineers the raw session logs already on your machine. Zero config, no API keys. It visualizes your entire hidden context window. Every file read, every tool call, recursive sub aent trees, and exactly where your tokens are going."
+      ]
+    },
+    {
+      "start": 120,
+      "title": "OpenClaw Master Skills",
+      "repositories": [
+        "https://github.com/LeoYeAI/openclaw-master-skills"
+      ],
+      "id": "s006",
+      "end": 146,
+      "paragraphs": [
+        "OpenClaw master skills is a highly curated weekly updated directory over 127 of the absolute best OpenClaw skills aggregated from across the web. Instead of writing custom agent tools from scratch, you can just browse this directory, plug the skills directly into your setup, and give your AI agent instant superpowers like advanced repository analysis and document processing."
+      ]
+    },
+    {
+      "start": 146,
+      "title": "webreel",
+      "repositories": [
+        "https://github.com/vercel-labs/webreel"
+      ],
+      "id": "s007",
+      "end": 172,
+      "paragraphs": [
+        "Tired of doing 50 takes just to record the perfect browser demo? Webre from Versel Labs fixes that. Write a simple JSON config, define your clicks, typing, drag and drops, and pauses, and it automatically drives headless Chrome to record it for you. 60 frames per second encoded to MP4, WebM, or GIF via FFmpeg. It automatically adds animated cursors, keystroke overlay, HUDs, and sound effects."
+      ]
+    },
+    {
+      "start": 172,
+      "title": "PM Skills",
+      "repositories": [
+        "https://github.com/phuryn/pm-skills"
+      ],
+      "id": "s008",
+      "end": 198,
+      "paragraphs": [
+        "This is for the product managers out there. PM Skills is an open- source marketplace packed with over 100 agentic skills and commands built for claude code. It turns your AI into a dedicated PM assistant guiding you through workflows for product discovery, market research, go to market strategies, and analytics. It is basically an AI operating system for making better product decisions."
+      ]
+    },
+    {
+      "start": 198,
+      "title": "WebHaptics",
+      "repositories": [
+        "https://github.com/lochie/web-haptics"
+      ],
+      "id": "s009",
+      "end": 224,
+      "paragraphs": [
+        "If you build mobile web apps, you know they often lack that premium native feel. Web haptics fixes this instantly. It brings native feeling vibration feedback directly to the mobile web with simple hooks for react view and spelt. Just attach the trigger to your buttons and suddenly your PWA feels alive and tactile in your user's hands. It even includes a desktop debug mode with audio feedback."
+      ]
+    },
+    {
+      "start": 224,
+      "title": "skills-best-practices",
+      "repositories": [
+        "https://github.com/mgechev/skills-best-practices"
+      ],
+      "id": "s010",
+      "end": 249,
+      "paragraphs": [
+        "Writing skills for AI agents can get messy fast. Minko get brings us the definitive skills best practices repository. It's a master class in writing professional-grade agent skills that maintain a lean context window. It teaches you how to structure your directories, validate your skills using LLMs, and ensure your agent reliably triggers the right tools without hallucinating."
+      ]
+    },
+    {
+      "start": 249,
+      "title": "Symphony",
+      "repositories": [
+        "https://github.com/openai/symphony"
+      ],
+      "id": "s011",
+      "end": 274,
+      "paragraphs": [
+        "If you are tired of babysitting your AI coding agents, Symfony turns your project management board into the orchestrator. It natively monitors your linear board, spawns an isolated workspace, and assigns an AI agent to build the feature autonomously. It even provides proof of work by running CI checks, handling PR reviews, and generating a video walkthrough before landing the PR."
+      ]
+    },
+    {
+      "start": 274,
+      "title": "Paperclip",
+      "repositories": [
+        "https://github.com/paperclipai/paperclip"
+      ],
+      "id": "s012",
+      "end": 301,
+      "paragraphs": [
+        "If Symphfony is your AI project manager, Paperclip is your entire corporate infrastructure. Build as the orchestration layer for a zero human company. This framework gives you a complete corporate architecture out of the box. You get dynamic org charts, budget controls, and companywide goal alignment. You can assign different AI models to act as different departments, letting them operate autonomously to run a full-blown AI business."
+      ]
+    },
+    {
+      "start": 301,
+      "title": "SplatHash",
+      "repositories": [
+        "https://github.com/junevm/splathash"
+      ],
+      "id": "s013",
+      "end": 329,
+      "paragraphs": [
+        "If you are optimizing web performance, you need Splatash. It's a ridiculously lightweight alternative to blur hash and thumb hash. It encodes any image into exactly 16 bytes, allowing you to instantly generate a blurry 32x32 placeholder while the main image loads in the background. With implementations in Go, TypeScript, and Python, it is the ultimate tool for startups building massive userenerated content feeds."
+      ]
+    },
+    {
+      "start": 329,
+      "title": "gws",
+      "repositories": [
+        "https://github.com/googleworkspace/cli"
+      ],
+      "id": "s014",
+      "end": 352,
+      "paragraphs": [
+        "Google open-sourced the Google Workspace CLI written entirely in Rust. This CLI gives you complete access to Drive, Gmail, Calendar, and Docs. It was built natively for AI. It instantly spins up as an MCP server, meaning your local AI agent can now read your emails, check your calendar, and draft replies without you writing a single custom integration."
+      ]
+    },
+    {
+      "start": 352,
+      "title": "OpenPencil",
+      "repositories": [
+        "https://github.com/open-pencil/open-pencil"
+      ],
+      "id": "s015",
+      "end": 380,
+      "paragraphs": [
+        "What if AI could design your UI for you in real time? Open Pencil is an open-source AI native alternative to Figma. Instead of dragging boxes for hours, it runs an MCP server in the background. So you can open clawed code and literally type generate a rover management dashboard using the editorial style guide and watch the AI place and style components on your canvas live. Ships with a gallery of professional style guides."
+      ]
+    },
+    {
+      "start": 380,
+      "title": "OpenSEO",
+      "repositories": [
+        "https://github.com/every-app/open-seo"
+      ],
+      "id": "s016",
+      "end": 404,
+      "paragraphs": [
+        "If you are tired of paying $100 a month for bloated tools like Semrush just to do basic keyword research, this is for you. It's an open-source self-hosted SEO tool powered by a pay-per- usage API. You get keyword tracking, competitor domain research, and unlimited free site audits in a gorgeous, clean interface, all for fractions of a penny per search."
+      ]
+    },
+    {
+      "start": 404,
+      "title": "parsync",
+      "repositories": [
+        "https://github.com/AlpinDale/parsync"
+      ],
+      "id": "s017",
+      "end": 427,
+      "paragraphs": [
+        "If you've ever watched Arsync crawl through a massive SSH transfer, Parsync is for you. It's a high throughput resumable sync tool built in Rust that pulls files from SSH remotes in parallel. R sync but with actual concurrency baked in pointed at a remote path. It pulls everything down with multiple simultaneous transfers and optional block delta sync for large files."
+      ]
+    },
+    {
+      "start": 427,
+      "title": "TorchCode",
+      "repositories": [
+        "https://github.com/duoan/TorchCode"
+      ],
+      "id": "s018",
+      "end": 453,
+      "paragraphs": [
+        "If you want to master AI engineering, you need torch code. Think of this as leak code specifically for PyTorch. It provides a guided practice environment where you are tasked with implementing neural network operators and complex architectures entirely from scratch with automated grading and instant feedback. It is the absolute best way to deeply understand the math and code behind modern AI."
+      ]
+    },
+    {
+      "start": 453,
+      "title": "UI Design Brain",
+      "repositories": [
+        "https://github.com/carmahhawwari/ui-design-brain"
+      ],
+      "id": "s019",
+      "end": 477,
+      "paragraphs": [
+        "Are you tired of your AI coding assistant generating generic UI components? UI design brain is a cursor skill that gives your AI agent actual design system knowledge. It feeds the agent best practices, layout patterns, and modern SAS conventions for over 60 interface components, ensuring that the code it spits out is production grade, accessible, and beautifully minimal."
+      ]
+    },
+    {
+      "start": 477,
+      "title": "word-doodle",
+      "repositories": [
+        "https://github.com/j-ncel/word-doodle"
+      ],
+      "id": "s020",
+      "end": 503,
+      "paragraphs": [
+        "Word Doodle is a super fun front-end project. It's a browser-based generative engine that takes raw text and transforms it into dense handdrawn style typographic doodle art. Built purely in vanilla JavaScript, it uses frequency mapping and randomized collision detection to pack words onto a canvas as tightly as possible. Try pasting your project's readme into it. The results are mesmerizing."
+      ]
+    },
+    {
+      "start": 503,
+      "title": "SynapsCAD",
+      "repositories": [
+        "https://github.com/ierror/synaps-cad"
+      ],
+      "id": "s021",
+      "end": 529,
+      "paragraphs": [
+        "Synapse CAD is a desktop 3D CAD IDE built entirely in Rust that brings AI vibe coding to 3D modeling. It combines an OpenCAD code editor, a real-time 3D viewport, and an AI assistant. You can click on parts of your 3D model and use natural language to tell the AI to modify it and it writes the underlying parametric code for you. An incredible tool for 3D printing enthusiasts."
+      ]
+    },
+    {
+      "start": 529,
+      "title": "sympozium",
+      "repositories": [
+        "https://github.com/AlexsJones/sympozium"
+      ],
+      "id": "s022",
+      "end": 555,
+      "paragraphs": [
+        "If you are scaling up your AI workforce and moving to production, this tool lets you run an entire fleet of AI agents natively on Kubernetes. It acts as an orchestrator allowing you to administer your K cluster agentically. It beautifully bridges the gap between enterprisegrade Kubernetes infrastructure and autonomous AI swarms. If you love DevOps and AI, this is an absolute mustsee."
+      ]
+    },
+    {
+      "start": 555,
+      "title": "cryload",
+      "repositories": [
+        "https://github.com/sdogruyol/cryload"
+      ],
+      "id": "s023",
+      "end": 581,
+      "paragraphs": [
+        "Need to stress test your web apps? Kryo is a blistering fast HTTP benchmarking tool written entirely in the Crystal programming language. It is incredibly lightweight, super easy to install, and allows you to hammer your servers with thousands of requests to accurately measure performance. bottlenecks. If you love clean, fast CLI tools and need a modern alternative to Apache Bench, check this out."
+      ]
+    },
+    {
+      "start": 581,
+      "title": "OpenClaw Backup",
+      "repositories": [
+        "https://github.com/LeoYeAI/openclaw-backup"
+      ],
+      "id": "s024",
+      "end": 604,
+      "paragraphs": [
+        "If you are running complex autonomous agents using Open Claw, you know exactly how painful it is to migrate or reset them. This utility gives you a seamless one-click backup and restore solution. It safely packages up your agents workspace, credentials, loaded skills, and full conversation history. It provides total peace of mind for serious agent developers."
+      ]
+    },
+    {
+      "start": 604,
+      "title": "git-memento",
+      "repositories": [
+        "https://github.com/mandel-macaque/memento"
+      ],
+      "id": "s025",
+      "end": 631,
+      "paragraphs": [
+        "If AI writes the code, shouldn't the AI's thought process be part of the commit? Git Momento is a brilliant Git extension that tracks your clawed or codeex sessions and attaches them to your commits using Git notes. It saves a cleaned up markdown transcript of the AI session that produced the code, preserving the provenence and thought process for future maintainers without breaking your standard Git workflow."
+      ]
+    },
+    {
+      "start": 631,
+      "title": "LTX Desktop",
+      "repositories": [
+        "https://github.com/Lightricks/LTX-Desktop"
+      ],
+      "id": "s026",
+      "end": 656,
+      "paragraphs": [
+        "LTX Desktop is a video editor powered by LightRick's new LTX 2.3 multimodal model. It lets you generate and edit text to video and image to video entirely offline using your NVIDIA GPU. The timeline editor is insane. You can generate multiple takes per clip non-destructively. Use contextaware gap fill and regenerate specific sections of a video without leaving the timeline."
+      ]
+    },
+    {
+      "start": 656,
+      "title": "react-kino",
+      "repositories": [
+        "https://github.com/btahir/react-kino"
+      ],
+      "id": "s027",
+      "end": 683,
+      "paragraphs": [
+        "Tired of importing a massive 33 kilob library just for scroll animations? React Kino does it in under 1 kilob. It's a cinematic scroll-driven storytelling library for React that relies purely on CSS sticky positioning and native compositing. Zero dependencies, buttery smooth Apple style scroll experiences, 12 declarative components, including parallax, video scroll, and text reveal."
+      ]
+    },
+    {
+      "start": 683,
+      "title": "br-acc",
+      "repositories": [
+        "https://github.com/World-Open-Graph/br-acc"
+      ],
+      "id": "s028",
+      "end": 706,
+      "paragraphs": [
+        "This is a massive open-source graph infrastructure originally built to map out complex Brazilian public records for transparency and intelligence work. Powered by a Neo Forj graph database and async Python fast API backend and a React 19 front end. It is designed to ingest massive data sets and connect the dots to find hidden investigative signals."
+      ]
+    },
+    {
+      "start": 706,
+      "title": "Fractals",
+      "repositories": [
+        "https://github.com/TinyAGI/fractals"
+      ],
+      "id": "s029",
+      "end": 733,
+      "paragraphs": [
+        "Fractals is a recursive agentic task orchestrator. Give it a highle goal and it dynamically grows a self-similar tree of subtasks running each leaf in an isolated git work tree using a swarm of AI agents in parallel. Once the leaves are done, a merger agent combines branches bottom up, resolving conflicts until a single unified project emerges at the root. Incredibly clever architecture for massive AI workflows."
+      ]
+    },
+    {
+      "start": 733,
+      "title": "yoyo",
+      "repositories": [
+        "https://github.com/yologdev/yoyo-evolve"
+      ],
+      "id": "s030",
+      "end": 761,
+      "paragraphs": [
+        "Ready for the Truman Show of AI development? Yoyo Evolve started as a 200line coding agent written in Rust. Every eight hours, a GitHub action wakes it up. It reads its own source code, checks community issues, finds bugs, implements improvements, and runs tests. pass, it commits, fail, it reverts. No human writes its code. In just a few days, it autonomously refactored itself into over 1500 lines across multiple modules."
+      ]
+    },
+    {
+      "start": 761,
+      "title": "AntennaSim",
+      "repositories": [
+        "https://github.com/EA1FUO/AntennaSim"
+      ],
+      "id": "s031",
+      "end": 785,
+      "paragraphs": [
+        "Antenna, a web-based antenna simulator powered by the legendary NEC2 engine running entirely in your browser. The creator compiled Nest 2C directly to Web Assembly, so complex electromagnetic antenna simulations happen client side. No server works on your phone, too. Beautiful interactive 3D models, instant gain in DBI, elevation, and azimuth as you hover."
+      ]
+    },
+    {
+      "start": 785,
+      "title": "Vibma",
+      "repositories": [
+        "https://github.com/ufira-ai/Vibma"
+      ],
+      "id": "s032",
+      "end": 810,
+      "paragraphs": [
+        "Vibbma brings vibe coding directly to Figma. This MCP server allows your AI agents to design interfaces inside your actual Figma files. You can chat with Claude and tell it to read your current layout, create new components, or modify your design system styles. It bridges the gap between LLM reasoning and professional design software, turning your AI into a junior UI designer."
+      ]
+    },
+    {
+      "start": 810,
+      "title": "ghost",
+      "repositories": [
+        "https://github.com/adamveld12/ghost"
+      ],
+      "id": "s033",
+      "end": 838,
+      "paragraphs": [
+        "Ghost is a project that turns Git itself into an AI coding agent. It introduces intentbased commits to your workflow. Instead of writing code and then writing a commit message, you just describe your intent and the agent natively interacts with your codebase to make the changes and log them seamlessly into your Git history. It bridges the gap between AI generation and version control. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "In today's episode, GitHub Trending Weekly number 26, we are blasting through 32 trending open- source projects on GitHub. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Want AI code review without handing your proprietary code to a third party SAS?"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "Open Review from Versel Labs is the answer. Deploy it to Versell, connect it as a GitHub app, and just mention at"
+    },
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "oopen review in any pull request. It spins up a sandboxed environment, clones your branch, and deploys a claude"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "powered agent to review the diff. If it finds lint errors or formatting issues, it automatically commits and pushes the fixes directly to your PR branch."
+    },
+    {
+      "start": 40.0,
+      "end": 40.0,
+      "text": "Ever wish your AI coding assistant could just draw you an architecture diagram?"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "text": "The Excaladraw diagram skill for claude code does exactly that. It generates beautiful structured Excaladraw JSON"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "files directly from natural language. It doesn't just spit out random boxes. It creates meaningful visual arguments"
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "text": "complete with system flows and brand aligned colors. A massive timesaver for documentation."
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "SSD stands for speculative speculative decoding. Standard speculative decoding is fast, but it forces the fast model to"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "text": "wait for the slow model to verify tokens. SSD breaks that barrier by parallelizing the process across distinct hardware, literally predicting"
+    },
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "text": "the verification outcomes before they even happen. The result, a lossless inference engine that runs up to 2x faster than the strongest baselines in the world."
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "text": "If you use clawed code, you know the terminal tells you almost nothing about what the AI is actually doing under the hood. Claude DevTools fixes this. It's a"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "desktop app that reverse engineers the raw session logs already on your machine. Zero config, no API keys. It"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "visualizes your entire hidden context window. Every file read, every tool call, recursive sub aent trees, and exactly where your tokens are going."
+    },
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "OpenClaw master skills is a highly curated weekly updated directory over 127 of the absolute best OpenClaw skills"
+    },
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "aggregated from across the web. Instead of writing custom agent tools from scratch, you can just browse this directory, plug the skills directly into"
+    },
+    {
+      "start": 138.0,
+      "end": 138.0,
+      "text": "your setup, and give your AI agent instant superpowers like advanced repository analysis and document processing."
+    },
+    {
+      "start": 146.0,
+      "end": 146.0,
+      "text": "Tired of doing 50 takes just to record the perfect browser demo? Webre from Versel Labs fixes that. Write a simple"
+    },
+    {
+      "start": 153.0,
+      "end": 153.0,
+      "text": "JSON config, define your clicks, typing, drag and drops, and pauses, and it automatically drives headless Chrome to record it for you. 60 frames per second encoded to MP4, WebM, or GIF via FFmpeg."
+    },
+    {
+      "start": 166.0,
+      "end": 166.0,
+      "text": "It automatically adds animated cursors, keystroke overlay, HUDs, and sound effects."
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "This is for the product managers out there. PM Skills is an open- source marketplace packed with over 100 agentic"
+    },
+    {
+      "start": 180.0,
+      "end": 180.0,
+      "text": "skills and commands built for claude code. It turns your AI into a dedicated PM assistant guiding you through"
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "workflows for product discovery, market research, go to market strategies, and analytics. It is basically an AI"
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "operating system for making better product decisions."
+    },
+    {
+      "start": 198.0,
+      "end": 198.0,
+      "text": "If you build mobile web apps, you know they often lack that premium native feel. Web haptics fixes this instantly."
+    },
+    {
+      "start": 205.0,
+      "end": 205.0,
+      "text": "It brings native feeling vibration feedback directly to the mobile web with simple hooks for react view and spelt."
+    },
+    {
+      "start": 212.0,
+      "end": 212.0,
+      "text": "Just attach the trigger to your buttons and suddenly your PWA feels alive and tactile in your user's hands. It even"
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "includes a desktop debug mode with audio feedback."
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Writing skills for AI agents can get messy fast. Minko get brings us the definitive skills best practices"
+    },
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "repository. It's a master class in writing professional-grade agent skills that maintain a lean context window. It"
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "teaches you how to structure your directories, validate your skills using LLMs, and ensure your agent reliably triggers the right tools without hallucinating."
+    },
+    {
+      "start": 249.0,
+      "end": 249.0,
+      "text": "If you are tired of babysitting your AI coding agents, Symfony turns your project management board into the orchestrator."
+    },
+    {
+      "start": 257.0,
+      "end": 257.0,
+      "text": "It natively monitors your linear board, spawns an isolated workspace, and assigns an AI agent to build the feature autonomously. It even provides proof of"
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "work by running CI checks, handling PR reviews, and generating a video walkthrough before landing the PR."
+    },
+    {
+      "start": 274.0,
+      "end": 274.0,
+      "text": "If Symphfony is your AI project manager, Paperclip is your entire corporate infrastructure. Build as the orchestration layer for a zero human"
+    },
+    {
+      "start": 282.0,
+      "end": 282.0,
+      "text": "company. This framework gives you a complete corporate architecture out of the box. You get dynamic org charts,"
+    },
+    {
+      "start": 289.0,
+      "end": 289.0,
+      "text": "budget controls, and companywide goal alignment. You can assign different AI models to act as different departments,"
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "letting them operate autonomously to run a full-blown AI business."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "If you are optimizing web performance, you need Splatash. It's a ridiculously lightweight alternative to blur hash and"
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "thumb hash. It encodes any image into exactly 16 bytes, allowing you to instantly generate a blurry 32x32"
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "placeholder while the main image loads in the background. With implementations in Go, TypeScript, and Python, it is the"
+    },
+    {
+      "start": 324.0,
+      "end": 324.0,
+      "text": "ultimate tool for startups building massive userenerated content feeds."
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "Google open-sourced the Google Workspace CLI written entirely in Rust. This CLI gives you complete access to Drive,"
+    },
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "Gmail, Calendar, and Docs. It was built natively for AI. It instantly spins up as an MCP server, meaning your local AI"
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "agent can now read your emails, check your calendar, and draft replies without you writing a single custom integration."
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "What if AI could design your UI for you in real time?"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "Open Pencil is an open-source AI native alternative to Figma. Instead of dragging boxes for hours, it runs an MCP server in the background. So you can"
+    },
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "open clawed code and literally type generate a rover management dashboard using the editorial style guide and watch the AI place and style components"
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "on your canvas live. Ships with a gallery of professional style guides."
+    },
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "If you are tired of paying $100 a month for bloated tools like Semrush just to do basic keyword research, this is for"
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "you. It's an open-source self-hosted SEO tool powered by a pay-per- usage API."
+    },
+    {
+      "start": 393.0,
+      "end": 393.0,
+      "text": "You get keyword tracking, competitor domain research, and unlimited free site audits in a gorgeous, clean interface, all for fractions of a penny per search."
+    },
+    {
+      "start": 404.0,
+      "end": 404.0,
+      "text": "If you've ever watched Arsync crawl through a massive SSH transfer, Parsync is for you. It's a high throughput resumable sync tool built in Rust that"
+    },
+    {
+      "start": 412.0,
+      "end": 412.0,
+      "text": "pulls files from SSH remotes in parallel. R sync but with actual concurrency baked in pointed at a remote path. It pulls everything down with"
+    },
+    {
+      "start": 421.0,
+      "end": 421.0,
+      "text": "multiple simultaneous transfers and optional block delta sync for large files."
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "If you want to master AI engineering, you need torch code. Think of this as leak code specifically for PyTorch. It"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "provides a guided practice environment where you are tasked with implementing neural network operators and complex architectures entirely from scratch with automated grading and instant feedback."
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "It is the absolute best way to deeply understand the math and code behind modern AI."
+    },
+    {
+      "start": 453.0,
+      "end": 453.0,
+      "text": "Are you tired of your AI coding assistant generating generic UI components? UI design brain is a cursor"
+    },
+    {
+      "start": 460.0,
+      "end": 460.0,
+      "text": "skill that gives your AI agent actual design system knowledge. It feeds the agent best practices, layout patterns,"
+    },
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "and modern SAS conventions for over 60 interface components, ensuring that the code it spits out is production grade, accessible, and beautifully minimal."
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Word Doodle is a super fun front-end project. It's a browser-based generative engine that takes raw text and"
+    },
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "transforms it into dense handdrawn style typographic doodle art. Built purely in vanilla JavaScript, it uses frequency"
+    },
+    {
+      "start": 492.0,
+      "end": 492.0,
+      "text": "mapping and randomized collision detection to pack words onto a canvas as tightly as possible. Try pasting your project's readme into it. The results are mesmerizing."
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "Synapse CAD is a desktop 3D CAD IDE built entirely in Rust that brings AI vibe coding to 3D modeling. It combines"
+    },
+    {
+      "start": 511.0,
+      "end": 511.0,
+      "text": "an OpenCAD code editor, a real-time 3D viewport, and an AI assistant. You can click on parts of your 3D model and use"
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "natural language to tell the AI to modify it and it writes the underlying parametric code for you. An incredible tool for 3D printing enthusiasts."
+    },
+    {
+      "start": 529.0,
+      "end": 529.0,
+      "text": "If you are scaling up your AI workforce and moving to production, this tool lets you run an entire fleet of AI agents"
+    },
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "natively on Kubernetes. It acts as an orchestrator allowing you to administer your K cluster agentically. It"
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "beautifully bridges the gap between enterprisegrade Kubernetes infrastructure and autonomous AI swarms."
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "If you love DevOps and AI, this is an absolute mustsee."
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "Need to stress test your web apps? Kryo is a blistering fast HTTP benchmarking tool written entirely in the Crystal"
+    },
+    {
+      "start": 563.0,
+      "end": 563.0,
+      "text": "programming language. It is incredibly lightweight, super easy to install, and allows you to hammer your servers with thousands of requests to accurately"
+    },
+    {
+      "start": 571.0,
+      "end": 571.0,
+      "text": "measure performance. bottlenecks. If you love clean, fast CLI tools and need a modern alternative to Apache Bench, check this out."
+    },
+    {
+      "start": 581.0,
+      "end": 581.0,
+      "text": "If you are running complex autonomous agents using Open Claw, you know exactly how painful it is to migrate or reset"
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "them. This utility gives you a seamless one-click backup and restore solution."
+    },
+    {
+      "start": 593.0,
+      "end": 593.0,
+      "text": "It safely packages up your agents workspace, credentials, loaded skills, and full conversation history. It"
+    },
+    {
+      "start": 600.0,
+      "end": 600.0,
+      "text": "provides total peace of mind for serious agent developers."
+    },
+    {
+      "start": 604.0,
+      "end": 604.0,
+      "text": "If AI writes the code, shouldn't the AI's thought process be part of the commit?"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "Git Momento is a brilliant Git extension that tracks your clawed or codeex sessions and attaches them to your commits using Git notes."
+    },
+    {
+      "start": 620.0,
+      "end": 620.0,
+      "text": "It saves a cleaned up markdown transcript of the AI session that produced the code, preserving the provenence and thought process for"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "future maintainers without breaking your standard Git workflow."
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "LTX Desktop is a video editor powered by LightRick's new LTX 2.3 multimodal model. It lets you generate and edit"
+    },
+    {
+      "start": 639.0,
+      "end": 639.0,
+      "text": "text to video and image to video entirely offline using your NVIDIA GPU."
+    },
+    {
+      "start": 644.0,
+      "end": 644.0,
+      "text": "The timeline editor is insane. You can generate multiple takes per clip non-destructively. Use contextaware gap fill and regenerate specific sections of a video without leaving the timeline."
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "Tired of importing a massive 33 kilob library just for scroll animations? React Kino does it in under 1 kilob."
+    },
+    {
+      "start": 664.0,
+      "end": 664.0,
+      "text": "It's a cinematic scroll-driven storytelling library for React that relies purely on CSS sticky positioning and native compositing. Zero"
+    },
+    {
+      "start": 673.0,
+      "end": 673.0,
+      "text": "dependencies, buttery smooth Apple style scroll experiences, 12 declarative components, including parallax, video scroll, and text reveal."
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "This is a massive open-source graph infrastructure originally built to map out complex Brazilian public records for transparency and intelligence work."
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "Powered by a Neo Forj graph database and async Python fast API backend and a React 19 front end. It is designed to"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "ingest massive data sets and connect the dots to find hidden investigative signals."
+    },
+    {
+      "start": 706.0,
+      "end": 706.0,
+      "text": "Fractals is a recursive agentic task orchestrator."
+    },
+    {
+      "start": 710.0,
+      "end": 710.0,
+      "text": "Give it a highle goal and it dynamically grows a self-similar tree of subtasks running each leaf in an isolated git"
+    },
+    {
+      "start": 717.0,
+      "end": 717.0,
+      "text": "work tree using a swarm of AI agents in parallel. Once the leaves are done, a merger agent combines branches bottom"
+    },
+    {
+      "start": 724.0,
+      "end": 724.0,
+      "text": "up, resolving conflicts until a single unified project emerges at the root."
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "Incredibly clever architecture for massive AI workflows."
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Ready for the Truman Show of AI development? Yoyo Evolve started as a 200line coding agent written in Rust."
+    },
+    {
+      "start": 740.0,
+      "end": 740.0,
+      "text": "Every eight hours, a GitHub action wakes it up. It reads its own source code, checks community issues, finds bugs, implements improvements, and runs tests."
+    },
+    {
+      "start": 749.0,
+      "end": 749.0,
+      "text": "pass, it commits, fail, it reverts. No human writes its code. In just a few days, it autonomously refactored itself"
+    },
+    {
+      "start": 757.0,
+      "end": 757.0,
+      "text": "into over 1500 lines across multiple modules."
+    },
+    {
+      "start": 761.0,
+      "end": 761.0,
+      "text": "Antenna, a web-based antenna simulator powered by the legendary NEC2 engine running entirely in your browser. The"
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "creator compiled Nest 2C directly to Web Assembly, so complex electromagnetic antenna simulations happen client side. No server works on your phone, too."
+    },
+    {
+      "start": 778.0,
+      "end": 778.0,
+      "text": "Beautiful interactive 3D models, instant gain in DBI, elevation, and azimuth as you hover."
+    },
+    {
+      "start": 785.0,
+      "end": 785.0,
+      "text": "Vibbma brings vibe coding directly to Figma. This MCP server allows your AI agents to design interfaces inside your"
+    },
+    {
+      "start": 793.0,
+      "end": 793.0,
+      "text": "actual Figma files. You can chat with Claude and tell it to read your current layout, create new components, or modify your design system styles. It bridges"
+    },
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "the gap between LLM reasoning and professional design software, turning your AI into a junior UI designer."
+    },
+    {
+      "start": 810.0,
+      "end": 810.0,
+      "text": "Ghost is a project that turns Git itself into an AI coding agent. It introduces intentbased commits to your workflow."
+    },
+    {
+      "start": 818.0,
+      "end": 818.0,
+      "text": "Instead of writing code and then writing a commit message, you just describe your intent and the agent natively interacts with your codebase to make the changes"
+    },
+    {
+      "start": 827.0,
+      "end": 827.0,
+      "text": "and log them seamlessly into your Git history. It bridges the gap between AI generation and version control."
+    },
+    {
+      "start": 836.0,
+      "end": 836.0,
+      "text": "[music]"
+    }
+  ]
+}

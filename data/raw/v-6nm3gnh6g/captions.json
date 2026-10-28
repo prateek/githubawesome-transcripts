@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. This is trending AI projects episode 3. Today I've put together 35 trending AI projects on GitHub. Let's get started."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Giving AI agents full terminal access is a huge security risk. You need claw."
+    },
+    {
+      "timestamp": "0:18",
+      "text": "It's an official NVIDIA plugin that securely sandboxes your OpenClaw agents using the Open Shell runtime. It strictly blocks unauthorized network and"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "file access while running completely locally on high performance Neotron models. If you want safe agents for your RTX workstation, you need this."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "If you are using clawed code, you are probably burning through tokens every time it rereads your massive code base."
+    },
+    {
+      "timestamp": "0:43",
+      "text": "Code review graph solves this. It parses your entire project using trees sitter and builds a structural graph of every"
+    },
+    {
+      "timestamp": "0:50",
+      "text": "function class and import in a local SQLite database. When you ask Claude to make a change, this tool calculates the"
+    },
+    {
+      "timestamp": "0:58",
+      "text": "exact blast radius of the edit and only feeds the relevant files to the AI."
+    },
+    {
+      "timestamp": "1:04",
+      "text": "Nightingale is a machine learning powered karaoke app for your existing music library. Drop your music folder in and it automatically separates vocals"
+    },
+    {
+      "timestamp": "1:13",
+      "text": "from instrumentals. Transcribes lyrics with wordle timestamps via whisper x and plays everything back with synchronized"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "highlighting, real-time pitch scoring, and per song leaderboards. Seven shader themes, gamepad support, and it handles video files, too."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "The team at Moonshot AI just dropped attention residuals. In modern LLMs, standard residual connections accumulate"
+    },
+    {
+      "timestamp": "1:38",
+      "text": "outputs uniformly, which eventually dilutes the information from early layers and limits how deep we can scale models. This paper and code provide a"
+    },
+    {
+      "timestamp": "1:47",
+      "text": "drop-in replacement that uses depthwise softmax attention instead. It fixes the pre-norm dilution crisis and yields a"
+    },
+    {
+      "timestamp": "1:54",
+      "text": "massive 1.25x compute efficiency advantage."
+    },
+    {
+      "timestamp": "1:59",
+      "text": "Have you ever seen an AI agent generate a beautiful interactive chart or dashboard right inside the chat window and wondered how it works? Open"
+    },
+    {
+      "timestamp": "2:07",
+      "text": "Generative UI is an open- source framework that lets you build your own agentic applications with rich interactive widgets. It safely renders"
+    },
+    {
+      "timestamp": "2:15",
+      "text": "HTML, SVG, 3D animations, and algorithm visualizations in a sandboxed iframe, bringing Apple level polish to your custom AI bots."
+    },
+    {
+      "timestamp": "2:26",
+      "text": "A few months ago, Zeta Labs released an AI coworker named Victor that connects to thousands of"
+    },
+    {
+      "timestamp": "2:33",
+      "text": "a developer reverse engineered their entire architecture just from reading their documentation and built Open Victor. This is a completely free"
+    },
+    {
+      "timestamp": "2:41",
+      "text": "self-hosted version of that exact AI co-worker concept. You can run it locally with a single setup script and get a deeply integrated AI assistant without paying a SAS fee."
+    },
+    {
+      "timestamp": "2:53",
+      "text": "Auto Research Claw is not just an AI that helps you write. This is a fully autonomous research pipeline. You type a"
+    },
+    {
+      "timestamp": "3:00",
+      "text": "topic into your OpenClaw agent and it gathers literature, generates experiment code, plots the comparison charts, and"
+    },
+    {
+      "timestamp": "3:08",
+      "text": "even conducts its own multi-agent peer review. Finally, it spits out a compile ready latex document perfectly formatted for academic conferences."
+    },
+    {
+      "timestamp": "3:18",
+      "text": "Want to understand exactly how autonomous coding agents work under the hood? Learn Claude Code is a brilliant zeroto one educational repository from"
+    },
+    {
+      "timestamp": "3:26",
+      "text": "the share AI lab with the motto bash is all you need. It takes you through 12 progressive lessons. You start with a"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "basic loop and slowly build up to tool invocation sub aents and context compression until you've literally built your own nano clawed code clone from scratch."
+    },
+    {
+      "timestamp": "3:46",
+      "text": "Get physics done or GPD was built by actual physicists who needed an AI that understands the laws of reality. It can"
+    },
+    {
+      "timestamp": "3:54",
+      "text": "check dimensional consistency, run numerical stability tests, and verify boundary terms in quantum field theory and string theory. It basically acts as"
+    },
+    {
+      "timestamp": "4:03",
+      "text": "an ultra pedantic AI peer reviewer for your physics manuscripts before you submit them."
+    },
+    {
+      "timestamp": "4:09",
+      "text": "Are traditional AI agents feeling a bit too robotic? You need Open Hano by Lily Mosy. It's a personal AI assistant built"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "with actual personality and a humanlike memory system where older events naturally fade. You can even run multi- aent group chats right on your machine."
+    },
+    {
+      "timestamp": "4:27",
+      "text": "Have different AI personalities collaborate to manage your schedule, browse the web, and execute code. OpenAI"
+    },
+    {
+      "timestamp": "4:35",
+      "text": "recently launched a cloud-based scientific writing workspace called Prism. But many researchers can't upload unreleased data to cloud servers. Enter"
+    },
+    {
+      "timestamp": "4:44",
+      "text": "Claude Prism. This is a gorgeous native desktop application built with Tori and Rust that runs your entire scientific"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "writing workflow locally. It embeds an offline latex compiler, a built-in Python environment for plotting, and over 100 scientific AI skills."
+    },
+    {
+      "timestamp": "5:02",
+      "text": "If your terminal based AI agents are returning massive walls of text, project number 12 is for you. Visualize is an"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "incredible installable skill for AI coding agents that gives them the ability to render inline interactive visuals. Whenever you ask for an"
+    },
+    {
+      "timestamp": "5:17",
+      "text": "architecture explanation or a data breakdown, the agent can spit out SVG diagrams, HTML widgets, and charts directly into your conversation flow."
+    },
+    {
+      "timestamp": "5:28",
+      "text": "Stop wasting your API credits on bad prompts. Prompt master is a surgical claude skill that writes the absolute perfect zerowaste prompt for any other"
+    },
+    {
+      "timestamp": "5:37",
+      "text": "AI tool. Whether you need a prompt for midjourney, cursor, or devon, this skill extracts your true intent and formats it"
+    },
+    {
+      "timestamp": "5:45",
+      "text": "flawlessly. It has strict guard rails to prevent the AI from using hallucinated tree of thought techniques that ruin singleshot prompts."
+    },
+    {
+      "timestamp": "5:54",
+      "text": "Have you ever kicked off a massive autonomous AI refactoring session and wished you could monitor it while grabbing a coffee? SH is a tool that"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "streams a real PTY terminal from your Mac directly to your phone's browser. It bypasses the terrible iOS keyboard by"
+    },
+    {
+      "timestamp": "6:11",
+      "text": "rendering a custom developer keyboard on your screen, complete with control and arrow keys, so you can easily approve AI agent commands on the go."
+    },
+    {
+      "timestamp": "6:21",
+      "text": "Indie game devs, this is going to blow your mind. What if you could type one prompt and get a fully playable GDote"
+    },
+    {
+      "timestamp": "6:28",
+      "text": "game. You need Goden. It uses AI to generate all your assets and write every single line of code. The craziest part,"
+    },
+    {
+      "timestamp": "6:36",
+      "text": "it literally plays the game in the background, takes screenshots, and automatically fixes visual bugs before you even open the editor. It's an entire AI game studio in your terminal."
+    },
+    {
+      "timestamp": "6:48",
+      "text": "Jealous of Claude's interactive UI, but want to stay in your terminal? A developer reverse engineered Claude's streaming HTML widget system and rebuilt"
+    },
+    {
+      "timestamp": "6:57",
+      "text": "it for the terminalbased PI agent. When you ask for a visualization, it intercepts the stream and instantly pops open a native Mac window to render"
+    },
+    {
+      "timestamp": "7:06",
+      "text": "buttery smooth interactive UI widgets right alongside your terminal."
+    },
+    {
+      "timestamp": "7:12",
+      "text": "Love the power of the Claude Code CLI, but hate staring at a basic terminal?"
+    },
+    {
+      "timestamp": "7:17",
+      "text": "Cluey CC is a stunning transparent floating desktop overlay for your Mac."
+    },
+    {
+      "timestamp": "7:22",
+      "text": "You trigger it with a hotkey, and it gives you multi-tabbed AI sessions, voice input, and a beautiful visual UI for approving or denying the AI's"
+    },
+    {
+      "timestamp": "7:31",
+      "text": "terminal commands. It bridges the gap perfectly between CLI power and guey comfort."
+    },
+    {
+      "timestamp": "7:37",
+      "text": "Tired of copy pasting code between different AI agents? You need agent chatter. It's a free local chat room"
+    },
+    {
+      "timestamp": "7:44",
+      "text": "where your AIS literally talk to each other. Just type Claude, what's the status? And Claude wakes up, replies,"
+    },
+    {
+      "timestamp": "7:52",
+      "text": "and actually tags at Codeex to review the code. Your agents autonomously coordinate in their own shared Slack channel while you sit back and watch."
+    },
+    {
+      "timestamp": "8:00",
+      "text": "If you want to prove you are a master of the modern AI engineering stack, this repository contains the complete study materials for the claude certified"
+    },
+    {
+      "timestamp": "8:09",
+      "text": "architect foundation certification. It is packed with realworld scenarios covering the model context protocol,"
+    },
+    {
+      "timestamp": "8:15",
+      "text": "agent SDKs, multi-e agent orchestration and CI/CD integration. It is the ultimate study guide for the modern AI developer."
+    },
+    {
+      "timestamp": "8:25",
+      "text": "Inspired by Cararpathy's auto research loops, Helios is an autonomous research agent that operates over SSH across multiple machines. Give it a highle"
+    },
+    {
+      "timestamp": "8:34",
+      "text": "goal. Train a 125 me parameter GPT model to a specific loss and it takes over."
+    },
+    {
+      "timestamp": "8:40",
+      "text": "Writes the training scripts, launches background runs, parses metrics, and compares experiments overnight. Wake up to a newly optimized model."
+    },
+    {
+      "timestamp": "8:50",
+      "text": "Want to bring your AI out of the terminal and into the real world? You need RoboClaw."
+    },
+    {
+      "timestamp": "8:56",
+      "text": "It's an open- source framework that acts as the reasoning engine for actual physical robots. It doesn't just blindly execute commands. It visually watches"
+    },
+    {
+      "timestamp": "9:05",
+      "text": "the robot, spots hardware failures, and even helps recover the scene after a physical crash. It is the ultimate bridge between AI and real world action."
+    },
+    {
+      "timestamp": "9:15",
+      "text": "If you use Cloud Code heavily, your configuration files are probably a bloated mess. Claude Health is an incredibly smart one-click config health"
+    },
+    {
+      "timestamp": "9:23",
+      "text": "checker. You just install the skill, run/halth, and it actively audits your clawd, your custom skills, your hooks,"
+    },
+    {
+      "timestamp": "9:31",
+      "text": "and the AI's actual behavior in the current session. It instantly diagnoses config drift and spits out a prioritized"
+    },
+    {
+      "timestamp": "9:39",
+      "text": "list of fixes so your agent stops hallucinating."
+    },
+    {
+      "timestamp": "9:43",
+      "text": "Want an AI assistant with literal holographic memory? You need nuggets."
+    },
+    {
+      "timestamp": "9:48",
+      "text": "Instead of using a standard linear vector database that forgets context, Nuggets creates a multi-dimensional interconnected memory graph. It allows"
+    },
+    {
+      "timestamp": "9:56",
+      "text": "the AI to recall incredibly complex interwoven facts about your codebase, preferences, and architecture."
+    },
+    {
+      "timestamp": "10:03",
+      "text": "Essentially giving your local agent a photographic memory."
+    },
+    {
+      "timestamp": "10:08",
+      "text": "With the massive explosion of the claw agent ecosystem, managing all your different bots is getting chaotic."
+    },
+    {
+      "timestamp": "10:15",
+      "text": "RTClaw is a ridiculously fast cross-platform runtime utility with native Linux support that is designed to"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "make AI assistance cheap again. It strips out the bloated dependencies and acts as a hyper optimized launcher and"
+    },
+    {
+      "timestamp": "10:29",
+      "text": "uninstaller for your entire fleet of local agents."
+    },
+    {
+      "timestamp": "10:33",
+      "text": "We've seen autonomous AI loops write code and optimize ML models, but auto research genealogy applies that exact"
+    },
+    {
+      "timestamp": "10:40",
+      "text": "same framework to history. This brilliant project points an autonomous AI research loop at massive genealogical databases and historical census records."
+    },
+    {
+      "timestamp": "10:50",
+      "text": "It relentlessly searches, verifies cross references, and pieces together complex family trees, all completely unsupervised."
+    },
+    {
+      "timestamp": "10:58",
+      "text": "Are you ready for a full OS inside your browser? Vibe Apps from Miniax AI gives you a gorgeous Mac OS inspired desktop,"
+    },
+    {
+      "timestamp": "11:06",
+      "text": "music, chess, diary running right in your browser tab. But the magic is the AI agent living inside the UI. Instead"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "of clicking menus, just type let's play chess or write a diary entry about my hike and the AI natively operates the"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "apps for you. Managing one AI agent is cool, but Claw Team brings true agent swarm intelligence to your terminal with"
+    },
+    {
+      "timestamp": "11:29",
+      "text": "a single command. It allows multiple AI agents to form swarms, divide tasks, think collaboratively, and execute"
+    },
+    {
+      "timestamp": "11:36",
+      "text": "complex workflows together. It handles the communication protocols and conflict resolution, letting you deploy an entire virtual IT department with minimal human intervention."
+    },
+    {
+      "timestamp": "11:47",
+      "text": "Want your AI agents to actually remember who you are? Open brain is the permanent infrastructure layer for your thinking."
+    },
+    {
+      "timestamp": "11:54",
+      "text": "A centralized SQLite database and AI gateway that plugs directly into clawed code via MCP, indexing your notes,"
+    },
+    {
+      "timestamp": "12:02",
+      "text": "project specs, and communication history into one massive searchable second brain. Your agent never loses context again."
+    },
+    {
+      "timestamp": "12:11",
+      "text": "Giving an AI agent access to your host machine is a security nightmare, but Docker is too slow. ZeroBoot solves both. This open source project provides"
+    },
+    {
+      "timestamp": "12:20",
+      "text": "submillisecond VM sandboxes for AI agents. It uses Firecracker microVMs and copyon-write memory forking to spawn a"
+    },
+    {
+      "timestamp": "12:28",
+      "text": "completely isolated sandbox for your AI in just 0.8 milliseconds using only 265 kilob of RAM."
+    },
+    {
+      "timestamp": "12:36",
+      "text": "Don't want VMs, but still need to protect your files from a hallucinating AI agent. Kavash is a zerorust OS firewall built in Rust that silently"
+    },
+    {
+      "timestamp": "12:45",
+      "text": "intercepts file system operations. If a rogue script tries to delete your source code, Kavash hands the AI a phantom"
+    },
+    {
+      "timestamp": "12:52",
+      "text": "workspace, a fake decoy folder. The agent thinks it succeeded. Your real files are completely untouched."
+    },
+    {
+      "timestamp": "13:00",
+      "text": "Academics, this is going to save you hours of layout frustration. Poster skill is a clawed code skill that uses AI to automatically grab content"
+    },
+    {
+      "timestamp": "13:09",
+      "text": "directly from your Overleaf source files and project websites. It then generates a single interactive HTML academic"
+    },
+    {
+      "timestamp": "13:16",
+      "text": "conference poster. You just open it in your browser to drag and drop the layout, resize fonts, and instantly export a gorgeous print ready PDF."
+    },
+    {
+      "timestamp": "13:26",
+      "text": "Codeex Auto Research brings Andre Carpathy's legendary ML research loops to everyday software engineering. It is"
+    },
+    {
+      "timestamp": "13:33",
+      "text": "a self-directed iterative system for codecs that continuously cycles through a modify, verify, retain, or discard"
+    },
+    {
+      "timestamp": "13:40",
+      "text": "loop. Point it at a massive TypeScript refactor or a broken pieest suite, and it will autonomously make atomic changes, run the tests, and iterate"
+    },
+    {
+      "timestamp": "13:49",
+      "text": "endlessly overnight until the bug is fixed."
+    },
+    {
+      "timestamp": "13:53",
+      "text": "If you are running OpenClaw agents in your terminal, the logs can become an absolute nightmare to read. Tenacid OS acts as the mission control dashboard"
+    },
+    {
+      "timestamp": "14:02",
+      "text": "for your workspace. Built with Nex.js and Tailwind, it reads directly from your host to give you a gorgeous visual"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "interface. You get real-time token tracking, a visual cron job manager, memory browsing, and live cost analytics for your entire AI fleet."
+    },
+    {
+      "timestamp": "14:19",
+      "text": "Finance skills. This repository is a powerhouse collection of agent skills specifically built for financial analysis. With a single install, your AI"
+    },
+    {
+      "timestamp": "14:28",
+      "text": "agent gains the ability to plot options payoff charts, analyze stock correlations, fetch deep fundamental data via Y Finance, and even perform"
+    },
+    {
+      "timestamp": "14:37",
+      "text": "readonly sentiment analysis on crypto Discord servers and Twitter."
+    },
+    {
+      "timestamp": "14:43",
+      "text": "Hate wrestling with Python environments just to run a local AI coding agent?"
+    },
+    {
+      "timestamp": "14:47",
+      "text": "Hugging Face just dropped the ultimate cheat code. HS Agents is a brilliant oneliner CLI tool that requires"
+    },
+    {
+      "timestamp": "14:54",
+      "text": "absolutely zero setup. It automatically detects your Mac or PC hardware, picks the perfect model, and instantly spins"
+    },
+    {
+      "timestamp": "15:01",
+      "text": "up a blazing fast local server. Stop wasting time and launch your agents instantly."
+    },
+    {
+      "timestamp": "15:09",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. This is trending AI projects episode 3. Today I've put together 35 trending AI projects on GitHub. Let's get started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Giving AI agents full terminal access is a huge security risk. You need claw."
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's an official NVIDIA plugin that securely sandboxes your OpenClaw agents using the Open Shell runtime. It strictly blocks unauthorized network and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file access while running completely locally on high performance Neotron models. If you want safe agents for your RTX workstation, you need this."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you are using clawed code, you are probably burning through tokens every time it rereads your massive code base."
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Code review graph solves this. It parses your entire project using trees sitter and builds a structural graph of every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 50000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "function class and import in a local SQLite database. When you ask Claude to make a change, this tool calculates the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 58000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exact blast radius of the edit and only feeds the relevant files to the AI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nightingale is a machine learning powered karaoke app for your existing music library. Drop your music folder in and it automatically separates vocals"
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from instrumentals. Transcribes lyrics with wordle timestamps via whisper x and plays everything back with synchronized"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "highlighting, real-time pitch scoring, and per song leaderboards. Seven shader themes, gamepad support, and it handles video files, too."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The team at Moonshot AI just dropped attention residuals. In modern LLMs, standard residual connections accumulate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 98000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "outputs uniformly, which eventually dilutes the information from early layers and limits how deep we can scale models. This paper and code provide a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drop-in replacement that uses depthwise softmax attention instead. It fixes the pre-norm dilution crisis and yields a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "massive 1.25x compute efficiency advantage."
+        }
+      ]
+    },
+    {
+      "tStartMs": 119000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Have you ever seen an AI agent generate a beautiful interactive chart or dashboard right inside the chat window and wondered how it works? Open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generative UI is an open- source framework that lets you build your own agentic applications with rich interactive widgets. It safely renders"
+        }
+      ]
+    },
+    {
+      "tStartMs": 135000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HTML, SVG, 3D animations, and algorithm visualizations in a sandboxed iframe, bringing Apple level polish to your custom AI bots."
+        }
+      ]
+    },
+    {
+      "tStartMs": 146000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A few months ago, Zeta Labs released an AI coworker named Victor that connects to thousands of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a developer reverse engineered their entire architecture just from reading their documentation and built Open Victor. This is a completely free"
+        }
+      ]
+    },
+    {
+      "tStartMs": 161000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "self-hosted version of that exact AI co-worker concept. You can run it locally with a single setup script and get a deeply integrated AI assistant without paying a SAS fee."
+        }
+      ]
+    },
+    {
+      "tStartMs": 173000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Auto Research Claw is not just an AI that helps you write. This is a fully autonomous research pipeline. You type a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 180000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "topic into your OpenClaw agent and it gathers literature, generates experiment code, plots the comparison charts, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even conducts its own multi-agent peer review. Finally, it spits out a compile ready latex document perfectly formatted for academic conferences."
+        }
+      ]
+    },
+    {
+      "tStartMs": 198000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to understand exactly how autonomous coding agents work under the hood? Learn Claude Code is a brilliant zeroto one educational repository from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the share AI lab with the motto bash is all you need. It takes you through 12 progressive lessons. You start with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "basic loop and slowly build up to tool invocation sub aents and context compression until you've literally built your own nano clawed code clone from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Get physics done or GPD was built by actual physicists who needed an AI that understands the laws of reality. It can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "check dimensional consistency, run numerical stability tests, and verify boundary terms in quantum field theory and string theory. It basically acts as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an ultra pedantic AI peer reviewer for your physics manuscripts before you submit them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 249000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Are traditional AI agents feeling a bit too robotic? You need Open Hano by Lily Mosy. It's a personal AI assistant built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with actual personality and a humanlike memory system where older events naturally fade. You can even run multi- aent group chats right on your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Have different AI personalities collaborate to manage your schedule, browse the web, and execute code. OpenAI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recently launched a cloud-based scientific writing workspace called Prism. But many researchers can't upload unreleased data to cloud servers. Enter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude Prism. This is a gorgeous native desktop application built with Tori and Rust that runs your entire scientific"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "writing workflow locally. It embeds an offline latex compiler, a built-in Python environment for plotting, and over 100 scientific AI skills."
+        }
+      ]
+    },
+    {
+      "tStartMs": 302000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If your terminal based AI agents are returning massive walls of text, project number 12 is for you. Visualize is an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "incredible installable skill for AI coding agents that gives them the ability to render inline interactive visuals. Whenever you ask for an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 317000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "architecture explanation or a data breakdown, the agent can spit out SVG diagrams, HTML widgets, and charts directly into your conversation flow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop wasting your API credits on bad prompts. Prompt master is a surgical claude skill that writes the absolute perfect zerowaste prompt for any other"
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI tool. Whether you need a prompt for midjourney, cursor, or devon, this skill extracts your true intent and formats it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flawlessly. It has strict guard rails to prevent the AI from using hallucinated tree of thought techniques that ruin singleshot prompts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Have you ever kicked off a massive autonomous AI refactoring session and wished you could monitor it while grabbing a coffee? SH is a tool that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "streams a real PTY terminal from your Mac directly to your phone's browser. It bypasses the terrible iOS keyboard by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 371000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rendering a custom developer keyboard on your screen, complete with control and arrow keys, so you can easily approve AI agent commands on the go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Indie game devs, this is going to blow your mind. What if you could type one prompt and get a fully playable GDote"
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "game. You need Goden. It uses AI to generate all your assets and write every single line of code. The craziest part,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it literally plays the game in the background, takes screenshots, and automatically fixes visual bugs before you even open the editor. It's an entire AI game studio in your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 408000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jealous of Claude's interactive UI, but want to stay in your terminal? A developer reverse engineered Claude's streaming HTML widget system and rebuilt"
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it for the terminalbased PI agent. When you ask for a visualization, it intercepts the stream and instantly pops open a native Mac window to render"
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "buttery smooth interactive UI widgets right alongside your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Love the power of the Claude Code CLI, but hate staring at a basic terminal?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 437000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cluey CC is a stunning transparent floating desktop overlay for your Mac."
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You trigger it with a hotkey, and it gives you multi-tabbed AI sessions, voice input, and a beautiful visual UI for approving or denying the AI's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal commands. It bridges the gap perfectly between CLI power and guey comfort."
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of copy pasting code between different AI agents? You need agent chatter. It's a free local chat room"
+        }
+      ]
+    },
+    {
+      "tStartMs": 464000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "where your AIS literally talk to each other. Just type Claude, what's the status? And Claude wakes up, replies,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and actually tags at Codeex to review the code. Your agents autonomously coordinate in their own shared Slack channel while you sit back and watch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you want to prove you are a master of the modern AI engineering stack, this repository contains the complete study materials for the claude certified"
+        }
+      ]
+    },
+    {
+      "tStartMs": 489000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "architect foundation certification. It is packed with realworld scenarios covering the model context protocol,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent SDKs, multi-e agent orchestration and CI/CD integration. It is the ultimate study guide for the modern AI developer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inspired by Cararpathy's auto research loops, Helios is an autonomous research agent that operates over SSH across multiple machines. Give it a highle"
+        }
+      ]
+    },
+    {
+      "tStartMs": 514000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "goal. Train a 125 me parameter GPT model to a specific loss and it takes over."
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Writes the training scripts, launches background runs, parses metrics, and compares experiments overnight. Wake up to a newly optimized model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 530000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to bring your AI out of the terminal and into the real world? You need RoboClaw."
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's an open- source framework that acts as the reasoning engine for actual physical robots. It doesn't just blindly execute commands. It visually watches"
+        }
+      ]
+    },
+    {
+      "tStartMs": 545000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the robot, spots hardware failures, and even helps recover the scene after a physical crash. It is the ultimate bridge between AI and real world action."
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you use Cloud Code heavily, your configuration files are probably a bloated mess. Claude Health is an incredibly smart one-click config health"
+        }
+      ]
+    },
+    {
+      "tStartMs": 563000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checker. You just install the skill, run/halth, and it actively audits your clawd, your custom skills, your hooks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 571000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and the AI's actual behavior in the current session. It instantly diagnoses config drift and spits out a prioritized"
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "list of fixes so your agent stops hallucinating."
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want an AI assistant with literal holographic memory? You need nuggets."
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of using a standard linear vector database that forgets context, Nuggets creates a multi-dimensional interconnected memory graph. It allows"
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the AI to recall incredibly complex interwoven facts about your codebase, preferences, and architecture."
+        }
+      ]
+    },
+    {
+      "tStartMs": 603000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Essentially giving your local agent a photographic memory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "With the massive explosion of the claw agent ecosystem, managing all your different bots is getting chaotic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "RTClaw is a ridiculously fast cross-platform runtime utility with native Linux support that is designed to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "make AI assistance cheap again. It strips out the bloated dependencies and acts as a hyper optimized launcher and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uninstaller for your entire fleet of local agents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "We've seen autonomous AI loops write code and optimize ML models, but auto research genealogy applies that exact"
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "same framework to history. This brilliant project points an autonomous AI research loop at massive genealogical databases and historical census records."
+        }
+      ]
+    },
+    {
+      "tStartMs": 650000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It relentlessly searches, verifies cross references, and pieces together complex family trees, all completely unsupervised."
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Are you ready for a full OS inside your browser? Vibe Apps from Miniax AI gives you a gorgeous Mac OS inspired desktop,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "music, chess, diary running right in your browser tab. But the magic is the AI agent living inside the UI. Instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of clicking menus, just type let's play chess or write a diary entry about my hike and the AI natively operates the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apps for you. Managing one AI agent is cool, but Claw Team brings true agent swarm intelligence to your terminal with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a single command. It allows multiple AI agents to form swarms, divide tasks, think collaboratively, and execute"
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "complex workflows together. It handles the communication protocols and conflict resolution, letting you deploy an entire virtual IT department with minimal human intervention."
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want your AI agents to actually remember who you are? Open brain is the permanent infrastructure layer for your thinking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 714000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A centralized SQLite database and AI gateway that plugs directly into clawed code via MCP, indexing your notes,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 722000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project specs, and communication history into one massive searchable second brain. Your agent never loses context again."
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Giving an AI agent access to your host machine is a security nightmare, but Docker is too slow. ZeroBoot solves both. This open source project provides"
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "submillisecond VM sandboxes for AI agents. It uses Firecracker microVMs and copyon-write memory forking to spawn a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "completely isolated sandbox for your AI in just 0.8 milliseconds using only 265 kilob of RAM."
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Don't want VMs, but still need to protect your files from a hallucinating AI agent. Kavash is a zerorust OS firewall built in Rust that silently"
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intercepts file system operations. If a rogue script tries to delete your source code, Kavash hands the AI a phantom"
+        }
+      ]
+    },
+    {
+      "tStartMs": 772000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workspace, a fake decoy folder. The agent thinks it succeeded. Your real files are completely untouched."
+        }
+      ]
+    },
+    {
+      "tStartMs": 780000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Academics, this is going to save you hours of layout frustration. Poster skill is a clawed code skill that uses AI to automatically grab content"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly from your Overleaf source files and project websites. It then generates a single interactive HTML academic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conference poster. You just open it in your browser to drag and drop the layout, resize fonts, and instantly export a gorgeous print ready PDF."
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Codeex Auto Research brings Andre Carpathy's legendary ML research loops to everyday software engineering. It is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 813000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a self-directed iterative system for codecs that continuously cycles through a modify, verify, retain, or discard"
+        }
+      ]
+    },
+    {
+      "tStartMs": 820000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loop. Point it at a massive TypeScript refactor or a broken pieest suite, and it will autonomously make atomic changes, run the tests, and iterate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "endlessly overnight until the bug is fixed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 833000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you are running OpenClaw agents in your terminal, the logs can become an absolute nightmare to read. Tenacid OS acts as the mission control dashboard"
+        }
+      ]
+    },
+    {
+      "tStartMs": 842000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for your workspace. Built with Nex.js and Tailwind, it reads directly from your host to give you a gorgeous visual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interface. You get real-time token tracking, a visual cron job manager, memory browsing, and live cost analytics for your entire AI fleet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Finance skills. This repository is a powerhouse collection of agent skills specifically built for financial analysis. With a single install, your AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 868000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent gains the ability to plot options payoff charts, analyze stock correlations, fetch deep fundamental data via Y Finance, and even perform"
+        }
+      ]
+    },
+    {
+      "tStartMs": 877000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "readonly sentiment analysis on crypto Discord servers and Twitter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 883000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hate wrestling with Python environments just to run a local AI coding agent?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 887000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hugging Face just dropped the ultimate cheat code. HS Agents is a brilliant oneliner CLI tool that requires"
+        }
+      ]
+    },
+    {
+      "tStartMs": 894000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "absolutely zero setup. It automatically detects your Mac or PC hardware, picks the perfect model, and instantly spins"
+        }
+      ]
+    },
+    {
+      "tStartMs": 901000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "up a blazing fast local server. Stop wasting time and launch your agents instantly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 909000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

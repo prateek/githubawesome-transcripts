@@ -1,0 +1,1020 @@
+{
+  "schema_version": 1,
+  "id": "BTo_pfe8gSc",
+  "title": "GitHub Trending Today #25: 34 Open Source Projects You Need to See This Week",
+  "url": "https://www.youtube.com/watch?v=BTo_pfe8gSc",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-03-02",
+  "duration": 898,
+  "word_count": 2229,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T13:17:33+00:00",
+    "metadata_sha256": "045457dec29ce617c3d042f93aa141349b7b84f9472f6b5760ba06e68005d6b0",
+    "captions_sha256": "2835766177f54ba579e4daa9b5ab115c466517d0f7888a57c09cc4a5346fac00",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 13,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub trending today number 25. And in this episode, we're looking at 34 open-source projects that developers are starring right now. Let's get into it."
+      ]
+    },
+    {
+      "start": 13,
+      "title": "claude-code-tips",
+      "repositories": [
+        "https://github.com/ykdojo/claude-code-tips"
+      ],
+      "id": "s002",
+      "end": 42,
+      "paragraphs": [
+        "If you use Claude Code, you need this repository. Claude-code tips by YK Dojo is a massive collection of over 45 pro tips for getting the most out of your AI coding assistant. It includes an awesome custom status line script so you can track your token usage and git branch right in the terminal, tricks for cutting your system prompt in half, and a custom DX plugin to automate your most common tasks. It's a gold mine for productivity."
+      ]
+    },
+    {
+      "start": 42,
+      "title": "VMPrint",
+      "repositories": [
+        "https://github.com/cosmiciron/vmprint"
+      ],
+      "id": "s003",
+      "end": 71,
+      "paragraphs": [
+        "Great origin story here. A film director wanted to write screenplays in plain text. Tried converting markdown to properly formatted PDF. Found every tool too heavy or unpredictable. So he built a layout engine instead. The screenplay is still waiting. VMPrint is a pure TypeScript zero dependency type setting engine that produces deterministic biter PDF output across any JavaScript runtime, browser, Cloudflare workers, all of it. Want to build rich terminal"
+      ]
+    },
+    {
+      "start": 71,
+      "title": "terminui",
+      "repositories": [
+        "https://github.com/ahmadawais/terminui"
+      ],
+      "id": "s004",
+      "end": 97,
+      "paragraphs": [
+        "UIs in TypeScript without touching a class-based framework? Termini is a pure functional TUI library. No classes, no this, no mutation, just plain functions and plain objects. Widgets are functions, layouts are constraint solvers. Styles compose functionally under the hood. It's double buffered. Only changed cells flush to the terminal, so updates are smooth, even in fast loops."
+      ]
+    },
+    {
+      "start": 97,
+      "title": "Context+",
+      "repositories": [
+        "https://github.com/ForLoopCodes/contextplus"
+      ],
+      "id": "s005",
+      "end": 124,
+      "paragraphs": [
+        "Are you tired of your AI agent burning through tokens and losing context? Context plus is an MCP server that acts as semantic intelligence for largecale engineering. By combining tree sitter a parsing with spectral clustering, it turns your massive code base into a searchable hierarchical feature graph. In real world tests, this tool saves up to 10,000 tokens per prompt and cuts task completion time in half. If you are"
+      ]
+    },
+    {
+      "start": 124,
+      "title": "openfang",
+      "repositories": [
+        "https://github.com/RightNow-AI/openfang"
+      ],
+      "id": "s006",
+      "end": 152,
+      "paragraphs": [
+        "tired of AI agents that just sit there waiting for you to type a prompt, you need to see OpenFang. It's an agent OS where you spin up autonomous workers, they call them hands, to continuously map out research, scrape data, or generate leads on a schedule. You set the parameters and they just run. It's a 137,000line Rust code base shipped as a single binary with literally zero clippy warnings."
+      ]
+    },
+    {
+      "start": 152,
+      "title": "clihub",
+      "repositories": [
+        "https://github.com/thellimist/clihub"
+      ],
+      "id": "s007",
+      "end": 179,
+      "paragraphs": [
+        "Klyhub is solving a massive problem with the model context protocol. Normally, MCP dumps massive JSON schemas into your AI's context window, burning through tokens before you even start coding. Klyhub fixes this by generating lightweight CLI tools from MCP servers. It uses a lazy loading approach where the agent just calls help to discover what it needs. The result, it makes using MCP up to 94% cheaper."
+      ]
+    },
+    {
+      "start": 179,
+      "title": "Claude Forge",
+      "repositories": [
+        "https://github.com/sangrokjung/claude-forge"
+      ],
+      "id": "s008",
+      "end": 206,
+      "paragraphs": [
+        "If you love Oh My ZSH for your terminal, you are going to love Claude Forge for your AI. It transforms clawed code from a basic CLI into a fullfeatured development environment installed in just 5 minutes via SIM links. It comes pre-wired with 11 specialized agents, 36 slash commands, and an incredible six layer security hook system that prevents things like destructive SQL drops or rogue curl bash commands. Okay, this project is just hilarious."
+      ]
+    },
+    {
+      "start": 206,
+      "title": "spank",
+      "repositories": [
+        "https://github.com/taigrr/spank"
+      ],
+      "id": "s009",
+      "end": 229,
+      "paragraphs": [
+        "It's called Spank. Written in Go, this script hooks into the Apple silicon accelerometer via IoKit HID. What does it do? When you physically slap your MacBook, it yells back at you. It's a completely ridiculous, incredibly fun weekend project that shows off how you can tap into Mac OS hardware sensors in creative ways."
+      ]
+    },
+    {
+      "start": 229,
+      "title": "EdgeQuake",
+      "repositories": [
+        "https://github.com/raphaelmansuy/edgequake"
+      ],
+      "id": "s010",
+      "end": 257,
+      "paragraphs": [
+        "Graphra is one of the most interesting areas in AI engineering right now, and Edgequake is a high performance Rust implementation of it. The core idea, traditional rag loses the relationships between documents. Edgequake extracts a massive knowledge graph at index time and traverses those connections at query time, so your AI actually understands how concepts relate to each other, not just what they say individually."
+      ]
+    },
+    {
+      "start": 257,
+      "title": "Context Mode",
+      "repositories": [
+        "https://github.com/mksglu/claude-context-mode"
+      ],
+      "id": "s011",
+      "end": 287,
+      "paragraphs": [
+        "Context mode might save your AI coding sessions. Have you ever had a playwright snapshot or a massive log file dump into your terminal and instantly ruin your AI's memory? Context mode is an MCP server that isolates tool execution in subprocesses. It traps the raw output in a local SQLite database and only sends what's relevant to the LLM using fuzzy search. It reduces output size by up to 98% letting you code for hours without losing context."
+      ]
+    },
+    {
+      "start": 287,
+      "title": "CoPaw",
+      "repositories": [
+        "https://github.com/agentscope-ai/CoPaw"
+      ],
+      "id": "s012",
+      "end": 312,
+      "paragraphs": [
+        "Copa is an open-source personal AI assistant built on the agent scope framework. You run local LLMs, so your data never leaves your machine, but it also connects to the messaging apps you already live in, Discord, iMessage. It can summarize your news, manage files, and you can extend it with your own capabilities. It's a compelling alternative to all those SAS AI assistant subscriptions."
+      ]
+    },
+    {
+      "start": 312,
+      "title": "deff",
+      "repositories": [
+        "https://github.com/flamestro/deff"
+      ],
+      "id": "s013",
+      "end": 339,
+      "paragraphs": [
+        "Reviewing git diffs in the terminal usually isn't fun until now. Def is an interactive Rust TUA for sidebyside git diff reviews. It gives you syntax highlighting, perfectly tinted added and deleted lines, and full support for Vim style motions. You can navigate file by file, toggle reviewed states, and even do iniff searches. It's lightning fast and makes reviewing PRs straight from your terminal an absolute breeze."
+      ]
+    },
+    {
+      "start": 339,
+      "title": "Oclock",
+      "repositories": [
+        "https://github.com/azialle/Oclock"
+      ],
+      "id": "s014",
+      "end": 366,
+      "paragraphs": [
+        "Ever wanted to visualize global time zones without a boring flat map? Olock is a stunning interactive 3D WebGL globe that renders Earth's real-time day and night cycle right in your browser. But the real magic is behind the scenes. A custom Python pipeline uses Shapely to find the exact representative point inside every country, maps it to the precise time zone, and injects that live data into the globe's geojson."
+      ]
+    },
+    {
+      "start": 366,
+      "title": "Kibitz",
+      "repositories": [
+        "https://github.com/kibitzsh/kibitz"
+      ],
+      "id": "s015",
+      "end": 392,
+      "paragraphs": [
+        "Kibitz lets you decode your AI agents. If you're running multiple clawed code or codec sessions, the terminal noise gets overwhelming. Kibitz watches those sessions and turns the raw terminal output into readable narrative commentary. Better yet, from the Kibits VS Code panel, you can dispatch prompts and route commands to multiple active sessions without ever having to tab hop between terminals."
+      ]
+    },
+    {
+      "start": 392,
+      "title": "OpenClaw-RL",
+      "repositories": [
+        "https://github.com/Gen-Verse/OpenClaw-RL"
+      ],
+      "id": "s016",
+      "end": 416,
+      "paragraphs": [
+        "OpenClaw RL is an async reinforcement learning framework that trains a personalized AI agent simply by using it. Wrap your local model as an OpenAI compatible API and just chat normally. In the background, it intercepts conversations, scores responses with a process reward model, computes gradients, and updates the weights automatically. No labeling, no curation."
+      ]
+    },
+    {
+      "start": 416,
+      "title": "RetroTick",
+      "repositories": [
+        "https://github.com/lqs/retrotick"
+      ],
+      "id": "s017",
+      "end": 442,
+      "paragraphs": [
+        "Pure nostalgia and pure engineering madness. Retrotick runs classic Windows and DOSs executables directly in your browser. Just drag a.exe onto the page. Freell, mind sweeper, Skree, QBasic, 3D pipes with full OpenGL, all running in a browser tab, zero install, zero VM. How? It's a complete x86 CPU emulator plus a Win32 API compatibility layer built entirely in Typescript from scratch."
+      ]
+    },
+    {
+      "start": 442,
+      "title": "CorridorKey",
+      "repositories": [
+        "https://github.com/nikopueringer/CorridorKey"
+      ],
+      "id": "s018",
+      "end": 468,
+      "paragraphs": [
+        "If you've ever done green screen compositing, you know the pain. green spill on edges, hair and motion blur destroyed by binary masks, hours of rotoscoping. Corridor Key is a neural network built specifically to solve this. Give it a raw green screen frame and a rough course mask, and it reconstructs the true color of every foreground pixel as if the green screen was never there, plus a clean linear alpha."
+      ]
+    },
+    {
+      "start": 468,
+      "title": "Monarch",
+      "repositories": [
+        "https://github.com/Nuzair46/Monarch"
+      ],
+      "id": "s019",
+      "end": 494,
+      "paragraphs": [
+        "Monarch is a brilliant utility for multimonitor setups and OLED screen owners. Windows doesn't make it easy to temporarily disable a monitor, but Monarch lets you soft disable any screen with a click. No unplugging cables required. It saves your OLED displays from static burn-in when you're just focusing on one screen and lets you save and restore your exact display layouts instantly."
+      ]
+    },
+    {
+      "start": 494,
+      "title": "agentchattr",
+      "repositories": [
+        "https://github.com/bcurts/agentchattr"
+      ],
+      "id": "s020",
+      "end": 518,
+      "paragraphs": [
+        "If you use multiple AI coding agents and are tired of copy pasting code between their terminals, this is for you. It spins up a browser chat room where your agents share an MCP server. You can atmention different agents and they will read the chat and reply to each other. It supports channels, image sharing, and voice typing, creating a truly collaborative AI workspace."
+      ]
+    },
+    {
+      "start": 518,
+      "title": "SAS Audio Processor",
+      "repositories": [
+        "https://github.com/shiehn/sas-audio-processor"
+      ],
+      "id": "s021",
+      "end": 543,
+      "paragraphs": [
+        "SAS audio processor is essentially a dedicated audio toolkit specifically built for AI agents. If you're building voice-driven apps or real-time AI assistance, this toolkit provides the essential primitives for processing, cleaning, and routing audio streams before they ever hit your LLM. It's the perfect bridge between raw microphone input and your agents engine."
+      ]
+    },
+    {
+      "start": 543,
+      "title": "VoicePaste",
+      "repositories": [
+        "https://github.com/junyuw2289-svg/voicepaste"
+      ],
+      "id": "s022",
+      "end": 568,
+      "paragraphs": [
+        "Voice paste is an incredibly handy utility that does exactly what it sounds like. Instead of typing or using traditional clipboard shortcuts, Voice Paste lets you dictate text directly into any input field on your computer. It's a lightweight TypeScriptbased tool that uses speechtoext to turn your spoken words into pasted text anywhere on your system. Total productivity hack. Git City turns your GitHub profile into a 3D pixel art city you can fly through in your"
+      ]
+    },
+    {
+      "start": 568,
+      "title": "Git City",
+      "repositories": [
+        "https://github.com/srizzon/git-city"
+      ],
+      "id": "s023",
+      "end": 593,
+      "paragraphs": [
+        "browser. More commits, taller building, more repos, wider base. You can explore other developers buildings, see their recent activity as lit up windows on the skyline. It's built with Nex.js and 3JS and it is incredibly charming. Someone is going to get lost in this for an entire afternoon."
+      ]
+    },
+    {
+      "start": 593,
+      "title": "aso-skills",
+      "repositories": [
+        "https://github.com/Eronred/aso-skills"
+      ],
+      "id": "s024",
+      "end": 618,
+      "paragraphs": [
+        "Shipped a mobile app and have no idea how to get it discovered. ASOS skills is a collection of AI agent skills for app store optimization. Plug it into clawed code, cursor, or any compatible assistant and get expert ASO guidance right inside your IDE. 15 skills covering everything. Full audits, keyword research, metadata optimization, competitor analysis, screenshot strategy, and more."
+      ]
+    },
+    {
+      "start": 618,
+      "title": "superbrain",
+      "repositories": [
+        "https://github.com/sidinsearch/superbrain"
+      ],
+      "id": "s025",
+      "end": 644,
+      "paragraphs": [
+        "You know that feeling when you save something on Instagram and never look at it again? Superbrain fixes that. It's a self-hosted Android app. Share any URL from your phone and AI instantly gives you a title, summary, and auto tags. Instagram reels even get Shazammed for background music. Everything lives in a local SQLite database you own, plus daily reminders, so you actually revisit your saved content."
+      ]
+    },
+    {
+      "start": 644,
+      "title": "SmallClaw",
+      "repositories": [
+        "https://github.com/XposeMarket/SmallClaw"
+      ],
+      "id": "s026",
+      "end": 669,
+      "paragraphs": [
+        "If you love the OpenClaw framework, but want to run it on smaller local models like a 4 billion parameter Quen, this is what you need. Their massive new update just dropped, adding background tasks, an encrypted secret vault, and the ability to spawn specialist sub agents. It even supports web hooks and MCP servers, turning your tiny local LLM into a fully automated powerhouse."
+      ]
+    },
+    {
+      "start": 669,
+      "title": "BullshitBench",
+      "repositories": [
+        "https://github.com/petergpt/bullshit-benchmark"
+      ],
+      "id": "s027",
+      "end": 693,
+      "paragraphs": [
+        "The incredibly named benchmark. We all know LLM love to confidently hallucinate when asked nonsense questions. This benchmark specifically tests whether a model will identify and push back against complete garbage prompts instead of playing along. It's a tool for evaluating the actual reasoning boundaries and safety tuning of open weights models."
+      ]
+    },
+    {
+      "start": 693,
+      "title": "frouter",
+      "repositories": [
+        "https://github.com/jyoung105/frouter"
+      ],
+      "id": "s028",
+      "end": 719,
+      "paragraphs": [
+        "If you use free AI APIs like open router or NVIDIA NIM, you know how often they randomly die or get rate limited. Frouter is a terminal UI that live pings all free models in parallel every 2 seconds. It ranks them by availability, SWE bench score, and latency. When a model drops, you just pick the next best one, and Fouter instantly rewrites your AI agents config to keep you working without interruption."
+      ]
+    },
+    {
+      "start": 719,
+      "title": "MedgeClaw",
+      "repositories": [
+        "https://github.com/xjtulyc/MedgeClaw"
+      ],
+      "id": "s029",
+      "end": 746,
+      "paragraphs": [
+        "This one is for the biomed and scientific computing folks in the community. Megclaw combines the MEG AI framework with OpenClaw to create a specialized biomedical research assistant, packing over 140 scientific skills tailored for biioinformatics, drug discovery, and medical data analysis. If you're building AI tools in healthcare or life sciences, this repository represents a serious head start."
+      ]
+    },
+    {
+      "start": 746,
+      "title": "Voxt",
+      "repositories": [
+        "https://github.com/hehehai/voxt"
+      ],
+      "id": "s030",
+      "end": 773,
+      "paragraphs": [
+        "Vox T is a menu bar voice input app for Mac OS. If you want a distraction-free environment for dictation and typing without relying on expensive SAS subscriptions, Vox delivers exactly that. Hold a global hotkey, speak release. Transcribe text gets pasted directly wherever your cursor is. Two trigger modes, two shortcuts, one for pure transcription, one for speech plus translation across seven languages."
+      ]
+    },
+    {
+      "start": 773,
+      "title": "text2geo",
+      "repositories": [
+        "https://github.com/charonviz/text2geo"
+      ],
+      "id": "s031",
+      "end": 796,
+      "paragraphs": [
+        "need to convert messy place names into exact GPS coordinates without paying a fortune in Google Maps API fees. This is an offline fuzzy geocoder that does exactly that. Because it runs locally on your machine, there are absolutely zero API limits. It's incredibly fast and perfect for data scientists processing massive data sets of unstandardized location data. This project is just"
+      ]
+    },
+    {
+      "start": 796,
+      "title": "gitcredits",
+      "repositories": [
+        "https://github.com/Higangssh/gitcredits"
+      ],
+      "id": "s032",
+      "end": 821,
+      "paragraphs": [
+        "plain fun. Get credits. Type this into your terminal and it reads your git log to roll a cinematic movie style end credit sequence for your repository. Your top contributor is listed as the director. All other devs are starring and it plays against an animated starfield background. It's the absolute perfect way to celebrate shipping a massive release."
+      ]
+    },
+    {
+      "start": 821,
+      "title": "Aqua",
+      "repositories": [
+        "https://github.com/quailyquaily/aqua"
+      ],
+      "id": "s033",
+      "end": 844,
+      "paragraphs": [
+        "As multi-agent systems get more complex, secure agentto agent communication becomes a real problem. Aqua is a CLI messaging tool and P2P protocol built in Go specifically designed for AI agents to talk to each other securely across networks. End-to-end encryption, identity verification, and this is the clever part, it bypasses firewalls using Circuit Relay. Managing multiple AI agents can feel like hurting cats. That's where Mission Control comes in."
+      ]
+    },
+    {
+      "start": 844,
+      "title": "mission-control",
+      "repositories": [
+        "https://github.com/MeisnerDan/mission-control"
+      ],
+      "id": "s034",
+      "end": 872,
+      "paragraphs": [
+        "It's an open-source task management app purpose-built for AI agents. Everything runs locally in JSON files. No databases or cloud dependency. The killer feature is the autonomous background damon that pulls your task Q, manages concurrency, and automatically spawns and restarts clawed code sessions to get the work done."
+      ]
+    },
+    {
+      "start": 872,
+      "title": "PDF Hand-Out Studio",
+      "repositories": [
+        "https://github.com/flodlol/PDF-Slides-to-Hand-Outs"
+      ],
+      "id": "s035",
+      "end": 898,
+      "paragraphs": [
+        "PDF Handout Studio converts presentation slides into printable handout layouts. Two, four, six, or nine slides per page entirely in your browser. No account, no server upload. Your PDF never leaves your device. The creator built it because Acrobat buries the feature behind a subscription. Online tools want you to upload sensitive decks to random servers."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is GitHub trending today number 25. And in this episode, we're looking at 34 open-source projects that developers are starring right now. Let's get into it."
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "text": "If you use Claude Code, you need this repository. Claude-code tips by YK Dojo is a massive collection of over 45 pro"
+    },
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "text": "tips for getting the most out of your AI coding assistant. It includes an awesome custom status line script so you can"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "track your token usage and git branch right in the terminal, tricks for cutting your system prompt in half, and a custom DX plugin to automate your most"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "common tasks. It's a gold mine for productivity."
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "text": "Great origin story here. A film director wanted to write screenplays in plain text. Tried converting markdown to"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "text": "properly formatted PDF. Found every tool too heavy or unpredictable. So he built a layout engine instead. The screenplay"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "text": "is still waiting. VMPrint is a pure TypeScript zero dependency type setting engine that produces deterministic biter"
+    },
+    {
+      "start": 64.0,
+      "end": 64.0,
+      "text": "PDF output across any JavaScript runtime, browser, Cloudflare workers, all of it. Want to build rich terminal"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "UIs in TypeScript without touching a class-based framework? Termini is a pure functional TUI library. No classes, no"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "this, no mutation, just plain functions and plain objects. Widgets are functions, layouts are constraint solvers. Styles compose functionally under the hood. It's double buffered."
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "text": "Only changed cells flush to the terminal, so updates are smooth, even in fast loops."
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "Are you tired of your AI agent burning through tokens and losing context?"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "Context plus is an MCP server that acts as semantic intelligence for largecale engineering."
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "text": "By combining tree sitter a parsing with spectral clustering, it turns your massive code base into a searchable hierarchical feature graph. In real"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "world tests, this tool saves up to 10,000 tokens per prompt and cuts task completion time in half. If you are"
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "tired of AI agents that just sit there waiting for you to type a prompt, you need to see OpenFang."
+    },
+    {
+      "start": 131.0,
+      "end": 131.0,
+      "text": "It's an agent OS where you spin up autonomous workers, they call them hands, to continuously map out research,"
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "scrape data, or generate leads on a schedule. You set the parameters and they just run. It's a 137,000line Rust"
+    },
+    {
+      "start": 146.0,
+      "end": 146.0,
+      "text": "code base shipped as a single binary with literally zero clippy warnings."
+    },
+    {
+      "start": 152.0,
+      "end": 152.0,
+      "text": "Klyhub is solving a massive problem with the model context protocol. Normally, MCP dumps massive JSON schemas into your"
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "AI's context window, burning through tokens before you even start coding."
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Klyhub fixes this by generating lightweight CLI tools from MCP servers."
+    },
+    {
+      "start": 168.0,
+      "end": 168.0,
+      "text": "It uses a lazy loading approach where the agent just calls help to discover what it needs. The result, it makes using MCP up to 94% cheaper."
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "If you love Oh My ZSH for your terminal, you are going to love Claude Forge for your AI. It transforms clawed code from"
+    },
+    {
+      "start": 186.0,
+      "end": 186.0,
+      "text": "a basic CLI into a fullfeatured development environment installed in just 5 minutes via SIM links. It comes"
+    },
+    {
+      "start": 193.0,
+      "end": 193.0,
+      "text": "pre-wired with 11 specialized agents, 36 slash commands, and an incredible six layer security hook system that prevents"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "things like destructive SQL drops or rogue curl bash commands. Okay, this project is just hilarious."
+    },
+    {
+      "start": 209.0,
+      "end": 209.0,
+      "text": "It's called Spank. Written in Go, this script hooks into the Apple silicon accelerometer via IoKit HID. What does"
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "it do? When you physically slap your MacBook, it yells back at you. It's a completely ridiculous, incredibly fun weekend project that shows off how you"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "can tap into Mac OS hardware sensors in creative ways."
+    },
+    {
+      "start": 230.0,
+      "end": 230.0,
+      "text": "Graphra is one of the most interesting areas in AI engineering right now, and Edgequake is a high performance Rust implementation of it. The core idea,"
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "traditional rag loses the relationships between documents. Edgequake extracts a massive knowledge graph at index time"
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "and traverses those connections at query time, so your AI actually understands how concepts relate to each other, not just what they say individually."
+    },
+    {
+      "start": 257.0,
+      "end": 257.0,
+      "text": "Context mode might save your AI coding sessions. Have you ever had a playwright snapshot or a massive log file dump into"
+    },
+    {
+      "start": 264.0,
+      "end": 264.0,
+      "text": "your terminal and instantly ruin your AI's memory? Context mode is an MCP server that isolates tool execution in"
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "subprocesses. It traps the raw output in a local SQLite database and only sends what's relevant to the LLM using fuzzy"
+    },
+    {
+      "start": 279.0,
+      "end": 279.0,
+      "text": "search. It reduces output size by up to 98% letting you code for hours without losing context."
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "Copa is an open-source personal AI assistant built on the agent scope framework. You run local LLMs, so your"
+    },
+    {
+      "start": 294.0,
+      "end": 294.0,
+      "text": "data never leaves your machine, but it also connects to the messaging apps you already live in, Discord, iMessage. It"
+    },
+    {
+      "start": 302.0,
+      "end": 302.0,
+      "text": "can summarize your news, manage files, and you can extend it with your own capabilities. It's a compelling alternative to all those SAS AI assistant subscriptions."
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "Reviewing git diffs in the terminal usually isn't fun until now. Def is an interactive Rust TUA for sidebyside git"
+    },
+    {
+      "start": 319.0,
+      "end": 319.0,
+      "text": "diff reviews. It gives you syntax highlighting, perfectly tinted added and deleted lines, and full support for Vim"
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "style motions. You can navigate file by file, toggle reviewed states, and even do iniff searches. It's lightning fast"
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "and makes reviewing PRs straight from your terminal an absolute breeze."
+    },
+    {
+      "start": 339.0,
+      "end": 339.0,
+      "text": "Ever wanted to visualize global time zones without a boring flat map? Olock is a stunning interactive 3D WebGL globe"
+    },
+    {
+      "start": 347.0,
+      "end": 347.0,
+      "text": "that renders Earth's real-time day and night cycle right in your browser. But the real magic is behind the scenes. A custom Python pipeline uses Shapely to"
+    },
+    {
+      "start": 356.0,
+      "end": 356.0,
+      "text": "find the exact representative point inside every country, maps it to the precise time zone, and injects that live data into the globe's geojson."
+    },
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "Kibitz lets you decode your AI agents."
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "If you're running multiple clawed code or codec sessions, the terminal noise gets overwhelming. Kibitz watches those sessions and turns the raw terminal"
+    },
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "output into readable narrative commentary. Better yet, from the Kibits VS Code panel, you can dispatch prompts"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "and route commands to multiple active sessions without ever having to tab hop between terminals."
+    },
+    {
+      "start": 393.0,
+      "end": 393.0,
+      "text": "OpenClaw RL is an async reinforcement learning framework that trains a personalized AI agent simply by using it. Wrap your local model as an OpenAI compatible API and just chat normally."
+    },
+    {
+      "start": 404.0,
+      "end": 404.0,
+      "text": "In the background, it intercepts conversations, scores responses with a process reward model, computes gradients, and updates the weights automatically. No labeling, no curation."
+    },
+    {
+      "start": 416.0,
+      "end": 416.0,
+      "text": "Pure nostalgia and pure engineering madness. Retrotick runs classic Windows and DOSs executables directly in your browser. Just drag a.exe onto the page."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "Freell, mind sweeper, Skree, QBasic, 3D pipes with full OpenGL, all running in a browser tab, zero install, zero VM. How?"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "It's a complete x86 CPU emulator plus a Win32 API compatibility layer built entirely in Typescript from scratch."
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "If you've ever done green screen compositing, you know the pain. green spill on edges, hair and motion blur"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "destroyed by binary masks, hours of rotoscoping. Corridor Key is a neural network built specifically to solve"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "this. Give it a raw green screen frame and a rough course mask, and it reconstructs the true color of every foreground pixel as if the green screen"
+    },
+    {
+      "start": 464.0,
+      "end": 464.0,
+      "text": "was never there, plus a clean linear alpha."
+    },
+    {
+      "start": 468.0,
+      "end": 468.0,
+      "text": "Monarch is a brilliant utility for multimonitor setups and OLED screen owners. Windows doesn't make it easy to temporarily disable a monitor, but"
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Monarch lets you soft disable any screen with a click. No unplugging cables required. It saves your OLED displays"
+    },
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "from static burn-in when you're just focusing on one screen and lets you save and restore your exact display layouts instantly."
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "If you use multiple AI coding agents and are tired of copy pasting code between their terminals, this is for you. It spins up a browser chat room where your"
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "agents share an MCP server. You can atmention different agents and they will read the chat and reply to each other."
+    },
+    {
+      "start": 510.0,
+      "end": 510.0,
+      "text": "It supports channels, image sharing, and voice typing, creating a truly collaborative AI workspace."
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "SAS audio processor is essentially a dedicated audio toolkit specifically built for AI agents. If you're building"
+    },
+    {
+      "start": 525.0,
+      "end": 525.0,
+      "text": "voice-driven apps or real-time AI assistance, this toolkit provides the essential primitives for processing,"
+    },
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "cleaning, and routing audio streams before they ever hit your LLM. It's the perfect bridge between raw microphone input and your agents engine."
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "Voice paste is an incredibly handy utility that does exactly what it sounds like. Instead of typing or using traditional clipboard shortcuts, Voice"
+    },
+    {
+      "start": 552.0,
+      "end": 552.0,
+      "text": "Paste lets you dictate text directly into any input field on your computer."
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "It's a lightweight TypeScriptbased tool that uses speechtoext to turn your spoken words into pasted text anywhere on your system."
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Total productivity hack. Git City turns your GitHub profile into a 3D pixel art city you can fly through in your"
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "browser. More commits, taller building, more repos, wider base. You can explore other developers buildings, see their"
+    },
+    {
+      "start": 581.0,
+      "end": 581.0,
+      "text": "recent activity as lit up windows on the skyline. It's built with Nex.js and 3JS and it is incredibly charming. Someone"
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "is going to get lost in this for an entire afternoon."
+    },
+    {
+      "start": 593.0,
+      "end": 593.0,
+      "text": "Shipped a mobile app and have no idea how to get it discovered. ASOS skills is a collection of AI agent skills for app store optimization. Plug it into clawed"
+    },
+    {
+      "start": 601.0,
+      "end": 601.0,
+      "text": "code, cursor, or any compatible assistant and get expert ASO guidance right inside your IDE. 15 skills"
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "covering everything. Full audits, keyword research, metadata optimization, competitor analysis, screenshot strategy, and more."
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "You know that feeling when you save something on Instagram and never look at it again? Superbrain fixes that. It's a self-hosted Android app. Share any URL"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "from your phone and AI instantly gives you a title, summary, and auto tags."
+    },
+    {
+      "start": 633.0,
+      "end": 633.0,
+      "text": "Instagram reels even get Shazammed for background music. Everything lives in a local SQLite database you own, plus daily reminders, so you actually revisit your saved content."
+    },
+    {
+      "start": 644.0,
+      "end": 644.0,
+      "text": "If you love the OpenClaw framework, but want to run it on smaller local models like a 4 billion parameter Quen, this is what you need. Their massive new update"
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "just dropped, adding background tasks, an encrypted secret vault, and the ability to spawn specialist sub agents."
+    },
+    {
+      "start": 660.0,
+      "end": 660.0,
+      "text": "It even supports web hooks and MCP servers, turning your tiny local LLM into a fully automated powerhouse."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "The incredibly named benchmark."
+    },
+    {
+      "start": 672.0,
+      "end": 672.0,
+      "text": "We all know LLM love to confidently hallucinate when asked nonsense questions. This benchmark specifically tests whether a model will identify and"
+    },
+    {
+      "start": 681.0,
+      "end": 681.0,
+      "text": "push back against complete garbage prompts instead of playing along."
+    },
+    {
+      "start": 686.0,
+      "end": 686.0,
+      "text": "It's a tool for evaluating the actual reasoning boundaries and safety tuning of open weights models."
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "If you use free AI APIs like open router or NVIDIA NIM, you know how often they randomly die or get rate limited."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Frouter is a terminal UI that live pings all free models in parallel every 2 seconds. It ranks them by availability,"
+    },
+    {
+      "start": 707.0,
+      "end": 707.0,
+      "text": "SWE bench score, and latency. When a model drops, you just pick the next best one, and Fouter instantly rewrites your AI agents config to keep you working without interruption."
+    },
+    {
+      "start": 719.0,
+      "end": 719.0,
+      "text": "This one is for the biomed and scientific computing folks in the community. Megclaw combines the MEG AI framework with OpenClaw to create a"
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "specialized biomedical research assistant, packing over 140 scientific skills tailored for biioinformatics,"
+    },
+    {
+      "start": 735.0,
+      "end": 735.0,
+      "text": "drug discovery, and medical data analysis. If you're building AI tools in healthcare or life sciences, this repository represents a serious head start."
+    },
+    {
+      "start": 746.0,
+      "end": 746.0,
+      "text": "Vox T is a menu bar voice input app for Mac OS. If you want a distraction-free environment for dictation and typing"
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "without relying on expensive SAS subscriptions, Vox delivers exactly that. Hold a global hotkey, speak"
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "release. Transcribe text gets pasted directly wherever your cursor is. Two trigger modes, two shortcuts, one for"
+    },
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "pure transcription, one for speech plus translation across seven languages."
+    },
+    {
+      "start": 773.0,
+      "end": 773.0,
+      "text": "need to convert messy place names into exact GPS coordinates without paying a fortune in Google Maps API fees. This is"
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "an offline fuzzy geocoder that does exactly that. Because it runs locally on your machine, there are absolutely zero API limits. It's incredibly fast and"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "perfect for data scientists processing massive data sets of unstandardized location data. This project is just"
+    },
+    {
+      "start": 798.0,
+      "end": 798.0,
+      "text": "plain fun. Get credits. Type this into your terminal and it reads your git log to roll a cinematic movie style end credit sequence for your repository."
+    },
+    {
+      "start": 807.0,
+      "end": 807.0,
+      "text": "Your top contributor is listed as the director. All other devs are starring and it plays against an animated starfield background. It's the absolute"
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "perfect way to celebrate shipping a massive release."
+    },
+    {
+      "start": 821.0,
+      "end": 821.0,
+      "text": "As multi-agent systems get more complex, secure agentto agent communication becomes a real problem. Aqua is a CLI"
+    },
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "messaging tool and P2P protocol built in Go specifically designed for AI agents to talk to each other securely across"
+    },
+    {
+      "start": 836.0,
+      "end": 836.0,
+      "text": "networks. End-to-end encryption, identity verification, and this is the clever part, it bypasses firewalls using"
+    },
+    {
+      "start": 843.0,
+      "end": 843.0,
+      "text": "Circuit Relay. Managing multiple AI agents can feel like hurting cats. That's where Mission Control comes in."
+    },
+    {
+      "start": 850.0,
+      "end": 850.0,
+      "text": "It's an open-source task management app purpose-built for AI agents. Everything runs locally in JSON files. No databases"
+    },
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "or cloud dependency. The killer feature is the autonomous background damon that pulls your task Q, manages concurrency,"
+    },
+    {
+      "start": 865.0,
+      "end": 865.0,
+      "text": "and automatically spawns and restarts clawed code sessions to get the work done."
+    },
+    {
+      "start": 872.0,
+      "end": 872.0,
+      "text": "PDF Handout Studio converts presentation slides into printable handout layouts."
+    },
+    {
+      "start": 877.0,
+      "end": 877.0,
+      "text": "Two, four, six, or nine slides per page entirely in your browser. No account, no server upload. Your PDF never leaves"
+    },
+    {
+      "start": 885.0,
+      "end": 885.0,
+      "text": "your device. The creator built it because Acrobat buries the feature behind a subscription. Online tools want you to upload sensitive decks to random servers."
+    }
+  ]
+}
