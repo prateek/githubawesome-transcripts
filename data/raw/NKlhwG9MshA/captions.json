@@ -1,0 +1,1476 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "What is up developers and welcome back to GitHub awesome. It is time for GitHub trending weekly episode number 25"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "featuring 32 of the open-source projects trending right now. Let's get started."
+    },
+    {
+      "timestamp": "0:14",
+      "text": "You know those old Android phones sitting in a drawer? Droid Claw turns them into AI agents. Give it a goal in plain English. It reads the screen,"
+    },
+    {
+      "timestamp": "0:23",
+      "text": "reasons about what to do, taps, types, and swipes via ADB until the job is done. No APIs needed. Just install your"
+    },
+    {
+      "timestamp": "0:31",
+      "text": "favorite apps on the device and let the agent work through them like a human would. It comes with 35 readytouse workflows for messaging and lifestyle tasks."
+    },
+    {
+      "timestamp": "0:41",
+      "text": "Macasa is a TUI for home ownership."
+    },
+    {
+      "timestamp": "0:44",
+      "text": "Tracks maintenance schedules with autocomputed due dates, projects from planning to completion, vendor quote comparisons, appliance warranty tracking, incident logging, file attachments and spending analytics."
+    },
+    {
+      "timestamp": "0:55",
+      "text": "Single Seekite file on your machine. No cloud, no account, no subscription. It writes a SQL, runs the query and"
+    },
+    {
+      "timestamp": "1:02",
+      "text": "summarizes results. Vim style modal keys, fuzzy search, column sorting."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "Surge is a download manager built in Go for the terminal. Opens multiple connections simultaneously with three optimizations. Splits the largest chunk"
+    },
+    {
+      "timestamp": "1:17",
+      "text": "when a worker goes idle. Uses work stealing so fast connections help slow ones. And restarts any worker below 30%"
+    },
+    {
+      "timestamp": "1:24",
+      "text": "of mean speed for a better connection path."
+    },
+    {
+      "timestamp": "1:27",
+      "text": "three modes, interactive TUI dashboard, headless background server, and CLI client for scripting and batch downloads."
+    },
+    {
+      "timestamp": "1:36",
+      "text": "Someone looked at NVIDIA's walled garden and thought, how hard can it be?"
+    },
+    {
+      "timestamp": "1:40",
+      "text": "Barracuda is an open- source CUDA compiler targeting AMD GPUs written in 15,000 lines of C99 with zero LLVM"
+    },
+    {
+      "timestamp": "1:48",
+      "text": "dependency. You feed it the same.CU CU files you'd give NVCC and it compiles directly to AMD RDDNA3 GFX11 machine"
+    },
+    {
+      "timestamp": "1:56",
+      "text": "code spitting out ELF.hscode binaries that AMD GPUs can actually run."
+    },
+    {
+      "timestamp": "2:02",
+      "text": "The ARMS race for the leanest AI agent infrastructure just got a new contender and this one is written in Zigg."
+    },
+    {
+      "timestamp": "2:09",
+      "text": "Nullclaw is a 678 kilobyte static binary that boots in under 2 milliseconds on Apple silicon, under 8 milliseconds on"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "a8 GHz edge core and uses about 1 megabyte of RAM at peak. Everything is a vtable interface, swap providers,"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "channels, tools, memory backends, sandbox, and tunnel providers with a config change. AP web is a self-hosted"
+    },
+    {
+      "timestamp": "2:32",
+      "text": "tool for installing iOS apps outside the app store. The server doesn't receive Apple credentials. All Apple API"
+    },
+    {
+      "timestamp": "2:39",
+      "text": "communication happens in the browser via web assembly using lib curl with embed TLS. The server acts as a TCP relay"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "using the WISP protocol and handles IPA compilation from CDN downloads. The developers warn against using public instances since a malicious host could"
+    },
+    {
+      "timestamp": "2:56",
+      "text": "modify the front end to capture credentials."
+    },
+    {
+      "timestamp": "3:00",
+      "text": "This is an official Rust CLI from the Poly Market team for interacting with their prediction market platform. You can browse markets and events without a"
+    },
+    {
+      "timestamp": "3:08",
+      "text": "wallet. With a wallet configured, you can place limit and market orders, cancel positions, and view your portfolio. It displays order books and"
+    },
+    {
+      "timestamp": "3:17",
+      "text": "handles conditional token operations on chain. It supports JSON output for scripting and has an interactive shell mode."
+    },
+    {
+      "timestamp": "3:26",
+      "text": "Give it a URL, any URL from any platform, and get back structured content. Xreader is a universal content"
+    },
+    {
+      "timestamp": "3:33",
+      "text": "reader that fetches and normalizes content from seven plus platforms, Telegram, YouTube, and RSS. It autodetects the platform and routes to"
+    },
+    {
+      "timestamp": "3:42",
+      "text": "the right fetcher for video and audio content. Claude code skills add full whisper transcription."
+    },
+    {
+      "timestamp": "3:48",
+      "text": "BetterHub is a reimagined GitHub collaboration platform from the better off team built for humans and agents together. Cleaner repo overview with"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "readme rendering and activity feed. PR reviews with inline diffs and AI summaries. Improved issue triage."
+    },
+    {
+      "timestamp": "4:04",
+      "text": "Built-in AI assistant called Ghost that reviews PRs, navigates code, triages issues, and writes commit messages."
+    },
+    {
+      "timestamp": "4:12",
+      "text": "Cloudflare just open-sourced vinex, a VIT plugin that reimplements the entire Nex.js API surface from scratch. So you"
+    },
+    {
+      "timestamp": "4:20",
+      "text": "can deploy Next.js apps to Cloudflare workers without the Next.js build tool chain. All 33 next module imports are"
+    },
+    {
+      "timestamp": "4:28",
+      "text": "shimmed to VIT compatible implementations. The Vinex deploy command builds and deploys to Cloudflare workers in one shot with zero cold starts."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "Taste skill is a design system injection for Claude code that fixes the AI slot problem. Stops Claude from generating"
+    },
+    {
+      "timestamp": "4:45",
+      "text": "weird gradients, tight spacing, and generic dashboards. Forces the agent to follow linear grade design principles."
+    },
+    {
+      "timestamp": "4:53",
+      "text": "Proper whites space, subtle borders, intentional typography, turns your backend focused coding agent into a senior product designer that knows when"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "to use skeleton loaders instead of spinners."
+    },
+    {
+      "timestamp": "5:05",
+      "text": "X86 CSS is an x86 CPU emulator written entirely in CSS. It runs 8086 machine code compiled from C using GCC. The"
+    },
+    {
+      "timestamp": "5:14",
+      "text": "implementation uses CSS animations and container queries to clock the CPU without JavaScript. It includes a C pre-processor, 8086 instruction set, memory model, and IO system all in CSS."
+    },
+    {
+      "timestamp": "5:26",
+      "text": "A Python script generates repetitive CSS sections. The demo runs a C program that executes computation within CSS."
+    },
+    {
+      "timestamp": "5:34",
+      "text": "This is an official collection of clawed plugins from Enthropic for financial services workflows. It covers investment banking, equity research, private"
+    },
+    {
+      "timestamp": "5:42",
+      "text": "equity, and wealth management. The plugins include skills, slashcomands, sub aents, and MCP connectors for"
+    },
+    {
+      "timestamp": "5:49",
+      "text": "workflows like research reports, comparable company analysis, deal sourcing, and portfolio tracking."
+    },
+    {
+      "timestamp": "5:56",
+      "text": "Everything is just markdown and JSON, no code, no infrastructure."
+    },
+    {
+      "timestamp": "6:01",
+      "text": "Data Claw exports Claude code session logs to HuggingFace. It parses session history and applies automatic redaction,"
+    },
+    {
+      "timestamp": "6:08",
+      "text": "path anonymization, secret detection via rejects and entropy analysis and email redaction. It exports to JSONL format"
+    },
+    {
+      "timestamp": "6:16",
+      "text": "with message content, token usage, and metadata. The tool exports locally first for manual review before publishing."
+    },
+    {
+      "timestamp": "6:23",
+      "text": "Exported data sets are tagged data claw on hugging face. Galaxy profile generates animated SVG cards for GitHub"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "profiles with a space theme. It creates four cards. A spiral galaxy header with your name and tagline, a stats card with"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "GitHub metrics from GraphQL, a language usage chart with focus areas, and a featured projects card with orbital animations connecting repositories."
+    },
+    {
+      "timestamp": "6:48",
+      "text": "Three galaxy arms represent your focus areas, each with a color and associated technologies."
+    },
+    {
+      "timestamp": "6:54",
+      "text": "This one solves a problem that's become increasingly real in the AI coding agent era. AI tools like claw code and cursor"
+    },
+    {
+      "timestamp": "7:02",
+      "text": "can read files in your project directory which means a plain text.env file is a secret dump waiting to happen. Ian veil"
+    },
+    {
+      "timestamp": "7:09",
+      "text": "solves this by ensuring plain text secrets never exist on disk at all."
+    },
+    {
+      "timestamp": "7:13",
+      "text": "Written in Rust 31 automated security tests every claim independently verifiable."
+    },
+    {
+      "timestamp": "7:20",
+      "text": "Baby Shark is a terminal based pcap analyzer focused on network flows. It opens.pcap and PNG files and lets you"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "browse flows, examine packets, and follow streams with search highlighting."
+    },
+    {
+      "timestamp": "7:32",
+      "text": "The weird stuff view highlights high latency flows, TCP retransmits, resets, incomplete handshakes, and DNS failures"
+    },
+    {
+      "timestamp": "7:39",
+      "text": "with explanations. You can bookmark flows, export markdown reports, and capture live traffic with display filters."
+    },
+    {
+      "timestamp": "7:47",
+      "text": "LIFO is a Linux-like operating system that runs in the browser. Instead of emulating Linux, it uses browser APIs as"
+    },
+    {
+      "timestamp": "7:54",
+      "text": "system calls and the browser runtime as the kernel. It includes a bashlike shell with alexer, parser, and a interpreter."
+    },
+    {
+      "timestamp": "8:02",
+      "text": "The shell supports pipes, variable expansion, and job control. It has over 60 commands covering file system"
+    },
+    {
+      "timestamp": "8:09",
+      "text": "operations, text processing, networking, and archiving."
+    },
+    {
+      "timestamp": "8:14",
+      "text": "Safe pilot is a security first personal AI assistant built in Rust. tagline AI assistant that executes real work"
+    },
+    {
+      "timestamp": "8:21",
+      "text": "safely. Instead of giving LLM's root access and crossing fingers, Safe Pilot puts heavy guard rails and security boundaries around your agents execution"
+    },
+    {
+      "timestamp": "8:30",
+      "text": "environment. AI can do meaningful work, editing files, running scripts, managing data without accidentally nuking your CRC directory or leaking API keys."
+    },
+    {
+      "timestamp": "8:41",
+      "text": "If you're overwhelmed by information and want your AI to curate it down to what actually matters, Claw Feed is the answer. It's an AI powered news digest"
+    },
+    {
+      "timestamp": "8:49",
+      "text": "that pulls from RSS, Hacker News, Reddit, and GitHub trending and generate structured summaries on your schedule"
+    },
+    {
+      "timestamp": "8:56",
+      "text": "every 4 hours, daily, weekly, or monthly. Share curated source bundles with others as source packs. Bookmark articles for deep AI analysis later."
+    },
+    {
+      "timestamp": "9:07",
+      "text": "Web Flight Simulator is a browser-based flight sim that combines 3JS and CesiumJS. 3JS renders the aircraft,"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "particle effects, and lighting, while CEMJS streams realorld 3D terrain data."
+    },
+    {
+      "timestamp": "9:20",
+      "text": "You pilot an F-15 with afterburners, heat-seeking missiles, radar warnings, and a HUD that includes pitch ladder, heading tape, and minim. The audio"
+    },
+    {
+      "timestamp": "9:29",
+      "text": "includes engine sounds, GPWS alerts, and radar warning tones."
+    },
+    {
+      "timestamp": "9:34",
+      "text": "MDR by CleverCloud is a fast, lightweight markdown reader built in Rust. Boots in milliseconds. Renders mermaid flowcharts, sequence diagrams,"
+    },
+    {
+      "timestamp": "9:43",
+      "text": "and pie charts natively as SVGs. No headless browser required. Live reload feature updates instantly as AI tools"
+    },
+    {
+      "timestamp": "9:50",
+      "text": "generate text. Forget slow electron apps or browser previewers. This is the markdown viewer for modern dev workflows with AI coding tools."
+    },
+    {
+      "timestamp": "10:00",
+      "text": "Open browser claw is a full personal AI assistant that runs as a progressive web app with the browser as the server."
+    },
+    {
+      "timestamp": "10:07",
+      "text": "Messages, sessions, and tasks stored in index DB files in the browser's origin private file system. Agent runs in a web"
+    },
+    {
+      "timestamp": "10:14",
+      "text": "worker calling the anthropic API directly. Optional Telegram integration via HTTPS polling for phoneto browser messaging."
+    },
+    {
+      "timestamp": "10:23",
+      "text": "It's Win Amp in your terminal. Clamp is a retro terminal music player built in go with bubble tea and lip gloss with"
+    },
+    {
+      "timestamp": "10:31",
+      "text": "MP3 playback, a 10B spectrum visualizer rendered in ASI, a 10B parametric EQ,"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "and full playlist management with shuffle and repeat modes. The ASI art in the readme will tell you everything you need to know about the Vibe. If you"
+    },
+    {
+      "timestamp": "10:47",
+      "text": "remember Win Amp 2 and you live in the terminal, this is going to make you very happy."
+    },
+    {
+      "timestamp": "10:53",
+      "text": "The Popebot is an autonomous AI agent framework that runs 24/7 using GitHub actions as its compute layer. The repository itself is the agent's brain."
+    },
+    {
+      "timestamp": "11:03",
+      "text": "Every action is logged as a git commit, giving you a complete auditable and reversible history of what the AI did"
+    },
+    {
+      "timestamp": "11:09",
+      "text": "and why. Securely handles API keys, integrates with Telegram for chat, and can evolve its own code through pull"
+    },
+    {
+      "timestamp": "11:17",
+      "text": "requests. A tireless developer living natively inside your GitHub repo."
+    },
+    {
+      "timestamp": "11:23",
+      "text": "VoxClaw is a Mac OS menu bar app and CLI tool that provides texttospech for AI agents. You run it on your Mac and point"
+    },
+    {
+      "timestamp": "11:30",
+      "text": "OpenClaw or other agents at the HTTP endpoint to narrate outputs. It uses Apple TTS by default and supports open"
+    },
+    {
+      "timestamp": "11:37",
+      "text": "AITS or 11 Labs with an API key. A floating overlay displays the text with wordbyword highlighting synchronized to the speech."
+    },
+    {
+      "timestamp": "11:47",
+      "text": "Windows users know the pain of the built-in search being slow. Everything by Void Tools solves that. Instant file search using the NTFS MFTt. This project"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "takes it further. A native WPF app that integrates directly with everything's SDK and brings it into the Windows start"
+    },
+    {
+      "timestamp": "12:03",
+      "text": "menu experience with category based filtering, keyboard first navigation with Vim style shortcuts and a polished modern UI."
+    },
+    {
+      "timestamp": "12:13",
+      "text": "Agents view is a local web app for browsing AI coding agent sessions. It indexes claude code session files into a"
+    },
+    {
+      "timestamp": "12:20",
+      "text": "seeite database with FTCS5 full text search. The dashboard shows activity heat maps, tool usage stats, velocity"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "metrics, and project breakdowns. It updates via server sent events as sessions receive new messages. It includes keyboard navigation with Vim"
+    },
+    {
+      "timestamp": "12:36",
+      "text": "bindings and can export sessions as HTML or publish to GitHub gist."
+    },
+    {
+      "timestamp": "12:41",
+      "text": "Space Emoji is a single HTML file. No dependencies, no framework with an HTML 5 canvas animation that sends you flying"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "through space filled with spinning emojis using real 3D perspective projection math. Click and hold to warp."
+    },
+    {
+      "timestamp": "12:56",
+      "text": "Release to drift. 700 emoji particles by default configurable via an expose config object. The readme includes the actual projection equations."
+    },
+    {
+      "timestamp": "13:06",
+      "text": "Agent view is a T-Maxbased terminal dashboard for managing multiple AI coding agent sessions simultaneously."
+    },
+    {
+      "timestamp": "13:13",
+      "text": "Real-time status indicators show running, waiting for input, idle, stopped, or errored states. Create, attach, restart, and fork sessions into"
+    },
+    {
+      "timestamp": "13:21",
+      "text": "git work trees organized into groups, all keyboard driven. Oneline install for Mac OS and Linux, including WSL."
+    },
+    {
+      "timestamp": "13:30",
+      "text": "Axon is a code intelligence engine that indexes your entire repo into a structured knowledge graph. Not just vector search matching words, but a map"
+    },
+    {
+      "timestamp": "13:38",
+      "text": "of every function, class, and dependency. Plugs into clawed code via MCP, letting your agent trace execution"
+    },
+    {
+      "timestamp": "13:46",
+      "text": "flows, find dead code, and calculate the blast radius of breaking changes before you write them. The difference between controlF and actually giving your AI a brain."
+    },
+    {
+      "timestamp": "13:57",
+      "text": "Seedance 2.0 O is a comprehensive production toolkit for quadal AI filmm with bite danc's model. Instead of flat"
+    },
+    {
+      "timestamp": "14:04",
+      "text": "prompts, you get a complete director's framework with modular composable skills. AI agents load on demand. Covers text, image, and videotovideo workflows"
+    },
+    {
+      "timestamp": "14:14",
+      "text": "with control over camera language, lighting design, precise audio, lip sync."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What is up developers and welcome back to GitHub awesome. It is time for GitHub trending weekly episode number 25"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "featuring 32 of the open-source projects trending right now. Let's get started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 14000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You know those old Android phones sitting in a drawer? Droid Claw turns them into AI agents. Give it a goal in plain English. It reads the screen,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 23000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasons about what to do, taps, types, and swipes via ADB until the job is done. No APIs needed. Just install your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "favorite apps on the device and let the agent work through them like a human would. It comes with 35 readytouse workflows for messaging and lifestyle tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Macasa is a TUI for home ownership."
+        }
+      ]
+    },
+    {
+      "tStartMs": 44000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tracks maintenance schedules with autocomputed due dates, projects from planning to completion, vendor quote comparisons, appliance warranty tracking, incident logging, file attachments and spending analytics."
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Single Seekite file on your machine. No cloud, no account, no subscription. It writes a SQL, runs the query and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "summarizes results. Vim style modal keys, fuzzy search, column sorting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Surge is a download manager built in Go for the terminal. Opens multiple connections simultaneously with three optimizations. Splits the largest chunk"
+        }
+      ]
+    },
+    {
+      "tStartMs": 77000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when a worker goes idle. Uses work stealing so fast connections help slow ones. And restarts any worker below 30%"
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of mean speed for a better connection path."
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three modes, interactive TUI dashboard, headless background server, and CLI client for scripting and batch downloads."
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone looked at NVIDIA's walled garden and thought, how hard can it be?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 100000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Barracuda is an open- source CUDA compiler targeting AMD GPUs written in 15,000 lines of C99 with zero LLVM"
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependency. You feed it the same.CU CU files you'd give NVCC and it compiles directly to AMD RDDNA3 GFX11 machine"
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code spitting out ELF.hscode binaries that AMD GPUs can actually run."
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The ARMS race for the leanest AI agent infrastructure just got a new contender and this one is written in Zigg."
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nullclaw is a 678 kilobyte static binary that boots in under 2 milliseconds on Apple silicon, under 8 milliseconds on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a8 GHz edge core and uses about 1 megabyte of RAM at peak. Everything is a vtable interface, swap providers,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "channels, tools, memory backends, sandbox, and tunnel providers with a config change. AP web is a self-hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tool for installing iOS apps outside the app store. The server doesn't receive Apple credentials. All Apple API"
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "communication happens in the browser via web assembly using lib curl with embed TLS. The server acts as a TCP relay"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "using the WISP protocol and handles IPA compilation from CDN downloads. The developers warn against using public instances since a malicious host could"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modify the front end to capture credentials."
+        }
+      ]
+    },
+    {
+      "tStartMs": 180000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is an official Rust CLI from the Poly Market team for interacting with their prediction market platform. You can browse markets and events without a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wallet. With a wallet configured, you can place limit and market orders, cancel positions, and view your portfolio. It displays order books and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles conditional token operations on chain. It supports JSON output for scripting and has an interactive shell mode."
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Give it a URL, any URL from any platform, and get back structured content. Xreader is a universal content"
+        }
+      ]
+    },
+    {
+      "tStartMs": 213000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reader that fetches and normalizes content from seven plus platforms, Telegram, YouTube, and RSS. It autodetects the platform and routes to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 222000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the right fetcher for video and audio content. Claude code skills add full whisper transcription."
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "BetterHub is a reimagined GitHub collaboration platform from the better off team built for humans and agents together. Cleaner repo overview with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "readme rendering and activity feed. PR reviews with inline diffs and AI summaries. Improved issue triage."
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Built-in AI assistant called Ghost that reviews PRs, navigates code, triages issues, and writes commit messages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare just open-sourced vinex, a VIT plugin that reimplements the entire Nex.js API surface from scratch. So you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can deploy Next.js apps to Cloudflare workers without the Next.js build tool chain. All 33 next module imports are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shimmed to VIT compatible implementations. The Vinex deploy command builds and deploys to Cloudflare workers in one shot with zero cold starts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Taste skill is a design system injection for Claude code that fixes the AI slot problem. Stops Claude from generating"
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "weird gradients, tight spacing, and generic dashboards. Forces the agent to follow linear grade design principles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 293000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Proper whites space, subtle borders, intentional typography, turns your backend focused coding agent into a senior product designer that knows when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to use skeleton loaders instead of spinners."
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "X86 CSS is an x86 CPU emulator written entirely in CSS. It runs 8086 machine code compiled from C using GCC. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "implementation uses CSS animations and container queries to clock the CPU without JavaScript. It includes a C pre-processor, 8086 instruction set, memory model, and IO system all in CSS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A Python script generates repetitive CSS sections. The demo runs a C program that executes computation within CSS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is an official collection of clawed plugins from Enthropic for financial services workflows. It covers investment banking, equity research, private"
+        }
+      ]
+    },
+    {
+      "tStartMs": 342000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "equity, and wealth management. The plugins include skills, slashcomands, sub aents, and MCP connectors for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 349000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workflows like research reports, comparable company analysis, deal sourcing, and portfolio tracking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything is just markdown and JSON, no code, no infrastructure."
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Data Claw exports Claude code session logs to HuggingFace. It parses session history and applies automatic redaction,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 368000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "path anonymization, secret detection via rejects and entropy analysis and email redaction. It exports to JSONL format"
+        }
+      ]
+    },
+    {
+      "tStartMs": 376000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with message content, token usage, and metadata. The tool exports locally first for manual review before publishing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Exported data sets are tagged data claw on hugging face. Galaxy profile generates animated SVG cards for GitHub"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "profiles with a space theme. It creates four cards. A spiral galaxy header with your name and tagline, a stats card with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GitHub metrics from GraphQL, a language usage chart with focus areas, and a featured projects card with orbital animations connecting repositories."
+        }
+      ]
+    },
+    {
+      "tStartMs": 408000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Three galaxy arms represent your focus areas, each with a color and associated technologies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This one solves a problem that's become increasingly real in the AI coding agent era. AI tools like claw code and cursor"
+        }
+      ]
+    },
+    {
+      "tStartMs": 422000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can read files in your project directory which means a plain text.env file is a secret dump waiting to happen. Ian veil"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "solves this by ensuring plain text secrets never exist on disk at all."
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Written in Rust 31 automated security tests every claim independently verifiable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Baby Shark is a terminal based pcap analyzer focused on network flows. It opens.pcap and PNG files and lets you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browse flows, examine packets, and follow streams with search highlighting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 452000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The weird stuff view highlights high latency flows, TCP retransmits, resets, incomplete handshakes, and DNS failures"
+        }
+      ]
+    },
+    {
+      "tStartMs": 459000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with explanations. You can bookmark flows, export markdown reports, and capture live traffic with display filters."
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LIFO is a Linux-like operating system that runs in the browser. Instead of emulating Linux, it uses browser APIs as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "system calls and the browser runtime as the kernel. It includes a bashlike shell with alexer, parser, and a interpreter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The shell supports pipes, variable expansion, and job control. It has over 60 commands covering file system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 489000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "operations, text processing, networking, and archiving."
+        }
+      ]
+    },
+    {
+      "tStartMs": 494000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Safe pilot is a security first personal AI assistant built in Rust. tagline AI assistant that executes real work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 501000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "safely. Instead of giving LLM's root access and crossing fingers, Safe Pilot puts heavy guard rails and security boundaries around your agents execution"
+        }
+      ]
+    },
+    {
+      "tStartMs": 510000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "environment. AI can do meaningful work, editing files, running scripts, managing data without accidentally nuking your CRC directory or leaking API keys."
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're overwhelmed by information and want your AI to curate it down to what actually matters, Claw Feed is the answer. It's an AI powered news digest"
+        }
+      ]
+    },
+    {
+      "tStartMs": 529000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that pulls from RSS, Hacker News, Reddit, and GitHub trending and generate structured summaries on your schedule"
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "every 4 hours, daily, weekly, or monthly. Share curated source bundles with others as source packs. Bookmark articles for deep AI analysis later."
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Web Flight Simulator is a browser-based flight sim that combines 3JS and CesiumJS. 3JS renders the aircraft,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "particle effects, and lighting, while CEMJS streams realorld 3D terrain data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You pilot an F-15 with afterburners, heat-seeking missiles, radar warnings, and a HUD that includes pitch ladder, heading tape, and minim. The audio"
+        }
+      ]
+    },
+    {
+      "tStartMs": 569000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "includes engine sounds, GPWS alerts, and radar warning tones."
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MDR by CleverCloud is a fast, lightweight markdown reader built in Rust. Boots in milliseconds. Renders mermaid flowcharts, sequence diagrams,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and pie charts natively as SVGs. No headless browser required. Live reload feature updates instantly as AI tools"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generate text. Forget slow electron apps or browser previewers. This is the markdown viewer for modern dev workflows with AI coding tools."
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open browser claw is a full personal AI assistant that runs as a progressive web app with the browser as the server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Messages, sessions, and tasks stored in index DB files in the browser's origin private file system. Agent runs in a web"
+        }
+      ]
+    },
+    {
+      "tStartMs": 614000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "worker calling the anthropic API directly. Optional Telegram integration via HTTPS polling for phoneto browser messaging."
+        }
+      ]
+    },
+    {
+      "tStartMs": 623000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's Win Amp in your terminal. Clamp is a retro terminal music player built in go with bubble tea and lip gloss with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MP3 playback, a 10B spectrum visualizer rendered in ASI, a 10B parametric EQ,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and full playlist management with shuffle and repeat modes. The ASI art in the readme will tell you everything you need to know about the Vibe. If you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "remember Win Amp 2 and you live in the terminal, this is going to make you very happy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The Popebot is an autonomous AI agent framework that runs 24/7 using GitHub actions as its compute layer. The repository itself is the agent's brain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 663000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every action is logged as a git commit, giving you a complete auditable and reversible history of what the AI did"
+        }
+      ]
+    },
+    {
+      "tStartMs": 669000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and why. Securely handles API keys, integrates with Telegram for chat, and can evolve its own code through pull"
+        }
+      ]
+    },
+    {
+      "tStartMs": 677000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "requests. A tireless developer living natively inside your GitHub repo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "VoxClaw is a Mac OS menu bar app and CLI tool that provides texttospech for AI agents. You run it on your Mac and point"
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenClaw or other agents at the HTTP endpoint to narrate outputs. It uses Apple TTS by default and supports open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AITS or 11 Labs with an API key. A floating overlay displays the text with wordbyword highlighting synchronized to the speech."
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Windows users know the pain of the built-in search being slow. Everything by Void Tools solves that. Instant file search using the NTFS MFTt. This project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "takes it further. A native WPF app that integrates directly with everything's SDK and brings it into the Windows start"
+        }
+      ]
+    },
+    {
+      "tStartMs": 723000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "menu experience with category based filtering, keyboard first navigation with Vim style shortcuts and a polished modern UI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agents view is a local web app for browsing AI coding agent sessions. It indexes claude code session files into a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seeite database with FTCS5 full text search. The dashboard shows activity heat maps, tool usage stats, velocity"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "metrics, and project breakdowns. It updates via server sent events as sessions receive new messages. It includes keyboard navigation with Vim"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bindings and can export sessions as HTML or publish to GitHub gist."
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Space Emoji is a single HTML file. No dependencies, no framework with an HTML 5 canvas animation that sends you flying"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through space filled with spinning emojis using real 3D perspective projection math. Click and hold to warp."
+        }
+      ]
+    },
+    {
+      "tStartMs": 776000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Release to drift. 700 emoji particles by default configurable via an expose config object. The readme includes the actual projection equations."
+        }
+      ]
+    },
+    {
+      "tStartMs": 786000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent view is a T-Maxbased terminal dashboard for managing multiple AI coding agent sessions simultaneously."
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Real-time status indicators show running, waiting for input, idle, stopped, or errored states. Create, attach, restart, and fork sessions into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 801000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "git work trees organized into groups, all keyboard driven. Oneline install for Mac OS and Linux, including WSL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 810000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Axon is a code intelligence engine that indexes your entire repo into a structured knowledge graph. Not just vector search matching words, but a map"
+        }
+      ]
+    },
+    {
+      "tStartMs": 818000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of every function, class, and dependency. Plugs into clawed code via MCP, letting your agent trace execution"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flows, find dead code, and calculate the blast radius of breaking changes before you write them. The difference between controlF and actually giving your AI a brain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Seedance 2.0 O is a comprehensive production toolkit for quadal AI filmm with bite danc's model. Instead of flat"
+        }
+      ]
+    },
+    {
+      "tStartMs": 844000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prompts, you get a complete director's framework with modular composable skills. AI agents load on demand. Covers text, image, and videotovideo workflows"
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with control over camera language, lighting design, precise audio, lip sync."
+        }
+      ]
+    }
+  ]
+}

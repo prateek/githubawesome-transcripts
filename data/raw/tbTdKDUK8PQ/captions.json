@@ -1,0 +1,1437 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today we're looking at 32 trending GitHub projects from dev tools to AI experiments you won't want to miss."
+    },
+    {
+      "timestamp": "0:08",
+      "text": "Let's jump in."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Your email sits in Gmail's cloud. 20 years of messages, attachments accessible only through their web interface. Wes McKini, who created"
+    },
+    {
+      "timestamp": "0:21",
+      "text": "Pandas, built MSG Vault to fix this. It downloads your entire Gmail history to your computer, then uses DuckDB to let"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "you run analytics on hundreds of thousands of messages in milliseconds."
+    },
+    {
+      "timestamp": "0:33",
+      "text": "There's a terminal interface for browsing your message history. Full text search that works offline with Gmail syntax."
+    },
+    {
+      "timestamp": "0:41",
+      "text": "Agent skills are scattered across GitHub repos. OpenClaw built Clawub as a registry for publishing and discovering them. You publish version skills as"
+    },
+    {
+      "timestamp": "0:49",
+      "text": "skill.md files. Vector search using OpenAI embeddings helps find relevant skills without manual browsing. Agents can sync directly from the registry."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "There's also only crabs.ai for sharing sold imd files, personality configurations for agents."
+    },
+    {
+      "timestamp": "1:07",
+      "text": "Ever feel like Kubernetes is working, but you have no idea what's actually going on? That's where Radar comes in."
+    },
+    {
+      "timestamp": "1:13",
+      "text": "Radar is an open- source local Kubernetes explorer that gives you instant visibility into your cluster. No cloud accounts, no agents, no dashboards"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "to babysit. Just run it and boom, your services, pods, logs, configs, and Helm releases are all right there. If Cubectl"
+    },
+    {
+      "timestamp": "1:30",
+      "text": "feels like flying blind, Radar is the map you've been missing."
+    },
+    {
+      "timestamp": "1:35",
+      "text": "Maharaga is an AI trading agent that monitors social sentiment from Stock Twits and Reddit, then executes trades"
+    },
+    {
+      "timestamp": "1:42",
+      "text": "through Alpaca for stocks and crypto. It runs continuously on Cloudflare workers with a dashboard showing its"
+    },
+    {
+      "timestamp": "1:49",
+      "text": "decision-making process. It includes stop- losses, position limits, and a kill switch. It's scraping sentiment"
+    },
+    {
+      "timestamp": "1:56",
+      "text": "24/7 and trading on vibes with actual risk management. JavaScript PDF libraries are fragmented."
+    },
+    {
+      "timestamp": "2:03",
+      "text": "PDF.js only reads files. PDF lib struggles with malformed documents. And PDF kit only generates. The document"
+    },
+    {
+      "timestamp": "2:11",
+      "text": "team built lib PDF to handle all of these. Lib PDF is a TypeScript PDF library that handles loading, editing, signing, and generating PDFs. It runs in"
+    },
+    {
+      "timestamp": "2:20",
+      "text": "Node, Bun, and browsers. It combines parsing, generation, and incremental edits in one library instead of requiring multiple tools."
+    },
+    {
+      "timestamp": "2:28",
+      "text": "Open Ralph Wiggum is an autonomous loop you run from your terminal that keeps an AI coding agent working on your task"
+    },
+    {
+      "timestamp": "2:35",
+      "text": "until it's actually done. Type Ralph your prompt and it wraps agents like open code, clawed code or codeex in a"
+    },
+    {
+      "timestamp": "2:43",
+      "text": "persistent loop. Each iteration sees what's been built so far and keeps improving until tests pass or the job's finished. You can finally let AI write,"
+    },
+    {
+      "timestamp": "2:52",
+      "text": "fix, and refine code while you do something else."
+    },
+    {
+      "timestamp": "2:56",
+      "text": "Dash is a self-learning agent that grounds answers in six layers of context. Your schema, business logic,"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The more you use it, the smarter it gets. It"
+    },
+    {
+      "timestamp": "3:12",
+      "text": "remembers past queries, learns from mistakes, and improves over time."
+    },
+    {
+      "timestamp": "3:26",
+      "text": "wasn't comfortable running code they couldn't fully audit. So they rewrote it in 500 lines of Typescript."
+    },
+    {
+      "timestamp": "3:32",
+      "text": "NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its"
+    },
+    {
+      "timestamp": "3:40",
+      "text": "own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes."
+    },
+    {
+      "timestamp": "3:50",
+      "text": "AI is writing half your codebase and nobody knows which parts came from where. That's a problem. Agent trace just dropped as an open spec. Its"
+    },
+    {
+      "timestamp": "3:59",
+      "text": "version control for knowing what the AI actually did. Stamps every line of code with where it came from, which conversation, which model, the whole"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "thing. Works with git tracks line by line and any tool can read it. No more wait, did Claude write this or did I?"
+    },
+    {
+      "timestamp": "4:16",
+      "text": "Every open- source video model gives you silent videos. You bolt audio on later and it never syncs, right? MOA skipped"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "that step. It generates video and audio at the same time, synchronized from the ground up. LipSync is state-of-the-art,"
+    },
+    {
+      "timestamp": "4:30",
+      "text": "handles multiple speakers, gets environment sounds right, everything's open source. Weights, training code, Laura scripts, all of it. 720p, 8"
+    },
+    {
+      "timestamp": "4:40",
+      "text": "seconds, perfect audio sync. If you've ever copy pasted a table from a PDF, you know the pain. Garbled text, lost"
+    },
+    {
+      "timestamp": "4:48",
+      "text": "formatting, the whole mess. GLM OCR uses a vision language model to look at the document and understand the layout, not"
+    },
+    {
+      "timestamp": "4:55",
+      "text": "just extract words. Take a screenshot of a complex scientific paper, math formulas, charts, and it converts the whole thing into clean markdown or"
+    },
+    {
+      "timestamp": "5:04",
+      "text": "latex. Good for fixing rag pipelines that choke on messy PDFs."
+    },
+    {
+      "timestamp": "5:09",
+      "text": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+    },
+    {
+      "timestamp": "5:18",
+      "text": "lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or"
+    },
+    {
+      "timestamp": "5:26",
+      "text": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+    },
+    {
+      "timestamp": "5:38",
+      "text": "Your AI writes code, but you still have to manually make all the diagrams for documentation. Pretty Mermaid Skills fixes that. It plugs into clawed code,"
+    },
+    {
+      "timestamp": "5:46",
+      "text": "cursor, and other AI coding tools so they can render actual diagrams. Write mermaid syntax, get SVGs or ask art for"
+    },
+    {
+      "timestamp": "5:54",
+      "text": "terminals. Supports flowcharts, sequence diagrams, er diagrams, state machines, all of it. Oneline install, zero config,"
+    },
+    {
+      "timestamp": "6:02",
+      "text": "batch render, hundreds of diagrams in parallel."
+    },
+    {
+      "timestamp": "6:06",
+      "text": "Tact is an AI task and agent coordination tool that orchestrates multiple LLM powered agents into actual workflows. Works with cloud code, open"
+    },
+    {
+      "timestamp": "6:15",
+      "text": "AAI codecs, and others so you can plan, execute, and finish coding tasks with agents that collaborate instead of firing off single answers. Tact guides"
+    },
+    {
+      "timestamp": "6:24",
+      "text": "you step by step, runs tasks from your terminal or GitHub issues, and wires into CI for automation."
+    },
+    {
+      "timestamp": "6:31",
+      "text": "Marvin is a personal AI assistant. You can actually build and customize yourself. It's not another chatbot. It's an open template for connecting AI to"
+    },
+    {
+      "timestamp": "6:40",
+      "text": "your actual tools and workflows. Named after the depressed robot from Hitchhiker's Guide, Marvin lets you add"
+    },
+    {
+      "timestamp": "6:47",
+      "text": "skills, plug in APIs, and build the kind of assistant that does things, not just answers questions, handles your"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "calendar, sorts your inbox, manages tasks."
+    },
+    {
+      "timestamp": "6:58",
+      "text": "NetBar is a tiny menu bar app that shows your actual download and upload speeds in real time. Just sits there. Click"
+    },
+    {
+      "timestamp": "7:06",
+      "text": "once for full diagnostics, signal strength, latency, whether your router is having a moment. You can customize the display, fonts, units, what info"
+    },
+    {
+      "timestamp": "7:14",
+      "text": "shows up. It's open source, lightweight, doesn't collect anything. Takes about 15 seconds to install."
+    },
+    {
+      "timestamp": "7:22",
+      "text": "Voice box is a desktop app for voice cloning and speech synthesis. Feed it a few seconds of audio and it clones the"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "voice using models like Quen 3TS. Then you arrange the generated speech on a timeline. Drag clips around, layer"
+    },
+    {
+      "timestamp": "7:36",
+      "text": "different voices, edit the output like you would in a DAW. Includes Whisper for transcription so you can edit based on the actual text. Runs locally. No cloud processing, no subscription."
+    },
+    {
+      "timestamp": "7:49",
+      "text": "Lingbot VLA is a vision language action model trained on 20,000 hours of real robot data. It works across nine"
+    },
+    {
+      "timestamp": "7:56",
+      "text": "different robot platforms and understands natural language instructions."
+    },
+    {
+      "timestamp": "8:01",
+      "text": "In benchmarks, it outperforms existing models on real world tasks and trains twice as fast. There's an optional depth"
+    },
+    {
+      "timestamp": "8:09",
+      "text": "perception module if your application needs it. You can fine-tune it on your own task data set."
+    },
+    {
+      "timestamp": "8:16",
+      "text": "HRE rebuilds your resume to match specific job postings. Upload your resume in any format, paste a job link,"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "and it rewrites your experience to align with what the posting asks for. It includes verification to prevent fabricating experience that isn't there."
+    },
+    {
+      "timestamp": "8:32",
+      "text": "The tool tests each version against ATS parsers and keyword requirements, then iterates until it passes. Outputs a"
+    },
+    {
+      "timestamp": "8:40",
+      "text": "one-page format available as a web app or command line tool. Vibe spins up a lightweight Linux VM for running AI"
+    },
+    {
+      "timestamp": "8:47",
+      "text": "coding agents safely. One command gets you an isolated environment in about 10 seconds. Your project folder mounts into"
+    },
+    {
+      "timestamp": "8:55",
+      "text": "the VM. Package caches persist between sessions and the agent can't access anything outside the VM. It's written in"
+    },
+    {
+      "timestamp": "9:02",
+      "text": "Rust under 1 megabytes, about 1,200 lines of code. No Docker required, just actual VM isolation."
+    },
+    {
+      "timestamp": "9:10",
+      "text": "PYDNS scanner finds working DNS servers by testing IP ranges. Give it a seedar file and it scans at around 500 queries"
+    },
+    {
+      "timestamp": "9:18",
+      "text": "per second. It identifies functional DNS servers even when they return errors, uses random subdomains to bypass caching and can optionally test them as proxies."
+    },
+    {
+      "timestamp": "9:28",
+      "text": "Scans can be paused and resumed."
+    },
+    {
+      "timestamp": "9:30",
+      "text": "Progress is saved. It's written in async Python with a terminal interface and works crossplatform."
+    },
+    {
+      "timestamp": "9:37",
+      "text": "Linker is a self-hosted proxy that lets Claude code CLI connect to different AI providers. It routes requests to Azure, open router or local Alama models."
+    },
+    {
+      "timestamp": "9:47",
+      "text": "Instead of only using anthropics API, includes circuit breakers for failed requests, load shedding and Prometheus metrics. You can configure tiered"
+    },
+    {
+      "timestamp": "9:56",
+      "text": "routing, sends simple requests to local models and complex ones to cloud APIs."
+    },
+    {
+      "timestamp": "10:02",
+      "text": "Tth is a shell hook that checks commands for security issues before execution. It detects Unicode homoglyph attacks like"
+    },
+    {
+      "timestamp": "10:09",
+      "text": "cerillic characters in Latin URLs, Ansie injection, pipeto-shell patterns and modifications to dot files. Runs offline"
+    },
+    {
+      "timestamp": "10:17",
+      "text": "with submillisecond overhead. No telemetry. Block suspicious commands and shows why oneline install."
+    },
+    {
+      "timestamp": "10:25",
+      "text": "Thaw is an open- source menu bar manager for Mac. Hide whatever icons you want, show them on hover or click, or throw"
+    },
+    {
+      "timestamp": "10:32",
+      "text": "them in a separate bar that drops down when you need it. Drag and drop to rearrange everything. Customize colors and shapes. Add spacing between items."
+    },
+    {
+      "timestamp": "10:41",
+      "text": "Search for specific icons with a hotkey."
+    },
+    {
+      "timestamp": "10:43",
+      "text": "Works with notched MacBooks written in Swift."
+    },
+    {
+      "timestamp": "10:48",
+      "text": "You install a few dev tools and suddenly your disc is full. Term scans everything. Homebrew, npm, pnpm, yarn, pip, and shows you what's hogging space."
+    },
+    {
+      "timestamp": "10:58",
+      "text": "It's a terminal UI, textbased, not a web app for Mac OS that lets you actually understand what's installed before you"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "start deleting things. Term clean shows you what else relies on it so you don't accidentally break your Python setup or whatever."
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Quen 3TS Studio is a local textto-spech app that runs Alibaba's TTS models on your machine. You get a UI instead of"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "command line flags, so you can adjust voice style, pacing, and emotion without digging through documentation. It also"
+    },
+    {
+      "timestamp": "11:29",
+      "text": "does voice cloning. Feed it a few seconds of audio, and it'll replicate that voice for new speech."
+    },
+    {
+      "timestamp": "11:36",
+      "text": "No is a sandbox for running AI agents and untrusted code on your machine without them trashing your file system or phoning home to weird servers. It"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "uses kernel level enforcement to restrict what processes can actually do."
+    },
+    {
+      "timestamp": "11:49",
+      "text": "You give an agent access to specific directories or network endpoints and the OS blocks everything else. No escape hatches, no oops, I deleted USR moments."
+    },
+    {
+      "timestamp": "12:00",
+      "text": "Zuckerman is a personal AI agent that rewrites its own code. You teach it new skills and it edits its own TypeScript"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "files to remember them. No rebuilds, no restarts. It hot reloads changes while running. It starts small, a few hundred"
+    },
+    {
+      "timestamp": "12:16",
+      "text": "lines of TypeScript. As you add tools or fix behavior, it updates its own prompts and logic. You can share those"
+    },
+    {
+      "timestamp": "12:23",
+      "text": "improvements with other users, so the agent gets smarter from collective teaching."
+    },
+    {
+      "timestamp": "12:28",
+      "text": "Asimoth V0 is an open-source bipedal robot leg design you can build with off-the-shelf parts and a 3D printer."
+    },
+    {
+      "timestamp": "12:36",
+      "text": "The repo includes CAD files, actuator specs, and simulation models for six DOF legs with articulated ankles and toes."
+    },
+    {
+      "timestamp": "12:44",
+      "text": "Everything's under an open hardware license so you can modify and share your improvements. It's designed as the foundation for a full humanoid platform."
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Auto commenter is a claude skill that posts Reddit comments for you. You give it your writing style and target subreddits and it generates replies that"
+    },
+    {
+      "timestamp": "13:02",
+      "text": "match your voice. It uses claude plus to read posts, write contextual comments, and post them in batches. You can filter"
+    },
+    {
+      "timestamp": "13:12",
+      "text": "by topic relevance to focus on threads where you'd actually have something to say. Dotto tidy is a free Mac OS system"
+    },
+    {
+      "timestamp": "13:19",
+      "text": "cleaner that shows you what's eating your disk space and lets you clean it up. It's a native Swift UI app that displays CPU, memory, disk, and battery"
+    },
+    {
+      "timestamp": "13:27",
+      "text": "stats. You can delete caches and temp files, find leftover app data from uninstalled programs, and see disc usage"
+    },
+    {
+      "timestamp": "13:34",
+      "text": "breakdowns with charts. No subscription, no telemetry, just a local cleanup tool."
+    },
+    {
+      "timestamp": "13:41",
+      "text": "Threequake is a browser port of Quake built with 3JS. It runs the original BSP levels, all eight weapons, monster AI,"
+    },
+    {
+      "timestamp": "13:49",
+      "text": "collision physics, and spatial audio in WebGL. WSD to move, mouse to look. No installer, no emulator. Just open a URL"
+    },
+    {
+      "timestamp": "13:57",
+      "text": "and play. It's a demo of what you can do with modern web graphics and a reminder that Quake still holds up 30 years later."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today we're looking at 32 trending GitHub projects from dev tools to AI experiments you won't want to miss."
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's jump in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your email sits in Gmail's cloud. 20 years of messages, attachments accessible only through their web interface. Wes McKini, who created"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pandas, built MSG Vault to fix this. It downloads your entire Gmail history to your computer, then uses DuckDB to let"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you run analytics on hundreds of thousands of messages in milliseconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 33000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's a terminal interface for browsing your message history. Full text search that works offline with Gmail syntax."
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent skills are scattered across GitHub repos. OpenClaw built Clawub as a registry for publishing and discovering them. You publish version skills as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skill.md files. Vector search using OpenAI embeddings helps find relevant skills without manual browsing. Agents can sync directly from the registry."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also only crabs.ai for sharing sold imd files, personality configurations for agents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever feel like Kubernetes is working, but you have no idea what's actually going on? That's where Radar comes in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Radar is an open- source local Kubernetes explorer that gives you instant visibility into your cluster. No cloud accounts, no agents, no dashboards"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to babysit. Just run it and boom, your services, pods, logs, configs, and Helm releases are all right there. If Cubectl"
+        }
+      ]
+    },
+    {
+      "tStartMs": 90000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "feels like flying blind, Radar is the map you've been missing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Maharaga is an AI trading agent that monitors social sentiment from Stock Twits and Reddit, then executes trades"
+        }
+      ]
+    },
+    {
+      "tStartMs": 102000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through Alpaca for stocks and crypto. It runs continuously on Cloudflare workers with a dashboard showing its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decision-making process. It includes stop- losses, position limits, and a kill switch. It's scraping sentiment"
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "24/7 and trading on vibes with actual risk management. JavaScript PDF libraries are fragmented."
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDF.js only reads files. PDF lib struggles with malformed documents. And PDF kit only generates. The document"
+        }
+      ]
+    },
+    {
+      "tStartMs": 131000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "team built lib PDF to handle all of these. Lib PDF is a TypeScript PDF library that handles loading, editing, signing, and generating PDFs. It runs in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 140000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Node, Bun, and browsers. It combines parsing, generation, and incremental edits in one library instead of requiring multiple tools."
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Ralph Wiggum is an autonomous loop you run from your terminal that keeps an AI coding agent working on your task"
+        }
+      ]
+    },
+    {
+      "tStartMs": 155000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "until it's actually done. Type Ralph your prompt and it wraps agents like open code, clawed code or codeex in a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "persistent loop. Each iteration sees what's been built so far and keeps improving until tests pass or the job's finished. You can finally let AI write,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 172000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fix, and refine code while you do something else."
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dash is a self-learning agent that grounds answers in six layers of context. Your schema, business logic,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The more you use it, the smarter it gets. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "remembers past queries, learns from mistakes, and improves over time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wasn't comfortable running code they couldn't fully audit. So they rewrote it in 500 lines of Typescript."
+        }
+      ]
+    },
+    {
+      "tStartMs": 212000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI is writing half your codebase and nobody knows which parts came from where. That's a problem. Agent trace just dropped as an open spec. Its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "version control for knowing what the AI actually did. Stamps every line of code with where it came from, which conversation, which model, the whole"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "thing. Works with git tracks line by line and any tool can read it. No more wait, did Claude write this or did I?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every open- source video model gives you silent videos. You bolt audio on later and it never syncs, right? MOA skipped"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that step. It generates video and audio at the same time, synchronized from the ground up. LipSync is state-of-the-art,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles multiple speakers, gets environment sounds right, everything's open source. Weights, training code, Laura scripts, all of it. 720p, 8"
+        }
+      ]
+    },
+    {
+      "tStartMs": 280000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seconds, perfect audio sync. If you've ever copy pasted a table from a PDF, you know the pain. Garbled text, lost"
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "formatting, the whole mess. GLM OCR uses a vision language model to look at the document and understand the layout, not"
+        }
+      ]
+    },
+    {
+      "tStartMs": 295000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "just extract words. Take a screenshot of a complex scientific paper, math formulas, charts, and it converts the whole thing into clean markdown or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "latex. Good for fixing rag pipelines that choke on messy PDFs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 338000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your AI writes code, but you still have to manually make all the diagrams for documentation. Pretty Mermaid Skills fixes that. It plugs into clawed code,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor, and other AI coding tools so they can render actual diagrams. Write mermaid syntax, get SVGs or ask art for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminals. Supports flowcharts, sequence diagrams, er diagrams, state machines, all of it. Oneline install, zero config,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "batch render, hundreds of diagrams in parallel."
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tact is an AI task and agent coordination tool that orchestrates multiple LLM powered agents into actual workflows. Works with cloud code, open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AAI codecs, and others so you can plan, execute, and finish coding tasks with agents that collaborate instead of firing off single answers. Tact guides"
+        }
+      ]
+    },
+    {
+      "tStartMs": 384000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you step by step, runs tasks from your terminal or GitHub issues, and wires into CI for automation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Marvin is a personal AI assistant. You can actually build and customize yourself. It's not another chatbot. It's an open template for connecting AI to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your actual tools and workflows. Named after the depressed robot from Hitchhiker's Guide, Marvin lets you add"
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skills, plug in APIs, and build the kind of assistant that does things, not just answers questions, handles your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calendar, sorts your inbox, manages tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NetBar is a tiny menu bar app that shows your actual download and upload speeds in real time. Just sits there. Click"
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "once for full diagnostics, signal strength, latency, whether your router is having a moment. You can customize the display, fonts, units, what info"
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shows up. It's open source, lightweight, doesn't collect anything. Takes about 15 seconds to install."
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Voice box is a desktop app for voice cloning and speech synthesis. Feed it a few seconds of audio and it clones the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "voice using models like Quen 3TS. Then you arrange the generated speech on a timeline. Drag clips around, layer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 456000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "different voices, edit the output like you would in a DAW. Includes Whisper for transcription so you can edit based on the actual text. Runs locally. No cloud processing, no subscription."
+        }
+      ]
+    },
+    {
+      "tStartMs": 469000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lingbot VLA is a vision language action model trained on 20,000 hours of real robot data. It works across nine"
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "different robot platforms and understands natural language instructions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 481000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "In benchmarks, it outperforms existing models on real world tasks and trains twice as fast. There's an optional depth"
+        }
+      ]
+    },
+    {
+      "tStartMs": 489000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "perception module if your application needs it. You can fine-tune it on your own task data set."
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HRE rebuilds your resume to match specific job postings. Upload your resume in any format, paste a job link,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and it rewrites your experience to align with what the posting asks for. It includes verification to prevent fabricating experience that isn't there."
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The tool tests each version against ATS parsers and keyword requirements, then iterates until it passes. Outputs a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one-page format available as a web app or command line tool. Vibe spins up a lightweight Linux VM for running AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "coding agents safely. One command gets you an isolated environment in about 10 seconds. Your project folder mounts into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 535000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the VM. Package caches persist between sessions and the agent can't access anything outside the VM. It's written in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust under 1 megabytes, about 1,200 lines of code. No Docker required, just actual VM isolation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 550000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PYDNS scanner finds working DNS servers by testing IP ranges. Give it a seedar file and it scans at around 500 queries"
+        }
+      ]
+    },
+    {
+      "tStartMs": 558000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per second. It identifies functional DNS servers even when they return errors, uses random subdomains to bypass caching and can optionally test them as proxies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Scans can be paused and resumed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Progress is saved. It's written in async Python with a terminal interface and works crossplatform."
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linker is a self-hosted proxy that lets Claude code CLI connect to different AI providers. It routes requests to Azure, open router or local Alama models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 587000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of only using anthropics API, includes circuit breakers for failed requests, load shedding and Prometheus metrics. You can configure tiered"
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "routing, sends simple requests to local models and complex ones to cloud APIs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tth is a shell hook that checks commands for security issues before execution. It detects Unicode homoglyph attacks like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 609000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cerillic characters in Latin URLs, Ansie injection, pipeto-shell patterns and modifications to dot files. Runs offline"
+        }
+      ]
+    },
+    {
+      "tStartMs": 617000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with submillisecond overhead. No telemetry. Block suspicious commands and shows why oneline install."
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Thaw is an open- source menu bar manager for Mac. Hide whatever icons you want, show them on hover or click, or throw"
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them in a separate bar that drops down when you need it. Drag and drop to rearrange everything. Customize colors and shapes. Add spacing between items."
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Search for specific icons with a hotkey."
+        }
+      ]
+    },
+    {
+      "tStartMs": 643000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Works with notched MacBooks written in Swift."
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You install a few dev tools and suddenly your disc is full. Term scans everything. Homebrew, npm, pnpm, yarn, pip, and shows you what's hogging space."
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a terminal UI, textbased, not a web app for Mac OS that lets you actually understand what's installed before you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "start deleting things. Term clean shows you what else relies on it so you don't accidentally break your Python setup or whatever."
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quen 3TS Studio is a local textto-spech app that runs Alibaba's TTS models on your machine. You get a UI instead of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command line flags, so you can adjust voice style, pacing, and emotion without digging through documentation. It also"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "does voice cloning. Feed it a few seconds of audio, and it'll replicate that voice for new speech."
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No is a sandbox for running AI agents and untrusted code on your machine without them trashing your file system or phoning home to weird servers. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uses kernel level enforcement to restrict what processes can actually do."
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You give an agent access to specific directories or network endpoints and the OS blocks everything else. No escape hatches, no oops, I deleted USR moments."
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zuckerman is a personal AI agent that rewrites its own code. You teach it new skills and it edits its own TypeScript"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files to remember them. No rebuilds, no restarts. It hot reloads changes while running. It starts small, a few hundred"
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lines of TypeScript. As you add tools or fix behavior, it updates its own prompts and logic. You can share those"
+        }
+      ]
+    },
+    {
+      "tStartMs": 743000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "improvements with other users, so the agent gets smarter from collective teaching."
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Asimoth V0 is an open-source bipedal robot leg design you can build with off-the-shelf parts and a 3D printer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 756000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The repo includes CAD files, actuator specs, and simulation models for six DOF legs with articulated ankles and toes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 764000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything's under an open hardware license so you can modify and share your improvements. It's designed as the foundation for a full humanoid platform."
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Auto commenter is a claude skill that posts Reddit comments for you. You give it your writing style and target subreddits and it generates replies that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "match your voice. It uses claude plus to read posts, write contextual comments, and post them in batches. You can filter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 792000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by topic relevance to focus on threads where you'd actually have something to say. Dotto tidy is a free Mac OS system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cleaner that shows you what's eating your disk space and lets you clean it up. It's a native Swift UI app that displays CPU, memory, disk, and battery"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stats. You can delete caches and temp files, find leftover app data from uninstalled programs, and see disc usage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 814000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "breakdowns with charts. No subscription, no telemetry, just a local cleanup tool."
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Threequake is a browser port of Quake built with 3JS. It runs the original BSP levels, all eight weapons, monster AI,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "collision physics, and spatial audio in WebGL. WSD to move, mouse to look. No installer, no emulator. Just open a URL"
+        }
+      ]
+    },
+    {
+      "tStartMs": 837000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and play. It's a demo of what you can do with modern web graphics and a reminder that Quake still holds up 30 years later."
+        }
+      ]
+    }
+  ]
+}

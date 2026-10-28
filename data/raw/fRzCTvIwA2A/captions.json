@@ -1,0 +1,1359 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome to GitHub Trending Weekly, episode 22. This week, I've got 31 projects packed with tools and AI projects you won't want to miss. Let's get started."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Edit Banana converts diagram images into editable Draw IO files. Upload a screenshot of a flowchart or architecture diagram, and it segments"
+    },
+    {
+      "timestamp": "0:20",
+      "text": "the shapes, extracts text, and converts it into an editable format. The output preserves colors and layout. Each box,"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "arrow, and label becomes a separate dragable element in draw.io. It handles dashed lines, curved connectors, and multi-layer diagrams that simpler conversion tools miss."
+    },
+    {
+      "timestamp": "0:38",
+      "text": "OpenAI released their new Codeex Desktop app for Mac OS. Only Codex Desktop Rebuild extracts the Electron components"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "from the official installer and recompiles the native modules to run on Windows and Linux. The rebuilt version includes the same interface as the Mac"
+    },
+    {
+      "timestamp": "0:54",
+      "text": "app, parallel agent threads, the visual planning dashboard, and git workree isolation running natively on your PC."
+    },
+    {
+      "timestamp": "1:03",
+      "text": "Agent device is a CLI for controlling iOS and Android devices programmatically. It lets agents or scripts open apps, tap buttons, type"
+    },
+    {
+      "timestamp": "1:12",
+      "text": "text, scroll, and take screenshots. Uses accessibility APIs to inspect and interact with UI elements. Works with simulators and physical devices."
+    },
+    {
+      "timestamp": "1:21",
+      "text": "Includes retry logic for flaky connections and stale UI snapshots."
+    },
+    {
+      "timestamp": "1:26",
+      "text": "Supports multiple sessions, coordinate or reference based targeting."
+    },
+    {
+      "timestamp": "1:30",
+      "text": "Paying 10 bucks a month for Sunno when there's a free open- source model that runs on your own GPU. AEP UI just gave"
+    },
+    {
+      "timestamp": "1:37",
+      "text": "you a Spotify grade interface for AEP 1.5. Full song generation with vocals and lyrics, instrumental mode, built-in"
+    },
+    {
+      "timestamp": "1:45",
+      "text": "audio editor, stem separation, custom parameters for everything. Create unlimited tracks, no Q limits. You own all the rights. Runs completely local."
+    },
+    {
+      "timestamp": "1:54",
+      "text": "No monthly fees ever. Claude Opus 4.6 ROC compiler in Rust."
+    },
+    {
+      "timestamp": "2:00",
+      "text": "Full tool chain, pre-processor, parser, SSA optimizer, code generator, assembler, linker, debug symbols. It compiles the Linux kernel, Postgress School, FFmpeg, Reddus, and Cumu."
+    },
+    {
+      "timestamp": "2:11",
+      "text": "Supports x86, ARM, and RiskV. Works as a drop-in GCC replacement for make and CMake. Nearly 4,000 commits, all AI generated with no human editing."
+    },
+    {
+      "timestamp": "2:21",
+      "text": "Step 3.5 Flash is a 196 billion parameter model that only uses 11 billion parameters per token. This"
+    },
+    {
+      "timestamp": "2:29",
+      "text": "sparse activation design means it runs fast despite its size. You get the intelligence of a flagship model without the lag. The new multi-token prediction"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "system generates code at 350 tokens per second by predicting four tokens simultaneously. It handles 256k context"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "windows and works with text, images, and other input types."
+    },
+    {
+      "timestamp": "2:52",
+      "text": "Pre is a Rust rewrite of pre-commit that runs faster and uses less disk space."
+    },
+    {
+      "timestamp": "2:57",
+      "text": "It's a single binary with no dependencies that can run your existing pre-commit configs in parallel. Unlike pre-commit which creates separate Python"
+    },
+    {
+      "timestamp": "3:05",
+      "text": "environments for each repository, PRE uses a shared tool chain. This means faster hook installation and less wasted disc space from duplicate tools."
+    },
+    {
+      "timestamp": "3:15",
+      "text": "C Python and fast API have already switched to it. Firewall blocking your traffic, VPN not working. Packet just"
+    },
+    {
+      "timestamp": "3:24",
+      "text": "went around everything. Pocket is a SOCK 5 proxy that bypasses firewalls using raw packet injection. Instead of using"
+    },
+    {
+      "timestamp": "3:31",
+      "text": "the OS network stack, it injects TCP packets directly via PCAP, avoiding kernel level connection tracking."
+    },
+    {
+      "timestamp": "3:38",
+      "text": "Traffic is encrypted with KCP requires IP tables rules to prevent the kernel from sending RST packets. Once configured, it's invisible to standard network monitoring."
+    },
+    {
+      "timestamp": "3:49",
+      "text": "Carpathy said AI writes 80% of his code and he spends 20% reviewing it. Pro Workflow literally optimizes for that"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "exact ratio. It's a clawed code plugin with persistent SQLite memory. Every correction you make gets stored and"
+    },
+    {
+      "timestamp": "4:04",
+      "text": "searched with full text search. While Claude's thinking in one branch, you're coding in another. Works across 32 AI coding agents via Skillit translation."
+    },
+    {
+      "timestamp": "4:15",
+      "text": "Claw router is a smart LLM router for your OpenClaw agent that stops you from burning money. If it's a basic question,"
+    },
+    {
+      "timestamp": "4:22",
+      "text": "it routes it to a cheap model like deepseek. If it's complex code, it escalates to Claude sonnet. It runs"
+    },
+    {
+      "timestamp": "4:29",
+      "text": "entirely locally, supports micro payments, so you don't need to manage 30 different API keys, and finally cuts"
+    },
+    {
+      "timestamp": "4:36",
+      "text": "your inference bill by 80% without you lifting a finger."
+    },
+    {
+      "timestamp": "4:41",
+      "text": "Cloudflare open-sourced Kumo, their component library built on base UI. This means the accessibility features"
+    },
+    {
+      "timestamp": "4:48",
+      "text": "keyboard navigation, focus management, Arya attributes are built into the components by default. The library is tree shakable and includes a semantic"
+    },
+    {
+      "timestamp": "4:57",
+      "text": "color token system. The repo includes an agents.mmd file. This makes it easier for tools like claude to generate code using kumo components correctly."
+    },
+    {
+      "timestamp": "5:08",
+      "text": "Open Viking is Bite Dance's approach to organizing agent memory as a hierarchical file system instead of a"
+    },
+    {
+      "timestamp": "5:15",
+      "text": "flat vector database. This reduces token usage compared to loading everything up front. The retrieval system searches"
+    },
+    {
+      "timestamp": "5:22",
+      "text": "directories recursively. It identifies the most relevant directory first, then explores its contents layer by layer."
+    },
+    {
+      "timestamp": "5:29",
+      "text": "There's also a visualization tool for inspecting which contexts were retrieved during a task."
+    },
+    {
+      "timestamp": "5:36",
+      "text": "Maestro is a Mac OS app for running multiple AI coding sessions in parallel."
+    },
+    {
+      "timestamp": "5:41",
+      "text": "It manages up to 12 simultaneous sessions, each in its own terminal and git work tree. You can run different tasks, features, bug fixes, refactors on"
+    },
+    {
+      "timestamp": "5:50",
+      "text": "separate branches with different models without conflicts. Includes a git graph view, MCP server for agent status reporting and preset configurations."
+    },
+    {
+      "timestamp": "5:59",
+      "text": "Works with any AI CLI tool."
+    },
+    {
+      "timestamp": "6:02",
+      "text": "TGTM is a C project by Anti-Rez, the Reddus creator that lets you control your Mac terminal through Telegram. You connect a bot to your machine and send"
+    },
+    {
+      "timestamp": "6:11",
+      "text": "commands from your phone. Perfect for casually interacting with agents or just finishing that one last thing before bed. It uses SQLite to store state and"
+    },
+    {
+      "timestamp": "6:20",
+      "text": "supports basic screenshots. No SSH setup, VPN or web dashboard required, just messages."
+    },
+    {
+      "timestamp": "6:29",
+      "text": "You know that feeling when you type get diff and your terminal just vomits a wall of red and green at you? Yeah, I"
+    },
+    {
+      "timestamp": "6:36",
+      "text": "got tired of that. This is DIY. It's basically a code review assistant that doesn't make you want to cry. Clean file"
+    },
+    {
+      "timestamp": "6:43",
+      "text": "tree on the left, your actual changes on the right. If you spot a bug while reviewing, you just press E. It instantly opens Neoim and jumps your"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "cursor to that exact line so you can fix it."
+    },
+    {
+      "timestamp": "6:56",
+      "text": "Living behind a firewall that blocks half the internet. Yeah, VPNs don't always cut it anymore. PAQCTL is a"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "censorship circumvention tool that runs packet and GFW Knocker backends to tunnel traffic using raw sockets and KCP. You install it on a VPS and run"
+    },
+    {
+      "timestamp": "7:13",
+      "text": "both methods simultaneously. If one gets blocked, you can switch to the other. It provides a sock 5 proxy."
+    },
+    {
+      "timestamp": "7:20",
+      "text": "Mission control is a project management interface for coordinating multiple AI agents. You define agents in markdown"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "files, assign tasks through a cananban board, and the system dispatches them to open claw sessions. Agents report when"
+    },
+    {
+      "timestamp": "7:35",
+      "text": "they finish tasks and can communicate with each other for coordination."
+    },
+    {
+      "timestamp": "7:39",
+      "text": "There's a supervisor agent that reviews completed work. Agents can run on different machines and upload their output via API."
+    },
+    {
+      "timestamp": "7:48",
+      "text": "Causal forcing is a Singua research project for real-time video generation on a single RTX 4090. It uses a"
+    },
+    {
+      "timestamp": "7:55",
+      "text": "three-stage distillation process to train diffusion models that can generate video frame by frame. Two model variants"
+    },
+    {
+      "timestamp": "8:02",
+      "text": "are available. Frame-wise generation produces more dynamic motion while chunkwise generation prioritizes temporal consistency."
+    },
+    {
+      "timestamp": "8:12",
+      "text": "Botmaker is a web interface for deploying chat bots. You select an AI provider, OpenAI, Anthropic, etc., and a"
+    },
+    {
+      "timestamp": "8:19",
+      "text": "messaging platform, Telegram, Discord, and it creates an isolated Docker container for each bot with its own workspace and environment variables. The"
+    },
+    {
+      "timestamp": "8:28",
+      "text": "dashboard shows resource usage and lets you start, stop, or delete bots. It automatically cleans up unused containers."
+    },
+    {
+      "timestamp": "8:36",
+      "text": "OpenHam Clock is an open- source rebuild of Hamlock, a popular ham radio dashboard tool. OpenHam clock displays satellite imagery, space weather data"
+    },
+    {
+      "timestamp": "8:45",
+      "text": "from Noah, DX spots, band conditions, and POD soda activator locations on an interactive map. It updates every 30 seconds and includes eight map styles."
+    },
+    {
+      "timestamp": "8:55",
+      "text": "It runs on Raspberry Pi, desktop environments, Docker or cloud platforms like Railway."
+    },
+    {
+      "timestamp": "9:02",
+      "text": "This tool converts scanned PDFs to EPUB format using Paddle OCR layout analysis API. It detects document structure,"
+    },
+    {
+      "timestamp": "9:10",
+      "text": "paragraphs, headers, images, and tables, and automatically splits the content into chapters based on heading hierarchy. It removes page numbers and"
+    },
+    {
+      "timestamp": "9:18",
+      "text": "running headers, embeds images, and includes checkpointing to resume interrupted conversions."
+    },
+    {
+      "timestamp": "9:25",
+      "text": "Open usage is a menu bar app that displays usage data for AI coding tools in one place. It currently supports cursor, claude, and codecs with plans to"
+    },
+    {
+      "timestamp": "9:34",
+      "text": "add Gemini and copilot. It uses a plug-in system. Each provider is a JavaScript file that fetches usage data"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "and renders it as progress bars. The app refreshes automatically every few minutes. It's built with Tori and React, so it runs on multiple platforms."
+    },
+    {
+      "timestamp": "9:51",
+      "text": "Sky is an API that lets AI agents search for and retrieve skill files at runtime."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Instead of pre-installing skills, agents can query the API for relevant skill DMD files and inject them into context as needed. It aggregates skills from"
+    },
+    {
+      "timestamp": "10:05",
+      "text": "skills.sh and other sources, ranks results by relevance, and returns structured JSON. It caches responses to"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "avoid GitHub rate limit issues. The API is available as both a REST endpoint and an MCP server. XFR is a network"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "throughput testing tool with a graphical interface. It displays live bandwidth graphs instead of terminal output and includes a server dashboard for"
+    },
+    {
+      "timestamp": "10:30",
+      "text": "monitoring multiple tests simultaneously. It supports TCP, UDP, and Quick protocols with built-in encryption. It also exports Prometheus"
+    },
+    {
+      "timestamp": "10:39",
+      "text": "metrics, offers multiple color themes, and lets you compare test results over time."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "Node Warden is a Bit Warden compatible password manager that runs on Cloudflare workers. It requires no server"
+    },
+    {
+      "timestamp": "10:52",
+      "text": "maintenance and uses Cloudflare's free tier. You deploy it by setting a JWT secret, then use the official Bit Warden clients to connect to your instance."
+    },
+    {
+      "timestamp": "11:01",
+      "text": "Passwords are endto-end encrypted and file attachments are stored in Cloudflare R2."
+    },
+    {
+      "timestamp": "11:08",
+      "text": "VoxTrell C is a C implementation of Mistrol's 4 billion parameter speechtoext model with no external"
+    },
+    {
+      "timestamp": "11:15",
+      "text": "dependencies. You compile the C program, download the 9 GB model file and run transcription locally. It memory maps"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "model weights from disk for fast loading and streams decoded tokens to the terminal in real time. You can pipe audio through ffmpeg or use the C API to"
+    },
+    {
+      "timestamp": "11:32",
+      "text": "integrate transcription into other applications."
+    },
+    {
+      "timestamp": "11:36",
+      "text": "Foundry is an openclaw plugin that observes repetitive workflows and generates code to automate them. If you run the same sequence of commands"
+    },
+    {
+      "timestamp": "11:44",
+      "text": "multiple times, Foundry can create a tool that executes them as a single action. The system can modify its own"
+    },
+    {
+      "timestamp": "11:51",
+      "text": "codebase based on what it learns. It validates new code in a sandbox before deployment and tracks which automations work reliably."
+    },
+    {
+      "timestamp": "12:01",
+      "text": "Autofigure generates editable SVG diagrams from text descriptions of research methods. You input a method section and it produces a vector graphic"
+    },
+    {
+      "timestamp": "12:10",
+      "text": "you can modify. It uses an LLM to create the initial layout, applies SAM 3 segmentation to identify components,"
+    },
+    {
+      "timestamp": "12:17",
+      "text": "removes backgrounds, and assembles the result into an SVG template with an embedded editor."
+    },
+    {
+      "timestamp": "12:24",
+      "text": "Skill scanner is a Cisco security tool that analyzes AI agent skills for vulnerabilities before deployment. It checks for prompt injection attacks,"
+    },
+    {
+      "timestamp": "12:33",
+      "text": "data exfiltration risks and malicious code. It uses four detection methods."
+    },
+    {
+      "timestamp": "12:38",
+      "text": "Yara pattern matching, behavioral analysis that traces data flows, LLM based semantic analysis, and virus total integration for binary scanning."
+    },
+    {
+      "timestamp": "12:48",
+      "text": "UTRAG is a retrieval system from Tencent that uses specialized agents for different data types. It supports PDFs,"
+    },
+    {
+      "timestamp": "12:56",
+      "text": "Excel files, and databases. The system includes separate agents for text to SQL conversion, Excel analysis with Python"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "execution and metadatabased document filtering. It runs locally with minio storage and includes a web UI built without external dependencies."
+    },
+    {
+      "timestamp": "13:13",
+      "text": "TV is a Mac OS menu bar app."
+    },
+    {
+      "timestamp": "13:18",
+      "text": "It provides a floating remote interface with a D-pad, standard playback buttons, and keyboard shortcut support for navigation. It handles text input for"
+    },
+    {
+      "timestamp": "13:26",
+      "text": "search and passwords, displays now playing information with album art and progress bars, and shows an app grid with icons from the App Store."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome to GitHub Trending Weekly, episode 22. This week, I've got 31 projects packed with tools and AI projects you won't want to miss. Let's get started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Edit Banana converts diagram images into editable Draw IO files. Upload a screenshot of a flowchart or architecture diagram, and it segments"
+        }
+      ]
+    },
+    {
+      "tStartMs": 20000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the shapes, extracts text, and converts it into an editable format. The output preserves colors and layout. Each box,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "arrow, and label becomes a separate dragable element in draw.io. It handles dashed lines, curved connectors, and multi-layer diagrams that simpler conversion tools miss."
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenAI released their new Codeex Desktop app for Mac OS. Only Codex Desktop Rebuild extracts the Electron components"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from the official installer and recompiles the native modules to run on Windows and Linux. The rebuilt version includes the same interface as the Mac"
+        }
+      ]
+    },
+    {
+      "tStartMs": 54000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "app, parallel agent threads, the visual planning dashboard, and git workree isolation running natively on your PC."
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent device is a CLI for controlling iOS and Android devices programmatically. It lets agents or scripts open apps, tap buttons, type"
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text, scroll, and take screenshots. Uses accessibility APIs to inspect and interact with UI elements. Works with simulators and physical devices."
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Includes retry logic for flaky connections and stale UI snapshots."
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Supports multiple sessions, coordinate or reference based targeting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 90000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Paying 10 bucks a month for Sunno when there's a free open- source model that runs on your own GPU. AEP UI just gave"
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you a Spotify grade interface for AEP 1.5. Full song generation with vocals and lyrics, instrumental mode, built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "audio editor, stem separation, custom parameters for everything. Create unlimited tracks, no Q limits. You own all the rights. Runs completely local."
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No monthly fees ever. Claude Opus 4.6 ROC compiler in Rust."
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Full tool chain, pre-processor, parser, SSA optimizer, code generator, assembler, linker, debug symbols. It compiles the Linux kernel, Postgress School, FFmpeg, Reddus, and Cumu."
+        }
+      ]
+    },
+    {
+      "tStartMs": 131000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Supports x86, ARM, and RiskV. Works as a drop-in GCC replacement for make and CMake. Nearly 4,000 commits, all AI generated with no human editing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 141000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Step 3.5 Flash is a 196 billion parameter model that only uses 11 billion parameters per token. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sparse activation design means it runs fast despite its size. You get the intelligence of a flagship model without the lag. The new multi-token prediction"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "system generates code at 350 tokens per second by predicting four tokens simultaneously. It handles 256k context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "windows and works with text, images, and other input types."
+        }
+      ]
+    },
+    {
+      "tStartMs": 172000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pre is a Rust rewrite of pre-commit that runs faster and uses less disk space."
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a single binary with no dependencies that can run your existing pre-commit configs in parallel. Unlike pre-commit which creates separate Python"
+        }
+      ]
+    },
+    {
+      "tStartMs": 185000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "environments for each repository, PRE uses a shared tool chain. This means faster hook installation and less wasted disc space from duplicate tools."
+        }
+      ]
+    },
+    {
+      "tStartMs": 195000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "C Python and fast API have already switched to it. Firewall blocking your traffic, VPN not working. Packet just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "went around everything. Pocket is a SOCK 5 proxy that bypasses firewalls using raw packet injection. Instead of using"
+        }
+      ]
+    },
+    {
+      "tStartMs": 211000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the OS network stack, it injects TCP packets directly via PCAP, avoiding kernel level connection tracking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 218000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Traffic is encrypted with KCP requires IP tables rules to prevent the kernel from sending RST packets. Once configured, it's invisible to standard network monitoring."
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Carpathy said AI writes 80% of his code and he spends 20% reviewing it. Pro Workflow literally optimizes for that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exact ratio. It's a clawed code plugin with persistent SQLite memory. Every correction you make gets stored and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "searched with full text search. While Claude's thinking in one branch, you're coding in another. Works across 32 AI coding agents via Skillit translation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claw router is a smart LLM router for your OpenClaw agent that stops you from burning money. If it's a basic question,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 262000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it routes it to a cheap model like deepseek. If it's complex code, it escalates to Claude sonnet. It runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "entirely locally, supports micro payments, so you don't need to manage 30 different API keys, and finally cuts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 276000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your inference bill by 80% without you lifting a finger."
+        }
+      ]
+    },
+    {
+      "tStartMs": 281000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare open-sourced Kumo, their component library built on base UI. This means the accessibility features"
+        }
+      ]
+    },
+    {
+      "tStartMs": 288000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keyboard navigation, focus management, Arya attributes are built into the components by default. The library is tree shakable and includes a semantic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "color token system. The repo includes an agents.mmd file. This makes it easier for tools like claude to generate code using kumo components correctly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 308000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Viking is Bite Dance's approach to organizing agent memory as a hierarchical file system instead of a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flat vector database. This reduces token usage compared to loading everything up front. The retrieval system searches"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directories recursively. It identifies the most relevant directory first, then explores its contents layer by layer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 329000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also a visualization tool for inspecting which contexts were retrieved during a task."
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Maestro is a Mac OS app for running multiple AI coding sessions in parallel."
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It manages up to 12 simultaneous sessions, each in its own terminal and git work tree. You can run different tasks, features, bug fixes, refactors on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "separate branches with different models without conflicts. Includes a git graph view, MCP server for agent status reporting and preset configurations."
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Works with any AI CLI tool."
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TGTM is a C project by Anti-Rez, the Reddus creator that lets you control your Mac terminal through Telegram. You connect a bot to your machine and send"
+        }
+      ]
+    },
+    {
+      "tStartMs": 371000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commands from your phone. Perfect for casually interacting with agents or just finishing that one last thing before bed. It uses SQLite to store state and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports basic screenshots. No SSH setup, VPN or web dashboard required, just messages."
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You know that feeling when you type get diff and your terminal just vomits a wall of red and green at you? Yeah, I"
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "got tired of that. This is DIY. It's basically a code review assistant that doesn't make you want to cry. Clean file"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tree on the left, your actual changes on the right. If you spot a bug while reviewing, you just press E. It instantly opens Neoim and jumps your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor to that exact line so you can fix it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Living behind a firewall that blocks half the internet. Yeah, VPNs don't always cut it anymore. PAQCTL is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "censorship circumvention tool that runs packet and GFW Knocker backends to tunnel traffic using raw sockets and KCP. You install it on a VPS and run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "both methods simultaneously. If one gets blocked, you can switch to the other. It provides a sock 5 proxy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mission control is a project management interface for coordinating multiple AI agents. You define agents in markdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files, assign tasks through a cananban board, and the system dispatches them to open claw sessions. Agents report when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 455000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "they finish tasks and can communicate with each other for coordination."
+        }
+      ]
+    },
+    {
+      "tStartMs": 459000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's a supervisor agent that reviews completed work. Agents can run on different machines and upload their output via API."
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Causal forcing is a Singua research project for real-time video generation on a single RTX 4090. It uses a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 475000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three-stage distillation process to train diffusion models that can generate video frame by frame. Two model variants"
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are available. Frame-wise generation produces more dynamic motion while chunkwise generation prioritizes temporal consistency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Botmaker is a web interface for deploying chat bots. You select an AI provider, OpenAI, Anthropic, etc., and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 499000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "messaging platform, Telegram, Discord, and it creates an isolated Docker container for each bot with its own workspace and environment variables. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 508000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dashboard shows resource usage and lets you start, stop, or delete bots. It automatically cleans up unused containers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 516000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenHam Clock is an open- source rebuild of Hamlock, a popular ham radio dashboard tool. OpenHam clock displays satellite imagery, space weather data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from Noah, DX spots, band conditions, and POD soda activator locations on an interactive map. It updates every 30 seconds and includes eight map styles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 535000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It runs on Raspberry Pi, desktop environments, Docker or cloud platforms like Railway."
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This tool converts scanned PDFs to EPUB format using Paddle OCR layout analysis API. It detects document structure,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "paragraphs, headers, images, and tables, and automatically splits the content into chapters based on heading hierarchy. It removes page numbers and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 558000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running headers, embeds images, and includes checkpointing to resume interrupted conversions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 565000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open usage is a menu bar app that displays usage data for AI coding tools in one place. It currently supports cursor, claude, and codecs with plans to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "add Gemini and copilot. It uses a plug-in system. Each provider is a JavaScript file that fetches usage data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and renders it as progress bars. The app refreshes automatically every few minutes. It's built with Tori and React, so it runs on multiple platforms."
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sky is an API that lets AI agents search for and retrieve skill files at runtime."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of pre-installing skills, agents can query the API for relevant skill DMD files and inject them into context as needed. It aggregates skills from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skills.sh and other sources, ranks results by relevance, and returns structured JSON. It caches responses to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "avoid GitHub rate limit issues. The API is available as both a REST endpoint and an MCP server. XFR is a network"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "throughput testing tool with a graphical interface. It displays live bandwidth graphs instead of terminal output and includes a server dashboard for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 630000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "monitoring multiple tests simultaneously. It supports TCP, UDP, and Quick protocols with built-in encryption. It also exports Prometheus"
+        }
+      ]
+    },
+    {
+      "tStartMs": 639000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "metrics, offers multiple color themes, and lets you compare test results over time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Node Warden is a Bit Warden compatible password manager that runs on Cloudflare workers. It requires no server"
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maintenance and uses Cloudflare's free tier. You deploy it by setting a JWT secret, then use the official Bit Warden clients to connect to your instance."
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Passwords are endto-end encrypted and file attachments are stored in Cloudflare R2."
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "VoxTrell C is a C implementation of Mistrol's 4 billion parameter speechtoext model with no external"
+        }
+      ]
+    },
+    {
+      "tStartMs": 675000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencies. You compile the C program, download the 9 GB model file and run transcription locally. It memory maps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model weights from disk for fast loading and streams decoded tokens to the terminal in real time. You can pipe audio through ffmpeg or use the C API to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "integrate transcription into other applications."
+        }
+      ]
+    },
+    {
+      "tStartMs": 696000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Foundry is an openclaw plugin that observes repetitive workflows and generates code to automate them. If you run the same sequence of commands"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "multiple times, Foundry can create a tool that executes them as a single action. The system can modify its own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 711000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "codebase based on what it learns. It validates new code in a sandbox before deployment and tracks which automations work reliably."
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Autofigure generates editable SVG diagrams from text descriptions of research methods. You input a method section and it produces a vector graphic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 730000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you can modify. It uses an LLM to create the initial layout, applies SAM 3 segmentation to identify components,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "removes backgrounds, and assembles the result into an SVG template with an embedded editor."
+        }
+      ]
+    },
+    {
+      "tStartMs": 744000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Skill scanner is a Cisco security tool that analyzes AI agent skills for vulnerabilities before deployment. It checks for prompt injection attacks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data exfiltration risks and malicious code. It uses four detection methods."
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Yara pattern matching, behavioral analysis that traces data flows, LLM based semantic analysis, and virus total integration for binary scanning."
+        }
+      ]
+    },
+    {
+      "tStartMs": 768000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UTRAG is a retrieval system from Tencent that uses specialized agents for different data types. It supports PDFs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 776000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Excel files, and databases. The system includes separate agents for text to SQL conversion, Excel analysis with Python"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execution and metadatabased document filtering. It runs locally with minio storage and includes a web UI built without external dependencies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 793000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TV is a Mac OS menu bar app."
+        }
+      ]
+    },
+    {
+      "tStartMs": 798000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It provides a floating remote interface with a D-pad, standard playback buttons, and keyboard shortcut support for navigation. It handles text input for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "search and passwords, displays now playing information with album art and progress bars, and shows an app grid with icons from the App Store."
+        }
+      ]
+    }
+  ]
+}

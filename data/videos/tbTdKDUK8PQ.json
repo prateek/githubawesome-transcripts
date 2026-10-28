@@ -1,0 +1,966 @@
+{
+  "schema_version": 1,
+  "id": "tbTdKDUK8PQ",
+  "title": "GitHub Trending Today #21: msgvault, ClawHub, Radar, MAHORAGA, LibPDF, Open Ralph Wiggum, Dash, TAKT",
+  "url": "https://www.youtube.com/watch?v=tbTdKDUK8PQ",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-02-03",
+  "duration": 848,
+  "word_count": 2122,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T22:45:29+00:00",
+    "metadata_sha256": "1fb98beaefaa69f46f31231d9356e3588e1f3ee081b055e9c4d445843af525de",
+    "captions_sha256": "a89057ee7a8fc97e47b896a1e15330df78eb0e2f1a5bbb7759cdcf96e8e3174d",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 12,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. Today we're looking at 32 trending GitHub projects from dev tools to AI experiments you won't want to miss. Let's jump in."
+      ]
+    },
+    {
+      "start": 12,
+      "title": "msgvault",
+      "repositories": [
+        "https://github.com/wesm/msgvault"
+      ],
+      "id": "s002",
+      "end": 41,
+      "paragraphs": [
+        "Your email sits in Gmail's cloud. 20 years of messages, attachments accessible only through their web interface. Wes McKini, who created Pandas, built MSG Vault to fix this. It downloads your entire Gmail history to your computer, then uses DuckDB to let you run analytics on hundreds of thousands of messages in milliseconds. There's a terminal interface for browsing your message history. Full text search that works offline with Gmail syntax."
+      ]
+    },
+    {
+      "start": 41,
+      "title": "ClawHub",
+      "repositories": [
+        "https://github.com/openclaw/clawhub"
+      ],
+      "id": "s003",
+      "end": 67,
+      "paragraphs": [
+        "Agent skills are scattered across GitHub repos. OpenClaw built Clawub as a registry for publishing and discovering them. You publish version skills as skill.md files. Vector search using OpenAI embeddings helps find relevant skills without manual browsing. Agents can sync directly from the registry. There's also only crabs.ai for sharing sold imd files, personality configurations for agents."
+      ]
+    },
+    {
+      "start": 67,
+      "title": "Radar",
+      "repositories": [
+        "https://github.com/skyhook-io/radar"
+      ],
+      "id": "s004",
+      "end": 95,
+      "paragraphs": [
+        "Ever feel like Kubernetes is working, but you have no idea what's actually going on? That's where Radar comes in. Radar is an open- source local Kubernetes explorer that gives you instant visibility into your cluster. No cloud accounts, no agents, no dashboards to babysit. Just run it and boom, your services, pods, logs, configs, and Helm releases are all right there. If Cubectl feels like flying blind, Radar is the map you've been missing."
+      ]
+    },
+    {
+      "start": 95,
+      "title": "MAHORAGA",
+      "repositories": [
+        "https://github.com/ygwyg/MAHORAGA"
+      ],
+      "id": "s005",
+      "end": 121,
+      "paragraphs": [
+        "Maharaga is an AI trading agent that monitors social sentiment from Stock Twits and Reddit, then executes trades through Alpaca for stocks and crypto. It runs continuously on Cloudflare workers with a dashboard showing its decision-making process. It includes stop- losses, position limits, and a kill switch. It's scraping sentiment 24/7 and trading on vibes with actual risk management. JavaScript PDF libraries are fragmented."
+      ]
+    },
+    {
+      "start": 121,
+      "title": "LibPDF",
+      "repositories": [
+        "https://github.com/libpdf-js/core"
+      ],
+      "id": "s006",
+      "end": 148,
+      "paragraphs": [
+        "PDF.js only reads files. PDF lib struggles with malformed documents. And PDF kit only generates. The document team built lib PDF to handle all of these. Lib PDF is a TypeScript PDF library that handles loading, editing, signing, and generating PDFs. It runs in Node, Bun, and browsers. It combines parsing, generation, and incremental edits in one library instead of requiring multiple tools."
+      ]
+    },
+    {
+      "start": 148,
+      "title": "Open Ralph Wiggum",
+      "repositories": [
+        "https://github.com/Th0rgal/open-ralph-wiggum"
+      ],
+      "id": "s007",
+      "end": 176,
+      "paragraphs": [
+        "Open Ralph Wiggum is an autonomous loop you run from your terminal that keeps an AI coding agent working on your task until it's actually done. Type Ralph your prompt and it wraps agents like open code, clawed code or codeex in a persistent loop. Each iteration sees what's been built so far and keeps improving until tests pass or the job's finished. You can finally let AI write, fix, and refine code while you do something else."
+      ]
+    },
+    {
+      "start": 176,
+      "title": "Dash",
+      "repositories": [
+        "https://github.com/agno-agi/dash"
+      ],
+      "id": "s008",
+      "end": 202,
+      "paragraphs": [
+        "Dash is a self-learning agent that grounds answers in six layers of context. Your schema, business logic, past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The more you use it, the smarter it gets. It remembers past queries, learns from mistakes, and improves over time."
+      ]
+    },
+    {
+      "start": 202,
+      "title": "nanoclaw",
+      "repositories": [
+        "https://github.com/gavrielc/nanoclaw"
+      ],
+      "id": "s009",
+      "end": 230,
+      "paragraphs": [
+        "wasn't comfortable running code they couldn't fully audit. So they rewrote it in 500 lines of Typescript. NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes."
+      ]
+    },
+    {
+      "start": 230,
+      "title": "Agent Trace",
+      "repositories": [
+        "https://github.com/cursor/agent-trace"
+      ],
+      "id": "s010",
+      "end": 256,
+      "paragraphs": [
+        "AI is writing half your codebase and nobody knows which parts came from where. That's a problem. Agent trace just dropped as an open spec. Its version control for knowing what the AI actually did. Stamps every line of code with where it came from, which conversation, which model, the whole thing. Works with git tracks line by line and any tool can read it. No more wait, did Claude write this or did I?"
+      ]
+    },
+    {
+      "start": 256,
+      "title": "MOVA",
+      "repositories": [
+        "https://github.com/OpenMOSS/MOVA"
+      ],
+      "id": "s011",
+      "end": 282,
+      "paragraphs": [
+        "Every open- source video model gives you silent videos. You bolt audio on later and it never syncs, right? MOA skipped that step. It generates video and audio at the same time, synchronized from the ground up. LipSync is state-of-the-art, handles multiple speakers, gets environment sounds right, everything's open source. Weights, training code, Laura scripts, all of it. 720p, 8 seconds, perfect audio sync. If you've ever copy pasted a table from a PDF, you know the pain. Garbled text, lost"
+      ]
+    },
+    {
+      "start": 282,
+      "title": "GLM-OCR",
+      "repositories": [
+        "https://github.com/zai-org/GLM-OCR"
+      ],
+      "id": "s012",
+      "end": 309,
+      "paragraphs": [
+        "formatting, the whole mess. GLM OCR uses a vision language model to look at the document and understand the layout, not just extract words. Take a screenshot of a complex scientific paper, math formulas, charts, and it converts the whole thing into clean markdown or latex. Good for fixing rag pipelines that choke on messy PDFs."
+      ]
+    },
+    {
+      "start": 309,
+      "title": "nanobot",
+      "repositories": [
+        "https://github.com/HKUDS/nanobot"
+      ],
+      "id": "s013",
+      "end": 338,
+      "paragraphs": [
+        "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000 lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+      ]
+    },
+    {
+      "start": 338,
+      "title": "Pretty-mermaid-skills",
+      "repositories": [
+        "https://github.com/imxv/Pretty-mermaid-skills"
+      ],
+      "id": "s014",
+      "end": 366,
+      "paragraphs": [
+        "Your AI writes code, but you still have to manually make all the diagrams for documentation. Pretty Mermaid Skills fixes that. It plugs into clawed code, cursor, and other AI coding tools so they can render actual diagrams. Write mermaid syntax, get SVGs or ask art for terminals. Supports flowcharts, sequence diagrams, er diagrams, state machines, all of it. Oneline install, zero config, batch render, hundreds of diagrams in parallel."
+      ]
+    },
+    {
+      "start": 366,
+      "title": "TAKT",
+      "repositories": [
+        "https://github.com/nrslib/takt"
+      ],
+      "id": "s015",
+      "end": 391,
+      "paragraphs": [
+        "Tact is an AI task and agent coordination tool that orchestrates multiple LLM powered agents into actual workflows. Works with cloud code, open AAI codecs, and others so you can plan, execute, and finish coding tasks with agents that collaborate instead of firing off single answers. Tact guides you step by step, runs tasks from your terminal or GitHub issues, and wires into CI for automation."
+      ]
+    },
+    {
+      "start": 391,
+      "title": "MARVIN",
+      "repositories": [
+        "https://github.com/SterlingChin/marvin-template"
+      ],
+      "id": "s016",
+      "end": 418,
+      "paragraphs": [
+        "Marvin is a personal AI assistant. You can actually build and customize yourself. It's not another chatbot. It's an open template for connecting AI to your actual tools and workflows. Named after the depressed robot from Hitchhiker's Guide, Marvin lets you add skills, plug in APIs, and build the kind of assistant that does things, not just answers questions, handles your calendar, sorts your inbox, manages tasks."
+      ]
+    },
+    {
+      "start": 418,
+      "title": "Net Bar",
+      "repositories": [
+        "https://github.com/iad1tya/Net-Bar"
+      ],
+      "id": "s017",
+      "end": 442,
+      "paragraphs": [
+        "NetBar is a tiny menu bar app that shows your actual download and upload speeds in real time. Just sits there. Click once for full diagnostics, signal strength, latency, whether your router is having a moment. You can customize the display, fonts, units, what info shows up. It's open source, lightweight, doesn't collect anything. Takes about 15 seconds to install."
+      ]
+    },
+    {
+      "start": 442,
+      "title": "voicebox",
+      "repositories": [
+        "https://github.com/jamiepine/voicebox"
+      ],
+      "id": "s018",
+      "end": 469,
+      "paragraphs": [
+        "Voice box is a desktop app for voice cloning and speech synthesis. Feed it a few seconds of audio and it clones the voice using models like Quen 3TS. Then you arrange the generated speech on a timeline. Drag clips around, layer different voices, edit the output like you would in a DAW. Includes Whisper for transcription so you can edit based on the actual text. Runs locally. No cloud processing, no subscription."
+      ]
+    },
+    {
+      "start": 469,
+      "title": "LingBot-VLA",
+      "repositories": [
+        "https://github.com/Robbyant/lingbot-vla"
+      ],
+      "id": "s019",
+      "end": 496,
+      "paragraphs": [
+        "Lingbot VLA is a vision language action model trained on 20,000 hours of real robot data. It works across nine different robot platforms and understands natural language instructions. In benchmarks, it outperforms existing models on real world tasks and trains twice as fast. There's an optional depth perception module if your application needs it. You can fine-tune it on your own task data set."
+      ]
+    },
+    {
+      "start": 496,
+      "title": "HR-Breaker",
+      "repositories": [
+        "https://github.com/btseytlin/hr-breaker"
+      ],
+      "id": "s020",
+      "end": 524,
+      "paragraphs": [
+        "HRE rebuilds your resume to match specific job postings. Upload your resume in any format, paste a job link, and it rewrites your experience to align with what the posting asks for. It includes verification to prevent fabricating experience that isn't there. The tool tests each version against ATS parsers and keyword requirements, then iterates until it passes. Outputs a one-page format available as a web app or command line tool. Vibe spins up a lightweight Linux VM for running AI"
+      ]
+    },
+    {
+      "start": 524,
+      "title": "Vibe",
+      "repositories": [
+        "https://github.com/lynaghk/vibe"
+      ],
+      "id": "s021",
+      "end": 550,
+      "paragraphs": [
+        "coding agents safely. One command gets you an isolated environment in about 10 seconds. Your project folder mounts into the VM. Package caches persist between sessions and the agent can't access anything outside the VM. It's written in Rust under 1 megabytes, about 1,200 lines of code. No Docker required, just actual VM isolation."
+      ]
+    },
+    {
+      "start": 550,
+      "title": "PYDNS Scanner",
+      "repositories": [
+        "https://github.com/xullexer/PYDNS-Scanner"
+      ],
+      "id": "s022",
+      "end": 577,
+      "paragraphs": [
+        "PYDNS scanner finds working DNS servers by testing IP ranges. Give it a seedar file and it scans at around 500 queries per second. It identifies functional DNS servers even when they return errors, uses random subdomains to bypass caching and can optionally test them as proxies. Scans can be paused and resumed. Progress is saved. It's written in async Python with a terminal interface and works crossplatform."
+      ]
+    },
+    {
+      "start": 577,
+      "title": "Lynkr",
+      "repositories": [
+        "https://github.com/Fast-Editor/Lynkr"
+      ],
+      "id": "s023",
+      "end": 602,
+      "paragraphs": [
+        "Linker is a self-hosted proxy that lets Claude code CLI connect to different AI providers. It routes requests to Azure, open router or local Alama models. Instead of only using anthropics API, includes circuit breakers for failed requests, load shedding and Prometheus metrics. You can configure tiered routing, sends simple requests to local models and complex ones to cloud APIs."
+      ]
+    },
+    {
+      "start": 602,
+      "title": "tirith",
+      "repositories": [
+        "https://github.com/sheeki03/tirith"
+      ],
+      "id": "s024",
+      "end": 624,
+      "paragraphs": [
+        "Tth is a shell hook that checks commands for security issues before execution. It detects Unicode homoglyph attacks like cerillic characters in Latin URLs, Ansie injection, pipeto-shell patterns and modifications to dot files. Runs offline with submillisecond overhead. No telemetry. Block suspicious commands and shows why oneline install."
+      ]
+    },
+    {
+      "start": 624,
+      "title": "Thaw",
+      "repositories": [
+        "https://github.com/stonerl/Thaw"
+      ],
+      "id": "s025",
+      "end": 648,
+      "paragraphs": [
+        "Thaw is an open- source menu bar manager for Mac. Hide whatever icons you want, show them on hover or click, or throw them in a separate bar that drops down when you need it. Drag and drop to rearrange everything. Customize colors and shapes. Add spacing between items. Search for specific icons with a hotkey. Works with notched MacBooks written in Swift."
+      ]
+    },
+    {
+      "start": 648,
+      "title": "Term-Clean",
+      "repositories": [
+        "https://github.com/daijinhai/TermClean"
+      ],
+      "id": "s026",
+      "end": 673,
+      "paragraphs": [
+        "You install a few dev tools and suddenly your disc is full. Term scans everything. Homebrew, npm, pnpm, yarn, pip, and shows you what's hogging space. It's a terminal UI, textbased, not a web app for Mac OS that lets you actually understand what's installed before you start deleting things. Term clean shows you what else relies on it so you don't accidentally break your Python setup or whatever."
+      ]
+    },
+    {
+      "start": 673,
+      "title": "Qwen3-TTS Studio",
+      "repositories": [
+        "https://github.com/bc-dunia/qwen3-TTS-studio"
+      ],
+      "id": "s027",
+      "end": 695,
+      "paragraphs": [
+        "Quen 3TS Studio is a local textto-spech app that runs Alibaba's TTS models on your machine. You get a UI instead of command line flags, so you can adjust voice style, pacing, and emotion without digging through documentation. It also does voice cloning. Feed it a few seconds of audio, and it'll replicate that voice for new speech."
+      ]
+    },
+    {
+      "start": 695,
+      "title": "nono",
+      "repositories": [
+        "https://github.com/lukehinds/nono"
+      ],
+      "id": "s028",
+      "end": 720,
+      "paragraphs": [
+        "No is a sandbox for running AI agents and untrusted code on your machine without them trashing your file system or phoning home to weird servers. It uses kernel level enforcement to restrict what processes can actually do. You give an agent access to specific directories or network endpoints and the OS blocks everything else. No escape hatches, no oops, I deleted USR moments."
+      ]
+    },
+    {
+      "start": 720,
+      "title": "Zuckerman",
+      "repositories": [
+        "https://github.com/zuckermanai/zuckerman"
+      ],
+      "id": "s029",
+      "end": 748,
+      "paragraphs": [
+        "Zuckerman is a personal AI agent that rewrites its own code. You teach it new skills and it edits its own TypeScript files to remember them. No rebuilds, no restarts. It hot reloads changes while running. It starts small, a few hundred lines of TypeScript. As you add tools or fix behavior, it updates its own prompts and logic. You can share those improvements with other users, so the agent gets smarter from collective teaching."
+      ]
+    },
+    {
+      "start": 748,
+      "title": "Asimov v0",
+      "repositories": [
+        "https://github.com/asimovinc/asimov-v0"
+      ],
+      "id": "s030",
+      "end": 773,
+      "paragraphs": [
+        "Asimoth V0 is an open-source bipedal robot leg design you can build with off-the-shelf parts and a 3D printer. The repo includes CAD files, actuator specs, and simulation models for six DOF legs with articulated ankles and toes. Everything's under an open hardware license so you can modify and share your improvements. It's designed as the foundation for a full humanoid platform."
+      ]
+    },
+    {
+      "start": 773,
+      "title": "Auto-Commenter",
+      "repositories": [
+        "https://github.com/rokpiy/auto-commenter"
+      ],
+      "id": "s031",
+      "end": 797,
+      "paragraphs": [
+        "Auto commenter is a claude skill that posts Reddit comments for you. You give it your writing style and target subreddits and it generates replies that match your voice. It uses claude plus to read posts, write contextual comments, and post them in batches. You can filter by topic relevance to focus on threads where you'd actually have something to say. Dotto tidy is a free Mac OS system"
+      ]
+    },
+    {
+      "start": 797,
+      "title": "DodoTidy",
+      "repositories": [
+        "https://github.com/DodoApps/dodotidy"
+      ],
+      "id": "s032",
+      "end": 821,
+      "paragraphs": [
+        "cleaner that shows you what's eating your disk space and lets you clean it up. It's a native Swift UI app that displays CPU, memory, disk, and battery stats. You can delete caches and temp files, find leftover app data from uninstalled programs, and see disc usage breakdowns with charts. No subscription, no telemetry, just a local cleanup tool."
+      ]
+    },
+    {
+      "start": 821,
+      "title": "three-quake",
+      "repositories": [
+        "https://github.com/mrdoob/three-quake"
+      ],
+      "id": "s033",
+      "end": 848,
+      "paragraphs": [
+        "Threequake is a browser port of Quake built with 3JS. It runs the original BSP levels, all eight weapons, monster AI, collision physics, and spatial audio in WebGL. WSD to move, mouse to look. No installer, no emulator. Just open a URL and play. It's a demo of what you can do with modern web graphics and a reminder that Quake still holds up 30 years later."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. Today we're looking at 32 trending GitHub projects from dev tools to AI experiments you won't want to miss."
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "Let's jump in."
+    },
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "text": "Your email sits in Gmail's cloud. 20 years of messages, attachments accessible only through their web interface. Wes McKini, who created"
+    },
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "text": "Pandas, built MSG Vault to fix this. It downloads your entire Gmail history to your computer, then uses DuckDB to let"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "you run analytics on hundreds of thousands of messages in milliseconds."
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "text": "There's a terminal interface for browsing your message history. Full text search that works offline with Gmail syntax."
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "text": "Agent skills are scattered across GitHub repos. OpenClaw built Clawub as a registry for publishing and discovering them. You publish version skills as"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "text": "skill.md files. Vector search using OpenAI embeddings helps find relevant skills without manual browsing. Agents can sync directly from the registry."
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "text": "There's also only crabs.ai for sharing sold imd files, personality configurations for agents."
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "Ever feel like Kubernetes is working, but you have no idea what's actually going on? That's where Radar comes in."
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "Radar is an open- source local Kubernetes explorer that gives you instant visibility into your cluster. No cloud accounts, no agents, no dashboards"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "to babysit. Just run it and boom, your services, pods, logs, configs, and Helm releases are all right there. If Cubectl"
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "text": "feels like flying blind, Radar is the map you've been missing."
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "text": "Maharaga is an AI trading agent that monitors social sentiment from Stock Twits and Reddit, then executes trades"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "through Alpaca for stocks and crypto. It runs continuously on Cloudflare workers with a dashboard showing its"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "text": "decision-making process. It includes stop- losses, position limits, and a kill switch. It's scraping sentiment"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "24/7 and trading on vibes with actual risk management. JavaScript PDF libraries are fragmented."
+    },
+    {
+      "start": 123.0,
+      "end": 123.0,
+      "text": "PDF.js only reads files. PDF lib struggles with malformed documents. And PDF kit only generates. The document"
+    },
+    {
+      "start": 131.0,
+      "end": 131.0,
+      "text": "team built lib PDF to handle all of these. Lib PDF is a TypeScript PDF library that handles loading, editing, signing, and generating PDFs. It runs in"
+    },
+    {
+      "start": 140.0,
+      "end": 140.0,
+      "text": "Node, Bun, and browsers. It combines parsing, generation, and incremental edits in one library instead of requiring multiple tools."
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "Open Ralph Wiggum is an autonomous loop you run from your terminal that keeps an AI coding agent working on your task"
+    },
+    {
+      "start": 155.0,
+      "end": 155.0,
+      "text": "until it's actually done. Type Ralph your prompt and it wraps agents like open code, clawed code or codeex in a"
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "persistent loop. Each iteration sees what's been built so far and keeps improving until tests pass or the job's finished. You can finally let AI write,"
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "fix, and refine code while you do something else."
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "Dash is a self-learning agent that grounds answers in six layers of context. Your schema, business logic,"
+    },
+    {
+      "start": 183.0,
+      "end": 183.0,
+      "text": "past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The more you use it, the smarter it gets. It"
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "remembers past queries, learns from mistakes, and improves over time."
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "wasn't comfortable running code they couldn't fully audit. So they rewrote it in 500 lines of Typescript."
+    },
+    {
+      "start": 212.0,
+      "end": 212.0,
+      "text": "NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its"
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes."
+    },
+    {
+      "start": 230.0,
+      "end": 230.0,
+      "text": "AI is writing half your codebase and nobody knows which parts came from where. That's a problem. Agent trace just dropped as an open spec. Its"
+    },
+    {
+      "start": 239.0,
+      "end": 239.0,
+      "text": "version control for knowing what the AI actually did. Stamps every line of code with where it came from, which conversation, which model, the whole"
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "thing. Works with git tracks line by line and any tool can read it. No more wait, did Claude write this or did I?"
+    },
+    {
+      "start": 256.0,
+      "end": 256.0,
+      "text": "Every open- source video model gives you silent videos. You bolt audio on later and it never syncs, right? MOA skipped"
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "that step. It generates video and audio at the same time, synchronized from the ground up. LipSync is state-of-the-art,"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "handles multiple speakers, gets environment sounds right, everything's open source. Weights, training code, Laura scripts, all of it. 720p, 8"
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "seconds, perfect audio sync. If you've ever copy pasted a table from a PDF, you know the pain. Garbled text, lost"
+    },
+    {
+      "start": 288.0,
+      "end": 288.0,
+      "text": "formatting, the whole mess. GLM OCR uses a vision language model to look at the document and understand the layout, not"
+    },
+    {
+      "start": 295.0,
+      "end": 295.0,
+      "text": "just extract words. Take a screenshot of a complex scientific paper, math formulas, charts, and it converts the whole thing into clean markdown or"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "latex. Good for fixing rag pipelines that choke on messy PDFs."
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+    },
+    {
+      "start": 318.0,
+      "end": 318.0,
+      "text": "lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or"
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+    },
+    {
+      "start": 338.0,
+      "end": 338.0,
+      "text": "Your AI writes code, but you still have to manually make all the diagrams for documentation. Pretty Mermaid Skills fixes that. It plugs into clawed code,"
+    },
+    {
+      "start": 346.0,
+      "end": 346.0,
+      "text": "cursor, and other AI coding tools so they can render actual diagrams. Write mermaid syntax, get SVGs or ask art for"
+    },
+    {
+      "start": 354.0,
+      "end": 354.0,
+      "text": "terminals. Supports flowcharts, sequence diagrams, er diagrams, state machines, all of it. Oneline install, zero config,"
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "batch render, hundreds of diagrams in parallel."
+    },
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "Tact is an AI task and agent coordination tool that orchestrates multiple LLM powered agents into actual workflows. Works with cloud code, open"
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "AAI codecs, and others so you can plan, execute, and finish coding tasks with agents that collaborate instead of firing off single answers. Tact guides"
+    },
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "you step by step, runs tasks from your terminal or GitHub issues, and wires into CI for automation."
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "Marvin is a personal AI assistant. You can actually build and customize yourself. It's not another chatbot. It's an open template for connecting AI to"
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "your actual tools and workflows. Named after the depressed robot from Hitchhiker's Guide, Marvin lets you add"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "skills, plug in APIs, and build the kind of assistant that does things, not just answers questions, handles your"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "calendar, sorts your inbox, manages tasks."
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "NetBar is a tiny menu bar app that shows your actual download and upload speeds in real time. Just sits there. Click"
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "once for full diagnostics, signal strength, latency, whether your router is having a moment. You can customize the display, fonts, units, what info"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "shows up. It's open source, lightweight, doesn't collect anything. Takes about 15 seconds to install."
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "Voice box is a desktop app for voice cloning and speech synthesis. Feed it a few seconds of audio and it clones the"
+    },
+    {
+      "start": 448.0,
+      "end": 448.0,
+      "text": "voice using models like Quen 3TS. Then you arrange the generated speech on a timeline. Drag clips around, layer"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "different voices, edit the output like you would in a DAW. Includes Whisper for transcription so you can edit based on the actual text. Runs locally. No cloud processing, no subscription."
+    },
+    {
+      "start": 469.0,
+      "end": 469.0,
+      "text": "Lingbot VLA is a vision language action model trained on 20,000 hours of real robot data. It works across nine"
+    },
+    {
+      "start": 476.0,
+      "end": 476.0,
+      "text": "different robot platforms and understands natural language instructions."
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "In benchmarks, it outperforms existing models on real world tasks and trains twice as fast. There's an optional depth"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "perception module if your application needs it. You can fine-tune it on your own task data set."
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "HRE rebuilds your resume to match specific job postings. Upload your resume in any format, paste a job link,"
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "and it rewrites your experience to align with what the posting asks for. It includes verification to prevent fabricating experience that isn't there."
+    },
+    {
+      "start": 512.0,
+      "end": 512.0,
+      "text": "The tool tests each version against ATS parsers and keyword requirements, then iterates until it passes. Outputs a"
+    },
+    {
+      "start": 520.0,
+      "end": 520.0,
+      "text": "one-page format available as a web app or command line tool. Vibe spins up a lightweight Linux VM for running AI"
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "coding agents safely. One command gets you an isolated environment in about 10 seconds. Your project folder mounts into"
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "the VM. Package caches persist between sessions and the agent can't access anything outside the VM. It's written in"
+    },
+    {
+      "start": 542.0,
+      "end": 542.0,
+      "text": "Rust under 1 megabytes, about 1,200 lines of code. No Docker required, just actual VM isolation."
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "PYDNS scanner finds working DNS servers by testing IP ranges. Give it a seedar file and it scans at around 500 queries"
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "per second. It identifies functional DNS servers even when they return errors, uses random subdomains to bypass caching and can optionally test them as proxies."
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "Scans can be paused and resumed."
+    },
+    {
+      "start": 570.0,
+      "end": 570.0,
+      "text": "Progress is saved. It's written in async Python with a terminal interface and works crossplatform."
+    },
+    {
+      "start": 577.0,
+      "end": 577.0,
+      "text": "Linker is a self-hosted proxy that lets Claude code CLI connect to different AI providers. It routes requests to Azure, open router or local Alama models."
+    },
+    {
+      "start": 587.0,
+      "end": 587.0,
+      "text": "Instead of only using anthropics API, includes circuit breakers for failed requests, load shedding and Prometheus metrics. You can configure tiered"
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "routing, sends simple requests to local models and complex ones to cloud APIs."
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "Tth is a shell hook that checks commands for security issues before execution. It detects Unicode homoglyph attacks like"
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "cerillic characters in Latin URLs, Ansie injection, pipeto-shell patterns and modifications to dot files. Runs offline"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "with submillisecond overhead. No telemetry. Block suspicious commands and shows why oneline install."
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "Thaw is an open- source menu bar manager for Mac. Hide whatever icons you want, show them on hover or click, or throw"
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "them in a separate bar that drops down when you need it. Drag and drop to rearrange everything. Customize colors and shapes. Add spacing between items."
+    },
+    {
+      "start": 641.0,
+      "end": 641.0,
+      "text": "Search for specific icons with a hotkey."
+    },
+    {
+      "start": 643.0,
+      "end": 643.0,
+      "text": "Works with notched MacBooks written in Swift."
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "You install a few dev tools and suddenly your disc is full. Term scans everything. Homebrew, npm, pnpm, yarn, pip, and shows you what's hogging space."
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "It's a terminal UI, textbased, not a web app for Mac OS that lets you actually understand what's installed before you"
+    },
+    {
+      "start": 665.0,
+      "end": 665.0,
+      "text": "start deleting things. Term clean shows you what else relies on it so you don't accidentally break your Python setup or whatever."
+    },
+    {
+      "start": 673.0,
+      "end": 673.0,
+      "text": "Quen 3TS Studio is a local textto-spech app that runs Alibaba's TTS models on your machine. You get a UI instead of"
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "command line flags, so you can adjust voice style, pacing, and emotion without digging through documentation. It also"
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "does voice cloning. Feed it a few seconds of audio, and it'll replicate that voice for new speech."
+    },
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "No is a sandbox for running AI agents and untrusted code on your machine without them trashing your file system or phoning home to weird servers. It"
+    },
+    {
+      "start": 704.0,
+      "end": 704.0,
+      "text": "uses kernel level enforcement to restrict what processes can actually do."
+    },
+    {
+      "start": 709.0,
+      "end": 709.0,
+      "text": "You give an agent access to specific directories or network endpoints and the OS blocks everything else. No escape hatches, no oops, I deleted USR moments."
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "Zuckerman is a personal AI agent that rewrites its own code. You teach it new skills and it edits its own TypeScript"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "files to remember them. No rebuilds, no restarts. It hot reloads changes while running. It starts small, a few hundred"
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "lines of TypeScript. As you add tools or fix behavior, it updates its own prompts and logic. You can share those"
+    },
+    {
+      "start": 743.0,
+      "end": 743.0,
+      "text": "improvements with other users, so the agent gets smarter from collective teaching."
+    },
+    {
+      "start": 748.0,
+      "end": 748.0,
+      "text": "Asimoth V0 is an open-source bipedal robot leg design you can build with off-the-shelf parts and a 3D printer."
+    },
+    {
+      "start": 756.0,
+      "end": 756.0,
+      "text": "The repo includes CAD files, actuator specs, and simulation models for six DOF legs with articulated ankles and toes."
+    },
+    {
+      "start": 764.0,
+      "end": 764.0,
+      "text": "Everything's under an open hardware license so you can modify and share your improvements. It's designed as the foundation for a full humanoid platform."
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Auto commenter is a claude skill that posts Reddit comments for you. You give it your writing style and target subreddits and it generates replies that"
+    },
+    {
+      "start": 782.0,
+      "end": 782.0,
+      "text": "match your voice. It uses claude plus to read posts, write contextual comments, and post them in batches. You can filter"
+    },
+    {
+      "start": 792.0,
+      "end": 792.0,
+      "text": "by topic relevance to focus on threads where you'd actually have something to say. Dotto tidy is a free Mac OS system"
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "cleaner that shows you what's eating your disk space and lets you clean it up. It's a native Swift UI app that displays CPU, memory, disk, and battery"
+    },
+    {
+      "start": 807.0,
+      "end": 807.0,
+      "text": "stats. You can delete caches and temp files, find leftover app data from uninstalled programs, and see disc usage"
+    },
+    {
+      "start": 814.0,
+      "end": 814.0,
+      "text": "breakdowns with charts. No subscription, no telemetry, just a local cleanup tool."
+    },
+    {
+      "start": 821.0,
+      "end": 821.0,
+      "text": "Threequake is a browser port of Quake built with 3JS. It runs the original BSP levels, all eight weapons, monster AI,"
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "collision physics, and spatial audio in WebGL. WSD to move, mouse to look. No installer, no emulator. Just open a URL"
+    },
+    {
+      "start": 837.0,
+      "end": 837.0,
+      "text": "and play. It's a demo of what you can do with modern web graphics and a reminder that Quake still holds up 30 years later."
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "id": "a1dVtpA9ES8",
+  "title": "GitHub Trending Today #22: Vouch, VisionClaw, Ralph Playbook, x-research,  LocalGPT, ChernyCode",
+  "url": "https://www.youtube.com/watch?v=a1dVtpA9ES8",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-02-10",
+  "duration": 807,
+  "word_count": 2028,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T22:44:16+00:00",
+    "metadata_sha256": "8515c569cab138dcc0c4250d84ca5f9d0eef10603e94179b7adf51b152a11263",
+    "captions_sha256": "f6f34903ed9d01fc64c11780f9c7ec60de65b4be97c61e87cead6672ebb747da",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 14,
+      "paragraphs": [
+        "This is GitHub trending today number 22 and I've got 30 open source projects that are trending right now. AI projects and developer utilities that are getting serious traction on GitHub. Let's go."
+      ]
+    },
+    {
+      "start": 14,
+      "title": "Vouch",
+      "repositories": [
+        "https://github.com/mitchellh/vouch"
+      ],
+      "id": "s002",
+      "end": 42,
+      "paragraphs": [
+        "Your open- source project is drowning in AI generated garbage PRs from people who don't understand the code. Mitchell Hashimoto built Vouch to fix that. Explicit trust system where users have to be vouched for by trusted community members before they can contribute. Maintain a flat file list of vouched and denounced users. GitHub actions autoclose PRs from unvouched people. Collaborators can vouch or denounce via issue comments."
+      ]
+    },
+    {
+      "start": 42,
+      "title": "VisionClaw",
+      "repositories": [
+        "https://github.com/sseanliu/VisionClaw"
+      ],
+      "id": "s003",
+      "end": 68,
+      "paragraphs": [
+        "Vision Claw connects Meta Rayban glasses to Gemini for real-time AI vision and voice interaction. Tap the AI button. Speak and Gemini sees what you're looking at through the camera. It can add items to lists, send messages, search the web, or control smart home devices by routing through the open claw gateway. Streams camera at 1 fps and birectional audio over websocket to Gemini live API."
+      ]
+    },
+    {
+      "start": 68,
+      "title": "Ralph Playbook",
+      "repositories": [
+        "https://github.com/ClaytonFarr/ralph-playbook"
+      ],
+      "id": "s004",
+      "end": 97,
+      "paragraphs": [
+        "Ralph playbook is a guide for using Ralph effectively. Based on Jeff Huntley's research and videos, it covers a three-phase workflow. jobs to be done, specs, planning mode, building mode. Maintain 40 to 60% context utilization. Use sub agents for memory extension. Steer with patterns and back pressure rather than instructions. Let the agent self-correct through iteration. Include specific file structures, bash scripts, and loop mechanics."
+      ]
+    },
+    {
+      "start": 97,
+      "title": "Excalidraw MCP App",
+      "repositories": [
+        "https://github.com/antonpk1/excalidraw-mcp-app"
+      ],
+      "id": "s005",
+      "end": 123,
+      "paragraphs": [
+        "Excaladraw MCP app is an MCP server that lets AI create Excal diagrams. Ask Claude to draw architecture diagrams, flowcharts, or other visuals, and it opens an interactive excalid editor. Claude can take screenshots of the diagram and iterate based on feedback. Diagrams render with pan zoom, draw on animations, and autocentered text and shapes. Install via MCPB bundle or build from source."
+      ]
+    },
+    {
+      "start": 123,
+      "title": "x-research",
+      "repositories": [
+        "https://github.com/rohunvora/x-research-skill"
+      ],
+      "id": "s006",
+      "end": 152,
+      "paragraphs": [
+        "X research skill is an MCP skill that lets Claude search and analyze X content. It breaks research questions into multiple search angles, scans tweets, follows threads, and reads linked content. Results are synthesized into a sourced markdown report organized by theme. Surfaces high engagement tweets with metrics and deep dives linked content for questions where the relevant discussion is happening on Twitter rather than indexed web pages."
+      ]
+    },
+    {
+      "start": 152,
+      "title": "OneContext",
+      "repositories": [
+        "https://github.com/TheAgentContextLab/OneContext"
+      ],
+      "id": "s007",
+      "end": 179,
+      "paragraphs": [
+        "Your team is running AI agents, but every time someone new touches the project, they start from scratch. One context just fixed that agent self-managed context layer that records your agents full trajectory, shares it on Slack so anyone can talk to it and lets anyone load that context to continue from the exact same point. Unified context for all AI agents across your team. No more starting over, no more lost progress."
+      ]
+    },
+    {
+      "start": 179,
+      "title": "LocalGPT",
+      "repositories": [
+        "https://github.com/localgpt-app/localgpt"
+      ],
+      "id": "s008",
+      "end": 206,
+      "paragraphs": [
+        "Local GPT is a local AI assistant with persistent memory. It's a 27 megabyte app that stores data in plain markdown files. You can literally open a file called memory.md and edit exactly what the AI knows about you. Includes a background damon that runs scheduled tasks autonomously. You just write a task in the heartbeat file and the AI wakes up on a schedule to do the work autonomously while you sleep."
+      ]
+    },
+    {
+      "start": 206,
+      "title": "Textream",
+      "repositories": [
+        "https://github.com/f/textream"
+      ],
+      "id": "s009",
+      "end": 234,
+      "paragraphs": [
+        "Ever fumbled with notes on camera, breaking eye contact to read your script? Textamream is a Mac OS teleprompter app that highlights your script as you speak using local AI. It scrolls with you and pauses when you pause. Tap any word to jump ahead, pause and resume anytime, and adjust the size to fit your screen. It displays text in a small overlay right next to your webcam, so you read while looking directly at the camera."
+      ]
+    },
+    {
+      "start": 234,
+      "title": "claude-code-controller",
+      "repositories": [
+        "https://github.com/The-Vibe-Company/claude-code-controller"
+      ],
+      "id": "s010",
+      "end": 258,
+      "paragraphs": [
+        "Claude Code Controller provides programmatic control of Claude code by implementing its internal file system protocol, the inbox and task file system that agents use to communicate. You can spawn cloud code processes with their full tool set, run multi- aent workflows like parallel security, performance, and style reviews, and create task cues that agents claim from."
+      ]
+    },
+    {
+      "start": 258,
+      "title": "ChernyCode",
+      "repositories": [
+        "https://github.com/meleantonio/ChernyCode"
+      ],
+      "id": "s011",
+      "end": 286,
+      "paragraphs": [
+        "Boris Churnney created claude code. Someone extracted every productivity tip from his threads and turned it into a template repo. Churnney code gives you the exact configuration. Churnney and his team use memory files that persist context across sessions. Claw.md for projectwide rules. Personal ones for your preferences. Skills you invoke with slash commands for repeated workflows like commit push PR or finding technical debt."
+      ]
+    },
+    {
+      "start": 286,
+      "title": "ReMemory",
+      "repositories": [
+        "https://github.com/eljojo/rememory"
+      ],
+      "id": "s012",
+      "end": 313,
+      "paragraphs": [
+        "What happens to your password manager if you're gone tomorrow? After concussions in a documentary about memory loss, a developer built Rememory, a cryptographic dead man's switch using Shamir's secret sharing. You encrypt files, split the key into five shares, and give them to friends. Any three can recover it. Two reveal zero information. Each share is an offline HTML file. No servers, installs, or internet built to work even decades later."
+      ]
+    },
+    {
+      "start": 313,
+      "title": "neomacs",
+      "repositories": [
+        "https://github.com/eval-exec/neomacs"
+      ],
+      "id": "s013",
+      "end": 340,
+      "paragraphs": [
+        "Emacs is 40 years old. Its display engine is 50,000 lines of C designed for text terminals in the 1980s. CPUon rendering, no GPU, no video, no smooth animations. Your GPU sits idle while Emac struggles with large images. Someone looked at this and said, \"We're rebuilding the entire thing in Rust. Neomax replaces that 50,000 lines with 4,000 lines of GPU accelerated WGPU code.\""
+      ]
+    },
+    {
+      "start": 340,
+      "title": "md-browse",
+      "repositories": [
+        "https://github.com/needle-tools/md-browse"
+      ],
+      "id": "s014",
+      "end": 364,
+      "paragraphs": [
+        "Wonder what AI sees when browsing the web? While your browser shows visual chaos, images, ads, menus, AI tools like Claude get clean markdown. A new browser called MD browse lets you see that view. It requests markdown first from compatible sites like Versel Docs and converts everything else using Turndown, stripping scripts, styles, and navigation to show just content."
+      ]
+    },
+    {
+      "start": 364,
+      "title": "MimiClaw",
+      "repositories": [
+        "https://github.com/memovai/mimiclaw"
+      ],
+      "id": "s015",
+      "end": 389,
+      "paragraphs": [
+        "Open Claw is cool, but you need a Mac Mini or a VPS to run it. Mim Claw just put the entire thing on a $5 chip. ESP32S3 microcontroller. No Linux, no Node.js, just pure C. Plug it into USB power and message it on Telegram. Full React agent loop with anthropics claude tool use protocol for web search and time sync. Local memory stored on flash and plain text markdown files."
+      ]
+    },
+    {
+      "start": 389,
+      "title": "Matchlock",
+      "repositories": [
+        "https://github.com/jingkaihe/matchlock"
+      ],
+      "id": "s016",
+      "end": 415,
+      "paragraphs": [
+        "AI agents need to run code, but giving them unrestricted access to your machine is a terrible idea. Matchlock is a CLI tool that runs ephemeral Linux VMs in under 1 second for sandboxed code execution. Full isolation, disposable file systems, everything blocked by default. Here's the clever part. When your agent calls an API, the real credentials get injected in flight by a transparent ME team proxy."
+      ]
+    },
+    {
+      "start": 415,
+      "title": "attractor",
+      "repositories": [
+        "https://github.com/strongdm/attractor"
+      ],
+      "id": "s017",
+      "end": 442,
+      "paragraphs": [
+        "StrongDM's AI team has a rule. No human is allowed to look at the code. Not for code review, not for debugging, nothing. Their threeperson team spends a thousand dollars a day per engineer on LLM tokens and ships production software they've literally never read. A tractor is the system that makes this possible. And the repo has zero lines of code, just three markdown files with specs written in natural language."
+      ]
+    },
+    {
+      "start": 442,
+      "title": "Napkin",
+      "repositories": [
+        "https://github.com/blader/napkin"
+      ],
+      "id": "s018",
+      "end": 465,
+      "paragraphs": [
+        "Napkin, a clawed code skill that persists memory between sessions. The agent writes notes toclaude/napkin.mmd about what broke, how it was fixed, and patterns it noticed. Next session, it reads the file before starting work. Think of it as the agent keeping a running change log of its own work. Helpful if you're working on the same code base across multiple days. Code pilot is a guey wrapper for claude code."
+      ]
+    },
+    {
+      "start": 465,
+      "title": "CodePilot",
+      "repositories": [
+        "https://github.com/op7418/CodePilot"
+      ],
+      "id": "s019",
+      "end": 492,
+      "paragraphs": [
+        "Instead of typing commands in the terminal, you get a chat interface with a file tree showing what Claude is accessing. You can click to approve permissions rather than typing yes repeatedly. Chat history saves to SQLite and persists between sessions. If you're constantly switching contexts or managing multiple conversations, the visual organization helps."
+      ]
+    },
+    {
+      "start": 492,
+      "title": "Gondolin",
+      "repositories": [
+        "https://github.com/earendil-works/gondolin"
+      ],
+      "id": "s020",
+      "end": 515,
+      "paragraphs": [
+        "Stop giving your AI agents your actual API keys. You are asking to get hacked. You need to look at Gondolind. It's a new sandbox project from Armen Roner, the guy who created Flask. We all know we need to sandbox AI code, but Docker isn't enough. Gondolind spins up a microVM in milliseconds. But here's the genius part. The network stack is written in JavaScript."
+      ]
+    },
+    {
+      "start": 515,
+      "title": "TinyClaw",
+      "repositories": [
+        "https://github.com/jlia0/tinyclaw"
+      ],
+      "id": "s021",
+      "end": 541,
+      "paragraphs": [
+        "Tiny Claw connects code to WhatsApp for conversational AI responses. Scan a QR code, send messages from your phone, and get clawed responses with persistent context. Uses a file-based queue to process messages sequentially without race conditions. Runs in T-Mux with four PES: WhatsApp client, Q processor, heartbeat monitor, and logs. Heartbeat sends periodic checks to keep tasks alive."
+      ]
+    },
+    {
+      "start": 541,
+      "title": "MaximizeToVirtualDesktop",
+      "repositories": [
+        "https://github.com/shanselman/MaximizeToVirtualDesktop"
+      ],
+      "id": "s022",
+      "end": 567,
+      "paragraphs": [
+        "Maximize to virtual desktop brings Mac OS style full screen behavior to Windows 11. On Mac OS, clicking the green button sends a window to its own virtual desktop. Windows just makes the window bigger. This tool adds the Mac OS behavior. Press controlalttshift X and the window moves to a new virtual desktop. Close it or click again and it returns to the original desktop. The temporary desktop disappears."
+      ]
+    },
+    {
+      "start": 567,
+      "title": "VortexL2",
+      "repositories": [
+        "https://github.com/iliya-Developer/VortexL2"
+      ],
+      "id": "s023",
+      "end": 595,
+      "paragraphs": [
+        "If you are trying to bridge two servers, like a local machine behind a restrictive firewall and a remote VPS, you know that setting up an L2TP tunnel is usually a headache. You need to use Vortex L2. It is a CLI tool that completely automates L2TPV3 Ethernet tunnels. It handles the connection, sets up hap proxy for high performance port forwarding and automatically creates systemd services so your tunnel survives a reboot."
+      ]
+    },
+    {
+      "start": 595,
+      "title": "Stik",
+      "repositories": [
+        "https://github.com/0xMassi/stik_app"
+      ],
+      "id": "s024",
+      "end": 619,
+      "paragraphs": [
+        "Stick is a quick capture note app. Hit a keyboard shortcut, type your thought, close under 3 seconds. Notes save as markdown files in your documents folder. No account, no sync setup. If you already use iCloud or Dropbox, it works with those. Ondevice AI suggests folders. Semantic search finds notes by concept, not just keywords. You can pin notes as desktop stickies."
+      ]
+    },
+    {
+      "start": 619,
+      "title": "crust",
+      "repositories": [
+        "https://github.com/BakeLens/crust"
+      ],
+      "id": "s025",
+      "end": 646,
+      "paragraphs": [
+        "Crust is a security gateway that sits between your AI agent and the LLM. It intercepts tool calls before they execute and blocks dangerous ones based on rules you define. Write YAML rules to block access tov files, shell history, SSH keys, or self modification attempts. Hot reload lets you add rules without restarting. It scans both the conversation history and the LLM's response before executing commands."
+      ]
+    },
+    {
+      "start": 646,
+      "title": "Blossom Color Picker",
+      "repositories": [
+        "https://github.com/dayflow-js/BlossomColorPicker"
+      ],
+      "id": "s026",
+      "end": 674,
+      "paragraphs": [
+        "Blossom is a color picker that displays as a flower, 18 pedals arranged in two rings, sorted by hue. An arc slider controls saturation from bright to dark. It handles viewport edges automatically. If the picker opens too close to the bottom, it shifts up and repositions the slider. Written in vanilla.js with wrappers for React, Vue, Spelt, and Angular. Same API across all frameworks. Pass colors as hex, RGB, HSL, or objects."
+      ]
+    },
+    {
+      "start": 674,
+      "title": "Picobot",
+      "repositories": [
+        "https://github.com/louisho5/picobot"
+      ],
+      "id": "s027",
+      "end": 700,
+      "paragraphs": [
+        "Picobot is a lightweight AI agent framework with persistent memory and tool calling, 12 megabytes binary that runs on 20 megabytes RAM. Includes a skills system, Telegram integration, and heartbeatuler. Fast, cold start compared to Python-based frameworks. Built-in tools, file system access, shell execution, web fetch, sub aent spawning, skill creation. Skills are markdown files the agent can create and use."
+      ]
+    },
+    {
+      "start": 700,
+      "title": "paperbanana",
+      "repositories": [
+        "https://github.com/llmsresearch/paperbanana"
+      ],
+      "id": "s028",
+      "end": 725,
+      "paragraphs": [
+        "Paper Banana generates publication quality diagrams from text descriptions. Give it a methodology description and caption and it runs a five agent pipeline. Retrieves similar diagrams from 13 examples. Generates a plan. refineses for academic aesthetics, renders the image, then critiques and iterates. Works for methodology diagrams and statistical plots. Uses Google Gemini's free tier."
+      ]
+    },
+    {
+      "start": 725,
+      "title": "Fun with clip-path",
+      "repositories": [
+        "https://github.com/Momciloo/fun-with-clip-path"
+      ],
+      "id": "s029",
+      "end": 750,
+      "paragraphs": [
+        "Someone reverse engineered a menu animation using pure CSS, no JavaScript. A circle expands from the top left corner to fill the screen using clip path with radius 1.42 * 100 max. Works on any screen size since Vmax uses the larger dimension. includes a polygon clip path for light ray effects. Pure HTML and CSS. Click the button, circle grows, menu fades in."
+      ]
+    },
+    {
+      "start": 750,
+      "title": "claude-pulse",
+      "repositories": [
+        "https://github.com/NoobyGains/claude-pulse"
+      ],
+      "id": "s030",
+      "end": 777,
+      "paragraphs": [
+        "Claude pulse is a terminal status bar that shows your Claude code usage limits. It displays session usage with a 5-hour countdown, weekly rolling total, and plan tier. Progress bars change color as you approach limits. Pulls data from Anthropic's OOTH API, the same numbers you'd see at Claude. caches responses for 30 seconds to avoid excessive API calls. Includes 10 themes if you care about aesthetics."
+      ]
+    },
+    {
+      "start": 777,
+      "title": "Obsync",
+      "repositories": [
+        "https://github.com/Santofer/Obsync"
+      ],
+      "id": "s031",
+      "end": 807,
+      "paragraphs": [
+        "You're using Obsidian Tasks, but you need Apple reminders for the notifications and Siri integration. Obsync just gave you two-way sync. Obsync is a Mac menu bar app that syncs Obsidian tasks with Apple reminders. Two-way sync with Obsidian as the source of truth. Tasks flow to reminders automatically. Completions and reminders right back to markdown files. Uses surgical edits instead of full line reconstruction."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "This is GitHub trending today number 22 and I've got 30 open source projects that are trending right now. AI projects"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "and developer utilities that are getting serious traction on GitHub. Let's go."
+    },
+    {
+      "start": 14.0,
+      "end": 14.0,
+      "text": "Your open- source project is drowning in AI generated garbage PRs from people who don't understand the code. Mitchell Hashimoto built Vouch to fix that."
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "text": "Explicit trust system where users have to be vouched for by trusted community members before they can contribute."
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "Maintain a flat file list of vouched and denounced users. GitHub actions autoclose PRs from unvouched people."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "Collaborators can vouch or denounce via issue comments."
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "text": "Vision Claw connects Meta Rayban glasses to Gemini for real-time AI vision and voice interaction. Tap the AI button."
+    },
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "text": "Speak and Gemini sees what you're looking at through the camera. It can add items to lists, send messages, search the web, or control smart home"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "devices by routing through the open claw gateway. Streams camera at 1 fps and birectional audio over websocket to Gemini live API."
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "Ralph playbook is a guide for using Ralph effectively. Based on Jeff Huntley's research and videos, it covers a three-phase workflow. jobs to be done, specs, planning mode, building mode."
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "Maintain 40 to 60% context utilization. Use sub agents for memory extension."
+    },
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "text": "Steer with patterns and back pressure rather than instructions. Let the agent self-correct through iteration. Include specific file structures, bash scripts, and loop mechanics."
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "Excaladraw MCP app is an MCP server that lets AI create Excal diagrams. Ask Claude to draw architecture diagrams,"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "flowcharts, or other visuals, and it opens an interactive excalid editor."
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "Claude can take screenshots of the diagram and iterate based on feedback."
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "Diagrams render with pan zoom, draw on animations, and autocentered text and shapes. Install via MCPB bundle or build from source."
+    },
+    {
+      "start": 123.0,
+      "end": 123.0,
+      "text": "X research skill is an MCP skill that lets Claude search and analyze X content. It breaks research questions into multiple search angles, scans"
+    },
+    {
+      "start": 132.0,
+      "end": 132.0,
+      "text": "tweets, follows threads, and reads linked content. Results are synthesized into a sourced markdown report organized"
+    },
+    {
+      "start": 140.0,
+      "end": 140.0,
+      "text": "by theme. Surfaces high engagement tweets with metrics and deep dives linked content for questions where the"
+    },
+    {
+      "start": 147.0,
+      "end": 147.0,
+      "text": "relevant discussion is happening on Twitter rather than indexed web pages."
+    },
+    {
+      "start": 152.0,
+      "end": 152.0,
+      "text": "Your team is running AI agents, but every time someone new touches the project, they start from scratch. One context just fixed that agent"
+    },
+    {
+      "start": 160.0,
+      "end": 160.0,
+      "text": "self-managed context layer that records your agents full trajectory, shares it on Slack so anyone can talk to it and lets anyone load that context to continue from the exact same point."
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "Unified context for all AI agents across your team. No more starting over, no more lost progress."
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "Local GPT is a local AI assistant with persistent memory. It's a 27 megabyte app that stores data in plain markdown"
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "files. You can literally open a file called memory.md and edit exactly what the AI knows about you. Includes a"
+    },
+    {
+      "start": 195.0,
+      "end": 195.0,
+      "text": "background damon that runs scheduled tasks autonomously. You just write a task in the heartbeat file and the AI wakes up on a schedule to do the work autonomously while you sleep."
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "Ever fumbled with notes on camera, breaking eye contact to read your script? Textamream is a Mac OS teleprompter app that highlights your"
+    },
+    {
+      "start": 214.0,
+      "end": 214.0,
+      "text": "script as you speak using local AI. It scrolls with you and pauses when you pause. Tap any word to jump ahead, pause"
+    },
+    {
+      "start": 222.0,
+      "end": 222.0,
+      "text": "and resume anytime, and adjust the size to fit your screen. It displays text in a small overlay right next to your"
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "webcam, so you read while looking directly at the camera."
+    },
+    {
+      "start": 234.0,
+      "end": 234.0,
+      "text": "Claude Code Controller provides programmatic control of Claude code by implementing its internal file system protocol, the inbox and task file system"
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "that agents use to communicate. You can spawn cloud code processes with their full tool set, run multi- aent workflows"
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "like parallel security, performance, and style reviews, and create task cues that agents claim from."
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "Boris Churnney created claude code."
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "Someone extracted every productivity tip from his threads and turned it into a template repo. Churnney code gives you the exact configuration. Churnney and"
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "his team use memory files that persist context across sessions. Claw.md for projectwide rules. Personal ones for"
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "your preferences. Skills you invoke with slash commands for repeated workflows like commit push PR or finding technical debt."
+    },
+    {
+      "start": 286.0,
+      "end": 286.0,
+      "text": "What happens to your password manager if you're gone tomorrow? After concussions in a documentary about memory loss, a developer built Rememory, a"
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "cryptographic dead man's switch using Shamir's secret sharing. You encrypt files, split the key into five shares, and give them to friends. Any three can recover it. Two reveal zero information."
+    },
+    {
+      "start": 305.0,
+      "end": 305.0,
+      "text": "Each share is an offline HTML file. No servers, installs, or internet built to work even decades later."
+    },
+    {
+      "start": 313.0,
+      "end": 313.0,
+      "text": "Emacs is 40 years old. Its display engine is 50,000 lines of C designed for text terminals in the 1980s. CPUon"
+    },
+    {
+      "start": 322.0,
+      "end": 322.0,
+      "text": "rendering, no GPU, no video, no smooth animations. Your GPU sits idle while Emac struggles with large images."
+    },
+    {
+      "start": 329.0,
+      "end": 329.0,
+      "text": "Someone looked at this and said, \"We're rebuilding the entire thing in Rust."
+    },
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "Neomax replaces that 50,000 lines with 4,000 lines of GPU accelerated WGPU code.\""
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "Wonder what AI sees when browsing the web? While your browser shows visual chaos, images, ads, menus, AI tools like"
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "Claude get clean markdown. A new browser called MD browse lets you see that view."
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "It requests markdown first from compatible sites like Versel Docs and converts everything else using Turndown, stripping scripts, styles, and navigation to show just content."
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "Open Claw is cool, but you need a Mac Mini or a VPS to run it. Mim Claw just put the entire thing on a $5 chip."
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "ESP32S3 microcontroller. No Linux, no Node.js, just pure C. Plug it into USB power and message it on Telegram. Full"
+    },
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "React agent loop with anthropics claude tool use protocol for web search and time sync. Local memory stored on flash and plain text markdown files."
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "AI agents need to run code, but giving them unrestricted access to your machine is a terrible idea. Matchlock is a CLI"
+    },
+    {
+      "start": 396.0,
+      "end": 396.0,
+      "text": "tool that runs ephemeral Linux VMs in under 1 second for sandboxed code execution. Full isolation, disposable"
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "file systems, everything blocked by default. Here's the clever part. When your agent calls an API, the real credentials get injected in flight by a transparent ME team proxy."
+    },
+    {
+      "start": 415.0,
+      "end": 415.0,
+      "text": "StrongDM's AI team has a rule. No human is allowed to look at the code. Not for code review, not for debugging, nothing."
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "Their threeperson team spends a thousand dollars a day per engineer on LLM tokens and ships production software they've literally never read. A tractor is the"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "system that makes this possible. And the repo has zero lines of code, just three markdown files with specs written in natural language."
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "Napkin, a clawed code skill that persists memory between sessions. The agent writes notes toclaude/napkin.mmd"
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "about what broke, how it was fixed, and patterns it noticed. Next session, it reads the file before starting work."
+    },
+    {
+      "start": 457.0,
+      "end": 457.0,
+      "text": "Think of it as the agent keeping a running change log of its own work."
+    },
+    {
+      "start": 461.0,
+      "end": 461.0,
+      "text": "Helpful if you're working on the same code base across multiple days. Code pilot is a guey wrapper for claude code."
+    },
+    {
+      "start": 469.0,
+      "end": 469.0,
+      "text": "Instead of typing commands in the terminal, you get a chat interface with a file tree showing what Claude is accessing. You can click to approve"
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "permissions rather than typing yes repeatedly. Chat history saves to SQLite and persists between sessions. If you're"
+    },
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "constantly switching contexts or managing multiple conversations, the visual organization helps."
+    },
+    {
+      "start": 492.0,
+      "end": 492.0,
+      "text": "Stop giving your AI agents your actual API keys. You are asking to get hacked."
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "You need to look at Gondolind. It's a new sandbox project from Armen Roner, the guy who created Flask. We all know we need to sandbox AI code, but Docker"
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "isn't enough. Gondolind spins up a microVM in milliseconds. But here's the genius part. The network stack is written in JavaScript."
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "Tiny Claw connects code to WhatsApp for conversational AI responses. Scan a QR code, send messages from your phone, and"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "get clawed responses with persistent context. Uses a file-based queue to process messages sequentially without race conditions. Runs in T-Mux with four"
+    },
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "PES: WhatsApp client, Q processor, heartbeat monitor, and logs. Heartbeat sends periodic checks to keep tasks alive."
+    },
+    {
+      "start": 541.0,
+      "end": 541.0,
+      "text": "Maximize to virtual desktop brings Mac OS style full screen behavior to Windows 11. On Mac OS, clicking the green button"
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "sends a window to its own virtual desktop. Windows just makes the window bigger. This tool adds the Mac OS"
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "behavior. Press controlalttshift X and the window moves to a new virtual desktop. Close it or click again and it returns to the original desktop. The temporary desktop disappears."
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "If you are trying to bridge two servers, like a local machine behind a restrictive firewall and a remote VPS, you know that setting up an L2TP tunnel"
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "is usually a headache. You need to use Vortex L2. It is a CLI tool that completely automates L2TPV3 Ethernet"
+    },
+    {
+      "start": 584.0,
+      "end": 584.0,
+      "text": "tunnels. It handles the connection, sets up hap proxy for high performance port forwarding and automatically creates"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "systemd services so your tunnel survives a reboot."
+    },
+    {
+      "start": 595.0,
+      "end": 595.0,
+      "text": "Stick is a quick capture note app. Hit a keyboard shortcut, type your thought, close under 3 seconds. Notes save as markdown files in your documents folder."
+    },
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "No account, no sync setup. If you already use iCloud or Dropbox, it works with those. Ondevice AI suggests folders. Semantic search finds notes by"
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "concept, not just keywords. You can pin notes as desktop stickies."
+    },
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "Crust is a security gateway that sits between your AI agent and the LLM. It intercepts tool calls before they execute and blocks dangerous ones based"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "on rules you define. Write YAML rules to block access tov files, shell history, SSH keys, or self modification attempts."
+    },
+    {
+      "start": 637.0,
+      "end": 637.0,
+      "text": "Hot reload lets you add rules without restarting. It scans both the conversation history and the LLM's response before executing commands."
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "Blossom is a color picker that displays as a flower, 18 pedals arranged in two rings, sorted by hue. An arc slider controls saturation from bright to dark."
+    },
+    {
+      "start": 655.0,
+      "end": 655.0,
+      "text": "It handles viewport edges automatically."
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "If the picker opens too close to the bottom, it shifts up and repositions the slider. Written in vanilla.js with wrappers for React, Vue, Spelt, and Angular. Same API across all frameworks."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "Pass colors as hex, RGB, HSL, or objects."
+    },
+    {
+      "start": 674.0,
+      "end": 674.0,
+      "text": "Picobot is a lightweight AI agent framework with persistent memory and tool calling, 12 megabytes binary that runs on 20 megabytes RAM. Includes a"
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "skills system, Telegram integration, and heartbeatuler. Fast, cold start compared to Python-based frameworks. Built-in"
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "tools, file system access, shell execution, web fetch, sub aent spawning, skill creation. Skills are markdown files the agent can create and use."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Paper Banana generates publication quality diagrams from text descriptions."
+    },
+    {
+      "start": 704.0,
+      "end": 704.0,
+      "text": "Give it a methodology description and caption and it runs a five agent pipeline. Retrieves similar diagrams from 13 examples. Generates a plan."
+    },
+    {
+      "start": 713.0,
+      "end": 713.0,
+      "text": "refineses for academic aesthetics, renders the image, then critiques and iterates. Works for methodology diagrams and statistical plots. Uses Google Gemini's free tier."
+    },
+    {
+      "start": 725.0,
+      "end": 725.0,
+      "text": "Someone reverse engineered a menu animation using pure CSS, no JavaScript."
+    },
+    {
+      "start": 730.0,
+      "end": 730.0,
+      "text": "A circle expands from the top left corner to fill the screen using clip path with radius 1.42 * 100 max. Works"
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "on any screen size since Vmax uses the larger dimension. includes a polygon clip path for light ray effects. Pure HTML and CSS. Click the button, circle grows, menu fades in."
+    },
+    {
+      "start": 750.0,
+      "end": 750.0,
+      "text": "Claude pulse is a terminal status bar that shows your Claude code usage limits. It displays session usage with a"
+    },
+    {
+      "start": 757.0,
+      "end": 757.0,
+      "text": "5-hour countdown, weekly rolling total, and plan tier. Progress bars change color as you approach limits. Pulls data"
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "from Anthropic's OOTH API, the same numbers you'd see at Claude. caches responses for 30 seconds to avoid"
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "excessive API calls. Includes 10 themes if you care about aesthetics."
+    },
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "You're using Obsidian Tasks, but you need Apple reminders for the notifications and Siri integration. Obsync just gave you two-way sync."
+    },
+    {
+      "start": 786.0,
+      "end": 786.0,
+      "text": "Obsync is a Mac menu bar app that syncs Obsidian tasks with Apple reminders."
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "Two-way sync with Obsidian as the source of truth. Tasks flow to reminders automatically. Completions and reminders"
+    },
+    {
+      "start": 798.0,
+      "end": 798.0,
+      "text": "right back to markdown files. Uses surgical edits instead of full line reconstruction."
+    }
+  ]
+}

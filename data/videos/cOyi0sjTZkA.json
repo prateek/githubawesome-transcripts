@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "id": "cOyi0sjTZkA",
+  "title": "GitHub Trending Weekly #21: awesome-openclaw-skills, LingBot-World, Sherlock, kreuzberg, Kimi K2.5",
+  "url": "https://www.youtube.com/watch?v=cOyi0sjTZkA",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-01-31",
+  "duration": 861,
+  "word_count": 2125,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T22:45:54+00:00",
+    "metadata_sha256": "d631e14346f418dba8af72d4c3ee9504c7a6f97b0e279ea35fee6005a954f284",
+    "captions_sha256": "8bdc12b67e7d3ee93ecb5d5d6edaa0ea891497cd2b9e6eb6406d351eac75d924",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 13,
+      "paragraphs": [
+        "Welcome back to another weekly dive into the open- source projects trending right now. Today we've got 31 projects that will charge your dev workflow and maybe even blow your mind. Let's go."
+      ]
+    },
+    {
+      "start": 13,
+      "title": "awesome-openclaw-skills",
+      "repositories": [
+        "https://github.com/VoltAgent/awesome-openclaw-skills"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Remember when OpenClaw was called Molbbot and before that Claudebot? This repo has kept up through all the rebrands. It's basically the awesome list for AI assistance skills. 700 plus community tools organized into 27 categories. browser automation, DevOps, health tracking, podcast management, everything. Every skill works with cloud code and other assistants that respect the standard."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "LingBot-World",
+      "repositories": [
+        "https://github.com/Robbyant/lingbot-world"
+      ],
+      "id": "s003",
+      "end": 67,
+      "paragraphs": [
+        "What if you could simulate entire video game worlds just by describing them? Lingbot World is world model that generates minute long highfidelity videos with full camera control. You can specify camera poses and it'll render a consistent environment from different angles. fantasy jungles, sci-fi cities, cartoon worlds, whatever. It runs in real time at 16fps, which means you could theoretically interact with generated worlds live. Quen just dropped Quen 3 ASR, and it does something OpenAI's models can't. It understands"
+      ]
+    },
+    {
+      "start": 67,
+      "title": "Qwen3-ASR",
+      "repositories": [
+        "https://github.com/QwenLM/Qwen3-ASR"
+      ],
+      "id": "s004",
+      "end": 95,
+      "paragraphs": [
+        "the vibe. Standard transcribers give you flat text, but Quen 3 captures the reality. It tags emotions, whispering, laughing, sarcasm, and handles the cocktail party problem, separating three people talking over each other. It's open weights, handles code switching mid-sentence, and gives your AI agent the ability to hear context, not just words."
+      ]
+    },
+    {
+      "start": 95,
+      "title": "Sherlock",
+      "repositories": [
+        "https://github.com/jmuncor/sherlock"
+      ],
+      "id": "s005",
+      "end": 120,
+      "paragraphs": [
+        "Ever wonder exactly what your AI tools are sending to Claude or how many tokens you're actually burning? Sherlock is a transparent proxy that just shows you. It intercepts HTTPS traffic to LLM APIs and displays everything in a live terminal dashboard. Timestamps, models, token counts, and a fuel gauge showing your context usage against the limit with color-coded warnings."
+      ]
+    },
+    {
+      "start": 120,
+      "title": "andrej-karpathy-skills",
+      "repositories": [
+        "https://github.com/forrestchang/andrej-karpathy-skills"
+      ],
+      "id": "s006",
+      "end": 145,
+      "paragraphs": [
+        "Want to pair program with Andre Carpathy? Meet Andre Carpathy skills. It's a custom personality pack for Claude Code that teaches your agent to code like Cararpathy. minimalism, first principles, building things from scratch in raw C or simple Python. It doesn't just solve the problem. It explains the math and the why behind it, turning your terminal into a private zero to hero course."
+      ]
+    },
+    {
+      "start": 145,
+      "title": "kreuzberg",
+      "repositories": [
+        "https://github.com/kreuzberg-dev/kreuzberg"
+      ],
+      "id": "s007",
+      "end": 174,
+      "paragraphs": [
+        "So, you're sitting there with like 50 different document types scattered everywhere. PDFs that won't cooperate, random Excel files, scanned receipts, emails, whatever. And you're supposed to make sense of all this. Yeah, not happening. KDsburg handles 57 file formats, documents, spreadsheets, images, emails. OCR works on scanned docs, pulls tables out cleanly, cracks password protected PDFs, runs locally, no GPU, no cloud upload requirement."
+      ]
+    },
+    {
+      "start": 174,
+      "title": "Kimi K2.5",
+      "repositories": [
+        "https://github.com/MoonshotAI/Kimi-K2.5"
+      ],
+      "id": "s008",
+      "end": 203,
+      "paragraphs": [
+        "Kimmy K2.5 is Moonshot AI's new open- source model. It handles text, images, and video in the same context window, 256K tokens. The agent swarm feature splits complex tasks across multiple specialized instances running in parallel which speeds up things like processing long documents or converting visual designs to code. You can access it through API. Use it in Kimmy code. It can batch tool calls instead of doing them one at a time. Lingbot depth is a"
+      ]
+    },
+    {
+      "start": 203,
+      "title": "LingBot-Depth",
+      "repositories": [
+        "https://github.com/Robbyant/lingbot-depth"
+      ],
+      "id": "s009",
+      "end": 232,
+      "paragraphs": [
+        "depth estimation model that outputs metric depth, actual distances in meters, not just a relative depth map. Most depth models tell you this is closer than that. Lingbot gives you this pixel is 2.3 meters away. If you're trying to grab something or avoid obstacles, you need measurements, not vibes. It handles edge cases better than earlier models. Thin objects like cables, stuff that usually confuses depth estimates about mermaid diagrams. Standard Mermaid"
+      ]
+    },
+    {
+      "start": 232,
+      "title": "beautiful-mermaid",
+      "repositories": [
+        "https://github.com/lukilabs/beautiful-mermaid"
+      ],
+      "id": "s010",
+      "end": 260,
+      "paragraphs": [
+        "rendering looks kind of dated and theming it means wrestling with CSS classes. Beautiful mermaid gives you stunning SVGs or ASI art from the same source. Zero DOM required. Ships with 15 curated themes plus full cheeky compatibility so you can use any VS Code theme. Supports flowcharts, sequence diagrams, state machines, class diagrams, er diagrams."
+      ]
+    },
+    {
+      "start": 260,
+      "title": "T",
+      "repositories": [
+        "https://github.com/alecthomas/t"
+      ],
+      "id": "s011",
+      "end": 288,
+      "paragraphs": [
+        "T is a command line tool that condenses text processing into single letter operators. Instead of piping through GP said dead cut, you use S to split, F to filter, J to join. The syntax is Tur. If you're constantly parsing logs, maybe the muscle memory is worth building. If you touch O twice a year, probably not. Honestly, I keep forgetting O syntax, too. But I'm not sure the answer is learning a whole new mini language."
+      ]
+    },
+    {
+      "start": 288,
+      "title": "zerobrew",
+      "repositories": [
+        "https://github.com/lucasgelfond/zerobrew"
+      ],
+      "id": "s012",
+      "end": 316,
+      "paragraphs": [
+        "If you use homebrew everyday and hate how slow it feels, check out ZeroBrew. It's an open- source Rust replacement for Homebrew that's way faster, five times faster on first installs, and up to 20 times faster on repeats. It uses a content addressable cache and parallel downloads, and pulls from the same homebrew bottles you already use. The best part, it's drop-in compatible. You can try it without wrecking your current brew setup."
+      ]
+    },
+    {
+      "start": 316,
+      "title": "copilot-sdk",
+      "repositories": [
+        "https://github.com/github/copilot-sdk"
+      ],
+      "id": "s013",
+      "end": 343,
+      "paragraphs": [
+        "GitHub released SDKs that let you embed Copilot in your own applications. The way it works, your app calls the SDK, which spawns and manages a Copilot CLI process in the background. Communication happens over JSON RPC. The CLI is where the actual AI inference happens. Your code just sends requests and gets responses back. Useful if you're building developer tools and want copulate functionality without reinventing it."
+      ]
+    },
+    {
+      "start": 343,
+      "title": "Frontend Slides",
+      "repositories": [
+        "https://github.com/zarazhangrui/frontend-slides"
+      ],
+      "id": "s014",
+      "end": 370,
+      "paragraphs": [
+        "Front-end slides is a clawed code skill that generates HTML presentation decks. Instead of describing what you want, it generates three different design previews and you pick one. 10 built-in styles: neon cyber, brutalist, editorial, terminal green, couple others. They're opinionated enough to not look like every other AI generated deck. This is for people who'd rather write markdown and let the styling happen automatically."
+      ]
+    },
+    {
+      "start": 370,
+      "title": "moltworker",
+      "repositories": [
+        "https://github.com/cloudflare/moltworker"
+      ],
+      "id": "s015",
+      "end": 397,
+      "paragraphs": [
+        "Cloudflare dropped this repo. Molt Worker. It lets you run OpenClaw personal AI assistant in a Cloudflare sandbox. No more renting a VPS. No more exposing open ports to hackers. It uses Cloudflare workers for logic, R2 for memory, and zero trust for security. Works with Telegram, Discord, Slack, basically every chat platform. Cold starts take 1 to two minutes, but then it stays alive indefinitely on the free tier."
+      ]
+    },
+    {
+      "start": 397,
+      "title": "evlog",
+      "repositories": [
+        "https://github.com/HugoRCD/evlog"
+      ],
+      "id": "s016",
+      "end": 422,
+      "paragraphs": [
+        "Evlog is a Typescript logging library that consolidates request context into single structured events. Instead of scattering console.log calls throughout your code, you attach context and emit one wide event. Errors include remediation hints in the log output, not just stack traces. During development, it prints readable logs. In production, it outputs JSON for your observability stack."
+      ]
+    },
+    {
+      "start": 422,
+      "title": "App-Store-Connect-CLI",
+      "repositories": [
+        "https://github.com/rudrankriyam/App-Store-Connect-CLI"
+      ],
+      "id": "s017",
+      "end": 451,
+      "paragraphs": [
+        "App Store Connect CLI is a tool for automating App Store Connect tasks from the terminal. After authenticating with your Apple API key, you can list builds, invite TestFlight users, pull analytics, and upload new versions. Useful if you're automating releases as part of CI/CD, or want to check analytics without opening a browser. The JSON output makes it scriptable, so you can pipe it into other tools or let an AI agent handle routine release tasks."
+      ]
+    },
+    {
+      "start": 451,
+      "title": "DeepSeek-OCR-2",
+      "repositories": [
+        "https://github.com/deepseek-ai/DeepSeek-OCR-2"
+      ],
+      "id": "s018",
+      "end": 482,
+      "paragraphs": [
+        "Deepseek just dropped OCR2. Instead of processing images the standard way, they built something called visual causal flow that mimics how humans read documents. It handles dynamic resolution, so it can chew through PDFs fast. They're claiming par with their first OCR model, but with better accuracy. Works with both VLM for production speed and regular transformers. supports everything from clean markdown conversion to layout free OCR when documents are messy."
+      ]
+    },
+    {
+      "start": 482,
+      "title": "Trellis",
+      "repositories": [
+        "https://github.com/mindfold-ai/Trellis"
+      ],
+      "id": "s019",
+      "end": 509,
+      "paragraphs": [
+        "AI coding assistants forget your preferences between sessions. You explain we use Zustan not Redux or always run the llinter and the next day it's gone. Trellis fixes this with hooks that auto inject your coding standards into every conversation. You tell it once to use Zustand and it saves that to a spec file that loads automatically in future sessions. It updates its own specs based on what it learns from each task."
+      ]
+    },
+    {
+      "start": 509,
+      "title": "Antigravity Awesome Skills",
+      "repositories": [
+        "https://github.com/sickn33/antigravity-awesome-skills"
+      ],
+      "id": "s020",
+      "end": 538,
+      "paragraphs": [
+        "Anti-gravity awesome skills is a library of 625 plus skills that teach AI coding assistants how to actually do things. Each skill is a set of instructions for a specific dev task. setting up Terraform infrastructure, profiling performance bottlenecks, wiring up AWS automation, following mobile development patterns, building voice AI pipelines. Think of it like giving your agent access to a senior dev's playbook for each problem domain."
+      ]
+    },
+    {
+      "start": 538,
+      "title": "Noodles",
+      "repositories": [
+        "https://github.com/unslop-xyz/noodles"
+      ],
+      "id": "s021",
+      "end": 565,
+      "paragraphs": [
+        "Noodles turns code bases into interactive maps. You know that thing where you open a repo with 50 files and spend an hour just trying to figure out what calls what. Noodles generates D2 diagrams that show you the actual structure, which functions connect, where data flows, how modules relate. Instead of grepping through thousands of lines hoping to stumble on the right file, you look at the graph."
+      ]
+    },
+    {
+      "start": 565,
+      "title": "Qualify",
+      "repositories": [
+        "https://github.com/chaitanyya/sales"
+      ],
+      "id": "s022",
+      "end": 589,
+      "paragraphs": [
+        "Qualify is a tool that researches B2B leads for you. Paste in a list of company websites. An AI agent visits each one, reads the site, figures out what they do, checks for funding info, finds who makes decisions. Then it scores each lead 0 to 100 based on criteria you set. Whatever makes someone a good fit for what you're selling. Runs locally using Tori and Claude."
+      ]
+    },
+    {
+      "start": 589,
+      "title": "multi-agent-shogun",
+      "repositories": [
+        "https://github.com/yohey-w/multi-agent-shogun"
+      ],
+      "id": "s023",
+      "end": 616,
+      "paragraphs": [
+        "Multi-agent Shogun runs multiple Claude code instances in parallel, organized like a feudal Japanese command structure. One command spawns up to eight AI workers executing simultaneously. You don't wait around. Give an order, the system delegates it, and you move on to the next thing. The AI remembers your preferences between sessions via memory MCP and there's a live dashboard showing what everyone's working on. Prisma.ai is an open-source"
+      ]
+    },
+    {
+      "start": 616,
+      "title": "Prismer.AI",
+      "repositories": [
+        "https://github.com/Prismer-AI/Prismer"
+      ],
+      "id": "s024",
+      "end": 642,
+      "paragraphs": [
+        "research platform that handles the full academic workflow. Reading papers, managing knowledge, running analyses, writing latex, verifying citations. Most tools only do one piece. Overleaf is for writing. Notion is for notes. Google Scholar is for searching. Prismer stitches them together in one place. The paper reader shows citation graphs and lets you chat with PDFs."
+      ]
+    },
+    {
+      "start": 642,
+      "title": "background-agents",
+      "repositories": [
+        "https://github.com/ColeMurray/background-agents"
+      ],
+      "id": "s025",
+      "end": 670,
+      "paragraphs": [
+        "Background agents runs coding tasks overnight or while you're doing something else. You tell it to fix a bug, add a feature, whatever. It clones your repo, spins up a dev environment, does the work. You review and merge when you get back. Works through web, Slack, or a Chrome extension. Multiple people can work in the same session if you want. The agent doesn't block your main workflow because it's literally running somewhere else."
+      ]
+    },
+    {
+      "start": 670,
+      "title": "claudecode-telegram",
+      "repositories": [
+        "https://github.com/hanxiao/claudecode-telegram"
+      ],
+      "id": "s026",
+      "end": 700,
+      "paragraphs": [
+        "This connects to Claude code through T-Mox, so you can give it tasks from your phone. You're stuck somewhere without your laptop and need Claude to search something, check your calendar, or run a script. Text it through Telegram. It does the work, sends back results. The setup uses T-Mux sessions to bridge between Telegram's bot API and Claude Code's terminal interface. Messages route through a Python script that manages the T-m panes and handles the back and forth."
+      ]
+    },
+    {
+      "start": 700,
+      "title": "conduit-manager",
+      "repositories": [
+        "https://github.com/SamNet-dev/conduit-manager"
+      ],
+      "id": "s027",
+      "end": 726,
+      "paragraphs": [
+        "Conduit Manager automates running a Siphon node on your server. Siphon helps people bypass government internet censorship in countries like Iran, Russia. If you have a server, you can run a node that routes their traffic to the open web. One command spins up the Docker containers. There's a dashboard that shows active connections, where they're coming from, how much traffic is flowing."
+      ]
+    },
+    {
+      "start": 726,
+      "title": "vestige",
+      "repositories": [
+        "https://github.com/samvallad33/vestige"
+      ],
+      "id": "s028",
+      "end": 752,
+      "paragraphs": [
+        "Vestage is a memory system for Claude that uses spaced repetition instead of storing everything forever. Most AI memory tools accumulate context until they hit token limits or start hallucinating. Vestage borrows from Anki's algorithm. Memories decay over time if unused, strengthen when reinforced. The system also tracks when Claude gets something wrong and adjusts confidence scores accordingly."
+      ]
+    },
+    {
+      "start": 752,
+      "title": "Primer",
+      "repositories": [
+        "https://github.com/pierceboggan/primer"
+      ],
+      "id": "s029",
+      "end": 781,
+      "paragraphs": [
+        "Primer analyzes your codebase and generates copilot instructions files that give AI coding assistants context about your project. It scans languages, frameworks, file structure, and common patterns, then writes instructions that help tools like Copilot understand what you're building. For example, if you use a specific state management pattern or have custom lint rules, Primer documents those so the AI stops suggesting code that doesn't match your setup."
+      ]
+    },
+    {
+      "start": 781,
+      "title": "Pinneaple",
+      "repositories": [
+        "https://github.com/barrosyan/PINNeAPPle"
+      ],
+      "id": "s030",
+      "end": 807,
+      "paragraphs": [
+        "What if AI didn't just fit data? What if it understood physics and geometry, too? Pinapple is an open-source toolkit that combines physical data, geometry, meshes, differential equations, and machine learning in one platform. Instead of stitching together incompatible tools, you get a unified Python environment where data sets, CAD meshes, governing laws, and physics informed neural networks work together."
+      ]
+    },
+    {
+      "start": 807,
+      "title": "dex",
+      "repositories": [
+        "https://github.com/dcramer/dex"
+      ],
+      "id": "s031",
+      "end": 833,
+      "paragraphs": [
+        "So, your AI agent keeps forgetting what it was between sessions. Classic amnesia problem. Someone named David Kramer, yeah, the sentry guy, got tired of this and built decks. It's basically a to-do list except your AI actually uses it. Each task has a description, full context, and a result section where the agent writes down what it did and why. No more wait, what was I building again?"
+      ]
+    },
+    {
+      "start": 833,
+      "title": "veritas-kanban",
+      "repositories": [
+        "https://github.com/BradGroux/veritas-kanban"
+      ],
+      "id": "s032",
+      "end": 861,
+      "paragraphs": [
+        "Veritus Canananban is a Cananban board that treats AI agents like team members. Tasks are markdown files with YAML front matter. No database to wrestle with. Everything's greable. Full Git history for free. Click start agent on a code task and it spins up an autonomous agent through the REST API. The agent reads what needs to happen, does the work, logs time, commits changes, updates the card."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to another weekly dive into the open- source projects trending right now. Today we've got 31 projects that will charge your dev workflow and maybe even blow your mind. Let's go."
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "text": "Remember when OpenClaw was called Molbbot and before that Claudebot?"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "This repo has kept up through all the rebrands. It's basically the awesome list for AI assistance skills. 700 plus"
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "community tools organized into 27 categories. browser automation, DevOps, health tracking, podcast management,"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "text": "everything. Every skill works with cloud code and other assistants that respect the standard."
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "What if you could simulate entire video game worlds just by describing them?"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "Lingbot World is world model that generates minute long highfidelity videos with full camera control. You can"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "specify camera poses and it'll render a consistent environment from different angles. fantasy jungles, sci-fi cities,"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "cartoon worlds, whatever. It runs in real time at 16fps, which means you could theoretically interact with"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "text": "generated worlds live. Quen just dropped Quen 3 ASR, and it does something OpenAI's models can't. It understands"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "the vibe. Standard transcribers give you flat text, but Quen 3 captures the reality. It tags emotions, whispering,"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "laughing, sarcasm, and handles the cocktail party problem, separating three people talking over each other. It's open weights, handles code switching"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "mid-sentence, and gives your AI agent the ability to hear context, not just words."
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "Ever wonder exactly what your AI tools are sending to Claude or how many tokens you're actually burning? Sherlock is a transparent proxy that just shows you."
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "text": "It intercepts HTTPS traffic to LLM APIs and displays everything in a live terminal dashboard. Timestamps, models,"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "text": "token counts, and a fuel gauge showing your context usage against the limit with color-coded warnings."
+    },
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "Want to pair program with Andre Carpathy? Meet Andre Carpathy skills."
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "It's a custom personality pack for Claude Code that teaches your agent to code like Cararpathy. minimalism, first principles, building things from scratch"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "in raw C or simple Python. It doesn't just solve the problem. It explains the math and the why behind it, turning your"
+    },
+    {
+      "start": 141.0,
+      "end": 141.0,
+      "text": "terminal into a private zero to hero course."
+    },
+    {
+      "start": 145.0,
+      "end": 145.0,
+      "text": "So, you're sitting there with like 50 different document types scattered everywhere. PDFs that won't cooperate, random Excel files, scanned receipts,"
+    },
+    {
+      "start": 153.0,
+      "end": 153.0,
+      "text": "emails, whatever. And you're supposed to make sense of all this. Yeah, not happening. KDsburg handles 57 file formats, documents, spreadsheets,"
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "images, emails. OCR works on scanned docs, pulls tables out cleanly, cracks password protected PDFs, runs locally, no GPU, no cloud upload requirement."
+    },
+    {
+      "start": 174.0,
+      "end": 174.0,
+      "text": "Kimmy K2.5 is Moonshot AI's new open- source model. It handles text, images, and video in the same context window,"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "256K tokens. The agent swarm feature splits complex tasks across multiple specialized instances running in"
+    },
+    {
+      "start": 190.0,
+      "end": 190.0,
+      "text": "parallel which speeds up things like processing long documents or converting visual designs to code. You can access"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "it through API. Use it in Kimmy code. It can batch tool calls instead of doing them one at a time. Lingbot depth is a"
+    },
+    {
+      "start": 205.0,
+      "end": 205.0,
+      "text": "depth estimation model that outputs metric depth, actual distances in meters, not just a relative depth map."
+    },
+    {
+      "start": 212.0,
+      "end": 212.0,
+      "text": "Most depth models tell you this is closer than that. Lingbot gives you this pixel is 2.3 meters away. If you're"
+    },
+    {
+      "start": 219.0,
+      "end": 219.0,
+      "text": "trying to grab something or avoid obstacles, you need measurements, not vibes. It handles edge cases better than earlier models. Thin objects like"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "cables, stuff that usually confuses depth estimates about mermaid diagrams. Standard Mermaid"
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "rendering looks kind of dated and theming it means wrestling with CSS classes. Beautiful mermaid gives you stunning SVGs or ASI art from the same"
+    },
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "source. Zero DOM required. Ships with 15 curated themes plus full cheeky compatibility so you can use any VS Code"
+    },
+    {
+      "start": 253.0,
+      "end": 253.0,
+      "text": "theme. Supports flowcharts, sequence diagrams, state machines, class diagrams, er diagrams."
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "T is a command line tool that condenses text processing into single letter operators. Instead of piping through GP said dead cut, you use S to split, F to"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "filter, J to join. The syntax is Tur. If you're constantly parsing logs, maybe the muscle memory is worth building. If you touch O twice a year, probably not."
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "Honestly, I keep forgetting O syntax, too. But I'm not sure the answer is learning a whole new mini language."
+    },
+    {
+      "start": 288.0,
+      "end": 288.0,
+      "text": "If you use homebrew everyday and hate how slow it feels, check out ZeroBrew."
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "It's an open- source Rust replacement for Homebrew that's way faster, five times faster on first installs, and up"
+    },
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "to 20 times faster on repeats. It uses a content addressable cache and parallel downloads, and pulls from the same"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "homebrew bottles you already use. The best part, it's drop-in compatible. You can try it without wrecking your current brew setup."
+    },
+    {
+      "start": 316.0,
+      "end": 316.0,
+      "text": "GitHub released SDKs that let you embed Copilot in your own applications. The way it works, your app calls the SDK,"
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "which spawns and manages a Copilot CLI process in the background. Communication happens over JSON RPC. The CLI is where"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "the actual AI inference happens. Your code just sends requests and gets responses back. Useful if you're building developer tools and want"
+    },
+    {
+      "start": 339.0,
+      "end": 339.0,
+      "text": "copulate functionality without reinventing it."
+    },
+    {
+      "start": 343.0,
+      "end": 343.0,
+      "text": "Front-end slides is a clawed code skill that generates HTML presentation decks."
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "Instead of describing what you want, it generates three different design previews and you pick one. 10 built-in styles: neon cyber, brutalist,"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "editorial, terminal green, couple others. They're opinionated enough to not look like every other AI generated"
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "deck. This is for people who'd rather write markdown and let the styling happen automatically."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Cloudflare dropped this repo. Molt Worker. It lets you run OpenClaw personal AI assistant in a Cloudflare"
+    },
+    {
+      "start": 377.0,
+      "end": 377.0,
+      "text": "sandbox. No more renting a VPS. No more exposing open ports to hackers. It uses Cloudflare workers for logic, R2 for memory, and zero trust for security."
+    },
+    {
+      "start": 387.0,
+      "end": 387.0,
+      "text": "Works with Telegram, Discord, Slack, basically every chat platform. Cold starts take 1 to two minutes, but then it stays alive indefinitely on the free tier."
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Evlog is a Typescript logging library that consolidates request context into single structured events. Instead of"
+    },
+    {
+      "start": 404.0,
+      "end": 404.0,
+      "text": "scattering console.log calls throughout your code, you attach context and emit one wide event. Errors include remediation hints in the log output, not"
+    },
+    {
+      "start": 413.0,
+      "end": 413.0,
+      "text": "just stack traces. During development, it prints readable logs. In production, it outputs JSON for your observability stack."
+    },
+    {
+      "start": 422.0,
+      "end": 422.0,
+      "text": "App Store Connect CLI is a tool for automating App Store Connect tasks from the terminal. After authenticating with"
+    },
+    {
+      "start": 429.0,
+      "end": 429.0,
+      "text": "your Apple API key, you can list builds, invite TestFlight users, pull analytics, and upload new versions. Useful if"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "you're automating releases as part of CI/CD, or want to check analytics without opening a browser. The JSON output makes it scriptable, so you can"
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "pipe it into other tools or let an AI agent handle routine release tasks."
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "Deepseek just dropped OCR2. Instead of processing images the standard way, they built something called visual causal"
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "flow that mimics how humans read documents. It handles dynamic resolution, so it can chew through PDFs fast. They're claiming par with their"
+    },
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "first OCR model, but with better accuracy. Works with both VLM for production speed and regular transformers. supports everything from"
+    },
+    {
+      "start": 475.0,
+      "end": 475.0,
+      "text": "clean markdown conversion to layout free OCR when documents are messy."
+    },
+    {
+      "start": 482.0,
+      "end": 482.0,
+      "text": "AI coding assistants forget your preferences between sessions. You explain we use Zustan not Redux or always run the llinter and the next day"
+    },
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "it's gone. Trellis fixes this with hooks that auto inject your coding standards into every conversation. You tell it"
+    },
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "once to use Zustand and it saves that to a spec file that loads automatically in future sessions. It updates its own"
+    },
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "specs based on what it learns from each task."
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "Anti-gravity awesome skills is a library of 625 plus skills that teach AI coding assistants how to actually do things."
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "Each skill is a set of instructions for a specific dev task. setting up Terraform infrastructure, profiling performance bottlenecks, wiring up AWS"
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "automation, following mobile development patterns, building voice AI pipelines."
+    },
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "Think of it like giving your agent access to a senior dev's playbook for each problem domain."
+    },
+    {
+      "start": 538.0,
+      "end": 538.0,
+      "text": "Noodles turns code bases into interactive maps."
+    },
+    {
+      "start": 542.0,
+      "end": 542.0,
+      "text": "You know that thing where you open a repo with 50 files and spend an hour just trying to figure out what calls what. Noodles generates D2 diagrams that"
+    },
+    {
+      "start": 551.0,
+      "end": 551.0,
+      "text": "show you the actual structure, which functions connect, where data flows, how modules relate. Instead of grepping"
+    },
+    {
+      "start": 559.0,
+      "end": 559.0,
+      "text": "through thousands of lines hoping to stumble on the right file, you look at the graph."
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Qualify is a tool that researches B2B leads for you. Paste in a list of company websites. An AI agent visits each one, reads the site, figures out"
+    },
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "what they do, checks for funding info, finds who makes decisions. Then it scores each lead 0 to 100 based on"
+    },
+    {
+      "start": 581.0,
+      "end": 581.0,
+      "text": "criteria you set. Whatever makes someone a good fit for what you're selling. Runs locally using Tori and Claude."
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "Multi-agent Shogun runs multiple Claude code instances in parallel, organized like a feudal Japanese command structure. One command spawns up to"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "eight AI workers executing simultaneously. You don't wait around."
+    },
+    {
+      "start": 603.0,
+      "end": 603.0,
+      "text": "Give an order, the system delegates it, and you move on to the next thing. The AI remembers your preferences between"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "sessions via memory MCP and there's a live dashboard showing what everyone's working on. Prisma.ai is an open-source"
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "research platform that handles the full academic workflow. Reading papers, managing knowledge, running analyses,"
+    },
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "writing latex, verifying citations. Most tools only do one piece. Overleaf is for writing. Notion is for notes. Google"
+    },
+    {
+      "start": 633.0,
+      "end": 633.0,
+      "text": "Scholar is for searching. Prismer stitches them together in one place. The paper reader shows citation graphs and lets you chat with PDFs."
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "Background agents runs coding tasks overnight or while you're doing something else. You tell it to fix a bug, add a feature, whatever. It clones"
+    },
+    {
+      "start": 651.0,
+      "end": 651.0,
+      "text": "your repo, spins up a dev environment, does the work. You review and merge when you get back. Works through web, Slack,"
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "or a Chrome extension. Multiple people can work in the same session if you want. The agent doesn't block your main"
+    },
+    {
+      "start": 665.0,
+      "end": 665.0,
+      "text": "workflow because it's literally running somewhere else."
+    },
+    {
+      "start": 670.0,
+      "end": 670.0,
+      "text": "This connects to Claude code through T-Mox, so you can give it tasks from your phone. You're stuck somewhere without your laptop and need Claude to"
+    },
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "search something, check your calendar, or run a script. Text it through Telegram. It does the work, sends back results."
+    },
+    {
+      "start": 687.0,
+      "end": 687.0,
+      "text": "The setup uses T-Mux sessions to bridge between Telegram's bot API and Claude Code's terminal interface. Messages route through a Python script that"
+    },
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "manages the T-m panes and handles the back and forth."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Conduit Manager automates running a Siphon node on your server. Siphon helps people bypass government internet"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "censorship in countries like Iran, Russia. If you have a server, you can run a node that routes their traffic to"
+    },
+    {
+      "start": 714.0,
+      "end": 714.0,
+      "text": "the open web. One command spins up the Docker containers. There's a dashboard that shows active connections, where"
+    },
+    {
+      "start": 722.0,
+      "end": 722.0,
+      "text": "they're coming from, how much traffic is flowing."
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "Vestage is a memory system for Claude that uses spaced repetition instead of storing everything forever. Most AI"
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "memory tools accumulate context until they hit token limits or start hallucinating. Vestage borrows from Anki's algorithm. Memories decay over"
+    },
+    {
+      "start": 742.0,
+      "end": 742.0,
+      "text": "time if unused, strengthen when reinforced. The system also tracks when Claude gets something wrong and adjusts confidence scores accordingly."
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "Primer analyzes your codebase and generates copilot instructions files that give AI coding assistants context"
+    },
+    {
+      "start": 759.0,
+      "end": 759.0,
+      "text": "about your project. It scans languages, frameworks, file structure, and common patterns, then writes instructions that"
+    },
+    {
+      "start": 766.0,
+      "end": 766.0,
+      "text": "help tools like Copilot understand what you're building. For example, if you use a specific state management pattern or"
+    },
+    {
+      "start": 773.0,
+      "end": 773.0,
+      "text": "have custom lint rules, Primer documents those so the AI stops suggesting code that doesn't match your setup."
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "What if AI didn't just fit data? What if it understood physics and geometry, too?"
+    },
+    {
+      "start": 786.0,
+      "end": 786.0,
+      "text": "Pinapple is an open-source toolkit that combines physical data, geometry, meshes, differential equations, and machine learning in one platform."
+    },
+    {
+      "start": 795.0,
+      "end": 795.0,
+      "text": "Instead of stitching together incompatible tools, you get a unified Python environment where data sets, CAD meshes, governing laws, and physics informed neural networks work together."
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "So, your AI agent keeps forgetting what it was between sessions. Classic amnesia problem. Someone named David Kramer,"
+    },
+    {
+      "start": 816.0,
+      "end": 816.0,
+      "text": "yeah, the sentry guy, got tired of this and built decks. It's basically a to-do list except your AI actually uses it."
+    },
+    {
+      "start": 824.0,
+      "end": 824.0,
+      "text": "Each task has a description, full context, and a result section where the agent writes down what it did and why. No more wait, what was I building again?"
+    },
+    {
+      "start": 833.0,
+      "end": 833.0,
+      "text": "Veritus Canananban is a Cananban board that treats AI agents like team members."
+    },
+    {
+      "start": 838.0,
+      "end": 838.0,
+      "text": "Tasks are markdown files with YAML front matter. No database to wrestle with."
+    },
+    {
+      "start": 843.0,
+      "end": 843.0,
+      "text": "Everything's greable. Full Git history for free. Click start agent on a code task and it spins up an autonomous agent"
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "through the REST API. The agent reads what needs to happen, does the work, logs time, commits changes, updates the card."
+    }
+  ]
+}

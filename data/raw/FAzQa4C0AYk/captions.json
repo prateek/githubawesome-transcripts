@@ -1,0 +1,1554 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we'll look at 33 popular projects from last month. If you've been following the channel, you've probably seen most of these in our previous"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "episodes. This is our fourth monthly recap, bringing them all together so you can see what the developer community was obsessing over in January."
+    },
+    {
+      "timestamp": "0:18",
+      "text": "Created by an anthropic hackathon winner, this repository is a battle tested configuration suite that turns Claude code from a chatbot into a senior"
+    },
+    {
+      "timestamp": "0:27",
+      "text": "engineer. Nearly 40,000 star includes custom skills for test-driven development and automated hooks that"
+    },
+    {
+      "timestamp": "0:35",
+      "text": "lint and type check every file the AI writes. Stop fighting with context windows. Start shipping production code."
+    },
+    {
+      "timestamp": "0:43",
+      "text": "Want to work like the AI startup meta bought for $2 billion?"
+    },
+    {
+      "timestamp": "0:47",
+      "text": "Planning with files is a clawed code skill that brings the workflow behind manus straight into your terminal. The secret markdown as working memory."
+    },
+    {
+      "timestamp": "0:56",
+      "text": "Instead of cramming everything into the AI's fragile context, you save notes, progress, and checkpoints on disk. Each"
+    },
+    {
+      "timestamp": "1:04",
+      "text": "file becomes a scratch pad, letting Claude remember what matters across tasks."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "Agent browser is a CLI from Versel Labs designed for AI agents. Standard headless browsers waste thousands of"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "tokens sending raw, messy DOM trees that confuse your model. Agent browser strips the web down to essentials, reducing"
+    },
+    {
+      "timestamp": "1:24",
+      "text": "context usage by 93% while still letting your agent click, type, and navigate."
+    },
+    {
+      "timestamp": "1:29",
+      "text": "Combines a Rust binary with a Playwright demon. Gives your AI a clean way to surf the web without blowing your budget."
+    },
+    {
+      "timestamp": "1:37",
+      "text": "Deeptutor is an AI study tool that builds a knowledge graph from your course materials. You can ask questions and get step-by-step explanations with"
+    },
+    {
+      "timestamp": "1:46",
+      "text": "citations showing the source. It generates practice questions, connects concepts across papers, and creates"
+    },
+    {
+      "timestamp": "1:54",
+      "text": "visual explanations. A notebook system tracks your learning, and it can suggest research ideas based on what you've studied."
+    },
+    {
+      "timestamp": "2:02",
+      "text": "You're sitting there with 50 different document types scattered everywhere."
+    },
+    {
+      "timestamp": "2:06",
+      "text": "PDFs that won't cooperate, random Excel files, scanned receipts, emails, and you're supposed to make sense of all this. Cudsburg handles 57 file formats, documents, spreadsheets, images, emails."
+    },
+    {
+      "timestamp": "2:18",
+      "text": "OCR works on scanned docs, pulls tables out cleanly, cracks password protected PDFs, runs locally, no GPU, no cloud upload requirement."
+    },
+    {
+      "timestamp": "2:28",
+      "text": "Versel Labs released JSON render, a library for AI generated UI that constrains what the model can output."
+    },
+    {
+      "timestamp": "2:35",
+      "text": "You provide a catalog of allowed components, card, metric, button, etc."
+    },
+    {
+      "timestamp": "2:40",
+      "text": "And the AI can only generate JSON using those components. Users can prompt, \"Make me a revenue dashboard and get UI"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "generated in real time with streaming output.\" Ralph is a bash script that runs AI coding sessions in a loop until a"
+    },
+    {
+      "timestamp": "2:55",
+      "text": "feature is complete. You provide a PRD as JSON and it spawns clawed or AMP instances to work through user stories"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "one at a time. Each iteration starts with clean context. Only git commits, a progress file, and completed story"
+    },
+    {
+      "timestamp": "3:10",
+      "text": "markers carry over. It runs type checks and tests. commits if they pass, updates an agents.mmd file with notes for the"
+    },
+    {
+      "timestamp": "3:17",
+      "text": "next iteration, then restarts for the next story."
+    },
+    {
+      "timestamp": "3:21",
+      "text": "Map to poster is a Python script that generates city map posters from open street map data. Run a command with a"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "city name and it geocodes the location, pulls street networks, parks, and waterways, then renders a 300 dpi print"
+    },
+    {
+      "timestamp": "3:35",
+      "text": "ready poster. It includes 17 themes like neon cyberpunk, Japanese ink, and blueprint. You can create custom themes"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "by editing a JSON file with colors and road hierarchy settings."
+    },
+    {
+      "timestamp": "3:48",
+      "text": "Open Work is an open- source desktop app that provides a UI for Open Code, an autonomous coding agent. You select a workspace, start a run, watch the"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "execution plan update, and approve permissions when requested. It can run locally or connect to a remote Open Code server. A skill manager lets you install"
+    },
+    {
+      "timestamp": "4:06",
+      "text": "and share workflows. There's also Obapenbot, a WhatsApp bot version for running workflows via text."
+    },
+    {
+      "timestamp": "4:14",
+      "text": "GitHub released SDKs that let you embed Copilot in your own applications. The way it works, your app calls the SDK,"
+    },
+    {
+      "timestamp": "4:21",
+      "text": "which spawns and manages a Copaot CLI process in the background. Communication happens over JSON RPC. The CLI is where"
+    },
+    {
+      "timestamp": "4:29",
+      "text": "the actual AI inference happens. Your code just sends requests and gets responses back. Useful if you're building developer tools and want"
+    },
+    {
+      "timestamp": "4:37",
+      "text": "copilot functionality without reinventing it."
+    },
+    {
+      "timestamp": "4:41",
+      "text": "Map CN adds stunning maps to your web apps with just one command setup. Built on Maple Liberg, Map CN gives you full"
+    },
+    {
+      "timestamp": "4:50",
+      "text": "access to mapping features right out of the box. It's all ready to go with sensible defaults that work perfectly for any project. It's theme, so it"
+    },
+    {
+      "timestamp": "4:59",
+      "text": "automatically adapts to light and dark modes. It lets you add markers and tool tips, plus draw routes and paths on your maps."
+    },
+    {
+      "timestamp": "5:07",
+      "text": "If you're still paying for 11 Labs, you need to see this. Quen dropped Quen 3 TTS and it's fully open source. It does"
+    },
+    {
+      "timestamp": "5:15",
+      "text": "3se secondond voice cloning, but the feature is voice design. You type a prompt like a nervous teenager trying to hide a secret and it generates that"
+    },
+    {
+      "timestamp": "5:24",
+      "text": "exact performance. It's built on a new dual track architecture that hits 97 millisecond latency. You can use this for realtime voice agents."
+    },
+    {
+      "timestamp": "5:34",
+      "text": "Stop staring at your terminal waiting for Claude to finish. One code is an open- source guey that makes AI coding"
+    },
+    {
+      "timestamp": "5:41",
+      "text": "parallel. You give Claude code a task and your terminal is locked for 10 minutes. One code fixes this with a visual dashboard that lets you run"
+    },
+    {
+      "timestamp": "5:49",
+      "text": "multiple tasks at once. One agent fixes a bug while another writes docs each in its own isolated git work tree."
+    },
+    {
+      "timestamp": "5:58",
+      "text": "Anti-gravity awesome skills is a library of 631 plus skills that teach AI coding assistants how to do things. Each skill"
+    },
+    {
+      "timestamp": "6:07",
+      "text": "is a set of instructions for a specific dev task, setting up Terraform infrastructure, profiling performance bottlenecks, wiring up AWS automation,"
+    },
+    {
+      "timestamp": "6:16",
+      "text": "following mobile development patterns, building voice AI pipelines, like giving your agent access to a senior dev's playbook for each problem domain."
+    },
+    {
+      "timestamp": "6:26",
+      "text": "This might be the end of buying massive GPU clusters just for memory. Engram is Deepseek's new architecture that separates thinking from remembering."
+    },
+    {
+      "timestamp": "6:35",
+      "text": "Right now, AI models waste compute just to recall static facts. Engram adds a dedicated memory module using modernized"
+    },
+    {
+      "timestamp": "6:42",
+      "text": "engrams. Gives the AI instant 01 access to knowledge without the heavy processing."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "Cloudflare dropped this repo molt worker. It lets you run OpenClaw personal AI assistant in a Cloudflare"
+    },
+    {
+      "timestamp": "6:57",
+      "text": "sandbox. No more renting a VPS. No more exposing open ports to hackers. It uses Cloudflare workers for logic, R2 for memory, and zero trust for security."
+    },
+    {
+      "timestamp": "7:06",
+      "text": "Works with Telegram, Discord, Slack, basically every chat platform. Cold starts take 1 to two minutes, but then it stays alive indefinitely on the free tier."
+    },
+    {
+      "timestamp": "7:16",
+      "text": "Awesome. OpenClaw Skills is a curated community-driven list of readytouse skills, plugins, and tools. It's a plug-in marketplace meets cheat sheet"
+    },
+    {
+      "timestamp": "7:25",
+      "text": "for OpenClaw, task oriented skills, integrations, helpers, and utilities."
+    },
+    {
+      "timestamp": "7:30",
+      "text": "Examples you can drop into your agent workflows today. This repo gives you one place to browse, compare, and install."
+    },
+    {
+      "timestamp": "7:38",
+      "text": "Takes your AI agents from barebones to battle ready without endless setup."
+    },
+    {
+      "timestamp": "7:43",
+      "text": "Craft just fixed what everyone hates about mermaid diagrams. Standard mermaid rendering looks kind of dated and theming it means wrestling with CSS"
+    },
+    {
+      "timestamp": "7:51",
+      "text": "classes. Beautiful mermaid gives you stunning SVGs or asy art from the same source. Zero DOM required. Ships with 15"
+    },
+    {
+      "timestamp": "7:59",
+      "text": "curated themes plus full Shiki compatibility so you can use any VS Code theme. Supports flowcharts, sequence diagrams, state machines, class diagrams, ER diagrams."
+    },
+    {
+      "timestamp": "8:11",
+      "text": "If you use Homebrew everyday and hate how slow it feels, check out ZeroBrew."
+    },
+    {
+      "timestamp": "8:16",
+      "text": "It's an open- source Rust replacement for Homebrew that's way faster, five times faster on first installs and up to"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "20 times faster on repeats. It uses a content addressable cache and parallel downloads and pulls from the same homebrew bottles you already use. The"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "best part, it's drop-in compatible. You can try it without wrecking your current brew setup."
+    },
+    {
+      "timestamp": "8:39",
+      "text": "Hive is a self-evolving agent framework."
+    },
+    {
+      "timestamp": "8:42",
+      "text": "In standard frameworks, when an agent fails, it crashes. In Hive, failures trigger an evolution loop. The system"
+    },
+    {
+      "timestamp": "8:49",
+      "text": "captures the error, spins up a coding agent to rewrite the graph logic, and redeploys a smarter version automatically."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "Uses natural selection to debug your code. Has built-in budget controls and human in the loop approval so it can survive in production without you babysitting the logs."
+    },
+    {
+      "timestamp": "9:07",
+      "text": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "lines, same core features, persistent memory, web search, background agents, way less code, runs on Telegram or"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+    },
+    {
+      "timestamp": "9:36",
+      "text": "Ever paste AI generated text and immediately cringe because it sounds stiff or robotic? Humanizer is an open- source editor skill that rewrites text"
+    },
+    {
+      "timestamp": "9:45",
+      "text": "to sound human. It identifies and removes AI patterns, then injects real personality into your writing. It scans"
+    },
+    {
+      "timestamp": "9:52",
+      "text": "for telltale AI marks, overused phrases, flat structures, marketing jargon, and rewrites your sentences so they feel authentic."
+    },
+    {
+      "timestamp": "10:01",
+      "text": "If you love the speed of C but hate the lack of features, you need to see this."
+    },
+    {
+      "timestamp": "10:07",
+      "text": "Meet Zen C, a library that finally gives C the batteries included experience. We all know C doesn't have built-in"
+    },
+    {
+      "timestamp": "10:14",
+      "text": "hashmaps, dynamic vectors, or safe strings, right? Zen C adds all of that."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "It's a lightweight toolkit that handles networking and data structures with a clean, unified API. It basically lets you write code that feels as Python while keeping the performance of C."
+    },
+    {
+      "timestamp": "10:31",
+      "text": "Ever wonder what Claude Code is actually doing behind the scenes? Claude HUD makes the invisible visible. It's a"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "plugin that sits right below your input and shows realtime session insights. No guessing required. You can see context"
+    },
+    {
+      "timestamp": "10:45",
+      "text": "usage before it overflows. Track active tools as files are read or edited and watch agents spin up and complete tasks"
+    },
+    {
+      "timestamp": "10:52",
+      "text": "live. It even shows to-do progress so you always know what's done and what's still running."
+    },
+    {
+      "timestamp": "10:59",
+      "text": "Want your AI coding assistant to know all the best tricks for React and deployments without you spelling everything out? Skills is VersaLab's"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "open modular ecosystem of agent skills you can install like packages to teach AI agents specialized workflows. It's"
+    },
+    {
+      "timestamp": "11:16",
+      "text": "npm for AI assistance. Each skill is a self-contained instruction set your agent calls when it detects a relevant"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "task. React performance rules, deployment workflows. There's a skill for each. Chart GPU just threw your"
+    },
+    {
+      "timestamp": "11:30",
+      "text": "entire data set straight at the GPU and said, \"Deal with it.\" While every other charting library chokes on a few thousand data points, this thing handles"
+    },
+    {
+      "timestamp": "11:39",
+      "text": "tens of thousands without breaking a sweat. Line charts, candlesticks, scatter plots, all running smooth because it uses web GPU instead of"
+    },
+    {
+      "timestamp": "11:47",
+      "text": "making your CPU do all the work. Three lines of code and you're done. Built-in zoom tool tips, crosshairs."
+    },
+    {
+      "timestamp": "11:56",
+      "text": "Hartmoola is a family of open- source music foundation models that turns your prompts and lyrics into studio quality songs you can generate locally or on"
+    },
+    {
+      "timestamp": "12:05",
+      "text": "your own server. It includes a music LLM that creates full tracks with lyrics and tags, a codec that compresses and"
+    },
+    {
+      "timestamp": "12:13",
+      "text": "reconstructs audio with high fidelity, a transcriber that extracts lyrics from songs, and an audio text alignment model for smart conditioning."
+    },
+    {
+      "timestamp": "12:23",
+      "text": "This is open source for Adobe Acrobat."
+    },
+    {
+      "timestamp": "12:25",
+      "text": "Meet PDF Craft, a complete document toolkit that gives you premium features."
+    },
+    {
+      "timestamp": "12:30",
+      "text": "It handles everything, merging, splitting, compressing, converting, and even OCR. Unlike those sketchy online"
+    },
+    {
+      "timestamp": "12:38",
+      "text": "tools that track your data, this is open-source, meaning you can host it yourself and keep your files 100% private. It's the ultimate utility for"
+    },
+    {
+      "timestamp": "12:47",
+      "text": "managing your documents without a monthly subscription."
+    },
+    {
+      "timestamp": "12:51",
+      "text": "Dash is a self-learning agent that grounds answers in six layers of context. your schema, business logic,"
+    },
+    {
+      "timestamp": "12:58",
+      "text": "past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The"
+    },
+    {
+      "timestamp": "13:05",
+      "text": "more you use it, the smarter it gets. It remembers past queries, learns from mistakes, and improves over time. Built on the Agno framework, it's a data analyst that never clocks out."
+    },
+    {
+      "timestamp": "13:16",
+      "text": "Deepseek dropped OCR2."
+    },
+    {
+      "timestamp": "13:19",
+      "text": "Instead of processing images the standard way, they built something called visual causal flow that mimics how humans read documents. Handles"
+    },
+    {
+      "timestamp": "13:27",
+      "text": "dynamic resolution so it can process PDFs fast. They're claiming par with their first OCR model, but with better accuracy. Works with both VLM for"
+    },
+    {
+      "timestamp": "13:36",
+      "text": "production speed and regular transformers. Supports everything from clean markdown conversion to layout free OCR when documents are messy."
+    },
+    {
+      "timestamp": "13:46",
+      "text": "Managing AWS from the console is powerful."
+    },
+    {
+      "timestamp": "13:49",
+      "text": "But it's also overwhelming. To brings AWS into your terminal as a fast, keyboard-driven UI. It lets you browse"
+    },
+    {
+      "timestamp": "13:56",
+      "text": "94 AWS resource types across 60 services switch profiles and regions instantly and see changes in real time. Everything"
+    },
+    {
+      "timestamp": "14:03",
+      "text": "is Vim style. Navigate, filter, and inspect resources without touching a mouse. You can start, stop, or terminate EC2 instances directly from the UI."
+    },
+    {
+      "timestamp": "14:14",
+      "text": "What if you could simulate entire video game worlds just by describing them?"
+    },
+    {
+      "timestamp": "14:19",
+      "text": "Lingbot World is world model that generates minute long highfidelity videos with full camera control. You can"
+    },
+    {
+      "timestamp": "14:26",
+      "text": "specify camera poses and it'll render a consistent environment from different angles. Fantasy jungles, sci-fi cities,"
+    },
+    {
+      "timestamp": "14:33",
+      "text": "cartoon worlds, whatever. It runs in real time at 16fps, which means you could theoretically interact with generated worlds live."
+    },
+    {
+      "timestamp": "14:43",
+      "text": "AI coding assistants forget your preferences between sessions. You explain we use Zuston not Redux or"
+    },
+    {
+      "timestamp": "14:50",
+      "text": "always run the llinter and the next day it's gone. Trellis fixes this with hooks that auto inject your coding standards"
+    },
+    {
+      "timestamp": "14:57",
+      "text": "into every conversation. You tell it once to use Zustand and it saves that to a spec file that loads automatically in"
+    },
+    {
+      "timestamp": "15:04",
+      "text": "future sessions. It updates its own specs based on what it learns from each task."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we'll look at 33 popular projects from last month. If you've been following the channel, you've probably seen most of these in our previous"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "episodes. This is our fourth monthly recap, bringing them all together so you can see what the developer community was obsessing over in January."
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Created by an anthropic hackathon winner, this repository is a battle tested configuration suite that turns Claude code from a chatbot into a senior"
+        }
+      ]
+    },
+    {
+      "tStartMs": 27000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engineer. Nearly 40,000 star includes custom skills for test-driven development and automated hooks that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 35000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lint and type check every file the AI writes. Stop fighting with context windows. Start shipping production code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to work like the AI startup meta bought for $2 billion?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Planning with files is a clawed code skill that brings the workflow behind manus straight into your terminal. The secret markdown as working memory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 56000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of cramming everything into the AI's fragile context, you save notes, progress, and checkpoints on disk. Each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file becomes a scratch pad, letting Claude remember what matters across tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent browser is a CLI from Versel Labs designed for AI agents. Standard headless browsers waste thousands of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tokens sending raw, messy DOM trees that confuse your model. Agent browser strips the web down to essentials, reducing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context usage by 93% while still letting your agent click, type, and navigate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Combines a Rust binary with a Playwright demon. Gives your AI a clean way to surf the web without blowing your budget."
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deeptutor is an AI study tool that builds a knowledge graph from your course materials. You can ask questions and get step-by-step explanations with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "citations showing the source. It generates practice questions, connects concepts across papers, and creates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "visual explanations. A notebook system tracks your learning, and it can suggest research ideas based on what you've studied."
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You're sitting there with 50 different document types scattered everywhere."
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDFs that won't cooperate, random Excel files, scanned receipts, emails, and you're supposed to make sense of all this. Cudsburg handles 57 file formats, documents, spreadsheets, images, emails."
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OCR works on scanned docs, pulls tables out cleanly, cracks password protected PDFs, runs locally, no GPU, no cloud upload requirement."
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Versel Labs released JSON render, a library for AI generated UI that constrains what the model can output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 155000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You provide a catalog of allowed components, card, metric, button, etc."
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And the AI can only generate JSON using those components. Users can prompt, \"Make me a revenue dashboard and get UI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generated in real time with streaming output.\" Ralph is a bash script that runs AI coding sessions in a loop until a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "feature is complete. You provide a PRD as JSON and it spawns clawed or AMP instances to work through user stories"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one at a time. Each iteration starts with clean context. Only git commits, a progress file, and completed story"
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markers carry over. It runs type checks and tests. commits if they pass, updates an agents.mmd file with notes for the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "next iteration, then restarts for the next story."
+        }
+      ]
+    },
+    {
+      "tStartMs": 201000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Map to poster is a Python script that generates city map posters from open street map data. Run a command with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "city name and it geocodes the location, pulls street networks, parks, and waterways, then renders a 300 dpi print"
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ready poster. It includes 17 themes like neon cyberpunk, Japanese ink, and blueprint. You can create custom themes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by editing a JSON file with colors and road hierarchy settings."
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Work is an open- source desktop app that provides a UI for Open Code, an autonomous coding agent. You select a workspace, start a run, watch the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execution plan update, and approve permissions when requested. It can run locally or connect to a remote Open Code server. A skill manager lets you install"
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and share workflows. There's also Obapenbot, a WhatsApp bot version for running workflows via text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GitHub released SDKs that let you embed Copilot in your own applications. The way it works, your app calls the SDK,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 261000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "which spawns and manages a Copaot CLI process in the background. Communication happens over JSON RPC. The CLI is where"
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the actual AI inference happens. Your code just sends requests and gets responses back. Useful if you're building developer tools and want"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "copilot functionality without reinventing it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 281000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Map CN adds stunning maps to your web apps with just one command setup. Built on Maple Liberg, Map CN gives you full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "access to mapping features right out of the box. It's all ready to go with sensible defaults that work perfectly for any project. It's theme, so it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "automatically adapts to light and dark modes. It lets you add markers and tool tips, plus draw routes and paths on your maps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're still paying for 11 Labs, you need to see this. Quen dropped Quen 3 TTS and it's fully open source. It does"
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "3se secondond voice cloning, but the feature is voice design. You type a prompt like a nervous teenager trying to hide a secret and it generates that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 324000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exact performance. It's built on a new dual track architecture that hits 97 millisecond latency. You can use this for realtime voice agents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop staring at your terminal waiting for Claude to finish. One code is an open- source guey that makes AI coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parallel. You give Claude code a task and your terminal is locked for 10 minutes. One code fixes this with a visual dashboard that lets you run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 349000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "multiple tasks at once. One agent fixes a bug while another writes docs each in its own isolated git work tree."
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anti-gravity awesome skills is a library of 631 plus skills that teach AI coding assistants how to do things. Each skill"
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is a set of instructions for a specific dev task, setting up Terraform infrastructure, profiling performance bottlenecks, wiring up AWS automation,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 376000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "following mobile development patterns, building voice AI pipelines, like giving your agent access to a senior dev's playbook for each problem domain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This might be the end of buying massive GPU clusters just for memory. Engram is Deepseek's new architecture that separates thinking from remembering."
+        }
+      ]
+    },
+    {
+      "tStartMs": 395000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Right now, AI models waste compute just to recall static facts. Engram adds a dedicated memory module using modernized"
+        }
+      ]
+    },
+    {
+      "tStartMs": 402000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engrams. Gives the AI instant 01 access to knowledge without the heavy processing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare dropped this repo molt worker. It lets you run OpenClaw personal AI assistant in a Cloudflare"
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sandbox. No more renting a VPS. No more exposing open ports to hackers. It uses Cloudflare workers for logic, R2 for memory, and zero trust for security."
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Works with Telegram, Discord, Slack, basically every chat platform. Cold starts take 1 to two minutes, but then it stays alive indefinitely on the free tier."
+        }
+      ]
+    },
+    {
+      "tStartMs": 436000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Awesome. OpenClaw Skills is a curated community-driven list of readytouse skills, plugins, and tools. It's a plug-in marketplace meets cheat sheet"
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for OpenClaw, task oriented skills, integrations, helpers, and utilities."
+        }
+      ]
+    },
+    {
+      "tStartMs": 450000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Examples you can drop into your agent workflows today. This repo gives you one place to browse, compare, and install."
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Takes your AI agents from barebones to battle ready without endless setup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 463000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Craft just fixed what everyone hates about mermaid diagrams. Standard mermaid rendering looks kind of dated and theming it means wrestling with CSS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "classes. Beautiful mermaid gives you stunning SVGs or asy art from the same source. Zero DOM required. Ships with 15"
+        }
+      ]
+    },
+    {
+      "tStartMs": 479000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "curated themes plus full Shiki compatibility so you can use any VS Code theme. Supports flowcharts, sequence diagrams, state machines, class diagrams, ER diagrams."
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you use Homebrew everyday and hate how slow it feels, check out ZeroBrew."
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's an open- source Rust replacement for Homebrew that's way faster, five times faster on first installs and up to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "20 times faster on repeats. It uses a content addressable cache and parallel downloads and pulls from the same homebrew bottles you already use. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "best part, it's drop-in compatible. You can try it without wrecking your current brew setup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 519000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hive is a self-evolving agent framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 522000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "In standard frameworks, when an agent fails, it crashes. In Hive, failures trigger an evolution loop. The system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 529000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "captures the error, spins up a coding agent to rewrite the graph logic, and redeploys a smarter version automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Uses natural selection to debug your code. Has built-in budget controls and human in the loop approval so it can survive in production without you babysitting the logs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lines, same core features, persistent memory, web search, background agents, way less code, runs on Telegram or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever paste AI generated text and immediately cringe because it sounds stiff or robotic? Humanizer is an open- source editor skill that rewrites text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to sound human. It identifies and removes AI patterns, then injects real personality into your writing. It scans"
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for telltale AI marks, overused phrases, flat structures, marketing jargon, and rewrites your sentences so they feel authentic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 601000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you love the speed of C but hate the lack of features, you need to see this."
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Zen C, a library that finally gives C the batteries included experience. We all know C doesn't have built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 614000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hashmaps, dynamic vectors, or safe strings, right? Zen C adds all of that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a lightweight toolkit that handles networking and data structures with a clean, unified API. It basically lets you write code that feels as Python while keeping the performance of C."
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever wonder what Claude Code is actually doing behind the scenes? Claude HUD makes the invisible visible. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plugin that sits right below your input and shows realtime session insights. No guessing required. You can see context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "usage before it overflows. Track active tools as files are read or edited and watch agents spin up and complete tasks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live. It even shows to-do progress so you always know what's done and what's still running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want your AI coding assistant to know all the best tricks for React and deployments without you spelling everything out? Skills is VersaLab's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "open modular ecosystem of agent skills you can install like packages to teach AI agents specialized workflows. It's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "npm for AI assistance. Each skill is a self-contained instruction set your agent calls when it detects a relevant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "task. React performance rules, deployment workflows. There's a skill for each. Chart GPU just threw your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "entire data set straight at the GPU and said, \"Deal with it.\" While every other charting library chokes on a few thousand data points, this thing handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tens of thousands without breaking a sweat. Line charts, candlesticks, scatter plots, all running smooth because it uses web GPU instead of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "making your CPU do all the work. Three lines of code and you're done. Built-in zoom tool tips, crosshairs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hartmoola is a family of open- source music foundation models that turns your prompts and lyrics into studio quality songs you can generate locally or on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 725000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your own server. It includes a music LLM that creates full tracks with lyrics and tags, a codec that compresses and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reconstructs audio with high fidelity, a transcriber that extracts lyrics from songs, and an audio text alignment model for smart conditioning."
+        }
+      ]
+    },
+    {
+      "tStartMs": 743000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is open source for Adobe Acrobat."
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet PDF Craft, a complete document toolkit that gives you premium features."
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It handles everything, merging, splitting, compressing, converting, and even OCR. Unlike those sketchy online"
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tools that track your data, this is open-source, meaning you can host it yourself and keep your files 100% private. It's the ultimate utility for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "managing your documents without a monthly subscription."
+        }
+      ]
+    },
+    {
+      "tStartMs": 771000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dash is a self-learning agent that grounds answers in six layers of context. your schema, business logic,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "past queries, all of it. So instead of blind database queries, it actually understands what it's looking at. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 785000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "more you use it, the smarter it gets. It remembers past queries, learns from mistakes, and improves over time. Built on the Agno framework, it's a data analyst that never clocks out."
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deepseek dropped OCR2."
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of processing images the standard way, they built something called visual causal flow that mimics how humans read documents. Handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dynamic resolution so it can process PDFs fast. They're claiming par with their first OCR model, but with better accuracy. Works with both VLM for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 816000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "production speed and regular transformers. Supports everything from clean markdown conversion to layout free OCR when documents are messy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Managing AWS from the console is powerful."
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "But it's also overwhelming. To brings AWS into your terminal as a fast, keyboard-driven UI. It lets you browse"
+        }
+      ]
+    },
+    {
+      "tStartMs": 836000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "94 AWS resource types across 60 services switch profiles and regions instantly and see changes in real time. Everything"
+        }
+      ]
+    },
+    {
+      "tStartMs": 843000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is Vim style. Navigate, filter, and inspect resources without touching a mouse. You can start, stop, or terminate EC2 instances directly from the UI."
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What if you could simulate entire video game worlds just by describing them?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lingbot World is world model that generates minute long highfidelity videos with full camera control. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 866000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "specify camera poses and it'll render a consistent environment from different angles. Fantasy jungles, sci-fi cities,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 873000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cartoon worlds, whatever. It runs in real time at 16fps, which means you could theoretically interact with generated worlds live."
+        }
+      ]
+    },
+    {
+      "tStartMs": 883000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI coding assistants forget your preferences between sessions. You explain we use Zuston not Redux or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 890000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "always run the llinter and the next day it's gone. Trellis fixes this with hooks that auto inject your coding standards"
+        }
+      ]
+    },
+    {
+      "tStartMs": 897000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into every conversation. You tell it once to use Zustand and it saves that to a spec file that loads automatically in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 904000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "future sessions. It updates its own specs based on what it learns from each task."
+        }
+      ]
+    }
+  ]
+}

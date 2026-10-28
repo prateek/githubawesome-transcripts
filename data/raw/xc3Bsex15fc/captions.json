@@ -1,0 +1,1385 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we're looking at 31 trending open- source projects on GitHub. Whether you want a new side project or just enjoy exploring cool dev tools, there's something here for you. Let's dive in."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "What if you could make launch videos with code instead of a timeline editor?"
+    },
+    {
+      "timestamp": "0:17",
+      "text": "That's what Launchpad by Triua does. You code your launch videos like you're building a website, but it's a video."
+    },
+    {
+      "timestamp": "0:24",
+      "text": "Text animations, counter effects, terminal mockups, all just React components. The wild part, you can"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "describe what you want to cla code and it'll help build the whole thing."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Remotion under the hood. Your brain stays in Typescript mode. Your back hurts from coding for 12 hours straight."
+    },
+    {
+      "timestamp": "0:43",
+      "text": "Someone finally built an app that won't let you slouch. Posture watches you through your webcam using Apple's Vision AI. And when you start hunching, it"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "blurs your entire screen progressively until you can't see anything. Sit up straight. Boom. Crystal clear instantly."
+    },
+    {
+      "timestamp": "1:00",
+      "text": "Uses your Max camera locally. Nothing goes to the cloud. Everything stays on your device."
+    },
+    {
+      "timestamp": "1:07",
+      "text": "Nvidia just dropped a voice AI that can actually interrupt you midsentence."
+    },
+    {
+      "timestamp": "1:12",
+      "text": "Personal is full duplex speech, meaning it talks and listens at the same time."
+    },
+    {
+      "timestamp": "1:17",
+      "text": "None of that awkward please wait for your turn robot nonsense. You can give it a personality with a text prompt."
+    },
+    {
+      "timestamp": "1:24",
+      "text": "Want a chill teacher vibe? Done. It's got 18 different voices preloaded and it handles interruptions naturally. You can jump in and it just adapts."
+    },
+    {
+      "timestamp": "1:34",
+      "text": "Ever get lost scrolling through git diff in your terminal? Critique fixes that."
+    },
+    {
+      "timestamp": "1:39",
+      "text": "It's a terminal UI for reviewing git changes, split views, syntax color diffs, word level highlights, so you can actually see what changed at a glance."
+    },
+    {
+      "timestamp": "1:49",
+      "text": "You can open stage changes, past commits, or a range of revisions, switch between files with fuzzy search, and generate sharable URLs to show others what's going on."
+    },
+    {
+      "timestamp": "2:00",
+      "text": "If you've ever wrestled with FFmpeg commands just to convert a video, you'll want to meet Frame. It wraps all of FFmpeg's power, codec choice, format"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "conversion, bit rate tweaks, scaling, audio options into a clean native UI. No terminal, no memorizing flags. You just"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "drag in your file, pick what you want, and hit export. The underlying FFmpeg engine still does the heavy lifting, but Frame makes it way more approachable."
+    },
+    {
+      "timestamp": "2:27",
+      "text": "This project uses hidden configuration settings built into Chrome and Firefox to turn off AI features, sponsored"
+    },
+    {
+      "timestamp": "2:34",
+      "text": "content, and other annoying extras, giving you just the browser. You run a simple script or apply the configs directly, and your browser stops doing"
+    },
+    {
+      "timestamp": "2:43",
+      "text": "all the junk you didn't ask for. It doesn't block website content, but it does clean up the browser interface itself, so you can browse with fewer distractions and less tracking."
+    },
+    {
+      "timestamp": "2:55",
+      "text": "If your timeline is full of people talking about a lobster named Claude, here's what's going on. Claudebot connects your local computer to WhatsApp or iMessage."
+    },
+    {
+      "timestamp": "3:05",
+      "text": "Instead of opening a browser, you just text your server, \"Hey, did I pay that bill or summarize this PDF?\" Because it"
+    },
+    {
+      "timestamp": "3:12",
+      "text": "stores everything in local files, it actually remembers who you are and what you did last week. It makes AI feel like"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "a friend in your contacts instead of a website."
+    },
+    {
+      "timestamp": "3:23",
+      "text": "Generating mermaid diagrams serverside has always been a pain because you usually have to drag around a full headless Chrome instance just to draw a"
+    },
+    {
+      "timestamp": "3:31",
+      "text": "few boxes. Mermaid-rs renderer fixes that. It's a native Rust engine that takes your textbased"
+    },
+    {
+      "timestamp": "3:39",
+      "text": "diagrams and compiles them directly to SVGs or PNGs. You just drop the binary into your documentation pipeline and it"
+    },
+    {
+      "timestamp": "3:47",
+      "text": "renders your flowcharts instantly with a fraction of the memory."
+    },
+    {
+      "timestamp": "3:51",
+      "text": "Think of this as your AI co-worker that lives on your desktop. That's work any open source assistant that takes natural language tasks and executes them for you. Want a react website with Tailwind?"
+    },
+    {
+      "timestamp": "4:03",
+      "text": "Done. Need a PowerPoint, Excel model or Word report? Describe it and work any builds it. It'll even clean up your"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "messy folders, run scripts in a safe sandbox, and work with custom skills you plug in."
+    },
+    {
+      "timestamp": "4:17",
+      "text": "If you use Linux, you know XDGME is the absolute worst command to type. Meet XDGCTL."
+    },
+    {
+      "timestamp": "4:23",
+      "text": "It's a CLI tool that makes managing your default apps bearable. Instead of memorizing long, obscure commands to change your PDF viewer. XDGCTL gives you"
+    },
+    {
+      "timestamp": "4:33",
+      "text": "a clean, human readable interface to check and switch your file associations."
+    },
+    {
+      "timestamp": "4:37",
+      "text": "It also helps you debug your XDG environment variables to see where your configs are stored."
+    },
+    {
+      "timestamp": "4:44",
+      "text": "Grady Art, an ASI generator powered by machine learning and gradient descent to create textbased pictures. You feed it"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "an image and instead of just slapping characters on pixels, it optimizes the shading and character placement. So, the"
+    },
+    {
+      "timestamp": "4:59",
+      "text": "ASI output captures nuance and detail you usually only see in big editors."
+    },
+    {
+      "timestamp": "5:04",
+      "text": "It's all text characters, but it looks way sharper, like art that feels like the original."
+    },
+    {
+      "timestamp": "5:10",
+      "text": "Remember the open- source music model we introduced last week that rivals? Someone just built the interface for it."
+    },
+    {
+      "timestamp": "5:18",
+      "text": "This is Hart Moola Studio. It takes those Python models and wraps them in a clean dashboard. You don't need to mess with command line arguments anymore."
+    },
+    {
+      "timestamp": "5:27",
+      "text": "Type your lyrics, describe the vibe, lowfi hiphop, or heavy metal, and hit generate. It handles the audio rendering"
+    },
+    {
+      "timestamp": "5:35",
+      "text": "in the background and gives you a production ready track."
+    },
+    {
+      "timestamp": "5:39",
+      "text": "Someone rebuilt the entire npm website and it's way better. npmx.dev is npmjs.com but fast. Dark mode by default"
+    },
+    {
+      "timestamp": "5:47",
+      "text": "and packed with features they should have had years ago. You get instant search with keyboard nav, outdated dependency warnings, module format"
+    },
+    {
+      "timestamp": "5:54",
+      "text": "badges showing ESM versus C.JS, install size calculations. Just replace npmjs.com with npmx.dev in any URL and"
+    },
+    {
+      "timestamp": "6:02",
+      "text": "it works. Last 30 days skill is a clawed code skill that does one thing. It researches recent conversation around"
+    },
+    {
+      "timestamp": "6:10",
+      "text": "any topic across Reddit and X from the past month and turns what it finds into copypaste ready prompts or concise"
+    },
+    {
+      "timestamp": "6:18",
+      "text": "summaries. Instead of asking an AI, \"What should I know about X?\" and getting generic textbook stuff. This skill answers what people are actually talking about right now."
+    },
+    {
+      "timestamp": "6:29",
+      "text": "Price ghost is camel camel camel, but you host it yourself and it works on any website. Paste any product URL, set your"
+    },
+    {
+      "timestamp": "6:37",
+      "text": "target price, and it'll track that page for you. Checks prices automatically using five different scraping methods, plus optional AI extraction when"
+    },
+    {
+      "timestamp": "6:46",
+      "text": "websites get weird about it. You get Telegram and Discord notifications when prices drop. Networking doesn't have to"
+    },
+    {
+      "timestamp": "6:53",
+      "text": "be confusing or scattered across a dozen courses. This repo puts everything from A to Z in one place. It's an open source guide that walks you through IP"
+    },
+    {
+      "timestamp": "7:01",
+      "text": "addressing, TCP IP and the OSI model, DNS, HTTP, HTTPS, load balancing, firewalls, VPNs, proxies, CDNs, and"
+    },
+    {
+      "timestamp": "7:10",
+      "text": "Docker and Kubernetes networking with real world examples. It breaks it down step by step from the basics to container network fundamentals."
+    },
+    {
+      "timestamp": "7:19",
+      "text": "Manom skills. It allows your AI agent to write and execute manom scripts instantly. You just say visualize a"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "Forier series or animate a neural network and Claude writes the code, renders the frames and spits out a"
+    },
+    {
+      "timestamp": "7:34",
+      "text": "highquality MP4 file. It essentially turns your terminal into an automated math movie studio, letting you visualize"
+    },
+    {
+      "timestamp": "7:41",
+      "text": "complex logic without writing a single line of animation code yourself."
+    },
+    {
+      "timestamp": "7:46",
+      "text": "Worried about how secure your HTTPS setup really is? Cert Inspector cracks it wide open. It's a tiny CLI tool that"
+    },
+    {
+      "timestamp": "7:54",
+      "text": "does exactly one thing. You point it at a domain and it prints out the chain, the issuer, and the expiration date in actual human readable text. No cryptic"
+    },
+    {
+      "timestamp": "8:03",
+      "text": "flags, no gpping through logs, just the info you need so you can figure out why production is down."
+    },
+    {
+      "timestamp": "8:10",
+      "text": "This is water rendered with web GPU in the browser. WebGPU water is an open-source GPU powered water simulation"
+    },
+    {
+      "timestamp": "8:17",
+      "text": "that runs right in your browser using the web GPU API. It's a port of the classic Evan Wallace water demo, but rewritten for web GPU to give you"
+    },
+    {
+      "timestamp": "8:25",
+      "text": "real-time waves, reflections, refractions, dynamic light costics, and interactive physics, all accelerated on your GPU."
+    },
+    {
+      "timestamp": "8:34",
+      "text": "The same developer who built that 52 kilob audio upsampler just dropped the companion."
+    },
+    {
+      "timestamp": "8:40",
+      "text": "Meet Lux TTS. It's a textto-spech model built for speed. Lux TTS uses a streamlined flow matching architecture designed to run instantly on your CPU."
+    },
+    {
+      "timestamp": "8:51",
+      "text": "It hits sub 100 millisecond latency, meaning you can finally build a local AI assistant that talks back immediately without that awkward 3second pause."
+    },
+    {
+      "timestamp": "9:01",
+      "text": "Want a lightweight system monitor that lives in your Mac OS menu bar? System Pulse gives you exactly that. real-time"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "graphs and stats for CPU usage, memory, GPU temps, network speeds, disk space, and more. All without opening activity"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "monitor. Click the icons up top and instantly see what's eating CPU, how your memor is doing, or what your network work looks like. With"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "miniigraphs and live updating right where you work, this skill pack gives Claude code and other AI agents a structured knowledge"
+    },
+    {
+      "timestamp": "9:32",
+      "text": "base for 3JS. It forces Claude to use the correct boiler plate, setting up the renderer, the scene, and the animation"
+    },
+    {
+      "timestamp": "9:40",
+      "text": "loop properly every single time. You can simply ask for a spinning cyberpunk city or a particle system, and it actually"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "renders a working interactive 3D scene on the first try instead of a blank page."
+    },
+    {
+      "timestamp": "9:54",
+      "text": "Sharing front-end snippets just got too easy. Meet Pastkin, like Paste Bin, but built for Shad CN. You paste your"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "component code, hook logic or UI block into the app, hit create, and it gives you a registry compatible URL that works"
+    },
+    {
+      "timestamp": "10:09",
+      "text": "out of the box. No fiddling with git repos, no messy file sharing, just one link you can drop in docs, chats, or PRs."
+    },
+    {
+      "timestamp": "10:17",
+      "text": "Make me a meme turns your webcam into a meme detector. Point your camera at yourself, make a silly expression or gesture, and this Python powered app"
+    },
+    {
+      "timestamp": "10:25",
+      "text": "reads your face using Media Pipes landmark detection. It tracks eye openness, eyebrow shapes, hand poses,"
+    },
+    {
+      "timestamp": "10:32",
+      "text": "even little gestures. Then says, \"Yep, that is disaster girl or success kid or Leo toast raising in real time.\""
+    },
+    {
+      "timestamp": "10:41",
+      "text": "Claude code monitor is a terminal dashboard for tracking your Claude code sessions. The TUI shows which sessions"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "are active or idle, and you can jump into any session with a key press. Press H and you get a QR code. Scan it with"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "your phone and the dashboard loads in your browser. Works on the same Wi-Fi network so you can check what's running from across the room or kill a stuck session without getting up."
+    },
+    {
+      "timestamp": "11:07",
+      "text": "This open- source model takes rough segmentation masks and generates clean alpha mats using video diffusion. The"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "edges come out smooth frames stay consistent and it works on messy real world footage without needing massive labeled data sets. The researchers built"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "a 50,000 plus video data set to train it, then fine-tuned SAM 2 into SAM 2 mat. It handles shaky handheld clips and complex backgrounds."
+    },
+    {
+      "timestamp": "11:34",
+      "text": "PDF to video converts PDFs into animated MP4s using TypeScript. Each page becomes"
+    },
+    {
+      "timestamp": "11:42",
+      "text": "a scene with configurable transitions, zoom effects, and optional title overlays. You can add background music."
+    },
+    {
+      "timestamp": "11:49",
+      "text": "The output looks like a screen recording of someone walking through the document, but it's all generated from the PDF itself."
+    },
+    {
+      "timestamp": "11:56",
+      "text": "Ballin is a Rust physics sandbox that runs in your terminal. It simulates up to 3,000 balls bouncing around using the"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "Rapier 2D engine rendered with Braille Unicode characters, so you get smooth looking graphics in plain text. You can"
+    },
+    {
+      "timestamp": "12:11",
+      "text": "click to repel balls, adjust gravity and friction, spawn more objects, or drop in shapes as obstacles. It's weirdly"
+    },
+    {
+      "timestamp": "12:18",
+      "text": "satisfying to watch a few thousand balls pile up and respond to your mouse in real time."
+    },
+    {
+      "timestamp": "12:25",
+      "text": "Drift is a codebase intelligence engine that maps how your code actually works."
+    },
+    {
+      "timestamp": "12:30",
+      "text": "It parses the full codebase into a based call graphs, indexes patterns, test structure, and framework conventions,"
+    },
+    {
+      "timestamp": "12:38",
+      "text": "then serves that context to AI agents through a local MCP server. The AI generates code that matches your existing architecture and style instead"
+    },
+    {
+      "timestamp": "12:47",
+      "text": "of generic boilerplate that compiles but doesn't fit. Erggo is an open- source framework for building crossform apps in"
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Go. It uses HTMX data star for UI interactions with server rendered HTML, keeping the front-end type safe and"
+    },
+    {
+      "timestamp": "13:02",
+      "text": "simple. Write your app logic in Go once, then compile to native iOS, Android, desktop via web view or traditional web"
+    },
+    {
+      "timestamp": "13:09",
+      "text": "server. No React, Flutter, or JavaScript frameworks required."
+    },
+    {
+      "timestamp": "13:14",
+      "text": "Claude Task Viewer is a web dashboard that displays Claude Code tasks as a live canban board. Tasks move from to-do"
+    },
+    {
+      "timestamp": "13:22",
+      "text": "to in progress to done in real time as Claude works. Pointed at your Claude Code session and you get a visual"
+    },
+    {
+      "timestamp": "13:29",
+      "text": "overview instead of scrolling through terminal logs. Makes it easier to spot what's stuck or see how far along a job is."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we're looking at 31 trending open- source projects on GitHub. Whether you want a new side project or just enjoy exploring cool dev tools, there's something here for you. Let's dive in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What if you could make launch videos with code instead of a timeline editor?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 17000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That's what Launchpad by Triua does. You code your launch videos like you're building a website, but it's a video."
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Text animations, counter effects, terminal mockups, all just React components. The wild part, you can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "describe what you want to cla code and it'll help build the whole thing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Remotion under the hood. Your brain stays in Typescript mode. Your back hurts from coding for 12 hours straight."
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone finally built an app that won't let you slouch. Posture watches you through your webcam using Apple's Vision AI. And when you start hunching, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "blurs your entire screen progressively until you can't see anything. Sit up straight. Boom. Crystal clear instantly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Uses your Max camera locally. Nothing goes to the cloud. Everything stays on your device."
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nvidia just dropped a voice AI that can actually interrupt you midsentence."
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Personal is full duplex speech, meaning it talks and listens at the same time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 77000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "None of that awkward please wait for your turn robot nonsense. You can give it a personality with a text prompt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want a chill teacher vibe? Done. It's got 18 different voices preloaded and it handles interruptions naturally. You can jump in and it just adapts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever get lost scrolling through git diff in your terminal? Critique fixes that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a terminal UI for reviewing git changes, split views, syntax color diffs, word level highlights, so you can actually see what changed at a glance."
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can open stage changes, past commits, or a range of revisions, switch between files with fuzzy search, and generate sharable URLs to show others what's going on."
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever wrestled with FFmpeg commands just to convert a video, you'll want to meet Frame. It wraps all of FFmpeg's power, codec choice, format"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conversion, bit rate tweaks, scaling, audio options into a clean native UI. No terminal, no memorizing flags. You just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drag in your file, pick what you want, and hit export. The underlying FFmpeg engine still does the heavy lifting, but Frame makes it way more approachable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 147000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This project uses hidden configuration settings built into Chrome and Firefox to turn off AI features, sponsored"
+        }
+      ]
+    },
+    {
+      "tStartMs": 154000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "content, and other annoying extras, giving you just the browser. You run a simple script or apply the configs directly, and your browser stops doing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all the junk you didn't ask for. It doesn't block website content, but it does clean up the browser interface itself, so you can browse with fewer distractions and less tracking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 175000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If your timeline is full of people talking about a lobster named Claude, here's what's going on. Claudebot connects your local computer to WhatsApp or iMessage."
+        }
+      ]
+    },
+    {
+      "tStartMs": 185000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of opening a browser, you just text your server, \"Hey, did I pay that bill or summarize this PDF?\" Because it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stores everything in local files, it actually remembers who you are and what you did last week. It makes AI feel like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a friend in your contacts instead of a website."
+        }
+      ]
+    },
+    {
+      "tStartMs": 203000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generating mermaid diagrams serverside has always been a pain because you usually have to drag around a full headless Chrome instance just to draw a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 211000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "few boxes. Mermaid-rs renderer fixes that. It's a native Rust engine that takes your textbased"
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "diagrams and compiles them directly to SVGs or PNGs. You just drop the binary into your documentation pipeline and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 227000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "renders your flowcharts instantly with a fraction of the memory."
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Think of this as your AI co-worker that lives on your desktop. That's work any open source assistant that takes natural language tasks and executes them for you. Want a react website with Tailwind?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Done. Need a PowerPoint, Excel model or Word report? Describe it and work any builds it. It'll even clean up your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "messy folders, run scripts in a safe sandbox, and work with custom skills you plug in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you use Linux, you know XDGME is the absolute worst command to type. Meet XDGCTL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a CLI tool that makes managing your default apps bearable. Instead of memorizing long, obscure commands to change your PDF viewer. XDGCTL gives you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a clean, human readable interface to check and switch your file associations."
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It also helps you debug your XDG environment variables to see where your configs are stored."
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grady Art, an ASI generator powered by machine learning and gradient descent to create textbased pictures. You feed it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an image and instead of just slapping characters on pixels, it optimizes the shading and character placement. So, the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ASI output captures nuance and detail you usually only see in big editors."
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's all text characters, but it looks way sharper, like art that feels like the original."
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Remember the open- source music model we introduced last week that rivals? Someone just built the interface for it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is Hart Moola Studio. It takes those Python models and wraps them in a clean dashboard. You don't need to mess with command line arguments anymore."
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Type your lyrics, describe the vibe, lowfi hiphop, or heavy metal, and hit generate. It handles the audio rendering"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in the background and gives you a production ready track."
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone rebuilt the entire npm website and it's way better. npmx.dev is npmjs.com but fast. Dark mode by default"
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and packed with features they should have had years ago. You get instant search with keyboard nav, outdated dependency warnings, module format"
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "badges showing ESM versus C.JS, install size calculations. Just replace npmjs.com with npmx.dev in any URL and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it works. Last 30 days skill is a clawed code skill that does one thing. It researches recent conversation around"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "any topic across Reddit and X from the past month and turns what it finds into copypaste ready prompts or concise"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "summaries. Instead of asking an AI, \"What should I know about X?\" and getting generic textbook stuff. This skill answers what people are actually talking about right now."
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Price ghost is camel camel camel, but you host it yourself and it works on any website. Paste any product URL, set your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "target price, and it'll track that page for you. Checks prices automatically using five different scraping methods, plus optional AI extraction when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "websites get weird about it. You get Telegram and Discord notifications when prices drop. Networking doesn't have to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 413000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "be confusing or scattered across a dozen courses. This repo puts everything from A to Z in one place. It's an open source guide that walks you through IP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "addressing, TCP IP and the OSI model, DNS, HTTP, HTTPS, load balancing, firewalls, VPNs, proxies, CDNs, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker and Kubernetes networking with real world examples. It breaks it down step by step from the basics to container network fundamentals."
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Manom skills. It allows your AI agent to write and execute manom scripts instantly. You just say visualize a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Forier series or animate a neural network and Claude writes the code, renders the frames and spits out a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "highquality MP4 file. It essentially turns your terminal into an automated math movie studio, letting you visualize"
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "complex logic without writing a single line of animation code yourself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Worried about how secure your HTTPS setup really is? Cert Inspector cracks it wide open. It's a tiny CLI tool that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "does exactly one thing. You point it at a domain and it prints out the chain, the issuer, and the expiration date in actual human readable text. No cryptic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 483000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flags, no gpping through logs, just the info you need so you can figure out why production is down."
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is water rendered with web GPU in the browser. WebGPU water is an open-source GPU powered water simulation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that runs right in your browser using the web GPU API. It's a port of the classic Evan Wallace water demo, but rewritten for web GPU to give you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real-time waves, reflections, refractions, dynamic light costics, and interactive physics, all accelerated on your GPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 514000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The same developer who built that 52 kilob audio upsampler just dropped the companion."
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Lux TTS. It's a textto-spech model built for speed. Lux TTS uses a streamlined flow matching architecture designed to run instantly on your CPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It hits sub 100 millisecond latency, meaning you can finally build a local AI assistant that talks back immediately without that awkward 3second pause."
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want a lightweight system monitor that lives in your Mac OS menu bar? System Pulse gives you exactly that. real-time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "graphs and stats for CPU usage, memory, GPU temps, network speeds, disk space, and more. All without opening activity"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "monitor. Click the icons up top and instantly see what's eating CPU, how your memor is doing, or what your network work looks like. With"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "miniigraphs and live updating right where you work, this skill pack gives Claude code and other AI agents a structured knowledge"
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "base for 3JS. It forces Claude to use the correct boiler plate, setting up the renderer, the scene, and the animation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 580000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loop properly every single time. You can simply ask for a spinning cyberpunk city or a particle system, and it actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "renders a working interactive 3D scene on the first try instead of a blank page."
+        }
+      ]
+    },
+    {
+      "tStartMs": 594000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sharing front-end snippets just got too easy. Meet Pastkin, like Paste Bin, but built for Shad CN. You paste your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "component code, hook logic or UI block into the app, hit create, and it gives you a registry compatible URL that works"
+        }
+      ]
+    },
+    {
+      "tStartMs": 609000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "out of the box. No fiddling with git repos, no messy file sharing, just one link you can drop in docs, chats, or PRs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 617000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Make me a meme turns your webcam into a meme detector. Point your camera at yourself, make a silly expression or gesture, and this Python powered app"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reads your face using Media Pipes landmark detection. It tracks eye openness, eyebrow shapes, hand poses,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even little gestures. Then says, \"Yep, that is disaster girl or success kid or Leo toast raising in real time.\""
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code monitor is a terminal dashboard for tracking your Claude code sessions. The TUI shows which sessions"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are active or idle, and you can jump into any session with a key press. Press H and you get a QR code. Scan it with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your phone and the dashboard loads in your browser. Works on the same Wi-Fi network so you can check what's running from across the room or kill a stuck session without getting up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This open- source model takes rough segmentation masks and generates clean alpha mats using video diffusion. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edges come out smooth frames stay consistent and it works on messy real world footage without needing massive labeled data sets. The researchers built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a 50,000 plus video data set to train it, then fine-tuned SAM 2 into SAM 2 mat. It handles shaky handheld clips and complex backgrounds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 694000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDF to video converts PDFs into animated MP4s using TypeScript. Each page becomes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a scene with configurable transitions, zoom effects, and optional title overlays. You can add background music."
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The output looks like a screen recording of someone walking through the document, but it's all generated from the PDF itself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ballin is a Rust physics sandbox that runs in your terminal. It simulates up to 3,000 balls bouncing around using the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rapier 2D engine rendered with Braille Unicode characters, so you get smooth looking graphics in plain text. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "click to repel balls, adjust gravity and friction, spawn more objects, or drop in shapes as obstacles. It's weirdly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "satisfying to watch a few thousand balls pile up and respond to your mouse in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drift is a codebase intelligence engine that maps how your code actually works."
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It parses the full codebase into a based call graphs, indexes patterns, test structure, and framework conventions,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "then serves that context to AI agents through a local MCP server. The AI generates code that matches your existing architecture and style instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 767000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of generic boilerplate that compiles but doesn't fit. Erggo is an open- source framework for building crossform apps in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go. It uses HTMX data star for UI interactions with server rendered HTML, keeping the front-end type safe and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simple. Write your app logic in Go once, then compile to native iOS, Android, desktop via web view or traditional web"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "server. No React, Flutter, or JavaScript frameworks required."
+        }
+      ]
+    },
+    {
+      "tStartMs": 794000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude Task Viewer is a web dashboard that displays Claude Code tasks as a live canban board. Tasks move from to-do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to in progress to done in real time as Claude works. Pointed at your Claude Code session and you get a visual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 809000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "overview instead of scrolling through terminal logs. Makes it easier to spot what's stuck or see how far along a job is."
+        }
+      ]
+    }
+  ]
+}
