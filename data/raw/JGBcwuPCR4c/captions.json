@@ -1,0 +1,1489 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "What is up developers? Welcome back to GitHub awesome episode 31 of GitHub trending weekly. 35 repositories"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "trending on GitHub right now. Let's get into it."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Microsoft released Trellis Bont 2, a state-of-the-art image to 3D model. The catch, it was locked to Nvidia GPUs because it relied on custom CUDA"
+    },
+    {
+      "timestamp": "0:21",
+      "text": "kernels. Trellis Mac ports the entire 4 billion parameter model to run natively on Apple Silicon via PyTorch MPS. The"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "developer rewrote the CUDA specific sparse 3D convolutions and mesh extraction algorithms into pure Python and PyTorch."
+    },
+    {
+      "timestamp": "0:38",
+      "text": "Open Mythos is an open-source PyTorch reconstruction of what the research community believes. Claude mythos is a"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "recurrent depth transformer. Instead of stacking hundreds of layers, it uses a looped recurrent block with sparse"
+    },
+    {
+      "timestamp": "0:53",
+      "text": "mixture of experts routing. Instead of chain of thought where the model physically prints intermediate tokens, Open Mythos performs multi-step"
+    },
+    {
+      "timestamp": "1:01",
+      "text": "reasoning entirely inside continuous latent space."
+    },
+    {
+      "timestamp": "1:05",
+      "text": "Zenotes is a keyboard first desktop notes app. Plain portable MD files on disk, full Vim modal editing, live"
+    },
+    {
+      "timestamp": "1:13",
+      "text": "rendering for math plots and architecture diagrams from fenced code blocks. Wire it directly into claw desktop cursor or clawed code. Your AI"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "seamlessly reads your project plans, searches your knowledge base, and writes research directly into your actual markdown files on disk. PGQu is a zero"
+    },
+    {
+      "timestamp": "1:32",
+      "text": "bloat Postgress message Q implemented in pure PL. No C extensions, no external demons, one SQL file dropped into your database plus PGRON to keep it ticking."
+    },
+    {
+      "timestamp": "1:43",
+      "text": "Instead of heavy per row deletions, it uses snapshot-based batching and truncatebased table rotation. Batch completes. Entire active table gets"
+    },
+    {
+      "timestamp": "1:51",
+      "text": "truncated. Expensive vacuum overhead completely bypassed."
+    },
+    {
+      "timestamp": "1:56",
+      "text": "CC design is a structured design workflow skill that turns your local coding agent into an expert product designer. Enforces context first design."
+    },
+    {
+      "timestamp": "2:06",
+      "text": "Before writing a single div, the agent actively hunts down your existing brand systems, UI libraries, and product code to guarantee new designs match your"
+    },
+    {
+      "timestamp": "2:14",
+      "text": "actual product. Playright MCP visually verifies everything locally."
+    },
+    {
+      "timestamp": "2:20",
+      "text": "Most browser automation breaks the moment a site changes its DOM structure or throws an unexpected popup. Browser harness connects directly to Chrome over websocket via Chrome DevTools protocol."
+    },
+    {
+      "timestamp": "2:32",
+      "text": "When the agent hits something unexpected, it injects its own JavaScript on the fly to handle it. No pre-written scrapers, no rigid rules."
+    },
+    {
+      "timestamp": "2:41",
+      "text": "Plug it into clawed code. Watch it drive your browser."
+    },
+    {
+      "timestamp": "2:45",
+      "text": "AI agents aren't just stuck in terminals anymore. They're physically hacking hardware. Autoprober is an open- source flying probe stack that lets an AI agent"
+    },
+    {
+      "timestamp": "2:54",
+      "text": "control a cheap $220 desktop CNC machine. Place a raw circuit board on the bed, tell the agent there's a new"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "target. The AI drives a USB microscope around, stitches a highresolution map, uses vision to read IC labels, and"
+    },
+    {
+      "timestamp": "3:09",
+      "text": "autonomously identifies interesting test pads."
+    },
+    {
+      "timestamp": "3:13",
+      "text": "Lingbot map is a 3D foundation model operating on a pure see as you go principle. Standard single RGB camera,"
+    },
+    {
+      "timestamp": "3:21",
+      "text": "continuous camera pose estimation, dense 3D geometry reconstructed frame by frame in real time at around 20 frames per"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "second. Powered by a feed forward geometric context transformer."
+    },
+    {
+      "timestamp": "3:33",
+      "text": "Borrows page KV cache technology from LLM to maintain trajectory memory across sequences longer than 10,000 frames without running out of RAM."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "Frame accurate video control in the browser has always been painful. The HTML 5 video tag lags, drops frames, and"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "scrubs imprecisely. Active frame from Creative Agency Active Theory throws the video element out entirely. A custom AAF"
+    },
+    {
+      "timestamp": "3:58",
+      "text": "video format built for the modern web codec API. Takes your video, extracts raw H.264 or H.265 samples, packs them"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "with a JSON manifest into one lightweight binary."
+    },
+    {
+      "timestamp": "4:11",
+      "text": "Tired of Adobe Acrobat begging for a subscription? Killer PDF is a standalone Windows executable under 10 megabytes."
+    },
+    {
+      "timestamp": "4:18",
+      "text": "No installer, no account, no subscription, zero telemetry. Drop it on a USB drive and it runs. PDFM rendering."
+    },
+    {
+      "timestamp": "4:26",
+      "text": "Merge and split documents. Drag and drop pages. Reusable signatures. Highlight overlays. Doubleclick any text to edit it in line and it automatically matches the original documents font."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "Diagram design is a clawed code skill built by someone tired of fighting Figma for 30 minutes every time she needed an architecture sketch. Your agent becomes"
+    },
+    {
+      "timestamp": "4:46",
+      "text": "a high-end editorial graphic designer generating stunning self-contained HTML and SVG files. Zero JavaScript, zero"
+    },
+    {
+      "timestamp": "4:55",
+      "text": "external images, zero build steps, 13 built-in structural types, including sequence diagrams, state machines, ven diagrams, and swim lanes."
+    },
+    {
+      "timestamp": "5:05",
+      "text": "Using Enro means signing up, dealing with session limits, and getting pushed toward paid tiers. Host C is a blazing"
+    },
+    {
+      "timestamp": "5:12",
+      "text": "fast zero config edge tunneling tool built entirely on Cloudflare, workers, and durable objects. One CLI command"
+    },
+    {
+      "timestamp": "5:20",
+      "text": "instantly exposes your local host with a secure HTTPS URL, native websocket proxying out of the box, something heavily restricted on most free tunneling services."
+    },
+    {
+      "timestamp": "5:31",
+      "text": "Design.md files fix AI hallucinating ugly generic UI, but manually writing design rules or extracting hex codes from sites you like takes forever."
+    },
+    {
+      "timestamp": "5:40",
+      "text": "Design MD-chrome automates it. Navigate to any beautiful website, click the extension, and it instantly rips the entire design language directly from the"
+    },
+    {
+      "timestamp": "5:49",
+      "text": "live DOM. typography scales, spacing variables, brand colors, shadow effects, using cursor in your IDE, clawed code in"
+    },
+    {
+      "timestamp": "5:58",
+      "text": "your terminal, windsurf for second opinions. Each one has isolated memory. Teach one a rule, the others forget it."
+    },
+    {
+      "timestamp": "6:05",
+      "text": "Agentic stack fixes that. One brain, many harnesses. A portable aagent folder that standardizes your AI's memory,"
+    },
+    {
+      "timestamp": "6:12",
+      "text": "custom skills, and protocols. Drop it into your project and it plugs into claude code, cursor, windsurf, openclaw or even a custom Python loop."
+    },
+    {
+      "timestamp": "6:21",
+      "text": "Government spending data lives in massive unreadable spreadsheets. Nemesis is an open-source AI auditing dashboard,"
+    },
+    {
+      "timestamp": "6:29",
+      "text": "ingests millions of rows of public procurement data, and uses LLM to instantly flag anomalies, markup, and wasted taxpayer money. Luxury SUVs,"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "absurdly priced billiard tables, all the stuff hidden in regional budgets. turns unreadable spreadsheets into a clean, searchable database with color-coded risk flags."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "Googling for PDF to Word or JSON formatter always lands you on shady ad-filled sites trying to steal your data. Your everyday tools bundles 57"
+    },
+    {
+      "timestamp": "6:58",
+      "text": "utilities into one self-hosted dashboard. Text calculator and security tools run entirely clientside in"
+    },
+    {
+      "timestamp": "7:05",
+      "text": "vanillajs. Document conversions use purely in-memory processing on the server, so your sensitive files are never written to disk."
+    },
+    {
+      "timestamp": "7:14",
+      "text": "Open Carousel is an open-source AI powered Instagram carousel builder running entirely local. Type start in claude code. Teach it your brand colors,"
+    },
+    {
+      "timestamp": "7:23",
+      "text": "fonts, and logo once, then just tell it what to post. Make me a five slide post about learning React, and your agent"
+    },
+    {
+      "timestamp": "7:31",
+      "text": "autonomously designs the entire carousel slide by slide. Preview live in your browser. Ask Claude to tweak layouts in"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "chat. Export perfectly sized PGs for Instagram."
+    },
+    {
+      "timestamp": "7:42",
+      "text": "Native iOS and Android apps have satisfying UI clicks and pops. Web apps have been silent for 30 years because shipping MP3s is slow and bloated. Tix fixes that in 2 kilob. Zero audio files."
+    },
+    {
+      "timestamp": "7:55",
+      "text": "It generates crisp clicks, toggles, success chimes, and error buzzes dynamically at runtime using pure web audio API synthesis and oscillators."
+    },
+    {
+      "timestamp": "8:05",
+      "text": "Design custom sound themes by tweaking frequency, oscillator type, and decay."
+    },
+    {
+      "timestamp": "8:10",
+      "text": "Stop uploading your images, videos, and PDFs to slow adfilled compression sites."
+    },
+    {
+      "timestamp": "8:15",
+      "text": "Dinky is a small Mac OS utility, just 14 megabytes. Drag and drop, paste from clipboard, or set it to autowatch a"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "folder. Instantly converts heavy images into WEBP. It automatically detects whether an image is a photograph or a screenshot and dynamically adjusts"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "compression quality for the perfect balance of file size and visual clarity."
+    },
+    {
+      "timestamp": "8:38",
+      "text": "Gradex is a native database IDE built specifically for Mac OS in Swift and AppKit with a Windows version in WinUI3."
+    },
+    {
+      "timestamp": "8:45",
+      "text": "connects to Postgress SQL, MySQL, SQLite, and Reddus from one keyboard-driven interface. Built-in AI assistant that actually understands your"
+    },
+    {
+      "timestamp": "8:53",
+      "text": "database schema. Connect to Claude Open AI. Type plain English. Get perfect SQL queries executed automatically."
+    },
+    {
+      "timestamp": "9:01",
+      "text": "MDV is a markdown superset built for documents, dashboards, and slides."
+    },
+    {
+      "timestamp": "9:06",
+      "text": "Extend standard markdown so you can embed data and visualizations directly in your text. Fenced code blocks render instantly into gorgeous SVG charts and"
+    },
+    {
+      "timestamp": "9:15",
+      "text": "KPI stats. Layout containers let you build complex grids without writing any messy HTML. Everything exports to a single self-contained HTML or PDF."
+    },
+    {
+      "timestamp": "9:26",
+      "text": "USB uncensored LLM is a zeroinstall plug-and-play local AI environment. Run high-quality models like Gemma and Neomix directly from any USB drive or"
+    },
+    {
+      "timestamp": "9:35",
+      "text": "portable SSD. Fully airgapped, zero internet required, zero dependencies left on the host machine. Plug it in and"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "it natively executes on Windows, Mac OS, Linux, and even Android via Termox."
+    },
+    {
+      "timestamp": "9:48",
+      "text": "Imeazing is the go-to iOS device manager until you look at the subscription price. Phosphor does the same job for free. Browse iOS backups without"
+    },
+    {
+      "timestamp": "9:56",
+      "text": "restoring. Export iMessage conversations to HTML or CSV. Extract camera roll photos. Install IPAs. Stream the device"
+    },
+    {
+      "timestamp": "10:04",
+      "text": "SIS log in real time. Parses Apple's manifest. DB directly for file system style backup browsing without touching the backup itself."
+    },
+    {
+      "timestamp": "10:14",
+      "text": "Pasting web content into an AI agent means dumping navigation bars, ads, and hidden HTML tags into your context window alongside the actual content."
+    },
+    {
+      "timestamp": "10:24",
+      "text": "MD this page is a browser extension powered by Mozilla's readability that converts any web page to clean markdown with AltM or a right click. opens a"
+    },
+    {
+      "timestamp": "10:33",
+      "text": "preview tab where you can tweak formatting, toggle images, and copy directly into Claude or Chat GPT."
+    },
+    {
+      "timestamp": "10:40",
+      "text": "Sidintosh runs a real 68K Mac emulator on a $10 ESP32 display, complete with touchpad mouse control on the LCD. The"
+    },
+    {
+      "timestamp": "10:49",
+      "text": "clever part is the IPC bridge. Custom homebrew Mac apps running inside the emulator communicate with the ESP32 chip"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "underneath, so your emulated 1984 Macintosh can scan for Wi-Fi and pull live MQTT weather data from a modern home assistant setup."
+    },
+    {
+      "timestamp": "11:06",
+      "text": "Token Juice hooks into your terminal and compresses noisy command output before the LLM sees it. progress bars, verbose"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "install logs, repetitive status messages squashed down to the dense signal your agent actually needs to keep working."
+    },
+    {
+      "timestamp": "11:21",
+      "text": "Native clawed code hook installer included. Less junk in the context window. Lower API bill at the end of the month."
+    },
+    {
+      "timestamp": "11:29",
+      "text": "Adding smooth animations to terminal UIs in Rust usually means writing a lot of timing and interpolation logic from scratch. Animate is a zero dependency"
+    },
+    {
+      "timestamp": "11:38",
+      "text": "animation crate with a macrodriven API that handles the boiler plate, built-in easing functions, custom interpolators,"
+    },
+    {
+      "timestamp": "11:46",
+      "text": "and playback modes, including once, cycle, and alternate. Native Ratatoury support behind a feature flag."
+    },
+    {
+      "timestamp": "11:53",
+      "text": "Vibe coding a full application in a weekend and then having no idea how it actually works is a very specific and relatable problem. Claude Map installs"
+    },
+    {
+      "timestamp": "12:02",
+      "text": "into Cloud Code, sends your repository structure to an architecture sub agent, and renders an interactive conceptual map in your browser. Not a file tree, a"
+    },
+    {
+      "timestamp": "12:12",
+      "text": "map grouped by what the code actually does."
+    },
+    {
+      "timestamp": "12:16",
+      "text": "Ghosty's rendering performance is hard to beat, but the window management leaves some things to be desired."
+    },
+    {
+      "timestamp": "12:22",
+      "text": "MacTerm wraps lib ghosty in a native swift UI interface. Vertical project sidebar, infinite split panes, a global"
+    },
+    {
+      "timestamp": "12:31",
+      "text": "drop-down terminal you can summon from anywhere. Workspace auto persistence saves your entire pane layout and restores it exactly on next open."
+    },
+    {
+      "timestamp": "12:40",
+      "text": "AI agents hitting Cloudflare blocks and captures midtask is one of those pipeline failures that's hard to debug and annoying to work around. Super"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "spider handles anti-bot bypass, headless browser rendering, and multi-engine search out of the box. The LLM focused design is the practical difference."
+    },
+    {
+      "timestamp": "12:59",
+      "text": "Instead of dumping raw HTML into your context window, it converts pages directly to clean markdown or structured JSON."
+    },
+    {
+      "timestamp": "13:08",
+      "text": "Neofetch shows your system specs. Fetch shows them while your DRO logo spins in 3D. Single optimized C file zeroheavy"
+    },
+    {
+      "timestamp": "13:15",
+      "text": "dependencies reads directly from /proc and cis. It takes your Linux DRO's ASI logo and extrudes it into a rotating 3D"
+    },
+    {
+      "timestamp": "13:24",
+      "text": "relief map with blindfong shading, specular highlights, and a Zbuffer."
+    },
+    {
+      "timestamp": "13:28",
+      "text": "System stats tick and update in real time while it spins. Over 500 DRO logos supported with original Anie colors preserved."
+    },
+    {
+      "timestamp": "13:38",
+      "text": "Boxer 3D turns a LAR equipped iPhone into a realtime 3D object detector. A lightweight YOLO model handles 2D"
+    },
+    {
+      "timestamp": "13:46",
+      "text": "detection. Then Boxeret from Meta Research lifts those flat detections into fully oriented seven degree of freedom 3D bounding boxes using LAR depth data and Dinov3 visual features."
+    },
+    {
+      "timestamp": "13:58",
+      "text": "Arkit handles gravity and camera tracking. Scene kit anchors the 3D wireframes into your physical environment."
+    },
+    {
+      "timestamp": "14:05",
+      "text": "Most agent memory systems require a vector database, an embedding model, and a chunking strategy before you can store a single fact. Memcraft stores"
+    },
+    {
+      "timestamp": "14:14",
+      "text": "everything in plain human readable markdown. No vector embeddings, no infrastructure, zero dependencies. It"
+    },
+    {
+      "timestamp": "14:21",
+      "text": "autonomously extracts facts, classifies information, and maintains a compounding knowledge base that your agent reads and updates as local text files."
+    },
+    {
+      "timestamp": "14:32",
+      "text": "Building UIS in PowerShell means WPF, ZAML, and frozen windows the moment a long script runs. PSUI fixes that with"
+    },
+    {
+      "timestamp": "14:40",
+      "text": "simple PowerShell functions and async background execution. The clever part is the custom PSH host that intercepts standard simmenlets. Write host pipes to a UI console panel with color support."
+    },
+    {
+      "timestamp": "14:51",
+      "text": "Write progress drives a real graphical progress bar. Get credential pops a native credential dialogue."
+    },
+    {
+      "timestamp": "14:58",
+      "text": "OB is a Node.js JS package manager written in Rust up to 7x faster than PNPM and 3x faster than bun in warmci"
+    },
+    {
+      "timestamp": "15:07",
+      "text": "environments with a global content addressable store that cuts disk usage significantly. It natively reads and writes your existing packaged lock.json"
+    },
+    {
+      "timestamp": "15:15",
+      "text": "or bund.lock files in place. Use it locally for the speed boost while the rest of your team stays on whatever they're using."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What is up developers? Welcome back to GitHub awesome episode 31 of GitHub trending weekly. 35 repositories"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trending on GitHub right now. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Microsoft released Trellis Bont 2, a state-of-the-art image to 3D model. The catch, it was locked to Nvidia GPUs because it relied on custom CUDA"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kernels. Trellis Mac ports the entire 4 billion parameter model to run natively on Apple Silicon via PyTorch MPS. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "developer rewrote the CUDA specific sparse 3D convolutions and mesh extraction algorithms into pure Python and PyTorch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Mythos is an open-source PyTorch reconstruction of what the research community believes. Claude mythos is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recurrent depth transformer. Instead of stacking hundreds of layers, it uses a looped recurrent block with sparse"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mixture of experts routing. Instead of chain of thought where the model physically prints intermediate tokens, Open Mythos performs multi-step"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasoning entirely inside continuous latent space."
+        }
+      ]
+    },
+    {
+      "tStartMs": 65000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zenotes is a keyboard first desktop notes app. Plain portable MD files on disk, full Vim modal editing, live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rendering for math plots and architecture diagrams from fenced code blocks. Wire it directly into claw desktop cursor or clawed code. Your AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seamlessly reads your project plans, searches your knowledge base, and writes research directly into your actual markdown files on disk. PGQu is a zero"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bloat Postgress message Q implemented in pure PL. No C extensions, no external demons, one SQL file dropped into your database plus PGRON to keep it ticking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of heavy per row deletions, it uses snapshot-based batching and truncatebased table rotation. Batch completes. Entire active table gets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "truncated. Expensive vacuum overhead completely bypassed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CC design is a structured design workflow skill that turns your local coding agent into an expert product designer. Enforces context first design."
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Before writing a single div, the agent actively hunts down your existing brand systems, UI libraries, and product code to guarantee new designs match your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 134000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actual product. Playright MCP visually verifies everything locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 140000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most browser automation breaks the moment a site changes its DOM structure or throws an unexpected popup. Browser harness connects directly to Chrome over websocket via Chrome DevTools protocol."
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "When the agent hits something unexpected, it injects its own JavaScript on the fly to handle it. No pre-written scrapers, no rigid rules."
+        }
+      ]
+    },
+    {
+      "tStartMs": 161000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Plug it into clawed code. Watch it drive your browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents aren't just stuck in terminals anymore. They're physically hacking hardware. Autoprober is an open- source flying probe stack that lets an AI agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "control a cheap $220 desktop CNC machine. Place a raw circuit board on the bed, tell the agent there's a new"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "target. The AI drives a USB microscope around, stitches a highresolution map, uses vision to read IC labels, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 189000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "autonomously identifies interesting test pads."
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lingbot map is a 3D foundation model operating on a pure see as you go principle. Standard single RGB camera,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 201000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "continuous camera pose estimation, dense 3D geometry reconstructed frame by frame in real time at around 20 frames per"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "second. Powered by a feed forward geometric context transformer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 213000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Borrows page KV cache technology from LLM to maintain trajectory memory across sequences longer than 10,000 frames without running out of RAM."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Frame accurate video control in the browser has always been painful. The HTML 5 video tag lags, drops frames, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scrubs imprecisely. Active frame from Creative Agency Active Theory throws the video element out entirely. A custom AAF"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "video format built for the modern web codec API. Takes your video, extracts raw H.264 or H.265 samples, packs them"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with a JSON manifest into one lightweight binary."
+        }
+      ]
+    },
+    {
+      "tStartMs": 251000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of Adobe Acrobat begging for a subscription? Killer PDF is a standalone Windows executable under 10 megabytes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No installer, no account, no subscription, zero telemetry. Drop it on a USB drive and it runs. PDFM rendering."
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Merge and split documents. Drag and drop pages. Reusable signatures. Highlight overlays. Doubleclick any text to edit it in line and it automatically matches the original documents font."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Diagram design is a clawed code skill built by someone tired of fighting Figma for 30 minutes every time she needed an architecture sketch. Your agent becomes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 286000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a high-end editorial graphic designer generating stunning self-contained HTML and SVG files. Zero JavaScript, zero"
+        }
+      ]
+    },
+    {
+      "tStartMs": 295000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "external images, zero build steps, 13 built-in structural types, including sequence diagrams, state machines, ven diagrams, and swim lanes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Using Enro means signing up, dealing with session limits, and getting pushed toward paid tiers. Host C is a blazing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast zero config edge tunneling tool built entirely on Cloudflare, workers, and durable objects. One CLI command"
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instantly exposes your local host with a secure HTTPS URL, native websocket proxying out of the box, something heavily restricted on most free tunneling services."
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Design.md files fix AI hallucinating ugly generic UI, but manually writing design rules or extracting hex codes from sites you like takes forever."
+        }
+      ]
+    },
+    {
+      "tStartMs": 340000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Design MD-chrome automates it. Navigate to any beautiful website, click the extension, and it instantly rips the entire design language directly from the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 349000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live DOM. typography scales, spacing variables, brand colors, shadow effects, using cursor in your IDE, clawed code in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your terminal, windsurf for second opinions. Each one has isolated memory. Teach one a rule, the others forget it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 365000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agentic stack fixes that. One brain, many harnesses. A portable aagent folder that standardizes your AI's memory,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 372000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "custom skills, and protocols. Drop it into your project and it plugs into claude code, cursor, windsurf, openclaw or even a custom Python loop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Government spending data lives in massive unreadable spreadsheets. Nemesis is an open-source AI auditing dashboard,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ingests millions of rows of public procurement data, and uses LLM to instantly flag anomalies, markup, and wasted taxpayer money. Luxury SUVs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "absurdly priced billiard tables, all the stuff hidden in regional budgets. turns unreadable spreadsheets into a clean, searchable database with color-coded risk flags."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Googling for PDF to Word or JSON formatter always lands you on shady ad-filled sites trying to steal your data. Your everyday tools bundles 57"
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "utilities into one self-hosted dashboard. Text calculator and security tools run entirely clientside in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 425000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "vanillajs. Document conversions use purely in-memory processing on the server, so your sensitive files are never written to disk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Carousel is an open-source AI powered Instagram carousel builder running entirely local. Type start in claude code. Teach it your brand colors,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fonts, and logo once, then just tell it what to post. Make me a five slide post about learning React, and your agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "autonomously designs the entire carousel slide by slide. Preview live in your browser. Ask Claude to tweak layouts in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chat. Export perfectly sized PGs for Instagram."
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Native iOS and Android apps have satisfying UI clicks and pops. Web apps have been silent for 30 years because shipping MP3s is slow and bloated. Tix fixes that in 2 kilob. Zero audio files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 475000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It generates crisp clicks, toggles, success chimes, and error buzzes dynamically at runtime using pure web audio API synthesis and oscillators."
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Design custom sound themes by tweaking frequency, oscillator type, and decay."
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop uploading your images, videos, and PDFs to slow adfilled compression sites."
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dinky is a small Mac OS utility, just 14 megabytes. Drag and drop, paste from clipboard, or set it to autowatch a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "folder. Instantly converts heavy images into WEBP. It automatically detects whether an image is a photograph or a screenshot and dynamically adjusts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compression quality for the perfect balance of file size and visual clarity."
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gradex is a native database IDE built specifically for Mac OS in Swift and AppKit with a Windows version in WinUI3."
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "connects to Postgress SQL, MySQL, SQLite, and Reddus from one keyboard-driven interface. Built-in AI assistant that actually understands your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "database schema. Connect to Claude Open AI. Type plain English. Get perfect SQL queries executed automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MDV is a markdown superset built for documents, dashboards, and slides."
+        }
+      ]
+    },
+    {
+      "tStartMs": 546000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Extend standard markdown so you can embed data and visualizations directly in your text. Fenced code blocks render instantly into gorgeous SVG charts and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "KPI stats. Layout containers let you build complex grids without writing any messy HTML. Everything exports to a single self-contained HTML or PDF."
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "USB uncensored LLM is a zeroinstall plug-and-play local AI environment. Run high-quality models like Gemma and Neomix directly from any USB drive or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 575000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "portable SSD. Fully airgapped, zero internet required, zero dependencies left on the host machine. Plug it in and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it natively executes on Windows, Mac OS, Linux, and even Android via Termox."
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Imeazing is the go-to iOS device manager until you look at the subscription price. Phosphor does the same job for free. Browse iOS backups without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "restoring. Export iMessage conversations to HTML or CSV. Extract camera roll photos. Install IPAs. Stream the device"
+        }
+      ]
+    },
+    {
+      "tStartMs": 604000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SIS log in real time. Parses Apple's manifest. DB directly for file system style backup browsing without touching the backup itself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 614000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pasting web content into an AI agent means dumping navigation bars, ads, and hidden HTML tags into your context window alongside the actual content."
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MD this page is a browser extension powered by Mozilla's readability that converts any web page to clean markdown with AltM or a right click. opens a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "preview tab where you can tweak formatting, toggle images, and copy directly into Claude or Chat GPT."
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sidintosh runs a real 68K Mac emulator on a $10 ESP32 display, complete with touchpad mouse control on the LCD. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 649000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clever part is the IPC bridge. Custom homebrew Mac apps running inside the emulator communicate with the ESP32 chip"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "underneath, so your emulated 1984 Macintosh can scan for Wi-Fi and pull live MQTT weather data from a modern home assistant setup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Token Juice hooks into your terminal and compresses noisy command output before the LLM sees it. progress bars, verbose"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "install logs, repetitive status messages squashed down to the dense signal your agent actually needs to keep working."
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Native clawed code hook installer included. Less junk in the context window. Lower API bill at the end of the month."
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Adding smooth animations to terminal UIs in Rust usually means writing a lot of timing and interpolation logic from scratch. Animate is a zero dependency"
+        }
+      ]
+    },
+    {
+      "tStartMs": 698000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "animation crate with a macrodriven API that handles the boiler plate, built-in easing functions, custom interpolators,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 706000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and playback modes, including once, cycle, and alternate. Native Ratatoury support behind a feature flag."
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vibe coding a full application in a weekend and then having no idea how it actually works is a very specific and relatable problem. Claude Map installs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 722000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into Cloud Code, sends your repository structure to an architecture sub agent, and renders an interactive conceptual map in your browser. Not a file tree, a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "map grouped by what the code actually does."
+        }
+      ]
+    },
+    {
+      "tStartMs": 736000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ghosty's rendering performance is hard to beat, but the window management leaves some things to be desired."
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MacTerm wraps lib ghosty in a native swift UI interface. Vertical project sidebar, infinite split panes, a global"
+        }
+      ]
+    },
+    {
+      "tStartMs": 751000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drop-down terminal you can summon from anywhere. Workspace auto persistence saves your entire pane layout and restores it exactly on next open."
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents hitting Cloudflare blocks and captures midtask is one of those pipeline failures that's hard to debug and annoying to work around. Super"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "spider handles anti-bot bypass, headless browser rendering, and multi-engine search out of the box. The LLM focused design is the practical difference."
+        }
+      ]
+    },
+    {
+      "tStartMs": 779000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of dumping raw HTML into your context window, it converts pages directly to clean markdown or structured JSON."
+        }
+      ]
+    },
+    {
+      "tStartMs": 788000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neofetch shows your system specs. Fetch shows them while your DRO logo spins in 3D. Single optimized C file zeroheavy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 795000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencies reads directly from /proc and cis. It takes your Linux DRO's ASI logo and extrudes it into a rotating 3D"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "relief map with blindfong shading, specular highlights, and a Zbuffer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 808000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "System stats tick and update in real time while it spins. Over 500 DRO logos supported with original Anie colors preserved."
+        }
+      ]
+    },
+    {
+      "tStartMs": 818000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Boxer 3D turns a LAR equipped iPhone into a realtime 3D object detector. A lightweight YOLO model handles 2D"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "detection. Then Boxeret from Meta Research lifts those flat detections into fully oriented seven degree of freedom 3D bounding boxes using LAR depth data and Dinov3 visual features."
+        }
+      ]
+    },
+    {
+      "tStartMs": 838000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Arkit handles gravity and camera tracking. Scene kit anchors the 3D wireframes into your physical environment."
+        }
+      ]
+    },
+    {
+      "tStartMs": 845000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most agent memory systems require a vector database, an embedding model, and a chunking strategy before you can store a single fact. Memcraft stores"
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everything in plain human readable markdown. No vector embeddings, no infrastructure, zero dependencies. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 861000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "autonomously extracts facts, classifies information, and maintains a compounding knowledge base that your agent reads and updates as local text files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 872000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Building UIS in PowerShell means WPF, ZAML, and frozen windows the moment a long script runs. PSUI fixes that with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 880000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simple PowerShell functions and async background execution. The clever part is the custom PSH host that intercepts standard simmenlets. Write host pipes to a UI console panel with color support."
+        }
+      ]
+    },
+    {
+      "tStartMs": 891000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Write progress drives a real graphical progress bar. Get credential pops a native credential dialogue."
+        }
+      ]
+    },
+    {
+      "tStartMs": 898000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OB is a Node.js JS package manager written in Rust up to 7x faster than PNPM and 3x faster than bun in warmci"
+        }
+      ]
+    },
+    {
+      "tStartMs": 907000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "environments with a global content addressable store that cuts disk usage significantly. It natively reads and writes your existing packaged lock.json"
+        }
+      ]
+    },
+    {
+      "tStartMs": 915000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or bund.lock files in place. Use it locally for the speed boost while the rest of your team stays on whatever they're using."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "source_sha256": "b4937ce88571ab1f5e98bbf8867b09e0f1688151e8227365489025e5cd97eb86",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "poolside/laguna-s-2.1:free",
+  "created_at": "2026-10-28T06:00:51+00:00",
+  "usage": {
+    "prompt_tokens": 3525,
+    "completion_tokens": 3168,
+    "total_tokens": 6693,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Two weeks ago, a 27 billion parameter model started running on an iPhone, not a stripped down student version of it. The actual thing, doing reasoning, calling tools, reading images off your screen. Nobody added memory to that phone. Nobody added memory to your graphics card either. What happened is that four separate compression tricks landed inside about 6 months. And every one of them hands you capability you never paid for in memory. That is the story. Not a new model, four new ways to fit a model. So, this video is not five product picks. It is four tricks where each one lands and one licensing trap at the top that a lot of coverage is getting wrong right now. Everything sorts by the only spec that actually decides what you can run."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Go get it now. It takes 30 seconds on Windows task manager performance tab. Click your GPU. Read the line that says dedicated GPU memory. On a Mac, it is your total unified memory because Apple's chips share one pool between CPU and GPU. That is your bracket. Write it down. Every rung below is keyed to it."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Bracket 4 to 8 GB. Laptop integrated graphics, a used gaming card, a recent phone. The pick here is Nanig 4.2, a 3 billion parameter model from the research team at Chinese recruiting company Boss Shippen. It runs in about 2 GB. Here is the trick. A normal transformer stacks layers and each token passes through the stack once. Nanbay takes a 22 layer stack and runs the token through it twice. Same weights, two passes. You get the reasoning depth of a much deeper network while only storing the shallow one. They call it a loop transformer. And the reason it matters to you is that depth is what you buy with memory. And this buys it for free. The scores are hard to believe for the size. On Stewie bench verified which is real GitHub issues fixed by an agent.",
+        "It posts 63.6 against Quen 359B at 531 and Gemma 412B at 442 on GPQA Diamond the graduate level science exam. It gets 874. Two notes before you get excited. Those are Nanig's own numbers on their own model card and nobody has independently reproduced them yet. And small models have a habit of looking great on single task benchmarks and falling apart on long multi-step work that the tables never capture. What it is actually good for high volume local grunt work. Tagging files, sorting documents, classifying tickets, labeling data jobs where you want it fast, private, and free rather than brilliant. Point it at an agent scaffold and it will handle multi-step office tasks offline. Apache 2.0 and it shipped day one with recipes for a llama. Llama.cpp, VLLM, and SG lang."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Bracket 8 to 24 GB. A mainstream gaming card. A 27 billion parameter model does not belong in this bracket. In full precision, it wants 54 GB. Even a conventional 4-bit build is 176, which still will not fit. Prism ML fixed that, and the backstory is worth 30 seconds. It is a Caltech spinout that came out of Stealth in March. The CEO is Babak Hassibi, an electrical engineering professor there. Caltech owns the underlying patents and licenses them exclusively to the company. Kla Ventures led a 16 and a4 million seed. What they did to Quen's 27B model is not quantization in the sense you are used to. They rebuilt every weight in the language stack to be one of three values minus one, 0, or plus one. turnary end to end across embeddings attention the MLPS and the output head with no full precision escape hatch hiding anywhere that works out to 1.71 bits per weight they call the result bonsai and here are the honest numbers rather than the pretty ones the ideal size of the turnary build is 5.9 GB but today's kernels store each turnary value in a twobit slot so what actually lands on your disc is about 7.02 2. That is still 54 GB down to 7.2. The 1 bit build is 3.9 and that is the one that fits on an iPhone. Quality across 15 benchmarks in thinking mode. The turnary build keeps 95% of full precision. The one bit build keeps 90.",
+        "Math barely moves. Speed is where I want to be careful because the internet is quoting numbers I cannot find a source for. What is measured is roughly 26 tokens a second on an M5 Pro laptop. That is not fast in absolute terms. It is also completely beside the point because the alternative on that laptop is not slower. It is nothing. The full model does not load at all. Apache 2.0 262,000 token context multimodal runs through MLX on Apple silicon and llama.cpp on Nvidia. One caveat, turnary kernel support is still migrating into mainline llama.cpp. So depending on your back end, you may be on their fork for a bit. CNBC reported this month that Apple is in talks with them. Make of that what you will."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Bracket 24 to 96 GB, a 32 gig 5090, two cards, or a Mac with a real memory pool. Up here, you stop compressing and just run the good model properly. The good model is the one Bonsai was carved out of Quen 3627B released in April under Apache 2.0. It is dense, so no routing complexity. It scores 87.8 on GPQA Diamond, 77.2 on SWBench verified, and 59.3 on Terminal Bench 2.0. That last number beats Alibaba's own 397 billion parameter from the previous generation, which is a genuinely strange sentence to say out loud. But there is a tax on reasoning models that you only feel when you run them yourself. They think out loud before answering, sometimes for thousands of tokens, and you sit there watching it happen. So, a Prague team called Bottlecap AI fine-tuned it to shut up faster. Worth noting who is on the author list. Tamas Mikolof, the researcher behind Wordvec. They call it thinking cap. Across 12 out of domain benchmarks, it uses roughly 46% fewer thinking tokens. On GSM8K, it cuts them by 74% and accuracy actually goes up from 933 to 96.5. Now, the part the summaries keep leaving out. It is not free. On the hardest reasoning sets, it does slip. GPQA diamond goes from 855 down to 83.8. Hmmt from 88 0 to 84.",
+        "Seven. Small but real. You are trading a little peak reasoning for a lot of your own waiting. One practical note that moves this trick down a bracket. There is a 4-bit mixed precision MLX build of thinking cap that lands at 19 GB which fits a 24 gig Mac. So if you are sitting right on the boundary between rung two and rung three, that is your move"
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "bracket 96 to 192 GB. Workstation territory. This bracket got redefined by one box. Nvidia's DGX Spark 1.2 2 kg 128 GB of unified memory sits under your monitor. Two corrections on it that you should hear before you buy. It launched at $3,999 and now sits around 4,699 after an 18% increase driven by LPDDR5X memory shortages and its memory bandwidth is $273 GB a second which is modest. The useful way to think about a Spark is an RTX 5070 that happens to have 128 GB of VRAM. You are buying capacity, not throughput. The model built for exactly that box landed on July 21st. Laguna S2.1 from Poolside, a San Francisco lab that spent most of 3 years quietly selling coding models to governments. It is 118 billion parameters, but only eight are active per token. That is a mixture of experts, and the sparsity is the entire reason it drops onto a single spark and still moves. On terminal bench toot 1, it scores 72% with thinking on. That beats Deepseek V4 Pro Max at 64.0, a model with 1.6 trillion total parameters and 49 billion active. On Deep SWE, the gap is wider, 44 against 9.0. It also does the thing benchmarks cannot show. In one unbroken 50-minute run across 181 steps with no human help, it built a working HTML and CSS browser engine from an empty folder and then validated its own output against Chromium. Three caveats.",
+        "Poolside ran its own agent harness on deepest Wii rather than the standard one and says so. Thinking mode costs you roughly 249,000 completion tokens on those trajectories versus 99,000 without it. and the license is open MDW11 which is permissive but read it rather than assuming it is MIT. The model went from the first day of pre-training to launch in under 9 weeks on 4,96 H200s. That cadence is arguably the bigger story than the scores. If you are under this bracket but want the same family, Laguna XS21 runs on 24 GB 192 to 384 GB. two sparks bridged or a"
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "real server. Here is where I want to correct something that is circulating. Motif 3 comes from Korean startup Motif Technologies. 314 billion parameters, 384 experts with eight routed per token plus one shared. So about 13 billion active native 262,000 token context. built from scratch as an in-house design rather than a reparameterization of somebody else's architecture, which genuinely deserves respect and is rarer than it sounds. You may have heard it called the third best open model in the world. It is not, and I want to be specific about why. On the artificial analysis intelligence index, it scores 44, which ranks at 34th out of 577 tracked systems. That puts it roughly level with Deepseek V4 Pro. GLM52 sits at 51. Kimmy K3 sits at 57. Good model, not a podium finish. Second, what is on hugging face is a beta. The model card says plainly that it is an intermediate checkpoint and the final release is still coming. And third, the one that actually matters if you were planning to build something. The license restricts use to personal, educational, and non-commercial research.",
+        "Commercial use is prohibited without prior written permission from motif which torpedoes the usual pitch. Open weights mean nobody can rate limit you or take it away is only true when the license lets you ship. Downloadable and open are two different words and the gap between them is where people get hurt. If you want something at this tier you can actually build a business on. GLM5 two is the pick. 744 billion parameters, 40 billion active MIT licensed, 1 million token context, and currently the top open model on that same index. And watch this week. Moonshot committed to putting Kimmy K3's weights on hugging face around July 27th. Two 8 trillion parameters, 57 on the intelligence index, currently number one on the front-end code arena. If that lands under usable terms, this rung gets rewritten in a day."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "I am not going to oversell any of this. The closed frontier still sits above everything here. On the intelligence index, Claude Opus 5 is at 607. Claude Fable 5 at 599, GPT5, six soul at 589. On terminal bench 2.1, the top closed models are near 88. The best thing on this ladder is at 70. So local is not the best. Local is the best you own, which is a different and in some ways more interesting thing."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "The rule is boring and it works. Find the largest model that fits your memory with headroom left over for context and run that one. When it fits, bigger still wins. But the actual headline is not any single model on this list. It is that the four tricks stack and the thing that fits your unchanged hardware today is dramatically better than the thing that fit it 6 months ago. The floor is rising underneath you while you do nothing. If you have never done this, Olama is one install and one command. LM Studio is the same idea with a window and a download button. You are 10 minutes from a private model, not a weekend. One last thing, and it is the part nobody puts in a thumbnail. Before you build anything on top of one of these, open the license file. Apache 2.0 and MIT mean go ahead.",
+        "Non-commercial research means you are borrowing it. Those look identical on a download page. Quick recap. 4 to 8 gigs nan beige 8 to 24 bonsai 24 to 96 quen 3 six with thinking cap on top 96 to 192 Lagona on a spark above that GLM52 and keep an eye on Kimmy pull the one for your bracket tonight and go find out what your own hardware has been capable of this whole time. See you on the next one."
+      ]
+    }
+  ]
+}

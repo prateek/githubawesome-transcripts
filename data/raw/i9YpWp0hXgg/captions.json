@@ -1,0 +1,1320 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we're launching something new, the Hacker News show. Instead of our usual GitHub trending list, we're going straight to the show HN section, where"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "solo developers post the things they've been building. 30 projects handpicked from the archives. Let's get into it."
+    },
+    {
+      "timestamp": "0:16",
+      "text": "Term is a fully playable 2D sandbox survival game that runs entirely in the terminal, written in Rust. procedural"
+    },
+    {
+      "timestamp": "0:24",
+      "text": "generation across the overworld, nether, and end dimensions. Mining, crafting, furnaces, hostile mobs, dungeons, all"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "rendered in ASI directly in your console. If you spend most of your day in a terminal anyway, this is a reasonable use of your lunch break. If"
+    },
+    {
+      "timestamp": "0:41",
+      "text": "you're running multiple clawed code sessions and losing track of which agent is doing what, Switchboard is the missing layer. It's a desktop app built"
+    },
+    {
+      "timestamp": "0:50",
+      "text": "with Electron and SQLite that organizes all your CLI coding sessions by project, gives you full text search across them,"
+    },
+    {
+      "timestamp": "0:58",
+      "text": "and alerts you when an agent stalls and needs input. Less tab chaos, more visibility into what's actually running."
+    },
+    {
+      "timestamp": "1:06",
+      "text": "Someone built a fully functional terminal blue sky client in Forran. The fire hose decoder is Rust, but the core logic is modern forran. It landed on"
+    },
+    {
+      "timestamp": "1:15",
+      "text": "hacker news and opened up a genuine conversation about how readable and performant modern forran actually is when people bother to look at it."
+    },
+    {
+      "timestamp": "1:24",
+      "text": "Keeping the old languages alive in the most unexpected places."
+    },
+    {
+      "timestamp": "1:30",
+      "text": "PIWorker gives you autonomous agent workers that run natively in the terminal built for complex multi-step"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "pipelines. Handed a highle task and it handles execution in your local environment without you managing each"
+    },
+    {
+      "timestamp": "1:43",
+      "text": "step manually. For anyone building serious AI automation pipelines worth checking the repository"
+    },
+    {
+      "timestamp": "1:51",
+      "text": "behind Entroly was burning 200 bucks a month just sending useless boilerplate code to their models. So they wrote a"
+    },
+    {
+      "timestamp": "1:59",
+      "text": "context optimizer in Rust. Instead of dumping whole files into your prompt, it uses token budgeting and entropy scoring"
+    },
+    {
+      "timestamp": "2:07",
+      "text": "to strip out the junk before it even hits the API. It supposedly cuts token costs by almost 80% and adds less than 10 milliseconds of latency."
+    },
+    {
+      "timestamp": "2:18",
+      "text": "UV loop is the standard choice for speeding up async Python, but it doesn't run on Windows. RS loop does. It's a new"
+    },
+    {
+      "timestamp": "2:25",
+      "text": "Asyncio event loop written in Rust drop incompatible with existing code with strong P99 latency numbers for API"
+    },
+    {
+      "timestamp": "2:32",
+      "text": "servers and native Windows support out of the box. If you're running async Python backends on Windows and Uloop hasn't been an option, this is worth benchmarking."
+    },
+    {
+      "timestamp": "2:44",
+      "text": "Entity resolution at scale is a genuinely hard problem. Golden Match makes it look straightforward. It uses a"
+    },
+    {
+      "timestamp": "2:51",
+      "text": "three- tier approach. Fast fuzzy logic handles the obvious matches and only the genuinely ambiguous edge cases get sent"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "to GPT40 Mini as a tiebreaker. The result is 97% F1 accuracy on 100,000"
+    },
+    {
+      "timestamp": "3:05",
+      "text": "messy records in 13 seconds at a cost that amounts to pennies per run."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "Someone ran a large language model on a PlayStation 2. The PS2 has 32 megabytes of RAM which is obviously nowhere near"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "enough to load a model. The solution was a custom inference engine that streams weights directly from the CDROM drive matrix by matrix as needed. It's slow."
+    },
+    {
+      "timestamp": "3:28",
+      "text": "It works. It absolutely did not need to exist and someone built it anyway."
+    },
+    {
+      "timestamp": "3:34",
+      "text": "Writing complex state machines in Rust usually means deeply nested match statements that are hard to follow and harder to maintain. Banish is a"
+    },
+    {
+      "timestamp": "3:43",
+      "text": "procedural macro that lets you define states and transition rules declaratively instead. It uses a fixed point looping model where a state keeps"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "re-evaluating its rules until nothing before moving on. Zero runtime overhead compiles down to pure rust."
+    },
+    {
+      "timestamp": "4:00",
+      "text": "BATR is a drone detection system that runs on a $15 ESP32 microcontroller with a single microphone. It uses Gortzel"
+    },
+    {
+      "timestamp": "4:08",
+      "text": "filters to identify the specific audio harmonics of drone rotors. runs 247 on battery and triggers an alarm locally"
+    },
+    {
+      "timestamp": "4:16",
+      "text": "with no cloud connection involved for $15 in hardware and some open source firmware. That's a genuinely impressive capability."
+    },
+    {
+      "timestamp": "4:25",
+      "text": "Orchestrator gives you a T-m style split pane terminal dashboard for running multiple clawed sessions simultaneously."
+    },
+    {
+      "timestamp": "4:33",
+      "text": "Instead of managing agents one at a time, you get a unified interface for assigning tasks across a coordinated swarm, all visible in one place."
+    },
+    {
+      "timestamp": "4:42",
+      "text": "For anyone who's wanted to run parallel agents without the tab chaos, this is the direct solution."
+    },
+    {
+      "timestamp": "4:49",
+      "text": "Opening Python or a spreadsheet app just to check a column in a large CSV is one of those small annoyances that adds up"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "fast. Queryad is a browserbased SQL playground powered by Duct DB. Drop in a CSV, JSON or parquet file and run SQL"
+    },
+    {
+      "timestamp": "5:05",
+      "text": "queries against it directly in the browser. Nothing uploads anywhere."
+    },
+    {
+      "timestamp": "5:09",
+      "text": "Everything processes locally and duct DB handles gigabytes without breaking a sweat."
+    },
+    {
+      "timestamp": "5:15",
+      "text": "Inner warden is a self-hosted security agent for Linux and Mac OS written in Rust. It uses ebpf kernel programs to"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "block attacks at wire speed, detects privilege escalation in real time, and deploys honeypots to misdirect attackers. No cloud dependencies, no"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "data leaving the machine. Your server handling its own defense locally is a meaningful shift from alert and respond."
+    },
+    {
+      "timestamp": "5:39",
+      "text": "Someone saw a screenshot of Norton Commander and immediately rebuilt it in vanilla JavaScript for the browser. Dual pane layout, iconic blue interface, FY"
+    },
+    {
+      "timestamp": "5:49",
+      "text": "toolbar, the whole thing. It uses the Origin private file system API for actual file management. So, it's not"
+    },
+    {
+      "timestamp": "5:55",
+      "text": "just a visual gag. Pure90s nostalgia that actually works in 2026."
+    },
+    {
+      "timestamp": "6:02",
+      "text": "FileNotes.nenvim opens a floating markdown scratchpad tied to whatever file you're currently editing in Neoim."
+    },
+    {
+      "timestamp": "6:09",
+      "text": "It hashes the file path and saves the note to a hidden.notes folder at the project route, so your context and reminders stay organized without"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "touching the actual code. Small plug-in, genuine quality of life improvement for anyone who leaves themselves notes in comments."
+    },
+    {
+      "timestamp": "6:27",
+      "text": "Most AI coding sessions skip straight to implementation."
+    },
+    {
+      "timestamp": "6:31",
+      "text": "The planning phase gets ignored and the architecture suffers for it. AI SDLC scaffold is a template repository that"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "forces the pre-work. Structured markdown scaffolding for user stories, architecture decisions, and requirements designed specifically to make your agent plan the system before writing any code."
+    },
+    {
+      "timestamp": "6:51",
+      "text": "Running autonomous agents without spend limits is a reasonable way to return from lunch to a $50 API bill. Capit sits"
+    },
+    {
+      "timestamp": "6:59",
+      "text": "between your agents and your LLM providers, enforcing hard-coded budgets per agent and per provider. If something"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "goes rogue or gets stuck in a loop, it cuts off before the damage compounds."
+    },
+    {
+      "timestamp": "7:11",
+      "text": "For anyone running agents unattended, this should probably be in the stack already."
+    },
+    {
+      "timestamp": "7:17",
+      "text": "500 unread RSS items every morning is not a reading habit. It's a backlog."
+    },
+    {
+      "timestamp": "7:22",
+      "text": "Macall reader parses full text feeds and runs every article through a local LLM like Olama, scoring each one from 1 to 10 based on your actual interests."
+    },
+    {
+      "timestamp": "7:31",
+      "text": "Clickbait listical sync high signal engineering posts surface. The tagline is an RSS reader that thinks before you do. Hard to argue with that."
+    },
+    {
+      "timestamp": "7:42",
+      "text": "Most AI agents can write code. Video zero skills lets them animate it. It's a toolkit of agentic skills built"
+    },
+    {
+      "timestamp": "7:50",
+      "text": "specifically to give AI coding agents programmatic control over the motion canvas engine. Your agent can write the animation code, render text and shapes,"
+    },
+    {
+      "timestamp": "7:59",
+      "text": "and output finished code visualization videos without any manual intervention."
+    },
+    {
+      "timestamp": "8:05",
+      "text": "Scheduling across five time zones usually means opening three different websites and doing mental arithmetic."
+    },
+    {
+      "timestamp": "8:11",
+      "text": "Wii is a terminal UI built in Rust that shows an interactive timeline of multiple time zones side by side. Scrub"
+    },
+    {
+      "timestamp": "8:19",
+      "text": "forward and backward to find the overlap window where everyone is actually awake."
+    },
+    {
+      "timestamp": "8:24",
+      "text": "Fast, local, and solves the problem without leaving the terminal."
+    },
+    {
+      "timestamp": "8:29",
+      "text": "Elastic rethinks the AI agent and web interaction problem in under 200 lines of code. Instead of building a complex"
+    },
+    {
+      "timestamp": "8:37",
+      "text": "agentic UI, it treats the LLM purely as an untrusted HTTP client using the model context protocol, forcing it to interact"
+    },
+    {
+      "timestamp": "8:45",
+      "text": "with a database, HTML front end, and server through a properly isolated sandbox. It's a clean demonstration of"
+    },
+    {
+      "timestamp": "8:52",
+      "text": "applying web security principles to AI architecture."
+    },
+    {
+      "timestamp": "8:56",
+      "text": "Context provider boilerplate is one of those things every React project reinvents slightly differently. React container kit is a lightweight utility"
+    },
+    {
+      "timestamp": "9:04",
+      "text": "layer on top of unstated next that gives you named containers, clean provider composition and TypeScript helpers out"
+    },
+    {
+      "timestamp": "9:11",
+      "text": "of the box. Write it once, stop rewriting it everywhere. Small library, real reduction in friction across projects."
+    },
+    {
+      "timestamp": "9:20",
+      "text": "Hard- coding API keys for local AI agents is an obvious security problem with no great solution until now. Agent"
+    },
+    {
+      "timestamp": "9:28",
+      "text": "password is a local Mac OS password manager built specifically for AI workflows. Secrets live in an encrypted SQLite vault and when an agent needs"
+    },
+    {
+      "timestamp": "9:37",
+      "text": "one, it requests access through Touch ID. Tap your fingerprint, the agent gets the key. Nothing sits in plain text."
+    },
+    {
+      "timestamp": "9:45",
+      "text": "Nia AI is an open-source collaborative platform that puts AI chat, team workspaces, rich text pages, cloud"
+    },
+    {
+      "timestamp": "9:52",
+      "text": "storage, and channels in one place. The practical difference from just using chat GPT alongside your other tools. The AI can actually read your team's files"
+    },
+    {
+      "timestamp": "10:01",
+      "text": "and operate inside documents rather than existing in a separate tab you copy paste between."
+    },
+    {
+      "timestamp": "10:08",
+      "text": "AI scrum master template turns a GitHub repo into a self-managing development pipeline using GitHub actions and"
+    },
+    {
+      "timestamp": "10:15",
+      "text": "claude. A scrum master agent reads feature requests, breaks them into canban tickets, and routes them to separate planner, developer, and tester"
+    },
+    {
+      "timestamp": "10:24",
+      "text": "agents. The whole thing runs inside your existing issue tracker without any additional infrastructure."
+    },
+    {
+      "timestamp": "10:32",
+      "text": "Most support chatbots answer questions."
+    },
+    {
+      "timestamp": "10:34",
+      "text": "Rover just does the thing for you. Drop a single script tag into your web app and it embeds a live AI agent directly"
+    },
+    {
+      "timestamp": "10:41",
+      "text": "in the UI. Tell it to help you check out and it takes over the DOM, navigates the page, clicks buttons, and fills out"
+    },
+    {
+      "timestamp": "10:49",
+      "text": "forms in real time. The gap between here's a help article and I'll do it for you is significant. Rover sits firmly on"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "the useful side of it. Pomodoro works for some people. For everyone else, the 25minut cut off hits right in the middle"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "of actual focus. Cycle flips it. Work for as long as you're genuinely in flow."
+    },
+    {
+      "timestamp": "11:10",
+      "text": "Hit stop when you're done and it calculates a proportional rest break based on how long you actually worked."
+    },
+    {
+      "timestamp": "11:16",
+      "text": "No arbitrary timer cutting you off. No guilt about going over. Simple idea, surprisingly well executed."
+    },
+    {
+      "timestamp": "11:24",
+      "text": "If the official anthropic and OpenAI SDKs feel like too much framework for what you're actually trying to build, Open Harness is worth a look. It's a"
+    },
+    {
+      "timestamp": "11:32",
+      "text": "TypeScript library on top of Versel's AI SDK that gives you composable building blocks for agentic workflows without the overhead."
+    },
+    {
+      "timestamp": "11:40",
+      "text": "supports the agents.mmd spec, sub aent delegation, and autocompaction for long conversations out of the box."
+    },
+    {
+      "timestamp": "11:49",
+      "text": "A failing test suite that dumps 13,000 lines of logs into your agents context is an expensive problem most people are"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "just absorbing. SIFT sits between your terminal and your agent, captures the output, groups repeated failures, and"
+    },
+    {
+      "timestamp": "12:05",
+      "text": "compresses it into a structured diagnosis. 200,000 tokens of raw logs down to 120 without losing the actual"
+    },
+    {
+      "timestamp": "12:12",
+      "text": "debug signal. The kind of tool that pays for itself immediately."
+    },
+    {
+      "timestamp": "12:18",
+      "text": "Writing agent skills is easy. Writing agent skills that actually trigger correctly is a different problem. Skill"
+    },
+    {
+      "timestamp": "12:24",
+      "text": "Lab is a Python CLI tool that runs 19 static checks on your skill.md files, validating structure, naming, and"
+    },
+    {
+      "timestamp": "12:32",
+      "text": "descriptions. It statically links your skill files, which is fine. But the second half is what actually sold me. It uses Claude to autogenerate brutal"
+    },
+    {
+      "timestamp": "12:41",
+      "text": "edgecase prompts, then tests them against a live model to prove your skill actually activates in context."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we're launching something new, the Hacker News show. Instead of our usual GitHub trending list, we're going straight to the show HN section, where"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "solo developers post the things they've been building. 30 projects handpicked from the archives. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Term is a fully playable 2D sandbox survival game that runs entirely in the terminal, written in Rust. procedural"
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generation across the overworld, nether, and end dimensions. Mining, crafting, furnaces, hostile mobs, dungeons, all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rendered in ASI directly in your console. If you spend most of your day in a terminal anyway, this is a reasonable use of your lunch break. If"
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you're running multiple clawed code sessions and losing track of which agent is doing what, Switchboard is the missing layer. It's a desktop app built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 50000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with Electron and SQLite that organizes all your CLI coding sessions by project, gives you full text search across them,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 58000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and alerts you when an agent stalls and needs input. Less tab chaos, more visibility into what's actually running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone built a fully functional terminal blue sky client in Forran. The fire hose decoder is Rust, but the core logic is modern forran. It landed on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 75000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hacker news and opened up a genuine conversation about how readable and performant modern forran actually is when people bother to look at it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 84000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Keeping the old languages alive in the most unexpected places."
+        }
+      ]
+    },
+    {
+      "tStartMs": 90000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PIWorker gives you autonomous agent workers that run natively in the terminal built for complex multi-step"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pipelines. Handed a highle task and it handles execution in your local environment without you managing each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 103000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "step manually. For anyone building serious AI automation pipelines worth checking the repository"
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "behind Entroly was burning 200 bucks a month just sending useless boilerplate code to their models. So they wrote a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 119000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context optimizer in Rust. Instead of dumping whole files into your prompt, it uses token budgeting and entropy scoring"
+        }
+      ]
+    },
+    {
+      "tStartMs": 127000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to strip out the junk before it even hits the API. It supposedly cuts token costs by almost 80% and adds less than 10 milliseconds of latency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UV loop is the standard choice for speeding up async Python, but it doesn't run on Windows. RS loop does. It's a new"
+        }
+      ]
+    },
+    {
+      "tStartMs": 145000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Asyncio event loop written in Rust drop incompatible with existing code with strong P99 latency numbers for API"
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "servers and native Windows support out of the box. If you're running async Python backends on Windows and Uloop hasn't been an option, this is worth benchmarking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Entity resolution at scale is a genuinely hard problem. Golden Match makes it look straightforward. It uses a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "three- tier approach. Fast fuzzy logic handles the obvious matches and only the genuinely ambiguous edge cases get sent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to GPT40 Mini as a tiebreaker. The result is 97% F1 accuracy on 100,000"
+        }
+      ]
+    },
+    {
+      "tStartMs": 185000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "messy records in 13 seconds at a cost that amounts to pennies per run."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone ran a large language model on a PlayStation 2. The PS2 has 32 megabytes of RAM which is obviously nowhere near"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "enough to load a model. The solution was a custom inference engine that streams weights directly from the CDROM drive matrix by matrix as needed. It's slow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It works. It absolutely did not need to exist and someone built it anyway."
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Writing complex state machines in Rust usually means deeply nested match statements that are hard to follow and harder to maintain. Banish is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 223000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "procedural macro that lets you define states and transition rules declaratively instead. It uses a fixed point looping model where a state keeps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "re-evaluating its rules until nothing before moving on. Zero runtime overhead compiles down to pure rust."
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "BATR is a drone detection system that runs on a $15 ESP32 microcontroller with a single microphone. It uses Gortzel"
+        }
+      ]
+    },
+    {
+      "tStartMs": 248000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "filters to identify the specific audio harmonics of drone rotors. runs 247 on battery and triggers an alarm locally"
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with no cloud connection involved for $15 in hardware and some open source firmware. That's a genuinely impressive capability."
+        }
+      ]
+    },
+    {
+      "tStartMs": 265000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Orchestrator gives you a T-m style split pane terminal dashboard for running multiple clawed sessions simultaneously."
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of managing agents one at a time, you get a unified interface for assigning tasks across a coordinated swarm, all visible in one place."
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone who's wanted to run parallel agents without the tab chaos, this is the direct solution."
+        }
+      ]
+    },
+    {
+      "tStartMs": 289000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Opening Python or a spreadsheet app just to check a column in a large CSV is one of those small annoyances that adds up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast. Queryad is a browserbased SQL playground powered by Duct DB. Drop in a CSV, JSON or parquet file and run SQL"
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "queries against it directly in the browser. Nothing uploads anywhere."
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything processes locally and duct DB handles gigabytes without breaking a sweat."
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inner warden is a self-hosted security agent for Linux and Mac OS written in Rust. It uses ebpf kernel programs to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "block attacks at wire speed, detects privilege escalation in real time, and deploys honeypots to misdirect attackers. No cloud dependencies, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data leaving the machine. Your server handling its own defense locally is a meaningful shift from alert and respond."
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone saw a screenshot of Norton Commander and immediately rebuilt it in vanilla JavaScript for the browser. Dual pane layout, iconic blue interface, FY"
+        }
+      ]
+    },
+    {
+      "tStartMs": 349000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "toolbar, the whole thing. It uses the Origin private file system API for actual file management. So, it's not"
+        }
+      ]
+    },
+    {
+      "tStartMs": 355000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "just a visual gag. Pure90s nostalgia that actually works in 2026."
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FileNotes.nenvim opens a floating markdown scratchpad tied to whatever file you're currently editing in Neoim."
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It hashes the file path and saves the note to a hidden.notes folder at the project route, so your context and reminders stay organized without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "touching the actual code. Small plug-in, genuine quality of life improvement for anyone who leaves themselves notes in comments."
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI coding sessions skip straight to implementation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The planning phase gets ignored and the architecture suffers for it. AI SDLC scaffold is a template repository that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "forces the pre-work. Structured markdown scaffolding for user stories, architecture decisions, and requirements designed specifically to make your agent plan the system before writing any code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 411000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running autonomous agents without spend limits is a reasonable way to return from lunch to a $50 API bill. Capit sits"
+        }
+      ]
+    },
+    {
+      "tStartMs": 419000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between your agents and your LLM providers, enforcing hard-coded budgets per agent and per provider. If something"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "goes rogue or gets stuck in a loop, it cuts off before the damage compounds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 431000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone running agents unattended, this should probably be in the stack already."
+        }
+      ]
+    },
+    {
+      "tStartMs": 437000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "500 unread RSS items every morning is not a reading habit. It's a backlog."
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Macall reader parses full text feeds and runs every article through a local LLM like Olama, scoring each one from 1 to 10 based on your actual interests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clickbait listical sync high signal engineering posts surface. The tagline is an RSS reader that thinks before you do. Hard to argue with that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI agents can write code. Video zero skills lets them animate it. It's a toolkit of agentic skills built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "specifically to give AI coding agents programmatic control over the motion canvas engine. Your agent can write the animation code, render text and shapes,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 479000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and output finished code visualization videos without any manual intervention."
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Scheduling across five time zones usually means opening three different websites and doing mental arithmetic."
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wii is a terminal UI built in Rust that shows an interactive timeline of multiple time zones side by side. Scrub"
+        }
+      ]
+    },
+    {
+      "tStartMs": 499000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "forward and backward to find the overlap window where everyone is actually awake."
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fast, local, and solves the problem without leaving the terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Elastic rethinks the AI agent and web interaction problem in under 200 lines of code. Instead of building a complex"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agentic UI, it treats the LLM purely as an untrusted HTTP client using the model context protocol, forcing it to interact"
+        }
+      ]
+    },
+    {
+      "tStartMs": 525000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with a database, HTML front end, and server through a properly isolated sandbox. It's a clean demonstration of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 532000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "applying web security principles to AI architecture."
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context provider boilerplate is one of those things every React project reinvents slightly differently. React container kit is a lightweight utility"
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "layer on top of unstated next that gives you named containers, clean provider composition and TypeScript helpers out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 551000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of the box. Write it once, stop rewriting it everywhere. Small library, real reduction in friction across projects."
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hard- coding API keys for local AI agents is an obvious security problem with no great solution until now. Agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 568000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "password is a local Mac OS password manager built specifically for AI workflows. Secrets live in an encrypted SQLite vault and when an agent needs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one, it requests access through Touch ID. Tap your fingerprint, the agent gets the key. Nothing sits in plain text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nia AI is an open-source collaborative platform that puts AI chat, team workspaces, rich text pages, cloud"
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storage, and channels in one place. The practical difference from just using chat GPT alongside your other tools. The AI can actually read your team's files"
+        }
+      ]
+    },
+    {
+      "tStartMs": 601000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and operate inside documents rather than existing in a separate tab you copy paste between."
+        }
+      ]
+    },
+    {
+      "tStartMs": 608000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI scrum master template turns a GitHub repo into a self-managing development pipeline using GitHub actions and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "claude. A scrum master agent reads feature requests, breaks them into canban tickets, and routes them to separate planner, developer, and tester"
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents. The whole thing runs inside your existing issue tracker without any additional infrastructure."
+        }
+      ]
+    },
+    {
+      "tStartMs": 632000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most support chatbots answer questions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rover just does the thing for you. Drop a single script tag into your web app and it embeds a live AI agent directly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in the UI. Tell it to help you check out and it takes over the DOM, navigates the page, clicks buttons, and fills out"
+        }
+      ]
+    },
+    {
+      "tStartMs": 649000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "forms in real time. The gap between here's a help article and I'll do it for you is significant. Rover sits firmly on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the useful side of it. Pomodoro works for some people. For everyone else, the 25minut cut off hits right in the middle"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of actual focus. Cycle flips it. Work for as long as you're genuinely in flow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hit stop when you're done and it calculates a proportional rest break based on how long you actually worked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No arbitrary timer cutting you off. No guilt about going over. Simple idea, surprisingly well executed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 684000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If the official anthropic and OpenAI SDKs feel like too much framework for what you're actually trying to build, Open Harness is worth a look. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TypeScript library on top of Versel's AI SDK that gives you composable building blocks for agentic workflows without the overhead."
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports the agents.mmd spec, sub aent delegation, and autocompaction for long conversations out of the box."
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A failing test suite that dumps 13,000 lines of logs into your agents context is an expensive problem most people are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "just absorbing. SIFT sits between your terminal and your agent, captures the output, groups repeated failures, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 725000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compresses it into a structured diagnosis. 200,000 tokens of raw logs down to 120 without losing the actual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "debug signal. The kind of tool that pays for itself immediately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Writing agent skills is easy. Writing agent skills that actually trigger correctly is a different problem. Skill"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lab is a Python CLI tool that runs 19 static checks on your skill.md files, validating structure, naming, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "descriptions. It statically links your skill files, which is fine. But the second half is what actually sold me. It uses Claude to autogenerate brutal"
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "edgecase prompts, then tests them against a live model to prove your skill actually activates in context."
+        }
+      ]
+    }
+  ]
+}

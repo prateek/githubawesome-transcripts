@@ -1,0 +1,1567 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today I've handpicked 36 trending open source projects on GitHub. Tools, dev utilities, and some cool ideas that are"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "blowing up. Let's dive into GitHub trending today number 27."
+    },
+    {
+      "timestamp": "0:13",
+      "text": "Chinichi is a beautifully opinionated journaling app. Most note-taking apps overwhelm you with folders, tags, and templates. Ichinichi just gives you one"
+    },
+    {
+      "timestamp": "0:22",
+      "text": "note per day. And here is the catch. You cannot edit yesterday's note. What is done is done. It stores everything"
+    },
+    {
+      "timestamp": "0:30",
+      "text": "locally with endtoend AES GCM encryption and forces you to stop fussing over the past so you can focus on building a"
+    },
+    {
+      "timestamp": "0:37",
+      "text": "daily writing habit. If you are tired of paying subscriptions for Screen Studio just to make a tutorial video, you need"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "this. Recordly is a screen recorder and editor built for Mac OS and Windows. You record your screen, it does the rest."
+    },
+    {
+      "timestamp": "0:53",
+      "text": "Cursor animations, auto zoomins on clicks, webcam overlays. Looks like you spent hours editing. You didn't. If"
+    },
+    {
+      "timestamp": "1:01",
+      "text": "you're a developer shipping demo videos, there's no reason to keep paying for the alternative."
+    },
+    {
+      "timestamp": "1:07",
+      "text": "Notchi puts a animated pixel sprite in your MacBook notch. That's the whole pitch. It sits quietly in the menu bar"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "until your clawed code or terminal AI starts running. Then a little character drops down and reacts to what it's doing in real time. It's basically a"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "Tamagotchi for your coding agent. Does it make you more productive? No. Is it the best thing installed on my machine right now? Possibly."
+    },
+    {
+      "timestamp": "1:33",
+      "text": "Mirrorish went viral for a reason. A Sim City style engine that runs thousands of AI agents to forecast real world events"
+    },
+    {
+      "timestamp": "1:40",
+      "text": "based on live news. The catch was the cloud API costs which made it impractical for most people to actually"
+    },
+    {
+      "timestamp": "1:47",
+      "text": "run. Someone fixed that. Mirrorish offline strips out the cloud dependencies entirely and replaces them with a local Neo Forj graph database and Olama models."
+    },
+    {
+      "timestamp": "1:58",
+      "text": "Gabul is a web assembly interpreter written from scratch in Rust. The name is funny. What it does is not. The whole"
+    },
+    {
+      "timestamp": "2:06",
+      "text": "thing is fully snapshotable. Freeze the entire execution state mid-tick, serialize it, spin up new processes from"
+    },
+    {
+      "timestamp": "2:13",
+      "text": "that exact point, and watch them diverge. It also ships with a time travel debugger. If you've spent any time doing low-level systems work, you know how hard this is to pull off."
+    },
+    {
+      "timestamp": "2:24",
+      "text": "Antfly is a distributed multimodal search engine written in Go. It combines full text BM25 search, vector"
+    },
+    {
+      "timestamp": "2:32",
+      "text": "similarity, and graph traversal all into a single binary backed by the Pebble storage engine and ets library. It even"
+    },
+    {
+      "timestamp": "2:39",
+      "text": "ships with built-in ML inference. You don't need external APIs for embeddings."
+    },
+    {
+      "timestamp": "2:44",
+      "text": "Antfly handles the entire rag memory pipeline out of the box."
+    },
+    {
+      "timestamp": "2:49",
+      "text": "Are you drowning in a sea of overlapping terminal windows? Horizon is a GPU accelerated spatial terminal observatory"
+    },
+    {
+      "timestamp": "2:57",
+      "text": "built in Rust. Instead of tabs or split panes, Horizon places your terminals, AI agents, and dev tools onto an infinite"
+    },
+    {
+      "timestamp": "3:04",
+      "text": "zoomable canvas. It operates just like a miro board or Figma canvas, allowing you to organize, pan, and zoom around your"
+    },
+    {
+      "timestamp": "3:12",
+      "text": "active sessions, so you never lose track of a running script. Again, the slug font rendering algorithm just went MIT"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "licensed. If you don't know Slug, it's Eric Lenel's GPU text method. Dynamic dilation, custom HLSL shaders, genuinely"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "fast and crisp output. It was previously patent locked, which kept it out of most independent projects entirely. That's done. Now, the reference code is public,"
+    },
+    {
+      "timestamp": "3:38",
+      "text": "free to use, and directly applicable to any custom game engine or graphics pipeline."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "Open CLI turns any website or Electron app into a command line interface. By using a secure Chrome extension bridge,"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "it reuses your active logged browser session so your terminal can interact directly with sites like Twitter, Reddit, or YouTube without complex API"
+    },
+    {
+      "timestamp": "4:00",
+      "text": "off. It can clify Electron apps, meaning you can literally have an AI agent living in your terminal that autonomously drives and controls other AI desktop apps."
+    },
+    {
+      "timestamp": "4:12",
+      "text": "Enro works, but you're paying for it."
+    },
+    {
+      "timestamp": "4:14",
+      "text": "Slim doesn't cost anything. It's a lightweight CLI tool written in Go. One command exposes your local server via"
+    },
+    {
+      "timestamp": "4:21",
+      "text": "public slim.show URL. It also generates trusted root certificates for clean https.local local domains and handles"
+    },
+    {
+      "timestamp": "4:29",
+      "text": "cores and websockets without any extra configuration. For web hook testing and local dev work, it covers everything enro."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "Most AI agents today are a mess of config files, database state, and Python code scattered across a project. Gent"
+    },
+    {
+      "timestamp": "4:45",
+      "text": "puts all of it in a git repo, prompts, rules, memory, tools extracted into a portable format that lives entirely in"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "version control. Clone the repo, get a fully functional agent. That's it. The version control angle alone is worth"
+    },
+    {
+      "timestamp": "5:00",
+      "text": "paying attention to. If you're on KD Plasma 6 and the default kickoff menu isn't doing it for you, App Grid is a"
+    },
+    {
+      "timestamp": "5:07",
+      "text": "straight upgrade. It's a full screen grid style app launcher. Think Mac OS Launchpad with some cosmic desktop influence mixed in. Background blur,"
+    },
+    {
+      "timestamp": "5:16",
+      "text": "smooth animations, folder support, and CakeRunner search built in. Linux desktop customization has quietly gotten very good. This is a solid example of that."
+    },
+    {
+      "timestamp": "5:27",
+      "text": "Most meeting transcribers just record what happened. Open is doing something different. It runs completely offline on"
+    },
+    {
+      "timestamp": "5:34",
+      "text": "Mac, transcribing both sides of a call in real time. But while you're talking, it's also searching your local markdown"
+    },
+    {
+      "timestamp": "5:41",
+      "text": "notes. And when a relevant topic comes up, it surfaces the right talking points on screen live mid conversation."
+    },
+    {
+      "timestamp": "5:50",
+      "text": "Building terminal UIs usually means calculating grid coordinates by hand and guessing at layouts until something looks right. Tua Studio skips all of"
+    },
+    {
+      "timestamp": "5:59",
+      "text": "that. It's a visual drag and drop editor for terminal app layouts. Drop components onto a canvas, tweak flexbox and grid settings visually and see a"
+    },
+    {
+      "timestamp": "6:07",
+      "text": "live Anie preview as you go. When you're done, export directly to ink, bubble tea, or textual."
+    },
+    {
+      "timestamp": "6:15",
+      "text": "Every developer has a branch somewhere with 40 commits that just say fix or try again. That's what testing GitHub"
+    },
+    {
+      "timestamp": "6:23",
+      "text": "actions in production looks like. Actron runs your entire CI/CD pipeline locally before you push anything. It's built-in"
+    },
+    {
+      "timestamp": "6:30",
+      "text": "moon bit cross-co compiles natively and works via docker or npx if you'd rather not install anything. No more polluting"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "your commit history to debug a broken workflow."
+    },
+    {
+      "timestamp": "6:42",
+      "text": "General purpose AI coding agents and data warehouses are a bad combination."
+    },
+    {
+      "timestamp": "6:47",
+      "text": "Wrong table names, broken joins, hallucinated column references. Ultimate code is built specifically for data"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "engineering. Instead of guessing at your schema, it queries your actual catalog locally in 2 milliseconds without"
+    },
+    {
+      "timestamp": "7:00",
+      "text": "touching the warehouse. It understands DBT, knows your lineage, and ships with 100 plus purpose-built tools for Snowflake and BigQuery."
+    },
+    {
+      "timestamp": "7:10",
+      "text": "What if you could watch your AI agents work in a 3D virtual office? Claw 3D does exactly that. It's a fully"
+    },
+    {
+      "timestamp": "7:18",
+      "text": "open-source 3D environment for your OpenClaw workforce. Walk around the office, drag and drop furniture, put on"
+    },
+    {
+      "timestamp": "7:25",
+      "text": "background music. When an agent is reviewing a pull request, walk up to their virtual desk and see the code diffs on their screen. It basically"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "turns your AI infrastructure into the SIMS."
+    },
+    {
+      "timestamp": "7:37",
+      "text": "If JSON.stringify is becoming a bottleneck, RX is worth benchmarking against your current setup. It's a binary encoding format and drop in JSON"
+    },
+    {
+      "timestamp": "7:46",
+      "text": "replacement. The numbers are hard to ignore. 18x smaller output through string dduplication and binary encoded"
+    },
+    {
+      "timestamp": "7:53",
+      "text": "numbers. For single key lookups, it skips to serialization entirely using zero allocation JavaScript proxies,"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "which puts it at 23,000x faster than standard JSON parsing in that scenario."
+    },
+    {
+      "timestamp": "8:07",
+      "text": "Postman works, but 800 megabytes of RAM and a mandatory cloud account to test a local endpoint is a hard cell in 2026."
+    },
+    {
+      "timestamp": "8:15",
+      "text": "API is built with Tori v2 and Rust, idles at 60 megabytes, and has no cloud telemetry at all. Your collections save"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "as plain YAML files on your file system, so they version control cleanly with Git. Fast, private, and your data stays on your machine."
+    },
+    {
+      "timestamp": "8:32",
+      "text": "AI coding agents building front-end UIs always default to the same generic look."
+    },
+    {
+      "timestamp": "8:37",
+      "text": "Purple gradients, default interfonts, nested cards everywhere. Impeccable fixes that. It's an installable design"
+    },
+    {
+      "timestamp": "8:44",
+      "text": "skill for clawed code that acts as an expert creative director. 20 steering commands and curated antiatterns that explicitly force the AI to avoid cliche"
+    },
+    {
+      "timestamp": "8:53",
+      "text": "UI tropes. Turn your LLM into a master of modern front-end design."
+    },
+    {
+      "timestamp": "8:59",
+      "text": "Translation SAS adds up fast and most of it is just a wrapper around APIs you could call yourself. My translator skips"
+    },
+    {
+      "timestamp": "9:06",
+      "text": "the middleman entirely. It's open source, runs on Mac OS and Windows and does realtime speech translation on your"
+    },
+    {
+      "timestamp": "9:13",
+      "text": "desktop using free TTS engines. Plug in your own API keys and that's it. No subscription, no data routed through someone else's servers."
+    },
+    {
+      "timestamp": "9:23",
+      "text": "Managing multiple AI agents right now means scattered terminal panes, constant app switching, and no real picture of what's running where. Collaborator puts everything on a single infinite canvas."
+    },
+    {
+      "timestamp": "9:35",
+      "text": "Terminals, context files, running code, all arranged spatially on a pan and zoom workspace built for Mac OS. No tab hunting, no context switching."
+    },
+    {
+      "timestamp": "9:45",
+      "text": "Paste a URL, get the brand kit. Open Brand scrapes any website and pulls out the logos, exact hex color palettes, and"
+    },
+    {
+      "timestamp": "9:53",
+      "text": "core visual assets automatically. No digging through dev tools, no manually eyropping colors off a screenshot for"
+    },
+    {
+      "timestamp": "10:00",
+      "text": "competitive research or seeding an AI design system. It cuts out a genuinely tedious part of the process."
+    },
+    {
+      "timestamp": "10:07",
+      "text": "Getting rejected by Apple review cycle is one of the more demoralizing parts of iOS development. App Store pre-flight"
+    },
+    {
+      "timestamp": "10:15",
+      "text": "runs before you submit. It pulls your app metadata and checks it against 100 plus Apple review guidelines, flagging"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "missing privacy manifests, competitor mentions, and banned AI keywords before any human reviewer sees it."
+    },
+    {
+      "timestamp": "10:30",
+      "text": "Reddus is solid, but the singlethreaded architecture starts showing its limits at scale. Lux is a drop-in replacement"
+    },
+    {
+      "timestamp": "10:37",
+      "text": "written in Rust. Full recipe protocol compatibility, so existing Reddus clients work without any code changes."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "Benchmarks show up to 5 6x faster performance and the Docker image comes in at 1 megabytes."
+    },
+    {
+      "timestamp": "10:52",
+      "text": "If you're hitting Reddus bottlenecks and don't want to rewrite your client layer, this is the straightforward path forward."
+    },
+    {
+      "timestamp": "10:59",
+      "text": "Most AI agent dashboards feel like they were designed as an afterthought. Fabro is clearly not that. It's an open-source"
+    },
+    {
+      "timestamp": "11:07",
+      "text": "orchestration UI for managing AI agents built with the same keyboard driven that makes linear feel good to use. It"
+    },
+    {
+      "timestamp": "11:15",
+      "text": "supports the agent communication protocol so you can plug in multiple AI providers and manage everything from one interface instead of juggling separate dashboards per service."
+    },
+    {
+      "timestamp": "11:26",
+      "text": "Setting up a bare metal VPS from scratch usually requires an hour of reading outdated tutorials. VPS Kit does it in one bash command. System updates,"
+    },
+    {
+      "timestamp": "11:35",
+      "text": "protected user, hardened SSH, firewall config, Docker, and a caddyy reverse proxy with auto updates. No third party"
+    },
+    {
+      "timestamp": "11:42",
+      "text": "services, nothing phoning home. Clean, secure, deployment ready in minutes."
+    },
+    {
+      "timestamp": "11:48",
+      "text": "Paul Bakaus just dropped Radiant 80 plus productionready shaders and visual effects for the web. Fluid simulations, light refractions, particle effects."
+    },
+    {
+      "timestamp": "11:58",
+      "text": "Drop them directly into React or Vanilla.js and they work. No build setup, no third party packages to manage. If your current front end is"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "held together with CSS transitions and good intentions, this is a significant upgrade."
+    },
+    {
+      "timestamp": "12:12",
+      "text": "Otter.ai AI works, but a corporate bot sitting in your confidential meetings is a legitimate concern for a lot of teams."
+    },
+    {
+      "timestamp": "12:20",
+      "text": "Meet Scribe runs entirely on your machine. It captures both mic and system audio. Uses whisper and pionote offline"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "to separate speakers automatically, then generates a timestamp PDF summary through a local model. Works with Zoom,"
+    },
+    {
+      "timestamp": "12:35",
+      "text": "Teams, and Slack. For anyone handling sensitive conversations, that's the whole pitch."
+    },
+    {
+      "timestamp": "12:41",
+      "text": "Open Shell from Nvidia is a sandboxed runtime built specifically for autonomous agents. Deny by default network policies, strict file system"
+    },
+    {
+      "timestamp": "12:50",
+      "text": "restrictions. Your agent can run scripts, write code, and self-modify without any of that touching the host machine. If you're running clawed code"
+    },
+    {
+      "timestamp": "12:59",
+      "text": "or any autonomous agent around the clock, this is the layer that should be between it and your system."
+    },
+    {
+      "timestamp": "13:06",
+      "text": "Academic literature pipelines have an annoying gap between finding papers and actually having them locally for analysis. PaperdL closes it. It's a"
+    },
+    {
+      "timestamp": "13:16",
+      "text": "lightweight Python tool that takes JSON search results and automatically downloads the full PDFs from ERX"
+    },
+    {
+      "timestamp": "13:22",
+      "text": "directly to your machine. Clean, simple, and built specifically to feed a local rag powered research database."
+    },
+    {
+      "timestamp": "13:31",
+      "text": "Most scroll animation libraries are overkill for what most projects actually need. Data handles it with HTML data attributes and weighs under 3K gzipped."
+    },
+    {
+      "timestamp": "13:41",
+      "text": "30 plus animations, stagger effects, anti-out protection built in, and it works in any framework without configuration. Add the script, add the attributes, done."
+    },
+    {
+      "timestamp": "13:52",
+      "text": "Element source tells you exactly which file and line of code rendered any DOM element in your browser. works across"
+    },
+    {
+      "timestamp": "13:59",
+      "text": "React view. The practical use case for AI development is direct. Your agent clicks an element on screen and opens the exact source line that produced it."
+    },
+    {
+      "timestamp": "14:09",
+      "text": "No hunting through the component tree."
+    },
+    {
+      "timestamp": "14:11",
+      "text": "No guessing at file paths. Built originally for contextaware AI tooling, but useful for anyone doing serious debugging work."
+    },
+    {
+      "timestamp": "14:20",
+      "text": "Someone taught a humanoid robot to play tennis and the training data was 5 hours of imperfect amateur movement captured outside a lab. That's the part."
+    },
+    {
+      "timestamp": "14:31",
+      "text": "Not clean motion capture, not carefully curated demonstrations, just messy human footage fed into a latent action model."
+    },
+    {
+      "timestamp": "14:39",
+      "text": "The Unree G1 can now sidestep, adapt in real time, and sustain multi-shot rallies against actual human players."
+    },
+    {
+      "timestamp": "14:47",
+      "text": "If you're context switching between multiple git work trees and losing terminal state every time, Mory is built for exactly that. It gives each work"
+    },
+    {
+      "timestamp": "14:56",
+      "text": "tree its own persistent GPU accelerated workspace powered by T-Mo wrapped in a native Mac OS sidebar. Jump"
+    },
+    {
+      "timestamp": "15:05",
+      "text": "between branches and projects without losing what was running."
+    },
+    {
+      "timestamp": "15:09",
+      "text": "If you've ever fat fingered a curl command against a production endpoint, ARL is a reasonable response to that experience. It's a CLI tool written in"
+    },
+    {
+      "timestamp": "15:18",
+      "text": "Go that turns any API into a strongly typed interface. Native support for Open API 3.0, Swagger, and GraphQL. It"
+    },
+    {
+      "timestamp": "15:26",
+      "text": "autodetects authentication, validates your payload against the spec before sending, and generates documentation from introspection."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today I've handpicked 36 trending open source projects on GitHub. Tools, dev utilities, and some cool ideas that are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "blowing up. Let's dive into GitHub trending today number 27."
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chinichi is a beautifully opinionated journaling app. Most note-taking apps overwhelm you with folders, tags, and templates. Ichinichi just gives you one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "note per day. And here is the catch. You cannot edit yesterday's note. What is done is done. It stores everything"
+        }
+      ]
+    },
+    {
+      "tStartMs": 30000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "locally with endtoend AES GCM encryption and forces you to stop fussing over the past so you can focus on building a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "daily writing habit. If you are tired of paying subscriptions for Screen Studio just to make a tutorial video, you need"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "this. Recordly is a screen recorder and editor built for Mac OS and Windows. You record your screen, it does the rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cursor animations, auto zoomins on clicks, webcam overlays. Looks like you spent hours editing. You didn't. If"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you're a developer shipping demo videos, there's no reason to keep paying for the alternative."
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Notchi puts a animated pixel sprite in your MacBook notch. That's the whole pitch. It sits quietly in the menu bar"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "until your clawed code or terminal AI starts running. Then a little character drops down and reacts to what it's doing in real time. It's basically a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tamagotchi for your coding agent. Does it make you more productive? No. Is it the best thing installed on my machine right now? Possibly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mirrorish went viral for a reason. A Sim City style engine that runs thousands of AI agents to forecast real world events"
+        }
+      ]
+    },
+    {
+      "tStartMs": 100000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "based on live news. The catch was the cloud API costs which made it impractical for most people to actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 107000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "run. Someone fixed that. Mirrorish offline strips out the cloud dependencies entirely and replaces them with a local Neo Forj graph database and Olama models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gabul is a web assembly interpreter written from scratch in Rust. The name is funny. What it does is not. The whole"
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "thing is fully snapshotable. Freeze the entire execution state mid-tick, serialize it, spin up new processes from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 133000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that exact point, and watch them diverge. It also ships with a time travel debugger. If you've spent any time doing low-level systems work, you know how hard this is to pull off."
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Antfly is a distributed multimodal search engine written in Go. It combines full text BM25 search, vector"
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "similarity, and graph traversal all into a single binary backed by the Pebble storage engine and ets library. It even"
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ships with built-in ML inference. You don't need external APIs for embeddings."
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Antfly handles the entire rag memory pipeline out of the box."
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Are you drowning in a sea of overlapping terminal windows? Horizon is a GPU accelerated spatial terminal observatory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built in Rust. Instead of tabs or split panes, Horizon places your terminals, AI agents, and dev tools onto an infinite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zoomable canvas. It operates just like a miro board or Figma canvas, allowing you to organize, pan, and zoom around your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "active sessions, so you never lose track of a running script. Again, the slug font rendering algorithm just went MIT"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "licensed. If you don't know Slug, it's Eric Lenel's GPU text method. Dynamic dilation, custom HLSL shaders, genuinely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast and crisp output. It was previously patent locked, which kept it out of most independent projects entirely. That's done. Now, the reference code is public,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 218000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "free to use, and directly applicable to any custom game engine or graphics pipeline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open CLI turns any website or Electron app into a command line interface. By using a secure Chrome extension bridge,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it reuses your active logged browser session so your terminal can interact directly with sites like Twitter, Reddit, or YouTube without complex API"
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "off. It can clify Electron apps, meaning you can literally have an AI agent living in your terminal that autonomously drives and controls other AI desktop apps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Enro works, but you're paying for it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Slim doesn't cost anything. It's a lightweight CLI tool written in Go. One command exposes your local server via"
+        }
+      ]
+    },
+    {
+      "tStartMs": 261000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "public slim.show URL. It also generates trusted root certificates for clean https.local local domains and handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cores and websockets without any extra configuration. For web hook testing and local dev work, it covers everything enro."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI agents today are a mess of config files, database state, and Python code scattered across a project. Gent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "puts all of it in a git repo, prompts, rules, memory, tools extracted into a portable format that lives entirely in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "version control. Clone the repo, get a fully functional agent. That's it. The version control angle alone is worth"
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "paying attention to. If you're on KD Plasma 6 and the default kickoff menu isn't doing it for you, App Grid is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "straight upgrade. It's a full screen grid style app launcher. Think Mac OS Launchpad with some cosmic desktop influence mixed in. Background blur,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 316000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "smooth animations, folder support, and CakeRunner search built in. Linux desktop customization has quietly gotten very good. This is a solid example of that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most meeting transcribers just record what happened. Open is doing something different. It runs completely offline on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mac, transcribing both sides of a call in real time. But while you're talking, it's also searching your local markdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "notes. And when a relevant topic comes up, it surfaces the right talking points on screen live mid conversation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Building terminal UIs usually means calculating grid coordinates by hand and guessing at layouts until something looks right. Tua Studio skips all of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that. It's a visual drag and drop editor for terminal app layouts. Drop components onto a canvas, tweak flexbox and grid settings visually and see a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "live Anie preview as you go. When you're done, export directly to ink, bubble tea, or textual."
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every developer has a branch somewhere with 40 commits that just say fix or try again. That's what testing GitHub"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actions in production looks like. Actron runs your entire CI/CD pipeline locally before you push anything. It's built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 390000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "moon bit cross-co compiles natively and works via docker or npx if you'd rather not install anything. No more polluting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your commit history to debug a broken workflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 402000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "General purpose AI coding agents and data warehouses are a bad combination."
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wrong table names, broken joins, hallucinated column references. Ultimate code is built specifically for data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engineering. Instead of guessing at your schema, it queries your actual catalog locally in 2 milliseconds without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 420000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "touching the warehouse. It understands DBT, knows your lineage, and ships with 100 plus purpose-built tools for Snowflake and BigQuery."
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What if you could watch your AI agents work in a 3D virtual office? Claw 3D does exactly that. It's a fully"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "open-source 3D environment for your OpenClaw workforce. Walk around the office, drag and drop furniture, put on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "background music. When an agent is reviewing a pull request, walk up to their virtual desk and see the code diffs on their screen. It basically"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "turns your AI infrastructure into the SIMS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If JSON.stringify is becoming a bottleneck, RX is worth benchmarking against your current setup. It's a binary encoding format and drop in JSON"
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replacement. The numbers are hard to ignore. 18x smaller output through string dduplication and binary encoded"
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "numbers. For single key lookups, it skips to serialization entirely using zero allocation JavaScript proxies,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "which puts it at 23,000x faster than standard JSON parsing in that scenario."
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Postman works, but 800 megabytes of RAM and a mandatory cloud account to test a local endpoint is a hard cell in 2026."
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "API is built with Tori v2 and Rust, idles at 60 megabytes, and has no cloud telemetry at all. Your collections save"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as plain YAML files on your file system, so they version control cleanly with Git. Fast, private, and your data stays on your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI coding agents building front-end UIs always default to the same generic look."
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Purple gradients, default interfonts, nested cards everywhere. Impeccable fixes that. It's an installable design"
+        }
+      ]
+    },
+    {
+      "tStartMs": 524000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "skill for clawed code that acts as an expert creative director. 20 steering commands and curated antiatterns that explicitly force the AI to avoid cliche"
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UI tropes. Turn your LLM into a master of modern front-end design."
+        }
+      ]
+    },
+    {
+      "tStartMs": 539000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Translation SAS adds up fast and most of it is just a wrapper around APIs you could call yourself. My translator skips"
+        }
+      ]
+    },
+    {
+      "tStartMs": 546000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the middleman entirely. It's open source, runs on Mac OS and Windows and does realtime speech translation on your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 553000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "desktop using free TTS engines. Plug in your own API keys and that's it. No subscription, no data routed through someone else's servers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 563000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Managing multiple AI agents right now means scattered terminal panes, constant app switching, and no real picture of what's running where. Collaborator puts everything on a single infinite canvas."
+        }
+      ]
+    },
+    {
+      "tStartMs": 575000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Terminals, context files, running code, all arranged spatially on a pan and zoom workspace built for Mac OS. No tab hunting, no context switching."
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Paste a URL, get the brand kit. Open Brand scrapes any website and pulls out the logos, exact hex color palettes, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 593000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "core visual assets automatically. No digging through dev tools, no manually eyropping colors off a screenshot for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 600000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "competitive research or seeding an AI design system. It cuts out a genuinely tedious part of the process."
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Getting rejected by Apple review cycle is one of the more demoralizing parts of iOS development. App Store pre-flight"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs before you submit. It pulls your app metadata and checks it against 100 plus Apple review guidelines, flagging"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "missing privacy manifests, competitor mentions, and banned AI keywords before any human reviewer sees it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 630000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reddus is solid, but the singlethreaded architecture starts showing its limits at scale. Lux is a drop-in replacement"
+        }
+      ]
+    },
+    {
+      "tStartMs": 637000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "written in Rust. Full recipe protocol compatibility, so existing Reddus clients work without any code changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Benchmarks show up to 5 6x faster performance and the Docker image comes in at 1 megabytes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're hitting Reddus bottlenecks and don't want to rewrite your client layer, this is the straightforward path forward."
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI agent dashboards feel like they were designed as an afterthought. Fabro is clearly not that. It's an open-source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "orchestration UI for managing AI agents built with the same keyboard driven that makes linear feel good to use. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 675000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports the agent communication protocol so you can plug in multiple AI providers and manage everything from one interface instead of juggling separate dashboards per service."
+        }
+      ]
+    },
+    {
+      "tStartMs": 686000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Setting up a bare metal VPS from scratch usually requires an hour of reading outdated tutorials. VPS Kit does it in one bash command. System updates,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "protected user, hardened SSH, firewall config, Docker, and a caddyy reverse proxy with auto updates. No third party"
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "services, nothing phoning home. Clean, secure, deployment ready in minutes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Paul Bakaus just dropped Radiant 80 plus productionready shaders and visual effects for the web. Fluid simulations, light refractions, particle effects."
+        }
+      ]
+    },
+    {
+      "tStartMs": 718000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drop them directly into React or Vanilla.js and they work. No build setup, no third party packages to manage. If your current front end is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "held together with CSS transitions and good intentions, this is a significant upgrade."
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Otter.ai AI works, but a corporate bot sitting in your confidential meetings is a legitimate concern for a lot of teams."
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Scribe runs entirely on your machine. It captures both mic and system audio. Uses whisper and pionote offline"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to separate speakers automatically, then generates a timestamp PDF summary through a local model. Works with Zoom,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 755000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Teams, and Slack. For anyone handling sensitive conversations, that's the whole pitch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Shell from Nvidia is a sandboxed runtime built specifically for autonomous agents. Deny by default network policies, strict file system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "restrictions. Your agent can run scripts, write code, and self-modify without any of that touching the host machine. If you're running clawed code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 779000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or any autonomous agent around the clock, this is the layer that should be between it and your system."
+        }
+      ]
+    },
+    {
+      "tStartMs": 786000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Academic literature pipelines have an annoying gap between finding papers and actually having them locally for analysis. PaperdL closes it. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 796000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lightweight Python tool that takes JSON search results and automatically downloads the full PDFs from ERX"
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly to your machine. Clean, simple, and built specifically to feed a local rag powered research database."
+        }
+      ]
+    },
+    {
+      "tStartMs": 811000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most scroll animation libraries are overkill for what most projects actually need. Data handles it with HTML data attributes and weighs under 3K gzipped."
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "30 plus animations, stagger effects, anti-out protection built in, and it works in any framework without configuration. Add the script, add the attributes, done."
+        }
+      ]
+    },
+    {
+      "tStartMs": 832000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Element source tells you exactly which file and line of code rendered any DOM element in your browser. works across"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "React view. The practical use case for AI development is direct. Your agent clicks an element on screen and opens the exact source line that produced it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 849000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No hunting through the component tree."
+        }
+      ]
+    },
+    {
+      "tStartMs": 851000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No guessing at file paths. Built originally for contextaware AI tooling, but useful for anyone doing serious debugging work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 860000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone taught a humanoid robot to play tennis and the training data was 5 hours of imperfect amateur movement captured outside a lab. That's the part."
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Not clean motion capture, not carefully curated demonstrations, just messy human footage fed into a latent action model."
+        }
+      ]
+    },
+    {
+      "tStartMs": 879000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The Unree G1 can now sidestep, adapt in real time, and sustain multi-shot rallies against actual human players."
+        }
+      ]
+    },
+    {
+      "tStartMs": 887000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're context switching between multiple git work trees and losing terminal state every time, Mory is built for exactly that. It gives each work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 896000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tree its own persistent GPU accelerated workspace powered by T-Mo wrapped in a native Mac OS sidebar. Jump"
+        }
+      ]
+    },
+    {
+      "tStartMs": 905000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between branches and projects without losing what was running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 909000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever fat fingered a curl command against a production endpoint, ARL is a reasonable response to that experience. It's a CLI tool written in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 918000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go that turns any API into a strongly typed interface. Native support for Open API 3.0, Swagger, and GraphQL. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 926000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "autodetects authentication, validates your payload against the spec before sending, and generates documentation from introspection."
+        }
+      ]
+    }
+  ]
+}

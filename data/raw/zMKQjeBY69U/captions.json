@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is Hacker News show episode 3. 34 projects. All the best from this week's show. Hn."
+    },
+    {
+      "timestamp": "0:08",
+      "text": "Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Seekite's portability is the appeal, but latency kills it the moment your data lives in the cloud. Turbolite is a"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "seeite virtual file system written in Rust that serves queries directly from S3 buckets. ZSTD page level compression"
+    },
+    {
+      "timestamp": "0:26",
+      "text": "and intelligent B tree prefetching bring cold join queries under 250 milliseconds over the network. Local database"
+    },
+    {
+      "timestamp": "0:33",
+      "text": "performance cloud storage scale. The gap between the two just got a lot smaller."
+    },
+    {
+      "timestamp": "0:39",
+      "text": "Every Elixir stack eventually gets a no.js process bolted on for JavaScript SSR and it never feels clean. QuickBam"
+    },
+    {
+      "timestamp": "0:47",
+      "text": "fixes that by embedding a full JavaScript runtime directly inside the Erlang VM. JS environments run as native gen server processes inside your OTP"
+    },
+    {
+      "timestamp": "0:55",
+      "text": "supervision trees. Elixir spawns isolated runtimes, sends messages, sets memory limits for untrusted code."
+    },
+    {
+      "timestamp": "1:04",
+      "text": "Standard vector search with metadata filtering is a two-step problem. Find the nearest neighbors, then filter, which means you're doing extra work on results you're going to discard anyway."
+    },
+    {
+      "timestamp": "1:15",
+      "text": "DUTDBNSW ACORN pushes the filtering directly into the HNSW traversal graph using the Acorn 1 algorithm. The"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "metadata filter runs during the search rather than after it, which means faster queries and higher recall on filtered results."
+    },
+    {
+      "timestamp": "1:32",
+      "text": "Running autonomous agents means being tethered to your laptop to catch when something needs attention. PO connects"
+    },
+    {
+      "timestamp": "1:39",
+      "text": "to a local Damon on your machine and lets you monitor and control your agents from your phone, desktop, or terminal."
+    },
+    {
+      "timestamp": "1:46",
+      "text": "Voice mode, dictation, workree support, and an encrypted remote relay with your code staying on your own hardware the entire time."
+    },
+    {
+      "timestamp": "1:55",
+      "text": "Cloud code starts every session without memory of what came before. Claw mem fixes that. It's a local memory context"
+    },
+    {
+      "timestamp": "2:03",
+      "text": "engine for clawed code and openclaw that runs hybrid rag retrieval on your GPU."
+    },
+    {
+      "timestamp": "2:08",
+      "text": "Semantic search, cross-enccoder ranking, and self-evolving memory notes all fused into a single light vault. Your agents"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "permanently remember your project architecture, coding preferences, and outstanding context across sessions."
+    },
+    {
+      "timestamp": "2:23",
+      "text": "Locking your Mac to step away and accidentally killing a longunning agent session is a specific kind of frustrating. Lockpaw is a 3.4 megabyte"
+    },
+    {
+      "timestamp": "2:33",
+      "text": "native Mac OS app that drops a black privacy screen and blocks input without triggering sleep. Agents keep running."
+    },
+    {
+      "timestamp": "2:40",
+      "text": "Display stays dark. Touch ID brings it back instantly. The missing sleep mode for people running autonomous agents."
+    },
+    {
+      "timestamp": "2:48",
+      "text": "Packaging AI agents for different environments usually means rewriting deployment logic for each one. Odyssey is a bundle first agent runtime written"
+    },
+    {
+      "timestamp": "2:57",
+      "text": "in Rust that lets you define an agent once and run the same artifact across your local terminal, embedded SDKs, and"
+    },
+    {
+      "timestamp": "3:04",
+      "text": "shared runtime servers. Strict OS level sandboxing included regardless of where it runs."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "Carpathy's auto research concept sparked a wave of community adaptations and awesome auto research curates all of"
+    },
+    {
+      "timestamp": "3:18",
+      "text": "them in one place. GPU kernel optimization, novel writing, codebase improvement, prompt engineering, the"
+    },
+    {
+      "timestamp": "3:26",
+      "text": "community has applied the endless loop structure to almost everything imaginable. If you want a map of where autonomous self-improvement research is"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "actually heading in practice, this is the repository worth bookmarking."
+    },
+    {
+      "timestamp": "3:40",
+      "text": "Julia developers have been stuck with general purpose idees that weren't built with the language in mind. Juel ID is a"
+    },
+    {
+      "timestamp": "3:46",
+      "text": "dedicated Julia editor built with Tori, React, and Rust. Full language server protocol integration, a debugger, and"
+    },
+    {
+      "timestamp": "3:54",
+      "text": "inline execution packaged into a 10 megabyte install. Purpose-built tooling for a language that deserved it a long time ago."
+    },
+    {
+      "timestamp": "4:03",
+      "text": "Eroko is a fitness web app built entirely with vanilla.js and native web components. No React, no node modules, no framework overhead. Runs completely"
+    },
+    {
+      "timestamp": "4:12",
+      "text": "offline. Stores health data locally encrypted with AESGCM via index DB."
+    },
+    {
+      "timestamp": "4:18",
+      "text": "Fast, private, and your data never touches a server. Most advanced fitness web app in history is a bold claim, but the engineering decisions behind it are genuinely sound."
+    },
+    {
+      "timestamp": "4:28",
+      "text": "Druids is a reference architecture for building domainspecific AI skills for clawed code. installable skills designed"
+    },
+    {
+      "timestamp": "4:36",
+      "text": "to navigate complex design systems, execute visual iterations, and run regimen verifications autonomously. Less"
+    },
+    {
+      "timestamp": "4:43",
+      "text": "a finished product and more a masterclass in how to structure custom agent tooling properly."
+    },
+    {
+      "timestamp": "4:50",
+      "text": "Foundry is a CMS written in Go that uses markdown files as the source of truth."
+    },
+    {
+      "timestamp": "4:54",
+      "text": "No database required, API first architecture, a clean admin UI, and a plug-in system that extends both the"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "backend and front end. blogs, documentation sites, landing pages, all driven by files you already own. For anyone who's overengineered a content"
+    },
+    {
+      "timestamp": "5:10",
+      "text": "site with a database it didn't need, this is the simpler path."
+    },
+    {
+      "timestamp": "5:15",
+      "text": "Outworked gives every clawed code agent its own pixel art sprite sitting at a desk in an 8-bit office. You're the"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "boss, they're the employees. Assign tasks, watch them walk around the screen, and collaborate while they write your code. completely unnecessary,"
+    },
+    {
+      "timestamp": "5:32",
+      "text": "deeply charming, and somehow makes waiting for an agent to finish feel more entertaining."
+    },
+    {
+      "timestamp": "5:39",
+      "text": "Adding semantic search to an existing Postgres SQL database usually means schema changes, new infrastructure, or"
+    },
+    {
+      "timestamp": "5:46",
+      "text": "migrating your data somewhere else. PG Semantic skips all of that. Install it, point it at your database, pick a text"
+    },
+    {
+      "timestamp": "5:53",
+      "text": "column, and it syncs rows and generates embeddings in the background without touching your schema. Search gets exposed natively to AI agents as well."
+    },
+    {
+      "timestamp": "6:03",
+      "text": "Aladd local runs real-time conversational AI with voice cloning entirely on Apple silicon. Nothing sent"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "to the cloud. An ESP32 microcontroller connects via websocket transport, turning cheap hardware into a responsive"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "multilingual AI companion running off your local models. For anyone who's wanted to build a physical AI device without handing every conversation to a"
+    },
+    {
+      "timestamp": "6:26",
+      "text": "cloud provider, this is the open-source foundation worth building on."
+    },
+    {
+      "timestamp": "6:32",
+      "text": "Want an AI co-worker but terrified of giving them unsupervised access to your company data? Relay is the open- source alternative to clawed co-work. It runs"
+    },
+    {
+      "timestamp": "6:41",
+      "text": "on your own infrastructure and unlike every other agent framework, it doesn't just run loose. Your AI writes a plan first, then stops for approval before"
+    },
+    {
+      "timestamp": "6:50",
+      "text": "pushing code, updating Jira, or messaging a client. You control what executes."
+    },
+    {
+      "timestamp": "6:57",
+      "text": "Working with complex JSON in the terminal is a guessing game. You write a JQ filter, run it, get nothing, tweak"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "it, repeat. Jed kills that loop. It's an interactive terminal tool that lets you drill into JSON in real time. Autocomp"
+    },
+    {
+      "timestamp": "7:11",
+      "text": "completes fields as you type, tab through nested arrays, and shows matching data instantly. Full JME path support installs via homebrew in"
+    },
+    {
+      "timestamp": "7:19",
+      "text": "seconds. Once you use it, going back feels absurd."
+    },
+    {
+      "timestamp": "7:23",
+      "text": "LLM powered web scraping pipelines fail the moment the model returns malformed JSON, and they fail silently in the"
+    },
+    {
+      "timestamp": "7:30",
+      "text": "worst cases. Light Feed Extractor pairs Playright browser automation with Zod schema validation and custom recovery"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "logic that salvages usable data from broken AI outputs instead of crashing."
+    },
+    {
+      "timestamp": "7:43",
+      "text": "Partial results beat no results when a pipeline needs to keep running."
+    },
+    {
+      "timestamp": "7:48",
+      "text": "Reinforcement learning for LLMs requires consistent well-defined reward signals and building that infrastructure from scratch for every project is redundant"
+    },
+    {
+      "timestamp": "7:57",
+      "text": "work. Verifiers provides a standardized harness for training environments, sandboxes, and reward rubrics. Synthetic"
+    },
+    {
+      "timestamp": "8:05",
+      "text": "data generation, multi-turn puzzle evaluation, capability scoring, the infrastructure layer that lets you focus on the research rather than the scaffolding around it."
+    },
+    {
+      "timestamp": "8:16",
+      "text": "Zorgs and Janu Parallel get the job done until you're running on modern multisocket hardware and the crossocket memory traffic becomes the bottleneck."
+    },
+    {
+      "timestamp": "8:25",
+      "text": "Forkrun is a drop-in replacement written entirely in bash using copros with a numaware design that keeps memory"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "traffic local to each socket up to 400x faster than existing tools on modern CPUs."
+    },
+    {
+      "timestamp": "8:40",
+      "text": "FIO is a brushbased CSG 3D world editor and game engine built in Python and Py OpenGL directly inspired by Quake's"
+    },
+    {
+      "timestamp": "8:48",
+      "text": "Radiant and Valve's Hammer. Unified forward renderer, real-time lighting, and stencil shadows, all in a tool that captures the workflow of the editors that defined an era of level design."
+    },
+    {
+      "timestamp": "9:00",
+      "text": "Git repos get scanned for secrets routinely. Docker image layers get ignored and that's where things get quietly dangerous. Layer Leak tears"
+    },
+    {
+      "timestamp": "9:09",
+      "text": "apart DockerHub image histories and metadata hunting for accidentally bakedin API keys and secrets. Completely"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "agentless. No infrastructure required to run it. If you're pushing images to DockerHub and haven't scanned the layers, this should be the next thing you run."
+    },
+    {
+      "timestamp": "9:27",
+      "text": "Managing multiple AI coding sessions across terminal tabs with no structure is a chaos that compounds fast. Anvil is"
+    },
+    {
+      "timestamp": "9:34",
+      "text": "a desktop IDE built specifically for parallel agent work. Agents organized into an interactive grid, each running in an isolated git work tree, so"
+    },
+    {
+      "timestamp": "9:43",
+      "text": "multiple agents code simultaneously without stepping on each other. More agents, actual coordination between them."
+    },
+    {
+      "timestamp": "9:52",
+      "text": "Multiple AI agents working the same repository simultaneously is a new problem and file level merge conflicts"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "are the predictable result. WIT is a lightweight coordination demon that tracks agent states in a local SQLite"
+    },
+    {
+      "timestamp": "10:06",
+      "text": "database. An agent locks a specific symbol before editing it, and any other agent attempting the same function gets"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "a lock conflict warning with details on who holds the lock. Razer's official Mac OS support has always been inconsistent,"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "and some newer mice get left out entirely. Open Snack is a 7 megabyte native Mac app built by reverse engineering the Bluetooth low energy"
+    },
+    {
+      "timestamp": "10:30",
+      "text": "protocol. Button remapping, DPI adjustment, RGB control, no cloud telemetry, no Synapse required for Razer"
+    },
+    {
+      "timestamp": "10:39",
+      "text": "mouse owners on Mac who've been stuck with default settings. This is the fix that should have shipped officially."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "Giving an AI agent terminal access without any layer of control between it and your system is a risk most people are quietly accepting. Sentinel Gate"
+    },
+    {
+      "timestamp": "10:54",
+      "text": "sits between your agent and your system as an MCP proxy firewall, intercepting every tool call and evaluating it"
+    },
+    {
+      "timestamp": "11:02",
+      "text": "against role-based access control and CEL policies before anything executes."
+    },
+    {
+      "timestamp": "11:07",
+      "text": "Dangerous commands get blocked instantly and a full audit trail captures everything."
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Moonshine beats Whisper Large V3 on accuracy at a fraction of the size, but integrating raw speech models means"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "handling audio chunking, voice activity detection, and streaming buffers yourself. Moonshine Flow abstracts all"
+    },
+    {
+      "timestamp": "11:27",
+      "text": "of that. It's a lightweight pipeline that handles the messy audio processing and streams live transcription directly into your LLM or agent workflow."
+    },
+    {
+      "timestamp": "11:37",
+      "text": "Realtime local voice input reduced to a single line of code."
+    },
+    {
+      "timestamp": "11:41",
+      "text": "Terraform brought infrastructure under version control and declarative management. Orge does the same for AI agents. Define agents, tools,"
+    },
+    {
+      "timestamp": "11:50",
+      "text": "permissions, and pipelines as YAML manifests. Orage handles scheduling, Kubernetes style execution, and inline"
+    },
+    {
+      "timestamp": "11:57",
+      "text": "policy enforcement. Your entire agent swarm in Git, deployable, and auditable the same way your infrastructure is."
+    },
+    {
+      "timestamp": "12:05",
+      "text": "Google's causal impact is the gold standard for causal inference. But the Python ports have always been compromised versions of the original R"
+    },
+    {
+      "timestamp": "12:12",
+      "text": "implementation. This rewrite puts the Gibb sampler in Rust and exposes it via Python. No TensorFlow dependency,"
+    },
+    {
+      "timestamp": "12:21",
+      "text": "100% mathematical par with the original R library, and 30x faster. The Python port that finally doesn't make you wish you just used R."
+    },
+    {
+      "timestamp": "12:32",
+      "text": "Standard RG memory flattens everything and wastes tokens. Breathe memory works differently. two phases. Before each"
+    },
+    {
+      "timestamp": "12:40",
+      "text": "response, Synapse extracts entities, traverses a concept graph, and injects only relevant memories into the prompt in under 60 milliseconds. When the"
+    },
+    {
+      "timestamp": "12:48",
+      "text": "context fills, graph compactor kicks in instead of a lossy summary. It compresses the conversation into a structured graph of topics, decisions, and artifacts."
+    },
+    {
+      "timestamp": "12:59",
+      "text": "Web XML 2 going unmaintained left a critical gap in the XML parsing ecosystem that a huge amount of software depends on. XML Oxide fills it. A"
+    },
+    {
+      "timestamp": "13:08",
+      "text": "developer used an autonomous AI agent to iteratively rebuild the entire library in Rust, producing a memory safe, high"
+    },
+    {
+      "timestamp": "13:15",
+      "text": "performance XML parser with a CAPI that passes 100% of the W3C conformance tests."
+    },
+    {
+      "timestamp": "13:22",
+      "text": "Orca from Stably AI puts everything on a spatial canvas. Multiple coding agents running simultaneously across isolated"
+    },
+    {
+      "timestamp": "13:30",
+      "text": "work trees with native terminal tracking notifications and git status all visible in one place. The terminal tab hunting stops. The unified control plane begins."
+    },
+    {
+      "timestamp": "13:41",
+      "text": "For anyone running serious multi-agent workflows who's outgrown the scattered terminal approach, this is the IDE that was built for exactly that problem."
+    },
+    {
+      "timestamp": "13:51",
+      "text": "Switching to a browser to check server metrics when you're already in the terminal is an unnecessary context switch. Graphana t connects directly to"
+    },
+    {
+      "timestamp": "13:59",
+      "text": "your graphana instance and renders dashboards in the terminal using go and bubble t time series data bar charts and"
+    },
+    {
+      "timestamp": "14:07",
+      "text": "heat maps all in the command line your metrics without leaving where you already are."
+    },
+    {
+      "timestamp": "14:13",
+      "text": "Standard LLM gateways expose API endpoints over the network and hope your perimeter holds. LLM gateway from open"
+    },
+    {
+      "timestamp": "14:21",
+      "text": "zidy takes a different approach. Zero open listening ports, cryptographic identity enforcement and semantic routing across multiple inference"
+    },
+    {
+      "timestamp": "14:29",
+      "text": "instances using open zites zero trust overlay for enterprises routing open AAI and anthropic traffic at scale. This is"
+    },
+    {
+      "timestamp": "14:37",
+      "text": "the security architecture that treats the network itself as untrusted."
+    },
+    {
+      "timestamp": "14:42",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is Hacker News show episode 3. 34 projects. All the best from this week's show. Hn."
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Seekite's portability is the appeal, but latency kills it the moment your data lives in the cloud. Turbolite is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seeite virtual file system written in Rust that serves queries directly from S3 buckets. ZSTD page level compression"
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and intelligent B tree prefetching bring cold join queries under 250 milliseconds over the network. Local database"
+        }
+      ]
+    },
+    {
+      "tStartMs": 33000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "performance cloud storage scale. The gap between the two just got a lot smaller."
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every Elixir stack eventually gets a no.js process bolted on for JavaScript SSR and it never feels clean. QuickBam"
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fixes that by embedding a full JavaScript runtime directly inside the Erlang VM. JS environments run as native gen server processes inside your OTP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supervision trees. Elixir spawns isolated runtimes, sends messages, sets memory limits for untrusted code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Standard vector search with metadata filtering is a two-step problem. Find the nearest neighbors, then filter, which means you're doing extra work on results you're going to discard anyway."
+        }
+      ]
+    },
+    {
+      "tStartMs": 75000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DUTDBNSW ACORN pushes the filtering directly into the HNSW traversal graph using the Acorn 1 algorithm. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "metadata filter runs during the search rather than after it, which means faster queries and higher recall on filtered results."
+        }
+      ]
+    },
+    {
+      "tStartMs": 92000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Running autonomous agents means being tethered to your laptop to catch when something needs attention. PO connects"
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to a local Damon on your machine and lets you monitor and control your agents from your phone, desktop, or terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Voice mode, dictation, workree support, and an encrypted remote relay with your code staying on your own hardware the entire time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 115000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloud code starts every session without memory of what came before. Claw mem fixes that. It's a local memory context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engine for clawed code and openclaw that runs hybrid rag retrieval on your GPU."
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Semantic search, cross-enccoder ranking, and self-evolving memory notes all fused into a single light vault. Your agents"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "permanently remember your project architecture, coding preferences, and outstanding context across sessions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Locking your Mac to step away and accidentally killing a longunning agent session is a specific kind of frustrating. Lockpaw is a 3.4 megabyte"
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "native Mac OS app that drops a black privacy screen and blocks input without triggering sleep. Agents keep running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Display stays dark. Touch ID brings it back instantly. The missing sleep mode for people running autonomous agents."
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Packaging AI agents for different environments usually means rewriting deployment logic for each one. Odyssey is a bundle first agent runtime written"
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in Rust that lets you define an agent once and run the same artifact across your local terminal, embedded SDKs, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shared runtime servers. Strict OS level sandboxing included regardless of where it runs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Carpathy's auto research concept sparked a wave of community adaptations and awesome auto research curates all of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 198000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them in one place. GPU kernel optimization, novel writing, codebase improvement, prompt engineering, the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "community has applied the endless loop structure to almost everything imaginable. If you want a map of where autonomous self-improvement research is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually heading in practice, this is the repository worth bookmarking."
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Julia developers have been stuck with general purpose idees that weren't built with the language in mind. Juel ID is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dedicated Julia editor built with Tori, React, and Rust. Full language server protocol integration, a debugger, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inline execution packaged into a 10 megabyte install. Purpose-built tooling for a language that deserved it a long time ago."
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Eroko is a fitness web app built entirely with vanilla.js and native web components. No React, no node modules, no framework overhead. Runs completely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "offline. Stores health data locally encrypted with AESGCM via index DB."
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fast, private, and your data never touches a server. Most advanced fitness web app in history is a bold claim, but the engineering decisions behind it are genuinely sound."
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Druids is a reference architecture for building domainspecific AI skills for clawed code. installable skills designed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 276000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to navigate complex design systems, execute visual iterations, and run regimen verifications autonomously. Less"
+        }
+      ]
+    },
+    {
+      "tStartMs": 283000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a finished product and more a masterclass in how to structure custom agent tooling properly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Foundry is a CMS written in Go that uses markdown files as the source of truth."
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No database required, API first architecture, a clean admin UI, and a plug-in system that extends both the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "backend and front end. blogs, documentation sites, landing pages, all driven by files you already own. For anyone who's overengineered a content"
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "site with a database it didn't need, this is the simpler path."
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Outworked gives every clawed code agent its own pixel art sprite sitting at a desk in an 8-bit office. You're the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "boss, they're the employees. Assign tasks, watch them walk around the screen, and collaborate while they write your code. completely unnecessary,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 332000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "deeply charming, and somehow makes waiting for an agent to finish feel more entertaining."
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Adding semantic search to an existing Postgres SQL database usually means schema changes, new infrastructure, or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "migrating your data somewhere else. PG Semantic skips all of that. Install it, point it at your database, pick a text"
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "column, and it syncs rows and generates embeddings in the background without touching your schema. Search gets exposed natively to AI agents as well."
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Aladd local runs real-time conversational AI with voice cloning entirely on Apple silicon. Nothing sent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to the cloud. An ESP32 microcontroller connects via websocket transport, turning cheap hardware into a responsive"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "multilingual AI companion running off your local models. For anyone who's wanted to build a physical AI device without handing every conversation to a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 386000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cloud provider, this is the open-source foundation worth building on."
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want an AI co-worker but terrified of giving them unsupervised access to your company data? Relay is the open- source alternative to clawed co-work. It runs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 401000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on your own infrastructure and unlike every other agent framework, it doesn't just run loose. Your AI writes a plan first, then stops for approval before"
+        }
+      ]
+    },
+    {
+      "tStartMs": 410000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pushing code, updating Jira, or messaging a client. You control what executes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 417000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Working with complex JSON in the terminal is a guessing game. You write a JQ filter, run it, get nothing, tweak"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it, repeat. Jed kills that loop. It's an interactive terminal tool that lets you drill into JSON in real time. Autocomp"
+        }
+      ]
+    },
+    {
+      "tStartMs": 431000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "completes fields as you type, tab through nested arrays, and shows matching data instantly. Full JME path support installs via homebrew in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "seconds. Once you use it, going back feels absurd."
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LLM powered web scraping pipelines fail the moment the model returns malformed JSON, and they fail silently in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 450000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "worst cases. Light Feed Extractor pairs Playright browser automation with Zod schema validation and custom recovery"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "logic that salvages usable data from broken AI outputs instead of crashing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 463000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Partial results beat no results when a pipeline needs to keep running."
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reinforcement learning for LLMs requires consistent well-defined reward signals and building that infrastructure from scratch for every project is redundant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "work. Verifiers provides a standardized harness for training environments, sandboxes, and reward rubrics. Synthetic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data generation, multi-turn puzzle evaluation, capability scoring, the infrastructure layer that lets you focus on the research rather than the scaffolding around it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zorgs and Janu Parallel get the job done until you're running on modern multisocket hardware and the crossocket memory traffic becomes the bottleneck."
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Forkrun is a drop-in replacement written entirely in bash using copros with a numaware design that keeps memory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "traffic local to each socket up to 400x faster than existing tools on modern CPUs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FIO is a brushbased CSG 3D world editor and game engine built in Python and Py OpenGL directly inspired by Quake's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 528000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Radiant and Valve's Hammer. Unified forward renderer, real-time lighting, and stencil shadows, all in a tool that captures the workflow of the editors that defined an era of level design."
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Git repos get scanned for secrets routinely. Docker image layers get ignored and that's where things get quietly dangerous. Layer Leak tears"
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apart DockerHub image histories and metadata hunting for accidentally bakedin API keys and secrets. Completely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agentless. No infrastructure required to run it. If you're pushing images to DockerHub and haven't scanned the layers, this should be the next thing you run."
+        }
+      ]
+    },
+    {
+      "tStartMs": 567000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Managing multiple AI coding sessions across terminal tabs with no structure is a chaos that compounds fast. Anvil is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a desktop IDE built specifically for parallel agent work. Agents organized into an interactive grid, each running in an isolated git work tree, so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 583000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "multiple agents code simultaneously without stepping on each other. More agents, actual coordination between them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 592000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Multiple AI agents working the same repository simultaneously is a new problem and file level merge conflicts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are the predictable result. WIT is a lightweight coordination demon that tracks agent states in a local SQLite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "database. An agent locks a specific symbol before editing it, and any other agent attempting the same function gets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a lock conflict warning with details on who holds the lock. Razer's official Mac OS support has always been inconsistent,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and some newer mice get left out entirely. Open Snack is a 7 megabyte native Mac app built by reverse engineering the Bluetooth low energy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 630000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "protocol. Button remapping, DPI adjustment, RGB control, no cloud telemetry, no Synapse required for Razer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 639000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mouse owners on Mac who've been stuck with default settings. This is the fix that should have shipped officially."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Giving an AI agent terminal access without any layer of control between it and your system is a risk most people are quietly accepting. Sentinel Gate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 654000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sits between your agent and your system as an MCP proxy firewall, intercepting every tool call and evaluating it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 662000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "against role-based access control and CEL policies before anything executes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dangerous commands get blocked instantly and a full audit trail captures everything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Moonshine beats Whisper Large V3 on accuracy at a fraction of the size, but integrating raw speech models means"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handling audio chunking, voice activity detection, and streaming buffers yourself. Moonshine Flow abstracts all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 687000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of that. It's a lightweight pipeline that handles the messy audio processing and streams live transcription directly into your LLM or agent workflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Realtime local voice input reduced to a single line of code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Terraform brought infrastructure under version control and declarative management. Orge does the same for AI agents. Define agents, tools,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 710000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "permissions, and pipelines as YAML manifests. Orage handles scheduling, Kubernetes style execution, and inline"
+        }
+      ]
+    },
+    {
+      "tStartMs": 717000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "policy enforcement. Your entire agent swarm in Git, deployable, and auditable the same way your infrastructure is."
+        }
+      ]
+    },
+    {
+      "tStartMs": 725000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Google's causal impact is the gold standard for causal inference. But the Python ports have always been compromised versions of the original R"
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "implementation. This rewrite puts the Gibb sampler in Rust and exposes it via Python. No TensorFlow dependency,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "100% mathematical par with the original R library, and 30x faster. The Python port that finally doesn't make you wish you just used R."
+        }
+      ]
+    },
+    {
+      "tStartMs": 752000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Standard RG memory flattens everything and wastes tokens. Breathe memory works differently. two phases. Before each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 760000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "response, Synapse extracts entities, traverses a concept graph, and injects only relevant memories into the prompt in under 60 milliseconds. When the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 768000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context fills, graph compactor kicks in instead of a lossy summary. It compresses the conversation into a structured graph of topics, decisions, and artifacts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 779000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Web XML 2 going unmaintained left a critical gap in the XML parsing ecosystem that a huge amount of software depends on. XML Oxide fills it. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 788000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "developer used an autonomous AI agent to iteratively rebuild the entire library in Rust, producing a memory safe, high"
+        }
+      ]
+    },
+    {
+      "tStartMs": 795000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "performance XML parser with a CAPI that passes 100% of the W3C conformance tests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 802000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Orca from Stably AI puts everything on a spatial canvas. Multiple coding agents running simultaneously across isolated"
+        }
+      ]
+    },
+    {
+      "tStartMs": 810000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "work trees with native terminal tracking notifications and git status all visible in one place. The terminal tab hunting stops. The unified control plane begins."
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone running serious multi-agent workflows who's outgrown the scattered terminal approach, this is the IDE that was built for exactly that problem."
+        }
+      ]
+    },
+    {
+      "tStartMs": 831000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Switching to a browser to check server metrics when you're already in the terminal is an unnecessary context switch. Graphana t connects directly to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your graphana instance and renders dashboards in the terminal using go and bubble t time series data bar charts and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 847000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "heat maps all in the command line your metrics without leaving where you already are."
+        }
+      ]
+    },
+    {
+      "tStartMs": 853000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Standard LLM gateways expose API endpoints over the network and hope your perimeter holds. LLM gateway from open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 861000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zidy takes a different approach. Zero open listening ports, cryptographic identity enforcement and semantic routing across multiple inference"
+        }
+      ]
+    },
+    {
+      "tStartMs": 869000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instances using open zites zero trust overlay for enterprises routing open AAI and anthropic traffic at scale. This is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 877000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the security architecture that treats the network itself as untrusted."
+        }
+      ]
+    },
+    {
+      "tStartMs": 882000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

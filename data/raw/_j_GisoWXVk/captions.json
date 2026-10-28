@@ -1,0 +1,1372 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. Today I've got 32 trending self-hosted projects from GitHub. Let's get into it."
+    },
+    {
+      "timestamp": "0:09",
+      "text": "Managing three separate calendars across Google, Outlook, and iCloud means double bookings are basically inevitable."
+    },
+    {
+      "timestamp": "0:16",
+      "text": "Keeper is a self-hosted sync tool that bridges all three, pulling events together so your availability is accurate everywhere. It also ships as an"
+    },
+    {
+      "timestamp": "0:25",
+      "text": "MCP server, so your local AI agents can read and manage your schedule directly."
+    },
+    {
+      "timestamp": "0:31",
+      "text": "Grimmeray is a self-hosted library manager for EPUBS, PDFs, and comics, including CBZ and CBR formats. Built-in"
+    },
+    {
+      "timestamp": "0:39",
+      "text": "browser reader, automatic metadata fetching, and reading progress sync directly to Coobo e-readers and OPDS compatible apps. Your entire digital"
+    },
+    {
+      "timestamp": "0:48",
+      "text": "library in one place with no Amazon account required to access it. For anyone who's been meaning to get their books off Kindle and onto their own hardware, this is the clean solution."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "Local stack pulling core services behind a payw wall hit a lot of local development setups hard. Minstack is the"
+    },
+    {
+      "timestamp": "1:06",
+      "text": "free replacement. It emulates 20 AWS services in a single Docker container."
+    },
+    {
+      "timestamp": "1:11",
+      "text": "But instead of mocking API responses, it spins up real Postgress databases, Reddus instances, and runs SQL through"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "duct DB. 30 megabytes of RAM boots in under two seconds. Point your existing code at port 4566 and nothing else changes."
+    },
+    {
+      "timestamp": "1:28",
+      "text": "Syncin server is a self-hosted alternative to Google Drive and Dropbox that you deploy on your own infrastructure. File storage, syncing,"
+    },
+    {
+      "timestamp": "1:37",
+      "text": "team collaboration, fine-rained access controls, multi-user support, modern interface, full ownership of your data."
+    },
+    {
+      "timestamp": "1:45",
+      "text": "For anyone who's been meaning to get their documents off someone else's servers, this is a complete solution rather than a partial one."
+    },
+    {
+      "timestamp": "1:53",
+      "text": "Most note-taking apps give you infinite flexibility and somehow make it harder to actually write anything. Itchy gives you one note per day. Once the day ends,"
+    },
+    {
+      "timestamp": "2:02",
+      "text": "that note is locked permanently. No going back to clean it up, reframe it, or second guess it. Everything stores"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "locally with AES GCM encryption. No folders, no tags, no organizational system to procrastinate inside."
+    },
+    {
+      "timestamp": "2:18",
+      "text": "Retro Assembly is a self-hosted retro game cabinet that runs in the browser."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "Spin it up with Docker, point it at your ROMs, and it handles the rest. Emulators stream directly to desktop or phone."
+    },
+    {
+      "timestamp": "2:29",
+      "text": "Game art pulls automatically, and save states sync across devices. Your entire retro library accessible from anywhere"
+    },
+    {
+      "timestamp": "2:37",
+      "text": "on hardware you actually own. Running multiple self-hosted services means juggling multiple notification APIs,"
+    },
+    {
+      "timestamp": "2:45",
+      "text": "each with their own setup and authentication. A prize replaces all of that with a single library. One line of code or a simple web hook sends alerts"
+    },
+    {
+      "timestamp": "2:54",
+      "text": "to Discord, Slack, Telegram, SMS, and 80 plus other platforms simultaneously. For any serious home lab setup, this is the"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "notification layer that should already be in the stack."
+    },
+    {
+      "timestamp": "3:06",
+      "text": "Prometheus and Net Data are powerful tools that carry a lot of weight for monitoring a single VPS. Kula is a"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "single compiled binary with no external dependencies and no database. It reads directly from the kernel/proc directory"
+    },
+    {
+      "timestamp": "3:21",
+      "text": "and serves a realtime metrics dashboard in the browser. Drop it on a server, run it, done. Monitoring that matches the scale of the problem."
+    },
+    {
+      "timestamp": "3:31",
+      "text": "Cloning a 5 GB repository to get two files out of it is one of those small inefficiencies that adds up to real"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "wasted time. GHG opens an interactive terminal UI from a GitHub link lets you browse the repo and downloads only the"
+    },
+    {
+      "timestamp": "3:45",
+      "text": "files you actually need. One command, pick what you want, skip the rest. WA Time is useful, but your coding habits"
+    },
+    {
+      "timestamp": "3:53",
+      "text": "are surprisingly personal data to be handing to a third party. ZT is a self-hosted alternative. Install the VS"
+    },
+    {
+      "timestamp": "4:01",
+      "text": "Code or Jet Brains extension and it tracks languages, editors, branches, and coding hours silently in the background."
+    },
+    {
+      "timestamp": "4:08",
+      "text": "The analytics dashboard runs from your own server. Same metrics, none of the data leaving your machine."
+    },
+    {
+      "timestamp": "4:15",
+      "text": "Plex home screens go stale fast when the same movies sit in the same collections for weeks. Home screen hero rotates and"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "curates your Plex collections on a schedule, pulling custom lists from tracked and letter boxed automatically."
+    },
+    {
+      "timestamp": "4:30",
+      "text": "There's also an admin dashboard for streaming analytics and content management. For anyone running Plex for a household or friend group, this is the"
+    },
+    {
+      "timestamp": "4:39",
+      "text": "curation layer the app never shipped with."
+    },
+    {
+      "timestamp": "4:42",
+      "text": "Planning a trip across multiple Google Docs and spreadsheets is a mess that somehow became the standard approach."
+    },
+    {
+      "timestamp": "4:49",
+      "text": "Trip is a self-hosted web app that lets you drop points of interest onto an interactive map and build day-by-day itineraries in one place. runs in a"
+    },
+    {
+      "timestamp": "4:58",
+      "text": "Docker container. No telemetry, no ads, location data stays on your own hardware."
+    },
+    {
+      "timestamp": "5:05",
+      "text": "Managing custom skills and tools across multiple AI agents with no central registry means the same capabilities get"
+    },
+    {
+      "timestamp": "5:12",
+      "text": "rebuilt or drift out of sync across different projects. Skillhub forly is a self-hosted registry for agent skills."
+    },
+    {
+      "timestamp": "5:20",
+      "text": "Publish, version, and share reusable AI tools across your organization the same way you'd manage packages or container"
+    },
+    {
+      "timestamp": "5:27",
+      "text": "images. Role-based access control builtin deployable on premise with Docker. Trip handles the minimalist case well."
+    },
+    {
+      "timestamp": "5:36",
+      "text": "Nomad is for when you're planning with a group and need the full stack. Realtime websocket collaboration so multiple people can edit the itinerary"
+    },
+    {
+      "timestamp": "5:44",
+      "text": "simultaneously. multicurrency budget splitting, interactive maps, automated packing lists, and a PTO tracker built"
+    },
+    {
+      "timestamp": "5:51",
+      "text": "in. The whole trip planning workflow self-hosted on your own server."
+    },
+    {
+      "timestamp": "5:57",
+      "text": "Most AI code review tools require sending your source code to someone else's servers. For proprietary code bases, that's a hard no for a lot of"
+    },
+    {
+      "timestamp": "6:06",
+      "text": "teams. Open Review from Versel Labs is self-hosted. deploy it on your own infrastructure, connect it as a private"
+    },
+    {
+      "timestamp": "6:13",
+      "text": "GitHub app, and it reviews pull requests automatically, catches bugs, and commits formatting fixes directly to the branch."
+    },
+    {
+      "timestamp": "6:21",
+      "text": "Most people running Claude Code have no real visibility into what their sessions are actually costing until the bill arrives. Rudell hooks into your"
+    },
+    {
+      "timestamp": "6:29",
+      "text": "terminal, uploads transcripts to a local ClickHouse database, and generates dashboards tracking token usage, session"
+    },
+    {
+      "timestamp": "6:37",
+      "text": "durations, and exact model costs, self-hosted, local, and finally answers the question of where all those tokens are actually going."
+    },
+    {
+      "timestamp": "6:47",
+      "text": "Most autonomous agent setups come with a Python environment, a list of dependencies, and an afternoon of configuration. Walrus is a single"
+    },
+    {
+      "timestamp": "6:55",
+      "text": "compiled binary built-in local LLM inference, persistent SQLite memory, and multi- channelannel support for terminal, Discord, and Telegram out of"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "the box. No cloud dependencies, no complex setup. The leanest possible path to a self-hosted AI worker that actually runs."
+    },
+    {
+      "timestamp": "7:13",
+      "text": "Longturn is a multiplayer civilization style game where each turn takes 23 real hours to complete. The server setup is"
+    },
+    {
+      "timestamp": "7:21",
+      "text": "straightforward enough, but the detail worth paying attention to is the automated cron job that runs an LLM after each turn to generate an"
+    },
+    {
+      "timestamp": "7:29",
+      "text": "inuniverse newspaper. Wars, alliances, and diplomatic events from the previous turn, summarized as period appropriate"
+    },
+    {
+      "timestamp": "7:37",
+      "text": "news coverage, ready when players log in for the next one. The Microtick Windbox interface has looked the same since most"
+    },
+    {
+      "timestamp": "7:45",
+      "text": "current developers were in middle school. Micro Dash is a self-hosted web dashboard that replaces it with real-time graphs for bandwidth, CPU load, and active client connections."
+    },
+    {
+      "timestamp": "7:56",
+      "text": "Same router, considerably better visibility into what it's actually doing. Network monitoring that doesn't require squinting at a UI from 2003."
+    },
+    {
+      "timestamp": "8:06",
+      "text": "Calling ML APIs teaches you to use ML."
+    },
+    {
+      "timestamp": "8:09",
+      "text": "Torch Code teaches you how it actually works. It's a self-hosted leak code style practice environment for PyTorch"
+    },
+    {
+      "timestamp": "8:16",
+      "text": "deployed via Docker. Implement core neural network operators from scratch, attention mechanisms, softmax, and more"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "with instant autograding and feedback on every attempt. For anyone serious about going deeper than the API surface, this"
+    },
+    {
+      "timestamp": "8:31",
+      "text": "is the practice environment worth grinding through."
+    },
+    {
+      "timestamp": "8:35",
+      "text": "Property management software subscriptions are expensive for what most small hosts actually need. Stay View pulls reservations directly from"
+    },
+    {
+      "timestamp": "8:43",
+      "text": "Booking.com and other APIs into a single self-hosted dashboard. Real guest names, booking details, and calendar"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "availability in one clean interface running on your own hardware. For bed and breakfast owners and smallcale hosts, this is the management layer without the monthly fee attached to it."
+    },
+    {
+      "timestamp": "9:03",
+      "text": "Most fitness apps want your health data as much as they want your subscription fee. Workout Tracker is a self-hosted Flask and SQLite app that logs"
+    },
+    {
+      "timestamp": "9:11",
+      "text": "exercises, tracks reps, and monitors personal records from a clean, mobile friendly interface. Deploy it with"
+    },
+    {
+      "timestamp": "9:18",
+      "text": "Docker, and your training data stays on your own hardware. Your gains nobody else's business."
+    },
+    {
+      "timestamp": "9:25",
+      "text": "My anime list going down or breaking their API has derailed enough watch lists to make self-hosting worth considering. MHhouse is a self-hosted"
+    },
+    {
+      "timestamp": "9:34",
+      "text": "anime and manga tracker with a modern web UI that matches the polish of the cloud alternatives. Your watch history,"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "ratings, and read progress on your own hardware with no dependency on a third party service staying online."
+    },
+    {
+      "timestamp": "9:50",
+      "text": "Google Photos changing their storage tied to finally find an alternative. Open"
+    },
+    {
+      "timestamp": "9:57",
+      "text": "Photos is a self-hosted photo library designed for scale, running on your own NAS, fast thumbnail generation, date and"
+    },
+    {
+      "timestamp": "10:04",
+      "text": "album organization, and no corporate server scanning your family photos for ad targeting."
+    },
+    {
+      "timestamp": "10:11",
+      "text": "Most note takingaking apps store your thoughts. Atomic connects them. It takes your markdown notes, automatically"
+    },
+    {
+      "timestamp": "10:18",
+      "text": "chunks and embeds them using semantic similarity, and surfaces connections you didn't explicitly create. Powered by"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "Skoolite Vec for fast vector search with a forceirected canvas that lets you see how your ideas actually relate to each other. Your notes as a living knowledge"
+    },
+    {
+      "timestamp": "10:35",
+      "text": "graph rather than a folder of files you search through manually."
+    },
+    {
+      "timestamp": "10:40",
+      "text": "Browsing local photo backups through a file explorer is a genuinely bad experience for something that should feel good to revisit. Folder indexes"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "your folders and serves them as an Instagram style scrolling feed locally."
+    },
+    {
+      "timestamp": "10:53",
+      "text": "Fast previews and thumbnails generated via SQLite and FFmpeg. No CloudSync, no external APIs."
+    },
+    {
+      "timestamp": "11:01",
+      "text": "Spotify's recommendation engine is genuinely good, but it requires feeding your listening habits to Spotify to get there. Tounel log brings that same idea"
+    },
+    {
+      "timestamp": "11:10",
+      "text": "to your self-hosted music library. It monitors what you skip, builds a taste profile over time, and generates"
+    },
+    {
+      "timestamp": "11:19",
+      "text": "recommendations from your own collection. No manual ratings, no data leaving your machine."
+    },
+    {
+      "timestamp": "11:25",
+      "text": "Obsidian sync works well, but the monthly fee adds up for what is essentially file synchronization. This Docker image lets you self-host the"
+    },
+    {
+      "timestamp": "11:34",
+      "text": "Obsidian Live Sync backend on your own server with a single Docker Compose command. Realtime end-to-end encrypted"
+    },
+    {
+      "timestamp": "11:41",
+      "text": "sync across phone, laptop, and tablet running on your own infrastructure for free. Same sync, zero subscription."
+    },
+    {
+      "timestamp": "11:49",
+      "text": "Kumiho is a self-hosted reader for comics, manga, webtunes, and ebooks supporting CBZ, EPUB, and PDF. It reads"
+    },
+    {
+      "timestamp": "11:58",
+      "text": "directly from your existing folder structure without database scans, which makes setup nearly instant. The standout feature is the audio support. Drop an"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "MP3 into a comics folder, and Kumiho plays it as background music while you read that chapter."
+    },
+    {
+      "timestamp": "12:13",
+      "text": "German e- invoicing compliance is genuinely painful to get right and most accounting software charges a premium for handling it. XPRd is a self-hosted"
+    },
+    {
+      "timestamp": "12:22",
+      "text": "web app with a Wizzywig PDF editor that generates invoices meeting XRN and Zooford standards including the legally"
+    },
+    {
+      "timestamp": "12:30",
+      "text": "required embedded XML files custom font support docker deployment and no monthly subscription."
+    },
+    {
+      "timestamp": "12:37",
+      "text": "Collaborating on markdown files through Git means merge conflicts the moment two people touch the same document. CollabMD"
+    },
+    {
+      "timestamp": "12:45",
+      "text": "turns your local markdown folders and Obsidian vaults into a real time collaborative web app. Host it locally,"
+    },
+    {
+      "timestamp": "12:52",
+      "text": "invite your team and everyone edits the same file simultaneously with live cursors exactly like Google Docs with all data staying on your own server."
+    },
+    {
+      "timestamp": "13:03",
+      "text": "Herat is a Discordstyle Matrix client with drop-in voice channels powered by LiveKit."
+    },
+    {
+      "timestamp": "13:08",
+      "text": "Same experience as jumping into a Discord voice channel running entirely on your own Matrix home server. For anyone moving a community off Discord"
+    },
+    {
+      "timestamp": "13:17",
+      "text": "and onto infrastructure they actually control, this closes the UX gap that usually makes the migration painful."
+    },
+    {
+      "timestamp": "13:26",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. Today I've got 32 trending self-hosted projects from GitHub. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 9000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Managing three separate calendars across Google, Outlook, and iCloud means double bookings are basically inevitable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Keeper is a self-hosted sync tool that bridges all three, pulling events together so your availability is accurate everywhere. It also ships as an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP server, so your local AI agents can read and manage your schedule directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grimmeray is a self-hosted library manager for EPUBS, PDFs, and comics, including CBZ and CBR formats. Built-in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser reader, automatic metadata fetching, and reading progress sync directly to Coobo e-readers and OPDS compatible apps. Your entire digital"
+        }
+      ]
+    },
+    {
+      "tStartMs": 48000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "library in one place with no Amazon account required to access it. For anyone who's been meaning to get their books off Kindle and onto their own hardware, this is the clean solution."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Local stack pulling core services behind a payw wall hit a lot of local development setups hard. Minstack is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "free replacement. It emulates 20 AWS services in a single Docker container."
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "But instead of mocking API responses, it spins up real Postgress databases, Reddus instances, and runs SQL through"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "duct DB. 30 megabytes of RAM boots in under two seconds. Point your existing code at port 4566 and nothing else changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 88000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Syncin server is a self-hosted alternative to Google Drive and Dropbox that you deploy on your own infrastructure. File storage, syncing,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "team collaboration, fine-rained access controls, multi-user support, modern interface, full ownership of your data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 105000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone who's been meaning to get their documents off someone else's servers, this is a complete solution rather than a partial one."
+        }
+      ]
+    },
+    {
+      "tStartMs": 113000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most note-taking apps give you infinite flexibility and somehow make it harder to actually write anything. Itchy gives you one note per day. Once the day ends,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that note is locked permanently. No going back to clean it up, reframe it, or second guess it. Everything stores"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "locally with AES GCM encryption. No folders, no tags, no organizational system to procrastinate inside."
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Retro Assembly is a self-hosted retro game cabinet that runs in the browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spin it up with Docker, point it at your ROMs, and it handles the rest. Emulators stream directly to desktop or phone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Game art pulls automatically, and save states sync across devices. Your entire retro library accessible from anywhere"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on hardware you actually own. Running multiple self-hosted services means juggling multiple notification APIs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each with their own setup and authentication. A prize replaces all of that with a single library. One line of code or a simple web hook sends alerts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to Discord, Slack, Telegram, SMS, and 80 plus other platforms simultaneously. For any serious home lab setup, this is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "notification layer that should already be in the stack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Prometheus and Net Data are powerful tools that carry a lot of weight for monitoring a single VPS. Kula is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "single compiled binary with no external dependencies and no database. It reads directly from the kernel/proc directory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 201000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and serves a realtime metrics dashboard in the browser. Drop it on a server, run it, done. Monitoring that matches the scale of the problem."
+        }
+      ]
+    },
+    {
+      "tStartMs": 211000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloning a 5 GB repository to get two files out of it is one of those small inefficiencies that adds up to real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wasted time. GHG opens an interactive terminal UI from a GitHub link lets you browse the repo and downloads only the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 225000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files you actually need. One command, pick what you want, skip the rest. WA Time is useful, but your coding habits"
+        }
+      ]
+    },
+    {
+      "tStartMs": 233000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are surprisingly personal data to be handing to a third party. ZT is a self-hosted alternative. Install the VS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Code or Jet Brains extension and it tracks languages, editors, branches, and coding hours silently in the background."
+        }
+      ]
+    },
+    {
+      "tStartMs": 248000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The analytics dashboard runs from your own server. Same metrics, none of the data leaving your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Plex home screens go stale fast when the same movies sit in the same collections for weeks. Home screen hero rotates and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "curates your Plex collections on a schedule, pulling custom lists from tracked and letter boxed automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "There's also an admin dashboard for streaming analytics and content management. For anyone running Plex for a household or friend group, this is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 279000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "curation layer the app never shipped with."
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Planning a trip across multiple Google Docs and spreadsheets is a mess that somehow became the standard approach."
+        }
+      ]
+    },
+    {
+      "tStartMs": 289000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Trip is a self-hosted web app that lets you drop points of interest onto an interactive map and build day-by-day itineraries in one place. runs in a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 298000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker container. No telemetry, no ads, location data stays on your own hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Managing custom skills and tools across multiple AI agents with no central registry means the same capabilities get"
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rebuilt or drift out of sync across different projects. Skillhub forly is a self-hosted registry for agent skills."
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Publish, version, and share reusable AI tools across your organization the same way you'd manage packages or container"
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "images. Role-based access control builtin deployable on premise with Docker. Trip handles the minimalist case well."
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nomad is for when you're planning with a group and need the full stack. Realtime websocket collaboration so multiple people can edit the itinerary"
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simultaneously. multicurrency budget splitting, interactive maps, automated packing lists, and a PTO tracker built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in. The whole trip planning workflow self-hosted on your own server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 357000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI code review tools require sending your source code to someone else's servers. For proprietary code bases, that's a hard no for a lot of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "teams. Open Review from Versel Labs is self-hosted. deploy it on your own infrastructure, connect it as a private"
+        }
+      ]
+    },
+    {
+      "tStartMs": 373000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GitHub app, and it reviews pull requests automatically, catches bugs, and commits formatting fixes directly to the branch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most people running Claude Code have no real visibility into what their sessions are actually costing until the bill arrives. Rudell hooks into your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal, uploads transcripts to a local ClickHouse database, and generates dashboards tracking token usage, session"
+        }
+      ]
+    },
+    {
+      "tStartMs": 397000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "durations, and exact model costs, self-hosted, local, and finally answers the question of where all those tokens are actually going."
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most autonomous agent setups come with a Python environment, a list of dependencies, and an afternoon of configuration. Walrus is a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compiled binary built-in local LLM inference, persistent SQLite memory, and multi- channelannel support for terminal, Discord, and Telegram out of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the box. No cloud dependencies, no complex setup. The leanest possible path to a self-hosted AI worker that actually runs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Longturn is a multiplayer civilization style game where each turn takes 23 real hours to complete. The server setup is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 441000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "straightforward enough, but the detail worth paying attention to is the automated cron job that runs an LLM after each turn to generate an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 449000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inuniverse newspaper. Wars, alliances, and diplomatic events from the previous turn, summarized as period appropriate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "news coverage, ready when players log in for the next one. The Microtick Windbox interface has looked the same since most"
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "current developers were in middle school. Micro Dash is a self-hosted web dashboard that replaces it with real-time graphs for bandwidth, CPU load, and active client connections."
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Same router, considerably better visibility into what it's actually doing. Network monitoring that doesn't require squinting at a UI from 2003."
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Calling ML APIs teaches you to use ML."
+        }
+      ]
+    },
+    {
+      "tStartMs": 489000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Torch Code teaches you how it actually works. It's a self-hosted leak code style practice environment for PyTorch"
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "deployed via Docker. Implement core neural network operators from scratch, attention mechanisms, softmax, and more"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with instant autograding and feedback on every attempt. For anyone serious about going deeper than the API surface, this"
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is the practice environment worth grinding through."
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Property management software subscriptions are expensive for what most small hosts actually need. Stay View pulls reservations directly from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 523000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Booking.com and other APIs into a single self-hosted dashboard. Real guest names, booking details, and calendar"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "availability in one clean interface running on your own hardware. For bed and breakfast owners and smallcale hosts, this is the management layer without the monthly fee attached to it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most fitness apps want your health data as much as they want your subscription fee. Workout Tracker is a self-hosted Flask and SQLite app that logs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 551000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exercises, tracks reps, and monitors personal records from a clean, mobile friendly interface. Deploy it with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 558000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker, and your training data stays on your own hardware. Your gains nobody else's business."
+        }
+      ]
+    },
+    {
+      "tStartMs": 565000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "My anime list going down or breaking their API has derailed enough watch lists to make self-hosting worth considering. MHhouse is a self-hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "anime and manga tracker with a modern web UI that matches the polish of the cloud alternatives. Your watch history,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ratings, and read progress on your own hardware with no dependency on a third party service staying online."
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Google Photos changing their storage tied to finally find an alternative. Open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 597000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Photos is a self-hosted photo library designed for scale, running on your own NAS, fast thumbnail generation, date and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 604000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "album organization, and no corporate server scanning your family photos for ad targeting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 611000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most note takingaking apps store your thoughts. Atomic connects them. It takes your markdown notes, automatically"
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chunks and embeds them using semantic similarity, and surfaces connections you didn't explicitly create. Powered by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Skoolite Vec for fast vector search with a forceirected canvas that lets you see how your ideas actually relate to each other. Your notes as a living knowledge"
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "graph rather than a folder of files you search through manually."
+        }
+      ]
+    },
+    {
+      "tStartMs": 640000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Browsing local photo backups through a file explorer is a genuinely bad experience for something that should feel good to revisit. Folder indexes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your folders and serves them as an Instagram style scrolling feed locally."
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Fast previews and thumbnails generated via SQLite and FFmpeg. No CloudSync, no external APIs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spotify's recommendation engine is genuinely good, but it requires feeding your listening habits to Spotify to get there. Tounel log brings that same idea"
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to your self-hosted music library. It monitors what you skip, builds a taste profile over time, and generates"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recommendations from your own collection. No manual ratings, no data leaving your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 685000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Obsidian sync works well, but the monthly fee adds up for what is essentially file synchronization. This Docker image lets you self-host the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 694000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Obsidian Live Sync backend on your own server with a single Docker Compose command. Realtime end-to-end encrypted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sync across phone, laptop, and tablet running on your own infrastructure for free. Same sync, zero subscription."
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kumiho is a self-hosted reader for comics, manga, webtunes, and ebooks supporting CBZ, EPUB, and PDF. It reads"
+        }
+      ]
+    },
+    {
+      "tStartMs": 718000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly from your existing folder structure without database scans, which makes setup nearly instant. The standout feature is the audio support. Drop an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MP3 into a comics folder, and Kumiho plays it as background music while you read that chapter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "German e- invoicing compliance is genuinely painful to get right and most accounting software charges a premium for handling it. XPRd is a self-hosted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 742000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "web app with a Wizzywig PDF editor that generates invoices meeting XRN and Zooford standards including the legally"
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "required embedded XML files custom font support docker deployment and no monthly subscription."
+        }
+      ]
+    },
+    {
+      "tStartMs": 757000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Collaborating on markdown files through Git means merge conflicts the moment two people touch the same document. CollabMD"
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "turns your local markdown folders and Obsidian vaults into a real time collaborative web app. Host it locally,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 772000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "invite your team and everyone edits the same file simultaneously with live cursors exactly like Google Docs with all data staying on your own server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Herat is a Discordstyle Matrix client with drop-in voice channels powered by LiveKit."
+        }
+      ]
+    },
+    {
+      "tStartMs": 788000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Same experience as jumping into a Discord voice channel running entirely on your own Matrix home server. For anyone moving a community off Discord"
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and onto infrastructure they actually control, this closes the UX gap that usually makes the migration painful."
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

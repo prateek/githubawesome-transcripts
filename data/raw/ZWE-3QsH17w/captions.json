@@ -1,0 +1,1502 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "What's up everyone? Welcome back to GitHub Awesome. This is GitHub Trending today, episode 29, and we have a rapidfire list of 34 trending open"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "source projects on GitHub. Let's get into it."
+    },
+    {
+      "timestamp": "0:13",
+      "text": "Giving autonomous agents full host access is a security risk most people accept by default because the alternative has always been complicated."
+    },
+    {
+      "timestamp": "0:22",
+      "text": "Coasts is local host service isolation and orchestration for git work trees built by a former YC founder. Agents"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "spin up environments, run servers, and execute code inside containerized hosts without touching the main system."
+    },
+    {
+      "timestamp": "0:37",
+      "text": "Cloud code running in the terminal gives you output, but no visibility into what's actually happening between the lines. Agent Flow connects to your Cloud"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "sessions and renders the entire execution as an interactive node graph in real time. Watch agents think,"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "branch, spawn sub aents, and execute tool calls as they happen in your browser or VS Code."
+    },
+    {
+      "timestamp": "1:00",
+      "text": "Hermes agent from New Research is an autonomous agent built on the Hermes model with a built-in learning loop. It"
+    },
+    {
+      "timestamp": "1:07",
+      "text": "creates skills from experience, persists knowledge into long-term memory, and compounds that learning over time. Host"
+    },
+    {
+      "timestamp": "1:15",
+      "text": "it on a $5 VPS and interact with it directly through Telegram while it works in the background. An agent that"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "actually gets smarter the longer you run it."
+    },
+    {
+      "timestamp": "1:26",
+      "text": "Another mirror and controls Android devices over USB built with Tori, React, and Rust. The MCP server is what makes"
+    },
+    {
+      "timestamp": "1:34",
+      "text": "it interesting for developers. Claude Code or cursor can connect to it and autonomously click, scroll, type, and control your physical Android device"
+    },
+    {
+      "timestamp": "1:42",
+      "text": "directly from the terminal. AIdriven Android automation without emulators or complex ADB scripting."
+    },
+    {
+      "timestamp": "1:49",
+      "text": "Heric renders voxal scenes directly to SVG with zero dependencies. Boolean operations, oblique and perspective"
+    },
+    {
+      "timestamp": "1:57",
+      "text": "cameras, crisp mathematical 3D geometry in the browser without touching WebGL."
+    },
+    {
+      "timestamp": "2:03",
+      "text": "Inspired by Irwin Herix's geometric cardboard sculptures, which is exactly the aesthetic the output delivers for"
+    },
+    {
+      "timestamp": "2:10",
+      "text": "web projects that need clean 3D geometry without the WebGL overhead. This is the lightweight path."
+    },
+    {
+      "timestamp": "2:16",
+      "text": "Most ML resources assume you either already know the math or are willing to grind through it from scratch. There is"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "no spoon takes a third path. Machine learning from first principles explained through software engineering mental"
+    },
+    {
+      "timestamp": "2:30",
+      "text": "models. Back propagation, transformers, diffusion models, all demystified using the intuitions you already have as a developer."
+    },
+    {
+      "timestamp": "2:40",
+      "text": "The MacBook notch sits there doing nothing while your AI agents run invisibly in the background. Notchi is"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "an open- source foundation that turns it into a live dashboard. Developers are already building on top of it. Claude Notch uses it to drop down realtime"
+    },
+    {
+      "timestamp": "2:56",
+      "text": "status on background AI coding agents across multiple repositories. Dead screen real estate actually earning its keep."
+    },
+    {
+      "timestamp": "3:05",
+      "text": "Claude token efficient is a single claw.md file you drop into your project route. No code changes, no wrapper, no"
+    },
+    {
+      "timestamp": "3:12",
+      "text": "proxy. It sets strict system level rules. No redundant context, no speculative features, no long intros, no"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "fluff. Return the simplest working solution and stop. Benchmarks show up to 63% reduction in output verbosity. The"
+    },
+    {
+      "timestamp": "3:27",
+      "text": "file adds a small input token cost per prompt, but for high volume agent loops, the output savings cover it immediately."
+    },
+    {
+      "timestamp": "3:34",
+      "text": "For 20 years, we've let CSS handle text layout, but complex animations cause massive performance lag. Meet pretext."
+    },
+    {
+      "timestamp": "3:42",
+      "text": "It throws CSS completely out the window."
+    },
+    {
+      "timestamp": "3:44",
+      "text": "It uses pure JavaScript and arithmetic to measure text, completely bypassing the DOM. The result, insane 60 frames"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "per second fluid text animations with zero layout lag. Generating spreadsheets in a web app usually means a backend"
+    },
+    {
+      "timestamp": "3:59",
+      "text": "service or a heavy library with a long dependency chain. Hooker is a zero dependency spreadsheet engine in pure"
+    },
+    {
+      "timestamp": "4:06",
+      "text": "TypeScript that runs everywhere. Reads and writes XLSX, CSV, and ODS with full support for cell styles, tables, conditional formatting, and rich text."
+    },
+    {
+      "timestamp": "4:16",
+      "text": "Clientside spreadsheet generation with no backend required."
+    },
+    {
+      "timestamp": "4:21",
+      "text": "Most web scraping agents are one HTML restructure away from breaking completely. Mulmo Web ignores the HTML entirely. It navigates the web purely"
+    },
+    {
+      "timestamp": "4:30",
+      "text": "from screenshots, understanding the UI visually the way a human does, then clicks, scrolls, and types based on what it sees. No DOM dependency, no fragile"
+    },
+    {
+      "timestamp": "4:39",
+      "text": "selectors. When the HTML changes, it doesn't care. Corporate meeting bots recording your conversations and storing"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "them on someone else's servers is a legitimate concern that most people just accept. Tome captures both system and"
+    },
+    {
+      "timestamp": "4:54",
+      "text": "microphone audio locally, transcribes the entire meeting offline, and saves the formatted output directly into your"
+    },
+    {
+      "timestamp": "5:01",
+      "text": "Obsidian vault. No cloud, no API keys, nothing leaving your machine."
+    },
+    {
+      "timestamp": "5:07",
+      "text": "OpenAI just dropped an official plugin for Claude Code. Codeex plug-in-C lets you invoke OpenAI's codeex model"
+    },
+    {
+      "timestamp": "5:15",
+      "text": "directly inside your Claude Code terminal. Just had Claude write a massive feature? Run slashcodex review to have codeex doublech checkck the"
+    },
+    {
+      "timestamp": "5:23",
+      "text": "work. Want to go harder? Use adversarial review to make codeex act like a ruthless senior engineer and aggressively pressure test your code"
+    },
+    {
+      "timestamp": "5:31",
+      "text": "before merging. Two rival AIs, one terminal."
+    },
+    {
+      "timestamp": "5:35",
+      "text": "Phantom runs continuously on its own virtual machine as a dedicated AI co-worker built on the clawed agent SDK."
+    },
+    {
+      "timestamp": "5:44",
+      "text": "persistent vector memory, Slack integration, and a self-reriting configuration that improves after every session. It doesn't stop when you close"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "the terminal because it was never running in your terminal to begin with."
+    },
+    {
+      "timestamp": "5:56",
+      "text": "A co-orker that's always on, always learning, running on its own machine."
+    },
+    {
+      "timestamp": "6:02",
+      "text": "Every developer has a graveyard of useful code snippets, saved links, and agent outputs they can never find when they actually need them. Spool indexes"
+    },
+    {
+      "timestamp": "6:11",
+      "text": "your clawed code logs, codeex history, GitHub stars, and Twitter bookmarks into a single local search bar on Mac."
+    },
+    {
+      "timestamp": "6:19",
+      "text": "Everything you've generated or saved instantly searchable from one place, the search engine for your own digital output."
+    },
+    {
+      "timestamp": "6:27",
+      "text": "Docker and Kubernetes documentation assumes you already know what you're doing, which makes starting from scratch genuinely difficult. Learn Docker and"
+    },
+    {
+      "timestamp": "6:36",
+      "text": "Kat strips the enterprise jargon and walks through containerization and orchestration as a clear step-by-step"
+    },
+    {
+      "timestamp": "6:43",
+      "text": "learning path. Package, deploy, and scale applications using modern DevOps practices. Explain for people who are actually learning it for the first time."
+    },
+    {
+      "timestamp": "6:53",
+      "text": "If you've ever seen a beautifully designed website and wanted to build exactly that, this Claude code skill is magic. You point it at a URL and it"
+    },
+    {
+      "timestamp": "7:02",
+      "text": "dispatches parallel AI builder agents into separate git work trees to reconstruct every single section of the site simultaneously."
+    },
+    {
+      "timestamp": "7:10",
+      "text": "It automatically downloads assets and rebuilds the site into a pixel perfect next.js app in minutes."
+    },
+    {
+      "timestamp": "7:17",
+      "text": "Typora and most markdown editors treat the file as yours alone. Close it, reopen it to see external changes. Colam"
+    },
+    {
+      "timestamp": "7:24",
+      "text": "MD watches the file system and live refreshes instantly as background AI agents write to the file. No manual"
+    },
+    {
+      "timestamp": "7:31",
+      "text": "reloading, no stale views while an agent is mid-edit. A markdown editor built for the reality of having an AI writing to your files in the background."
+    },
+    {
+      "timestamp": "7:41",
+      "text": "AI agents that need to work in real business environments eventually hit the wall of proprietary office formats."
+    },
+    {
+      "timestamp": "7:48",
+      "text": "Office CLI is a single binary CLI written in C that lets agents read, edit, and automate Word, Excel, and"
+    },
+    {
+      "timestamp": "7:55",
+      "text": "PowerPoint files natively from the terminal. Generate spreadsheets, rewrite contracts, scrape data from pitch decks,"
+    },
+    {
+      "timestamp": "8:02",
+      "text": "all without Microsoft Office installed on the host machine."
+    },
+    {
+      "timestamp": "8:07",
+      "text": "Centr is a realtime architectural sensor written in Rust that visualizes your codebase as a live interactive tree map,"
+    },
+    {
+      "timestamp": "8:14",
+      "text": "catching structural degradation as it happens."
+    },
+    {
+      "timestamp": "8:18",
+      "text": "The MCP server integration is the key detail. Your agent can query Centr directly, see how messy its own code is"
+    },
+    {
+      "timestamp": "8:25",
+      "text": "getting, and course correct before the architecture becomes a problem to untangle."
+    },
+    {
+      "timestamp": "8:31",
+      "text": "Harness is a meta-kill for cloud code that builds the agent team for you. Tell it to build a harness for your project"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "and it autonomously designs the multi-agent architecture, generates specialized worker agents, defines the pipeline structure, fan out, supervisor"
+    },
+    {
+      "timestamp": "8:47",
+      "text": "or whatever fits the problem, and equips each agent with the skills it needs. You describe the problem. It solves it."
+    },
+    {
+      "timestamp": "8:57",
+      "text": "Leeworld model is the official codebase for a stable endtoend joint embedding predictive architecture from pixels."
+    },
+    {
+      "timestamp": "9:05",
+      "text": "Instead of predicting raw pixel outputs, it predicts abstract representations of future states, pushing toward AI systems"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "that build genuine internal world models. The distinction matters for both computer vision and reinforcement learning research."
+    },
+    {
+      "timestamp": "9:21",
+      "text": "AI agents that can't remember previous sessions and can't communicate with each other are fundamentally limited in what they can accomplish together."
+    },
+    {
+      "timestamp": "9:29",
+      "text": "Prismacloud is a self-hosted server that gives agents persistent memory knowledge that evolves over time and a real time websocket messaging system."
+    },
+    {
+      "timestamp": "9:40",
+      "text": "Independent agents discover each other and coordinate directly to solve problems collaboratively."
+    },
+    {
+      "timestamp": "9:47",
+      "text": "Atomic Chat is a native desktop AI assistant built on the OpenClaw framework with no Docker configuration required. Plug in your API keys or"
+    },
+    {
+      "timestamp": "9:56",
+      "text": "connect local hugging face models and you get a private chat GPT style interface that can also run terminal skills. Clean install, no cloud"
+    },
+    {
+      "timestamp": "10:05",
+      "text": "dependency. Your conversations stay on your machine. The chat GPT experience without the chat GPT data policies."
+    },
+    {
+      "timestamp": "10:13",
+      "text": "Dither playground converts any image into thousands of interactive dithered particles that respond to your cursor in real time. Hover to push them around."
+    },
+    {
+      "timestamp": "10:23",
+      "text": "Click to scatter the whole thing into a physicsdriven swarm."
+    },
+    {
+      "timestamp": "10:27",
+      "text": "Runs entirely in the browser, and the effect is the kind of thing you immediately want to steal for a landing page hero section."
+    },
+    {
+      "timestamp": "10:35",
+      "text": "Figma's rest API rate limits hit hard when an AI agent is making thousands of calls during active UI development."
+    },
+    {
+      "timestamp": "10:42",
+      "text": "Figma MCP Go bypasses the API entirely by connecting through a local plug-in bridge instead of API keys. zero rate"
+    },
+    {
+      "timestamp": "10:49",
+      "text": "limits, real-time read and write access, and your agent can extract JSON from selected nodes, clone components, and iterate directly on the canvas. Runs via"
+    },
+    {
+      "timestamp": "10:59",
+      "text": "NPX with no configuration or local Go installation required."
+    },
+    {
+      "timestamp": "11:04",
+      "text": "Setting up Cloud Code on a VPS usually means wrestling with dependencies, display issues, and browser sandbox crashes. Holy Cloud is a single Docker"
+    },
+    {
+      "timestamp": "11:13",
+      "text": "Compose file that eliminates all of that. Cloud Code CLI, a browser accessible terminal UI, five AI CLIs,"
+    },
+    {
+      "timestamp": "11:21",
+      "text": "and 50 plus development tools pre-installed. Your agent can spin up a web app, navigate to it, take screenshots, and run visual tests"
+    },
+    {
+      "timestamp": "11:29",
+      "text": "without the container falling over. The official Lark CLI covers Messenger, Docs, Sheets, and Calendar with over 200"
+    },
+    {
+      "timestamp": "11:38",
+      "text": "commands from the terminal. The 19 built-in AI agent skills are what make it interesting. Your local AI can read"
+    },
+    {
+      "timestamp": "11:45",
+      "text": "corporate emails, schedule meetings, and update spreadsheets autonomously without you touching the Lark interface. Full"
+    },
+    {
+      "timestamp": "11:52",
+      "text": "Lark ecosystem automation driven directly from your terminal."
+    },
+    {
+      "timestamp": "11:57",
+      "text": "Python wrappers for desktop automation add latency that compounds fast when an agent is making dozens of sequential actions. Use computer is a native Zigg"
+    },
+    {
+      "timestamp": "12:06",
+      "text": "CLI that gives AI agents low latency control over Mac OS and Linux desktops."
+    },
+    {
+      "timestamp": "12:11",
+      "text": "Accessibility snapshots, mouse control, typing, scrolling, all available programmatically with minimal overhead."
+    },
+    {
+      "timestamp": "12:19",
+      "text": "Create context graph does for graph powered AI apps what create next app does for React projects. Run the CLI and"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "in under five minutes you have a complete fast API backend with an AI agent that uses a Neo4j knowledge graph"
+    },
+    {
+      "timestamp": "12:34",
+      "text": "for memory. complex entity relationships persistent across sessions without building the infrastructure from scratch."
+    },
+    {
+      "timestamp": "12:42",
+      "text": "Kicking off a long clawed code session and walking away means being tethered to your laptop for approval prompts. Claude"
+    },
+    {
+      "timestamp": "12:49",
+      "text": "watch pushes those prompts directly to your Apple Watch. Agent needs permission to run a terminal command. Your wrist gets the notification. You approve it on"
+    },
+    {
+      "timestamp": "12:58",
+      "text": "the spot. AI agent oversight from anywhere in the house."
+    },
+    {
+      "timestamp": "13:04",
+      "text": "The turboquant algorithm is now integrated directly into VLM. That means the 3bit 2-bit KV cache compression is"
+    },
+    {
+      "timestamp": "13:12",
+      "text": "available in the industry standard inference engine without any custom setup. Deploy massive models like Quen"
+    },
+    {
+      "timestamp": "13:19",
+      "text": "3.5 on existing GPU hardware with double the context capacity and no changes to your serving infrastructure."
+    },
+    {
+      "timestamp": "13:27",
+      "text": "OpenClaw Autodream adds an automated taskrunner and CI layer to the OpenClaw ecosystem."
+    },
+    {
+      "timestamp": "13:34",
+      "text": "Agents pick up complex tasks, work through the architectural solutions autonomously, and execute reliably in the background. For anyone running a"
+    },
+    {
+      "timestamp": "13:43",
+      "text": "serious OpenClaw workflow who needs their agents operating continuously without manual handholding between tasks, this is the piece that closes the loop."
+    },
+    {
+      "timestamp": "13:53",
+      "text": "Zinc is an LLM inference engine written in Zigg, built specifically for RDNA 3 and RDNA 4 via Vulcan. Handtuned for"
+    },
+    {
+      "timestamp": "14:00",
+      "text": "AMD's memory hierarchy with wave 64 dispatch and architecture aware tiling, it hits over 90% of theoretical memory"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "bandwidth on the matrix multiplications that dominate LLM decoding. 35 billion parameter models running comfortably on $550 consumer AMD hardware."
+    },
+    {
+      "timestamp": "14:20",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What's up everyone? Welcome back to GitHub Awesome. This is GitHub Trending today, episode 29, and we have a rapidfire list of 34 trending open"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "source projects on GitHub. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Giving autonomous agents full host access is a security risk most people accept by default because the alternative has always been complicated."
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coasts is local host service isolation and orchestration for git work trees built by a former YC founder. Agents"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "spin up environments, run servers, and execute code inside containerized hosts without touching the main system."
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloud code running in the terminal gives you output, but no visibility into what's actually happening between the lines. Agent Flow connects to your Cloud"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sessions and renders the entire execution as an interactive node graph in real time. Watch agents think,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "branch, spawn sub aents, and execute tool calls as they happen in your browser or VS Code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 60000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hermes agent from New Research is an autonomous agent built on the Hermes model with a built-in learning loop. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "creates skills from experience, persists knowledge into long-term memory, and compounds that learning over time. Host"
+        }
+      ]
+    },
+    {
+      "tStartMs": 75000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it on a $5 VPS and interact with it directly through Telegram while it works in the background. An agent that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually gets smarter the longer you run it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Another mirror and controls Android devices over USB built with Tori, React, and Rust. The MCP server is what makes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it interesting for developers. Claude Code or cursor can connect to it and autonomously click, scroll, type, and control your physical Android device"
+        }
+      ]
+    },
+    {
+      "tStartMs": 102000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly from the terminal. AIdriven Android automation without emulators or complex ADB scripting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Heric renders voxal scenes directly to SVG with zero dependencies. Boolean operations, oblique and perspective"
+        }
+      ]
+    },
+    {
+      "tStartMs": 117000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cameras, crisp mathematical 3D geometry in the browser without touching WebGL."
+        }
+      ]
+    },
+    {
+      "tStartMs": 123000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inspired by Irwin Herix's geometric cardboard sculptures, which is exactly the aesthetic the output delivers for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 130000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "web projects that need clean 3D geometry without the WebGL overhead. This is the lightweight path."
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most ML resources assume you either already know the math or are willing to grind through it from scratch. There is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no spoon takes a third path. Machine learning from first principles explained through software engineering mental"
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models. Back propagation, transformers, diffusion models, all demystified using the intuitions you already have as a developer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The MacBook notch sits there doing nothing while your AI agents run invisibly in the background. Notchi is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an open- source foundation that turns it into a live dashboard. Developers are already building on top of it. Claude Notch uses it to drop down realtime"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "status on background AI coding agents across multiple repositories. Dead screen real estate actually earning its keep."
+        }
+      ]
+    },
+    {
+      "tStartMs": 185000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude token efficient is a single claw.md file you drop into your project route. No code changes, no wrapper, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proxy. It sets strict system level rules. No redundant context, no speculative features, no long intros, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fluff. Return the simplest working solution and stop. Benchmarks show up to 63% reduction in output verbosity. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 207000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file adds a small input token cost per prompt, but for high volume agent loops, the output savings cover it immediately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For 20 years, we've let CSS handle text layout, but complex animations cause massive performance lag. Meet pretext."
+        }
+      ]
+    },
+    {
+      "tStartMs": 222000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It throws CSS completely out the window."
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It uses pure JavaScript and arithmetic to measure text, completely bypassing the DOM. The result, insane 60 frames"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per second fluid text animations with zero layout lag. Generating spreadsheets in a web app usually means a backend"
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "service or a heavy library with a long dependency chain. Hooker is a zero dependency spreadsheet engine in pure"
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TypeScript that runs everywhere. Reads and writes XLSX, CSV, and ODS with full support for cell styles, tables, conditional formatting, and rich text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Clientside spreadsheet generation with no backend required."
+        }
+      ]
+    },
+    {
+      "tStartMs": 261000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most web scraping agents are one HTML restructure away from breaking completely. Mulmo Web ignores the HTML entirely. It navigates the web purely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from screenshots, understanding the UI visually the way a human does, then clicks, scrolls, and types based on what it sees. No DOM dependency, no fragile"
+        }
+      ]
+    },
+    {
+      "tStartMs": 279000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "selectors. When the HTML changes, it doesn't care. Corporate meeting bots recording your conversations and storing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them on someone else's servers is a legitimate concern that most people just accept. Tome captures both system and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "microphone audio locally, transcribes the entire meeting offline, and saves the formatted output directly into your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Obsidian vault. No cloud, no API keys, nothing leaving your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenAI just dropped an official plugin for Claude Code. Codeex plug-in-C lets you invoke OpenAI's codeex model"
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly inside your Claude Code terminal. Just had Claude write a massive feature? Run slashcodex review to have codeex doublech checkck the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "work. Want to go harder? Use adversarial review to make codeex act like a ruthless senior engineer and aggressively pressure test your code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 331000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "before merging. Two rival AIs, one terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Phantom runs continuously on its own virtual machine as a dedicated AI co-worker built on the clawed agent SDK."
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "persistent vector memory, Slack integration, and a self-reriting configuration that improves after every session. It doesn't stop when you close"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the terminal because it was never running in your terminal to begin with."
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A co-orker that's always on, always learning, running on its own machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every developer has a graveyard of useful code snippets, saved links, and agent outputs they can never find when they actually need them. Spool indexes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 371000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your clawed code logs, codeex history, GitHub stars, and Twitter bookmarks into a single local search bar on Mac."
+        }
+      ]
+    },
+    {
+      "tStartMs": 379000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything you've generated or saved instantly searchable from one place, the search engine for your own digital output."
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker and Kubernetes documentation assumes you already know what you're doing, which makes starting from scratch genuinely difficult. Learn Docker and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kat strips the enterprise jargon and walks through containerization and orchestration as a clear step-by-step"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "learning path. Package, deploy, and scale applications using modern DevOps practices. Explain for people who are actually learning it for the first time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 413000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever seen a beautifully designed website and wanted to build exactly that, this Claude code skill is magic. You point it at a URL and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 422000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dispatches parallel AI builder agents into separate git work trees to reconstruct every single section of the site simultaneously."
+        }
+      ]
+    },
+    {
+      "tStartMs": 430000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It automatically downloads assets and rebuilds the site into a pixel perfect next.js app in minutes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 437000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Typora and most markdown editors treat the file as yours alone. Close it, reopen it to see external changes. Colam"
+        }
+      ]
+    },
+    {
+      "tStartMs": 444000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MD watches the file system and live refreshes instantly as background AI agents write to the file. No manual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reloading, no stale views while an agent is mid-edit. A markdown editor built for the reality of having an AI writing to your files in the background."
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents that need to work in real business environments eventually hit the wall of proprietary office formats."
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Office CLI is a single binary CLI written in C that lets agents read, edit, and automate Word, Excel, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 475000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PowerPoint files natively from the terminal. Generate spreadsheets, rewrite contracts, scrape data from pitch decks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all without Microsoft Office installed on the host machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Centr is a realtime architectural sensor written in Rust that visualizes your codebase as a live interactive tree map,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 494000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "catching structural degradation as it happens."
+        }
+      ]
+    },
+    {
+      "tStartMs": 498000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The MCP server integration is the key detail. Your agent can query Centr directly, see how messy its own code is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "getting, and course correct before the architecture becomes a problem to untangle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Harness is a meta-kill for cloud code that builds the agent team for you. Tell it to build a harness for your project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and it autonomously designs the multi-agent architecture, generates specialized worker agents, defines the pipeline structure, fan out, supervisor"
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or whatever fits the problem, and equips each agent with the skills it needs. You describe the problem. It solves it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 537000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Leeworld model is the official codebase for a stable endtoend joint embedding predictive architecture from pixels."
+        }
+      ]
+    },
+    {
+      "tStartMs": 545000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of predicting raw pixel outputs, it predicts abstract representations of future states, pushing toward AI systems"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that build genuine internal world models. The distinction matters for both computer vision and reinforcement learning research."
+        }
+      ]
+    },
+    {
+      "tStartMs": 561000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents that can't remember previous sessions and can't communicate with each other are fundamentally limited in what they can accomplish together."
+        }
+      ]
+    },
+    {
+      "tStartMs": 569000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Prismacloud is a self-hosted server that gives agents persistent memory knowledge that evolves over time and a real time websocket messaging system."
+        }
+      ]
+    },
+    {
+      "tStartMs": 580000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Independent agents discover each other and coordinate directly to solve problems collaboratively."
+        }
+      ]
+    },
+    {
+      "tStartMs": 587000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Atomic Chat is a native desktop AI assistant built on the OpenClaw framework with no Docker configuration required. Plug in your API keys or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "connect local hugging face models and you get a private chat GPT style interface that can also run terminal skills. Clean install, no cloud"
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependency. Your conversations stay on your machine. The chat GPT experience without the chat GPT data policies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dither playground converts any image into thousands of interactive dithered particles that respond to your cursor in real time. Hover to push them around."
+        }
+      ]
+    },
+    {
+      "tStartMs": 623000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Click to scatter the whole thing into a physicsdriven swarm."
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Runs entirely in the browser, and the effect is the kind of thing you immediately want to steal for a landing page hero section."
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Figma's rest API rate limits hit hard when an AI agent is making thousands of calls during active UI development."
+        }
+      ]
+    },
+    {
+      "tStartMs": 642000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Figma MCP Go bypasses the API entirely by connecting through a local plug-in bridge instead of API keys. zero rate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 649000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "limits, real-time read and write access, and your agent can extract JSON from selected nodes, clone components, and iterate directly on the canvas. Runs via"
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "NPX with no configuration or local Go installation required."
+        }
+      ]
+    },
+    {
+      "tStartMs": 664000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Setting up Cloud Code on a VPS usually means wrestling with dependencies, display issues, and browser sandbox crashes. Holy Cloud is a single Docker"
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Compose file that eliminates all of that. Cloud Code CLI, a browser accessible terminal UI, five AI CLIs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and 50 plus development tools pre-installed. Your agent can spin up a web app, navigate to it, take screenshots, and run visual tests"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "without the container falling over. The official Lark CLI covers Messenger, Docs, Sheets, and Calendar with over 200"
+        }
+      ]
+    },
+    {
+      "tStartMs": 698000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commands from the terminal. The 19 built-in AI agent skills are what make it interesting. Your local AI can read"
+        }
+      ]
+    },
+    {
+      "tStartMs": 705000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "corporate emails, schedule meetings, and update spreadsheets autonomously without you touching the Lark interface. Full"
+        }
+      ]
+    },
+    {
+      "tStartMs": 712000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lark ecosystem automation driven directly from your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 717000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python wrappers for desktop automation add latency that compounds fast when an agent is making dozens of sequential actions. Use computer is a native Zigg"
+        }
+      ]
+    },
+    {
+      "tStartMs": 726000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CLI that gives AI agents low latency control over Mac OS and Linux desktops."
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Accessibility snapshots, mouse control, typing, scrolling, all available programmatically with minimal overhead."
+        }
+      ]
+    },
+    {
+      "tStartMs": 739000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Create context graph does for graph powered AI apps what create next app does for React projects. Run the CLI and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in under five minutes you have a complete fast API backend with an AI agent that uses a Neo4j knowledge graph"
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for memory. complex entity relationships persistent across sessions without building the infrastructure from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 762000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kicking off a long clawed code session and walking away means being tethered to your laptop for approval prompts. Claude"
+        }
+      ]
+    },
+    {
+      "tStartMs": 769000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "watch pushes those prompts directly to your Apple Watch. Agent needs permission to run a terminal command. Your wrist gets the notification. You approve it on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the spot. AI agent oversight from anywhere in the house."
+        }
+      ]
+    },
+    {
+      "tStartMs": 784000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The turboquant algorithm is now integrated directly into VLM. That means the 3bit 2-bit KV cache compression is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 792000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "available in the industry standard inference engine without any custom setup. Deploy massive models like Quen"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "3.5 on existing GPU hardware with double the context capacity and no changes to your serving infrastructure."
+        }
+      ]
+    },
+    {
+      "tStartMs": 807000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OpenClaw Autodream adds an automated taskrunner and CI layer to the OpenClaw ecosystem."
+        }
+      ]
+    },
+    {
+      "tStartMs": 814000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agents pick up complex tasks, work through the architectural solutions autonomously, and execute reliably in the background. For anyone running a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 823000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "serious OpenClaw workflow who needs their agents operating continuously without manual handholding between tasks, this is the piece that closes the loop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 833000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zinc is an LLM inference engine written in Zigg, built specifically for RDNA 3 and RDNA 4 via Vulcan. Handtuned for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 840000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AMD's memory hierarchy with wave 64 dispatch and architecture aware tiling, it hits over 90% of theoretical memory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "bandwidth on the matrix multiplications that dominate LLM decoding. 35 billion parameter models running comfortably on $550 consumer AMD hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 860000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

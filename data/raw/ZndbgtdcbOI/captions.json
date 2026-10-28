@@ -1,0 +1,1463 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. The show hn section has been on fire lately. 35 projects pulled straight from hacker news. Let's get into it."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "DD photos is a self-hosted static photo gallery generator built with Go and spelt kit. Parallel Go routines process hundreds of images in seconds,"
+    },
+    {
+      "timestamp": "0:20",
+      "text": "converting everything to optimized webp and generating JSON indexes automatically. The output is a fully static spelt kit site with a photo swipe"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "light box built in. No database, no server code, no login walls hosted on S3 or Apache for next to nothing and send"
+    },
+    {
+      "timestamp": "0:37",
+      "text": "the link to whoever needs it. Thread Prox is an experimental Linux project that lets multiple independent executables share a single virtual"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "address space. The practical consequence is that you can pass raw C++ or Rust pointers between completely separate"
+    },
+    {
+      "timestamp": "0:52",
+      "text": "programs with zero copy overhead. No serialization, no shared memory gymnastics, no IPC overhead, just a pointer passed directly."
+    },
+    {
+      "timestamp": "1:03",
+      "text": "AI agents write a lot of code and commit it messily. Git Surgeon is built for exactly that problem. It's a set of git primitives designed specifically for"
+    },
+    {
+      "timestamp": "1:12",
+      "text": "autonomous coding agents, giving them the tools to slice, amend, and organize commits cleanly as they work. The result"
+    },
+    {
+      "timestamp": "1:19",
+      "text": "is a repository history that doesn't look like a bot was in charge, even when one was."
+    },
+    {
+      "timestamp": "1:26",
+      "text": "Paint.NET doesn't run on Mac OS, so someone built the next best thing. Gro Paint is a lightweight image editor built with vanilla JavaScript and a"
+    },
+    {
+      "timestamp": "1:34",
+      "text": "Python PI web view backend. layers, 16 blend modes, magic wand selection, native project saving, completely"
+    },
+    {
+      "timestamp": "1:40",
+      "text": "offline, no electron, no subscription, no bloat, exactly as described, somewhere between MS Paint and Paint Net running natively on Mac OS."
+    },
+    {
+      "timestamp": "1:51",
+      "text": "Persistent agent memory usually implies a vector database and a weekend of setup. Agent kernel is three markdown"
+    },
+    {
+      "timestamp": "1:58",
+      "text": "files and a git repo. Clone it, point clawed code or cursor at it, and the agent figures out how to use it on its"
+    },
+    {
+      "timestamp": "2:05",
+      "text": "own. It maintains identity, tracks world state in a knowledge folder and writes appendon daily session logs."
+    },
+    {
+      "timestamp": "2:13",
+      "text": "Zweep is mind sweeper rebuilt for people who think the original UI was the problem. Vim keybindings, no Windows 95 Chrome."
+    },
+    {
+      "timestamp": "2:22",
+      "text": "Navigate the grid entirely from the keyboard. track metrics like 3BS and play in time attack mode designed around"
+    },
+    {
+      "timestamp": "2:29",
+      "text": "pure speed. If monkey type scratches a particular itch for you, this is the same energy applied to mind sweeper."
+    },
+    {
+      "timestamp": "2:37",
+      "text": "AI engineering from scratch is an open-source curriculum with 230 plus hands-on lessons across 20 phases."
+    },
+    {
+      "timestamp": "2:45",
+      "text": "linear algebra and neural networks from first principles through to autonomous agent swarms implemented in Python,"
+    },
+    {
+      "timestamp": "2:52",
+      "text": "Rust, and Typescript. For anyone who's been building on top of AI and wants to actually understand what's underneath it, this is the curriculum worth blocking out time for."
+    },
+    {
+      "timestamp": "3:03",
+      "text": "Context D runs silently in the background on Mac OS, taking a screenshot every 2 seconds, running local OCR on whatever changed and saving the extracted text to SQLite."
+    },
+    {
+      "timestamp": "3:15",
+      "text": "A local LLM like Claude Haiku progressively summarizes your activity as the day goes on. Everything gets exposed through a local HTTP API so"
+    },
+    {
+      "timestamp": "3:24",
+      "text": "other agents can query exactly what you've been working on at any point."
+    },
+    {
+      "timestamp": "3:29",
+      "text": "Everyone has a cheap thermal printer sitting in a drawer after two uses."
+    },
+    {
+      "timestamp": "3:33",
+      "text": "Thermaly is a lightweight Python web server that takes standard markdown and translates it for thermal printers. Bold"
+    },
+    {
+      "timestamp": "3:40",
+      "text": "headers, alignment, QR codes on the fly, web UI included, Docker supported. Send it a markdown file, get a receipt."
+    },
+    {
+      "timestamp": "3:48",
+      "text": "Genuinely good reason to dig that printer back out."
+    },
+    {
+      "timestamp": "3:52",
+      "text": "Gold.md is a markdown framework that lets an AI agent optimize your codebase overnight using an auto research loop"
+    },
+    {
+      "timestamp": "4:00",
+      "text": "inspired by Andre Karpathy's work. Write a measurement script, whether that's test coverage, API reliability, or something custom, and the agent runs a"
+    },
+    {
+      "timestamp": "4:08",
+      "text": "modify, verify, retain, or discard loop against your score until you wake up. 50 commits of optimized code by morning."
+    },
+    {
+      "timestamp": "4:17",
+      "text": "Crack taps into the undocumented lid angle sensor on modern MacBooks and maps the opening angle to a creaking door"
+    },
+    {
+      "timestamp": "4:24",
+      "text": "sound in real time. Open the lid slowly, get a long, horrifying squeak, slam it shut, get the full effect."
+    },
+    {
+      "timestamp": "4:32",
+      "text": "completely useless, technically impressive, guaranteed to clear out a coffee shop. One of the better ways anyone has spent a weekend."
+    },
+    {
+      "timestamp": "4:40",
+      "text": "Copying context between multiple clawed code and codec sessions manually is one of those problems that shouldn't still"
+    },
+    {
+      "timestamp": "4:47",
+      "text": "exist. Agent IM is a minimalist chat room system for AI agents built on an MCP server. Agents create a room, invite"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "each other, define their roles, and communicate directly to collaborate on a problem. Writing system prompts by intuition and hoping they hold up in production is how most people do it."
+    },
+    {
+      "timestamp": "5:08",
+      "text": "Autoprompter makes it an engineering problem instead. It runs iterative tests against multiple models, measures"
+    },
+    {
+      "timestamp": "5:15",
+      "text": "function calling accuracy, and automatically suggests optimizations based on what actually performs better."
+    },
+    {
+      "timestamp": "5:22",
+      "text": "Prompt engineering that produces evidence instead of opinions."
+    },
+    {
+      "timestamp": "5:26",
+      "text": "Most developers set up MCP configs once and never look at them again. MCP scan audits yours. It checks for hard-coded"
+    },
+    {
+      "timestamp": "5:35",
+      "text": "API keys, flags overly broad file system permissions, and detects typos squatted malicious npm packages in your server"
+    },
+    {
+      "timestamp": "5:42",
+      "text": "arguments. If you're running cursor or clawed desktop with MCP tools and haven't audited your config, this should probably be the next thing you run."
+    },
+    {
+      "timestamp": "5:51",
+      "text": "M33MU is a full ARMv8M Cortex M33 emulator written in C built for firmware developers who want to debug embedded"
+    },
+    {
+      "timestamp": "5:59",
+      "text": "systems without touching physical hardware. Trust zone awareness built-in GDB remote server terminal UI and"
+    },
+    {
+      "timestamp": "6:07",
+      "text": "execution recording for reverse stepping through firmware bugs. Step backward through a crash to find exactly where things went wrong."
+    },
+    {
+      "timestamp": "6:16",
+      "text": "Z1 connects Claude directly to your live browser environment so your agent can interact with a running React app instead of just editing files blindly."
+    },
+    {
+      "timestamp": "6:25",
+      "text": "It modifies local files on the fly and uses git branches to track changes as it works. The feedback loop between AI"
+    },
+    {
+      "timestamp": "6:33",
+      "text": "generated UI and the actual running application closes without you manually switching context. Aentic UI generation"
+    },
+    {
+      "timestamp": "6:40",
+      "text": "that actually knows what it's looking at."
+    },
+    {
+      "timestamp": "6:44",
+      "text": "Someone wanted ARC's tab duplication without the memory cost. So they built a new browser. Refra uses an undocumented"
+    },
+    {
+      "timestamp": "6:51",
+      "text": "private Mac OS class called Kportal layer to mirror the GPU memory of a single web page across multiple windows."
+    },
+    {
+      "timestamp": "6:58",
+      "text": "Hundreds of live updating tabs, RAM footprint of one. The engineering here is genuinely impressive."
+    },
+    {
+      "timestamp": "7:06",
+      "text": "Flow state is agent kernel's core idea packaged as an MCP server. Connect it to claude code and your agent retains"
+    },
+    {
+      "timestamp": "7:13",
+      "text": "memory about your project architecture, your coding preferences, and outstanding bugs across sessions. Pick up on Monday"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "exactly where Friday left off without spending the first 20 minutes reexplaining the codebase. Persistent context that travels with the project."
+    },
+    {
+      "timestamp": "7:31",
+      "text": "Mamba RS is a full Mamba state space model implementation written in Rust with custom CUDA kernels inference and"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "full backward pass BPTT training. No Python anywhere in the stack for anyone who wants to experiment with Mamba architecture at the metal level without the overhead of a Python ML framework."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "This is the starting point."
+    },
+    {
+      "timestamp": "7:52",
+      "text": "Most SSH config files are a graveyard of IP addresses nobody remembers and keys nobody can locate. Meow SSH is a"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "lightweight terminal UI for managing SSH connections, switching keys, and jumping into remote environments without digging"
+    },
+    {
+      "timestamp": "8:07",
+      "text": "through config files. Fast, organized, and wrapped in a cat themed aesthetic that makes it considerably more enjoyable than it has any right to be."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "Jensenify MCP injects the complete texts of Homer, Shakespeare, Toltoy, and the King James Bible into every single AI"
+    },
+    {
+      "timestamp": "8:25",
+      "text": "tool call. 2.9 million tokens of classic literature loaded into context, so your coding agent has deep humanistic"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "grounding when it fixes a null pointer exception. The creator acknowledges it costs a fortune in API tokens. That's the joke and also entirely the point."
+    },
+    {
+      "timestamp": "8:43",
+      "text": "Minesis is a lightweight Python library for state and memory management in back-end applications. Clean API for"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "persisting and recalling data structures without rolling your own solution or pulling in something heavier than the problem warrants. Straightforward"
+    },
+    {
+      "timestamp": "8:59",
+      "text": "utility that fills a gap. Python's standard library leaves open."
+    },
+    {
+      "timestamp": "9:05",
+      "text": "Switching between agent frameworks usually means losing everything the agent learned in the previous one. Nemo is a local first CLI that serializes"
+    },
+    {
+      "timestamp": "9:14",
+      "text": "agent memory into a normalized JSON schema. diff snapshots to show exactly what changed between sessions and"
+    },
+    {
+      "timestamp": "9:21",
+      "text": "migrates memories between backends like mem and leta stack PRs are one of those workflows that feels impossibly messy to manage"
+    },
+    {
+      "timestamp": "9:30",
+      "text": "manually after the first rebase goes wrong. Estack handles the orchestration using standard git and GH commands you"
+    },
+    {
+      "timestamp": "9:37",
+      "text": "already know with metadata stored in a simple JSON file. No custom git internals, no new mental model to learn."
+    },
+    {
+      "timestamp": "9:45",
+      "text": "clean stack PR workflow without replacing the tools you already use."
+    },
+    {
+      "timestamp": "9:50",
+      "text": "Samuel is a fully autonomous reading agent built on the OpenClaw framework with real-time voice mode. It reads your"
+    },
+    {
+      "timestamp": "9:58",
+      "text": "local Apple books, summarizes chapters, recites context, and turns pages autonomously using screen vision. The language learning use case is the"
+    },
+    {
+      "timestamp": "10:06",
+      "text": "interesting one. Run it while watching a foreign film, and it provides real time context from what it sees and hears."
+    },
+    {
+      "timestamp": "10:15",
+      "text": "Revise.io is a collaborative document editor with built-in revision history and git style visual diffs for writing."
+    },
+    {
+      "timestamp": "10:23",
+      "text": "The useful part is the integrated AI proofreader that works against rules you define yourself. Tell it to enforce APA7"
+    },
+    {
+      "timestamp": "10:30",
+      "text": "formatting or avoid exclamation points and it holds to that standard consistently across every draft. Google"
+    },
+    {
+      "timestamp": "10:37",
+      "text": "Docs with version control and a style guide that actually sticks."
+    },
+    {
+      "timestamp": "10:42",
+      "text": "Smiti treats agent memory the way Git treats code. Instead of relying on chat history that breaks down when you change direction, it enforces clean checkpoints"
+    },
+    {
+      "timestamp": "10:51",
+      "text": "at the data layer. Fork execution paths, switch models, compare decisions across branches, all without reexplaining the"
+    },
+    {
+      "timestamp": "10:58",
+      "text": "project context from scratch. The name means memory in Sanskrit. The implementation earns it. Wireframe.js JS"
+    },
+    {
+      "timestamp": "11:07",
+      "text": "converts your live, fully styled HTML into a handdrawn wireframe aesthetic with a single script drop. No rebuilding"
+    },
+    {
+      "timestamp": "11:14",
+      "text": "the prototype in Figma. No stripping out styles manually. The functional HTML stays functional. It just looks like a sketch. Clients focus on the layout and"
+    },
+    {
+      "timestamp": "11:24",
+      "text": "flow instead of arguing about button colors. The fastest path from working prototype to client ready mockup."
+    },
+    {
+      "timestamp": "11:32",
+      "text": "Brand toolkit is a claude code plugin that packages real expert frameworks directly into runnable skills. Donald"
+    },
+    {
+      "timestamp": "11:39",
+      "text": "Miller's story brand, April Dunford's positioning methodology, and a built-in anti-slop checker that flags banned corporate buzzwords like synergy and"
+    },
+    {
+      "timestamp": "11:48",
+      "text": "empower before they make it into your copy."
+    },
+    {
+      "timestamp": "11:52",
+      "text": "Doc autohide watches your screen and toggles doc autohide only when a window actually overlaps it. Doc stays visible"
+    },
+    {
+      "timestamp": "12:00",
+      "text": "when you need it, disappears when something bumps into it, reappears when the coast is clear. No manual toggling,"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "no permanently hiding it, no wasted screen real estate. The kind of feature that feels obvious in hindsight and should have shipped with Mac OS years ago."
+    },
+    {
+      "timestamp": "12:17",
+      "text": "Claude code and codecs are both strong tools that have no way to talk to each other. This project fixes that. It's a"
+    },
+    {
+      "timestamp": "12:25",
+      "text": "birectional bridge using clawed code channels and MCP tool calls to route messages between the two agents in real time with a web UI to watch the"
+    },
+    {
+      "timestamp": "12:34",
+      "text": "conversation unfold. Anthropic and OpenAI models debating and coding together in your terminal."
+    },
+    {
+      "timestamp": "12:41",
+      "text": "Long clawed code sessions hit a wall when the context window fills up. Wet fixes that without you having to intervene. It's a go proxy that sits"
+    },
+    {
+      "timestamp": "12:50",
+      "text": "between Claude code and the anthropic API, exposing hidden endpoints that let Claude profile and optimize its own"
+    },
+    {
+      "timestamp": "12:57",
+      "text": "context window. When token count gets too heavy, the agent pauses, compresses older messages, prunes irrelevant tool"
+    },
+    {
+      "timestamp": "13:04",
+      "text": "outputs, and restructures its working memory before the next request goes out."
+    },
+    {
+      "timestamp": "13:10",
+      "text": "Anthropic rewrote Claude codes terminal renderer because ink was causing screen flicker. Nathan Canon read that post and"
+    },
+    {
+      "timestamp": "13:18",
+      "text": "turned the approach into a standalone library. Cellst state runs purely inline instead. It uses a custom React"
+    },
+    {
+      "timestamp": "13:25",
+      "text": "reconciler and double buffered rendering to diff at the cell level, calculating exactly which characters changed and only emitting escape sequences for those specific cells."
+    },
+    {
+      "timestamp": "13:37",
+      "text": "Emil Kowalsski is one of the more respected voices in design engineering."
+    },
+    {
+      "timestamp": "13:41",
+      "text": "Known specifically for his work on animations and UI craft. He compiled his entire body of writing on animations, design, and front-end performance into a"
+    },
+    {
+      "timestamp": "13:49",
+      "text": "single installable AI skill. Run npx skills, add ML Kowalsski/skill, and your claude or cursor agent picks up that sensibility immediately."
+    },
+    {
+      "timestamp": "14:01",
+      "text": "API token costs add up fast when you're building and testing AI tools all day."
+    },
+    {
+      "timestamp": "14:06",
+      "text": "Cloudbox runs Cloud Code inside a sandbox Docker container, but authenticates using your existing $20 Cloud subscription instead of a"
+    },
+    {
+      "timestamp": "14:14",
+      "text": "developer API key. It then exposes a fully OpenAI compatible API on local host. So any tool, framework, or agent"
+    },
+    {
+      "timestamp": "14:22",
+      "text": "that can hit an OpenAI endpoint can use your flat rate subscription as the backend."
+    },
+    {
+      "timestamp": "14:29",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. The show hn section has been on fire lately. 35 projects pulled straight from hacker news. Let's get into it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DD photos is a self-hosted static photo gallery generator built with Go and spelt kit. Parallel Go routines process hundreds of images in seconds,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 20000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "converting everything to optimized webp and generating JSON indexes automatically. The output is a fully static spelt kit site with a photo swipe"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "light box built in. No database, no server code, no login walls hosted on S3 or Apache for next to nothing and send"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the link to whoever needs it. Thread Prox is an experimental Linux project that lets multiple independent executables share a single virtual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "address space. The practical consequence is that you can pass raw C++ or Rust pointers between completely separate"
+        }
+      ]
+    },
+    {
+      "tStartMs": 52000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "programs with zero copy overhead. No serialization, no shared memory gymnastics, no IPC overhead, just a pointer passed directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents write a lot of code and commit it messily. Git Surgeon is built for exactly that problem. It's a set of git primitives designed specifically for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "autonomous coding agents, giving them the tools to slice, amend, and organize commits cleanly as they work. The result"
+        }
+      ]
+    },
+    {
+      "tStartMs": 79000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is a repository history that doesn't look like a bot was in charge, even when one was."
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Paint.NET doesn't run on Mac OS, so someone built the next best thing. Gro Paint is a lightweight image editor built with vanilla JavaScript and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python PI web view backend. layers, 16 blend modes, magic wand selection, native project saving, completely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 100000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "offline, no electron, no subscription, no bloat, exactly as described, somewhere between MS Paint and Paint Net running natively on Mac OS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Persistent agent memory usually implies a vector database and a weekend of setup. Agent kernel is three markdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "files and a git repo. Clone it, point clawed code or cursor at it, and the agent figures out how to use it on its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 125000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own. It maintains identity, tracks world state in a knowledge folder and writes appendon daily session logs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 133000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zweep is mind sweeper rebuilt for people who think the original UI was the problem. Vim keybindings, no Windows 95 Chrome."
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Navigate the grid entirely from the keyboard. track metrics like 3BS and play in time attack mode designed around"
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pure speed. If monkey type scratches a particular itch for you, this is the same energy applied to mind sweeper."
+        }
+      ]
+    },
+    {
+      "tStartMs": 157000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI engineering from scratch is an open-source curriculum with 230 plus hands-on lessons across 20 phases."
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "linear algebra and neural networks from first principles through to autonomous agent swarms implemented in Python,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 172000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust, and Typescript. For anyone who's been building on top of AI and wants to actually understand what's underneath it, this is the curriculum worth blocking out time for."
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context D runs silently in the background on Mac OS, taking a screenshot every 2 seconds, running local OCR on whatever changed and saving the extracted text to SQLite."
+        }
+      ]
+    },
+    {
+      "tStartMs": 195000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A local LLM like Claude Haiku progressively summarizes your activity as the day goes on. Everything gets exposed through a local HTTP API so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "other agents can query exactly what you've been working on at any point."
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everyone has a cheap thermal printer sitting in a drawer after two uses."
+        }
+      ]
+    },
+    {
+      "tStartMs": 213000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Thermaly is a lightweight Python web server that takes standard markdown and translates it for thermal printers. Bold"
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "headers, alignment, QR codes on the fly, web UI included, Docker supported. Send it a markdown file, get a receipt."
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Genuinely good reason to dig that printer back out."
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gold.md is a markdown framework that lets an AI agent optimize your codebase overnight using an auto research loop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inspired by Andre Karpathy's work. Write a measurement script, whether that's test coverage, API reliability, or something custom, and the agent runs a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 248000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modify, verify, retain, or discard loop against your score until you wake up. 50 commits of optimized code by morning."
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Crack taps into the undocumented lid angle sensor on modern MacBooks and maps the opening angle to a creaking door"
+        }
+      ]
+    },
+    {
+      "tStartMs": 264000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sound in real time. Open the lid slowly, get a long, horrifying squeak, slam it shut, get the full effect."
+        }
+      ]
+    },
+    {
+      "tStartMs": 272000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "completely useless, technically impressive, guaranteed to clear out a coffee shop. One of the better ways anyone has spent a weekend."
+        }
+      ]
+    },
+    {
+      "tStartMs": 280000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Copying context between multiple clawed code and codec sessions manually is one of those problems that shouldn't still"
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exist. Agent IM is a minimalist chat room system for AI agents built on an MCP server. Agents create a room, invite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each other, define their roles, and communicate directly to collaborate on a problem. Writing system prompts by intuition and hoping they hold up in production is how most people do it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 308000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Autoprompter makes it an engineering problem instead. It runs iterative tests against multiple models, measures"
+        }
+      ]
+    },
+    {
+      "tStartMs": 315000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "function calling accuracy, and automatically suggests optimizations based on what actually performs better."
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Prompt engineering that produces evidence instead of opinions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most developers set up MCP configs once and never look at them again. MCP scan audits yours. It checks for hard-coded"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "API keys, flags overly broad file system permissions, and detects typos squatted malicious npm packages in your server"
+        }
+      ]
+    },
+    {
+      "tStartMs": 342000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "arguments. If you're running cursor or clawed desktop with MCP tools and haven't audited your config, this should probably be the next thing you run."
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "M33MU is a full ARMv8M Cortex M33 emulator written in C built for firmware developers who want to debug embedded"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "systems without touching physical hardware. Trust zone awareness built-in GDB remote server terminal UI and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execution recording for reverse stepping through firmware bugs. Step backward through a crash to find exactly where things went wrong."
+        }
+      ]
+    },
+    {
+      "tStartMs": 376000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Z1 connects Claude directly to your live browser environment so your agent can interact with a running React app instead of just editing files blindly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It modifies local files on the fly and uses git branches to track changes as it works. The feedback loop between AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generated UI and the actual running application closes without you manually switching context. Aentic UI generation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that actually knows what it's looking at."
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Someone wanted ARC's tab duplication without the memory cost. So they built a new browser. Refra uses an undocumented"
+        }
+      ]
+    },
+    {
+      "tStartMs": 411000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "private Mac OS class called Kportal layer to mirror the GPU memory of a single web page across multiple windows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hundreds of live updating tabs, RAM footprint of one. The engineering here is genuinely impressive."
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flow state is agent kernel's core idea packaged as an MCP server. Connect it to claude code and your agent retains"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "memory about your project architecture, your coding preferences, and outstanding bugs across sessions. Pick up on Monday"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exactly where Friday left off without spending the first 20 minutes reexplaining the codebase. Persistent context that travels with the project."
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mamba RS is a full Mamba state space model implementation written in Rust with custom CUDA kernels inference and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full backward pass BPTT training. No Python anywhere in the stack for anyone who wants to experiment with Mamba architecture at the metal level without the overhead of a Python ML framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is the starting point."
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most SSH config files are a graveyard of IP addresses nobody remembers and keys nobody can locate. Meow SSH is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lightweight terminal UI for managing SSH connections, switching keys, and jumping into remote environments without digging"
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through config files. Fast, organized, and wrapped in a cat themed aesthetic that makes it considerably more enjoyable than it has any right to be."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Jensenify MCP injects the complete texts of Homer, Shakespeare, Toltoy, and the King James Bible into every single AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tool call. 2.9 million tokens of classic literature loaded into context, so your coding agent has deep humanistic"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "grounding when it fixes a null pointer exception. The creator acknowledges it costs a fortune in API tokens. That's the joke and also entirely the point."
+        }
+      ]
+    },
+    {
+      "tStartMs": 523000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Minesis is a lightweight Python library for state and memory management in back-end applications. Clean API for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "persisting and recalling data structures without rolling your own solution or pulling in something heavier than the problem warrants. Straightforward"
+        }
+      ]
+    },
+    {
+      "tStartMs": 539000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "utility that fills a gap. Python's standard library leaves open."
+        }
+      ]
+    },
+    {
+      "tStartMs": 545000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Switching between agent frameworks usually means losing everything the agent learned in the previous one. Nemo is a local first CLI that serializes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent memory into a normalized JSON schema. diff snapshots to show exactly what changed between sessions and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 561000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "migrates memories between backends like mem and leta stack PRs are one of those workflows that feels impossibly messy to manage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "manually after the first rebase goes wrong. Estack handles the orchestration using standard git and GH commands you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "already know with metadata stored in a simple JSON file. No custom git internals, no new mental model to learn."
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clean stack PR workflow without replacing the tools you already use."
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Samuel is a fully autonomous reading agent built on the OpenClaw framework with real-time voice mode. It reads your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local Apple books, summarizes chapters, recites context, and turns pages autonomously using screen vision. The language learning use case is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interesting one. Run it while watching a foreign film, and it provides real time context from what it sees and hears."
+        }
+      ]
+    },
+    {
+      "tStartMs": 615000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Revise.io is a collaborative document editor with built-in revision history and git style visual diffs for writing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 623000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The useful part is the integrated AI proofreader that works against rules you define yourself. Tell it to enforce APA7"
+        }
+      ]
+    },
+    {
+      "tStartMs": 630000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "formatting or avoid exclamation points and it holds to that standard consistently across every draft. Google"
+        }
+      ]
+    },
+    {
+      "tStartMs": 637000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docs with version control and a style guide that actually sticks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 642000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Smiti treats agent memory the way Git treats code. Instead of relying on chat history that breaks down when you change direction, it enforces clean checkpoints"
+        }
+      ]
+    },
+    {
+      "tStartMs": 651000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "at the data layer. Fork execution paths, switch models, compare decisions across branches, all without reexplaining the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 658000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "project context from scratch. The name means memory in Sanskrit. The implementation earns it. Wireframe.js JS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "converts your live, fully styled HTML into a handdrawn wireframe aesthetic with a single script drop. No rebuilding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the prototype in Figma. No stripping out styles manually. The functional HTML stays functional. It just looks like a sketch. Clients focus on the layout and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 684000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flow instead of arguing about button colors. The fastest path from working prototype to client ready mockup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Brand toolkit is a claude code plugin that packages real expert frameworks directly into runnable skills. Donald"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Miller's story brand, April Dunford's positioning methodology, and a built-in anti-slop checker that flags banned corporate buzzwords like synergy and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "empower before they make it into your copy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 712000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Doc autohide watches your screen and toggles doc autohide only when a window actually overlaps it. Doc stays visible"
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when you need it, disappears when something bumps into it, reappears when the coast is clear. No manual toggling,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no permanently hiding it, no wasted screen real estate. The kind of feature that feels obvious in hindsight and should have shipped with Mac OS years ago."
+        }
+      ]
+    },
+    {
+      "tStartMs": 737000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude code and codecs are both strong tools that have no way to talk to each other. This project fixes that. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 745000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "birectional bridge using clawed code channels and MCP tool calls to route messages between the two agents in real time with a web UI to watch the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conversation unfold. Anthropic and OpenAI models debating and coding together in your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 761000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Long clawed code sessions hit a wall when the context window fills up. Wet fixes that without you having to intervene. It's a go proxy that sits"
+        }
+      ]
+    },
+    {
+      "tStartMs": 770000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between Claude code and the anthropic API, exposing hidden endpoints that let Claude profile and optimize its own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 777000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context window. When token count gets too heavy, the agent pauses, compresses older messages, prunes irrelevant tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 784000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "outputs, and restructures its working memory before the next request goes out."
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anthropic rewrote Claude codes terminal renderer because ink was causing screen flicker. Nathan Canon read that post and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 798000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "turned the approach into a standalone library. Cellst state runs purely inline instead. It uses a custom React"
+        }
+      ]
+    },
+    {
+      "tStartMs": 805000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reconciler and double buffered rendering to diff at the cell level, calculating exactly which characters changed and only emitting escape sequences for those specific cells."
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Emil Kowalsski is one of the more respected voices in design engineering."
+        }
+      ]
+    },
+    {
+      "tStartMs": 821000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Known specifically for his work on animations and UI craft. He compiled his entire body of writing on animations, design, and front-end performance into a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 829000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "single installable AI skill. Run npx skills, add ML Kowalsski/skill, and your claude or cursor agent picks up that sensibility immediately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "API token costs add up fast when you're building and testing AI tools all day."
+        }
+      ]
+    },
+    {
+      "tStartMs": 846000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudbox runs Cloud Code inside a sandbox Docker container, but authenticates using your existing $20 Cloud subscription instead of a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "developer API key. It then exposes a fully OpenAI compatible API on local host. So any tool, framework, or agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 862000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that can hit an OpenAI endpoint can use your flat rate subscription as the backend."
+        }
+      ]
+    },
+    {
+      "tStartMs": 869000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

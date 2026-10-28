@@ -1,0 +1,1008 @@
+{
+  "schema_version": 1,
+  "id": "ZndbgtdcbOI",
+  "title": "Hacker News Show #2: ddphotos, threadprocs, git-surgeon, GrobPaint, zsweep, ContextD, Crack, goal-md",
+  "url": "https://www.youtube.com/watch?v=ZndbgtdcbOI",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-03-24",
+  "duration": 870,
+  "word_count": 2141,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-28T05:58:37+00:00",
+    "metadata_sha256": "6a49d14c8881b4f3daac78b64c36513ecc87215f3df2c66dc70b2a6b29eece00",
+    "captions_sha256": "9d389016f0396140f377e1066b3eaa676437618525e62a84afb55a1541422e86",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. The show hn section has been on fire lately. 35 projects pulled straight from hacker news. Let's get into it."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "ddphotos",
+      "repositories": [
+        "https://github.com/dougdonohoe/ddphotos"
+      ],
+      "id": "s002",
+      "end": 39,
+      "paragraphs": [
+        "DD photos is a self-hosted static photo gallery generator built with Go and spelt kit. Parallel Go routines process hundreds of images in seconds, converting everything to optimized webp and generating JSON indexes automatically. The output is a fully static spelt kit site with a photo swipe light box built in. No database, no server code, no login walls hosted on S3 or Apache for next to nothing and send the link to whoever needs it. Thread Prox is an experimental Linux project that lets multiple independent executables share a single virtual"
+      ]
+    },
+    {
+      "start": 39,
+      "title": "threadprocs",
+      "repositories": [
+        "https://github.com/jer-irl/threadprocs"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "address space. The practical consequence is that you can pass raw C++ or Rust pointers between completely separate programs with zero copy overhead. No serialization, no shared memory gymnastics, no IPC overhead, just a pointer passed directly."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "git-surgeon",
+      "repositories": [
+        "https://github.com/raine/git-surgeon"
+      ],
+      "id": "s004",
+      "end": 86,
+      "paragraphs": [
+        "AI agents write a lot of code and commit it messily. Git Surgeon is built for exactly that problem. It's a set of git primitives designed specifically for autonomous coding agents, giving them the tools to slice, amend, and organize commits cleanly as they work. The result is a repository history that doesn't look like a bot was in charge, even when one was."
+      ]
+    },
+    {
+      "start": 86,
+      "title": "GrobPaint",
+      "repositories": [
+        "https://github.com/groverburger/grobpaint"
+      ],
+      "id": "s005",
+      "end": 111,
+      "paragraphs": [
+        "Paint.NET doesn't run on Mac OS, so someone built the next best thing. Gro Paint is a lightweight image editor built with vanilla JavaScript and a Python PI web view backend. layers, 16 blend modes, magic wand selection, native project saving, completely offline, no electron, no subscription, no bloat, exactly as described, somewhere between MS Paint and Paint Net running natively on Mac OS."
+      ]
+    },
+    {
+      "start": 111,
+      "title": "Agent Kernel",
+      "repositories": [
+        "https://github.com/oguzbilgic/agent-kernel"
+      ],
+      "id": "s006",
+      "end": 133,
+      "paragraphs": [
+        "Persistent agent memory usually implies a vector database and a weekend of setup. Agent kernel is three markdown files and a git repo. Clone it, point clawed code or cursor at it, and the agent figures out how to use it on its own. It maintains identity, tracks world state in a knowledge folder and writes appendon daily session logs."
+      ]
+    },
+    {
+      "start": 133,
+      "title": "zsweep",
+      "repositories": [
+        "https://github.com/oug-t/zsweep"
+      ],
+      "id": "s007",
+      "end": 157,
+      "paragraphs": [
+        "Zweep is mind sweeper rebuilt for people who think the original UI was the problem. Vim keybindings, no Windows 95 Chrome. Navigate the grid entirely from the keyboard. track metrics like 3BS and play in time attack mode designed around pure speed. If monkey type scratches a particular itch for you, this is the same energy applied to mind sweeper."
+      ]
+    },
+    {
+      "start": 157,
+      "title": "ai-engineering-from-scratch",
+      "repositories": [
+        "https://github.com/rohitg00/ai-engineering-from-scratch"
+      ],
+      "id": "s008",
+      "end": 183,
+      "paragraphs": [
+        "AI engineering from scratch is an open-source curriculum with 230 plus hands-on lessons across 20 phases. linear algebra and neural networks from first principles through to autonomous agent swarms implemented in Python, Rust, and Typescript. For anyone who's been building on top of AI and wants to actually understand what's underneath it, this is the curriculum worth blocking out time for."
+      ]
+    },
+    {
+      "start": 183,
+      "title": "ContextD",
+      "repositories": [
+        "https://github.com/thesophiaxu/contextd"
+      ],
+      "id": "s009",
+      "end": 209,
+      "paragraphs": [
+        "Context D runs silently in the background on Mac OS, taking a screenshot every 2 seconds, running local OCR on whatever changed and saving the extracted text to SQLite. A local LLM like Claude Haiku progressively summarizes your activity as the day goes on. Everything gets exposed through a local HTTP API so other agents can query exactly what you've been working on at any point."
+      ]
+    },
+    {
+      "start": 209,
+      "title": "ThermalMarky",
+      "repositories": [
+        "https://github.com/sadreck/ThermalMarky"
+      ],
+      "id": "s010",
+      "end": 232,
+      "paragraphs": [
+        "Everyone has a cheap thermal printer sitting in a drawer after two uses. Thermaly is a lightweight Python web server that takes standard markdown and translates it for thermal printers. Bold headers, alignment, QR codes on the fly, web UI included, Docker supported. Send it a markdown file, get a receipt. Genuinely good reason to dig that printer back out."
+      ]
+    },
+    {
+      "start": 232,
+      "title": "goal-md",
+      "repositories": [
+        "https://github.com/jmilinovich/goal-md"
+      ],
+      "id": "s011",
+      "end": 257,
+      "paragraphs": [
+        "Gold.md is a markdown framework that lets an AI agent optimize your codebase overnight using an auto research loop inspired by Andre Karpathy's work. Write a measurement script, whether that's test coverage, API reliability, or something custom, and the agent runs a modify, verify, retain, or discard loop against your score until you wake up. 50 commits of optimized code by morning."
+      ]
+    },
+    {
+      "start": 257,
+      "title": "Crack",
+      "repositories": [
+        "https://github.com/ronreiter/crack"
+      ],
+      "id": "s012",
+      "end": 280,
+      "paragraphs": [
+        "Crack taps into the undocumented lid angle sensor on modern MacBooks and maps the opening angle to a creaking door sound in real time. Open the lid slowly, get a long, horrifying squeak, slam it shut, get the full effect. completely useless, technically impressive, guaranteed to clear out a coffee shop. One of the better ways anyone has spent a weekend."
+      ]
+    },
+    {
+      "start": 280,
+      "title": "Agent-IM",
+      "repositories": [
+        "https://github.com/LinklyAI/agent-im"
+      ],
+      "id": "s013",
+      "end": 301,
+      "paragraphs": [
+        "Copying context between multiple clawed code and codec sessions manually is one of those problems that shouldn't still exist. Agent IM is a minimalist chat room system for AI agents built on an MCP server. Agents create a room, invite each other, define their roles, and communicate directly to collaborate on a problem. Writing system prompts by intuition and hoping they hold up in production is how most people do it."
+      ]
+    },
+    {
+      "start": 301,
+      "title": "AutoPrompter",
+      "repositories": [
+        "https://github.com/gauravvij/autoprompter"
+      ],
+      "id": "s014",
+      "end": 326,
+      "paragraphs": [
+        "Autoprompter makes it an engineering problem instead. It runs iterative tests against multiple models, measures function calling accuracy, and automatically suggests optimizations based on what actually performs better. Prompt engineering that produces evidence instead of opinions."
+      ]
+    },
+    {
+      "start": 326,
+      "title": "mcp-scan",
+      "repositories": [
+        "https://github.com/rodolfboctor/mcp-scan"
+      ],
+      "id": "s015",
+      "end": 351,
+      "paragraphs": [
+        "Most developers set up MCP configs once and never look at them again. MCP scan audits yours. It checks for hard-coded API keys, flags overly broad file system permissions, and detects typos squatted malicious npm packages in your server arguments. If you're running cursor or clawed desktop with MCP tools and haven't audited your config, this should probably be the next thing you run."
+      ]
+    },
+    {
+      "start": 351,
+      "title": "m33mu",
+      "repositories": [
+        "https://github.com/danielinux/m33mu"
+      ],
+      "id": "s016",
+      "end": 376,
+      "paragraphs": [
+        "M33MU is a full ARMv8M Cortex M33 emulator written in C built for firmware developers who want to debug embedded systems without touching physical hardware. Trust zone awareness built-in GDB remote server terminal UI and execution recording for reverse stepping through firmware bugs. Step backward through a crash to find exactly where things went wrong."
+      ]
+    },
+    {
+      "start": 376,
+      "title": "Z1",
+      "repositories": [
+        "https://github.com/thomscoder/z1"
+      ],
+      "id": "s017",
+      "end": 404,
+      "paragraphs": [
+        "Z1 connects Claude directly to your live browser environment so your agent can interact with a running React app instead of just editing files blindly. It modifies local files on the fly and uses git branches to track changes as it works. The feedback loop between AI generated UI and the actual running application closes without you manually switching context. Aentic UI generation that actually knows what it's looking at."
+      ]
+    },
+    {
+      "start": 404,
+      "title": "Refrax",
+      "repositories": [],
+      "id": "s018",
+      "end": 425,
+      "paragraphs": [
+        "Someone wanted ARC's tab duplication without the memory cost. So they built a new browser. Refra uses an undocumented private Mac OS class called Kportal layer to mirror the GPU memory of a single web page across multiple windows. Hundreds of live updating tabs, RAM footprint of one. The engineering here is genuinely impressive."
+      ]
+    },
+    {
+      "start": 425,
+      "title": "FlowState",
+      "repositories": [
+        "https://github.com/dialectforge/FlowStateV1.1"
+      ],
+      "id": "s019",
+      "end": 451,
+      "paragraphs": [
+        "Flow state is agent kernel's core idea packaged as an MCP server. Connect it to claude code and your agent retains memory about your project architecture, your coding preferences, and outstanding bugs across sessions. Pick up on Monday exactly where Friday left off without spending the first 20 minutes reexplaining the codebase. Persistent context that travels with the project."
+      ]
+    },
+    {
+      "start": 451,
+      "title": "mamba-rs",
+      "repositories": [
+        "https://github.com/silvermpx/mamba-rs"
+      ],
+      "id": "s020",
+      "end": 472,
+      "paragraphs": [
+        "Mamba RS is a full Mamba state space model implementation written in Rust with custom CUDA kernels inference and full backward pass BPTT training. No Python anywhere in the stack for anyone who wants to experiment with Mamba architecture at the metal level without the overhead of a Python ML framework. This is the starting point."
+      ]
+    },
+    {
+      "start": 472,
+      "title": "meow-ssh",
+      "repositories": [
+        "https://github.com/abhishekgahlot2/meow-ssh"
+      ],
+      "id": "s021",
+      "end": 497,
+      "paragraphs": [
+        "Most SSH config files are a graveyard of IP addresses nobody remembers and keys nobody can locate. Meow SSH is a lightweight terminal UI for managing SSH connections, switching keys, and jumping into remote environments without digging through config files. Fast, organized, and wrapped in a cat themed aesthetic that makes it considerably more enjoyable than it has any right to be."
+      ]
+    },
+    {
+      "start": 497,
+      "title": "jensenify-mcp",
+      "repositories": [
+        "https://github.com/kenm47/jensenify-mcp"
+      ],
+      "id": "s022",
+      "end": 523,
+      "paragraphs": [
+        "Jensenify MCP injects the complete texts of Homer, Shakespeare, Toltoy, and the King James Bible into every single AI tool call. 2.9 million tokens of classic literature loaded into context, so your coding agent has deep humanistic grounding when it fixes a null pointer exception. The creator acknowledges it costs a fortune in API tokens. That's the joke and also entirely the point."
+      ]
+    },
+    {
+      "start": 523,
+      "title": "mnesis",
+      "repositories": [
+        "https://github.com/Lucenor/mnesis"
+      ],
+      "id": "s023",
+      "end": 544,
+      "paragraphs": [
+        "Minesis is a lightweight Python library for state and memory management in back-end applications. Clean API for persisting and recalling data structures without rolling your own solution or pulling in something heavier than the problem warrants. Straightforward utility that fills a gap. Python's standard library leaves open."
+      ]
+    },
+    {
+      "start": 544,
+      "title": "mnemo",
+      "repositories": [
+        "https://github.com/joshndala/mnemo-agent"
+      ],
+      "id": "s024",
+      "end": 566,
+      "paragraphs": [
+        "Switching between agent frameworks usually means losing everything the agent learned in the previous one. Nemo is a local first CLI that serializes agent memory into a normalized JSON schema. diff snapshots to show exactly what changed between sessions and migrates memories between backends like mem and leta stack PRs are one of those workflows that feels impossibly messy to manage"
+      ]
+    },
+    {
+      "start": 566,
+      "title": "ez-stack",
+      "repositories": [
+        "https://github.com/rohoswagger/ez-stack"
+      ],
+      "id": "s025",
+      "end": 590,
+      "paragraphs": [
+        "manually after the first rebase goes wrong. Estack handles the orchestration using standard git and GH commands you already know with metadata stored in a simple JSON file. No custom git internals, no new mental model to learn. clean stack PR workflow without replacing the tools you already use."
+      ]
+    },
+    {
+      "start": 590,
+      "title": "Samuel",
+      "repositories": [
+        "https://github.com/sambuild04/reading-ai-agent"
+      ],
+      "id": "s026",
+      "end": 615,
+      "paragraphs": [
+        "Samuel is a fully autonomous reading agent built on the OpenClaw framework with real-time voice mode. It reads your local Apple books, summarizes chapters, recites context, and turns pages autonomously using screen vision. The language learning use case is the interesting one. Run it while watching a foreign film, and it provides real time context from what it sees and hears."
+      ]
+    },
+    {
+      "start": 615,
+      "title": "Revise",
+      "repositories": [],
+      "id": "s027",
+      "end": 642,
+      "paragraphs": [
+        "Revise.io is a collaborative document editor with built-in revision history and git style visual diffs for writing. The useful part is the integrated AI proofreader that works against rules you define yourself. Tell it to enforce APA7 formatting or avoid exclamation points and it holds to that standard consistently across every draft. Google Docs with version control and a style guide that actually sticks."
+      ]
+    },
+    {
+      "start": 642,
+      "title": "smriti",
+      "repositories": [
+        "https://github.com/himanshudongre/smriti"
+      ],
+      "id": "s028",
+      "end": 666,
+      "paragraphs": [
+        "Smiti treats agent memory the way Git treats code. Instead of relying on chat history that breaks down when you change direction, it enforces clean checkpoints at the data layer. Fork execution paths, switch models, compare decisions across branches, all without reexplaining the project context from scratch. The name means memory in Sanskrit. The implementation earns it. Wireframe.js JS"
+      ]
+    },
+    {
+      "start": 666,
+      "title": "Wireframed.js",
+      "repositories": [
+        "https://github.com/Lywald/Wireframed.js"
+      ],
+      "id": "s029",
+      "end": 692,
+      "paragraphs": [
+        "converts your live, fully styled HTML into a handdrawn wireframe aesthetic with a single script drop. No rebuilding the prototype in Figma. No stripping out styles manually. The functional HTML stays functional. It just looks like a sketch. Clients focus on the layout and flow instead of arguing about button colors. The fastest path from working prototype to client ready mockup."
+      ]
+    },
+    {
+      "start": 692,
+      "title": "Brand Toolkit",
+      "repositories": [
+        "https://github.com/jgerton/brand-toolkit"
+      ],
+      "id": "s030",
+      "end": 712,
+      "paragraphs": [
+        "Brand toolkit is a claude code plugin that packages real expert frameworks directly into runnable skills. Donald Miller's story brand, April Dunford's positioning methodology, and a built-in anti-slop checker that flags banned corporate buzzwords like synergy and empower before they make it into your copy."
+      ]
+    },
+    {
+      "start": 712,
+      "title": "DockAutoHide",
+      "repositories": [
+        "https://github.com/nshcr/DockAutoHide"
+      ],
+      "id": "s031",
+      "end": 737,
+      "paragraphs": [
+        "Doc autohide watches your screen and toggles doc autohide only when a window actually overlaps it. Doc stays visible when you need it, disappears when something bumps into it, reappears when the coast is clear. No manual toggling, no permanently hiding it, no wasted screen real estate. The kind of feature that feels obvious in hindsight and should have shipped with Mac OS years ago."
+      ]
+    },
+    {
+      "start": 737,
+      "title": "Codex Bridge",
+      "repositories": [
+        "https://github.com/abhishekgahlot2/codex-claude-bridge"
+      ],
+      "id": "s032",
+      "end": 761,
+      "paragraphs": [
+        "Claude code and codecs are both strong tools that have no way to talk to each other. This project fixes that. It's a birectional bridge using clawed code channels and MCP tool calls to route messages between the two agents in real time with a web UI to watch the conversation unfold. Anthropic and OpenAI models debating and coding together in your terminal."
+      ]
+    },
+    {
+      "start": 761,
+      "title": "wet",
+      "repositories": [
+        "https://github.com/buildoak/wet"
+      ],
+      "id": "s033",
+      "end": 790,
+      "paragraphs": [
+        "Long clawed code sessions hit a wall when the context window fills up. Wet fixes that without you having to intervene. It's a go proxy that sits between Claude code and the anthropic API, exposing hidden endpoints that let Claude profile and optimize its own context window. When token count gets too heavy, the agent pauses, compresses older messages, prunes irrelevant tool outputs, and restructures its working memory before the next request goes out."
+      ]
+    },
+    {
+      "start": 790,
+      "title": "CellState",
+      "repositories": [
+        "https://github.com/nathan-cannon/cellstate"
+      ],
+      "id": "s034",
+      "end": 817,
+      "paragraphs": [
+        "Anthropic rewrote Claude codes terminal renderer because ink was causing screen flicker. Nathan Canon read that post and turned the approach into a standalone library. Cellst state runs purely inline instead. It uses a custom React reconciler and double buffered rendering to diff at the cell level, calculating exactly which characters changed and only emitting escape sequences for those specific cells."
+      ]
+    },
+    {
+      "start": 817,
+      "title": "skill",
+      "repositories": [
+        "https://github.com/emilkowalski/skill"
+      ],
+      "id": "s035",
+      "end": 841,
+      "paragraphs": [
+        "Emil Kowalsski is one of the more respected voices in design engineering. Known specifically for his work on animations and UI craft. He compiled his entire body of writing on animations, design, and front-end performance into a single installable AI skill. Run npx skills, add ML Kowalsski/skill, and your claude or cursor agent picks up that sensibility immediately."
+      ]
+    },
+    {
+      "start": 841,
+      "title": "claudebox",
+      "repositories": [
+        "https://github.com/ArmanJR/claudebox"
+      ],
+      "id": "s036",
+      "end": 870,
+      "paragraphs": [
+        "API token costs add up fast when you're building and testing AI tools all day. Cloudbox runs Cloud Code inside a sandbox Docker container, but authenticates using your existing $20 Cloud subscription instead of a developer API key. It then exposes a fully OpenAI compatible API on local host. So any tool, framework, or agent that can hit an OpenAI endpoint can use your flat rate subscription as the backend. [music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. The show hn section has been on fire lately. 35 projects pulled straight from hacker news. Let's get into it."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "DD photos is a self-hosted static photo gallery generator built with Go and spelt kit. Parallel Go routines process hundreds of images in seconds,"
+    },
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "text": "converting everything to optimized webp and generating JSON indexes automatically. The output is a fully static spelt kit site with a photo swipe"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "light box built in. No database, no server code, no login walls hosted on S3 or Apache for next to nothing and send"
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "the link to whoever needs it. Thread Prox is an experimental Linux project that lets multiple independent executables share a single virtual"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "address space. The practical consequence is that you can pass raw C++ or Rust pointers between completely separate"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "programs with zero copy overhead. No serialization, no shared memory gymnastics, no IPC overhead, just a pointer passed directly."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "AI agents write a lot of code and commit it messily. Git Surgeon is built for exactly that problem. It's a set of git primitives designed specifically for"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "autonomous coding agents, giving them the tools to slice, amend, and organize commits cleanly as they work. The result"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "text": "is a repository history that doesn't look like a bot was in charge, even when one was."
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "text": "Paint.NET doesn't run on Mac OS, so someone built the next best thing. Gro Paint is a lightweight image editor built with vanilla JavaScript and a"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "text": "Python PI web view backend. layers, 16 blend modes, magic wand selection, native project saving, completely"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "text": "offline, no electron, no subscription, no bloat, exactly as described, somewhere between MS Paint and Paint Net running natively on Mac OS."
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "Persistent agent memory usually implies a vector database and a weekend of setup. Agent kernel is three markdown"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "text": "files and a git repo. Clone it, point clawed code or cursor at it, and the agent figures out how to use it on its"
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "own. It maintains identity, tracks world state in a knowledge folder and writes appendon daily session logs."
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "Zweep is mind sweeper rebuilt for people who think the original UI was the problem. Vim keybindings, no Windows 95 Chrome."
+    },
+    {
+      "start": 142.0,
+      "end": 142.0,
+      "text": "Navigate the grid entirely from the keyboard. track metrics like 3BS and play in time attack mode designed around"
+    },
+    {
+      "start": 149.0,
+      "end": 149.0,
+      "text": "pure speed. If monkey type scratches a particular itch for you, this is the same energy applied to mind sweeper."
+    },
+    {
+      "start": 157.0,
+      "end": 157.0,
+      "text": "AI engineering from scratch is an open-source curriculum with 230 plus hands-on lessons across 20 phases."
+    },
+    {
+      "start": 165.0,
+      "end": 165.0,
+      "text": "linear algebra and neural networks from first principles through to autonomous agent swarms implemented in Python,"
+    },
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "Rust, and Typescript. For anyone who's been building on top of AI and wants to actually understand what's underneath it, this is the curriculum worth blocking out time for."
+    },
+    {
+      "start": 183.0,
+      "end": 183.0,
+      "text": "Context D runs silently in the background on Mac OS, taking a screenshot every 2 seconds, running local OCR on whatever changed and saving the extracted text to SQLite."
+    },
+    {
+      "start": 195.0,
+      "end": 195.0,
+      "text": "A local LLM like Claude Haiku progressively summarizes your activity as the day goes on. Everything gets exposed through a local HTTP API so"
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "other agents can query exactly what you've been working on at any point."
+    },
+    {
+      "start": 209.0,
+      "end": 209.0,
+      "text": "Everyone has a cheap thermal printer sitting in a drawer after two uses."
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "Thermaly is a lightweight Python web server that takes standard markdown and translates it for thermal printers. Bold"
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "headers, alignment, QR codes on the fly, web UI included, Docker supported. Send it a markdown file, get a receipt."
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "Genuinely good reason to dig that printer back out."
+    },
+    {
+      "start": 232.0,
+      "end": 232.0,
+      "text": "Gold.md is a markdown framework that lets an AI agent optimize your codebase overnight using an auto research loop"
+    },
+    {
+      "start": 240.0,
+      "end": 240.0,
+      "text": "inspired by Andre Karpathy's work. Write a measurement script, whether that's test coverage, API reliability, or something custom, and the agent runs a"
+    },
+    {
+      "start": 248.0,
+      "end": 248.0,
+      "text": "modify, verify, retain, or discard loop against your score until you wake up. 50 commits of optimized code by morning."
+    },
+    {
+      "start": 257.0,
+      "end": 257.0,
+      "text": "Crack taps into the undocumented lid angle sensor on modern MacBooks and maps the opening angle to a creaking door"
+    },
+    {
+      "start": 264.0,
+      "end": 264.0,
+      "text": "sound in real time. Open the lid slowly, get a long, horrifying squeak, slam it shut, get the full effect."
+    },
+    {
+      "start": 272.0,
+      "end": 272.0,
+      "text": "completely useless, technically impressive, guaranteed to clear out a coffee shop. One of the better ways anyone has spent a weekend."
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "Copying context between multiple clawed code and codec sessions manually is one of those problems that shouldn't still"
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "exist. Agent IM is a minimalist chat room system for AI agents built on an MCP server. Agents create a room, invite"
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "each other, define their roles, and communicate directly to collaborate on a problem. Writing system prompts by intuition and hoping they hold up in production is how most people do it."
+    },
+    {
+      "start": 308.0,
+      "end": 308.0,
+      "text": "Autoprompter makes it an engineering problem instead. It runs iterative tests against multiple models, measures"
+    },
+    {
+      "start": 315.0,
+      "end": 315.0,
+      "text": "function calling accuracy, and automatically suggests optimizations based on what actually performs better."
+    },
+    {
+      "start": 322.0,
+      "end": 322.0,
+      "text": "Prompt engineering that produces evidence instead of opinions."
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "Most developers set up MCP configs once and never look at them again. MCP scan audits yours. It checks for hard-coded"
+    },
+    {
+      "start": 335.0,
+      "end": 335.0,
+      "text": "API keys, flags overly broad file system permissions, and detects typos squatted malicious npm packages in your server"
+    },
+    {
+      "start": 342.0,
+      "end": 342.0,
+      "text": "arguments. If you're running cursor or clawed desktop with MCP tools and haven't audited your config, this should probably be the next thing you run."
+    },
+    {
+      "start": 351.0,
+      "end": 351.0,
+      "text": "M33MU is a full ARMv8M Cortex M33 emulator written in C built for firmware developers who want to debug embedded"
+    },
+    {
+      "start": 359.0,
+      "end": 359.0,
+      "text": "systems without touching physical hardware. Trust zone awareness built-in GDB remote server terminal UI and"
+    },
+    {
+      "start": 367.0,
+      "end": 367.0,
+      "text": "execution recording for reverse stepping through firmware bugs. Step backward through a crash to find exactly where things went wrong."
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "Z1 connects Claude directly to your live browser environment so your agent can interact with a running React app instead of just editing files blindly."
+    },
+    {
+      "start": 385.0,
+      "end": 385.0,
+      "text": "It modifies local files on the fly and uses git branches to track changes as it works. The feedback loop between AI"
+    },
+    {
+      "start": 393.0,
+      "end": 393.0,
+      "text": "generated UI and the actual running application closes without you manually switching context. Aentic UI generation"
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "that actually knows what it's looking at."
+    },
+    {
+      "start": 404.0,
+      "end": 404.0,
+      "text": "Someone wanted ARC's tab duplication without the memory cost. So they built a new browser. Refra uses an undocumented"
+    },
+    {
+      "start": 411.0,
+      "end": 411.0,
+      "text": "private Mac OS class called Kportal layer to mirror the GPU memory of a single web page across multiple windows."
+    },
+    {
+      "start": 418.0,
+      "end": 418.0,
+      "text": "Hundreds of live updating tabs, RAM footprint of one. The engineering here is genuinely impressive."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "Flow state is agent kernel's core idea packaged as an MCP server. Connect it to claude code and your agent retains"
+    },
+    {
+      "start": 433.0,
+      "end": 433.0,
+      "text": "memory about your project architecture, your coding preferences, and outstanding bugs across sessions. Pick up on Monday"
+    },
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "exactly where Friday left off without spending the first 20 minutes reexplaining the codebase. Persistent context that travels with the project."
+    },
+    {
+      "start": 451.0,
+      "end": 451.0,
+      "text": "Mamba RS is a full Mamba state space model implementation written in Rust with custom CUDA kernels inference and"
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "full backward pass BPTT training. No Python anywhere in the stack for anyone who wants to experiment with Mamba architecture at the metal level without the overhead of a Python ML framework."
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "This is the starting point."
+    },
+    {
+      "start": 472.0,
+      "end": 472.0,
+      "text": "Most SSH config files are a graveyard of IP addresses nobody remembers and keys nobody can locate. Meow SSH is a"
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "lightweight terminal UI for managing SSH connections, switching keys, and jumping into remote environments without digging"
+    },
+    {
+      "start": 487.0,
+      "end": 487.0,
+      "text": "through config files. Fast, organized, and wrapped in a cat themed aesthetic that makes it considerably more enjoyable than it has any right to be."
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "Jensenify MCP injects the complete texts of Homer, Shakespeare, Toltoy, and the King James Bible into every single AI"
+    },
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "tool call. 2.9 million tokens of classic literature loaded into context, so your coding agent has deep humanistic"
+    },
+    {
+      "start": 512.0,
+      "end": 512.0,
+      "text": "grounding when it fixes a null pointer exception. The creator acknowledges it costs a fortune in API tokens. That's the joke and also entirely the point."
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "Minesis is a lightweight Python library for state and memory management in back-end applications. Clean API for"
+    },
+    {
+      "start": 531.0,
+      "end": 531.0,
+      "text": "persisting and recalling data structures without rolling your own solution or pulling in something heavier than the problem warrants. Straightforward"
+    },
+    {
+      "start": 539.0,
+      "end": 539.0,
+      "text": "utility that fills a gap. Python's standard library leaves open."
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "Switching between agent frameworks usually means losing everything the agent learned in the previous one. Nemo is a local first CLI that serializes"
+    },
+    {
+      "start": 554.0,
+      "end": 554.0,
+      "text": "agent memory into a normalized JSON schema. diff snapshots to show exactly what changed between sessions and"
+    },
+    {
+      "start": 561.0,
+      "end": 561.0,
+      "text": "migrates memories between backends like mem and leta stack PRs are one of those workflows that feels impossibly messy to manage"
+    },
+    {
+      "start": 570.0,
+      "end": 570.0,
+      "text": "manually after the first rebase goes wrong. Estack handles the orchestration using standard git and GH commands you"
+    },
+    {
+      "start": 577.0,
+      "end": 577.0,
+      "text": "already know with metadata stored in a simple JSON file. No custom git internals, no new mental model to learn."
+    },
+    {
+      "start": 585.0,
+      "end": 585.0,
+      "text": "clean stack PR workflow without replacing the tools you already use."
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "Samuel is a fully autonomous reading agent built on the OpenClaw framework with real-time voice mode. It reads your"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "local Apple books, summarizes chapters, recites context, and turns pages autonomously using screen vision. The language learning use case is the"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "interesting one. Run it while watching a foreign film, and it provides real time context from what it sees and hears."
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "Revise.io is a collaborative document editor with built-in revision history and git style visual diffs for writing."
+    },
+    {
+      "start": 623.0,
+      "end": 623.0,
+      "text": "The useful part is the integrated AI proofreader that works against rules you define yourself. Tell it to enforce APA7"
+    },
+    {
+      "start": 630.0,
+      "end": 630.0,
+      "text": "formatting or avoid exclamation points and it holds to that standard consistently across every draft. Google"
+    },
+    {
+      "start": 637.0,
+      "end": 637.0,
+      "text": "Docs with version control and a style guide that actually sticks."
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "Smiti treats agent memory the way Git treats code. Instead of relying on chat history that breaks down when you change direction, it enforces clean checkpoints"
+    },
+    {
+      "start": 651.0,
+      "end": 651.0,
+      "text": "at the data layer. Fork execution paths, switch models, compare decisions across branches, all without reexplaining the"
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "project context from scratch. The name means memory in Sanskrit. The implementation earns it. Wireframe.js JS"
+    },
+    {
+      "start": 667.0,
+      "end": 667.0,
+      "text": "converts your live, fully styled HTML into a handdrawn wireframe aesthetic with a single script drop. No rebuilding"
+    },
+    {
+      "start": 674.0,
+      "end": 674.0,
+      "text": "the prototype in Figma. No stripping out styles manually. The functional HTML stays functional. It just looks like a sketch. Clients focus on the layout and"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "flow instead of arguing about button colors. The fastest path from working prototype to client ready mockup."
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "Brand toolkit is a claude code plugin that packages real expert frameworks directly into runnable skills. Donald"
+    },
+    {
+      "start": 699.0,
+      "end": 699.0,
+      "text": "Miller's story brand, April Dunford's positioning methodology, and a built-in anti-slop checker that flags banned corporate buzzwords like synergy and"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "empower before they make it into your copy."
+    },
+    {
+      "start": 712.0,
+      "end": 712.0,
+      "text": "Doc autohide watches your screen and toggles doc autohide only when a window actually overlaps it. Doc stays visible"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "when you need it, disappears when something bumps into it, reappears when the coast is clear. No manual toggling,"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "no permanently hiding it, no wasted screen real estate. The kind of feature that feels obvious in hindsight and should have shipped with Mac OS years ago."
+    },
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "Claude code and codecs are both strong tools that have no way to talk to each other. This project fixes that. It's a"
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "birectional bridge using clawed code channels and MCP tool calls to route messages between the two agents in real time with a web UI to watch the"
+    },
+    {
+      "start": 754.0,
+      "end": 754.0,
+      "text": "conversation unfold. Anthropic and OpenAI models debating and coding together in your terminal."
+    },
+    {
+      "start": 761.0,
+      "end": 761.0,
+      "text": "Long clawed code sessions hit a wall when the context window fills up. Wet fixes that without you having to intervene. It's a go proxy that sits"
+    },
+    {
+      "start": 770.0,
+      "end": 770.0,
+      "text": "between Claude code and the anthropic API, exposing hidden endpoints that let Claude profile and optimize its own"
+    },
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "context window. When token count gets too heavy, the agent pauses, compresses older messages, prunes irrelevant tool"
+    },
+    {
+      "start": 784.0,
+      "end": 784.0,
+      "text": "outputs, and restructures its working memory before the next request goes out."
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "Anthropic rewrote Claude codes terminal renderer because ink was causing screen flicker. Nathan Canon read that post and"
+    },
+    {
+      "start": 798.0,
+      "end": 798.0,
+      "text": "turned the approach into a standalone library. Cellst state runs purely inline instead. It uses a custom React"
+    },
+    {
+      "start": 805.0,
+      "end": 805.0,
+      "text": "reconciler and double buffered rendering to diff at the cell level, calculating exactly which characters changed and only emitting escape sequences for those specific cells."
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "Emil Kowalsski is one of the more respected voices in design engineering."
+    },
+    {
+      "start": 821.0,
+      "end": 821.0,
+      "text": "Known specifically for his work on animations and UI craft. He compiled his entire body of writing on animations, design, and front-end performance into a"
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "single installable AI skill. Run npx skills, add ML Kowalsski/skill, and your claude or cursor agent picks up that sensibility immediately."
+    },
+    {
+      "start": 841.0,
+      "end": 841.0,
+      "text": "API token costs add up fast when you're building and testing AI tools all day."
+    },
+    {
+      "start": 846.0,
+      "end": 846.0,
+      "text": "Cloudbox runs Cloud Code inside a sandbox Docker container, but authenticates using your existing $20 Cloud subscription instead of a"
+    },
+    {
+      "start": 854.0,
+      "end": 854.0,
+      "text": "developer API key. It then exposes a fully OpenAI compatible API on local host. So any tool, framework, or agent"
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "that can hit an OpenAI endpoint can use your flat rate subscription as the backend."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "[music]"
+    }
+  ]
+}

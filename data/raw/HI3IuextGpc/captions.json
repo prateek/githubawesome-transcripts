@@ -1,0 +1,1437 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending today episode number 28."
+    },
+    {
+      "timestamp": "0:05",
+      "text": "We have tracked down 33 repositories trending right now on GitHub. Let's get started."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "Docker containers are safer than host access but slow to spin up. Zero boot splits the difference. It uses firecracker microVMs and KVM copy"
+    },
+    {
+      "timestamp": "0:21",
+      "text": "onright memory forking to spawn fully isolated virtual machines in under one millisecond at 265 kilobyt of RAM per"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "fork. Fast enough that the security trade-off disappears. For anyone running AI agents that need genuine isolation"
+    },
+    {
+      "timestamp": "0:36",
+      "text": "without the startup penalty, this is the architecture worth paying attention to."
+    },
+    {
+      "timestamp": "0:42",
+      "text": "PDF generation in Go is a genuinely painful problem. Most solutions are either abandoned libraries or a headless Chrome instance you don't want to"
+    },
+    {
+      "timestamp": "0:50",
+      "text": "maintain. Folio is a pure Go zero dependency PDF library with a full layout engine. HTML to PDF conversion,"
+    },
+    {
+      "timestamp": "0:59",
+      "text": "flexbox tables and digital signatures all built in. It also compiles to web assembly so you can test layouts"
+    },
+    {
+      "timestamp": "1:06",
+      "text": "directly in the browser on their WASM playground before writing a line of server code."
+    },
+    {
+      "timestamp": "1:12",
+      "text": "Auton from Nouse Research takes a seed concept and outputs a print ready PDF, EPUB, and audio book. The Hermes agent"
+    },
+    {
+      "timestamp": "1:19",
+      "text": "runs a modify, evaluate, discard loop throughout, writing the draft, running an automated literary critic to fix repetition, dividing chapters,"
+    },
+    {
+      "timestamp": "1:27",
+      "text": "generating cover art, and voicing the final audio book. The whole publishing pipeline in a single Python script."
+    },
+    {
+      "timestamp": "1:35",
+      "text": "ASKI Studio takes a video file and converts it into character-based ASKI frames that play smoothly in the browser. It's a TypeScript project"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "optimized for smooth sequential playback rather than just dumping static text files. Retro loading screens, hacker"
+    },
+    {
+      "timestamp": "1:52",
+      "text": "aesthetic demo reels, or just turning a movie clip into something."
+    },
+    {
+      "timestamp": "1:57",
+      "text": "Genuinely fun project with obvious creative applications."
+    },
+    {
+      "timestamp": "2:01",
+      "text": "Kimodo is a kinematic motion diffusion model from NVIDIA's spatial intelligence lab trained on over 700 hours of motion"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "capture data. Instead of purely text prompted motion generation, you can lock specific joints in place as hard"
+    },
+    {
+      "timestamp": "2:17",
+      "text": "kinematic constraints and let the model generate fluid realistic movement around them. For animation workflows where you"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "need a character's hand on a specific surface or a foot planted at an exact point, that's a meaningful capability."
+    },
+    {
+      "timestamp": "2:32",
+      "text": "724 Office is a self-evolving AI agent system in 3,500 lines of pure Python, 26"
+    },
+    {
+      "timestamp": "2:39",
+      "text": "built-in tools, MCP support, and a three-layer memory system. The part that matters most for unattended operation is"
+    },
+    {
+      "timestamp": "2:47",
+      "text": "the self-rep capability. When an agent hits a bug, it debugs its own logic and keeps running without human intervention."
+    },
+    {
+      "timestamp": "2:54",
+      "text": "Autonomous agents that interact with the real world eventually need to handle email and raw HTML email is not something you want to feed directly into"
+    },
+    {
+      "timestamp": "3:02",
+      "text": "a context window. Mails strips the formatting noise and gives agents a clean interface for parsing incoming"
+    },
+    {
+      "timestamp": "3:09",
+      "text": "messages, drafting replies, and managing communications programmatically. The missing inbox for your AI workforce."
+    },
+    {
+      "timestamp": "3:19",
+      "text": "Memorialia builds itself as git for AI agent memory and the analogy holds up."
+    },
+    {
+      "timestamp": "3:24",
+      "text": "It sits between your agent and its database providing zero copy branching snapshots and point in time roll backs"
+    },
+    {
+      "timestamp": "3:31",
+      "text": "before a risky refactor. Snapshot the memory state if the agent hallucinates and goes sideways. One command rolls it back to exactly before things went wrong."
+    },
+    {
+      "timestamp": "3:41",
+      "text": "We all hate running complex or netstack commands just to figure out what process is hogging port 3000. Sonar is a tiny"
+    },
+    {
+      "timestamp": "3:49",
+      "text": "zero dependency CLI that shows you everything listening on your local host."
+    },
+    {
+      "timestamp": "3:54",
+      "text": "It displays clear process names, Docker container info, and clickable URLs in a gorgeous table. And yes, it lets you"
+    },
+    {
+      "timestamp": "4:02",
+      "text": "instantly kill rogue processes with a single command. Anyone running clawed code, cursor, and codecs will notice"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "that markdown files and prompt instructions scattered across their file system with no good way to manage them."
+    },
+    {
+      "timestamp": "4:16",
+      "text": "Chops is a native Mac OS app built specifically for that problem. Browse, edit, and organize all your agent skills"
+    },
+    {
+      "timestamp": "4:24",
+      "text": "and custom instructions from one clean interface without digging through dot files."
+    },
+    {
+      "timestamp": "4:30",
+      "text": "Testing against live third-party APIs in CI is slow, costs money, and breaks whenever the external service has a bad"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "day. Emulate from Versel Labs intercepts those requests and mocks the API behavior locally. Built specifically for"
+    },
+    {
+      "timestamp": "4:45",
+      "text": "CI environments and no network sandboxes. Test suites and agents run at full speed without touching an external server."
+    },
+    {
+      "timestamp": "4:53",
+      "text": "The Ghosty team extracted the core of their terminal engine and rebuilt it as a minimum viable emulator in a single C"
+    },
+    {
+      "timestamp": "5:00",
+      "text": "file using Ray for graphics. It's a direct demonstration of how to embed a GPU accelerated terminal into any"
+    },
+    {
+      "timestamp": "5:07",
+      "text": "application or game engine without pulling in Electron or any other heavy framework."
+    },
+    {
+      "timestamp": "5:13",
+      "text": "For anyone who's wanted a terminal inside their own software and didn't know where to start, this is the blueprint."
+    },
+    {
+      "timestamp": "5:20",
+      "text": "A PhD student hit cognitive overload and automated their way out of it. The repository is a 10 agent Obsidian crew"
+    },
+    {
+      "timestamp": "5:27",
+      "text": "running on scheduled tasks. A scribe, Postman, Sorder, and others handle email ingestion, inbox triage, broken markdown"
+    },
+    {
+      "timestamp": "5:35",
+      "text": "link repair, and health habit tracking autonomously, built out of necessity rather than ambition, which usually means it actually works."
+    },
+    {
+      "timestamp": "5:44",
+      "text": "Code review on AI generated diffs usually means pushing to GitHub just to get a readable view. Diffy runs locally"
+    },
+    {
+      "timestamp": "5:51",
+      "text": "inside any git repo and opens a syntax highlighted diff in the browser. Leave review comments on the diff and the"
+    },
+    {
+      "timestamp": "5:58",
+      "text": "built-in cloud code integration reads those comments and applies the fixes automatically."
+    },
+    {
+      "timestamp": "6:04",
+      "text": "The full review loop without leaving your machine."
+    },
+    {
+      "timestamp": "6:08",
+      "text": "Flashe runs a 397 billion parameter model on a MacBook Pro by streaming 209 GB of weights from SSD into RAM on"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "demand using techniques from Apple's LLM in a flash paper. It hits 4.4 tokens per second on consumer hardware. That number"
+    },
+    {
+      "timestamp": "6:25",
+      "text": "matters less than what it proves. The memory ceiling for local AI is not where most people assumed it was."
+    },
+    {
+      "timestamp": "6:33",
+      "text": "Filmkit connects to Fujifilm X series cameras directly in the browser using web USB, then uses the camera's own"
+    },
+    {
+      "timestamp": "6:40",
+      "text": "internal processor to convert RAW files to JPEG. No desktop software, no installation, no third party conversion"
+    },
+    {
+      "timestamp": "6:47",
+      "text": "algorithm approximating what the camera would have done. The camera does the conversion itself in the browser at full speed."
+    },
+    {
+      "timestamp": "6:56",
+      "text": "Modley is a local desktop app that runs imageto 3D mesh generation entirely on your own GPU using the Huan 3D2 mini"
+    },
+    {
+      "timestamp": "7:04",
+      "text": "model. No cloud credits, no per generation costs, no images leaving your machine. Drop in an image, get a"
+    },
+    {
+      "timestamp": "7:11",
+      "text": "detailed 3D asset out for anyone experimenting with 3D generation who doesn't want to burn through API budget to do it."
+    },
+    {
+      "timestamp": "7:19",
+      "text": "Mozzilla is stepping into the AI security ring with the zero D scanner."
+    },
+    {
+      "timestamp": "7:24",
+      "text": "As AI agents get more autonomy, ensuring they are secure from prompt injections and jailbreaks is critical. Built on top"
+    },
+    {
+      "timestamp": "7:31",
+      "text": "of the open-source Garak framework, this is a beautiful enterprisegrade vulnerability management platform specifically built for generative AI. It"
+    },
+    {
+      "timestamp": "7:40",
+      "text": "gives you a graphical UX, automated scheduling, and a proprietary probe library to actively red team your own LLM applications."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "No retraining, no fine-tuning, no additional parameters. Just duplicate three specific layers during the forward"
+    },
+    {
+      "timestamp": "7:57",
+      "text": "pass and route the hidden states through the same reasoning circuit twice. That simple intervention pushed 24 billion"
+    },
+    {
+      "timestamp": "8:04",
+      "text": "parameter models logical deduction score from 0.22 to 0.76."
+    },
+    {
+      "timestamp": "8:10",
+      "text": "The mechanistic interpretability angle is what makes this genuinely interesting beyond the benchmark number."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "Oxide is an async Python OM with a Rust core underneath built around paidantic v2 as a first class citizen rather than an afterthought."
+    },
+    {
+      "timestamp": "8:27",
+      "text": "You get Django style objects.filter filter query syntax, strict pyantic validation on every model, and the performance overhead of Rust instead of"
+    },
+    {
+      "timestamp": "8:35",
+      "text": "Python handling the heavy lifting. For Python backend developers who've accepted slow OM performance as a fact of life, this is worth benchmarking against your current stack."
+    },
+    {
+      "timestamp": "8:47",
+      "text": "Most AI avatars are static while you're talking. React Motion fixes the part that makes them feel uncanny. It"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "generates listener motions in real time based on the acoustic features of incoming speech. Nods, weight shifts,"
+    },
+    {
+      "timestamp": "9:01",
+      "text": "subtle facial reactions, all driven by how the voice actually sounds rather than canned animations on a timer."
+    },
+    {
+      "timestamp": "9:09",
+      "text": "Large code bases eat through context windows fast and the token costs compound quickly on long sessions."
+    },
+    {
+      "timestamp": "9:15",
+      "text": "Context gateway sits between your agent and the LLM API, precomputing conversation summaries in the background and compressing history intelligently as"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "the session grows. The claim is 50% token reduction without losing critical semantic context."
+    },
+    {
+      "timestamp": "9:32",
+      "text": "Claude peers is an MCP server that lets multiple clouded code instances on the same machine communicate directly with"
+    },
+    {
+      "timestamp": "9:39",
+      "text": "each other. One agent working on the front end can ping the backend agent and ask what an endpoint is named and the answer lands in its context window"
+    },
+    {
+      "timestamp": "9:48",
+      "text": "immediately. No copy pasting between terminals, no human relaying messages between sessions."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Go and rust dominate CLI tooling for good reasons, but if Typescript is your language, the startup overhead has always been a real trade-off. Crust is a"
+    },
+    {
+      "timestamp": "10:05",
+      "text": "TypeScript first CLI framework built natively on Bun with composable modules and the startup speed that makes Bun"
+    },
+    {
+      "timestamp": "10:12",
+      "text": "worth using in the first place. Complex modular command line tools that boot instantly and feel native."
+    },
+    {
+      "timestamp": "10:20",
+      "text": "Han is a fully compiled statically typed programming language where every keyword is written in Korean Hongulle, not a"
+    },
+    {
+      "timestamp": "10:28",
+      "text": "toy. It compiles to native binaries through LLVM, has a Rust based tool chain, and ships with an interpreter for"
+    },
+    {
+      "timestamp": "10:35",
+      "text": "fast iteration. The real argument it's making, there's no technical reason programming languages have to be built around English. Han is proof."
+    },
+    {
+      "timestamp": "10:45",
+      "text": "SparkVS is a video superresolution model that only needs to do a fraction of the work. manually enhance a handful of key"
+    },
+    {
+      "timestamp": "10:52",
+      "text": "frames from a lowresolution or degraded video and the model propagates those restored details across the entire clip"
+    },
+    {
+      "timestamp": "10:59",
+      "text": "automatically. Old film restoration, cinematic VFX, high-end upscaling, the use cases are obvious and the approach"
+    },
+    {
+      "timestamp": "11:06",
+      "text": "is smarter than brute forcing every frame individually."
+    },
+    {
+      "timestamp": "11:11",
+      "text": "Gap is already the standard for web animation. Now there are official AI skills for it. Greenock just dropped Gap"
+    },
+    {
+      "timestamp": "11:20",
+      "text": "AI skills designed to load directly into clawed code or cursor. Instead of your agent producing static lifeless UI, it"
+    },
+    {
+      "timestamp": "11:27",
+      "text": "gains the architectural knowledge to write complex scroll triggered animations the way a senior front-end developer actually would."
+    },
+    {
+      "timestamp": "11:35",
+      "text": "Claw team openclaw is a fork of claw team rebuilt specifically for the openclaw framework, adding a multi- aent swarm coordination layer on top."
+    },
+    {
+      "timestamp": "11:45",
+      "text": "If you're already running OpenClaw, this gives you the infrastructure to orchestrate dozens of workers in parallel against large software"
+    },
+    {
+      "timestamp": "11:52",
+      "text": "engineering tasks without building the coordination layer yourself."
+    },
+    {
+      "timestamp": "11:58",
+      "text": "Minutes captures your meeting audio and generates formatted actionable notes using local AI models. No cloud, no"
+    },
+    {
+      "timestamp": "12:06",
+      "text": "subscription, no frantic typing while trying to actually listen. Show up, have the conversation, read the summary"
+    },
+    {
+      "timestamp": "12:13",
+      "text": "afterward. The meeting that could have been an email can at least stop requiring your full attention."
+    },
+    {
+      "timestamp": "12:19",
+      "text": "Unslop is a lightweight utility from Matt Schumer that detects and rewrites AI slop. Feed it generated text full of delve into fast-paced digital landscape."
+    },
+    {
+      "timestamp": "12:30",
+      "text": "And it's important to note and it comes out the other side sounding like a person wrote it given that half the internet now reads like scrub AI slop feverdream. The timing is good."
+    },
+    {
+      "timestamp": "12:42",
+      "text": "Drift is a terminal screen saver written in Go that kicks in automatically when you go idle. Multiple asky and antsy visual scenes. Single go install"
+    },
+    {
+      "timestamp": "12:51",
+      "text": "command. One line in your des HRC and it's set up permanently. Completely unnecessary. Extremely satisfying. The"
+    },
+    {
+      "timestamp": "12:59",
+      "text": "kind of thing you install and then walk away from your desk on purpose."
+    },
+    {
+      "timestamp": "13:03",
+      "text": "Most markdown editors add features until the writing gets buried. Clearly goes the other direction. Native Mac OS, no"
+    },
+    {
+      "timestamp": "13:11",
+      "text": "toolbars, no file trees, just typography and the document. Built with native performance in mind, it strips away all the bloated toolbars and complex file"
+    },
+    {
+      "timestamp": "13:20",
+      "text": "trees, leaving you with nothing but gorgeous typography and your thoughts."
+    },
+    {
+      "timestamp": "13:26",
+      "text": "HTMX development in VS Code without this extension means memorizing attribute names or tabbing out to the docs constantly. The HTMX VS Code toolkit"
+    },
+    {
+      "timestamp": "13:35",
+      "text": "adds deep intellisense attribute autocomp completion and inline documentation for every HTMX tag directly in the editor. Small install,"
+    },
+    {
+      "timestamp": "13:44",
+      "text": "immediate quality of life improvement for anyone building hypermediadriven apps."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending today episode number 28."
+        }
+      ]
+    },
+    {
+      "tStartMs": 5000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "We have tracked down 33 repositories trending right now on GitHub. Let's get started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Docker containers are safer than host access but slow to spin up. Zero boot splits the difference. It uses firecracker microVMs and KVM copy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "onright memory forking to spawn fully isolated virtual machines in under one millisecond at 265 kilobyt of RAM per"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fork. Fast enough that the security trade-off disappears. For anyone running AI agents that need genuine isolation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "without the startup penalty, this is the architecture worth paying attention to."
+        }
+      ]
+    },
+    {
+      "tStartMs": 42000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PDF generation in Go is a genuinely painful problem. Most solutions are either abandoned libraries or a headless Chrome instance you don't want to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 50000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maintain. Folio is a pure Go zero dependency PDF library with a full layout engine. HTML to PDF conversion,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flexbox tables and digital signatures all built in. It also compiles to web assembly so you can test layouts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly in the browser on their WASM playground before writing a line of server code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Auton from Nouse Research takes a seed concept and outputs a print ready PDF, EPUB, and audio book. The Hermes agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 79000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs a modify, evaluate, discard loop throughout, writing the draft, running an automated literary critic to fix repetition, dividing chapters,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generating cover art, and voicing the final audio book. The whole publishing pipeline in a single Python script."
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ASKI Studio takes a video file and converts it into character-based ASKI frames that play smoothly in the browser. It's a TypeScript project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "optimized for smooth sequential playback rather than just dumping static text files. Retro loading screens, hacker"
+        }
+      ]
+    },
+    {
+      "tStartMs": 112000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "aesthetic demo reels, or just turning a movie clip into something."
+        }
+      ]
+    },
+    {
+      "tStartMs": 117000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Genuinely fun project with obvious creative applications."
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kimodo is a kinematic motion diffusion model from NVIDIA's spatial intelligence lab trained on over 700 hours of motion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "capture data. Instead of purely text prompted motion generation, you can lock specific joints in place as hard"
+        }
+      ]
+    },
+    {
+      "tStartMs": 137000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kinematic constraints and let the model generate fluid realistic movement around them. For animation workflows where you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "need a character's hand on a specific surface or a foot planted at an exact point, that's a meaningful capability."
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "724 Office is a self-evolving AI agent system in 3,500 lines of pure Python, 26"
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in tools, MCP support, and a three-layer memory system. The part that matters most for unattended operation is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the self-rep capability. When an agent hits a bug, it debugs its own logic and keeps running without human intervention."
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Autonomous agents that interact with the real world eventually need to handle email and raw HTML email is not something you want to feed directly into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 182000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a context window. Mails strips the formatting noise and gives agents a clean interface for parsing incoming"
+        }
+      ]
+    },
+    {
+      "tStartMs": 189000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "messages, drafting replies, and managing communications programmatically. The missing inbox for your AI workforce."
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Memorialia builds itself as git for AI agent memory and the analogy holds up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It sits between your agent and its database providing zero copy branching snapshots and point in time roll backs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 211000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "before a risky refactor. Snapshot the memory state if the agent hallucinates and goes sideways. One command rolls it back to exactly before things went wrong."
+        }
+      ]
+    },
+    {
+      "tStartMs": 221000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "We all hate running complex or netstack commands just to figure out what process is hogging port 3000. Sonar is a tiny"
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zero dependency CLI that shows you everything listening on your local host."
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It displays clear process names, Docker container info, and clickable URLs in a gorgeous table. And yes, it lets you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 242000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instantly kill rogue processes with a single command. Anyone running clawed code, cursor, and codecs will notice"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that markdown files and prompt instructions scattered across their file system with no good way to manage them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 256000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Chops is a native Mac OS app built specifically for that problem. Browse, edit, and organize all your agent skills"
+        }
+      ]
+    },
+    {
+      "tStartMs": 264000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and custom instructions from one clean interface without digging through dot files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Testing against live third-party APIs in CI is slow, costs money, and breaks whenever the external service has a bad"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "day. Emulate from Versel Labs intercepts those requests and mocks the API behavior locally. Built specifically for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CI environments and no network sandboxes. Test suites and agents run at full speed without touching an external server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 293000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The Ghosty team extracted the core of their terminal engine and rebuilt it as a minimum viable emulator in a single C"
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file using Ray for graphics. It's a direct demonstration of how to embed a GPU accelerated terminal into any"
+        }
+      ]
+    },
+    {
+      "tStartMs": 307000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "application or game engine without pulling in Electron or any other heavy framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 313000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For anyone who's wanted a terminal inside their own software and didn't know where to start, this is the blueprint."
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A PhD student hit cognitive overload and automated their way out of it. The repository is a 10 agent Obsidian crew"
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "running on scheduled tasks. A scribe, Postman, Sorder, and others handle email ingestion, inbox triage, broken markdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "link repair, and health habit tracking autonomously, built out of necessity rather than ambition, which usually means it actually works."
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Code review on AI generated diffs usually means pushing to GitHub just to get a readable view. Diffy runs locally"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inside any git repo and opens a syntax highlighted diff in the browser. Leave review comments on the diff and the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 358000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built-in cloud code integration reads those comments and applies the fixes automatically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 364000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The full review loop without leaving your machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 368000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flashe runs a 397 billion parameter model on a MacBook Pro by streaming 209 GB of weights from SSD into RAM on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "demand using techniques from Apple's LLM in a flash paper. It hits 4.4 tokens per second on consumer hardware. That number"
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matters less than what it proves. The memory ceiling for local AI is not where most people assumed it was."
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Filmkit connects to Fujifilm X series cameras directly in the browser using web USB, then uses the camera's own"
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "internal processor to convert RAW files to JPEG. No desktop software, no installation, no third party conversion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "algorithm approximating what the camera would have done. The camera does the conversion itself in the browser at full speed."
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Modley is a local desktop app that runs imageto 3D mesh generation entirely on your own GPU using the Huan 3D2 mini"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model. No cloud credits, no per generation costs, no images leaving your machine. Drop in an image, get a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 431000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "detailed 3D asset out for anyone experimenting with 3D generation who doesn't want to burn through API budget to do it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 439000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mozzilla is stepping into the AI security ring with the zero D scanner."
+        }
+      ]
+    },
+    {
+      "tStartMs": 444000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "As AI agents get more autonomy, ensuring they are secure from prompt injections and jailbreaks is critical. Built on top"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of the open-source Garak framework, this is a beautiful enterprisegrade vulnerability management platform specifically built for generative AI. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gives you a graphical UX, automated scheduling, and a proprietary probe library to actively red team your own LLM applications."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No retraining, no fine-tuning, no additional parameters. Just duplicate three specific layers during the forward"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pass and route the hidden states through the same reasoning circuit twice. That simple intervention pushed 24 billion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "parameter models logical deduction score from 0.22 to 0.76."
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The mechanistic interpretability angle is what makes this genuinely interesting beyond the benchmark number."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Oxide is an async Python OM with a Rust core underneath built around paidantic v2 as a first class citizen rather than an afterthought."
+        }
+      ]
+    },
+    {
+      "tStartMs": 507000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You get Django style objects.filter filter query syntax, strict pyantic validation on every model, and the performance overhead of Rust instead of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python handling the heavy lifting. For Python backend developers who've accepted slow OM performance as a fact of life, this is worth benchmarking against your current stack."
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most AI avatars are static while you're talking. React Motion fixes the part that makes them feel uncanny. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generates listener motions in real time based on the acoustic features of incoming speech. Nods, weight shifts,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "subtle facial reactions, all driven by how the voice actually sounds rather than canned animations on a timer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Large code bases eat through context windows fast and the token costs compound quickly on long sessions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Context gateway sits between your agent and the LLM API, precomputing conversation summaries in the background and compressing history intelligently as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the session grows. The claim is 50% token reduction without losing critical semantic context."
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude peers is an MCP server that lets multiple clouded code instances on the same machine communicate directly with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 579000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each other. One agent working on the front end can ping the backend agent and ask what an endpoint is named and the answer lands in its context window"
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "immediately. No copy pasting between terminals, no human relaying messages between sessions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go and rust dominate CLI tooling for good reasons, but if Typescript is your language, the startup overhead has always been a real trade-off. Crust is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TypeScript first CLI framework built natively on Bun with composable modules and the startup speed that makes Bun"
+        }
+      ]
+    },
+    {
+      "tStartMs": 612000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "worth using in the first place. Complex modular command line tools that boot instantly and feel native."
+        }
+      ]
+    },
+    {
+      "tStartMs": 620000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Han is a fully compiled statically typed programming language where every keyword is written in Korean Hongulle, not a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 628000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "toy. It compiles to native binaries through LLVM, has a Rust based tool chain, and ships with an interpreter for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast iteration. The real argument it's making, there's no technical reason programming languages have to be built around English. Han is proof."
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SparkVS is a video superresolution model that only needs to do a fraction of the work. manually enhance a handful of key"
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "frames from a lowresolution or degraded video and the model propagates those restored details across the entire clip"
+        }
+      ]
+    },
+    {
+      "tStartMs": 659000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "automatically. Old film restoration, cinematic VFX, high-end upscaling, the use cases are obvious and the approach"
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "is smarter than brute forcing every frame individually."
+        }
+      ]
+    },
+    {
+      "tStartMs": 671000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gap is already the standard for web animation. Now there are official AI skills for it. Greenock just dropped Gap"
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI skills designed to load directly into clawed code or cursor. Instead of your agent producing static lifeless UI, it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 687000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gains the architectural knowledge to write complex scroll triggered animations the way a senior front-end developer actually would."
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claw team openclaw is a fork of claw team rebuilt specifically for the openclaw framework, adding a multi- aent swarm coordination layer on top."
+        }
+      ]
+    },
+    {
+      "tStartMs": 705000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're already running OpenClaw, this gives you the infrastructure to orchestrate dozens of workers in parallel against large software"
+        }
+      ]
+    },
+    {
+      "tStartMs": 712000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "engineering tasks without building the coordination layer yourself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 718000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Minutes captures your meeting audio and generates formatted actionable notes using local AI models. No cloud, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 726000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "subscription, no frantic typing while trying to actually listen. Show up, have the conversation, read the summary"
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "afterward. The meeting that could have been an email can at least stop requiring your full attention."
+        }
+      ]
+    },
+    {
+      "tStartMs": 739000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Unslop is a lightweight utility from Matt Schumer that detects and rewrites AI slop. Feed it generated text full of delve into fast-paced digital landscape."
+        }
+      ]
+    },
+    {
+      "tStartMs": 750000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And it's important to note and it comes out the other side sounding like a person wrote it given that half the internet now reads like scrub AI slop feverdream. The timing is good."
+        }
+      ]
+    },
+    {
+      "tStartMs": 762000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drift is a terminal screen saver written in Go that kicks in automatically when you go idle. Multiple asky and antsy visual scenes. Single go install"
+        }
+      ]
+    },
+    {
+      "tStartMs": 771000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command. One line in your des HRC and it's set up permanently. Completely unnecessary. Extremely satisfying. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 779000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kind of thing you install and then walk away from your desk on purpose."
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Most markdown editors add features until the writing gets buried. Clearly goes the other direction. Native Mac OS, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 791000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "toolbars, no file trees, just typography and the document. Built with native performance in mind, it strips away all the bloated toolbars and complex file"
+        }
+      ]
+    },
+    {
+      "tStartMs": 800000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "trees, leaving you with nothing but gorgeous typography and your thoughts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "HTMX development in VS Code without this extension means memorizing attribute names or tabbing out to the docs constantly. The HTMX VS Code toolkit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 815000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adds deep intellisense attribute autocomp completion and inline documentation for every HTMX tag directly in the editor. Small install,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 824000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "immediate quality of life improvement for anyone building hypermediadriven apps."
+        }
+      ]
+    }
+  ]
+}
