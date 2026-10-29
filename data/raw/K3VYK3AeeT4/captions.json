@@ -1,0 +1,1203 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we're reviewing the hottest GitHub repositories of November. From AI to self-hosted tools, this month was absolutely stacked. Let's get started."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "LLM Council, a project that basically turns your favorite AI models into a panel of experts. Instead of asking just"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "one LLM for an answer, this tool sends your question to multiple models at once through Open Router, lets them respond"
+    },
+    {
+      "timestamp": "0:25",
+      "text": "individually, then has them critique and rank each other, all before a designated chairman LLM pieces everything together"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "into one final refined answer. It's like hosting a mini AI debate inside your browser."
+    },
+    {
+      "timestamp": "0:39",
+      "text": "Reader 3, a self-hosted EPUB reader designed for one simple mission, reading books together with your LLM. It lets"
+    },
+    {
+      "timestamp": "0:47",
+      "text": "you load any EPUB and go through it chapter by chapter, making it super easy to copy, paste, and discuss the text with your favorite model. Perfect for"
+    },
+    {
+      "timestamp": "0:56",
+      "text": "grabbing classics from Project Gutenberg and turning them into an interactive reading session. The creator calls it"
+    },
+    {
+      "timestamp": "1:03",
+      "text": "90% vibecoded, a tiny take it asis tool meant purely to inspire."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "Git log. It turns your git history into a cinematic animated replay right inside your terminal. Instead of scrolling"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "through raw commits, GitLog lets you watch your project evolve with realistic typing animations and file changes."
+    },
+    {
+      "timestamp": "1:23",
+      "text": "Almost like your codebase is telling its own story. It supports tree sitter syntax highlighting across 26 languages,"
+    },
+    {
+      "timestamp": "1:30",
+      "text": "shows a live project file tree with change stats, and even includes a screen saver mode that plays random commits endlessly."
+    },
+    {
+      "timestamp": "1:39",
+      "text": "Up next is M. Grep. And if you've ever wished Grep could understand what you mean instead of what you type, this one's going to blow your mind. MGP is a"
+    },
+    {
+      "timestamp": "1:48",
+      "text": "semantic, multilingual, multimodal search tool that runs straight from the command line. You can search code, images, PDFs, and soon audio and video,"
+    },
+    {
+      "timestamp": "1:57",
+      "text": "all using natural language. No Rayax guesswork. No praying that past developers named things logically."
+    },
+    {
+      "timestamp": "2:06",
+      "text": "Supertonic, a fast texttospech system built for total privacy running on ONX runtime. Supertonic requires no cloud services, no API calls, and no internet."
+    },
+    {
+      "timestamp": "2:16",
+      "text": "It can generate speech up to up to 167 times faster than real time on consumer hardware like the M4 Pro. Despite being"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "ultra light at just 66 million parameters, it handles natural text effortlessly. Numbers, dates, currency, abbreviations, complex expressions."
+    },
+    {
+      "timestamp": "2:33",
+      "text": "Install Nothing is a tiny Rustbased terminal app that simulates installing well, nothing. Run it and you'll get"
+    },
+    {
+      "timestamp": "2:40",
+      "text": "progress bars, fake logs, pretend package lists, the whole installing things vibe without actually changing anything on your system. It's playful"
+    },
+    {
+      "timestamp": "2:49",
+      "text": "and licensed under the extremely permissive do whatever you want with it license."
+    },
+    {
+      "timestamp": "2:54",
+      "text": "If you love terminal toys, want a fun demo app, or just enjoy confusing your co-workers, install nothing is a perfect little Rust project to start."
+    },
+    {
+      "timestamp": "3:04",
+      "text": "Note Discovery. If you love tools like Notion or Obsidian, but want total privacy and ownership, this one's for you. Note Discovery is a lightweight,"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "self-hosted knowledge base that gives you full control over your notes, wiks, and second brain, all running on your own server. It's fast, beautiful, and"
+    },
+    {
+      "timestamp": "3:21",
+      "text": "built entirely around plain markdown files. So, there's no lock in or subscription in sight. You get instant search, custom themes, plug-in support,"
+    },
+    {
+      "timestamp": "3:30",
+      "text": "and it works seamlessly across desktop and mobile."
+    },
+    {
+      "timestamp": "3:35",
+      "text": "MOSS, it's a Linux compatible kernel written in Rust with some Arch 64 assembly sprinkled in for the low-level magic. What makes MOSS stand out is its"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "asynchronous kernel core. Yep, this system uses Rust's async await inside the kernel itself. That means system"
+    },
+    {
+      "timestamp": "3:51",
+      "text": "calls are async, sleep points are compiler verified, and entire classes of classic kernel deadlocks are eliminated."
+    },
+    {
+      "timestamp": "3:59",
+      "text": "It's cutting edge OS research packed into real working code."
+    },
+    {
+      "timestamp": "4:04",
+      "text": "Xleak. If you've ever wanted to open Excel files directly in your terminal, this one's going to blow your mind."
+    },
+    {
+      "timestamp": "4:10",
+      "text": "Xleak is a fast interactive Excel viewer built with Rust and Ratatouille. turning your terminal into a full spreadsheet"
+    },
+    {
+      "timestamp": "4:17",
+      "text": "viewer. No Microsoft Excel, no guey apps, just pure terminal power. It beautifully renders tables, handles"
+    },
+    {
+      "timestamp": "4:25",
+      "text": "different data types intelligently, and supports every major spreadsheet format."
+    },
+    {
+      "timestamp": "4:29",
+      "text": "Built on the blazing fast Calamine Excel parser, Xleak turns heavy spreadsheets into a seamless terminal experience."
+    },
+    {
+      "timestamp": "4:38",
+      "text": "Z image six billion parameter foundation model proving you don't need a monster GPU to get worldclass image generation"
+    },
+    {
+      "timestamp": "4:46",
+      "text": "through smart systematic optimization. Z image delivers photorealistic quality and bilingual text rendering that rivals"
+    },
+    {
+      "timestamp": "4:53",
+      "text": "models 10 times its size and it runs smoothly on consumer GPUs under 16 GB."
+    },
+    {
+      "timestamp": "4:59",
+      "text": "That means high-end generation is now accessible to everyone."
+    },
+    {
+      "timestamp": "5:03",
+      "text": "Awesome Nano Banana Prompts. An open-source treasure chest with over 500 handpicked prompts built specifically"
+    },
+    {
+      "timestamp": "5:11",
+      "text": "for Google's Nano Banana Pro model. This library gives you multilingual prompts, imagebacked examples, and an instant"
+    },
+    {
+      "timestamp": "5:19",
+      "text": "gallery preview so you can see exactly what each prompt is capable of before you try it. Whether you're generating visuals, this collection saves you hours of trial and error."
+    },
+    {
+      "timestamp": "5:30",
+      "text": "Essenbox is now an open- source game engine and it's built on Valve's source 2 and modern.net."
+    },
+    {
+      "timestamp": "5:37",
+      "text": "You can create your own games in modern C with a super clean editor, instant play testing, and blazing fast hotloading. No compiling, no restarts."
+    },
+    {
+      "timestamp": "5:47",
+      "text": "It even has visual scripting with action graph, shader graph, and a massive cloud asset library you can drag straight into your scene."
+    },
+    {
+      "timestamp": "5:55",
+      "text": "Depth anything 3 a model that aims to recover the entire visual space from any view. You don't need fancy multibranch"
+    },
+    {
+      "timestamp": "6:02",
+      "text": "architectures. A single plane transformer backbone and a unified depth ray representation are enough to solve a"
+    },
+    {
+      "timestamp": "6:09",
+      "text": "huge range of geometry tasks. One model can handle monocular depth, multiv- view depth fusion, pose condition depth, and"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "even 3D Gaussian prediction for highfidelity novel view synthesis."
+    },
+    {
+      "timestamp": "6:23",
+      "text": "Nano PDF Editor, a command line tool that lets you edit PDF slides using natural language prompts powered by Nano"
+    },
+    {
+      "timestamp": "6:29",
+      "text": "Banana Pro. Want to update a graph with 2025 data or turn a pie chart into a bar chart? Just describe it. Nano PDF editor"
+    },
+    {
+      "timestamp": "6:39",
+      "text": "handles the visuals for you. You can even generate brand new slides that match your deck style, all while keeping your PDF text layer intact through smart OCR rehydration."
+    },
+    {
+      "timestamp": "6:50",
+      "text": "Vex, a beautiful Excel and CSV viewer built in Go. Yep, Excel in your terminal, but actually gorgeous. Pick from six stunning themes. Cat Pooin,"
+    },
+    {
+      "timestamp": "6:58",
+      "text": "Nord, Rosé Pine, Tokyo Knight, Groove Box, even Dracula. Navigation, smooth, vim keys, arrow keys, global search, and"
+    },
+    {
+      "timestamp": "7:06",
+      "text": "fast sheet switching. Copy cells, export to CSV or JSON, toggle formulas, all without leaving the terminal."
+    },
+    {
+      "timestamp": "7:14",
+      "text": "This is for everyone who doomscrolls Google Maps at 2 a.m. clicking on random islands asking, \"What even is this place?\" Because someone finally built"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "the tool we all needed. It's called history, and it lets you click anywhere on a 3D globe, any island, mountain,"
+    },
+    {
+      "timestamp": "7:30",
+      "text": "tiny Arctic village with nine people, and it will actually research the entire history of that location for you. actual"
+    },
+    {
+      "timestamp": "7:37",
+      "text": "research across historical archives, academic papers, and the modern web for up to 10 minutes."
+    },
+    {
+      "timestamp": "7:45",
+      "text": "Alt Send Me. Need to send files fast, privately, and without limits? Alt SendMe is a crossplatform peer-to-peer"
+    },
+    {
+      "timestamp": "7:52",
+      "text": "file transfer app that makes sharing files totally frictionless. No accounts, no cloud middlemen, just direct encrypted transfers from your machine to"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "anyone, anywhere. It's powered by IRO for reliablenat hole punching. Quick plus TLS 1.3 for end-to-end security and"
+    },
+    {
+      "timestamp": "8:08",
+      "text": "supports resumable downloads. Think of it as AirDrop for everyone. Open source, unlimited, and totally private."
+    },
+    {
+      "timestamp": "8:16",
+      "text": "Free MDU, a project that cracks open the world of Melee appliance diagnostics."
+    },
+    {
+      "timestamp": "8:21",
+      "text": "MLE has used a hidden infraredbased optical diagnostic interface on their appliances since the '9s, but accessing"
+    },
+    {
+      "timestamp": "8:29",
+      "text": "it traditionally required an expensive proprietary adapter and closed source tooling only available to certified technicians. Freemdu changes that"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "completely provides open hardware, firmware, and software that let anyone communicate with these appliances."
+    },
+    {
+      "timestamp": "8:46",
+      "text": "Tonell is a LLM friendly serialization format that can cut your data size by up to 50 to 60% compared to JSON, which"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "also means dramatically lower LM token costs. And unlike binary formats, Tunnel stays completely human readable. But Tunnel isn't just a format. It's a"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "full-blown data platform. You get a JSON path style query API, CRUD modification tools, hashing and bree indexes, and"
+    },
+    {
+      "timestamp": "9:11",
+      "text": "even bit packing for boolean data. It's zero dependencies, built-in pure TypeScript, browser ready at just 10 KB gzipped."
+    },
+    {
+      "timestamp": "9:20",
+      "text": "Next up is a project your inbox has been begging you to install. The Gmail bulk unsubscribe and cleanup tool. This is a"
+    },
+    {
+      "timestamp": "9:27",
+      "text": "totally free privacy first web app that helps you take back control of your Gmail without giving your data to anyone. Everything runs locally on your"
+    },
+    {
+      "timestamp": "9:36",
+      "text": "machine. With one click, you can bulk unsubscribe from newsletters you never meant to subscribe to, delete emails by sender, or mark thousands of unread emails as read in seconds."
+    },
+    {
+      "timestamp": "9:48",
+      "text": "Especi"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "Home Assistant or MQTT. No AI models here. Especal analysis to detect motion in real time"
+    },
+    {
+      "timestamp": "10:07",
+      "text": "by reading Wi-Fi channel data. It works through walls, protects your privacy, and turns any smart home into a motionare system. No wearables, no training, just clever physics."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "Data peak, a minimal desktop client for Postgra SQL, MySQL, and SQL Server. If you ever wanted a database viewer that"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "opens in under two seconds and doesn't feel like piloting a spaceship, this is it. You get a Monaco powered query editor with autocomplete, multitab"
+    },
+    {
+      "timestamp": "10:35",
+      "text": "workflows, and even inline editing so you can tweak data directly without firing up heavy gooies."
+    },
+    {
+      "timestamp": "10:42",
+      "text": "Next is Jet, just image transformer, a clean re-implementation of idea in generative modeling. What if diffusion"
+    },
+    {
+      "timestamp": "10:49",
+      "text": "models simply predicted clean images again? This project brings the original Jax plus TPU work into PyTorch plus GPU,"
+    },
+    {
+      "timestamp": "10:57",
+      "text": "making it far more accessible to researchers and practitioners. Instead of predicting noise like today's diffusion models do, Jeet argues we"
+    },
+    {
+      "timestamp": "11:05",
+      "text": "should go back to basics and directly model the clean data itself."
+    },
+    {
+      "timestamp": "11:10",
+      "text": "Flux 2, a massive 32 billion parameter rectified flow transformer. This model doesn't just create images from text. It"
+    },
+    {
+      "timestamp": "11:18",
+      "text": "can edit them, combine them, and follow complex instructions with state-of-the-art accuracy. What makes it wild is the no finetuning magic. You can"
+    },
+    {
+      "timestamp": "11:27",
+      "text": "give it a single character reference, an object, even a specific art style, and it nails it. No extra training, no"
+    },
+    {
+      "timestamp": "11:34",
+      "text": "Lauras, nothing. It's all built into one unified model. What if you could write your app's UI once in Typescript and get"
+    },
+    {
+      "timestamp": "11:42",
+      "text": "true native performance on iOS, Android, and Mac OS? Meet Valdi, an open-source cross-platform UI framework from"
+    },
+    {
+      "timestamp": "11:50",
+      "text": "Snapchat built to end the trade-off between developer speed and runtime performance. Unlike React Native or Flutter, Valdi doesn't rely on web views"
+    },
+    {
+      "timestamp": "11:59",
+      "text": "or JS bridges. It compiles your declarative TypeScript components directly into native views, giving you the smoothness of pure Swift or Cotlin with the velocity of the web."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we're reviewing the hottest GitHub repositories of November. From AI to self-hosted tools, this month was absolutely stacked. Let's get started."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LLM Council, a project that basically turns your favorite AI models into a panel of experts. Instead of asking just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one LLM for an answer, this tool sends your question to multiple models at once through Open Router, lets them respond"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "individually, then has them critique and rank each other, all before a designated chairman LLM pieces everything together"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "into one final refined answer. It's like hosting a mini AI debate inside your browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Reader 3, a self-hosted EPUB reader designed for one simple mission, reading books together with your LLM. It lets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you load any EPUB and go through it chapter by chapter, making it super easy to copy, paste, and discuss the text with your favorite model. Perfect for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 56000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "grabbing classics from Project Gutenberg and turning them into an interactive reading session. The creator calls it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "90% vibecoded, a tiny take it asis tool meant purely to inspire."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Git log. It turns your git history into a cinematic animated replay right inside your terminal. Instead of scrolling"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through raw commits, GitLog lets you watch your project evolve with realistic typing animations and file changes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Almost like your codebase is telling its own story. It supports tree sitter syntax highlighting across 26 languages,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 90000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shows a live project file tree with change stats, and even includes a screen saver mode that plays random commits endlessly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Up next is M. Grep. And if you've ever wished Grep could understand what you mean instead of what you type, this one's going to blow your mind. MGP is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "semantic, multilingual, multimodal search tool that runs straight from the command line. You can search code, images, PDFs, and soon audio and video,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 117000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all using natural language. No Rayax guesswork. No praying that past developers named things logically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Supertonic, a fast texttospech system built for total privacy running on ONX runtime. Supertonic requires no cloud services, no API calls, and no internet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It can generate speech up to up to 167 times faster than real time on consumer hardware like the M4 Pro. Despite being"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ultra light at just 66 million parameters, it handles natural text effortlessly. Numbers, dates, currency, abbreviations, complex expressions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 153000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Install Nothing is a tiny Rustbased terminal app that simulates installing well, nothing. Run it and you'll get"
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "progress bars, fake logs, pretend package lists, the whole installing things vibe without actually changing anything on your system. It's playful"
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and licensed under the extremely permissive do whatever you want with it license."
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you love terminal toys, want a fun demo app, or just enjoy confusing your co-workers, install nothing is a perfect little Rust project to start."
+        }
+      ]
+    },
+    {
+      "tStartMs": 184000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Note Discovery. If you love tools like Notion or Obsidian, but want total privacy and ownership, this one's for you. Note Discovery is a lightweight,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "self-hosted knowledge base that gives you full control over your notes, wiks, and second brain, all running on your own server. It's fast, beautiful, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 201000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built entirely around plain markdown files. So, there's no lock in or subscription in sight. You get instant search, custom themes, plug-in support,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and it works seamlessly across desktop and mobile."
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MOSS, it's a Linux compatible kernel written in Rust with some Arch 64 assembly sprinkled in for the low-level magic. What makes MOSS stand out is its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "asynchronous kernel core. Yep, this system uses Rust's async await inside the kernel itself. That means system"
+        }
+      ]
+    },
+    {
+      "tStartMs": 231000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calls are async, sleep points are compiler verified, and entire classes of classic kernel deadlocks are eliminated."
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's cutting edge OS research packed into real working code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Xleak. If you've ever wanted to open Excel files directly in your terminal, this one's going to blow your mind."
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Xleak is a fast interactive Excel viewer built with Rust and Ratatouille. turning your terminal into a full spreadsheet"
+        }
+      ]
+    },
+    {
+      "tStartMs": 257000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "viewer. No Microsoft Excel, no guey apps, just pure terminal power. It beautifully renders tables, handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 265000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "different data types intelligently, and supports every major spreadsheet format."
+        }
+      ]
+    },
+    {
+      "tStartMs": 269000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Built on the blazing fast Calamine Excel parser, Xleak turns heavy spreadsheets into a seamless terminal experience."
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Z image six billion parameter foundation model proving you don't need a monster GPU to get worldclass image generation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 286000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "through smart systematic optimization. Z image delivers photorealistic quality and bilingual text rendering that rivals"
+        }
+      ]
+    },
+    {
+      "tStartMs": 293000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models 10 times its size and it runs smoothly on consumer GPUs under 16 GB."
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That means high-end generation is now accessible to everyone."
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Awesome Nano Banana Prompts. An open-source treasure chest with over 500 handpicked prompts built specifically"
+        }
+      ]
+    },
+    {
+      "tStartMs": 311000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for Google's Nano Banana Pro model. This library gives you multilingual prompts, imagebacked examples, and an instant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 319000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gallery preview so you can see exactly what each prompt is capable of before you try it. Whether you're generating visuals, this collection saves you hours of trial and error."
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Essenbox is now an open- source game engine and it's built on Valve's source 2 and modern.net."
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can create your own games in modern C with a super clean editor, instant play testing, and blazing fast hotloading. No compiling, no restarts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It even has visual scripting with action graph, shader graph, and a massive cloud asset library you can drag straight into your scene."
+        }
+      ]
+    },
+    {
+      "tStartMs": 355000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Depth anything 3 a model that aims to recover the entire visual space from any view. You don't need fancy multibranch"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "architectures. A single plane transformer backbone and a unified depth ray representation are enough to solve a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "huge range of geometry tasks. One model can handle monocular depth, multiv- view depth fusion, pose condition depth, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even 3D Gaussian prediction for highfidelity novel view synthesis."
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nano PDF Editor, a command line tool that lets you edit PDF slides using natural language prompts powered by Nano"
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Banana Pro. Want to update a graph with 2025 data or turn a pie chart into a bar chart? Just describe it. Nano PDF editor"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles the visuals for you. You can even generate brand new slides that match your deck style, all while keeping your PDF text layer intact through smart OCR rehydration."
+        }
+      ]
+    },
+    {
+      "tStartMs": 410000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vex, a beautiful Excel and CSV viewer built in Go. Yep, Excel in your terminal, but actually gorgeous. Pick from six stunning themes. Cat Pooin,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nord, Rosé Pine, Tokyo Knight, Groove Box, even Dracula. Navigation, smooth, vim keys, arrow keys, global search, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 426000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fast sheet switching. Copy cells, export to CSV or JSON, toggle formulas, all without leaving the terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is for everyone who doomscrolls Google Maps at 2 a.m. clicking on random islands asking, \"What even is this place?\" Because someone finally built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the tool we all needed. It's called history, and it lets you click anywhere on a 3D globe, any island, mountain,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 450000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tiny Arctic village with nine people, and it will actually research the entire history of that location for you. actual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "research across historical archives, academic papers, and the modern web for up to 10 minutes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Alt Send Me. Need to send files fast, privately, and without limits? Alt SendMe is a crossplatform peer-to-peer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file transfer app that makes sharing files totally frictionless. No accounts, no cloud middlemen, just direct encrypted transfers from your machine to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "anyone, anywhere. It's powered by IRO for reliablenat hole punching. Quick plus TLS 1.3 for end-to-end security and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 488000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports resumable downloads. Think of it as AirDrop for everyone. Open source, unlimited, and totally private."
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Free MDU, a project that cracks open the world of Melee appliance diagnostics."
+        }
+      ]
+    },
+    {
+      "tStartMs": 501000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MLE has used a hidden infraredbased optical diagnostic interface on their appliances since the '9s, but accessing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it traditionally required an expensive proprietary adapter and closed source tooling only available to certified technicians. Freemdu changes that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "completely provides open hardware, firmware, and software that let anyone communicate with these appliances."
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tonell is a LLM friendly serialization format that can cut your data size by up to 50 to 60% compared to JSON, which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "also means dramatically lower LM token costs. And unlike binary formats, Tunnel stays completely human readable. But Tunnel isn't just a format. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full-blown data platform. You get a JSON path style query API, CRUD modification tools, hashing and bree indexes, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 551000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even bit packing for boolean data. It's zero dependencies, built-in pure TypeScript, browser ready at just 10 KB gzipped."
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is a project your inbox has been begging you to install. The Gmail bulk unsubscribe and cleanup tool. This is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 567000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "totally free privacy first web app that helps you take back control of your Gmail without giving your data to anyone. Everything runs locally on your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "machine. With one click, you can bulk unsubscribe from newsletters you never meant to subscribe to, delete emails by sender, or mark thousands of unread emails as read in seconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 588000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Especi"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Home Assistant or MQTT. No AI models here. Especal analysis to detect motion in real time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 607000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by reading Wi-Fi channel data. It works through walls, protects your privacy, and turns any smart home into a motionare system. No wearables, no training, just clever physics."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Data peak, a minimal desktop client for Postgra SQL, MySQL, and SQL Server. If you ever wanted a database viewer that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "opens in under two seconds and doesn't feel like piloting a spaceship, this is it. You get a Monaco powered query editor with autocomplete, multitab"
+        }
+      ]
+    },
+    {
+      "tStartMs": 635000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workflows, and even inline editing so you can tweak data directly without firing up heavy gooies."
+        }
+      ]
+    },
+    {
+      "tStartMs": 642000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next is Jet, just image transformer, a clean re-implementation of idea in generative modeling. What if diffusion"
+        }
+      ]
+    },
+    {
+      "tStartMs": 649000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "models simply predicted clean images again? This project brings the original Jax plus TPU work into PyTorch plus GPU,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 657000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "making it far more accessible to researchers and practitioners. Instead of predicting noise like today's diffusion models do, Jeet argues we"
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "should go back to basics and directly model the clean data itself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flux 2, a massive 32 billion parameter rectified flow transformer. This model doesn't just create images from text. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 678000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can edit them, combine them, and follow complex instructions with state-of-the-art accuracy. What makes it wild is the no finetuning magic. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 687000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "give it a single character reference, an object, even a specific art style, and it nails it. No extra training, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 694000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lauras, nothing. It's all built into one unified model. What if you could write your app's UI once in Typescript and get"
+        }
+      ]
+    },
+    {
+      "tStartMs": 702000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "true native performance on iOS, Android, and Mac OS? Meet Valdi, an open-source cross-platform UI framework from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 710000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Snapchat built to end the trade-off between developer speed and runtime performance. Unlike React Native or Flutter, Valdi doesn't rely on web views"
+        }
+      ]
+    },
+    {
+      "tStartMs": 719000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or JS bridges. It compiles your declarative TypeScript components directly into native views, giving you the smoothness of pure Swift or Cotlin with the velocity of the web."
+        }
+      ]
+    }
+  ]
+}

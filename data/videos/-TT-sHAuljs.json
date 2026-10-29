@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "id": "-TT-sHAuljs",
+  "title": "25 AI agent projects: Julep, Big-AGI, AnyTool, playwriter, vibe-kanban, Agent S, potpie, liveblocks",
+  "url": "https://www.youtube.com/watch?v=-TT-sHAuljs",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2025-12-14",
+  "duration": 651,
+  "word_count": 1519,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-29T22:52:30+00:00",
+    "metadata_sha256": "63fbe09bd065dbce61be235e6ba5c1833365de2e70574c44ad0c0384f057dac1",
+    "captions_sha256": "84ebad6ef48ebe487f502d7df162d98696b955321651a21753a481a1050f5068",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 12,
+      "paragraphs": [
+        "Today we're diving deep into 25 open-source AI agent projects on GitHub. From intelligent memory layers to multi-agent orchestration platforms. Let's get started."
+      ]
+    },
+    {
+      "start": 12,
+      "title": "Julep",
+      "repositories": [
+        "https://github.com/julep-ai/julep"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Julip is basically Firebase for AI agents. It's an open- source platform for deploying serverless agent-based AI workflows without touching infrastructure. Instead of chaining prompts together, Julip lets you orchestrate complex multi-step agent logic with memory and parallel execution. You can build AI agents that remember past interactions, call external APIs, and scale automatically as usage grows."
+      ]
+    },
+    {
+      "start": 38,
+      "title": "Self-hosted AI starter kit",
+      "repositories": [
+        "https://github.com/n8n-io/self-hosted-ai-starter-kit"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "This project is a one-command self-hosted AI lab. The self-hosted AI starter kit is an open- source docker composed setup that instantly spins up a full local AI stack. Perfect for building and testing AI agents without relying on cloud services. It bundles NAD for low code workflows, lama for running local LLMs, Qrant for vector search, and Postgres SQL for reliable data storage."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "Big-AGI",
+      "repositories": [
+        "https://github.com/enricoros/big-AGI"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "Big AGI is not another AI chat clone. It's an expert-grade AI workspace, a multimodel AI environment built for engineers and researchers who need serious control and serious performance. What really sets it apart is Beam and Merge, which let you combine multiple models to reduce hallucinations and validate outputs, plus native search and support for models, all in a web app."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "AnyTool",
+      "repositories": [
+        "https://github.com/HKUDS/AnyTool"
+      ],
+      "id": "s005",
+      "end": 116,
+      "paragraphs": [
+        "Any tool is the missing layer between AI agents and real world tools. It's a universal tool use system designed to make agent automation actually reliable in production. Solving problems like tool overload, unreliable integrations, and limited capabilities. Any tool uses smart context filtering to surface only the right tools in milliseconds, keeping agent prompts clean and fast, even when you're working with thousands of tools."
+      ]
+    },
+    {
+      "start": 116,
+      "title": "playwriter",
+      "repositories": [
+        "https://github.com/remorses/playwriter"
+      ],
+      "id": "s006",
+      "end": 143,
+      "paragraphs": [
+        "Playwriter fixes browser automation for AI agents by not overengineering it. Instead of spawning a separate Chrome instance like Playrite MCP, Playwriter runs as a browser extension, letting your AI agent work directly inside your existing Chrome session. That means 90% less context window usage, full access to the entire Playright API, and the ability to collaborate with your agent in real time."
+      ]
+    },
+    {
+      "start": 143,
+      "title": "vibe-kanban",
+      "repositories": [
+        "https://github.com/BloopAI/vibe-kanban"
+      ],
+      "id": "s007",
+      "end": 169,
+      "paragraphs": [
+        "Vibe Canban is a control panel for your AI coding agents. As AI agents write more of the code, developers are shifting into a role of planning, reviewing, and orchestrating. And that's exactly what Vibe canban is built for. It gives you a canban style board to manage multiple coding agents like Claude Code, Gemini CLI, Codeex, and AMP, letting you run them in parallel or in sequence, all from one place."
+      ]
+    },
+    {
+      "start": 169,
+      "title": "Claude Code PM",
+      "repositories": [
+        "https://github.com/automazeio/ccpm"
+      ],
+      "id": "s008",
+      "end": 197,
+      "paragraphs": [
+        "Claude Code PM turns AI coding from a solo experiment into a real team workflow. It's a project management system built on GitHub issues and git work trees designed to let multiple claude code agents work in parallel without losing context or stepping on each other. Instead of vibe coding from memory, this system converts PRDS into epics, epics into issues, and issues into production code with full traceability at every step."
+      ]
+    },
+    {
+      "start": 197,
+      "title": "Agent S",
+      "repositories": [
+        "https://github.com/simular-ai/Agent-S"
+      ],
+      "id": "s009",
+      "end": 221,
+      "paragraphs": [
+        "Agent S is teaching AI to use a computer like a human. It's an open- source agentic framework that lets autonomous agents interact with real computer interfaces, clicking, typing, navigating apps through a true agent computer interface. What makes Agent S stand out is performance on benchmarks like OS World. Agent S3 already beats previous state-of-the-art."
+      ]
+    },
+    {
+      "start": 221,
+      "title": "Praison AI",
+      "repositories": [
+        "https://github.com/MervinPraison/PraisonAI"
+      ],
+      "id": "s010",
+      "end": 246,
+      "paragraphs": [
+        "Praise AAI is a productionready framework for building serious multi-agent systems. It's a low code multiAI agent platform that brings together praise and AI agents AG2 formerly autogen and crew AI into a single unified workflow. The focus here is simplicity, customization, and real human agent collaboration. You get agents with reasoning, self-reflection, short and long-term memory. POP turns prompts into code engineering agents."
+      ]
+    },
+    {
+      "start": 246,
+      "title": "potpie",
+      "repositories": [
+        "https://github.com/potpie-ai/potpie"
+      ],
+      "id": "s011",
+      "end": 271,
+      "paragraphs": [
+        "It's an open- source platform that builds AI agents specialized in your own codebase using a knowledge graph to deeply understand how everything fits together. Instead of generic code assistants, POP's agents understand relationships between files, APIs, and components, making them far more effective at real engineering tasks."
+      ]
+    },
+    {
+      "start": 271,
+      "title": "liveblocks",
+      "repositories": [
+        "https://github.com/liveblocks/liveblocks"
+      ],
+      "id": "s012",
+      "end": 297,
+      "paragraphs": [
+        "Livelocks is the collaboration layer for human and AI workflows. In the AI era, the best products aren't solo experiences, and LiveBlocks makes it easy to add real time collaboration without rewriting your app or blowing up your road map. It offers ready-made customizable features like AI co-pilots, multiplayer editing, comments, presence, and notifications. Components you can drop straight into your product."
+      ]
+    },
+    {
+      "start": 297,
+      "title": "SuperMCP",
+      "repositories": [
+        "https://github.com/dhanababum/supermcp"
+      ],
+      "id": "s013",
+      "end": 322,
+      "paragraphs": [
+        "Super MCP is the platform for managing multiple AI assistants and their data connections. It lets you create multiple isolated MCP servers from a single connector, bridging AI assistance with databases, APIs, and other data sources. Each server runs independently with its own credentials and settings. That means multi-tenant apps and enterprise deployments become far simpler to manage."
+      ]
+    },
+    {
+      "start": 322,
+      "title": "oh-my-opencode",
+      "repositories": [
+        "https://github.com/code-yeongyu/oh-my-opencode"
+      ],
+      "id": "s014",
+      "end": 348,
+      "paragraphs": [
+        "Oh my Open Code is coding on steroids for AI agents. This open- source project turns your LLM agents into a full development powerhouse, orchestrating multiple specialized agents, all working together asynchronously. It comes battery included with curated MCPs and a clawed code compatibility layer, so your agents can handle everything from debugging to feature development without choking on context."
+      ]
+    },
+    {
+      "start": 348,
+      "title": "Kortix",
+      "repositories": [
+        "https://github.com/kortix-ai/suna"
+      ],
+      "id": "s015",
+      "end": 375,
+      "paragraphs": [
+        "Cortex is a full platform for building autonomous AI agents that work for you. At the heart of Cordix is the Cortex Superworker, a flagship generalist agent that demonstrates what's possible, handling research, data analysis, and complex workflows through natural conversation. Beyond that, Cortex lets you build custom agents tailored to any domain or workflow, from customer service to content creation."
+      ]
+    },
+    {
+      "start": 375,
+      "title": "MCPProxy",
+      "repositories": [
+        "https://github.com/smart-mcp-proxy/mcpproxy-go"
+      ],
+      "id": "s016",
+      "end": 402,
+      "paragraphs": [
+        "MCP Proxy is a smart proxy that supercharges your AI agents. This open- source desktop app lets agents federate hundreds MCP servers, bypassing API limits like Cursor's 40 tool cap or OpenAI's 128 function limit. It also saves tokens and accelerates responses. Agents only load a single retrieve tools function instead of hundreds of schemas, reducing token usage by 99% while improving accuracy."
+      ]
+    },
+    {
+      "start": 402,
+      "title": "Agno",
+      "repositories": [
+        "https://github.com/agno-agi/agno"
+      ],
+      "id": "s017",
+      "end": 427,
+      "paragraphs": [
+        "Agno is a fast framework for building, running, and managing multi-agent systems. Designed for companies that want secure containerized AI products, Agno goes far beyond simple API calls. It provides a full stack for agent engineering. The framework lets you build agents, multi-agent teams, and workflows with memory, knowledge, context compression, and over a 100 built-in toolkits."
+      ]
+    },
+    {
+      "start": 427,
+      "title": "BubbleLab",
+      "repositories": [
+        "https://github.com/bubblelabai/BubbleLab"
+      ],
+      "id": "s018",
+      "end": 450,
+      "paragraphs": [
+        "Bubble Lab is an open-source agentic workflow automation builder with full code ownership. Unlike traditional workflow platforms that trap you in JSON nodes, Bubble Lab is TypeScript native, giving you full control, type safety, and transparency. Everything you build compiles into clean productionready code that you can deploy, debug, and integrate anywhere."
+      ]
+    },
+    {
+      "start": 450,
+      "title": "Claude-Mem",
+      "repositories": [
+        "https://github.com/thedotmack/claude-mem"
+      ],
+      "id": "s019",
+      "end": 475,
+      "paragraphs": [
+        "Claude MEM is the memory backbone for your Claude Code sessions. This plugin automatically captures everything Claude does, compresses it using AI, and injects relevant context into future sessions, so your agent never forgets what it learned. You can explore memory in real time via web UI, search it directly from Claude desktop, and even reference past decisions with Claude MEM. Bulna is an end-to-end open-source framework for building voice-driven AI"
+      ]
+    },
+    {
+      "start": 475,
+      "title": "Bolna",
+      "repositories": [
+        "https://github.com/bolna-ai/bolna"
+      ],
+      "id": "s020",
+      "end": 500,
+      "paragraphs": [
+        "applications. It provides a full orchestration platform to create LLM powered voice agents combining ASR, LLM, and TTS models over websockets for seamless conversations. With Bolna, you can build AI voice agents capable of handling complex tasks through natural speech, all on a productionready open-source backbone."
+      ]
+    },
+    {
+      "start": 500,
+      "title": "MemMachine",
+      "repositories": [
+        "https://github.com/MemMachine/MemMachine"
+      ],
+      "id": "s021",
+      "end": 526,
+      "paragraphs": [
+        "Memachine is a universal memory layer for AI agents. It lets your agents store, recall, and learn from past interactions, creating contextaware, personalized AI assistants that remember preferences, session history, and knowledge across multiple agents and LLMs. Memachine supports working, persistent, and personalized memory types, giving your agents the ability to reason and adapt over time. Insorgge is the back-end platform built for AI assisted development. It lets you"
+      ]
+    },
+    {
+      "start": 526,
+      "title": "InsForge",
+      "repositories": [
+        "https://github.com/InsForge/InsForge"
+      ],
+      "id": "s022",
+      "end": 552,
+      "paragraphs": [
+        "connect any AI agent, claude, GPT, or others, and instantly add authentication, databases, storage, serverless functions, and AI integrations to your app. With InSforge, developers can build complete AIdriven apps using natural language, empowering agents to manage the backend, handle data, and interact with users seamlessly."
+      ]
+    },
+    {
+      "start": 552,
+      "title": "klavis",
+      "repositories": [
+        "https://github.com/Klavis-AI/klavis"
+      ],
+      "id": "s023",
+      "end": 575,
+      "paragraphs": [
+        "Clavis AI is an open source MCP integration platform that lets AI agents use tools reliably at any scale. With Clavus API, your agents can connect to hundreds of SAS tools, databases, and APIs in minutes. No need to build integrations from scratch. Authentication is fully managed with OOTH flows, refresh tokens, and credential security handled for you."
+      ]
+    },
+    {
+      "start": 575,
+      "title": "Neo",
+      "repositories": [
+        "https://github.com/neomjs/neo"
+      ],
+      "id": "s024",
+      "end": 599,
+      "paragraphs": [
+        "Neo.mjs is the AI native platform for multi-wind web applications. Designed for desktop class performance in the browser, Neo.js MJS uses a pioneering off-main thread architecture to keep the UI buttery smooth, no matter how many real-time updates your app handles. Neo.mjs empowers agents to act as autonomous developers with the AI SDK and local script execution at machine speed."
+      ]
+    },
+    {
+      "start": 599,
+      "title": "browser-debugger-cli",
+      "repositories": [
+        "https://github.com/szymdzum/browser-debugger-cli"
+      ],
+      "id": "s025",
+      "end": 623,
+      "paragraphs": [
+        "Browser debugger CLI brings Chrome DevTools protocol straight into your terminal. Designed for AI agents and developers who want direct, low overhead browser control, BDG opens a persistent connection to Chrome, letting you execute commands sequentially via Unix pipes. Use BDG when you need precise, low-level browser automation for AI agents or quick debugging."
+      ]
+    },
+    {
+      "start": 623,
+      "title": "GHOSTCREW",
+      "repositories": [
+        "https://github.com/GH05TCREW/ghostcrew"
+      ],
+      "id": "s026",
+      "end": 651,
+      "paragraphs": [
+        "Ghost Crew is an AI agent framework built for modern security teams designed for bug bounty hunters, red teamers, penetration testers, and security educators. Ghost Crew combines LLM autonomy with multi-agent coordination to model how real world offensive security workflows operate without bloated tooling. At its core, Ghost Crew focuses on structured, reproducible agent workflows."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Today we're diving deep into 25 open-source AI agent projects on GitHub."
+    },
+    {
+      "start": 5.0,
+      "end": 5.0,
+      "text": "From intelligent memory layers to multi-agent orchestration platforms. Let's get started."
+    },
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "text": "Julip is basically Firebase for AI agents. It's an open- source platform for deploying serverless agent-based AI workflows without touching"
+    },
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "text": "infrastructure. Instead of chaining prompts together, Julip lets you orchestrate complex multi-step agent logic with memory and parallel"
+    },
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "text": "execution. You can build AI agents that remember past interactions, call external APIs, and scale automatically as usage grows."
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "This project is a one-command self-hosted AI lab. The self-hosted AI starter kit is an open- source docker composed setup that instantly spins up a"
+    },
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "text": "full local AI stack. Perfect for building and testing AI agents without relying on cloud services. It bundles"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "NAD for low code workflows, lama for running local LLMs, Qrant for vector search, and Postgres SQL for reliable data storage."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Big AGI is not another AI chat clone."
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "text": "It's an expert-grade AI workspace, a multimodel AI environment built for engineers and researchers who need serious control and serious performance."
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "text": "What really sets it apart is Beam and Merge, which let you combine multiple models to reduce hallucinations and validate outputs, plus native search and support for models, all in a web app."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Any tool is the missing layer between AI agents and real world tools. It's a universal tool use system designed to"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "make agent automation actually reliable in production. Solving problems like tool overload, unreliable integrations,"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "text": "and limited capabilities. Any tool uses smart context filtering to surface only the right tools in milliseconds, keeping"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "agent prompts clean and fast, even when you're working with thousands of tools."
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "Playwriter fixes browser automation for AI agents by not overengineering it."
+    },
+    {
+      "start": 121.0,
+      "end": 121.0,
+      "text": "Instead of spawning a separate Chrome instance like Playrite MCP, Playwriter runs as a browser extension, letting your AI agent work directly inside your"
+    },
+    {
+      "start": 130.0,
+      "end": 130.0,
+      "text": "existing Chrome session. That means 90% less context window usage, full access to the entire Playright API, and the"
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "ability to collaborate with your agent in real time."
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "Vibe Canban is a control panel for your AI coding agents. As AI agents write more of the code, developers are shifting into a role of planning,"
+    },
+    {
+      "start": 152.0,
+      "end": 152.0,
+      "text": "reviewing, and orchestrating. And that's exactly what Vibe canban is built for."
+    },
+    {
+      "start": 157.0,
+      "end": 157.0,
+      "text": "It gives you a canban style board to manage multiple coding agents like Claude Code, Gemini CLI, Codeex, and AMP, letting you run them in parallel or in sequence, all from one place."
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "Claude Code PM turns AI coding from a solo experiment into a real team workflow. It's a project management"
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "system built on GitHub issues and git work trees designed to let multiple claude code agents work in parallel without losing context or stepping on"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "each other. Instead of vibe coding from memory, this system converts PRDS into epics, epics into issues, and issues"
+    },
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "into production code with full traceability at every step."
+    },
+    {
+      "start": 197.0,
+      "end": 197.0,
+      "text": "Agent S is teaching AI to use a computer like a human. It's an open- source agentic framework that lets autonomous agents interact with real computer"
+    },
+    {
+      "start": 205.0,
+      "end": 205.0,
+      "text": "interfaces, clicking, typing, navigating apps through a true agent computer interface. What makes Agent S stand out"
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "is performance on benchmarks like OS World. Agent S3 already beats previous state-of-the-art."
+    },
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "Praise AAI is a productionready framework for building serious multi-agent systems. It's a low code multiAI agent platform that brings"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "together praise and AI agents AG2 formerly autogen and crew AI into a single unified workflow. The focus here"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "is simplicity, customization, and real human agent collaboration. You get agents with reasoning, self-reflection,"
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "short and long-term memory. POP turns prompts into code engineering agents."
+    },
+    {
+      "start": 249.0,
+      "end": 249.0,
+      "text": "It's an open- source platform that builds AI agents specialized in your own codebase using a knowledge graph to deeply understand how everything fits"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "together. Instead of generic code assistants, POP's agents understand relationships between files, APIs, and"
+    },
+    {
+      "start": 265.0,
+      "end": 265.0,
+      "text": "components, making them far more effective at real engineering tasks."
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Livelocks is the collaboration layer for human and AI workflows. In the AI era, the best products aren't solo"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "experiences, and LiveBlocks makes it easy to add real time collaboration without rewriting your app or blowing up your road map. It offers ready-made"
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "customizable features like AI co-pilots, multiplayer editing, comments, presence, and notifications. Components you can drop straight into your product."
+    },
+    {
+      "start": 297.0,
+      "end": 297.0,
+      "text": "Super MCP is the platform for managing multiple AI assistants and their data connections. It lets you create multiple"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "isolated MCP servers from a single connector, bridging AI assistance with databases, APIs, and other data sources."
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "Each server runs independently with its own credentials and settings. That means multi-tenant apps and enterprise deployments become far simpler to manage."
+    },
+    {
+      "start": 322.0,
+      "end": 322.0,
+      "text": "Oh my Open Code is coding on steroids for AI agents. This open- source project turns your LLM agents into a full"
+    },
+    {
+      "start": 329.0,
+      "end": 329.0,
+      "text": "development powerhouse, orchestrating multiple specialized agents, all working together asynchronously. It comes"
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "battery included with curated MCPs and a clawed code compatibility layer, so your agents can handle everything from debugging to feature development without choking on context."
+    },
+    {
+      "start": 348.0,
+      "end": 348.0,
+      "text": "Cortex is a full platform for building autonomous AI agents that work for you."
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "At the heart of Cordix is the Cortex Superworker, a flagship generalist agent that demonstrates what's possible,"
+    },
+    {
+      "start": 360.0,
+      "end": 360.0,
+      "text": "handling research, data analysis, and complex workflows through natural conversation. Beyond that, Cortex lets"
+    },
+    {
+      "start": 368.0,
+      "end": 368.0,
+      "text": "you build custom agents tailored to any domain or workflow, from customer service to content creation."
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "MCP Proxy is a smart proxy that supercharges your AI agents. This open- source desktop app lets agents federate"
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "hundreds MCP servers, bypassing API limits like Cursor's 40 tool cap or OpenAI's 128 function limit. It also saves tokens and accelerates responses."
+    },
+    {
+      "start": 392.0,
+      "end": 392.0,
+      "text": "Agents only load a single retrieve tools function instead of hundreds of schemas, reducing token usage by 99% while improving accuracy."
+    },
+    {
+      "start": 402.0,
+      "end": 402.0,
+      "text": "Agno is a fast framework for building, running, and managing multi-agent systems. Designed for companies that want secure containerized AI products, Agno goes far beyond simple API calls."
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "It provides a full stack for agent engineering. The framework lets you build agents, multi-agent teams, and workflows with memory, knowledge,"
+    },
+    {
+      "start": 422.0,
+      "end": 422.0,
+      "text": "context compression, and over a 100 built-in toolkits."
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "Bubble Lab is an open-source agentic workflow automation builder with full code ownership. Unlike traditional workflow platforms that trap you in JSON"
+    },
+    {
+      "start": 435.0,
+      "end": 435.0,
+      "text": "nodes, Bubble Lab is TypeScript native, giving you full control, type safety, and transparency. Everything you build"
+    },
+    {
+      "start": 443.0,
+      "end": 443.0,
+      "text": "compiles into clean productionready code that you can deploy, debug, and integrate anywhere."
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "Claude MEM is the memory backbone for your Claude Code sessions. This plugin automatically captures everything Claude"
+    },
+    {
+      "start": 457.0,
+      "end": 457.0,
+      "text": "does, compresses it using AI, and injects relevant context into future sessions, so your agent never forgets"
+    },
+    {
+      "start": 464.0,
+      "end": 464.0,
+      "text": "what it learned. You can explore memory in real time via web UI, search it directly from Claude desktop, and even"
+    },
+    {
+      "start": 472.0,
+      "end": 472.0,
+      "text": "reference past decisions with Claude MEM. Bulna is an end-to-end open-source framework for building voice-driven AI"
+    },
+    {
+      "start": 479.0,
+      "end": 479.0,
+      "text": "applications. It provides a full orchestration platform to create LLM powered voice agents combining ASR, LLM,"
+    },
+    {
+      "start": 486.0,
+      "end": 486.0,
+      "text": "and TTS models over websockets for seamless conversations. With Bolna, you can build AI voice agents capable of"
+    },
+    {
+      "start": 493.0,
+      "end": 493.0,
+      "text": "handling complex tasks through natural speech, all on a productionready open-source backbone."
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "Memachine is a universal memory layer for AI agents. It lets your agents store, recall, and learn from past"
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "interactions, creating contextaware, personalized AI assistants that remember preferences, session history, and knowledge across multiple agents and"
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "LLMs. Memachine supports working, persistent, and personalized memory types, giving your agents the ability to"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "reason and adapt over time. Insorgge is the back-end platform built for AI assisted development. It lets you"
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "connect any AI agent, claude, GPT, or others, and instantly add authentication, databases, storage,"
+    },
+    {
+      "start": 538.0,
+      "end": 538.0,
+      "text": "serverless functions, and AI integrations to your app. With InSforge, developers can build complete AIdriven apps using natural language, empowering"
+    },
+    {
+      "start": 546.0,
+      "end": 546.0,
+      "text": "agents to manage the backend, handle data, and interact with users seamlessly."
+    },
+    {
+      "start": 552.0,
+      "end": 552.0,
+      "text": "Clavis AI is an open source MCP integration platform that lets AI agents use tools reliably at any scale. With"
+    },
+    {
+      "start": 560.0,
+      "end": 560.0,
+      "text": "Clavus API, your agents can connect to hundreds of SAS tools, databases, and APIs in minutes. No need to build integrations from scratch."
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "Authentication is fully managed with OOTH flows, refresh tokens, and credential security handled for you."
+    },
+    {
+      "start": 575.0,
+      "end": 575.0,
+      "text": "Neo.mjs is the AI native platform for multi-wind web applications. Designed for desktop class performance in the"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "browser, Neo.js MJS uses a pioneering off-main thread architecture to keep the UI buttery smooth, no matter how many real-time updates your app handles."
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "Neo.mjs empowers agents to act as autonomous developers with the AI SDK and local script execution at machine speed."
+    },
+    {
+      "start": 600.0,
+      "end": 600.0,
+      "text": "Browser debugger CLI brings Chrome DevTools protocol straight into your terminal. Designed for AI agents and developers who want direct, low overhead"
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "browser control, BDG opens a persistent connection to Chrome, letting you execute commands sequentially via Unix"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "pipes. Use BDG when you need precise, low-level browser automation for AI agents or quick debugging."
+    },
+    {
+      "start": 623.0,
+      "end": 623.0,
+      "text": "Ghost Crew is an AI agent framework built for modern security teams designed for bug bounty hunters, red teamers, penetration testers, and security"
+    },
+    {
+      "start": 632.0,
+      "end": 632.0,
+      "text": "educators. Ghost Crew combines LLM autonomy with multi-agent coordination to model how real world offensive security workflows operate without"
+    },
+    {
+      "start": 641.0,
+      "end": 641.0,
+      "text": "bloated tooling. At its core, Ghost Crew focuses on structured, reproducible agent workflows."
+    }
+  ]
+}
