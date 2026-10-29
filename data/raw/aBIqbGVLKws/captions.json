@@ -1,0 +1,1281 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Every week, GitHub explodes with new open-source projects, and most of them completely fly under the radar. So, I went through GitHub trending and"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "handpicked 30 projects that developers are actually starring right now. Let's jump straight into GitHub Trending Weekly, episode 17."
+    },
+    {
+      "timestamp": "0:18",
+      "text": "If you're building on Cloudflare workers, debugging locally can feel like flying blind. Localflare fixes that."
+    },
+    {
+      "timestamp": "0:25",
+      "text": "It's a local development dashboard that lets you actually see and interact with your Cloudflare resources in real time."
+    },
+    {
+      "timestamp": "0:31",
+      "text": "You get a full D1 database studio with a SQL editor, bulk operations, even dummy data generation. Browse and edit KV"
+    },
+    {
+      "timestamp": "0:40",
+      "text": "namespaces, manage R2 buckets like a file manager, and inspect durable objects without guesswork."
+    },
+    {
+      "timestamp": "0:47",
+      "text": "Type form is great until the price hits."
+    },
+    {
+      "timestamp": "0:51",
+      "text": "Open Form is an open- source alternative that gives you the same one question at a time experience. It's designed to feel smooth and modern with six built-in themes like Midnight and Minimal."
+    },
+    {
+      "timestamp": "1:02",
+      "text": "Everything is keyboard first. Hit enter to continue. Use arrow keys to navigate, even scroll naturally. It's fully mobile first, works perfectly on any screen."
+    },
+    {
+      "timestamp": "1:13",
+      "text": "If your Xbookmarks are a chaotic mess, Smog is about to fix that. Smog automatically archives your bookmarks and optionally your likes into clean"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "structured markdown files. It fetches everything using the bird CLI, expands shorten.co links and pulls real content from articles, GitHub repos, and quote"
+    },
+    {
+      "timestamp": "1:31",
+      "text": "tweets. Then it gets smart. Smog invokes clawed code to analyze each tweet, categorize it, and add useful context, not just raw links."
+    },
+    {
+      "timestamp": "1:41",
+      "text": "ZPDF is a fast PDF text extraction library. It uses memory mapped parsing to handle massive PDFs with ease."
+    },
+    {
+      "timestamp": "1:49",
+      "text": "Streaming extraction and multi-threaded page processing means speed without wasted memory. It supports modern PDF features, multiple compression filters,"
+    },
+    {
+      "timestamp": "1:58",
+      "text": "and real font encodings like to Unicode Caps. If you need efficient PDF text extraction without heavyweight dependencies, ZPDF is the one to watch."
+    },
+    {
+      "timestamp": "2:08",
+      "text": "Static icons feel dead and itchover is the fix. It hover is an open- source icon library where motion comes first,"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "not as decoration, but as part of the design. Every icon is a fully editable React component with animation baked right in. You don't install a heavy"
+    },
+    {
+      "timestamp": "2:24",
+      "text": "library or lock yourself in. You just copy, paste, and customize the SVG motion directly in your code."
+    },
+    {
+      "timestamp": "2:32",
+      "text": "Rust says it's for safety. Corroded says safety is optional. This project exists for people who are tired of the compiler telling them what they're allowed to do"
+    },
+    {
+      "timestamp": "2:40",
+      "text": "with their own memory. Borrow checker complaining gone. Lifetimes getting in the way."
+    },
+    {
+      "timestamp": "2:48",
+      "text": "Multiple mutable references absolutely."
+    },
+    {
+      "timestamp": "2:51",
+      "text": "Corroded gives you tools to transmute types freely and share data across threads without mutexes."
+    },
+    {
+      "timestamp": "2:58",
+      "text": "Sessi is an open-source email observability platform built specifically for Amazon SCES. SCES is cheap and delivers really well, but once"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "you hit send, everything becomes a black box. That's where SESI comes in. It gives you a clean, beautiful dashboard to track deliveries, bounces,"
+    },
+    {
+      "timestamp": "3:15",
+      "text": "complaints, and more. All while continuing to use raw SCES, not an expensive third party."
+    },
+    {
+      "timestamp": "3:22",
+      "text": "Want all the Google data in one place?"
+    },
+    {
+      "timestamp": "3:24",
+      "text": "Meet Social Flood, an open- source API that pulls from Google News and Trends."
+    },
+    {
+      "timestamp": "3:30",
+      "text": "Search news articles, track trending topics, grab keyword suggestions, or extract YouTube video transcripts, all through one powerful API. It's built"
+    },
+    {
+      "timestamp": "3:39",
+      "text": "with versioned endpoints, standardized error handling, and rate limiting, so it's stable and production ready."
+    },
+    {
+      "timestamp": "3:46",
+      "text": "If you want a stunning link in bio page, check out Open Bento. Drag and drop seven block types, links, media, YouTube, text, social maps, and spacers."
+    },
+    {
+      "timestamp": "3:55",
+      "text": "All fully customizable. The 999 grid editor gives you total control. Drag, resize, reposition, live preview, colors, gradients, backgrounds, avatars,"
+    },
+    {
+      "timestamp": "4:04",
+      "text": "everything. Export a readyto deploy react project for Versel, GitHub pages, or any VPS."
+    },
+    {
+      "timestamp": "4:11",
+      "text": "Sentinel, a lightweight Kubernetes agent for edge nodes that predicts failures and keeps your workloads running even"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "when connectivity drops. When edge nodes lose contact with the control plane, Sentinel doesn't panic. It forms a local"
+    },
+    {
+      "timestamp": "4:26",
+      "text": "consensus group and makes autonomous scheduling decisions, then gracefully syncs back once reconnected."
+    },
+    {
+      "timestamp": "4:33",
+      "text": "Hypermind, the solution to a problem that doesn't exist. It's a fully decentralized P2P counter that tells you how many people are wasting 50 megabytes"
+    },
+    {
+      "timestamp": "4:42",
+      "text": "of RAM running the same container as you. Yep, really. There's no server, no database, just the swarm. Your node"
+    },
+    {
+      "timestamp": "4:50",
+      "text": "yells, \"I exist, connects to peers, and keeps the count alive.\" Turn it off, you disappear. Everyone off, the network"
+    },
+    {
+      "timestamp": "4:57",
+      "text": "dies. A CLI that makes managing Git work trees super easy, especially if you're juggling AI coding agents. Git's native"
+    },
+    {
+      "timestamp": "5:05",
+      "text": "workree commands are clunky, but GW wraps them into a fast developer friendly tool. Create isolated workspaces, switch between them"
+    },
+    {
+      "timestamp": "5:14",
+      "text": "instantly, and track which agent is working. Written in Rust, works on Mac OS and Windows, and integrates with your shell for seamless navigation."
+    },
+    {
+      "timestamp": "5:24",
+      "text": "Kurmon, a lightweight certificate transparency monitoring tool that discovers new subdomains in real time."
+    },
+    {
+      "timestamp": "5:30",
+      "text": "Point it at your targets and CRM will alert you instantly when new assets appear with notifications on Discord or Telegram. Batching, rate limiting, and"
+    },
+    {
+      "timestamp": "5:39",
+      "text": "flexible input lets you monitor single domains, files, or even stin without breaking a sweat."
+    },
+    {
+      "timestamp": "5:47",
+      "text": "Note 67, your local meeting notes assistant that runs entirely on your device. Record meetings, transcribe audio locally with Whisper, and get AI"
+    },
+    {
+      "timestamp": "5:56",
+      "text": "powered summaries without sending anything to the cloud. Features include speaker distinction, live transcription,"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "echo dduplication, and even continuing on existing notes. Search transcripts by speaker, and export everything to markdown."
+    },
+    {
+      "timestamp": "6:12",
+      "text": "Isle. Chat, a SSH powered chat server with public and private channels. Each channel has an owner who can invite"
+    },
+    {
+      "timestamp": "6:19",
+      "text": "users and manage who can join. Messages and accounts are persistent, so you can SSH in from anywhere and catch up on what you missed. The interface is"
+    },
+    {
+      "timestamp": "6:28",
+      "text": "Discord style. Channels on the left, chat in the middle, users on the right, plus unread message counters."
+    },
+    {
+      "timestamp": "6:36",
+      "text": "Tiny tiny TPU, a mini TPU style matrix multiplier running on an FPGA. It's a full TPU architecture with a 2k2"
+    },
+    {
+      "timestamp": "6:44",
+      "text": "systolic array, accumulator, activation, normalization, quantization, and even a UART host interface. Tiny Tiny TPU"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "supports multi-layer MLP inference, so you can experiment with sequential layers and see how TPU data flows horizontally and vertically."
+    },
+    {
+      "timestamp": "7:00",
+      "text": "Linux Gate, a Windows app that makes dual booting Linux super easy. If you've ever wanted to try Linux but got"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "intimidated by USB flashing or manual partitioning, Linux Gate aims to do it all from Windows. Resize partitions safely, download Linux in the"
+    },
+    {
+      "timestamp": "7:16",
+      "text": "background, and integrate a graphical bootloadader like Refind. All from a clean, professional interface."
+    },
+    {
+      "timestamp": "7:23",
+      "text": "One URL, an open-source linkree alternative that puts all your links in one beautiful profile page. Sign in securely with Google Oath. Create a"
+    },
+    {
+      "timestamp": "7:32",
+      "text": "custom profile and manage your links effortlessly. Add, edit, or reorder them in seconds. Track engagement with deep"
+    },
+    {
+      "timestamp": "7:39",
+      "text": "analytics. Upload a personalized avatar and enjoy a fully responsive design that looks perfect on any device."
+    },
+    {
+      "timestamp": "7:47",
+      "text": "Interview tool, a web-based form system for PI agent that collects user responses efficiently. It supports"
+    },
+    {
+      "timestamp": "7:54",
+      "text": "single select, multi select, text input, and image uploads, plus an other option for custom answers. Attach images via drag and drop, paste, or file picker."
+    },
+    {
+      "timestamp": "8:04",
+      "text": "Navigate entirely with the keyboard and responses are autosaved to local storage so nothing is lost on reload."
+    },
+    {
+      "timestamp": "8:11",
+      "text": "Cloudflare Analytics Explorer, a visual dashboard builder for exploring data."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "Drag and drop tiles to create custom dashboards with line charts, bar charts, area charts, pie charts, scatter plots, tables, and stats, all powered by SQL"
+    },
+    {
+      "timestamp": "8:25",
+      "text": "queries. Manage multiple data sets. Map columns to meaningful names. and add dynamic filters for time ranges, text or drop downs."
+    },
+    {
+      "timestamp": "8:35",
+      "text": "Space list, a beautiful terminal UI for viewing all your windows across Aerospace window manager spaces."
+    },
+    {
+      "timestamp": "8:42",
+      "text": "It lists all open windows organized by workspace, shows workspace names, app names, and window titles and only displays workspaces that actually have"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "windows. Filter in real time by application name and enjoy a sleek TUI with syntax highlighting powered by Bubble T."
+    },
+    {
+      "timestamp": "8:59",
+      "text": "Zero Pulse, a command and control platform with Cloudflare tunnel integration for secure remote management. Zerulse gives you encrypted"
+    },
+    {
+      "timestamp": "9:08",
+      "text": "tunnel-based access to Windows and Linux systems without exposing your infrastructure to the public internet."
+    },
+    {
+      "timestamp": "9:14",
+      "text": "Manage Cloudflare tunnels, run commands via WinRM or SSH through NOVVNC, all from a React dashboard."
+    },
+    {
+      "timestamp": "9:22",
+      "text": "Linodc, a compressive audio tokenizer for speech models that packs audio into just 12.5 tokens per second and decodes"
+    },
+    {
+      "timestamp": "9:30",
+      "text": "to highquality 48 kHz audio. It's super fast, encoding at 200x real time and decoding at 400x real time, even faster"
+    },
+    {
+      "timestamp": "9:38",
+      "text": "with batching. That means your TTS and ASR models run way faster than before."
+    },
+    {
+      "timestamp": "9:44",
+      "text": "Linodec isn't just about speed. It supports voice conversion, super resolution, and audio denoising."
+    },
+    {
+      "timestamp": "9:51",
+      "text": "Want to work like the AI startup Meta just bought for $2 billion?"
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Meet planning with files, a clawed code skill that brings the workflow behind manus straight into your terminal."
+    },
+    {
+      "timestamp": "10:02",
+      "text": "Here's the secret. Mark down as working memory. Instead of cramming everything into the AI's fragile context, you save"
+    },
+    {
+      "timestamp": "10:09",
+      "text": "notes, progress, and checkpoints on disk. Each file becomes a scratch pad, letting Claude remember what matters across tasks."
+    },
+    {
+      "timestamp": "10:18",
+      "text": "This tool projects your portfolio growth, simulates tax optimized withdrawals, and shows exactly what your financial future could look like. It"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "works for both the US and Canada, supporting all major account types, and automatically adjusts for taxes, social"
+    },
+    {
+      "timestamp": "10:33",
+      "text": "security, or CPP OAS benefits. See your money grow with interactive charts."
+    },
+    {
+      "timestamp": "10:39",
+      "text": "Track accumulation, withdrawals, and portfolio allocation all over time."
+    },
+    {
+      "timestamp": "10:44",
+      "text": "Envelop, a TCP and UDP load balancer built in Go. It's lightweight and perfect for handling thousands of connections with minimal resources. Bind"
+    },
+    {
+      "timestamp": "10:54",
+      "text": "10,000 plus ports effortlessly, all with a single config line. Unlike ordinary UDP proxies, Envelopes keep session"
+    },
+    {
+      "timestamp": "11:01",
+      "text": "state so your datagramgrams always reach the right backend. Perfect for gaming or VoIP apps."
+    },
+    {
+      "timestamp": "11:08",
+      "text": "Red ODS the tiniest undo redo library you'll ever need for JavaScript react view and spelt. It's under 1 kilobyte"
+    },
+    {
+      "timestamp": "11:16",
+      "text": "jzip zero dependencies and dead simple to use. Just import the hook, execute actions and hit undo or redo. Fully"
+    },
+    {
+      "timestamp": "11:23",
+      "text": "framework agnostic with official adapters for react view and spelt. It's typescript first so you get full type safety out of the box. Proxmox a"
+    },
+    {
+      "timestamp": "11:32",
+      "text": "terminal UI for managing your Proxmox v clusters. Get a dashboard view of all your nodes showing CPU, memory, and disk"
+    },
+    {
+      "timestamp": "11:39",
+      "text": "usage at a glance. Manage VMs and Lexe containers effortlessly. List them, start, stop, or reboot, all from your"
+    },
+    {
+      "timestamp": "11:46",
+      "text": "terminal. Need console access? Jump straight into containers via PCT console. No extra SSH hassle."
+    },
+    {
+      "timestamp": "11:53",
+      "text": "Textual is a full Swift UI text rendering engine that's fast, composable, and adapts automatically across platforms. Use inline text for"
+    },
+    {
+      "timestamp": "12:02",
+      "text": "inline formatting or structured text for full block documents. Select, copy, and paste natively. No hacks needed. Render"
+    },
+    {
+      "timestamp": "12:09",
+      "text": "markdown out of the box or plug in your own custom markup parser. Flow inline images, gifts, or even custom emoji seamlessly with your text."
+    },
+    {
+      "timestamp": "12:19",
+      "text": "Merchant, the open- source commerce backend that makes selling online ridiculously easy. It's API first and"
+    },
+    {
+      "timestamp": "12:26",
+      "text": "runs right on Cloudflare workers. No heavy servers, no headaches. Connect your Stripe key, manage products,"
+    },
+    {
+      "timestamp": "12:33",
+      "text": "inventory, checkouts, and orders all in one place. Whether you're selling digital downloads, merch, or subscriptions, Merchant handles the back end so you can focus on growth."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Every week, GitHub explodes with new open-source projects, and most of them completely fly under the radar. So, I went through GitHub trending and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handpicked 30 projects that developers are actually starring right now. Let's jump straight into GitHub Trending Weekly, episode 17."
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you're building on Cloudflare workers, debugging locally can feel like flying blind. Localflare fixes that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 25000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a local development dashboard that lets you actually see and interact with your Cloudflare resources in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You get a full D1 database studio with a SQL editor, bulk operations, even dummy data generation. Browse and edit KV"
+        }
+      ]
+    },
+    {
+      "tStartMs": 40000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "namespaces, manage R2 buckets like a file manager, and inspect durable objects without guesswork."
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Type form is great until the price hits."
+        }
+      ]
+    },
+    {
+      "tStartMs": 51000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Form is an open- source alternative that gives you the same one question at a time experience. It's designed to feel smooth and modern with six built-in themes like Midnight and Minimal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything is keyboard first. Hit enter to continue. Use arrow keys to navigate, even scroll naturally. It's fully mobile first, works perfectly on any screen."
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If your Xbookmarks are a chaotic mess, Smog is about to fix that. Smog automatically archives your bookmarks and optionally your likes into clean"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "structured markdown files. It fetches everything using the bird CLI, expands shorten.co links and pulls real content from articles, GitHub repos, and quote"
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tweets. Then it gets smart. Smog invokes clawed code to analyze each tweet, categorize it, and add useful context, not just raw links."
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ZPDF is a fast PDF text extraction library. It uses memory mapped parsing to handle massive PDFs with ease."
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Streaming extraction and multi-threaded page processing means speed without wasted memory. It supports modern PDF features, multiple compression filters,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and real font encodings like to Unicode Caps. If you need efficient PDF text extraction without heavyweight dependencies, ZPDF is the one to watch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Static icons feel dead and itchover is the fix. It hover is an open- source icon library where motion comes first,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "not as decoration, but as part of the design. Every icon is a fully editable React component with animation baked right in. You don't install a heavy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "library or lock yourself in. You just copy, paste, and customize the SVG motion directly in your code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 152000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust says it's for safety. Corroded says safety is optional. This project exists for people who are tired of the compiler telling them what they're allowed to do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with their own memory. Borrow checker complaining gone. Lifetimes getting in the way."
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Multiple mutable references absolutely."
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Corroded gives you tools to transmute types freely and share data across threads without mutexes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sessi is an open-source email observability platform built specifically for Amazon SCES. SCES is cheap and delivers really well, but once"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you hit send, everything becomes a black box. That's where SESI comes in. It gives you a clean, beautiful dashboard to track deliveries, bounces,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 195000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "complaints, and more. All while continuing to use raw SCES, not an expensive third party."
+        }
+      ]
+    },
+    {
+      "tStartMs": 202000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want all the Google data in one place?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 204000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Social Flood, an open- source API that pulls from Google News and Trends."
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Search news articles, track trending topics, grab keyword suggestions, or extract YouTube video transcripts, all through one powerful API. It's built"
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with versioned endpoints, standardized error handling, and rate limiting, so it's stable and production ready."
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you want a stunning link in bio page, check out Open Bento. Drag and drop seven block types, links, media, YouTube, text, social maps, and spacers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 235000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "All fully customizable. The 999 grid editor gives you total control. Drag, resize, reposition, live preview, colors, gradients, backgrounds, avatars,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everything. Export a readyto deploy react project for Versel, GitHub pages, or any VPS."
+        }
+      ]
+    },
+    {
+      "tStartMs": 251000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sentinel, a lightweight Kubernetes agent for edge nodes that predicts failures and keeps your workloads running even"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when connectivity drops. When edge nodes lose contact with the control plane, Sentinel doesn't panic. It forms a local"
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "consensus group and makes autonomous scheduling decisions, then gracefully syncs back once reconnected."
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hypermind, the solution to a problem that doesn't exist. It's a fully decentralized P2P counter that tells you how many people are wasting 50 megabytes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of RAM running the same container as you. Yep, really. There's no server, no database, just the swarm. Your node"
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "yells, \"I exist, connects to peers, and keeps the count alive.\" Turn it off, you disappear. Everyone off, the network"
+        }
+      ]
+    },
+    {
+      "tStartMs": 297000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dies. A CLI that makes managing Git work trees super easy, especially if you're juggling AI coding agents. Git's native"
+        }
+      ]
+    },
+    {
+      "tStartMs": 305000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workree commands are clunky, but GW wraps them into a fast developer friendly tool. Create isolated workspaces, switch between them"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instantly, and track which agent is working. Written in Rust, works on Mac OS and Windows, and integrates with your shell for seamless navigation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 324000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kurmon, a lightweight certificate transparency monitoring tool that discovers new subdomains in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point it at your targets and CRM will alert you instantly when new assets appear with notifications on Discord or Telegram. Batching, rate limiting, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flexible input lets you monitor single domains, files, or even stin without breaking a sweat."
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Note 67, your local meeting notes assistant that runs entirely on your device. Record meetings, transcribe audio locally with Whisper, and get AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "powered summaries without sending anything to the cloud. Features include speaker distinction, live transcription,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "echo dduplication, and even continuing on existing notes. Search transcripts by speaker, and export everything to markdown."
+        }
+      ]
+    },
+    {
+      "tStartMs": 372000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Isle. Chat, a SSH powered chat server with public and private channels. Each channel has an owner who can invite"
+        }
+      ]
+    },
+    {
+      "tStartMs": 379000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "users and manage who can join. Messages and accounts are persistent, so you can SSH in from anywhere and catch up on what you missed. The interface is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 388000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Discord style. Channels on the left, chat in the middle, users on the right, plus unread message counters."
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tiny tiny TPU, a mini TPU style matrix multiplier running on an FPGA. It's a full TPU architecture with a 2k2"
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "systolic array, accumulator, activation, normalization, quantization, and even a UART host interface. Tiny Tiny TPU"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports multi-layer MLP inference, so you can experiment with sequential layers and see how TPU data flows horizontally and vertically."
+        }
+      ]
+    },
+    {
+      "tStartMs": 420000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linux Gate, a Windows app that makes dual booting Linux super easy. If you've ever wanted to try Linux but got"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intimidated by USB flashing or manual partitioning, Linux Gate aims to do it all from Windows. Resize partitions safely, download Linux in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 436000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "background, and integrate a graphical bootloadader like Refind. All from a clean, professional interface."
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "One URL, an open-source linkree alternative that puts all your links in one beautiful profile page. Sign in securely with Google Oath. Create a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 452000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "custom profile and manage your links effortlessly. Add, edit, or reorder them in seconds. Track engagement with deep"
+        }
+      ]
+    },
+    {
+      "tStartMs": 459000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "analytics. Upload a personalized avatar and enjoy a fully responsive design that looks perfect on any device."
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Interview tool, a web-based form system for PI agent that collects user responses efficiently. It supports"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "single select, multi select, text input, and image uploads, plus an other option for custom answers. Attach images via drag and drop, paste, or file picker."
+        }
+      ]
+    },
+    {
+      "tStartMs": 484000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Navigate entirely with the keyboard and responses are autosaved to local storage so nothing is lost on reload."
+        }
+      ]
+    },
+    {
+      "tStartMs": 491000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cloudflare Analytics Explorer, a visual dashboard builder for exploring data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drag and drop tiles to create custom dashboards with line charts, bar charts, area charts, pie charts, scatter plots, tables, and stats, all powered by SQL"
+        }
+      ]
+    },
+    {
+      "tStartMs": 505000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "queries. Manage multiple data sets. Map columns to meaningful names. and add dynamic filters for time ranges, text or drop downs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 515000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Space list, a beautiful terminal UI for viewing all your windows across Aerospace window manager spaces."
+        }
+      ]
+    },
+    {
+      "tStartMs": 522000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It lists all open windows organized by workspace, shows workspace names, app names, and window titles and only displays workspaces that actually have"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "windows. Filter in real time by application name and enjoy a sleek TUI with syntax highlighting powered by Bubble T."
+        }
+      ]
+    },
+    {
+      "tStartMs": 539000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zero Pulse, a command and control platform with Cloudflare tunnel integration for secure remote management. Zerulse gives you encrypted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 548000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tunnel-based access to Windows and Linux systems without exposing your infrastructure to the public internet."
+        }
+      ]
+    },
+    {
+      "tStartMs": 554000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Manage Cloudflare tunnels, run commands via WinRM or SSH through NOVVNC, all from a React dashboard."
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linodc, a compressive audio tokenizer for speech models that packs audio into just 12.5 tokens per second and decodes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to highquality 48 kHz audio. It's super fast, encoding at 200x real time and decoding at 400x real time, even faster"
+        }
+      ]
+    },
+    {
+      "tStartMs": 578000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with batching. That means your TTS and ASR models run way faster than before."
+        }
+      ]
+    },
+    {
+      "tStartMs": 584000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Linodec isn't just about speed. It supports voice conversion, super resolution, and audio denoising."
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Want to work like the AI startup Meta just bought for $2 billion?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet planning with files, a clawed code skill that brings the workflow behind manus straight into your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Here's the secret. Mark down as working memory. Instead of cramming everything into the AI's fragile context, you save"
+        }
+      ]
+    },
+    {
+      "tStartMs": 609000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "notes, progress, and checkpoints on disk. Each file becomes a scratch pad, letting Claude remember what matters across tasks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This tool projects your portfolio growth, simulates tax optimized withdrawals, and shows exactly what your financial future could look like. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "works for both the US and Canada, supporting all major account types, and automatically adjusts for taxes, social"
+        }
+      ]
+    },
+    {
+      "tStartMs": 633000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "security, or CPP OAS benefits. See your money grow with interactive charts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 639000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Track accumulation, withdrawals, and portfolio allocation all over time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 644000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Envelop, a TCP and UDP load balancer built in Go. It's lightweight and perfect for handling thousands of connections with minimal resources. Bind"
+        }
+      ]
+    },
+    {
+      "tStartMs": 654000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "10,000 plus ports effortlessly, all with a single config line. Unlike ordinary UDP proxies, Envelopes keep session"
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "state so your datagramgrams always reach the right backend. Perfect for gaming or VoIP apps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Red ODS the tiniest undo redo library you'll ever need for JavaScript react view and spelt. It's under 1 kilobyte"
+        }
+      ]
+    },
+    {
+      "tStartMs": 676000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "jzip zero dependencies and dead simple to use. Just import the hook, execute actions and hit undo or redo. Fully"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "framework agnostic with official adapters for react view and spelt. It's typescript first so you get full type safety out of the box. Proxmox a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal UI for managing your Proxmox v clusters. Get a dashboard view of all your nodes showing CPU, memory, and disk"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "usage at a glance. Manage VMs and Lexe containers effortlessly. List them, start, stop, or reboot, all from your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 706000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal. Need console access? Jump straight into containers via PCT console. No extra SSH hassle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Textual is a full Swift UI text rendering engine that's fast, composable, and adapts automatically across platforms. Use inline text for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 722000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inline formatting or structured text for full block documents. Select, copy, and paste natively. No hacks needed. Render"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "markdown out of the box or plug in your own custom markup parser. Flow inline images, gifts, or even custom emoji seamlessly with your text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 739000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Merchant, the open- source commerce backend that makes selling online ridiculously easy. It's API first and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 746000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs right on Cloudflare workers. No heavy servers, no headaches. Connect your Stripe key, manage products,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 753000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inventory, checkouts, and orders all in one place. Whether you're selling digital downloads, merch, or subscriptions, Merchant handles the back end so you can focus on growth."
+        }
+      ]
+    }
+  ]
+}
