@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "id": "rxPzZKCjIRA",
+  "title": "GitHub Trending Today #17: Claude HUD, Hacker Book, taws, Maestro, rustbpe, gh-issue-sync, CC-MIRROR",
+  "url": "https://www.youtube.com/watch?v=rxPzZKCjIRA",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-01-06",
+  "duration": 783,
+  "word_count": 1925,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-29T06:03:13+00:00",
+    "metadata_sha256": "971aa693cbb343e6151b0c3ecd08fd088b98826ce72e5d46ead861d931f35452",
+    "captions_sha256": "e819fba46c73c8dda78a7f0ee4068cb20ba6b654bb8bae8c934116b7c9a1957f",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Today episode number 17 and today we've got 29 projects that are blowing up on GitHub. Let's get started."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "Claude HUD",
+      "repositories": [
+        "https://github.com/jarrodwatts/claude-hud"
+      ],
+      "id": "s002",
+      "end": 40,
+      "paragraphs": [
+        "Ever wonder what Claude Code is actually doing behind the scenes? Claude HUD makes the invisible visible. It's a plugin that sits right below your input and shows realtime session insights. No guessing required. You can see context usage before it overflows. Track active tools as files are read or edited and watch agents spin up and complete tasks live. It even shows to-do progress so you always know what's done and what's still running."
+      ]
+    },
+    {
+      "start": 40,
+      "title": "Hacker Book",
+      "repositories": [
+        "https://github.com/DOSAYGO-STUDIO/HackerBook"
+      ],
+      "id": "s003",
+      "end": 68,
+      "paragraphs": [
+        "Hacker Book is an unkillable offline archive of 20 years of hacker news and it runs entirely in your browser. No servers, no backend, just static files. It uses SQLite compiled to web assembly so all queries run client side. The data is split into compressed shards and your browser only downloads what it needs, keeping things fast. The entire history of hacker news, preserved as a static archive that can live forever."
+      ]
+    },
+    {
+      "start": 68,
+      "title": "taws",
+      "repositories": [
+        "https://github.com/huseyinbabal/taws"
+      ],
+      "id": "s004",
+      "end": 96,
+      "paragraphs": [
+        "Managing AWS from the console is powerful, but it's also overwhelming. TOAS brings AWS into your terminal as a fast keyboard-driven UI. It lets you browse 94 AWS resource types across 60 services, switch profiles and regions instantly, and see changes in real time. Everything is Vim style. Navigate, filter, and inspect resources without touching a mouse. You can start, stop, or terminate EC2 instances directly from the UI. Too many AI projects? Maestro has your back. A cross-platform desktop"
+      ]
+    },
+    {
+      "start": 96,
+      "title": "Maestro",
+      "repositories": [
+        "https://github.com/pedramamini/Maestro"
+      ],
+      "id": "s005",
+      "end": 122,
+      "paragraphs": [
+        "app that turns chaos into focus. Run unlimited AI agents in parallel, each in its own isolated workspace. Create playbooks, automate tasks, and even let your agents chat with each other while you stay in the flow. Full keyboard control, Git integration, and mobile remote access keep you in flow from your desk or your phone."
+      ]
+    },
+    {
+      "start": 122,
+      "title": "rustbpe",
+      "repositories": [
+        "https://github.com/karpathy/rustbpe"
+      ],
+      "id": "s006",
+      "end": 149,
+      "paragraphs": [
+        "Tik Token is amazing for inference, but you can't train tokenizers with it. Hugging face can train tokenizers, but it's massive and slow. Rust BP fills that exact gap. It's a lightweight Rust library for training GPT style BPE tokenizers built for speed and simplicity. Training runs in parallel using rayon with GPT4 style regex pre-tokenization out of the box. Once training is done, you export directly to Tik Tok in format."
+      ]
+    },
+    {
+      "start": 149,
+      "title": "gh-issue-sync",
+      "repositories": [
+        "https://github.com/mitsuhiko/gh-issue-sync"
+      ],
+      "id": "s007",
+      "end": 177,
+      "paragraphs": [
+        "GH issue sync is a CLI tool that syncs your GitHub issues into local markdown files so you can edit, batch update, and even work fully offline. Issues are mirrored into a issues folder with YAML front matter, making them perfect for real editors and AI agents like Claude Code. You can refine issues iteratively, create new issues locally with temporary IDs, and when you're ready, sync everything back to GitHub in one shot."
+      ]
+    },
+    {
+      "start": 177,
+      "title": "porterminal",
+      "repositories": [
+        "https://github.com/lyehe/porterminal"
+      ],
+      "id": "s008",
+      "end": 203,
+      "paragraphs": [
+        "Ever wanted to code from bed, but your terminal is stuck on your desk? Porter Minel fixes that. Run one command, scan a QR code, and your local terminal is instantly live on your phone. No SSH, no port forwarding, no config files. It uses a Cloudflare tunnel under the hood, but hides all the pain. Just open and type. It's actually usable on mobile with touchfriendly controls and gestures that don't fight you."
+      ]
+    },
+    {
+      "start": 203,
+      "title": "Todo TUI",
+      "repositories": [
+        "https://github.com/nirabyte/todo"
+      ],
+      "id": "s009",
+      "end": 231,
+      "paragraphs": [
+        "Toto TUI is a keyboard first todo manager that lives entirely in your terminal. No mouse, no distractions. Add, edit, and complete tasks instantly with expandable descriptions so details stay hidden until you need them. Deleted something by mistake? No panic. There's a built-in recycle bin with persistent undo. It supports multiple views, including help and tutorial mode, so you can learn it without leaving the app."
+      ]
+    },
+    {
+      "start": 231,
+      "title": "mac-cleanup-go",
+      "repositories": [
+        "https://github.com/2ykwang/mac-cleanup-go"
+      ],
+      "id": "s010",
+      "end": 258,
+      "paragraphs": [
+        "Mac Cleanup Go is a terminal UI that helps you safely clean Mac OS caches, logs, and junk files without nuking something important. It scans 65 plus cleanup targets across the system, browsers, dev tools, and apps. Every item is clearly labeled, safe, moderate, or risky, so you always know the consequences before deleting anything. You can sort by size, preview files, and even exclude individual files before cleaning."
+      ]
+    },
+    {
+      "start": 258,
+      "title": "payme",
+      "repositories": [
+        "https://github.com/cachebag/payme"
+      ],
+      "id": "s011",
+      "end": 285,
+      "paragraphs": [
+        "Paya, a minimal self-hosted personal finance tracker built for people who just want the basics. No subscriptions, no third party services. Run it on a Raspberry Pi, NAS, or any always on server and keep your financial data private and local. Pay was created to replace messy spreadsheets and over complicated finance apps. It's intentionally opinionated, simple tracking without heavy budgeting or unnecessary features."
+      ]
+    },
+    {
+      "start": 285,
+      "title": "CC-MIRROR",
+      "repositories": [
+        "https://github.com/numman-ali/cc-mirror"
+      ],
+      "id": "s012",
+      "end": 309,
+      "paragraphs": [
+        "CC Mirror, the tool that lets you run multiple isolated cloud code instances with different AI providers. Connect to Miniaax, Open Router, CC Router, or your own custom endpoint. And each instance keeps its config, sessions, and credentials completely separate. Customize each variant with brand themes, prompt packs, and even collaborate in team mode with shared tasks."
+      ]
+    },
+    {
+      "start": 309,
+      "title": "NeuroCore",
+      "repositories": [
+        "https://github.com/farukalpay/NeuroCore"
+      ],
+      "id": "s013",
+      "end": 337,
+      "paragraphs": [
+        "Neuroore, a Mac OS utility for structural analysis and visualization of binary files. Instead of boring linear hex, Neuroore maps raw binaries onto a Hilbert space filling curve, letting you see structural patterns, entropy, and anomalies in real time. GPU accelerated with metal compute shaders, it color codes your data. Red for high entropy, blue green for code or text, black for empty space, all while preserving neighbor relationships."
+      ]
+    },
+    {
+      "start": 337,
+      "title": "OpenProse",
+      "repositories": [
+        "https://github.com/openprose/prose"
+      ],
+      "id": "s014",
+      "end": 362,
+      "paragraphs": [
+        "Open Pros a programming language for AI sessions. Imagine your longunning AI session as a touring complete computer and open pros gives you the language to program it. Instead of manually orchestrating agents, open pros inverts control. You declare agents and control flow and the AI session wires them up automatically. The session itself acts as interpreter and runtime."
+      ]
+    },
+    {
+      "start": 362,
+      "title": "Deep Delta Learning",
+      "repositories": [
+        "https://github.com/yifanzhang-pro/deep-delta-learning"
+      ],
+      "id": "s015",
+      "end": 389,
+      "paragraphs": [
+        "deep delta learning approach to residual networks that goes beyond simple additive shortcuts. Instead of just adding identity connections, DDL introduces a learnable data dependent delta operator that can dynamically act as identity mapping, orthogonal projection or geometric reflection. This gives neural networks control over layer transitions, non-monotonic dynamics while keeping training stable and efficient."
+      ]
+    },
+    {
+      "start": 389,
+      "title": "Humidity-Intelligence",
+      "repositories": [
+        "https://github.com/senyo888/Humidity-Intelligence"
+      ],
+      "id": "s016",
+      "end": 417,
+      "paragraphs": [
+        "Humidity Intelligence, a smart humidity dashboard for Home Assistant that gives you live insights across your home. Add a Love Lace card, set your sensor IDs, and instantly see house average humidity, condensation, and mold risk, and 7-day drift. The comfort band panel shows your ideal humidity range, plain language guidance, and worst room summaries. Tap it to reveal the 24-hour multiroom chart powered by Apex Charts."
+      ]
+    },
+    {
+      "start": 417,
+      "title": "obsidian-claude-code",
+      "repositories": [
+        "https://github.com/Roasbeef/obsidian-claude-code"
+      ],
+      "id": "s017",
+      "end": 441,
+      "paragraphs": [
+        "Obsidian Claude-Code, a native Obsidian plugin that turns your vault into an AI powered knowledge workspace. Claude lives in a persistent chat sidebar, reading, searching, and even modifying your notes while keeping context across sessions. Built on the Claude agent SDK, it supports streaming responses, built-in tools, and automatic skill loading from your vaults directory."
+      ]
+    },
+    {
+      "start": 441,
+      "title": "Smart Ticker",
+      "repositories": [
+        "https://github.com/tombcato/smart-ticker"
+      ],
+      "id": "s018",
+      "end": 468,
+      "paragraphs": [
+        "Smart ticker. A high performance text ticker that actually understands how text changes. Instead of reanimating everything, it uses a Levvenstein diff algorithm to animate only what actually changed. Identical characters, they stay perfectly still. It supports CJK numbers, letters, emojis, and even mixed charets with automatic unicode width spacing so nothing looks off. Updates mid animation. No problem."
+      ]
+    },
+    {
+      "start": 468,
+      "title": "NERD",
+      "repositories": [
+        "https://github.com/Nerd-Lang/nerd-lang-core"
+      ],
+      "id": "s019",
+      "end": 494,
+      "paragraphs": [
+        "40% of code is already written by LLMs and that number is only going up. So here's the question. Why are programming languages still designed for humans? Nerd is a language built for machines, not people. LLMs write it, LLM read it, humans just observe. Nerd is a non-human intermediate language that compiles to native code through LLVM, like assembly for the LLM era. Nerd stands for no effort required, done."
+      ]
+    },
+    {
+      "start": 494,
+      "title": "Routlux",
+      "repositories": [
+        "https://github.com/lzjever/routilux"
+      ],
+      "id": "s020",
+      "end": 519,
+      "paragraphs": [
+        "Routtux is an event-driven workflow orchestration framework for Python built for real pipelines, not toy demos. Instead of linear scripts, you compose routines that react to events. Sequential or concurrent, same model, no rewrites. Routtux handles the hard parts for you. Durable state, automatic retries, parallel execution, and workflows you can pause, persist, and resume from any step."
+      ]
+    },
+    {
+      "start": 519,
+      "title": "llm-madness",
+      "repositories": [
+        "https://github.com/MaxHastings/llm-madness"
+      ],
+      "id": "s021",
+      "end": 547,
+      "paragraphs": [
+        "Training an LLM shouldn't feel like duct taping five repos together. LLM Madness is a lightweight end-to-end text LLM pipeline with a web UI that actually lets you see what's going on. You configure everything in one place. Tokenizer settings, BP vocab builds, data sets, model optimizer, all visible, all reproducible. Data sets are snapshot based. Training runs are fully logged. Every run writes clean artifacts you can inspect later."
+      ]
+    },
+    {
+      "start": 547,
+      "title": "QuantDinger",
+      "repositories": [
+        "https://github.com/brokermr810/QuantDinger"
+      ],
+      "id": "s022",
+      "end": 574,
+      "paragraphs": [
+        "Quantinger is a self-hosted quantitative trading workspace built for traders and absolute market nerds. Your strategies, logs, and API keys stored locally. It supports crypto, US stocks, forex, and futures all through a unified data engine so you stop juggling APIs. One agent scans macro news, others analyze crypto or stocks. Then they generate professional daily and weekly reports backed by local market data."
+      ]
+    },
+    {
+      "start": 574,
+      "title": "BrainKernel",
+      "repositories": [
+        "https://github.com/mprajyothreddy/brainkernel"
+      ],
+      "id": "s023",
+      "end": 602,
+      "paragraphs": [
+        "Brain kernel, a terminal process manager that replaces dumb CPU graphs with actual judgment. This thing doesn't just see what is using CPU. It asks why. Chrome at 40% probably a video call. Annoying but safe. McAfee at 40% a crime. Terminated. Brain kernel uses an LLM powered brain to analyze process parentage, disio, and behavior history. Then decides whether a process is critical, suspicious, or pure bloatware."
+      ]
+    },
+    {
+      "start": 602,
+      "title": "Seline",
+      "repositories": [
+        "https://github.com/tercumantanumut/seline"
+      ],
+      "id": "s024",
+      "end": 627,
+      "paragraphs": [
+        "This is Selene, an AI assistant that lives on your desktop. An entire AI workspace running mostly on your machine. You chat with configurable agents and keep longrunning conversations organized instead of losing context every session. Seline connects directly to your local folders, building a private knowledge base so your prompts are grounded in your documents, not someone else's cloud."
+      ]
+    },
+    {
+      "start": 627,
+      "title": "Remainders",
+      "repositories": [
+        "https://github.com/Ti-03/remainders"
+      ],
+      "id": "s025",
+      "end": 656,
+      "paragraphs": [
+        "This is remainders, a beautiful time wallpaper generator that turns your life into data you can't ignore. See your entire year as a grid of daily dots. Every day counts. Or zoom out and visualize your entire life as 4,160 weeks on an 80year timeline. One glance at your lock screen and suddenly time feels real. It auto updates. It's optimized for your phone. And it's privacy first. No accounts, no tracking, no saved data."
+      ]
+    },
+    {
+      "start": 656,
+      "title": "Hindsight",
+      "repositories": [
+        "https://github.com/chaosprint/hindsight"
+      ],
+      "id": "s026",
+      "end": 681,
+      "paragraphs": [
+        "Hindsight, a GitHub style contribution heat map right in your terminal. It scans your local directories for Git repositories, aggregates your commit history, and transforms it into a beautiful blue pixel perfect heat map. No web browser, no GitHub account needed, just your terminal and your code. See your coding streaks, track your progress, and get instant visual feedback on your work over time."
+      ]
+    },
+    {
+      "start": 681,
+      "title": "Joko UI",
+      "repositories": [
+        "https://github.com/rayasabari/joko-ui"
+      ],
+      "id": "s027",
+      "end": 703,
+      "paragraphs": [
+        "Jooko UI Tailwind CSS component library built for developers who want to ship fast. Copy paste ready components for web apps, dashboards, and marketing pages. No heavy dependencies, no setup headache. Need off forms, dashboards, or settings pages? Done. Building landing pages, hero sections, feature grids, or pricing tables covered."
+      ]
+    },
+    {
+      "start": 703,
+      "title": "TrafficLab 3D",
+      "repositories": [
+        "https://github.com/duy-phamduc68/trafficlab-3d"
+      ],
+      "id": "s028",
+      "end": 730,
+      "paragraphs": [
+        "Traffic Lab 3D, a tool to turn simple CCTV footage into a 3D digital twin. No expensive satellite imagery, no complex camera calibration, just your MP4 CCTV video and the location on Google Maps. Traffic Lab handles the rest. Map your CCTV to the satellite view with multi-stage projection. Watch a real-time digital twin with synchronized CCTV and satellite views, 3D bounding boxes, and floor projections."
+      ]
+    },
+    {
+      "start": 730,
+      "title": "SYSTEM",
+      "repositories": [
+        "https://github.com/ygwyg/system"
+      ],
+      "id": "s029",
+      "end": 757,
+      "paragraphs": [
+        "System, your AI assistant for controlling your Mac anywhere. Just talk naturally. Play music with commands like play some jazz or skip this song. Need to send a message? Say text mom I'm running late and get a quick confirmation. Set reminders. Remind me to stretch in 30 minutes or adjust system settings like set volume to 50. Even run commands or automate tasks with Apple script and raycast."
+      ]
+    },
+    {
+      "start": 757,
+      "title": "claude-reflect",
+      "repositories": [
+        "https://github.com/BayramAnnakov/claude-reflect"
+      ],
+      "id": "s030",
+      "end": 783,
+      "paragraphs": [
+        "Claude reflect the self-learning system for claude code. Ever correct cla mid session? No. Use GPT5.1, not GPT5, or use the database for caching. With Claude Reflect, your corrections sync to claude.md and agents.mmd, so Claude remembers them for next time. First time using it, just run reflect scan history to pull in all your past learnings."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is GitHub Trending Today episode number 17 and today we've got 29 projects that are blowing up on GitHub. Let's get started."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Ever wonder what Claude Code is actually doing behind the scenes? Claude HUD makes the invisible visible."
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "It's a plugin that sits right below your input and shows realtime session insights. No guessing required. You can see context usage before it overflows."
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "text": "Track active tools as files are read or edited and watch agents spin up and complete tasks live. It even shows to-do"
+    },
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "text": "progress so you always know what's done and what's still running."
+    },
+    {
+      "start": 40.0,
+      "end": 40.0,
+      "text": "Hacker Book is an unkillable offline archive of 20 years of hacker news and it runs entirely in your browser. No servers, no backend, just static files."
+    },
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "text": "It uses SQLite compiled to web assembly so all queries run client side. The data is split into compressed shards and your"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "text": "browser only downloads what it needs, keeping things fast. The entire history of hacker news, preserved as a static archive that can live forever."
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "text": "Managing AWS from the console is powerful, but it's also overwhelming."
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "TOAS brings AWS into your terminal as a fast keyboard-driven UI. It lets you browse 94 AWS resource types across 60"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "services, switch profiles and regions instantly, and see changes in real time."
+    },
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "text": "Everything is Vim style. Navigate, filter, and inspect resources without touching a mouse. You can start, stop,"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "text": "or terminate EC2 instances directly from the UI. Too many AI projects? Maestro has your back. A cross-platform desktop"
+    },
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "text": "app that turns chaos into focus. Run unlimited AI agents in parallel, each in its own isolated workspace. Create"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "text": "playbooks, automate tasks, and even let your agents chat with each other while you stay in the flow. Full keyboard control, Git integration, and mobile"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "remote access keep you in flow from your desk or your phone."
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "Tik Token is amazing for inference, but you can't train tokenizers with it."
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "Hugging face can train tokenizers, but it's massive and slow. Rust BP fills that exact gap. It's a lightweight Rust"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "library for training GPT style BPE tokenizers built for speed and simplicity. Training runs in parallel using rayon with GPT4 style regex"
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "pre-tokenization out of the box. Once training is done, you export directly to Tik Tok in format."
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "GH issue sync is a CLI tool that syncs your GitHub issues into local markdown files so you can edit, batch update, and"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "even work fully offline. Issues are mirrored into a issues folder with YAML front matter, making them perfect for real editors and AI agents like Claude"
+    },
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "Code. You can refine issues iteratively, create new issues locally with temporary IDs, and when you're ready, sync everything back to GitHub in one shot."
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "Ever wanted to code from bed, but your terminal is stuck on your desk? Porter Minel fixes that. Run one command, scan a QR code, and your local terminal is"
+    },
+    {
+      "start": 186.0,
+      "end": 186.0,
+      "text": "instantly live on your phone. No SSH, no port forwarding, no config files. It uses a Cloudflare tunnel under the hood,"
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "but hides all the pain. Just open and type. It's actually usable on mobile with touchfriendly controls and gestures that don't fight you."
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "Toto TUI is a keyboard first todo manager that lives entirely in your terminal. No mouse, no distractions."
+    },
+    {
+      "start": 211.0,
+      "end": 211.0,
+      "text": "Add, edit, and complete tasks instantly with expandable descriptions so details stay hidden until you need them. Deleted"
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "something by mistake? No panic. There's a built-in recycle bin with persistent undo. It supports multiple views,"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "including help and tutorial mode, so you can learn it without leaving the app."
+    },
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "Mac Cleanup Go is a terminal UI that helps you safely clean Mac OS caches, logs, and junk files without nuking"
+    },
+    {
+      "start": 238.0,
+      "end": 238.0,
+      "text": "something important. It scans 65 plus cleanup targets across the system, browsers, dev tools, and apps. Every"
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "item is clearly labeled, safe, moderate, or risky, so you always know the consequences before deleting anything."
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "You can sort by size, preview files, and even exclude individual files before cleaning."
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "Paya, a minimal self-hosted personal finance tracker built for people who just want the basics. No subscriptions,"
+    },
+    {
+      "start": 265.0,
+      "end": 265.0,
+      "text": "no third party services. Run it on a Raspberry Pi, NAS, or any always on server and keep your financial data"
+    },
+    {
+      "start": 272.0,
+      "end": 272.0,
+      "text": "private and local. Pay was created to replace messy spreadsheets and over complicated finance apps. It's intentionally opinionated, simple"
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "tracking without heavy budgeting or unnecessary features."
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "CC Mirror, the tool that lets you run multiple isolated cloud code instances with different AI providers. Connect to"
+    },
+    {
+      "start": 292.0,
+      "end": 292.0,
+      "text": "Miniaax, Open Router, CC Router, or your own custom endpoint. And each instance keeps its config, sessions, and credentials completely separate."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "Customize each variant with brand themes, prompt packs, and even collaborate in team mode with shared tasks."
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "Neuroore, a Mac OS utility for structural analysis and visualization of binary files. Instead of boring linear"
+    },
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "hex, Neuroore maps raw binaries onto a Hilbert space filling curve, letting you see structural patterns, entropy, and"
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "anomalies in real time. GPU accelerated with metal compute shaders, it color codes your data. Red for high entropy,"
+    },
+    {
+      "start": 331.0,
+      "end": 331.0,
+      "text": "blue green for code or text, black for empty space, all while preserving neighbor relationships."
+    },
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "Open Pros a programming language for AI sessions. Imagine your longunning AI session as a touring complete computer"
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "and open pros gives you the language to program it. Instead of manually orchestrating agents, open pros inverts"
+    },
+    {
+      "start": 351.0,
+      "end": 351.0,
+      "text": "control. You declare agents and control flow and the AI session wires them up automatically. The session itself acts as interpreter and runtime."
+    },
+    {
+      "start": 362.0,
+      "end": 362.0,
+      "text": "deep delta learning approach to residual networks that goes beyond simple additive shortcuts. Instead of just adding identity connections, DDL"
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "introduces a learnable data dependent delta operator that can dynamically act as identity mapping, orthogonal"
+    },
+    {
+      "start": 378.0,
+      "end": 378.0,
+      "text": "projection or geometric reflection. This gives neural networks control over layer transitions, non-monotonic dynamics"
+    },
+    {
+      "start": 385.0,
+      "end": 385.0,
+      "text": "while keeping training stable and efficient."
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "Humidity Intelligence, a smart humidity dashboard for Home Assistant that gives you live insights across your home. Add"
+    },
+    {
+      "start": 396.0,
+      "end": 396.0,
+      "text": "a Love Lace card, set your sensor IDs, and instantly see house average humidity, condensation, and mold risk,"
+    },
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "and 7-day drift. The comfort band panel shows your ideal humidity range, plain language guidance, and worst room"
+    },
+    {
+      "start": 410.0,
+      "end": 410.0,
+      "text": "summaries. Tap it to reveal the 24-hour multiroom chart powered by Apex Charts."
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "Obsidian Claude-Code, a native Obsidian plugin that turns your vault into an AI powered knowledge workspace. Claude"
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "lives in a persistent chat sidebar, reading, searching, and even modifying your notes while keeping context across sessions. Built on the Claude agent SDK,"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "it supports streaming responses, built-in tools, and automatic skill loading from your vaults directory."
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "Smart ticker. A high performance text ticker that actually understands how text changes. Instead of reanimating everything, it uses a Levvenstein diff"
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "algorithm to animate only what actually changed. Identical characters, they stay perfectly still. It supports CJK"
+    },
+    {
+      "start": 457.0,
+      "end": 457.0,
+      "text": "numbers, letters, emojis, and even mixed charets with automatic unicode width spacing so nothing looks off. Updates mid animation. No problem."
+    },
+    {
+      "start": 468.0,
+      "end": 468.0,
+      "text": "40% of code is already written by LLMs and that number is only going up. So here's the question. Why are programming languages still designed for humans?"
+    },
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Nerd is a language built for machines, not people. LLMs write it, LLM read it, humans just observe. Nerd is a non-human"
+    },
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "intermediate language that compiles to native code through LLVM, like assembly for the LLM era. Nerd stands for no effort required, done."
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "Routtux is an event-driven workflow orchestration framework for Python built for real pipelines, not toy demos."
+    },
+    {
+      "start": 501.0,
+      "end": 501.0,
+      "text": "Instead of linear scripts, you compose routines that react to events."
+    },
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "Sequential or concurrent, same model, no rewrites. Routtux handles the hard parts for you. Durable state, automatic"
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "retries, parallel execution, and workflows you can pause, persist, and resume from any step."
+    },
+    {
+      "start": 519.0,
+      "end": 519.0,
+      "text": "Training an LLM shouldn't feel like duct taping five repos together. LLM Madness is a lightweight end-to-end text LLM"
+    },
+    {
+      "start": 527.0,
+      "end": 527.0,
+      "text": "pipeline with a web UI that actually lets you see what's going on. You configure everything in one place."
+    },
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "Tokenizer settings, BP vocab builds, data sets, model optimizer, all visible, all reproducible. Data sets are snapshot based. Training runs are fully logged."
+    },
+    {
+      "start": 543.0,
+      "end": 543.0,
+      "text": "Every run writes clean artifacts you can inspect later."
+    },
+    {
+      "start": 547.0,
+      "end": 547.0,
+      "text": "Quantinger is a self-hosted quantitative trading workspace built for traders and absolute market nerds. Your strategies,"
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "logs, and API keys stored locally. It supports crypto, US stocks, forex, and futures all through a unified data"
+    },
+    {
+      "start": 562.0,
+      "end": 562.0,
+      "text": "engine so you stop juggling APIs. One agent scans macro news, others analyze crypto or stocks. Then they generate"
+    },
+    {
+      "start": 569.0,
+      "end": 569.0,
+      "text": "professional daily and weekly reports backed by local market data."
+    },
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "Brain kernel, a terminal process manager that replaces dumb CPU graphs with actual judgment. This thing doesn't just see what is using CPU. It asks why."
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Chrome at 40% probably a video call."
+    },
+    {
+      "start": 586.0,
+      "end": 586.0,
+      "text": "Annoying but safe. McAfee at 40% a crime. Terminated. Brain kernel uses an LLM powered brain to analyze process parentage, disio, and behavior history."
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "Then decides whether a process is critical, suspicious, or pure bloatware."
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "This is Selene, an AI assistant that lives on your desktop. An entire AI workspace running mostly on your"
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "machine. You chat with configurable agents and keep longrunning conversations organized instead of losing context every session. Seline"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "connects directly to your local folders, building a private knowledge base so your prompts are grounded in your documents, not someone else's cloud."
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "This is remainders, a beautiful time wallpaper generator that turns your life into data you can't ignore. See your entire year as a grid of daily dots."
+    },
+    {
+      "start": 636.0,
+      "end": 636.0,
+      "text": "Every day counts. Or zoom out and visualize your entire life as 4,160 weeks on an 80year timeline. One glance"
+    },
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "at your lock screen and suddenly time feels real. It auto updates. It's optimized for your phone. And it's privacy first. No accounts, no tracking, no saved data."
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "Hindsight, a GitHub style contribution heat map right in your terminal. It scans your local directories for Git repositories, aggregates your commit"
+    },
+    {
+      "start": 664.0,
+      "end": 664.0,
+      "text": "history, and transforms it into a beautiful blue pixel perfect heat map."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "No web browser, no GitHub account needed, just your terminal and your code. See your coding streaks, track"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "your progress, and get instant visual feedback on your work over time."
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "Jooko UI Tailwind CSS component library built for developers who want to ship fast. Copy paste ready components for web apps, dashboards, and marketing"
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "pages. No heavy dependencies, no setup headache. Need off forms, dashboards, or settings pages? Done. Building landing"
+    },
+    {
+      "start": 698.0,
+      "end": 698.0,
+      "text": "pages, hero sections, feature grids, or pricing tables covered."
+    },
+    {
+      "start": 703.0,
+      "end": 703.0,
+      "text": "Traffic Lab 3D, a tool to turn simple CCTV footage into a 3D digital twin. No expensive satellite imagery, no complex"
+    },
+    {
+      "start": 711.0,
+      "end": 711.0,
+      "text": "camera calibration, just your MP4 CCTV video and the location on Google Maps."
+    },
+    {
+      "start": 717.0,
+      "end": 717.0,
+      "text": "Traffic Lab handles the rest. Map your CCTV to the satellite view with multi-stage projection. Watch a real-time digital twin with synchronized"
+    },
+    {
+      "start": 725.0,
+      "end": 725.0,
+      "text": "CCTV and satellite views, 3D bounding boxes, and floor projections."
+    },
+    {
+      "start": 730.0,
+      "end": 730.0,
+      "text": "System, your AI assistant for controlling your Mac anywhere. Just talk naturally. Play music with commands like"
+    },
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "play some jazz or skip this song. Need to send a message? Say text mom I'm running late and get a quick confirmation."
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "Set reminders. Remind me to stretch in 30 minutes or adjust system settings like set volume to 50. Even run commands"
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "or automate tasks with Apple script and raycast."
+    },
+    {
+      "start": 757.0,
+      "end": 757.0,
+      "text": "Claude reflect the self-learning system for claude code. Ever correct cla mid session? No. Use GPT5.1, not GPT5, or"
+    },
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "use the database for caching. With Claude Reflect, your corrections sync to claude.md and agents.mmd, so Claude remembers them for next time. First time"
+    },
+    {
+      "start": 775.0,
+      "end": 775.0,
+      "text": "using it, just run reflect scan history to pull in all your past learnings."
+    }
+  ]
+}
