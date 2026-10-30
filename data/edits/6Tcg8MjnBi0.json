@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "source_sha256": "202566fec97972f19415e3870c238d8b281babb8b476e2eb9c9b5733afb13b36",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-10-30T13:21:48+00:00",
+  "usage": {
+    "prompt_tokens": 5186,
+    "completion_tokens": 10037,
+    "total_tokens": 15223,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6798,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 33. 35 trending open-source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Mirage is a unified virtual file system for AI agents. Mounts S3, Google Drive, GitHub, Redis, Postgres side by side into a single Unix file system. LLMs are already fluent in bash. So your agent uses cat, grep, and wc to pipe data from a Google doc into a Slack channel. Natively parses parquet, JSON, even WAV files. Snapshot, clone, and roll back the entire workspace just like git."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "DeepSec from Vercel Labs is an AI security harness orchestrating coding agents like Claude Opus 4.7 or GPT-5.5 to investigate your entire codebase. Multi-stage workflow flags sensitive files, traces data flows, checks mitigations, then a revalidate pass aggressively cuts false positives. Fan out across a thousand plus concurrent Vercel sandboxes or run locally on your Claude Code subscription."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Coded long enough to remember the golden era of DOS. Trust is coding Rust like it's 1989. A gorgeous fully functional retro terminal UI IDE for modern Rust projects. Completely replicates the iconic blue screen environment of Turbo Pascal and Borland C++. Full mouse support to click and drag text. Split pane project browser. Dedicated bottom panel captures cargo build and cargo test output."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Hermes Desktop is a native macOS app connecting to your Hermes host via pure direct SSH. No gateways, no dams, no local mirrors. Beautiful GUI for managing sessions, editing skills and remote files with conflict checks, managing cron jobs, viewing the agents kanban board. Multi-agent profiles keep your coding, research and ops agents isolated on the same server."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Tokenspeed from Lightseek was built from scratch for agentic workloads and is beating TensorRT-LLM in direct benchmarks. A pluggable kernel layer and C++ finite state machine scheduler that guarantees KV cache safety at compile time. Native optimization for speculative decoding and multi-head latent attention on NVIDIA B200 Blackwell. 9% lower latency, 11% higher throughput. Decode latency cut almost in half."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "AvNAC is Canvas spelled backwards. A lightning-fast browser-first design editor for posters, layouts, and social graphics. Local-first architecture. Everything happens on your machine. Autosave to IndexedDB. Multi-select group alignment. Nested vector drawing areas, image cropping, custom shadows, native QR code generation. Built-in magic panel brings prompt-driven AI editing straight into your local canvas."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Salvatore Sanfilippo, the creator of Redis, just dropped a masterclass for the local AI community. DS4 is a native ultra-optimized local inference engine for DeepSeek V4 Flash on Apple Silicon using Metal. Treats your SSD as a first-class citizen for the KV cache, streaming live conversation context to disk instead of hogging unified memory. Switch chat sessions or restart the server and it instantly resumes exact context without reprocessing thousands of prompt tokens."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Gemma Chat is a gorgeous open-source Electron app running Google's new Gemma 4 fully locally on Apple Silicon via MLX. No API keys, no cloud. Code never leaves your machine. Build mode writes HTML, CSS, JS in front of you with a live preview canvas updating in real time as the model types. Multifile projects, built-in Whisper voice input, instant swapping between Gemma 4 parameter sizes, an incredibly capable terminal native autonomous AI agent. Do the thing is built by Ricardo Spagni, former lead maintainer of Monero."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Tagline: you describe the thing, it does the thing. A full-stack operator, searches the web via SearXNG, bypasses bot detection with Camoufox, runs shell commands, sends and receives emails through AgentMail, farms easy work to cheap models, autonomously upgrades to GPT-5.5 when stuck."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "RKN Block Checker is a Python CLI that inspects connections layer by layer, walks through DNS, TCP, TLS, and HTTP independently, and stops at the exact point of failure. Tells you deterministically whether it's DNS poisoning, an ISP-level TCP reset, or advanced DPI hardware dropping the connection based on TLS SNI headers. Knowing where the stack broke tells you exactly how to fix it."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Agent Rules Books distills 13 legendary software engineering books into strict, actionable markdown rules optimized for AI agents. Clean code, domain-driven design, refactoring, designing data-intensive applications. Drop them into your project and your agent applies rigorous battle-tested architecture instead of junior dev habits. Every rule set ships in three sizes: full, mini, and nano for tight token budgets."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "PS5 Linux Loader from Andy (aka theflow) literally turns your console into a fully unlocked Linux PC and Steam machine. Leverages a patched hypervisor vulnerability to boot a custom payload with raw hardware access. All eight Zen 2 cores at 3.5 GHz. RDNA2 GPU at 2.23 GHz, 4K at 60 fps, runs Steam games like GTA V with ray tracing, doesn't break your SSD. Reboot puts you back into Sony Game OS."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "OpenSwarm is Claude Code for everything except coding. An open-source multi-agent system running from your terminal. One prompt, an orchestrator delegates to eight specialized AI experts. Need an investor deck? DeepResearch pulls competitor data. Data analyst builds charts in an isolated Python kernel. Image generation creates assets. Slides exports a formatted PowerPoint."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "The most important step in AI coding is writing bulletproof specs before the AI writes a single line. Writer Computer is a gorgeous local-first desktop markdown editor for AI engineering workflows. Draft, review, and iterate on detailed project specs. Then spin up AI agents to execute those docs in parallel while you sleep. Native rendering for Mermaid diagrams and charts makes mapping complex architectures effortless."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Mac downloads or desktop are an absolute disaster zone. Binky quietly runs in your menu bar. Zero setup tax. Free, open-source, pointed at a messy inbox like downloads. Once a file finishes downloading, it auto-sorts into tidy buckets: images, PDFs, archives, documents. Unknown files land in a review folder first so nothing silently disappears. Watches multiple folders, respects Finder tags, 100% local."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Beautiful HTML Templates is a curated library of 32 gorgeous production-ready HTML slide templates designed specifically for coding agents. Ships with an agents.md operating manual. Tell your AI build me a pitch deck and the agent reads the manual, searches metadata for the perfect template matching the mood, builds a three-slide preview, and generates the final deck."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "A completely free drop-in design system for the new Unity 6 UI toolkit. Unity-UI Document Design System leverages UI Document UXML and USS to bring web-like UI development straight into your game. Design tokens, pre-built responsive components, full icon set, runtime helper, gorgeous dark theme by default, every component fully keyboard and touch ready.",
+        "GH Dashboard is a polished self-hosted local web app that acts as your GitHub command center. Pulls data from GitHub's REST and GraphQL APIs into one unified interface."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "From GitHub's REST and GraphQL APIs into one unified interface. Repo Grid with health scores, cross-repo issue and PR tracking, actions, workflows, live traffic analytics. GitHub OAuth via device authorization flow keeps tokens strictly server side. Optional OpenAI integration generates daily digest summaries."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Tell Codex, improve this project and you get unbounded edits, premature completion claims, and stale verification. Goal Buddy splits one vague goal into a structured loop. Scout maps the repo. Judge picks the safe task. Worker executes a single bounded slice with explicit allowed files and stop conditions. Receipts written. Verification runs before anything is marked complete. Evonic is an open agentic AI platform."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Instead of running fragile loose scripts, Evonic gives your AI workforce a structured highly-secure environment. Automatically spins up fully isolated Docker containers whenever your agent runs Python or Bash. Strict memory limits, isolated file system, restricted network access, a hallucinating agent can never wipe your drive."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Photo Agents reimagines AI memory like biology. A vision-grounded framework where autonomous self-evolving agents literally see and operate your computer the same way you do. Layered memory system, working global SOPs and session archives. As the agent perceives your screen and completes tasks, it autonomously writes and saves its own reusable skills."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Spending all day staring at boring terminal logs while your AI grinds through code. Claude Pets brings joy to your workflow. A cute animated desktop companion that acts as a live status indicator for Claude Code. Connect via MCP server and a little pet lives on your desktop, reacts to what your AI is doing, paces while Claude thinks, reacts when the agent finishes a task or hits an error."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "MTPLX is a native multi-token prediction runtime for Apple Silicon and MLX. Leverages the target model's own built-in MTP heads to draft multiple tokens at once. Uses exact probability ratio acceptance, the Leviathan scheme, to verify over 2.24x to 24x faster decode. 28 tokens per second jumps to 63 on a 27 billion parameter Qwen with zero accuracy loss."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "MIRI is a nearish keyboard-first window manager for macOS. MIRI uses a scrollable tiling layout where windows exist on an infinite horizontal strip instead of a static grid. MIRI brings that workflow natively to your Mac. Built-in Swift leverages macOS accessibility APIs to seamlessly tile applications, navigate workspaces, and snap columns entirely with your keyboard."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "An open-source alternative to OpenCode built to deploy directly into your own Cloudflare account. Downy lets you build a dedicated team of hyper-focused AI workers instead of one monolithic super agent: product manager, growth marketing, SEO. Each agent gets its own persistent memory, personality, workspace, and tool set, all powered by Cloudflare durable objects."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Solidity CoT Auditor is a strict chain-of-thought auditing skill for your coding agent. Instead of blindly generating contracts or giving lazy reviews, it forces your AI to slow down and perform rigorous step-by-step security analysis. Explicitly maps state changes, analyzes control flow, and actively hunts for reentrancy, flash loan manipulation, and access control flaws before outputting code."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "A brand new completely cross-platform file system notification library for Go. fsnotify normalizes behavior across macOS, Windows, and Linux. Write your file watching logic once, a native recursive method. Pointed at the root, it watches the entire subtree, including any new folders created inside. Handles horrible edge cases, dedup symlinks, full thread safety across goroutine teams."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Metal FX is a stunning animated liquid metal border component powered by real-time WebGL shaders. Wrap your buttons or cards in the Metal FX React component, and a seamless flowing liquid metal edge applies instantly. Presets like chromatic, silver, gold. Tweak animation speed, distortion, glow tint, or apply effects like molten steel, brushed metal, morphing blobs."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "A brilliant MCP server that acts as a cost-aware router for your terminal coding agents. CodexSaver operates on one genius principle. Your expensive frontier model is the tech lead. A cheaper model like DeepSeek is the junior developer, intercepts your workflow, and splits the cognition. Autonomously delegates low-risk grunt work to DeepSeek, which generates a patch. Your premium model reviews, checks security, and applies it."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Harness brings AI-driven user testing to your desktop. A free native macOS tool for iOS simulator, macOS apps, and web apps. Type a goal in plain English like sign up for a new account and pick a persona. An LLM agent takes over, reads the screen visually, clicks forms using Set-of-Mark targeting, types credentials, hits a confusing menu, flags it as a friction event, generates a replayable timeline."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Atlas is a blazing fast pure Rust and CUDA inference engine built from scratch for NVIDIA's new Blackwell architecture like the DGX Spark. Zero Python in the serving path. Container drops to 2.5 GB. Cold starts under 2 minutes. Custom CUDA kernels and native MTP speculative decoding hit over 100 tokens per second on a 35 billion parameter Qwen 3.6, nearly 3x faster than vLLM."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Cursed Browser has no rendering engine. None. Takes the raw HTML of any website, sends it directly to a vision language model, and tells the AI to hallucinate what it thinks the web page should look like. Doesn't render a functional DOM, just generates an image prediction. Every page load gives you completely unpredictable layout, fonts, and images."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Codex Island turns the physical notch on your MacBook into a glowing dynamic island style live activity meter for Claude Code and OpenAI Codex. Lives in the notch instead of cluttering your menu bar. Click it to see exactly how many tokens you've burned and how close you are to your rate limit. Trackpad swipe to see dollar spend. Zero servers, zero accounts, zero telemetry. Reads credentials from your macOS keychain."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "Chorus is a multi-model code review panel. Takes AI CLIs you already have installed: Claude Code, Codex, Gemini, OpenCode, and runs them in parallel on the same git diff. Forces them to review, argue, vote, and only ship code at consensus. Wraps your existing subscriptions, so zero extra API bills. Runs entirely local with embedded PGE. No Docker needed."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "An agent-native video creation pipeline built on the Hermes framework. Feed it a single creative seed and the agent autonomously expands it into branching storylines. Pick a path and it orchestrates the entire production, writes the script, prompts external models for storyboard rendering, synthesizes voiceover dubbing, edits it all into a final publish-ready video. That wraps up all 35 projects featured in GitHub Trending Weekly number 33. All links are in the description."
+      ]
+    }
+  ]
+}

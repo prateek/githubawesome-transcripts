@@ -1,0 +1,839 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today, we're checking out 10 of the best open-source Google Analytics alternatives. These tools are simpler, faster, and privacyfriendly. Perfect for"
+    },
+    {
+      "timestamp": "0:09",
+      "text": "indie devs, startups, and anyone who loves clean analytics dashboards without the Google tracking baggage. Let's dive right in."
+    },
+    {
+      "timestamp": "0:18",
+      "text": "All right, Umami. This is one of my personal favorites, and here's why."
+    },
+    {
+      "timestamp": "0:22",
+      "text": "Umami was created by three brothers, Mike, Brian, and Francis Cao, who were just fed up with Google Analytics. And"
+    },
+    {
+      "timestamp": "0:29",
+      "text": "honestly, I totally get it. No personal data collection, no tracking scripts that spy on users, just fast, simple,"
+    },
+    {
+      "timestamp": "0:37",
+      "text": "ethical analytics. Setting it up is super easy. You can use Yummi Cloud for instant hosting or go fully self-hosted with Docker, giving you total ownership"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "of your data. The dashboard is lightweight, modern, and beautifully minimal. You get real-time tracking, clear traffic insights, and no clutter."
+    },
+    {
+      "timestamp": "0:55",
+      "text": "For smaller projects and personal websites, Umami just works. It might not track as many metrics as Google Analytics, but for most devs, that's"
+    },
+    {
+      "timestamp": "1:03",
+      "text": "actually a good thing. If you're tired of over complicated dashboards and privacy invading scripts, Umami is a refreshing alter. Up next, let's talk"
+    },
+    {
+      "timestamp": "1:12",
+      "text": "about Ribbit Analytics. Ribbit just dropped version 2.0 a week ago, and it's looking amazing. The brand new map"
+    },
+    {
+      "timestamp": "1:20",
+      "text": "feature with a replayable timeline that lets you visualize your visitors in real time. It's genuinely fun to use. Now,"
+    },
+    {
+      "timestamp": "1:27",
+      "text": "how does Ribbit compare to Umami? Well, Ribbit is definitely more featurerich."
+    },
+    {
+      "timestamp": "1:32",
+      "text": "It uses a bit more resources built on Next.js with ClickHouse for data storage and Postgress for configuration, but"
+    },
+    {
+      "timestamp": "1:39",
+      "text": "it's still incredibly stable. No cutting edge tech here that's going to break on you. It's not just beautiful to look at, it's actually functional and intuitive."
+    },
+    {
+      "timestamp": "1:48",
+      "text": "They've redesigned the user journeys, improved filters, and added a sessions and users page that makes analyzing"
+    },
+    {
+      "timestamp": "1:55",
+      "text": "behavior super easy. Like Umami, it's cookieless, GDPR compliant, and privacy first. Setup is dead simple. One script tag or spin it up with."
+    },
+    {
+      "timestamp": "2:06",
+      "text": "If you want something closer to the full power of Google Analytics without the Google part, Mtomo is the one to watch."
+    },
+    {
+      "timestamp": "2:13",
+      "text": "Formerly known as Pewick, Mtomo is one of the most comprehensive open-source analytics platforms available. It packs"
+    },
+    {
+      "timestamp": "2:21",
+      "text": "everything from heat maps and AB testing to SEO, keyword tracking, media analytics, and over 100 integrations"
+    },
+    {
+      "timestamp": "2:28",
+      "text": "right out of the box. You can host it yourself for free or choose Mtomo Cloud, which runs on privacy focused servers in Germany. Either way, you own your data."
+    },
+    {
+      "timestamp": "2:39",
+      "text": "No sharing, no third party tracking ever. Now with great power comes a slightly heavier footprint. Its tracking"
+    },
+    {
+      "timestamp": "2:46",
+      "text": "script is about 22 kab larger than Umami or Ribbit. But that's the trade-off for such deep analytics capability."
+    },
+    {
+      "timestamp": "2:54",
+      "text": "While Mtomo aims to match Google Analytics feature for feature, Plausible takes the opposite approach. It's clean, simple, and focused only on what really"
+    },
+    {
+      "timestamp": "3:03",
+      "text": "matters. You get the essentials. Unique visitors, page views, bounce rate, and traffic sources, all in a minimal, easy"
+    },
+    {
+      "timestamp": "3:11",
+      "text": "to read dashboard. No clutter, no tracking bloat. Plausible's analytics script is incredibly lightweight, less"
+    },
+    {
+      "timestamp": "3:18",
+      "text": "than 1 kilob, which makes it one of the fastest analytics tools you can use. And it's completely cookiefree and privacy"
+    },
+    {
+      "timestamp": "3:25",
+      "text": "compliant right out of the box. Under the hood, Plausible runs on Elixir and ClickHouse, which means blazing fast analytics queries and solid scalability"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "for larger sites. It can be self-hosted or used via their managed cloud service hosted in Germany."
+    },
+    {
+      "timestamp": "3:41",
+      "text": "If you like your tools simple, open and old school, Goat Counter might just be your vibe. It's a free analytics platform that gives you the basics: page views, visitor counts, and referers."
+    },
+    {
+      "timestamp": "3:54",
+      "text": "Nothing more, nothing less. Goat Counter can be self-hosted or used as a hosted service, so you don't have to deal with"
+    },
+    {
+      "timestamp": "4:01",
+      "text": "setup if you don't want to. It's super lightweight, too. The tracking script adds less than 1 kilobyte to your site, making it one of the smallest footprints"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "in this list. Now, it's not perfect. It doesn't have live visitor tracking, detailed comparisons, or fancy charts"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "like Ribbit or Mtomo. And as of now, there's no official Docker image, which makes setup and migration a bit less convenient."
+    },
+    {
+      "timestamp": "4:26",
+      "text": "Let's talk about Swatrix, a relatively new player that's been getting quite a bit of buzz on Reddit. Swrix is a"
+    },
+    {
+      "timestamp": "4:33",
+      "text": "privacy focused analytics platform that's easy to self-host and packed with features similar to Umami, but with a"
+    },
+    {
+      "timestamp": "4:40",
+      "text": "more enterpriseoriented twist. You get the usual analytics dashboard, but also extras like error and uptime monitoring, funnel analysis, and custom alerts."
+    },
+    {
+      "timestamp": "4:50",
+      "text": "Their UI absolutely clean and modern."
+    },
+    {
+      "timestamp": "4:53",
+      "text": "One of the nicest I've seen in this space. Under the hood, Sweatrix uses ClickHouse instead of Postgre as SQL, which means it's faster and more scalable, but also heavier on resources."
+    },
+    {
+      "timestamp": "5:04",
+      "text": "The project is under active development with an updated Docker Compose setup and a public road map, so you can literally see what's coming next."
+    },
+    {
+      "timestamp": "5:14",
+      "text": "Open Panel is positioning itself as the perfect middle ground. It combines the power of Mix Panel with the simplicity of Plausible. Open Panel's live"
+    },
+    {
+      "timestamp": "5:22",
+      "text": "dashboard is super dynamic, showing visitors, sessions, bounce rate, user locations, referers, and even which"
+    },
+    {
+      "timestamp": "5:30",
+      "text": "pages are trending in real time. But what really sets it apart is the product analytics layer with insights like first"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "and last scene dates, session duration, browser and OS, and detailed interaction history. You can even use the inspect"
+    },
+    {
+      "timestamp": "5:44",
+      "text": "profile feature to drill down into individual user behavior, seeing how often they visit, how long they stay, and what they interact with most. For"
+    },
+    {
+      "timestamp": "5:53",
+      "text": "growth and optimization, Open Panel includes funnel analysis, user retention tracking, and even AB testing, all"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "builtin. You can also set up smart alerts for specific events or conversion drops."
+    },
+    {
+      "timestamp": "6:06",
+      "text": "Let's move on to Litix, a privacy first all-in-one analytics platform built and hosted in the EU. It's fully GDPR"
+    },
+    {
+      "timestamp": "6:14",
+      "text": "compliant and designed to blend website analytics, product analytics, and ethical marketing into one clean dashboard. With Litlex, you can track"
+    },
+    {
+      "timestamp": "6:22",
+      "text": "visitor behavior, run funnel analyses, manage user permissions, and even generate custom branded reports, all without leaving the app. The UI feels"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "modern and minimal yet powerful, making it great for marketers, developers, and product teams alike. If you're looking"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "for a privacy respecting analytics tool that goes beyond page views, Litlex is a solid container."
+    },
+    {
+      "timestamp": "6:45",
+      "text": "AI is a self-hosted analytics solution built on NodeJS. I really like that AI is completely free and open-source, and"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "that it gives you real-time stats in a smooth UI. The dashboard is clean and minimal, offering a straightforward view"
+    },
+    {
+      "timestamp": "7:01",
+      "text": "of your site traffic with real-time visitor monitoring baked in. But it does come with a few caveats. There's no data"
+    },
+    {
+      "timestamp": "7:08",
+      "text": "comparison over time. And since it's self-hosted only, you'll need to handle all the setup and maintenance yourself."
+    },
+    {
+      "timestamp": "7:15",
+      "text": "From a technical standpoint, AI is lightweight, adding just a few HTTP requests totaling less than half a"
+    },
+    {
+      "timestamp": "7:21",
+      "text": "kilobyte. In short, AI is great for developers who want a minimalist privacy first analytics tool they can fully control."
+    },
+    {
+      "timestamp": "7:31",
+      "text": "Next up, Databuddy. What makes Databuddy special is that it's featurerich without sacrificing privacy. You get a real-time"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "analytics dashboard, user behavior tracking, goal and conversion tracking, custom events, and funnel analysis. And"
+    },
+    {
+      "timestamp": "7:45",
+      "text": "on the road map, cohort analysis, AB testing, advanced visualizations, and multi-tenant support. This thing is"
+    },
+    {
+      "timestamp": "7:53",
+      "text": "packed with features. The tech stack gives you flexibility too. It supports Postgress SQL and Reddus out of the box with optional click house via Docker if"
+    },
+    {
+      "timestamp": "8:02",
+      "text": "you need that extra performance for high volume analytics. You can self-host it completely. And because it's open source"
+    },
+    {
+      "timestamp": "8:08",
+      "text": "under AGPL 3.0, you can inspect, modify, and extend it however you want. Now, Databuddy is relatively new with around"
+    },
+    {
+      "timestamp": "8:17",
+      "text": "630 GitHub stars as of 10 2025."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today, we're checking out 10 of the best open-source Google Analytics alternatives. These tools are simpler, faster, and privacyfriendly. Perfect for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 9000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "indie devs, startups, and anyone who loves clean analytics dashboards without the Google tracking baggage. Let's dive right in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "All right, Umami. This is one of my personal favorites, and here's why."
+        }
+      ]
+    },
+    {
+      "tStartMs": 22000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Umami was created by three brothers, Mike, Brian, and Francis Cao, who were just fed up with Google Analytics. And"
+        }
+      ]
+    },
+    {
+      "tStartMs": 29000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "honestly, I totally get it. No personal data collection, no tracking scripts that spy on users, just fast, simple,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ethical analytics. Setting it up is super easy. You can use Yummi Cloud for instant hosting or go fully self-hosted with Docker, giving you total ownership"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of your data. The dashboard is lightweight, modern, and beautifully minimal. You get real-time tracking, clear traffic insights, and no clutter."
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "For smaller projects and personal websites, Umami just works. It might not track as many metrics as Google Analytics, but for most devs, that's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 63000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually a good thing. If you're tired of over complicated dashboards and privacy invading scripts, Umami is a refreshing alter. Up next, let's talk"
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about Ribbit Analytics. Ribbit just dropped version 2.0 a week ago, and it's looking amazing. The brand new map"
+        }
+      ]
+    },
+    {
+      "tStartMs": 80000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "feature with a replayable timeline that lets you visualize your visitors in real time. It's genuinely fun to use. Now,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 87000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "how does Ribbit compare to Umami? Well, Ribbit is definitely more featurerich."
+        }
+      ]
+    },
+    {
+      "tStartMs": 92000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It uses a bit more resources built on Next.js with ClickHouse for data storage and Postgress for configuration, but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 99000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it's still incredibly stable. No cutting edge tech here that's going to break on you. It's not just beautiful to look at, it's actually functional and intuitive."
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "They've redesigned the user journeys, improved filters, and added a sessions and users page that makes analyzing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 115000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "behavior super easy. Like Umami, it's cookieless, GDPR compliant, and privacy first. Setup is dead simple. One script tag or spin it up with."
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you want something closer to the full power of Google Analytics without the Google part, Mtomo is the one to watch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 133000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Formerly known as Pewick, Mtomo is one of the most comprehensive open-source analytics platforms available. It packs"
+        }
+      ]
+    },
+    {
+      "tStartMs": 141000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "everything from heat maps and AB testing to SEO, keyword tracking, media analytics, and over 100 integrations"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "right out of the box. You can host it yourself for free or choose Mtomo Cloud, which runs on privacy focused servers in Germany. Either way, you own your data."
+        }
+      ]
+    },
+    {
+      "tStartMs": 159000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No sharing, no third party tracking ever. Now with great power comes a slightly heavier footprint. Its tracking"
+        }
+      ]
+    },
+    {
+      "tStartMs": 166000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "script is about 22 kab larger than Umami or Ribbit. But that's the trade-off for such deep analytics capability."
+        }
+      ]
+    },
+    {
+      "tStartMs": 174000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "While Mtomo aims to match Google Analytics feature for feature, Plausible takes the opposite approach. It's clean, simple, and focused only on what really"
+        }
+      ]
+    },
+    {
+      "tStartMs": 183000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "matters. You get the essentials. Unique visitors, page views, bounce rate, and traffic sources, all in a minimal, easy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to read dashboard. No clutter, no tracking bloat. Plausible's analytics script is incredibly lightweight, less"
+        }
+      ]
+    },
+    {
+      "tStartMs": 198000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "than 1 kilob, which makes it one of the fastest analytics tools you can use. And it's completely cookiefree and privacy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compliant right out of the box. Under the hood, Plausible runs on Elixir and ClickHouse, which means blazing fast analytics queries and solid scalability"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for larger sites. It can be self-hosted or used via their managed cloud service hosted in Germany."
+        }
+      ]
+    },
+    {
+      "tStartMs": 221000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you like your tools simple, open and old school, Goat Counter might just be your vibe. It's a free analytics platform that gives you the basics: page views, visitor counts, and referers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 234000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nothing more, nothing less. Goat Counter can be self-hosted or used as a hosted service, so you don't have to deal with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "setup if you don't want to. It's super lightweight, too. The tracking script adds less than 1 kilobyte to your site, making it one of the smallest footprints"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in this list. Now, it's not perfect. It doesn't have live visitor tracking, detailed comparisons, or fancy charts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like Ribbit or Mtomo. And as of now, there's no official Docker image, which makes setup and migration a bit less convenient."
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's talk about Swatrix, a relatively new player that's been getting quite a bit of buzz on Reddit. Swrix is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 273000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "privacy focused analytics platform that's easy to self-host and packed with features similar to Umami, but with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 280000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "more enterpriseoriented twist. You get the usual analytics dashboard, but also extras like error and uptime monitoring, funnel analysis, and custom alerts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 290000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Their UI absolutely clean and modern."
+        }
+      ]
+    },
+    {
+      "tStartMs": 293000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "One of the nicest I've seen in this space. Under the hood, Sweatrix uses ClickHouse instead of Postgre as SQL, which means it's faster and more scalable, but also heavier on resources."
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The project is under active development with an updated Docker Compose setup and a public road map, so you can literally see what's coming next."
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Panel is positioning itself as the perfect middle ground. It combines the power of Mix Panel with the simplicity of Plausible. Open Panel's live"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dashboard is super dynamic, showing visitors, sessions, bounce rate, user locations, referers, and even which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pages are trending in real time. But what really sets it apart is the product analytics layer with insights like first"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and last scene dates, session duration, browser and OS, and detailed interaction history. You can even use the inspect"
+        }
+      ]
+    },
+    {
+      "tStartMs": 344000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "profile feature to drill down into individual user behavior, seeing how often they visit, how long they stay, and what they interact with most. For"
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "growth and optimization, Open Panel includes funnel analysis, user retention tracking, and even AB testing, all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builtin. You can also set up smart alerts for specific events or conversion drops."
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's move on to Litix, a privacy first all-in-one analytics platform built and hosted in the EU. It's fully GDPR"
+        }
+      ]
+    },
+    {
+      "tStartMs": 374000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compliant and designed to blend website analytics, product analytics, and ethical marketing into one clean dashboard. With Litlex, you can track"
+        }
+      ]
+    },
+    {
+      "tStartMs": 382000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "visitor behavior, run funnel analyses, manage user permissions, and even generate custom branded reports, all without leaving the app. The UI feels"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modern and minimal yet powerful, making it great for marketers, developers, and product teams alike. If you're looking"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for a privacy respecting analytics tool that goes beyond page views, Litlex is a solid container."
+        }
+      ]
+    },
+    {
+      "tStartMs": 405000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI is a self-hosted analytics solution built on NodeJS. I really like that AI is completely free and open-source, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that it gives you real-time stats in a smooth UI. The dashboard is clean and minimal, offering a straightforward view"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of your site traffic with real-time visitor monitoring baked in. But it does come with a few caveats. There's no data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 428000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "comparison over time. And since it's self-hosted only, you'll need to handle all the setup and maintenance yourself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 435000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "From a technical standpoint, AI is lightweight, adding just a few HTTP requests totaling less than half a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 441000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kilobyte. In short, AI is great for developers who want a minimalist privacy first analytics tool they can fully control."
+        }
+      ]
+    },
+    {
+      "tStartMs": 451000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, Databuddy. What makes Databuddy special is that it's featurerich without sacrificing privacy. You get a real-time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "analytics dashboard, user behavior tracking, goal and conversion tracking, custom events, and funnel analysis. And"
+        }
+      ]
+    },
+    {
+      "tStartMs": 465000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on the road map, cohort analysis, AB testing, advanced visualizations, and multi-tenant support. This thing is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "packed with features. The tech stack gives you flexibility too. It supports Postgress SQL and Reddus out of the box with optional click house via Docker if"
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you need that extra performance for high volume analytics. You can self-host it completely. And because it's open source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 488000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "under AGPL 3.0, you can inspect, modify, and extend it however you want. Now, Databuddy is relatively new with around"
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "630 GitHub stars as of 10 2025."
+        }
+      ]
+    }
+  ]
+}

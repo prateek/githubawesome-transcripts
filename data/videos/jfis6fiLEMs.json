@@ -1,0 +1,816 @@
+{
+  "schema_version": 1,
+  "id": "jfis6fiLEMs",
+  "title": "GitHub Trending Weekly #8: NOFX, oxdraw, The Agency, Edit Mind, Sleepless Agent, How-CLI, sora2-api",
+  "url": "https://www.youtube.com/watch?v=jfis6fiLEMs",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2025-11-01",
+  "duration": 795,
+  "word_count": 1923,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-30T13:13:08+00:00",
+    "metadata_sha256": "e883c97dc7da46f2e45a551b2aaec1157ada6e3db833fcbf735c934f2743a1e8",
+    "captions_sha256": "3a59e296f8f7801bb7440cfca858fd7654a441f06c1d329708a6b170f73943f4",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 25,
+      "paragraphs": [
+        "Welcome back to GitHub Trending Weekly, the series where we go through the hottest open-source repos so you don't have to scroll through GitHub for hours. This week, we've got 22 trending projects from AI tools to dev utilities and system tools. So, grab a coffee, smash the star on the projects you like, and let's dive straight into GitHub trending weekly number eight."
+      ]
+    },
+    {
+      "start": 25,
+      "title": "NOFX",
+      "repositories": [
+        "https://github.com/tinkle-community/nofx"
+      ],
+      "id": "s002",
+      "end": 59,
+      "paragraphs": [
+        "Algorithmic trading is cool, but what if your bots competed to trade better? Nox is an AI powered crypto futures trading system where multiple AI models like Deepseek, Quen, and Claude battle it out live to see who trades best. It supports Binance, Hyperlquid, and Aster decks with full long short leverage trading, stop-loss TP automation, and automatic precision handling. and the killer feature, self-learning AI agents that evolve based on real trading results, plus a professional dashboard to monitor everything in real time. Next up, meet Oxdraw, the bridge between codebased and visual diagramming. If you love"
+      ]
+    },
+    {
+      "start": 59,
+      "title": "oxdraw",
+      "repositories": [
+        "https://github.com/RohanAdwankar/oxdraw"
+      ],
+      "id": "s003",
+      "end": 92,
+      "paragraphs": [
+        "MermaidJS, but hate switching to Lucid Chart every time you want pixel perfect control, this one's for you. Oxdraw lets you write diagrams in Mermaid syntax, fine-tune them in a sleek web editor, and then saves every tweak back into your source code. Fully versionable, reproducible, and developer friendly. It's powered by a Rust CLI for compiling files into images and a React interface for editing them visually."
+      ]
+    },
+    {
+      "start": 92,
+      "title": "The Agency",
+      "repositories": [
+        "https://github.com/msitarzewski/agency-agents"
+      ],
+      "id": "s004",
+      "end": 126,
+      "paragraphs": [
+        "Imagine hiring 51 specialists overnight. No interviews, no payroll, no burnout. That's the agency, a full stack AI agency in one repo. From front-end wizards and Reddit community pros to creative whimsy injectors and brutal reality checkers, every agent has a defined role, distinct personality, and measurable output. These aren't prompt templates. They're productionready AI pros with workflows, deliverables, and success metrics baked in. Basically, it's your dream team of AI specialists. Always online, always shipping."
+      ]
+    },
+    {
+      "start": 126,
+      "title": "Edit Mind",
+      "repositories": [
+        "https://github.com/IliasHad/edit-mind"
+      ],
+      "id": "s005",
+      "end": 161,
+      "paragraphs": [
+        "Meet Edit Mind, your AI powered editor's second brain. This open- source desktop app indexes your entire video collection locally, extracting everything, transcriptions, faces, colors, objects, even on-screen text, and turns it into a fully searchable semantic database. Type something like, \"Show me all scenes where Ilas looks happy,\" and Edit Mind finds them instantly, even generating a rough cut for you. It's private, crossplatform, and built with Electron, React, and Chroma DB. All AI runs locally. Your footage never leaves your device."
+      ]
+    },
+    {
+      "start": 161,
+      "title": "Sleepless Agent",
+      "repositories": [
+        "https://github.com/context-machine-lab/sleepless-agent"
+      ],
+      "id": "s006",
+      "end": 196,
+      "paragraphs": [
+        "Ever wish your AI kept coding while you slept? Meet Sleepless Agent, your 24/7 agent OS that never clocks out. It hooks directly into Claude Code Pro and Slack, letting you drop in tasks or half-baked ideas. And while you're dreaming, it's out there creating commits, managing workspaces, and filing pull requests. Each task gets its own isolated environment powered by the Claude Code CLI and Python agent SDK. It even optimizes when to run jobs, day, night, or both. Basically, it's like hiring a dev assistant who literally never sleeps."
+      ]
+    },
+    {
+      "start": 196,
+      "title": "Effect Query",
+      "repositories": [
+        "https://github.com/voidhashcom/effect-query"
+      ],
+      "id": "s007",
+      "end": 227,
+      "paragraphs": [
+        "Here's one for the TypeScript users. Effect query. It brings Tanstack query and effects together, letting you run your effects directly inside Tanstack query with full type safety. That means seamless integration with Effect RPC and Effect HT API, giving you end-to-end type safety and reactive data handling. No boilerplate, no guesswork. If you're deep into the functional TypeScript ecosystem, Effect Query is your new best friend for managing async state the smart way."
+      ]
+    },
+    {
+      "start": 227,
+      "title": "n8n-MCP",
+      "repositories": [
+        "https://github.com/czlonkowski/n8n-mcp"
+      ],
+      "id": "s008",
+      "end": 263,
+      "paragraphs": [
+        "Next up, N8N MCP. The bridge between AI assistance and the N8N automation universe. It's an MCP server that gives AI tools like Claude deep structured access to over 540 NAND nodes complete with documentation properties operations and real world examples. Think of it as an AI ready index of the entire NAND ecosystem, 2,700 workflow templates, 1,600 example configs, and full coverage for AI nodes. So if you've ever wanted your AI assistant to understand NADN and automate intelligently, this is your gateway."
+      ]
+    },
+    {
+      "start": 263,
+      "title": "Claude Code Prompt Improver",
+      "repositories": [
+        "https://github.com/severity1/claude-code-prompt-improver"
+      ],
+      "id": "s009",
+      "end": 298,
+      "paragraphs": [
+        "Ever wish your AI understood you perfectly the first time? Meet Claude Code Prompt Improver. This clever hook sits between your prompt and Claude Code, intercepting vague instructions and turning them into clear, actionable tasks. It uses conversation history to detect ambiguity, generates a research plan, asks one to six clarifying questions if needed, and then runs your original request, all in one smooth flow. The result, better outputs on the first try. No frustrating back and forth, just precise, highquality code or responses every time."
+      ]
+    },
+    {
+      "start": 298,
+      "title": "Open ChatGPT Atlas",
+      "repositories": [
+        "https://github.com/ComposioHQ/open-chatgpt-atlas"
+      ],
+      "id": "s010",
+      "end": 334,
+      "paragraphs": [
+        "Open Chat GPT Atlas, free alternative to Chat GPT atlas that turns your browser into an AI powered workspace built with TypeScript, Gemini 2.5, and Composio. It combines two modes. Tool router mode. Connect to Gmail, Slack, GitHub, and over 500 integrations all through natural language. Browser tools mode. Automate your browser visually with clicks, typing, scrolling, and screenshots powered by Gemini's computer use API. Everything runs locally. No backend needed with live click indicators and safety confirmations for sensitive actions."
+      ]
+    },
+    {
+      "start": 334,
+      "title": "How-CLI",
+      "repositories": [
+        "https://github.com/Ademking/how"
+      ],
+      "id": "s011",
+      "end": 366,
+      "paragraphs": [
+        "House CLI turns your terminal into a real-time command machine powered by Gemini. And it knows exactly where you are, what files you have, and what tools you installed. Need to bulk rename files? set up a Python V, push a git tag, you just ask and it generates precise executable commands. No guessing, no googling, no Stack Overflow panic scrolling at 2 a.m. It reads your OS, shell, working directory, git state, and even your available CLIs. Then gives you perfect commands tailored to your environment."
+      ]
+    },
+    {
+      "start": 366,
+      "title": "MCP Agent Mail",
+      "repositories": [
+        "https://github.com/Dicklesworthstone/mcp_agent_mail"
+      ],
+      "id": "s012",
+      "end": 404,
+      "paragraphs": [
+        "Imagine your fleet of coding agents actually talking to each other instead of stomping on the same files. MCP agent mail is exactly that, an email-like coordination layer built as an HTTP only fast MCP server. Agents get memorable identities, an inbox, outbox, searchable history, and even voluntary file leases so they can signal intent without colliding. Everything is auditable. Messages are backed by Git and indexed with Seekite. It's perfect for multi-agent code bases. register agents, thread conversations, attach images, claim files, and keep humans out of the loop until they're needed."
+      ]
+    },
+    {
+      "start": 404,
+      "title": "OpenSkills",
+      "repositories": [
+        "https://github.com/numman-ali/openskills"
+      ],
+      "id": "s013",
+      "end": 441,
+      "paragraphs": [
+        "Open Skills brings the Clawed Skills system to all AI dev tools: Cursor, Windsurf, Ader, even plain CLI agents with the exact same format, same folder structure, and even the Anthropic Skills Marketplace. Install skills globally, version control them in your repo, and share them across multiple agents. load only what you need with progressive disclosure just like clawed code. The only difference instead of a tool call you run open skills read. So now your agents don't just write code they learn skills share them and upgrade your workflow across editors."
+      ]
+    },
+    {
+      "start": 441,
+      "title": "NetVisor",
+      "repositories": [
+        "https://github.com/mayanayza/netvisor"
+      ],
+      "id": "s014",
+      "end": 473,
+      "paragraphs": [
+        "Net visor is your always up-to-date network topology map. No whiteboards, no visual nightmares, no guesswork. It scans your infrastructure, discovers every host, container, subnet, and service, and turns it into a living interactive diagram. It runs with a server plus Damon architecture, so you can scan from multiple points across VLANs and segments, even inside Docker environments. It detects containers, internal networks, interfaces, and flags infraervices like DNS and gateways automatically."
+      ]
+    },
+    {
+      "start": 473,
+      "title": "sora2-api",
+      "repositories": [
+        "https://github.com/jun6ry/sora2-api"
+      ],
+      "id": "s015",
+      "end": 504,
+      "paragraphs": [
+        "Need a fast way to turn prompts into AI videos? Meet the Sora 2 API video generator. A tiny web UI that talks to the Sora 2 API so you don't have to pick your parameters, hit generate, and the tool sends the request, waits for processing, and surfaces a preview for download. All MIT licensed and simple to run locally. Requirements are pretty light. A Sora 2 API key and at least 4 GB RAM. Perfect for experimenting with AI video pipelines without the heavy lift."
+      ]
+    },
+    {
+      "start": 504,
+      "title": "DeepSeek-OCR Studio",
+      "repositories": [
+        "https://github.com/fufankeji/DeepSeek-OCR-Web"
+      ],
+      "id": "s016",
+      "end": 536,
+      "paragraphs": [
+        "DeepSeek OCR Studio, your document parsing powerhouse. Built with React on the front and fast API on the back. It takes PDFs and images and turns them into structured, searchable data fast. Powered by the DeepSec OCR model, it supports multi- language text recognition, layout analysis, table and chart extraction, and even semantic recognition for technical drawings. You can go from a messy PDF to clean markdown or extract data straight into visual charts allin-one open-source app."
+      ]
+    },
+    {
+      "start": 536,
+      "title": "httptap",
+      "repositories": [
+        "https://github.com/ozeranskii/httptap"
+      ],
+      "id": "s017",
+      "end": 572,
+      "paragraphs": [
+        "Meet HTTP TAP. It's a CLI tool that breaks down every HTTP request into every meaningful phase. DNS lookup, TCP connect, TLS handshake, server weight, and body transfer and renders it as a timeline, compact summary, or machine readable metrics. IPv4, IPv6 aware, TLS certificate insights, JSON export for automation, and extensible interfaces for custom behavior. Whether you're troubleshooting latency, analyzing regressions, or benchmarking performance baselines, HTTap gives you full visibility into what happens under the hood of every HTTP request."
+      ]
+    },
+    {
+      "start": 572,
+      "title": "Kosty",
+      "repositories": [
+        "https://github.com/kosty-cloud/kosty"
+      ],
+      "id": "s018",
+      "end": 606,
+      "paragraphs": [
+        "Costi is a command line tool that scans your AWS environment and instantly finds wasted spend, unused resources, oversized instances, and security misconfigurations. All across 16 core AWS services with just one command. Think abandoned load balancers, orphaned EBS volumes, outdated access keys, public databases, the silent money burners every cloud team forgets. And it's not just CLI. Costi includes a clean, modern web dashboard with visual reports, charts, and real-time insights so you can actually take action."
+      ]
+    },
+    {
+      "start": 606,
+      "title": "ReCode",
+      "repositories": [
+        "https://github.com/FoundationAgents/ReCode"
+      ],
+      "id": "s019",
+      "end": 644,
+      "paragraphs": [
+        "AI agents can think or they can act, but doing both seamlessly. That's the hard part. Recode introduces recursive code generation for LLM agents, unifying plan and action into a single representation. Instead of writing a full plan first or reacting step by step, Recode treats highle strategies like placeholder functions that expand into executable code on the fly. It builds a tree of partial programs, runs each step immediately, and keeps refining based on real-time feedback, giving agents universal control over granularity from big picture reasoning down to precise actions."
+      ]
+    },
+    {
+      "start": 644,
+      "title": "Claude Config Editor",
+      "repositories": [
+        "https://github.com/gagarinyury/claude-config-editor"
+      ],
+      "id": "s020",
+      "end": 681,
+      "paragraphs": [
+        "Ever wonder why clawed code suddenly feels sluggish? It's not your machine. It's your config file quietly ballooning into a JSON monster. Claude stores every chat from every project in one file. And after weeks of coding, that thing can hit 10, 15, even 20 megabytes. Slow startup, laggy UX, zero built-in cleanup. Enter Claude Config Editor, the guey tool Claude should have shipped. It scans your config, shows which projects are hogging space, lets you bulk delete old sessions, export important chats, manage MCP servers, and always auto backs up so nothing is lost."
+      ]
+    },
+    {
+      "start": 681,
+      "title": "Emu3.5",
+      "repositories": [
+        "https://github.com/baaivision/Emu3.5"
+      ],
+      "id": "s021",
+      "end": 716,
+      "paragraphs": [
+        "Emu 3.5 is a native multimodal model built to learn the world like we do, jointly modeling vision and language as one continuous stream. It's trained end to end on over 10 trillion interled video and text tokens, predicting the next state across pixels and words together. No adapters, no separate heads, just pure unified world modeling with reinforcement learning for reasoning and discrete diffusion adaptation for parallel decoding. It delivers up to 20 times faster inference while keeping quality high."
+      ]
+    },
+    {
+      "start": 716,
+      "title": "DeepAnalyze",
+      "repositories": [
+        "https://github.com/ruc-datalab/DeepAnalyze"
+      ],
+      "id": "s022",
+      "end": 751,
+      "paragraphs": [
+        "What if your data pipeline ran itself? From raw files to polished insights, deep analyze is an agentic LLM built for fully autonomous data science, able to clean data, explore it, build models, visualize results, and even produce full analyst level reports without human guidance. It works across structured databases, spreadsheets, JSON, and XML, all the way to unstructured text, pulling insights, running experiments, and generating documentation as it goes. And the best part, it's completely open source. Model weights, code, training data, demo, everything."
+      ]
+    },
+    {
+      "start": 751,
+      "title": "Video-As-Prompt",
+      "repositories": [
+        "https://github.com/bytedance/Video-As-Prompt"
+      ],
+      "id": "s023",
+      "end": 795,
+      "paragraphs": [
+        "What if controlling video generation was as simple as showing an example? Video as prompt introduces a new paradigm. Using a reference video itself as the prompt to guide motion, style, and semantics, then animating a still image to match it. Instead of task specific conditioning tricks, it plugs a mixture of transformers module into a frozen video diffusion transformer using incontext examples to drive motion and style transfer without retraining or forgetting. It handles cross identity animation, style and motion transfer and prompt guided fine-tuning in one system, turning reference videos into a universal semantic controller for generation."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Trending Weekly, the series where we go through the hottest open-source repos so you don't have to scroll through GitHub for hours."
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "This week, we've got 22 trending projects from AI tools to dev utilities and system tools. So, grab a coffee,"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "smash the star on the projects you like, and let's dive straight into GitHub trending weekly number eight."
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "Algorithmic trading is cool, but what if your bots competed to trade better? Nox is an AI powered crypto futures trading"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "text": "system where multiple AI models like Deepseek, Quen, and Claude battle it out live to see who trades best. It supports"
+    },
+    {
+      "start": 40.0,
+      "end": 40.0,
+      "text": "Binance, Hyperlquid, and Aster decks with full long short leverage trading, stop-loss TP automation, and automatic"
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "text": "precision handling. and the killer feature, self-learning AI agents that evolve based on real trading results, plus a professional dashboard to monitor"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "text": "everything in real time. Next up, meet Oxdraw, the bridge between codebased and visual diagramming. If you love"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "text": "MermaidJS, but hate switching to Lucid Chart every time you want pixel perfect control, this one's for you. Oxdraw lets"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "you write diagrams in Mermaid syntax, fine-tune them in a sleek web editor, and then saves every tweak back into your source code. Fully versionable, reproducible, and developer friendly."
+    },
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "text": "It's powered by a Rust CLI for compiling files into images and a React interface for editing them visually."
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "text": "Imagine hiring 51 specialists overnight. No interviews, no payroll, no burnout."
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "That's the agency, a full stack AI agency in one repo. From front-end wizards and Reddit community pros to creative whimsy injectors and brutal"
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "text": "reality checkers, every agent has a defined role, distinct personality, and measurable output. These aren't prompt"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "templates. They're productionready AI pros with workflows, deliverables, and success metrics baked in. Basically, it's your dream team of AI specialists."
+    },
+    {
+      "start": 123.0,
+      "end": 123.0,
+      "text": "Always online, always shipping."
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "Meet Edit Mind, your AI powered editor's second brain. This open- source desktop app indexes your entire video collection"
+    },
+    {
+      "start": 134.0,
+      "end": 134.0,
+      "text": "locally, extracting everything, transcriptions, faces, colors, objects, even on-screen text, and turns it into a"
+    },
+    {
+      "start": 142.0,
+      "end": 142.0,
+      "text": "fully searchable semantic database. Type something like, \"Show me all scenes where Ilas looks happy,\" and Edit Mind finds them instantly, even generating a"
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "rough cut for you. It's private, crossplatform, and built with Electron, React, and Chroma DB. All AI runs"
+    },
+    {
+      "start": 157.0,
+      "end": 157.0,
+      "text": "locally. Your footage never leaves your device."
+    },
+    {
+      "start": 161.0,
+      "end": 161.0,
+      "text": "Ever wish your AI kept coding while you slept? Meet Sleepless Agent, your 24/7 agent OS that never clocks out. It hooks"
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "directly into Claude Code Pro and Slack, letting you drop in tasks or half-baked ideas. And while you're dreaming, it's out there creating commits, managing workspaces, and filing pull requests."
+    },
+    {
+      "start": 180.0,
+      "end": 180.0,
+      "text": "Each task gets its own isolated environment powered by the Claude Code CLI and Python agent SDK. It even"
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "optimizes when to run jobs, day, night, or both. Basically, it's like hiring a dev assistant who literally never sleeps."
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "Here's one for the TypeScript users."
+    },
+    {
+      "start": 198.0,
+      "end": 198.0,
+      "text": "Effect query. It brings Tanstack query and effects together, letting you run your effects directly inside Tanstack"
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "query with full type safety. That means seamless integration with Effect RPC and Effect HT API, giving you end-to-end type safety and reactive data handling."
+    },
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "No boilerplate, no guesswork. If you're deep into the functional TypeScript ecosystem, Effect Query is your new best friend for managing async state the smart way."
+    },
+    {
+      "start": 227.0,
+      "end": 227.0,
+      "text": "Next up, N8N MCP. The bridge between AI assistance and the N8N automation universe. It's an MCP server that gives"
+    },
+    {
+      "start": 235.0,
+      "end": 235.0,
+      "text": "AI tools like Claude deep structured access to over 540 NAND nodes complete with documentation properties operations"
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "and real world examples. Think of it as an AI ready index of the entire NAND ecosystem, 2,700 workflow templates,"
+    },
+    {
+      "start": 251.0,
+      "end": 251.0,
+      "text": "1,600 example configs, and full coverage for AI nodes. So if you've ever wanted your AI assistant to understand NADN and"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "automate intelligently, this is your gateway."
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "Ever wish your AI understood you perfectly the first time? Meet Claude Code Prompt Improver. This clever hook sits between your prompt and Claude"
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Code, intercepting vague instructions and turning them into clear, actionable tasks. It uses conversation history to"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "detect ambiguity, generates a research plan, asks one to six clarifying questions if needed, and then runs your"
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "original request, all in one smooth flow. The result, better outputs on the first try. No frustrating back and"
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "forth, just precise, highquality code or responses every time."
+    },
+    {
+      "start": 298.0,
+      "end": 298.0,
+      "text": "Open Chat GPT Atlas, free alternative to Chat GPT atlas that turns your browser into an AI powered workspace built with"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "TypeScript, Gemini 2.5, and Composio. It combines two modes. Tool router mode."
+    },
+    {
+      "start": 311.0,
+      "end": 311.0,
+      "text": "Connect to Gmail, Slack, GitHub, and over 500 integrations all through natural language. Browser tools mode."
+    },
+    {
+      "start": 318.0,
+      "end": 318.0,
+      "text": "Automate your browser visually with clicks, typing, scrolling, and screenshots powered by Gemini's computer use API. Everything runs locally. No"
+    },
+    {
+      "start": 327.0,
+      "end": 327.0,
+      "text": "backend needed with live click indicators and safety confirmations for sensitive actions."
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "House CLI turns your terminal into a real-time command machine powered by Gemini. And it knows exactly where you are, what files you have, and what tools"
+    },
+    {
+      "start": 342.0,
+      "end": 342.0,
+      "text": "you installed. Need to bulk rename files? set up a Python V, push a git tag, you just ask and it generates"
+    },
+    {
+      "start": 350.0,
+      "end": 350.0,
+      "text": "precise executable commands. No guessing, no googling, no Stack Overflow panic scrolling at 2 a.m. It reads your"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "OS, shell, working directory, git state, and even your available CLIs. Then gives you perfect commands tailored to your environment."
+    },
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "Imagine your fleet of coding agents actually talking to each other instead of stomping on the same files. MCP agent mail is exactly that, an email-like"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "coordination layer built as an HTTP only fast MCP server. Agents get memorable identities, an inbox, outbox, searchable"
+    },
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "history, and even voluntary file leases so they can signal intent without colliding. Everything is auditable."
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "Messages are backed by Git and indexed with Seekite. It's perfect for multi-agent code bases. register agents,"
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "thread conversations, attach images, claim files, and keep humans out of the loop until they're needed."
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "Open Skills brings the Clawed Skills system to all AI dev tools: Cursor, Windsurf, Ader, even plain CLI agents"
+    },
+    {
+      "start": 413.0,
+      "end": 413.0,
+      "text": "with the exact same format, same folder structure, and even the Anthropic Skills Marketplace. Install skills globally,"
+    },
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "version control them in your repo, and share them across multiple agents. load only what you need with progressive disclosure just like clawed code. The"
+    },
+    {
+      "start": 428.0,
+      "end": 428.0,
+      "text": "only difference instead of a tool call you run open skills read. So now your agents don't just write code they learn"
+    },
+    {
+      "start": 436.0,
+      "end": 436.0,
+      "text": "skills share them and upgrade your workflow across editors."
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "Net visor is your always up-to-date network topology map. No whiteboards, no visual nightmares, no guesswork. It scans your infrastructure, discovers"
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "every host, container, subnet, and service, and turns it into a living interactive diagram. It runs with a server plus Damon architecture, so you"
+    },
+    {
+      "start": 458.0,
+      "end": 458.0,
+      "text": "can scan from multiple points across VLANs and segments, even inside Docker environments. It detects containers,"
+    },
+    {
+      "start": 466.0,
+      "end": 466.0,
+      "text": "internal networks, interfaces, and flags infraervices like DNS and gateways automatically."
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "Need a fast way to turn prompts into AI videos? Meet the Sora 2 API video generator. A tiny web UI that talks to"
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "the Sora 2 API so you don't have to pick your parameters, hit generate, and the tool sends the request, waits for processing, and surfaces a preview for"
+    },
+    {
+      "start": 489.0,
+      "end": 489.0,
+      "text": "download. All MIT licensed and simple to run locally. Requirements are pretty light. A Sora 2 API key and at least 4"
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "GB RAM. Perfect for experimenting with AI video pipelines without the heavy lift."
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "DeepSeek OCR Studio, your document parsing powerhouse. Built with React on the front and fast API on the back. It"
+    },
+    {
+      "start": 512.0,
+      "end": 512.0,
+      "text": "takes PDFs and images and turns them into structured, searchable data fast."
+    },
+    {
+      "start": 517.0,
+      "end": 517.0,
+      "text": "Powered by the DeepSec OCR model, it supports multi- language text recognition, layout analysis, table and chart extraction, and even semantic"
+    },
+    {
+      "start": 525.0,
+      "end": 525.0,
+      "text": "recognition for technical drawings. You can go from a messy PDF to clean markdown or extract data straight into visual charts allin-one open-source app."
+    },
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "Meet HTTP TAP. It's a CLI tool that breaks down every HTTP request into every meaningful phase. DNS lookup, TCP"
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "connect, TLS handshake, server weight, and body transfer and renders it as a timeline, compact summary, or machine"
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "readable metrics. IPv4, IPv6 aware, TLS certificate insights, JSON export for automation, and extensible interfaces"
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "for custom behavior. Whether you're troubleshooting latency, analyzing regressions, or benchmarking performance baselines, HTTap gives you full"
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "visibility into what happens under the hood of every HTTP request."
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "Costi is a command line tool that scans your AWS environment and instantly finds wasted spend, unused resources, oversized instances, and security misconfigurations."
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "All across 16 core AWS services with just one command. Think abandoned load balancers, orphaned EBS volumes,"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "outdated access keys, public databases, the silent money burners every cloud team forgets. And it's not just CLI."
+    },
+    {
+      "start": 597.0,
+      "end": 597.0,
+      "text": "Costi includes a clean, modern web dashboard with visual reports, charts, and real-time insights so you can actually take action."
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "AI agents can think or they can act, but doing both seamlessly. That's the hard part. Recode introduces recursive code"
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "generation for LLM agents, unifying plan and action into a single representation."
+    },
+    {
+      "start": 620.0,
+      "end": 620.0,
+      "text": "Instead of writing a full plan first or reacting step by step, Recode treats highle strategies like placeholder functions that expand into executable"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "code on the fly. It builds a tree of partial programs, runs each step immediately, and keeps refining based on"
+    },
+    {
+      "start": 635.0,
+      "end": 635.0,
+      "text": "real-time feedback, giving agents universal control over granularity from big picture reasoning down to precise actions."
+    },
+    {
+      "start": 644.0,
+      "end": 644.0,
+      "text": "Ever wonder why clawed code suddenly feels sluggish? It's not your machine."
+    },
+    {
+      "start": 649.0,
+      "end": 649.0,
+      "text": "It's your config file quietly ballooning into a JSON monster. Claude stores every chat from every project in one file. And after weeks of coding, that thing can"
+    },
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "hit 10, 15, even 20 megabytes. Slow startup, laggy UX, zero built-in cleanup. Enter Claude Config Editor, the"
+    },
+    {
+      "start": 666.0,
+      "end": 666.0,
+      "text": "guey tool Claude should have shipped. It scans your config, shows which projects are hogging space, lets you bulk delete old sessions, export important chats,"
+    },
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "manage MCP servers, and always auto backs up so nothing is lost."
+    },
+    {
+      "start": 681.0,
+      "end": 681.0,
+      "text": "Emu 3.5 is a native multimodal model built to learn the world like we do, jointly modeling vision and language as"
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "one continuous stream. It's trained end to end on over 10 trillion interled video and text tokens, predicting the"
+    },
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "next state across pixels and words together. No adapters, no separate heads, just pure unified world modeling"
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "with reinforcement learning for reasoning and discrete diffusion adaptation for parallel decoding. It delivers up to 20 times faster inference while keeping quality high."
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "What if your data pipeline ran itself?"
+    },
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "From raw files to polished insights, deep analyze is an agentic LLM built for fully autonomous data science, able to"
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "clean data, explore it, build models, visualize results, and even produce full analyst level reports without human guidance. It works across structured"
+    },
+    {
+      "start": 734.0,
+      "end": 734.0,
+      "text": "databases, spreadsheets, JSON, and XML, all the way to unstructured text, pulling insights, running experiments, and generating documentation as it goes."
+    },
+    {
+      "start": 744.0,
+      "end": 744.0,
+      "text": "And the best part, it's completely open source. Model weights, code, training data, demo, everything."
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "What if controlling video generation was as simple as showing an example? Video as prompt introduces a new paradigm."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "Using a reference video itself as the prompt to guide motion, style, and semantics, then animating a still image"
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "to match it. Instead of task specific conditioning tricks, it plugs a mixture of transformers module into a frozen"
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "video diffusion transformer using incontext examples to drive motion and style transfer without retraining or forgetting. It handles cross identity"
+    },
+    {
+      "start": 781.0,
+      "end": 781.0,
+      "text": "animation, style and motion transfer and prompt guided fine-tuning in one system, turning reference videos into a"
+    },
+    {
+      "start": 789.0,
+      "end": 789.0,
+      "text": "universal semantic controller for generation."
+    }
+  ]
+}
