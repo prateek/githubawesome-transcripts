@@ -1,0 +1,755 @@
+{
+  "schema_version": 1,
+  "id": "m7ZuxZhgncA",
+  "title": "GitHub Trending Today #10: moss, LLM Council, mgrep, JiT, Gausian, PeekX, NanoBanana Studio, RoMa",
+  "url": "https://www.youtube.com/watch?v=m7ZuxZhgncA",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2025-11-23",
+  "duration": 669,
+  "word_count": 1605,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-30T06:01:26+00:00",
+    "metadata_sha256": "d20a410369fef37b8413bc5f2969e310edd3532afbe0ea36452749f63176a911",
+    "captions_sha256": "856c07e258ae74412eb71cec3d3bd128975c60457797cd75d2256fefd95f2b0f",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 12,
+      "paragraphs": [
+        "Today we've got 24 trending open source projects fresh off the charts covering AI dev tools and some just for fun. Let's jump into GitHub trending today. Number 10, Moss. It's a Linux compatible kernel written in Rust with some Arch 64"
+      ]
+    },
+    {
+      "start": 12,
+      "title": "moss",
+      "repositories": [
+        "https://github.com/hexagonal-sun/moss"
+      ],
+      "id": "s002",
+      "end": 41,
+      "paragraphs": [
+        "assembly sprinkled in for the low-level magic. What makes MOSS stand out is its asynchronous kernel core. Yep, this system uses Rust's async await inside the kernel itself. That means system calls are async, sleep points are compiler verified, and entire classes of classic kernel deadlocks are eliminated. It's cutting edge OS research packed into real working code."
+      ]
+    },
+    {
+      "start": 41,
+      "title": "LLM Council",
+      "repositories": [
+        "https://github.com/karpathy/llm-council"
+      ],
+      "id": "s003",
+      "end": 70,
+      "paragraphs": [
+        "LLM Council, a project that basically turns your favorite AI models into a panel of experts. Instead of asking just one LLM for an answer, this tool sends your question to multiple models at once through Open Router, lets them respond individually, then has them critique and rank each other, all before a designated chairman LLM pieces everything together into one final refined answer. It's like hosting a mini AI debate inside your browser."
+      ]
+    },
+    {
+      "start": 70,
+      "title": "mgrep",
+      "repositories": [
+        "https://github.com/mixedbread-ai/mgrep"
+      ],
+      "id": "s004",
+      "end": 96,
+      "paragraphs": [
+        "Up next is M. Grep. And if you've ever wished GP could understand what you mean instead of what you type, this one's going to blow your mind. Mgrep is a semantic, multilingual, multimodal search tool that runs straight from the command line. You can search code, images, PDFs, and soon even audio and video, all using natural language. No Rayax guesswork. No praying that past developers named things logically."
+      ]
+    },
+    {
+      "start": 96,
+      "title": "JiT",
+      "repositories": [
+        "https://github.com/LTH14/JiT"
+      ],
+      "id": "s005",
+      "end": 125,
+      "paragraphs": [
+        "Next is Jet, just image transformer, a clean reimplementation of idea in generative modeling. What if diffusion models simply predicted clean images again? This project brings the original Jax plus TPU work into PyTorch plus GPU, making it far more accessible to researchers and practitioners. Instead of predicting noise like today's diffusion models do, Jeet argues we should go back to basics and directly model the clean data itself."
+      ]
+    },
+    {
+      "start": 125,
+      "title": "Gausian Native Editor",
+      "repositories": [
+        "https://github.com/gausian-AI/Gausian_native_editor"
+      ],
+      "id": "s006",
+      "end": 154,
+      "paragraphs": [
+        "Gaussian, a Rustbased local video editor built specifically for AIdriven video production. If you're tired of sluggish timelines and slow previews, this one's going to feel like a breath of fresh air. Gausian uses GPU accelerated rendering with WGPU, hardware accelerated decoding, and a super responsive preview pipeline that makes scrubbing and editing feel instant. You get proper timeline tools, an assets panel, full project persistence with SQLite."
+      ]
+    },
+    {
+      "start": 154,
+      "title": "PeekX",
+      "repositories": [
+        "https://github.com/altic-dev/PeekX"
+      ],
+      "id": "s007",
+      "end": 183,
+      "paragraphs": [
+        "PX, a sleek quicklook extension for Mac OS that brings instant folder previews right into Finder. If you've ever hit the space bar on a folder and wished Mac OS would just show you what's inside, PX gives you exactly that. With PX installed, selecting any folder and pressing space opens a clean native Mac OS panel showing a full breakdown, total files, size statistics, file type distribution, and even a structural overview."
+      ]
+    },
+    {
+      "start": 183,
+      "title": "dz6",
+      "repositories": [
+        "https://github.com/mentebinaria/dz6"
+      ],
+      "id": "s008",
+      "end": 212,
+      "paragraphs": [
+        "Up next is DZZ6, a fast Vimlike hex editor designed for developers who live in the terminal. If you've ever wished for a hex editor that feels as smooth and efficient as Vim, DZ6 brings that muscle memory straight into low-level file editing, even on massive files, and gives you full control with both hex and asy editing modes. You get regexpowered string filtering and the ability to search for both text and raw bite patterns."
+      ]
+    },
+    {
+      "start": 212,
+      "title": "NanoBanana Studio",
+      "repositories": [
+        "https://github.com/amrrs/fal-nanobanana-studio"
+      ],
+      "id": "s009",
+      "end": 237,
+      "paragraphs": [
+        "Now, let's take a look at Nano Banana Studio AI powered image editor that feels like a lightweight alternative to Photoshop, but with the power of Google's Nano Banana API behind it. This editor lets you manipulate images using simple natural language prompts. So, instead of wrestling with layers and adjustment panels, you can just tell it what you want. Remove objects, change lighting, adjust styles."
+      ]
+    },
+    {
+      "start": 237,
+      "title": "ExcaliDash",
+      "repositories": [
+        "https://github.com/ZimengXiong/ExcaliDash"
+      ],
+      "id": "s010",
+      "end": 268,
+      "paragraphs": [
+        "Excaladash, a self-hosted dashboard built specifically for organizing all your Excaladraw creations with real-time collaboration baked right in. If you use Excaladraw for brainstorming, diagrams, or team planning, Excaladash gives you the missing piece. Persistent storage for every drawing you make, all neatly searchable and organized in one place. You can drag and drop into collections and instantly find older sketches without digging through files."
+      ]
+    },
+    {
+      "start": 268,
+      "title": "RoMa v2",
+      "repositories": [
+        "https://github.com/Parskatt/RoMaV2"
+      ],
+      "id": "s011",
+      "end": 293,
+      "paragraphs": [
+        "Next up is Roma, a dense feature matcher designed to push the limits of computer vision. Dense feature matching is all about finding all correspondences between two images of a 3D scene. And it's crucial for tasks like 3D reconstruction, AR, and robotics. Roma v2 improves on existing models by tackling some of the toughest realorld scenarios where older matchers often fail."
+      ]
+    },
+    {
+      "start": 293,
+      "title": "DockTail",
+      "repositories": [
+        "https://github.com/marvinvr/docktail"
+      ],
+      "id": "s012",
+      "end": 321,
+      "paragraphs": [
+        "Docktail, a tool that lets you expose your Docker containers as tailscale services with almost zero configuration. If you're running multiple Dockerized services and want them to securely communicate over Tailscale, Docktail makes it effortless. It automatically discovers and advertises your containers as Tailscale services. When a container stops, it cleans up the service configuration without leaving any dangling entries."
+      ]
+    },
+    {
+      "start": 321,
+      "title": "Claude Agent Desktop",
+      "repositories": [
+        "https://github.com/pheuter/claude-agent-desktop"
+      ],
+      "id": "s013",
+      "end": 346,
+      "paragraphs": [
+        "Claude Agent Desktop, a desktop app that brings the full power of the Claude Agent SDK to everyone. No programming required. Normally, building AI agents that can execute code, manage files, or perform complex workflows means juggling NodeJS, Python, and terminal commands. Cloud Agent Desktop removes all that friction. It comes with zero technical setup. All runtimes are bundled."
+      ]
+    },
+    {
+      "start": 346,
+      "title": "IoTHackBot",
+      "repositories": [
+        "https://github.com/BrownFineSecurity/iothackbot"
+      ],
+      "id": "s014",
+      "end": 374,
+      "paragraphs": [
+        "Next up is IoT Hackbot, a IoT security testing toolkit that combines traditional pentesting tools with AI assisted workflows using clawed code skills. IoT Hackbot is designed for security researchers and ethical hackers who want to assess IoT devices, IP cameras, and embedded systems. It comes packed with tools for network discovery, device specific testing, firmware and file analysis, and even hardware level interaction."
+      ]
+    },
+    {
+      "start": 374,
+      "title": "iOS Clone SwiftUI",
+      "repositories": [
+        "https://github.com/PallavAg/iOS-Clone-SwiftUI"
+      ],
+      "id": "s015",
+      "end": 400,
+      "paragraphs": [
+        "Next up is iOS Swift UI, a project that recreates iOS and its built-in apps entirely in Swift UI with the code generated by Gemini 3.0 Pro. It's recreation of native Apple apps, including weather, photos, clock, notes, calculator, settings, mail, app store, phone, Safari, camera, and music. Every interface detail is faithfully reproduced, making it feel just like the real iOS."
+      ]
+    },
+    {
+      "start": 400,
+      "title": "Dia2",
+      "repositories": [
+        "https://github.com/nari-labs/dia2"
+      ],
+      "id": "s016",
+      "end": 424,
+      "paragraphs": [
+        "DIA 2 a streaming dialogue TTS model developed by Nari Labs. Unlike traditional TTS systems that require the full text before generating audio, DIA 2 can start producing realtime speech as soon as the first few words are provided. It even supports audio conditioned output, enabling more natural conversational interactions that feel responsive and humanlike."
+      ]
+    },
+    {
+      "start": 424,
+      "title": "Scroll",
+      "repositories": [
+        "https://github.com/asker-kurtelli/scroll"
+      ],
+      "id": "s017",
+      "end": 454,
+      "paragraphs": [
+        "Scroll, a Chrome extension that makes navigating long LLM chats a breeze. If you've ever tried finding a specific prompt or code snippet in a 20inut chat GPT claude or Gemini conversation, you know how frustrating endless scrolling can be. Scroll solves this by adding a native sidebar with automatic table of contents based on your prompts and headers. You can jump instantly to any turn in the conversation. Search and filter for exactly what you need."
+      ]
+    },
+    {
+      "start": 454,
+      "title": "AdaptiveDimensions",
+      "repositories": [
+        "https://github.com/Aeastr/AdaptiveDimensions"
+      ],
+      "id": "s018",
+      "end": 481,
+      "paragraphs": [
+        "Next up is adaptive dimensions, a tiny Swift UI toolkit that ensures your app layouts adapt seamlessly to system text size settings. With adaptive dimensions, frames, padding, spacing, and corner radi remain fixed. Instead, these Swift UI modifiers scale proportionally as users adjust their dynamic type settings, preserving your layout's proportions and visual balance across all text sizes."
+      ]
+    },
+    {
+      "start": 481,
+      "title": "Imagemage",
+      "repositories": [
+        "https://github.com/quinnypig/imagemage"
+      ],
+      "id": "s019",
+      "end": 508,
+      "paragraphs": [
+        "Image Mage, the nononsense CLI for Google's Gemini image APIs. While Google ships a small continent of dependencies just to generate a single image, Image Mage takes the opposite approach. It's a single Go binary that does exactly one thing and does it well. Talk to Gemini's image models. No npm forests, no mysterious telemetry, no setup rituals. Out of the box, you get highquality Gemini 3 Pro image generation."
+      ]
+    },
+    {
+      "start": 508,
+      "title": "Onlymaps",
+      "repositories": [
+        "https://github.com/manoss96/onlymaps"
+      ],
+      "id": "s020",
+      "end": 535,
+      "paragraphs": [
+        "Only maps. the Python microo for people who want full SQL power without the OM overhead. With only maps, you write plain SQL. The library handles the rest. It automatically maps results into clean type-esafe Python objects using Pyantic, giving you fine- grain validation without giving up database control. It ships with a minimal, intuitive API that supports both synchronous and asynchronous execution."
+      ]
+    },
+    {
+      "start": 535,
+      "title": "osgrep",
+      "repositories": [
+        "https://github.com/Ryandonofrio3/osgrep"
+      ],
+      "id": "s021",
+      "end": 563,
+      "paragraphs": [
+        "Next up is OS Grep, a natural language search tool that works like Grep, but with actual brains. Instead of hunting for exact strings, OSRP performs semantic search. Ask it to find O logic, payment validation, or where we hash passwords, and it pulls up the relevant code instantly, even if those exact words don't exist anywhere. Everything runs 100% locally, powered by Transformers.JS, so your code never leaves your machine. Imagine you could point a CLI tool at any website and"
+      ]
+    },
+    {
+      "start": 563,
+      "title": "Dembrandt",
+      "repositories": [
+        "https://github.com/thevangelist/dembrandt"
+      ],
+      "id": "s022",
+      "end": 593,
+      "paragraphs": [
+        "instantly extract its entire design system, colors, typography, even the logo. That's exactly what Dembrandt does. Dembrandt is a brand system extraction engine built on top of Playright with heavyduty bot detection evasion so it can analyze real live websites without getting blocked. It doesn't just scrape CSS, it fully renders the page and gives you the actual tokens the brand is built on."
+      ]
+    },
+    {
+      "start": 593,
+      "title": "Server Survival",
+      "repositories": [
+        "https://github.com/pshenok/server-survival"
+      ],
+      "id": "s023",
+      "end": 618,
+      "paragraphs": [
+        "Server Survival, the 3D simulation game where you play not as a knight, a soldier, or a space marine, but as a cloud architect. Your mission: Build, scale, and defend a live cloud infrastructure as traffic ramps up and chaos unfolds. Spin up servers, deploy load balancers, add autoscaling groups, optimize databases, and fight off waves of DDoS attacks, all while staying under budget."
+      ]
+    },
+    {
+      "start": 618,
+      "title": "hptls",
+      "repositories": [
+        "https://github.com/seceq/hptls"
+      ],
+      "id": "s024",
+      "end": 640,
+      "paragraphs": [
+        "HPTLS is a high performance TLS 1.3 library built in Rust featuring postquantum cryptography and FIPS validated components designed for production environments that demand both speed and long-term cryptographic resilience. HPTLS delivers a zero copy memory safe TLS stack engineered for contemporary infrastructure."
+      ]
+    },
+    {
+      "start": 640,
+      "title": "Walrus",
+      "repositories": [
+        "https://github.com/PolymathicAI/walrus"
+      ],
+      "id": "s025",
+      "end": 669,
+      "paragraphs": [
+        "Walrus. This thing was trained across 19 different physical scenarios covering 63 physical variables in 2D and 3D. Basically, if it flows, swirls, compresses, or moves like physics, Walrus gets it. Walrus doesn't just run a simulation. It does long-term stable rollouts using adaptive computation and new stability tricks that keep it from exploding like every other physics model out there."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Today we've got 24 trending open source projects fresh off the charts covering AI dev tools and some just for fun."
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "Let's jump into GitHub trending today."
+    },
+    {
+      "start": 9.0,
+      "end": 9.0,
+      "text": "Number 10, Moss. It's a Linux compatible kernel written in Rust with some Arch 64"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "assembly sprinkled in for the low-level magic. What makes MOSS stand out is its asynchronous kernel core. Yep, this"
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "text": "system uses Rust's async await inside the kernel itself. That means system calls are async, sleep points are"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "text": "compiler verified, and entire classes of classic kernel deadlocks are eliminated."
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "It's cutting edge OS research packed into real working code."
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "text": "LLM Council, a project that basically turns your favorite AI models into a panel of experts. Instead of asking just"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "text": "one LLM for an answer, this tool sends your question to multiple models at once through Open Router, lets them respond"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "text": "individually, then has them critique and rank each other, all before a designated chairman LLM pieces everything together"
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "into one final refined answer. It's like hosting a mini AI debate inside your browser."
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "Up next is M. Grep. And if you've ever wished GP could understand what you mean instead of what you type, this one's going to blow your mind."
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "text": "Mgrep is a semantic, multilingual, multimodal search tool that runs straight from the command line. You can search code, images, PDFs, and soon even"
+    },
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "text": "audio and video, all using natural language. No Rayax guesswork. No praying that past developers named things logically."
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "Next is Jet, just image transformer, a clean reimplementation of idea in generative modeling. What if diffusion"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "models simply predicted clean images again? This project brings the original Jax plus TPU work into PyTorch plus GPU,"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "text": "making it far more accessible to researchers and practitioners. Instead of predicting noise like today's diffusion models do, Jeet argues we"
+    },
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "should go back to basics and directly model the clean data itself."
+    },
+    {
+      "start": 125.0,
+      "end": 125.0,
+      "text": "Gaussian, a Rustbased local video editor built specifically for AIdriven video production. If you're tired of sluggish"
+    },
+    {
+      "start": 132.0,
+      "end": 132.0,
+      "text": "timelines and slow previews, this one's going to feel like a breath of fresh air. Gausian uses GPU accelerated"
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "rendering with WGPU, hardware accelerated decoding, and a super responsive preview pipeline that makes scrubbing and editing feel instant. You"
+    },
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "get proper timeline tools, an assets panel, full project persistence with SQLite."
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "PX, a sleek quicklook extension for Mac OS that brings instant folder previews right into Finder. If you've ever hit"
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "the space bar on a folder and wished Mac OS would just show you what's inside, PX gives you exactly that. With PX"
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "installed, selecting any folder and pressing space opens a clean native Mac OS panel showing a full breakdown, total"
+    },
+    {
+      "start": 176.0,
+      "end": 176.0,
+      "text": "files, size statistics, file type distribution, and even a structural overview."
+    },
+    {
+      "start": 183.0,
+      "end": 183.0,
+      "text": "Up next is DZZ6, a fast Vimlike hex editor designed for developers who live in the terminal. If"
+    },
+    {
+      "start": 190.0,
+      "end": 190.0,
+      "text": "you've ever wished for a hex editor that feels as smooth and efficient as Vim, DZ6 brings that muscle memory straight into low-level file editing, even on"
+    },
+    {
+      "start": 199.0,
+      "end": 199.0,
+      "text": "massive files, and gives you full control with both hex and asy editing modes. You get regexpowered string filtering and the ability to search for both text and raw bite patterns."
+    },
+    {
+      "start": 212.0,
+      "end": 212.0,
+      "text": "Now, let's take a look at Nano Banana Studio AI powered image editor that feels like a lightweight alternative to Photoshop, but with the power of"
+    },
+    {
+      "start": 220.0,
+      "end": 220.0,
+      "text": "Google's Nano Banana API behind it. This editor lets you manipulate images using simple natural language prompts. So,"
+    },
+    {
+      "start": 228.0,
+      "end": 228.0,
+      "text": "instead of wrestling with layers and adjustment panels, you can just tell it what you want. Remove objects, change lighting, adjust styles."
+    },
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "Excaladash, a self-hosted dashboard built specifically for organizing all your Excaladraw creations with real-time"
+    },
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "collaboration baked right in. If you use Excaladraw for brainstorming, diagrams, or team planning, Excaladash gives you"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "the missing piece. Persistent storage for every drawing you make, all neatly searchable and organized in one place."
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "You can drag and drop into collections and instantly find older sketches without digging through files."
+    },
+    {
+      "start": 268.0,
+      "end": 268.0,
+      "text": "Next up is Roma, a dense feature matcher designed to push the limits of computer vision. Dense feature matching is all"
+    },
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "about finding all correspondences between two images of a 3D scene. And it's crucial for tasks like 3D reconstruction, AR, and robotics. Roma"
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "v2 improves on existing models by tackling some of the toughest realorld scenarios where older matchers often fail."
+    },
+    {
+      "start": 293.0,
+      "end": 293.0,
+      "text": "Docktail, a tool that lets you expose your Docker containers as tailscale services with almost zero configuration."
+    },
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "If you're running multiple Dockerized services and want them to securely communicate over Tailscale, Docktail makes it effortless. It automatically"
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "discovers and advertises your containers as Tailscale services."
+    },
+    {
+      "start": 314.0,
+      "end": 314.0,
+      "text": "When a container stops, it cleans up the service configuration without leaving any dangling entries."
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "Claude Agent Desktop, a desktop app that brings the full power of the Claude Agent SDK to everyone. No programming required. Normally, building AI agents"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "that can execute code, manage files, or perform complex workflows means juggling NodeJS, Python, and terminal commands."
+    },
+    {
+      "start": 338.0,
+      "end": 338.0,
+      "text": "Cloud Agent Desktop removes all that friction. It comes with zero technical setup. All runtimes are bundled."
+    },
+    {
+      "start": 346.0,
+      "end": 346.0,
+      "text": "Next up is IoT Hackbot, a IoT security testing toolkit that combines traditional pentesting tools with AI"
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "assisted workflows using clawed code skills. IoT Hackbot is designed for security researchers and ethical hackers who want to assess IoT devices, IP"
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "cameras, and embedded systems. It comes packed with tools for network discovery, device specific testing, firmware and"
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "file analysis, and even hardware level interaction."
+    },
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "Next up is iOS Swift UI, a project that recreates iOS and its built-in apps entirely in Swift UI with the code generated by Gemini 3.0 Pro. It's"
+    },
+    {
+      "start": 383.0,
+      "end": 383.0,
+      "text": "recreation of native Apple apps, including weather, photos, clock, notes, calculator, settings, mail, app store,"
+    },
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "phone, Safari, camera, and music. Every interface detail is faithfully reproduced, making it feel just like the real iOS."
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "DIA 2 a streaming dialogue TTS model developed by Nari Labs. Unlike traditional TTS systems that require the"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "full text before generating audio, DIA 2 can start producing realtime speech as soon as the first few words are"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "provided. It even supports audio conditioned output, enabling more natural conversational interactions that feel responsive and humanlike."
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "Scroll, a Chrome extension that makes navigating long LLM chats a breeze."
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "If you've ever tried finding a specific prompt or code snippet in a 20inut chat GPT claude or Gemini conversation, you"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "know how frustrating endless scrolling can be. Scroll solves this by adding a native sidebar with automatic table of contents based on your prompts and"
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "headers. You can jump instantly to any turn in the conversation. Search and filter for exactly what you need."
+    },
+    {
+      "start": 454.0,
+      "end": 454.0,
+      "text": "Next up is adaptive dimensions, a tiny Swift UI toolkit that ensures your app layouts adapt seamlessly to system text"
+    },
+    {
+      "start": 461.0,
+      "end": 461.0,
+      "text": "size settings. With adaptive dimensions, frames, padding, spacing, and corner radi remain fixed. Instead, these Swift"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "UI modifiers scale proportionally as users adjust their dynamic type settings, preserving your layout's proportions and visual balance across all text sizes."
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "Image Mage, the nononsense CLI for Google's Gemini image APIs. While Google ships a small continent of dependencies"
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "just to generate a single image, Image Mage takes the opposite approach. It's a single Go binary that does exactly one thing and does it well. Talk to Gemini's"
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "image models. No npm forests, no mysterious telemetry, no setup rituals."
+    },
+    {
+      "start": 503.0,
+      "end": 503.0,
+      "text": "Out of the box, you get highquality Gemini 3 Pro image generation."
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "Only maps. the Python microo for people who want full SQL power without the OM overhead. With only maps, you write plain SQL. The library handles the rest."
+    },
+    {
+      "start": 518.0,
+      "end": 518.0,
+      "text": "It automatically maps results into clean type-esafe Python objects using Pyantic, giving you fine- grain validation without giving up database control. It"
+    },
+    {
+      "start": 528.0,
+      "end": 528.0,
+      "text": "ships with a minimal, intuitive API that supports both synchronous and asynchronous execution."
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "Next up is OS Grep, a natural language search tool that works like Grep, but with actual brains. Instead of hunting"
+    },
+    {
+      "start": 542.0,
+      "end": 542.0,
+      "text": "for exact strings, OSRP performs semantic search. Ask it to find O logic, payment validation, or where we hash"
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "passwords, and it pulls up the relevant code instantly, even if those exact words don't exist anywhere. Everything runs 100% locally, powered by"
+    },
+    {
+      "start": 559.0,
+      "end": 559.0,
+      "text": "Transformers.JS, so your code never leaves your machine. Imagine you could point a CLI tool at any website and"
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "instantly extract its entire design system, colors, typography, even the logo. That's exactly what Dembrandt"
+    },
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "does. Dembrandt is a brand system extraction engine built on top of Playright with heavyduty bot detection evasion so it can analyze real live"
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "websites without getting blocked. It doesn't just scrape CSS, it fully renders the page and gives you the actual tokens the brand is built on."
+    },
+    {
+      "start": 593.0,
+      "end": 593.0,
+      "text": "Server Survival, the 3D simulation game where you play not as a knight, a soldier, or a space marine, but as a"
+    },
+    {
+      "start": 599.0,
+      "end": 599.0,
+      "text": "cloud architect. Your mission: Build, scale, and defend a live cloud infrastructure as traffic ramps up and"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "chaos unfolds. Spin up servers, deploy load balancers, add autoscaling groups, optimize databases, and fight off waves"
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "of DDoS attacks, all while staying under budget."
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "HPTLS is a high performance TLS 1.3 library built in Rust featuring postquantum cryptography and FIPS"
+    },
+    {
+      "start": 626.0,
+      "end": 626.0,
+      "text": "validated components designed for production environments that demand both speed and long-term cryptographic resilience. HPTLS delivers a zero copy"
+    },
+    {
+      "start": 634.0,
+      "end": 634.0,
+      "text": "memory safe TLS stack engineered for contemporary infrastructure."
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "Walrus. This thing was trained across 19 different physical scenarios covering 63 physical variables in 2D and 3D."
+    },
+    {
+      "start": 649.0,
+      "end": 649.0,
+      "text": "Basically, if it flows, swirls, compresses, or moves like physics, Walrus gets it. Walrus doesn't just run"
+    },
+    {
+      "start": 656.0,
+      "end": 656.0,
+      "text": "a simulation. It does long-term stable rollouts using adaptive computation and new stability tricks that keep it from exploding like every other physics model out there."
+    }
+  ]
+}

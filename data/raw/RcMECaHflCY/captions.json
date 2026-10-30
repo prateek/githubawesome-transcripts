@@ -1,0 +1,1242 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome, your daily dose of the hottest open- source repos lighting up GitHub right now. In"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "this episode of GitHub Trending Today, number eight, we're checking out 22 trending open- source projects that are exploding in popularity. If you love"
+    },
+    {
+      "timestamp": "0:15",
+      "text": "discovering powerful open source like this, smash that like button and let's jump straight into today's trending repos."
+    },
+    {
+      "timestamp": "0:24",
+      "text": "Tonell is a LLM friendly serialization format that can cut your data size by up to 50 to 60% compared to JSON, which"
+    },
+    {
+      "timestamp": "0:32",
+      "text": "also means dramatically lower LM token costs. And unlike binary formats, Tunnel stays completely human readable. But Tunnel isn't just a format. It's a"
+    },
+    {
+      "timestamp": "0:41",
+      "text": "full-blown data platform. You get a JSON path style query API, CRUD modification tools, hashing and bree indexes, and"
+    },
+    {
+      "timestamp": "0:49",
+      "text": "even bit packing for boolean data. It's zero dependencies, built-in pure TypeScript, browser ready at just 10 KB"
+    },
+    {
+      "timestamp": "0:56",
+      "text": "gzipped. Tiny diffusion, a character level language diffusion model for text generation. It's built as a modified"
+    },
+    {
+      "timestamp": "1:04",
+      "text": "version of the nanohat GPT implementation. But here's the twist."
+    },
+    {
+      "timestamp": "1:08",
+      "text": "Instead of traditional auto reggressive generation, this model uses diffusion techniques to generate text character by"
+    },
+    {
+      "timestamp": "1:15",
+      "text": "character. The best part, this model is only 10.7 million parameters, which means it's incredibly lightweight, easy"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "to experiment with, and runs comfortably on a laptop without a GPU supercomput."
+    },
+    {
+      "timestamp": "1:29",
+      "text": "You know those multi-line shell commands you copy from docs, blogs, or chatg, and then they don't paste cleanly into your"
+    },
+    {
+      "timestamp": "1:36",
+      "text": "terminal? Yeah, Trimmy fixes that. Trim is a tiny Mac OS menu bar app with one job. Paste once, run once. It"
+    },
+    {
+      "timestamp": "1:45",
+      "text": "automatically flattens messy multi-line shell snippets into a clean singleline command that actually runs. There are optional toggles, too, like keeping"
+    },
+    {
+      "timestamp": "1:53",
+      "text": "intentional blank lines, stripping box drawing characters from fancy prompts."
+    },
+    {
+      "timestamp": "1:59",
+      "text": "Next up is an incredibly practical tool for anyone on Windows who needs fast speech to text, especially in lockdown"
+    },
+    {
+      "timestamp": "2:06",
+      "text": "corporate environments. This is Chirp, a fully local dictation app powered by Parakeet V3 ST. Parakeet 3 delivers"
+    },
+    {
+      "timestamp": "2:14",
+      "text": "speech recognition accuracy nearly identical to Whisper Large V3. We're talking multilingual 4.1 versus 5.05,"
+    },
+    {
+      "timestamp": "2:22",
+      "text": "but it runs 17x faster and needs no GPU at all, just your CPU. That means Chirp gives you high-end transcription quality without any of the heavy hardware."
+    },
+    {
+      "timestamp": "2:34",
+      "text": "ISOBridge, a complete ISO 8583 parser, builder, and forwarder built in. .NET 6."
+    },
+    {
+      "timestamp": "2:40",
+      "text": "If you've ever touched ISO 8583, the decades old format behind POS transactions, ATMs, and bank switches, you know it's a jungle. Every vendor has"
+    },
+    {
+      "timestamp": "2:49",
+      "text": "its own dialect. The tooling is scattered or proprietary, and debugging messages often feels like reading hieroglyphics."
+    },
+    {
+      "timestamp": "2:57",
+      "text": "ISOBridge was built to end that pain."
+    },
+    {
+      "timestamp": "2:59",
+      "text": "It's a fully functional bridge that parses ISO 8583 messages in binary, builds ISO messages cleanly from JSON,"
+    },
+    {
+      "timestamp": "3:07",
+      "text": "and logs every single transaction with full audibility."
+    },
+    {
+      "timestamp": "3:11",
+      "text": "Sound Monitor, a noise pollution documentation tool built to record, track, and log excessively loud noises with real evidence you can take to your"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "city council. The goal is simple. If cars are too loud and you need sleep, this app helps you prove it. Sound"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "Monitor continuously records audio from any selected microphone, monitors realtime decel levels, and automatically logs spikes when noise passes your"
+    },
+    {
+      "timestamp": "3:36",
+      "text": "threshold. It even includes low frequency detection, targeting that deep 20 to 200Hz rumble that loud cars and modified exhausts are notorious for."
+    },
+    {
+      "timestamp": "3:48",
+      "text": "Stop paying for overpriced email tools you don't even like. Camp just dropped and it might be the cleanest open-source"
+    },
+    {
+      "timestamp": "3:55",
+      "text": "Mailchimp alternative yet. Camp is a lightweight self-hosted email marketing platform built entirely in Go. No bloat,"
+    },
+    {
+      "timestamp": "4:03",
+      "text": "no dependency soup. You can send campaigns, manage contacts, segment lists, and track analytics like opens and clicks. All without giving your data"
+    },
+    {
+      "timestamp": "4:12",
+      "text": "to a third party. Create emails with a reusable template system. Import or organize your audience and hit send."
+    },
+    {
+      "timestamp": "4:20",
+      "text": "Hopex MCP server, a model context protocol server that gives AI assistants the ability to run real code inside"
+    },
+    {
+      "timestamp": "4:27",
+      "text": "isolated cloud containers safely, quickly, and with full control. It executes Python, JavaScript, Bash, and"
+    },
+    {
+      "timestamp": "4:35",
+      "text": "Go in fully isolated environments complete with pre-installed data science tools like pandas, numpy, and mapplotib."
+    },
+    {
+      "timestamp": "4:42",
+      "text": "It can run system commands, manage files, spin up background processes, and handle longrunning tasks, all without touching your local machine."
+    },
+    {
+      "timestamp": "4:51",
+      "text": "Herilla CRM, open-source CRM built for organizations that need serious customer engagement and workflow automation without the complexity of heavyweight"
+    },
+    {
+      "timestamp": "5:00",
+      "text": "commercial systems. You get robust people management with accounts, contacts, and detailed role-based permissions. The sales pipeline includes"
+    },
+    {
+      "timestamp": "5:09",
+      "text": "leads, opportunities, customizable stages, forecasting tools, and even big deal alerts to notify your team when high-val opportunities pop up."
+    },
+    {
+      "timestamp": "5:20",
+      "text": "Next on the list is a tool that makes managing traffic feel effortless, especially if you're tired of wrestling with complex YAML files. This is"
+    },
+    {
+      "timestamp": "5:28",
+      "text": "Traficker, a visual configuration manager that brings simplicity, safety, and clarity to Trafic setups. Instead of"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "manually editing routers, services, and middlewares, Treyficker gives you a clean, guided web interface where every field validates your input in real time."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "No more indentation mistakes, missing fields, or mysterious config failures."
+    },
+    {
+      "timestamp": "5:51",
+      "text": "Next project is a big one for anyone working with model context protocol and hitting token limits or scaling headaches. This is the MCP code"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "execution server and it tackles one of the biggest pain points in MCP today."
+    },
+    {
+      "timestamp": "6:05",
+      "text": "context bloat. If you connect Claude to a bunch of MCP servers, say 10, 20, or even 50, each one brings its own tool"
+    },
+    {
+      "timestamp": "6:14",
+      "text": "schemas. Add them up, and suddenly you're burning 30,000 tokens per query before you even type your prompt. That's"
+    },
+    {
+      "timestamp": "6:21",
+      "text": "expensive, slow, and totally unsustainable at scale. This project solves that."
+    },
+    {
+      "timestamp": "6:27",
+      "text": "Bring some Kauawaii energy to your terminal with Cly Waifu Tamagotchi. It's a CLI ASKY avatar that lives right in your command line. Dress them up,"
+    },
+    {
+      "timestamp": "6:36",
+      "text": "encourage them, or just let them hang out in background mode. Customize expressions, clothes, and even colors, all saved in your config so your little"
+    },
+    {
+      "timestamp": "6:44",
+      "text": "asky buddy remembers you. Navigate like a Vim master with H, J, K, L keys, and interact every 5 seconds without messy"
+    },
+    {
+      "timestamp": "6:53",
+      "text": "loops. Perfect for coders who want a touch of fun while they grind."
+    },
+    {
+      "timestamp": "6:58",
+      "text": "Transform your Minecraft world with Falcraft, the fabric mod that brings AI powered 3D generation and texture remixing straight into your game."
+    },
+    {
+      "timestamp": "7:07",
+      "text": "Generate entire 3D structures just by typing a text prompt. Castles, towers, anything you can imagine. Point at a"
+    },
+    {
+      "timestamp": "7:15",
+      "text": "block and watch AI create new designs with perceptual color matching for human vision accurate results. Textures apply"
+    },
+    {
+      "timestamp": "7:23",
+      "text": "instantly. No restart needed. And background threads keep your game smooth and lag-free."
+    },
+    {
+      "timestamp": "7:29",
+      "text": "Meet Flame Haven File Search. Your documents instantly searchable in just minutes. From zero to production in under 5 minutes. No complex"
+    },
+    {
+      "timestamp": "7:38",
+      "text": "infrastructure. No cloud required. AI powered semantic search means you can ask natural language questions and get answers linked back to your source"
+    },
+    {
+      "timestamp": "7:46",
+      "text": "documents. PDFs, DocX, all supported up to 50 megabytes. comes with a Python SDK, REST API, and Swagger UI, plus one"
+    },
+    {
+      "timestamp": "7:55",
+      "text": "command Docker deployment with persistence."
+    },
+    {
+      "timestamp": "7:59",
+      "text": "Enter MFAT check, the tool that reveals which Azure AD resources still issue tokens without MFA enforcement using the"
+    },
+    {
+      "timestamp": "8:06",
+      "text": "ROC flow. Enter MFAT check runs ROC login attempts across dozens of Microsoft cloud resources, checking whether MFA is actually being enforced."
+    },
+    {
+      "timestamp": "8:15",
+      "text": "If a resource hands out a token with no MFA, you'll see it immediately colorcoded as MFA not required. This"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "tool is for authorized testing only, but if you're securing your organization, enter MFAC check shows you exactly where MFA enforcement is still asleep."
+    },
+    {
+      "timestamp": "8:33",
+      "text": "Let's talk about Meridian, a zero config setup for cloud code that makes AI assisted development predictable and reliable. Copy two folders, make a"
+    },
+    {
+      "timestamp": "8:41",
+      "text": "couple scripts executable, and you're done. Meridian preserves context, enforces project rules, and manages tasks and memory. All behind the scenes."
+    },
+    {
+      "timestamp": "8:51",
+      "text": "No commands, no API keys, no workflow changes. Just consistent, deterministic clawed behavior straight from your repo."
+    },
+    {
+      "timestamp": "8:58",
+      "text": "It's AI development, but without the surprises."
+    },
+    {
+      "timestamp": "9:01",
+      "text": "[Music]"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "Ever wish reverse engineering was faster, more reliable, and didn't rely on messy gooies? Meet Kernigent, the tool that turns any binary into a"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "conversation. It creates a portable snapshot of your binary and lets an AI answer your questions with real evidence, functions, strings, cross"
+    },
+    {
+      "timestamp": "9:20",
+      "text": "references, decompiled code. Run it in Docker, CI pipelines, or on your local machine and get repeatable, auditable"
+    },
+    {
+      "timestamp": "9:27",
+      "text": "results every time. It works with any LLM, OpenAI, Gemini, you name it."
+    },
+    {
+      "timestamp": "9:34",
+      "text": "Shenhen Visa modern TypeScript library for checking Shenhen visa appointment availability across 18 countries. at"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "giving you embassy contacts, visa requirements, and full document checklists all in one call. The latest version is fast thanks to in-memory"
+    },
+    {
+      "timestamp": "9:50",
+      "text": "caching, dropping repeated check times from 300 milliseconds to just 0.03 milliseconds."
+    },
+    {
+      "timestamp": "9:57",
+      "text": "Plus, track your success rates, response times, and cache efficiency with built-in stats and performance monitoring."
+    },
+    {
+      "timestamp": "10:05",
+      "text": "Agent Evolver, the AI that levels up on its own. It's a self-evolving agent system that learns without you having to"
+    },
+    {
+      "timestamp": "10:12",
+      "text": "teach it. Step one, self-questing. It explores its environment and makes its own tasks. No more manual data set"
+    },
+    {
+      "timestamp": "10:19",
+      "text": "headaches. Step two, self-navigating. It reuses past experiences to explore smarter and faster. Think of it as AI"
+    },
+    {
+      "timestamp": "10:27",
+      "text": "memory on steroids. Step three, selfattributing. It figures out which moves actually matter, giving precise credit to every action."
+    },
+    {
+      "timestamp": "10:36",
+      "text": "Ever struggled getting your documents ready for AI retrieval? Meet Rag Chunk."
+    },
+    {
+      "timestamp": "10:41",
+      "text": "It's a Python CLI that parses and chunks your markdown files so your retrieval augmented generation workflows work"
+    },
+    {
+      "timestamp": "10:48",
+      "text": "flawlessly. Choose from three chunking strategies: fixed size, sliding window, or paragraph, and see which one gives"
+    },
+    {
+      "timestamp": "10:56",
+      "text": "the best results. Want to know how well it works? Rag Chunk evaluates recall with test JSON files so you can benchmark like a pro."
+    },
+    {
+      "timestamp": "11:05",
+      "text": "Dragable video controls built with React Native. It's a smooth, interactive video UI with a play button you can drag, and"
+    },
+    {
+      "timestamp": "11:13",
+      "text": "when you move it, the previous and next skip buttons pop out. All powered right on the UI thread for buttery smooth animations. Enjoy physics-based"
+    },
+    {
+      "timestamp": "11:21",
+      "text": "gestures, springy animations, and a gorgeous glass style iOS inspired interface. Full screen background videos"
+    },
+    {
+      "timestamp": "11:29",
+      "text": "works on both iOS and Android. Every interaction feels responsive and 60 frames per second crisp."
+    },
+    {
+      "timestamp": "11:37",
+      "text": "Ever wish you could snap your files away just like Thanos? Meet Hanos, the CLI tool that perfectly deletes half of your files, balanced, as all things should"
+    },
+    {
+      "timestamp": "11:46",
+      "text": "be. Random selection ensures exactly half vanish. But don't worry, safety first. Confirm before deletion or do a"
+    },
+    {
+      "timestamp": "11:53",
+      "text": "dry run to see what would go without actually losing anything. Want to include subfolders? It's got recursive support. Plus, a beautiful colorful CLI"
+    },
+    {
+      "timestamp": "12:01",
+      "text": "with emojis keeps you entertained while it works."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome, your daily dose of the hottest open- source repos lighting up GitHub right now. In"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "this episode of GitHub Trending Today, number eight, we're checking out 22 trending open- source projects that are exploding in popularity. If you love"
+        }
+      ]
+    },
+    {
+      "tStartMs": 15000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "discovering powerful open source like this, smash that like button and let's jump straight into today's trending repos."
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tonell is a LLM friendly serialization format that can cut your data size by up to 50 to 60% compared to JSON, which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "also means dramatically lower LM token costs. And unlike binary formats, Tunnel stays completely human readable. But Tunnel isn't just a format. It's a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 41000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full-blown data platform. You get a JSON path style query API, CRUD modification tools, hashing and bree indexes, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even bit packing for boolean data. It's zero dependencies, built-in pure TypeScript, browser ready at just 10 KB"
+        }
+      ]
+    },
+    {
+      "tStartMs": 56000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gzipped. Tiny diffusion, a character level language diffusion model for text generation. It's built as a modified"
+        }
+      ]
+    },
+    {
+      "tStartMs": 64000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "version of the nanohat GPT implementation. But here's the twist."
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of traditional auto reggressive generation, this model uses diffusion techniques to generate text character by"
+        }
+      ]
+    },
+    {
+      "tStartMs": 75000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "character. The best part, this model is only 10.7 million parameters, which means it's incredibly lightweight, easy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to experiment with, and runs comfortably on a laptop without a GPU supercomput."
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You know those multi-line shell commands you copy from docs, blogs, or chatg, and then they don't paste cleanly into your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal? Yeah, Trimmy fixes that. Trim is a tiny Mac OS menu bar app with one job. Paste once, run once. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "automatically flattens messy multi-line shell snippets into a clean singleline command that actually runs. There are optional toggles, too, like keeping"
+        }
+      ]
+    },
+    {
+      "tStartMs": 113000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "intentional blank lines, stripping box drawing characters from fancy prompts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 119000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is an incredibly practical tool for anyone on Windows who needs fast speech to text, especially in lockdown"
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "corporate environments. This is Chirp, a fully local dictation app powered by Parakeet V3 ST. Parakeet 3 delivers"
+        }
+      ]
+    },
+    {
+      "tStartMs": 134000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "speech recognition accuracy nearly identical to Whisper Large V3. We're talking multilingual 4.1 versus 5.05,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "but it runs 17x faster and needs no GPU at all, just your CPU. That means Chirp gives you high-end transcription quality without any of the heavy hardware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 154000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ISOBridge, a complete ISO 8583 parser, builder, and forwarder built in. .NET 6."
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever touched ISO 8583, the decades old format behind POS transactions, ATMs, and bank switches, you know it's a jungle. Every vendor has"
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "its own dialect. The tooling is scattered or proprietary, and debugging messages often feels like reading hieroglyphics."
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ISOBridge was built to end that pain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 179000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a fully functional bridge that parses ISO 8583 messages in binary, builds ISO messages cleanly from JSON,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 187000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and logs every single transaction with full audibility."
+        }
+      ]
+    },
+    {
+      "tStartMs": 191000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Sound Monitor, a noise pollution documentation tool built to record, track, and log excessively loud noises with real evidence you can take to your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "city council. The goal is simple. If cars are too loud and you need sleep, this app helps you prove it. Sound"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Monitor continuously records audio from any selected microphone, monitors realtime decel levels, and automatically logs spikes when noise passes your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 216000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "threshold. It even includes low frequency detection, targeting that deep 20 to 200Hz rumble that loud cars and modified exhausts are notorious for."
+        }
+      ]
+    },
+    {
+      "tStartMs": 228000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stop paying for overpriced email tools you don't even like. Camp just dropped and it might be the cleanest open-source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 235000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mailchimp alternative yet. Camp is a lightweight self-hosted email marketing platform built entirely in Go. No bloat,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 243000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no dependency soup. You can send campaigns, manage contacts, segment lists, and track analytics like opens and clicks. All without giving your data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to a third party. Create emails with a reusable template system. Import or organize your audience and hit send."
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hopex MCP server, a model context protocol server that gives AI assistants the ability to run real code inside"
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "isolated cloud containers safely, quickly, and with full control. It executes Python, JavaScript, Bash, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Go in fully isolated environments complete with pre-installed data science tools like pandas, numpy, and mapplotib."
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It can run system commands, manage files, spin up background processes, and handle longrunning tasks, all without touching your local machine."
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Herilla CRM, open-source CRM built for organizations that need serious customer engagement and workflow automation without the complexity of heavyweight"
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commercial systems. You get robust people management with accounts, contacts, and detailed role-based permissions. The sales pipeline includes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 309000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "leads, opportunities, customizable stages, forecasting tools, and even big deal alerts to notify your team when high-val opportunities pop up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 320000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next on the list is a tool that makes managing traffic feel effortless, especially if you're tired of wrestling with complex YAML files. This is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Traficker, a visual configuration manager that brings simplicity, safety, and clarity to Trafic setups. Instead of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "manually editing routers, services, and middlewares, Treyficker gives you a clean, guided web interface where every field validates your input in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No more indentation mistakes, missing fields, or mysterious config failures."
+        }
+      ]
+    },
+    {
+      "tStartMs": 351000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next project is a big one for anyone working with model context protocol and hitting token limits or scaling headaches. This is the MCP code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "execution server and it tackles one of the biggest pain points in MCP today."
+        }
+      ]
+    },
+    {
+      "tStartMs": 365000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "context bloat. If you connect Claude to a bunch of MCP servers, say 10, 20, or even 50, each one brings its own tool"
+        }
+      ]
+    },
+    {
+      "tStartMs": 374000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "schemas. Add them up, and suddenly you're burning 30,000 tokens per query before you even type your prompt. That's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 381000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "expensive, slow, and totally unsustainable at scale. This project solves that."
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bring some Kauawaii energy to your terminal with Cly Waifu Tamagotchi. It's a CLI ASKY avatar that lives right in your command line. Dress them up,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 396000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "encourage them, or just let them hang out in background mode. Customize expressions, clothes, and even colors, all saved in your config so your little"
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "asky buddy remembers you. Navigate like a Vim master with H, J, K, L keys, and interact every 5 seconds without messy"
+        }
+      ]
+    },
+    {
+      "tStartMs": 413000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loops. Perfect for coders who want a touch of fun while they grind."
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Transform your Minecraft world with Falcraft, the fabric mod that brings AI powered 3D generation and texture remixing straight into your game."
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generate entire 3D structures just by typing a text prompt. Castles, towers, anything you can imagine. Point at a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 435000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "block and watch AI create new designs with perceptual color matching for human vision accurate results. Textures apply"
+        }
+      ]
+    },
+    {
+      "tStartMs": 443000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "instantly. No restart needed. And background threads keep your game smooth and lag-free."
+        }
+      ]
+    },
+    {
+      "tStartMs": 449000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Flame Haven File Search. Your documents instantly searchable in just minutes. From zero to production in under 5 minutes. No complex"
+        }
+      ]
+    },
+    {
+      "tStartMs": 458000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "infrastructure. No cloud required. AI powered semantic search means you can ask natural language questions and get answers linked back to your source"
+        }
+      ]
+    },
+    {
+      "tStartMs": 466000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "documents. PDFs, DocX, all supported up to 50 megabytes. comes with a Python SDK, REST API, and Swagger UI, plus one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 475000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "command Docker deployment with persistence."
+        }
+      ]
+    },
+    {
+      "tStartMs": 479000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Enter MFAT check, the tool that reveals which Azure AD resources still issue tokens without MFA enforcement using the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ROC flow. Enter MFAT check runs ROC login attempts across dozens of Microsoft cloud resources, checking whether MFA is actually being enforced."
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If a resource hands out a token with no MFA, you'll see it immediately colorcoded as MFA not required. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tool is for authorized testing only, but if you're securing your organization, enter MFAC check shows you exactly where MFA enforcement is still asleep."
+        }
+      ]
+    },
+    {
+      "tStartMs": 513000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's talk about Meridian, a zero config setup for cloud code that makes AI assisted development predictable and reliable. Copy two folders, make a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "couple scripts executable, and you're done. Meridian preserves context, enforces project rules, and manages tasks and memory. All behind the scenes."
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No commands, no API keys, no workflow changes. Just consistent, deterministic clawed behavior straight from your repo."
+        }
+      ]
+    },
+    {
+      "tStartMs": 538000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's AI development, but without the surprises."
+        }
+      ]
+    },
+    {
+      "tStartMs": 541000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[Music]"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever wish reverse engineering was faster, more reliable, and didn't rely on messy gooies? Meet Kernigent, the tool that turns any binary into a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "conversation. It creates a portable snapshot of your binary and lets an AI answer your questions with real evidence, functions, strings, cross"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "references, decompiled code. Run it in Docker, CI pipelines, or on your local machine and get repeatable, auditable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 567000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "results every time. It works with any LLM, OpenAI, Gemini, you name it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shenhen Visa modern TypeScript library for checking Shenhen visa appointment availability across 18 countries. at"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "giving you embassy contacts, visa requirements, and full document checklists all in one call. The latest version is fast thanks to in-memory"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "caching, dropping repeated check times from 300 milliseconds to just 0.03 milliseconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 597000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Plus, track your success rates, response times, and cache efficiency with built-in stats and performance monitoring."
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent Evolver, the AI that levels up on its own. It's a self-evolving agent system that learns without you having to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 612000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "teach it. Step one, self-questing. It explores its environment and makes its own tasks. No more manual data set"
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "headaches. Step two, self-navigating. It reuses past experiences to explore smarter and faster. Think of it as AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 627000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "memory on steroids. Step three, selfattributing. It figures out which moves actually matter, giving precise credit to every action."
+        }
+      ]
+    },
+    {
+      "tStartMs": 636000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever struggled getting your documents ready for AI retrieval? Meet Rag Chunk."
+        }
+      ]
+    },
+    {
+      "tStartMs": 641000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's a Python CLI that parses and chunks your markdown files so your retrieval augmented generation workflows work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 648000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "flawlessly. Choose from three chunking strategies: fixed size, sliding window, or paragraph, and see which one gives"
+        }
+      ]
+    },
+    {
+      "tStartMs": 656000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the best results. Want to know how well it works? Rag Chunk evaluates recall with test JSON files so you can benchmark like a pro."
+        }
+      ]
+    },
+    {
+      "tStartMs": 665000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dragable video controls built with React Native. It's a smooth, interactive video UI with a play button you can drag, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 673000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "when you move it, the previous and next skip buttons pop out. All powered right on the UI thread for buttery smooth animations. Enjoy physics-based"
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "gestures, springy animations, and a gorgeous glass style iOS inspired interface. Full screen background videos"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "works on both iOS and Android. Every interaction feels responsive and 60 frames per second crisp."
+        }
+      ]
+    },
+    {
+      "tStartMs": 697000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever wish you could snap your files away just like Thanos? Meet Hanos, the CLI tool that perfectly deletes half of your files, balanced, as all things should"
+        }
+      ]
+    },
+    {
+      "tStartMs": 706000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "be. Random selection ensures exactly half vanish. But don't worry, safety first. Confirm before deletion or do a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 713000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dry run to see what would go without actually losing anything. Want to include subfolders? It's got recursive support. Plus, a beautiful colorful CLI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with emojis keeps you entertained while it works."
+        }
+      ]
+    }
+  ]
+}

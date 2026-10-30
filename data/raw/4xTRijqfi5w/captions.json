@@ -1,0 +1,1268 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back. This is GitHub Trending Weekly number 10, where we explore the hottest open- source projects on GitHub,"
+    },
+    {
+      "timestamp": "0:07",
+      "text": "tools, libraries that developers everywhere are talking about right now."
+    },
+    {
+      "timestamp": "0:12",
+      "text": "In this episode, we're diving into 23 trending repositories that you'll absolutely want to bookmark. Let's jump right into this week's most exciting GitHub discoveries."
+    },
+    {
+      "timestamp": "0:24",
+      "text": "Xleak. If you've ever wanted to open Excel files directly in your terminal, this one's going to blow your mind."
+    },
+    {
+      "timestamp": "0:30",
+      "text": "Xleak is a fast interactive Excel viewer built with Rust and Ratatouille, turning your terminal into a full spreadsheet"
+    },
+    {
+      "timestamp": "0:38",
+      "text": "viewer. No Microsoft Excel, no guey apps, just pure terminal power. It beautifully renders tables, handles"
+    },
+    {
+      "timestamp": "0:45",
+      "text": "different data types intelligently, and supports every major spreadsheet format."
+    },
+    {
+      "timestamp": "0:50",
+      "text": "Built on the blazing fast Calamine Excel parser, Xleek turns heavy spreadsheets into a seamless terminal experience."
+    },
+    {
+      "timestamp": "0:58",
+      "text": "Up next is TalkTop, a sleek terminal-based dashboard designed for developers who want instant insight into their AI usage without clicking through"
+    },
+    {
+      "timestamp": "1:07",
+      "text": "multiple dashboards. With TalkTop, you can monitor your OpenAI and Anthropic token usage and costs right from your"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "terminal. No browser tabs, no switching between accounts, no clutter, just a clean, focused TUE that shows exactly"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "how much you're using and what it's costing."
+    },
+    {
+      "timestamp": "1:25",
+      "text": "Next project is No Longer Evil, and it's all about taking back control of your smart homeware. No Longer Evil is a"
+    },
+    {
+      "timestamp": "1:33",
+      "text": "right to repair firmware and cloud replacement for Nest thermostats. If you're tired of your thermostat being tied to Google's cloud or worried about"
+    },
+    {
+      "timestamp": "1:41",
+      "text": "data collection, this project lets you break free completely. You flash custom firmware onto your Nest device,"
+    },
+    {
+      "timestamp": "1:49",
+      "text": "replacing key bootloadader and kernel components. Then all of the thermostat's network traffic gets transparently redirected away from Google's servers."
+    },
+    {
+      "timestamp": "2:00",
+      "text": "Proxy bridge, a lightweight alternative to Proxifier. Proxybridge gives you transparent proxy routing for any Windows application, even ones that have"
+    },
+    {
+      "timestamp": "2:08",
+      "text": "zero proxy support built in. Thanks to kernel level interception using wind divert, it can capture and redirect both"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "TCP and UDP traffic from specific processes through SOCK 5 or HTTP proxies. Want a game to go through a"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "SOCK 5 proxy, block a background app from touching the internet, and keep your browser direct? Easy."
+    },
+    {
+      "timestamp": "2:31",
+      "text": "Otterlang, a fresh programming language that aims to blend the clarity of Python with the raw performance of native binaries. Otterlang is an indentation"
+    },
+    {
+      "timestamp": "2:40",
+      "text": "sensitive statically typed language powered by an LLVM backend. That means you write code with a clean, readable syntax, but under the hood, it compiles down to fast optimized machine code."
+    },
+    {
+      "timestamp": "2:51",
+      "text": "It's designed to feel simple, modern, and productive without giving up low-level efficiency."
+    },
+    {
+      "timestamp": "2:57",
+      "text": "The standout feature, transparent rust, FFI. You can pull in any rust crate and use it directly in Otterlang."
+    },
+    {
+      "timestamp": "3:06",
+      "text": "Dataomi, a terminalbased tool designed to help you peel back the layers of your columnar data files and understand"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "what's inside. Data Nomi gives you an interactive anatomystyle view of your data, showing structure, metadata,"
+    },
+    {
+      "timestamp": "3:20",
+      "text": "statistics, and internal layout in a way that's clear, visual, and perfect for developers working with big data formats."
+    },
+    {
+      "timestamp": "3:29",
+      "text": "Whether you're optimizing storage or just wanting to understand how parquet files are structured on disk, Dataomi gives you a clean interactive breakdown directly in your terminal."
+    },
+    {
+      "timestamp": "3:40",
+      "text": "Tiny ETL, a zero configuration ETL tool packed into a single ultra small binary."
+    },
+    {
+      "timestamp": "3:46",
+      "text": "Tiny ETL is all about instant data movement and transformation. No dependencies, no config files, no"
+    },
+    {
+      "timestamp": "3:53",
+      "text": "environment setup. You just run one command and it handles the rest. And despite being only 12.5 megabytes, this thing moves data at over 180,000 rows"
+    },
+    {
+      "timestamp": "4:02",
+      "text": "per second, making it ideal for huge data sets and quick pipelines. Tiny ETL is one of the simple ways to move data between formats and databases."
+    },
+    {
+      "timestamp": "4:12",
+      "text": "File SSH, a Lightning TUI file browser for remote servers that makes SSH file management feel effortless. With a clean"
+    },
+    {
+      "timestamp": "4:20",
+      "text": "terminal UI, you can browse, modify, and delete files directly over SSH without ever dropping to a shell. Need to"
+    },
+    {
+      "timestamp": "4:28",
+      "text": "download an entire directory? File SSH handles it with recursive downloads and parallel traversal, making large transfers surprisingly quick. And when"
+    },
+    {
+      "timestamp": "4:37",
+      "text": "you need to jump into a folder, you can instantly open an SSH session right from the interface. No typing paths, no hassle."
+    },
+    {
+      "timestamp": "4:45",
+      "text": "Tunify, a human readable serialization format that can slash your token usage by 30 to 60%. Tune gives you CSV level"
+    },
+    {
+      "timestamp": "4:54",
+      "text": "compactness, but with real structure, so you're not sacrificing readability or nesting the way you would with raw CSV."
+    },
+    {
+      "timestamp": "5:01",
+      "text": "It's perfect for passing structured data into LLMs while keeping your context window lean and your API bill under control. It supports full typing,"
+    },
+    {
+      "timestamp": "5:10",
+      "text": "strings, numbers, booleans, plus nested objects, folded keys, and even automatic table formatting for arrays."
+    },
+    {
+      "timestamp": "5:18",
+      "text": "Deep Agent Food Tours, an AI powered culinary tour planner built with Langchain deep agents, Google Maps, and Tavali Research. With interactive map"
+    },
+    {
+      "timestamp": "5:27",
+      "text": "interface, you can drop search points anywhere and instantly visualize the neighborhood coverage areas. Behind the scenes, overlapping radi scanning ensure"
+    },
+    {
+      "timestamp": "5:36",
+      "text": "you never miss a hidden gem. Task delegation through sub aent middleware, planning with Toto List middleware."
+    },
+    {
+      "timestamp": "5:43",
+      "text": "The output clean autogenerated HTML dashboards full of curated establishments."
+    },
+    {
+      "timestamp": "5:50",
+      "text": "Ref, a fully customizable HTML-based interactive reference sheet system."
+    },
+    {
+      "timestamp": "5:56",
+      "text": "Everything lives in one annotated JavaScript file, making it super accessible even for non-coders. You can showcase your character from multiple"
+    },
+    {
+      "timestamp": "6:04",
+      "text": "angles, swap outfits on the fly, and use built-in toggle switches to hide obstructing elements like hair, accessories, or tails. There's also a"
+    },
+    {
+      "timestamp": "6:13",
+      "text": "rich information panel where you can add bios, lists, notes, even color swatches with one-click hex copy buttons."
+    },
+    {
+      "timestamp": "6:22",
+      "text": "MCP checkpoint, a security scanner designed specifically for MCP servers across all major Agentic IDEs and clients. This thing autodiscovers your"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "entire MCP setup, cursor, claw desktop, you name it, and maps out every connected server, tool, and resource."
+    },
+    {
+      "timestamp": "6:38",
+      "text": "MCP Checkpoint runs deep targeted security analysis, detecting prompt injection risks, cross- server tool shadowing, tool poisoning, name"
+    },
+    {
+      "timestamp": "6:46",
+      "text": "ambiguity, and a whole suite of vulnerabilities unique to MCP's agent-driven workflows."
+    },
+    {
+      "timestamp": "6:53",
+      "text": "MiniRAK 1U PI NAS, a fully rack mountable 10-in NAS built around the Raspberry Pi 5 and a 5.25 in hot swap"
+    },
+    {
+      "timestamp": "7:01",
+      "text": "drive bay. Designed entirely in FreeCAD and impressively on the creator's first CAD project, this setup fits together"
+    },
+    {
+      "timestamp": "7:08",
+      "text": "cleanly on the first print. The Pi 5 runs off PoE Plus from a switch while the hot swap bay is powered through dual"
+    },
+    {
+      "timestamp": "7:16",
+      "text": "Molex connectors from a separate PSU in the mini rack. The build boots open media vault from USB, but you can drop in any OS you prefer."
+    },
+    {
+      "timestamp": "7:25",
+      "text": "Open wit, a high performance observability platform built to handle metrics, logs, and traces at massive scale. Think of it as a modern"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "alternative to elastic search, Loki, and even data dog. Openwit is written in Rust and powered by Apache Arrow and"
+    },
+    {
+      "timestamp": "7:40",
+      "text": "Parquet, giving it blazing fast ingestion and efficient columnar storage. Instead of a streambased pipeline, it uses a batch oriented"
+    },
+    {
+      "timestamp": "7:49",
+      "text": "architecture for predictable performance. And it tracks the entire pipeline inside Poster SQL for full transparency and traceability."
+    },
+    {
+      "timestamp": "7:59",
+      "text": "If you've ever built something cool with Frida, you know the pain. Huge binaries, root requirements, and distribution headaches that make sharing your plugins"
+    },
+    {
+      "timestamp": "8:07",
+      "text": "with normal users nearly impossible. Fry fixes all of that. It takes your Fred to script and packages it into clean"
+    },
+    {
+      "timestamp": "8:15",
+      "text": "portable executables, exposed modules, patched APKs, LD preload, shared objects, even injectable DLS. Suddenly,"
+    },
+    {
+      "timestamp": "8:23",
+      "text": "your Frightbased tools become something you can actually ship to end users."
+    },
+    {
+      "timestamp": "8:29",
+      "text": "Rock, the reinforcement open construction kit, a massively scalable environment management framework for agentic reinforcement learning. Whether"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "you're developing new environments, running thousands of parallel simulations, or building full agent pipelines, Rock gives you a clean,"
+    },
+    {
+      "timestamp": "8:47",
+      "text": "powerful way to build, manage, and schedule RL environments at scale. Rock uses a modern client server architecture"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "with optional isolation layers to keep environments stable and reproducible."
+    },
+    {
+      "timestamp": "9:00",
+      "text": "Tokquin, a command line tool that instantly estimates token usage and API cost for prompts across all major LLM providers. Built in Rust for raw speed"
+    },
+    {
+      "timestamp": "9:10",
+      "text": "and rock solid reliability, Tokuin helps you understand exactly how much your prompts will cost before you run them."
+    },
+    {
+      "timestamp": "9:16",
+      "text": "Count tokens for models like GPT, claude, and more. Break down usage by system, user, and assistant roles."
+    },
+    {
+      "timestamp": "9:24",
+      "text": "Compare costs across multiple providers and export everything as clean text or JSON for automated workflows."
+    },
+    {
+      "timestamp": "9:32",
+      "text": "Straight to video is a fully in browser video optimization tool powered by the webc API designed to remix and re-encode"
+    },
+    {
+      "timestamp": "9:41",
+      "text": "videos to meet Instagram compatible constraints. A practical lowest common denominator for web apps. By shifting heavy transcoding work from your"
+    },
+    {
+      "timestamp": "9:49",
+      "text": "back-end servers to the user's own hardware, it dramatically cuts upload times, bandwidth usage, and hosting costs. The project was born out of"
+    },
+    {
+      "timestamp": "9:57",
+      "text": "frustration with slow uploads and expensive serverside transcoding."
+    },
+    {
+      "timestamp": "10:03",
+      "text": "Kimmy K2 Manom, a tool for anyone creating math or physics explainer videos, especially fans of Manom. This"
+    },
+    {
+      "timestamp": "10:10",
+      "text": "Python package uses Moonshot AI's Kimmy K2 thinking model to automatically generate rich structured MANM animation"
+    },
+    {
+      "timestamp": "10:17",
+      "text": "prompts. It acts like a full creative pipeline, building conceptual knowledge trees, enriching them with math, planning visuals, and composing long"
+    },
+    {
+      "timestamp": "10:26",
+      "text": "form narrative scripts, sometimes over 2,000 words. Kim Kumman essentially turns abstract ideas into full cinematic math animations."
+    },
+    {
+      "timestamp": "10:37",
+      "text": "What if your terminal apps could look this good? Check out 2IP chart, a fully customizable pie chart widget for Ratatouille TUI apps. Color your slices"
+    },
+    {
+      "timestamp": "10:46",
+      "text": "however you want. Add labels, percentages, and legends. Even wrap it in a stylish block if you like. And the"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "kicker, high resolution mode with braille patterns. Eight iikes the detail right in your terminal. All of this with"
+    },
+    {
+      "timestamp": "11:00",
+      "text": "zeroost abstractions, meaning it's lightweight, fast, and easy to integrate."
+    },
+    {
+      "timestamp": "11:06",
+      "text": "Tired of clunky deployments? Meet Halo, the universal container deployment tool."
+    },
+    {
+      "timestamp": "11:11",
+      "text": "Deploy apps with zero downtime, automatic SSL, and effortless scaling."
+    },
+    {
+      "timestamp": "11:15",
+      "text": "No CI/CD nightmares, no manual load balancer configs. Build locally, push to your server or registry. And Halo"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "handles multi-server targets, staging, production, or even different regions, all from one YAML file. Monitor, roll back, or stop any target with simple commands."
+    },
+    {
+      "timestamp": "11:34",
+      "text": "Tired of doom scrolling on Twitter? Meet Tweets Against Humanity. The card game Twist on your feed. Instead of endless"
+    },
+    {
+      "timestamp": "11:41",
+      "text": "scrolling, you get a hand of tweets and must pick one to read, discarding the rest. It's like a deck building rogike, but for your social feed. Fun,"
+    },
+    {
+      "timestamp": "11:50",
+      "text": "strategic, and keeps you mindful. Avoid decision fatigue, discover content you actually want, and make Twitter less exhausting."
+    },
+    {
+      "timestamp": "12:00",
+      "text": "Flying in Star Citizen can get complicated, especially with joysticks, keyboards, and mice all at once. Enter"
+    },
+    {
+      "timestamp": "12:07",
+      "text": "Star Citizen Binding Utility, your ultimate control hub outside the game."
+    },
+    {
+      "timestamp": "12:12",
+      "text": "Visualize your joystick layout, see every button in action, and customize templates for dual stick setups."
+    },
+    {
+      "timestamp": "12:18",
+      "text": "Automatically sync with Star Citizen, detect unknown button IDs, and avoid binding conflicts. Whether it's FPS, vehicles, or spaceships, this tool keeps"
+    },
+    {
+      "timestamp": "12:27",
+      "text": "all your controls organized, editable, and ready to go."
+    },
+    {
+      "timestamp": "12:32",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back. This is GitHub Trending Weekly number 10, where we explore the hottest open- source projects on GitHub,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tools, libraries that developers everywhere are talking about right now."
+        }
+      ]
+    },
+    {
+      "tStartMs": 12000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "In this episode, we're diving into 23 trending repositories that you'll absolutely want to bookmark. Let's jump right into this week's most exciting GitHub discoveries."
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Xleak. If you've ever wanted to open Excel files directly in your terminal, this one's going to blow your mind."
+        }
+      ]
+    },
+    {
+      "tStartMs": 30000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Xleak is a fast interactive Excel viewer built with Rust and Ratatouille, turning your terminal into a full spreadsheet"
+        }
+      ]
+    },
+    {
+      "tStartMs": 38000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "viewer. No Microsoft Excel, no guey apps, just pure terminal power. It beautifully renders tables, handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 45000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "different data types intelligently, and supports every major spreadsheet format."
+        }
+      ]
+    },
+    {
+      "tStartMs": 50000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Built on the blazing fast Calamine Excel parser, Xleek turns heavy spreadsheets into a seamless terminal experience."
+        }
+      ]
+    },
+    {
+      "tStartMs": 58000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Up next is TalkTop, a sleek terminal-based dashboard designed for developers who want instant insight into their AI usage without clicking through"
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "multiple dashboards. With TalkTop, you can monitor your OpenAI and Anthropic token usage and costs right from your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal. No browser tabs, no switching between accounts, no clutter, just a clean, focused TUE that shows exactly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "how much you're using and what it's costing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 85000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next project is No Longer Evil, and it's all about taking back control of your smart homeware. No Longer Evil is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "right to repair firmware and cloud replacement for Nest thermostats. If you're tired of your thermostat being tied to Google's cloud or worried about"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data collection, this project lets you break free completely. You flash custom firmware onto your Nest device,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "replacing key bootloadader and kernel components. Then all of the thermostat's network traffic gets transparently redirected away from Google's servers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Proxy bridge, a lightweight alternative to Proxifier. Proxybridge gives you transparent proxy routing for any Windows application, even ones that have"
+        }
+      ]
+    },
+    {
+      "tStartMs": 128000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zero proxy support built in. Thanks to kernel level interception using wind divert, it can capture and redirect both"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TCP and UDP traffic from specific processes through SOCK 5 or HTTP proxies. Want a game to go through a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SOCK 5 proxy, block a background app from touching the internet, and keep your browser direct? Easy."
+        }
+      ]
+    },
+    {
+      "tStartMs": 151000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Otterlang, a fresh programming language that aims to blend the clarity of Python with the raw performance of native binaries. Otterlang is an indentation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 160000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "sensitive statically typed language powered by an LLVM backend. That means you write code with a clean, readable syntax, but under the hood, it compiles down to fast optimized machine code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's designed to feel simple, modern, and productive without giving up low-level efficiency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 177000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The standout feature, transparent rust, FFI. You can pull in any rust crate and use it directly in Otterlang."
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dataomi, a terminalbased tool designed to help you peel back the layers of your columnar data files and understand"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "what's inside. Data Nomi gives you an interactive anatomystyle view of your data, showing structure, metadata,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 200000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "statistics, and internal layout in a way that's clear, visual, and perfect for developers working with big data formats."
+        }
+      ]
+    },
+    {
+      "tStartMs": 209000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whether you're optimizing storage or just wanting to understand how parquet files are structured on disk, Dataomi gives you a clean interactive breakdown directly in your terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 220000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tiny ETL, a zero configuration ETL tool packed into a single ultra small binary."
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tiny ETL is all about instant data movement and transformation. No dependencies, no config files, no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 233000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "environment setup. You just run one command and it handles the rest. And despite being only 12.5 megabytes, this thing moves data at over 180,000 rows"
+        }
+      ]
+    },
+    {
+      "tStartMs": 242000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "per second, making it ideal for huge data sets and quick pipelines. Tiny ETL is one of the simple ways to move data between formats and databases."
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "File SSH, a Lightning TUI file browser for remote servers that makes SSH file management feel effortless. With a clean"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminal UI, you can browse, modify, and delete files directly over SSH without ever dropping to a shell. Need to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "download an entire directory? File SSH handles it with recursive downloads and parallel traversal, making large transfers surprisingly quick. And when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you need to jump into a folder, you can instantly open an SSH session right from the interface. No typing paths, no hassle."
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tunify, a human readable serialization format that can slash your token usage by 30 to 60%. Tune gives you CSV level"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compactness, but with real structure, so you're not sacrificing readability or nesting the way you would with raw CSV."
+        }
+      ]
+    },
+    {
+      "tStartMs": 301000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's perfect for passing structured data into LLMs while keeping your context window lean and your API bill under control. It supports full typing,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strings, numbers, booleans, plus nested objects, folded keys, and even automatic table formatting for arrays."
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deep Agent Food Tours, an AI powered culinary tour planner built with Langchain deep agents, Google Maps, and Tavali Research. With interactive map"
+        }
+      ]
+    },
+    {
+      "tStartMs": 327000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interface, you can drop search points anywhere and instantly visualize the neighborhood coverage areas. Behind the scenes, overlapping radi scanning ensure"
+        }
+      ]
+    },
+    {
+      "tStartMs": 336000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you never miss a hidden gem. Task delegation through sub aent middleware, planning with Toto List middleware."
+        }
+      ]
+    },
+    {
+      "tStartMs": 343000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The output clean autogenerated HTML dashboards full of curated establishments."
+        }
+      ]
+    },
+    {
+      "tStartMs": 350000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ref, a fully customizable HTML-based interactive reference sheet system."
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything lives in one annotated JavaScript file, making it super accessible even for non-coders. You can showcase your character from multiple"
+        }
+      ]
+    },
+    {
+      "tStartMs": 364000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "angles, swap outfits on the fly, and use built-in toggle switches to hide obstructing elements like hair, accessories, or tails. There's also a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 373000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rich information panel where you can add bios, lists, notes, even color swatches with one-click hex copy buttons."
+        }
+      ]
+    },
+    {
+      "tStartMs": 382000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP checkpoint, a security scanner designed specifically for MCP servers across all major Agentic IDEs and clients. This thing autodiscovers your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "entire MCP setup, cursor, claw desktop, you name it, and maps out every connected server, tool, and resource."
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MCP Checkpoint runs deep targeted security analysis, detecting prompt injection risks, cross- server tool shadowing, tool poisoning, name"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ambiguity, and a whole suite of vulnerabilities unique to MCP's agent-driven workflows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 413000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MiniRAK 1U PI NAS, a fully rack mountable 10-in NAS built around the Raspberry Pi 5 and a 5.25 in hot swap"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drive bay. Designed entirely in FreeCAD and impressively on the creator's first CAD project, this setup fits together"
+        }
+      ]
+    },
+    {
+      "tStartMs": 428000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cleanly on the first print. The Pi 5 runs off PoE Plus from a switch while the hot swap bay is powered through dual"
+        }
+      ]
+    },
+    {
+      "tStartMs": 436000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Molex connectors from a separate PSU in the mini rack. The build boots open media vault from USB, but you can drop in any OS you prefer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 445000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open wit, a high performance observability platform built to handle metrics, logs, and traces at massive scale. Think of it as a modern"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "alternative to elastic search, Loki, and even data dog. Openwit is written in Rust and powered by Apache Arrow and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Parquet, giving it blazing fast ingestion and efficient columnar storage. Instead of a streambased pipeline, it uses a batch oriented"
+        }
+      ]
+    },
+    {
+      "tStartMs": 469000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "architecture for predictable performance. And it tracks the entire pipeline inside Poster SQL for full transparency and traceability."
+        }
+      ]
+    },
+    {
+      "tStartMs": 479000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever built something cool with Frida, you know the pain. Huge binaries, root requirements, and distribution headaches that make sharing your plugins"
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with normal users nearly impossible. Fry fixes all of that. It takes your Fred to script and packages it into clean"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "portable executables, exposed modules, patched APKs, LD preload, shared objects, even injectable DLS. Suddenly,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 503000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your Frightbased tools become something you can actually ship to end users."
+        }
+      ]
+    },
+    {
+      "tStartMs": 509000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rock, the reinforcement open construction kit, a massively scalable environment management framework for agentic reinforcement learning. Whether"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you're developing new environments, running thousands of parallel simulations, or building full agent pipelines, Rock gives you a clean,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "powerful way to build, manage, and schedule RL environments at scale. Rock uses a modern client server architecture"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with optional isolation layers to keep environments stable and reproducible."
+        }
+      ]
+    },
+    {
+      "tStartMs": 540000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tokquin, a command line tool that instantly estimates token usage and API cost for prompts across all major LLM providers. Built in Rust for raw speed"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and rock solid reliability, Tokuin helps you understand exactly how much your prompts will cost before you run them."
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Count tokens for models like GPT, claude, and more. Break down usage by system, user, and assistant roles."
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Compare costs across multiple providers and export everything as clean text or JSON for automated workflows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Straight to video is a fully in browser video optimization tool powered by the webc API designed to remix and re-encode"
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "videos to meet Instagram compatible constraints. A practical lowest common denominator for web apps. By shifting heavy transcoding work from your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 589000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "back-end servers to the user's own hardware, it dramatically cuts upload times, bandwidth usage, and hosting costs. The project was born out of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 597000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "frustration with slow uploads and expensive serverside transcoding."
+        }
+      ]
+    },
+    {
+      "tStartMs": 603000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kimmy K2 Manom, a tool for anyone creating math or physics explainer videos, especially fans of Manom. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python package uses Moonshot AI's Kimmy K2 thinking model to automatically generate rich structured MANM animation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 617000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prompts. It acts like a full creative pipeline, building conceptual knowledge trees, enriching them with math, planning visuals, and composing long"
+        }
+      ]
+    },
+    {
+      "tStartMs": 626000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "form narrative scripts, sometimes over 2,000 words. Kim Kumman essentially turns abstract ideas into full cinematic math animations."
+        }
+      ]
+    },
+    {
+      "tStartMs": 637000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What if your terminal apps could look this good? Check out 2IP chart, a fully customizable pie chart widget for Ratatouille TUI apps. Color your slices"
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "however you want. Add labels, percentages, and legends. Even wrap it in a stylish block if you like. And the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "kicker, high resolution mode with braille patterns. Eight iikes the detail right in your terminal. All of this with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zeroost abstractions, meaning it's lightweight, fast, and easy to integrate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 666000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of clunky deployments? Meet Halo, the universal container deployment tool."
+        }
+      ]
+    },
+    {
+      "tStartMs": 671000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deploy apps with zero downtime, automatic SSL, and effortless scaling."
+        }
+      ]
+    },
+    {
+      "tStartMs": 675000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "No CI/CD nightmares, no manual load balancer configs. Build locally, push to your server or registry. And Halo"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles multi-server targets, staging, production, or even different regions, all from one YAML file. Monitor, roll back, or stop any target with simple commands."
+        }
+      ]
+    },
+    {
+      "tStartMs": 694000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tired of doom scrolling on Twitter? Meet Tweets Against Humanity. The card game Twist on your feed. Instead of endless"
+        }
+      ]
+    },
+    {
+      "tStartMs": 701000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scrolling, you get a hand of tweets and must pick one to read, discarding the rest. It's like a deck building rogike, but for your social feed. Fun,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 710000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strategic, and keeps you mindful. Avoid decision fatigue, discover content you actually want, and make Twitter less exhausting."
+        }
+      ]
+    },
+    {
+      "tStartMs": 720000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flying in Star Citizen can get complicated, especially with joysticks, keyboards, and mice all at once. Enter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 727000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Star Citizen Binding Utility, your ultimate control hub outside the game."
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Visualize your joystick layout, see every button in action, and customize templates for dual stick setups."
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Automatically sync with Star Citizen, detect unknown button IDs, and avoid binding conflicts. Whether it's FPS, vehicles, or spaceships, this tool keeps"
+        }
+      ]
+    },
+    {
+      "tStartMs": 747000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all your controls organized, editable, and ready to go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 752000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}
