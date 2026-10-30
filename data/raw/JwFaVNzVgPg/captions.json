@@ -1,0 +1,1177 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we're diving into the top 17 trending AI projects on GitHub, including LLM tools, chatgpt clone, and generating long videos in Sora 2."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "Whether you're an AI enthusiast, researcher, or indie dev building your next side project, there's something in here that'll inspire you. All the links"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "are in the description. And let's dive straight into the trending AI projects on GitHub."
+    },
+    {
+      "timestamp": "0:26",
+      "text": "First, we've got Nanohat by Andre Carpathy. And wow, this one blew up fast. Within just 12 hours of release, it racked up over 5,000 GitHub views."
+    },
+    {
+      "timestamp": "0:36",
+      "text": "Nanohat is a from scratch chat GPT clone, training to inference packed into just 8,000 lines of code. You can spin"
+    },
+    {
+      "timestamp": "0:43",
+      "text": "it up on a single cloud GPU and in as little as 4 hours, you'll be chatting with your very own LLM in a chat GPT like web UI. It covers everything."
+    },
+    {
+      "timestamp": "0:53",
+      "text": "Tokenizer training, pre-training on fine web, mid-training with small talk, and even tool use with a Python sandbox. And the best part, you can build a model for"
+    },
+    {
+      "timestamp": "1:02",
+      "text": "about a hundred bucks and scale up to GPT3 level coherence with just a bit more compute."
+    },
+    {
+      "timestamp": "1:08",
+      "text": "Let's talk about superpowers, a plugin that gives Claude code developer level abilities. Think of it as a skills library for AI coding agents packed with"
+    },
+    {
+      "timestamp": "1:17",
+      "text": "proven techniques for testing, debugging, collaboration, and even metalarning. It installs a full suite of commands, letting Claude design, plan,"
+    },
+    {
+      "timestamp": "1:26",
+      "text": "and code with structure, not chaos. The plugin automatically syncs your local skill repository, registers new hooks,"
+    },
+    {
+      "timestamp": "1:34",
+      "text": "and even lets you create or contribute your own skills through GitHub pull requests with built-in skill discovery,"
+    },
+    {
+      "timestamp": "1:41",
+      "text": "version syncing, and test-driven documentation. Superpowers turns your coding AI into a structured, disciplined teammate."
+    },
+    {
+      "timestamp": "1:50",
+      "text": "Ever wish your coding agent could remember what it was doing yesterday?"
+    },
+    {
+      "timestamp": "1:54",
+      "text": "Meet Beads, a lightweight memory system that gives your AI agents long-term focus and organizational superpowers."
+    },
+    {
+      "timestamp": "2:02",
+      "text": "Instead of dumping half-finish markdown plans, Beads turns your agents workflow into a graph-based issue tracker,"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "chaining related tasks together like beads on a string. The result, your agents can follow complex multiseession"
+    },
+    {
+      "timestamp": "2:16",
+      "text": "plans flawlessly without losing context or skipping steps. Drop beads into any repo and suddenly your coding agent"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "stops forgetting, starts planning and works like a real teammate with structured reasoning."
+    },
+    {
+      "timestamp": "2:30",
+      "text": "Meet UNIFM WMA0, a system designed to teach robots how to understand and interact with the real world. At its"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "core is a model that learns the physics of robot environment interactions. It does two things well. First, it acts as a simulation engine, generating"
+    },
+    {
+      "timestamp": "2:46",
+      "text": "synthetic data so robots can practice safely before touching the real world."
+    },
+    {
+      "timestamp": "2:51",
+      "text": "Second, it works as a policy enhancer, predicting how future interactions will unfold, helping the robot plan smarter"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "moves in real time. UNIFM D0 can simulate complex long horizon tasks like packing objects, navigating obstacles,"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "or manipulating tools, all through video-based controllable generation."
+    },
+    {
+      "timestamp": "3:12",
+      "text": "Meet Fast API MCP, a slick new bridge between your Fast API apps and the model context protocol. This project lets you"
+    },
+    {
+      "timestamp": "3:19",
+      "text": "expose any Fast API endpoint as an MCP tool, complete with built-in authentication, schema preservation, and full documentation support, all with"
+    },
+    {
+      "timestamp": "3:28",
+      "text": "zero setup. Unlike generic converters, Fast API MCP is fast API native, meaning it directly leverages your ASGI"
+    },
+    {
+      "timestamp": "3:35",
+      "text": "interface for efficient low latency communication. You can mount your MCP server inside the same app or deploy it separately, giving you total flexibility"
+    },
+    {
+      "timestamp": "3:44",
+      "text": "in how your AI agents interact with your backend."
+    },
+    {
+      "timestamp": "3:49",
+      "text": "Here's one for all the AI coders and prompt engineers out there. Introducing Guide Injest. This tool does something beautifully simple but gamechanging. It"
+    },
+    {
+      "timestamp": "3:58",
+      "text": "turns any GitHub repository into a prompt friendly text digest that you can feed directly into an LLM. Want to analyze a project with Chat GPT or"
+    },
+    {
+      "timestamp": "4:07",
+      "text": "Claude? Just replace hub with ingest in the GitHub URL and boom, you instantly get a clean structured text version of"
+    },
+    {
+      "timestamp": "4:15",
+      "text": "the entire codebase. Guidingest gives you file statistics, directory structure, token counts, and perfectly formatted code extracts designed for AI context windows."
+    },
+    {
+      "timestamp": "4:27",
+      "text": "Imagine if your AI's entire memory could fit inside a video file. Mevid is the memory infrastructure for real world AI,"
+    },
+    {
+      "timestamp": "4:34",
+      "text": "compressing millions of text chunks into a single searchable MP4 file, all while keeping sub 100 millisecond retrieval"
+    },
+    {
+      "timestamp": "4:42",
+      "text": "speeds. Instead of querying massive vector databases every time you prompt an LLM, Mevid encodes text as QR codes"
+    },
+    {
+      "timestamp": "4:49",
+      "text": "inside video frames using decades of video compression research to achieve 50 to 100 times smaller storage than"
+    },
+    {
+      "timestamp": "4:56",
+      "text": "traditional methods. There's no database cluster, no Docker setup, no network latency, just Python and an MP4 file,"
+    },
+    {
+      "timestamp": "5:04",
+      "text": "meaning your AI can store, search, and recall huge knowledge bases entirely offline."
+    },
+    {
+      "timestamp": "5:12",
+      "text": "Meet the AI hedge fund, a proof of concept that turns investors into autonomous AI agents, all working together in a virtual trading floor."
+    },
+    {
+      "timestamp": "5:21",
+      "text": "This project doesn't trade real money."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Instead, it simulates how multiple investing philosophies might interact under one intelligent framework. Imagine"
+    },
+    {
+      "timestamp": "5:30",
+      "text": "a digital investment committee with legends like Warren Buffett, Charlie Munger, Peter Lynch, and Michael Bur, each embodied as an AI agent with"
+    },
+    {
+      "timestamp": "5:39",
+      "text": "reasoning and portfolio logic. The valuation agent calculates intrinsic value. The sentiment, fundamentals, and"
+    },
+    {
+      "timestamp": "5:46",
+      "text": "technicals agents provide market intelligence. Then the risk manager and portfolio manager collaborate to make simulated decisions."
+    },
+    {
+      "timestamp": "5:56",
+      "text": "Ever asked your AI coding assistant to build something only to realize it misunderstood what you meant? That's"
+    },
+    {
+      "timestamp": "6:03",
+      "text": "where OpenSpec comes in. It brings specdriven development to the world of AI coding. Instead of relying on vague"
+    },
+    {
+      "timestamp": "6:10",
+      "text": "chat memory or ad hoc prompts, OpenSpec gives you a lightweight workflow where humans and AI agree on what to build before a single line of code is written."
+    },
+    {
+      "timestamp": "6:20",
+      "text": "You draft a change proposal, review it collaboratively with your AI, and once aligned, the assistant implements code"
+    },
+    {
+      "timestamp": "6:27",
+      "text": "that matches the approved spec every time. No API keys, no complex setup."
+    },
+    {
+      "timestamp": "6:33",
+      "text": "We've seen diffusion models transform how we create images and videos. But what if we applied that same concept to"
+    },
+    {
+      "timestamp": "6:39",
+      "text": "text? Enter diffusion GPT, an annotated character level discrete diffusion model for text generation. Blending the"
+    },
+    {
+      "timestamp": "6:47",
+      "text": "simplicity of Carpathy's baby GPT with the cutting edge research of discrete diffusion modeling. Instead of generating one token at a time like"
+    },
+    {
+      "timestamp": "6:56",
+      "text": "traditional auto reggressive models, diffusion GPT learns to denoise entire sequences in parallel, turning corrupted"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "text back into meaning. Run it on Collab, tweak the data set or noise schedule, and watch Shakespeare's chaos turn back into coherent verse."
+    },
+    {
+      "timestamp": "7:13",
+      "text": "Next up is MCP agent, a lightweight framework for building AI agents using the model context protocol. Think of it"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "as the missing link between your AI models and real world tools. With MCP agent, you can easily build multi-agent"
+    },
+    {
+      "timestamp": "7:28",
+      "text": "workflows, human in the loop systems, or even retrieval augmented chat bots, all using simple reusable patterns inspired"
+    },
+    {
+      "timestamp": "7:35",
+      "text": "by Anthropic's building effective agents guide. It automatically manages MCP server connections, supports OpenAI's"
+    },
+    {
+      "timestamp": "7:42",
+      "text": "swarm orchestration, and integrates seamlessly with tools like Claude Desktop, Gmail, or Murmo Notebooks."
+    },
+    {
+      "timestamp": "7:50",
+      "text": "Next up is Sora Extend, a tool for anyone frustrated by OpenAI's 12c Sora video limit. Sora Extend lets you"
+    },
+    {
+      "timestamp": "7:58",
+      "text": "generate long form AI videos seamlessly by chaining short clips together with perfect continuity. Here's how it works."
+    },
+    {
+      "timestamp": "8:06",
+      "text": "Your prompt is broken into coherent segments, each processed independently by Sora 2. The magic happens when the final frame of each clip becomes context"
+    },
+    {
+      "timestamp": "8:15",
+      "text": "for the next, ensuring visual and thematic consistency across the entire sequence. Once all segments are generated, Sora Extend automatically"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "concatenates them into a single smooth video, so you get highquality extended content without manual editing."
+    },
+    {
+      "timestamp": "8:32",
+      "text": "Next up is RCM, the framework for few-step highquality video generation."
+    },
+    {
+      "timestamp": "8:37",
+      "text": "RCM scales continuous time consistency distillation to massive 10b plus parameter video diffusion models and delivers videos with high fidelity and"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "strong diversity in just two to four steps. The secret sauce, a forward reverse divergence joint distillation"
+    },
+    {
+      "timestamp": "8:53",
+      "text": "framework, plus an open- source flash attention to JVP kernel that supports large-scale parallelism, making even huge models efficient to train and"
+    },
+    {
+      "timestamp": "9:02",
+      "text": "infer. Built on top of Cosmos Predict 2, RCM lets you generate cinematic videos in seconds from text prompts while"
+    },
+    {
+      "timestamp": "9:09",
+      "text": "offering full control over resolution, aspect ratio, and random seeds for reproducibility."
+    },
+    {
+      "timestamp": "9:16",
+      "text": "Next up, we have the Marovian thinker, a method for scaling inference in large language models. Traditional RL for"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "reasoning LLM like long treats the state as the entire prompt plus all past thinking tokens. The problem, the state"
+    },
+    {
+      "timestamp": "9:32",
+      "text": "keeps growing, making computation cost quadratic and memory usage balloon."
+    },
+    {
+      "timestamp": "9:37",
+      "text": "Enter the Marovian thinking paradigm. By keeping the state bounded and fixed, models now advance their reasoning without ever growing the context"
+    },
+    {
+      "timestamp": "9:45",
+      "text": "uncontrollably. This makes compute cost linear with the number of reasoning steps, a huge efficiency gain."
+    },
+    {
+      "timestamp": "9:51",
+      "text": "[Music]"
+    },
+    {
+      "timestamp": "9:53",
+      "text": "Nano browser, an open-source AI web automation tool that runs inside your browser. Think of it as a free alternative to OpenAI Operator, but with"
+    },
+    {
+      "timestamp": "10:02",
+      "text": "a twist. It's powered by a multi- aent system that plans, navigated."
+    },
+    {
+      "timestamp": "10:18",
+      "text": "Whether you're automating workflows, scraping data, or running research agents on the fly, Nano Browser turns your browser into a full AI control center."
+    },
+    {
+      "timestamp": "10:29",
+      "text": "Introducing Agent Flow, a trainable framework that learns how to plan, reason, and use tools in the flow. Agent"
+    },
+    {
+      "timestamp": "10:36",
+      "text": "Flow takes a modular approach with four specialized agents, the planner, executor, verifier, and generator. These"
+    },
+    {
+      "timestamp": "10:43",
+      "text": "modules work together across multiple turns guided by evolving memory and integrated tools like Python coder, Google search, and Wikipedia forming a"
+    },
+    {
+      "timestamp": "10:51",
+      "text": "self-optimizing ecosystem of intelligence. Agent Flow continuously improves while reasoning, refining its planning and decision making in real time."
+    },
+    {
+      "timestamp": "11:02",
+      "text": "Meet streaming VLM real time understanding to infinite video streams."
+    },
+    {
+      "timestamp": "11:07",
+      "text": "Traditional VLM struggle when processing long or continuous video. Full attention leads to quadratic compute costs."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "Streaming VLM changes the game. It keeps a compact KV cache, smartly reuses states, and aligns its training"
+    },
+    {
+      "timestamp": "11:21",
+      "text": "perfectly with streaming inference. The result, stable real-time understanding at up to eight frames per second on a single Nvidia H100. This model's"
+    },
+    {
+      "timestamp": "11:30",
+      "text": "supervised fine-tuning strategy not only boosts streaming performance, but also improves general visual question answering."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we're diving into the top 17 trending AI projects on GitHub, including LLM tools, chatgpt clone, and generating long videos in Sora 2."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whether you're an AI enthusiast, researcher, or indie dev building your next side project, there's something in here that'll inspire you. All the links"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "are in the description. And let's dive straight into the trending AI projects on GitHub."
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "First, we've got Nanohat by Andre Carpathy. And wow, this one blew up fast. Within just 12 hours of release, it racked up over 5,000 GitHub views."
+        }
+      ]
+    },
+    {
+      "tStartMs": 36000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nanohat is a from scratch chat GPT clone, training to inference packed into just 8,000 lines of code. You can spin"
+        }
+      ]
+    },
+    {
+      "tStartMs": 43000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it up on a single cloud GPU and in as little as 4 hours, you'll be chatting with your very own LLM in a chat GPT like web UI. It covers everything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tokenizer training, pre-training on fine web, mid-training with small talk, and even tool use with a Python sandbox. And the best part, you can build a model for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "about a hundred bucks and scale up to GPT3 level coherence with just a bit more compute."
+        }
+      ]
+    },
+    {
+      "tStartMs": 68000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's talk about superpowers, a plugin that gives Claude code developer level abilities. Think of it as a skills library for AI coding agents packed with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 77000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proven techniques for testing, debugging, collaboration, and even metalarning. It installs a full suite of commands, letting Claude design, plan,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 86000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and code with structure, not chaos. The plugin automatically syncs your local skill repository, registers new hooks,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 94000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and even lets you create or contribute your own skills through GitHub pull requests with built-in skill discovery,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "version syncing, and test-driven documentation. Superpowers turns your coding AI into a structured, disciplined teammate."
+        }
+      ]
+    },
+    {
+      "tStartMs": 110000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever wish your coding agent could remember what it was doing yesterday?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Beads, a lightweight memory system that gives your AI agents long-term focus and organizational superpowers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of dumping half-finish markdown plans, Beads turns your agents workflow into a graph-based issue tracker,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chaining related tasks together like beads on a string. The result, your agents can follow complex multiseession"
+        }
+      ]
+    },
+    {
+      "tStartMs": 136000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plans flawlessly without losing context or skipping steps. Drop beads into any repo and suddenly your coding agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stops forgetting, starts planning and works like a real teammate with structured reasoning."
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet UNIFM WMA0, a system designed to teach robots how to understand and interact with the real world. At its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "core is a model that learns the physics of robot environment interactions. It does two things well. First, it acts as a simulation engine, generating"
+        }
+      ]
+    },
+    {
+      "tStartMs": 166000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "synthetic data so robots can practice safely before touching the real world."
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Second, it works as a policy enhancer, predicting how future interactions will unfold, helping the robot plan smarter"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "moves in real time. UNIFM D0 can simulate complex long horizon tasks like packing objects, navigating obstacles,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or manipulating tools, all through video-based controllable generation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 192000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Fast API MCP, a slick new bridge between your Fast API apps and the model context protocol. This project lets you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "expose any Fast API endpoint as an MCP tool, complete with built-in authentication, schema preservation, and full documentation support, all with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 208000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "zero setup. Unlike generic converters, Fast API MCP is fast API native, meaning it directly leverages your ASGI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interface for efficient low latency communication. You can mount your MCP server inside the same app or deploy it separately, giving you total flexibility"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in how your AI agents interact with your backend."
+        }
+      ]
+    },
+    {
+      "tStartMs": 229000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Here's one for all the AI coders and prompt engineers out there. Introducing Guide Injest. This tool does something beautifully simple but gamechanging. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "turns any GitHub repository into a prompt friendly text digest that you can feed directly into an LLM. Want to analyze a project with Chat GPT or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude? Just replace hub with ingest in the GitHub URL and boom, you instantly get a clean structured text version of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the entire codebase. Guidingest gives you file statistics, directory structure, token counts, and perfectly formatted code extracts designed for AI context windows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Imagine if your AI's entire memory could fit inside a video file. Mevid is the memory infrastructure for real world AI,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 274000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compressing millions of text chunks into a single searchable MP4 file, all while keeping sub 100 millisecond retrieval"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "speeds. Instead of querying massive vector databases every time you prompt an LLM, Mevid encodes text as QR codes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 289000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inside video frames using decades of video compression research to achieve 50 to 100 times smaller storage than"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "traditional methods. There's no database cluster, no Docker setup, no network latency, just Python and an MP4 file,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "meaning your AI can store, search, and recall huge knowledge bases entirely offline."
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet the AI hedge fund, a proof of concept that turns investors into autonomous AI agents, all working together in a virtual trading floor."
+        }
+      ]
+    },
+    {
+      "tStartMs": 321000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This project doesn't trade real money."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead, it simulates how multiple investing philosophies might interact under one intelligent framework. Imagine"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a digital investment committee with legends like Warren Buffett, Charlie Munger, Peter Lynch, and Michael Bur, each embodied as an AI agent with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 339000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasoning and portfolio logic. The valuation agent calculates intrinsic value. The sentiment, fundamentals, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "technicals agents provide market intelligence. Then the risk manager and portfolio manager collaborate to make simulated decisions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 356000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever asked your AI coding assistant to build something only to realize it misunderstood what you meant? That's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 363000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "where OpenSpec comes in. It brings specdriven development to the world of AI coding. Instead of relying on vague"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chat memory or ad hoc prompts, OpenSpec gives you a lightweight workflow where humans and AI agree on what to build before a single line of code is written."
+        }
+      ]
+    },
+    {
+      "tStartMs": 380000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You draft a change proposal, review it collaboratively with your AI, and once aligned, the assistant implements code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 387000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that matches the approved spec every time. No API keys, no complex setup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 393000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "We've seen diffusion models transform how we create images and videos. But what if we applied that same concept to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text? Enter diffusion GPT, an annotated character level discrete diffusion model for text generation. Blending the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 407000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simplicity of Carpathy's baby GPT with the cutting edge research of discrete diffusion modeling. Instead of generating one token at a time like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 416000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "traditional auto reggressive models, diffusion GPT learns to denoise entire sequences in parallel, turning corrupted"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text back into meaning. Run it on Collab, tweak the data set or noise schedule, and watch Shakespeare's chaos turn back into coherent verse."
+        }
+      ]
+    },
+    {
+      "tStartMs": 433000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is MCP agent, a lightweight framework for building AI agents using the model context protocol. Think of it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "as the missing link between your AI models and real world tools. With MCP agent, you can easily build multi-agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 448000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "workflows, human in the loop systems, or even retrieval augmented chat bots, all using simple reusable patterns inspired"
+        }
+      ]
+    },
+    {
+      "tStartMs": 455000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "by Anthropic's building effective agents guide. It automatically manages MCP server connections, supports OpenAI's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 462000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "swarm orchestration, and integrates seamlessly with tools like Claude Desktop, Gmail, or Murmo Notebooks."
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is Sora Extend, a tool for anyone frustrated by OpenAI's 12c Sora video limit. Sora Extend lets you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 478000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generate long form AI videos seamlessly by chaining short clips together with perfect continuity. Here's how it works."
+        }
+      ]
+    },
+    {
+      "tStartMs": 486000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Your prompt is broken into coherent segments, each processed independently by Sora 2. The magic happens when the final frame of each clip becomes context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "for the next, ensuring visual and thematic consistency across the entire sequence. Once all segments are generated, Sora Extend automatically"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "concatenates them into a single smooth video, so you get highquality extended content without manual editing."
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is RCM, the framework for few-step highquality video generation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 517000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "RCM scales continuous time consistency distillation to massive 10b plus parameter video diffusion models and delivers videos with high fidelity and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strong diversity in just two to four steps. The secret sauce, a forward reverse divergence joint distillation"
+        }
+      ]
+    },
+    {
+      "tStartMs": 533000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "framework, plus an open- source flash attention to JVP kernel that supports large-scale parallelism, making even huge models efficient to train and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "infer. Built on top of Cosmos Predict 2, RCM lets you generate cinematic videos in seconds from text prompts while"
+        }
+      ]
+    },
+    {
+      "tStartMs": 549000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "offering full control over resolution, aspect ratio, and random seeds for reproducibility."
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, we have the Marovian thinker, a method for scaling inference in large language models. Traditional RL for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reasoning LLM like long treats the state as the entire prompt plus all past thinking tokens. The problem, the state"
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "keeps growing, making computation cost quadratic and memory usage balloon."
+        }
+      ]
+    },
+    {
+      "tStartMs": 577000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Enter the Marovian thinking paradigm. By keeping the state bounded and fixed, models now advance their reasoning without ever growing the context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "uncontrollably. This makes compute cost linear with the number of reasoning steps, a huge efficiency gain."
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[Music]"
+        }
+      ]
+    },
+    {
+      "tStartMs": 593000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nano browser, an open-source AI web automation tool that runs inside your browser. Think of it as a free alternative to OpenAI Operator, but with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a twist. It's powered by a multi- aent system that plans, navigated."
+        }
+      ]
+    },
+    {
+      "tStartMs": 618000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whether you're automating workflows, scraping data, or running research agents on the fly, Nano Browser turns your browser into a full AI control center."
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Introducing Agent Flow, a trainable framework that learns how to plan, reason, and use tools in the flow. Agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 636000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Flow takes a modular approach with four specialized agents, the planner, executor, verifier, and generator. These"
+        }
+      ]
+    },
+    {
+      "tStartMs": 643000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "modules work together across multiple turns guided by evolving memory and integrated tools like Python coder, Google search, and Wikipedia forming a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 651000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "self-optimizing ecosystem of intelligence. Agent Flow continuously improves while reasoning, refining its planning and decision making in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 662000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet streaming VLM real time understanding to infinite video streams."
+        }
+      ]
+    },
+    {
+      "tStartMs": 667000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Traditional VLM struggle when processing long or continuous video. Full attention leads to quadratic compute costs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Streaming VLM changes the game. It keeps a compact KV cache, smartly reuses states, and aligns its training"
+        }
+      ]
+    },
+    {
+      "tStartMs": 681000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "perfectly with streaming inference. The result, stable real-time understanding at up to eight frames per second on a single Nvidia H100. This model's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supervised fine-tuning strategy not only boosts streaming performance, but also improves general visual question answering."
+        }
+      ]
+    }
+  ]
+}

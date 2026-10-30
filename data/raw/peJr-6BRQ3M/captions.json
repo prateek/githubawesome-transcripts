@@ -1,0 +1,1281 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "This is GitHub trending weekly number five and today we'll explore the 19 most trending GitHub repositories making"
+    },
+    {
+      "timestamp": "0:06",
+      "text": "waves this week from AI and developer tools. Whether you're a coder, researcher, or builder, these repos will"
+    },
+    {
+      "timestamp": "0:14",
+      "text": "give you something new to clone, learn, and experiment with. Let's dive into this week's trending open source projects."
+    },
+    {
+      "timestamp": "0:23",
+      "text": "First up, Common Forms, a project that automatically converts any PDF into a fillable form. This repo introduces a"
+    },
+    {
+      "timestamp": "0:31",
+      "text": "data set for form field detection, turning document understanding into an object detection problem. The team started with 8 million PDFs, filtered"
+    },
+    {
+      "timestamp": "0:39",
+      "text": "them down to 55,000 documents covering over 450,000 pages in multiple languages and domains. What's cool is that they"
+    },
+    {
+      "timestamp": "0:48",
+      "text": "didn't just stop at data. They also released FFDNet, a pair of open-source models that detecting text inputs,"
+    },
+    {
+      "timestamp": "0:55",
+      "text": "checkboxes, and signature fields with precision."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "Next up, meet tiny recursive models or TRM. Proof that in AI, less really is more. This open source project explores"
+    },
+    {
+      "timestamp": "1:07",
+      "text": "recursive reasoning with small neural networks. We're talking just 7 million parameters. Yet, it scores 45% on ARC"
+    },
+    {
+      "timestamp": "1:13",
+      "text": "AGI1 and 8% on ARC AGI 2, outperforming models thousands of times larger. The magic tr doesn't rely on massive data or"
+    },
+    {
+      "timestamp": "1:22",
+      "text": "billion-dollar GPUs. Instead, it recurses on itself, refining its own answers over multiple reasoning steps. A minimalist approach that's rewriting how"
+    },
+    {
+      "timestamp": "1:31",
+      "text": "we think about intelligence in small models."
+    },
+    {
+      "timestamp": "1:35",
+      "text": "Coming in next, 11 Labs UI, a sleek open- source component library that helps you build audio and agentic applications. Built on top of Shad"
+    },
+    {
+      "timestamp": "1:44",
+      "text": "CN/UI, this toolkit gives you readyto-use React components from waveforms and voice agents to audio"
+    },
+    {
+      "timestamp": "1:51",
+      "text": "players and chat orbs. All styled beautifully with Tailwind. You can drop them straight into your Next.JS project"
+    },
+    {
+      "timestamp": "1:58",
+      "text": "with a single CLI command and instantly start creating multimodal. Whether you're building a voice enabled app, a real-time transcription tool, or a chat"
+    },
+    {
+      "timestamp": "2:06",
+      "text": "agent with sound, 11Labs UI saves you hours of design and setup."
+    },
+    {
+      "timestamp": "2:13",
+      "text": "Next on our list is Dexter, an open-source financial agent in just about 200 lines of code. Imagine clawed code, but built specifically for"
+    },
+    {
+      "timestamp": "2:21",
+      "text": "financial analysis. Dexter plans tasks, runs autonomously, validates its own work, and even researches stocks, all"
+    },
+    {
+      "timestamp": "2:28",
+      "text": "using real-time market data. It's powered by open tools like Langchain for managing LLM, prompts, and outputs. And the best part, you don't need coding"
+    },
+    {
+      "timestamp": "2:37",
+      "text": "experience to get started. Under the hood, Dexter breaks complex financial questions into step-by-step research"
+    },
+    {
+      "timestamp": "2:44",
+      "text": "plans, executes them, and refineses the results until it's confident in its findings."
+    },
+    {
+      "timestamp": "2:51",
+      "text": "Next up, firm. A new way to manage work where your entire business is treated as code. Think of it as a textbased work"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "management system for technologists. One that replaces scattered SAS tools with simple version controlled text files you"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "actually own. With Firm, your business becomes a graph. Customers link to projects, projects linked to tasks, and"
+    },
+    {
+      "timestamp": "3:13",
+      "text": "people connect to organizations. All defined in a lightweight DSL stored locally on your machine. It's open, customizable, and automation friendly."
+    },
+    {
+      "timestamp": "3:22",
+      "text": "You can search it, report from it, or plug in AI tools that read and write directly to your business structure."
+    },
+    {
+      "timestamp": "3:30",
+      "text": "Meet Full Stack Agent, an AI powered full stack development platform that lets you build and deploy web apps with"
+    },
+    {
+      "timestamp": "3:37",
+      "text": "natural language. Powered by clawed code and Kubernetes, it turns your ideas into working applications, all from simple"
+    },
+    {
+      "timestamp": "3:45",
+      "text": "text commands. Each project spins up its own isolated sandbox complete with automatic postgresql provisioning,"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "GitHub integration, and even a built-in web terminal so you can interact directly with your environment. Think of it as your AI powered full stack"
+    },
+    {
+      "timestamp": "4:00",
+      "text": "assistant. Code, deploy, and iterate all from one intelligent command line."
+    },
+    {
+      "timestamp": "4:07",
+      "text": "All right, here's one that's guaranteed to stir up some drama. It's called What's That? a brutally honest WhatsApp"
+    },
+    {
+      "timestamp": "4:14",
+      "text": "web analyzer that exposes the hidden politics in your group chats. This Chrome extension quietly tracks reactions and replies to reveal the"
+    },
+    {
+      "timestamp": "4:23",
+      "text": "social gravity you feel but can't quite prove, like who gets ignored, who secretly runs the chat, and who just thinks they do. It surfaces relationship"
+    },
+    {
+      "timestamp": "4:31",
+      "text": "maps, influence scores, and bias patterns, all locally stored. Nothing leaves your machine. You'll see who"
+    },
+    {
+      "timestamp": "4:38",
+      "text": "reacts to whom, when people actually pay attention, and which members have formed reaction cartels."
+    },
+    {
+      "timestamp": "4:46",
+      "text": "Next up, Bento PDF, a privacy first clientside PDF toolkit that lets you edit, merge, split, and process PDF files directly in your browser."
+    },
+    {
+      "timestamp": "4:56",
+      "text": "Everything happens on your machine. No servers, no limits, no waiting. You can merge, split, rotate, extract, or reorder pages with drag and drop"
+    },
+    {
+      "timestamp": "5:04",
+      "text": "simplicity. It even includes editing tools for adding watermarks, headers, signatures, or running OCR. All built using modern web tech for lightning fast"
+    },
+    {
+      "timestamp": "5:13",
+      "text": "performance. Whether you're securing a document, compressing it, or converting markdowns straight to PDF, Bento PDF gives you full control. Totally free and open source."
+    },
+    {
+      "timestamp": "5:25",
+      "text": "Let's talk about Neura Hustle Tracker, a cross-platform productivity tracker that watches what you actually do, not what"
+    },
+    {
+      "timestamp": "5:32",
+      "text": "you think you're doing. Built entirely in Rust with a slick Ratatouille terminal dashboard, it logs every app you touch from VS Code to Chrome and"
+    },
+    {
+      "timestamp": "5:41",
+      "text": "shows your day as a visual timeline of focus, distraction, and deep work. It's local first, stores data in Postgress"
+    },
+    {
+      "timestamp": "5:48",
+      "text": "SQL and refreshes every 5 seconds so your hustle stats are always live."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "You'll see who your real-time thief is, Slack, Spotify, or Stack Overflow."
+    },
+    {
+      "timestamp": "5:59",
+      "text": "Meet Puff and Thinking, a multimodal model that integrates camera geometry directly into its neural reasoning. This"
+    },
+    {
+      "timestamp": "6:06",
+      "text": "model doesn't just process images. It understands focal length, field of view, perspective, and even the intent behind a shot. It runs what the researchers"
+    },
+    {
+      "timestamp": "6:15",
+      "text": "call thinking with camera, decoupling geometric context, predicting parameters, and linking visual cues to"
+    },
+    {
+      "timestamp": "6:22",
+      "text": "real world photographic principles. The secret behind it, the Puffin 4M data set. 4 million vision language camera"
+    },
+    {
+      "timestamp": "6:29",
+      "text": "triplets that teach AI spatial imagination and cross view reasoning."
+    },
+    {
+      "timestamp": "6:35",
+      "text": "If you've ever lost track of your scheduled jobs, meet your command line best friend, Crawboard. Crawboard is a terminal based application that gives"
+    },
+    {
+      "timestamp": "6:44",
+      "text": "you a clean, human readable view of all your cron jobs, both local and remote."
+    },
+    {
+      "timestamp": "6:49",
+      "text": "It's built for system administrators, DevOps engineers, and anyone who lives inside a terminal window. With Crawboard, you can add, edit, pause, or"
+    },
+    {
+      "timestamp": "6:58",
+      "text": "delete cron jobs in seconds. No more manually editing cron tabs and hoping you don't break syntax. It connects securely via SSH, supports both password"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "and key authentication, and even shows last and next runtimes in a beautifully formatted way."
+    },
+    {
+      "timestamp": "7:14",
+      "text": "Ever noticed how search results often look exactly the same at the top? Enter Pyiversity, a lightweight Python library designed to make retrieval results more diverse without losing relevance."
+    },
+    {
+      "timestamp": "7:24",
+      "text": "Pyiversity implements popular strategies like MMR, MSD, DPP, and cover to efficiently rerank results, ensuring you"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "get items that are both relevant and varied. The API is simple, fast, and only depends on NumPy. So even thousands"
+    },
+    {
+      "timestamp": "7:40",
+      "text": "of results can be diversified in milliseconds. Whether it's e-commerce, news search, academic retrieval, or feeding LLMs with non-redundant"
+    },
+    {
+      "timestamp": "7:48",
+      "text": "passages, Pyiversity helps you explore more and repeat less."
+    },
+    {
+      "timestamp": "7:54",
+      "text": "Imagine an AI that doesn't just chat about tasks, it uses your computer to get them done. That's open computer use, an open- source platform for autonomous"
+    },
+    {
+      "timestamp": "8:02",
+      "text": "AI agents with computer control. These agents can browse the web like humans, searching, clicking, filling forms, and"
+    },
+    {
+      "timestamp": "8:10",
+      "text": "extracting data. Run terminal commands, manage files, and execute scripts."
+    },
+    {
+      "timestamp": "8:15",
+      "text": "Control desktop applications with full UI automation. Windows, mouse, keyboard, and even screenshots. With a multi-agent"
+    },
+    {
+      "timestamp": "8:22",
+      "text": "orchestration system, complex workflows are broken into smaller tasks, executed sequentially, and reported back in real time."
+    },
+    {
+      "timestamp": "8:31",
+      "text": "Next up is Blaze, a tiny hackable full text search engine built for hackers, not hyperscalers. Blaze implements"
+    },
+    {
+      "timestamp": "8:39",
+      "text": "inverted indexing, boolean queries, phrase search, proximity ranking, and BM25 scoring, all in a small,"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "understandable Go code base. If you've ever wondered how search engines work under the hood, Blaze lets you explore tokenization, stemming, stop word"
+    },
+    {
+      "timestamp": "8:54",
+      "text": "filtering, and index structures, all without the overhead of massive systems."
+    },
+    {
+      "timestamp": "8:58",
+      "text": "It's thread safe, fast, and serializable, making it perfect for learning, prototyping, or building smallcale search apps."
+    },
+    {
+      "timestamp": "9:07",
+      "text": "Meet Kier, a one-handed, fully customizable keyboard that lets you type with minimal finger movement, freeing your other hand to sip tea or do"
+    },
+    {
+      "timestamp": "9:16",
+      "text": "literally anything else. Using just 10 mechanical keys, Kier supports hundreds of chords, arpeggios, and multi-layer"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "shortcuts. Enough to type efficiently, even if you lose a finger. The magic is in its DIY moldable design. You build a"
+    },
+    {
+      "timestamp": "9:31",
+      "text": "metal wire skeleton, cover it with modeling clay, attach key switches, and flash the firmware. The end result is a keyboard that literally fits your hand."
+    },
+    {
+      "timestamp": "9:41",
+      "text": "And if you're feeling adventurous, Kier can even be paired with smart glasses or sensors to control your computer without touching it."
+    },
+    {
+      "timestamp": "9:51",
+      "text": "Meet everywhere. An interactive AI tool that understands your screen context without any screenshots, copy pasting, or switching apps. Need help with an"
+    },
+    {
+      "timestamp": "9:59",
+      "text": "error message? Just invoke everywhere next to it and ask, \"What is this error?"
+    },
+    {
+      "timestamp": "10:04",
+      "text": "How do I fix it instantly? It interprets the message and guides you to a solution. Reading a long technical article?"
+    },
+    {
+      "timestamp": "10:13",
+      "text": "Highlight the text and request a three-point summary. Everywhere delivers concise, relevant insights in seconds."
+    },
+    {
+      "timestamp": "10:19",
+      "text": "Encounter foreign language text."
+    },
+    {
+      "timestamp": "10:22",
+      "text": "Translate it instantly without leaving your window. Writing an email but unsure of the tone? Everywhere can refine it into polished communication with a single shortcut."
+    },
+    {
+      "timestamp": "10:34",
+      "text": "Next up, Mina Rich Editor. A blockbased rich text editor built with Tailwind."
+    },
+    {
+      "timestamp": "10:39",
+      "text": "Created by Mina Massud, a 22-year-old developer. This editor is lightweight and customizable."
+    },
+    {
+      "timestamp": "10:46",
+      "text": "introduces fullfeatured table support with spreadsheet-like capabilities. Drag to reorder rows and columns, resize cells. The editor's enhanced drag and"
+    },
+    {
+      "timestamp": "10:55",
+      "text": "drop system brings intelligent drop zones, block swapping, and error-free movements, making layout manipulation incredibly fluid. Under the hood, it's"
+    },
+    {
+      "timestamp": "11:04",
+      "text": "built on semantic HTML structures, TypeScript types, and state management, proving that developer experience can be as refined as user experience."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "What if your AI could make movies that never end? Meet Stable Video Infinity, an open-source framework that can"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "generate videos of any length with smooth transitions, story continuity, and temporal consistency that looks straight out of a professional studio."
+    },
+    {
+      "timestamp": "11:30",
+      "text": "Instead of a single static prompt, SVI uses a prompt stream, a sequence of evolving text inputs to control how each short clip transitions into the next."
+    },
+    {
+      "timestamp": "11:40",
+      "text": "That means you can literally script a story scene by scene using text. Want a 5-second action scene, then a sunset dialogue, then a chase through a neon"
+    },
+    {
+      "timestamp": "11:49",
+      "text": "city? Just describe it. SVI will seamlessly stitch it together end to end."
+    },
+    {
+      "timestamp": "11:56",
+      "text": "Next up, Sora MCP server. A bridge between OpenAI's Sora 2 video generation API and your favorite MCP clients like"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "Claude or Cursor. With this server, you can generate, remix, and manage AI generated videos all from your development environment. It supports"
+    },
+    {
+      "timestamp": "12:13",
+      "text": "both STIO and HTTP transports, meaning you can run it locally with Claw Desktop or connect remotely for full multiclient"
+    },
+    {
+      "timestamp": "12:20",
+      "text": "access. Need a video of a Calico cat playing piano on stage? Just send a prompt and Sora MCP handles the rest."
+    },
+    {
+      "timestamp": "12:28",
+      "text": "Generation, status tracking, remixing, even downloading your final video."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This is GitHub trending weekly number five and today we'll explore the 19 most trending GitHub repositories making"
+        }
+      ]
+    },
+    {
+      "tStartMs": 6000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "waves this week from AI and developer tools. Whether you're a coder, researcher, or builder, these repos will"
+        }
+      ]
+    },
+    {
+      "tStartMs": 14000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "give you something new to clone, learn, and experiment with. Let's dive into this week's trending open source projects."
+        }
+      ]
+    },
+    {
+      "tStartMs": 23000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "First up, Common Forms, a project that automatically converts any PDF into a fillable form. This repo introduces a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 31000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data set for form field detection, turning document understanding into an object detection problem. The team started with 8 million PDFs, filtered"
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "them down to 55,000 documents covering over 450,000 pages in multiple languages and domains. What's cool is that they"
+        }
+      ]
+    },
+    {
+      "tStartMs": 48000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "didn't just stop at data. They also released FFDNet, a pair of open-source models that detecting text inputs,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "checkboxes, and signature fields with precision."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, meet tiny recursive models or TRM. Proof that in AI, less really is more. This open source project explores"
+        }
+      ]
+    },
+    {
+      "tStartMs": 67000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "recursive reasoning with small neural networks. We're talking just 7 million parameters. Yet, it scores 45% on ARC"
+        }
+      ]
+    },
+    {
+      "tStartMs": 73000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AGI1 and 8% on ARC AGI 2, outperforming models thousands of times larger. The magic tr doesn't rely on massive data or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 82000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "billion-dollar GPUs. Instead, it recurses on itself, refining its own answers over multiple reasoning steps. A minimalist approach that's rewriting how"
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "we think about intelligence in small models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 95000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coming in next, 11 Labs UI, a sleek open- source component library that helps you build audio and agentic applications. Built on top of Shad"
+        }
+      ]
+    },
+    {
+      "tStartMs": 104000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CN/UI, this toolkit gives you readyto-use React components from waveforms and voice agents to audio"
+        }
+      ]
+    },
+    {
+      "tStartMs": 111000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "players and chat orbs. All styled beautifully with Tailwind. You can drop them straight into your Next.JS project"
+        }
+      ]
+    },
+    {
+      "tStartMs": 118000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with a single CLI command and instantly start creating multimodal. Whether you're building a voice enabled app, a real-time transcription tool, or a chat"
+        }
+      ]
+    },
+    {
+      "tStartMs": 126000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent with sound, 11Labs UI saves you hours of design and setup."
+        }
+      ]
+    },
+    {
+      "tStartMs": 133000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next on our list is Dexter, an open-source financial agent in just about 200 lines of code. Imagine clawed code, but built specifically for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 141000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "financial analysis. Dexter plans tasks, runs autonomously, validates its own work, and even researches stocks, all"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "using real-time market data. It's powered by open tools like Langchain for managing LLM, prompts, and outputs. And the best part, you don't need coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "experience to get started. Under the hood, Dexter breaks complex financial questions into step-by-step research"
+        }
+      ]
+    },
+    {
+      "tStartMs": 164000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plans, executes them, and refineses the results until it's confident in its findings."
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, firm. A new way to manage work where your entire business is treated as code. Think of it as a textbased work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "management system for technologists. One that replaces scattered SAS tools with simple version controlled text files you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "actually own. With Firm, your business becomes a graph. Customers link to projects, projects linked to tasks, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "people connect to organizations. All defined in a lightweight DSL stored locally on your machine. It's open, customizable, and automation friendly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 202000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can search it, report from it, or plug in AI tools that read and write directly to your business structure."
+        }
+      ]
+    },
+    {
+      "tStartMs": 210000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Full Stack Agent, an AI powered full stack development platform that lets you build and deploy web apps with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "natural language. Powered by clawed code and Kubernetes, it turns your ideas into working applications, all from simple"
+        }
+      ]
+    },
+    {
+      "tStartMs": 225000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "text commands. Each project spins up its own isolated sandbox complete with automatic postgresql provisioning,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GitHub integration, and even a built-in web terminal so you can interact directly with your environment. Think of it as your AI powered full stack"
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "assistant. Code, deploy, and iterate all from one intelligent command line."
+        }
+      ]
+    },
+    {
+      "tStartMs": 247000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "All right, here's one that's guaranteed to stir up some drama. It's called What's That? a brutally honest WhatsApp"
+        }
+      ]
+    },
+    {
+      "tStartMs": 254000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "web analyzer that exposes the hidden politics in your group chats. This Chrome extension quietly tracks reactions and replies to reveal the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "social gravity you feel but can't quite prove, like who gets ignored, who secretly runs the chat, and who just thinks they do. It surfaces relationship"
+        }
+      ]
+    },
+    {
+      "tStartMs": 271000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "maps, influence scores, and bias patterns, all locally stored. Nothing leaves your machine. You'll see who"
+        }
+      ]
+    },
+    {
+      "tStartMs": 278000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reacts to whom, when people actually pay attention, and which members have formed reaction cartels."
+        }
+      ]
+    },
+    {
+      "tStartMs": 286000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, Bento PDF, a privacy first clientside PDF toolkit that lets you edit, merge, split, and process PDF files directly in your browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Everything happens on your machine. No servers, no limits, no waiting. You can merge, split, rotate, extract, or reorder pages with drag and drop"
+        }
+      ]
+    },
+    {
+      "tStartMs": 304000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simplicity. It even includes editing tools for adding watermarks, headers, signatures, or running OCR. All built using modern web tech for lightning fast"
+        }
+      ]
+    },
+    {
+      "tStartMs": 313000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "performance. Whether you're securing a document, compressing it, or converting markdowns straight to PDF, Bento PDF gives you full control. Totally free and open source."
+        }
+      ]
+    },
+    {
+      "tStartMs": 325000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Let's talk about Neura Hustle Tracker, a cross-platform productivity tracker that watches what you actually do, not what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 332000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you think you're doing. Built entirely in Rust with a slick Ratatouille terminal dashboard, it logs every app you touch from VS Code to Chrome and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shows your day as a visual timeline of focus, distraction, and deep work. It's local first, stores data in Postgress"
+        }
+      ]
+    },
+    {
+      "tStartMs": 348000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SQL and refreshes every 5 seconds so your hustle stats are always live."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You'll see who your real-time thief is, Slack, Spotify, or Stack Overflow."
+        }
+      ]
+    },
+    {
+      "tStartMs": 359000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Puff and Thinking, a multimodal model that integrates camera geometry directly into its neural reasoning. This"
+        }
+      ]
+    },
+    {
+      "tStartMs": 366000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model doesn't just process images. It understands focal length, field of view, perspective, and even the intent behind a shot. It runs what the researchers"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "call thinking with camera, decoupling geometric context, predicting parameters, and linking visual cues to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 382000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "real world photographic principles. The secret behind it, the Puffin 4M data set. 4 million vision language camera"
+        }
+      ]
+    },
+    {
+      "tStartMs": 389000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "triplets that teach AI spatial imagination and cross view reasoning."
+        }
+      ]
+    },
+    {
+      "tStartMs": 395000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever lost track of your scheduled jobs, meet your command line best friend, Crawboard. Crawboard is a terminal based application that gives"
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you a clean, human readable view of all your cron jobs, both local and remote."
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's built for system administrators, DevOps engineers, and anyone who lives inside a terminal window. With Crawboard, you can add, edit, pause, or"
+        }
+      ]
+    },
+    {
+      "tStartMs": 418000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "delete cron jobs in seconds. No more manually editing cron tabs and hoping you don't break syntax. It connects securely via SSH, supports both password"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and key authentication, and even shows last and next runtimes in a beautifully formatted way."
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ever noticed how search results often look exactly the same at the top? Enter Pyiversity, a lightweight Python library designed to make retrieval results more diverse without losing relevance."
+        }
+      ]
+    },
+    {
+      "tStartMs": 444000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pyiversity implements popular strategies like MMR, MSD, DPP, and cover to efficiently rerank results, ensuring you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "get items that are both relevant and varied. The API is simple, fast, and only depends on NumPy. So even thousands"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of results can be diversified in milliseconds. Whether it's e-commerce, news search, academic retrieval, or feeding LLMs with non-redundant"
+        }
+      ]
+    },
+    {
+      "tStartMs": 468000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "passages, Pyiversity helps you explore more and repeat less."
+        }
+      ]
+    },
+    {
+      "tStartMs": 474000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Imagine an AI that doesn't just chat about tasks, it uses your computer to get them done. That's open computer use, an open- source platform for autonomous"
+        }
+      ]
+    },
+    {
+      "tStartMs": 482000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AI agents with computer control. These agents can browse the web like humans, searching, clicking, filling forms, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "extracting data. Run terminal commands, manage files, and execute scripts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 495000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Control desktop applications with full UI automation. Windows, mouse, keyboard, and even screenshots. With a multi-agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "orchestration system, complex workflows are broken into smaller tasks, executed sequentially, and reported back in real time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is Blaze, a tiny hackable full text search engine built for hackers, not hyperscalers. Blaze implements"
+        }
+      ]
+    },
+    {
+      "tStartMs": 519000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "inverted indexing, boolean queries, phrase search, proximity ranking, and BM25 scoring, all in a small,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "understandable Go code base. If you've ever wondered how search engines work under the hood, Blaze lets you explore tokenization, stemming, stop word"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "filtering, and index structures, all without the overhead of massive systems."
+        }
+      ]
+    },
+    {
+      "tStartMs": 538000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It's thread safe, fast, and serializable, making it perfect for learning, prototyping, or building smallcale search apps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 547000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet Kier, a one-handed, fully customizable keyboard that lets you type with minimal finger movement, freeing your other hand to sip tea or do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 556000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "literally anything else. Using just 10 mechanical keys, Kier supports hundreds of chords, arpeggios, and multi-layer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shortcuts. Enough to type efficiently, even if you lose a finger. The magic is in its DIY moldable design. You build a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 571000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "metal wire skeleton, cover it with modeling clay, attach key switches, and flash the firmware. The end result is a keyboard that literally fits your hand."
+        }
+      ]
+    },
+    {
+      "tStartMs": 581000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And if you're feeling adventurous, Kier can even be paired with smart glasses or sensors to control your computer without touching it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Meet everywhere. An interactive AI tool that understands your screen context without any screenshots, copy pasting, or switching apps. Need help with an"
+        }
+      ]
+    },
+    {
+      "tStartMs": 599000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "error message? Just invoke everywhere next to it and ask, \"What is this error?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 604000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "How do I fix it instantly? It interprets the message and guides you to a solution. Reading a long technical article?"
+        }
+      ]
+    },
+    {
+      "tStartMs": 613000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Highlight the text and request a three-point summary. Everywhere delivers concise, relevant insights in seconds."
+        }
+      ]
+    },
+    {
+      "tStartMs": 619000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Encounter foreign language text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Translate it instantly without leaving your window. Writing an email but unsure of the tone? Everywhere can refine it into polished communication with a single shortcut."
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, Mina Rich Editor. A blockbased rich text editor built with Tailwind."
+        }
+      ]
+    },
+    {
+      "tStartMs": 639000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Created by Mina Massud, a 22-year-old developer. This editor is lightweight and customizable."
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "introduces fullfeatured table support with spreadsheet-like capabilities. Drag to reorder rows and columns, resize cells. The editor's enhanced drag and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drop system brings intelligent drop zones, block swapping, and error-free movements, making layout manipulation incredibly fluid. Under the hood, it's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 664000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built on semantic HTML structures, TypeScript types, and state management, proving that developer experience can be as refined as user experience."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "What if your AI could make movies that never end? Meet Stable Video Infinity, an open-source framework that can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generate videos of any length with smooth transitions, story continuity, and temporal consistency that looks straight out of a professional studio."
+        }
+      ]
+    },
+    {
+      "tStartMs": 690000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Instead of a single static prompt, SVI uses a prompt stream, a sequence of evolving text inputs to control how each short clip transitions into the next."
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That means you can literally script a story scene by scene using text. Want a 5-second action scene, then a sunset dialogue, then a chase through a neon"
+        }
+      ]
+    },
+    {
+      "tStartMs": 709000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "city? Just describe it. SVI will seamlessly stitch it together end to end."
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up, Sora MCP server. A bridge between OpenAI's Sora 2 video generation API and your favorite MCP clients like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude or Cursor. With this server, you can generate, remix, and manage AI generated videos all from your development environment. It supports"
+        }
+      ]
+    },
+    {
+      "tStartMs": 733000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "both STIO and HTTP transports, meaning you can run it locally with Claw Desktop or connect remotely for full multiclient"
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "access. Need a video of a Calico cat playing piano on stage? Just send a prompt and Sora MCP handles the rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Generation, status tracking, remixing, even downloading your final video."
+        }
+      ]
+    }
+  ]
+}
