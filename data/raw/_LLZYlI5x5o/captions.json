@@ -1,0 +1,683 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Today we're diving into the top 10 trending Python repositories on GitHub."
+    },
+    {
+      "timestamp": "0:05",
+      "text": "Whether you're hunting for your next side project, looking for tools to level up your workflow, or just curious about what's hot in the Python world, I've got"
+    },
+    {
+      "timestamp": "0:13",
+      "text": "you covered. These repos are blowing up right now with stars, forks, and contributions, and you'll definitely"
+    },
+    {
+      "timestamp": "0:21",
+      "text": "want to keep an eye on them. So, grab your coffee, smash that like button, and let's jump into this week's trending Python projects."
+    },
+    {
+      "timestamp": "0:32",
+      "text": "First up, topping our list at number one, is Mobile Use, an AI agent that lets you control your Android or iOS"
+    },
+    {
+      "timestamp": "0:39",
+      "text": "device using natural language. Send messages, navigate apps, or scrape data, and convert it to JSON, all through"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "natural commands. It's UIA, extensible with different LLMs, and makes your phone feel like a personal AI assistant."
+    },
+    {
+      "timestamp": "0:54",
+      "text": "If you've ever wanted to talk to your phone like Jarvis, mobile use brings that closer to reality."
+    },
+    {
+      "timestamp": "1:02",
+      "text": "Coming in at number two is Orchestrator, a multi-agent AI coder that ranked number 13 on Stanford's terminal bench."
+    },
+    {
+      "timestamp": "1:09",
+      "text": "Orchestrator acts as the brain of an AI team. It breaks tasks into subtasks, sends out explorer agents to analyze"
+    },
+    {
+      "timestamp": "1:16",
+      "text": "code, coder agents to implement, and verification agents to doublech checkck results. Its context store ensures"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "knowledge is reused across tasks, creating compound intelligence that builds on past discoveries. If you're fascinated by collaborative AI coding systems, Orchestrator is incredible."
+    },
+    {
+      "timestamp": "1:37",
+      "text": "At number three, we've got Hanuan World Voyager from Tencent, a video diffusion framework that can generate 3D consistent scene videos from a single"
+    },
+    {
+      "timestamp": "1:46",
+      "text": "image. You define a camera path and Voyager produces aligned RGB and depth sequences, enabling world exploration"
+    },
+    {
+      "timestamp": "1:54",
+      "text": "and direct 3D reconstruction. It combines world consistent video diffusion with long range exploration caching and has been trained on a data"
+    },
+    {
+      "timestamp": "2:02",
+      "text": "set of over 100,000 clips. If you're into immersive scene generation or 3D video pipelines, this repo is a mustsee."
+    },
+    {
+      "timestamp": "2:12",
+      "text": "[Music]"
+    },
+    {
+      "timestamp": "2:14",
+      "text": "Next is VIPE, the video pose engine from Nvidia. Designed for geometric 3D perception, VIP takes raw videos, dash"
+    },
+    {
+      "timestamp": "2:22",
+      "text": "cam cinematic shots, even 360° panoramas, and annotates them with camera poses and dense depth maps. By"
+    },
+    {
+      "timestamp": "2:29",
+      "text": "combining dense optical flow, slam based point tracking, and moninocular depth networks, VIP produces scale consistent 3D reconstructions."
+    },
+    {
+      "timestamp": "2:38",
+      "text": "The project also comes with a massive annotated data set of 96 million frames, accelerating spatial AI research for robotics, ARVR, and 3D vision systems."
+    },
+    {
+      "timestamp": "2:48",
+      "text": "[Music]"
+    },
+    {
+      "timestamp": "2:51",
+      "text": "Halfway through our list is Flash Sparse Attention, a nextg kernel that makes sparse attention blazing fast on modern"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "GPUs. Traditional sparse attention wastes compute and memory, especially on small group sizes. FSA flips the kernel"
+    },
+    {
+      "timestamp": "3:06",
+      "text": "loops and splits computation into three specialized kernels, drastically reducing memory access and boosting speed. It's optimized for NVIDIA ampear"
+    },
+    {
+      "timestamp": "3:15",
+      "text": "and Hopper GPUs, supports FP16, BF-16, and works for both training and inference on large language models."
+    },
+    {
+      "timestamp": "3:26",
+      "text": "Next up is Wall X, an ambitious project to build generalpurpose robots powered by an embodied foundation model. By compressing highfidelity streams of"
+    },
+    {
+      "timestamp": "3:35",
+      "text": "physical interactions and creating a feedback loop between decisions and lived experience, Wall X aims for truly"
+    },
+    {
+      "timestamp": "3:42",
+      "text": "generalizable intelligence. The repo includes end-to-end training and inference pipelines, data prep with the robot, fast action branches, and"
+    },
+    {
+      "timestamp": "3:50",
+      "text": "evaluation utilities for both simulated and real robots. If you're into embodied AI, this one is fascinating."
+    },
+    {
+      "timestamp": "4:01",
+      "text": "At number seven, we have disciplined AI software development collaborative. A structured methodology for working with AI on development projects. It tackles"
+    },
+    {
+      "timestamp": "4:10",
+      "text": "common problems like code bloat, architectural drift and context dilution using four systematic stages. AI"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "configuration, collaborative planning, systematic implementation, and datadriven iteration. The framework keeps projects modular, debugable, and"
+    },
+    {
+      "timestamp": "4:27",
+      "text": "datadriven, saving hours of debugging while helping AI assisted projects scale effectively."
+    },
+    {
+      "timestamp": "4:35",
+      "text": "Coming in at number eight, we've got Absolutely right. A playful system that tracks how often Claude code validates your life choices. It's built with a"
+    },
+    {
+      "timestamp": "4:44",
+      "text": "Rust backend, Axom plus SQLite, a lightweight front end with HTML and JavaScript using rough viz charts and"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "Python scripts for collecting and uploading validation counts. If you want a bit of humor while exploring Rust plus"
+    },
+    {
+      "timestamp": "4:59",
+      "text": "Python integration, this project is a fun one to play with."
+    },
+    {
+      "timestamp": "5:06",
+      "text": "Number nine is spiking brain. A brain inspired approach to large AI models. It combines hybrid efficient attention,"
+    },
+    {
+      "timestamp": "5:14",
+      "text": "mixture of experts modules, and spike encoding to achieve top tier performance with less than 2% of typical training data optimized for non-NVIDIA clusters."
+    },
+    {
+      "timestamp": "5:23",
+      "text": "Spiking Brain supports large-scale training and inference while achieving over 100 times speed up in TTFT for form token sequences. The repo includes the"
+    },
+    {
+      "timestamp": "5:33",
+      "text": "full spiking brain 7B implementation and weights, including hugging face, VLM inference, and quantized versions."
+    },
+    {
+      "timestamp": "5:40",
+      "text": "Neuromorphic inspired AI meets efficiency. This one's a must check."
+    },
+    {
+      "timestamp": "5:47",
+      "text": "Rounding out our list is Milo, short for meshintheloop gaussian splatting, a cutting edge framework for efficient and"
+    },
+    {
+      "timestamp": "5:54",
+      "text": "detailed 3D surface reconstruction. Mimo introduces a differentiable mesh extraction process during optimization"
+    },
+    {
+      "timestamp": "6:01",
+      "text": "of 3D Gaussian splatting representations allowing gradient flow from mesh to gaussians for birectional consistency."
+    },
+    {
+      "timestamp": "6:09",
+      "text": "The result higher quality meshes with far fewer vertices perfect for physics simulations and realtime rendering. And it works"
+    },
+    {
+      "timestamp": "6:18",
+      "text": "with any Gaussian splatting pipeline making your 3D reconstructions lightweight and practical."
+    },
+    {
+      "timestamp": "6:25",
+      "text": "And that's a wrap on this week's top 10 trending Python repositories on GitHub."
+    },
+    {
+      "timestamp": "6:30",
+      "text": "Which of these projects are you most excited to try? Drop your favorites in the comments. Smash that like button if you found this video helpful. And don't"
+    },
+    {
+      "timestamp": "6:38",
+      "text": "forget to subscribe for more developer focused open-source highlights."
+    },
+    {
+      "timestamp": "6:44",
+      "text": "[Music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Today we're diving into the top 10 trending Python repositories on GitHub."
+        }
+      ]
+    },
+    {
+      "tStartMs": 5000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Whether you're hunting for your next side project, looking for tools to level up your workflow, or just curious about what's hot in the Python world, I've got"
+        }
+      ]
+    },
+    {
+      "tStartMs": 13000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you covered. These repos are blowing up right now with stars, forks, and contributions, and you'll definitely"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "want to keep an eye on them. So, grab your coffee, smash that like button, and let's jump into this week's trending Python projects."
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "First up, topping our list at number one, is Mobile Use, an AI agent that lets you control your Android or iOS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "device using natural language. Send messages, navigate apps, or scrape data, and convert it to JSON, all through"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "natural commands. It's UIA, extensible with different LLMs, and makes your phone feel like a personal AI assistant."
+        }
+      ]
+    },
+    {
+      "tStartMs": 54000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "If you've ever wanted to talk to your phone like Jarvis, mobile use brings that closer to reality."
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coming in at number two is Orchestrator, a multi-agent AI coder that ranked number 13 on Stanford's terminal bench."
+        }
+      ]
+    },
+    {
+      "tStartMs": 69000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Orchestrator acts as the brain of an AI team. It breaks tasks into subtasks, sends out explorer agents to analyze"
+        }
+      ]
+    },
+    {
+      "tStartMs": 76000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code, coder agents to implement, and verification agents to doublech checkck results. Its context store ensures"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "knowledge is reused across tasks, creating compound intelligence that builds on past discoveries. If you're fascinated by collaborative AI coding systems, Orchestrator is incredible."
+        }
+      ]
+    },
+    {
+      "tStartMs": 97000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "At number three, we've got Hanuan World Voyager from Tencent, a video diffusion framework that can generate 3D consistent scene videos from a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 106000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "image. You define a camera path and Voyager produces aligned RGB and depth sequences, enabling world exploration"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and direct 3D reconstruction. It combines world consistent video diffusion with long range exploration caching and has been trained on a data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 122000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "set of over 100,000 clips. If you're into immersive scene generation or 3D video pipelines, this repo is a mustsee."
+        }
+      ]
+    },
+    {
+      "tStartMs": 132000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[Music]"
+        }
+      ]
+    },
+    {
+      "tStartMs": 134000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next is VIPE, the video pose engine from Nvidia. Designed for geometric 3D perception, VIP takes raw videos, dash"
+        }
+      ]
+    },
+    {
+      "tStartMs": 142000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cam cinematic shots, even 360° panoramas, and annotates them with camera poses and dense depth maps. By"
+        }
+      ]
+    },
+    {
+      "tStartMs": 149000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "combining dense optical flow, slam based point tracking, and moninocular depth networks, VIP produces scale consistent 3D reconstructions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The project also comes with a massive annotated data set of 96 million frames, accelerating spatial AI research for robotics, ARVR, and 3D vision systems."
+        }
+      ]
+    },
+    {
+      "tStartMs": 168000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[Music]"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Halfway through our list is Flash Sparse Attention, a nextg kernel that makes sparse attention blazing fast on modern"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "GPUs. Traditional sparse attention wastes compute and memory, especially on small group sizes. FSA flips the kernel"
+        }
+      ]
+    },
+    {
+      "tStartMs": 186000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "loops and splits computation into three specialized kernels, drastically reducing memory access and boosting speed. It's optimized for NVIDIA ampear"
+        }
+      ]
+    },
+    {
+      "tStartMs": 195000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and Hopper GPUs, supports FP16, BF-16, and works for both training and inference on large language models."
+        }
+      ]
+    },
+    {
+      "tStartMs": 206000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Next up is Wall X, an ambitious project to build generalpurpose robots powered by an embodied foundation model. By compressing highfidelity streams of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 215000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "physical interactions and creating a feedback loop between decisions and lived experience, Wall X aims for truly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 222000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generalizable intelligence. The repo includes end-to-end training and inference pipelines, data prep with the robot, fast action branches, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "evaluation utilities for both simulated and real robots. If you're into embodied AI, this one is fascinating."
+        }
+      ]
+    },
+    {
+      "tStartMs": 241000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "At number seven, we have disciplined AI software development collaborative. A structured methodology for working with AI on development projects. It tackles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 250000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "common problems like code bloat, architectural drift and context dilution using four systematic stages. AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "configuration, collaborative planning, systematic implementation, and datadriven iteration. The framework keeps projects modular, debugable, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 267000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "datadriven, saving hours of debugging while helping AI assisted projects scale effectively."
+        }
+      ]
+    },
+    {
+      "tStartMs": 275000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Coming in at number eight, we've got Absolutely right. A playful system that tracks how often Claude code validates your life choices. It's built with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 284000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust backend, Axom plus SQLite, a lightweight front end with HTML and JavaScript using rough viz charts and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python scripts for collecting and uploading validation counts. If you want a bit of humor while exploring Rust plus"
+        }
+      ]
+    },
+    {
+      "tStartMs": 299000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python integration, this project is a fun one to play with."
+        }
+      ]
+    },
+    {
+      "tStartMs": 306000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Number nine is spiking brain. A brain inspired approach to large AI models. It combines hybrid efficient attention,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mixture of experts modules, and spike encoding to achieve top tier performance with less than 2% of typical training data optimized for non-NVIDIA clusters."
+        }
+      ]
+    },
+    {
+      "tStartMs": 323000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Spiking Brain supports large-scale training and inference while achieving over 100 times speed up in TTFT for form token sequences. The repo includes the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 333000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "full spiking brain 7B implementation and weights, including hugging face, VLM inference, and quantized versions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 340000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neuromorphic inspired AI meets efficiency. This one's a must check."
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rounding out our list is Milo, short for meshintheloop gaussian splatting, a cutting edge framework for efficient and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "detailed 3D surface reconstruction. Mimo introduces a differentiable mesh extraction process during optimization"
+        }
+      ]
+    },
+    {
+      "tStartMs": 361000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of 3D Gaussian splatting representations allowing gradient flow from mesh to gaussians for birectional consistency."
+        }
+      ]
+    },
+    {
+      "tStartMs": 369000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The result higher quality meshes with far fewer vertices perfect for physics simulations and realtime rendering. And it works"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with any Gaussian splatting pipeline making your 3D reconstructions lightweight and practical."
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "And that's a wrap on this week's top 10 trending Python repositories on GitHub."
+        }
+      ]
+    },
+    {
+      "tStartMs": 390000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Which of these projects are you most excited to try? Drop your favorites in the comments. Smash that like button if you found this video helpful. And don't"
+        }
+      ]
+    },
+    {
+      "tStartMs": 398000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "forget to subscribe for more developer focused open-source highlights."
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[Music]"
+        }
+      ]
+    }
+  ]
+}
