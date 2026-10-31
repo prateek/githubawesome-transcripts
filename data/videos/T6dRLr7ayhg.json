@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "id": "T6dRLr7ayhg",
+  "title": "GitHub Trending Repos Weekly #2: Dayflow, React Old Icons, OpenTrack,tunn,VLA-Adapter, Blogr, GeoSVR",
+  "url": "https://www.youtube.com/watch?v=T6dRLr7ayhg",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2025-09-26",
+  "duration": 679,
+  "word_count": 1560,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-10-31T05:58:49+00:00",
+    "metadata_sha256": "fb3ff9fb59a95bf52c57b6da6ac82b90f5306c4eb5171c7261978161c1771545",
+    "captions_sha256": "28402008cd5833964b21d4991d64cf4b4d89e2bb5102678effb8329c2bf74ed7",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 22,
+      "paragraphs": [
+        "Every week, thousands of developers around the world push new code to GitHub, but only a few projects rise to the top and capture the community's attention. Today, we're highlighting the top 15 trending repos for September 26th, 2025. The projects everyone's talking about. Let's find out why."
+      ]
+    },
+    {
+      "start": 22,
+      "title": "Dayflow",
+      "repositories": [
+        "https://github.com/JerryZLiu/Dayflow"
+      ],
+      "id": "s002",
+      "end": 63,
+      "paragraphs": [
+        "First up, we've got DayFlow, a native Mac OS app that automatically builds a timeline of your day using AI. Instead of relying on your calendar, DayFlow watches your screen activity at one frame per second and summarizes it every 15 minutes, giving you a clean, trustworthy snapshot of how you actually spend your time. What makes it special? It's lightweight, private by design, and you control the AI, whether that's Gemini with your own API key or local models like Olama. You even get distraction highlights, time-lapse replays of your day, and automatic cleanup so old recordings don't pile up."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "React Old Icons",
+      "repositories": [
+        "https://github.com/gsnoopy/react-old-icons"
+      ],
+      "id": "s003",
+      "end": 108,
+      "paragraphs": [
+        "Next on the list is React Old Icons, a massive React component library featuring over 2,300 classic icons pulled straight from vintage operating systems and software. We're talking Windows 95, XP, Vista 7, old school games, and even classic applications like Photoshop and Winar. Perfect if you're building a retro themed app, a nostalgic UI, or just want to preserve digital history and style. The project comes with a slick interactive icon browser where you can search, filter by category, preview different sizes, and copy the component code with just one click. Every icon is fully typed, supports responsive sizing, custom styling, and accessibility out of the box."
+      ]
+    },
+    {
+      "start": 108,
+      "title": "OpenTrack",
+      "repositories": [
+        "https://github.com/GalaxyGeneralRobotics/OpenTrack"
+      ],
+      "id": "s004",
+      "end": 153,
+      "paragraphs": [
+        "Coming in next is Open Track, an open-source humanoid motion tracking framework built on Mujoko with support for multi-GPU parallel training. This project tackles one of the hardest challenges in robotics, tracking highly dynamic, contactrich human motions while staying stable in real world environments. At the heart of Open Track is any2 track, a two-stage reinforcement learning system. It combines any tracker, which learns to follow diverse motions in a single policy, with any adapter, a module that adapts on the fly to terrain changes, external forces, and other disturbances. For anyone working in robotics, AI, or motion simulation, this is a foundational repo worth diving into.",
+        "[Music]"
+      ]
+    },
+    {
+      "start": 153,
+      "title": "VLA-Adapter",
+      "repositories": [
+        "https://github.com/OpenHelix-Team/VLA-Adapter"
+      ],
+      "id": "s005",
+      "end": 197,
+      "paragraphs": [
+        "Next, we've got VALA adapter, a new paradigm for building efficient vision language action models without the massive training costs of giant backbones. Traditionally, VLA systems bridge vision and language to action by pre-training on huge robotic data sets, powerful, but expensive and slow. VA adapter flips that script. By carefully designing a lightweight bridge between multimodal features and the action space, it achieves state-of-the-art performance with just a.5 billion parameter model. Even better, it can be trained in about 8 hours on a single consumer GPU and delivers some of the fastest inference speeds to date.",
+        "[Music]"
+      ]
+    },
+    {
+      "start": 197,
+      "title": "SimpleFold",
+      "repositories": [
+        "https://github.com/apple/ml-simplefold"
+      ],
+      "id": "s006",
+      "end": 246,
+      "paragraphs": [
+        "Next up is simple fold. Folding proteins is simpler than you think. a breakthrough open- source project tackling one of biologyy's hardest problems, protein folding. Unlike previous models that rely on specialized modules like triangle attention, simple fold is built entirely with general purpose transformer layers and trained with a flow matching objective. The team scaled it up to a three billion parameter model trained on over 8.6 6 million protein structures plus PDB data, making it the largest folding model ever developed. Despite this simplicity, SimpleFold achieves state-of-the-art competitive accuracy on folding benchmarks and shows strong performance in ensemble predictions thanks to its generative approach.",
+        "[Music]"
+      ]
+    },
+    {
+      "start": 246,
+      "title": "tunn",
+      "repositories": [
+        "https://github.com/strandnerd/tunn"
+      ],
+      "id": "s007",
+      "end": 286,
+      "paragraphs": [
+        "Up next is Ton, a lightweight SSH tunnel manager that makes handling multiple tunnels a breeze. Instead of juggling long commands, you define everything in a single YAML config file. Then spin up all your tunnels or just the ones you need with a simple command. It supports multiple port mappings per tunnel, runs everything in parallel, and even has a Damon mode with status reporting so you can keep an eye on what's active. Under the hood, Ton doesn't reinvent the wheel. It wraps your systems native open SSH, so all your existing keys and configs work exactly as they do in your shell."
+      ]
+    },
+    {
+      "start": 286,
+      "title": "VisualMimic",
+      "repositories": [
+        "https://github.com/visualmimic/VisualMimic"
+      ],
+      "id": "s008",
+      "end": 340,
+      "paragraphs": [
+        "Next up is Visual Mimic, a cutting edge framework for visual humanoid loco manipulation. Basically teaching humanoid robots to see, move, and interact with the world like humans. Unlike older methods that rely on external motion capture or struggle to generalize, visual mimic unifies egocentric vision with a hierarchical whole body controller. The system combines a low-level motion tracker trained directly from human motion data with a highle policy that translates vision and proprioception into precise body movements. With noise injection and action clipping for stability, the model can zero transfer from simulation to real hardware. The results are impressive. Robots using Visual Mimic can lift and push boxes, dribble and kick footballs, and even handle outdoor environments, all without retraining."
+      ]
+    },
+    {
+      "start": 340,
+      "title": "SongPrep",
+      "repositories": [
+        "https://github.com/tencent-ailab/SongPrep"
+      ],
+      "id": "s009",
+      "end": 381,
+      "paragraphs": [
+        "Moving on, we have Song Prep, a pre-processing framework and end-to-end model for full song structure parsing and lyrics transcription. Instead of requiring manual labeling or complex source separation, Song Prep can analyze an entire track, detect its structure, transcribe lyrics, and even generate precise timestamps for both Chinese and English songs. At its core is Song Prep E2E, a model built on pre-trained language models that leverages context from the whole song. The result, lower diorization and word error rates and structured data sets that are ready to train AI powered music generation models."
+      ]
+    },
+    {
+      "start": 381,
+      "title": "MCP-Obsidian",
+      "repositories": [
+        "https://github.com/bitbonsai/mcp-obsidian"
+      ],
+      "id": "s010",
+      "end": 426,
+      "paragraphs": [
+        "Next up is MCP Obsidian, a universal AI bridge for your Obsidian Vault. With the model context protocol standard, it connects your notes directly to AI assistants like Claude, Chat, GPT, and even future MCP compatible tools without locking you into corporate APIs. The best part, it gives your AI safe read and write access to your knowledge base while protecting your YAML front matter from corruption. That means your notes stay private, but your assistant gets smarter. Whether you're working in Obsidians like Intelligj and Cursor, or future AI platforms, MCP Obsidian ensures your knowledge base is ready to integrate with the next generation of AI tools."
+      ]
+    },
+    {
+      "start": 426,
+      "title": "GeoSVR",
+      "repositories": [
+        "https://github.com/Fictionarry/GeoSVR"
+      ],
+      "id": "s011",
+      "end": 470,
+      "paragraphs": [
+        "Now, let's talk about GOSVR, short for geometric sparse voxal reconstruction. This open- source project delivers highquality surface reconstruction for complex real world scenes using explicit sparse voxels. What makes GOSVR powerful is its voxal uncertainty depth constraint, which leverages depth cues while avoiding quality loss, plus a sparse voxal surface regularization that sharpens tiny details. The result, reconstructions that are not just efficient, but also incredibly accurate, complete, and rich in fine details. If you've struggled with rough or incomplete reconstructions before, Gossvr sets a new benchmark for detail preservation and geometric accuracy."
+      ]
+    },
+    {
+      "start": 470,
+      "title": "Blogr",
+      "repositories": [
+        "https://github.com/bahdotsh/blogr"
+      ],
+      "id": "s012",
+      "end": 509,
+      "paragraphs": [
+        "Introducing Blogger, a fast, lightweight static site generator built in Rust, designed for developers who want a smooth blogging workflow without the bloat. With Blogger, you can write in Markdown, manage drafts and tags, and preview your posts with a built-in terminal editor. Site builds are blazing fast with multiple themes, full text search, syntax highlighting, and SEOfriendly output. Everything you need for a professional blog. Deployment is effortless. A single command pushes your site to GitHub pages with custom domain support and branch management handled for you."
+      ]
+    },
+    {
+      "start": 509,
+      "title": "Tree-GRPO",
+      "repositories": [
+        "https://github.com/AMAP-ML/Tree-GRPO"
+      ],
+      "id": "s013",
+      "end": 547,
+      "paragraphs": [
+        "Next on our list is tree grpo, a tree searchbased reinforcement learning method designed for LLM agents. Traditional RL approaches for language models often rely on chain-based rollouts which can be inefficient and suffer from sparse supervision. Tree Jarpo fixes this by using a semantic tree structure where each node represents a full agent step allowing multiple rollouts to share common prefixes. This approach has two major benefits. It reduces the rollout budget by up to 75% and provides a step-wise supervision signal for better learning."
+      ]
+    },
+    {
+      "start": 547,
+      "title": "Lucy Edit - ComfyUI",
+      "repositories": [
+        "https://github.com/DecartAI/Lucy-Edit-ComfyUI"
+      ],
+      "id": "s014",
+      "end": 588,
+      "paragraphs": [
+        "Next up is Lucydit, a powerful video editing model that lets you make instructionguided edits using just text prompts. Want to change a character's outfit, swap a person for a polar bear, or transform the scene into a 2D cartoon? Lucyit handles it all while perfectly preserving motion and composition. Unlike typical methods that require masks or fine-tuning, Lucyit works directly from Freeext instructions, making edits reliable and robust. You can modify wardrobe and accessories, replace characters, insert objects, or even change entire scenes, all without touching a single frame manually."
+      ]
+    },
+    {
+      "start": 588,
+      "title": "Max Headbox",
+      "repositories": [
+        "https://github.com/syxanash/maxheadbox"
+      ],
+      "id": "s015",
+      "end": 630,
+      "paragraphs": [
+        "Next up is Max Headbox, an open-source voice activated LLM agent built to run entirely on a Raspberry Pi. With just a microphone and a Pi 5, you can execute code, run tools, or interact with AI entirely offline. No cloud required. The stack is fully local. A React Vite front end talks to a Sinatra backend for audio recording, while speechtoext is handled by faster whisper. A wakeword system with Vosque triggers the LLM and the whole system integrates with Olama for language model management. Max Headbox lets you prototype hands-free AI experiences while maintaining full privacy, keeping everything on your device."
+      ]
+    },
+    {
+      "start": 630,
+      "title": "DEIMv2",
+      "repositories": [
+        "https://github.com/Intellindust-AI-Lab/DEIMv2"
+      ],
+      "id": "s016",
+      "end": 679,
+      "paragraphs": [
+        "Next up is DMV2, a real-time object detection framework that combines the proven DIM training pipeline with the powerful features of Dinov3. Designed for versatility, DMV2 spans eight model sizes from ultra lightweight edge models to largecale GPU deployments, making it adaptable across devices and scenarios. With innovations like the spatial tuning adapter for multiscale feature extraction and a simplified decoder, DIMV2 achieves state-of-the-art performance while maintaining efficiency. For example, the S-sized model exceeds 50 AP on Coco, while the ultra light Pico model hits 38.5 AP with just 1.5 million parameters, roughly 50% fewer than competing models.",
+        "[Music]"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Every week, thousands of developers around the world push new code to GitHub, but only a few projects rise to the top and capture the community's"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "attention. Today, we're highlighting the top 15 trending repos for September 26th, 2025."
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "The projects everyone's talking about. Let's find out why."
+    },
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "text": "First up, we've got DayFlow, a native Mac OS app that automatically builds a timeline of your day using AI. Instead"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "of relying on your calendar, DayFlow watches your screen activity at one frame per second and summarizes it every 15 minutes, giving you a clean,"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "trustworthy snapshot of how you actually spend your time. What makes it special?"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "It's lightweight, private by design, and you control the AI, whether that's Gemini with your own API key or local"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "models like Olama. You even get distraction highlights, time-lapse replays of your day, and automatic cleanup so old recordings don't pile up."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Next on the list is React Old Icons, a massive React component library featuring over 2,300 classic icons"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "pulled straight from vintage operating systems and software. We're talking Windows 95, XP, Vista 7, old school"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "text": "games, and even classic applications like Photoshop and Winar. Perfect if you're building a retro themed app, a nostalgic UI, or just want to preserve"
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "text": "digital history and style. The project comes with a slick interactive icon browser where you can search, filter by category, preview different sizes, and"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "text": "copy the component code with just one click. Every icon is fully typed, supports responsive sizing, custom styling, and accessibility out of the box."
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "text": "Coming in next is Open Track, an open-source humanoid motion tracking framework built on Mujoko with support"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "text": "for multi-GPU parallel training. This project tackles one of the hardest challenges in robotics, tracking highly dynamic, contactrich human motions while"
+    },
+    {
+      "start": 123.0,
+      "end": 123.0,
+      "text": "staying stable in real world environments. At the heart of Open Track is any2 track, a two-stage reinforcement"
+    },
+    {
+      "start": 130.0,
+      "end": 130.0,
+      "text": "learning system. It combines any tracker, which learns to follow diverse motions in a single policy, with any"
+    },
+    {
+      "start": 137.0,
+      "end": 137.0,
+      "text": "adapter, a module that adapts on the fly to terrain changes, external forces, and other disturbances. For anyone working"
+    },
+    {
+      "start": 145.0,
+      "end": 145.0,
+      "text": "in robotics, AI, or motion simulation, this is a foundational repo worth diving into."
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "[Music]"
+    },
+    {
+      "start": 153.0,
+      "end": 153.0,
+      "text": "Next, we've got VALA adapter, a new paradigm for building efficient vision language action models without the massive training costs of giant"
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "backbones. Traditionally, VLA systems bridge vision and language to action by pre-training on huge robotic data sets,"
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "powerful, but expensive and slow. VA adapter flips that script. By carefully designing a lightweight bridge between"
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "multimodal features and the action space, it achieves state-of-the-art performance with just a.5 billion parameter model. Even better, it can be"
+    },
+    {
+      "start": 186.0,
+      "end": 186.0,
+      "text": "trained in about 8 hours on a single consumer GPU and delivers some of the fastest inference speeds to date."
+    },
+    {
+      "start": 194.0,
+      "end": 194.0,
+      "text": "[Music]"
+    },
+    {
+      "start": 197.0,
+      "end": 197.0,
+      "text": "Next up is simple fold. Folding proteins is simpler than you think. a breakthrough open- source project tackling one of biologyy's hardest"
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "problems, protein folding. Unlike previous models that rely on specialized modules like triangle attention, simple"
+    },
+    {
+      "start": 213.0,
+      "end": 213.0,
+      "text": "fold is built entirely with general purpose transformer layers and trained with a flow matching objective. The team scaled it up to a three billion"
+    },
+    {
+      "start": 222.0,
+      "end": 222.0,
+      "text": "parameter model trained on over 8.6 6 million protein structures plus PDB data, making it the largest folding"
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "model ever developed. Despite this simplicity, SimpleFold achieves state-of-the-art competitive accuracy on folding benchmarks and shows strong"
+    },
+    {
+      "start": 238.0,
+      "end": 238.0,
+      "text": "performance in ensemble predictions thanks to its generative approach."
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "[Music]"
+    },
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "Up next is Ton, a lightweight SSH tunnel manager that makes handling multiple tunnels a breeze. Instead of juggling"
+    },
+    {
+      "start": 254.0,
+      "end": 254.0,
+      "text": "long commands, you define everything in a single YAML config file. Then spin up all your tunnels or just the ones you"
+    },
+    {
+      "start": 261.0,
+      "end": 261.0,
+      "text": "need with a simple command. It supports multiple port mappings per tunnel, runs everything in parallel, and even has a"
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Damon mode with status reporting so you can keep an eye on what's active. Under the hood, Ton doesn't reinvent the"
+    },
+    {
+      "start": 276.0,
+      "end": 276.0,
+      "text": "wheel. It wraps your systems native open SSH, so all your existing keys and configs work exactly as they do in your shell."
+    },
+    {
+      "start": 286.0,
+      "end": 286.0,
+      "text": "Next up is Visual Mimic, a cutting edge framework for visual humanoid loco manipulation. Basically teaching humanoid robots to see, move, and interact with the world like humans."
+    },
+    {
+      "start": 298.0,
+      "end": 298.0,
+      "text": "Unlike older methods that rely on external motion capture or struggle to generalize, visual mimic unifies egocentric vision with a hierarchical"
+    },
+    {
+      "start": 307.0,
+      "end": 307.0,
+      "text": "whole body controller. The system combines a low-level motion tracker trained directly from human motion data with a highle policy that translates"
+    },
+    {
+      "start": 315.0,
+      "end": 315.0,
+      "text": "vision and proprioception into precise body movements. With noise injection and action clipping for stability, the model"
+    },
+    {
+      "start": 323.0,
+      "end": 323.0,
+      "text": "can zero transfer from simulation to real hardware. The results are impressive. Robots using Visual Mimic"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "can lift and push boxes, dribble and kick footballs, and even handle outdoor environments, all without retraining."
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "Moving on, we have Song Prep, a pre-processing framework and end-to-end model for full song structure parsing and lyrics transcription. Instead of"
+    },
+    {
+      "start": 349.0,
+      "end": 349.0,
+      "text": "requiring manual labeling or complex source separation, Song Prep can analyze an entire track, detect its structure,"
+    },
+    {
+      "start": 356.0,
+      "end": 356.0,
+      "text": "transcribe lyrics, and even generate precise timestamps for both Chinese and English songs. At its core is Song Prep"
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "E2E, a model built on pre-trained language models that leverages context from the whole song. The result, lower"
+    },
+    {
+      "start": 371.0,
+      "end": 371.0,
+      "text": "diorization and word error rates and structured data sets that are ready to train AI powered music generation models."
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "Next up is MCP Obsidian, a universal AI bridge for your Obsidian Vault. With the model context protocol standard, it"
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "connects your notes directly to AI assistants like Claude, Chat, GPT, and even future MCP compatible tools without"
+    },
+    {
+      "start": 396.0,
+      "end": 396.0,
+      "text": "locking you into corporate APIs. The best part, it gives your AI safe read and write access to your knowledge base while protecting your YAML front matter"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "from corruption. That means your notes stay private, but your assistant gets smarter. Whether you're working in Obsidians"
+    },
+    {
+      "start": 413.0,
+      "end": 413.0,
+      "text": "like Intelligj and Cursor, or future AI platforms, MCP Obsidian ensures your knowledge base is ready to integrate with the next generation of AI tools."
+    },
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "Now, let's talk about GOSVR, short for geometric sparse voxal reconstruction."
+    },
+    {
+      "start": 431.0,
+      "end": 431.0,
+      "text": "This open- source project delivers highquality surface reconstruction for complex real world scenes using explicit sparse voxels. What makes GOSVR powerful"
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "is its voxal uncertainty depth constraint, which leverages depth cues while avoiding quality loss, plus a sparse voxal surface regularization that"
+    },
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "sharpens tiny details. The result, reconstructions that are not just efficient, but also incredibly accurate, complete, and rich in fine details. If"
+    },
+    {
+      "start": 459.0,
+      "end": 459.0,
+      "text": "you've struggled with rough or incomplete reconstructions before, Gossvr sets a new benchmark for detail preservation and geometric accuracy."
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "Introducing Blogger, a fast, lightweight static site generator built in Rust, designed for developers who want a smooth blogging workflow without the"
+    },
+    {
+      "start": 479.0,
+      "end": 479.0,
+      "text": "bloat. With Blogger, you can write in Markdown, manage drafts and tags, and preview your posts with a built-in terminal editor. Site builds are blazing"
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "fast with multiple themes, full text search, syntax highlighting, and SEOfriendly output. Everything you need"
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "for a professional blog. Deployment is effortless. A single command pushes your site to GitHub pages with custom domain"
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "support and branch management handled for you."
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "Next on our list is tree grpo, a tree searchbased reinforcement learning method designed for LLM agents."
+    },
+    {
+      "start": 517.0,
+      "end": 517.0,
+      "text": "Traditional RL approaches for language models often rely on chain-based rollouts which can be inefficient and suffer from sparse supervision. Tree"
+    },
+    {
+      "start": 525.0,
+      "end": 525.0,
+      "text": "Jarpo fixes this by using a semantic tree structure where each node represents a full agent step allowing multiple rollouts to share common"
+    },
+    {
+      "start": 534.0,
+      "end": 534.0,
+      "text": "prefixes. This approach has two major benefits. It reduces the rollout budget by up to 75% and provides a step-wise supervision signal for better learning."
+    },
+    {
+      "start": 547.0,
+      "end": 547.0,
+      "text": "Next up is Lucydit, a powerful video editing model that lets you make instructionguided edits using just text prompts. Want to change a character's"
+    },
+    {
+      "start": 556.0,
+      "end": 556.0,
+      "text": "outfit, swap a person for a polar bear, or transform the scene into a 2D cartoon? Lucyit handles it all while perfectly preserving motion and"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "composition. Unlike typical methods that require masks or fine-tuning, Lucyit works directly from Freeext"
+    },
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "instructions, making edits reliable and robust. You can modify wardrobe and accessories, replace characters, insert"
+    },
+    {
+      "start": 580.0,
+      "end": 580.0,
+      "text": "objects, or even change entire scenes, all without touching a single frame manually."
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Next up is Max Headbox, an open-source voice activated LLM agent built to run entirely on a Raspberry Pi. With just a"
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "microphone and a Pi 5, you can execute code, run tools, or interact with AI entirely offline. No cloud required. The"
+    },
+    {
+      "start": 603.0,
+      "end": 603.0,
+      "text": "stack is fully local. A React Vite front end talks to a Sinatra backend for audio recording, while speechtoext is handled"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "by faster whisper. A wakeword system with Vosque triggers the LLM and the whole system integrates with Olama for"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "language model management. Max Headbox lets you prototype hands-free AI experiences while maintaining full privacy, keeping everything on your device."
+    },
+    {
+      "start": 630.0,
+      "end": 630.0,
+      "text": "Next up is DMV2, a real-time object detection framework that combines the proven DIM training pipeline with the"
+    },
+    {
+      "start": 638.0,
+      "end": 638.0,
+      "text": "powerful features of Dinov3. Designed for versatility, DMV2 spans eight model sizes from ultra lightweight edge models"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "to largecale GPU deployments, making it adaptable across devices and scenarios."
+    },
+    {
+      "start": 652.0,
+      "end": 652.0,
+      "text": "With innovations like the spatial tuning adapter for multiscale feature extraction and a simplified decoder, DIMV2 achieves state-of-the-art"
+    },
+    {
+      "start": 660.0,
+      "end": 660.0,
+      "text": "performance while maintaining efficiency. For example, the S-sized model exceeds 50 AP on Coco, while the"
+    },
+    {
+      "start": 666.0,
+      "end": 666.0,
+      "text": "ultra light Pico model hits 38.5 AP with just 1.5 million parameters, roughly 50% fewer than competing models."
+    },
+    {
+      "start": 675.0,
+      "end": 675.0,
+      "text": "[Music]"
+    }
+  ]
+}
