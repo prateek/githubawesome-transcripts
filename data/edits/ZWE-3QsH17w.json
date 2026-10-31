@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "source_sha256": "a702024a8a27cb844c9a75903904a39c9e75ba0bb166c87514abee4b4a6905bb",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-10-31T21:55:06+00:00",
+  "usage": {
+    "prompt_tokens": 4786,
+    "completion_tokens": 4347,
+    "total_tokens": 9133,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 995,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "What's up everyone? Welcome back to GitHub Awesome. This is GitHub Trending today, episode 29, and we have a rapidfire list of 34 trending open source projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Giving autonomous agents full host access is a security risk most people accept by default because the alternative has always been complicated. Coasts is local host service isolation and orchestration for git work trees built by a former YC founder. Agents spin up environments, run servers, and execute code inside containerized hosts without touching the main system."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Cloud code running in the terminal gives you output, but no visibility into what's actually happening between the lines. Agent Flow connects to your Cloud sessions and renders the entire execution as an interactive node graph in real time. Watch agents think, branch, spawn sub-agents, and execute tool calls as they happen in your browser or VS Code."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Hermes agent from Nous Research is an autonomous agent built on the Hermes model with a built-in learning loop. It creates skills from experience, persists knowledge into long-term memory, and compounds that learning over time. Host it on a $5 VPS and interact with it directly through Telegram while it works in the background. An agent that actually gets smarter the longer you run it."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Another mirrors and controls Android devices over USB built with Tauri, React, and Rust. The MCP server is what makes it interesting for developers. Claude Code or Cursor can connect to it and autonomously click, scroll, type, and control your physical Android device directly from the terminal. AI-driven Android automation without emulators or complex ADB scripting."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Heric renders voxel scenes directly to SVG with zero dependencies. Boolean operations, oblique and perspective cameras, crisp mathematical 3D geometry in the browser without touching WebGL. Inspired by Irwin Herix's geometric cardboard sculptures, which is exactly the aesthetic the output delivers for web projects that need clean 3D geometry without the WebGL overhead. This is the lightweight path."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Most ML resources assume you either already know the math or are willing to grind through it from scratch. There is no spoon takes a third path. Machine learning from first principles explained through software engineering mental models. Back propagation, transformers, diffusion models, all demystified using the intuitions you already have as a developer."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "The MacBook notch sits there doing nothing while your AI agents run invisibly in the background. Notchy is an open-source foundation that turns it into a live dashboard. Developers are already building on top of it. Claude Notch uses it to drop down realtime status on background AI coding agents across multiple repositories. Dead screen real estate actually earning its keep."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Claude token efficient is a single CLAUDE.md file you drop into your project root. No code changes, no wrapper, no proxy. It sets strict system-level rules. No redundant context, no speculative features, no long intros, no fluff. Return the simplest working solution and stop. Benchmarks show up to 63% reduction in output verbosity. The file adds a small input token cost per prompt, but for high volume agent loops, the output savings cover it immediately."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "For 20 years, we've let CSS handle text layout, but complex animations cause massive performance lag. Meet pretext. It throws CSS completely out the window. It uses pure JavaScript and arithmetic to measure text, completely bypassing the DOM. The result: insane 60 frames per second fluid text animations with zero layout lag."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Generating spreadsheets in a web app usually means a backend service or a heavy library with a long dependency chain. Hucre is a zero dependency spreadsheet engine in pure TypeScript that runs everywhere. Reads and writes XLSX, CSV, and ODS with full support for cell styles, tables, conditional formatting, and rich text. Client-side spreadsheet generation with no backend required."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Most web scraping agents are one HTML restructure away from breaking completely. Molmo Web ignores the HTML entirely. It navigates the web purely from screenshots, understanding the UI visually the way a human does, then clicks, scrolls, and types based on what it sees. No DOM dependency, no fragile selectors. When the HTML changes, it doesn't care."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Corporate meeting bots recording your conversations and storing them on someone else's servers is a legitimate concern that most people just accept. Tome captures both system and microphone audio locally, transcribes the entire meeting offline, and saves the formatted output directly into your Obsidian vault. No cloud, no API keys, nothing leaving your machine."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "OpenAI just dropped an official plugin for Claude Code. Codex plugin-cc lets you invoke OpenAI's Codex model directly inside your Claude Code terminal. Just had Claude write a massive feature? Run /codex review to have Codex double-check the work. Want to go harder? Use adversarial review to make Codex act like a ruthless senior engineer and aggressively pressure test your code before merging. Two rival AIs, one terminal."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Phantom runs continuously on its own virtual machine as a dedicated AI co-worker built on the Claude agent SDK. Persistent vector memory, Slack integration, and a self-rewriting configuration that improves after every session. It doesn't stop when you close the terminal because it was never running in your terminal to begin with. A co-worker that's always on, always learning, running on its own machine."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Every developer has a graveyard of useful code snippets, saved links, and agent outputs they can never find when they actually need them. Spool indexes your Claude code logs, Codex history, GitHub stars, and Twitter bookmarks into a single local search bar on Mac. Everything you've generated or saved instantly searchable from one place, the search engine for your own digital output."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Docker and Kubernetes documentation assumes you already know what you're doing, which makes starting from scratch genuinely difficult. Learn Docker and K8s strips the enterprise jargon and walks through containerization and orchestration as a clear step-by-step learning path. Package, deploy, and scale applications using modern DevOps practices. Explained for people who are actually learning it for the first time."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "If you've ever seen a beautifully designed website and wanted to build exactly that, this Claude code skill is magic. You point it at a URL and it dispatches parallel AI builder agents into separate git work trees to reconstruct every single section of the site simultaneously. It automatically downloads assets and rebuilds the site into a pixel perfect Next.js app in minutes."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Typora and most markdown editors treat the file as yours alone. Close it, reopen it to see external changes. ColaMD watches the file system and live refreshes instantly as background AI agents write to the file. No manual reloading, no stale views while an agent is mid-edit. A markdown editor built for the reality of having an AI writing to your files in the background."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "AI agents that need to work in real business environments eventually hit the wall of proprietary office formats. Office CLI is a single binary CLI written in C that lets agents read, edit, and automate Word, Excel, and PowerPoint files natively from the terminal. Generate spreadsheets, rewrite contracts, scrape data from pitch decks, all without Microsoft Office installed on the host machine."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Sentrux is a realtime architectural sensor written in Rust that visualizes your codebase as a live interactive tree map, catching structural degradation as it happens. The MCP server integration is the key detail. Your agent can query Sentrux directly, see how messy its own code is getting, and course correct before the architecture becomes a problem to untangle."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Harness is a meta-tool for Cloud Code that builds the agent team for you. Tell it to build a harness for your project and it autonomously designs the multi-agent architecture, generates specialized worker agents, defines the pipeline structure, fan-out, supervisor or whatever fits the problem, and equips each agent with the skills it needs. You describe the problem. It solves it."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "LeWorldModel is the official codebase for a stable end-to-end joint embedding predictive architecture from pixels. Instead of predicting raw pixel outputs, it predicts abstract representations of future states, pushing toward AI systems that build genuine internal world models. The distinction matters for both computer vision and reinforcement learning research."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "AI agents that can't remember previous sessions and can't communicate with each other are fundamentally limited in what they can accomplish together. PrismerCloud is a self-hosted server that gives agents persistent memory knowledge that evolves over time and a real time websocket messaging system. Independent agents discover each other and coordinate directly to solve problems collaboratively."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Atomic Chat is a native desktop AI assistant built on the OpenClaw framework with no Docker configuration required. Plug in your API keys or connect local Hugging Face models and you get a private ChatGPT style interface that can also run terminal skills. Clean install, no cloud dependency. Your conversations stay on your machine. The ChatGPT experience without the ChatGPT data policies."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Dither playground converts any image into thousands of interactive dithered particles that respond to your cursor in real time. Hover to push them around. Click to scatter the whole thing into a physics-driven swarm. Runs entirely in the browser, and the effect is the kind of thing you immediately want to steal for a landing page hero section."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Figma's REST API rate limits hit hard when an AI agent is making thousands of calls during active UI development. Figma MCP Go bypasses the API entirely by connecting through a local plugin bridge instead of API keys. Zero rate limits, real-time read and write access, and your agent can extract JSON from selected nodes, clone components, and iterate directly on the canvas. Runs via NPX with no configuration or local Go installation required."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Setting up Claude Code on a VPS usually means wrestling with dependencies, display issues, and browser sandbox crashes. HolyClaude is a single Docker Compose file that eliminates all of that. Claude Code CLI, a browser accessible terminal UI, five AI CLIs, and 50 plus development tools pre-installed. Your agent can spin up a web app, navigate to it, take screenshots, and run visual tests without the container falling over."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "The official Lark CLI covers Messenger, Docs, Sheets, and Calendar with over 200 commands from the terminal. The 19 built-in AI agent skills are what make it interesting. Your local AI can read corporate emails, schedule meetings, and update spreadsheets autonomously without you touching the Lark interface. Full Lark ecosystem automation driven directly from your terminal."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Python wrappers for desktop automation add latency that compounds fast when an agent is making dozens of sequential actions. Use Computer is a native Zig CLI that gives AI agents low latency control over macOS and Linux desktops. Accessibility snapshots, mouse control, typing, scrolling, all available programmatically with minimal overhead."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Create Context Graph does for graph powered AI apps what create next app does for React projects. Run the CLI and in under five minutes you have a complete FastAPI backend with an AI agent that uses a Neo4j knowledge graph for memory. Complex entity relationships persistent across sessions without building the infrastructure from scratch."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Kicking off a long Claude Code session and walking away means being tethered to your laptop for approval prompts. Claude Watch pushes those prompts directly to your Apple Watch. Agent needs permission to run a terminal command. Your wrist gets the notification. You approve it on the spot. AI agent oversight from anywhere in the house."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "The turboquant algorithm is now integrated directly into vLLM. That means the 3-bit 2-bit KV cache compression is available in the industry standard inference engine without any custom setup. Deploy massive models like Qwen 3.5 on existing GPU hardware with double the context capacity and no changes to your serving infrastructure."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "OpenClaw Autodream adds an automated task runner and CI layer to the OpenClaw ecosystem. Agents pick up complex tasks, work through the architectural solutions autonomously, and execute reliably in the background. For anyone running a serious OpenClaw workflow who needs their agents operating continuously without manual handholding between tasks, this is the piece that closes the loop."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "Zinc is an LLM inference engine written in Zig, built specifically for RDNA 3 and RDNA 4 via Vulkan. Hand-tuned for AMD's memory hierarchy with wave 64 dispatch and architecture aware tiling, it hits over 90% of theoretical memory bandwidth on the matrix multiplications that dominate LLM decoding. 35 billion parameter models running comfortably on $550 consumer AMD hardware."
+      ]
+    }
+  ]
+}
