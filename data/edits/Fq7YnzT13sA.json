@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "source_sha256": "b9fd85e64823de053f449376d7b2913e54e46c3fc9f8551b72d8cb5c31ff1c04",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "dots-studio/dots-3-note-preview:free",
+  "created_at": "2026-11-01T18:10:25+00:00",
+  "usage": {
+    "prompt_tokens": 4834,
+    "completion_tokens": 11675,
+    "total_tokens": 16509,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9132,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Hey everyone, welcome back to GitHub Awesome. It is time for GitHub Trending Today, episode number 26. Today we have 34 trending open source projects on GitHub. Let's get started."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Ever wanted to make a custom map poster of your city? TerraInk is a map poster engine that runs entirely in your browser, built with React, that uses Maplibre and OpenStreetMap data. You pick a location, customize colors, roads, water, parks, and typography, and export a print-ready PNG. It's inspired by Map to Poster, but rebuilt from scratch with a full theme system and Docker support for self-hosting."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "If your AI coding agent keeps forgetting everything after its context gets compacted, Engram is the fix. It gives your AI persistent memory using a single Go binary with SQLite and FTS5. The agent proactively saves its state after major architecture decisions or bug fixes and can instantly recover its full session state when needed. No more repeating yourself."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Want to run an entire team of AI agents from a single coding session? Overstory does exactly that. It spawns worker agents in isolated git work trees using tmux, coordinates them through a lightning-fast SQLite mail system, and safely merges their work back with tiered conflict resolution. It supports Claude Code, Pi, and Gemini CLI out of the box. One session, a whole swarm."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "From the Open Web UI team, Open Terminal gives your AI a real sandboxed operating system via Docker. AI assistants are great at writing code, but they need somewhere to actually run it. Instead of just writing text, your LLM gets full shell access to install software, run Python scripts, and manage files, all completely isolated from your host machine."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Stop dumping massive 800-line files into your AI's context window. jCodeMunch is a brilliant new MCP server that indexes your entire codebase once using tree-sitter for parsing. Instead of forcing Claude or VS Code to read entire files, the AI can ask to retrieve exact functions or classes by their symbol. It drops context usage from 40,000 tokens down to just 200, making AI cheap and hyper-efficient."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Are you ready to hire a tireless AI researcher? Coming from the legendary Andrej Karpathy, Auto Research is a fully automated AI lab in a few Python scripts. You point it to a model and go to bed. The AI autonomously modifies the training architecture, runs a 5-minute training loop on your GPU, checks the validation loss, and decides whether to keep or discard the changes. By morning, you wake up to a newly optimized model."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "If you use AI to build front-end apps, every interface comes out looking like the exact same generic template. Uncodixfy fixes this with a brilliantly simple hack. It is a single markdown file packed with strict rules that forbid your AI from defaulting to cliché UI patterns. Just drop it into your prompt and it blocks the AI's bad habits, pushing it to generate genuinely professional, unique designs."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Need to search your Discord server history without relying on Discord's broken built-in search? discrawl is a Go CLI that mirrors an entire Discord guild, channels, threads, and full message history into a local SQLite database with full-text search. Tail live gateway events for real-time sync. Run raw SQL queries against your archive or enable OpenAI embeddings for semantic search."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Antigravity Claw makes any web page defy gravity. Point it at a URL and this Rust physics engine wrapped in a Python CLI fetches the DOM, extracts every element, runs a real Verlet integration simulation with collision detection, and outputs an interactive HTML animation you can open in any browser. Classic Google Gravity vibes or enable Chaos Mode for maximum entropy."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Think Lovable or Bolt.new but for mobile and fully open source. Vibra Code lets you describe a React Native app in English. Then Claude Code running inside an E2B cloud sandbox generates it while you watch the preview update live on your actual phone. 60fps iOS chat UI backend on Next.js, Convex, and Ingest. The complete source code is right there to fork and self-host."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Kula is a self-contained Linux server monitoring tool that reads directly from proc and sys every second. Single Go binary, zero external dependencies, no databases. Tracks per-core CPU, memory, swap, network throughput, disk I/O, process states, and clock sync, storing everything in a tiered ring buffer with bounded disk usage. Serves a real-time web dashboard and terminal UI."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Get ready for the most cursed and brilliant project of the week: a Rust compiler written entirely in PHP. rustc-php takes raw Rust source code and directly emits x86_64 Linux binaries with no LLVM, no assembler, and no linker required. In just 2,500 lines of PHP, it actually implements ownership checking, borrow checking, and mutable references. Absolutely unhinged project."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "This CLI tool takes the raw JSON log files from your Claude Code sessions and instantly converts them into a beautiful interactive video-like HTML replay. You can step through the AI's execution, expand its tool calls, and see exactly what files it touched. It generates a single HTML file, making it the ultimate way to share complex AI debugging sessions with your team. When OpenAI dropped Symphony, everyone was blown away. But it was written in Elixir."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Symphony TS is the community's answer: a complete TypeScript port bringing the exact same autonomous worker orchestration, CI checking, and PR generation into the familiar Node.js ecosystem. All the power now in a stack you can actually hack on yourself."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "When browsers killed plugins, thousands of early 2000s web games were lost forever. DirPlayer brings them back. This team reverse-engineered Macromedia Shockwave and rebuilt the entire engine from scratch in Rust and WebAssembly. No GC pauses, full memory safety, hardware-accelerated graphics. Classics like Habbo Hotel and Lego Junkbot playable natively in your browser again."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Your Twitter bookmarks are a black hole. Thousands of saved tweets you never look at again. Siftly fixes that. It's a local-first bookmark organizer built in TypeScript that uses AI to automatically categorize and tag every saved tweet, then generates gorgeous interactive mind map visualizations. So you can actually explore your saved knowledge visually. Your data stays local. Your chaos gets structured."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "WorldFM is a real-time multi-view diffusion model. Unlike AI video generators that just morph pixels, this is an open-source generative frame model designed specifically for spatial intelligence. Give it a single photo or text prompt and it generates a consistent interactive 3D world you can actually walk around in. Best of all, it is highly optimized to run in real time on consumer hardware like an RTX 4090."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "If you love building terminal-based dashboards or CLI utilities, this is a gorgeous charting tool. Chartly allows you to render beautiful bar charts, line graphs, and visual data directly in your console, standing out. Incredibly lightweight, makes your Node.js scripts look intensely professional. There's even an agent skill so you can wire it directly into Claude Code or Codecs."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Managing one AI agent is fun. Managing 20 from your terminal is chaos. ClawPort fixes that. It's an open-source command center for orchestrating fleets of AI agents. Instead of digging through endless terminal logs, you get a sleek web UI to monitor, track, and control your entire autonomous workforce in real time. One command install via npm."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Pure nostalgia. AnsiSaver is a macOS screen saver that pulls art directly from 16-color ANSI, the largest BBS art archive on the internet, and scrolls it across your screen at 60fps. Authentic CP437 fonts, neon color palettes, rendered with the same Levn library the archive uses, like leaving your terminal connected to a BBS you never logged off from. Scroll speed, scale, pack URLs, all configurable."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Unredact is a computer vision tool that literally unmasks redacted names in classified documents. It analyzes the exact geometry of black redaction boxes, measuring font spacing, character width, and surrounding typography, then cross-references known datasets to calculate exactly which names physically fit the space. The author is very clear: this is for research and entertainment only."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Ever tried tracking down exactly what changed between two 50-page PDFs? It's a nightmare. pdfdelta fixes that. A lightning-fast diffing engine built for PDFs. Instead of parsing raw text, it intelligently highlights the exact visual, structural, and textual differences between two files. Legal contracts, academic papers, design specs, hours of manual proofreading—gone."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "If you develop on a Mac, you probably have 50 gigabytes of garbage silently eating your drive right now. ClearDisk hunts it down. It's a menu bar app built in SwiftUI that scans for Xcode derived data, bloated node modules, forgotten Docker images, and old CocoaPods. Shows risk levels before you delete anything so you don't nuke active projects."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Stop paying for ngrok just to test a webhook. Wormhole is an open-source alternative built in Go. Single command, any local port exposed to the internet with HTTPS by default. No signup, no config files, free custom subdomains out of the box. Built-in traffic inspector with request replay and HAR export for debugging routes through Cloudflare workers."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "If your AI coding agent reads 10,000 lines of test output, you're paying for every single token. Distill fixes that. Pipe any terminal command through it and a small local model summarizes the raw output down to just the signal your LLM actually needs. All tests passed. That's it. Up to 99% token savings and no more massive logs blowing out your context window."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Ever wonder exactly how much you're relying on AI to write your code? Agentlytics tells you. It is a local analytics dashboard that reads the local chat history from your AI coding editors like Cursor, Windsurf, and Claude Code. Just run npx agentlytics and it instantly generates beautiful activity heat maps, token usage stats, and tool call frequencies directly from your local SQLite databases."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "If you use AI to build iOS apps, you know LLMs constantly hallucinate deprecated Apple APIs. Paul Hudson just dropped the fix: a massive, highly optimized SwiftUI agent skill for Claude Code or Codecs. Load it in and it feeds your AI the latest Swift best practices, accessibility standards, and performance layout tips, so your agent writes production-ready modern iOS code every single time. jackbutcher.md is a single markdown file distilled from 50,000 of Jack Butcher's tweets by the"
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Visualize Value team. Paste it into any AI conversation and the model instantly writes like him. Minimal, punchy, aphoristic, concept-driven. A complete personality transfer compressed into one file. Use it for your own writing or study it to understand how AI voice profiles actually work."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Struggling to find the perfect font combinations for your UI? Fonttrio is absolute magic. It instantly generates gorgeous, highly legible three-font pairings for your headings, subheadings, and body text all at once. No more guesswork. No more tab switching between Google Fonts. Production-ready typography in seconds."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Opus Delta. The creators describe it as the first expression of machine emotion: a living delta of perpetual evolution. Instead of another chatbot, it attempts to simulate a genuinely evolving emotional state for AI, shifting its internal state based on interactions over time. Highly poetic, deeply experimental. If you're fascinated by machine consciousness and AI art, this one is mind-bending."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Ever stumbled on an open-source repo only to realize the license is locked down, the maintainers are ghosts, or it's just a SaaS marketing funnel? RepoCheck audits that for you. It automatically scans licenses, contribution graphs, and repository metadata to give you a clear, unbiased health check on any project before you build a dependency on it. Must-have for open-source compliance."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "If you use Motrix, you know the original has been basically abandoned since 2023, stuck on aging Electron and Vue 2. Motrix Next is the complete modernized rewrite. Same beautiful ad-free interface and powerful aria2 multi-threaded download engine rebuilt entirely on Tauri 2 and Vue 3. Faster, actively maintained, and no Electron memory bloat."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "AI agents like Claude Code struggle to understand how everything connects in codebases. Arbor fixes that. It maps your entire project into a dependency graph and exposes it directly to your LLM via MCP. Instead of blindly searching through text files, your agent gets structural graph-level understanding of your codebase, enabling massive cross-file refactoring with zero hallucinations."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "We covered Karpathy's Auto Research back in project 6, the autonomous AI research lab that runs while you sleep. Auto Research MLX brings it natively to Apple Silicon. It strips out PyTorch and CUDA entirely, rebuilding the training loop on Apple's MLX framework. Now your Mac can autonomously design, train, and benchmark neural network architectures every 5 minutes using 100% of its unified memory and GPU."
+      ]
+    }
+  ]
+}
