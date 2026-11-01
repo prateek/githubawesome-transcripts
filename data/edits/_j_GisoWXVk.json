@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "source_sha256": "8ffb6706597d03ab398716b5e17a093eeded6ef50d82b88b4591ef59330d3560",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "dots-studio/dots-3-note-preview:free",
+  "created_at": "2026-11-01T06:33:54+00:00",
+  "usage": {
+    "prompt_tokens": 4392,
+    "completion_tokens": 11103,
+    "total_tokens": 15495,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8992,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. Today I've got 32 trending self-hosted projects from GitHub. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Managing three separate calendars across Google, Outlook, and iCloud means double bookings are basically inevitable. Keeper is a self-hosted sync tool that bridges all three, pulling events together so your availability is accurate everywhere. It also ships as an MCP server, so your local AI agents can read and manage your schedule directly."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Grimmory is a self-hosted library manager for EPUB, PDF, and comic files, including CBZ and CBR formats. It features a built-in browser reader, automatic metadata fetching, and reading progress sync directly to Cobo e-readers and OPDS-compatible apps. Your entire digital library in one place, with no Amazon account required to access it. For anyone who's been meaning to get their books off Kindle and onto their own hardware, this is the clean solution."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "LocalStack pulling core services behind a paywall hit a lot of local development setups hard. MiniStack is the free replacement. It emulates 20 AWS services in a single Docker container. But instead of mocking API responses, it spins up real PostgreSQL databases, Redis instances, and runs SQL through local DB. 30 megabytes of RAM boots in under two seconds. Point your existing code at port 4566 and nothing else changes."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Sync.in server is a self-hosted alternative to Google Drive and Dropbox that you deploy on your own infrastructure. It offers file storage, syncing, team collaboration, fine-grained access controls, multi-user support, a modern interface, and full ownership of your data. For anyone who's been meaning to get their documents off someone else's servers, this is a complete solution rather than a partial one."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Most note-taking apps give you infinite flexibility and somehow make it harder to actually write anything. Ichinichi gives you one note per day. Once the day ends, that note is locked permanently. No going back to clean it up, reframe it, or second-guess it. Everything stores locally with AES-GCM encryption. No folders, no tags, no organizational system to procrastinate inside."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Retro Assembly is a self-hosted retro game cabinet that runs in the browser. Spin it up with Docker, point it at your ROMs, and it handles the rest. Emulators stream directly to desktop or phone. Game art pulls automatically, and save states sync across devices. Your entire retro library is accessible from anywhere on hardware you actually own. Running multiple self-hosted services means juggling multiple notification APIs,"
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "each with their own setup and authentication. Apprise replaces all of that with a single library. One line of code or a simple webhook sends alerts to Discord, Slack, Telegram, SMS, and 80-plus other platforms simultaneously. For any serious home lab setup, this is the notification layer that should already be in the stack."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Prometheus and Netdata are powerful tools that carry a lot of weight for monitoring a single VPS. Kula is a single compiled binary with no external dependencies and no database. It reads directly from the kernel proc directory and serves a real-time metrics dashboard in the browser. Drop it on a server, run it, done. Monitoring that matches the scale of the problem."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Cloning a 5 GB repository to get two files out of it is one of those small inefficiencies that adds up to real wasted time. GHGrab opens an interactive terminal UI from a GitHub link, lets you browse the repo, and downloads only the files you actually need. One command, pick what you want, skip the rest. WakaTime is useful, but your coding habits"
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "are surprisingly personal data to be handing to a third party. Ziit is a self-hosted alternative. Install the VS Code or JetBrains extension and it tracks languages, editors, branches, and coding hours silently in the background. The analytics dashboard runs from your own server. Same metrics, none of the data leaving your machine."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Plex home screens go stale fast when the same movies sit in the same collections for weeks. Home Screen Hero rotates and curates your Plex collections on a schedule, pulling custom lists from Trakt and Letterboxd automatically. There's also an admin dashboard for streaming analytics and content management. For anyone running Plex for a household or friend group, this is the curation layer the app never shipped with."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Planning a trip across multiple Google Docs and spreadsheets is a mess that somehow became the standard approach. TRIP is a self-hosted web app that lets you drop points of interest onto an interactive map and build day-by-day itineraries in one place. It runs in a Docker container. No telemetry, no ads, location data stays on your own hardware."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Managing custom skills and tools across multiple AI agents with no central registry means the same capabilities get rebuilt or drift out of sync across different projects. SkillHub is a self-hosted registry for agent skills. Publish, version, and share reusable AI tools across your organization the same way you'd manage packages or container images. Role-based access control built-in, deployable on-premise with Docker. TRIP handles the minimalist case well."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "NOMAD is for when you're planning with a group and need the full stack. Real-time WebSocket collaboration so multiple people can edit the itinerary simultaneously, multi-currency budget splitting, interactive maps, automated packing lists, and a PTO tracker built in. The whole trip planning workflow self-hosted on your own server."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Most AI code review tools require sending your source code to someone else's servers. For proprietary code bases, that's a hard no for a lot of teams. OpenReview from Vercel Labs is self-hosted. Deploy it on your own infrastructure, connect it as a private GitHub app, and it reviews pull requests automatically, catches bugs, and commits formatting fixes directly to the branch."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Most people running Claude Code have no real visibility into what their sessions are actually costing until the bill arrives. Rudel hooks into your terminal, uploads transcripts to a local ClickHouse database, and generates dashboards tracking token usage, session durations, and exact model costs. Self-hosted, local, and finally answers the question of where all those tokens are actually going."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Most autonomous agent setups come with a Python environment, a list of dependencies, and an afternoon of configuration. Walrus is a single compiled binary with built-in local LLM inference, persistent SQLite memory, and multi-channel support for terminal, Discord, and Telegram out of the box. No cloud dependencies, no complex setup. The leanest possible path to a self-hosted AI worker that actually runs."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Longturn is a multiplayer civilization-style game where each turn takes 23 real hours to complete. The server setup is straightforward enough, but the detail worth paying attention to is the automated cron job that runs an LLM after each turn to generate an in-universe newspaper. Wars, alliances, and diplomatic events from the previous turn, summarized as period-appropriate news coverage, ready when players log in for the next one. The Microtick Windbox interface has looked the same since most"
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "current developers were in middle school. MikroDash is a self-hosted web dashboard that replaces it with real-time graphs for bandwidth, CPU load, and active client connections. Same router, considerably better visibility into what it's actually doing. Network monitoring that doesn't require squinting at a UI from 2003."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Calling ML APIs teaches you to use ML. TorchCode teaches you how it actually works. It's a self-hosted LeetCode-style practice environment for PyTorch deployed via Docker. Implement core neural network operators from scratch, attention mechanisms, softmax, and more with instant autograding and feedback on every attempt. For anyone serious about going deeper than the API surface, this is the practice environment worth grinding through."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Property management software subscriptions are expensive for what most small hosts actually need. StayView pulls reservations directly from Booking.com and other APIs into a single self-hosted dashboard. Real guest names, booking details, and calendar availability in one clean interface running on your own hardware. For bed and breakfast owners and small-scale hosts, this is the management layer without the monthly fee attached to it."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Most fitness apps want your health data as much as they want your subscription fee. Workout Tracker is a self-hosted Flask and SQLite app that logs exercises, tracks reps, and monitors personal records from a clean, mobile-friendly interface. Deploy it with Docker, and your training data stays on your own hardware. Your gains, nobody else's business."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "MyAnimeList going down or breaking their API has derailed enough watch lists to make self-hosting worth considering. malhaus is a self-hosted anime and manga tracker with a modern web UI that matches the polish of the cloud alternatives. Your watch history, ratings, and read progress on your own hardware with no dependency on a third-party service staying online."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Google Photos changing their storage tier finally made you look for an alternative. OpenPhotos is a self-hosted photo library designed for scale, running on your own NAS, with fast thumbnail generation, date and album organization, and no corporate server scanning your family photos for ad targeting."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Most note-taking apps store your thoughts. Atomic connects them. It takes your markdown notes, automatically chunks and embeds them using semantic similarity, and surfaces connections you didn't explicitly create. Powered by SQLite-Vec for fast vector search with a force-directed canvas that lets you see how your ideas actually relate to each other. Your notes as a living knowledge graph rather than a folder of files you search through manually."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Browsing local photo backups through a file explorer is a genuinely bad experience for something that should feel good to revisit. Foldergram indexes your folders and serves them as an Instagram-style scrolling feed locally. Fast previews and thumbnails generated via SQLite and FFmpeg. No CloudSync, no external APIs."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Spotify's recommendation engine is genuinely good, but it requires feeding your listening habits to Spotify to get there. TuneLog brings that same idea to your self-hosted music library. It monitors what you skip, builds a taste profile over time, and generates recommendations from your own collection. No manual ratings, no data leaving your machine."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Obsidian sync works well, but the monthly fee adds up for what is essentially file synchronization. This Docker image lets you self-host the Obsidian Live Sync backend on your own server with a single Docker Compose command. Real-time, end-to-end encrypted sync across phone, laptop, and tablet running on your own infrastructure for free. Same sync, zero subscription."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Kumiho is a self-hosted reader for comics, manga, webtoons, and ebooks supporting CBZ, EPUB, and PDF. It reads directly from your existing folder structure without database scans, which makes setup nearly instant. The standout feature is the audio support. Drop an MP3 into a comics folder, and Kumiho plays it as background music while you read that chapter."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "German e-invoicing compliance is genuinely painful to get right, and most accounting software charges a premium for handling it. X(P)FeRD is a self-hosted web app with a WYSIWYG PDF editor that generates invoices meeting XRechnung and Zugferd standards, including the legally required embedded XML files, custom font support, Docker deployment, and no monthly subscription."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Collaborating on markdown files through Git means merge conflicts the moment two people touch the same document. CollabMD turns your local markdown folders and Obsidian vaults into a real-time collaborative web app. Host it locally, invite your team, and everyone edits the same file simultaneously with live cursors, exactly like Google Docs, with all data staying on your own server."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Heorot is a Discord-style Matrix client with drop-in voice channels powered by LiveKit. Same experience as jumping into a Discord voice channel, running entirely on your own Matrix home server. For anyone moving a community off Discord and onto infrastructure they actually control, this closes the UX gap that usually makes the migration painful."
+      ]
+    }
+  ]
+}
