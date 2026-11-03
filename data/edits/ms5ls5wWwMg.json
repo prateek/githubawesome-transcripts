@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "source_sha256": "7db2f158c2925a2f9c3afb2ced93ba3cd1ce6fac99849e3227e8d44477e359c5",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-03T19:44:08+00:00",
+  "usage": {
+    "prompt_tokens": 4560,
+    "completion_tokens": 5345,
+    "total_tokens": 9905,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2294,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today we're back with GitHub Trending Weekly number 18 where we break down the most exciting open-source projects developers are starring and building with right now. Let's jump straight in."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "ffmpreg, a pure Rust multimedia toolkit aiming to be a safe Rust native alternative to FFmpeg itself. Think decode, transform, encode mux/demux pipelines with Rust's safety and strong typing instead of C spaghetti of pointers and UB. Handle audio video files the same way FFmpeg does, but in Rust's memory safe world with predictable execution and explicit pipelines. You can plug input, apply transforms frame by frame, and output processed files."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Want that retro CRT TV feel in your web graphics, game, or demo? WebGL CRT shader is a super lightweight WebGL GLSL shader that recreates the classic curved screen look, scan lines, and analog vibes straight in the browser. It's not just a filter, it's a GPU shader pass that makes modern canvases feel like they're running on 80s hardware. This thing runs right in WebGL, so any HTML5 canvas or Three.js scene can get that nostalgic CRT shimmer and distortion without heavy overhead."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Forget bloated issue trackers. Ticket is a git native CLI ticket system built as a single bash script that gives you powerful task tracking with zero setup. It lives right in your repo, uses markdown tickets, and lets you manage dependencies, priorities, and workflows without leaving your terminal. Each ticket is just a markdown file in tickets with YAML front matter. So you can search, edit, and navigate with your IDE or ripgrep, and everything stays versioned in Git."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Imagine Trello, but AI agents actually do your tasks for you. That's exactly what Weft is all about: a personal task board where you create tasks, assign them to AI agents, and they get to work. Whether it's drafting emails, updating spreadsheets, creating PRs, managing issues, or even writing code, agents take the heavy lifting off your plate. Built to be self-hosted on Cloudflare's platform, Weft runs the entire taskboard in your own infrastructure."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "CallMe is a minimal Claude Code plugin that does exactly one thing: it calls you when it matters. You start a task, step away, and when Claude finishes, gets stuck, or needs a decision, your phone rings. No polling, no tab babysitting. You can talk through the next step in real time, then let it keep working. It's intentionally simple, works on any phone or watch, and stays out of the way until you're actually needed."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "If you've ever wanted to fine-tune large language models right on your Mac without paying for cloud GPUs, Unsloth MLX is one of the most exciting community-driven projects on GitHub right now. It brings the Unsloth fine-tuning experience which makes training LLM fast and memory efficient to Apple Silicon using Apple's native MLX framework."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "If you hate manually optimizing your Promise.all calls when tasks depend on one another, better-all might just become your new secret weapon. This tiny TypeScript/JS library gives you a smarter Promise.all that automatically figures out task dependencies and runs everything with maximal parallelism without you writing spaghetti promise code."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "JS Analyzer, a specialized Burp Suite extension that turns client-side code into a treasure map for security researchers. Instead of manually combing through minified JavaScript, this tool sits in your proxy and automatically extracts hard-coded secrets and cloud storage URLs in real time. It features intelligent noise filtering to strip out false positives, giving you a clean, actionable list of potential vulnerabilities from leaked AWS keys to forgotten admin routes."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Developers who live on GPU kernels, this one's for you. mHC.cu is a CUDA-first kernel library implementing MHC operations straight on the GPU with blazing throughput. It's all high performance CUDA code designed to run core tensor ops like matrix multiplies, activations, softmax, and more inside massively parallel CUDA kernels. So heavy compute paths live where they belong on the GPU."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Claude Usage, a native macOS menu bar utility that acts as a fuel gauge for your AI coding sessions. Instead of guessing when you'll hit a rate limit, this lightweight app gives you a real-time readout of your session and weekly quotas right in your status bar. It securely taps into your existing local credentials to query usage stats directly from Anthropic using simple color-coded warnings to let you know when it's time to wrap up or slow down."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "How Browsers Work is an interactive guide that teaches you exactly what happens under the hood when you hit enter on a URL. From DNS to TCP handshakes to HTML parsing, DOM building, layout, and painting the page on screen. It's more than a readme. Think tiny interactive snippets that let you see the browser pipeline in action and build a mental model of how HTTP requests, reflow, and compositing actually work."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Petit, a lightweight task orchestrator written in Rust that helps you coordinate jobs and async tasks without the heavy overhead of full-blown schedulers. It's designed to give you a tiny core with rich extensibility, ideal for lightweight pipeline orchestration and developer centric automation. You get a simple TUI dashboard and an orchestrator that just works without needing complex configs or massive YAML files."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Qwen3-VL Embedding provides models that turn text, images, screenshots, and even video frames into unified semantic vectors, so your AI can compare and retrieve across modalities in one shared space. What makes it stand out is cross-modal representation learning, meaning an image and a caption describing it can live in the same vector space, so you can compute similarity, do multimodal search, visual question answering, and rich retrieval tasks at scale."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "This plugin is all about smarter buffer management inside your editor. Bento.nvim gives you a minimal, efficient, and extensible buffer manager that helps you see and switch open files with ease without the clutter of heavy UI plugins. Think of it as a lightweight buffer dashboard with smart ordering, quick navigation, and customizable actions that keep your workflow focused instead of drowning in tabs."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "This one's wild. SMTP Tunnel Proxy, a covert networking tool that disguises your internet traffic as harmless email communication to bypass deep packet inspection. That means traffic from your browser, Git client, or anything else can be sent over what looks like legit SMTP handshake and mail flow. Perfect for restricted networks where traditional VPNs get blocked."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "DFlash is a novel speculative decoding method using block diffusion to drastically speed up text generation without losing quality. Instead of purely autoregressive sampling, it drafts outputs in parallel with a lightweight diffusion model, then verifies them, giving you huge decoding speeds. It's designed so your fast drafter model works alongside a traditional target model to deliver both speed and correctness."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Devs who hate silent architectural decay, Archlint is a fast architecture smell detector for TypeScript/JavaScript that keeps your project's design healthy over time. Instead of just dumping rule warnings like ESLint, it focuses on architecture level regressions, things like circular imports, bad dependency layering, and design smells that silently creep in as the codebase grows."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "C from Scratch is a rigorous guide to building safety critical systems in C the right way. This repo doesn't just show you code. It teaches you to define every problem exactly, prove your solution mathematically, and then write the C implementation. Inside, you'll find modules like Pulse, a heartbeat liveness monitor built with formal contracts, and Baseline, a statistical normality detector with provable invariance and tests backing every assumption."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Unifideck is an open-source deck loader plugin that unifies your game libraries on the Steam Deck. It pulls together your Steam, Epic Games Store, and GOG libraries into one seamless interface inside SteamOS. No more jumping between launchers or menus. With Unifideck installed, titles from different stores show up side by side in your Steam library, giving you a single unified gaming experience."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Got an image you wish you could drool in text form? Asciify Them is a Python project that turns images into sweet ASCII art right in your terminal or CLI complete with ANSI color codes if you want that vintage hacker aesthetic vibe. You can run it as a library or as a lightweight CLI and it's built so you can plug it into scripts, pipelines or dashboards easily."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "If you've ever wanted a way faster, cleaner drop-in for killing processes straight from your terminal, RIP is the Rust powered CLI you didn't know you needed. It gives you an interactive fuzzy finder UI listing all your running processes sorted by CPU, memory, name, or PID and lets you select and kill them with a keystroke. Just run RIP in your shell, type part of a program name like Node or Chrome, and watch the matching processes filter in real time."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "If you're using Claude Code to power your AI-driven workflows, this repo is a gold mine of customization. Claude Code Config is Jarrod Watts's personal Claude Code configuration packed with tailored rules, hooks, agents, skills, and custom slash commands that supercharge the developer UX. Instead of the default setup, this config gives you opinionated settings that automate everything from specialized agents to clever command workflows."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "If you're building super fast HTTP servers and care way more about performance and memory efficiency than fat frameworks, HTTPZ is a niche but killer experimental project worth starring. This OCaml powered HTTP/1.1 parser and server aims for zero heap allocations, meaning it parses, serializes, and handles requests without touching the GC heap, leading to insanely low overhead."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "For developers worried about accidental data leaks, PasteGuard is a privacy first guard layer for your clipboard. It intercepts paste actions and automatically detects sensitive info like API keys, passwords, tokens, emails, and other PII before it goes into chat bots, AI UIs, or web forms, giving you a chance to block or mask it. Built to run locally with zero telemetry, everything happens on your device. No cloud, no data collection."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "If you've ever wanted to peek under the hood of how LLM inference actually works, Simple LLM is one of the cleanest and most hackable engines on GitHub right now. It's a minimal 950-line LLM inference engine built from scratch. Designed so you can read, extend, and comprehend every piece of the pipeline from tokenization to continuous batching."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Habit Tracker, a full stack personal habit tracking app built as a workshop project for developers. This one isn't just a simple static page. It's a React frontend plus FastAPI backend combo where you can create habits, mark them complete day by day, and visualize your streaks on a calendar grid. All running locally on your machine with no accounts required."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Droppy, the productivity tool for macOS. It combines five tools into one slick package: Notch shelf for hiding files under your webcam, a floating basket that pops up anywhere, and a clipboard manager that remembers everything you copy. New features: check a media player right in your notch and custom volume and brightness HUDs that look way better than the default."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Code Vibes is a free AI powered code reviewer built to actually explain what's wrong with your code, not just slap a line number on a problem. It's like having a senior engineer comb through your repo line by line and tell you why something's dangerous, insecure, or just plain broken instead of just flagging it. This tool connects to GitHub, scans your repository with AI, and streams results in real-time as issues are found."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "C.A.F.E. Hass, a dedicated MQTT bridge that gives your smart home direct control over your Mac energy levels. It wraps the native macOS caffeinate command into a toggleable home assistant switch, allowing you to remotely prevent your computer from sleeping. Instead of relying on shaky Wake-on-LAN packets or manual settings, this utility maintains a persistent connection, letting you script insomnia modes for your workstation based on presence detection or running tasks."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Flow, a keyboard first kanban board that lives entirely in your terminal. It replaces clunky web-based project management tools with a lightweight CLI interface, allowing you to track tasks without ever switching contexts or leaving your command line. Optimized for speed, it lets you navigate columns, move cards, and manage your backlog using only keystrokes, ensuring your development momentum stays unbroken."
+      ]
+    }
+  ]
+}
