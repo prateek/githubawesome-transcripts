@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "source_sha256": "a80017031b7b954dd481a5269fd62b55a09beb7274dc2e874c522dd8e2a5243a",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "dots-studio/dots-3-note-preview:free",
+  "created_at": "2026-11-05T07:11:49+00:00",
+  "usage": {
+    "prompt_tokens": 3777,
+    "completion_tokens": 11706,
+    "total_tokens": 15483,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 10217,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "This is GitHub Trending Weekly number 13, and today we're diving into 26 trending open-source projects you need to know about. Let's get started."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Imagine browsing a Git repo without GitHub, without a server, and without any backend. That's Gitmal, a static site generator for your Git repositories. Gitmal takes your entire repo, files, folders, commits, diffs, markdown, and turns it into a clean, blazing fast static website. No database, no server, nothing dynamic. Just pure HTML you can host anywhere. GitHub Pages, Netlify, S3, you name it."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Meet Rep+, the Chrome DevTools extension that captures, edits, and replays HTTP requests, and then blasts it all to the next level with AI superpowers. Rep+ gives you real-time request capture across every tab, clean grouping by pages and domains, and a dead simple way to replay or mutate any request instantly. No proxies, no certificates. Just click, edit, send."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "HunyuanOCR, the tiny 1 billion parameter OCR beast that's outperforming models three times its size. This thing is an end-to-end multimodal OCR expert built on Hunyuan's native architecture. And it crushes everything from classic text recognition to messy multilingual documents to open field information extraction. Yeah, even subtitles in videos and real-world photo translation. Imagine having a full UI/UX design brain built directly into your coding workflow."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "That's UI UX Pro Max. It's basically a massive searchable database of the best UI styles, color palettes, font pairings, and UX rules, all tuned for modern frameworks. 57 UI styles like glass morphism, claymorphism, brutalism, bento grids, 95 Pro Color palettes, 56 curated font pairings, and 24 chart recommendations for analytics dashboards."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Next up is a fan-submitted project, codemap. A project brain for your AI that gives LLMs instant architectural context without burning a mountain of tokens. Run one command and codemap generates a clean, compressed brain map of your entire repo. It even highlights your top five biggest files, merges empty directory paths, and gives you a perfectly pasteable snapshot that LLMs can understand instantly."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "OrionStore is a progressive Android application that acts as a fully functional app store without requiring a dedicated backend server. You get instant access to modded favorites like YouTube Revanced and Spotify Premium, plus tons of open-source tools, all wrapped in a clean Material You design with neon and acid accents that look straight out of Gen Z UI heaven."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "ImAnim, a lightweight animation engine built specifically for the immediate mode world. It plugs straight into your existing imgui workflow with zero dependencies, and suddenly you've got access to more than 30 easing functions, spring physics, perceptual color blending with Oklab and OKLCH, and responsive anchor-based animations that survive window resizing without breaking."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "GhosttyFetch, an animated system information display made specifically for the Ghostty terminal emulator. GhosttyFetch combines a smooth 235-frame ASCII art animation with real-time system info powered by FastFetch, so your terminal looks amazing and remains functional. You can fully customize colors, gradients, and even the interactive command prompt, giving you a startup screen that's both stylish and practical."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Need to expose your local services to the internet without giving up control? Meet Drip, your self-hosted, disciplined tunneling solution. Unlike third-party tunnels, with Drip, your traffic stays on your own infrastructure. No middlemen, no limits, no surprise restrictions. Run unlimited tunnels, serve as much bandwidth as your server can handle, and use your own domain, all for free. Modern Mermaid, a beautiful editor for Mermaid.js JS that makes"
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "diagramming a breeze for developers, designers, and product managers alike. It's packed with 10-plus professional themes, plus full dark mode, custom backgrounds, and multiple font choices. Real-time syntax highlighting, line numbers, auto-completion, and resizable panels make creating diagrams fast and intuitive."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Glean, the self-hosted RSS reader designed for reading enthusiasts. Glean offers a clean, distraction-free view and automatic filtering so you only see what matters. Subscribe to any RSS or Atom feed and organize everything with multi-level folders and tags. See something important? Hit read later or save external links. Glean keeps everything tidy with auto-cleanup and background syncing every 15 minutes."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "GoSheet, a terminal-based spreadsheet application built with Go. If you've ever wished Excel or Google Sheets could launch instantly, consume almost no resources, and live entirely inside the command line, this is exactly that. A full workbook system with unlimited sheets, rich cell formatting, comments, data validation, sorting, even a format painter. And under the hood, there's a powerful formula engine with 104 built-in functions."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Next up, for all Mac users who love efficiency, meet Jarvis AI Assistant. A 100% open-source, fully local voice-powered AI assistant that lets you hold one key, speak, and see perfectly formatted text appear anywhere. One developer got frustrated with subscription-based dictation apps, spent a few late nights building their own, and released it to the world. Fully open-source, no team, no strings attached."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Norish, a self-hosted recipe app built for families who love to cook together. Import recipes from URLs or let AI fill in the details when needed. It even supports video recipe imports from TikTok reels and YouTube Shorts. One shared place to collect all your recipes fully synced in real time. Whether you're meal planning side by side or doing groceries across the store, Norish updates instantly so everyone knows who grabbed what. Up next, for photographers who"
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "crave precision, meet Raw Alchemy, a Python-based command line tool that brings professional-level color management from video workflows directly into RAW photo processing. Most creative LUTs are designed for specific log color spaces used in video. Applying them directly to RAW photos often results in ugly color shifts and tonal mismatches. Raw Alchemy fixes that with a rigorous, fully automated color pipeline."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Next up is a lightweight client-side image annotation tool designed for speed, privacy, and ease of use. It lets you annotate images with magnifying glass effects, giving you the ability to drag, resize, and adjust zoom levels, perfect for highlighting details in screenshots, photos, or diagrams. Everything runs entirely in your browser, so no uploads are required, and your images stay private."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Agent Sessions. The macOS desktop app that keeps all your Claude code agent sessions in one place. View all active sessions with real-time status like thinking, processing, waiting, or idle. Use a global hotkey to toggle the dashboard. Click to focus on any session and rename sessions for clarity. Each session comes with a quick URL, perfect for dev server links."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Jargon, an AI-managed Zettelkasten system that transforms articles, papers, and videos into a structured, interlinked knowledge library. Jargon takes your sources and breaks them down into index-card-sized key ideas, automatically summarizing, extracting, linking related concepts, and collapsing duplicates. Semantic embeddings then surface connections across your entire library, creating a web of insights you can explore."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Next up is linkme, a simple and customizable link page generator built in Go. With linkme, you can create clean, sharable link pages in no time. Perfect for personal profiles, portfolios, or project dashboards. It's lightweight, easy to deploy, and fully customizable, so you can tailor the design and layout to your needs."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Mac Cleaner CLI, a free tool that lets you clean up your Mac directly from the terminal. With just one command, you can scan your system for junk files, caches, logs, and more. Preview what's found with clear file sizes. Select exactly what to clean with an interactive interface. Safely remove the selected items. Everything runs offline. Your data never leaves your Mac."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "MarkX, a professional-grade editor that combines Markdown, Mermaid diagrams, and KaTeX math formulas in one sleek package. Whether you're documenting a project, creating technical diagrams, or writing complex math equations, MarkX has you covered. It supports flowcharts, sequence diagrams, Gantt charts, UML class diagrams, and state machines, all exportable to SVG or PNG with a single click."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "StemLab, a professional AI tool for separating audio tracks into individual stems, vocals, drums, bass, and more, all locally on your Windows machine. Unlike cloud-based services, StemLab runs entirely offline, giving you full privacy and unlimited usage with just a one-time payment. No subscriptions, no credits, no timers, just powerful AI at your fingertips."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "React 3D Button, a fully customizable 3D button component for React that also plays nicely with Next.js. With multiple pre-built themes like ocean, sunset, forest, pirate, and neon, plus toggle mode, and smooth 3D press effects, your UI instantly feels alive. It's mobile-optimized, accessible with proper ARIA attributes, and fully TypeScript ready."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "MemoryGraph, a graph-based model context protocol server that gives AI coding agents persistent memory across sessions. MemoryGraph focuses on relationships, entities, and temporal markers, making it perfect for long-term reasoning, multi-step tasks, and tracking user decisions over time. Imagine asking your AI, \"What did Alice finish last week?\" MemoryGraph remembers and retrieves it accurately."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "python-hdwallet, a Python library that lets developers generate hierarchical deterministic wallets for over 200 cryptocurrencies. It's designed to be flexible and scalable, handling everything from secure seed generation to robust key management and account control. By following standard protocols, it ensures compatibility with other wallets and services, making blockchain integration smooth and secure."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "lazypg, a terminal-first UI for PostgreSQL that's written in Go. If you live in the terminal and hate switching back and forth between your SQL shell and a heavy GUI client, this is a game-changer. LazyPG stays right in your terminal, respects your muscle memory with Vim-style navigation, and gets out of your way so you can browse, filter, and query your data in seconds."
+      ]
+    }
+  ]
+}
