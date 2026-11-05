@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "source_sha256": "fda539c643149405b2518c2f19bfe7a1dfe238eb54ad536da74c17ed9af9f1ca",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-05T20:16:19+00:00",
+  "usage": {
+    "prompt_tokens": 3837,
+    "completion_tokens": 7083,
+    "total_tokens": 10920,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4566,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today we've got 25 trending open-source projects that exploded on GitHub. From AI frameworks to dev tools, let's explore the repos everyone is watching right now."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "First up is data-peek, a minimal desktop client for PostgreSQL, MySQL, and SQL Server. If you ever wanted a database viewer that opens in under two seconds and doesn't feel like piloting a spaceship, this is it. You get a Monaco-powered query editor with autocomplete, multi-tab workflows, and even inline editing so you can tweak data directly without firing up heavy GUIs."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Awesome Nano Banana Prompts, an open-source treasure chest with over 500 handpicked prompts built specifically for Google's Nano Banana Pro model. This library gives you multilingual prompts, image-backed examples, and an instant gallery preview so you can see exactly what each prompt is capable of before you try it. Whether you're generating visuals, this collection saves you hours of trial and error. Nano PDF Editor, a command-line tool that lets you edit PDF slides using natural language prompts."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Powered by Nano Banana Pro. Want to update a graph with 2025 data or turn a pie chart into a bar chart? Just describe it. Nano PDF Editor handles the visuals for you. You can even generate brand new slides that match your deck style, all while keeping your PDF text layer intact through smart OCR rehydration."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "OpenAdServer, a production-ready ad serving platform with machine learning powered CTR prediction baked right in. You get sub 10 milliseconds ad serving latency, multiple formats from banners to video, smart targeting, and smooth budget pacing right out of the box. On the ML side, it supports DeepFM logistic regression and factorization machines with real-time inference under 5 milliseconds."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Next up is a project your inbox has been begging you to install, the Gmail bulk unsubscribe and cleanup tool. This is a totally free privacy-first web app that helps you take back control of your Gmail without giving your data to anyone. Everything runs locally on your machine. With one click, you can bulk unsubscribe from newsletters you never meant to subscribe to, delete emails by sender, or mark thousands of unread emails as read in seconds."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "MCPorter, a toolkit for anyone building tooling around the model context protocol. If you've been exploring Anthropic's MCP ecosystem, this project is basically your command center. MCPorter lets you call MCP servers directly from TypeScript like their simple typed APIs or instantly turn those MCP definitions into ready-to-run CLIs with a single command. No boilerplate, no schema digging, no config nightmares."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Network Monitor, a sleek real-time network connection viewer built with Rust and GTK4 for the GNOME desktop. If you're running Linux and want a clean, modern way to see exactly what your system is doing on the network, this tool is a beauty. It gives you live monitoring of all active connections, complete with real-time upload and download rates. Every connection is tied back to the process name and PID, so you can instantly spot which app is talking to which host."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Here's a fun one for all you keyboard wizards. numr, a text-based calculator with a Vim style TUI. Inspired by Numi, it lets you type natural language expressions like 20% of 150, $100 in euros or 2 hours plus 30 min and instantly get results. You can define variables like tax equals 15% and use them in calculations, do unit conversions for length, weight, time, and more."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Agentic Data Scientist, a framework designed to bring multi-agent intelligence to complex data science workflows. Think of it as a team of autonomous agents that plan, execute, validate, and adapt to get your data science tasks done efficiently. Built on Google's Agent Development Kit and the Claude Agent SDK, it separates planning from execution, continuously validates work against success criteria, and self-corrects as it learns from progress."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Fabricate, an experimental research tool designed to generate entire GitHub personas from scratch using AI. Fabricate can spin up multiple repositories, each with realistic-looking code, authentic-feeling commit histories, and projects that range from tiny utilities to full multi-module applications. It even spreads activity across different programming languages, creating the kind of organic variety you'd expect from an actual developer."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "SentinelNav, a zero-dependency Python tool for binary visualization and forensics. If you work with raw binaries, disk images, or want to spot hidden patterns in files, this tool transforms your data into an interactive spectral map. SentinelNav combines a multiprocessing backend for blazing fast scanning with a local web-based frontend for exploration, hex inspection, and architecture fingerprinting."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Jarvis AI agent, a sophisticated AI assistant that combines Ollama LLM with RAG retrieval augmented generation for truly intelligent context-aware interactions. Jarvis features a FAISS vector search using BERT embeddings for smart context retrieval and even supports dynamic model switching so you can hot swap Ollama models on the fly. It can scrape and index web content automatically using Beautiful Soup."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "FARA-7B, Microsoft's ultra-compact agentic small language model designed specifically for computer use with just seven billion parameters. FARA-7B packs the efficiency of a small model while competing with much larger resource-heavy agentic systems. It interacts directly with computer interfaces perceiving web pages, clicking, scrolling, and typing at predicted coordinates without needing accessibility trees or extra parsing layers."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Next on the list is OnlyFans Scraper, a command-line tool designed to help you download media, manage likes, and organize content from OnlyFans creators. It supports media downloads, liking and unliking posts, and automatic metadata management, capturing details like titles, descriptions, dates, tags, and authors. You can also set up custom file organization to keep everything neat."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Z-Image-Turbo, a professional web interface for the Tongyi Z-Image-Turbo model. A lightning-fast 6B parameter text-to-image generator. The interface comes with a premium dark UI featuring glassmorphism design, intuitive controls, and smart presets for quick aspect ratios and resolutions from 480p to 1080p. You get fine control with sliders for dimensions and seed, plus real-time progress tracking as your images generate."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "AI Translator, a browser extension that brings instant AI-powered translation to any text on the web. Just highlight the text you want to translate and choose from multiple AI providers: OpenAI, Claude, and Gemini. It features a beautiful neumorphic UI with smooth animations, supports multiple languages, including English, Spanish, French, German, Japanese, and more, and lets you copy translations with a single click."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "AI Researcher, an autonomous AI system that acts like your very own research team. Give it a research objective and it will break it into experiments, assign tasks to specialized agents, and even spin up GPU-enabled sandboxes to run models, inference, or simulations. Each agent collects data and evaluates results while the orchestrator decides whether to finalize findings or run additional experiments. At the end, all results are compiled into a coherent Cocoon confidential compute open network, a decentralized AI inference."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Platform built on TON. Cocoon lets AI models run inside trusted execution environments, providing secure, private computation while incentivizing contributors. GPU owners can earn TON cryptocurrency by serving AI models. App developers get low-cost verifiable and secure compute and end users enjoy AI services with full privacy and confidentiality."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Dynamous Remote Coding Agent, a tool that lets you control AI coding assistance remotely from platforms like Telegram, GitHub, and more. Perfect for developers who want to code from anywhere without losing context. It supports multiple AI assistants, Claude Code, Codex, or both with persistent sessions that survive container restarts. You can clone and work on any GitHub repository and interact with AI assistants in real-time or batch mode."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Hestia, a modular grid-based dashboard built entirely with HTML and JavaScript. No complex backend required. It's perfect for anyone who wants a fully customizable personal dashboard that runs right in the browser. Hestia offers deep theming supporting base 16 palettes like Dracula, Nord, and Monokai. You can tweak every pixel, gap sizes, corner radii, fonts, shadows, and even save your own custom presets directly in the UI."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "System Design Visualizer, an interactive tool that transforms static system design diagrams into fully explorable, interactive visualizations using AI. You can upload any system diagram from architecture blueprints to flowcharts and the tool automatically generates editable Mermaid.js diagrams. These diagrams are then converted into interactive React Flow graphs and navigate the system structure seamlessly."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Real-time payment architecture and orchestration, a standards-aligned modular framework for building modern instant payment systems. This repository provides a reference architecture and implementation framework demonstrating end-to-end orchestration of credit transfers, ISO 20022 native data models, and pluggable modules for validation, enrichment, routing, and fraud evaluation."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Sprite Fusion Pixel Snapper, a tool designed to snap pixels to a perfect grid, fixing messy or inconsistent pixel art, especially the kind generated by AI. AI image models often produce pixels that are misaligned, inconsistent in size, or not tied to a palette, causing drift in your artwork. Pixel Snapper, snapping pixels to a perfect grid, ensuring consistent grid resolution that scales with your project."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Odin, a production-ready deployment platform designed to eliminate the headaches of shared environments. High-growth teams often spend more time debugging broken setups than building features. Odin changes that by letting you define software once and deploy it anywhere, anytime. With Odin, you create simple JSON blueprints called service definitions."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "LocalRAG, a self-hosted retrieval-augmented generation system designed for code and documentation. Built with Docker, it's ready to go with zero configuration. LocalRAG keeps your data 100% local and private, so nothing ever leaves your machine. It supports batch ingestion of multiple files, uses different chunking strategies for code versus prose, and can auto-detect file types while avoiding duplicates."
+      ]
+    }
+  ]
+}

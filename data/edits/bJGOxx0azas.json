@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "source_sha256": "997c7a23cff6ed57ce348a06766483a8ac0b1f355175a5a14d4984a6d25e922f",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-05T20:14:42+00:00",
+  "usage": {
+    "prompt_tokens": 3366,
+    "completion_tokens": 7373,
+    "total_tokens": 10739,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5125,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today, we're diving into 22 self-hosted projects on GitHub that you can spin up on your own server, laptop, or even a Raspberry Pi. Let's go."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "If your inbox is scattered across Gmail, Outlook, SendGrid, Mailgun, stop. Meet Kurrier, the self-hosted web mail that unifies everything. No email stack, no nonsense. Just plug in IMAP, SMTP, or any major ESP, and Kurrier gives you a modern, blazing-fast inbox that you fully control. It's privacy first, runs on Next.js and TypeScript, supports multiple identities, and deploys in seconds with Docker."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Meet the AI meeting assistant that never sends your data to the cloud. Yep, your meetings stay on your device, not on somebody else's server. Meetily listens to your calls in real-time, transcribes everything, and instantly generates clean AI-powered summaries. All powered by open-source models running locally. No subscriptions, no API fees, no data leaks."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Note Discovery, your knowledge base that puts you back in control. It's a lightweight, beautiful note-taking app that runs entirely on your own server. Write in plain markdown, organize your second brain, and find anything instantly with lightning fast. Compared to commercial apps, Note Discovery is free, offline-friendly, customizable, and your data never touches anyone else's servers."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Mydia, your modern media companion built with Phoenix Live View. Track, organize, and monitor your entire movie and TV library. All in one clean, real-time dashboard. Mydia pulls rich metadata from TMDB and TVDB and even handles automated downloads with smart quality profiles. It plugs right into qBittorrent, Transmission, plus search through Prowlarr, Jackett, and even native Cardigann support."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Calibre Web Automated, the all-in-one digital library upgrade you always wished Calibre had. It takes the clean, lightweight Calibre Web interface and merges it with the full power of Calibre automatically. No more clunky VNC sessions, no more heavy containers, and no more running two separate services just to manage your ebooks. Calibre Web Automated handles metadata and library organization by itself with tons of built-in automations."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Blinko, the AI-powered note-taking tool built for capturing ideas the moment they hit. Blinko uses AI-powered RAG search so you can find any note just by asking in natural language. No more digging. Your data stored locally. Your notes plain text with full markdown support. And with a lightweight Tauri build, Blinko runs everywhere. macOS, Windows, Linux, even Android. All crazy fast."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Omnom, your self-hosted command center for preserving the web exactly as you see it. Snapshot any page, even dynamic ones, and save the real rendered content, not just HTML. Bookmark everything. Follow RSS feeds. Omnom keeps multiple snapshots per URL with diff and compare views, full text search, tags, filters, domains, you name it. It even stores images and media locally, all wrapped in a clean multi-user web interface."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Better Shift, the modern way to manage work shifts. Create multiple calendars, assign colors, and set up reusable shift presets. Toggle shifts in a click, drag and drop to reorder, and even add notes for special days. Keep your schedules private with password-protected calendars and track detailed shift statistics in real-time. Built with Next.js and Svelte, Better Shift looks clean and keeps everything synced across tabs."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Sprout Track, your all-in-one baby tracker. Track sleep, feeding, diapers, baths, pumping, measurements, and even milestones. Quickly see daily stats, averages, and full logs with dynamic search and date filters. Manage multiple caretakers with roles and simple pin-based security, and plan everything with calendar events, appointments, and reminders. Sprout Track is mobile-first, built with Next.js."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Faved, the bookmark manager that puts you in control. Store and organize all your links with customizable nested tags, pin favorites, and quickly find anything with instant search. Works perfectly on desktop and mobile with a clean, distraction-free interface and dark mode. Import your bookmarks from any browser. No ads, no tracking. All your data stays local."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Sparky Fitness, your self-hosted alternative to MyFitnessPal. Track meals, workouts, water intake, and body measurements all in one app. Set goals, log daily check-ins, and monitor progress with interactive charts. Want a personal coach? Sparky AI helps you log food, exercise, and body stats, even from photos, with personalized guidance."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Bento PDF, a self-hosted browser-only PDF toolkit. Merge, split, rotate, crop, and edit your PDFs all in your browser. No uploads, no servers. Keep your files completely private. Merge, split, reorder, rotate, crop, even edit, fill forms, add watermarks, or convert images and markdown to PDFs. Go the other way, too. PDF to images or JSON."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "FileRise, a modern web file manager and webdev server. Think of it as your personal cloud drive, fully under your control. Drag and drop uploads, resumable transfers, and granular folder permissions make file management a breeze. Need collaboration? Optional OnlyOffice integration lets you edit DOCX files right in your browser. Mount it anywhere via WebDAV, track storage usage, previews, and even a code editor."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Speakr, a self-hosted AI transcription and intelligent note-taking platform. Keep your recordings private because everything runs on your own server. Record in-browser or upload audio. Then let AI transcribe with speaker identification. Click any part of the transcript to jump to the audio and even ask questions with AI-powered chat. Semantic search makes finding info effortless."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Pinakes, a modern library management system that's perfect for schools or private collections. It handles everything. Cataloging, circulation, digital content, e-books, audiobooks, and even a public-facing catalog. All with multilingual support. Automatic metadata import, barcode generation, and full REST APIs make managing large collections a breeze."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Podcast ad removal server, a self-hosted proxy that strips ads from your favorite podcasts before they even reach your ears. Audio is transcribed with Whisper. Ads are detected using AI and FFmpeg removes them while keeping the flow intact. It serves a modified RSS feed compatible with any podcast app so your listening stays seamless. First play takes a few minutes, then everything is cached for instant playback."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "8mb.local GPU-accelerated video compressor that makes your videos small without losing quality. Drop a file, choose a target size, and let it do the magic. Supports NVIDIA, Intel, AMD GPUs or falls back to CPU if needed. Real-time progress logs and automatic retries keep everything smooth. Trim, resize, pick codecs, and manage a live queue with one click. AV1, AVC, H.264, you name it, it compresses it. Termix, a"
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Self-hosted all-in-one server management platform that's a free alternative to Termius. Manage your servers with a full-featured SSH terminal, split-screen panels, and reusable command snippets. Create SSH tunnels, monitor server stats, and manage files remotely, all from a clean web-based interface. It's secure, too, with encrypted databases, 2FA, OIDC, and full user management."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Torrra, a Python CLI tool that lets you search and download torrents without leaving your terminal. Powered by Jackett, Prowlarr, and libtorrent, Torrra gives you a sleek, responsive TUI built with Textual. Pause, resume, and manage downloads directly from the command line. All with customizable themes and lightning-fast searches. Runs on Linux, macOS, and Windows."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Memos, a self-hosted note-taking service that keeps your thoughts private and under your control. Built with Go and React, Memos is lightning-fast, Markdown-native, and perfect for personal notes, team wikis, or knowledge bases. No tracking, no ads, no subscription fees, just full ownership of your data. Deploy in one line with Docker, clean UI, dark mode, and mobile-friendly."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Relaticle, a modern CRM built with Laravel and Filament. Perfect for teams that outgrew spreadsheets but don't want Salesforce overhead. Create and manage custom fields without coding. Support multiple teams with isolated workspaces and keep full control of your data. It's open-source, privacy-focused, and completely customizable. Tired of giving your data to big tech?"
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Olares, your open-source personal cloud. Host your files, apps, and even AI models locally so you stay in complete control. Run LLMs, generate images, or search privately, all without relying on public clouds. With enterprise-grade security, single sign-on, and seamless access from anywhere, Olares gives you the power of the cloud. But you're the boss."
+      ]
+    }
+  ]
+}
