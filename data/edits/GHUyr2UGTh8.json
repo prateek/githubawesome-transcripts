@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "source_sha256": "0361a68640e699d20a70d8a666815123f7b644e6dad9706e96b43c2ef72da020",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-07T13:23:20+00:00",
+  "usage": {
+    "prompt_tokens": 3495,
+    "completion_tokens": 6658,
+    "total_tokens": 10153,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today we're diving into GitHub trending today number two. That's right, 18 fresh open source projects you need to check out. From developer tools to AI utilities, there's something here for every coder. So get ready to star some repos and let's jump straight into the projects trending on GitHub today."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "First up, insidebar.ai, the browser extension that turns Chrome and Edge into an AI command center. ChatGPT, Claude, and Gemini, all loaded in a single sidebar, so you never have to juggle tabs again. Open the sidebar, pick a provider, and each session picks up exactly where you left off. 50-plus curated prompts, variables, tags, and import/export so your best prompts travel with you across models. Save and search universal chat history rendered in full markdown with code highlighting. Jump back to original conversation links and keep everything private. No API keys, no tracking, all stored locally."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Next up, Caniscrape, the reconnaissance tool for web scrapers. Before you spend hours writing code just to get blocked by Cloudflare or a surprise CAPTCHA, Caniscrape gives you the full picture instantly. Drop in any URL and it'll scan for active protections: WAFs like Cloudflare, DataDome, rate limiting, JavaScript rendering, CAPTCHAs, TLS fingerprinting, even behavioral traps like honeypot links or mouse tracking. You'll get a clean difficulty score from 0 to 10, plus specific recommendations on which tools, proxies, or headless browsers you'll need."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Next, Agentic Context Engine. This framework brings memory and self-improvement to AI agents, letting them actually learn from their own successes and failures. No retraining, no fine-tuning. Just plug it in and your agents start getting smarter with every task. Built on Stanford and SambaNova's agentic context engineering research, ACE uses three roles working in harmony. The generator executes tasks, the reflector analyzes results, and the curator updates a living playbook of what works and what doesn't. The result: a 20 to 35% boost in performance, no context collapse, and full compatibility with over 100 LLM providers, including OpenAI, Anthropic, and Google."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Up next, we've got the Playwright skill for Claude Code, a plugin that gives Claude full browser automation superpowers. Think of it as teaching Claude how to drive the web. From simple page tests to complex multi-step workflows, Claude can now write and execute Playwright scripts completely on the fly. This skill automatically loads only the context it needs, so every automation stays lightweight and efficient. You get visible browser runs by default, zero module resolution errors, and built-in cleanup to avoid temp file clutter."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Next on the list, IDA CyberChef, a brilliant fusion of reverse engineering and data transformation. If you've ever found yourself jumping between IDA Pro and CyberChef while decoding malware, this project is going to feel like magic. IDA CyberChef embeds CyberChef's entire JavaScript engine right inside IDA Pro's GUI, letting you decode, XOR, hash, and transform binary data directly. No browser, no copy-paste loop. Need to base64 decode a payload or apply a chain of transformations? Just bake it right in the disassembler.",
+        "For malware analysts, IDA CyberChef brings CyberChef's full power straight into your reverse engineering workflow."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Next up is OneRec-Think, an LLM-powered recommendation framework that doesn't just predict what you'll like next, it reasons about it. Most AI recommenders today are like fortune tellers. They spit out results without explaining why. OneRec-Think bridges that gap by integrating three key layers: item alignment, which maps items into the model's language space so it actually understands them; reasoning activation, where chain-of-thought fine-tuning helps the model think through choices step by step; and reasoning enhancement, which rewards it for recognizing that user preferences aren't one-size-fits-all."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Next up, we have Aviator Predictor, a demo-focused tool for Aviator and crash-style games. Whether you're testing SHA-256/512 seed inspections, generating AI-assisted summaries, or experimenting with crash predictor bots, this repo gives you everything to safely explore predictions in demo mode. It works across multiple platforms: Stake, OnceBet, OneWin, BC Game, and more. Analyzing historical game data and using AI to generate real-time crash predictions. The free version gives you full access to its core features, letting you experiment without any risk."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Next, Marine Gym, a large-scale parallel framework for reinforcement learning with unmanned underwater vehicles or UUVs. Built on top of OmniDrones and Isaac Sim, Marine Gym combines speed, fidelity, and flexibility to accelerate RL research in complex underwater environments. It achieves blazing fast simulation rates up to 107 steps per second while faithfully replicating physics, kinematics, and dynamics. Marine Gym also integrates seamlessly with existing RL frameworks, providing intuitive APIs for training, testing, and evaluation."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Next up is Mocha, a cutting-edge framework for end-to-end video character replacement. No per-frame masks or rigid structural guidance needed. Traditional methods often stumble in complex scenarios with occlusions, unusual poses, or dynamic lighting, producing visual glitches or jumpy frames. Mocha changes the game with just a single first-frame mask. Mocha renders characters seamlessly by unifying various conditions into a single token stream. It also uses a condition-aware rope to handle multi-reference images and variable-length video generation, letting you replace characters in long clips without losing consistency."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Next up is DeepVerify, a framework for evidence-based scientific claim verification. It combines state-of-the-art language models with search and reasoning tools to assess claims against published literature, giving researchers verifiable, trustworthy insights rather than just predictions. Built on the modular MCP server framework, DeepVerify is easy to extend, letting you plug in custom tools or create specialized research agents. The system also introduces MARS, a multi-agent reasoning system that leverages entailment graphs for multi-step reasoning, improving both accuracy and transparency."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Next up is Anthropic Sandbox Runtime, a lightweight OS-level sandboxing tool designed to make AI agents safer without using containers. Whether you're running local MCP servers, bash commands, or arbitrary processes, SRT enforces strict file system and network restrictions using native OS primitives like Sandbox Exec on macOS and bubblewrap on Linux. It gives you fine-grained control: limit which hosts or protocols a process can access, restrict read access to files or directories, and even control Unix socket access. On macOS, SRT can tap into the system's sandbox violation logs to alert you in real time whenever a process tries to break the rules."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Next up is WhatsApp Inbox, a WhatsApp web-style inbox built with Next.js for the WhatsApp Cloud API. If you've ever wanted a developer-friendly interface to send messages, templates, or interactive buttons without leaving your browser, this repo makes it happen. It supports real-time messaging with auto-polling, fully-featured template messages, including headers, body text, and buttons, and interactive messages with up to three custom actions. You can also send media, images, videos, documents, and audio while enforcing WhatsApp's 24-hour messaging window automatically."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Next up is Quotick, a smart VS Code extension that takes the hassle out of working with JavaScript template literals. It's context-aware, skipping comments, imports, or any invalid code areas, and works across multiple languages, including JS, TS, JSX, TSX, and Svelte. Everything happens in real-time bidirectionally, so you can type naturally without worrying about manual conversions. With configurable settings, you can enable, disable, or customize its behavior, making Quotick a tiny but powerful productivity booster for developers who love clean and correct template literals."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Next on our list is Skyfall GS, a framework for synthesizing large-scale explorable 3D urban scenes directly from satellite imagery. Creating realistic 3D cities is usually hampered by the lack of high-quality 3D scans. But Skyfall GS cleverly combines coarse geometry from satellite data with open-domain diffusion models to generate detailed textures and structures. It uses a curriculum-driven iterative refinement strategy to progressively enhance geometric completeness and photorealism, giving you immersive real-time 3D exploration without the need for expensive 3D annotations."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Next up is Graphite, a visual node-based interface for interacting with large language models. Unlike traditional chatbots that trap you in a linear conversation, Graphite turns your dialogue into an interactive mind map on an infinite canvas. Built with Python and PyQt5 and powered locally via Ollama, it ensures full privacy while letting you branch conversations, explore alternative ideas, and build a rich knowledge graph. Each prompt and response is a distinct movable node connected to show the evolution of your thoughts."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Next up is Infera, a DuckDB extension that brings machine learning inference directly into your SQL queries. Built in Rust and powered by the Trex inference engine, Infera lets you run ONNX models on data stored in DuckDB tables. No exporting, no Python/R pipelines, just seamless in-database ML. Traditionally, running models on database data meant exporting it, running the model externally, and importing results back: a slow and error-prone process. Infera eliminates that bottleneck, letting you perform single or multi-value model predictions directly on table columns or raw tensor data."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Next on our list is Chrome to Firefox extension converter, a Rust-based CLI and WebAssembly tool that helps developers migrate Chrome manifest v3 extensions to Firefox-compatible formats. While Firefox supports many Chrome APIs, some Chrome-only APIs don't exist natively, and that's where this tool comes in. It detects over 170 Chrome-only APIs, converts manifests, provides runtime shims, and even checks keyboard shortcuts for conflicts with Firefox defaults. The converter supports multiple formats and offers a browser-based interface for easy usage without installation."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Next up is Backdoor, a modern and embeddable PostgreSQL data querying and editing tool built in Java. Unlike desktop tools like pgAdmin or DBeaver, Backdoor is tiny, under 2 megabytes, and has no transitive dependencies, making it perfect for embedding directly into your Java applications. It lets you query, edit, sort, filter, rename, and drop tables or run arbitrary SQL commands, all without requiring a separate deployment. Multi-user support comes built-in with per-user logging, and Pro features add activity history and fine-grained access control."
+      ]
+    }
+  ]
+}

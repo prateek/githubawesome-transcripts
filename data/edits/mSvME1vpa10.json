@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source_sha256": "26cfceb6e94308ae9315a9e46ae93c454a3ca7a1e6f4b9bbfba3b8c83fc76233",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-07T13:22:14+00:00",
+  "usage": {
+    "prompt_tokens": 2503,
+    "completion_tokens": 5128,
+    "total_tokens": 7631,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3246,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today, we're checking out 10 of the best open-source Google Analytics alternatives. These tools are simpler, faster, and privacy-friendly. Perfect for indie devs, startups, and anyone who loves clean analytics dashboards without the Google tracking baggage. Let's dive right in."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Umami is one of my personal favorites, and here's why. Umami was created by three brothers, Mike, Brian, and Francis Cao, who were just fed up with Google Analytics. And honestly, I totally get it. No personal data collection, no tracking scripts that spy on users, just fast, simple, ethical analytics. Setting it up is super easy. You can use Umami Cloud for instant hosting or go fully self-hosted with Docker, giving you total ownership of your data. The dashboard is lightweight, modern, and beautifully minimal. You get real-time tracking, clear traffic insights, and no clutter.",
+        "For smaller projects and personal websites, Umami just works. It might not track as many metrics as Google Analytics, but for most devs, that's actually a good thing. If you're tired of overcomplicated dashboards and privacy-invading scripts, Umami is a refreshing alternative. Up next, let's talk"
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Rybbit just dropped version 2.0 a week ago, and it's looking amazing. The brand new map feature with a replayable timeline lets you visualize your visitors in real time. It's genuinely fun to use. Now, how does Rybbit compare to Umami? Well, Rybbit is definitely more feature-rich. It uses a bit more resources, built on Next.js with ClickHouse for data storage and PostgreSQL for configuration, but it's still incredibly stable. No cutting-edge tech here that's going to break on you. It's not just beautiful to look at, it's actually functional and intuitive.",
+        "They've redesigned the user journeys, improved filters, and added a sessions and users page that makes analyzing behavior super easy. Like Umami, it's cookieless, GDPR compliant, and privacy first. Setup is dead simple. One script tag or spin it up with."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "If you want something closer to the full power of Google Analytics without the Google part, Matomo is the one to watch. Formerly known as Piwik, Matomo is one of the most comprehensive open-source analytics platforms available. It packs everything from heat maps and A/B testing to SEO, keyword tracking, media analytics, and over 100 integrations right out of the box. You can host it yourself for free or choose Matomo Cloud, which runs on privacy-focused servers in Germany. Either way, you own your data. No sharing, no third-party tracking ever.",
+        "Now with great power comes a slightly heavier footprint. Its tracking script is about 22 KB larger than Umami or Rybbit. But that's the trade-off for such deep analytics capability."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "While Matomo aims to match Google Analytics feature for feature, Plausible takes the opposite approach. It's clean, simple, and focused only on what really matters. You get the essentials: unique visitors, page views, bounce rate, and traffic sources, all in a minimal, easy-to-read dashboard. No clutter, no tracking bloat. Plausible's analytics script is incredibly lightweight, less than 1 KB, which makes it one of the fastest analytics tools you can use. And it's completely cookie-free and privacy compliant right out of the box. Under the hood, Plausible runs on Elixir and ClickHouse, which means blazing fast analytics queries and solid scalability for larger sites. It can be self-hosted or used via their managed cloud service hosted in Germany."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "If you like your tools simple, open, and old school, GoatCounter might just be your vibe. It's a free analytics platform that gives you the basics: page views, visitor counts, and referrers. Nothing more, nothing less. GoatCounter can be self-hosted or used as a hosted service, so you don't have to deal with setup if you don't want to. It's super lightweight, too. The tracking script adds less than 1 kilobyte to your site, making it one of the smallest footprints in this list. Now, it's not perfect. It doesn't have live visitor tracking, detailed comparisons, or fancy charts like Rybbit or Matomo. And as of now, there's no official Docker image, which makes setup and migration a bit less convenient."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Let's talk about Swetrix, a relatively new player that's been getting quite a bit of buzz on Reddit. Swetrix is a privacy-focused analytics platform that's easy to self-host and packed with features similar to Umami, but with a more enterprise-oriented twist. You get the usual analytics dashboard, but also extras like error and uptime monitoring, funnel analysis, and custom alerts. Their UI is absolutely clean and modern, one of the nicest I've seen in this space. Under the hood, Swetrix uses ClickHouse instead of PostgreSQL, which means it's faster and more scalable, but also heavier on resources.",
+        "The project is under active development with an updated Docker Compose setup and a public roadmap, so you can literally see what's coming next."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "OpenPanel is positioning itself as the perfect middle ground. It combines the power of Mixpanel with the simplicity of Plausible. OpenPanel's live dashboard is super dynamic, showing visitors, sessions, bounce rate, user locations, referrers, and even which pages are trending in real time. But what really sets it apart is the product analytics layer with insights like first and last seen dates, session duration, browser and OS, and detailed interaction history. You can even use the inspect profile feature to drill down into individual user behavior, seeing how often they visit, how long they stay, and what they interact with most. For growth and optimization, OpenPanel includes funnel analysis, user retention tracking, and even A/B testing, all built in. You can also set up smart alerts for specific events or conversion drops."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Let's move on to Litlyx, a privacy-first all-in-one analytics platform built and hosted in the EU. It's fully GDPR compliant and designed to blend website analytics, product analytics, and ethical marketing into one clean dashboard. With Litlyx, you can track visitor behavior, run funnel analyses, manage user permissions, and even generate custom branded reports, all without leaving the app. The UI feels modern and minimal yet powerful, making it great for marketers, developers, and product teams alike. If you're looking for a privacy-respecting analytics tool that goes beyond page views, Litlyx is a solid contender."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Ackee is a self-hosted analytics solution built on Node.js. I really like that Ackee is completely free and open-source, and that it gives you real-time stats in a smooth UI. The dashboard is clean and minimal, offering a straightforward view of your site traffic with real-time visitor monitoring baked in. But it does come with a few caveats. There's no data comparison over time. And since it's self-hosted only, you'll need to handle all the setup and maintenance yourself. From a technical standpoint, Ackee is lightweight, adding just a few HTTP requests totaling less than half a kilobyte. In short, Ackee is great for developers who want a minimalist privacy-first analytics tool they can fully control."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Next up, Databuddy. What makes Databuddy special is that it's feature-rich without sacrificing privacy. You get a real-time analytics dashboard, user behavior tracking, goal and conversion tracking, custom events, and funnel analysis. And on the roadmap: cohort analysis, A/B testing, advanced visualizations, and multi-tenant support. This thing is packed with features. The tech stack gives you flexibility too. It supports PostgreSQL and Redis out of the box with optional ClickHouse via Docker if you need that extra performance for high-volume analytics. You can self-host it completely. And because it's open source under AGPL 3.0, you can inspect, modify, and extend it however you want. Now, Databuddy is relatively new with around 630 GitHub stars as of October 2025."
+      ]
+    }
+  ]
+}
