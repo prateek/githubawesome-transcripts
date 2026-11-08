@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "e71a3553777ac2e130ef79a13b44910b33a8760689e7a89700dfa9afc56df300",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "created_at": "2026-11-08T13:45:28+00:00",
+  "usage": {
+    "prompt_tokens": 378,
+    "completion_tokens": 2508,
+    "total_tokens": 2886,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2331,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Imagine having a full desktop environment without graphics. Meet Desktop TU, a Rust power project that turns your terminal into a tiling desktop inspired by tools like T-Mox. With Desktop 2e, you can launch apps or commands straight from shortcut files, view anything that outputs to and manage your workspace by moving, resizing, or tiling windows all inside the terminal. It even handles crashes gracefully. It lets you select files or folders as arguments and is working toward cross-term support for better color handling. If you love minimal setups or want to explore what a text-only desktop could look like, Desktop TU is an open-source experiment worth checking out. Licensed under MIT and written in Rust."
+      ]
+    }
+  ]
+}

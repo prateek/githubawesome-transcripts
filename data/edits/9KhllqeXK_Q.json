@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source_sha256": "6f4c5c57438f7d8f14d314884af901e9ea39531166eb1054d1ebd473e3ec8db3",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "cohere/north-mini-code:free",
+  "created_at": "2026-11-08T13:44:44+00:00",
+  "usage": {
+    "prompt_tokens": 434,
+    "completion_tokens": 1609,
+    "total_tokens": 2043,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1537,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Got a huge video file eating up space? What if you could shrink it in seconds without installing anything, without uploading to the cloud, and without losing privacy? Let me show you an open-source project that does exactly that. It's called Compress.lol. A super handy tool that shrinks your videos right in the browser. That's right. No installs, no cloud uploads, no waiting around. It's powered by Web Assembly and FFmpeg.wasm, WASM, meaning all the heavy lifting happens locally on your device. Your videos never leave your computer, so your privacy is safe.",
+        "Some highlights, you can compress to a target file size. It intelligently balances quality, detects motion for optimized settings, and it's lightning fast thanks to web assembly. Plus, the UI is sleek, mobile friendly, and available in multiple languages. Best part, it's completely open-source under Apache 2.0, now built with speltkit plus TypeScript and you can check out the code right now on GitHub. So if you've ever struggled with massive video files, give compress.lol a try and maybe even contribute to the project. Links in the description."
+      ]
+    }
+  ]
+}

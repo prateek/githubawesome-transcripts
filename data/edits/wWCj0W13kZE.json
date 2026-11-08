@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "a0b19dedb0bf8910bd213d9359c197a8182fbe97f919cd0416ab005369a10e32",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3.5-super-vl:free",
+  "created_at": "2026-11-08T13:43:22+00:00",
+  "usage": {
+    "prompt_tokens": 367,
+    "completion_tokens": 1899,
+    "total_tokens": 2266,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1744,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Meet Maildrop, a self-hostable, disposable email service designed to protect your real inbox. Whether you are signing up for services, testing apps, or creating multiple accounts, Maildrop gives you a random email address on your own domain and you control everything out of the box. You get random or custom emails, password-protected inboxes, a clean modern UI, super easy setup. Maildrop is open source under the GPL 3.0 license, so you can run it yourself and keep your data private. Try the hosted demo at haley.dev V or spin it up on your own server from the GitHub repo link in the description."
+      ]
+    }
+  ]
+}
