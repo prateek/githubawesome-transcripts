@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source_sha256": "50d07a52f65bfc7b580babf35a752dd9f8a9d26f50f5ef197b1c34b09cfccc74",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "created_at": "2026-11-08T22:21:37+00:00",
+  "usage": {
+    "prompt_tokens": 434,
+    "completion_tokens": 1523,
+    "total_tokens": 1957,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1292,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today we're looking at a project that completely flips the way you think about the terminal. It's called Term.everything. And yes, it literally lets you run any GUI application right inside your terminal. Want to fire up Firefox from your SSH session? Done. Want to play a video game in the terminal inside a web browser over SSH? This project can pull that off. Term.everything isn't just a hack. It's actually a custom-built way compositor that renders straight into your terminal instead of your monitor.",
+        "That means whether you're on kitty, iTerm2, or Alacritty, you can tune the resolution and frame rate to balance clarity and performance. It's not just about showing off. This tool makes remote development, debugging, and even lightweight GUI usage inside terminal workflows way more flexible. So, if you're tired of terminal-only file viewers and just want to use the real apps you already have, Term.everything."
+      ]
+    }
+  ]
+}

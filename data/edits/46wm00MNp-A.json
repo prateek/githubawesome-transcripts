@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "source_sha256": "05dff64c34337a676b42ea091d690b16a13f4430732611f25f5ea31457653fa5",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3.5-super-vl:free",
+  "created_at": "2026-11-08T22:23:34+00:00",
+  "usage": {
+    "prompt_tokens": 2335,
+    "completion_tokens": 8295,
+    "total_tokens": 10630,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6609,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Every week, hundreds of open source projects surge in popularity on GitHub, but only a few make it to the very top. In today's video, we're counting down the top 10 most popular GitHub open-source projects of the week. From game-changing developer tools to AI breakthroughs and productivity hacks, these are the repos the community can't stop talking about. Let's dive in."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "SeedBox Lite, a lightweight, modern torrent streaming application that takes binge-watching to the next level. Forget waiting for downloads. SeedBox Lite lets you start watching movies and TV shows instantly, all while the torrent is still streaming in the background. It's got a clean Netflix-style interface, full subtitle support, and even gesture controls for mobile users. Plus, deployment couldn't be easier. Whether it's Docker, PM2, or traditional hosting, SeedBox Lite is production-ready out of the box. If you've ever wanted the speed of torrent with the polish of a top-tier streaming service, SeedBox Lite delivers the best of both worlds."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Next up on our list is doxx, a game changer for anyone who dreads opening Microsoft Word just to peek inside a .docx file. With doxx, you can view, search, and even export Word documents directly from your terminal. No bulky software needed. It's lightning fast, beautifully renders formatting, tables, and colors, and even supports Unicode borders for clean table layouts. Plus, it's smart enough to copy text straight to your clipboard or convert documents into markdown, CSV, JSON, or plain text with ease. And if your terminal supports images, doxx makes sure your Word files look surprisingly rich, even right in the command line.",
+        "Simple, powerful, and perfect for the developer workflow."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "At the next spot in our countdown, we have AionUi, a project that completely reimagines the way we interact with AI from the command line. Instead of juggling clunky CLI commands, AionUi gives you a beautiful chat-style interface that feels modern and efficient. Need to generate or edit images? AionUi taps into the Gemini 2.5 Flash image preview model, but also supports other cutting-edge AI platforms for maximum flexibility. Struggling with files? It's got your back with batch renaming, intelligent classification, smart file organization, and even Excel file creation and analysis. All powered by AI. And the real magic: multiple conversations, permanent storage, and support for a wide range of AI models.",
+        "It's your AI workflow hub. Whether you're writing code, organizing data, or exploring creative tasks."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "And at our next spot, meet Gonzo, the Go-based terminal UI that transforms messy log streams into clean, actionable insights. Inspired by K9s, Gonzo gives you a real-time interactive dashboard right in your terminal, complete with charts, distribution visuals, and an intuitive grid layout. Logs stream live from stdin, files, networks, and even OpenTelemetry pipelines, automatically detecting JSON, logfmt, or plain text with smart severity tracking along the way. Need to go deeper? Gonzo packs advanced filtering with rejects, attribute search, and severity levels, letting you drill down into exactly what you need. And here's the kicker: it has AI-powered insights built in. Gonzo can detect anomalies, identify recurring issues, and even suggest possible root causes. Whether you're working with GPT-4, Ollama, LM Studio, or completely offline local models."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Coming up next, we've got Spec Kit, a project that's changing the way we think about writing software. Instead of code being the main event and specs just the side notes, Spec Kit flips the script with something called spec-driven development. The idea is simple but powerful. Instead of specs being throwaway scaffolding, they become executable blueprints. That means your specifications don't just describe what the system should do. They actually generate working implementations automatically. With tools like Spec Kit, organizations can shift focus away from writing undifferentiated boilerplate code and instead concentrate on the product scenarios that really matter."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Next on our list is Youtu-Agent, a simple but powerful agent framework designed to make autonomous AI agents practical, fast, and open. It comes packed with real-world use cases out of the box from CSV data analysis and personal file organization to research assistance and even upcoming support for podcast and video generation. Its architecture is both flexible and developer-friendly. Built on OpenAI agents with clean YAML configs and auto agent generation, so you spend less time on setup and more time running agents that get real work done. Youtu-Agent is proof that the future of autonomous agents can be open, practical, and cost-aware."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Breaking into our countdown, we have USO, the unified style and subject-driven generation framework that's tackling one of the toughest challenges in generative AI. Traditionally, style transfer and subject-driven generation have been treated as separate problems. One focuses on preserving artistic style, the other on keeping subjects consistent. The result is a constant trade-off between style fidelity and subject accuracy. USO changes the game by bringing both worlds together under one unified framework. Using a large-scale triplet dataset, it disentangles content and style, then recombines them through dual objectives: style alignment training and content style disentanglement training."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Next up, we've got Claudable, an open-source app builder that feels like a mix of node simplicity and AI-powered superpowers. Here's how it works. Just describe the app you want, for example, a task manager with dark mode, and Claudable instantly generates production-ready Next.js code, complete with a live preview. It taps directly into the power of Claude Code's agent capabilities or Cursor CLI and pairs that with the polished workflow of Lovable's builder, so you get a smooth, intuitive experience.",
+        "Want to launch it? Claudable pushes your app live to Vercel in one click, connects seamlessly to Supabase for database and authentication, and even handles GitHub version control all automatically."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "And taking the spotlight in our countdown is InfiniteTalk, a revolutionary framework for generating talking videos of unlimited length. Unlike traditional dubbing methods that only sync your lips, InfiniteTalk synchronizes everything: lip movements, head turns, body posture, and even facial expressions, all perfectly aligned with the audio track. This means you can take an input video and a new audio track, and InfiniteTalk will synthesize a fully redubbed video that looks and feels completely natural. It doesn't stop there. InfiniteTalk also works in image-to-video mode, where a single photo combined with audio can generate consistent, identity-preserving talking head videos."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "And rounding out our list, let's talk about Spec Workflow MCP, a model context protocol server designed to supercharge spec-driven development with AI assistance and real-time project tracking. This tool brings structure to the entire development workflow. Starting from requirements, moving through design, and finally breaking things down into tasks, everything is tracked in a real-time web dashboard where you can see specs, progress bars, and task updates live. Even better, if you're working in VS Code, Spec Workflow MCP integrates directly as a sidebar extension, so you never have to leave your coding environment. It also introduces a full approval system where team members can create documents, request approvals, give feedback, and track revisions seamlessly."
+      ]
+    }
+  ]
+}
