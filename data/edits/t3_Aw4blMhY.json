@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "source_sha256": "53b6fe33e728c43f48ffbd5bbcd4b6e37a6f10fcb0fdbb04e7ce15b77358aad3",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-08T06:29:07+00:00",
+  "usage": {
+    "prompt_tokens": 2837,
+    "completion_tokens": 6175,
+    "total_tokens": 9012,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4183,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today we're kicking off a brand new series, Swift Trending Repos Weekly. Every week we'll dive into the hottest Swift repositories trending on GitHub, so you stay ahead of the curve, discover amazing tools. This is episode 1, and we've got 15 awesome Swift projects lined up for you. So grab your coffee, hit that like button, and let's explore the top Swift repos trending this week."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "First up, we've got LaunchNext, a must-have tool for macOS users frustrated by the changes in macOS Tahoe. Remember when Apple removed the classic Launchpad? LaunchNext brings it back, and better than ever. This project restores the classic Launchpad experience, complete with your original folders, custom layouts, and smooth navigation. You'll get features like one-click migration from your old Launchpad database, multilingual support, custom icon sizes, instant search, and smart folder management. If you miss the freedom to organize apps your way, LaunchNext is the tool to check out."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Next up is SwiftUIHTML, a library that bridges the gap between web content and SwiftUI. With this tool, you can render HTML as fully native SwiftUI views, making it perfect for apps that need to display dynamic or styled web content without leaving the SwiftUI ecosystem. It supports inline CSS styling, a flexible tag system, and even works with popular parsers like Fuzi and Swift Soup. If you're building apps that need rich styled text, embedded images, or HTML-driven layouts, this library saves you from messy web views and keeps everything native."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Moving on, we've got NSWindow Playground, a lightweight utility app for macOS developers who love experimenting. This tool lets you tweak NSWindow style settings in real time. Change the style mask, adjust appearance, and instantly see the results in a live demo window. It's a simple but super handy playground for anyone working on macOS apps who wants to explore different window configurations without constantly rebuilding. A neat little project that can save you time and spark some UI inspiration."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Next on the list is Swift Configuration, a library that makes handling app settings and configurations clean and consistent. Instead of hardcoding values or juggling multiple config files, this package gives you an abstraction layer between your app and its configuration providers. That means your app always reads settings through a simple unified API while the provider itself is set up once at the entry point. If you're building apps that need structured configuration management, this library is a solid foundation to build on."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Now, let's check out MenuBarUSB, a lightweight macOS app that makes managing your USB devices effortless. It lives right in your menu bar and gives you a clear overview of all connected USB devices. You can even customize how they appear. Rename devices with ugly default names, hide the ones you don't care about, and organize your list with manual hub inheritance. On top of that, it supports notifications for when devices are connected or disconnected, plus handy customization options like compact view, dark mode, and reduced transparency."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Up next is Izzy, a modern macOS music player that feels like using Spotlight for your music. Izzy combines a beautiful floating search interface with seamless YouTube Music integration, giving you instant access to high-quality streaming, real-time search suggestions, and a smart music library that organizes itself. It's packed with thoughtful features like global hotkeys, full keyboard navigation, dark mode support, media key playback controls, and even automatic updates."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Now, let's take a look at Dayflow, a fascinating productivity tool that automatically builds a timeline of your day. Instead of relying on calendars or manual tracking, Dayflow watches your screen at one frame per second, then uses AI every 15 minutes to create a clean, summarized timeline of your activities. It even highlights distractions so you can see exactly what pulled you off task. Privacy is built in from the start. You choose your AI provider, whether it's Gemini with your own API key or fully local models like Ollama or LM Studio. Your data stays under your control and the app is MIT-licensed and open-source for full transparency."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Next up is macpaper, a lightweight yet powerful wallpaper manager for macOS. What started as a simple tool has evolved into a full-featured customization app that supports not just static wallpapers, but also GIFs, videos, and even online wallpaper browsing. The best part, macpaper manages all of this without hogging your system resources. So you get a highly customizable desktop experience without the lag."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Up next is Fluid, a modern voice-to-text dictation app for macOS powered by AI. It delivers real-time transcription with support for over 25 languages using the Parakeet TDT v3 model under the hood. You can also enhance accuracy with AI providers like OpenAI, Grok, or your own custom setup. With a global hotkey, you can capture your voice instantly and have it type directly into any app. Add in menu bar integration, smart typing, and seamless auto-updates, and you've got a dictation tool that feels fast, natural, and always ready."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Next up is Kinetics, a SwiftUI library that brings real-world physics to your app animations. With Kinetics, your UI feels alive, supporting retargeting, momentum, rubber banding, snapping, bouncing, and even motion projection. Whether it's dragging, rotating, or interacting with sliders and dials, animations respond naturally to user input and boundaries. It comes with pre-tuned spring presets like playful, bouncy, snappy, and rigid, or you can customize them for the exact motion you want. If you want your app to feel tactile and responsive, Kinetics is a must-see library for adding polish and life to your animations."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Next, we have AemiSDR, a lightweight SwiftUI library for adding dynamic GPU-accelerated blurs and masks to your views. It works seamlessly with scroll views and other dynamic content, letting you apply variable blurs, alpha masks, and advanced shapes like superellipses, all with a simple modifier-based API. Performance is a focus here. AemiSDR uses precompiled Metal shaders and caching to ensure smooth, high-speed effects without slowing down your app. If you're looking to add subtle visual polish or sophisticated blur effects to your SwiftUI interfaces, AemiSDR makes it easy and efficient."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Up next is CmdN, a lightweight i3-style application switcher for macOS that blends keyboard-driven efficiency with native Mac workflows. With CmdN, you can switch to any app instantly using simple keystrokes while keeping all your familiar Mission Control features intact. Assign number keys to favorite apps, toggle between recently used apps, and even switch workspaces, all with lightning-fast keyboard shortcuts. It integrates seamlessly with macOS, runs quietly in the menu bar, supports dotfiles for configuration, and lets you customize modifier keys to your liking."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Next, we have IntelligenceGlow, a lightweight SwiftUI library that brings Apple-style glowing strokes to your shapes. Using animated angular gradients, layered blurs, and smooth transitions, it recreates the dynamic glow effect seen across Apple's design language. You can customize line widths, blur radii, and animation speeds while gradients flow automatically for a lively look. It works with any insettable shape like circle, capsule, or rounded rectangle, and even respects Reduce Motion accessibility settings."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Next up is PagedMediaViewer, an elegant Swift library for displaying images and videos with a polished native Photos app feel. It offers smooth thumbnail to full-screen transitions, pinch and double-tap zoom, configurable headers and footers, and playback controls. You can even adjust presentation insets so underlying content stays visible, making it perfect for apps that combine media with other UI elements. With full documentation and example projects, PagedMediaViewer makes creating a refined media experience in SwiftUI simple and elegant."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Finally, we have AnimationLimitBreaker. A clever Swift library that enables infinite loop animations in widgets. Normally, widgets are limited in how they can animate, but this library uses a text-based timer combined with custom masking to implement frame-by-frame animation that loops endlessly. You can apply it to any view, giving your widgets dynamic, continuously running animations. It's written in Swift 6.1, compatible with iOS 18+, and inspired by Bryce Bostwick's widget animation project."
+      ]
+    }
+  ]
+}

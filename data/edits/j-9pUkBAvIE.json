@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "source_sha256": "e29a635f1f1a08d326584f6162bc73d1de6bbb65f6d73a9c7bf486e967a30b7b",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "dots-studio/dots-3-note-preview:free",
+  "created_at": "2026-11-08T06:25:09+00:00",
+  "usage": {
+    "prompt_tokens": 2958,
+    "completion_tokens": 9494,
+    "total_tokens": 12452,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8376,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Today, we're diving into the top 15 trending AI projects in the developer community right now. From cutting-edge machine learning frameworks to AI coding assistants and mind-blowing generative models, whether you're building your next AI startup, tinkering with side projects, or just love discovering the latest tools, this list has something for you. Let's get started."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Kicking off our list, meet Opcode, a powerful GUI toolkit built for Claude Code that completely transforms how developers interact with AI coding agents. Think of it as your command center for Claude, where you can create custom agents, manage projects, track usage analytics, and even spin up background AI tasks, all from one slick desktop app. Built with Tauri 2, Opcode brings you a beautiful cross-platform interface to control everything. From project sessions and cost tracking to version timelines and even Model Context Protocol server management, no more juggling terminal commands. Opcode gives you a full visual experience for your AI workflow."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Next up, meet FastMCP v2, the Pythonic power framework for building MCP servers and clients at lightning speed. If you're not familiar with MCP, it's like the USB-C port for AI, a standardized way to connect large language models to data and tools securely. FastMCP takes that to the next level. Version 2.0 is now the go-to production framework for building real-world MCP applications, complete with enterprise authentication, deployment tools, testing utilities, and even OpenAPI and FastAPI generation built right in. All you need is a few lines of Python. Decorate your function, run the server, and boom, you've got a production-grade MCP endpoint ready for your LLMs."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Next up, meet Dyad, the open-source AI app builder that runs entirely on your machine. Think of it like Lovable, V0, or Bolt, but with one huge difference: you own everything. Dyad lets you build full-stack AI apps locally powered by Supabase for databases and server functions. You can use any model from Gemini 2.5 Pro and GPT-4.1 to Claude Sonnet 4 or even your own local Llama models. No lock-in, no hidden limits, no data leaving your device. It's fast, private, and frictionless. The dream setup for indie devs and AI tinkerers who want control and privacy without sacrificing speed."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Meet RustGPT, a complete transformer-based language model built entirely in Rust. No PyTorch, no TensorFlow, no external ML frameworks at all. This project rebuilds a large language model from scratch using only Rust for matrix operations. It includes everything: pre-training, instruction tuning, full backpropagation, and even an interactive chat mode for testing. It's not designed to rival GPT-4, but it's the perfect playground for anyone who wants to understand how LLMs actually work under the hood."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "What if every research paper could build its own AI agent ready to explain, demonstrate, and even run its own experiments? Meet Paper2Agent, a wild new project that's literally turning research papers into interactive AI agents. Here's how it works: you feed Paper2Agent a GitHub repository from a scientific paper, and it automatically scans the tutorials, sets up the environment, and generates a ready-to-use AI agent. These agents can run the original experiments, analyze new data, and answer your questions, all based on the paper's code. Under the hood, Paper2Agent connects your project to Claude Code or Google Gemini CLI, builds a local MCP server, and even runs complex pipelines like AlphaGenome, all with minimal setup."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Imagine an AI that can understand not just your words, but your voice, your images, and your videos, and reply instantly in your language of choice. That's Qwen3-Omni, a new foundation model that's truly omnimodal. Designed to process everything, it integrates audio, text, and vision in a single architecture called the Thinker-Talker model, allowing seamless understanding between modalities. With real-time streaming and natural-sounding speech output, it's as close to real conversation. Qwen3-Omni currently supports 119 text languages and 10 speech output languages, and it's already setting state-of-the-art benchmarks on 32 multimodal tasks."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Meet Pepper. Traditional chatbots wait for you to ask. Pepper doesn't wait; it acts. Built as a real-time, event-driven system, Pepper powers proactive assistants that fetch your emails, summarize them before you even open them, and keep working on your tasks in the background, all on their own. At its core is a continuous sense-think-act loop with feeds that sense, a scheduler that thinks, and workers that act. This architecture doesn't just respond to your commands; it anticipates your next move. Pepper introduces asynchronous tool calls, event cues, and context stores, letting multiple AI processes run in parallel without blocking the main loop."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Next up, PromptEnhancer: a clever upgrade for text-to-image AI models. Imagine rewriting your prompt, not by hand, but through an intelligent chain-of-thought process that clarifies your intent before the model ever starts drawing. That's exactly what Hunyuan PromptEnhancer does. It makes your AI art generator smarter, refining prompts, preserving style and layout, and improving alignment between text and image. It's like having a translator that speaks both human imagination and diffusion model logic."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Meet AI SDK Tools, your new toolkit for building powerful AI applications. It extends the Vercel AI SDK with features developers actually need, like state management, real-time debugging, and structured artifact streaming. Built on Zustand, it gives you global state control, real-time tool monitoring, and production-grade reliability, all with full TypeScript support. If you've ever built beyond a simple chat UI, this one's a must-have."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Next up, we have AG-UI, the agent-user interaction protocol. It's an open, event-based standard that makes it simple for AI agents to connect with real-time user interfaces. During agent execution, backends emit standardized AG-UI events, about 16 in total, covering everything from streaming messages to state updates and UI actions. It's lightweight, flexible, and transport-agnostic, meaning it works seamlessly over WebSockets, server-sent events, or even webhooks. Real-time chat, bidirectional sync, generative UIs—all out of the box."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Meet Shimmy, the privacy-first alternative to Ollama and a true drop-in replacement for the OpenAI API. It's a lightweight 4.8-megabyte single binary that gives you fully OpenAI-compatible endpoints for GGUF models. So you can point your existing AI tools to Shimmy and they'll just work locally and privately. There's zero configuration. Shimmy auto-discovers models from Hugging Face or local directories, automatically allocates ports, and even detects LoRA adapters. Fast, reliable, and entirely local, Shimmy gives you the full OpenAI API experience without the cloud costs or compromises."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Next, we have the Chrome MCP server, a Model Context Protocol server that turns your Chrome browser into an AI-powered automation hub. It lets large language models or chatbots like Claude directly control your browser, automating tasks, analyzing content, and even running semantic searches, all within your own Chrome environment. Unlike traditional automation tools like Playwright, the Chrome MCP server uses your existing browser session, complete with your configurations, logins, and extensions. It's fully local, ensuring privacy, and supports over 20 tools, including screenshot capture, network monitoring, bookmark management, and intelligent tab analysis."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Introducing CUA, the open-source infrastructure built for computer-use agents. Think of it as Docker for AI agents that can control full desktops, macOS, Linux, or Windows, all inside secure virtual sandboxes. With the Computer SDK, you can automate real operating systems using a simple Python-like API and manage VMs locally or through CUA Cloud. Whether you're testing, training, or deploying desktop-controlling AI, CUA gives developers the full toolkit to build, benchmark, and scale the next generation of intelligent computer agents."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Meet MCP for Beginners by Microsoft, an open-source curriculum that teaches the Model Context Protocol from the ground up. Designed for developers, it walks you through real-world examples across .NET, Java, TypeScript, JavaScript, Rust, and Python, helping you understand how to build modular, scalable, and secure AI workflows. From session setup to service orchestration, you'll learn how MCP standardizes communication between AI models and client applications. Complete with official documentation, code samples, and community resources, MCP for Beginners is your practical starting point for mastering one of the most important protocols in modern AI development."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Introducing the Coding Agent Template: your ready-to-deploy foundation for building AI-powered coding assistants. This template supports multiple agent backends, like Claude Code, OpenAI Codex CLI, Cursor CLI, Google Gemini CLI, and OpenCode, all seamlessly integrated with Vercel Sandbox for secure code execution. It includes real-time task tracking, AI-generated branch names, Neon PostgreSQL storage, and Git automation that commits changes automatically. Built with Next.js and Tailwind CSS, this modern UI template makes deploying your own coding agent to Vercel as simple as one click."
+      ]
+    }
+  ]
+}
