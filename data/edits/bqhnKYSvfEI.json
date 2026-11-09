@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "9d7238ca26f438ef08972444907b5a63a2ea5dfc9d819a273dd72777ce88aef7",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "created_at": "2026-11-09T06:57:34+00:00",
+  "usage": {
+    "prompt_tokens": 438,
+    "completion_tokens": 1961,
+    "total_tokens": 2399,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1719,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Introducing Jadwal KRL, a beautifully designed and user-friendly app that puts real-time schedules for Indonesian commuter train lines at your fingertips. Developed with a focus on simplicity and accessibility, Jadwal KRL offers a seamless experience for commuters seeking up-to-date information. With its intuitive station search and saving feature, users can easily access relevant schedule information for their preferred stations, ensuring a hassle-free commuting experience. At the heart of Jadwal KRL lies its ability to connect to a replicated public API, fetching and displaying real-time schedules for Indonesian commuter train lines. Built using Next.js, Jadwal KRL delivers a smooth and responsive user experience. With its deployment on Vercel, Jadwal KRL is more than just an app; it's a public act rooted in the belief that public transportation data should be openly accessible to all. Created by Albl Zulio M and distributed under the AGPLv3 license, Jadwal KRL promotes transparency and encourages the development of robust public transportation data infrastructure."
+      ]
+    }
+  ]
+}

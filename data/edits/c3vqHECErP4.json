@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source_sha256": "bcf777bb6a24d41e754dc455261425d9da6376615f624dfc10b7181cae29e959",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "created_at": "2026-11-09T06:58:11+00:00",
+  "usage": {
+    "prompt_tokens": 471,
+    "completion_tokens": 3159,
+    "total_tokens": 3630,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Introducing EmailBuilder.js, a free and open-source email template builder designed specifically for developers. This innovative tool offers a streamlined and efficient way to build email templates faster than ever before, with clean JSON or HTML output that renders consistently across various email clients and devices. Taking inspiration from modern editor and component libraries, EmailBuilder.js provides a user-friendly, no-code builder interface that empowers developers to create a wide range of email template designs, from simple welcome emails to complex reports. The builder's flexibility accommodates diverse design requirements.",
+        "The beauty of EmailBuilder.js lies in its flexible output options: developers can either utilize the generated HTML output directly or leverage the JSON output in combination with the open-source reader provided by EmailBuilder.js. This approach seamlessly integrates the generated email templates into existing email delivery systems, ensuring a seamless workflow with EmailBuilder.js.",
+        "EmailBuilder.js developers can bid farewell to the limitations of traditional HTML and CSS techniques by leveraging modern design principles and responsive layouts.",
+        "As an open-source project, EmailBuilder.js offers developers the freedom to self-host the builder and extend its functionality as needed."
+      ]
+    }
+  ]
+}
