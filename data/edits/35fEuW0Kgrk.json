@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "0ba92ec516b6f45c56b3fb6bc079db7d9753514259b09fe3d243f848825548a5",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "cohere/north-mini-code:free",
+  "created_at": "2026-11-11T19:49:11+00:00",
+  "usage": {
+    "prompt_tokens": 294,
+    "completion_tokens": 995,
+    "total_tokens": 1289,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1062,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "GoLive is an agent skill for codecs and Claude Code that takes the app your agent just built and puts it into production on your own accounts. It figures out what the app needs, shows you a plan for hosting, database, domain, email, and payments, and waits for your approval before touching any provider. When it's done, it writes a handover file listing everything it created, so you know exactly what you."
+      ]
+    }
+  ]
+}

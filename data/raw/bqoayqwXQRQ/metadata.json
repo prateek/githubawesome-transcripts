@@ -1,0 +1,9 @@
+{
+  "id": "bqoayqwXQRQ",
+  "title": "pgbot: a Postgres health check that runs on a read-only role and installs nothing",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-09-05",
+  "duration": 22,
+  "description": "pgbot checks your Postgres database's health without touching it, no agent, no write access, just a read only role and the stats views Postgres already tracks. It scores the database zero to a hundred and flags findings as critical, warning, note, or good. It keeps a local baseline, so it knows what got worse since last time. It also knows the quirks of RDS, Supabase, and Neon.\n\nhttps://github.com/pgrundev/pgbot",
+  "chapters": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "bqoayqwXQRQ",
+  "title": "pgbot: a Postgres health check that runs on a read-only role and installs nothing",
+  "url": "https://www.youtube.com/watch?v=bqoayqwXQRQ",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-09-05",
+  "duration": 22,
+  "word_count": 65,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-11T19:49:02+00:00",
+    "metadata_sha256": "badc00acbbb4c33f9ffba89e50d639bb785d3cb740a503d11c7a080d0fedc751",
+    "captions_sha256": "3982870b0cd7979b4c90f6b5953bb3da41c8e10d209c98c1e0299415a67e969c",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [],
+      "id": "s001",
+      "end": 22,
+      "paragraphs": [
+        "PGBot checks your Postgress database's health without touching it. No agent, no write access, just a readonly role and the stats views Postgress already tracks. It scores the database 0 to 100 and flags findings as critical, warning, note or good. It keeps a local baseline so it knows what got worse since last time. It also knows the quirks of RDS, Superbase, and Neon."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "PGBot checks your Postgress database's health without touching it. No agent, no write access, just a readonly role and the stats views Postgress already"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "tracks. It scores the database 0 to 100 and flags findings as critical, warning, note or good. It keeps a local baseline"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "so it knows what got worse since last time. It also knows the quirks of RDS, Superbase, and Neon."
+    }
+  ]
+}
