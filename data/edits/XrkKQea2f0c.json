@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "1f3e7a097743056c3ae88bd6902db7e577cc9a7eaa5a69632f57feee13c3d64a",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "created_at": "2026-11-12T07:30:04+00:00",
+  "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 1037,
+    "total_tokens": 1378,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 905,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Describing a UI to an AI coding assistant in plain English is always worse than just drawing it. M3E Canvas lets you drag and drop Material 3. Expressive components: buttons, fabs, navbars, cards, and wire up the screens with tap-through navigation. Then it writes the coding prompt for you in English or Japanese with behavioral notes per component. Components snap together magnetically. Full undo and redo. PNG export. No backend. Everything lives locally."
+      ]
+    }
+  ]
+}

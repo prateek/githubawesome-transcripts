@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_sha256": "f9a2f9e7f107cf26749f066277aa7f6519aa965403b0df4f5f10430486f70c6a",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "recursive/flint-v1.0:free",
+  "created_at": "2026-11-12T07:35:33+00:00",
+  "usage": {
+    "prompt_tokens": 397,
+    "completion_tokens": 4196,
+    "total_tokens": 4593,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4987,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Notty is an open-source note-taking app that seamlessly combines simplicity, artificial intelligence, and powerful markdown editing. Notty is all about simplicity, crafted with a minimalistic design. It provides an intuitive and clutter-free user experience, allowing you to focus on what matters most: your thoughts and ideas. But what sets Notty apart is its AI-powered capabilities, leveraging the OpenRouter API. AI assists you in writing better notes and documents, adding a layer of intelligence to your writing process. Notty comes equipped with a built-in markdown editor. Formatting your notes has never been easier. Worried about accessibility across devices? Fear not. Notty's Cloud sync feature ensures your notes are seamlessly synchronized, providing you with accessibility and continuity across your workflow. Notty prioritizes a local-first approach, meaning your data is stored on your device and can be optionally stored in the cloud for added convenience. Speaking of the tech behind Notty, it runs on Next.js for the front end, Cloudflare Workers for the back end, Cloudflare KV for the database, and OpenRouter API for its AI capabilities."
+      ]
+    }
+  ]
+}
