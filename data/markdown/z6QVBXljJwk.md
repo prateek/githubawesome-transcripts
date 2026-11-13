@@ -182,7 +182,7 @@ Paperless NGX turns a shoe box of receipts and a home scanner into a searchable 
 
 [9:10](https://www.youtube.com/watch?v=z6QVBXljJwk&t=550)
 
-- https://github.com/Lumen-Labs/brainapi2.git
+- https://github.com/Lumen-Labs/brainapi2
 
 Most AI memory tools just store your old messages and hand back the closest match, which the makers of Brain API call a database, not memory. This builds a knowledge graph instead. Feed it plain sentences and a swarm of agents pulls out who did what, when, and how it connects. Ask a question, it was never directly told, and it answers by walking a traceable path through the graph, not guessing by similarity.
 
@@ -229,6 +229,8 @@ Health.mds your Apple health data into files you actually own, not a chart locke
 ## agentic-operator-core
 
 [11:45](https://www.youtube.com/watch?v=z6QVBXljJwk&t=705)
+
+- https://github.com/Clawdlinux/agentic-operator-core
 
 Ninevigil answers the question, most agent runtimes skip. Who can this agent talk to? And can you prove what it did months later? Deploying an AI agent on Kubernetes usually means it gets whatever network access the pod happens to have with no audit trail once the run finishes. This wraps any agent workload in default deny egress policies. G Visor sandboxing with one pod label.
 

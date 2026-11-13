@@ -286,4 +286,6 @@ scheduling platform that keeps booking pages, calendar data, and meeting automat
 
 [14:08](https://www.youtube.com/watch?v=COte4lzHcdI&t=848)
 
+- https://github.com/wardnet/wardnet
+
 Wardnet turns a Linux box or Raspberry Pi into a privacy gateway for every device on your network, including gadgets that can't run VPN software themselves. You can route devices through different WireGuard tunnels, apply separate DNS block lists, and isolate IoT or guest hardware with firewall zones. It also handles local DNS and DHCP from one dashboard.

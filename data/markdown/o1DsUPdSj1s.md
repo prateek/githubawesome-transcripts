@@ -182,6 +182,8 @@ Hel Insight is a self-hosted BI platform that combines dashboards, printable rep
 
 [9:10](https://www.youtube.com/watch?v=o1DsUPdSj1s&t=550)
 
+- https://github.com/tmatens/compose-lint
+
 Compose lint checks docker compose files for security mistakes before they land in production. Its rules catch privileged containers, exposed host ports, Docker socket mounts, unpinned images, and credentials written directly into environment values. You can run it locally or in CI, export SAR for code scanning annotations, and preview safe mechanical fixes as a dryr run diff.
 
 ## PeaNUT

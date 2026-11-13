@@ -14,6 +14,8 @@ Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects o
 
 [0:09](https://www.youtube.com/watch?v=DYRDAJD0-8Q&t=9)
 
+- https://github.com/getnao/nao
+
 Now is an open- source analytics agent and the flow is two steps. First, you build context on your data with the Now Core CLI, teaching the agent your schema and what your metrics actually mean. Then you deploy a now chat interface so your whole team can just ask questions in plain English and get real answers. self-hosted, so your data and definitions never leave your control.
 
 ## Airpipe

@@ -30,6 +30,8 @@ Mailflare gives you a real inbox on your own domain without handing your mail to
 
 [1:00](https://www.youtube.com/watch?v=TBOtZ3mBktM&t=60)
 
+- https://github.com/cjpais/Handy
+
 Handy is a push-to talk transcription tool that never leaves your machine. Every dictation app wants a monthly subscription and your audio uploaded to their servers. This one runs Whisper or Parakeet locally, so nothing gets sent anywhere. Hold a hotkey, talk, and the text drops into whatever field you're in on Windows, Mac, or Linux. Parakeet clocks in around five times real time on a mid-range Intel chip, they say.
 
 ## mStream
@@ -219,6 +221,8 @@ Geolens is the shared GIS catalog your team's shape files have been begging for.
 ## issued
 
 [10:58](https://www.youtube.com/watch?v=TBOtZ3mBktM&t=658)
+
+- https://github.com/metalogico/issued
 
 Issued reads your comics exactly where they already sit. No reorganizing required. Most comic servers want a specific folder structure before they'll even scan. So, step one becomes moving thousands of files around. issue just points at your existing folders and picks up CBZ, CBR, CB7, and PDF automatically, thumbnails, and all. It tracks which series are active, so you know when a new issue lands or a gap opens up.
 

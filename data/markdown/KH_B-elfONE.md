@@ -118,6 +118,8 @@ Safebucket is a self-hosted file sharing platform where the bites never touch th
 
 [5:43](https://www.youtube.com/watch?v=KH_B-elfONE&t=343)
 
+- https://github.com/mortennordbye/homelab
+
 Eden is one engineer's home lab published as its actual source, a Talos Kubernetes cluster on Proxmox provisioned with Terraform with Argo CD reconciling every workload from the repo. Psyllium handles networking, authentic does SSO, and Prometheus, Grafana, Loki, and Tempo cover metrics, logs, and traces. The architecture diagrams are generated from D2 files by a GitHub action so they can't drift from the config.
 
 ## drydock

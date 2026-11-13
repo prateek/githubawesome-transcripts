@@ -13,7 +13,7 @@
     "fetched_at": "2026-10-26T13:18:54+00:00",
     "metadata_sha256": "5281f64ff84add9eea6bfd29520aef0a7ec5b7f9af35de6a028102c1ae1e1157",
     "captions_sha256": "09185506aff44e1869959d6cfca685a00915a0c67cccf650073714e6d76f91b7",
-    "cleanup_version": "1"
+    "cleanup_version": "2"
   },
   "sections": [
     {
@@ -281,7 +281,9 @@
     {
       "start": 550,
       "title": "compose-lint",
-      "repositories": [],
+      "repositories": [
+        "https://github.com/tmatens/compose-lint"
+      ],
       "id": "s023",
       "end": 575,
       "paragraphs": [
