@@ -2,7 +2,7 @@ import json
 import os
 import re
 import time
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from decimal import Decimal
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -119,7 +119,10 @@ def clean_pending(root, max_videos=5, delay=4):
     attempts = 0
     history_path = root / "cleanup-attempts.json"
     history = read_json(history_path, {})
-    pending = sorted(records(root), key=lambda r: history.get(r["id"], ""))
+    # Newest videos first, since those are read first; a video tried in the last
+    # day waits behind the rest so a failing edit cannot hold the front.
+    recent = (datetime.now(UTC) - timedelta(days=1)).isoformat(timespec="seconds")
+    pending = sorted(records(root), key=lambda r: history.get(r["id"], "") > recent)
     for record in pending:
         path = root / "edits" / f"{record['id']}.json"
         current = read_json(path, {})

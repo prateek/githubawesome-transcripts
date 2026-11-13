@@ -1,10 +1,11 @@
-# GitHub Awesome, in writing
+# GitHub Awesome repositories
 
-A chaptered reading archive of [GitHub Awesome](https://www.youtube.com/@GithubAwesome)
-videos, backed by a Git history of JSON and Markdown data.
+A catalogue of the repositories featured in [GitHub Awesome](https://www.youtube.com/@GithubAwesome)
+videos, each with what the video said about it, backed by a Git history of JSON
+and Markdown data. [GLOSSARY.md](GLOSSARY.md) defines the words the site and code use.
 
-[Read the archive](https://prateek.github.io/githubawesome-transcripts/) ·
-[Download the index](https://prateek.github.io/githubawesome-transcripts/data/index.json) ·
+[Browse the catalogue](https://prateek.github.io/githubawesome-transcripts/) ·
+[Download the repositories](https://prateek.github.io/githubawesome-transcripts/data/repos.json) ·
 [RSS](https://prateek.github.io/githubawesome-transcripts/feed.xml)
 
 ## Operation
@@ -45,10 +46,19 @@ rotations to the GitHub secret through stdin. After rotation, run the workflow
 with `verify_model` enabled to test free inference with synthetic text. Never commit credentials or full
 extractor metadata containing signed caption URLs.
 
-GitHub stars, languages and weekly commit counts for linked repositories come
-from `data/github.json`, a committed snapshot. Refresh it with
+Descriptions, topics, licences, stars and weekly commit counts for featured
+repositories come from `data/github.json`. The **Refresh GitHub data** workflow
+rewrites it every Monday and adds that day's star counts under `data/stars/`,
+which is the only record of how a repository's stars changed after it was
+featured. Commit counts are fetched only for repositories featured in the last
+90 days, newest first, up to 700 requests a run so the run stays inside the
+Actions token's hourly limit. To refresh by hand, run
 `GITHUB_TOKEN=$(gh auth token) uv run python -m scripts.refresh_github_stats`
-and commit the result; CI does not refresh it. The reader works without it.
+and commit the result. The catalogue works without this data; a repository then
+takes its one-line pitch from the transcript.
+
+AI copy-editing takes the newest videos first. A video tried in the last day
+waits behind the rest, so one that keeps failing does not hold the front.
 
 Pages must use **GitHub Actions** as its build source. The workflow needs permission
 to write repository contents and deploy Pages. Pull-request checks have read-only

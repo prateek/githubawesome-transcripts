@@ -101,6 +101,7 @@ jobs:
           git add data
           if ! git diff --cached --quiet; then
             git commit -m 'Update transcript archive'
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
       - name: Build static archive

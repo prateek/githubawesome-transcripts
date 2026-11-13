@@ -14,7 +14,8 @@ YouTube's 11-character IDs.
 | `edits/VIDEO_ID.json` | Validated AI paragraphs with model, prompt version, source hash and usage |
 | `cleanup-attempts.json` | Last attempts, used to keep failed edits from starving the backlog |
 | `cleanup-budget.json` | UTC request accounting, including unsuccessful requests |
-| `github.json` | Snapshot of repository stars, forks, language, archive state and 52 weekly commit totals |
+| `github.json` | GitHub's description, topics, licence, stars and other facts for each featured repository |
+| `stars/DATE.json` | Star count of every repository on that day, keyed by GitHub repository id |
 
 Each video record has `schema_version`, `id`, `title`, `url`, `channel_id`,
 `published`, `duration`, `word_count`, `provenance`, `sections`, and `cues`.
@@ -43,18 +44,43 @@ comes from the watch page, using catalog duration when the blocked player omits 
 Full description URLs are restored from the watch page's link targets. Temporary
 redirect tokens and player URLs are excluded from stored metadata.
 
-`github.json` keys repositories by `owner/name`, without a `.git` suffix.
-Repositories GitHub could not resolve are absent, and `weeks` is `null` when
-GitHub returned no commit activity. When GitHub is still computing a
-repository's activity, the refresh keeps that repository's previous `weeks`.
-Counts are as of `fetched`.
+`github.json` keys repositories by the `owner/name` a video linked, without a
+`.git` suffix. `id` is GitHub's repository id and `name` its current
+`owner/name`, so two keys with one `id` are a renamed repository. A repository
+GitHub no longer returns keeps its last known values and gains `gone`, the date
+it was first missing. `weeks` holds 52 weekly commit totals for repositories
+featured in the last 90 days and is `null` otherwise or when GitHub returned no
+activity; when GitHub is still computing it, the previous `weeks` is kept. Counts
+are as of `fetched`. Each refresh also writes `stars/DATE.json`; these files are
+append-only history and are never rewritten for a past date.
+
+A section's `repositories` come from its timestamped description line. When no
+line carries one and the description links exactly one GitHub repository, as in
+a short or a video about a single repository, that link belongs to the first
+section.
 
 The static build copies source data and adds these derived endpoints:
 
+- `data/repos.json`: one row per repository in feed order (newest first feature
+  first), with its pitch, GitHub facts and feature counts, plus `aliases` from
+  former names to current ones. Empty fields are omitted.
+- `data/repos/OWNER/NAME.json`: one repository with every mention, newest first:
+  video, section, date, quote paragraphs, whether it is a recap and the star
+  count near that date when a snapshot exists.
 - `data/index.json`: titles, sections, coverage counts and pending videos.
-- `data/search.json`: one full-text search entry per section.
+- `data/search.json`: one full-text search entry per section, with `repo` when
+  the section mentions a repository.
 - `data/editions/VIDEO_ID.json` and `.md`: the current reading edition.
-- `feed.xml`: the 50 newest available transcripts; IDs remain stable across edits.
+- `feed.xml`: the 50 newest transcribed videos, each listing its repositories;
+  IDs remain stable across edits.
+
+A mention in a monthly video is a recap when the repository was mentioned in the
+62 days before it; recaps do not count as features. `again` is set when a
+feature falls more than 30 days after the first. `stars_then` and a mention's
+`stars` come from the first snapshot within 10 days after the date, and are
+absent when there is none. `pitch_source` says where the pitch came from:
+`short` (a short's title), `github` (the description), `quote` (a copy-edited
+transcript) or `captions` (unedited captions).
 
 A reading edition uses an AI edit only while its source/prompt hash matches the
 caption record. Otherwise it serves the caption edition. `edition` distinguishes

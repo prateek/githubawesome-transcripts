@@ -2,10 +2,17 @@ import html
 import math
 import re
 
-VERSION = "1"
+VERSION = "2"
 VIDEO_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
 CHAPTER_LINE = re.compile(r"^\s*((?:\d+:)?\d{1,2}:\d{2})\s*[-–—]?\s*(.+)$")
-REPO_URL = re.compile(r"https://github\.com/([\w.-]+/[\w.-]+)", re.IGNORECASE)
+REPO_URL = re.compile(r"https?://github\.com/([\w.-]+/[\w.-]+)", re.IGNORECASE)
+
+
+def repositories(text):
+    found = (
+        "https://github.com/" + m.rstrip("./").removesuffix(".git") for m in REPO_URL.findall(text)
+    )
+    return list(dict.fromkeys(found))
 
 
 def timestamp(seconds):
@@ -61,11 +68,7 @@ def description_chapters(description):
         seconds = 0
         for part in match[1].split(":"):
             seconds = seconds * 60 + int(part)
-        repos = list(
-            dict.fromkeys(
-                "https://github.com/" + m.rstrip("./") for m in REPO_URL.findall(match[2])
-            )
-        )
+        repos = repositories(match[2])
         title = re.sub(r"https?://\S+", "", match[2]).strip(" -–—")
         chapters.append(
             {
@@ -95,6 +98,11 @@ def make_sections(metadata, cues):
     if not chapters:
         chapters = [{"start": cues[0]["start"], "title": "Transcript", "repositories": []}]
     chapters.sort(key=lambda chapter: chapter["start"])
+    # A short or a single-repository video names its repository once, on a
+    # line of its own, so no chapter line carries it.
+    featured = repositories(metadata.get("description", ""))
+    if len(featured) == 1 and not any(c["repositories"] for c in chapters):
+        chapters[0] = {**chapters[0], "repositories": featured}
     if len({c["start"] for c in chapters}) != len(chapters):
         raise ValueError("Duplicate chapter timestamps")
     if cues[0]["start"] < chapters[0]["start"]:
