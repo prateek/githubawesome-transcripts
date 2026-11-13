@@ -17,6 +17,7 @@ from .transcript import VIDEO_ID
 RUNTIME = Path(__file__).resolve().parents[1] / "scripts/camofox/camofox-runtime.py"
 EXTRACT = Path(__file__).with_name("caption_panel.js").read_text()
 PAGE_STATE = Path(__file__).with_name("page_state.js").read_text()
+SHORT_LIMIT = 180
 
 
 def panel_summary(document):
@@ -34,7 +35,7 @@ def panel_summary(document):
     }
 
 
-def panel_captions(document, video_id, channel_id):
+def panel_captions(document, video_id, channel_id, short=False):
     metadata = document["metadata"]
     if metadata.get("id") != video_id or metadata.get("channel_id") != channel_id:
         raise ValueError("Video does not belong to the configured channel")
@@ -57,11 +58,14 @@ def panel_captions(document, video_id, channel_id):
     if not events:
         raise CaptionsUnavailable("Transcript panel did not load")
     duration = metadata.get("duration")
-    if (
-        not duration
-        or events[0]["tStartMs"] > 30_000
-        or not duration - 60 <= events[-1]["tStartMs"] / 1000 <= duration
-    ):
+    last = events[-1]["tStartMs"] / 1000
+    if duration:
+        complete = duration - 60 <= last <= duration
+    else:
+        # A blocked player omits the duration and discovery has none for shorts,
+        # so a short can only be bounded by the longest a short may run.
+        complete = short and last <= SHORT_LIMIT
+    if events[0]["tStartMs"] > 30_000 or not complete:
         raise ValueError("Transcript panel may be incomplete")
     captions = {
         "source_format": "youtube-transcript-panel-v1",
@@ -176,7 +180,9 @@ class BrowserCaptions:
                             )
                         except ValueError:
                             metadata["published"] = None
-                    return panel_captions(document, video_id, channel_id)
+                    return panel_captions(
+                        document, video_id, channel_id, short=entry.get("kind") == "short"
+                    )
                 previous = document
                 time.sleep(2)
             raise CaptionsUnavailable("Transcript panel did not load")

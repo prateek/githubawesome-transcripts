@@ -87,7 +87,7 @@ def test_rejected_panel_reports_page_state_and_screenshot(panel, tmp_path, monke
     monkeypatch.setattr(browser_captions.time, "sleep", lambda seconds: None)
     monkeypatch.setenv("ARCHIVE_DIAGNOSTICS", str(tmp_path))
     with pytest.raises(ValueError, match="may be incomplete") as raised:
-        browser.fetch({"id": "abcdefghijk", "kind": "short"}, "channel")
+        browser.fetch({"id": "abcdefghijk", "kind": "video"}, "channel")
     report = raised.value.diagnostics
     assert report["page"] == page
     assert report["catalog_duration"] is None
@@ -95,3 +95,16 @@ def test_rejected_panel_reports_page_state_and_screenshot(panel, tmp_path, monke
     assert report["panel"]["last_rows"] == ["0:00", "1:45"]
     assert (tmp_path / "abcdefghijk.png").read_bytes() == b"png"
     assert read_json(tmp_path / "abcdefghijk.json") == report
+
+
+def test_short_without_duration_is_accepted_within_the_shorts_limit(panel, tmp_path):
+    panel["metadata"]["duration"] = None
+    with pytest.raises(ValueError, match="may be incomplete"):
+        panel_captions(copy.deepcopy(panel), "abcdefghijk", "channel")
+    metadata, raw, language, kind = panel_captions(
+        copy.deepcopy(panel), "abcdefghijk", "channel", short=True
+    )
+    assert store_video(tmp_path, metadata, raw, language, kind, "2026-10-25")["duration"] is None
+    panel["segments"][-1]["timestamp"] = "3:01"
+    with pytest.raises(ValueError, match="may be incomplete"):
+        panel_captions(panel, "abcdefghijk", "channel", short=True)

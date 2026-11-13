@@ -36,9 +36,11 @@ YouTube generated the captions.
 Collection requires stable rows, matching video and channel identities, nondecreasing
 timestamps, a first row within 30 seconds, and a final row within 60 seconds of the
 video's end. These checks catch obvious truncation but cannot prove completeness;
-videos with long silent endings may be rejected. Browser metadata comes from the
-watch page, using catalog duration when the blocked player omits it. Full description
-URLs are restored from the watch page's link targets. Temporary
+videos with long silent endings may be rejected. A short whose duration is unknown,
+because the blocked player omits it, is accepted when its final row falls within
+the three-minute limit for shorts; its record then has no duration. Browser metadata
+comes from the watch page, using catalog duration when the blocked player omits it.
+Full description URLs are restored from the watch page's link targets. Temporary
 redirect tokens and player URLs are excluded from stored metadata.
 
 `github.json` keys repositories by `owner/name`, without a `.git` suffix.

@@ -23,6 +23,10 @@
     title: document.title,
     ready_state: document.readyState,
     has_initial_data: !!initial("ytInitialData"),
+    initial_data_scripts: Array.from(document.scripts)
+      .filter((s) => s.textContent.includes("ytInitialData"))
+      .map((s) => `${s.textContent.length}:${s.textContent.slice(0, 60)}`),
+    page_initial_data: typeof window.wrappedJSObject?.ytInitialData,
     has_player_response: !!player,
     playability_status: player?.playabilityStatus?.status || null,
     playability_reason: player?.playabilityStatus?.reason || null,
