@@ -1,0 +1,1528 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 57. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Hop is a Windows app that installs Linux right next to Windows with no USB stick needed built-in C. It checks your PC"
+    },
+    {
+      "timestamp": "0:18",
+      "text": "first, then makes a small installer partition on your own drive and copies the Linux ISO onto it using the ISO's"
+    },
+    {
+      "timestamp": "0:26",
+      "text": "own signed bootloadader. You restart once and you're in the Linux installer with a list of the choices you'll need to make. It downloads Ubuntu, Linux Mint"
+    },
+    {
+      "timestamp": "0:35",
+      "text": "from their official servers and checks each download."
+    },
+    {
+      "timestamp": "0:39",
+      "text": "Co-op anything gives AI coding agents a playbook for turning single player PC games into co-op games you can play with"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "friends. An MCP server reads a game's install folder to work out its engine and checks a shared directory of more"
+    },
+    {
+      "timestamp": "0:53",
+      "text": "than 230 co-op mods. Then the agent either finishes a mod someone already started or builds co-op from scratch."
+    },
+    {
+      "timestamp": "1:02",
+      "text": "Nectar Link connects your Android phone to your Windows PC so you can stop picking up your phone every time a notification arrives. Reply to messages,"
+    },
+    {
+      "timestamp": "1:11",
+      "text": "move files, share your clipboard, or open phone apps in their own windows on your computer. The devices connect"
+    },
+    {
+      "timestamp": "1:18",
+      "text": "directly over your network or USB with no account required. Some features need wireless debugging set up on your phone"
+    },
+    {
+      "timestamp": "1:25",
+      "text": "first. Omnidiff is a code diffing tool written in Rust that understands the structure of your code, not just its"
+    },
+    {
+      "timestamp": "1:33",
+      "text": "lines. It parses each file with tree sitter, so it can show that you renamed a function or moved a block instead of a"
+    },
+    {
+      "timestamp": "1:41",
+      "text": "wall of red and green lines. It handles 24 languages and falls back to a normal line diff for anything else. You can"
+    },
+    {
+      "timestamp": "1:49",
+      "text": "browse changes in an interactive terminal view, print plain output for scripts, or get JSON for your editor."
+    },
+    {
+      "timestamp": "1:56",
+      "text": "T3 Code is Theo's open-source control panel for the AI coding agents running on your own machine. Sign into the"
+    },
+    {
+      "timestamp": "2:04",
+      "text": "agents you already use, like Codeex, Claude Code, and run one command to start a local server. Then you manage"
+    },
+    {
+      "timestamp": "2:11",
+      "text": "all of them from one place, whether that's the web app, a desktop app, or the iOS and Android apps. It handles"
+    },
+    {
+      "timestamp": "2:18",
+      "text": "permission modes, multiple accounts, and source control, and it can run in the background."
+    },
+    {
+      "timestamp": "2:24",
+      "text": "DSH Super Agent is a prototype of a proactive coding agent for a single GitHub repository built for Deep Seek"
+    },
+    {
+      "timestamp": "2:31",
+      "text": "Caress. When someone on your team asks for work on GitHub or on FishU if you connect it, it opens a work item and"
+    },
+    {
+      "timestamp": "2:38",
+      "text": "handles it in its own agent session and folder. Then it replies right where you asked, often with a pull request. It"
+    },
+    {
+      "timestamp": "2:45",
+      "text": "only acts when asked or when a team rule allows it."
+    },
+    {
+      "timestamp": "2:50",
+      "text": "Stack diagram is an agent skill for clawed codecs and cursor that turns a one-s sentence description of your text stack into a clean architecture diagram."
+    },
+    {
+      "timestamp": "3:00",
+      "text": "Say something like next.js on Versel talking to Postgress and Stripe and the agent builds the diagram, renders it and checks it over before handing it back."
+    },
+    {
+      "timestamp": "3:10",
+      "text": "It pulls each tool's official logo at build time and never redraws or recolors it."
+    },
+    {
+      "timestamp": "3:16",
+      "text": "This repo holds Benji Taylor's design skills for coding agents, starting with stage show, which builds realistic product UI mockups in React. Ask for a"
+    },
+    {
+      "timestamp": "3:25",
+      "text": "still shot, a feature card, a cursor demo, or a bento grid, and the agent composes it using stage shows guidance"
+    },
+    {
+      "timestamp": "3:33",
+      "text": "on layout and motion. It comes with a starter kit and worked examples. Then it records what it built so the agent can watch its own mockup and fix what looks off."
+    },
+    {
+      "timestamp": "3:43",
+      "text": "Rejit in the Blaze repository makes rebuilding a Rust project after an edit take milliseconds instead of seconds. A"
+    },
+    {
+      "timestamp": "3:52",
+      "text": "background process keeps your whole project analyzed and compiled in memory using Rust Analyzer and the Cranalifty"
+    },
+    {
+      "timestamp": "3:59",
+      "text": "code generator. When you change a function, only that function gets recompiled and it's patched straight into the program that's already built with no full relink."
+    },
+    {
+      "timestamp": "4:09",
+      "text": "Has prepper disk turns a Raspberry Pi into an offline library you can reach from your phone or laptop. It uses Internet in a Box and Kwix to serve"
+    },
+    {
+      "timestamp": "4:18",
+      "text": "downloaded Wikipedia articles, maps, and repair guides over the Pi's own Wi-Fi hotspot. Once the content is downloaded,"
+    },
+    {
+      "timestamp": "4:26",
+      "text": "you can browse it without an internet connection. You'll need a Raspberry Pi 5 and an SSD with room for the archive."
+    },
+    {
+      "timestamp": "4:34",
+      "text": "Who are you is a privacy selfch check that shows what a website can figure out about you just from your visit. Running on Cloudflare workers."
+    },
+    {
+      "timestamp": "4:43",
+      "text": "Open the page and scripts in your browser read your settings and fingerprints without asking for any permission. It writes a little portrait"
+    },
+    {
+      "timestamp": "4:51",
+      "text": "of you with your likely location, device, and browser. Then it grades 12 checks from A to F, flagging leaks like"
+    },
+    {
+      "timestamp": "5:00",
+      "text": "a time zone that doesn't match your IP with tips to fix each one. Duesk connects your computers and Android devices so they feel like one workspace."
+    },
+    {
+      "timestamp": "5:10",
+      "text": "Move your mouse between a Mac and a Windows PC, copy text across devices, or use a tablet as a second screen. It can"
+    },
+    {
+      "timestamp": "5:18",
+      "text": "also bring your phone's calls, messages, and camera to your computer. devices connect directly without a cloud account and you choose which features to turn on."
+    },
+    {
+      "timestamp": "5:28",
+      "text": "Uncut is a tiny headless coding agent written in Go and shipped as one static binary with no dependencies made for shell pipelines, CI jobs and containers."
+    },
+    {
+      "timestamp": "5:38",
+      "text": "It works with any OpenAI compatible endpoint, local models through Olama included. There's no interface, no telemetry, and no plugins. Just one"
+    },
+    {
+      "timestamp": "5:47",
+      "text": "agent loop with four tools. read a file, write a file, replace text, and run a command."
+    },
+    {
+      "timestamp": "5:53",
+      "text": "Goddraw is a native whiteboard app written in Go by Egoist, built in the style of TLRAW and able to open and save"
+    },
+    {
+      "timestamp": "6:00",
+      "text": "the same TLDDR files. There's no web view and no JavaScript, just a native interface built on his MYO framework."
+    },
+    {
+      "timestamp": "6:07",
+      "text": "You get shapes, arrows, frames, and a highlighter with grouping, alignment, and full undo. Boards can have several pages, save automatically, and export to PNG or SVG."
+    },
+    {
+      "timestamp": "6:19",
+      "text": "Initialist generates ornate drop caps that look like they belong at the start of an old manuscript."
+    },
+    {
+      "timestamp": "6:25",
+      "text": "Drag around to explore designs, pick a letter you like, and it fills the screen with variations. You can bookmark your"
+    },
+    {
+      "timestamp": "6:32",
+      "text": "favorites, preview one on a printed page, or download it as an image or animation. Each design is drawn in your"
+    },
+    {
+      "timestamp": "6:40",
+      "text": "browser and there's a library for adding one to your own website."
+    },
+    {
+      "timestamp": "6:44",
+      "text": "Open 3D skills gives your coding agent a set of playbooks for building animated websites. It covers everything from 3JS"
+    },
+    {
+      "timestamp": "6:52",
+      "text": "scenes and scroll driven films to interactive diagrams that pull machines apart. The package also helps the agent check layouts in real browsers and record the finished page as a video."
+    },
+    {
+      "timestamp": "7:04",
+      "text": "Some effects need an external image or video generation service. The codebuilt 3D scenes don't."
+    },
+    {
+      "timestamp": "7:11",
+      "text": "Shim is a small terminal based AI agent that connects your models, MCP tools, and agent skills in one place. You can"
+    },
+    {
+      "timestamp": "7:18",
+      "text": "use a hosted provider or a local model, then ask it to work on your code or manage its setup in plain language. It asks before editing files or running"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "commands by default. The app itself is one binary, but you'll need to connect a model separately."
+    },
+    {
+      "timestamp": "7:34",
+      "text": "Neorex lets Neovim live inside the Rex terminal as real Rex PES written in Zigg. One Neoim runs quietly in the"
+    },
+    {
+      "timestamp": "7:41",
+      "text": "background and powers every pane you open. So your buffers, registers, undo history and language servers are all shared. When you split a window in"
+    },
+    {
+      "timestamp": "7:50",
+      "text": "Neovim, it opens as a proper Rex pane and closing that pane closes the window."
+    },
+    {
+      "timestamp": "7:56",
+      "text": "Teachable figures is an agent skill for Claude Code and Codeex that builds interactive figures for teaching where students learn by doing instead of just"
+    },
+    {
+      "timestamp": "8:05",
+      "text": "looking. Each lesson asks the learner to predict what will happen, change a cause, watch the effect, then explain a"
+    },
+    {
+      "timestamp": "8:12",
+      "text": "brand new case. The agent starts by writing down the idea, the common misconception, and the real behavior."
+    },
+    {
+      "timestamp": "8:19",
+      "text": "Then picks a style from simple SVG to full 3D."
+    },
+    {
+      "timestamp": "8:24",
+      "text": "Loose Leaf is Shaden UI drawn by hand, a React component library where every button, card, and input looks sketched"
+    },
+    {
+      "timestamp": "8:31",
+      "text": "on paper. It installs through the Shaden command line. So the components get copied straight into your project as code you own. There are 123 components,"
+    },
+    {
+      "timestamp": "8:40",
+      "text": "61 ready-made blocks, plus handdrawn icons, doodles, stickers, and its own handwritten font."
+    },
+    {
+      "timestamp": "8:47",
+      "text": "Gitcoy turns your GitHub activity into a pixel art koiish that swims across your profile page. built in Rust. Every"
+    },
+    {
+      "timestamp": "8:55",
+      "text": "night, a GitHub action draws a fresh looping GIF for your profile readme. The fish's colors come from the languages you code in, and it grows bigger as your"
+    },
+    {
+      "timestamp": "9:04",
+      "text": "contributions add up. Your streaks show up as markings on its body, and yesterday's activity decides how lively"
+    },
+    {
+      "timestamp": "9:12",
+      "text": "it swims. Ghost brings API testing into your terminal with keyboard shortcuts for sending requests and saving them into collections."
+    },
+    {
+      "timestamp": "9:22",
+      "text": "responses show up with formatted JSON, status codes, and timing details while your saved requests stay in local files."
+    },
+    {
+      "timestamp": "9:30",
+      "text": "It also has a built-in web hook listener so you can catch a call back and inspect its headers and payload without leaving the terminal."
+    },
+    {
+      "timestamp": "9:38",
+      "text": "FM1 sampler turns an MVA FM1, a small music controller, into a sampler and eighttrack looper powered by your"
+    },
+    {
+      "timestamp": "9:46",
+      "text": "Android phone. The FM1 gives you the keys, knobs, and its little screen while the phone does all the sound processing with audio code written from scratch."
+    },
+    {
+      "timestamp": "9:56",
+      "text": "Record from the mic, import a file, or pick from the built-in library, then play it as melodic notes, chopped up slices, or granular textures."
+    },
+    {
+      "timestamp": "10:05",
+      "text": "LSM compiles lean for programs ahead of time into web assembly, bringing a language built for mathematical proofs to the JavaScript world. Write your code"
+    },
+    {
+      "timestamp": "10:14",
+      "text": "in lean. Run one build command and you get a web assembly file plus a small JavaScript launcher. The same code can"
+    },
+    {
+      "timestamp": "10:22",
+      "text": "run as a node server, a serverless function on AWS Lambda or Cloudflare workers or an app in the browser."
+    },
+    {
+      "timestamp": "10:29",
+      "text": "Any scene builds photorealistic Blender scenes from a single paragraph with AI agents doing every step. The agent"
+    },
+    {
+      "timestamp": "10:37",
+      "text": "starts by generating reference images, then turns each prop into a 3D model through two different services and keeps whichever came out better. It scripts"
+    },
+    {
+      "timestamp": "10:46",
+      "text": "the room layout, sets up the lighting, and adds wear and grime so nothing looks too clean."
+    },
+    {
+      "timestamp": "10:52",
+      "text": "Boot GPT is a tiny language model that fits in a computer's 512 boot sector and runs before any operating system loads."
+    },
+    {
+      "timestamp": "11:01",
+      "text": "The boot code is handwritten assembly running in 16- bit real mode, the way a 1980s PC starts up. It loads the model's"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "weights from the disk sectors right after it, then does every calculation with plain integer math."
+    },
+    {
+      "timestamp": "11:15",
+      "text": "The model was trained in Python on fake Linux startup logs."
+    },
+    {
+      "timestamp": "11:20",
+      "text": "Arkin O is a library for passwordless sign-in on web servers with a Rust cryptography core that plugs into"
+    },
+    {
+      "timestamp": "11:27",
+      "text": "Express and Fast API. Instead of a password, each user has a private key and a public identity called a DID. When"
+    },
+    {
+      "timestamp": "11:35",
+      "text": "someone asks for a protected page, the server sends a one-time challenge. The user's app signs it with their key and sends it back, and the server checks that the signature matches the identity."
+    },
+    {
+      "timestamp": "11:47",
+      "text": "The Copar LTE modem is an open hardware circuit board that gives your computer its own phone line through a single USBC"
+    },
+    {
+      "timestamp": "11:54",
+      "text": "cable. It's built around a Quctel LTE module, so your computer gets mobile data, text messages, and real voice"
+    },
+    {
+      "timestamp": "12:01",
+      "text": "calls. A small RP2040 chip on the board shows up as a USB sound card, so call audio goes through like an ordinary microphone and speaker."
+    },
+    {
+      "timestamp": "12:11",
+      "text": "Claude animation skills helps you create short animated videos without filming anything. Each skill makes a different"
+    },
+    {
+      "timestamp": "12:18",
+      "text": "style. a 3D cartoon whatif explainer, a stick figure explainer, minimal black and white line art, a 3D route on a map,"
+    },
+    {
+      "timestamp": "12:26",
+      "text": "an exploded view of an object, and an animated line graph. Under the hood, they use 3JS and Gap with a local voice"
+    },
+    {
+      "timestamp": "12:34",
+      "text": "model reading the script and timing the animation to match."
+    },
+    {
+      "timestamp": "12:38",
+      "text": "Droid is an open-source AI assistant that runs on your Android phone built on Deep Seek harness with a Cotlin"
+    },
+    {
+      "timestamp": "12:45",
+      "text": "interface. Give it a task and an agent plans the steps, reads what's on screen, taps, swipes, and types its way through your apps, then checks that it worked."
+    },
+    {
+      "timestamp": "12:55",
+      "text": "It hands the phone back to you whenever a signin or verification code comes up, and you can stop it anytime."
+    },
+    {
+      "timestamp": "13:02",
+      "text": "Pywolf 3D is a remake of the classic Wolfenstein 3D, written from scratch in Python with Pygame, and the author wrote"
+    },
+    {
+      "timestamp": "13:10",
+      "text": "every line by hand with no AI help. It draws its fake 3D world the way the 1992 original did with a raycaster that casts"
+    },
+    {
+      "timestamp": "13:19",
+      "text": "one ray per column of the screen to find how far away each wall is. Sprites are scaled to look right at a distance and"
+    },
+    {
+      "timestamp": "13:26",
+      "text": "the music plays through an emulation of the old OPPL sound chip generated live."
+    },
+    {
+      "timestamp": "13:32",
+      "text": "Nanolite is a spotlight style launcher for Mac OS written in Zigg with no Electron and the whole app is about 1"
+    },
+    {
+      "timestamp": "13:39",
+      "text": "megabyte. Press a hotkey and start typing. It finds your apps even from initials or a typo. And the ones you"
+    },
+    {
+      "timestamp": "13:46",
+      "text": "open most rise to the top. It also does quick math, shows Google suggestions and opens results right inside its panel."
+    },
+    {
+      "timestamp": "13:54",
+      "text": "You can jump straight to a result with command and a number."
+    },
+    {
+      "timestamp": "13:58",
+      "text": "Verdict is a tiny classifier that reads what happened when an AI agent ran a command and decides whether it actually worked. It looks at the command, the"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "exit code, and the output. Then labels the run as success, failure, blocked, or unknown. That matters because a command"
+    },
+    {
+      "timestamp": "14:15",
+      "text": "can exit cleanly and still fail to do its job. The whole model weighs about 200 kilob, answering in about half a"
+    },
+    {
+      "timestamp": "14:23",
+      "text": "millisecond with no network calls. AI design- check is a set of 74 design rules, plus a checker for interfaces"
+    },
+    {
+      "timestamp": "14:31",
+      "text": "built by AI coding agents. Run it on your React view, spelt, or HTML files, and it points to the exact line where"
+    },
+    {
+      "timestamp": "14:39",
+      "text": "something breaks a rule, like a font size off your scale, an icon button with no label, or an emoji used as an icon."
+    },
+    {
+      "timestamp": "14:46",
+      "text": "Other commands count duplicate button and card styles, and test your layout at phone width."
+    },
+    {
+      "timestamp": "14:52",
+      "text": "SCA is a control plane for running a swarm of local AI agents safely, written in Go as one static binary with no Damon"
+    },
+    {
+      "timestamp": "14:59",
+      "text": "and no database. You describe tasks in JSON with which ones depend on which, how many can run at once, and how long"
+    },
+    {
+      "timestamp": "15:06",
+      "text": "each one gets. Commands run directly, never through a hidden shell. Every batch of work belongs to an epoch."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 57. 35 trending open- source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hop is a Windows app that installs Linux right next to Windows with no USB stick needed built-in C. It checks your PC"
+        }
+      ]
+    },
+    {
+      "tStartMs": 18000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "first, then makes a small installer partition on your own drive and copies the Linux ISO onto it using the ISO's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 26000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own signed bootloadader. You restart once and you're in the Linux installer with a list of the choices you'll need to make. It downloads Ubuntu, Linux Mint"
+        }
+      ]
+    },
+    {
+      "tStartMs": 35000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from their official servers and checks each download."
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Co-op anything gives AI coding agents a playbook for turning single player PC games into co-op games you can play with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "friends. An MCP server reads a game's install folder to work out its engine and checks a shared directory of more"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "than 230 co-op mods. Then the agent either finishes a mod someone already started or builds co-op from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nectar Link connects your Android phone to your Windows PC so you can stop picking up your phone every time a notification arrives. Reply to messages,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 71000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "move files, share your clipboard, or open phone apps in their own windows on your computer. The devices connect"
+        }
+      ]
+    },
+    {
+      "tStartMs": 78000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "directly over your network or USB with no account required. Some features need wireless debugging set up on your phone"
+        }
+      ]
+    },
+    {
+      "tStartMs": 85000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "first. Omnidiff is a code diffing tool written in Rust that understands the structure of your code, not just its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "lines. It parses each file with tree sitter, so it can show that you renamed a function or moved a block instead of a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "wall of red and green lines. It handles 24 languages and falls back to a normal line diff for anything else. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 109000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browse changes in an interactive terminal view, print plain output for scripts, or get JSON for your editor."
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "T3 Code is Theo's open-source control panel for the AI coding agents running on your own machine. Sign into the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agents you already use, like Codeex, Claude Code, and run one command to start a local server. Then you manage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 131000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "all of them from one place, whether that's the web app, a desktop app, or the iOS and Android apps. It handles"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "permission modes, multiple accounts, and source control, and it can run in the background."
+        }
+      ]
+    },
+    {
+      "tStartMs": 144000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "DSH Super Agent is a prototype of a proactive coding agent for a single GitHub repository built for Deep Seek"
+        }
+      ]
+    },
+    {
+      "tStartMs": 151000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caress. When someone on your team asks for work on GitHub or on FishU if you connect it, it opens a work item and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 158000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "handles it in its own agent session and folder. Then it replies right where you asked, often with a pull request. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 165000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "only acts when asked or when a team rule allows it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 170000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stack diagram is an agent skill for clawed codecs and cursor that turns a one-s sentence description of your text stack into a clean architecture diagram."
+        }
+      ]
+    },
+    {
+      "tStartMs": 180000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Say something like next.js on Versel talking to Postgress and Stripe and the agent builds the diagram, renders it and checks it over before handing it back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 190000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It pulls each tool's official logo at build time and never redraws or recolors it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 196000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "This repo holds Benji Taylor's design skills for coding agents, starting with stage show, which builds realistic product UI mockups in React. Ask for a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "still shot, a feature card, a cursor demo, or a bento grid, and the agent composes it using stage shows guidance"
+        }
+      ]
+    },
+    {
+      "tStartMs": 213000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on layout and motion. It comes with a starter kit and worked examples. Then it records what it built so the agent can watch its own mockup and fix what looks off."
+        }
+      ]
+    },
+    {
+      "tStartMs": 223000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rejit in the Blaze repository makes rebuilding a Rust project after an edit take milliseconds instead of seconds. A"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "background process keeps your whole project analyzed and compiled in memory using Rust Analyzer and the Cranalifty"
+        }
+      ]
+    },
+    {
+      "tStartMs": 239000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code generator. When you change a function, only that function gets recompiled and it's patched straight into the program that's already built with no full relink."
+        }
+      ]
+    },
+    {
+      "tStartMs": 249000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Has prepper disk turns a Raspberry Pi into an offline library you can reach from your phone or laptop. It uses Internet in a Box and Kwix to serve"
+        }
+      ]
+    },
+    {
+      "tStartMs": 258000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "downloaded Wikipedia articles, maps, and repair guides over the Pi's own Wi-Fi hotspot. Once the content is downloaded,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you can browse it without an internet connection. You'll need a Raspberry Pi 5 and an SSD with room for the archive."
+        }
+      ]
+    },
+    {
+      "tStartMs": 274000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Who are you is a privacy selfch check that shows what a website can figure out about you just from your visit. Running on Cloudflare workers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 283000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open the page and scripts in your browser read your settings and fingerprints without asking for any permission. It writes a little portrait"
+        }
+      ]
+    },
+    {
+      "tStartMs": 291000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of you with your likely location, device, and browser. Then it grades 12 checks from A to F, flagging leaks like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 300000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a time zone that doesn't match your IP with tips to fix each one. Duesk connects your computers and Android devices so they feel like one workspace."
+        }
+      ]
+    },
+    {
+      "tStartMs": 310000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Move your mouse between a Mac and a Windows PC, copy text across devices, or use a tablet as a second screen. It can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "also bring your phone's calls, messages, and camera to your computer. devices connect directly without a cloud account and you choose which features to turn on."
+        }
+      ]
+    },
+    {
+      "tStartMs": 328000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Uncut is a tiny headless coding agent written in Go and shipped as one static binary with no dependencies made for shell pipelines, CI jobs and containers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 338000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It works with any OpenAI compatible endpoint, local models through Olama included. There's no interface, no telemetry, and no plugins. Just one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 347000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent loop with four tools. read a file, write a file, replace text, and run a command."
+        }
+      ]
+    },
+    {
+      "tStartMs": 353000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Goddraw is a native whiteboard app written in Go by Egoist, built in the style of TLRAW and able to open and save"
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the same TLDDR files. There's no web view and no JavaScript, just a native interface built on his MYO framework."
+        }
+      ]
+    },
+    {
+      "tStartMs": 367000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You get shapes, arrows, frames, and a highlighter with grouping, alignment, and full undo. Boards can have several pages, save automatically, and export to PNG or SVG."
+        }
+      ]
+    },
+    {
+      "tStartMs": 379000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Initialist generates ornate drop caps that look like they belong at the start of an old manuscript."
+        }
+      ]
+    },
+    {
+      "tStartMs": 385000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Drag around to explore designs, pick a letter you like, and it fills the screen with variations. You can bookmark your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 392000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "favorites, preview one on a printed page, or download it as an image or animation. Each design is drawn in your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser and there's a library for adding one to your own website."
+        }
+      ]
+    },
+    {
+      "tStartMs": 404000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open 3D skills gives your coding agent a set of playbooks for building animated websites. It covers everything from 3JS"
+        }
+      ]
+    },
+    {
+      "tStartMs": 412000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scenes and scroll driven films to interactive diagrams that pull machines apart. The package also helps the agent check layouts in real browsers and record the finished page as a video."
+        }
+      ]
+    },
+    {
+      "tStartMs": 424000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Some effects need an external image or video generation service. The codebuilt 3D scenes don't."
+        }
+      ]
+    },
+    {
+      "tStartMs": 431000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shim is a small terminal based AI agent that connects your models, MCP tools, and agent skills in one place. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "use a hosted provider or a local model, then ask it to work on your code or manage its setup in plain language. It asks before editing files or running"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "commands by default. The app itself is one binary, but you'll need to connect a model separately."
+        }
+      ]
+    },
+    {
+      "tStartMs": 454000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neorex lets Neovim live inside the Rex terminal as real Rex PES written in Zigg. One Neoim runs quietly in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 461000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "background and powers every pane you open. So your buffers, registers, undo history and language servers are all shared. When you split a window in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 470000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Neovim, it opens as a proper Rex pane and closing that pane closes the window."
+        }
+      ]
+    },
+    {
+      "tStartMs": 476000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Teachable figures is an agent skill for Claude Code and Codeex that builds interactive figures for teaching where students learn by doing instead of just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 485000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "looking. Each lesson asks the learner to predict what will happen, change a cause, watch the effect, then explain a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 492000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "brand new case. The agent starts by writing down the idea, the common misconception, and the real behavior."
+        }
+      ]
+    },
+    {
+      "tStartMs": 499000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then picks a style from simple SVG to full 3D."
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Loose Leaf is Shaden UI drawn by hand, a React component library where every button, card, and input looks sketched"
+        }
+      ]
+    },
+    {
+      "tStartMs": 511000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "on paper. It installs through the Shaden command line. So the components get copied straight into your project as code you own. There are 123 components,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 520000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "61 ready-made blocks, plus handdrawn icons, doodles, stickers, and its own handwritten font."
+        }
+      ]
+    },
+    {
+      "tStartMs": 527000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Gitcoy turns your GitHub activity into a pixel art koiish that swims across your profile page. built in Rust. Every"
+        }
+      ]
+    },
+    {
+      "tStartMs": 535000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "night, a GitHub action draws a fresh looping GIF for your profile readme. The fish's colors come from the languages you code in, and it grows bigger as your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 544000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "contributions add up. Your streaks show up as markings on its body, and yesterday's activity decides how lively"
+        }
+      ]
+    },
+    {
+      "tStartMs": 552000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it swims. Ghost brings API testing into your terminal with keyboard shortcuts for sending requests and saving them into collections."
+        }
+      ]
+    },
+    {
+      "tStartMs": 562000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "responses show up with formatted JSON, status codes, and timing details while your saved requests stay in local files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 570000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It also has a built-in web hook listener so you can catch a call back and inspect its headers and payload without leaving the terminal."
+        }
+      ]
+    },
+    {
+      "tStartMs": 578000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "FM1 sampler turns an MVA FM1, a small music controller, into a sampler and eighttrack looper powered by your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 586000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Android phone. The FM1 gives you the keys, knobs, and its little screen while the phone does all the sound processing with audio code written from scratch."
+        }
+      ]
+    },
+    {
+      "tStartMs": 596000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Record from the mic, import a file, or pick from the built-in library, then play it as melodic notes, chopped up slices, or granular textures."
+        }
+      ]
+    },
+    {
+      "tStartMs": 605000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "LSM compiles lean for programs ahead of time into web assembly, bringing a language built for mathematical proofs to the JavaScript world. Write your code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 614000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in lean. Run one build command and you get a web assembly file plus a small JavaScript launcher. The same code can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 622000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "run as a node server, a serverless function on AWS Lambda or Cloudflare workers or an app in the browser."
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Any scene builds photorealistic Blender scenes from a single paragraph with AI agents doing every step. The agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 637000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "starts by generating reference images, then turns each prop into a 3D model through two different services and keeps whichever came out better. It scripts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the room layout, sets up the lighting, and adds wear and grime so nothing looks too clean."
+        }
+      ]
+    },
+    {
+      "tStartMs": 652000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Boot GPT is a tiny language model that fits in a computer's 512 boot sector and runs before any operating system loads."
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The boot code is handwritten assembly running in 16- bit real mode, the way a 1980s PC starts up. It loads the model's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "weights from the disk sectors right after it, then does every calculation with plain integer math."
+        }
+      ]
+    },
+    {
+      "tStartMs": 675000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The model was trained in Python on fake Linux startup logs."
+        }
+      ]
+    },
+    {
+      "tStartMs": 680000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Arkin O is a library for passwordless sign-in on web servers with a Rust cryptography core that plugs into"
+        }
+      ]
+    },
+    {
+      "tStartMs": 687000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Express and Fast API. Instead of a password, each user has a private key and a public identity called a DID. When"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "someone asks for a protected page, the server sends a one-time challenge. The user's app signs it with their key and sends it back, and the server checks that the signature matches the identity."
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The Copar LTE modem is an open hardware circuit board that gives your computer its own phone line through a single USBC"
+        }
+      ]
+    },
+    {
+      "tStartMs": 714000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cable. It's built around a Quctel LTE module, so your computer gets mobile data, text messages, and real voice"
+        }
+      ]
+    },
+    {
+      "tStartMs": 721000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "calls. A small RP2040 chip on the board shows up as a USB sound card, so call audio goes through like an ordinary microphone and speaker."
+        }
+      ]
+    },
+    {
+      "tStartMs": 731000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Claude animation skills helps you create short animated videos without filming anything. Each skill makes a different"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "style. a 3D cartoon whatif explainer, a stick figure explainer, minimal black and white line art, a 3D route on a map,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 746000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "an exploded view of an object, and an animated line graph. Under the hood, they use 3JS and Gap with a local voice"
+        }
+      ]
+    },
+    {
+      "tStartMs": 754000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model reading the script and timing the animation to match."
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Droid is an open-source AI assistant that runs on your Android phone built on Deep Seek harness with a Cotlin"
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "interface. Give it a task and an agent plans the steps, reads what's on screen, taps, swipes, and types its way through your apps, then checks that it worked."
+        }
+      ]
+    },
+    {
+      "tStartMs": 775000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It hands the phone back to you whenever a signin or verification code comes up, and you can stop it anytime."
+        }
+      ]
+    },
+    {
+      "tStartMs": 782000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pywolf 3D is a remake of the classic Wolfenstein 3D, written from scratch in Python with Pygame, and the author wrote"
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "every line by hand with no AI help. It draws its fake 3D world the way the 1992 original did with a raycaster that casts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one ray per column of the screen to find how far away each wall is. Sprites are scaled to look right at a distance and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 806000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the music plays through an emulation of the old OPPL sound chip generated live."
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Nanolite is a spotlight style launcher for Mac OS written in Zigg with no Electron and the whole app is about 1"
+        }
+      ]
+    },
+    {
+      "tStartMs": 819000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "megabyte. Press a hotkey and start typing. It finds your apps even from initials or a typo. And the ones you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "open most rise to the top. It also does quick math, shows Google suggestions and opens results right inside its panel."
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can jump straight to a result with command and a number."
+        }
+      ]
+    },
+    {
+      "tStartMs": 838000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Verdict is a tiny classifier that reads what happened when an AI agent ran a command and decides whether it actually worked. It looks at the command, the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "exit code, and the output. Then labels the run as success, failure, blocked, or unknown. That matters because a command"
+        }
+      ]
+    },
+    {
+      "tStartMs": 855000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can exit cleanly and still fail to do its job. The whole model weighs about 200 kilob, answering in about half a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 863000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "millisecond with no network calls. AI design- check is a set of 74 design rules, plus a checker for interfaces"
+        }
+      ]
+    },
+    {
+      "tStartMs": 871000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "built by AI coding agents. Run it on your React view, spelt, or HTML files, and it points to the exact line where"
+        }
+      ]
+    },
+    {
+      "tStartMs": 879000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "something breaks a rule, like a font size off your scale, an icon button with no label, or an emoji used as an icon."
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Other commands count duplicate button and card styles, and test your layout at phone width."
+        }
+      ]
+    },
+    {
+      "tStartMs": 892000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "SCA is a control plane for running a swarm of local AI agents safely, written in Go as one static binary with no Damon"
+        }
+      ]
+    },
+    {
+      "tStartMs": 899000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and no database. You describe tasks in JSON with which ones depend on which, how many can run at once, and how long"
+        }
+      ]
+    },
+    {
+      "tStartMs": 906000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "each one gets. Commands run directly, never through a hidden shell. Every batch of work belongs to an epoch."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "id": "S8g5nwZN9as",
+  "title": "GitHub Trending Weekly #56: Kero, ub-mode, dossier, OXR, Strata, motty, floorplan, OpenDuet, bygga",
+  "url": "https://www.youtube.com/watch?v=S8g5nwZN9as",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-10-30",
+  "duration": 911,
+  "word_count": 2458,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:03:43+00:00",
+    "metadata_sha256": "41ed99535d543abb25b5eb50f1c352e2118bd8677a3b743786ff14dc80d65ea3",
+    "captions_sha256": "f3fad5433b110b8083843fdd6cdf63d1c5f2ef3200e73890e3234a81b259e88a",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 56. 35 trending open- source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "Kero",
+      "repositories": [
+        "https://github.com/egoist/kero"
+      ],
+      "id": "s002",
+      "end": 36,
+      "paragraphs": [
+        "Caro gives your coding agents a terminal that remembers where you left them. Claude Code, Codeex, your dev server. Each gets its own session grouped by project. The sidebar shows which ones need your attention, and closing the window doesn't kill their work. You can even bring sessions from a remote machine into the same view. That's handy when your laptop isn't the one doing the heavy lifting. UB mode is Uncle Bob's agent skill for writing"
+      ]
+    },
+    {
+      "start": 36,
+      "title": "ub-mode",
+      "repositories": [
+        "https://github.com/unclebob/ub-mode"
+      ],
+      "id": "s003",
+      "end": 65,
+      "paragraphs": [
+        "clean code built from a trimmed set of potatoes rules and paired with real measuring tools. It pushes your coding agent toward test-driven development and tests that check behavior, not implementation details. Each change has to pass hard limits. a complexity score under 10 and a duplication score under 0.8. Mutation testing then breaks the code on purpose to make sure the tests notice."
+      ]
+    },
+    {
+      "start": 65,
+      "title": "dossier",
+      "repositories": [
+        "https://github.com/AienTech/dossier"
+      ],
+      "id": "s004",
+      "end": 93,
+      "paragraphs": [
+        "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from a single career profile. Paste in a job posting or search job boards and the AI pulls out the requirements and shows how well you match. Then it drafts your documents using only facts from your profile which you can refine in a chat and export as PDFs. It runs on a local model or a hosted API and your data lives in your own database."
+      ]
+    },
+    {
+      "start": 93,
+      "title": "OXR",
+      "repositories": [
+        "https://github.com/SoMarkAI/OXR"
+      ],
+      "id": "s005",
+      "end": 120,
+      "paragraphs": [
+        "OXR is a document parsing model from Somark that turns PDFs and scan pages into markdown or JSON, keeping the layout coordinates for every block. It has 1.3 billion parameters and was trained from scratch. A separate layout model finds the blocks. Then OXR reads their content and puts them in order. It recognizes 13 kinds of elements from tables and formulas to chemical structures and code."
+      ]
+    },
+    {
+      "start": 120,
+      "title": "Strata",
+      "repositories": [
+        "https://github.com/Niko1221/Strata"
+      ],
+      "id": "s006",
+      "end": 146,
+      "paragraphs": [
+        "Strata runs AI models on your own computer without making you piece together and set up yourself. Pick a model in the desktop app or launch one from the terminal and Strata helps get it running on your hardware. It works with supported Nvidia and AMD cards, Apple Silicon, and Intel Arc on Linux. You can also connect its local models to Claude Code, Codeex CLI, and other coding tools."
+      ]
+    },
+    {
+      "start": 146,
+      "title": "print-my-profile-pic",
+      "repositories": [
+        "https://github.com/aschmelyun/print-my-profile-pic"
+      ],
+      "id": "s007",
+      "end": 173,
+      "paragraphs": [
+        "Print my profile pick is a playful hardware project from Andrew Schmemellion. Star the repo and your GitHub profile picture gets printed on a receipt printer. A star sends a web hook through a Cloudflare tunnel to a small PHP script on a Raspberry Pi. The script grabs your avatar and name, places them inside a little frame, and prints the receipt on a printer. Each one gets pinned to a wall he calls the hall of frame."
+      ]
+    },
+    {
+      "start": 173,
+      "title": "motty",
+      "repositories": [
+        "https://github.com/t8y2/motty"
+      ],
+      "id": "s008",
+      "end": 196,
+      "paragraphs": [
+        "Motti puts your remote server tools in one native desktop app, so you don't have to jump between separate clients just to get work done. It combines SSH terminals, SFTP file transfers, port forwarding, and VNC or RDP sessions in the same window. There's also an AI assistant and MCP support. It's built in Go with the Viva UI framework without bundling a web view. Flare is Nvidia's"
+      ]
+    },
+    {
+      "start": 196,
+      "title": "local-inference",
+      "repositories": [
+        "https://github.com/NVIDIA/local-inference"
+      ],
+      "id": "s009",
+      "end": 219,
+      "paragraphs": [
+        "local inference server for its newest GPUs like the DGX Spark built for long conversations and coding agents that call tools over and over. All the compiling and CUDA graph setup happens ahead of time in PyTorch and gets packaged up. Then a Rust runtime with no Python serves that package. So nothing has to compile once you start."
+      ]
+    },
+    {
+      "start": 219,
+      "title": "floorplan",
+      "repositories": [
+        "https://github.com/haydenschmitty/floorplan"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "Floor plan turns your codebase into an interactive map when you need to figure out how an app actually fits together. Ask Claude Code or Codeex to draw one and you can zoom from the big picture down to individual files and endpoints. It follows connections between front-end requests and backend routes, even across repos. You can also ask the map a question and get a smaller diagram of the pieces involved."
+      ]
+    },
+    {
+      "start": 244,
+      "title": "OpenDuet",
+      "repositories": [
+        "https://github.com/CopilotKit/OpenDuet"
+      ],
+      "id": "s011",
+      "end": 270,
+      "paragraphs": [
+        "Open Duet is Copilot Kit's open-source proactive agent that gets work done before you ask. Built on their OpenBot platform, it starts your day with a short brief of what changed and what needs a decision from you. It sorts your mail and calendar into what needs you now and what can wait. hand it a task and it keeps working on a computer of its own with a real browser and its own files."
+      ]
+    },
+    {
+      "start": 270,
+      "title": "calender-app-design",
+      "repositories": [
+        "https://github.com/kargulstudio/calender-app-design"
+      ],
+      "id": "s012",
+      "end": 296,
+      "paragraphs": [
+        "Cargle's calendar prototype gives you a working interface to study instead of another static dashboard mockup. You can drag events around the calendar, resize them, and switch between day, week, and month views. The time off page counts working days and previews the remaining balance. It's built with Nex.js JS and runs entirely in the browser, so the data stays in local storage and there's no backend."
+      ]
+    },
+    {
+      "start": 296,
+      "title": "Zero-Breach-Toolkit",
+      "repositories": [
+        "https://github.com/interplains/Zero-Breach-Toolkit"
+      ],
+      "id": "s013",
+      "end": 319,
+      "paragraphs": [
+        "Zeroach toolkit is a free Python tool that checks your computer, your Android phone, or an iPhone backup for traces of known mercenary spyware like Pegasus, Predator, and Graphite. It only reads, never changes anything, and makes no requests while it scans. It compares what it finds against published indicators from security researchers."
+      ]
+    },
+    {
+      "start": 319,
+      "title": "bygga",
+      "repositories": [
+        "https://github.com/Nutlope/bygga"
+      ],
+      "id": "s014",
+      "end": 345,
+      "paragraphs": [
+        "Bigga turns a flatpack furniture product name or article number into an animated 3D assembly guide drawn in the familiar black and white line art style. It's built with Nex.js and 3JS and a generator works out the steps for more than 1100 products on its own with no AI call needed. You can step through a guide by voice, print it, or ask a help chat to redraw a confusing step."
+      ]
+    },
+    {
+      "start": 345,
+      "title": "kensaku",
+      "repositories": [
+        "https://github.com/yjid/kensaku"
+      ],
+      "id": "s015",
+      "end": 370,
+      "paragraphs": [
+        "Kinsaku is a local desktop search app for your files, documents, code, and images. It reads each file once and builds both a keyword index and a semantic one, so you can search by exact words or by meaning. It pulls text out of PDFs, office files, and code, and even reads text in screenshots with OCR. Results are ranked by relevance, similarity, how recent they are, and where they live."
+      ]
+    },
+    {
+      "start": 370,
+      "title": "bama",
+      "repositories": [
+        "https://github.com/daveebbelaar/bama"
+      ],
+      "id": "s016",
+      "end": 394,
+      "paragraphs": [
+        "Bama, short for build any Mac app, is a set of agent skills for cloud code and codecs that takes a native Mac OS app from idea to working build in Swift and Swift UI. The agent turns your idea into user stories with acceptance criteria and groups them into milestones. Then it builds one story per commit, snapshots every screen in light and dark mode, and runs the tests."
+      ]
+    },
+    {
+      "start": 394,
+      "title": "hokum",
+      "repositories": [
+        "https://github.com/anomalyco/hokum"
+      ],
+      "id": "s017",
+      "end": 420,
+      "paragraphs": [
+        "Hokum gives your Whan desktop a control center for notifications, sound, and Bluetooth. Notification cards slide in and rearrange themselves, while a tray panel puts volume, connected devices, and do not disturb close at hand. You can pair Bluetooth devices from the app and control notifications with keyboard shortcuts. It's written in Rust and works with compositors like Hyperland, Sway, and Neri."
+      ]
+    },
+    {
+      "start": 420,
+      "title": "devbox",
+      "repositories": [
+        "https://github.com/rudderlabs/devbox"
+      ],
+      "id": "s018",
+      "end": 446,
+      "paragraphs": [
+        "Devbox is Rudderstack's open- source coding agent that you run in your own cloud. Give it a task from the command line or from Linear and it plans the change, writes the code, runs the tests, and reviews its own diff. Then it opens a draft pull request for a person to merge. No code gets written until the plan passes review and CI failures and review comments go straight back to the running task."
+      ]
+    },
+    {
+      "start": 446,
+      "title": "duckpad",
+      "repositories": [
+        "https://github.com/hugues31/duckpad"
+      ],
+      "id": "s019",
+      "end": 472,
+      "paragraphs": [
+        "Duckpad is an open- source SQL workspace for building visual data pipelines powered by DuckDB and installed as a Python package. You connect sources, joins, and reusable parts into a pipeline or write SQL directly in the editor. Click any cell in a result and it traces back to the exact source values that produced it. Projects save to git so you can branch, compare changes, and review merges just like code."
+      ]
+    },
+    {
+      "start": 472,
+      "title": "Pika-H3-Flex",
+      "repositories": [
+        "https://github.com/Pika-Labs/Pika-H3-Flex"
+      ],
+      "id": "s020",
+      "end": 497,
+      "paragraphs": [
+        "Pika H3 Flex is an openweight video model from PA Labs that generates video with matching stereo audio built as adapters on top of Miniaax's H3. You can start from a text prompt, a first frame, a last frame, both, or up to 12 reference images and clips. It renders 5 to 15sec videos at up to 768p across 11 aspect ratios in only six sampling steps."
+      ]
+    },
+    {
+      "start": 497,
+      "title": "analytics-playbook",
+      "repositories": [
+        "https://github.com/atlanai/analytics-playbook"
+      ],
+      "id": "s021",
+      "end": 524,
+      "paragraphs": [
+        "The analytics playbook is Atlan's open guide to building AI analytics agents that give the right business numbers. It walks through five phases with a check at the end of each one. You start by locking in a golden set of real questions from your analysts before building anything. Then you pull metric definitions out of your past SQL and dashboards and improve the agent by studying where it fails."
+      ]
+    },
+    {
+      "start": 524,
+      "title": "kinetograph",
+      "repositories": [
+        "https://github.com/0xS4N4TG/kinetograph"
+      ],
+      "id": "s022",
+      "end": 550,
+      "paragraphs": [
+        "Kinettoraphph is a programmatic video engine built for AI agents. You write videos in Typescript with Remotions API using CSS, SVG, canvas, and even webgl shaders. Instead of driving a hidden Chrome browser, it uses a Rust compositor on the GPU with Skia and FFmpeg, so there's no browser anywhere in the pipeline. Existing Remotion projects render asis, and it ships an MCP server, so an agent can drive it."
+      ]
+    },
+    {
+      "start": 550,
+      "title": "esp32-usb-to-airprint",
+      "repositories": [
+        "https://github.com/ngxson/esp32-usb-to-airprint"
+      ],
+      "id": "s023",
+      "end": 574,
+      "paragraphs": [
+        "ESP32 USB to AirPrint is firmware that turns an old USBon printer into a wireless one using a cheap ESP32S3 board. Plug the board into the printer's USB port. Connect it to your Wi-Fi and it speaks the printer's USB protocol for you. Then your iPhone and Mac can print over AirPrint, Android phones over Mopria, and Linux 2 with no drivers or apps."
+      ]
+    },
+    {
+      "start": 574,
+      "title": "survival-llm",
+      "repositories": [
+        "https://github.com/anonnerdfrenzy/survival-llm"
+      ],
+      "id": "s024",
+      "end": 602,
+      "paragraphs": [
+        "Survival LLM is a free AI assistant for emergency and survival questions that runs entirely on your own computer with no internet needed. It uses local models through Olama and answers from an offline library of medical, emergency, and how-to articles drawn from sources like Wikipedia, Medline Plus, the CDC, and FEMA. Every answer shows the articles it used, and the app checks that those really are the articles it opened."
+      ]
+    },
+    {
+      "start": 602,
+      "title": "ai-phone",
+      "repositories": [
+        "https://github.com/oxnw/ai-phone"
+      ],
+      "id": "s025",
+      "end": 629,
+      "paragraphs": [
+        "AIP phone turns an Apple Silicon Mac into a voice agent that can make and answer phone calls. Give it a task like asking a restaurant about a reservation and it returns a transcript when the call ends. Speech recognition and voice generation run locally and you can choose a local model for the conversation, too. Outgoing calls start with an AI disclosure and it currently handles one English call at a time."
+      ]
+    },
+    {
+      "start": 629,
+      "title": "LightPost",
+      "repositories": [
+        "https://github.com/brainstormity/LightPost"
+      ],
+      "id": "s026",
+      "end": 652,
+      "paragraphs": [
+        "Lightost is a self-hosted social media scheduler that lets you prepare one post and send it to multiple accounts from a single dashboard. It supports platforms including Blue Sky, Mastadon, Instagram, and Telegram with posts you can publish immediately or schedule for later. It runs on Python and SQLite. And the creator says it's light enough to run on a Raspberry Pi 0."
+      ]
+    },
+    {
+      "start": 652,
+      "title": "glyph-rice",
+      "repositories": [
+        "https://github.com/Nebelung-cloud/glyph-rice"
+      ],
+      "id": "s027",
+      "end": 677,
+      "paragraphs": [
+        "Glyph brings the look of nothing OS to a hyperland desktop with black backgrounds, dotted white text, and a splash of red. It's built with quick shell and includes a launcher, quick settings, screenshots, and a lock screen. The screen edges even light up for things like volume changes and notifications. If you like tweaking your Linux desktop, there's plenty here to take apart."
+      ]
+    },
+    {
+      "start": 677,
+      "title": "MiniCPM-OCR",
+      "repositories": [
+        "https://github.com/OpenBMB/MiniCPM-OCR"
+      ],
+      "id": "s028",
+      "end": 700,
+      "paragraphs": [
+        "Mini CPM OCR turns PDFs and document images into usable text, tables, and formulas, even when the pages are photographed or curved. The interesting part is its companion model, Jev, which scores individual regions of the result to help you find what needs a closer look. You can run the models locally and export parsed documents as markdown or JSON."
+      ]
+    },
+    {
+      "start": 700,
+      "title": "lever",
+      "repositories": [
+        "https://github.com/github/lever"
+      ],
+      "id": "s029",
+      "end": 728,
+      "paragraphs": [
+        "Lever is GitHub's plugin of copilot skills for building feedback loops for coding agents. You define a metric, a way to measure it, and a bar for what counts as better. And the agent keeps iterating until it clears that bar. One command picks a playbook for briefing a task, delivering it, refactoring, or shephering a pull request through to merge. Autonomy levels from 0 to 5 decide how much the agent can do on its own."
+      ]
+    },
+    {
+      "start": 728,
+      "title": "dontallow",
+      "repositories": [
+        "https://github.com/johncassil/dontallow"
+      ],
+      "id": "s030",
+      "end": 751,
+      "paragraphs": [
+        "Dontello is a tiny Mac OS tool that automatically clicks don't allow on those find devices on your local network popups written in Swift with no dependencies. It runs quietly in the background and uses no CPU until a prompt shows up. When one does it checks the dialogue really is a local network request and that the app isn't on your allow list, then denies it."
+      ]
+    },
+    {
+      "start": 751,
+      "title": "video-to-game",
+      "repositories": [
+        "https://github.com/lovisdotio/video-to-game"
+      ],
+      "id": "s031",
+      "end": 775,
+      "paragraphs": [
+        "Video to game is a skill for coding agents like Claude Code and Codeex that turns a gameplay video into a playable browser game built with 3JS. The agent studies the clip frame by frame pulling out the look, the pallet, and the cuts. It writes a game spec, generates every asset through foul from images to 3D models and sound, and builds the whole game into one HTML file."
+      ]
+    },
+    {
+      "start": 775,
+      "title": "grim-prompter",
+      "repositories": [
+        "https://github.com/jmanico/grim-prompter"
+      ],
+      "id": "s032",
+      "end": 804,
+      "paragraphs": [
+        "Grimrompter is a set of threat modeling prompts for coding agents like Claude Code and Codeex from security expert Jim Manico. Link its skill into your agent and ask for a threat model quick or deep. The agent reads your code without changing anything and works through established frameworks like Stride and MITER attack. Every finding points to the exact file and line, and each proposed fix comes with a plan for checking it actually works."
+      ]
+    },
+    {
+      "start": 804,
+      "title": "skill-diet",
+      "repositories": [
+        "https://github.com/nicobailon/skill-diet"
+      ],
+      "id": "s033",
+      "end": 834,
+      "paragraphs": [
+        "Skill diet is an agent skill that keeps your other agent skills lean, building on Matt PCO's writing for agents rules. It measures a skill, cuts what the model already knows, and rewrites the rest. Then it runs a before and after test, and only keeps the slimmer version if agents do at least as well. For skills that wrap a command line tool or an API, it also checks the instructions against the real tool and reads session logs to find the calls you use most."
+      ]
+    },
+    {
+      "start": 834,
+      "title": "agentloop",
+      "repositories": [
+        "https://github.com/smhanov/agentloop"
+      ],
+      "id": "s034",
+      "end": 859,
+      "paragraphs": [
+        "Agent Loop is a Go library for building AI agents without writing the tool calling loop from scratch. It sends requests to a model, runs the tools it asks for, and feeds the results back until there's an answer. You can set budgets, add approval hooks, and inspect a trace of each run. It also includes search and coding agents as examples so you can see how the pieces fit together."
+      ]
+    },
+    {
+      "start": 859,
+      "title": "Filmimic",
+      "repositories": [
+        "https://github.com/DreamyLab30/Filmimic"
+      ],
+      "id": "s035",
+      "end": 886,
+      "paragraphs": [
+        "Filmic is a plugin that adds real-time film emulation to Unreal Engine 5. Drop one actor into your level. Pick a look and it runs a whole chain of effects. Film color, animated grain, hellation around bright lights, bloom, and lens artifacts. A single slider blends between Unreal's own output and the film look. Every one of its nearly 200 settings can be animated in sequencer or driven from blueprints."
+      ]
+    },
+    {
+      "start": 886,
+      "title": "english-rs",
+      "repositories": [
+        "https://github.com/Aaryan-Kapoor/english-rs"
+      ],
+      "id": "s036",
+      "end": 911,
+      "paragraphs": [
+        "English RS is a Rust project that checks English grammar the way the compiler checks code. Write a sentence inside its macro and Rust's type system catches mistakes like a singular subject with a plural verb or the wrong article. It even treats pronouns as borrows of the nouns they refer to. So, a dangling pronoun gets rejected by the borrow checker."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 56. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Caro gives your coding agents a terminal that remembers where you left them. Claude Code, Codeex, your dev server."
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "Each gets its own session grouped by project. The sidebar shows which ones need your attention, and closing the window doesn't kill their work."
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "text": "You can even bring sessions from a remote machine into the same view."
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "That's handy when your laptop isn't the one doing the heavy lifting. UB mode is Uncle Bob's agent skill for writing"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "clean code built from a trimmed set of potatoes rules and paired with real measuring tools. It pushes your coding"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "agent toward test-driven development and tests that check behavior, not implementation details. Each change has"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "to pass hard limits. a complexity score under 10 and a duplication score under 0.8. Mutation testing then breaks the"
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "code on purpose to make sure the tests notice."
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "text": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from a single career profile."
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "Paste in a job posting or search job boards and the AI pulls out the requirements and shows how well you match. Then it drafts your documents"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "using only facts from your profile which you can refine in a chat and export as PDFs. It runs on a local model or a"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "hosted API and your data lives in your own database."
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "text": "OXR is a document parsing model from Somark that turns PDFs and scan pages into markdown or JSON, keeping the"
+    },
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "text": "layout coordinates for every block. It has 1.3 billion parameters and was trained from scratch. A separate layout"
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "text": "model finds the blocks. Then OXR reads their content and puts them in order. It recognizes 13 kinds of elements from"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "tables and formulas to chemical structures and code."
+    },
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "Strata runs AI models on your own computer without making you piece together and set up yourself. Pick a model in the desktop app or launch one"
+    },
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "from the terminal and Strata helps get it running on your hardware. It works with supported Nvidia and AMD cards, Apple Silicon, and Intel Arc on Linux."
+    },
+    {
+      "start": 139.0,
+      "end": 139.0,
+      "text": "You can also connect its local models to Claude Code, Codeex CLI, and other coding tools."
+    },
+    {
+      "start": 146.0,
+      "end": 146.0,
+      "text": "Print my profile pick is a playful hardware project from Andrew Schmemellion. Star the repo and your GitHub profile picture gets printed on a"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "receipt printer. A star sends a web hook through a Cloudflare tunnel to a small PHP script on a Raspberry Pi. The script"
+    },
+    {
+      "start": 162.0,
+      "end": 162.0,
+      "text": "grabs your avatar and name, places them inside a little frame, and prints the receipt on a printer. Each one gets"
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "pinned to a wall he calls the hall of frame."
+    },
+    {
+      "start": 173.0,
+      "end": 173.0,
+      "text": "Motti puts your remote server tools in one native desktop app, so you don't have to jump between separate clients just to get work done. It combines SSH"
+    },
+    {
+      "start": 181.0,
+      "end": 181.0,
+      "text": "terminals, SFTP file transfers, port forwarding, and VNC or RDP sessions in the same window. There's also an AI"
+    },
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "assistant and MCP support. It's built in Go with the Viva UI framework without bundling a web view. Flare is Nvidia's"
+    },
+    {
+      "start": 198.0,
+      "end": 198.0,
+      "text": "local inference server for its newest GPUs like the DGX Spark built for long conversations and coding agents that call tools over and over. All the"
+    },
+    {
+      "start": 207.0,
+      "end": 207.0,
+      "text": "compiling and CUDA graph setup happens ahead of time in PyTorch and gets packaged up. Then a Rust runtime with no"
+    },
+    {
+      "start": 214.0,
+      "end": 214.0,
+      "text": "Python serves that package. So nothing has to compile once you start."
+    },
+    {
+      "start": 219.0,
+      "end": 219.0,
+      "text": "Floor plan turns your codebase into an interactive map when you need to figure out how an app actually fits together."
+    },
+    {
+      "start": 226.0,
+      "end": 226.0,
+      "text": "Ask Claude Code or Codeex to draw one and you can zoom from the big picture down to individual files and endpoints."
+    },
+    {
+      "start": 233.0,
+      "end": 233.0,
+      "text": "It follows connections between front-end requests and backend routes, even across repos. You can also ask the map a"
+    },
+    {
+      "start": 240.0,
+      "end": 240.0,
+      "text": "question and get a smaller diagram of the pieces involved."
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Open Duet is Copilot Kit's open-source proactive agent that gets work done before you ask. Built on their OpenBot"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "platform, it starts your day with a short brief of what changed and what needs a decision from you. It sorts your"
+    },
+    {
+      "start": 259.0,
+      "end": 259.0,
+      "text": "mail and calendar into what needs you now and what can wait. hand it a task and it keeps working on a computer of"
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "its own with a real browser and its own files."
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "Cargle's calendar prototype gives you a working interface to study instead of another static dashboard mockup. You can"
+    },
+    {
+      "start": 277.0,
+      "end": 277.0,
+      "text": "drag events around the calendar, resize them, and switch between day, week, and month views. The time off page counts"
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "working days and previews the remaining balance. It's built with Nex.js JS and runs entirely in the browser, so the"
+    },
+    {
+      "start": 292.0,
+      "end": 292.0,
+      "text": "data stays in local storage and there's no backend."
+    },
+    {
+      "start": 296.0,
+      "end": 296.0,
+      "text": "Zeroach toolkit is a free Python tool that checks your computer, your Android phone, or an iPhone backup for traces of"
+    },
+    {
+      "start": 303.0,
+      "end": 303.0,
+      "text": "known mercenary spyware like Pegasus, Predator, and Graphite. It only reads, never changes anything, and makes no"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "requests while it scans. It compares what it finds against published indicators from security researchers."
+    },
+    {
+      "start": 319.0,
+      "end": 319.0,
+      "text": "Bigga turns a flatpack furniture product name or article number into an animated 3D assembly guide drawn in the familiar"
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "black and white line art style. It's built with Nex.js and 3JS and a generator works out the steps for more"
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "than 1100 products on its own with no AI call needed. You can step through a guide by voice, print it, or ask a help chat to redraw a confusing step."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Kinsaku is a local desktop search app for your files, documents, code, and images. It reads each file once and"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "builds both a keyword index and a semantic one, so you can search by exact words or by meaning. It pulls text out of PDFs, office files, and code, and even reads text in screenshots with OCR."
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "Results are ranked by relevance, similarity, how recent they are, and where they live."
+    },
+    {
+      "start": 370.0,
+      "end": 370.0,
+      "text": "Bama, short for build any Mac app, is a set of agent skills for cloud code and codecs that takes a native Mac OS app"
+    },
+    {
+      "start": 377.0,
+      "end": 377.0,
+      "text": "from idea to working build in Swift and Swift UI. The agent turns your idea into user stories with acceptance criteria"
+    },
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "and groups them into milestones. Then it builds one story per commit, snapshots every screen in light and dark mode, and runs the tests."
+    },
+    {
+      "start": 394.0,
+      "end": 394.0,
+      "text": "Hokum gives your Whan desktop a control center for notifications, sound, and Bluetooth. Notification cards slide in"
+    },
+    {
+      "start": 401.0,
+      "end": 401.0,
+      "text": "and rearrange themselves, while a tray panel puts volume, connected devices, and do not disturb close at hand. You"
+    },
+    {
+      "start": 409.0,
+      "end": 409.0,
+      "text": "can pair Bluetooth devices from the app and control notifications with keyboard shortcuts. It's written in Rust and works with compositors like Hyperland, Sway, and Neri."
+    },
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "Devbox is Rudderstack's open- source coding agent that you run in your own cloud. Give it a task from the command"
+    },
+    {
+      "start": 427.0,
+      "end": 427.0,
+      "text": "line or from Linear and it plans the change, writes the code, runs the tests, and reviews its own diff. Then it opens"
+    },
+    {
+      "start": 434.0,
+      "end": 434.0,
+      "text": "a draft pull request for a person to merge. No code gets written until the plan passes review and CI failures and"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "review comments go straight back to the running task."
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "Duckpad is an open- source SQL workspace for building visual data pipelines powered by DuckDB and installed as a"
+    },
+    {
+      "start": 453.0,
+      "end": 453.0,
+      "text": "Python package. You connect sources, joins, and reusable parts into a pipeline or write SQL directly in the"
+    },
+    {
+      "start": 460.0,
+      "end": 460.0,
+      "text": "editor. Click any cell in a result and it traces back to the exact source values that produced it. Projects save"
+    },
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "to git so you can branch, compare changes, and review merges just like code."
+    },
+    {
+      "start": 473.0,
+      "end": 473.0,
+      "text": "Pika H3 Flex is an openweight video model from PA Labs that generates video with matching stereo audio built as"
+    },
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "adapters on top of Miniaax's H3. You can start from a text prompt, a first frame, a last frame, both, or up to 12"
+    },
+    {
+      "start": 487.0,
+      "end": 487.0,
+      "text": "reference images and clips. It renders 5 to 15sec videos at up to 768p across 11 aspect ratios in only six sampling steps."
+    },
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "The analytics playbook is Atlan's open guide to building AI analytics agents that give the right business numbers. It"
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "walks through five phases with a check at the end of each one. You start by locking in a golden set of real"
+    },
+    {
+      "start": 512.0,
+      "end": 512.0,
+      "text": "questions from your analysts before building anything."
+    },
+    {
+      "start": 516.0,
+      "end": 516.0,
+      "text": "Then you pull metric definitions out of your past SQL and dashboards and improve the agent by studying where it fails."
+    },
+    {
+      "start": 524.0,
+      "end": 524.0,
+      "text": "Kinettoraphph is a programmatic video engine built for AI agents. You write videos in Typescript with Remotions API"
+    },
+    {
+      "start": 531.0,
+      "end": 531.0,
+      "text": "using CSS, SVG, canvas, and even webgl shaders. Instead of driving a hidden Chrome browser, it uses a Rust"
+    },
+    {
+      "start": 538.0,
+      "end": 538.0,
+      "text": "compositor on the GPU with Skia and FFmpeg, so there's no browser anywhere in the pipeline. Existing Remotion projects render asis, and it ships an MCP server, so an agent can drive it."
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "ESP32 USB to AirPrint is firmware that turns an old USBon printer into a wireless one using a cheap ESP32S3"
+    },
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "board. Plug the board into the printer's USB port. Connect it to your Wi-Fi and it speaks the printer's USB protocol for"
+    },
+    {
+      "start": 566.0,
+      "end": 566.0,
+      "text": "you. Then your iPhone and Mac can print over AirPrint, Android phones over Mopria, and Linux 2 with no drivers or apps."
+    },
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "Survival LLM is a free AI assistant for emergency and survival questions that runs entirely on your own computer with"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "no internet needed. It uses local models through Olama and answers from an offline library of medical, emergency, and how-to articles drawn from sources"
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "like Wikipedia, Medline Plus, the CDC, and FEMA. Every answer shows the articles it used, and the app checks"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "that those really are the articles it opened."
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "AIP phone turns an Apple Silicon Mac into a voice agent that can make and answer phone calls. Give it a task like"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "asking a restaurant about a reservation and it returns a transcript when the call ends. Speech recognition and voice"
+    },
+    {
+      "start": 616.0,
+      "end": 616.0,
+      "text": "generation run locally and you can choose a local model for the conversation, too. Outgoing calls start with an AI disclosure and it currently handles one English call at a time."
+    },
+    {
+      "start": 629.0,
+      "end": 629.0,
+      "text": "Lightost is a self-hosted social media scheduler that lets you prepare one post and send it to multiple accounts from a single dashboard. It supports platforms"
+    },
+    {
+      "start": 638.0,
+      "end": 638.0,
+      "text": "including Blue Sky, Mastadon, Instagram, and Telegram with posts you can publish immediately or schedule for later. It"
+    },
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "runs on Python and SQLite. And the creator says it's light enough to run on a Raspberry Pi 0."
+    },
+    {
+      "start": 653.0,
+      "end": 653.0,
+      "text": "Glyph brings the look of nothing OS to a hyperland desktop with black backgrounds, dotted white text, and a splash of red. It's built with quick"
+    },
+    {
+      "start": 662.0,
+      "end": 662.0,
+      "text": "shell and includes a launcher, quick settings, screenshots, and a lock screen. The screen edges even light up for things like volume changes and"
+    },
+    {
+      "start": 670.0,
+      "end": 670.0,
+      "text": "notifications. If you like tweaking your Linux desktop, there's plenty here to take apart."
+    },
+    {
+      "start": 677.0,
+      "end": 677.0,
+      "text": "Mini CPM OCR turns PDFs and document images into usable text, tables, and formulas, even when the pages are"
+    },
+    {
+      "start": 684.0,
+      "end": 684.0,
+      "text": "photographed or curved. The interesting part is its companion model, Jev, which scores individual regions of the result"
+    },
+    {
+      "start": 692.0,
+      "end": 692.0,
+      "text": "to help you find what needs a closer look. You can run the models locally and export parsed documents as markdown or JSON."
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Lever is GitHub's plugin of copilot skills for building feedback loops for coding agents. You define a metric, a"
+    },
+    {
+      "start": 707.0,
+      "end": 707.0,
+      "text": "way to measure it, and a bar for what counts as better. And the agent keeps iterating until it clears that bar. One command picks a playbook for briefing a"
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "task, delivering it, refactoring, or shephering a pull request through to merge. Autonomy levels from 0 to 5"
+    },
+    {
+      "start": 724.0,
+      "end": 724.0,
+      "text": "decide how much the agent can do on its own."
+    },
+    {
+      "start": 728.0,
+      "end": 728.0,
+      "text": "Dontello is a tiny Mac OS tool that automatically clicks don't allow on those find devices on your local network"
+    },
+    {
+      "start": 735.0,
+      "end": 735.0,
+      "text": "popups written in Swift with no dependencies. It runs quietly in the background and uses no CPU until a"
+    },
+    {
+      "start": 741.0,
+      "end": 741.0,
+      "text": "prompt shows up. When one does it checks the dialogue really is a local network request and that the app isn't on your allow list, then denies it."
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "Video to game is a skill for coding agents like Claude Code and Codeex that turns a gameplay video into a playable"
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "browser game built with 3JS. The agent studies the clip frame by frame pulling out the look, the pallet, and the cuts."
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "It writes a game spec, generates every asset through foul from images to 3D models and sound, and builds the whole game into one HTML file."
+    },
+    {
+      "start": 775.0,
+      "end": 775.0,
+      "text": "Grimrompter is a set of threat modeling prompts for coding agents like Claude Code and Codeex from security expert Jim"
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "Manico. Link its skill into your agent and ask for a threat model quick or deep. The agent reads your code without"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "changing anything and works through established frameworks like Stride and MITER attack. Every finding points to the exact file and line, and each"
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "proposed fix comes with a plan for checking it actually works."
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "Skill diet is an agent skill that keeps your other agent skills lean, building on Matt PCO's writing for agents rules."
+    },
+    {
+      "start": 813.0,
+      "end": 813.0,
+      "text": "It measures a skill, cuts what the model already knows, and rewrites the rest."
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "Then it runs a before and after test, and only keeps the slimmer version if agents do at least as well. For skills that wrap a command line tool or an API,"
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "it also checks the instructions against the real tool and reads session logs to find the calls you use most."
+    },
+    {
+      "start": 834.0,
+      "end": 834.0,
+      "text": "Agent Loop is a Go library for building AI agents without writing the tool calling loop from scratch. It sends"
+    },
+    {
+      "start": 841.0,
+      "end": 841.0,
+      "text": "requests to a model, runs the tools it asks for, and feeds the results back until there's an answer. You can set"
+    },
+    {
+      "start": 848.0,
+      "end": 848.0,
+      "text": "budgets, add approval hooks, and inspect a trace of each run. It also includes search and coding agents as examples so you can see how the pieces fit together."
+    },
+    {
+      "start": 859.0,
+      "end": 859.0,
+      "text": "Filmic is a plugin that adds real-time film emulation to Unreal Engine 5. Drop one actor into your level. Pick a look and it runs a whole chain of effects."
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "Film color, animated grain, hellation around bright lights, bloom, and lens artifacts. A single slider blends"
+    },
+    {
+      "start": 876.0,
+      "end": 876.0,
+      "text": "between Unreal's own output and the film look. Every one of its nearly 200 settings can be animated in sequencer or driven from blueprints."
+    },
+    {
+      "start": 886.0,
+      "end": 886.0,
+      "text": "English RS is a Rust project that checks English grammar the way the compiler checks code. Write a sentence inside its"
+    },
+    {
+      "start": 893.0,
+      "end": 893.0,
+      "text": "macro and Rust's type system catches mistakes like a singular subject with a plural verb or the wrong article. It"
+    },
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "even treats pronouns as borrows of the nouns they refer to. So, a dangling pronoun gets rejected by the borrow checker."
+    }
+  ]
+}

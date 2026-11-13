@@ -1,0 +1,1580 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 56. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:11",
+      "text": "Caro gives your coding agents a terminal that remembers where you left them. Claude Code, Codeex, your dev server."
+    },
+    {
+      "timestamp": "0:19",
+      "text": "Each gets its own session grouped by project. The sidebar shows which ones need your attention, and closing the window doesn't kill their work."
+    },
+    {
+      "timestamp": "0:28",
+      "text": "You can even bring sessions from a remote machine into the same view."
+    },
+    {
+      "timestamp": "0:32",
+      "text": "That's handy when your laptop isn't the one doing the heavy lifting. UB mode is Uncle Bob's agent skill for writing"
+    },
+    {
+      "timestamp": "0:39",
+      "text": "clean code built from a trimmed set of potatoes rules and paired with real measuring tools. It pushes your coding"
+    },
+    {
+      "timestamp": "0:46",
+      "text": "agent toward test-driven development and tests that check behavior, not implementation details. Each change has"
+    },
+    {
+      "timestamp": "0:54",
+      "text": "to pass hard limits. a complexity score under 10 and a duplication score under 0.8. Mutation testing then breaks the"
+    },
+    {
+      "timestamp": "1:02",
+      "text": "code on purpose to make sure the tests notice."
+    },
+    {
+      "timestamp": "1:05",
+      "text": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from a single career profile."
+    },
+    {
+      "timestamp": "1:12",
+      "text": "Paste in a job posting or search job boards and the AI pulls out the requirements and shows how well you match. Then it drafts your documents"
+    },
+    {
+      "timestamp": "1:21",
+      "text": "using only facts from your profile which you can refine in a chat and export as PDFs. It runs on a local model or a"
+    },
+    {
+      "timestamp": "1:29",
+      "text": "hosted API and your data lives in your own database."
+    },
+    {
+      "timestamp": "1:33",
+      "text": "OXR is a document parsing model from Somark that turns PDFs and scan pages into markdown or JSON, keeping the"
+    },
+    {
+      "timestamp": "1:41",
+      "text": "layout coordinates for every block. It has 1.3 billion parameters and was trained from scratch. A separate layout"
+    },
+    {
+      "timestamp": "1:48",
+      "text": "model finds the blocks. Then OXR reads their content and puts them in order. It recognizes 13 kinds of elements from"
+    },
+    {
+      "timestamp": "1:56",
+      "text": "tables and formulas to chemical structures and code."
+    },
+    {
+      "timestamp": "2:00",
+      "text": "Strata runs AI models on your own computer without making you piece together and set up yourself. Pick a model in the desktop app or launch one"
+    },
+    {
+      "timestamp": "2:09",
+      "text": "from the terminal and Strata helps get it running on your hardware. It works with supported Nvidia and AMD cards, Apple Silicon, and Intel Arc on Linux."
+    },
+    {
+      "timestamp": "2:19",
+      "text": "You can also connect its local models to Claude Code, Codeex CLI, and other coding tools."
+    },
+    {
+      "timestamp": "2:26",
+      "text": "Print my profile pick is a playful hardware project from Andrew Schmemellion. Star the repo and your GitHub profile picture gets printed on a"
+    },
+    {
+      "timestamp": "2:34",
+      "text": "receipt printer. A star sends a web hook through a Cloudflare tunnel to a small PHP script on a Raspberry Pi. The script"
+    },
+    {
+      "timestamp": "2:42",
+      "text": "grabs your avatar and name, places them inside a little frame, and prints the receipt on a printer. Each one gets"
+    },
+    {
+      "timestamp": "2:49",
+      "text": "pinned to a wall he calls the hall of frame."
+    },
+    {
+      "timestamp": "2:53",
+      "text": "Motti puts your remote server tools in one native desktop app, so you don't have to jump between separate clients just to get work done. It combines SSH"
+    },
+    {
+      "timestamp": "3:01",
+      "text": "terminals, SFTP file transfers, port forwarding, and VNC or RDP sessions in the same window. There's also an AI"
+    },
+    {
+      "timestamp": "3:09",
+      "text": "assistant and MCP support. It's built in Go with the Viva UI framework without bundling a web view. Flare is Nvidia's"
+    },
+    {
+      "timestamp": "3:18",
+      "text": "local inference server for its newest GPUs like the DGX Spark built for long conversations and coding agents that call tools over and over. All the"
+    },
+    {
+      "timestamp": "3:27",
+      "text": "compiling and CUDA graph setup happens ahead of time in PyTorch and gets packaged up. Then a Rust runtime with no"
+    },
+    {
+      "timestamp": "3:34",
+      "text": "Python serves that package. So nothing has to compile once you start."
+    },
+    {
+      "timestamp": "3:39",
+      "text": "Floor plan turns your codebase into an interactive map when you need to figure out how an app actually fits together."
+    },
+    {
+      "timestamp": "3:46",
+      "text": "Ask Claude Code or Codeex to draw one and you can zoom from the big picture down to individual files and endpoints."
+    },
+    {
+      "timestamp": "3:53",
+      "text": "It follows connections between front-end requests and backend routes, even across repos. You can also ask the map a"
+    },
+    {
+      "timestamp": "4:00",
+      "text": "question and get a smaller diagram of the pieces involved."
+    },
+    {
+      "timestamp": "4:04",
+      "text": "Open Duet is Copilot Kit's open-source proactive agent that gets work done before you ask. Built on their OpenBot"
+    },
+    {
+      "timestamp": "4:12",
+      "text": "platform, it starts your day with a short brief of what changed and what needs a decision from you. It sorts your"
+    },
+    {
+      "timestamp": "4:19",
+      "text": "mail and calendar into what needs you now and what can wait. hand it a task and it keeps working on a computer of"
+    },
+    {
+      "timestamp": "4:26",
+      "text": "its own with a real browser and its own files."
+    },
+    {
+      "timestamp": "4:30",
+      "text": "Cargle's calendar prototype gives you a working interface to study instead of another static dashboard mockup. You can"
+    },
+    {
+      "timestamp": "4:37",
+      "text": "drag events around the calendar, resize them, and switch between day, week, and month views. The time off page counts"
+    },
+    {
+      "timestamp": "4:45",
+      "text": "working days and previews the remaining balance. It's built with Nex.js JS and runs entirely in the browser, so the"
+    },
+    {
+      "timestamp": "4:52",
+      "text": "data stays in local storage and there's no backend."
+    },
+    {
+      "timestamp": "4:56",
+      "text": "Zeroach toolkit is a free Python tool that checks your computer, your Android phone, or an iPhone backup for traces of"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "known mercenary spyware like Pegasus, Predator, and Graphite. It only reads, never changes anything, and makes no"
+    },
+    {
+      "timestamp": "5:12",
+      "text": "requests while it scans. It compares what it finds against published indicators from security researchers."
+    },
+    {
+      "timestamp": "5:19",
+      "text": "Bigga turns a flatpack furniture product name or article number into an animated 3D assembly guide drawn in the familiar"
+    },
+    {
+      "timestamp": "5:26",
+      "text": "black and white line art style. It's built with Nex.js and 3JS and a generator works out the steps for more"
+    },
+    {
+      "timestamp": "5:34",
+      "text": "than 1100 products on its own with no AI call needed. You can step through a guide by voice, print it, or ask a help chat to redraw a confusing step."
+    },
+    {
+      "timestamp": "5:45",
+      "text": "Kinsaku is a local desktop search app for your files, documents, code, and images. It reads each file once and"
+    },
+    {
+      "timestamp": "5:52",
+      "text": "builds both a keyword index and a semantic one, so you can search by exact words or by meaning. It pulls text out of PDFs, office files, and code, and even reads text in screenshots with OCR."
+    },
+    {
+      "timestamp": "6:04",
+      "text": "Results are ranked by relevance, similarity, how recent they are, and where they live."
+    },
+    {
+      "timestamp": "6:10",
+      "text": "Bama, short for build any Mac app, is a set of agent skills for cloud code and codecs that takes a native Mac OS app"
+    },
+    {
+      "timestamp": "6:17",
+      "text": "from idea to working build in Swift and Swift UI. The agent turns your idea into user stories with acceptance criteria"
+    },
+    {
+      "timestamp": "6:24",
+      "text": "and groups them into milestones. Then it builds one story per commit, snapshots every screen in light and dark mode, and runs the tests."
+    },
+    {
+      "timestamp": "6:34",
+      "text": "Hokum gives your Whan desktop a control center for notifications, sound, and Bluetooth. Notification cards slide in"
+    },
+    {
+      "timestamp": "6:41",
+      "text": "and rearrange themselves, while a tray panel puts volume, connected devices, and do not disturb close at hand. You"
+    },
+    {
+      "timestamp": "6:49",
+      "text": "can pair Bluetooth devices from the app and control notifications with keyboard shortcuts. It's written in Rust and works with compositors like Hyperland, Sway, and Neri."
+    },
+    {
+      "timestamp": "7:00",
+      "text": "Devbox is Rudderstack's open- source coding agent that you run in your own cloud. Give it a task from the command"
+    },
+    {
+      "timestamp": "7:07",
+      "text": "line or from Linear and it plans the change, writes the code, runs the tests, and reviews its own diff. Then it opens"
+    },
+    {
+      "timestamp": "7:14",
+      "text": "a draft pull request for a person to merge. No code gets written until the plan passes review and CI failures and"
+    },
+    {
+      "timestamp": "7:22",
+      "text": "review comments go straight back to the running task."
+    },
+    {
+      "timestamp": "7:26",
+      "text": "Duckpad is an open- source SQL workspace for building visual data pipelines powered by DuckDB and installed as a"
+    },
+    {
+      "timestamp": "7:33",
+      "text": "Python package. You connect sources, joins, and reusable parts into a pipeline or write SQL directly in the"
+    },
+    {
+      "timestamp": "7:40",
+      "text": "editor. Click any cell in a result and it traces back to the exact source values that produced it. Projects save"
+    },
+    {
+      "timestamp": "7:47",
+      "text": "to git so you can branch, compare changes, and review merges just like code."
+    },
+    {
+      "timestamp": "7:53",
+      "text": "Pika H3 Flex is an openweight video model from PA Labs that generates video with matching stereo audio built as"
+    },
+    {
+      "timestamp": "8:00",
+      "text": "adapters on top of Miniaax's H3. You can start from a text prompt, a first frame, a last frame, both, or up to 12"
+    },
+    {
+      "timestamp": "8:07",
+      "text": "reference images and clips. It renders 5 to 15sec videos at up to 768p across 11 aspect ratios in only six sampling steps."
+    },
+    {
+      "timestamp": "8:17",
+      "text": "The analytics playbook is Atlan's open guide to building AI analytics agents that give the right business numbers. It"
+    },
+    {
+      "timestamp": "8:24",
+      "text": "walks through five phases with a check at the end of each one. You start by locking in a golden set of real"
+    },
+    {
+      "timestamp": "8:32",
+      "text": "questions from your analysts before building anything."
+    },
+    {
+      "timestamp": "8:36",
+      "text": "Then you pull metric definitions out of your past SQL and dashboards and improve the agent by studying where it fails."
+    },
+    {
+      "timestamp": "8:44",
+      "text": "Kinettoraphph is a programmatic video engine built for AI agents. You write videos in Typescript with Remotions API"
+    },
+    {
+      "timestamp": "8:51",
+      "text": "using CSS, SVG, canvas, and even webgl shaders. Instead of driving a hidden Chrome browser, it uses a Rust"
+    },
+    {
+      "timestamp": "8:58",
+      "text": "compositor on the GPU with Skia and FFmpeg, so there's no browser anywhere in the pipeline. Existing Remotion projects render asis, and it ships an MCP server, so an agent can drive it."
+    },
+    {
+      "timestamp": "9:10",
+      "text": "ESP32 USB to AirPrint is firmware that turns an old USBon printer into a wireless one using a cheap ESP32S3"
+    },
+    {
+      "timestamp": "9:18",
+      "text": "board. Plug the board into the printer's USB port. Connect it to your Wi-Fi and it speaks the printer's USB protocol for"
+    },
+    {
+      "timestamp": "9:26",
+      "text": "you. Then your iPhone and Mac can print over AirPrint, Android phones over Mopria, and Linux 2 with no drivers or apps."
+    },
+    {
+      "timestamp": "9:34",
+      "text": "Survival LLM is a free AI assistant for emergency and survival questions that runs entirely on your own computer with"
+    },
+    {
+      "timestamp": "9:42",
+      "text": "no internet needed. It uses local models through Olama and answers from an offline library of medical, emergency, and how-to articles drawn from sources"
+    },
+    {
+      "timestamp": "9:51",
+      "text": "like Wikipedia, Medline Plus, the CDC, and FEMA. Every answer shows the articles it used, and the app checks"
+    },
+    {
+      "timestamp": "9:58",
+      "text": "that those really are the articles it opened."
+    },
+    {
+      "timestamp": "10:02",
+      "text": "AIP phone turns an Apple Silicon Mac into a voice agent that can make and answer phone calls. Give it a task like"
+    },
+    {
+      "timestamp": "10:10",
+      "text": "asking a restaurant about a reservation and it returns a transcript when the call ends. Speech recognition and voice"
+    },
+    {
+      "timestamp": "10:16",
+      "text": "generation run locally and you can choose a local model for the conversation, too. Outgoing calls start with an AI disclosure and it currently handles one English call at a time."
+    },
+    {
+      "timestamp": "10:29",
+      "text": "Lightost is a self-hosted social media scheduler that lets you prepare one post and send it to multiple accounts from a single dashboard. It supports platforms"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "including Blue Sky, Mastadon, Instagram, and Telegram with posts you can publish immediately or schedule for later. It"
+    },
+    {
+      "timestamp": "10:45",
+      "text": "runs on Python and SQLite. And the creator says it's light enough to run on a Raspberry Pi 0."
+    },
+    {
+      "timestamp": "10:53",
+      "text": "Glyph brings the look of nothing OS to a hyperland desktop with black backgrounds, dotted white text, and a splash of red. It's built with quick"
+    },
+    {
+      "timestamp": "11:02",
+      "text": "shell and includes a launcher, quick settings, screenshots, and a lock screen. The screen edges even light up for things like volume changes and"
+    },
+    {
+      "timestamp": "11:10",
+      "text": "notifications. If you like tweaking your Linux desktop, there's plenty here to take apart."
+    },
+    {
+      "timestamp": "11:17",
+      "text": "Mini CPM OCR turns PDFs and document images into usable text, tables, and formulas, even when the pages are"
+    },
+    {
+      "timestamp": "11:24",
+      "text": "photographed or curved. The interesting part is its companion model, Jev, which scores individual regions of the result"
+    },
+    {
+      "timestamp": "11:32",
+      "text": "to help you find what needs a closer look. You can run the models locally and export parsed documents as markdown or JSON."
+    },
+    {
+      "timestamp": "11:40",
+      "text": "Lever is GitHub's plugin of copilot skills for building feedback loops for coding agents. You define a metric, a"
+    },
+    {
+      "timestamp": "11:47",
+      "text": "way to measure it, and a bar for what counts as better. And the agent keeps iterating until it clears that bar. One command picks a playbook for briefing a"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "task, delivering it, refactoring, or shephering a pull request through to merge. Autonomy levels from 0 to 5"
+    },
+    {
+      "timestamp": "12:04",
+      "text": "decide how much the agent can do on its own."
+    },
+    {
+      "timestamp": "12:08",
+      "text": "Dontello is a tiny Mac OS tool that automatically clicks don't allow on those find devices on your local network"
+    },
+    {
+      "timestamp": "12:15",
+      "text": "popups written in Swift with no dependencies. It runs quietly in the background and uses no CPU until a"
+    },
+    {
+      "timestamp": "12:21",
+      "text": "prompt shows up. When one does it checks the dialogue really is a local network request and that the app isn't on your allow list, then denies it."
+    },
+    {
+      "timestamp": "12:31",
+      "text": "Video to game is a skill for coding agents like Claude Code and Codeex that turns a gameplay video into a playable"
+    },
+    {
+      "timestamp": "12:38",
+      "text": "browser game built with 3JS. The agent studies the clip frame by frame pulling out the look, the pallet, and the cuts."
+    },
+    {
+      "timestamp": "12:45",
+      "text": "It writes a game spec, generates every asset through foul from images to 3D models and sound, and builds the whole game into one HTML file."
+    },
+    {
+      "timestamp": "12:55",
+      "text": "Grimrompter is a set of threat modeling prompts for coding agents like Claude Code and Codeex from security expert Jim"
+    },
+    {
+      "timestamp": "13:03",
+      "text": "Manico. Link its skill into your agent and ask for a threat model quick or deep. The agent reads your code without"
+    },
+    {
+      "timestamp": "13:10",
+      "text": "changing anything and works through established frameworks like Stride and MITER attack. Every finding points to the exact file and line, and each"
+    },
+    {
+      "timestamp": "13:19",
+      "text": "proposed fix comes with a plan for checking it actually works."
+    },
+    {
+      "timestamp": "13:24",
+      "text": "Skill diet is an agent skill that keeps your other agent skills lean, building on Matt PCO's writing for agents rules."
+    },
+    {
+      "timestamp": "13:33",
+      "text": "It measures a skill, cuts what the model already knows, and rewrites the rest."
+    },
+    {
+      "timestamp": "13:37",
+      "text": "Then it runs a before and after test, and only keeps the slimmer version if agents do at least as well. For skills that wrap a command line tool or an API,"
+    },
+    {
+      "timestamp": "13:46",
+      "text": "it also checks the instructions against the real tool and reads session logs to find the calls you use most."
+    },
+    {
+      "timestamp": "13:54",
+      "text": "Agent Loop is a Go library for building AI agents without writing the tool calling loop from scratch. It sends"
+    },
+    {
+      "timestamp": "14:01",
+      "text": "requests to a model, runs the tools it asks for, and feeds the results back until there's an answer. You can set"
+    },
+    {
+      "timestamp": "14:08",
+      "text": "budgets, add approval hooks, and inspect a trace of each run. It also includes search and coding agents as examples so you can see how the pieces fit together."
+    },
+    {
+      "timestamp": "14:19",
+      "text": "Filmic is a plugin that adds real-time film emulation to Unreal Engine 5. Drop one actor into your level. Pick a look and it runs a whole chain of effects."
+    },
+    {
+      "timestamp": "14:29",
+      "text": "Film color, animated grain, hellation around bright lights, bloom, and lens artifacts. A single slider blends"
+    },
+    {
+      "timestamp": "14:36",
+      "text": "between Unreal's own output and the film look. Every one of its nearly 200 settings can be animated in sequencer or driven from blueprints."
+    },
+    {
+      "timestamp": "14:46",
+      "text": "English RS is a Rust project that checks English grammar the way the compiler checks code. Write a sentence inside its"
+    },
+    {
+      "timestamp": "14:53",
+      "text": "macro and Rust's type system catches mistakes like a singular subject with a plural verb or the wrong article. It"
+    },
+    {
+      "timestamp": "15:00",
+      "text": "even treats pronouns as borrows of the nouns they refer to. So, a dangling pronoun gets rejected by the borrow checker."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub awesome. This is GitHub trending weekly number 56. 35 trending open- source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 11000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Caro gives your coding agents a terminal that remembers where you left them. Claude Code, Codeex, your dev server."
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each gets its own session grouped by project. The sidebar shows which ones need your attention, and closing the window doesn't kill their work."
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can even bring sessions from a remote machine into the same view."
+        }
+      ]
+    },
+    {
+      "tStartMs": 32000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "That's handy when your laptop isn't the one doing the heavy lifting. UB mode is Uncle Bob's agent skill for writing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 39000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "clean code built from a trimmed set of potatoes rules and paired with real measuring tools. It pushes your coding"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "agent toward test-driven development and tests that check behavior, not implementation details. Each change has"
+        }
+      ]
+    },
+    {
+      "tStartMs": 54000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to pass hard limits. a complexity score under 10 and a duplication score under 0.8. Mutation testing then breaks the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 62000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "code on purpose to make sure the tests notice."
+        }
+      ]
+    },
+    {
+      "tStartMs": 65000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dossier is a self-hosted job search app that writes tailored resumes and cover letters from a single career profile."
+        }
+      ]
+    },
+    {
+      "tStartMs": 72000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Paste in a job posting or search job boards and the AI pulls out the requirements and shows how well you match. Then it drafts your documents"
+        }
+      ]
+    },
+    {
+      "tStartMs": 81000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "using only facts from your profile which you can refine in a chat and export as PDFs. It runs on a local model or a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 89000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "hosted API and your data lives in your own database."
+        }
+      ]
+    },
+    {
+      "tStartMs": 93000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "OXR is a document parsing model from Somark that turns PDFs and scan pages into markdown or JSON, keeping the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "layout coordinates for every block. It has 1.3 billion parameters and was trained from scratch. A separate layout"
+        }
+      ]
+    },
+    {
+      "tStartMs": 108000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model finds the blocks. Then OXR reads their content and puts them in order. It recognizes 13 kinds of elements from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 116000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tables and formulas to chemical structures and code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 120000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Strata runs AI models on your own computer without making you piece together and set up yourself. Pick a model in the desktop app or launch one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from the terminal and Strata helps get it running on your hardware. It works with supported Nvidia and AMD cards, Apple Silicon, and Intel Arc on Linux."
+        }
+      ]
+    },
+    {
+      "tStartMs": 139000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can also connect its local models to Claude Code, Codeex CLI, and other coding tools."
+        }
+      ]
+    },
+    {
+      "tStartMs": 146000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Print my profile pick is a playful hardware project from Andrew Schmemellion. Star the repo and your GitHub profile picture gets printed on a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 154000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "receipt printer. A star sends a web hook through a Cloudflare tunnel to a small PHP script on a Raspberry Pi. The script"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "grabs your avatar and name, places them inside a little frame, and prints the receipt on a printer. Each one gets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 169000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "pinned to a wall he calls the hall of frame."
+        }
+      ]
+    },
+    {
+      "tStartMs": 173000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Motti puts your remote server tools in one native desktop app, so you don't have to jump between separate clients just to get work done. It combines SSH"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "terminals, SFTP file transfers, port forwarding, and VNC or RDP sessions in the same window. There's also an AI"
+        }
+      ]
+    },
+    {
+      "tStartMs": 189000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "assistant and MCP support. It's built in Go with the Viva UI framework without bundling a web view. Flare is Nvidia's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 198000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "local inference server for its newest GPUs like the DGX Spark built for long conversations and coding agents that call tools over and over. All the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 207000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compiling and CUDA graph setup happens ahead of time in PyTorch and gets packaged up. Then a Rust runtime with no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python serves that package. So nothing has to compile once you start."
+        }
+      ]
+    },
+    {
+      "tStartMs": 219000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Floor plan turns your codebase into an interactive map when you need to figure out how an app actually fits together."
+        }
+      ]
+    },
+    {
+      "tStartMs": 226000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Ask Claude Code or Codeex to draw one and you can zoom from the big picture down to individual files and endpoints."
+        }
+      ]
+    },
+    {
+      "tStartMs": 233000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It follows connections between front-end requests and backend routes, even across repos. You can also ask the map a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 240000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "question and get a smaller diagram of the pieces involved."
+        }
+      ]
+    },
+    {
+      "tStartMs": 244000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open Duet is Copilot Kit's open-source proactive agent that gets work done before you ask. Built on their OpenBot"
+        }
+      ]
+    },
+    {
+      "tStartMs": 252000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "platform, it starts your day with a short brief of what changed and what needs a decision from you. It sorts your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 259000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mail and calendar into what needs you now and what can wait. hand it a task and it keeps working on a computer of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 266000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "its own with a real browser and its own files."
+        }
+      ]
+    },
+    {
+      "tStartMs": 270000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Cargle's calendar prototype gives you a working interface to study instead of another static dashboard mockup. You can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "drag events around the calendar, resize them, and switch between day, week, and month views. The time off page counts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 285000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "working days and previews the remaining balance. It's built with Nex.js JS and runs entirely in the browser, so the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 292000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "data stays in local storage and there's no backend."
+        }
+      ]
+    },
+    {
+      "tStartMs": 296000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zeroach toolkit is a free Python tool that checks your computer, your Android phone, or an iPhone backup for traces of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "known mercenary spyware like Pegasus, Predator, and Graphite. It only reads, never changes anything, and makes no"
+        }
+      ]
+    },
+    {
+      "tStartMs": 312000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "requests while it scans. It compares what it finds against published indicators from security researchers."
+        }
+      ]
+    },
+    {
+      "tStartMs": 319000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bigga turns a flatpack furniture product name or article number into an animated 3D assembly guide drawn in the familiar"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "black and white line art style. It's built with Nex.js and 3JS and a generator works out the steps for more"
+        }
+      ]
+    },
+    {
+      "tStartMs": 334000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "than 1100 products on its own with no AI call needed. You can step through a guide by voice, print it, or ask a help chat to redraw a confusing step."
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kinsaku is a local desktop search app for your files, documents, code, and images. It reads each file once and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 352000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "builds both a keyword index and a semantic one, so you can search by exact words or by meaning. It pulls text out of PDFs, office files, and code, and even reads text in screenshots with OCR."
+        }
+      ]
+    },
+    {
+      "tStartMs": 364000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Results are ranked by relevance, similarity, how recent they are, and where they live."
+        }
+      ]
+    },
+    {
+      "tStartMs": 370000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bama, short for build any Mac app, is a set of agent skills for cloud code and codecs that takes a native Mac OS app"
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from idea to working build in Swift and Swift UI. The agent turns your idea into user stories with acceptance criteria"
+        }
+      ]
+    },
+    {
+      "tStartMs": 384000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and groups them into milestones. Then it builds one story per commit, snapshots every screen in light and dark mode, and runs the tests."
+        }
+      ]
+    },
+    {
+      "tStartMs": 394000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Hokum gives your Whan desktop a control center for notifications, sound, and Bluetooth. Notification cards slide in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 401000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "and rearrange themselves, while a tray panel puts volume, connected devices, and do not disturb close at hand. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 409000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can pair Bluetooth devices from the app and control notifications with keyboard shortcuts. It's written in Rust and works with compositors like Hyperland, Sway, and Neri."
+        }
+      ]
+    },
+    {
+      "tStartMs": 420000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Devbox is Rudderstack's open- source coding agent that you run in your own cloud. Give it a task from the command"
+        }
+      ]
+    },
+    {
+      "tStartMs": 427000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "line or from Linear and it plans the change, writes the code, runs the tests, and reviews its own diff. Then it opens"
+        }
+      ]
+    },
+    {
+      "tStartMs": 434000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "a draft pull request for a person to merge. No code gets written until the plan passes review and CI failures and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "review comments go straight back to the running task."
+        }
+      ]
+    },
+    {
+      "tStartMs": 446000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Duckpad is an open- source SQL workspace for building visual data pipelines powered by DuckDB and installed as a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 453000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Python package. You connect sources, joins, and reusable parts into a pipeline or write SQL directly in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "editor. Click any cell in a result and it traces back to the exact source values that produced it. Projects save"
+        }
+      ]
+    },
+    {
+      "tStartMs": 467000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to git so you can branch, compare changes, and review merges just like code."
+        }
+      ]
+    },
+    {
+      "tStartMs": 473000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Pika H3 Flex is an openweight video model from PA Labs that generates video with matching stereo audio built as"
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "adapters on top of Miniaax's H3. You can start from a text prompt, a first frame, a last frame, both, or up to 12"
+        }
+      ]
+    },
+    {
+      "tStartMs": 487000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reference images and clips. It renders 5 to 15sec videos at up to 768p across 11 aspect ratios in only six sampling steps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 497000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The analytics playbook is Atlan's open guide to building AI analytics agents that give the right business numbers. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "walks through five phases with a check at the end of each one. You start by locking in a golden set of real"
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "questions from your analysts before building anything."
+        }
+      ]
+    },
+    {
+      "tStartMs": 516000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then you pull metric definitions out of your past SQL and dashboards and improve the agent by studying where it fails."
+        }
+      ]
+    },
+    {
+      "tStartMs": 524000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Kinettoraphph is a programmatic video engine built for AI agents. You write videos in Typescript with Remotions API"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "using CSS, SVG, canvas, and even webgl shaders. Instead of driving a hidden Chrome browser, it uses a Rust"
+        }
+      ]
+    },
+    {
+      "tStartMs": 538000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "compositor on the GPU with Skia and FFmpeg, so there's no browser anywhere in the pipeline. Existing Remotion projects render asis, and it ships an MCP server, so an agent can drive it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 550000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "ESP32 USB to AirPrint is firmware that turns an old USBon printer into a wireless one using a cheap ESP32S3"
+        }
+      ]
+    },
+    {
+      "tStartMs": 558000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "board. Plug the board into the printer's USB port. Connect it to your Wi-Fi and it speaks the printer's USB protocol for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 566000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "you. Then your iPhone and Mac can print over AirPrint, Android phones over Mopria, and Linux 2 with no drivers or apps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 574000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Survival LLM is a free AI assistant for emergency and survival questions that runs entirely on your own computer with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 582000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no internet needed. It uses local models through Olama and answers from an offline library of medical, emergency, and how-to articles drawn from sources"
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like Wikipedia, Medline Plus, the CDC, and FEMA. Every answer shows the articles it used, and the app checks"
+        }
+      ]
+    },
+    {
+      "tStartMs": 598000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "that those really are the articles it opened."
+        }
+      ]
+    },
+    {
+      "tStartMs": 602000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "AIP phone turns an Apple Silicon Mac into a voice agent that can make and answer phone calls. Give it a task like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 610000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "asking a restaurant about a reservation and it returns a transcript when the call ends. Speech recognition and voice"
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "generation run locally and you can choose a local model for the conversation, too. Outgoing calls start with an AI disclosure and it currently handles one English call at a time."
+        }
+      ]
+    },
+    {
+      "tStartMs": 629000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lightost is a self-hosted social media scheduler that lets you prepare one post and send it to multiple accounts from a single dashboard. It supports platforms"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "including Blue Sky, Mastadon, Instagram, and Telegram with posts you can publish immediately or schedule for later. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 645000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs on Python and SQLite. And the creator says it's light enough to run on a Raspberry Pi 0."
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Glyph brings the look of nothing OS to a hyperland desktop with black backgrounds, dotted white text, and a splash of red. It's built with quick"
+        }
+      ]
+    },
+    {
+      "tStartMs": 662000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "shell and includes a launcher, quick settings, screenshots, and a lock screen. The screen edges even light up for things like volume changes and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 670000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "notifications. If you like tweaking your Linux desktop, there's plenty here to take apart."
+        }
+      ]
+    },
+    {
+      "tStartMs": 677000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mini CPM OCR turns PDFs and document images into usable text, tables, and formulas, even when the pages are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 684000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "photographed or curved. The interesting part is its companion model, Jev, which scores individual regions of the result"
+        }
+      ]
+    },
+    {
+      "tStartMs": 692000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "to help you find what needs a closer look. You can run the models locally and export parsed documents as markdown or JSON."
+        }
+      ]
+    },
+    {
+      "tStartMs": 700000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Lever is GitHub's plugin of copilot skills for building feedback loops for coding agents. You define a metric, a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "way to measure it, and a bar for what counts as better. And the agent keeps iterating until it clears that bar. One command picks a playbook for briefing a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "task, delivering it, refactoring, or shephering a pull request through to merge. Autonomy levels from 0 to 5"
+        }
+      ]
+    },
+    {
+      "tStartMs": 724000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "decide how much the agent can do on its own."
+        }
+      ]
+    },
+    {
+      "tStartMs": 728000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Dontello is a tiny Mac OS tool that automatically clicks don't allow on those find devices on your local network"
+        }
+      ]
+    },
+    {
+      "tStartMs": 735000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "popups written in Swift with no dependencies. It runs quietly in the background and uses no CPU until a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "prompt shows up. When one does it checks the dialogue really is a local network request and that the app isn't on your allow list, then denies it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 751000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Video to game is a skill for coding agents like Claude Code and Codeex that turns a gameplay video into a playable"
+        }
+      ]
+    },
+    {
+      "tStartMs": 758000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "browser game built with 3JS. The agent studies the clip frame by frame pulling out the look, the pallet, and the cuts."
+        }
+      ]
+    },
+    {
+      "tStartMs": 765000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It writes a game spec, generates every asset through foul from images to 3D models and sound, and builds the whole game into one HTML file."
+        }
+      ]
+    },
+    {
+      "tStartMs": 775000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Grimrompter is a set of threat modeling prompts for coding agents like Claude Code and Codeex from security expert Jim"
+        }
+      ]
+    },
+    {
+      "tStartMs": 783000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Manico. Link its skill into your agent and ask for a threat model quick or deep. The agent reads your code without"
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "changing anything and works through established frameworks like Stride and MITER attack. Every finding points to the exact file and line, and each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "proposed fix comes with a plan for checking it actually works."
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Skill diet is an agent skill that keeps your other agent skills lean, building on Matt PCO's writing for agents rules."
+        }
+      ]
+    },
+    {
+      "tStartMs": 813000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It measures a skill, cuts what the model already knows, and rewrites the rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 817000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Then it runs a before and after test, and only keeps the slimmer version if agents do at least as well. For skills that wrap a command line tool or an API,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it also checks the instructions against the real tool and reads session logs to find the calls you use most."
+        }
+      ]
+    },
+    {
+      "tStartMs": 834000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agent Loop is a Go library for building AI agents without writing the tool calling loop from scratch. It sends"
+        }
+      ]
+    },
+    {
+      "tStartMs": 841000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "requests to a model, runs the tools it asks for, and feeds the results back until there's an answer. You can set"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "budgets, add approval hooks, and inspect a trace of each run. It also includes search and coding agents as examples so you can see how the pieces fit together."
+        }
+      ]
+    },
+    {
+      "tStartMs": 859000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Filmic is a plugin that adds real-time film emulation to Unreal Engine 5. Drop one actor into your level. Pick a look and it runs a whole chain of effects."
+        }
+      ]
+    },
+    {
+      "tStartMs": 869000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Film color, animated grain, hellation around bright lights, bloom, and lens artifacts. A single slider blends"
+        }
+      ]
+    },
+    {
+      "tStartMs": 876000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "between Unreal's own output and the film look. Every one of its nearly 200 settings can be animated in sequencer or driven from blueprints."
+        }
+      ]
+    },
+    {
+      "tStartMs": 886000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "English RS is a Rust project that checks English grammar the way the compiler checks code. Write a sentence inside its"
+        }
+      ]
+    },
+    {
+      "tStartMs": 893000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "macro and Rust's type system catches mistakes like a singular subject with a plural verb or the wrong article. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 900000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "even treats pronouns as borrows of the nouns they refer to. So, a dangling pronoun gets rejected by the borrow checker."
+        }
+      ]
+    }
+  ]
+}

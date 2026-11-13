@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "id": "yjj4Jwcmt68",
+  "title": "GitHub Trending monthly #12（2026.10）",
+  "url": "https://www.youtube.com/watch?v=yjj4Jwcmt68",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-11-01",
+  "duration": 907,
+  "word_count": 2458,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:04:30+00:00",
+    "metadata_sha256": "5acd794bb73476a17c4d39e160a08b53ac38954a2ac82c59d2e9ff62b5a199e8",
+    "captions_sha256": "c941d1f1393667a9e1cd08a7f6bdf0fad834e177b681a21299c37b6ced12ead9",
+    "cleanup_version": "1"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 13,
+      "paragraphs": [
+        "Here are 35 projects that caught developers attention in October. You'll recognize a few from earlier episodes, but this time the month's biggest finds are all in one place. Let's get into it."
+      ]
+    },
+    {
+      "start": 13,
+      "title": "cleanyourtv",
+      "repositories": [
+        "https://github.com/Gathin23/cleanyourtv"
+      ],
+      "id": "s002",
+      "end": 37,
+      "paragraphs": [
+        "Clean Your TV helps you clean up an Android or Google TV and replace its crowded home screen with a simple app dock. It connects over Wi-Fi, backs up your settings, and can disable pre-installed apps and add services you don't want. You can use a coding assistant to guide the setup or do it yourself. The project also includes a restore tool if you change your mind."
+      ]
+    },
+    {
+      "start": 37,
+      "title": "DeepInfer",
+      "repositories": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "id": "s003",
+      "end": 63,
+      "paragraphs": [
+        "Deepsee has open-sourced part of the system it uses to run its AI models at scale. Deep infer handles things like batching requests, distributing work across accelerators, and generating structured outputs such as JSON. The release runs DeepSeek V4.1 Flash offline on supported Nvidia and Huawei hardware. You'll still need to build extra components to turn it into a complete online service."
+      ]
+    },
+    {
+      "start": 63,
+      "title": "anatomy",
+      "repositories": [
+        "https://github.com/wheresryan22/anatomy"
+      ],
+      "id": "s004",
+      "end": 89,
+      "paragraphs": [
+        "Anatomy is an agent skill that draws interactive isometric illustrations of machines and complex systems with no npm dependencies at all. You give it a concept and the agent gathers real numbers, invents a physical object that shows how it works, then builds it with a drawing kit. The result is a shaded SVG with live readouts and smooth motion, plus optional WebGL effects for fire, water, and light."
+      ]
+    },
+    {
+      "start": 89,
+      "title": "harness2",
+      "repositories": [
+        "https://github.com/google-research/harness2"
+      ],
+      "id": "s005",
+      "end": 112,
+      "paragraphs": [
+        "Harness Squared from Google Research improves everything around an AI model from prompts and tools to memory and skills while leaving the model itself untouched. For each task, it proposes changes to the harness, tests them, and keeps whatever behaves best with no answer key needed. Lessons from those runs are saved so later tasks start from a better harness."
+      ]
+    },
+    {
+      "start": 112,
+      "title": "math",
+      "repositories": [
+        "https://github.com/openai/math"
+      ],
+      "id": "s006",
+      "end": 136,
+      "paragraphs": [
+        "OpenAI's math repository is a public dump of research manuscripts written by an unnamed internal model used to test it on open problems in mathematics. The model was given about 4,000 problems and averaged around 3 hours of thinking on each result it kept. That produced 721 manuscripts across 373 problem families, all in PDF and latex."
+      ]
+    },
+    {
+      "start": 136,
+      "title": "wordcraft",
+      "repositories": [
+        "https://github.com/storytold/wordcraft"
+      ],
+      "id": "s007",
+      "end": 163,
+      "paragraphs": [
+        "Wordcraft is an open- source word processor written in Rust, a clean room rebuild of the classic desktop word processor. It opens and saves dox files, reads old doc files, and exports to PDF. It handles styles, tables, track changes, comments, and mail merge with spelling and grammar checks that work offline. The interface draws natively on the GPU, and the same app can even run in your browser through web assembly."
+      ]
+    },
+    {
+      "start": 163,
+      "title": "gpu-unlock",
+      "repositories": [
+        "https://github.com/Zagitta/gpu-unlock"
+      ],
+      "id": "s008",
+      "end": 191,
+      "paragraphs": [
+        "GPU unlock is a Linux kernel module that lifts a cap Nvidia places on the tensor cores of its GeForce cards. On these cards, FP16, BF-16, and TF-32 matrix math runs at half the speed the hardware can do. The module loads at boot before Nvidia's own driver and removes that limit without a patched driver or a VIOS flash. It's stable on RTX30 cards and experimental on the 20 and 40 series."
+      ]
+    },
+    {
+      "start": 191,
+      "title": "replica-skill",
+      "repositories": [
+        "https://github.com/Jakeschincariol/replica-skill"
+      ],
+      "id": "s009",
+      "end": 217,
+      "paragraphs": [
+        "Replica skill is a set of 11 clawed skills that study an existing app and rebuild its features as a new product of your own. They run in order from recon and architecture to design, build, backend, testing, and deploy. Each picking up where the last one left off. It's clean room, copying features and flows, but never code logos or text. And it scores how close your version's features get to the original."
+      ]
+    },
+    {
+      "start": 217,
+      "title": "DigUp",
+      "repositories": [
+        "https://github.com/ARahim3/DigUp"
+      ],
+      "id": "s010",
+      "end": 242,
+      "paragraphs": [
+        "Digup is a Mac OS menu bar app that finds files on your Mac by describing what's in them. Built on Google Deep Minds embedding Gemma 2 running locally through llama.cpp. Search in plain words in more than 100 languages and it pulls up the matching photo document or code, even the exact page of a PDF. It can jump straight to the right moment in a video or podcast."
+      ]
+    },
+    {
+      "start": 242,
+      "title": "everything",
+      "repositories": [
+        "https://github.com/HeyPuter/everything"
+      ],
+      "id": "s011",
+      "end": 268,
+      "paragraphs": [
+        "The everything project from the team behind Pewtor is a single repo that sets out to rebuild the world's common software from scratch as open source. It holds about 40 apps in one place. Office tools like a spreadsheet, documents, and slides. Creative tools for photos, video, vector art, audio, and 3D, plus CAD, circuit design, a CRM, accounting, and invoicing. There are even games like chess and sudoku."
+      ]
+    },
+    {
+      "start": 268,
+      "title": "free-my-tv",
+      "repositories": [
+        "https://github.com/simbasjungles/free-my-tv"
+      ],
+      "id": "s012",
+      "end": 294,
+      "paragraphs": [
+        "Free My TV replaces the ad-filled home screen on Google TV and Android TV with a clean one built as a plain Android app with no outside libraries. Your chosen streaming apps sit on a glass shelf. Every hour, it shows three trending picks, but only from apps you already have split into movies and shows. You also get the hourly weather, sunrise and sunset, and a screen saver with a big clock."
+      ]
+    },
+    {
+      "start": 294,
+      "title": "ub-mode",
+      "repositories": [
+        "https://github.com/unclebob/ub-mode"
+      ],
+      "id": "s013",
+      "end": 321,
+      "paragraphs": [
+        "UB mode is a coding agent skill built around Uncle Bob's software engineering principles. It tells your agent to think through the problem, write tests, fix root causes, and refactor as it goes. It also works with companion tools that check code complexity, find duplication, and run mutation tests to see whether your tests catch broken behavior. The goal is to give your AI coding sessions a bit more discipline."
+      ]
+    },
+    {
+      "start": 321,
+      "title": "horizon",
+      "repositories": [
+        "https://github.com/horizon-rust/horizon"
+      ],
+      "id": "s014",
+      "end": 343,
+      "paragraphs": [
+        "Horizon is an unofficial rewrite of Minecraft Java Edition in Rust, rendering with WGPU and Vulcan. It contains no Minecraft code or assets. Its launcher builds everything from your own copy of the game. It reads the same worlds, generates the same terrain, and runs the same mobs and redstone checked against the original by differential test harnesses."
+      ]
+    },
+    {
+      "start": 343,
+      "title": "DS-Bot",
+      "repositories": [
+        "https://github.com/Fei2411/DS-Bot"
+      ],
+      "id": "s015",
+      "end": 368,
+      "paragraphs": [
+        "DSBot is a community plugin for DeepSeek Harness that lets you build a team of longived AI bots that remember things. A main bot called the Chief runs things and you can drop several bots into a group chat with one acting as admin. Each bot gets its own memory and its own choice of model. They hand work off to each other and share one library of MCP servers and skills."
+      ]
+    },
+    {
+      "start": 368,
+      "title": "esp32-iphone-agent",
+      "repositories": [
+        "https://github.com/onehumanbeing/esp32-iphone-agent"
+      ],
+      "id": "s016",
+      "end": 397,
+      "paragraphs": [
+        "ESP32 iPhone agent lets an AI model use a real iPhone with a board that costs about $7 as its hands. The phone mirrors its screen to a computer over AirPlay, which is how the model sees it. The ESP32S3 board plugs into the phone as an ordinary USB mouse and keyboard, and assistive touch turns every click into a tap. One model plans the steps toward your goal, and another picks each next move from the latest screenshot."
+      ]
+    },
+    {
+      "start": 397,
+      "title": "pele",
+      "repositories": [
+        "https://github.com/obsidianmd/pele"
+      ],
+      "id": "s017",
+      "end": 423,
+      "paragraphs": [
+        "Pella is a tiny library from the Obsidian team that turns mermaid diagram text into SVG with no dependencies at all. It supports every diagram type in Mermaid 12.1, but draws them with its own layout and visual style. Rendering happens instantly and synchronously, so there's nothing to wait for. Colors and fonts come from CSS variables, so a theme change shows up without redrawing the diagram."
+      ]
+    },
+    {
+      "start": 423,
+      "title": "Zero-Breach-Toolkit",
+      "repositories": [
+        "https://github.com/interplains/Zero-Breach-Toolkit"
+      ],
+      "id": "s018",
+      "end": 449,
+      "paragraphs": [
+        "Zeroach toolkit checks your devices for traces of known spyware, including Pegasus and Predator. It can scan computers, analyze data collected from Android phones, and check iPhone backups. The scan runs offline and produces a report showing what it found and what it couldn't check. A clean result doesn't prove a device is safe, but it can help you decide what needs a closer look."
+      ]
+    },
+    {
+      "start": 449,
+      "title": "openfilm",
+      "repositories": [
+        "https://github.com/openfilm/openfilm"
+      ],
+      "id": "s019",
+      "end": 476,
+      "paragraphs": [
+        "Openilm is an open source tool that lets coding agents like Claude Code and Codex make videos as web pages. Every shot is a page with one function that draws the picture at any moment in time. And an HTML timeline lines the shots up into tracks. The same moment always draws the same frame, so renders come out identical every time. A local editor called Studio lets you tweak things by hand or just ask the agent."
+      ]
+    },
+    {
+      "start": 476,
+      "title": "leanrea",
+      "repositories": [
+        "https://github.com/aicodeking/leanrea"
+      ],
+      "id": "s020",
+      "end": 499,
+      "paragraphs": [
+        "Leanria is a tiny agent skill, just one 8 kilobyte file for reverse engineering apps and binaries built as a lighter alternative to the REA tool set. It doesn't add an MCP server at all. Instead, it tells your agent which ordinary command line tool fits each kind of target from Electron app archives to Mac OS binaries, Go programs, Android apps, and web assembly."
+      ]
+    },
+    {
+      "start": 499,
+      "title": "day-trader-skill",
+      "repositories": [
+        "https://github.com/Jakeschincariol/day-trader-skill"
+      ],
+      "id": "s021",
+      "end": 526,
+      "paragraphs": [
+        "Day trader is a set of 11 clawed skills for practicing day trading on US stocks written in plain Python using free public data. The skills hand off to each other. One scans charts, another watches the news, then others time your entry and exit, size the position, and check it against your risk limits. Paper trading is on by default, and nothing places an order until you approve that exact trade."
+      ]
+    },
+    {
+      "start": 526,
+      "title": "earshot",
+      "repositories": [
+        "https://github.com/Leonxlnx/earshot"
+      ],
+      "id": "s022",
+      "end": 553,
+      "paragraphs": [
+        "Earshot gives coding agents the ability to understand sound running on the CPU as a command line tool, a Python API, or an MCP server. It describes what a recording sounds like in plain words, scores how well a sound matches a description, and finds the best moments in a long clip. It can check sound against video cuts, tell a real recording from a synthesized one, and even write code that recreates a sound effect."
+      ]
+    },
+    {
+      "start": 553,
+      "title": "CCBaga",
+      "repositories": [
+        "https://github.com/liseami/CCBaga"
+      ],
+      "id": "s023",
+      "end": 578,
+      "paragraphs": [
+        "CC BAGA is a desktop toolkit for managing multiple local clawed workspaces. You can archive one identity, switch to another, and choose which settings and conversation history stay with each one. It also includes a separate browser profile and tools to check whether your browser's language and time zone match your network location. It works on Windows, Linux, and Apple Silicon Max."
+      ]
+    },
+    {
+      "start": 578,
+      "title": "owly",
+      "repositories": [
+        "https://github.com/t4t5/owly"
+      ],
+      "id": "s024",
+      "end": 602,
+      "paragraphs": [
+        "Ali brings AirDrop to the Linux so you can send photos and files directly between your computer and an iPhone. Your Linux machine can show up in the iPhone's share menu and it can send files back too. It works with a range of Wi-Fi cards, though compatibility varies. On some cards, your regular Wi-Fi connection pauses during a transfer, so check the hardware list first."
+      ]
+    },
+    {
+      "start": 602,
+      "title": "hairline",
+      "repositories": [
+        "https://github.com/lucasmarkes/hairline"
+      ],
+      "id": "s025",
+      "end": 627,
+      "paragraphs": [
+        "Hairline gives your website a collection of interactive line illustrations that respond to your cursor. Hover over a keyboard and the keys sync. Move across a phone and its layers pull apart. There are more than 30 figures and you can adjust their colors and how strongly they move. It works with React or plain web projects and there's a coding agent skill for creating your own. Tendero is a Mac OS app that hangs your screenshots"
+      ]
+    },
+    {
+      "start": 627,
+      "title": "tendedero",
+      "repositories": [
+        "https://github.com/alejandrobujan/tendedero"
+      ],
+      "id": "s026",
+      "end": 654,
+      "paragraphs": [
+        "on a little clos line at the top of the screen instead of piling them on your desktop built in Swift. Rest your pointer in the menu bar and the line slides down with your latest shots. Click one to copy it. Hold to mark it up or double click to open it in preview. Drag a screenshot into any app to drop in a copy or into a folder to take it off the line."
+      ]
+    },
+    {
+      "start": 654,
+      "title": "OXR",
+      "repositories": [
+        "https://github.com/SoMarkAI/OXR"
+      ],
+      "id": "s027",
+      "end": 679,
+      "paragraphs": [
+        "OXR turns messy PDFs and document images into data your AI tools can actually work with. It picks out text, tables, formulas, and even chemical structures, then exports the results as markdown or JSON with their positions on the page. You can try it through an online demo or run it yourself on a supported NVIDIA GPU. You can also swap in your own layout model for different kinds of documents."
+      ]
+    },
+    {
+      "start": 679,
+      "title": "net-merge",
+      "repositories": [
+        "https://github.com/net-merge/net-merge"
+      ],
+      "id": "s028",
+      "end": 705,
+      "paragraphs": [
+        "Netmerge combines several internet connections at once, like your Wi-Fi, Ethernet, and a phone hotspot, so your apps use all of them together. It's a single go program that creates a virtual network adapter with no account, no server, and no VPN. Each new connection goes out over one of your links with faster links getting more, and a dead link stops getting traffic until it recovers."
+      ]
+    },
+    {
+      "start": 705,
+      "title": "tsrs",
+      "repositories": [
+        "https://github.com/oxc-project/tsrs"
+      ],
+      "id": "s029",
+      "end": 731,
+      "paragraphs": [
+        "TSRS is a Rust port of the TypeScript 7 type checker from the OX C project. Built to be a drop-in replacement for the official compiler and language server. It aims to match TypeScript's results exactly while using far less memory. Install it with PNPM and run it just like TSC or hook it into your editor as a language server. There's also a web assembly build that runs in Node and in the browser."
+      ]
+    },
+    {
+      "start": 731,
+      "title": "git-ai",
+      "repositories": [
+        "https://github.com/feder-cr/git-ai"
+      ],
+      "id": "s030",
+      "end": 758,
+      "paragraphs": [
+        "Git AI is an open-source version control system designed for lots of coding agents working on the same project. Instead of each agent downloading the whole repository, it can fetch just the files it needs. It batches changes headed for the same branch, keeps a record of which agent made each update, and can use a resolver to propose fixes for merge conflicts. It's based on a design anthropic described called Scion."
+      ]
+    },
+    {
+      "start": 758,
+      "title": "muse-gadget-sdk",
+      "repositories": [
+        "https://github.com/facebookincubator/muse-gadget-sdk"
+      ],
+      "id": "s031",
+      "end": 782,
+      "paragraphs": [
+        "Muse Gadgets lets you build your own devices that connect to the Muse app. Grab an ESP32 board or a Raspberry Pi. Add a screen, buttons, or sensors, and use the SDK to make them work together. You could turn a spare Pi into a gadget for controlling your home assistant setup. The code and firmware are open source, though you'll need an SDK token to pair a device."
+      ]
+    },
+    {
+      "start": 782,
+      "title": "3d-model-anything",
+      "repositories": [
+        "https://github.com/wesbos/3d-model-anything"
+      ],
+      "id": "s032",
+      "end": 807,
+      "paragraphs": [
+        "3D model anything from West Boss turns a scan of a room into an editable 3JS scene with an AI agent doing most of the modeling. You capture the room with an iPhone app that records LAR depth and photos. Then a skill walks the agent through measuring the space, building the model, and comparing it against your real photos from the same camera angles over and over until it matches."
+      ]
+    },
+    {
+      "start": 807,
+      "title": "tstack",
+      "repositories": [
+        "https://github.com/t3dotgg/tstack"
+      ],
+      "id": "s033",
+      "end": 833,
+      "paragraphs": [
+        "Tstack is Theo's own set of agent skills for Claude code and codeex cleaned up so anyone can use the ones he relies on every day. Each skill fires from a simple phrase, say full send, and an agent proves a change works, gets it reviewed, files the pull request, watches CI and the review bots, then merges. Say council, and you get a second opinion on your change from models built by other companies."
+      ]
+    },
+    {
+      "start": 833,
+      "title": "manimgx",
+      "repositories": [
+        "https://github.com/academa-labs/manimgx"
+      ],
+      "id": "s034",
+      "end": 857,
+      "paragraphs": [
+        "Manomm GX lets you create animated math explainers and 3D videos using Python. It follows Manim's API, but uses a Rust rendering engine that runs on your GPU. You can combine equations and graphs with 3D objects and moving cameras, then export the result as a video. It also works in the browser and a coding agent can help you write and check the scenes."
+      ]
+    },
+    {
+      "start": 857,
+      "title": "hatchzip",
+      "repositories": [
+        "https://github.com/xevrion/hatchzip"
+      ],
+      "id": "s035",
+      "end": 881,
+      "paragraphs": [
+        "Hatchzip helps you unpack large archives when your drive is nearly full. It extracts the files while shrinking the original archive, freeing up space as it goes. It supports formats like zip, 7z, raar, and tar, and it checks whether the extraction will fit before starting. The archive is used up during this process, but you can choose to keep it if you have enough space."
+      ]
+    },
+    {
+      "start": 881,
+      "title": "BRUTAL",
+      "repositories": [
+        "https://github.com/ahwootech/BRUTAL"
+      ],
+      "id": "s036",
+      "end": 907,
+      "paragraphs": [
+        "Brutal is a C# framework for developers who want to build a game or even their own game engine. It gives you building blocks for graphics, physics, audio, and networking. while leaving the bigger design decisions to you. It's already the foundation beneath Kitten Space Agency and Rim World's Way engine. There's no built-in editor or renderer, so expect to do some hands-on work."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Here are 35 projects that caught developers attention in October. You'll recognize a few from earlier episodes,"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "but this time the month's biggest finds are all in one place. Let's get into it."
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "text": "Clean Your TV helps you clean up an Android or Google TV and replace its crowded home screen with a simple app dock. It connects over Wi-Fi, backs up"
+    },
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "your settings, and can disable pre-installed apps and add services you don't want. You can use a coding assistant to guide the setup or do it"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "text": "yourself. The project also includes a restore tool if you change your mind."
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "text": "Deepsee has open-sourced part of the system it uses to run its AI models at scale. Deep infer handles things like"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "batching requests, distributing work across accelerators, and generating structured outputs such as JSON. The"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "release runs DeepSeek V4.1 Flash offline on supported Nvidia and Huawei hardware."
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "text": "You'll still need to build extra components to turn it into a complete online service."
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Anatomy is an agent skill that draws interactive isometric illustrations of machines and complex systems with no npm"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "text": "dependencies at all. You give it a concept and the agent gathers real numbers, invents a physical object that shows how it works, then builds it with"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "text": "a drawing kit. The result is a shaded SVG with live readouts and smooth motion, plus optional WebGL effects for fire, water, and light."
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "Harness Squared from Google Research improves everything around an AI model from prompts and tools to memory and"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "skills while leaving the model itself untouched. For each task, it proposes changes to the harness, tests them, and"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "text": "keeps whatever behaves best with no answer key needed. Lessons from those runs are saved so later tasks start from a better harness."
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "text": "OpenAI's math repository is a public dump of research manuscripts written by an unnamed internal model used to test"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "text": "it on open problems in mathematics. The model was given about 4,000 problems and averaged around 3 hours of thinking on"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "each result it kept. That produced 721 manuscripts across 373 problem families, all in PDF and latex."
+    },
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "Wordcraft is an open- source word processor written in Rust, a clean room rebuild of the classic desktop word"
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "processor. It opens and saves dox files, reads old doc files, and exports to PDF."
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "It handles styles, tables, track changes, comments, and mail merge with spelling and grammar checks that work offline. The interface draws natively on"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "the GPU, and the same app can even run in your browser through web assembly."
+    },
+    {
+      "start": 164.0,
+      "end": 164.0,
+      "text": "GPU unlock is a Linux kernel module that lifts a cap Nvidia places on the tensor cores of its GeForce cards. On these"
+    },
+    {
+      "start": 171.0,
+      "end": 171.0,
+      "text": "cards, FP16, BF-16, and TF-32 matrix math runs at half the speed the hardware can do. The module loads at boot before"
+    },
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "Nvidia's own driver and removes that limit without a patched driver or a VIOS flash. It's stable on RTX30 cards and experimental on the 20 and 40 series."
+    },
+    {
+      "start": 191.0,
+      "end": 191.0,
+      "text": "Replica skill is a set of 11 clawed skills that study an existing app and rebuild its features as a new product of"
+    },
+    {
+      "start": 198.0,
+      "end": 198.0,
+      "text": "your own. They run in order from recon and architecture to design, build, backend, testing, and deploy. Each picking up where the last one left off."
+    },
+    {
+      "start": 208.0,
+      "end": 208.0,
+      "text": "It's clean room, copying features and flows, but never code logos or text. And it scores how close your version's features get to the original."
+    },
+    {
+      "start": 217.0,
+      "end": 217.0,
+      "text": "Digup is a Mac OS menu bar app that finds files on your Mac by describing what's in them. Built on Google Deep"
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Minds embedding Gemma 2 running locally through llama.cpp."
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "Search in plain words in more than 100 languages and it pulls up the matching photo document or code, even the exact"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "page of a PDF. It can jump straight to the right moment in a video or podcast."
+    },
+    {
+      "start": 242.0,
+      "end": 242.0,
+      "text": "The everything project from the team behind Pewtor is a single repo that sets out to rebuild the world's common software from scratch as open source. It"
+    },
+    {
+      "start": 251.0,
+      "end": 251.0,
+      "text": "holds about 40 apps in one place. Office tools like a spreadsheet, documents, and slides. Creative tools for photos,"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "video, vector art, audio, and 3D, plus CAD, circuit design, a CRM, accounting, and invoicing. There are even games like chess and sudoku."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Free My TV replaces the ad-filled home screen on Google TV and Android TV with a clean one built as a plain Android app"
+    },
+    {
+      "start": 276.0,
+      "end": 276.0,
+      "text": "with no outside libraries. Your chosen streaming apps sit on a glass shelf."
+    },
+    {
+      "start": 281.0,
+      "end": 281.0,
+      "text": "Every hour, it shows three trending picks, but only from apps you already have split into movies and shows. You also get the hourly weather, sunrise and"
+    },
+    {
+      "start": 290.0,
+      "end": 290.0,
+      "text": "sunset, and a screen saver with a big clock."
+    },
+    {
+      "start": 294.0,
+      "end": 294.0,
+      "text": "UB mode is a coding agent skill built around Uncle Bob's software engineering principles. It tells your agent to think through the problem, write tests, fix"
+    },
+    {
+      "start": 303.0,
+      "end": 303.0,
+      "text": "root causes, and refactor as it goes. It also works with companion tools that check code complexity, find duplication,"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "and run mutation tests to see whether your tests catch broken behavior. The goal is to give your AI coding sessions a bit more discipline."
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "Horizon is an unofficial rewrite of Minecraft Java Edition in Rust, rendering with WGPU and Vulcan. It contains no Minecraft code or assets."
+    },
+    {
+      "start": 331.0,
+      "end": 331.0,
+      "text": "Its launcher builds everything from your own copy of the game. It reads the same worlds, generates the same terrain, and runs the same mobs and redstone checked"
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "against the original by differential test harnesses."
+    },
+    {
+      "start": 344.0,
+      "end": 344.0,
+      "text": "DSBot is a community plugin for DeepSeek Harness that lets you build a team of longived AI bots that remember things. A"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "main bot called the Chief runs things and you can drop several bots into a group chat with one acting as admin."
+    },
+    {
+      "start": 359.0,
+      "end": 359.0,
+      "text": "Each bot gets its own memory and its own choice of model. They hand work off to each other and share one library of MCP servers and skills."
+    },
+    {
+      "start": 368.0,
+      "end": 368.0,
+      "text": "ESP32 iPhone agent lets an AI model use a real iPhone with a board that costs about $7 as its hands. The phone mirrors"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "its screen to a computer over AirPlay, which is how the model sees it. The ESP32S3 board plugs into the phone as an"
+    },
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "ordinary USB mouse and keyboard, and assistive touch turns every click into a tap. One model plans the steps toward"
+    },
+    {
+      "start": 392.0,
+      "end": 392.0,
+      "text": "your goal, and another picks each next move from the latest screenshot."
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Pella is a tiny library from the Obsidian team that turns mermaid diagram text into SVG with no dependencies at"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "all. It supports every diagram type in Mermaid 12.1, but draws them with its own layout and visual style. Rendering"
+    },
+    {
+      "start": 412.0,
+      "end": 412.0,
+      "text": "happens instantly and synchronously, so there's nothing to wait for. Colors and fonts come from CSS variables, so a theme change shows up without redrawing the diagram."
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "Zeroach toolkit checks your devices for traces of known spyware, including Pegasus and Predator. It can scan"
+    },
+    {
+      "start": 431.0,
+      "end": 431.0,
+      "text": "computers, analyze data collected from Android phones, and check iPhone backups. The scan runs offline and"
+    },
+    {
+      "start": 438.0,
+      "end": 438.0,
+      "text": "produces a report showing what it found and what it couldn't check. A clean result doesn't prove a device is safe, but it can help you decide what needs a closer look."
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "Openilm is an open source tool that lets coding agents like Claude Code and Codex make videos as web pages. Every shot is"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "a page with one function that draws the picture at any moment in time. And an HTML timeline lines the shots up into"
+    },
+    {
+      "start": 463.0,
+      "end": 463.0,
+      "text": "tracks. The same moment always draws the same frame, so renders come out identical every time. A local editor"
+    },
+    {
+      "start": 471.0,
+      "end": 471.0,
+      "text": "called Studio lets you tweak things by hand or just ask the agent."
+    },
+    {
+      "start": 476.0,
+      "end": 476.0,
+      "text": "Leanria is a tiny agent skill, just one 8 kilobyte file for reverse engineering apps and binaries built as a lighter"
+    },
+    {
+      "start": 483.0,
+      "end": 483.0,
+      "text": "alternative to the REA tool set. It doesn't add an MCP server at all."
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "Instead, it tells your agent which ordinary command line tool fits each kind of target from Electron app archives to Mac OS binaries, Go"
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "programs, Android apps, and web assembly."
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "Day trader is a set of 11 clawed skills for practicing day trading on US stocks written in plain Python using free"
+    },
+    {
+      "start": 506.0,
+      "end": 506.0,
+      "text": "public data. The skills hand off to each other. One scans charts, another watches the news, then others time your entry"
+    },
+    {
+      "start": 514.0,
+      "end": 514.0,
+      "text": "and exit, size the position, and check it against your risk limits. Paper trading is on by default, and nothing"
+    },
+    {
+      "start": 521.0,
+      "end": 521.0,
+      "text": "places an order until you approve that exact trade."
+    },
+    {
+      "start": 526.0,
+      "end": 526.0,
+      "text": "Earshot gives coding agents the ability to understand sound running on the CPU as a command line tool, a Python API, or"
+    },
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "an MCP server. It describes what a recording sounds like in plain words, scores how well a sound matches a"
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "description, and finds the best moments in a long clip. It can check sound against video cuts, tell a real recording from a synthesized one, and"
+    },
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "even write code that recreates a sound effect."
+    },
+    {
+      "start": 553.0,
+      "end": 553.0,
+      "text": "CC BAGA is a desktop toolkit for managing multiple local clawed workspaces. You can archive one identity, switch to another, and choose"
+    },
+    {
+      "start": 562.0,
+      "end": 562.0,
+      "text": "which settings and conversation history stay with each one. It also includes a separate browser profile and tools to"
+    },
+    {
+      "start": 569.0,
+      "end": 569.0,
+      "text": "check whether your browser's language and time zone match your network location. It works on Windows, Linux, and Apple Silicon Max."
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "Ali brings AirDrop to the Linux so you can send photos and files directly between your computer and an iPhone."
+    },
+    {
+      "start": 585.0,
+      "end": 585.0,
+      "text": "Your Linux machine can show up in the iPhone's share menu and it can send files back too. It works with a range of Wi-Fi cards, though compatibility"
+    },
+    {
+      "start": 594.0,
+      "end": 594.0,
+      "text": "varies. On some cards, your regular Wi-Fi connection pauses during a transfer, so check the hardware list first."
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "Hairline gives your website a collection of interactive line illustrations that respond to your cursor. Hover over a"
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "keyboard and the keys sync. Move across a phone and its layers pull apart."
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "There are more than 30 figures and you can adjust their colors and how strongly they move. It works with React or plain"
+    },
+    {
+      "start": 622.0,
+      "end": 622.0,
+      "text": "web projects and there's a coding agent skill for creating your own. Tendero is a Mac OS app that hangs your screenshots"
+    },
+    {
+      "start": 631.0,
+      "end": 631.0,
+      "text": "on a little clos line at the top of the screen instead of piling them on your desktop built in Swift. Rest your"
+    },
+    {
+      "start": 638.0,
+      "end": 638.0,
+      "text": "pointer in the menu bar and the line slides down with your latest shots."
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "Click one to copy it. Hold to mark it up or double click to open it in preview."
+    },
+    {
+      "start": 647.0,
+      "end": 647.0,
+      "text": "Drag a screenshot into any app to drop in a copy or into a folder to take it off the line."
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "OXR turns messy PDFs and document images into data your AI tools can actually work with. It picks out text, tables,"
+    },
+    {
+      "start": 662.0,
+      "end": 662.0,
+      "text": "formulas, and even chemical structures, then exports the results as markdown or JSON with their positions on the page."
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "You can try it through an online demo or run it yourself on a supported NVIDIA GPU. You can also swap in your own layout model for different kinds of documents."
+    },
+    {
+      "start": 680.0,
+      "end": 680.0,
+      "text": "Netmerge combines several internet connections at once, like your Wi-Fi, Ethernet, and a phone hotspot, so your"
+    },
+    {
+      "start": 687.0,
+      "end": 687.0,
+      "text": "apps use all of them together. It's a single go program that creates a virtual network adapter with no account, no"
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "server, and no VPN. Each new connection goes out over one of your links with faster links getting more, and a dead"
+    },
+    {
+      "start": 701.0,
+      "end": 701.0,
+      "text": "link stops getting traffic until it recovers."
+    },
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "TSRS is a Rust port of the TypeScript 7 type checker from the OX C project."
+    },
+    {
+      "start": 710.0,
+      "end": 710.0,
+      "text": "Built to be a drop-in replacement for the official compiler and language server. It aims to match TypeScript's results exactly while using far less"
+    },
+    {
+      "start": 719.0,
+      "end": 719.0,
+      "text": "memory. Install it with PNPM and run it just like TSC or hook it into your editor as a language server. There's"
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "also a web assembly build that runs in Node and in the browser."
+    },
+    {
+      "start": 731.0,
+      "end": 731.0,
+      "text": "Git AI is an open-source version control system designed for lots of coding agents working on the same project."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Instead of each agent downloading the whole repository, it can fetch just the files it needs. It batches changes headed for the same branch, keeps a"
+    },
+    {
+      "start": 747.0,
+      "end": 747.0,
+      "text": "record of which agent made each update, and can use a resolver to propose fixes for merge conflicts. It's based on a design anthropic described called Scion."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "Muse Gadgets lets you build your own devices that connect to the Muse app. Grab an ESP32 board or a Raspberry Pi."
+    },
+    {
+      "start": 765.0,
+      "end": 765.0,
+      "text": "Add a screen, buttons, or sensors, and use the SDK to make them work together."
+    },
+    {
+      "start": 771.0,
+      "end": 771.0,
+      "text": "You could turn a spare Pi into a gadget for controlling your home assistant setup. The code and firmware are open source, though you'll need an SDK token to pair a device."
+    },
+    {
+      "start": 782.0,
+      "end": 782.0,
+      "text": "3D model anything from West Boss turns a scan of a room into an editable 3JS scene with an AI agent doing most of the"
+    },
+    {
+      "start": 790.0,
+      "end": 790.0,
+      "text": "modeling. You capture the room with an iPhone app that records LAR depth and photos. Then a skill walks the agent"
+    },
+    {
+      "start": 798.0,
+      "end": 798.0,
+      "text": "through measuring the space, building the model, and comparing it against your real photos from the same camera angles over and over until it matches."
+    },
+    {
+      "start": 807.0,
+      "end": 807.0,
+      "text": "Tstack is Theo's own set of agent skills for Claude code and codeex cleaned up so anyone can use the ones he relies on every day. Each skill fires from a"
+    },
+    {
+      "start": 816.0,
+      "end": 816.0,
+      "text": "simple phrase, say full send, and an agent proves a change works, gets it reviewed, files the pull request,"
+    },
+    {
+      "start": 824.0,
+      "end": 824.0,
+      "text": "watches CI and the review bots, then merges. Say council, and you get a second opinion on your change from models built by other companies."
+    },
+    {
+      "start": 833.0,
+      "end": 833.0,
+      "text": "Manomm GX lets you create animated math explainers and 3D videos using Python."
+    },
+    {
+      "start": 839.0,
+      "end": 839.0,
+      "text": "It follows Manim's API, but uses a Rust rendering engine that runs on your GPU."
+    },
+    {
+      "start": 845.0,
+      "end": 845.0,
+      "text": "You can combine equations and graphs with 3D objects and moving cameras, then export the result as a video. It also"
+    },
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "works in the browser and a coding agent can help you write and check the scenes."
+    },
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "Hatchzip helps you unpack large archives when your drive is nearly full. It extracts the files while shrinking the"
+    },
+    {
+      "start": 864.0,
+      "end": 864.0,
+      "text": "original archive, freeing up space as it goes. It supports formats like zip, 7z, raar, and tar, and it checks whether the"
+    },
+    {
+      "start": 873.0,
+      "end": 873.0,
+      "text": "extraction will fit before starting. The archive is used up during this process, but you can choose to keep it if you have enough space."
+    },
+    {
+      "start": 881.0,
+      "end": 881.0,
+      "text": "Brutal is a C# framework for developers who want to build a game or even their own game engine. It gives you building blocks for graphics, physics, audio, and"
+    },
+    {
+      "start": 891.0,
+      "end": 891.0,
+      "text": "networking. while leaving the bigger design decisions to you. It's already the foundation beneath Kitten Space Agency and Rim World's Way engine."
+    },
+    {
+      "start": 899.0,
+      "end": 899.0,
+      "text": "There's no built-in editor or renderer, so expect to do some hands-on work."
+    }
+  ]
+}
