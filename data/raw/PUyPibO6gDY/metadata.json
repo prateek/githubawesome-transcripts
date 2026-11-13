@@ -1,0 +1,9 @@
+{
+  "id": "PUyPibO6gDY",
+  "title": "quill: a Mac meeting recorder that survives crashes, CAF audio needs no finalisation",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-30",
+  "duration": 27,
+  "description": "quill records meetings on a Mac and transcribes them locally, and the engineering choices are all about surviving a crash. Audio writes as CAF rather than m4a because CAF needs no finalisation pass, so a session killed mid-meeting still leaves a readable file. The filesystem acts as the job queue, so anything unfinished picks up on next launch. There's a doctor command purely so you aren't downloading a 600 megabyte model minutes before a call. #github #opensource \n\nhttps://github.com/digimata/quill",
+  "chapters": []
+}

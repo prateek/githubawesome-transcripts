@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "ENVHfPTdciU",
+  "title": "Swiftlet: streams 80B Qwen MoE experts from iPhone SSD, 2.5GB RAM, one token per second",
+  "url": "https://www.youtube.com/watch?v=ENVHfPTdciU",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-04",
+  "duration": 23,
+  "word_count": 63,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:37:37+00:00",
+    "metadata_sha256": "d810651cae26c7372ff4eb9c7442a84ed99e48d6c3b77950f496a225b9a85823",
+    "captions_sha256": "edd9ea97ef90979936702a5b089e25514b8c062d3cd398df163a9243f9f971ee",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/leonickson1/Swiftlet"
+      ],
+      "id": "s001",
+      "end": 23,
+      "paragraphs": [
+        "Swiftllet runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels handle inference. The maintainer reports the 35B model using about 2.5 gigabytes of RAM on an iPhone 17 at roughly one token per"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Swiftllet runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+    },
+    {
+      "start": 6.0,
+      "end": 6.0,
+      "text": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels handle inference. The maintainer reports"
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "the 35B model using about 2.5 gigabytes of RAM on an iPhone 17 at roughly one token per"
+    }
+  ]
+}

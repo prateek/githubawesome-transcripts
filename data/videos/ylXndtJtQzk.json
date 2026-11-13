@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "ylXndtJtQzk",
+  "title": "Deltafin runs Kimi K3, 2.8 trillion parameters and 1.56 terabytes of weights, on a 64GB MacBook",
+  "url": "https://www.youtube.com/watch?v=ylXndtJtQzk",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-28",
+  "duration": 27,
+  "word_count": 81,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:39:25+00:00",
+    "metadata_sha256": "f665520ea4cb2a59276a3014ee3be71e637c93d2088f5859b7af62965ca5d682",
+    "captions_sha256": "8f40344a3374d8b7c02803f017d459da5cf79a30671626ea1b068df8bdc33ef0",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/gavamedia/deltafin"
+      ],
+      "id": "s001",
+      "end": 27,
+      "paragraphs": [
+        "Delta Fin runs Kimmy K3 2.8 trillion parameters and 1.56 tab of weights on a 64 GB MacBook. The trick is that a mixture of experts model only touches a sliver of itself per token. So the attention spine lives on local disk and the 82,432 routed experts stay on HuggingFac's CDN fetched one HTTP range request at a time into a growing cache. It's about a token per minute. The author calls it an existence proof, not a chat setup."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Delta Fin runs Kimmy K3 2.8 trillion parameters and 1.56 tab of weights on a 64 GB MacBook. The trick is that a"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "mixture of experts model only touches a sliver of itself per token. So the attention spine lives on local disk and the 82,432"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "routed experts stay on HuggingFac's CDN fetched one HTTP range request at a time into a growing cache. It's about a token per minute. The author calls it an existence proof, not a chat setup."
+    }
+  ]
+}

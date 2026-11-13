@@ -1,0 +1,9 @@
+{
+  "id": "fxLF9iCBP1E",
+  "title": "Two lightweight alternatives to OpenClaw showed up recently: Nanobot and NanoClaw",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-02-02",
+  "duration": 63,
+  "description": "Two lightweight alternatives to OpenClaw showed up recently: Nanobot and NanoClaw. Both have small codebases that are easier to audit and modify.\n\nOpenClaw has 52+ modules. One developer wasn't comfortable running code they couldn't fully audit, so they rewrote it in 500 lines of TypeScript. NanoClaw runs Claude agents inside Apple Container sandboxes with filesystem isolation. Each WhatsApp group gets its own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about eight minutes.\n\nhttps://github.com/gavrielc/nanoclaw\n\nNanobot is a personal AI assistant in ~4,000 lines of Python. Built as a simpler alternative to OpenClaw (430,000 lines) — same core features (persistent memory, web search, background agents), way less code. Runs on Telegram or WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse-engineering a massive framework.\n\nhttps://github.com/HKUDS/nanobot\n\n#github #opensource",
+  "chapters": []
+}

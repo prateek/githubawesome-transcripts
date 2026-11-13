@@ -1,0 +1,59 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Quill records meetings on a Mac and transcribes them locally. And the engineering choices are all about surviving a crash. Audio writes as CF"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "rather than M4A because CAF needs no finalization pass. So a session killed midme still leaves a readable file. The"
+    },
+    {
+      "timestamp": "0:15",
+      "text": "file system acts as the job cue. So anything unfinished picks up on next launch. There's a doctor command purely so you aren't downloading a 600 megabyte"
+    },
+    {
+      "timestamp": "0:24",
+      "text": "model minutes before a"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Quill records meetings on a Mac and transcribes them locally. And the engineering choices are all about surviving a crash. Audio writes as CF"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rather than M4A because CAF needs no finalization pass. So a session killed midme still leaves a readable file. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 15000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "file system acts as the job cue. So anything unfinished picks up on next launch. There's a doctor command purely so you aren't downloading a 600 megabyte"
+        }
+      ]
+    },
+    {
+      "tStartMs": 24000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "model minutes before a"
+        }
+      ]
+    }
+  ]
+}

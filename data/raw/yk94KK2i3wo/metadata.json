@@ -1,0 +1,9 @@
+{
+  "id": "yk94KK2i3wo",
+  "title": "Qwen3.8-27B on one RTX 3090: 417 tokens a second from a 27B model on one 24GB gaming card",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-31",
+  "duration": 27,
+  "description": "Fitting a 27-billion-parameter model onto one 24GB gaming card usually means stopping at \"it loads.\" This recipe pushes past that to 417 tokens a second batched, and the wins are unglamorous in the best way. Qwen's untied embeddings ship as two unquantized 2.5GB matrices nobody bothered with, so requantizing both to int8 hands back 2.6GB, and on this architecture spare memory converts straight into batch size. #github #opensource  \n\nhttps://github.com/syv-ai/qwen38-27b-rtx3090",
+  "chapters": []
+}

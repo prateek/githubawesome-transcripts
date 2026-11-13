@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "fxLF9iCBP1E",
+  "title": "Two lightweight alternatives to OpenClaw showed up recently: Nanobot and NanoClaw",
+  "url": "https://www.youtube.com/watch?v=fxLF9iCBP1E",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-02-02",
+  "duration": 63,
+  "word_count": 154,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:20:17+00:00",
+    "metadata_sha256": "2370e0a2c8b3e577fccf3a00230ea9541d39f715fe33d12f8a4949605e173439",
+    "captions_sha256": "b0d17a9702ec2a92457b76013321a471cb4a5cadd770eb99d6bd896a20d76838",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [],
+      "id": "s001",
+      "end": 63,
+      "paragraphs": [
+        "Two lightweight alternatives to OpenClaw showed up recently. Nanobot and NanoClaw. Both have small code bases that are easier to audit and modify. OpenClaw has 52 plus modules. One developer wasn't comfortable running code they couldn't fully audit, so they rewrote it in 500 lines of TypeScript. NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes.",
+        "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000 lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework. Work."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Two lightweight alternatives to OpenClaw showed up recently. Nanobot and NanoClaw. Both have small code bases that are easier to audit and modify."
+    },
+    {
+      "start": 9.0,
+      "end": 9.0,
+      "text": "OpenClaw has 52 plus modules. One developer wasn't comfortable running code they couldn't fully audit, so they rewrote it in 500 lines of TypeScript."
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "NanoClaw runs clawed agents inside Apple container sandboxes with file system isolation. Each WhatsApp group gets its"
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "own isolated context and can only access files you explicitly mount. The codebase is small enough to read and understand in about 8 minutes."
+    },
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "text": "Nanobot is a personal AI assistant in 4,000 lines of Python. Built as a simpler alternative to OpenClaw, 430,000"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "lines, same core features, persistent memory, web search, background agents, way less code. Runs on Telegram or"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "text": "WhatsApp. The codebase is small enough to read through and understand, so you can customize how memory works, add skills, or swap components without reverse engineering a massive framework."
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "Work."
+    }
+  ]
+}

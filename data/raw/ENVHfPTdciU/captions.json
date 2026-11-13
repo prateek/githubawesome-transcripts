@@ -1,0 +1,46 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Swiftllet runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+    },
+    {
+      "timestamp": "0:06",
+      "text": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels handle inference. The maintainer reports"
+    },
+    {
+      "timestamp": "0:15",
+      "text": "the 35B model using about 2.5 gigabytes of RAM on an iPhone 17 at roughly one token per"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Swiftllet runs 35B and 80B Quen mixture of experts models on Apple devices by keeping the dense core in memory and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 6000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "streaming routed experts from SSD. QAC files turn each expert fetch into one read while caching and metal kernels handle inference. The maintainer reports"
+        }
+      ]
+    },
+    {
+      "tStartMs": 15000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the 35B model using about 2.5 gigabytes of RAM on an iPhone 17 at roughly one token per"
+        }
+      ]
+    }
+  ]
+}

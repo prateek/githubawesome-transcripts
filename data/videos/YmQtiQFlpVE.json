@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "YmQtiQFlpVE",
+  "title": "Cloudflare OS: every user gets their own private app instance",
+  "url": "https://www.youtube.com/watch?v=YmQtiQFlpVE",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-05",
+  "duration": 23,
+  "word_count": 68,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:37:06+00:00",
+    "metadata_sha256": "f6956ba8aa329aa15c735e1e2d8b6c85adf8ca3e43ec7de388553b95efcb1772",
+    "captions_sha256": "2f353a61c3aba0b8178b0097cda747d67224f615414853df5ec5e9131946e599",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/cloudflare/cloudflare-os"
+      ],
+      "id": "s001",
+      "end": 23,
+      "paragraphs": [
+        "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on Worker is marked coming"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Cloudflare OS gives every user a private copy of each app rather than one shared SAS instance. So a slide deck is a"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "sandboxed program you can ask an agent to modify. Rather than stalling on every permission prompt, a gatekeeper simulates the outcome and feeds the"
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "agent simulated results, letting it cue work you approve in bulk later. Running it off Cloudflare on Worker is marked coming"
+    }
+  ]
+}

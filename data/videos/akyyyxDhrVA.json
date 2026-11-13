@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "akyyyxDhrVA",
+  "title": "ESP32 AI: a 28.9M parameter LM on an $8 ESP32-S3, embeddings fetched from flash, no server",
+  "url": "https://www.youtube.com/watch?v=akyyyxDhrVA",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-26",
+  "duration": 29,
+  "word_count": 74,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:40:12+00:00",
+    "metadata_sha256": "c45ac6e43bf580476e0c34a095224a51579ead8d917bb57abd169408e72cfc94",
+    "captions_sha256": "8be9d779716ebaaf7b15d935c95577c0fb7b2087fe03b92d8815660c6c8fc864",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/slvDev/esp32-ai"
+      ],
+      "id": "s001",
+      "end": 29,
+      "paragraphs": [
+        "ESP32 AI squeezes a 28.9 million parameter language model onto an $8 ESP32S3 with no server connection. The trick is keeping a 25 million parameter embedding table in flash and fetching only the rows needed for each token while the compute heavy core stays in faster memory. The maintainer measures roughly 9.5 tokens per second. It's an architecture experiment, not a chatbot. The tiny stories model writes simple stories but can't answer questions or"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "ESP32 AI squeezes a 28.9 million parameter language model onto an $8 ESP32S3"
+    },
+    {
+      "start": 7.0,
+      "end": 7.0,
+      "text": "with no server connection. The trick is keeping a 25 million parameter embedding table in flash and fetching only the rows needed for each token while the"
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "compute heavy core stays in faster memory. The maintainer measures roughly 9.5 tokens per second. It's an architecture experiment, not a chatbot."
+    },
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "The tiny stories model writes simple stories but can't answer questions or"
+    }
+  ]
+}

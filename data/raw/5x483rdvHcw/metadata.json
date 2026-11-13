@@ -1,0 +1,9 @@
+{
+  "id": "5x483rdvHcw",
+  "title": "waggle: a 30-byte token that gives each subagent its own view of the plan",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-14",
+  "duration": 23,
+  "description": "Every multi-agent handoff is paste-and-hope: the whole plan into each subagent, no idea which one read it. waggle replaces that with a 30-byte token. Each subagent resolves it into its own view and greps the slice it needs, so the artifact never travels. Every read is counted, so you catch a subagent that bluffed before you trust it. Fix the plan, one revoke reaches all of them. It's MCP-native, one config line.\n\nhttps://github.com/modiqo/waggle",
+  "chapters": []
+}

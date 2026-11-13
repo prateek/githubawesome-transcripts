@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "J3adIIJ9IE4",
+  "title": "Walgit: a Git server where the bucket is the repository and the disk is a throwaway cache",
+  "url": "https://www.youtube.com/watch?v=J3adIIJ9IE4",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-24",
+  "duration": 22,
+  "word_count": 64,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:48:24+00:00",
+    "metadata_sha256": "a63f4747939bfae9f086c94389f046e805db46a46b47765d41825cce3c6fe05c",
+    "captions_sha256": "29a13a25e676fc776b4d1e5312e96cbadaae5531ff86a4a1810bb91b3ab51fff",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/tobi/walgit"
+      ],
+      "id": "s001",
+      "end": 22,
+      "paragraphs": [
+        "WGit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the repository. Each server's disk is just a disposable cache. Pushes become immutable log entries while a compare and swap manifest decides which update wins, letting multiple instances share storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "WGit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the repository. Each server's disk is just a"
+    },
+    {
+      "start": 9.0,
+      "end": 9.0,
+      "text": "disposable cache. Pushes become immutable log entries while a compare and swap manifest decides which update wins, letting multiple instances share"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+    }
+  ]
+}

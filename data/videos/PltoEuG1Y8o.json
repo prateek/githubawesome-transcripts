@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "PltoEuG1Y8o",
+  "title": "DeepSpec: DeepSeek's full speculative decoding pipeline, cache prep, draft model training",
+  "url": "https://www.youtube.com/watch?v=PltoEuG1Y8o",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-06-27",
+  "duration": 21,
+  "word_count": 62,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:48:04+00:00",
+    "metadata_sha256": "2af0238c88564f90a1a49f2ce90d4e1c57cd1175f9966b3308796be193075e19",
+    "captions_sha256": "22c776595a1d3cbb8f92629064bb7de620c7e79863aab72803b2637cd7405665",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/deepseek-ai/DeepSpec"
+      ],
+      "id": "s001",
+      "end": 21,
+      "paragraphs": [
+        "Speculative decoding speeds up a big model. A small draft model guesses the next tokens. The big one verifies them in one pass. But training a good draft model is its own rabbit hole. Deepspec is Deepseek's full pipeline for it. Prep the target cache, train the draft, then measure acceptance on the benchmarks. It ships three algorithms, including Deepseek's own D-Spark."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Speculative decoding speeds up a big model. A small draft model guesses the next tokens. The big one verifies them in one pass. But training a good draft"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "model is its own rabbit hole. Deepspec is Deepseek's full pipeline for it. Prep the target cache, train the draft, then measure acceptance on the benchmarks. It"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "ships three algorithms, including Deepseek's own D-Spark."
+    }
+  ]
+}

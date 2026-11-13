@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "-rk_9HqSquE",
+  "title": "flash-moe: A 400B Model Running on a MacBook?!",
+  "url": "https://www.youtube.com/watch?v=-rk_9HqSquE",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-03-21",
+  "duration": 27,
+  "word_count": 76,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:08:21+00:00",
+    "metadata_sha256": "6b4cd0e43d4a12e7163c9bf54fd8fc07ea15b3a11daf2d248cae6e9e1e8d58d7",
+    "captions_sha256": "6eb1d5fd5fa6fadcd23ae5de525505dcdd0d99230d955832506ce34d02239db2",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/danveloper/flash-moe"
+      ],
+      "id": "s001",
+      "end": 27,
+      "paragraphs": [
+        "Running a 400 billion parameter model locally usually means a server rack. Someone just did it on a MacBook Pro with 48 GB of RAM. The engine is called FlashMo. Instead of loading a 209 GB model into memory, it streams weights from SSD to GPU on demand, pulling around five tokens per second on consumer hardware. The whole engine was built in 24 hours with Claude code autonomously running experiments based on an Apple research"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Running a 400 billion parameter model locally usually means a server rack."
+    },
+    {
+      "start": 4.0,
+      "end": 4.0,
+      "text": "Someone just did it on a MacBook Pro with 48 GB of RAM. The engine is called FlashMo. Instead of loading a 209 GB"
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "model into memory, it streams weights from SSD to GPU on demand, pulling around five tokens per second on consumer hardware. The whole engine was"
+    },
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "text": "built in 24 hours with Claude code autonomously running experiments based on an Apple research"
+    }
+  ]
+}

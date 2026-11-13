@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "yk94KK2i3wo",
+  "title": "Qwen3.8-27B on one RTX 3090: 417 tokens a second from a 27B model on one 24GB gaming card",
+  "url": "https://www.youtube.com/watch?v=yk94KK2i3wo",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-31",
+  "duration": 27,
+  "word_count": 72,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:47:05+00:00",
+    "metadata_sha256": "e5fb87cd899e49d35558cae0ec6c8f988df135576037d43ac19e31fa7fb8b4e8",
+    "captions_sha256": "1c736217840ff56dc70de38f685d5d78430a0afab0638d320915907e23bf9e9c",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/syv-ai/qwen38-27b-rtx3090"
+      ],
+      "id": "s001",
+      "end": 27,
+      "paragraphs": [
+        "Fitting a 27 billion parameter model onto one 24 GB gaming card usually means stopping at it loads. This recipe pushes past that to 417 tokens a second batched. And the wins are unglamorous in the best way. Quen's untied embeddings ship as two unquantized 2.5 GB matrices nobody bothered with. So re-quantizing both to int 8 hands back 2.6 6 GB. And on this architecture, spare memory converts straight into batch"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Fitting a 27 billion parameter model onto one 24 GB gaming card usually means stopping at it loads. This recipe pushes"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "past that to 417 tokens a second batched. And the wins are unglamorous in the best way. Quen's untied embeddings ship as two unquantized 2.5 GB matrices"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "nobody bothered with. So re-quantizing both to int 8 hands back 2.6 6 GB. And on this architecture, spare memory"
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "text": "converts straight into batch"
+    }
+  ]
+}

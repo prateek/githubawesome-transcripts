@@ -1,0 +1,9 @@
+{
+  "id": "J3adIIJ9IE4",
+  "title": "Walgit: a Git server where the bucket is the repository and the disk is a throwaway cache",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-24",
+  "duration": 22,
+  "description": "Walgit puts a Git server in one binary backed by S3 or GCS, with no database or elected leader. The bucket is the repository; each server’s disk is just a disposable cache. Pushes become immutable log entries, while a compare-and-swap manifest decides which update wins, letting multiple instances share storage safely. It includes smart HTTP, policies, webhooks, and a web UI.  #github #opensource \n\nhttps://github.com/tobi/walgit",
+  "chapters": []
+}

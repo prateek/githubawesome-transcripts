@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "67qswlKD8Vs",
+  "title": "SmolVM: a single-executable VM that cold-starts in under a second, real hardware isolation",
+  "url": "https://www.youtube.com/watch?v=67qswlKD8Vs",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-04-17",
+  "duration": 22,
+  "word_count": 65,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:59:54+00:00",
+    "metadata_sha256": "8811f6689eca4c82e2374b04fc6f263c3b405c8fbbb260a2a2cd94e46a29ecfc",
+    "captions_sha256": "8acaed42abeb5e729bd1ca4e2772d20769700d4a27ed398a1538f8d2fca48084",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/smol-machines/smolvm"
+      ],
+      "id": "s001",
+      "end": 22,
+      "paragraphs": [
+        "Docker solves it works on my machine. Small VM takes a different approach. Just ship the entire machine. It packs your software into a single executable small machine file that codes in under a second using hypervisor framework on Mac OS or KVM on Linux via libcrun. Real hardware isolation, not container namespaces. Built by a former AWS firecracker engineer. Live migration on the road"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Docker solves it works on my machine. Small VM takes a different approach."
+    },
+    {
+      "start": 3.0,
+      "end": 3.0,
+      "text": "Just ship the entire machine. It packs your software into a single executable small machine file that codes in under a second using hypervisor framework on Mac"
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "OS or KVM on Linux via libcrun. Real hardware isolation, not container namespaces. Built by a former AWS firecracker engineer. Live migration on"
+    },
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "text": "the road"
+    }
+  ]
+}

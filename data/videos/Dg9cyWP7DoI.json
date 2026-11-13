@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "Dg9cyWP7DoI",
+  "title": "ha.mr: a URL shortener with no backend, compresses the URL itself using Huffman",
+  "url": "https://www.youtube.com/watch?v=Dg9cyWP7DoI",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-08-15",
+  "duration": 23,
+  "word_count": 52,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:50:31+00:00",
+    "metadata_sha256": "3f2cb8a70c049b9021702f87ddfbc347838fbf1157e9f923102636f473e48ee6",
+    "captions_sha256": "4a87cf41e494ffb22ed7ae7bbdd840a4c2f2e3b4dd688124d2d5d17fbe128675",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/p2r3/ha.mr"
+      ],
+      "id": "s001",
+      "end": 23,
+      "paragraphs": [
+        "PAMR shrinks links without storing them in a back-end database. Instead, it compresses the URL itself, stripping common patterns, matching domains against Huffmancoded dictionaries, then packing the remainder into a compact character set. For QR codes, it switches to QR's alpha numeric mode to reduce encoding overhead. Everything runs in the browser."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "PAMR shrinks links without storing them in a back-end database. Instead, it compresses the URL itself, stripping common patterns, matching domains"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "against Huffmancoded dictionaries, then packing the remainder into a compact character set. For QR codes, it switches to QR's alpha numeric mode to reduce"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "encoding overhead. Everything runs in the browser."
+    }
+  ]
+}

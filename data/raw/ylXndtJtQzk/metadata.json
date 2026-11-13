@@ -1,0 +1,9 @@
+{
+  "id": "ylXndtJtQzk",
+  "title": "Deltafin runs Kimi K3, 2.8 trillion parameters and 1.56 terabytes of weights, on a 64GB MacBook",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-28",
+  "duration": 27,
+  "description": "Deltafin runs Kimi K3, 2.8 trillion parameters and 1.56 terabytes of weights, on a 64GB MacBook. The trick is that a mixture-of-experts model only touches a sliver of itself per token, so the attention spine lives on local disk and the 82,432 routed experts stay on Hugging Face's CDN, fetched one HTTP range request at a time into a growing cache. It's about a token per minute. The author calls it an existence proof, not a chat setup. #github #opensource \n\nhttps://github.com/gavamedia/deltafin",
+  "chapters": []
+}

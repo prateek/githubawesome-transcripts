@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "id": "zHZPb7wdQuk",
+  "title": "GitHub Trending Weekly #58: rune, nsh, openjutsu, Henge, mygo-music, vork, devvm, satmux, airpointer",
+  "url": "https://www.youtube.com/watch?v=zHZPb7wdQuk",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-11-09",
+  "duration": 912,
+  "word_count": 2442,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:51:54+00:00",
+    "metadata_sha256": "fde4c8e222057c191bce77e097fdf0fe607ec58bc9622addea29b3a1420ab082",
+    "captions_sha256": "4cdf00e661079a5235dc847101db3c40bb42c135ba72327c2ee8a6931672ab83",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 11,
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 58. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 11,
+      "title": "rune",
+      "repositories": [
+        "https://github.com/anomalyco/rune"
+      ],
+      "id": "s002",
+      "end": 38,
+      "paragraphs": [
+        "Rune is a native UI framework written in Rust that draws everything on the GPU with its own renderer, text engine, layout, and spring animations. One codebase targets Mac OS, Windows, Linux, and the web. Every app can also run headless. So a coding agent can render screens to PNG, dump the element tree, and drive the interface with scripted input. That means the agent can check its own work before you ever open the app. Native shell is an open source"
+      ]
+    },
+    {
+      "start": 38,
+      "title": "nsh",
+      "repositories": [
+        "https://github.com/longbridge/nsh"
+      ],
+      "id": "s003",
+      "end": 64,
+      "paragraphs": [
+        "framework built in Rust that turns TSX and Tailwind into real native interfaces. The same module renders with UI kit on iOS, Android views, AppKit, Win32, GTK, GPUi, or HTML on the web. Host apps can load these modules at runtime as signed plugins, each running in its own sandboxed Quick.js VM. You write TSX once and get the systems own text, scrolling, and accessibility."
+      ]
+    },
+    {
+      "start": 64,
+      "title": "openjutsu",
+      "repositories": [
+        "https://github.com/D3voz/openjutsu"
+      ],
+      "id": "s004",
+      "end": 88,
+      "paragraphs": [
+        "Open Jutzu lets you swap a character into a video using a reference photo. Drop in your clip, choose a character, and it uses AI to follow the original person's movement while keeping the soundtrack. You can also change clothing, replace objects, or edit the background. It runs locally through Comfy UI on an NVIDIA GPU, so you can make the edits on your own machine."
+      ]
+    },
+    {
+      "start": 88,
+      "title": "Henge",
+      "repositories": [
+        "https://github.com/Leviidev/Henge"
+      ],
+      "id": "s005",
+      "end": 115,
+      "paragraphs": [
+        "Henge is an open-source emulator project that boots Mac OS on an iPhone or iPad. Instead of QMU or Apple's virtualization framework, it runs the Mac's ARM 64 code through its own JIT engine with its own memory management and virtual devices. Graphics go through a custom virtual GPU whose commands are replayed with Metal. The touch screen becomes a trackpad and on iPad the Mac display resizes to fit the screen."
+      ]
+    },
+    {
+      "start": 115,
+      "title": "swarm-cursors",
+      "repositories": [
+        "https://github.com/DhvanilPatel/swarm-cursors"
+      ],
+      "id": "s006",
+      "end": 141,
+      "paragraphs": [
+        "Swarm Rebuild is a Chrome extension built as a tribute to Joel Khalifa's Swarm website. Press a shortcut and the page you're on wipes down to a blank canvas. Then a crowd of multiplayer cursors rebuilds it from a snapshot, dragging boxes, typing text, drawing with a pen tool, and duplicating repeated parts, all with synthesized sound effects. It's written in JavaScript with no dependencies."
+      ]
+    },
+    {
+      "start": 141,
+      "title": "mygo-music",
+      "repositories": [
+        "https://github.com/egoist/mygo-music"
+      ],
+      "id": "s007",
+      "end": 165,
+      "paragraphs": [
+        "Go music player written in Go on the Migo framework with no web view. It plays your local files with tags, covers, and synced lyrics plus playlists, a cue and loudness normalization. On Mac OS, it has a notch. Everything else comes from plugins written in JavaScript or TypeScript, each asking for network or process access up front."
+      ]
+    },
+    {
+      "start": 165,
+      "title": "vork",
+      "repositories": [
+        "https://github.com/voyager-so/vork"
+      ],
+      "id": "s008",
+      "end": 191,
+      "paragraphs": [
+        "Vorc is a headless 3D and VFX engine made for AI agents written in Rust and Slang and rendering on the GPU through Vulcan or Metal. There's no editor at all. An agent writes a scene as code, renders it, looks at the image, and revises. Scenes can customize camera rays, materials, and even how light travels. The examples range from a bird flock and a black hole to effects composited onto real footage."
+      ]
+    },
+    {
+      "start": 191,
+      "title": "claude-animated-shorts",
+      "repositories": [
+        "https://github.com/mromidev/claude-animated-shorts"
+      ],
+      "id": "s009",
+      "end": 219,
+      "paragraphs": [
+        "Claude animated shorts is a skill that has Claude code build a full vertical animated story short using 3JS and motion. Claude works through the topic, script, voice, and shot plan, then renders 2D characters inside a painted 3D town with ink outlines, lens blur, and gliding cameras. Even the march score and sound effects are synthesized in code. Every frame renders on your own PC with no AI video generator involved."
+      ]
+    },
+    {
+      "start": 219,
+      "title": "devvm",
+      "repositories": [
+        "https://github.com/devvmhq/devvm"
+      ],
+      "id": "s010",
+      "end": 244,
+      "paragraphs": [
+        "Devm gives every project folder its own isolated Linux VM. It reads your project files to set up the right tool chain, then runs claude code, codecs, or open code inside. The VM only sees that folder. Network access starts on an allow list and tokens for GitHub and Claude stay on your host. In clone mode, the agent works on its own copy and nothing reaches your repo until you fetch it."
+      ]
+    },
+    {
+      "start": 244,
+      "title": "satmux",
+      "repositories": [
+        "https://github.com/Th0rgal/satmux"
+      ],
+      "id": "s011",
+      "end": 271,
+      "paragraphs": [
+        "Satm is a pure Python tool that speeds up slow in-flight Wi-Fi on geostationary satellite links. It keeps persistent connections open to a cloud server near the satellite ground station, so each new request skips extra trips to space and back. Traffic is compressed, signed, and exposed locally as a SOCK 5 or HTTP proxy. In the author's own test, loading six sites at once, dropped from 19 seconds to about five."
+      ]
+    },
+    {
+      "start": 271,
+      "title": "CUI",
+      "repositories": [
+        "https://github.com/yappologistic/CUI"
+      ],
+      "id": "s012",
+      "end": 297,
+      "paragraphs": [
+        "CUI brings a full component kit to plain C99 with no dependencies and about 150 ready-made components. Build it with CMake on GCC, Clang, or MSVC. And the same code runs on Windows, Mac OS, and Linux through Win32, Coco or X11. Rendering goes through OpenGL with a software fallback. Light and dark themes, spring animations, and keyboard first controls come builtin."
+      ]
+    },
+    {
+      "start": 297,
+      "title": "airpointer",
+      "repositories": [
+        "https://github.com/musubipapi/airpointer"
+      ],
+      "id": "s013",
+      "end": 322,
+      "paragraphs": [
+        "AirPointer is a Mac OS app that turns your AirPods Pro case into a pointer for your Mac. It reads the motion sensors in the closed case. So, moving the case moves the cursor and tapping its front counts as a click. A quick shortcut starts a session and a setup wizard walks you through calibrating it to your screen. It's built in Xcode with a bit of Objective C and everything stays on your Mac."
+      ]
+    },
+    {
+      "start": 322,
+      "title": "mousepods",
+      "repositories": [
+        "https://github.com/starman-tech/mousepods"
+      ],
+      "id": "s014",
+      "end": 349,
+      "paragraphs": [
+        "MousePods turns AirPods into a headtracking mouse on Linux with no Apple device anywhere in the loop. It reads the motion sensors over Bluetooth and feeds them into a virtual input device that works on both Wayland and X11. A local app shows battery rings, live 3D orientation, and a raw packet view with guided calibration. You click by pressing the stem, tilting your head, or dwelling in place."
+      ]
+    },
+    {
+      "start": 349,
+      "title": "cc-remote",
+      "repositories": [
+        "https://github.com/AkaraChen/cc-remote"
+      ],
+      "id": "s015",
+      "end": 375,
+      "paragraphs": [
+        "CC remote runs clawed code as an ACP agent with a split setup. The model runs on a remote server over SSH while file reads, edits, and shell commands happen on your own machine. It gives the agent the usual local tools and plugs into ACP clients like Zed. Sessions mirror, resume, and fork. Local MCP servers work with OOTH login and bash commands go through permission prompts you can approve by prefix."
+      ]
+    },
+    {
+      "start": 375,
+      "title": "pinky",
+      "repositories": [
+        "https://github.com/DIYgod/pinky"
+      ],
+      "id": "s016",
+      "end": 400,
+      "paragraphs": [
+        "Pinky lets an AI agent operate a real iPhone or Android phone over MCP. You watch from your computer, approve anything risky, and can take over at any point. A gateway, not the agent, enforces approval gates on payments, sends and installs, blocks typing into password fields and hides banking apps by default. On Android, it can even work on a hidden display so the phone stays locked."
+      ]
+    },
+    {
+      "start": 400,
+      "title": "tinker-ai-skill",
+      "repositories": [
+        "https://github.com/drost-ai/tinker-ai-skill"
+      ],
+      "id": "s017",
+      "end": 428,
+      "paragraphs": [
+        "Tinker AI Skill walks a coding agent through turning your own clawed code sessions into a fine-tuned model. It runs a nine-step workflow. Collect your transcripts, clean and anonymize them, train a Laura on Tinker, then merge it and convert to a GUF that runs locally in Llama CPP. It's the recipe behind the author's test for models. And a synthetic transcript generator lets you do a full dry run before touching real data."
+      ]
+    },
+    {
+      "start": 428,
+      "title": "chimera-vocal-synth",
+      "repositories": [
+        "https://github.com/jamesondh/chimera-vocal-synth"
+      ],
+      "id": "s018",
+      "end": 454,
+      "paragraphs": [
+        "Chimera is a browser based voice synthesizer where every sound comes from a simulated airway with no samples anywhere. You shape the tongue, lips, and jaw in a live cutaway of a head and it can speak from text, sing a piano roll with lyrics or beatbox on a step sequencer. A beastiary mode gives you creature voices from a song bird to an elephant and male, female, and child bodies blend smoothly."
+      ]
+    },
+    {
+      "start": 454,
+      "title": "textjs",
+      "repositories": [
+        "https://github.com/anomalyco/textjs"
+      ],
+      "id": "s019",
+      "end": 480,
+      "paragraphs": [
+        "Text.js is a React framework from Anomaly. The open code team for apps that render inside the browser's developer console. You write components like box and text handle keys with a use input hook and route pages with an app router. Each frame is laid out with yoga and written in one console. Log using styled spans and a frame with no changes logs nothing. There are VS Code and Chrome DevTools extensions too."
+      ]
+    },
+    {
+      "start": 480,
+      "title": "waymark",
+      "repositories": [
+        "https://github.com/piercefreeman/waymark"
+      ],
+      "id": "s020",
+      "end": 508,
+      "paragraphs": [
+        "Waymark is a library for durable background tasks that survive server restarts, crashes, and longunning jobs built on a rust runtime with Postgres as its only dependency. You write workflows as ordinary async Python with real if, for, and while control flow, retries, and durable sleeps. The twist is that your code is compiled once and runs on a durable virtual machine so it doesn't replay from the start when a task recovers."
+      ]
+    },
+    {
+      "start": 508,
+      "title": "noop",
+      "repositories": [
+        "https://github.com/huacnlee/noop"
+      ],
+      "id": "s021",
+      "end": 533,
+      "paragraphs": [
+        "N runs a small team of Claude code and codeex agents on your own computers coordinated through a free Cloudflare account. You give it a goal in one sentence and it breaks the work into tasks, runs them in parallel and reports back. When it needs you, it offers a short list of options you answer with one tap and it learns from your past choices how much to decide on its own."
+      ]
+    },
+    {
+      "start": 533,
+      "title": "timon",
+      "repositories": [
+        "https://github.com/ai-timon/timon"
+      ],
+      "id": "s022",
+      "end": 557,
+      "paragraphs": [
+        "Teon is a self-hosted platform that runs a whole team of AI coding agents on your own machine. You describe a job and an orchestrator splits it into tasks for agents that code, review, merge, and research. Each task gets its own git work tree. A second model reviews the work and risky steps wait for your approval. It works with clawed code, codecs, open code, and more."
+      ]
+    },
+    {
+      "start": 557,
+      "title": "PulsoIcon",
+      "repositories": [
+        "https://github.com/CityPulso/PulsoIcon"
+      ],
+      "id": "s023",
+      "end": 584,
+      "paragraphs": [
+        "Pulso Icon is an open-source set of nearly 10,000 animated icons built as a drop-in replacement for Lucide React on top of motion. Each icon gets its own motion that plays on hover or focus and it respects reduced motion settings. The same component names and props work across React View and Spelt with native versions for Jetack Compose and Swift UI plus a filled variant for about 1,700 icons."
+      ]
+    },
+    {
+      "start": 584,
+      "title": "phoneuse",
+      "repositories": [
+        "https://github.com/lxe/phoneuse"
+      ],
+      "id": "s024",
+      "end": 609,
+      "paragraphs": [
+        "Phone use lets a Linux PC see and control an unmodified iPhone with no jailbreak, cable, or app on the phone. The screen arrives over AirPlay as a desktop window, while your PC pretends to be a Bluetooth mouse and keyboard, so clicks become taps and drags become swipes. Agents get the same controls through a command line or an MCP server and can read the screen as text before they act."
+      ]
+    },
+    {
+      "start": 609,
+      "title": "1.5-joint-module",
+      "repositories": [
+        "https://github.com/yzytz17/1.5-joint-module"
+      ],
+      "id": "s025",
+      "end": 637,
+      "paragraphs": [
+        "The 1.5 joint module is an open hardware robot joint built around a four layer motor driver board whose bare PCB costs about $1.50. It pairs an ESP32C3 running Simple Faulk with a small brushless gimbal motor and a 3D printed 10 to1 gearbox. The repo includes the PCB files, Solid Works parts, printable STLs, and openloop firmware. So you could stack them into an arm, a quadriped, or a pan tilt head. Watch Pointer turns an Apple Watch into a pointer for your Mac connected over"
+      ]
+    },
+    {
+      "start": 637,
+      "title": "WatchPointer",
+      "repositories": [
+        "https://github.com/umarz317/WatchPointer"
+      ],
+      "id": "s026",
+      "end": 661,
+      "paragraphs": [
+        "Bluetooth with no Wi-Fi or servers. Aim the top edge of the watch and the cursor follows across every display. Tap to click, hold to drag, and use the digital crown to scroll. A small panel in the Max Notch shows battery and live aim. And there's even a little light gun game to test it."
+      ]
+    },
+    {
+      "start": 661,
+      "title": "graphicle",
+      "repositories": [
+        "https://github.com/graphicle-ai/graphicle"
+      ],
+      "id": "s027",
+      "end": 689,
+      "paragraphs": [
+        "Graphical gives coding agents a memory of your project running as a single Rust program with no API key, account or telemetry. It parses your repo with Treesitter into a graph of files, functions, calls, and imports. Then stores docs, decisions, and past agent sessions alongside it. Agents query everything over MCP and get back short excerpts with file and line citations and stale memories get flagged when the code changes."
+      ]
+    },
+    {
+      "start": 689,
+      "title": "ding",
+      "repositories": [
+        "https://github.com/YusufCeng1z/ding"
+      ],
+      "id": "s028",
+      "end": 712,
+      "paragraphs": [
+        "Ding is a toast notification library with real Spring physics written in Typescript with zero dependencies for React, spelt or plain DOM. Instead of stacking toasts, each new call morphs the one already on screen, and interrupted animations keep their momentum. Toasts can carry avatars, buttons, progress bars, and countdowns, and promise helpers handle loading states."
+      ]
+    },
+    {
+      "start": 712,
+      "title": "office-engine",
+      "repositories": [
+        "https://github.com/p10node/office-engine"
+      ],
+      "id": "s029",
+      "end": 738,
+      "paragraphs": [
+        "Office Engine is an open- source library that opens and edits DOCX, XLSX, and PPTX files right in the browser. Built with TypeScript and React, it reads each file lazily in a web worker, so even huge documents start showing almost immediately, and only the visible pages, cells, and slides get rendered. Edits save back to the original format, and live collaboration with cursors and offline sync is built in."
+      ]
+    },
+    {
+      "start": 738,
+      "title": "Spotish",
+      "repositories": [
+        "https://github.com/huacnlee/spotish"
+      ],
+      "id": "s030",
+      "end": 763,
+      "paragraphs": [
+        "Spottish is an unofficial native desktop client for Spotify built with NSH. Instead of opening the web app in a full browser window, it runs Spotify's own web player hidden in a browser you already have and drives it through the Chrome DevTools protocol. The interface on top is drawn natively. It works with free or premium accounts and ads play just as Spotify serves them. Headless is an agent skill that lets your coding agent set up a Mac, Linux, or Windows"
+      ]
+    },
+    {
+      "start": 763,
+      "title": "headless",
+      "repositories": [
+        "https://github.com/kunchenguid/headless"
+      ],
+      "id": "s031",
+      "end": 788,
+      "paragraphs": [
+        "machine over SSH so it can run unattended. It walks through never sleeping, signing in automatically after a restart, key only SSH and an optional tail scale join. Every step can be rerun and shows its result. At the end, it reads back every setting, restarts the machine and checks that it comes back."
+      ]
+    },
+    {
+      "start": 788,
+      "title": "good-door",
+      "repositories": [
+        "https://github.com/dreamers-laboratory/good-door"
+      ],
+      "id": "s032",
+      "end": 811,
+      "paragraphs": [
+        "Good is a command line secrets manager for people and AI agents. Each machine's key lives in the OS vault or secure hardware like the Mac secure enclave or a Linux TPM. Agents can run commands that need credentials without ever seeing the values and output gets masked in agent shells. It also encrypts SSH keys, cloud login, and NV files in place."
+      ]
+    },
+    {
+      "start": 811,
+      "title": "simcraft",
+      "repositories": [
+        "https://github.com/dotslashsimran/simcraft"
+      ],
+      "id": "s033",
+      "end": 836,
+      "paragraphs": [
+        "Simcraft is a collection of 24 clawed code skills, each a folder that teaches the agent one kind of hard work with its method, judgment calls, and tested scripts. The video skills cover 3D loops in 3JS, scripted screencasts, git history, time-lapses, and audio cleanup. On the engineering side, there's codebased mapping, regression bisecting, flaky test fixing, and threat modeling."
+      ]
+    },
+    {
+      "start": 836,
+      "title": "ovnfs",
+      "repositories": [
+        "https://github.com/stencil-hq/ovnfs"
+      ],
+      "id": "s034",
+      "end": 860,
+      "paragraphs": [
+        "OpenFS gives every coding agent its own isolated copyon-write checkout of any folder git repo or not without copying it. It runs one background damon that serves every checkout as a single mount using NFS on Mac OS fuse on Linux and SMB on Windows. Agents work in their checkout. You review the changes with a diff and a three-way apply merges them back. Flawless UIUX is a skill and local command line tool that helps codeex and open code design, redesign, and refine"
+      ]
+    },
+    {
+      "start": 860,
+      "title": "flawless-ui-ux",
+      "repositories": [
+        "https://github.com/smokeeaasd/flawless-ui-ux"
+      ],
+      "id": "s035",
+      "end": 884,
+      "paragraphs": [
+        "web interfaces. Instead of pushing one look, it starts from your product, then checks the rendered result in a real browser with playright and axe. It flags low contrast, tiny text, horizontal overflow, broken images, and repeated copy at desktop and phone sizes."
+      ]
+    },
+    {
+      "start": 884,
+      "title": "mini-harness",
+      "repositories": [
+        "https://github.com/phuryn/mini-harness"
+      ],
+      "id": "s036",
+      "end": 912,
+      "paragraphs": [
+        "Mini harness is a small agent harness written for teaching about400 lines of Python with just two dependencies. It runs a full tool loop with file shell and search tools plus resumable sessions, compaction, skills, MCP servers, and sub aents. In goal mode, a task only counts as done after a verify command passes and a fresh reviewer agrees. Permissions can even be judged by a second model."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 58. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "text": "Rune is a native UI framework written in Rust that draws everything on the GPU with its own renderer, text engine,"
+    },
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "text": "layout, and spring animations. One codebase targets Mac OS, Windows, Linux, and the web. Every app can also run"
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "headless. So a coding agent can render screens to PNG, dump the element tree, and drive the interface with scripted"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "input. That means the agent can check its own work before you ever open the app. Native shell is an open source"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "framework built in Rust that turns TSX and Tailwind into real native interfaces. The same module renders with"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "UI kit on iOS, Android views, AppKit, Win32, GTK, GPUi, or HTML on the web."
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "Host apps can load these modules at runtime as signed plugins, each running in its own sandboxed Quick.js VM. You write TSX once and get the systems own text, scrolling, and accessibility."
+    },
+    {
+      "start": 64.0,
+      "end": 64.0,
+      "text": "Open Jutzu lets you swap a character into a video using a reference photo."
+    },
+    {
+      "start": 69.0,
+      "end": 69.0,
+      "text": "Drop in your clip, choose a character, and it uses AI to follow the original person's movement while keeping the soundtrack. You can also change"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "text": "clothing, replace objects, or edit the background. It runs locally through Comfy UI on an NVIDIA GPU, so you can make the edits on your own machine."
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Henge is an open-source emulator project that boots Mac OS on an iPhone or iPad."
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "text": "Instead of QMU or Apple's virtualization framework, it runs the Mac's ARM 64 code through its own JIT engine with its own memory management and virtual devices."
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "Graphics go through a custom virtual GPU whose commands are replayed with Metal."
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "text": "The touch screen becomes a trackpad and on iPad the Mac display resizes to fit the screen."
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "text": "Swarm Rebuild is a Chrome extension built as a tribute to Joel Khalifa's Swarm website."
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "Press a shortcut and the page you're on wipes down to a blank canvas. Then a crowd of multiplayer cursors rebuilds it from a snapshot, dragging boxes, typing"
+    },
+    {
+      "start": 130.0,
+      "end": 130.0,
+      "text": "text, drawing with a pen tool, and duplicating repeated parts, all with synthesized sound effects. It's written in JavaScript with no dependencies."
+    },
+    {
+      "start": 141.0,
+      "end": 141.0,
+      "text": "Go music player written in Go on the Migo framework with no web view. It plays your local files with tags, covers, and"
+    },
+    {
+      "start": 150.0,
+      "end": 150.0,
+      "text": "synced lyrics plus playlists, a cue and loudness normalization. On Mac OS, it has a notch. Everything else comes from"
+    },
+    {
+      "start": 158.0,
+      "end": 158.0,
+      "text": "plugins written in JavaScript or TypeScript, each asking for network or process access up front."
+    },
+    {
+      "start": 165.0,
+      "end": 165.0,
+      "text": "Vorc is a headless 3D and VFX engine made for AI agents written in Rust and Slang and rendering on the GPU through"
+    },
+    {
+      "start": 173.0,
+      "end": 173.0,
+      "text": "Vulcan or Metal. There's no editor at all. An agent writes a scene as code, renders it, looks at the image, and revises. Scenes can customize camera"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "rays, materials, and even how light travels. The examples range from a bird flock and a black hole to effects composited onto real footage."
+    },
+    {
+      "start": 191.0,
+      "end": 191.0,
+      "text": "Claude animated shorts is a skill that has Claude code build a full vertical animated story short using 3JS and"
+    },
+    {
+      "start": 199.0,
+      "end": 199.0,
+      "text": "motion. Claude works through the topic, script, voice, and shot plan, then renders 2D characters inside a painted"
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "3D town with ink outlines, lens blur, and gliding cameras. Even the march score and sound effects are synthesized in code. Every frame renders on your own PC with no AI video generator involved."
+    },
+    {
+      "start": 219.0,
+      "end": 219.0,
+      "text": "Devm gives every project folder its own isolated Linux VM. It reads your project files to set up the right tool chain,"
+    },
+    {
+      "start": 226.0,
+      "end": 226.0,
+      "text": "then runs claude code, codecs, or open code inside. The VM only sees that folder. Network access starts on an allow list and tokens for GitHub and"
+    },
+    {
+      "start": 235.0,
+      "end": 235.0,
+      "text": "Claude stay on your host. In clone mode, the agent works on its own copy and nothing reaches your repo until you fetch it."
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Satm is a pure Python tool that speeds up slow in-flight Wi-Fi on geostationary satellite links. It keeps persistent"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "connections open to a cloud server near the satellite ground station, so each new request skips extra trips to space and back. Traffic is compressed, signed,"
+    },
+    {
+      "start": 260.0,
+      "end": 260.0,
+      "text": "and exposed locally as a SOCK 5 or HTTP proxy. In the author's own test, loading six sites at once, dropped from 19 seconds to about five."
+    },
+    {
+      "start": 272.0,
+      "end": 272.0,
+      "text": "CUI brings a full component kit to plain C99 with no dependencies and about 150 ready-made components. Build it with"
+    },
+    {
+      "start": 279.0,
+      "end": 279.0,
+      "text": "CMake on GCC, Clang, or MSVC. And the same code runs on Windows, Mac OS, and Linux through Win32, Coco or X11."
+    },
+    {
+      "start": 288.0,
+      "end": 288.0,
+      "text": "Rendering goes through OpenGL with a software fallback. Light and dark themes, spring animations, and keyboard first controls come builtin."
+    },
+    {
+      "start": 297.0,
+      "end": 297.0,
+      "text": "AirPointer is a Mac OS app that turns your AirPods Pro case into a pointer for your Mac. It reads the motion sensors in"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "the closed case. So, moving the case moves the cursor and tapping its front counts as a click. A quick shortcut"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "starts a session and a setup wizard walks you through calibrating it to your screen. It's built in Xcode with a bit of Objective C and everything stays on your Mac."
+    },
+    {
+      "start": 322.0,
+      "end": 322.0,
+      "text": "MousePods turns AirPods into a headtracking mouse on Linux with no Apple device anywhere in the loop. It reads the motion sensors over Bluetooth"
+    },
+    {
+      "start": 331.0,
+      "end": 331.0,
+      "text": "and feeds them into a virtual input device that works on both Wayland and X11."
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "A local app shows battery rings, live 3D orientation, and a raw packet view with guided calibration. You click by"
+    },
+    {
+      "start": 344.0,
+      "end": 344.0,
+      "text": "pressing the stem, tilting your head, or dwelling in place."
+    },
+    {
+      "start": 349.0,
+      "end": 349.0,
+      "text": "CC remote runs clawed code as an ACP agent with a split setup. The model runs on a remote server over SSH while file"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "reads, edits, and shell commands happen on your own machine. It gives the agent the usual local tools and plugs into ACP"
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "clients like Zed. Sessions mirror, resume, and fork. Local MCP servers work with OOTH login and bash commands go"
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "through permission prompts you can approve by prefix."
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "Pinky lets an AI agent operate a real iPhone or Android phone over MCP. You watch from your computer, approve"
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "anything risky, and can take over at any point. A gateway, not the agent, enforces approval gates on payments,"
+    },
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "sends and installs, blocks typing into password fields and hides banking apps by default. On Android, it can even work"
+    },
+    {
+      "start": 396.0,
+      "end": 396.0,
+      "text": "on a hidden display so the phone stays locked."
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "Tinker AI Skill walks a coding agent through turning your own clawed code sessions into a fine-tuned model. It runs a nine-step workflow. Collect your"
+    },
+    {
+      "start": 408.0,
+      "end": 408.0,
+      "text": "transcripts, clean and anonymize them, train a Laura on Tinker, then merge it and convert to a GUF that runs locally"
+    },
+    {
+      "start": 416.0,
+      "end": 416.0,
+      "text": "in Llama CPP. It's the recipe behind the author's test for models. And a synthetic transcript generator lets you"
+    },
+    {
+      "start": 424.0,
+      "end": 424.0,
+      "text": "do a full dry run before touching real data."
+    },
+    {
+      "start": 428.0,
+      "end": 428.0,
+      "text": "Chimera is a browser based voice synthesizer where every sound comes from a simulated airway with no samples anywhere. You shape the tongue, lips,"
+    },
+    {
+      "start": 437.0,
+      "end": 437.0,
+      "text": "and jaw in a live cutaway of a head and it can speak from text, sing a piano roll with lyrics or beatbox on a step sequencer. A beastiary mode gives you"
+    },
+    {
+      "start": 446.0,
+      "end": 446.0,
+      "text": "creature voices from a song bird to an elephant and male, female, and child bodies blend smoothly."
+    },
+    {
+      "start": 454.0,
+      "end": 454.0,
+      "text": "Text.js is a React framework from Anomaly. The open code team for apps that render inside the browser's developer console. You write components"
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "like box and text handle keys with a use input hook and route pages with an app router. Each frame is laid out with yoga"
+    },
+    {
+      "start": 469.0,
+      "end": 469.0,
+      "text": "and written in one console. Log using styled spans and a frame with no changes logs nothing. There are VS Code and Chrome DevTools extensions too."
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "Waymark is a library for durable background tasks that survive server restarts, crashes, and longunning jobs"
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "built on a rust runtime with Postgres as its only dependency. You write workflows as ordinary async Python with real if,"
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "for, and while control flow, retries, and durable sleeps. The twist is that your code is compiled once and runs on a durable virtual machine so it doesn't"
+    },
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "replay from the start when a task recovers."
+    },
+    {
+      "start": 508.0,
+      "end": 508.0,
+      "text": "N runs a small team of Claude code and codeex agents on your own computers coordinated through a free Cloudflare account. You give it a goal in one"
+    },
+    {
+      "start": 517.0,
+      "end": 517.0,
+      "text": "sentence and it breaks the work into tasks, runs them in parallel and reports back. When it needs you, it offers a"
+    },
+    {
+      "start": 525.0,
+      "end": 525.0,
+      "text": "short list of options you answer with one tap and it learns from your past choices how much to decide on its own."
+    },
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "Teon is a self-hosted platform that runs a whole team of AI coding agents on your own machine. You describe a job and an"
+    },
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "orchestrator splits it into tasks for agents that code, review, merge, and research. Each task gets its own git"
+    },
+    {
+      "start": 547.0,
+      "end": 547.0,
+      "text": "work tree. A second model reviews the work and risky steps wait for your approval. It works with clawed code, codecs, open code, and more."
+    },
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "Pulso Icon is an open-source set of nearly 10,000 animated icons built as a drop-in replacement for Lucide React on"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "top of motion. Each icon gets its own motion that plays on hover or focus and it respects reduced motion settings. The"
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "same component names and props work across React View and Spelt with native versions for Jetack Compose and Swift UI"
+    },
+    {
+      "start": 579.0,
+      "end": 579.0,
+      "text": "plus a filled variant for about 1,700 icons."
+    },
+    {
+      "start": 584.0,
+      "end": 584.0,
+      "text": "Phone use lets a Linux PC see and control an unmodified iPhone with no jailbreak, cable, or app on the phone."
+    },
+    {
+      "start": 591.0,
+      "end": 591.0,
+      "text": "The screen arrives over AirPlay as a desktop window, while your PC pretends to be a Bluetooth mouse and keyboard, so clicks become taps and drags become swipes."
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "Agents get the same controls through a command line or an MCP server and can read the screen as text before they act."
+    },
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "The 1.5 joint module is an open hardware robot joint built around a four layer motor driver board whose bare PCB costs"
+    },
+    {
+      "start": 617.0,
+      "end": 617.0,
+      "text": "about $1.50. It pairs an ESP32C3 running Simple Faulk with a small brushless gimbal motor and a 3D printed"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "10 to1 gearbox. The repo includes the PCB files, Solid Works parts, printable STLs, and openloop firmware. So you"
+    },
+    {
+      "start": 633.0,
+      "end": 633.0,
+      "text": "could stack them into an arm, a quadriped, or a pan tilt head. Watch Pointer turns an Apple Watch into a pointer for your Mac connected over"
+    },
+    {
+      "start": 641.0,
+      "end": 641.0,
+      "text": "Bluetooth with no Wi-Fi or servers. Aim the top edge of the watch and the cursor follows across every display. Tap to"
+    },
+    {
+      "start": 649.0,
+      "end": 649.0,
+      "text": "click, hold to drag, and use the digital crown to scroll. A small panel in the Max Notch shows battery and live aim."
+    },
+    {
+      "start": 657.0,
+      "end": 657.0,
+      "text": "And there's even a little light gun game to test it."
+    },
+    {
+      "start": 661.0,
+      "end": 661.0,
+      "text": "Graphical gives coding agents a memory of your project running as a single Rust program with no API key, account or"
+    },
+    {
+      "start": 668.0,
+      "end": 668.0,
+      "text": "telemetry. It parses your repo with Treesitter into a graph of files, functions, calls, and imports. Then"
+    },
+    {
+      "start": 675.0,
+      "end": 675.0,
+      "text": "stores docs, decisions, and past agent sessions alongside it. Agents query everything over MCP and get back short"
+    },
+    {
+      "start": 682.0,
+      "end": 682.0,
+      "text": "excerpts with file and line citations and stale memories get flagged when the code changes."
+    },
+    {
+      "start": 689.0,
+      "end": 689.0,
+      "text": "Ding is a toast notification library with real Spring physics written in Typescript with zero dependencies for"
+    },
+    {
+      "start": 695.0,
+      "end": 695.0,
+      "text": "React, spelt or plain DOM. Instead of stacking toasts, each new call morphs the one already on screen, and interrupted animations keep their"
+    },
+    {
+      "start": 704.0,
+      "end": 704.0,
+      "text": "momentum. Toasts can carry avatars, buttons, progress bars, and countdowns, and promise helpers handle loading states."
+    },
+    {
+      "start": 712.0,
+      "end": 712.0,
+      "text": "Office Engine is an open- source library that opens and edits DOCX, XLSX, and PPTX files right in the browser. Built"
+    },
+    {
+      "start": 720.0,
+      "end": 720.0,
+      "text": "with TypeScript and React, it reads each file lazily in a web worker, so even huge documents start showing almost"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "immediately, and only the visible pages, cells, and slides get rendered. Edits save back to the original format, and"
+    },
+    {
+      "start": 734.0,
+      "end": 734.0,
+      "text": "live collaboration with cursors and offline sync is built in."
+    },
+    {
+      "start": 738.0,
+      "end": 738.0,
+      "text": "Spottish is an unofficial native desktop client for Spotify built with NSH."
+    },
+    {
+      "start": 744.0,
+      "end": 744.0,
+      "text": "Instead of opening the web app in a full browser window, it runs Spotify's own web player hidden in a browser you already have and drives it through the"
+    },
+    {
+      "start": 752.0,
+      "end": 752.0,
+      "text": "Chrome DevTools protocol. The interface on top is drawn natively. It works with free or premium accounts and ads play"
+    },
+    {
+      "start": 760.0,
+      "end": 760.0,
+      "text": "just as Spotify serves them. Headless is an agent skill that lets your coding agent set up a Mac, Linux, or Windows"
+    },
+    {
+      "start": 768.0,
+      "end": 768.0,
+      "text": "machine over SSH so it can run unattended. It walks through never sleeping, signing in automatically after"
+    },
+    {
+      "start": 775.0,
+      "end": 775.0,
+      "text": "a restart, key only SSH and an optional tail scale join. Every step can be rerun and shows its result. At the end, it"
+    },
+    {
+      "start": 783.0,
+      "end": 783.0,
+      "text": "reads back every setting, restarts the machine and checks that it comes back."
+    },
+    {
+      "start": 788.0,
+      "end": 788.0,
+      "text": "Good is a command line secrets manager for people and AI agents. Each machine's key lives in the OS vault or secure"
+    },
+    {
+      "start": 795.0,
+      "end": 795.0,
+      "text": "hardware like the Mac secure enclave or a Linux TPM. Agents can run commands that need credentials without ever seeing the values and output gets masked"
+    },
+    {
+      "start": 804.0,
+      "end": 804.0,
+      "text": "in agent shells. It also encrypts SSH keys, cloud login, and NV files in place."
+    },
+    {
+      "start": 812.0,
+      "end": 812.0,
+      "text": "Simcraft is a collection of 24 clawed code skills, each a folder that teaches the agent one kind of hard work with its"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "method, judgment calls, and tested scripts. The video skills cover 3D loops in 3JS, scripted screencasts, git history, time-lapses, and audio cleanup."
+    },
+    {
+      "start": 829.0,
+      "end": 829.0,
+      "text": "On the engineering side, there's codebased mapping, regression bisecting, flaky test fixing, and threat modeling."
+    },
+    {
+      "start": 836.0,
+      "end": 836.0,
+      "text": "OpenFS gives every coding agent its own isolated copyon-write checkout of any folder git repo or not without copying"
+    },
+    {
+      "start": 844.0,
+      "end": 844.0,
+      "text": "it. It runs one background damon that serves every checkout as a single mount using NFS on Mac OS fuse on Linux and"
+    },
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "SMB on Windows. Agents work in their checkout. You review the changes with a diff and a three-way apply merges them"
+    },
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "back. Flawless UIUX is a skill and local command line tool that helps codeex and open code design, redesign, and refine"
+    },
+    {
+      "start": 867.0,
+      "end": 867.0,
+      "text": "web interfaces. Instead of pushing one look, it starts from your product, then checks the rendered result in a real browser with playright and axe. It flags"
+    },
+    {
+      "start": 876.0,
+      "end": 876.0,
+      "text": "low contrast, tiny text, horizontal overflow, broken images, and repeated copy at desktop and phone sizes."
+    },
+    {
+      "start": 884.0,
+      "end": 884.0,
+      "text": "Mini harness is a small agent harness written for teaching about400 lines of Python with just two dependencies. It"
+    },
+    {
+      "start": 892.0,
+      "end": 892.0,
+      "text": "runs a full tool loop with file shell and search tools plus resumable sessions, compaction, skills, MCP"
+    },
+    {
+      "start": 899.0,
+      "end": 899.0,
+      "text": "servers, and sub aents. In goal mode, a task only counts as done after a verify command passes and a fresh reviewer"
+    },
+    {
+      "start": 906.0,
+      "end": 906.0,
+      "text": "agrees. Permissions can even be judged by a second model."
+    }
+  ]
+}

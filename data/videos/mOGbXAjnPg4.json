@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "mOGbXAjnPg4",
+  "title": "Jev Ultrafast: a browser agent that never generates a coordinate or a selector",
+  "url": "https://www.youtube.com/watch?v=mOGbXAjnPg4",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-09-17",
+  "duration": 21,
+  "word_count": 62,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:45:28+00:00",
+    "metadata_sha256": "0bd7fcb8741bc2a8f5867c3869e546f7ad1bf6a56a1e9b5d70df231783e0c39d",
+    "captions_sha256": "be2e29ba61211e6934be2e19a0ea92b0138fc3ff3be7204b9f8c5b195fd82072",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/browser-use/jev-ultrafast"
+      ],
+      "id": "s001",
+      "end": 21,
+      "paragraphs": [
+        "Jev Ultraast clicks through a web page without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision model, and wait while it writes out where to click step after step. This one reads the DOM directly, builds an index table of clickable elements, and makes two decisions, action and target, in one network round"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Jev Ultraast clicks through a web page without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "model, and wait while it writes out where to click step after step. This one reads the DOM directly, builds an index table of clickable elements, and makes"
+    },
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "text": "two decisions, action and target, in one network round"
+    }
+  ]
+}

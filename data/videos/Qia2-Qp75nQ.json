@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "Qia2-Qp75nQ",
+  "title": "TileKernels: DeepSeek's internal GPU kernels, MoE routing, FP4 quantization, written in TileLang",
+  "url": "https://www.youtube.com/watch?v=Qia2-Qp75nQ",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-04-23",
+  "duration": 24,
+  "word_count": 54,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:58:27+00:00",
+    "metadata_sha256": "092d343b52a3a6a5e9b630cad8cf4481b3b70d952c7ba1af78258bfd7bc5f2bf",
+    "captions_sha256": "49bb3909937f432d0b2509bfeadfc001e303526415789d094419f6ac4ad12ff5",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/deepseek-ai/TileKernels"
+      ],
+      "id": "s001",
+      "end": 24,
+      "paragraphs": [
+        "Deepseek just open sourced the GPU kernels underneath their models. Tile kernels is written entirely in tile lang and bypasses standard libraries to extract maximum floatingpoint throughput directly from Nvidia Hopper and Blackwell architectures. Optimized mixture of experts routing FP8 and FP4 per channel quantization. Specialized Engram gating, the exact colonel's Deepseek runs internally."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Deepseek just open sourced the GPU kernels underneath their models. Tile kernels is written entirely in tile lang and bypasses standard libraries to"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "extract maximum floatingpoint throughput directly from Nvidia Hopper and Blackwell architectures. Optimized mixture of experts routing FP8 and FP4"
+    },
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "text": "per channel quantization. Specialized Engram gating, the exact colonel's Deepseek runs internally."
+    }
+  ]
+}

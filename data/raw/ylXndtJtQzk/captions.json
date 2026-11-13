@@ -1,0 +1,46 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Delta Fin runs Kimmy K3 2.8 trillion parameters and 1.56 tab of weights on a 64 GB MacBook. The trick is that a"
+    },
+    {
+      "timestamp": "0:08",
+      "text": "mixture of experts model only touches a sliver of itself per token. So the attention spine lives on local disk and the 82,432"
+    },
+    {
+      "timestamp": "0:16",
+      "text": "routed experts stay on HuggingFac's CDN fetched one HTTP range request at a time into a growing cache. It's about a token per minute. The author calls it an existence proof, not a chat setup."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Delta Fin runs Kimmy K3 2.8 trillion parameters and 1.56 tab of weights on a 64 GB MacBook. The trick is that a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 8000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mixture of experts model only touches a sliver of itself per token. So the attention spine lives on local disk and the 82,432"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "routed experts stay on HuggingFac's CDN fetched one HTTP range request at a time into a growing cache. It's about a token per minute. The author calls it an existence proof, not a chat setup."
+        }
+      ]
+    }
+  ]
+}

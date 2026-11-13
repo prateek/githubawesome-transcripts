@@ -1,0 +1,46 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "WGit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the repository. Each server's disk is just a"
+    },
+    {
+      "timestamp": "0:09",
+      "text": "disposable cache. Pushes become immutable log entries while a compare and swap manifest decides which update wins, letting multiple instances share"
+    },
+    {
+      "timestamp": "0:16",
+      "text": "storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "WGit puts a git server in one binary backed by S3 or GCS with no database or elected leader. The bucket is the repository. Each server's disk is just a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 9000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "disposable cache. Pushes become immutable log entries while a compare and swap manifest decides which update wins, letting multiple instances share"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "storage safely. It includes smart HTTP policies, web hooks, and a web UI."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "PUyPibO6gDY",
+  "title": "quill: a Mac meeting recorder that survives crashes, CAF audio needs no finalisation",
+  "url": "https://www.youtube.com/watch?v=PUyPibO6gDY",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-07-30",
+  "duration": 27,
+  "word_count": 75,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T19:38:54+00:00",
+    "metadata_sha256": "b0d803f04f38fcf11fa3bacae46aaa5c32fd50d4d15fcad79e45f78d2535bbf2",
+    "captions_sha256": "4fd24e9e56d69da3fa4c600a4bb5d1f1896c8c0c1ef1f8cdacf5bd9a125d6ca5",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/digimata/quill"
+      ],
+      "id": "s001",
+      "end": 27,
+      "paragraphs": [
+        "Quill records meetings on a Mac and transcribes them locally. And the engineering choices are all about surviving a crash. Audio writes as CF rather than M4A because CAF needs no finalization pass. So a session killed midme still leaves a readable file. The file system acts as the job cue. So anything unfinished picks up on next launch. There's a doctor command purely so you aren't downloading a 600 megabyte model minutes before a"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Quill records meetings on a Mac and transcribes them locally. And the engineering choices are all about surviving a crash. Audio writes as CF"
+    },
+    {
+      "start": 8.0,
+      "end": 8.0,
+      "text": "rather than M4A because CAF needs no finalization pass. So a session killed midme still leaves a readable file. The"
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "file system acts as the job cue. So anything unfinished picks up on next launch. There's a doctor command purely so you aren't downloading a 600 megabyte"
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "text": "model minutes before a"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "9Hq3y2kXHVY",
+  "title": "PinchTab: a standalone HTTP server that gives AI agents direct control over a Chrome browser",
+  "url": "https://www.youtube.com/watch?v=9Hq3y2kXHVY",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-03-01",
+  "duration": 24,
+  "word_count": 71,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-13T20:14:08+00:00",
+    "metadata_sha256": "7daf71e49db760cea15b92a389804cb9e7a850e56f4da6908b5fedd34fb9222f",
+    "captions_sha256": "6b95bf02cbe79baa604e6bee8fa6e61bfb33553293fdaa9ae4cda54d95c633c7",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0.0,
+      "title": "Transcript",
+      "repositories": [
+        "https://github.com/pinchtab/pinchtab"
+      ],
+      "id": "s001",
+      "end": 24,
+      "paragraphs": [
+        "The biggest problem with browser automation being locked into a framework. Pinch tab fixes that with one clean architectural decision. It runs as an independent HTTP server. If you can send an HTTP request, you can control Google Chrome through the API. Switch AI providers whenever you want. It's stingy with tokens. Instead of dumping raw HTML at your AI, it parses the accessibility tree, averaging just 800 tokens per page."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "The biggest problem with browser automation being locked into a framework. Pinch tab fixes that with one clean architectural decision. It runs as"
+    },
+    {
+      "start": 6.0,
+      "end": 6.0,
+      "text": "an independent HTTP server. If you can send an HTTP request, you can control Google Chrome through the API. Switch AI providers whenever you want. It's stingy"
+    },
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "text": "with tokens. Instead of dumping raw HTML at your AI, it parses the accessibility tree, averaging just 800 tokens per page."
+    }
+  ]
+}
