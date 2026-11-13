@@ -282,3 +282,54 @@ def test_model_output_without_cost_evidence_is_rejected(record, monkeypatch):
     monkeypatch.setattr(cleanup, "urlopen", response)
     with pytest.raises(ValueError, match="did not report cost"):
         cleanup.request_cleanup(record, "synthetic-test-key")
+
+
+def test_long_form_precedes_shorts_and_repeat_failures_go_last(tmp_path, monkeypatch):
+    from archive import ingest
+
+    catalog = {
+        "videos": [
+            {"id": "failedvideo", "kind": "video", "last_attempt": "2026-11-01"},
+            {"id": "freshshort1", "kind": "short"},
+            {"id": "freshvideo1", "kind": "video"},
+            {"id": "failedshort", "kind": "short", "last_attempt": "2026-11-01"},
+            {"id": "freshvideo2", "kind": "video"},
+        ]
+    }
+    for entry in catalog["videos"]:
+        entry["title"] = entry["id"]
+    calls = []
+    monkeypatch.setattr(ingest, "discover", lambda *args: catalog)
+
+    def unavailable(entry, channel):
+        calls.append(entry["id"])
+        raise ingest.CaptionsUnavailable("No English JSON3 captions")
+
+    ingest.sync({"channel_id": "test"}, tmp_path, max_videos=4, delay=0, fetcher=unavailable)
+    assert calls == ["freshvideo1", "freshvideo2", "failedvideo", "freshshort1"]
+    assert [v["id"] for v in read_json(tmp_path / "catalog.json")["videos"]][0] == "failedvideo"
+
+
+def test_failure_reason_and_diagnostics_reach_log_catalog_and_summary(
+    tmp_path, monkeypatch, capsys
+):
+    from archive import ingest
+
+    catalog = {"videos": [{"id": "abcdefghijk", "title": "First", "kind": "short"}]}
+    monkeypatch.setattr(ingest, "discover", lambda *args: catalog)
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(tmp_path / "summary.md"))
+
+    def reject(entry, channel):
+        error = ValueError("Bad track https://example.com/api/timedtext?signature=secret#x here")
+        error.diagnostics = {"panel": {"rows": 3}}
+        raise error
+
+    ingest.sync({"channel_id": "test"}, tmp_path, delay=0, fetcher=reject)
+    detail = "Bad track https://example.com/api/timedtext here"
+    output = capsys.readouterr().out
+    assert f"ValueError: {detail}; will retry later" in output
+    assert 'diagnostics: {"panel": {"rows": 3}}' in output
+    assert read_json(tmp_path / "catalog.json")["videos"][0]["detail"] == detail
+    summary = (tmp_path / "summary.md").read_text()
+    assert f"| short | ValueError: {detail} |" in summary
+    assert "secret" not in output + summary

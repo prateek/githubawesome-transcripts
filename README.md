@@ -19,6 +19,14 @@ Scheduled collection uses Camofox on a standard hosted macOS runner, opening
 YouTube's **Show transcript** panel in an anonymous, temporary browser session.
 The runtime pins and verified browser checksums live under `scripts/camofox/`.
 Its supervisor removes profiles and stops owned browser processes after each batch.
+Each batch takes long-form videos before shorts and, within each, the least
+recently attempted first, so a video that keeps failing cannot starve the queue.
+
+Every failed attempt logs its reason, which is also kept as `detail` in
+`data/catalog.json` and listed in the run summary. A browser failure also logs
+the transcript panel and watch page state as a `diagnostics` line, and the run's
+`collection-diagnostics` artifact holds that report and a screenshot per failed
+video for 14 days.
 An Ubuntu manual run uses the older `yt-dlp` path for diagnosis.
 
 For a full caption backfill, dispatch **Collect and publish** with `max_videos=25`

@@ -6,7 +6,7 @@ YouTube's 11-character IDs.
 
 | Path | Contents |
 | --- | --- |
-| `catalog.json` | Discovered videos, collection status, retry times and error classes |
+| `catalog.json` | Discovered videos, collection status, retry times, error classes and failure details |
 | `raw/VIDEO_ID/metadata.json` | Allowlisted title, channel, date, duration, description and chapters |
 | `raw/VIDEO_ID/captions.json` | JSON3 response or preserved transcript panel rows with derived events |
 | `videos/VIDEO_ID.json` | Deterministically normalized caption edition |
@@ -33,7 +33,7 @@ so provenance uses language `und` and caption kind `unknown`. The default panel 
 requested with an English UI; this does not prove the spoken language or whether
 YouTube generated the captions.
 
-Collection requires stable rows, matching video and channel identities, increasing
+Collection requires stable rows, matching video and channel identities, nondecreasing
 timestamps, a first row within 30 seconds, and a final row within 60 seconds of the
 video's end. These checks catch obvious truncation but cannot prove completeness;
 videos with long silent endings may be rejected. Browser metadata comes from the

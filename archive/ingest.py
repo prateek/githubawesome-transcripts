@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import time
 from datetime import UTC, datetime, timedelta
 from urllib.error import HTTPError
@@ -39,6 +40,24 @@ class QuietLogger:
 
 def now():
     return datetime.now(UTC).isoformat(timespec="seconds")
+
+
+def describe(error):
+    # Logs and the catalog are public; signed caption URLs carry their token in the query.
+    text = re.sub(r"(https?://[^\s?#]+)[?#]\S*", r"\1", str(error))
+    return " ".join(text.split())[:300]
+
+
+def write_summary(outcomes):
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path or not outcomes:
+        return
+    rows = ["| Video | Kind | Outcome |", "| --- | --- | --- |"]
+    for entry, outcome in outcomes:
+        link = f"[{entry['id']}](https://www.youtube.com/watch?v={entry['id']})"
+        rows.append(f"| {link} | {entry.get('kind', '')} | {outcome.replace('|', '/')} |")
+    with open(path, "a") as summary:
+        summary.write("\n".join(rows) + "\n\n")
 
 
 def extractor(**options):
@@ -166,7 +185,14 @@ def sync(
         return previous
     catalog = discover(config, root, discovery_limit)
     attempted = 0
-    for entry in catalog["videos"]:
+    outcomes = []
+    # Long-form before shorts; within each, the least recently attempted first so
+    # videos that keep failing cannot starve the rest of the queue.
+    queue = sorted(
+        catalog["videos"],
+        key=lambda entry: (entry.get("kind") == "short", entry.get("last_attempt", "")),
+    )
+    for entry in queue:
         existing = root / "videos" / f"{entry['id']}.json"
         if existing.exists() and not refresh:
             entry.update(status="ready")
@@ -187,6 +213,8 @@ def sync(
             entry.update(title=record["title"], status="ready")
             for key in ["error", "detail", "retry_after", "last_attempt"]:
                 entry.pop(key, None)
+            outcomes.append((entry, "ready"))
+            print(f"  ready: {record['word_count']} words", flush=True)
         except (
             CaptionsUnavailable,
             RateLimited,
@@ -208,20 +236,15 @@ def sync(
                     timespec="seconds"
                 ),
             )
-            safe_details = {
-                "Caption track has no text",
-                "Duplicate chapter timestamps",
-                "Caption timing must be finite and nonnegative",
-                "Video does not belong to the configured channel",
-                "No English JSON3 captions",
-            }
-            if str(error) in safe_details:
-                entry["detail"] = str(error)
-                print(f"  {entry['detail']}", flush=True)
-            print(
-                f"  {type(error).__name__}; {'stopping this run' if stop else 'will retry later'}",
-                flush=True,
-            )
+            entry.pop("detail", None)
+            reason = type(error).__name__
+            if detail := describe(error):
+                entry["detail"] = detail
+                reason += f": {detail}"
+            outcomes.append((entry, reason))
+            print(f"  {reason}; {'stopping this run' if stop else 'will retry later'}", flush=True)
+            if diagnostics := getattr(error, "diagnostics", None):
+                print(f"  diagnostics: {json.dumps(diagnostics, sort_keys=True)}", flush=True)
             write_json(root / "catalog.json", catalog)
             if stop:
                 if isinstance(error, BotVerificationRequired):
@@ -231,4 +254,5 @@ def sync(
                 break
         write_json(root / "catalog.json", catalog)
     write_json(root / "catalog.json", catalog)
+    write_summary(outcomes)
     return catalog

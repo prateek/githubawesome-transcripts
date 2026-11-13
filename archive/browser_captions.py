@@ -1,6 +1,7 @@
 """Retrieve the public transcript panel with an ephemeral Camofox session."""
 
 import json
+import os
 import re
 import signal
 import subprocess
@@ -15,6 +16,22 @@ from .transcript import VIDEO_ID
 
 RUNTIME = Path(__file__).resolve().parents[1] / "scripts/camofox/camofox-runtime.py"
 EXTRACT = Path(__file__).with_name("caption_panel.js").read_text()
+PAGE_STATE = Path(__file__).with_name("page_state.js").read_text()
+
+
+def panel_summary(document):
+    metadata = (document or {}).get("metadata") or {}
+    stamps = [row.get("timestamp") for row in (document or {}).get("segments") or []]
+    return {
+        "rows": len(stamps),
+        "first_rows": stamps[:2],
+        "last_rows": stamps[-2:],
+        "id": metadata.get("id"),
+        "channel_id": metadata.get("channel_id"),
+        "duration": metadata.get("duration"),
+        "has_title": bool(metadata.get("title")),
+        "description_length": len(metadata.get("description") or ""),
+    }
 
 
 def panel_captions(document, video_id, channel_id):
@@ -33,7 +50,8 @@ def panel_captions(document, video_id, channel_id):
         start = 0
         for part in stamp.split(":"):
             start = start * 60 + int(part)
-        if events and start * 1000 <= events[-1]["tStartMs"]:
+        # Panel timestamps are whole seconds, so consecutive rows can share one.
+        if events and start * 1000 < events[-1]["tStartMs"]:
             raise ValueError("Unordered transcript panel rows")
         events.append({"tStartMs": start * 1000, "dDurationMs": 0, "segs": [{"utf8": text}]})
     if not events:
@@ -88,6 +106,33 @@ class BrowserCaptions:
             raise OSError("Camofox operation failed")
         return result
 
+    def screenshot(self, tab_id):
+        path = f"/tabs/{tab_id}/screenshot?userId={self.receipt['userId']}"
+        with self.opener.open(self.receipt["baseUrl"] + path, timeout=45) as response:
+            return response.read(20_000_000)
+
+    def diagnose(self, error, evaluate, tab_id, entry, opened, polls, document):
+        report = {
+            "error": f"{type(error).__name__}: {error}",
+            "transcript_button_clicked": bool(opened),
+            "polls": polls,
+            "catalog_duration": entry.get("duration"),
+            "panel": panel_summary(document),
+        }
+        folder = os.environ.get("ARCHIVE_DIAGNOSTICS")
+        try:
+            report["page"] = evaluate(PAGE_STATE)
+            if folder:
+                Path(folder).mkdir(parents=True, exist_ok=True)
+                Path(folder, f"{entry['id']}.png").write_bytes(self.screenshot(tab_id))
+                report["screenshot"] = f"{entry['id']}.png"
+        except (OSError, ValueError, KeyError) as failure:
+            report["diagnosis_error"] = type(failure).__name__
+        if folder:
+            Path(folder).mkdir(parents=True, exist_ok=True)
+            Path(folder, f"{entry['id']}.json").write_text(json.dumps(report, indent=2) + "\n")
+        return report
+
     def fetch(self, entry, channel_id):
         video_id = entry["id"]
         if not VIDEO_ID.fullmatch(video_id):
@@ -108,10 +153,11 @@ class BrowserCaptions:
                 "result"
             ]
 
+        opened, previous, document, polls = False, None, None, 0
         try:
             deadline = time.monotonic() + 60
-            opened, previous = False, None
             while time.monotonic() < deadline:
+                polls += 1
                 if not opened:
                     opened = evaluate("""(() => {
                       document.querySelector('#expand')?.click();
@@ -134,5 +180,10 @@ class BrowserCaptions:
                 previous = document
                 time.sleep(2)
             raise CaptionsUnavailable("Transcript panel did not load")
+        except (ValueError, CaptionsUnavailable) as error:
+            error.diagnostics = self.diagnose(
+                error, evaluate, tab_id, entry, opened, polls, document
+            )
+            raise
         finally:
             self.api(f"/tabs/{tab_id}?userId={user}", method="DELETE")

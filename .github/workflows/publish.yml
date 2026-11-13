@@ -71,12 +71,21 @@ jobs:
         continue-on-error: true
         env:
           MAX_VIDEOS: ${{ inputs.max_videos || 10 }}
+          ARCHIVE_DIAGNOSTICS: ${{ runner.temp }}/collection-diagnostics
         run: |
           if [ "$RUNNER_OS" = "macOS" ]; then
             uv run python -m archive sync --source browser --max-videos "$MAX_VIDEOS" --delay 15
           else
             uv run python -m archive sync --max-videos "$MAX_VIDEOS" --delay 15
           fi
+      - name: Upload collection diagnostics
+        if: always() && github.event_name != 'push'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: collection-diagnostics
+          path: ${{ runner.temp }}/collection-diagnostics
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Copy-edit using free models
         id: clean
         if: github.event_name != 'push' && !inputs.backfill_batches
