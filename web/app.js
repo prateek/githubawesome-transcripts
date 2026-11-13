@@ -668,17 +668,21 @@ async function render() {
     else if (path.startsWith("/repo/")) await repository(ctx, path.slice(6));
     else if (path === "/videos") await videoList(ctx);
     else await home(ctx, params);
-    // Web fonts shift layout, so deep links scroll again once they land.
+    const target = section && document.getElementById(section);
+    if (restore) scrollTo(0, restore.y);
+    else if (!jump || !target) scrollTo(0, 0);
+    const placed = scrollY;
+    // Web fonts shift layout, so a deep link or a restored position is applied
+    // again once they land, unless the reader has scrolled in the meantime.
     await document.fonts?.ready;
     if (!ctx.alive()) return;
-    if (restore) scrollTo(0, restore.y);
-    else if (jump && section && document.getElementById(section)) {
+    if (jump && target) {
       jump(section);
       document.fonts?.addEventListener("loadingdone", () => jump(section), {
         once: true,
         signal: ctx.signal,
       });
-    } else scrollTo(0, 0);
+    } else if (restore && scrollY === placed) scrollTo(0, restore.y);
   } catch (error) {
     if (mine === generation)
       root.innerHTML = `<p class="notice" role="alert">${esc(error.message)}</p><a class="back" href="#/">Return to the catalogue</a>`;
