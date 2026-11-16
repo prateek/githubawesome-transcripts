@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "6e0f4568849e4142d92db55d2f1753cfe3ad1f1fb22dc1e77bccc6574f8a60b5",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-16T22:22:09+00:00",
+  "usage": {
+    "prompt_tokens": 5172,
+    "completion_tokens": 9007,
+    "total_tokens": 14179,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5510,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 59. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Open Orange is a runtime from Rivet for running Cloudflare workers on your own servers or another cloud. It reads your existing Wrangler config. So orange dev and orange deploy replace the usual commands. Each durable object becomes a Rivet actor with its own SQLite database, and KV and D1 and rate limiting work as drop-in bindings. The team says it can migrate durable objects off Cloudflare with no downtime."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Obsidian Skills teaches coding agents how to work with Obsidian vaults and their file formats. It covers Markdown features like wiki links and callouts, bases with filters and formulas, and canvas files with connected nodes. Agents can also use the Obsidian CLI to interact with a vault or extract clean Markdown from web pages with Defut. The skills work with compatible agents including Claude Code and Codex."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "UI SDK is a library from Vercel Labs for building interfaces from reusable behaviors. Its core handles keyboard navigation, focus, and selection along with interactions like pop-ups and drag-and-drop, including the ARIA attributes they need. You combine those behaviors into a component, then render it through an adapter for your framework. It supports React, Vue, Svelte, Solid, and Web Components, and includes a skill for coding agents."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Server OS Panel is a web dashboard for managing Linux servers across hosting providers. Each server runs a small daemon that connects to the panel where you can deploy apps from Git, configure domains and HTTPS, and inspect resource usage. It also brings backups, uptime alerts, and service logs into one place. Workflows can run on a schedule or a push, and an MCP server lets your assistants work with your servers."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Sand3D is a Python library for building 3D objects as short programs designed for language models to write and people to read. It runs on Blender's Python API with commands for shapes, cuts, and assemblies. Parts, edges, and faces can be referenced by name, and joints describe how components move. You can export the same model as a GB for a viewer, a URDF for robotics, or an STL for printing."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Yogurt is a meeting notes app for Mac, Windows, and Linux that records your microphone and call audio. It transcribes the conversation and combines it with your own notes to write a summary using models that run on your computer. After downloading those models, transcription and summaries work offline. You can ask questions across past meetings, follow links back to the source, and export your notes as Markdown."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Agentes Chat is a team chat app you can host yourself where AI agents join channels and direct messages alongside people. Each agent gets a role, an owner, and a budget with access to MCP tools and a computer for running tasks. You can schedule routines or trigger work from events. Actions such as merges and deployments wait for approval in the chat where your team can review them."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Zigzag is an embroidery editor written in Rust that turns SVG artwork into stitches for embroidery machines. You can adjust paths, thread colors, and stitch settings visually, while built-in checks flag problems like tiny lettering or a design that won't fit the hoop. An MCP connection lets AI agents create and edit designs alongside you. Export machine formats such as PES and DST or send directly to a Brother Sketch over Bluetooth."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Agent Run is a platform for managing agents built with tools like Claude Code, Codex, and Open Code. It tracks runs so work can resume after a server restart with approvals and spending caps in one console. After a run, an agent can propose notes, skills, or reusable workflows for review and storage. Future runs start with that saved knowledge, and you can inspect what was kept in the learning tab."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "ScanDot is an experimental Android app that captures 3D point clouds using the camera tracking and depth estimates. On a supported phone, you move around a subject, save the scan locally, and inspect it with rotation, pan, and zoom controls. Results can still have gaps, drift, and noise. The repository also includes a separate workstation workflow that extracts frames from video and reconstructs them with COLMAP."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Island CN is a React component that brings a dynamic island style activity panel to your app. It can show upload progress, a timer, or music controls with compact and expanded views that animate as activities change. You install it through Shad CN, then start, update, and end activities from your components. A playground lets you try presets, tune the motion, and copy the code for your own interface."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "MiniMax H3 Image is MiniMax's new model for both generating and editing images in one checkpoint. It outputs around 16 megapixels natively up to 4096x4096 without an upscaler. The diffusion transformer has 33 billion parameters and is distilled down to just six sampling steps. That's a lot of pixels for six steps. Editing takes up to 16 reference images and you can serve it locally with Diffusers or ComfyUI."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Pine is an agent runtime that reacts to events from folders, websites, and webhooks. You can ask it to watch a scans folder and extract details whenever a new document arrives. Agents keep memory, use MCP tools, and delegate work to other agents. It runs on macOS and Linux with a terminal interface for chat and coding, plus a background service that keeps agents responding when the terminal is closed."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "XJ Scanner connects a laptop to an older Jeep's engine computer through an Arduino Nano. It reads fault codes and live engine data with logging tools and playbooks that help a coding agent guide you through setup. The project targets Chrysler and Jeep OBD1 computers from 1991 to 1995, though it's been tested on one 1994 Cherokee. A simulated Jeep mode lets you check the laptop software before connecting hardware. Haru is a"
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Multilingual voice conversation model that listens and speaks at the same time. A text card sets its character while a reference recording sets the voice. The repository includes a browser demo, a PyTorch implementation, and an MLX version for Apple Silicon, plus serving through VLM Omni. It's a research-based model, so its focus is natural conversation."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Klad is a painting and animation app where you and a coding agent work on the same drawing. You paint in the editor while the agent uses command line tools with the same brushes and layers. Every stroke keeps its path, pressure, and color, so you can reshape or recolor individual marks later. You can pin feedback directly on the canvas, then export finished animations as sprite sheets or into Godot."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Silica is a native code editor for macOS built with SwiftUI and AppKit with a glass style interface. Open a project folder and you get a file tree, fuzzy file search, and syntax highlighting, plus a minimap for navigating longer files. Markdown has its own preview with highlighted code blocks. It requires macOS 26 or later and restores your project tabs when you return."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Waymark is a work tracker that stores each task as a Markdown file inside your repository. It supports task hierarchies, dependencies, and custom fields with Git handling the history so you can review or revert ticket changes alongside code. You can manage work from the command line and an MCP server lets coding agents read and update the same tasks. An optional browser view gives you a read-only project overview."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Waiting 3 minutes for a Rust build kills any feedback loop. Relax from the Makepad team runs a cargo package straight from source with no rustc, LLVM, or linker involved. It compiles each function on first call, optimizes hot code in the background, and patches changed functions into the running program without losing state. The team reports a large 3D game reaching its first frame in 11 seconds on an M4 MacBook."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "GitHub Cool README generates animated SVG stats cards for your profile using a scheduled GitHub Action. It can include private and organization contributions while showing only totals for private work. Cards cover activity, language usage, and notable pull requests with classic dot matrix or OLED styles. The generated images live on a separate branch in your profile repository. And you can adjust their colors and which statistics appear."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "OpenShelf is an Android TV app store that installs apps directly from their GitHub releases using your remote. You can browse categories or search by what an app does and it picks the APK that matches your TV's processor. It also tracks updates for its apps in its catalog and checks their signing keys before updating. If a key changes, it holds the update for review."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Linger is a personal agent app that can run models locally on supported Macs and PCs. It works across files and apps you authorize with searchable wiki pages that preserve preferences and decisions between conversations. You can have it monitor your inbox, calendar, and Slack, then bring in other agents when a task needs them. In local mode, its memories stay on your device."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Mate is an open-source starter for a text-first shopping agent written in plain Python with no required dependencies. You text it a store or a product link over web chat, a command line, or SMS, and it answers with cashback offers, discount codes, package tracking, or a price drop watch. Everything here runs on labeled demo data. So, it's a template to build on rather than the live service."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Creator Generalist is a skill pack that guides coding agents through 2D animation, 3D scenes, and game development. It connects production steps with tools like Blender, Three.js, and Godot covering assets, animation, and sound. Before building the final piece, the agent shows style frames and a preview for feedback. For games, it starts with a playable prototype, then checks things like restart behavior, performance, and paths that could leave players stuck."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "P&ID to Knowledge Graph is a Claude skill that reads piping and instrumentation diagrams from PDFs and turns them into a process knowledge graph with tested Python scripts doing the prep and QA. It maps what flows upstream and downstream of each piece of equipment, which instrument measures what, and every control loop from sensor to valve."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Orwell is an end-to-end encrypted chat and calling app for communities built in TypeScript with React and Electron by a solo developer in Portugal. It has text rooms, voice and video calls with screen sharing and direct messages, and the server can't read your messages, names, or call audio. Encryption runs on MLS; calls use S-frame and key exchange is post-quantum."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Tuff UI is a collection of React components for building AI chat and agent interfaces. It covers streaming conversations, tool approval cues, and agent plans, plus views for memory and usage. Components install through a shadcn/ui registry, which copies the source into your project so you can edit it directly. The collection also includes complete screens assembled from those components with previews at desktop, tablet, and phone sizes."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Steel is a GPU physics solver from Skild AI developed with NVIDIA for simulating robot manipulation. It runs inside the Newton physics engine with examples covering robot arms, grippers, and stacks of objects. This repository provides scenes, tutorials, and workflows for tuning simulations and investigating unstable behavior. You can open examples in an interactive browser, adjust solver settings live, and benchmark the scene before using it in a robot learning environment."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "3RT is a rendering and game runtime from Meshy AI with a Three.js style TypeScript API. Its Rust and WGPU engine uses GPU ray tracing for shadows, reflections, and bounced light, including surfaces that glow and illuminate the scene. You write scene and game logic together with packages for physics and destructible voxel worlds."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Shorts Kit is a motion toolkit that guides coding agents through making narrated videos. It covers fact-checking scripts and voice timing, then builds scenes with captions, maps, and motion graphics. You can use a generated voice or bring your own recording. A local dashboard lets you review the storyboard, listen to the narration, and inspect still frames before rendering with the finished video, cover, and caption prepared for upload."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Prime Files is a Windows file explorer written in Rust with tabs and a split view for working across folders. Its built-in viewer handles files, including PDFs, videos, and 3D models, while keeping Windows thumbnails and the familiar right-click menu. There's also a terminal with tabs and search across your computer. Compact mode hides the surrounding controls until your pointer reaches the edge, giving the file list more room."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Watch shows which satellites passed over any place on Earth in the past week and whether any of them took a public photo of it. It's built with React and Three.js, and the orbit math runs in your browser with SGP4. Search a city or your own location and it checks nearly 400 imaging, weather, and radar satellites, then matches Sentinel 2 and Landsat photos to the passes that captured them. VideoHub is a local review studio for videos built as code"
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "By Claude Code or Open Code. It plays the film directly from its web page, so you can step through frames and draw notes before rendering. Your agent reads those notes through MCP, fixes the code, and updates the preview. A render queue processes one job at a time, and chunked projects can re-render just the sections you changed."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "GPU Canvas is a TypeScript and React library that puts thousands of live DOM nodes on an infinite canvas drawn by WebGPU in a single instance pass. Pan and zoom never touch the DOM, yet every node stays live for input, state, and accessibility. You can run WGSL shader effects like glass, frost, or glitch on real components, and agents get a JSON view of everything on screen."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Folio is Omar's file manager built with C++ and Qt. It follows your desktop theme and supports keyboard navigation across grid, list, and finder style column views. Press space to preview files or split the window to move items between folders. Plugins add features like browsing machines on your Tailscale network over SFTP and sharing through local send."
+      ]
+    }
+  ]
+}
