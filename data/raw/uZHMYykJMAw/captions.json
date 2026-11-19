@@ -1,0 +1,1463 @@
+{
+  "source_format": "youtube-transcript-panel-v1",
+  "segments": [
+    {
+      "timestamp": "0:00",
+      "text": "Welcome back to GitHub Awesome. This is GitHub trending weekly number 60. 35 trending open source projects on GitHub right now. Let's go."
+    },
+    {
+      "timestamp": "0:10",
+      "text": "Rust Anything helps you move an existing app to Rust one piece at a time. Say a search box feels slow. It profiles the"
+    },
+    {
+      "timestamp": "0:19",
+      "text": "search to find the loop worth moving, then builds a bridge so the rest of the app can keep calling it the same way. You or your coding agent write the rest."
+    },
+    {
+      "timestamp": "0:28",
+      "text": "The tool replays recorded cases to check the results, then benchmarks both versions."
+    },
+    {
+      "timestamp": "0:34",
+      "text": "Wireless battery puts battery levels next to the clock on Windows 10 and 11."
+    },
+    {
+      "timestamp": "0:40",
+      "text": "It can read a Logitech mouse and a Steel Series headset through their USB receivers, so you can leave both brands"
+    },
+    {
+      "timestamp": "0:47",
+      "text": "apps closed. Each device gets an icon and a percentage. The number turns red at 15% and if your mouse falls asleep,"
+    },
+    {
+      "timestamp": "0:55",
+      "text": "its last reading stays visible in dimmed text."
+    },
+    {
+      "timestamp": "0:59",
+      "text": "Tren RT is an open- source LLM inference engine for AWS Tranium 2 serving an OpenAI compatible API from a single"
+    },
+    {
+      "timestamp": "1:06",
+      "text": "Taran 2 instance. It runs GLM 5.3 flash, a 330 billion parameter mixture of experts with fuse decode kernels written"
+    },
+    {
+      "timestamp": "1:14",
+      "text": "in NKI, a prefix cache, and a 1 million token context. On semi analysis's agent X benchmark, the team reports 3.57"
+    },
+    {
+      "timestamp": "1:23",
+      "text": "million tokens a minute at about 4 cents per million on spot pricing. Data is Replet's self-hosted observability tool."
+    },
+    {
+      "timestamp": "1:31",
+      "text": "Point your open telemetry collector or data dog agent at it and you can search logs, chart metrics, and inspect traces"
+    },
+    {
+      "timestamp": "1:38",
+      "text": "from one dashboard. When a request slows down, open its trace to see which service took the most time, then pull up"
+    },
+    {
+      "timestamp": "1:45",
+      "text": "the logs tied to that request. You can also send alerts to Slack when a monitor fires. Obscura is a headless browser"
+    },
+    {
+      "timestamp": "1:52",
+      "text": "written in Rust for web scraping and AI agents. It runs JavaScript with V8 and renders pages with its own engine. You"
+    },
+    {
+      "timestamp": "2:01",
+      "text": "can connect Playright or Puppeteer through the Chrome DevTools protocol."
+    },
+    {
+      "timestamp": "2:05",
+      "text": "Load a page and take a screenshot or export a PDF. For a quick job like pulling every link from a page, you can use the command line directly."
+    },
+    {
+      "timestamp": "2:15",
+      "text": "Tams is a serving engine for live object tracking across many cameras built on Meta's SAM 2.1 and Edgam models. Instead"
+    },
+    {
+      "timestamp": "2:23",
+      "text": "of one model copy per camera, a single copy tracks every object on every feed with memory that stays bounded however"
+    },
+    {
+      "timestamp": "2:30",
+      "text": "long the video runs. Give it frames and a box or click and it returns masks. The author reports 64 cameras at 321 frames a second on one RTX 4090."
+    },
+    {
+      "timestamp": "2:43",
+      "text": "Zigzag is a native Mac browser in Swift built as a replacement for Arc. It keeps tabs in a sidebar grouped into spaces"
+    },
+    {
+      "timestamp": "2:51",
+      "text": "with peak reader and split view while running extensions from the Chrome web store. You can import your spaces, pin"
+    },
+    {
+      "timestamp": "2:58",
+      "text": "tabs, and passwords from ARC with no account and no telemetry. The author lists it at about 35 megabytes installed, and there's an optional MCP"
+    },
+    {
+      "timestamp": "3:07",
+      "text": "server, too. Open Ren is an open-source desktop email app for Linux, Windows, and Mac OS. It brings Gmail and other"
+    },
+    {
+      "timestamp": "3:15",
+      "text": "IMAP accounts into one inbox, stores synced mail encrypted on your computer and indexes it locally. So if you can"
+    },
+    {
+      "timestamp": "3:23",
+      "text": "remember a phrase from an old email but forget which account it came to, you can search across them. It also strips trackers and flags suspicious messages before you click."
+    },
+    {
+      "timestamp": "3:34",
+      "text": "Inference optimization is an agent skill that teaches your coding agent to speed up a local LLM server the careful way."
+    },
+    {
+      "timestamp": "3:41",
+      "text": "It first computes the theoretical ceiling from your hardware's bandwidth and flops, then changes one thing at a time and measures against interled"
+    },
+    {
+      "timestamp": "3:50",
+      "text": "controls. Every run, failures included, goes into a ledger, and nothing counts unless it passes a long context"
+    },
+    {
+      "timestamp": "3:57",
+      "text": "retrieval check. Hollowpot gives 3D objects on the web the shifting colors of holographic foil. Put it on a trading"
+    },
+    {
+      "timestamp": "4:06",
+      "text": "card that tilts with your cursor, and the shader calculates which colors the foil's tiny grooves would send toward your eye from each light. The repo"
+    },
+    {
+      "timestamp": "4:15",
+      "text": "includes materials for rainbow bands, cracked gold foil, and glitter, plus instructions for a coding agent to add them to your scene."
+    },
+    {
+      "timestamp": "4:24",
+      "text": "Stick scene is an agent skill from Comran Ahmed that draws little stick figure animations showing what your product does. Run the command with a"
+    },
+    {
+      "timestamp": "4:32",
+      "text": "short description and the agent reads your project, pitches two or three ideas, then writes a scene as a single"
+    },
+    {
+      "timestamp": "4:39",
+      "text": "dependencyfree canvas. Each one idles until it scrolls into view, gets clicked or hovered, then plays."
+    },
+    {
+      "timestamp": "4:47",
+      "text": "Anti-algorithm is a claude code skill that pushes the model past its first most obvious idea. for names, copy,"
+    },
+    {
+      "timestamp": "4:54",
+      "text": "stories, posters, or UI. It has Claude say its default pick out loud, then steer away from it for a reason drawn from your project. Python scripts roll a"
+    },
+    {
+      "timestamp": "5:03",
+      "text": "random starting point when a brief is thin. Add handdrawn wobble to coderawn shapes and check that no text runs off the edge or loses contrast."
+    },
+    {
+      "timestamp": "5:13",
+      "text": "MLAB is a video engine that lets a coding agent turn your screenshots, footage, and a short brief into an editable video. The agent writes each"
+    },
+    {
+      "timestamp": "5:21",
+      "text": "scene as code that draws to an HTML canvas. In the viewer, you can pause on a frame, draw a box around what needs changing, and leave a note the agent can"
+    },
+    {
+      "timestamp": "5:30",
+      "text": "read. When the cuts ready, Mat Lab exports an MP4 with the audio mixed in."
+    },
+    {
+      "timestamp": "5:37",
+      "text": "Crony top gives your Linux time server a BTOP style dashboard in the terminal. If NTP traffic spikes, you can see it on"
+    },
+    {
+      "timestamp": "5:45",
+      "text": "the requests per second graph and check which clients Crony is rate limiting most. The same screen shows which time sources the server is using and how much"
+    },
+    {
+      "timestamp": "5:54",
+      "text": "CPU and memory Crony is using. You can toggle panels with the number keys."
+    },
+    {
+      "timestamp": "6:00",
+      "text": "RGB mocap turns footage of a person into editable 3D animation on Windows. Give it a video of someone walking and it"
+    },
+    {
+      "timestamp": "6:08",
+      "text": "runs AI models locally to estimate how their body moves. You can preview the motion, apply it to your own character rig, and export the animation."
+    },
+    {
+      "timestamp": "6:17",
+      "text": "The app also supports capture from multiple cameras, and can stream motion into Blender."
+    },
+    {
+      "timestamp": "6:23",
+      "text": "STRA OS is a self-hosted platform for mapping how your data and systems fit together. Model a device, the service it"
+    },
+    {
+      "timestamp": "6:31",
+      "text": "supports, and the data sets that service feeds. Then follow those links to see what could be affected if the device goes down. The server enforces rules for"
+    },
+    {
+      "timestamp": "6:40",
+      "text": "changing the model and you can trace a reported number back to the data it came from."
+    },
+    {
+      "timestamp": "6:46",
+      "text": "My AI coding workflow is one developer markdown setup for coding agents like claude code, Gemini CLI and cursor with"
+    },
+    {
+      "timestamp": "6:54",
+      "text": "no application code at all. A global instruction file sorts every task as a spike, a bounded change or an architectural one. Architectural work"
+    },
+    {
+      "timestamp": "7:03",
+      "text": "goes through three stages. a plan, a critical review of that plan in a fresh context, and a production readiness review of the actual diff."
+    },
+    {
+      "timestamp": "7:12",
+      "text": "Shader Lab is a playground for metal shaders on Apple devices. Drop in a photo, apply a fluted glass effect, and"
+    },
+    {
+      "timestamp": "7:20",
+      "text": "watch the image change as you drag the controls. It ships 15 shaders from fractals and vortexes to photo effects"
+    },
+    {
+      "timestamp": "7:27",
+      "text": "like fluted glass and rain. You tweak the parameters and watch the canvas change. see the metal source in a code tab and save any shader as a wallpaper."
+    },
+    {
+      "timestamp": "7:37",
+      "text": "PI Emphasis is an extension that makes replies from the PI coding agent easier to scan in your terminal. When the agent"
+    },
+    {
+      "timestamp": "7:44",
+      "text": "marks a task as done, you get a green badge. If it needs a decision from you, needs you shows up in yellow. The"
+    },
+    {
+      "timestamp": "7:52",
+      "text": "extension gives PI instructions for when to use those labels so you can spot what needs your attention in a long reply."
+    },
+    {
+      "timestamp": "8:00",
+      "text": "M replaces the Windows 10 or 11 taskbar with a Mac inspired dock. Hover over an app and its icon grows under your"
+    },
+    {
+      "timestamp": "8:08",
+      "text": "cursor. If the app has several windows open, you can pick the one you want from live previews. Minimized windows can"
+    },
+    {
+      "timestamp": "8:16",
+      "text": "fold into their icons with a Genie animation, and an optional top bar holds your clock, volume, and battery status."
+    },
+    {
+      "timestamp": "8:24",
+      "text": "Omari server turns an Omari machine into a home server you run from any browser independent of the Omari project itself."
+    },
+    {
+      "timestamp": "8:32",
+      "text": "It has an app store of about 580 self-hosted apps running in Rootless Podman, plus file management with"
+    },
+    {
+      "timestamp": "8:38",
+      "text": "photosync and SMB shares. You can spin up virtual machines in one tap, check drive health, and even view the server's"
+    },
+    {
+      "timestamp": "8:46",
+      "text": "own desktop remotely, all from your phone or laptop."
+    },
+    {
+      "timestamp": "8:50",
+      "text": "Mimvox is a desktop app that turns typed text into speech in your own voice."
+    },
+    {
+      "timestamp": "8:56",
+      "text": "Start with a recording you already have or read a short passage into your microphone. Then type a line in English"
+    },
+    {
+      "timestamp": "9:03",
+      "text": "or Ukrainian and hear it spoken back in your voice. The app can also train a model to better match how you sound with"
+    },
+    {
+      "timestamp": "9:10",
+      "text": "your recordings and generated audio staying on your computer."
+    },
+    {
+      "timestamp": "9:15",
+      "text": "Not a Windows app that keeps your notes in markdown files and lets you ask questions about them with a local AI model. Hit a keyboard shortcut to jot"
+    },
+    {
+      "timestamp": "9:24",
+      "text": "something down while you work and not can suggest a title and tags. Later, ask what you decided on a project and the"
+    },
+    {
+      "timestamp": "9:32",
+      "text": "chat links back to the notes it used so you can check the original wording."
+    },
+    {
+      "timestamp": "9:38",
+      "text": "Deadboard is a circuit board repair trainer that runs in your browser. Start with a board that won't power up. Probe"
+    },
+    {
+      "timestamp": "9:44",
+      "text": "it with a multimeter. Then use a virtual soldering iron to fix the fault. The readings come from a circuit simulator"
+    },
+    {
+      "timestamp": "9:51",
+      "text": "so a stray blob of solder can short a power rail. You can also import a kyad design and plant faults for someone else to diagnose."
+    },
+    {
+      "timestamp": "10:01",
+      "text": "Open taskbar replaces the Windows 10 or 11 taskbar with a floating dock you can put along the bottom or either side of your screen."
+    },
+    {
+      "timestamp": "10:09",
+      "text": "Right click an app to open its usual Windows jump list or hover to see live previews of its windows."
+    },
+    {
+      "timestamp": "10:16",
+      "text": "You can add a CPU meter, media controls, or a focus timer and set the dock to slide away when a window overlaps it."
+    },
+    {
+      "timestamp": "10:24",
+      "text": "Tatami is a tiling window manager for Mac OS written from scratch and zigg with no external dependencies. The"
+    },
+    {
+      "timestamp": "10:31",
+      "text": "window manager itself is a pure state machine with no I/O wrapped in a thin shell that handles Mac OS events and a"
+    },
+    {
+      "timestamp": "10:38",
+      "text": "simulator tests it deliberately hostile fake apps. You get tiling, virtual workspaces, mouse resizing and window"
+    },
+    {
+      "timestamp": "10:46",
+      "text": "rules with hotkeys in the Yabai style and a JSON command line. Collab Playground is a desktop app for managing"
+    },
+    {
+      "timestamp": "10:53",
+      "text": "Google Collab sessions through the official CLI. You can start a GPU session, see how fast it's using compute units, and set it to stop when it's been"
+    },
+    {
+      "timestamp": "11:01",
+      "text": "idle too long. That idle timer runs on Collab, so it can still stop the session after you close the app. A bundled"
+    },
+    {
+      "timestamp": "11:08",
+      "text": "plugin can also serve a GGUF model with Llama.cpp."
+    },
+    {
+      "timestamp": "11:14",
+      "text": "VUX is a terminal first editor for Apple Silicon Max that keeps several projects in one window. Run your coding agent in"
+    },
+    {
+      "timestamp": "11:22",
+      "text": "one pane and your tests in another. Then review the git diff without leaving the workspace."
+    },
+    {
+      "timestamp": "11:29",
+      "text": "Each project gets its own saved commands and terminal layout, and you can keep a dev server running in the background and check its output when you switch back."
+    },
+    {
+      "timestamp": "11:38",
+      "text": "Smooth Play is a Windows app that streams 30fps console games to your PC for GPU frame generation up to 120 fps with nothing installed on the console."
+    },
+    {
+      "timestamp": "11:48",
+      "text": "It connects over PS5 remote play via Chaki Nang, then runs rife for new frames alongside AMD FSR or Nvidia video"
+    },
+    {
+      "timestamp": "11:56",
+      "text": "super resolution upscaling. The developer notes controls still respond at 30 fps with roughly 20 milliseconds of added latency at 60 fps."
+    },
+    {
+      "timestamp": "12:06",
+      "text": "UniFi opent lets you manage an openwrart access point from your UniFi controller."
+    },
+    {
+      "timestamp": "12:12",
+      "text": "A small service on the access point speaks UniFi's management protocol, so you can push Wi-Fi settings and see connected clients alongside your other"
+    },
+    {
+      "timestamp": "12:20",
+      "text": "access points. The project started with a retired Google OnHub, and it can roll back a settings change if the Wi-Fi fails to come back up."
+    },
+    {
+      "timestamp": "12:29",
+      "text": "Smart imposter is a Rust and Vulcan renderer that ray traces a forest with more than 440,000 plants. Up close, you"
+    },
+    {
+      "timestamp": "12:37",
+      "text": "see the actual 3D leaves. Farther away, each plant switches to a set of baked views with depth, so it still looks three-dimensional as the camera moves."
+    },
+    {
+      "timestamp": "12:46",
+      "text": "The GPU bakes those views at startup, and DLSS ray reconstruction cleans up the noise in the final image."
+    },
+    {
+      "timestamp": "12:54",
+      "text": "Agave is a terminal native AI coding assistant written in Typescript and compiled to a single binary with bun. It"
+    },
+    {
+      "timestamp": "13:01",
+      "text": "reads, searches and edits code in whatever repo you run it in. Runs commands and tests and keeps memory scope to each project. You can bring"
+    },
+    {
+      "timestamp": "13:10",
+      "text": "enthropic, open AI, Gemini, open router or local Alama model, and shell commands run in a sandbox."
+    },
+    {
+      "timestamp": "13:17",
+      "text": "Vendb is an in-memory Rust database for data you load at startup and filter over and over. Add its derive macro to a"
+    },
+    {
+      "timestamp": "13:24",
+      "text": "strruct and it generates a query API from the fields you mark. Say you want engineers who have admin access. Vendb"
+    },
+    {
+      "timestamp": "13:32",
+      "text": "combines the matching rows for each filter using bit maps. You can append new rows as they come in."
+    },
+    {
+      "timestamp": "13:38",
+      "text": "Bevel OS runs a graphical desktop on a single ESP32 S3 board. It sends a 64 color VGA picture through six resistors"
+    },
+    {
+      "timestamp": "13:48",
+      "text": "complete with overlapping windows, a file manager, and a text editor. It can browse text pages over Wi-Fi and load"
+    },
+    {
+      "timestamp": "13:55",
+      "text": "apps like Snake and Doom from its own drive. Claude Code wrote the operating system while the project's author handled the wiring and logged each intervention."
+    },
+    {
+      "timestamp": "14:05",
+      "text": "TVpipe is a command line tool from Armen Ronacher that mirrors video and audio to AirPlay and Google Cast receivers. It uses each ecosystem's real-time"
+    },
+    {
+      "timestamp": "14:14",
+      "text": "mirroring protocol instead of URL playback. So latency stays at a fraction of a second. It can send files, cameras,"
+    },
+    {
+      "timestamp": "14:21",
+      "text": "capture cards, a window or a browser tab to several TVs at once. It's written in Rust and ships as one binary."
+    },
+    {
+      "timestamp": "14:30",
+      "text": "[music]"
+    }
+  ],
+  "events": [
+    {
+      "tStartMs": 0,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Welcome back to GitHub Awesome. This is GitHub trending weekly number 60. 35 trending open source projects on GitHub right now. Let's go."
+        }
+      ]
+    },
+    {
+      "tStartMs": 10000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Rust Anything helps you move an existing app to Rust one piece at a time. Say a search box feels slow. It profiles the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 19000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "search to find the loop worth moving, then builds a bridge so the rest of the app can keep calling it the same way. You or your coding agent write the rest."
+        }
+      ]
+    },
+    {
+      "tStartMs": 28000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The tool replays recorded cases to check the results, then benchmarks both versions."
+        }
+      ]
+    },
+    {
+      "tStartMs": 34000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Wireless battery puts battery levels next to the clock on Windows 10 and 11."
+        }
+      ]
+    },
+    {
+      "tStartMs": 40000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It can read a Logitech mouse and a Steel Series headset through their USB receivers, so you can leave both brands"
+        }
+      ]
+    },
+    {
+      "tStartMs": 47000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apps closed. Each device gets an icon and a percentage. The number turns red at 15% and if your mouse falls asleep,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 55000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "its last reading stays visible in dimmed text."
+        }
+      ]
+    },
+    {
+      "tStartMs": 59000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tren RT is an open- source LLM inference engine for AWS Tranium 2 serving an OpenAI compatible API from a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 66000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Taran 2 instance. It runs GLM 5.3 flash, a 330 billion parameter mixture of experts with fuse decode kernels written"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "in NKI, a prefix cache, and a 1 million token context. On semi analysis's agent X benchmark, the team reports 3.57"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "million tokens a minute at about 4 cents per million on spot pricing. Data is Replet's self-hosted observability tool."
+        }
+      ]
+    },
+    {
+      "tStartMs": 91000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Point your open telemetry collector or data dog agent at it and you can search logs, chart metrics, and inspect traces"
+        }
+      ]
+    },
+    {
+      "tStartMs": 98000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "from one dashboard. When a request slows down, open its trace to see which service took the most time, then pull up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the logs tied to that request. You can also send alerts to Slack when a monitor fires. Obscura is a headless browser"
+        }
+      ]
+    },
+    {
+      "tStartMs": 112000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "written in Rust for web scraping and AI agents. It runs JavaScript with V8 and renders pages with its own engine. You"
+        }
+      ]
+    },
+    {
+      "tStartMs": 121000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "can connect Playright or Puppeteer through the Chrome DevTools protocol."
+        }
+      ]
+    },
+    {
+      "tStartMs": 125000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Load a page and take a screenshot or export a PDF. For a quick job like pulling every link from a page, you can use the command line directly."
+        }
+      ]
+    },
+    {
+      "tStartMs": 135000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tams is a serving engine for live object tracking across many cameras built on Meta's SAM 2.1 and Edgam models. Instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 143000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "of one model copy per camera, a single copy tracks every object on every feed with memory that stays bounded however"
+        }
+      ]
+    },
+    {
+      "tStartMs": 150000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "long the video runs. Give it frames and a box or click and it returns masks. The author reports 64 cameras at 321 frames a second on one RTX 4090."
+        }
+      ]
+    },
+    {
+      "tStartMs": 163000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Zigzag is a native Mac browser in Swift built as a replacement for Arc. It keeps tabs in a sidebar grouped into spaces"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "with peak reader and split view while running extensions from the Chrome web store. You can import your spaces, pin"
+        }
+      ]
+    },
+    {
+      "tStartMs": 178000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "tabs, and passwords from ARC with no account and no telemetry. The author lists it at about 35 megabytes installed, and there's an optional MCP"
+        }
+      ]
+    },
+    {
+      "tStartMs": 187000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "server, too. Open Ren is an open-source desktop email app for Linux, Windows, and Mac OS. It brings Gmail and other"
+        }
+      ]
+    },
+    {
+      "tStartMs": 195000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "IMAP accounts into one inbox, stores synced mail encrypted on your computer and indexes it locally. So if you can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 203000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "remember a phrase from an old email but forget which account it came to, you can search across them. It also strips trackers and flags suspicious messages before you click."
+        }
+      ]
+    },
+    {
+      "tStartMs": 214000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Inference optimization is an agent skill that teaches your coding agent to speed up a local LLM server the careful way."
+        }
+      ]
+    },
+    {
+      "tStartMs": 221000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It first computes the theoretical ceiling from your hardware's bandwidth and flops, then changes one thing at a time and measures against interled"
+        }
+      ]
+    },
+    {
+      "tStartMs": 230000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "controls. Every run, failures included, goes into a ledger, and nothing counts unless it passes a long context"
+        }
+      ]
+    },
+    {
+      "tStartMs": 237000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "retrieval check. Hollowpot gives 3D objects on the web the shifting colors of holographic foil. Put it on a trading"
+        }
+      ]
+    },
+    {
+      "tStartMs": 246000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "card that tilts with your cursor, and the shader calculates which colors the foil's tiny grooves would send toward your eye from each light. The repo"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "includes materials for rainbow bands, cracked gold foil, and glitter, plus instructions for a coding agent to add them to your scene."
+        }
+      ]
+    },
+    {
+      "tStartMs": 264000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Stick scene is an agent skill from Comran Ahmed that draws little stick figure animations showing what your product does. Run the command with a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "short description and the agent reads your project, pitches two or three ideas, then writes a scene as a single"
+        }
+      ]
+    },
+    {
+      "tStartMs": 279000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "dependencyfree canvas. Each one idles until it scrolls into view, gets clicked or hovered, then plays."
+        }
+      ]
+    },
+    {
+      "tStartMs": 287000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Anti-algorithm is a claude code skill that pushes the model past its first most obvious idea. for names, copy,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "stories, posters, or UI. It has Claude say its default pick out loud, then steer away from it for a reason drawn from your project. Python scripts roll a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "random starting point when a brief is thin. Add handdrawn wobble to coderawn shapes and check that no text runs off the edge or loses contrast."
+        }
+      ]
+    },
+    {
+      "tStartMs": 313000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "MLAB is a video engine that lets a coding agent turn your screenshots, footage, and a short brief into an editable video. The agent writes each"
+        }
+      ]
+    },
+    {
+      "tStartMs": 321000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "scene as code that draws to an HTML canvas. In the viewer, you can pause on a frame, draw a box around what needs changing, and leave a note the agent can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "read. When the cuts ready, Mat Lab exports an MP4 with the audio mixed in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 337000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Crony top gives your Linux time server a BTOP style dashboard in the terminal. If NTP traffic spikes, you can see it on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 345000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "the requests per second graph and check which clients Crony is rate limiting most. The same screen shows which time sources the server is using and how much"
+        }
+      ]
+    },
+    {
+      "tStartMs": 354000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "CPU and memory Crony is using. You can toggle panels with the number keys."
+        }
+      ]
+    },
+    {
+      "tStartMs": 360000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "RGB mocap turns footage of a person into editable 3D animation on Windows. Give it a video of someone walking and it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 368000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "runs AI models locally to estimate how their body moves. You can preview the motion, apply it to your own character rig, and export the animation."
+        }
+      ]
+    },
+    {
+      "tStartMs": 377000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The app also supports capture from multiple cameras, and can stream motion into Blender."
+        }
+      ]
+    },
+    {
+      "tStartMs": 383000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "STRA OS is a self-hosted platform for mapping how your data and systems fit together. Model a device, the service it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "supports, and the data sets that service feeds. Then follow those links to see what could be affected if the device goes down. The server enforces rules for"
+        }
+      ]
+    },
+    {
+      "tStartMs": 400000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "changing the model and you can trace a reported number back to the data it came from."
+        }
+      ]
+    },
+    {
+      "tStartMs": 406000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "My AI coding workflow is one developer markdown setup for coding agents like claude code, Gemini CLI and cursor with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 414000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "no application code at all. A global instruction file sorts every task as a spike, a bounded change or an architectural one. Architectural work"
+        }
+      ]
+    },
+    {
+      "tStartMs": 423000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "goes through three stages. a plan, a critical review of that plan in a fresh context, and a production readiness review of the actual diff."
+        }
+      ]
+    },
+    {
+      "tStartMs": 432000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Shader Lab is a playground for metal shaders on Apple devices. Drop in a photo, apply a fluted glass effect, and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 440000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "watch the image change as you drag the controls. It ships 15 shaders from fractals and vortexes to photo effects"
+        }
+      ]
+    },
+    {
+      "tStartMs": 447000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "like fluted glass and rain. You tweak the parameters and watch the canvas change. see the metal source in a code tab and save any shader as a wallpaper."
+        }
+      ]
+    },
+    {
+      "tStartMs": 457000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "PI Emphasis is an extension that makes replies from the PI coding agent easier to scan in your terminal. When the agent"
+        }
+      ]
+    },
+    {
+      "tStartMs": 464000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "marks a task as done, you get a green badge. If it needs a decision from you, needs you shows up in yellow. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 472000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "extension gives PI instructions for when to use those labels so you can spot what needs your attention in a long reply."
+        }
+      ]
+    },
+    {
+      "tStartMs": 480000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "M replaces the Windows 10 or 11 taskbar with a Mac inspired dock. Hover over an app and its icon grows under your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 488000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "cursor. If the app has several windows open, you can pick the one you want from live previews. Minimized windows can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 496000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "fold into their icons with a Genie animation, and an optional top bar holds your clock, volume, and battery status."
+        }
+      ]
+    },
+    {
+      "tStartMs": 504000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Omari server turns an Omari machine into a home server you run from any browser independent of the Omari project itself."
+        }
+      ]
+    },
+    {
+      "tStartMs": 512000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It has an app store of about 580 self-hosted apps running in Rootless Podman, plus file management with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 518000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "photosync and SMB shares. You can spin up virtual machines in one tap, check drive health, and even view the server's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "own desktop remotely, all from your phone or laptop."
+        }
+      ]
+    },
+    {
+      "tStartMs": 530000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Mimvox is a desktop app that turns typed text into speech in your own voice."
+        }
+      ]
+    },
+    {
+      "tStartMs": 536000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Start with a recording you already have or read a short passage into your microphone. Then type a line in English"
+        }
+      ]
+    },
+    {
+      "tStartMs": 543000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "or Ukrainian and hear it spoken back in your voice. The app can also train a model to better match how you sound with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "your recordings and generated audio staying on your computer."
+        }
+      ]
+    },
+    {
+      "tStartMs": 555000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Not a Windows app that keeps your notes in markdown files and lets you ask questions about them with a local AI model. Hit a keyboard shortcut to jot"
+        }
+      ]
+    },
+    {
+      "tStartMs": 564000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "something down while you work and not can suggest a title and tags. Later, ask what you decided on a project and the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 572000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "chat links back to the notes it used so you can check the original wording."
+        }
+      ]
+    },
+    {
+      "tStartMs": 578000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Deadboard is a circuit board repair trainer that runs in your browser. Start with a board that won't power up. Probe"
+        }
+      ]
+    },
+    {
+      "tStartMs": 584000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "it with a multimeter. Then use a virtual soldering iron to fix the fault. The readings come from a circuit simulator"
+        }
+      ]
+    },
+    {
+      "tStartMs": 591000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "so a stray blob of solder can short a power rail. You can also import a kyad design and plant faults for someone else to diagnose."
+        }
+      ]
+    },
+    {
+      "tStartMs": 601000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Open taskbar replaces the Windows 10 or 11 taskbar with a floating dock you can put along the bottom or either side of your screen."
+        }
+      ]
+    },
+    {
+      "tStartMs": 609000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Right click an app to open its usual Windows jump list or hover to see live previews of its windows."
+        }
+      ]
+    },
+    {
+      "tStartMs": 616000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "You can add a CPU meter, media controls, or a focus timer and set the dock to slide away when a window overlaps it."
+        }
+      ]
+    },
+    {
+      "tStartMs": 624000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Tatami is a tiling window manager for Mac OS written from scratch and zigg with no external dependencies. The"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "window manager itself is a pure state machine with no I/O wrapped in a thin shell that handles Mac OS events and a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 638000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "simulator tests it deliberately hostile fake apps. You get tiling, virtual workspaces, mouse resizing and window"
+        }
+      ]
+    },
+    {
+      "tStartMs": 646000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "rules with hotkeys in the Yabai style and a JSON command line. Collab Playground is a desktop app for managing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 653000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Google Collab sessions through the official CLI. You can start a GPU session, see how fast it's using compute units, and set it to stop when it's been"
+        }
+      ]
+    },
+    {
+      "tStartMs": 661000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "idle too long. That idle timer runs on Collab, so it can still stop the session after you close the app. A bundled"
+        }
+      ]
+    },
+    {
+      "tStartMs": 668000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "plugin can also serve a GGUF model with Llama.cpp."
+        }
+      ]
+    },
+    {
+      "tStartMs": 674000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "VUX is a terminal first editor for Apple Silicon Max that keeps several projects in one window. Run your coding agent in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 682000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "one pane and your tests in another. Then review the git diff without leaving the workspace."
+        }
+      ]
+    },
+    {
+      "tStartMs": 689000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Each project gets its own saved commands and terminal layout, and you can keep a dev server running in the background and check its output when you switch back."
+        }
+      ]
+    },
+    {
+      "tStartMs": 698000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Smooth Play is a Windows app that streams 30fps console games to your PC for GPU frame generation up to 120 fps with nothing installed on the console."
+        }
+      ]
+    },
+    {
+      "tStartMs": 708000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "It connects over PS5 remote play via Chaki Nang, then runs rife for new frames alongside AMD FSR or Nvidia video"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "super resolution upscaling. The developer notes controls still respond at 30 fps with roughly 20 milliseconds of added latency at 60 fps."
+        }
+      ]
+    },
+    {
+      "tStartMs": 726000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "UniFi opent lets you manage an openwrart access point from your UniFi controller."
+        }
+      ]
+    },
+    {
+      "tStartMs": 732000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "A small service on the access point speaks UniFi's management protocol, so you can push Wi-Fi settings and see connected clients alongside your other"
+        }
+      ]
+    },
+    {
+      "tStartMs": 740000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "access points. The project started with a retired Google OnHub, and it can roll back a settings change if the Wi-Fi fails to come back up."
+        }
+      ]
+    },
+    {
+      "tStartMs": 749000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Smart imposter is a Rust and Vulcan renderer that ray traces a forest with more than 440,000 plants. Up close, you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 757000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "see the actual 3D leaves. Farther away, each plant switches to a set of baked views with depth, so it still looks three-dimensional as the camera moves."
+        }
+      ]
+    },
+    {
+      "tStartMs": 766000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "The GPU bakes those views at startup, and DLSS ray reconstruction cleans up the noise in the final image."
+        }
+      ]
+    },
+    {
+      "tStartMs": 774000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Agave is a terminal native AI coding assistant written in Typescript and compiled to a single binary with bun. It"
+        }
+      ]
+    },
+    {
+      "tStartMs": 781000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "reads, searches and edits code in whatever repo you run it in. Runs commands and tests and keeps memory scope to each project. You can bring"
+        }
+      ]
+    },
+    {
+      "tStartMs": 790000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "enthropic, open AI, Gemini, open router or local Alama model, and shell commands run in a sandbox."
+        }
+      ]
+    },
+    {
+      "tStartMs": 797000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Vendb is an in-memory Rust database for data you load at startup and filter over and over. Add its derive macro to a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "strruct and it generates a query API from the fields you mark. Say you want engineers who have admin access. Vendb"
+        }
+      ]
+    },
+    {
+      "tStartMs": 812000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "combines the matching rows for each filter using bit maps. You can append new rows as they come in."
+        }
+      ]
+    },
+    {
+      "tStartMs": 818000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "Bevel OS runs a graphical desktop on a single ESP32 S3 board. It sends a 64 color VGA picture through six resistors"
+        }
+      ]
+    },
+    {
+      "tStartMs": 828000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "complete with overlapping windows, a file manager, and a text editor. It can browse text pages over Wi-Fi and load"
+        }
+      ]
+    },
+    {
+      "tStartMs": 835000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "apps like Snake and Doom from its own drive. Claude Code wrote the operating system while the project's author handled the wiring and logged each intervention."
+        }
+      ]
+    },
+    {
+      "tStartMs": 845000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "TVpipe is a command line tool from Armen Ronacher that mirrors video and audio to AirPlay and Google Cast receivers. It uses each ecosystem's real-time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 854000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "mirroring protocol instead of URL playback. So latency stays at a fraction of a second. It can send files, cameras,"
+        }
+      ]
+    },
+    {
+      "tStartMs": 861000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "capture cards, a window or a browser tab to several TVs at once. It's written in Rust and ships as one binary."
+        }
+      ]
+    },
+    {
+      "tStartMs": 870000,
+      "dDurationMs": 0,
+      "segs": [
+        {
+          "utf8": "[music]"
+        }
+      ]
+    }
+  ]
+}

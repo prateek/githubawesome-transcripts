@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "82529706ea9d37e9a9e7e899dc61b482da24fee89123512190bc8d5f5470f7ec",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-19T20:57:57+00:00",
+  "usage": {
+    "prompt_tokens": 5310,
+    "completion_tokens": 7033,
+    "total_tokens": 12343,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3398,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 58. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Rune is a native UI framework written in Rust that draws everything on the GPU with its own renderer, text engine, layout, and spring animations. One codebase targets macOS, Windows, Linux, and the web. Every app can also run headless. So a coding agent can render screens to PNG, dump the element tree, and drive the interface with scripted input. That means the agent can check its own work before you ever open the app. Native shell is an open source."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Framework built in Rust that turns TSX and Tailwind into real native interfaces. The same module renders with UIKit on iOS, Android views, AppKit, Win32, GTK, GPUI, or HTML on the web. Host apps can load these modules at runtime as signed plugins, each running in its own sandboxed Quick.js VM. You write TSX once and get the system's own text, scrolling, and accessibility."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "OpenJutsu lets you swap a character into a video using a reference photo. Drop in your clip, choose a character, and it uses AI to follow the original person's movement while keeping the soundtrack. You can also change clothing, replace objects, or edit the background. It runs locally through ComfyUI on an NVIDIA GPU, so you can make the edits on your own machine."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Henge is an open-source emulator project that boots macOS on an iPhone or iPad. Instead of QEMU or Apple's virtualization framework, it runs the Mac's ARM64 code through its own JIT engine with its own memory management and virtual devices. Graphics go through a custom virtual GPU whose commands are replayed with Metal. The touch screen becomes a trackpad, and on iPad the Mac display resizes to fit the screen."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Swarm Rebuild is a Chrome extension built as a tribute to Joel Khalifa's Swarm website. Press a shortcut and the page you're on wipes down to a blank canvas. Then a crowd of multiplayer cursors rebuilds it from a snapshot, dragging boxes, typing text, drawing with a pen tool, and duplicating repeated parts, all with synthesized sound effects. It's written in JavaScript with no dependencies."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Go music player written in Go on the Migo framework with no web view. It plays your local files with tags, covers, and synced lyrics plus playlists, a cue and loudness normalization. On macOS, it has a notch. Everything else comes from plugins written in JavaScript or TypeScript, each asking for network or process access up front."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Vork is a headless 3D and VFX engine made for AI agents written in Rust and Slang and rendering on the GPU through Vulkan or Metal. There's no editor at all. An agent writes a scene as code, renders it, looks at the image, and revises. Scenes can customize camera rays, materials, and even how light travels. The examples range from a bird flock and a black hole to effects composited onto real footage."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Claude Animated Shorts is a skill that has Claude Code build a full vertical animated story short using Three.js and Motion. Claude works through the topic, script, voice, and shot plan, then renders 2D characters inside a painted 3D town with ink outlines, lens blur, and gliding cameras. Even the music score and sound effects are synthesized in code. Every frame renders on your own PC with no AI video generator involved."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "DevVM gives every project folder its own isolated Linux VM. It reads your project files to set up the right toolchain, then runs Claude Code, Codex, or OpenCode inside. The VM only sees that folder. Network access starts on an allow list and tokens for GitHub and Claude stay on your host. In clone mode, the agent works on its own copy and nothing reaches your repo until you fetch it."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Satmux is a pure Python tool that speeds up slow in-flight Wi-Fi on geostationary satellite links. It keeps persistent connections open to a cloud server near the satellite ground station, so each new request skips extra trips to space and back. Traffic is compressed, signed, and exposed locally as a SOCKS5 or HTTP proxy. In the author's own test, loading six sites at once dropped from 19 seconds to about five."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "CUI brings a full component kit to plain C99 with no dependencies and about 150 ready-made components. Build it with CMake on GCC, Clang, or MSVC. And the same code runs on Windows, macOS, and Linux through Win32, Cocoa, or X11. Rendering goes through OpenGL with a software fallback. Light and dark themes, spring animations, and keyboard-first controls come built in."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "AirPointer is a macOS app that turns your AirPods Pro case into a pointer for your Mac. It reads the motion sensors in the closed case. So moving the case moves the cursor and tapping its front counts as a click. A quick shortcut starts a session and a setup wizard walks you through calibrating it to your screen. It's built in Xcode with a bit of Objective-C and everything stays on your Mac."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "MousePods turns AirPods into a head-tracking mouse on Linux with no Apple device anywhere in the loop. It reads the motion sensors over Bluetooth and feeds them into a virtual input device that works on both Wayland and X11. A local app shows battery rings, live 3D orientation, and a raw packet view with guided calibration. You click by pressing the stem, tilting your head, or dwelling in place."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "CC Remote runs Claude Code as an ACP agent with a split setup. The model runs on a remote server over SSH while file reads, edits, and shell commands happen on your own machine. It gives the agent the usual local tools and plugs into ACP clients like Zed. Sessions mirror, resume, and fork. Local MCP servers work with OAuth login and bash commands go through permission prompts you can approve by prefix."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Pinky lets an AI agent operate a real iPhone or Android phone over MCP. You watch from your computer, approve anything risky, and can take over at any point. A gateway, not the agent, enforces approval gates on payments, sends and installs, blocks typing into password fields and hides banking apps by default. On Android, it can even work on a hidden display so the phone stays locked."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Tinker AI Skill walks a coding agent through turning your own Claude Code sessions into a fine-tuned model. It runs a nine-step workflow: collect your transcripts, clean and anonymize them, train a LoRA on Tinker, then merge it and convert to a GGUF that runs locally in llama.cpp. It's the recipe behind the author's test for models. And a synthetic transcript generator lets you do a full dry run before touching real data."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Chimera is a browser-based voice synthesizer where every sound comes from a simulated airway with no samples anywhere. You shape the tongue, lips, and jaw in a live cutaway of a head and it can speak from text, sing a piano roll with lyrics, or beatbox on a step sequencer. A bestiary mode gives you creature voices from a songbird to an elephant, and male, female, and child bodies blend smoothly."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Text.js is a React framework from Anomaly, the OpenCode team for apps that render inside the browser's developer console. You write components like box and text, handle keys with a useInput hook, and route pages with an app router. Each frame is laid out with Yoga and written in one console.log using styled spans, and a frame with no changes logs nothing. There are VS Code and Chrome DevTools extensions too."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Waymark is a library for durable background tasks that survive server restarts, crashes, and long-running jobs built on a Rust runtime with Postgres as its only dependency. You write workflows as ordinary async Python with real if, for, and while control flow, retries, and durable sleeps. The twist is that your code is compiled once and runs on a durable virtual machine so it doesn't replay from the start when a task recovers."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Noop runs a small team of Claude Code and Codex agents on your own computers coordinated through a free Cloudflare account. You give it a goal in one sentence and it breaks the work into tasks, runs them in parallel and reports back. When it needs you, it offers a short list of options you answer with one tap and it learns from your past choices how much to decide on its own."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Timon is a self-hosted platform that runs a whole team of AI coding agents on your own machine. You describe a job and an orchestrator splits it into tasks for agents that code, review, merge, and research. Each task gets its own git worktree. A second model reviews the work and risky steps wait for your approval. It works with Claude Code, Codex, OpenCode, and more."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Pulso Icon is an open-source set of nearly 10,000 animated icons built as a drop-in replacement for Lucide React on top of Motion. Each icon gets its own motion that plays on hover or focus and it respects reduced motion settings. The same component names and props work across React, Vue, and Svelte with native versions for Jetpack Compose and SwiftUI plus a filled variant for about 1,700 icons."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Phone Use lets a Linux PC see and control an unmodified iPhone with no jailbreak, cable, or app on the phone. The screen arrives over AirPlay as a desktop window, while your PC pretends to be a Bluetooth mouse and keyboard, so clicks become taps and drags become swipes. Agents get the same controls through a command line or an MCP server and can read the screen as text before they act."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "The 1.5 joint module is an open hardware robot joint built around a four-layer motor driver board whose bare PCB costs about $1.50. It pairs an ESP32-C3 running SimpleFOC with a small brushless gimbal motor and a 3D-printed 10:1 gearbox. The repo includes the PCB files, SolidWorks parts, printable STLs, and open-loop firmware. So you could stack them into an arm, a quadruped, or a pan-tilt head. Watch Pointer turns an Apple Watch into a pointer for your Mac connected over"
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Bluetooth with no Wi-Fi or servers. Aim the top edge of the watch and the cursor follows across every display. Tap to click, hold to drag, and use the digital crown to scroll. A small panel in the Mac Notch shows battery and live aim. And there's even a little light gun game to test it."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Graphicle gives coding agents a memory of your project running as a single Rust program with no API key, account, or telemetry. It parses your repo with Tree-sitter into a graph of files, functions, calls, and imports. Then stores docs, decisions, and past agent sessions alongside it. Agents query everything over MCP and get back short excerpts with file and line citations, and stale memories get flagged when the code changes."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Ding is a toast notification library with real spring physics written in TypeScript with zero dependencies for React, Svelte, or plain DOM. Instead of stacking toasts, each new call morphs the one already on screen, and interrupted animations keep their momentum. Toasts can carry avatars, buttons, progress bars, and countdowns, and promise helpers handle loading states."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Office Engine is an open-source library that opens and edits DOCX, XLSX, and PPTX files right in the browser. Built with TypeScript and React, it reads each file lazily in a web worker, so even huge documents start showing almost immediately, and only the visible pages, cells, and slides get rendered. Edits save back to the original format, and live collaboration with cursors and offline sync is built in."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Spotish is an unofficial native desktop client for Spotify built with NSH. Instead of opening the web app in a full browser window, it runs Spotify's own web player hidden in a browser you already have and drives it through the Chrome DevTools protocol. The interface on top is drawn natively. It works with free or premium accounts and ads play just as Spotify serves them. Headless is an agent skill that lets your coding agent set up a Mac, Linux, or Windows"
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "machine over SSH so it can run unattended. It walks through never sleeping, signing in automatically after a restart, key-only SSH and an optional Tailscale join. Every step can be rerun and shows its result. At the end, it reads back every setting, restarts the machine and checks that it comes back."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Good Door is a command-line secrets manager for people and AI agents. Each machine's key lives in the OS vault or secure hardware like the Mac Secure Enclave or a Linux TPM. Agents can run commands that need credentials without ever seeing the values and output gets masked in agent shells. It also encrypts SSH keys, cloud login, and env files in place."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Simcraft is a collection of 24 Claude Code skills, each a folder that teaches the agent one kind of hard work with its method, judgment calls, and tested scripts. The video skills cover 3D loops in Three.js, scripted screencasts, git history, time-lapses, and audio cleanup. On the engineering side, there's codebase mapping, regression bisecting, flaky test fixing, and threat modeling."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "OVNfs gives every coding agent its own isolated copy-on-write checkout of any folder, git repo or not, without copying it. It runs one background daemon that serves every checkout as a single mount using NFS on macOS, FUSE on Linux, and SMB on Windows. Agents work in their checkout. You review the changes with a diff and a three-way apply merges them back. Flawless UI/UX is a skill and local command-line tool that helps Codex and OpenCode design, redesign, and refine"
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "web interfaces. Instead of pushing one look, it starts from your product, then checks the rendered result in a real browser with Playwright and Axe. It flags low contrast, tiny text, horizontal overflow, broken images, and repeated copy at desktop and phone sizes."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Mini Harness is a small agent harness written for teaching, about 400 lines of Python with just two dependencies. It runs a full tool loop with file, shell, and search tools plus resumable sessions, compaction, skills, MCP servers, and sub-agents. In goal mode, a task only counts as done after a verify command passes and a fresh reviewer agrees. Permissions can even be judged by a second model."
+      ]
+    }
+  ]
+}
