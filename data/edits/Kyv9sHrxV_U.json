@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "21de8cd31c7fe4e7130d8a77093488e39bde6ccd338dc0dccb6b96aa4208a787",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-21T07:37:19+00:00",
+  "usage": {
+    "prompt_tokens": 5112,
+    "completion_tokens": 11585,
+    "total_tokens": 16697,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8137,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. Today we're checking out 35 self-hosted projects you can run on your own hardware. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Aurelio is a self-hosted wealth tracker that keeps all your financial records on your own computer. Track cash across banks and brokers, positions priced from the market with gains and dividends, and even what's inside your funds broken down by country, sector, and currency. It handles homes, loans, cash flow, and savings goals. The optional AI chat answers from your own records, and anything it wants to change shows up as a card you confirm or reject."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Open Post puts the social media workflow in one place. Write a post, tailor it for each account, design a carousel, or edit a video, then schedule everything on a calendar. It also tracks results and can turn RSS updates or GitHub releases into drafts for review. You can self-host it with Docker, though publishing features depend on what each social platform allows."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "SurfSense is a notebook LM style research desk for files you'd rather keep on your own computer. Drop in PDFs, Word docs, or spreadsheets. Then ask questions and get answers with citations back to your files. It can fill PDF forms, edit documents, and turn your sources into flashcards or podcasts. It saves edits as new files, leaving the originals intact and can run offline with a local model."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Reminal lets you reach the computer you left behind from a browser on your phone or another machine. You can use its terminal, control an app window, or open the whole desktop without setting up port forwarding. On a MacBook, it can even keep things running with the lid closed and no monitor attached. Sessions are end-to-end encrypted and the browser needs no extra client."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Haven is a self-hosted Discord alternative that runs on your own machine with no cloud, no email signup, and no tracking. You get text channels, peer-to-peer voice, screen sharing, roles and reactions, and people join with an invite code. Direct messages can be end-to-end encrypted. It comes with a moderation API, scheduled backups, and two-factor login."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Maildun is a self-hosted email platform that puts newsletters, transactional mail, and automations in one app, sending through your own Amazon SES or SMTP account. Build audiences with tags, segments, and double opt-in. Design campaigns in a visual editor and schedule them. Your password resets and receipts go out through a versioned JSON API."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Your music can live on your own server and still feel at home on your phone. Yuzic is a free open-source player for iPhone, iPad, and Android that connects to Navidrome, Jellyfin, Plex, MB, and Subsonic servers. It streams in lossless quality, gives you an equalizer and crossfade, and downloads albums or playlists for offline listening. You can also import music files straight from your device."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "Worklenz is a self-hosted project management tool you run with one Docker Compose command. Plan projects, assign tasks, break them into subtasks with due dates and priorities, and track progress as you go. Built-in time tracking feeds into reports on project status and team workload, so you can see who's overloaded before it's a problem. Files and comments live right on the tasks."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Tapflow lets your whole team test mobile builds from a browser with no Xcode or Android Studio on their machines. A Mac agent runs the iOS simulator and Android emulator and streams them at about 30 frames a second to a dashboard you host yourself. Taps, swipes, and pinches go straight through to the device. Upload a build, track it from backlog to done, and record sessions for bug reports."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "Wanderer is a self-hosted home for your hiking and outdoor trails. Upload the GPS tracks you've recorded or plan new routes on the map. Add notes and photos and build a searchable catalog of everywhere you've been. Filter by distance, elevation, or difficulty. Group trails into your own lists and share them with friends or explore theirs. It's a Strava style trail log you own built on SvelteKit and PocketBase with Meilisearch for search."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Gocron gives recurring scripts a simple dashboard. Define jobs and schedules in one YAML file, then use the web UI to trigger a run, watch its logs, or check what happened last night. It keeps run history in SQLite, supports timeouts and retries, and can send callbacks when a job fails. Edit the config, and it picks up the change without a restart."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "degoog is a self-hosted search engine that asks several search engines at once and shows all the results on one page. It's inspired by SearXNG, but built to be lighter and more modular. You can add your own engines, bang commands, and plugin panels that pop up above or beside your results. A community store lets you browse more plugins, and there's an MCP server so AI agents can search through it."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Paste DB makes sharing a code snippet or note as easy as sending a link. It adds syntax highlighting, markdown previews, images, and controls like passwords, expiry times, or burn after read. There's also an encrypted paste option for a small piece of text. It can pack the content into the URL itself, so that paste doesn't need to be stored on the server."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Baserow starts with a spreadsheet database, then lets you turn that data into something your team can use. Build a client portal, put together a dashboard, or automate the steps people keep doing by hand, all without writing code. Its AI assistant can help create databases and workflows from a description. You can use Baserow in the cloud or host it yourself."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "PL Mail brings your existing Gmail, Outlook, and IMAP accounts into one inbox you host yourself. Conversations stay threaded, and you get one search box and one set of labels across your mailboxes. There's a calendar alongside your email with Google, Microsoft, and CalDAV sync. If you run on your network, optional AI features can summarize threads and help draft replies."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Personal drive gives you a Google Drive style place for files on a server you control. Drag in files or whole folders, browse them from your phone, and share links with passwords or expiration dates. It previews PDFs, text, photos, and video right in the browser. It even remembers where you stopped in an audio book. There's two-factor authentication for your account, too."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Reitti turns your GPS history into a timeline you can actually read. Import Google timeline data or connect a location app and it picks out places you visited, trips between them, and whether you walked, cycled, or drove. It can place image photos along the way, too. When you're traveling, a temporary link lets someone follow your live location without needing an account."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "MindSpark lets you switch between a mind map and a markdown outline while you work. Edit either one and the other updates with it. The canvas arranges branches as they grow, and you can add notes, citations, images, even formulas that calculate from child nodes. Run it locally without an account or add the optional cloud setup when you need live collaboration."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Picsou Finance gives you one dashboard for bank accounts, investments, crypto, loans, and property, so you can see how your net worth changes over time. It supports syncing with European banks and several brokers, plus savings goals and separate profiles for family members. It's self-hosted and designed for use on your own computer or home network."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "When a machine breaks, Atlas CMMS gives the maintenance team somewhere to track the fix. Create a work order, assign a technician, log the time spent, and keep the repair history with the equipment. It also tracks spare parts, warns when stock is low, and shows downtime and maintenance costs in reports. The self-hosted app works on the web and on phones."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "GitSave makes scheduled backups of your Git repositories, including projects on GitHub, GitLab, and other Git hosts. Set up a schedule in its web interface. Choose how many backups to keep and check the history to see what ran. You can pause a schedule when you need to and store backups on an SMB share. It's self-hosted, so you choose where the copies live."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Tether brings some of that missing phone integration back. Copy text on one device and paste it on the other. Drag files across and read or reply to SMS and iMessage from Linux. Its browser extension can also fill verification codes from your phone or email. It's built for Wayland with Wi-Fi and Bluetooth handling different features."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "If your app already uses a Sentry SDK, Rustrak gives you a self-hosted place to send its data by changing the connection string. It groups crashes into issues, links logs to traces, and shows whether a new release has made things worse. It can also display AI agent runs call by call. The basic setup is one container with SQLite with alerts when new or recurring errors appear."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Cronstable is a cron replacement for containers. It runs in the foreground and sends job output straight to stdout defined in YAML or a classic crontab. It's a fork of Yakron that adds retries with exponential backoff, alerts to Slack, Sentry, or email, and run history that survives restarts. So missed runs can catch up. There's a web dashboard with live logs, a terminal UI, and Prometheus metrics."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Screen Tinker is a self-hosted digital signage system for running the screens in a shop, lobby, or office from one dashboard. Build playlists and multiszone layouts, stitch screens into a video wall, and schedule what plays when, including turning displays off overnight. It plays on almost anything: Fire TV, Samsung and LG TVs, a Raspberry Pi, or just a browser."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Your camera can see that the garage door is open, but VisionState turns that view into a home assistant sensor you can act on. Pick part of the image, label a few examples, and it learns states like open, closed, or halfway. It can also count cars or people, and read meter digits. Everything runs locally on a CPU, including a Raspberry Pi. So the camera images stay at home."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "CookTrace is a self-hosted kitchen app for your recipes, pantry, and meal plans with no account and no telemetry. Import a recipe from a link, a photo, or a whole Mealie or Paprika export. Then scale it live and cook from a step-by-step mode. Scan pantry barcodes and every recipe card shows whether you already have what it needs. Plan the week and it builds the shopping list for you."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Helpin links customer conversations to projects, CRM records, and docs in one workspace. A customer's chat links straight to their history, the tasks it spawned, and the docs that answer it, so the next person picks up with full context. AI agents can investigate an issue, plan the fix, and even change code, but you choose which tools they get and which actions wait for your approval."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Got a VPS and wish it had a control panel? Laranode is a free self-hosted alternative to cPanel and Plesk. From your browser, you can create websites, manage MySQL and PHP versions, add Let's Encrypt certificates, and check server usage. It also handles firewall rules and scheduled backups to local storage, S3, or SFTP. It's designed for a fresh Ubuntu server."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Got a spare Linux box and a Docker Compose app? Nethera lets you deploy that app to hardware you control, then gives the services you choose a public HTTPS URL. There's no static IP, port forwarding, or reverse proxy to set up by hand. You can protect an endpoint with Nethera login or tokens while the containers and app data stay on your machine."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Ever SSH into your home server just to restart one service? Lucius turns those repeat commands into big buttons on a phone-friendly dashboard. Save a command, tap to run it, and watch the output appear live. It also keeps an execution history and can sit on your phone's home screen. Access uses a PIN and a list of approved commands, and it's designed for a trusted local network."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "DocuVault is a self-hosted team wiki where every page is just a markdown file in a Git repo. Edit in a clean browser editor and each save becomes a commit, or clone the repo and edit with whatever tool you like and your changes show up in the web UI. It has roles, teams, and share links with optional passwords. Add an OpenAI key to ask questions across your docs with source links and run semantic search."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "QueryAPIGate turns a saved SQL query into a real REST endpoint without writing a controller, with pagination or offset for each one. Connect Postgres, MySQL, ClickHouse, SQLite, or DuckDB. Write the query in a built-in console and declare typed parameters, so bad input gets a clear field-by-field error. Values go to the database separately from the SQL text."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "Your family uses the apps on your home server, but they shouldn't have to edit YAML to find them. Holm gives each person a start page with their own app tiles, bookmarks, wallpaper, and layout. You publish the app catalog once and connect your existing sign-in system. Its search bar can even look inside Immich, Paperless, Jellyfin, and other apps using each person's own account."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Altero is a self-hosted sync server for Zotero, so the regular desktop app syncs your research library to your own server instead of zotero.org. Change two settings in Zotero and everything comes along: items, notes, annotations, PDFs, full text search, and group libraries with live updates. It's one app, one database, and one folder for attachments. So, no cache, queue, or search cluster to babysit."
+      ]
+    }
+  ]
+}
