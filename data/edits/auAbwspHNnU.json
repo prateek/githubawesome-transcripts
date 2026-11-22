@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "bda2a3091dfb9dfbf1cb8b3bac531c5789158f49177a7a30c725ebf1636f9423",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-22T07:14:05+00:00",
+  "usage": {
+    "prompt_tokens": 5004,
+    "completion_tokens": 11735,
+    "total_tokens": 16739,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8407,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Today number 54. 35 trending open source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Scout is an open-source browser agent written in TypeScript that controls Chrome directly through the DevTools protocol. You describe a task in plain words and it looks at the page, picks an action, checks the result, and repeats until it's done. You can give planning, reading screenshots, and pulling out the answer to different models, including ones you host yourself."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Free LLM API brings your free tier model accounts behind one API, so you're not maintaining a different integration for every provider. Add your own keys, point your client at the local endpoint, and it tracks quotas and switches providers when requests fail or hit a limit. Keys stay encrypted on your machine. It's built for personal experimentation, and a fallback can mean a different model picks up the conversation."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "AnyPS5 ports PS5 executables so they run natively on Linux and Windows with no emulator in between. A relinker converts the program into the target system's own format. The project supplies its own versions of the PS5 system libraries for the program to link against, and a shader recompiler turns the console's graphics code into Vulkan SPIR-V. Each game's progress is tracked on a community compatibility map."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Desigma is a free open-source interface design tool written entirely in Rust with an editor built on EGUI and a CPU renderer. It already has frames, auto layout, components with variants, variables, prototyping flows, and a whiteboard mode. It can also open Figma files, though support for real-world files still has gaps. Exports cover PNG, SVG, and ready-to-paste CSS."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Yobiru lets personal AI agents on different computers talk to each other. Built on Tailscale and a small Python CLI with no dependencies. Each machine runs a receiver that checks who's connecting and drops accepted messages into a local inbox. Agents can send text, JSON, or files and reply to specific messages. They can also ask to wake another agent, but the receiving machine decides."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Sgrep is a command-line tool written in Rust that searches code by meaning. Built on top of ripgrep, you type a plain English question and get back the matching passages with file paths and line numbers. It mixes keyword matches with semantic matches from small static embedding models, so it runs locally with no account and no model server. Exact identifier matches still rank first."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Indra OCR is DataLab's fast OCR tool for turning PDFs and images into Markdown text or JSON. It runs on the CPU through ONNX Runtime with no PyTorch, and the models come to about 18 megabytes. Along with reading each line, it labels headings, tables, and footnotes, puts the blocks in reading order, and straightens tilted pages. Digital PDFs use their own text layer wherever it's good enough."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "BRUTAL is a C framework for building games or your own game engine made by Ahwoo. It has no editor and no renderer by design. What you get is a fast interop layer that lets C call native code directly plus bindings for Vulkan, Jolt, and Box2D physics, for audio and RakNet networking. Each part is a separate Nugget package so you only pull in what you need."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "House Control shows your home as a live 3D model in the Mac menu bar and on iPhone, built with Three.js inside a small native Swift app. You draw your floor plan once in a visual editor, then link each lamp and air conditioner to the real device. It works with Home Assistant, Philips Hue, Apple Home, and Tuya. Tap a room to dim the lights or change the AC temperature."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "decomp.wtf lets an AI coding agent turn games you own back into C source code one function at a time. It finds the functions in the original binary, then gives the agent the assembly, the surrounding context, and a draft. Every attempt is compiled with the game's original-era compiler and compared byte for byte. If it misses, the agent gets an instruction diff and tries again."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Terminal RS brings a Bloomberg-style market workspace to a native Rust app with GPU charts and keyboard commands for jumping between securities. Its congressional trade tracker pulls official disclosures and places buy and sell markers on your charts, including the reporting delay. You can arrange linked panels and save the layout. Paper trading is built in while brokerage connections start read-only."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Armada runs a shell command or a TypeScript or Python function across many inputs at once on Cloudflare containers in your own account. It builds your environment once and snapshots it. Containers start from that snapshot and keep pulling tasks from a shared queue until it's empty. Results stream back as they finish with large outputs and logs saved to R2."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "Machine Skill is a Claude Code skill that takes a one-line description of a machine and builds an interactive 3D simulation of it in a single HTML file using Three.js. Ask for a turbofan or a rocket engine and Claude researches the real thing, models its parts, and runs a small physics model behind every number on screen. You can explode it, cut it open, or switch to X-ray."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Atticus turns a keyboard shortcut into a voice assistant for your Mac. Hold it, ask for a window layout or a file, and let go. Apple's on-device speech handles transcription while bigger requests go through Claude Code or Devin using your existing paid plan. The useful detail is learned shortcuts: repeated actions can run without another model call. Longer jobs continue in background agents while you keep working."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Libre Calculator is a free collection of more than 60 calculators built with Astro and React for the web and Tauri for the desktop app. They're grouped into packs like finance, construction, cooking, physics, and unit conversion, and you only turn on the packs you need. The result shows the steps, a diagram, and a short lesson worked out from your own numbers."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Graphicle gives your coding agent a map of the codebase alongside project decisions and past sessions, so every new chat doesn't start with the same scavenger hunt. It returns relevant excerpts with exact files and lines through MCP, all from one Rust program. The useful detail is that memories link to the functions they describe and go stale when those functions change."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "SwiftVM runs macOS and Linux virtual machines in a native Mac app built on Apple's virtualization framework. It automates guest setup, then lets you save that machine as a template instead of repeating the installation. Snapshots and duplicates make disposable test environments practical, while its CLI lets scripts and AI agents run commands or interact with the guest screen."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Pullboard keeps a team of coding agents working from the requirements you approved with separate Git worktrees so they don't edit over each other. Tasks must pass your test gate before submission. Then a different agent checks the exact commit against the agreed requirements. Decisions and progress stay in the repo with a local board for questions and approvals."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Handwired turns ordinary JavaScript into a neural net that needs no training. It rewrites if-else branches, loops, and state as plain arithmetic using only multiplication, addition, and ReLU. Both sides of every branch get computed and a value built from ReLU picks the right one, so the output matches the original code exactly. The whole program becomes one big matrix multiply that runs in JavaScript or on WebGPU."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "CC Stretch makes Claude Code replies short by default with phrases you click to expand right inside the sentence. Open the details you need, collapse them again, and Claude gets told which parts you actually opened. It also folds finished tool calls while keeping errors visible. The catch is token usage: Claude writes every expansion up front, so this saves reading time with roughly the same model cost."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Wi-Fi Sensing Kit teaches ESP32 boards to recognize movements from changes in Wi-Fi signals. Your webcam labels what you're doing during training. Then you can cover it and let Wi-Fi handle recognition. Processing stays local with dashboards showing the signals and predicted activity. The important limit is retraining: change the person, room, or board placement, and the model needs another session."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Glide turns a Mac screen recording into a product demo with automatic zooms where you click and a cursor redrawn smoothly at high resolution. You can adjust those zooms on a timeline, add a camera bubble, and generate captions on device before exporting MP4 or GIF. It also records an iPhone over USB. The useful part is keeping the presentation editable after recording instead of getting every cursor movement right in one take."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "VyManager brings your VyOS routers into one web interface, so managing branch offices doesn't mean jumping between separate router sessions. Group instances by site, deploy configurations, and watch live interface counters alongside WireGuard peers. Permissions are assigned per site so viewers can monitor without getting admin access."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "ClintGecko puts Firefox extensions and a proper download manager into an Android browser. You can install add-ons from Firefox's store, pause or schedule downloads, and keep separate profiles for different accounts on the same site. Each profile has its own cookies and login, so switching accounts doesn't mean signing out. It also supports background playback and reader mode."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "Diff Tour lets you understand the code you're about to take responsibility for. Your existing coding agent writes the tour, connecting changed lines to surrounding code and pausing with questions about failure cases. You step through it in the terminal and ask follow-ups. Displayed code comes from Git at the actual commit while the model supplies the explanation."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Claudemy turns a topic you want to learn into a short audio course inside Claude Code. It researches the web, compares sources, and builds two-minute conversations with lesson cards and small exercises. Each lesson links back to what it read, including where sources disagree. You approve a sample before it generates the rest. Audio uses ElevenLabs or your Mac's built-in voices, and the finished MP3s are yours to keep."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "AgentPlay turns your coding agent's existing transcripts into a map and a replayable timeline so you can see what it read before editing and where it kept failing. It finds sessions from tools like Claude Code, Codex, and Cursor. Then it opens a local viewer with jumps to errors, retries, and changes. No model or API key needed. Your session data stays on your machine and exports omit conversation text and file contents."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "Remory helps AI agents keep working after their context gets compacted. Usually compaction squeezes the chat history into a summary and the details are gone. Remory reads the model's hidden states from that removed history and turns them into a small block of learned memory placed right after the summary, so the main model stays frozen. It plugs into existing agents including Codex."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Desk is a Wayland desktop environment for Linux built on wlroots that turns your screen into an actual desk. Windows are sheets of paper you can fold or throw away, and apps sit in binders on a bookshelf. The app launcher is a drawer and notifications show up in a post. The room is ray-traced on the GPU and lit by a single lamp, with a flat 2D mode for machines without one."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Anima gathers sources first, then draws. Each figure has a mechanism you can switch on and off and a live readout driven by a small model. Every number on screen cites where it came from: Luma Browser, local models, and media generation into one desktop app."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Luma Browser puts local models and media generation into one desktop app, so you're not wiring together a separate server and chat interface. It checks your hardware before downloads and can reuse models you already have in Ollama or LM Studio. Coding agents can connect through MCP to browse in their own tabs. Local chats stay on your machine, though a usage ping is enabled by default and can be switched off."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "SMLIBPy is a Python library for building 3D parts on the SMLIB NURBS kernel. The same kernel inside NVIDIA's USD. You sketch a shape, extrude or revolve it, then add holes, pockets, and fillets in plain Python. Shapes combine with plus, minus, and ampersand, and you pick faces by their geometry, like the top face. Parts keep exact surfaces, so volume and mass come out precise."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Gloss puts AI answers in the margin of what you're reading, so asking about one confusing sentence doesn't send you into another chat window. Import an article or PDF, select a passage, and type your question. Answers cite paragraphs you can jump back to, and your own notes sit alongside them. Highlights return for daily review and export to Markdown for Obsidian."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "GPT with Taste gives Codex a set of instructions aimed at cutting unnecessary questions and getting finished work back sooner. It encourages sensible defaults and more care with engineering and visual details. Optional hooks refresh those priorities during longer conversations and when sub-agents return results. It's a behavior recipe you can inspect and edit with published comparisons to judge for yourself."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Resimind gives agents a way to check their reasoning before saving it as reusable knowledge. A model proposes a step, a separate verifier checks it, and failures feed back into the next attempt. Checked algebra solutions can become rules with every future application checked again. It connects through MCP and runs supported math workflows without model calls."
+      ]
+    }
+  ]
+}
