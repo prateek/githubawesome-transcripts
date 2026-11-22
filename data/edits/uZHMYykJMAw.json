@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "9077faaef2291af6fc9b848684a651f0c94cc412b99e54c1f9b0b50fdb6ecd81",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-22T19:54:54+00:00",
+  "usage": {
+    "prompt_tokens": 5199,
+    "completion_tokens": 9601,
+    "total_tokens": 14800,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6137,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. This is GitHub Trending Weekly number 60. 35 trending open source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Rust Anything helps you move an existing app to Rust one piece at a time. Say a search box feels slow. It profiles the search to find the loop worth moving, then builds a bridge so the rest of the app can keep calling it the same way. You or your coding agent write the rest. The tool replays recorded cases to check the results, then benchmarks both versions."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Wireless Battery puts battery levels next to the clock on Windows 10 and 11. It can read a Logitech mouse and a SteelSeries headset through their USB receivers, so you can leave both brands' apps closed. Each device gets an icon and a percentage. The number turns red at 15%, and if your mouse falls asleep, its last reading stays visible in dimmed text."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "TrnRT is an open-source LLM inference engine for AWS Trainium 2 serving an OpenAI compatible API from a single Trainium 2 instance. It runs GLM 5.3 flash, a 330 billion parameter mixture of experts with fuse decode kernels written in NKI, a prefix cache, and a 1 million token context. On SemiAnalysis's agent X benchmark, the team reports 3.57 million tokens a minute at about 4 cents per million on spot pricing. Data is Replit's self-hosted observability tool."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Point your OpenTelemetry collector or Datadog agent at it and you can search logs, chart metrics, and inspect traces from one dashboard. When a request slows down, open its trace to see which service took the most time, then pull up the logs tied to that request. You can also send alerts to Slack when a monitor fires. Obscura is a headless browser"
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "Written in Rust for web scraping and AI agents. It runs JavaScript with V8 and renders pages with its own engine. You can connect Playwright or Puppeteer through the Chrome DevTools protocol. Load a page and take a screenshot or export a PDF. For a quick job like pulling every link from a page, you can use the command line directly."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Tamserve is a serving engine for live object tracking across many cameras built on Meta's SAM 2.1 and Edgam models. Instead of one model copy per camera, a single copy tracks every object on every feed with memory that stays bounded however long the video runs. Give it frames and a box or click and it returns masks. The author reports 64 cameras at 321 frames a second on one RTX 4090."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Zigzag is a native Mac browser in Swift built as a replacement for Arc. It keeps tabs in a sidebar grouped into spaces with peak reader and split view while running extensions from the Chrome web store. You can import your spaces, pin tabs, and passwords from ARC with no account and no telemetry. The author lists it at about 35 megabytes installed, and there's an optional MCP server, too. Open Ren is an open-source desktop email app for Linux, Windows, and Mac OS. It brings Gmail and other"
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "IMAP accounts into one inbox, stores synced mail encrypted on your computer and indexes it locally. So if you can remember a phrase from an old email but forget which account it came to, you can search across them. It also strips trackers and flags suspicious messages before you click."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Inference optimization is an agent skill that teaches your coding agent to speed up a local LLM server the careful way. It first computes the theoretical ceiling from your hardware's bandwidth and FLOPS, then changes one thing at a time and measures against interleaved controls. Every run, failures included, goes into a ledger, and nothing counts unless it passes a long context retrieval check. Holospot gives 3D objects on the web the shifting colors of holographic foil. Put it on a trading"
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "card that tilts with your cursor, and the shader calculates which colors the foil's tiny grooves would send toward your eye from each light. The repo includes materials for rainbow bands, cracked gold foil, and glitter, plus instructions for a coding agent to add them to your scene."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "Stick scene is an agent skill from Comran Ahmed that draws little stick figure animations showing what your product does. Run the command with a short description and the agent reads your project, pitches two or three ideas, then writes a scene as a single dependency-free canvas. Each one idles until it scrolls into view, gets clicked or hovered, then plays."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Anti-algorithm is a Claude Code skill that pushes the model past its first most obvious idea. For names, copy, stories, posters, or UI. It has Claude say its default pick out loud, then steer away from it for a reason drawn from your project. Python scripts roll a random starting point when a brief is thin. Add hand-drawn wobble to code-drawn shapes and check that no text runs off the edge or loses contrast."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "MLAB is a video engine that lets a coding agent turn your screenshots, footage, and a short brief into an editable video. The agent writes each scene as code that draws to an HTML canvas. In the viewer, you can pause on a frame, draw a box around what needs changing, and leave a note the agent can read. When the cut is ready, MLAB exports an MP4 with the audio mixed in."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "ChronyTop gives your Linux time server a btop style dashboard in the terminal. If NTP traffic spikes, you can see it on the requests per second graph and check which clients Chrony is rate limiting most. The same screen shows which time sources the server is using and how much CPU and memory Chrony is using. You can toggle panels with the number keys."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "RGB mocap turns footage of a person into editable 3D animation on Windows. Give it a video of someone walking and it runs AI models locally to estimate how their body moves. You can preview the motion, apply it to your own character rig, and export the animation. The app also supports capture from multiple cameras, and can stream motion into Blender."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Sutra OS is a self-hosted platform for mapping how your data and systems fit together. Model a device, the service it supports, and the datasets that service feeds. Then follow those links to see what could be affected if the device goes down. The server enforces rules for changing the model and you can trace a reported number back to the data it came from."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "My AI coding workflow is one developer markdown setup for coding agents like Claude Code, Gemini CLI and Cursor with no application code at all. A global instruction file sorts every task as a spike, a bounded change or an architectural one. Architectural work goes through three stages: a plan, a critical review of that plan in a fresh context, and a production readiness review of the actual diff."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Shader Lab is a playground for Metal shaders on Apple devices. Drop in a photo, apply a fluted glass effect, and watch the image change as you drag the controls. It ships 15 shaders from fractals and vortexes to photo effects like fluted glass and rain. You tweak the parameters and watch the canvas change. See the Metal source in a code tab and save any shader as a wallpaper."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "PI Emphasis is an extension that makes replies from the PI coding agent easier to scan in your terminal. When the agent marks a task as done, you get a green badge. If it needs a decision from you, needs you shows up in yellow. The extension gives PI instructions for when to use those labels so you can spot what needs your attention in a long reply."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "M replaces the Windows 10 or 11 taskbar with a Mac-inspired dock. Hover over an app and its icon grows under your cursor. If the app has several windows open, you can pick the one you want from live previews. Minimized windows can fold into their icons with a Genie animation, and an optional top bar holds your clock, volume, and battery status."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Omarchy server turns an Omarchy machine into a home server you run from any browser independent of the Omarchy project itself. It has an app store of about 580 self-hosted apps running in Rootless Podman, plus file management with photosync and SMB shares. You can spin up virtual machines in one tap, check drive health, and even view the server's own desktop remotely, all from your phone or laptop."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "Mimvox is a desktop app that turns typed text into speech in your own voice. Start with a recording you already have or read a short passage into your microphone. Then type a line in English or Ukrainian and hear it spoken back in your voice. The app can also train a model to better match how you sound with your recordings and generated audio staying on your computer."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Noda is a Windows app that keeps your notes in markdown files and lets you ask questions about them with a local AI model. Hit a keyboard shortcut to jot something down while you work and Noda can suggest a title and tags. Later, ask what you decided on a project and the chat links back to the notes it used so you can check the original wording."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Deadboard is a circuit board repair trainer that runs in your browser. Start with a board that won't power up. Probe it with a multimeter. Then use a virtual soldering iron to fix the fault. The readings come from a circuit simulator so a stray blob of solder can short a power rail. You can also import a KiCad design and plant faults for someone else to diagnose."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "OpenTaskbar replaces the Windows 10 or 11 taskbar with a floating dock you can put along the bottom or either side of your screen. Right click an app to open its usual Windows jump list or hover to see live previews of its windows. You can add a CPU meter, media controls, or a focus timer and set the dock to slide away when a window overlaps it."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Tatami is a tiling window manager for macOS written from scratch in Zig with no external dependencies. The window manager itself is a pure state machine with no I/O wrapped in a thin shell that handles macOS events and a simulator tests it with deliberately hostile fake apps. You get tiling, virtual workspaces, mouse resizing and window rules with hotkeys in the Yabai style and a JSON command line. Collab Playground is a desktop app for managing"
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Google Colab sessions through the official CLI. You can start a GPU session, see how fast it's using compute units, and set it to stop when it's been idle too long. That idle timer runs on Colab, so it can still stop the session after you close the app. A bundled plugin can also serve a GGUF model with Llama.cpp."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "VUX is a terminal-first editor for Apple Silicon Mac that keeps several projects in one window. Run your coding agent in one pane and your tests in another. Then review the git diff without leaving the workspace. Each project gets its own saved commands and terminal layout, and you can keep a dev server running in the background and check its output when you switch back."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "Smooth Play is a Windows app that streams 30fps console games to your PC for GPU frame generation up to 120 fps with nothing installed on the console. It connects over PS5 remote play via Chiaki, then runs RIFE for new frames alongside AMD FSR or Nvidia Video Super Resolution upscaling. The developer notes controls still respond at 30 fps with roughly 20 milliseconds of added latency at 60 fps."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "UniFi OpenWrt lets you manage an OpenWrt access point from your UniFi controller. A small service on the access point speaks UniFi's management protocol, so you can push Wi-Fi settings and see connected clients alongside your other access points. The project started with a retired Google OnHub, and it can roll back a settings change if the Wi-Fi fails to come back up."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Smart Imposter is a Rust and Vulkan renderer that ray traces a forest with more than 440,000 plants. Up close, you see the actual 3D leaves. Farther away, each plant switches to a set of baked views with depth, so it still looks three-dimensional as the camera moves. The GPU bakes those views at startup, and DLSS ray reconstruction cleans up the noise in the final image."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Agav is a terminal native AI coding assistant written in TypeScript and compiled to a single binary with bun. It reads, searches and edits code in whatever repo you run it in. Runs commands and tests and keeps memory scope to each project. You can bring Anthropic, OpenAI, Gemini, OpenRouter or local Ollama model, and shell commands run in a sandbox."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "VennDB is an in-memory Rust database for data you load at startup and filter over and over. Add its derive macro to a struct and it generates a query API from the fields you mark. Say you want engineers who have admin access. VennDB combines the matching rows for each filter using bitmaps. You can append new rows as they come in."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "Bevel OS runs a graphical desktop on a single ESP32 S3 board. It sends a 64 color VGA picture through six resistors complete with overlapping windows, a file manager, and a text editor. It can browse text pages over Wi-Fi and load apps like Snake and Doom from its own drive. Claude Code wrote the operating system while the project's author handled the wiring and logged each intervention."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "TVPipe is a command-line tool from Armin Ronacher that mirrors video and audio to AirPlay and Google Cast receivers. It uses each ecosystem's real-time mirroring protocol instead of URL playback. So latency stays at a fraction of a second. It can send files, cameras, capture cards, a window or a browser tab to several TVs at once. It's written in Rust and ships as one binary."
+      ]
+    }
+  ]
+}
