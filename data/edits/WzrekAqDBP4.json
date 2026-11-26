@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "0eedf09dcc0f3bfc0f0e7f841e7cbf49e9e27847a5f927ab2c5905f9ada68476",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "created_at": "2026-11-26T08:46:52+00:00",
+  "usage": {
+    "prompt_tokens": 5211,
+    "completion_tokens": 9684,
+    "total_tokens": 14895,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6188,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Trending. This is GitHub Trending Today number 53. 35 trending open-source projects on GitHub right now. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "Omarchy Apple-Dev lets you build SwiftUI and Flutter iPhone apps from Omarchy Linux, then install them on a real iPhone over USB. There's no macOS or Xcode installation in the workflow, though the full setup still needs Apple's Xcode download for its iOS SDK. It also packages and validates apps for TestFlight or the App Store with a paid Apple developer account required for those releases."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Replica Skill is 11 cloned skills for building your own take on an existing app. It maps the screens and user flows, plans the backend, builds and tests the result, then compares what's missing. One clever step reads linked user reviews to find complaints your version could address. The workflow uses public information or your own account, writes fresh code, and requires new branding before launch."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "REIA gives coding agents a way to investigate software when the source code isn't available. It connects through MCP to inspect native binaries, Electron apps, Android packages, websites, and more. Then returns evidence your agent can follow up on. Ask how a feature works, and the agent can trace the relevant pieces before building its own version. The analysis runs locally with Ghidra, Hopper, or IDA needed for deeper native work."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "Big Arrow on the Screen solves a tiny but familiar AI agent problem. It needs you to click something and its message is buried in a terminal. On a Mac, the agent can draw a labeled arrow, ring, or box over the exact control you need. Your clicks still reach the app. Keyboard focus stays put and the pointer disappears on its own. It's a simple visual handoff for permissions, setup, and step-by-step help."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "fsearch is a macOS command-line search tool for that file you know exists but can't quite name. It indexes the disk, forgives typos, and searches inside text files with filters for folder, type, size, and date. The author reports a median 1.3 milliseconds for name searches across 7.7 million files on an M4 Max. A small daemon keeps the index current as files change."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "Omdrop Owl brings AirDrop to Linux machines that don't have Apple's Wi-Fi chip. It's the radio half of Omdrop built on Owl, a user-space reimplementation of Apple's AWDL protocol. The trick is keeping your Wi-Fi connected while AirDrop runs on the same channel by injecting frames from the station's MAC and letting it act as the phone's traffic so you can send and receive from an iPhone without dropping your network."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "Wes Bos took two locked-down Android picture frames, a Skylight Calendar and a BYU frame, and turned them into proper dashboards. The repo logs how he got ADB, backed up the firmware, rooted them, pulled out the vendor app, and ran his own launcher and kiosk on the Skylight. Root came from adding one file to the boot RAM disk. The guide is written partly for AI agents as a nine-phase map an agent can follow over USB."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "AI New Tab replaces Chrome's new tab with a homepage an AI agent writes for you from your own browsing. It ranks the sites you visit most, opens up to eight of them in a background window signed in as you, pulls out the headlines and links, then writes a single React component that becomes your new tab. Tell it what you want in plain English, a morning newspaper or a green-on-black terminal, and it rebuilds on a timer."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "Helix Foundry is a local data workspace that connects your company's scattered tools, Postgres, Stripe, PostHog, S3, and more. Then proposes one connected ontology across all of them. It snapshots your data as versioned Parquet, queries it with DuckDB, and stores the relationships in HelixDB. Ask the analyst a question, and it answers with the SQL it actually ran, citing the snapshot."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "OSS Scanner is Anthropic's free service that hunts for security bugs in open-source projects and maintainers sign up with a single pull request. You add a folder with a config file and a Dockerfile, plus an optional threat model describing what you actually care about. The scanner builds your project in an isolated VM, then cuts off its internet access before it starts looking."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "SeeCode lets Claude and other coding agents draw proper diagrams without ever writing SVG themselves. The agent writes a short JSON spec of what connects to what and SeeCode handles the layout, edge routing, labels, and animation, then outputs one self-contained HTML file. There are 42 diagram types from architecture and sequence to C4 and Wardley maps."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Speakrail is a fully local voice assistant that listens while it talks running on one RTX 4090. You can cut it off mid-sentence, say \"um\" without it stopping, or pause to think without it jumping in. Every 80 milliseconds, a small turn-taking head decides whether you're done, pausing, or just backchanneling. And Gemma picks speak, listen, or yield in about one token."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "FinderSearch is what happens when a lightning-fast filename search engine gets a familiar Mac interface. Start typing even with a typo and it finds matching files across your disk. From there you can browse in columns, icons, lists, or a gallery. Preview with Quick Look and handle files without opening another app. It uses fsearch under the hood. Keep searches on your Mac."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "FF Tracking is the source for a six-second motion graphic that makes an AI agent's terminal look like it's being filmed by a restless camera. A tracker follows the letters as they appear. The focus shifts with it, and each lock gets a synthesized beep. There's no recorded footage or stock audio. The screen, camera effects, and sounds all come from code. Change the text or camera moves, then render your own version."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "jactionlint checks GitHub Actions workflows before a broken or risky one reaches CI. It catches bad YAML keys, mistyped expressions, wrong action inputs, and scripts that drop untrusted text straight into a shell command. It also flags issues like overly broad permissions and unpinned actions. Run it across a repo, use its suggested fixes, or set a baseline so an existing project only fails on new problems."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "Strands Box is a sandbox for running AI agents with two layers of control. The OS walls off files and programs and a policy language called Dogwood decides every shell command, Python call, network request, and MCP tool call with everything denied unless a rule permits it. Because the gateways share a history, a policy can say once the agent has read a secrets file, block its next outbound request."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Good CSS is a set of modern CSS habits packaged for coding agents with a live example for each one. It nudges an agent toward fluid sizing with clamp() color tokens that handle light and dark modes and layouts that adapt without piles of breakpoints or JavaScript. Each practice says when to use it and shows the actual CSS so the advice can fit a plain stylesheet, Tailwind, or another setup."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "AI Data Extractor pulls your chat history out of 10 AI coding assistants, Claude Code, Codex, Cursor, and more into one normalized JSONL format. It finds where each tool stores its chats on Mac, Linux, or Windows, reads SQLite databases read-only, so a running editor isn't blocked, and keeps the code context, diffs, and tool calls alongside each message."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "Absent Author gives researchers and reviewers a way to check whether anyone really stood behind a paper. Its two agent skills help authors map claims to evidence and help reviewers find concrete problems like references that don't exist or numbers that change between tables. A separate linter flags writing patterns for human inspection. The important restraint: polished prose or an AI-looking phrase is never treated as proof of research."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "Open Intelligent UI is an open recreation of ChatGPT's interactive answers. Ask for a one-day San Francisco plan and you don't get a wall of text. You get a map, photos, and an itinerary you can edit. Pins drop onto the map while the answer streams. Then the route draws in once it finishes. Remove a stop or add a suggestion and your edits go back to the model on the next turn."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "Once is for commands whose output you need again, but don't want to fetch again. Wrap a command, set an expiry, and later calls reuse its output from a small background process. The handy example is reading a 1Password token. Approve it with your fingerprint once, then keep using it for the next few hours. Cached values stay in memory, and the process exits when they expire."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "PiDurableKit lets an iPhone or Mac app run AI agents that survive being killed. It wraps the Pi durable agent library and runs it in JavaScriptCore behind a native Swift API, writing every conversation, model turn, and tool call to storage before the UI shows it. So when iOS kills your app mid-turn, you reopen it and the agent carries on from where it stopped."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "Isometric Figure is a cloned skill that draws a working isometric object in a single HTML file. Ask for a kitchen timer or a light switch and you get a fine-line technical drawing on a numbered plate where the buttons actually do something when you press them. It's plain SVG with no libraries. About 15 lines of projection code put every face on its isometric plane."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Antibody tackles a familiar problem when you run several coding agents. They all hit the same error and each spends time solving it. It recognizes matching failures across worktrees, lets one agent claim the diagnosis, then passes its recorded fix to the others. The shared memory lives with the repo and it works with Claude Code, Gemini CLI, and Codex CLI. One fix, fewer agents stuck on the same wall."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "VB6 Studio Web brings the classic Visual Basic workflow into your browser. You can lay out forms, edit VB-style code, run it, step through it in a debugger, and export a project as a standalone HTML app. It can also open original VB6 project files. This is a browser implementation with compatibility limits, but it's a surprisingly hands-on way to explore and adapt old Visual Basic projects."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "Liquid Glass brings that glassy refracting look to React and the web with real live refraction rendered on the GPU through WebGPU. You get two materials, clear, which is fully transparent, and regular, which is frosted. Both come in light and dark. Wrap your surfaces, buttons, toolbars, tabs, and menus in a glass scene, and they bend whatever sits behind them."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "Ref2Game is a skill for turning a reference image into a playable 2D game prototype. Give Claude Code or Codex a screenshot and it guides the agent through matching the art, building a browser game, and adding movement, lighting, and effects in code. You can play the work-in-progress, point out what feels wrong, and get a static build with the source and assets."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "BIGWORDS.PAGE puts your message full-screen in giant text that fits any display with nothing else on the page. Type it in the editor and the whole message lives in the link itself. After the hash, which browsers never send to the server. So there's no backend, no account, and nothing stored. Separate slides with two pipes add a countdown to a date or drop in a QR code for your Wi-Fi."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "TraceMaker takes a KiCad circuit board with unfinished connections and draws the tracks and vias for you. It can also move components to make a board easier to route. And there's a live viewer so you can watch the paths appear. The useful check is KiCad's own design rules, not just the router saying it succeeded. It runs on the CPU with optional GPU acceleration."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Lithos Metal is an open-source engine for running large language models locally on Apple Silicon. It builds specialized Metal kernels to cut GPU overhead, then serves the model through APIs that coding agents can use. There are launch commands for Codex, Claude Code, and OpenCode. The current work centers on specific Qwen models with performance measured on selected Macs, so check its hardware list before trying it."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "The terminal. You can render a local .excalidraw file to a PNG without an account, which makes diagrams easy to generate in a script or attach to a build. With an Excalidraw+ API key, it can also list, create, and edit scenes and collections in your workspace. Commands return JSON by default, so coding agents can work with them, too."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Integer Multiplication Bounds asks a surprisingly deep question. How much faster can we multiply enormous integers? Contributors are sharpening a mathematical bound built on an earlier open AI research framework with proof arguments, exact certificates, and checks others can rerun. The latest reviewed result improves the claimed bound, but it still depends on assumptions in that framework."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Habblaud turns your cloned code and Codex sessions into a little pixel art office. Each project gets a room and each agent becomes a character you can watch working, waiting on a command, or raising a hand when it needs you. Click one to see its activity and session details. It runs locally, making a crowded set of agent tasks much easier to understand at a glance."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "Trading Chart is a native SwiftUI library for iOS trading charts built on Apple's Swift Charts. You get candlesticks, line, and area styles, plus SMA, EMA, Bollinger Bands, RSI, and MACD with a protocol for writing your own. Swift Charts draws the bars, while lightweight canvas layers handle the axes, crosshair, and drawings. So the chart isn't rebuilt on every scroll frame."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Gentle Dot is a personal AI assistant that lives on your Mac desktop, one key away. It keeps one continuous chat with long-term memory, reads your files, and can drive your apps, seeing the screen, clicking, typing, and opening things. Each control session needs your approval. Risky actions ask first. Password managers and system settings are off-limits."
+      ]
+    }
+  ]
+}
