@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "id": "Z0xEtyaEg24",
+  "title": "GitHub Trending Weekly #61: deslop-please, vorssaint-utils, RainGen-RainGenerator, xnulinux, cookout",
+  "url": "https://www.youtube.com/watch?v=Z0xEtyaEg24",
+  "channel_id": "UC9Rrud-8CaHokDtK9FszvRg",
+  "published": "2026-11-26",
+  "duration": 901,
+  "word_count": 2395,
+  "provenance": {
+    "language": "und",
+    "caption_kind": "unknown",
+    "fetched_at": "2026-11-27T08:48:22+00:00",
+    "metadata_sha256": "accd71b8b0048d9b852e19832a8be5d9a853ba01e40b1dc8f109651aee12065e",
+    "captions_sha256": "eddec3820f68334a3485ec57fdd00a773442c1ad1e1f16b73ee0d54d34c395ac",
+    "cleanup_version": "2"
+  },
+  "sections": [
+    {
+      "start": 0,
+      "title": "Introduction",
+      "repositories": [],
+      "id": "s001",
+      "end": 10,
+      "paragraphs": [
+        "Welcome back to GitHub awesome. This is GitHub trending weekly number 61. 35 trending open- source projects on GitHub right now. Let's go."
+      ]
+    },
+    {
+      "start": 10,
+      "title": "deslop-please",
+      "repositories": [
+        "https://github.com/deterministic-machines/deslop-please"
+      ],
+      "id": "s002",
+      "end": 39,
+      "paragraphs": [
+        "Deslop please is an opinionated llinter for sloppy code structure written in Rust and built on the ideas in a philosophy of software design. It pushes your code base toward deep modules with narrow interfaces and runs four checks. module cycles, tangles, leaking strruct fields, and shallow modules. An allow list lets you park known issues, and a suggested agent instruction tells coding agents to fix what it flags from first principles."
+      ]
+    },
+    {
+      "start": 39,
+      "title": "vorssaint-utils",
+      "repositories": [
+        "https://github.com/vorssaint/vorssaint-utils"
+      ],
+      "id": "s003",
+      "end": 66,
+      "paragraphs": [
+        "Vorsaint is a modular Swift menu bar toolkit for Apple Silicon Max that replaces a pile of separate paid utilities. In one app, it bundles a per app volume mixer, window snapping, system monitoring, local clipboard history, offline OCR, and screen recording. Every module is opt-in and removable inside settings, so you only run what you want. Permissions stay optional per feature with no accounts and no telemetry."
+      ]
+    },
+    {
+      "start": 66,
+      "title": "RainGen-RainGenerator",
+      "repositories": [
+        "https://github.com/AhmadHassan-BTed/RainGen-RainGenerator"
+      ],
+      "id": "s004",
+      "end": 93,
+      "paragraphs": [
+        "Rainen is a procedural rain and thunderstorm simulator in Python with no pre-recorded audio or video loops. It builds wind from filtered white noise, droplet impacts from granular synthesis, and distance-time thunderclaps mixed with soft clipping. Visuals pair three tier parallax raindrops and splashes with branching lightning drawn by midpoint displacement. You can also run it headless from the CLI to export wave files."
+      ]
+    },
+    {
+      "start": 93,
+      "title": "xnulinux",
+      "repositories": [
+        "https://github.com/AFK-surf/xnulinux"
+      ],
+      "id": "s005",
+      "end": 117,
+      "paragraphs": [
+        "Xn Linux runs Apple's XNU kernel as a loadable module inside unmodified ARM 64 Linux. You pair it with a small interface module that lets Linux lend memory, timers, networking, and GPU access, while XNU drives the CPU and MMU directly. Finder, Safari, and other Mac OS apps run right alongside native Linux processes with no hypervisor or virtual machine."
+      ]
+    },
+    {
+      "start": 117,
+      "title": "rea-games",
+      "repositories": [
+        "https://github.com/erkamyaman/rea-games"
+      ],
+      "id": "s006",
+      "end": 143,
+      "paragraphs": [
+        "RIA games is an agent skill for porting open- source games to web, rust, or god dot and checking the rebuild frame by frame. It drives the original with an external clock and controlled RNG, then captures the rules and quirks in a gamed MD spec. Replaying that log against the new build feeds any divergence back to the agent until every frame lines up. So far, it's been tested on 2048 and Chrome's offline dyno."
+      ]
+    },
+    {
+      "start": 143,
+      "title": "homelab-diagram",
+      "repositories": [
+        "https://github.com/Goblinmine/homelab-diagram"
+      ],
+      "id": "s007",
+      "end": 170,
+      "paragraphs": [
+        "Home lab diagram is a Python script that turns a YAML inventory of your home network into an R Home style diagram rendered as SVG and PNG. It draws the path from the internet through your router, firewall, and core switch with perport, VLANs, cables sized by link speed, device cards, and a section showing what's open to the internet. Your real domain and Wi-Fi names are redacted by default, so you can post it."
+      ]
+    },
+    {
+      "start": 170,
+      "title": "safe-anything",
+      "repositories": [
+        "https://github.com/erkamyaman/safe-anything"
+      ],
+      "id": "s008",
+      "end": 193,
+      "paragraphs": [
+        "Safe Anything scans your repository for security issues in both your code and the tools your coding agent can run. It can catch an API key that would ship to the browser or flag a clawed code setting that preapprove shell commands. Each finding points to the line, explains the risk and suggests a fix. If it finds a secret, the report hides the value."
+      ]
+    },
+    {
+      "start": 193,
+      "title": "cookout",
+      "repositories": [
+        "https://github.com/mattpocock/cookout"
+      ],
+      "id": "s009",
+      "end": 216,
+      "paragraphs": [
+        "Cookout from Matt PCO is a self-hosted Slack style board where people and AI agents share the same channels and threads. It's written in Typescript on Node with everything stored in one SQLite file and a web interface built in. Agents join from clawed code or other coding tools with one command, then watch their inbox and get notified when someone needs them. LLM.ASM"
+      ]
+    },
+    {
+      "start": 216,
+      "title": "llm.asm",
+      "repositories": [
+        "https://github.com/alesha-pro/llm.asm"
+      ],
+      "id": "s010",
+      "end": 242,
+      "paragraphs": [
+        "lets you boot a computer straight into a chat with Quen. Its kernel takes up about 24 kilobytes with the model weights loaded separately. The kernel, tokenizer, and code that predicts the next token are all handwritten in x664 assembly. There's also a separate trainer that learns from Shakespeare and plots its progress live in your terminal using braille characters."
+      ]
+    },
+    {
+      "start": 242,
+      "title": "conjectures",
+      "repositories": [
+        "https://github.com/ChatAndBuild/conjectures"
+      ],
+      "id": "s011",
+      "end": 269,
+      "paragraphs": [
+        "Conjectures tracks 17 machine checked lean for repos proving consequences of leaven alpaga's reman hypothesis and GRH proof. They cover six named conjectures like Erdis 1985, Lindelof and Oilers's 65onial numbers plus five equivalent statements and six further bounds. Each repo freezes the theorem in statement. So agents can't weaken the claim and proves the implication on Mathlib alone."
+      ]
+    },
+    {
+      "start": 269,
+      "title": "rounds",
+      "repositories": [
+        "https://github.com/krispuckett/rounds"
+      ],
+      "id": "s012",
+      "end": 294,
+      "paragraphs": [
+        "Rounds puts every screen and output from your parallel clawed code sessions onto one canvas on Mac OS. You can drag iterations side by side to compare them. Step back to any day's work and see changed files next to the screens they produced. Pin a note directly onto a screen and the originating session picks it up through hooks to make the fix and reply. Everything stays local on your Mac."
+      ]
+    },
+    {
+      "start": 294,
+      "title": "trazo",
+      "repositories": [
+        "https://github.com/AdityaKodez/trazo"
+      ],
+      "id": "s013",
+      "end": 320,
+      "paragraphs": [
+        "Trazo is a library of handdrawn Crayon SVG stickers for web projects packaged as React and View components or raw SVG strings. It bakes rough wax textured lines into treeshakable vector paths across dozens of doodles like arrows, stars, clouds, cats, and stationary. You can preview and customize stickers in the browser before copying or adjust size, color, and rotation directly in code."
+      ]
+    },
+    {
+      "start": 320,
+      "title": "dashsplat",
+      "repositories": [
+        "https://github.com/R44VC0RP/dashsplat"
+      ],
+      "id": "s014",
+      "end": 345,
+      "paragraphs": [
+        "Dashplat turns six camera Tesla dash cam footage into an orbitable 3D Gaussian splat world you can drive through again. It builds a 1 cm road atlas with tracked vehicles and uses diffusion to patch blind spots in a chase camera view. You can scrub a live map that remembers areas the cameras can no longer see or open a stitched global map in a Tesla style web viewer."
+      ]
+    },
+    {
+      "start": 345,
+      "title": "shrink-anything",
+      "repositories": [
+        "https://github.com/EL4CTEO/shrink-anything"
+      ],
+      "id": "s015",
+      "end": 372,
+      "paragraphs": [
+        "Shrink anything is a Rust CLI that strips dead code, unused dependencies, duplicates, and unreferenced assets, then checks each cut against your test suite. It parses 19 languages, deletes candidates in batches, and if a check fails or the test count drops, it bisects the batch to restore what broke. Every edit is reversible bite forbite with undo, and it includes an MCP server so coding agents can run it, too."
+      ]
+    },
+    {
+      "start": 372,
+      "title": "open-diagram",
+      "repositories": [
+        "https://github.com/lukendeasy/open-diagram"
+      ],
+      "id": "s016",
+      "end": 398,
+      "paragraphs": [
+        "Open Diagram is a Python library and command line tool for drawing dense architecture diagrams that check their own layout. You describe panels, tiles, lines, and groups in a script, a JSON file, or a mermaid flowchart. And it measures every label from the font, places the blocks, and names any problem like overlapping panels or lines cutting through boxes. It exports SVG and PNG, and runs as an MCP server. GPU icon"
+      ]
+    },
+    {
+      "start": 398,
+      "title": "gpu-icons-search",
+      "repositories": [
+        "https://github.com/antfu/gpu-icons-search"
+      ],
+      "id": "s017",
+      "end": 423,
+      "paragraphs": [
+        "search is a tiny in browser model from Anthony Fu that predicts related icon words, so searching movie still finds film. Built to replace handwritten alias lists, it runs locally on WebGPU with a CPU fallback and handles typos or half-typed queries. Because it only returns ranked related terms, you plug it straight into whatever text matcher you already use."
+      ]
+    },
+    {
+      "start": 423,
+      "title": "agent-theater",
+      "repositories": [
+        "https://github.com/tarqmamdouh/agent-theater"
+      ],
+      "id": "s018",
+      "end": 446,
+      "paragraphs": [
+        "Agent Theater turns Claude Code's local session logs into a live pixel art stage. Each run gets its own lane, and when coding gives way to review, the next agent walks over to take the handoff. You can see which runs are still testing and watch finished work roll down a conveyor belt into a vault. Pick any stretch of the session and export it as a time-lapse video. Unfold is a journal built inside a handdrawn"
+      ]
+    },
+    {
+      "start": 446,
+      "title": "unfold",
+      "repositories": [
+        "https://github.com/Dksie09/unfold"
+      ],
+      "id": "s019",
+      "end": 472,
+      "paragraphs": [
+        "pop-up book. Open the cover and four rooms fold out from one spine like a carousel. Bedroom, bathroom, kitchen, and balcony. Each room has its own spot to write from a corkboard and mirror to a fridge door and a daily diary on a bean bag. Tearing out a note crumples it away and entries stay in local storage behind a swappable async file."
+      ]
+    },
+    {
+      "start": 472,
+      "title": "mydb",
+      "repositories": [
+        "https://github.com/yzsind/mydb"
+      ],
+      "id": "s020",
+      "end": 496,
+      "paragraphs": [
+        "My DB is a MySQL compatible database written in Rust. An app can record an order and run a sales report against the same data using its existing MySQL driver. My DB also supports full text and vector search through SQL. So an agent can look up an exact product name or find items with similar descriptions. Agents can reach the same database through its built-in MCP interface."
+      ]
+    },
+    {
+      "start": 496,
+      "title": "contentskills",
+      "repositories": [
+        "https://github.com/blotato/contentskills"
+      ],
+      "id": "s021",
+      "end": 525,
+      "paragraphs": [
+        "Content skills is a skill pack for Claude Code and Codeex that turns a coding agent into a local video editor. Drop in a raw clip and it drafts a storyboard you can adjust scene by scene before edits run in parallel. Transcription, cuts, captions, graphics, and ffmpegs stay on your machine using over 100 themes and effects with no cloud render credits. You can also schedule finished videos straight out through Blot's MCP server."
+      ]
+    },
+    {
+      "start": 525,
+      "title": "deskhub",
+      "repositories": [
+        "https://github.com/zacharyinserra/deskhub"
+      ],
+      "id": "s022",
+      "end": 550,
+      "paragraphs": [
+        "DeskHub turns a 4.3 in Waveshare ESP32S3 touchscreen into a control panel for your Windows PC. A companion app sends updates over Wi-Fi, so you can glance down to see your next meeting, check GPU load, or notice when Claude Code is waiting for a reply. You can also tap shortcuts to launch an app or skip a track. The clock and weather keep working when the PC is off."
+      ]
+    },
+    {
+      "start": 550,
+      "title": "Animation Handbook",
+      "repositories": [
+        "https://github.com/matinmonshizadeh/animation-handbook"
+      ],
+      "id": "s023",
+      "end": 574,
+      "paragraphs": [
+        "Animation Handbook helps you find a web animation when you know what it looks like but can't name it. Say you saw cards stack into a deck as you scrolled. Describe what moved, what triggered it, and how it moved, and the finder narrows down 176 live demos. On most demos, you can tweak the motion. Then copy a prompt that includes your settings for your coding assistant. Go Vault is a native"
+      ]
+    },
+    {
+      "start": 574,
+      "title": "govault",
+      "repositories": [
+        "https://github.com/txchen/govault"
+      ],
+      "id": "s024",
+      "end": 598,
+      "paragraphs": [
+        "desktop app for accessing your Vault Warden or Bit Warden compatible password vault on Mac OS, Windows, and Linux. It syncs in real time and works offline from an encrypted cache with Touch ID unlock on the Mac. It handles login with two-factor codes, cards, notes, SSH keys, and shared collections, and runs password health checks entirely on your device."
+      ]
+    },
+    {
+      "start": 598,
+      "title": "taar",
+      "repositories": [
+        "https://github.com/midplane/taar"
+      ],
+      "id": "s025",
+      "end": 624,
+      "paragraphs": [
+        "Tar forwards one-time codes from your Android phone's texts like bank OTPs, delivery codes, and ride pins to a laptop or another phone in your household. End to end encrypted. The relay in between is a Cloudflare worker you deploy yourself, and the Android app is built in Cotlin. Your laptop needs no install. Just open the relay page and scan a QR code. Ordinary messages never leave the phone."
+      ]
+    },
+    {
+      "start": 624,
+      "title": "agent-sim",
+      "repositories": [
+        "https://github.com/Developing-Gamer/agent-sim"
+      ],
+      "id": "s026",
+      "end": 647,
+      "paragraphs": [
+        "Agent SIM lets a coding agent test iOS apps on a Linux machine. It builds on x86 sim, which runs simulator and turns each screen into a list of controls the agent can read. Give it a login flow to test and it can tap sign in, type an email address, and check which screen appears next. You can watch the whole session live in a browser. Weaponized"
+      ]
+    },
+    {
+      "start": 647,
+      "title": "weaponized-curiosity",
+      "repositories": [
+        "https://github.com/AyushRajSinghParihar/weaponized-curiosity"
+      ],
+      "id": "s027",
+      "end": 671,
+      "paragraphs": [
+        "curiosity is a research skill for codecs and claude code. Say your app uses Postgress as a job cue and you're wondering when a dedicated broker would be worth the switch. The agent starts with your workload and looks for evidence that could change the decision. If it's a close call, it explains what would tip the recommendation and suggests the cheapest way to test it."
+      ]
+    },
+    {
+      "start": 671,
+      "title": "trellis-agent",
+      "repositories": [
+        "https://github.com/xtong629/trellis-agent"
+      ],
+      "id": "s028",
+      "end": 693,
+      "paragraphs": [
+        "Trellis is a research framework for testing whether planning or memory helps an AI agent do better work. Run the same tasks with memory switched on and off. Then compare the results. If a score drops, Trellis tells you which task and check failed. It also tracks what the agent spent separately from what the model judging its answers spent."
+      ]
+    },
+    {
+      "start": 693,
+      "title": "freeimage-local",
+      "repositories": [
+        "https://github.com/mgolcu00/freeimage-local"
+      ],
+      "id": "s029",
+      "end": 719,
+      "paragraphs": [
+        "Free image local runs the Zimage Turbo image generator on a laptop GPU with 6 GB of video memory. It keeps the model weights in system RAM and loads the next block onto the GPU while the current one runs. On the author's RTX 3060 laptop, an 8-step,024 pixel square image took about 15 seconds. You can enter prompts in the terminal or use a local web interface."
+      ]
+    },
+    {
+      "start": 719,
+      "title": "spectral-explorer",
+      "repositories": [
+        "https://github.com/lhoyer/spectral-explorer"
+      ],
+      "id": "s030",
+      "end": 745,
+      "paragraphs": [
+        "Spectral Explorer turns a USB webcam and a piece of a recordable DVD into a spectrometer you can build in a 3D printed case. The DVD spreads incoming light into its component colors, and the desktop app plots their intensity by wavelength as the camera watches. Point it at a fluorescent lamp to see distinct emission lines, or add the sample holder to compare which wavelengths different juices absorb."
+      ]
+    },
+    {
+      "start": 745,
+      "title": "ferrochart",
+      "repositories": [
+        "https://github.com/0x0077/ferrochart"
+      ],
+      "id": "s031",
+      "end": 770,
+      "paragraphs": [
+        "Ferrochart is a Rust library that turns your own market data into interactive financial charts. feed it price bars to draw candlesticks, add a moving average, and both update as new trades come in. It keeps the bars on the GPU and switches to a coarser view as you zoom out, so you can pan through millions of bars. The same engine runs in a browser, a desktop app, or a Jupyter notebook."
+      ]
+    },
+    {
+      "start": 770,
+      "title": "inkworks-skill",
+      "repositories": [
+        "https://github.com/Moh4696/inkworks-skill"
+      ],
+      "id": "s032",
+      "end": 797,
+      "paragraphs": [
+        "Inkworks is an agent skill that builds interactive 3D pages explaining how machines work like engines, pumps, locks, and gearboxes drawn as white engineering sheets with ink outlines and drafting callouts. Everything is made from code with 3JS primitives and real kinematics with no model files or generated video. Readers can pause, step through each phase, scrub a cycle chart, and orbit the camera. Flect puts file conversion in the right-click menu of"
+      ]
+    },
+    {
+      "start": 797,
+      "title": "Flect",
+      "repositories": [
+        "https://github.com/Ko7ayuki/Flect"
+      ],
+      "id": "s033",
+      "end": 821,
+      "paragraphs": [
+        "Windows File Explorer. Select a batch of EIC photos. Choose JPEG and Flect saves the converted copies beside the originals. If a screen recording is too large to share, rightclick it and pick a target size or use the Discord preset. You can also trim the clip, pull out its audio, or save a single frame as an image. Tiny AVA reads Persian text aloud"
+      ]
+    },
+    {
+      "start": 821,
+      "title": "tiny-ava",
+      "repositories": [
+        "https://github.com/mallahyari/tiny-ava"
+      ],
+      "id": "s034",
+      "end": 846,
+      "paragraphs": [
+        "on your device. Its speech model has 4.5 million parameters and learned from about 20 hours of synthetic audio. On Android, it gives the TalkBack screen reader an offline Persian voice that can read clock times, percentages, and common English menu labels. You can also try it in a browser where a one-time download of about 29 megabytes lets it work offline."
+      ]
+    },
+    {
+      "start": 846,
+      "title": "talkto",
+      "repositories": [
+        "https://github.com/plannotator/talkto"
+      ],
+      "id": "s035",
+      "end": 874,
+      "paragraphs": [
+        "Talk to is a message board for AI agents from the creators of Planetator built to deploy on Cloudflare. Each board runs on durable objects with Discord-like rooms, topics, and channels, so runtimes on different machines can talk directly. You can invite human teammates or outside agents into shared spaces to trade files and code snippets. Built-in notification logic wakes an agent up when it's mentioned or assigned a task."
+      ]
+    },
+    {
+      "start": 874,
+      "title": "semsec",
+      "repositories": [
+        "https://github.com/RobustaStudio/semsec"
+      ],
+      "id": "s036",
+      "end": 901,
+      "paragraphs": [
+        "SEMS is a set of SEM grep rules that checks web apps before they ship. It can follow a value from an HTTP request into a SQL query and flag where that input becomes part of the command. It also checks for mistakes like a superbase service key in browser code or a checkout that trusts the price a customer sends. Its secret scanner recognizes key formats from 75 providers."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "text": "Welcome back to GitHub awesome. This is GitHub trending weekly number 61. 35 trending open- source projects on GitHub right now. Let's go."
+    },
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "text": "Deslop please is an opinionated llinter for sloppy code structure written in Rust and built on the ideas in a philosophy of software design. It pushes"
+    },
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "text": "your code base toward deep modules with narrow interfaces and runs four checks."
+    },
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "module cycles, tangles, leaking strruct fields, and shallow modules. An allow list lets you park known issues, and a"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "suggested agent instruction tells coding agents to fix what it flags from first principles."
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "text": "Vorsaint is a modular Swift menu bar toolkit for Apple Silicon Max that replaces a pile of separate paid utilities. In one app, it bundles a per"
+    },
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "text": "app volume mixer, window snapping, system monitoring, local clipboard history, offline OCR, and screen"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "recording. Every module is opt-in and removable inside settings, so you only run what you want. Permissions stay"
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "text": "optional per feature with no accounts and no telemetry."
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "text": "Rainen is a procedural rain and thunderstorm simulator in Python with no pre-recorded audio or video loops. It"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "builds wind from filtered white noise, droplet impacts from granular synthesis, and distance-time thunderclaps mixed"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "text": "with soft clipping. Visuals pair three tier parallax raindrops and splashes with branching lightning drawn by midpoint displacement. You can also run"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "it headless from the CLI to export wave files."
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "text": "Xn Linux runs Apple's XNU kernel as a loadable module inside unmodified ARM 64 Linux. You pair it with a small"
+    },
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "text": "interface module that lets Linux lend memory, timers, networking, and GPU access, while XNU drives the CPU and MMU"
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "text": "directly. Finder, Safari, and other Mac OS apps run right alongside native Linux processes with no hypervisor or virtual machine."
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "RIA games is an agent skill for porting open- source games to web, rust, or god dot and checking the rebuild frame by frame. It drives the original with an"
+    },
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "external clock and controlled RNG, then captures the rules and quirks in a gamed MD spec. Replaying that log against the"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "new build feeds any divergence back to the agent until every frame lines up. So far, it's been tested on 2048 and Chrome's offline dyno."
+    },
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "Home lab diagram is a Python script that turns a YAML inventory of your home network into an R Home style diagram"
+    },
+    {
+      "start": 151.0,
+      "end": 151.0,
+      "text": "rendered as SVG and PNG. It draws the path from the internet through your router, firewall, and core switch with"
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "perport, VLANs, cables sized by link speed, device cards, and a section showing what's open to the internet."
+    },
+    {
+      "start": 165.0,
+      "end": 165.0,
+      "text": "Your real domain and Wi-Fi names are redacted by default, so you can post it."
+    },
+    {
+      "start": 170.0,
+      "end": 170.0,
+      "text": "Safe Anything scans your repository for security issues in both your code and the tools your coding agent can run. It"
+    },
+    {
+      "start": 177.0,
+      "end": 177.0,
+      "text": "can catch an API key that would ship to the browser or flag a clawed code setting that preapprove shell commands."
+    },
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "Each finding points to the line, explains the risk and suggests a fix. If it finds a secret, the report hides the value."
+    },
+    {
+      "start": 193.0,
+      "end": 193.0,
+      "text": "Cookout from Matt PCO is a self-hosted Slack style board where people and AI agents share the same channels and"
+    },
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "threads. It's written in Typescript on Node with everything stored in one SQLite file and a web interface built in. Agents join from clawed code or"
+    },
+    {
+      "start": 210.0,
+      "end": 210.0,
+      "text": "other coding tools with one command, then watch their inbox and get notified when someone needs them. LLM.ASM"
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "lets you boot a computer straight into a chat with Quen. Its kernel takes up about 24 kilobytes with the model weights loaded separately. The kernel,"
+    },
+    {
+      "start": 227.0,
+      "end": 227.0,
+      "text": "tokenizer, and code that predicts the next token are all handwritten in x664 assembly. There's also a separate"
+    },
+    {
+      "start": 234.0,
+      "end": 234.0,
+      "text": "trainer that learns from Shakespeare and plots its progress live in your terminal using braille characters."
+    },
+    {
+      "start": 242.0,
+      "end": 242.0,
+      "text": "Conjectures tracks 17 machine checked lean for repos proving consequences of leaven alpaga's reman hypothesis and GRH"
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "proof. They cover six named conjectures like Erdis 1985, Lindelof and Oilers's 65onial numbers plus five equivalent"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "statements and six further bounds. Each repo freezes the theorem in statement."
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "So agents can't weaken the claim and proves the implication on Mathlib alone."
+    },
+    {
+      "start": 269.0,
+      "end": 269.0,
+      "text": "Rounds puts every screen and output from your parallel clawed code sessions onto one canvas on Mac OS. You can drag iterations side by side to compare them."
+    },
+    {
+      "start": 279.0,
+      "end": 279.0,
+      "text": "Step back to any day's work and see changed files next to the screens they produced. Pin a note directly onto a"
+    },
+    {
+      "start": 286.0,
+      "end": 286.0,
+      "text": "screen and the originating session picks it up through hooks to make the fix and reply. Everything stays local on your Mac."
+    },
+    {
+      "start": 294.0,
+      "end": 294.0,
+      "text": "Trazo is a library of handdrawn Crayon SVG stickers for web projects packaged as React and View components or raw SVG"
+    },
+    {
+      "start": 302.0,
+      "end": 302.0,
+      "text": "strings. It bakes rough wax textured lines into treeshakable vector paths across dozens of doodles like arrows,"
+    },
+    {
+      "start": 309.0,
+      "end": 309.0,
+      "text": "stars, clouds, cats, and stationary. You can preview and customize stickers in the browser before copying or adjust size, color, and rotation directly in code."
+    },
+    {
+      "start": 320.0,
+      "end": 320.0,
+      "text": "Dashplat turns six camera Tesla dash cam footage into an orbitable 3D Gaussian splat world you can drive through again."
+    },
+    {
+      "start": 328.0,
+      "end": 328.0,
+      "text": "It builds a 1 cm road atlas with tracked vehicles and uses diffusion to patch blind spots in a chase camera view. You"
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "can scrub a live map that remembers areas the cameras can no longer see or open a stitched global map in a Tesla style web viewer."
+    },
+    {
+      "start": 345.0,
+      "end": 345.0,
+      "text": "Shrink anything is a Rust CLI that strips dead code, unused dependencies, duplicates, and unreferenced assets,"
+    },
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "then checks each cut against your test suite. It parses 19 languages, deletes candidates in batches, and if a check"
+    },
+    {
+      "start": 360.0,
+      "end": 360.0,
+      "text": "fails or the test count drops, it bisects the batch to restore what broke."
+    },
+    {
+      "start": 364.0,
+      "end": 364.0,
+      "text": "Every edit is reversible bite forbite with undo, and it includes an MCP server so coding agents can run it, too."
+    },
+    {
+      "start": 372.0,
+      "end": 372.0,
+      "text": "Open Diagram is a Python library and command line tool for drawing dense architecture diagrams that check their own layout. You describe panels, tiles,"
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "lines, and groups in a script, a JSON file, or a mermaid flowchart. And it measures every label from the font, places the blocks, and names any problem"
+    },
+    {
+      "start": 390.0,
+      "end": 390.0,
+      "text": "like overlapping panels or lines cutting through boxes. It exports SVG and PNG, and runs as an MCP server. GPU icon"
+    },
+    {
+      "start": 399.0,
+      "end": 399.0,
+      "text": "search is a tiny in browser model from Anthony Fu that predicts related icon words, so searching movie still finds"
+    },
+    {
+      "start": 406.0,
+      "end": 406.0,
+      "text": "film. Built to replace handwritten alias lists, it runs locally on WebGPU with a CPU fallback and handles typos or"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "half-typed queries. Because it only returns ranked related terms, you plug it straight into whatever text matcher you already use."
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "Agent Theater turns Claude Code's local session logs into a live pixel art stage. Each run gets its own lane, and"
+    },
+    {
+      "start": 431.0,
+      "end": 431.0,
+      "text": "when coding gives way to review, the next agent walks over to take the handoff. You can see which runs are still testing and watch finished work roll down a conveyor belt into a vault."
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "Pick any stretch of the session and export it as a time-lapse video. Unfold is a journal built inside a handdrawn"
+    },
+    {
+      "start": 449.0,
+      "end": 449.0,
+      "text": "pop-up book. Open the cover and four rooms fold out from one spine like a carousel. Bedroom, bathroom, kitchen,"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "and balcony. Each room has its own spot to write from a corkboard and mirror to a fridge door and a daily diary on a"
+    },
+    {
+      "start": 463.0,
+      "end": 463.0,
+      "text": "bean bag. Tearing out a note crumples it away and entries stay in local storage behind a swappable async file."
+    },
+    {
+      "start": 472.0,
+      "end": 472.0,
+      "text": "My DB is a MySQL compatible database written in Rust. An app can record an order and run a sales report against the same data using its existing MySQL"
+    },
+    {
+      "start": 481.0,
+      "end": 481.0,
+      "text": "driver. My DB also supports full text and vector search through SQL. So an agent can look up an exact product name or find items with similar descriptions."
+    },
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "Agents can reach the same database through its built-in MCP interface."
+    },
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "Content skills is a skill pack for Claude Code and Codeex that turns a coding agent into a local video editor."
+    },
+    {
+      "start": 504.0,
+      "end": 504.0,
+      "text": "Drop in a raw clip and it drafts a storyboard you can adjust scene by scene before edits run in parallel."
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "Transcription, cuts, captions, graphics, and ffmpegs stay on your machine using over 100 themes and effects with no"
+    },
+    {
+      "start": 517.0,
+      "end": 517.0,
+      "text": "cloud render credits. You can also schedule finished videos straight out through Blot's MCP server."
+    },
+    {
+      "start": 525.0,
+      "end": 525.0,
+      "text": "DeskHub turns a 4.3 in Waveshare ESP32S3 touchscreen into a control panel for"
+    },
+    {
+      "start": 531.0,
+      "end": 531.0,
+      "text": "your Windows PC. A companion app sends updates over Wi-Fi, so you can glance down to see your next meeting, check GPU"
+    },
+    {
+      "start": 539.0,
+      "end": 539.0,
+      "text": "load, or notice when Claude Code is waiting for a reply. You can also tap shortcuts to launch an app or skip a track. The clock and weather keep working when the PC is off."
+    },
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "Animation Handbook helps you find a web animation when you know what it looks like but can't name it. Say you saw cards stack into a deck as you scrolled."
+    },
+    {
+      "start": 559.0,
+      "end": 559.0,
+      "text": "Describe what moved, what triggered it, and how it moved, and the finder narrows down 176 live demos. On most demos, you"
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "can tweak the motion. Then copy a prompt that includes your settings for your coding assistant. Go Vault is a native"
+    },
+    {
+      "start": 575.0,
+      "end": 575.0,
+      "text": "desktop app for accessing your Vault Warden or Bit Warden compatible password vault on Mac OS, Windows, and Linux. It"
+    },
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "syncs in real time and works offline from an encrypted cache with Touch ID unlock on the Mac. It handles login with"
+    },
+    {
+      "start": 590.0,
+      "end": 590.0,
+      "text": "two-factor codes, cards, notes, SSH keys, and shared collections, and runs password health checks entirely on your device."
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "Tar forwards one-time codes from your Android phone's texts like bank OTPs, delivery codes, and ride pins to a laptop or another phone in your"
+    },
+    {
+      "start": 607.0,
+      "end": 607.0,
+      "text": "household. End to end encrypted. The relay in between is a Cloudflare worker you deploy yourself, and the Android app"
+    },
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "is built in Cotlin. Your laptop needs no install. Just open the relay page and scan a QR code. Ordinary messages never leave the phone."
+    },
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "Agent SIM lets a coding agent test iOS apps on a Linux machine. It builds on x86 sim, which runs simulator and turns"
+    },
+    {
+      "start": 633.0,
+      "end": 633.0,
+      "text": "each screen into a list of controls the agent can read. Give it a login flow to test and it can tap sign in, type an"
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "email address, and check which screen appears next. You can watch the whole session live in a browser. Weaponized"
+    },
+    {
+      "start": 648.0,
+      "end": 648.0,
+      "text": "curiosity is a research skill for codecs and claude code. Say your app uses Postgress as a job cue and you're"
+    },
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "wondering when a dedicated broker would be worth the switch. The agent starts with your workload and looks for evidence that could change the decision."
+    },
+    {
+      "start": 664.0,
+      "end": 664.0,
+      "text": "If it's a close call, it explains what would tip the recommendation and suggests the cheapest way to test it."
+    },
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "Trellis is a research framework for testing whether planning or memory helps an AI agent do better work."
+    },
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "Run the same tasks with memory switched on and off. Then compare the results. If a score drops, Trellis tells you which"
+    },
+    {
+      "start": 685.0,
+      "end": 685.0,
+      "text": "task and check failed. It also tracks what the agent spent separately from what the model judging its answers spent."
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "Free image local runs the Zimage Turbo image generator on a laptop GPU with 6 GB of video memory. It keeps the model"
+    },
+    {
+      "start": 701.0,
+      "end": 701.0,
+      "text": "weights in system RAM and loads the next block onto the GPU while the current one runs. On the author's RTX 3060 laptop,"
+    },
+    {
+      "start": 708.0,
+      "end": 708.0,
+      "text": "an 8-step,024 pixel square image took about 15 seconds. You can enter prompts in the terminal or use a local web interface."
+    },
+    {
+      "start": 719.0,
+      "end": 719.0,
+      "text": "Spectral Explorer turns a USB webcam and a piece of a recordable DVD into a spectrometer you can build in a 3D"
+    },
+    {
+      "start": 726.0,
+      "end": 726.0,
+      "text": "printed case. The DVD spreads incoming light into its component colors, and the desktop app plots their intensity by"
+    },
+    {
+      "start": 734.0,
+      "end": 734.0,
+      "text": "wavelength as the camera watches. Point it at a fluorescent lamp to see distinct emission lines, or add the sample holder"
+    },
+    {
+      "start": 741.0,
+      "end": 741.0,
+      "text": "to compare which wavelengths different juices absorb."
+    },
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "Ferrochart is a Rust library that turns your own market data into interactive financial charts. feed it price bars to"
+    },
+    {
+      "start": 753.0,
+      "end": 753.0,
+      "text": "draw candlesticks, add a moving average, and both update as new trades come in."
+    },
+    {
+      "start": 758.0,
+      "end": 758.0,
+      "text": "It keeps the bars on the GPU and switches to a coarser view as you zoom out, so you can pan through millions of bars. The same engine runs in a browser, a desktop app, or a Jupyter notebook."
+    },
+    {
+      "start": 770.0,
+      "end": 770.0,
+      "text": "Inkworks is an agent skill that builds interactive 3D pages explaining how machines work like engines, pumps,"
+    },
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "locks, and gearboxes drawn as white engineering sheets with ink outlines and drafting callouts. Everything is made"
+    },
+    {
+      "start": 784.0,
+      "end": 784.0,
+      "text": "from code with 3JS primitives and real kinematics with no model files or generated video. Readers can pause, step"
+    },
+    {
+      "start": 792.0,
+      "end": 792.0,
+      "text": "through each phase, scrub a cycle chart, and orbit the camera. Flect puts file conversion in the right-click menu of"
+    },
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "Windows File Explorer. Select a batch of EIC photos. Choose JPEG and Flect saves the converted copies beside the"
+    },
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "originals. If a screen recording is too large to share, rightclick it and pick a target size or use the Discord preset."
+    },
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "You can also trim the clip, pull out its audio, or save a single frame as an image. Tiny AVA reads Persian text aloud"
+    },
+    {
+      "start": 823.0,
+      "end": 823.0,
+      "text": "on your device. Its speech model has 4.5 million parameters and learned from about 20 hours of synthetic audio. On"
+    },
+    {
+      "start": 831.0,
+      "end": 831.0,
+      "text": "Android, it gives the TalkBack screen reader an offline Persian voice that can read clock times, percentages, and common English menu labels. You can also"
+    },
+    {
+      "start": 840.0,
+      "end": 840.0,
+      "text": "try it in a browser where a one-time download of about 29 megabytes lets it work offline."
+    },
+    {
+      "start": 846.0,
+      "end": 846.0,
+      "text": "Talk to is a message board for AI agents from the creators of Planetator built to deploy on Cloudflare. Each board runs on"
+    },
+    {
+      "start": 855.0,
+      "end": 855.0,
+      "text": "durable objects with Discord-like rooms, topics, and channels, so runtimes on different machines can talk directly."
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "You can invite human teammates or outside agents into shared spaces to trade files and code snippets. Built-in"
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "notification logic wakes an agent up when it's mentioned or assigned a task."
+    },
+    {
+      "start": 874.0,
+      "end": 874.0,
+      "text": "SEMS is a set of SEM grep rules that checks web apps before they ship. It can follow a value from an HTTP request into"
+    },
+    {
+      "start": 882.0,
+      "end": 882.0,
+      "text": "a SQL query and flag where that input becomes part of the command. It also checks for mistakes like a superbase service key in browser code or a"
+    },
+    {
+      "start": 891.0,
+      "end": 891.0,
+      "text": "checkout that trusts the price a customer sends. Its secret scanner recognizes key formats from 75 providers."
+    }
+  ]
+}
