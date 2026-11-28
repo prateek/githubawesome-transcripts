@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_sha256": "c5b5509414f64666cb46d7309f6aead9e4963a9e3a3afdfcdb45e939c67c7e5f",
+  "prompt_version": "1",
+  "requested_model": "openrouter/free",
+  "actual_model": "particle-ai/particle-1:free",
+  "created_at": "2026-11-28T08:15:48+00:00",
+  "usage": {
+    "prompt_tokens": 5053,
+    "completion_tokens": 10865,
+    "total_tokens": 15918,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7481,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "sections": [
+    {
+      "id": "s001",
+      "paragraphs": [
+        "Welcome back to GitHub Awesome. Today we're looking at 35 self-hosted projects on GitHub. Let's get into it."
+      ]
+    },
+    {
+      "id": "s002",
+      "paragraphs": [
+        "openshorts is what you reach for when OpusClip subscription and Descript's limits get old. Turning a long podcast into short-form clips used to mean hours of manual picking or paying monthly. Gemini finds 3 to 15 viral moments, reframes them to 9:16, and writes word-level subtitles itself. It can even generate AI actors and auto-publish straight to TikTok and YouTube."
+      ]
+    },
+    {
+      "id": "s003",
+      "paragraphs": [
+        "Mailflare gives you a real inbox on your own domain without handing your mail to Google or Fastmail. It runs as a single Cloudflare Worker, so there's no server to manage. Email routing pulls in the mail. D1 stores it. R2 holds the attachments, all inside your own Cloudflare account. You get shared mailboxes, search, folders, and routing rules—the stuff you'd expect from a real client."
+      ]
+    },
+    {
+      "id": "s004",
+      "paragraphs": [
+        "Handy is a push-to-talk transcription tool that never leaves your machine. Every dictation app wants a monthly subscription and your audio uploaded to their servers. This one runs Whisper or Parakeet locally, so nothing gets sent anywhere. Hold a hotkey, talk, and the text drops into whatever field you're in on Windows, Mac, or Linux. Parakeet clocks in around five times real time on a mid-range Intel chip, they say."
+      ]
+    },
+    {
+      "id": "s005",
+      "paragraphs": [
+        "mStream is a self-hosted music server that skips the setup headache. Plex feels like overkill just to stream your own FLAC collection, and most alternatives make you wait out a full scan before you can hit play. This one streams straight off your folder structure, so playback starts before the database is even built. It talks Subsonic and DLNA, transcodes on the fly."
+      ]
+    },
+    {
+      "id": "s006",
+      "paragraphs": [
+        "netwatch is what you'd get if htop and Wireshark had a baby that also did intrusion detection. It maps every connection back to the process that opened it, decodes TLS, QUIC, HTTP, DNS, and SSH, and fingerprints clients through JA4. The egress policy feature learns what each program normally talks to, then flags it the moment it reaches somewhere new."
+      ]
+    },
+    {
+      "id": "s007",
+      "paragraphs": [
+        "JellyBox is the client Jellyfin shipped. The official app tries to handle video and music at once, and it still feels like a web page wearing a native icon. JellyBox only does audio, built natively for each platform, so it actually feels at home on Mac, Windows, Linux, iOS, and Android. You get synced lyrics, full offline downloads, and CarPlay and AirPlay support, plus album art that colors the whole interface."
+      ]
+    },
+    {
+      "id": "s008",
+      "paragraphs": [
+        "assemblrr wires up your whole self-hosted media stack so you don't have to. Standing up Jellyfin, qBittorrent, Sonarr, Radarr, and Prowlarr by hand is a full weekend of Docker Compose and forum posts. assemblrr connects all eight services automatically, routes your download traffic through a VPN with health checks built in, and applies TRaSH Guides quality profiles for you."
+      ]
+    },
+    {
+      "id": "s009",
+      "paragraphs": [
+        "OpenArchiver is what you stand up instead of paying a vendor to hold your email compliance archive. Google Vault works fine until you think about what happens if that vendor changes pricing or disappears. This one pulls from IMAP, Google Workspace, Microsoft 365, and old PST files, storing everything as plain EML with encryption at rest. Every message gets hashed so you can prove nothing's been altered."
+      ]
+    },
+    {
+      "id": "s010",
+      "paragraphs": [
+        "WebSSH turns your browser into an SSH client that never talks to anyone's cloud. You're on a laptop that isn't yours and just need to check a box in your home lab. This runs entirely on your own server. No hosted control plane, no CDN. You get up to four SSH panes at once. Sessions that survive a dropped connection through tmux and a dual-pane SFTP browser for moving files."
+      ]
+    },
+    {
+      "id": "s011",
+      "paragraphs": [
+        "BookOrbit fixes the sync problem Calibre-Web never solved. You highlight something on your Kobo, then open the same book on your phone later, and none of it followed you. This one does three-way sync between your Kobo, KOReader, and its own web reader, so highlights and progress travel with you. It pulls metadata from 14 sources, syncs your reading to Readwise, Hardcover."
+      ]
+    },
+    {
+      "id": "s012",
+      "paragraphs": [
+        "useagent turns whatever coding agent you're already using into an actual co-worker instead of a chat window. Claude Code, Codex, OpenCode—they all lock you into their own interface and none make it easy to trust with real company credentials. useagent runs the agent in an isolated sandbox and keeps credentials at the gateway, so they never touch that sandbox."
+      ]
+    },
+    {
+      "id": "s013",
+      "paragraphs": [
+        "Kept is what you get when someone actually tries to copy Google Keep instead of building another Notion clone. Most self-hosted note apps are either bloated with features nobody uses or ugly enough that you give up and go back to Google. This one keeps the same sticky note feel, checklists, labels, and drawings. And it imports notes straight from a Google Takeout export."
+      ]
+    },
+    {
+      "id": "s014",
+      "paragraphs": [
+        "homelable is the network diagram that actually knows what's running. Draw your home lab in draw.io once and by the next time you touch it, half the devices have moved and the diagram's lying to you. This one scans your network with nmap and builds the map itself. Tracks MAC addresses and pulls devices straight from Proxmox, Zigbee, MQTT, and Z-Wave."
+      ]
+    },
+    {
+      "id": "s015",
+      "paragraphs": [
+        "Pictaria is the AI layer Immich doesn't have without sending a single photo to Google. Immich nails the self-hosted photo library part, but you're still scrolling through 50 nearly identical shots trying to pick the keeper. Pictaria stacks those duplicates, scores them by frame-worthiness, and lets you override every call. Human decisions always win over the AI."
+      ]
+    },
+    {
+      "id": "s016",
+      "paragraphs": [
+        "Renewlet tracks every subscription you forgot you had in 20 to 30 megabytes of memory. Most subscription trackers are either a spreadsheet you stop after a month or a SaaS charging you to track your subscriptions. This one screenshots a bill and reads the price and renewal date off it automatically. It sends reminders through Telegram, Discord, and email."
+      ]
+    },
+    {
+      "id": "s017",
+      "paragraphs": [
+        "MindSpark treats Markdown as a real format, not a one-way export button. Most mind mapping tools export to Markdown once, and the file goes stale the moment you edit the map. This one keeps them synced in both directions. Live nodes carry a real formula engine—sum, average, if—so they actually calculate instead of holding text. Citations autofill from Crossref by DOI."
+      ]
+    },
+    {
+      "id": "s018",
+      "paragraphs": [
+        "Tether brings the Apple continuity stuff back after you leave the Mac for Linux. Switch to Linux and suddenly your iPhone stops talking to your laptop. No shared clipboard, no drag-and-drop transfer, no texting from your desktop. Tether rebuilds that link specifically for Wayland with an iOS companion app. Clipboard sync over Wi-Fi, and SMS and iMessage in beta over Bluetooth."
+      ]
+    },
+    {
+      "id": "s019",
+      "paragraphs": [
+        "Dashlit is a start page you build without ever opening a config file. Homepage and most of the self-hosted dashboard options are great until you need to add one bookmark and remember the exact YAML indentation. Dashlit skips that. Everything's drag-and-drop through the built-in editor. It's one Docker container that sits behind your own reverse proxy."
+      ]
+    },
+    {
+      "id": "s020",
+      "paragraphs": [
+        "tapmap shows you exactly where your computer's been talking behind your back. Every app on your machine makes connections you never see, most of them to servers you couldn't name if asked. tapmap watches those connections live and drops them on an actual world map as they happen, geolocated. It keeps a rolling 30-day history, so a new provider showing up gets noticed."
+      ]
+    },
+    {
+      "id": "s021",
+      "paragraphs": [
+        "rootprint is what you reach for right before your Datadog bill makes you rethink logging entirely. Most observability platforms charge by ingest volume, so the more you log, the more it costs to find anything. rootprint indexes straight onto object storage—S3, R2, MinIO, or a local disk—so storage stays cheap. You get a real log explorer with severity filters and saved views. Trace waterfalls with per-span timing."
+      ]
+    },
+    {
+      "id": "s022",
+      "paragraphs": [
+        "repowise indexes your repo once so your AI agent stops rediscovering it every session. Claude Code, Cursor, whatever you're running, they all burn tool calls relearning your codebase's shape before they can actually help. repowise builds one local index covering dependencies, git history, and code health and hands it to the agent through MCP."
+      ]
+    },
+    {
+      "id": "s023",
+      "paragraphs": [
+        "meelo is built for the person whose music folder has three versions of the same album, and Plex just can't handle it. Feed Plex a deluxe edition alongside the original, and you get duplicate songs everywhere, plus your music videos filed like they're TV shows. meelo actually understands album releases, so you pick which version shows by default without losing the rest. And music videos count as real tracks on the album page."
+      ]
+    },
+    {
+      "id": "s024",
+      "paragraphs": [
+        "MTL Explorer is where your GPS history goes once you stop trusting Garmin Connect to keep it forever. Load a few hundred activities into most tracking apps, and the map starts choking. This one's built to put thousands of tracks on a single map without falling over. It imports Garmin, GPX, and FIT files straight off your device, computes the usual activity stats, and does a cinematic 3D flyover replay of a route."
+      ]
+    },
+    {
+      "id": "s025",
+      "paragraphs": [
+        "Prismedia is the one media server instead of the five you're currently running. You've probably got Jellyfin for movies, something else for books, Komga for comics, and a separate app for music, each with its own login and its own bugs. Prismedia puts movies, series, music, audiobooks, comics, and photo galleries behind one interface with native readers for EPUB and PDF, proper resume, and subtitles on video."
+      ]
+    },
+    {
+      "id": "s026",
+      "paragraphs": [
+        "GyroidVault is what your STL folder needed about 5,000 files ago. Right now, it's probably a folder called models with files named final, final 2, and actually final. And you open a slicer just to see what's inside one. GyroidVault gives you a real 3D viewer in the browser, X-ray mode, multi-part assemblies in different colors, and exact measurements before you slice."
+      ]
+    },
+    {
+      "id": "s027",
+      "paragraphs": [
+        "geolens is the shared GIS catalog your team's shapefiles have been begging for. Right now, everyone's spatial data probably lives scattered across a shared drive with zero search. And finding last year's survey means asking whoever made it. geolens ingests shapefiles, GeoTIFFs, GeoPackages, and CSVs into PostGIS, gives you fuzzy and semantic search, and still speaks the standards your team already uses."
+      ]
+    },
+    {
+      "id": "s028",
+      "paragraphs": [
+        "issued reads your comics exactly where they already sit. No reorganizing required. Most comic servers want a specific folder structure before they'll even scan. So step one becomes moving thousands of files around. issued just points at your existing folders and picks up CBZ, CBR, CB7, and PDF automatically, thumbnails and all. It tracks which series are active, so you know when a new issue lands or a gap opens up."
+      ]
+    },
+    {
+      "id": "s029",
+      "paragraphs": [
+        "vaultisse tracks physical books the way a library needs without the enterprise software built for a system with 50 branches. You lend someone a book and there's no record beyond your memory. Or you're running Koha for a shelf of 200 books it was never built for. vaultisse scans an ISBN, pulls metadata from Google Books with Open Library and LibraryThing as backups."
+      ]
+    },
+    {
+      "id": "s030",
+      "paragraphs": [
+        "altero self-hosts your actual Zotero library, not just the file attachments web gives you. Zotero's own self-hosting option only covers file storage. Your metadata, notes, and group libraries still live on Zotero.org. altero runs a full sync server that talks to the unmodified Zotero desktop client. No patches, and it syncs everything: libraries, groups, notes, annotations."
+      ]
+    },
+    {
+      "id": "s031",
+      "paragraphs": [
+        "Dynacat is the home lab dashboard where one dead widget doesn't take the whole page down with it. Most of these dashboards, one service goes offline and half the page just breaks. Dynacat's widgets fail independently, so your CPU graph still works even if Jellyfin's down. It auto-discovers your Docker containers and groups them by Compose project. No manual config needed."
+      ]
+    },
+    {
+      "id": "s032",
+      "paragraphs": [
+        "Nethera skips the part where you port forward, set up DDNS, and configure a reverse proxy just to share one self-hosted app. You already wrote a Docker Compose file, so it just extends that file instead of inventing a new deployment format. Install the CLI on your laptop, the agent on the machine running the containers. Run ne deploy and you get a real public HTTPS URL. No router touched."
+      ]
+    },
+    {
+      "id": "s033",
+      "paragraphs": [
+        "Tinta doesn't sleep between updates. It actually shuts off completely. Every other e-paper dashboard claims great battery life and you're still charging it every couple weeks because deep sleep still draws power. Tinta wakes on a real-time clock, grabs data over Wi-Fi, updates the display, and powers down entirely. Zero standby drain. The maintainer's own office unit ran 393 days and over 5,000 wake cycles on three AAA batteries."
+      ]
+    },
+    {
+      "id": "s034",
+      "paragraphs": [
+        "Hatchdoor gives your notes vault two front doors that both lead to the same room. You want Claude to read and edit your notes, so you point it at a folder of Markdown files and hope for the best. No search, no safety rails. Hatchdoor runs one vault with a real web UI, wikilinks, backlinks, a knowledge graph, and an MCP endpoint where an agent gets the exact same read, search, and edit access under the same rules."
+      ]
+    },
+    {
+      "id": "s035",
+      "paragraphs": [
+        "logdeck fixes the thing that's mildly infuriating about Docker logs. The second you rebuild the container, that history's gone. This one persists every log into SQLite, so it survives restarts and rebuilds with real full-text search and level filters instead of scrolling a terminal. It manages Docker and Podman too. Start, stop, restart, edit env vars without recreating anything. Even SSH into remote hosts from one interface."
+      ]
+    },
+    {
+      "id": "s036",
+      "paragraphs": [
+        "Deft is Slack and Asana in one app, except the AI agent can actually query the database instead of just searching your messages. Most Workspace AI features bolt a chatbot onto search and call it context. Deft's agent has direct SQL access to your conversations and tasks, so it can summarize a thread or create a task from plain language with an approval gate before anything real happens."
+      ]
+    }
+  ]
+}
